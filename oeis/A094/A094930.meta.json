@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,m) read by rows, defined by squaring a matrix with row entries 2+3*(m-1).",
+  "id": "A094930",
+  "mentions": [
+    "A002411",
+    "A011379",
+    "A016789",
+    "A024212",
+    "A095794",
+    "A096037",
+    "A096038"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

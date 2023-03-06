@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that [A070080(m), A070081(m), A070082(m)] is a right integer triangle.",
+  "id": "A070136",
+  "mentions": [
+    "A024155",
+    "A070080",
+    "A070081",
+    "A070082",
+    "A070085",
+    "A070137",
+    "A070142"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

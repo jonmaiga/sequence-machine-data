@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of L(x)^(1/4), where L(x) = o.g.f. for A053175.",
+  "id": "A089602",
+  "mentions": [
+    "A001620",
+    "A053175",
+    "A090004"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

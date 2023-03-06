@@ -1,0 +1,35 @@
+{
+  "description": "Primary pseudoperfect numbers: numbers n > 1 such that 1/n + sum 1/p = 1, where the sum is over the primes p | n.",
+  "id": "A054377",
+  "mentions": [
+    "A005835",
+    "A007850",
+    "A031971",
+    "A069359",
+    "A168036",
+    "A190272",
+    "A191975",
+    "A203618",
+    "A216825",
+    "A216826",
+    "A230311",
+    "A233045",
+    "A235137",
+    "A235138",
+    "A235139",
+    "A236433"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

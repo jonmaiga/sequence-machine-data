@@ -1,0 +1,22 @@
+{
+  "description": "Fib00 primes, i.e., primes p whose Zeckendorf-expansion A014417(p) ends with two zeros.",
+  "id": "A095082",
+  "mentions": [
+    "A000040",
+    "A014417",
+    "A026274",
+    "A095062",
+    "A095085",
+    "A095088"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

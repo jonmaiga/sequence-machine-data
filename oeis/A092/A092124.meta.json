@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 2, a(n) = (2^(2^n)+2)*a(n-1) for n>0.",
+  "id": "A092124",
+  "mentions": [
+    "A001146",
+    "A001477",
+    "A058891"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

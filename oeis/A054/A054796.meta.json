@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of form 17+n^2+n or 17+2*n^2.",
+  "id": "A054796",
+  "mentions": [
+    "A052293"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:21:57",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of Taylor series for log(tan(x)+1/cos(x)).",
+  "id": "A091912",
+  "mentions": [
+    "A000364",
+    "A028296"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

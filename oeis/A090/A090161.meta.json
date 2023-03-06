@@ -1,0 +1,23 @@
+{
+  "description": "A023219 indexed by A000040.",
+  "id": "A090161",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A023219",
+    "A088555",
+    "A088561"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

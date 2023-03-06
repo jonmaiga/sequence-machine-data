@@ -1,0 +1,24 @@
+{
+  "description": "Remainder when 3rd order composite ccc[n]=A050436[n] is divided by first order composite c[n]=A002808[n].",
+  "id": "A076238",
+  "mentions": [
+    "A002808",
+    "A050435",
+    "A050436",
+    "A050439",
+    "A065860",
+    "A076236",
+    "A076239"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

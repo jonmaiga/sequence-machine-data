@@ -1,0 +1,30 @@
+{
+  "description": "Smallest m in range 1..phi(2n+1) such that 12^m == 1 mod 2n+1, or 0 if no such number exists.",
+  "id": "A070683",
+  "mentions": [
+    "A002326",
+    "A019340",
+    "A053447",
+    "A053451",
+    "A070667",
+    "A070675",
+    "A070676",
+    "A070677",
+    "A070678",
+    "A070679",
+    "A070680",
+    "A070681",
+    "A070682"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

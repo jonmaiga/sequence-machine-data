@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form p*q*r where p,q,r are distinct odd palindromic primes (odd terms from A002385).",
+  "id": "A046405",
+  "mentions": [
+    "A002385",
+    "A046316",
+    "A046373"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

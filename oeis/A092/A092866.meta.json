@@ -1,0 +1,22 @@
+{
+  "description": "Number of intersections inside an equilateral triangular figure formed by the straight line segments mutually connecting all vertices and all points that divide the sides into n equal parts. If three or more lines meet at an interior point this intersection is counted only once.",
+  "id": "A092866",
+  "mentions": [
+    "A006561",
+    "A091908",
+    "A092867",
+    "A274585",
+    "A274586"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

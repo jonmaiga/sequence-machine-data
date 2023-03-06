@@ -1,0 +1,21 @@
+{
+  "description": "Suburban numbers: without b, r, s or u.",
+  "id": "A072955",
+  "mentions": [
+    "A072956",
+    "A072957",
+    "A089590"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

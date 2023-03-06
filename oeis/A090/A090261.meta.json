@@ -1,0 +1,18 @@
+{
+  "description": "Beginning with a(1) = 1, choose a(n+1) so that concatenation a(n+1), a(n), a(n+1) is a new prime.",
+  "id": "A090261",
+  "mentions": [
+    "A090260"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

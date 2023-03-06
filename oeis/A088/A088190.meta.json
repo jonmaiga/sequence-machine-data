@@ -1,0 +1,28 @@
+{
+  "description": "Largest quadratic residue modulo prime(n).",
+  "id": "A088190",
+  "mentions": [
+    "A088191",
+    "A088192",
+    "A088193",
+    "A088194",
+    "A088195",
+    "A088196",
+    "A088197",
+    "A088198",
+    "A088199",
+    "A088200",
+    "A088201"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

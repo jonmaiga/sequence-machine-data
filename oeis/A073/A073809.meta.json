@@ -1,0 +1,21 @@
+{
+  "description": "Number of common divisors of sigma_1(n) and sigma_3(n).",
+  "id": "A073809",
+  "mentions": [
+    "A000203",
+    "A001158",
+    "A073802",
+    "A073808"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Liouville clusters: the number of successive occurrences of signs in Liouville function lambda(k); a(2n-1) is number of successive positive signs, while a(2n) is number of successive negative signs.",
+  "id": "A069545",
+  "mentions": [
+    "A001222",
+    "A002819",
+    "A008836",
+    "A026424",
+    "A028260"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

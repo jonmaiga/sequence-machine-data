@@ -1,0 +1,21 @@
+{
+  "description": "Consider m such that prime(m) + prime(m+1) = prime(k) + 1 for some k; sequence gives values of prime(m).",
+  "id": "A072667",
+  "mentions": [
+    "A000040",
+    "A072666",
+    "A072669",
+    "A177017"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

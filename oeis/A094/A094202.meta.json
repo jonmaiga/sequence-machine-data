@@ -1,0 +1,23 @@
+{
+  "description": "Integers k whose Zeckendorf representation A014417(k) is palindromic.",
+  "id": "A094202",
+  "mentions": [
+    "A006995",
+    "A014417",
+    "A035517",
+    "A048757",
+    "A095730",
+    "A095734"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

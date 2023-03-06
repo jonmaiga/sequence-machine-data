@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n! + prime(n) is prime.",
+  "id": "A064278",
+  "mentions": [
+    "A063499"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

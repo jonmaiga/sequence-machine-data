@@ -1,0 +1,28 @@
+{
+  "description": "Least nontrivial multiple of the n-th prime beginning with 1.",
+  "id": "A078285",
+  "mentions": [
+    "A078286",
+    "A078287",
+    "A078288",
+    "A078289",
+    "A078290",
+    "A078291",
+    "A078292",
+    "A078293"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which can be expressed as sum of distinct triangular numbers (A000217).",
+  "id": "A061208",
+  "mentions": [
+    "A000217",
+    "A007294",
+    "A051533",
+    "A051611",
+    "A053614"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

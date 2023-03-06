@@ -1,0 +1,20 @@
+{
+  "description": "Sum of all digits in all even numbers from 0 to 444...4 (with n 4's).",
+  "id": "A089314",
+  "mentions": [
+    "A089304"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = binomial(2n+1,n-3).",
+  "id": "A030053",
+  "mentions": [
+    "A001622",
+    "A100257",
+    "A113187"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

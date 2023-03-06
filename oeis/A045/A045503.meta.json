@@ -1,0 +1,18 @@
+{
+  "description": "If decimal expansion of n is ab...d, a(n) = a^a + b^b +...+ d^d.",
+  "id": "A045503",
+  "mentions": [
+    "A045512"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:23:41",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

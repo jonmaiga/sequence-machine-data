@@ -1,0 +1,15 @@
+{
+  "description": "Revert transform of 2*(1 + x + x^2 + x^3 + x^4 + x^6)-1/(1-x).",
+  "id": "A049178",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:09:06",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

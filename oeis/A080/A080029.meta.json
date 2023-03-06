@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is taken to be the smallest positive integer not already present which is consistent with the condition \"n is a member of the sequence if and only if a(n) is a multiple of 3\".",
+  "id": "A080029",
+  "mentions": [
+    "A079000",
+    "A079313",
+    "A080030",
+    "A080031"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form smallest multiple of n followed by a 1.",
+  "id": "A089348",
+  "mentions": [
+    "A089533",
+    "A089534"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

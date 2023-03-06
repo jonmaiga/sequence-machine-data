@@ -1,0 +1,23 @@
+{
+  "description": "Orbit size of each tree encoded by A014486(n) under Meeussen's bf<->df map on binary trees.",
+  "id": "A080311",
+  "mentions": [
+    "A014486",
+    "A057117",
+    "A057118",
+    "A080273",
+    "A080274",
+    "A080297",
+    "A080967"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

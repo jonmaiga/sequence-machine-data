@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n^12 + n^6)/2.",
+  "id": "A071235",
+  "mentions": [
+    "A001014",
+    "A008277",
+    "A008456",
+    "A145882",
+    "A277504"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:13",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

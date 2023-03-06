@@ -1,0 +1,23 @@
+{
+  "description": "Take bounded lunar divisors of n as defined in A087028, add them using lunar addition. See A087082 for their conventional sum.",
+  "id": "A087121",
+  "mentions": [
+    "A087028",
+    "A087052",
+    "A087061",
+    "A087062",
+    "A087082",
+    "A087083"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "n sets a new record for the number of integers k such that n = k + reverse(k).",
+  "id": "A067035",
+  "mentions": [
+    "A067030",
+    "A067031",
+    "A067032",
+    "A067033",
+    "A067034",
+    "A067036"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

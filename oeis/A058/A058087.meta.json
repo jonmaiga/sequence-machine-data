@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows, giving coefficients of the ménage hit polynomials ordered by descending powers. T(n, k) for 0 <= k <= n.",
+  "id": "A058087",
+  "mentions": [
+    "A000033",
+    "A000159",
+    "A000166",
+    "A000179",
+    "A000181",
+    "A000185",
+    "A000425",
+    "A058089",
+    "A058090",
+    "A094314"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

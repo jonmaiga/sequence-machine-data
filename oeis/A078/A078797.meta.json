@@ -1,0 +1,21 @@
+{
+  "description": "Sum of square displacements over all self-avoiding n-step walks on a square lattice with the first step specified. Numerator of mean square displacement s(n)=a(n)/A046661(n).",
+  "id": "A078797",
+  "mentions": [
+    "A001411",
+    "A046661",
+    "A176177"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

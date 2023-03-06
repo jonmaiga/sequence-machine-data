@@ -1,0 +1,20 @@
+{
+  "description": "Distinct odd numbers in the triangle of denominators in Leibniz's Harmonic Triangle.",
+  "id": "A046201",
+  "mentions": [
+    "A003506",
+    "A046202"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:25:05",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes that are a concatenation of a prime and its first digit.",
+  "id": "A085414",
+  "mentions": [
+    "A012833",
+    "A024770",
+    "A033664",
+    "A069867",
+    "A085412",
+    "A085413"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Concatenate first n terms of A011545.",
+  "id": "A045645",
+  "mentions": [
+    "A011545"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:29:31",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

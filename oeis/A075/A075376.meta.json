@@ -1,0 +1,17 @@
+{
+  "description": "Terms of A075375 for which a(k) = k, i.e., with dislocation 0.",
+  "id": "A075376",
+  "mentions": [
+    "A075375"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

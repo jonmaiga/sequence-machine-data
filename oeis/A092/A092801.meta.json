@@ -1,0 +1,19 @@
+{
+  "description": "Standard deviation (rounded) of composites below 10^n.",
+  "id": "A092801",
+  "mentions": [
+    "A091716",
+    "A092802"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

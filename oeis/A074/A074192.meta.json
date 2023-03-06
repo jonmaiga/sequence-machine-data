@@ -1,0 +1,18 @@
+{
+  "description": "Number of numbers 0 <= m < 10^n which are not the sum of one or more consecutive primes.",
+  "id": "A074192",
+  "mentions": [
+    "A050940"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

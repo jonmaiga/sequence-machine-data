@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows giving the 246 multinomials described by A005651(5) related to Young tableau and Kostka numbers.",
+  "id": "A097522",
+  "mentions": [
+    "A000085",
+    "A000142",
+    "A003869",
+    "A005651",
+    "A007837",
+    "A036038",
+    "A060240"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

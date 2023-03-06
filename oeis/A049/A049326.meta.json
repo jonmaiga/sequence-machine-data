@@ -1,0 +1,24 @@
+{
+  "description": "A convolution triangle of numbers generalizing Pascal's triangle A007318.",
+  "id": "A049326",
+  "mentions": [
+    "A007318",
+    "A023531",
+    "A030528",
+    "A033842",
+    "A049350"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:36:47",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

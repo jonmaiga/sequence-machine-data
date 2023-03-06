@@ -1,0 +1,25 @@
+{
+  "description": "Length of longest contiguous block of 0's in binary expansion of n-th prime.",
+  "id": "A090046",
+  "mentions": [
+    "A000040",
+    "A004676",
+    "A023416",
+    "A087117",
+    "A090000",
+    "A090047",
+    "A090048",
+    "A090049"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:07:27",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

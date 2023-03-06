@@ -1,0 +1,21 @@
+{
+  "description": "XOR BINOMIAL transform of A006068 (inverse Gray code).",
+  "id": "A099893",
+  "mentions": [
+    "A006068",
+    "A099884",
+    "A099894"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

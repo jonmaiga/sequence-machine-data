@@ -1,0 +1,20 @@
+{
+  "description": "n-th Lucas number (A000204(n)) + n-th non-Lucas number (A090946(n+1)).",
+  "id": "A022801",
+  "mentions": [
+    "A000204",
+    "A090946"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:25:26",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

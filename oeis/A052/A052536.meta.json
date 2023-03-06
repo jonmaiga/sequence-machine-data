@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions of n when parts 1 and 2 are of two kinds.",
+  "id": "A052536",
+  "mentions": [
+    "A076264",
+    "A105478",
+    "A123891"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

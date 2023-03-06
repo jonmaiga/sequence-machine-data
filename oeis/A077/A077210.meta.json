@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2, a(n+1) is the smallest squarefree number greater than n*a(n).",
+  "id": "A077210",
+  "mentions": [
+    "A038159"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

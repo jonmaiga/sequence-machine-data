@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that (k+3, k+5, k+17, k+257, k+65537) are all primes.",
+  "id": "A063799",
+  "mentions": [
+    "A019434"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

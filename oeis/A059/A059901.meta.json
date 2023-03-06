@@ -1,0 +1,23 @@
+{
+  "description": "Partitions encoded by prime factorization. The partition [P1+P2+P3+...] with P1>=P2>=P3>=... is encoded as 2^P1 * 3^P2 * 5^P3 *...",
+  "id": "A059901",
+  "mentions": [
+    "A000041",
+    "A025487",
+    "A036035",
+    "A059900",
+    "A059902"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

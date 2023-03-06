@@ -1,0 +1,20 @@
+{
+  "description": "Signature sequence of x, where x=0.577284608955710564894... (A084823) is the unique number between 0 and 1 having the property that the signature sequence of x is equal to the continued fraction expansion of x.",
+  "id": "A084822",
+  "mentions": [
+    "A020760",
+    "A023116",
+    "A084823"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

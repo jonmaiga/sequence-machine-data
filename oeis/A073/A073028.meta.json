@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = max{ C(n,0), C(n-1,1), C(n-2,2), ..., C(n-n,n) }.",
+  "id": "A073028",
+  "mentions": [
+    "A001622",
+    "A060065",
+    "A168561",
+    "A277282"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

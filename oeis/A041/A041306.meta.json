@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(166).",
+  "id": "A041306",
+  "mentions": [
+    "A041307"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:32:54",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

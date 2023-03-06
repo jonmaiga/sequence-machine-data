@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 3*A083055(n)-n.",
+  "id": "A083056",
+  "mentions": [
+    "A083038",
+    "A083054",
+    "A083055",
+    "A083057"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

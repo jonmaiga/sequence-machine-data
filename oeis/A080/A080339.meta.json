@@ -1,0 +1,22 @@
+{
+  "description": "Characteristic function of {1} union {primes}: 1 if n is 1 or a prime, else 0.",
+  "id": "A080339",
+  "mentions": [
+    "A008578",
+    "A010051",
+    "A036234",
+    "A080355"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

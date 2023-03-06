@@ -1,0 +1,19 @@
+{
+  "description": "Engel expansion of Gamma(1/4)=3.62560990822190831193...",
+  "id": "A068479",
+  "mentions": [
+    "A006784"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:28",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

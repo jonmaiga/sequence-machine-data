@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = binomial coefficient C(n,24).",
+  "id": "A010977",
+  "mentions": [
+    "A001787",
+    "A007318",
+    "A010970",
+    "A010971",
+    "A010972",
+    "A242091"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:07:15",
+    "offset": 24,
+    "size": 24,
+    "source": "joeis"
+  }
+}

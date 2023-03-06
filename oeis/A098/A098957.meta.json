@@ -1,0 +1,20 @@
+{
+  "description": "Decimal value of the reverse binary expansion of the prime numbers.",
+  "id": "A098957",
+  "mentions": [
+    "A000040",
+    "A030101"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

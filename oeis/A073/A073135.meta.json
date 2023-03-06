@@ -1,0 +1,27 @@
+{
+  "description": "Table by antidiagonals of T(n,k)=2n*T(n,k-1)-n^2*T(n,k-2)+T(n,k-4) starting with T(n,1)=1.",
+  "id": "A073135",
+  "mentions": [
+    "A000012",
+    "A005843",
+    "A024490",
+    "A033428",
+    "A033430",
+    "A048776",
+    "A053122",
+    "A073133",
+    "A073134"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

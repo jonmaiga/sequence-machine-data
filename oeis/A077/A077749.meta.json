@@ -1,0 +1,19 @@
+{
+  "description": "a(n) contains 2^n digits such that the concatenation a(0)a(1)a(2)...forms a substring of the cyclic concatenation 012345678901234567890123...",
+  "id": "A077749",
+  "mentions": [
+    "A077750"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

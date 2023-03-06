@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that Fibonacci(m) is a semiprime.",
+  "id": "A072381",
+  "mentions": [
+    "A053409",
+    "A080327",
+    "A085726",
+    "A114842",
+    "A303215"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

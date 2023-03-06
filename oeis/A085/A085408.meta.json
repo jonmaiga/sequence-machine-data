@@ -1,0 +1,21 @@
+{
+  "description": "Total number of cycles in the binary n-cube.",
+  "id": "A085408",
+  "mentions": [
+    "A001788",
+    "A066037",
+    "A085452"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Safe primes (A005385) (p and (p-1)/2 are primes) such that 12*p+1 is also prime.",
+  "id": "A075707",
+  "mentions": [
+    "A005384",
+    "A005385",
+    "A059455"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

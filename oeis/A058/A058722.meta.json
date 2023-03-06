@@ -1,0 +1,18 @@
+{
+  "description": "Number of simple matroids of rank 4 on n labeled points.",
+  "id": "A058722",
+  "mentions": [
+    "A058720"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 4,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

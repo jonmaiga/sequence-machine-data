@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that gcd(k, A000120(k)) = 1.",
+  "id": "A094387",
+  "mentions": [
+    "A000120",
+    "A059956"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

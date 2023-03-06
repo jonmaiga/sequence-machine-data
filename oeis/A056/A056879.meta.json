@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-celled axially symmetric polyominoes without holes.",
+  "id": "A056879",
+  "mentions": [
+    "A000104",
+    "A000105",
+    "A006746"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

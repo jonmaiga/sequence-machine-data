@@ -1,0 +1,19 @@
+{
+  "description": "First differences of Kolakoski sequence A000002.",
+  "id": "A054354",
+  "mentions": [
+    "A000002",
+    "A054353"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

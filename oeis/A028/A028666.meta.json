@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = order of the orthogonal group O_n(2) if n is odd or O^(+)_n(2) if n is even.",
+  "id": "A028666",
+  "mentions": [
+    "A144546",
+    "A144547"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

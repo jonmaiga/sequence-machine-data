@@ -1,0 +1,29 @@
+{
+  "description": "Number of distinct binary numbers contained as substrings in the binary representation of n.",
+  "id": "A078822",
+  "mentions": [
+    "A007088",
+    "A070939",
+    "A078823",
+    "A078824",
+    "A078826",
+    "A119709",
+    "A141297",
+    "A144623",
+    "A144624"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

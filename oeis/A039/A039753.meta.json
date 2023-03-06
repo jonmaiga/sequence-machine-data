@@ -1,0 +1,20 @@
+{
+  "description": "Numbers common to A006145 and A039752.",
+  "id": "A039753",
+  "mentions": [
+    "A005117",
+    "A006145",
+    "A039752",
+    "A178214"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

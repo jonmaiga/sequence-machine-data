@@ -1,0 +1,18 @@
+{
+  "description": "Numerators of 1-2*HarmonicNumber(n)/(n+1).",
+  "id": "A093762",
+  "mentions": [
+    "A002548"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

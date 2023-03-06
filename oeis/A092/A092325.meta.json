@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = min{ m : sum_{n <= i <= m} 1/p_i > 1}, where p_i is the i-th prime = A000040(i).",
+  "id": "A092325",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A119494"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

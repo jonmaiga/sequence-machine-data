@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k of the form p^q where both p and q are prime and all digits of k are odd.",
+  "id": "A076704",
+  "mentions": [
+    "A014261",
+    "A053810",
+    "A075308"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Composite k such that d(k) < d(sigma(k)), i.e., A000005(k) < A000005(A000203(k)).",
+  "id": "A082092",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A037197",
+    "A069116",
+    "A073803",
+    "A073804"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

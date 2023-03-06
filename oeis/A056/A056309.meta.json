@@ -1,0 +1,24 @@
+{
+  "description": "Number of reversible strings with n beads using exactly two different colors.",
+  "id": "A056309",
+  "mentions": [
+    "A000079",
+    "A000918",
+    "A005418",
+    "A056391",
+    "A056453",
+    "A122746"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

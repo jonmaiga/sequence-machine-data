@@ -1,0 +1,25 @@
+{
+  "description": "A Pellian-related recursive sequence.",
+  "id": "A054493",
+  "mentions": [
+    "A001110",
+    "A003501",
+    "A004254",
+    "A030221",
+    "A089817",
+    "A092184",
+    "A100047"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

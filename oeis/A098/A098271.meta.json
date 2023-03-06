@@ -1,0 +1,18 @@
+{
+  "description": "Nonprime numbers n such that phi(n) divides n^2 - 1, where phi(n) (A000010) is Euler's totient function.",
+  "id": "A098271",
+  "mentions": [
+    "A000010",
+    "A097605"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

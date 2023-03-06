@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of 1/sqrt(5).",
+  "id": "A020762",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001566",
+    "A010476",
+    "A058635",
+    "A105199"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:10:29",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that phi(k) is a perfect cube.",
+  "id": "A039771",
+  "mentions": [
+    "A000010",
+    "A007614",
+    "A013730",
+    "A039770",
+    "A216412"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

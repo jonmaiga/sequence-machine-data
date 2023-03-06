@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that prime(k) == 3 (mod 16).",
+  "id": "A093012",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A091968",
+    "A092022"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

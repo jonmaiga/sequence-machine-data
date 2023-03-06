@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that set a new record for the number of iterations needed to reach 0 under f(x) = reverse(x) - maxdigit(x).",
+  "id": "A097158",
+  "mentions": [
+    "A097153",
+    "A097154",
+    "A097155",
+    "A097156",
+    "A097157"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

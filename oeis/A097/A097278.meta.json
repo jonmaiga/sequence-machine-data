@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) = number of permutations of that end with k, such that p(k) > p(k-1) when k is composite and p(k) < p(k-1) when k is prime. (n > 0, 1 <= k <= n).",
+  "id": "A097278",
+  "mentions": [
+    "A097277"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

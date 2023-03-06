@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of primes associated with A083773.",
+  "id": "A083775",
+  "mentions": [
+    "A083773",
+    "A083774"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

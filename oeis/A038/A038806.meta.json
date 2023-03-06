@@ -1,0 +1,23 @@
+{
+  "description": "Convolution of A008549 with A000302 (powers of 4).",
+  "id": "A038806",
+  "mentions": [
+    "A000108",
+    "A000302",
+    "A000346",
+    "A002697",
+    "A008549"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

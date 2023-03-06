@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k^2+k+9 is a palindrome.",
+  "id": "A027726",
+  "mentions": [
+    "A027694",
+    "A027724",
+    "A027727",
+    "A027757",
+    "A027758"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

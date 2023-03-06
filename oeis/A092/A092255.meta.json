@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1; for n > 0, a(n) = b(n) - n*b(n-1), b() = A076177().",
+  "id": "A092255",
+  "mentions": [
+    "A010060",
+    "A076177",
+    "A226873"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

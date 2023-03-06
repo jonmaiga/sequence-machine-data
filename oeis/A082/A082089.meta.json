@@ -1,0 +1,26 @@
+{
+  "description": "a(n)-th prime is the fixed point if function A008472[=sum of prime factors with no repetition] is iterated when started at factorial of n-th prime.",
+  "id": "A082089",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A000720",
+    "A007504",
+    "A008472",
+    "A034387",
+    "A075860",
+    "A082087",
+    "A082088"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

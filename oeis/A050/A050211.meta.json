@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of number of permutations of {1, 2, ..., n} having exactly k cycles, each of which is of length >=r for r=3.",
+  "id": "A050211",
+  "mentions": [
+    "A008275",
+    "A008306",
+    "A050212",
+    "A050213"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 3,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

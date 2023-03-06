@@ -1,0 +1,19 @@
+{
+  "description": "Number of steps for convergence (to 1 or 3) for the process in A081878.",
+  "id": "A081879",
+  "mentions": [
+    "A006577",
+    "A081878"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

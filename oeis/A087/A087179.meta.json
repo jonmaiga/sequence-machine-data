@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = ((...(x1^x2)^x3)^x4)^...) where x1,x2,... are the exponents in the prime factorization of n, a(1) = 0.",
+  "id": "A087179",
+  "mentions": [
+    "A001221",
+    "A051119",
+    "A067029",
+    "A071178",
+    "A290109"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

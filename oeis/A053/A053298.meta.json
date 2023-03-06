@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of A027964.",
+  "id": "A053298",
+  "mentions": [
+    "A000045",
+    "A000204",
+    "A027960",
+    "A027964",
+    "A137176"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 5^n*cos(2*n*arctan(1/2)) or denominator of tan(2*n*arctan(1/2)).",
+  "id": "A066771",
+  "mentions": [
+    "A000351",
+    "A066770",
+    "A093378",
+    "A121622",
+    "A193410"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

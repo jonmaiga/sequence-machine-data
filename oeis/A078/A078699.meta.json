@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p^2-1 is a triangular number.",
+  "id": "A078699",
+  "mentions": [
+    "A000217",
+    "A006452"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

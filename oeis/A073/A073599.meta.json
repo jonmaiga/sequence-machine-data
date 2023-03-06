@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the denominator of Sum_{j=1..k} 1/phi(j) divides the denominator of H(k) = Sum_{j=1..k} 1/j, the k-th harmonic number.",
+  "id": "A073599",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

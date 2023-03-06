@@ -1,0 +1,27 @@
+{
+  "description": "Largest square <= n^3.",
+  "id": "A065733",
+  "mentions": [
+    "A000093",
+    "A048760",
+    "A065730",
+    "A065741",
+    "A077115",
+    "A077116",
+    "A077118",
+    "A077121",
+    "A087285"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

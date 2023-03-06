@@ -1,0 +1,33 @@
+{
+  "description": "The periodic part of the decimal expansion of 1/n. Any initial 0's are to be placed at end of cycle.",
+  "id": "A036275",
+  "mentions": [
+    "A002371",
+    "A003592",
+    "A006883",
+    "A007498",
+    "A007615",
+    "A007732",
+    "A040017",
+    "A048595",
+    "A051626",
+    "A051627",
+    "A051628",
+    "A060251",
+    "A060282",
+    "A060283"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

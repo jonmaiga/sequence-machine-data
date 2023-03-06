@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 9*a(n-1) + a(n-2), starting with a(0) = 2 and a(1) = 9.",
+  "id": "A087798",
+  "mentions": [
+    "A014511",
+    "A041150",
+    "A054413",
+    "A086902",
+    "A097840",
+    "A099371",
+    "A099373"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

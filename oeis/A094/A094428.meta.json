@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of infinite product (q^12,q^12,q^6;q^5,q^7;q^12)_infty.",
+  "id": "A094428",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:46:53",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

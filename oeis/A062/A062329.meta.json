@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = (sum of digits of n) - (product of digits of n).",
+  "id": "A062329",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A034710",
+    "A062996",
+    "A062997",
+    "A062998",
+    "A062999",
+    "A063543",
+    "A070565"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:19:01",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

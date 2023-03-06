@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{i=1..floor((n+1)/4)} a(2*i-1) * a(n-2*i+1), with a(1)=a(2)=1 and a(3)=2.",
+  "id": "A024723",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:19:22",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

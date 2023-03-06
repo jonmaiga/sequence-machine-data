@@ -1,0 +1,20 @@
+{
+  "description": "Binary and decimal representation of n concatenated.",
+  "id": "A087744",
+  "mentions": [
+    "A000027",
+    "A007088"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

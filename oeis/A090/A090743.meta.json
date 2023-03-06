@@ -1,0 +1,21 @@
+{
+  "description": "Consider numbers of the form ...31975319753197531, whose digits read from the right are 1,3,5,7,9,1,3,5,7,9,1,... Sequence gives lengths of these numbers which are primes.",
+  "id": "A090743",
+  "mentions": [
+    "A090744",
+    "A090745",
+    "A090746"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form k! + 1.",
+  "id": "A088332",
+  "mentions": [
+    "A002981",
+    "A038507",
+    "A062701"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Nearest integer to Gamma(n + 7/9)/Gamma(7/9).",
+  "id": "A020020",
+  "mentions": [
+    "A020065",
+    "A020110"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

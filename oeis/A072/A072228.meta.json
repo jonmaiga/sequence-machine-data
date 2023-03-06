@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k equals the sum of the reverses of the proper divisors of k.",
+  "id": "A072228",
+  "mentions": [
+    "A069942",
+    "A101701"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

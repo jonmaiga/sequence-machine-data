@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = smallest m > a(n-1) such that concatenation nm is a prime.",
+  "id": "A089749",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

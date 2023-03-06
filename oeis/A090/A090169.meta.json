@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor( 3*n/2 ) + floor( 2*n/3 ).",
+  "id": "A090169",
+  "mentions": [
+    "A090168"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:03",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

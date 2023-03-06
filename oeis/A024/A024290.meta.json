@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of tan(tan(x)^2)/2.",
+  "id": "A024290",
+  "mentions": [
+    "A009710"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:03:35",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

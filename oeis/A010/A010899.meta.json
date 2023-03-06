@@ -1,0 +1,19 @@
+{
+  "description": "Minimal scope of a (6,n) difference triangle.",
+  "id": "A010899",
+  "mentions": [
+    "A234943"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of matchings in graph C_{4} X C_{4} X P_{n}.",
+  "id": "A033532",
+  "mentions": [
+    "A045310"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

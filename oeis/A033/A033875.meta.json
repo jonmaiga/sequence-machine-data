@@ -1,0 +1,20 @@
+{
+  "description": "Skipping from prime to prime by least powers of 2.",
+  "id": "A033875",
+  "mentions": [
+    "A059661",
+    "A067760",
+    "A139803"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

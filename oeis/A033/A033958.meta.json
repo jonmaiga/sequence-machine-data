@@ -1,0 +1,25 @@
+{
+  "description": "In the '3x+1' problem, these values for the starting value set new records for number of steps to reach 1.",
+  "id": "A033958",
+  "mentions": [
+    "A006667",
+    "A006877",
+    "A006878",
+    "A006884",
+    "A006885",
+    "A033492",
+    "A033959"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=sigma_11(2n-1).",
+  "id": "A081867",
+  "mentions": [
+    "A013959"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

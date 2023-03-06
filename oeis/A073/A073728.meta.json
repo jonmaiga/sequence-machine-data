@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} S(k), where S(n) are the tribonacci generalized numbers A001644.",
+  "id": "A073728",
+  "mentions": [
+    "A000073",
+    "A001644"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

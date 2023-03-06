@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is smallest nonnegative integer which is consistent with sequence being monotonically increasing and satisfying a(a(n)) = 5n.",
+  "id": "A080589",
+  "mentions": [
+    "A079351"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

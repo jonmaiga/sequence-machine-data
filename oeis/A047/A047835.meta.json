@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{i=1..n} ((i+4)*(i+5)*(i+6)*(i+7))/(i*(i+1)*(i+2)*(i+3)).",
+  "id": "A047835",
+  "mentions": [
+    "A002415",
+    "A047819",
+    "A103905",
+    "A133708"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:04:55",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

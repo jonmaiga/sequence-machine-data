@@ -1,0 +1,28 @@
+{
+  "description": "Array A(n, k) = (k*n)^2 + 4*(k*n) + 1, read by antidiagonals.",
+  "id": "A082105",
+  "mentions": [
+    "A000012",
+    "A016897",
+    "A028872",
+    "A047673",
+    "A082043",
+    "A082046",
+    "A082106",
+    "A082107",
+    "A082109"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

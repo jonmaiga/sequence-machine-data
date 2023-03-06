@@ -1,0 +1,25 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(80).",
+  "id": "A041143",
+  "mentions": [
+    "A001076",
+    "A002530",
+    "A010532",
+    "A020837",
+    "A040071",
+    "A041142"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:51",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Squares that remain square when the digit 1 is appended.",
+  "id": "A023111",
+  "mentions": [
+    "A023110",
+    "A055437"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, in which the n-th row contains n smallest numbers not occurring earlier such that the concatenation of terms of a row yields a prime.",
+  "id": "A082750",
+  "mentions": [
+    "A082751"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "LCM of row n of triangle in A081536.",
+  "id": "A081537",
+  "mentions": [
+    "A003418",
+    "A081535",
+    "A081536",
+    "A081538"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

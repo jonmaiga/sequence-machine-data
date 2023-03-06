@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest n-digit prime beginning with prime(n)- smallest n-digit number beginning with prime(n).",
+  "id": "A088105",
+  "mentions": [
+    "A077504",
+    "A077505",
+    "A088104",
+    "A088754",
+    "A088755"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

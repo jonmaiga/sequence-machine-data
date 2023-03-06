@@ -1,0 +1,21 @@
+{
+  "description": "A triangle of Motzkin ballot numbers, read by rows.",
+  "id": "A034929",
+  "mentions": [
+    "A001006",
+    "A005554",
+    "A091836"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:10",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

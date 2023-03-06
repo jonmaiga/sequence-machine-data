@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that, for all m < k, d_i(k) <= d_i(m) for i=1 to Min(d(k),d(m)), where d_i(k) denotes the i-th smallest divisor of k.",
+  "id": "A094783",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A018412",
+    "A018444",
+    "A018609",
+    "A019505",
+    "A095849",
+    "A123258"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

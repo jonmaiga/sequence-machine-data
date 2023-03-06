@@ -1,0 +1,24 @@
+{
+  "description": "Stirling-like number triangle defined by the sequence A000292=C(n+3,3).",
+  "id": "A080249",
+  "mentions": [
+    "A000292",
+    "A002450",
+    "A008277",
+    "A016225",
+    "A080248"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

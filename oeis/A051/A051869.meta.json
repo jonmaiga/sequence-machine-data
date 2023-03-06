@@ -1,0 +1,20 @@
+{
+  "description": "17-gonal (or heptadecagonal) numbers: a(n) = n*(15*n-13)/2.",
+  "id": "A051869",
+  "mentions": [
+    "A002378",
+    "A226489"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:19",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

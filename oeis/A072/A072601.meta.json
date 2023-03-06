@@ -1,0 +1,28 @@
+{
+  "description": "Numbers which in base 2 have at least as many 1's as 0's.",
+  "id": "A072601",
+  "mentions": [
+    "A000120",
+    "A007088",
+    "A023416",
+    "A031443",
+    "A037861",
+    "A044951",
+    "A061854",
+    "A072600",
+    "A072602",
+    "A072603"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

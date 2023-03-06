@@ -1,0 +1,38 @@
+{
+  "description": "Signature-permutation of a Catalan Automorphism: (inverse of) \"Donaghey's map M\", acting on the parenthesizations encoded by A014486.",
+  "id": "A057506",
+  "mentions": [
+    "A014486",
+    "A057161",
+    "A057162",
+    "A057163",
+    "A057164",
+    "A057501",
+    "A057502",
+    "A057503",
+    "A057504",
+    "A057505",
+    "A057507",
+    "A071662",
+    "A071664",
+    "A071666",
+    "A071668",
+    "A071670",
+    "A080069",
+    "A080070",
+    "A080300",
+    "A122287"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

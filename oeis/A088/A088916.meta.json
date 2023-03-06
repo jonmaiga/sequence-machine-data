@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows, 2<=k<=n: T(n,k) = smallest number that in base k representation is not contained in n^n.",
+  "id": "A088916",
+  "mentions": [
+    "A000312",
+    "A088876"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

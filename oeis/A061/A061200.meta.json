@@ -1,0 +1,32 @@
+{
+  "description": "tau_5(n) = number of ordered 5-factorizations of n.",
+  "id": "A061200",
+  "mentions": [
+    "A000005",
+    "A001055",
+    "A006218",
+    "A007425",
+    "A007426",
+    "A034695",
+    "A034836",
+    "A038548",
+    "A061201",
+    "A061202",
+    "A061203",
+    "A061204",
+    "A077592"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

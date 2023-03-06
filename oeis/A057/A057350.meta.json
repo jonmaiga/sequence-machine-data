@@ -1,0 +1,19 @@
+{
+  "description": "Days in months in the Hebrew calendar starting from Nisan 5760 (Spring 2000 CE).",
+  "id": "A057350",
+  "mentions": [
+    "A057349",
+    "A350458"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

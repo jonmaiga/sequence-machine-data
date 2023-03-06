@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that some Lucas number (A000204) is divisible by n.",
+  "id": "A065156",
+  "mentions": [
+    "A000204",
+    "A001177",
+    "A053032",
+    "A064362",
+    "A140409"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

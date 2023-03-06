@@ -1,0 +1,22 @@
+{
+  "description": "Number of divisors of the minimal numbers (A007416).",
+  "id": "A053212",
+  "mentions": [
+    "A000005",
+    "A005179",
+    "A007416",
+    "A064787"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

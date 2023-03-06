@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (4*n+3)*(4*n+7).",
+  "id": "A085027",
+  "mentions": [
+    "A000466",
+    "A002378",
+    "A003185",
+    "A061037",
+    "A078371"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

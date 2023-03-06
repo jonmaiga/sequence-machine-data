@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number greater than n having the same greatest prime factor as n; a(1)=1.",
+  "id": "A087789",
+  "mentions": [
+    "A006530",
+    "A071830"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

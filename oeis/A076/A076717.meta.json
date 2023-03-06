@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = -Sum_{d|n} (-n/d)^d.",
+  "id": "A076717",
+  "mentions": [
+    "A055225",
+    "A308367",
+    "A321438"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

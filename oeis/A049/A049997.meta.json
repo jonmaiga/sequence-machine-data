@@ -1,0 +1,26 @@
+{
+  "description": "Numbers of the form Fibonacci(i)*Fibonacci(j).",
+  "id": "A049997",
+  "mentions": [
+    "A005478",
+    "A049998",
+    "A059389",
+    "A065108",
+    "A080097",
+    "A090206",
+    "A094563",
+    "A226857",
+    "A228523"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

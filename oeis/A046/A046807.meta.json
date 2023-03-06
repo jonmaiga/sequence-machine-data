@@ -1,0 +1,18 @@
+{
+  "description": "Palindromes in factorial base.",
+  "id": "A046807",
+  "mentions": [
+    "A108731"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

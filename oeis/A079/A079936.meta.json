@@ -1,0 +1,22 @@
+{
+  "description": "Greedy frac multiples of sqrt(5): a(1)=1, sum(n>0,frac(a(n)*x))=1 at x=sqrt(5).",
+  "id": "A079936",
+  "mentions": [
+    "A001076",
+    "A079934",
+    "A079935",
+    "A079937"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:27:32",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

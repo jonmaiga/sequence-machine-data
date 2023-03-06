@@ -1,0 +1,22 @@
+{
+  "description": "Non-balanced numbers in A015765.",
+  "id": "A074868",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A015765",
+    "A020492",
+    "A078539"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

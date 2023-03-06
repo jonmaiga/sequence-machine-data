@@ -1,0 +1,20 @@
+{
+  "description": "Square array, read by antidiagonal: T(n,k) = n*T(n,k-1)+(-1)^k*T(n,floor(k/2)).",
+  "id": "A089141",
+  "mentions": [
+    "A001511",
+    "A089067"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

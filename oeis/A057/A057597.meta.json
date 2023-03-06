@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = -a(n-1) - a(n-2) + a(n-3), a(0)=0, a(1)=0, a(2)=1.",
+  "id": "A057597",
+  "mentions": [
+    "A000073",
+    "A058265",
+    "A074058",
+    "A077908",
+    "A192918",
+    "A319200"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

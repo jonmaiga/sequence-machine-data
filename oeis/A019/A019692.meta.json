@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of 2*Pi.",
+  "id": "A019692",
+  "mentions": [
+    "A000796",
+    "A019693",
+    "A019699",
+    "A058291",
+    "A091925",
+    "A093828",
+    "A180434",
+    "A197723",
+    "A223067",
+    "A244979"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

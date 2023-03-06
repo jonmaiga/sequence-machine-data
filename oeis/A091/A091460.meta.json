@@ -1,0 +1,20 @@
+{
+  "description": "Greatest size of an arithmetic progression contained as substrings in binary representation of n.",
+  "id": "A091460",
+  "mentions": [
+    "A007088",
+    "A078822",
+    "A091461"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

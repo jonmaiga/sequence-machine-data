@@ -1,0 +1,21 @@
+{
+  "description": "Concatenation of n^3 and 7.",
+  "id": "A061679",
+  "mentions": [
+    "A000578",
+    "A061722"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:38:25",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Initial members of 25 consecutive primes in a 5 X 5 spiral wherein the mean of all 12 sums is prime.",
+  "id": "A094458",
+  "mentions": [
+    "A094454",
+    "A094459"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

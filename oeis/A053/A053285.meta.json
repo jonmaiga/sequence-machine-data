@@ -1,0 +1,21 @@
+{
+  "description": "Totient of 2^n+1.",
+  "id": "A053285",
+  "mentions": [
+    "A000010",
+    "A000051",
+    "A000225",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

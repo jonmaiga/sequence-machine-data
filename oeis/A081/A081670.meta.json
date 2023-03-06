@@ -1,0 +1,21 @@
+{
+  "description": "3^n-1+C(2n,n).",
+  "id": "A081670",
+  "mentions": [
+    "A000984",
+    "A003462",
+    "A081669"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:20:41",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

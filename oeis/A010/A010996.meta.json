@@ -1,0 +1,21 @@
+{
+  "description": "Binomial coefficient C(n,43).",
+  "id": "A010996",
+  "mentions": [
+    "A001787",
+    "A010994",
+    "A242091"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:20:49",
+    "offset": 43,
+    "size": 21,
+    "source": "joeis"
+  }
+}

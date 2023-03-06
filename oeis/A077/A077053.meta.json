@@ -1,0 +1,21 @@
+{
+  "description": "Greatest common divisor of indecomposable Wallis pairs.",
+  "id": "A077053",
+  "mentions": [
+    "A072182",
+    "A072186",
+    "A075768",
+    "A075769"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

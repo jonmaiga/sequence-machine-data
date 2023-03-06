@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n matrices with exactly 2 1's in each row, other entries 0.",
+  "id": "A066300",
+  "mentions": [
+    "A001499"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

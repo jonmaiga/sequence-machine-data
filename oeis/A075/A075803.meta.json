@@ -1,0 +1,18 @@
+{
+  "description": "Differences between adjacent palindromic squarefree numbers.",
+  "id": "A075803",
+  "mentions": [
+    "A037010"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

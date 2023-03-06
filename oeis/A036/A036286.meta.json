@@ -1,0 +1,24 @@
+{
+  "description": "Periodic vertical binary vectors of Fibonacci numbers, topmost bits being most significant.",
+  "id": "A036286",
+  "mentions": [
+    "A000045",
+    "A001175",
+    "A004685",
+    "A007283",
+    "A036284",
+    "A036287"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

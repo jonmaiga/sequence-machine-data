@@ -1,0 +1,31 @@
+{
+  "description": "Number of vertices in the Platonic solids (in the order tetrahedron, cube, octahedron, dodecahedron, icosahedron).",
+  "id": "A063723",
+  "mentions": [
+    "A049541",
+    "A053012",
+    "A053016",
+    "A060296",
+    "A060852",
+    "A063722",
+    "A165922",
+    "A165952",
+    "A165953",
+    "A165954",
+    "A234974"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Total number of holes in decimal expansion of the number n, assuming 4 has 1 hole.",
+  "id": "A064692",
+  "mentions": [
+    "A001742",
+    "A064532",
+    "A064693",
+    "A206439",
+    "A208568"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

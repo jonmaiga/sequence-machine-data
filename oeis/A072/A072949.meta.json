@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations p of {1,2,3,...,n} such that Sum_{k=1..n} abs(k-p(k)) = 2n.",
+  "id": "A072949",
+  "mentions": [
+    "A062869",
+    "A072948"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

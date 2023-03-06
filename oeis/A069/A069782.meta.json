@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that gcd(d(k^3), d(k)) = 2^w for some w.",
+  "id": "A069782",
+  "mentions": [
+    "A000005",
+    "A037992",
+    "A061701",
+    "A069780",
+    "A069781"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

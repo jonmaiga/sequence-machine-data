@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=6; a(n) is concatenation of the squares of each digit of a(n-1), in order (in base 10).",
+  "id": "A082027",
+  "mentions": [
+    "A061588",
+    "A082026"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Binomial coefficients C(n,94).",
+  "id": "A017758",
+  "mentions": [
+    "A001787",
+    "A017760",
+    "A017761",
+    "A242091"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 94,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

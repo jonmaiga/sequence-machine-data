@@ -1,0 +1,19 @@
+{
+  "description": "Smallest 2n-1 digit palindromic prime with digit sum of 2n-1, or 0 if no such number exists.",
+  "id": "A083438",
+  "mentions": [
+    "A083440",
+    "A083442"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 3,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

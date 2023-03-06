@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 4^n*binomial(2n+1, n).",
+  "id": "A098400",
+  "mentions": [
+    "A069720",
+    "A069723",
+    "A098399"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:32:11",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

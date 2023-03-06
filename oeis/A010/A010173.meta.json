@@ -1,0 +1,22 @@
+{
+  "description": "Continued fraction for sqrt(107).",
+  "id": "A010173",
+  "mentions": [
+    "A041192",
+    "A041193",
+    "A177935"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:02:57",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

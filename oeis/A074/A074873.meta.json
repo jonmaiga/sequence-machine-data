@@ -1,0 +1,17 @@
+{
+  "description": "Friendly numbers (see A074902) such that sigma(n) is not friendly.",
+  "id": "A074873",
+  "mentions": [
+    "A074902"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

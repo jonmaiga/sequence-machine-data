@@ -1,0 +1,28 @@
+{
+  "description": "Length of the preperiodic part of the 'Reverse and Subtract' trajectory of n.",
+  "id": "A072137",
+  "mentions": [
+    "A033665",
+    "A070837",
+    "A070838",
+    "A072138",
+    "A072139",
+    "A072140",
+    "A072141",
+    "A072146",
+    "A072147"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

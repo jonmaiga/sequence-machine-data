@@ -1,0 +1,28 @@
+{
+  "description": "One seventh of octo-factorial numbers.",
+  "id": "A034975",
+  "mentions": [
+    "A007696",
+    "A034176",
+    "A034908",
+    "A034909",
+    "A034910",
+    "A034911",
+    "A034912",
+    "A034976",
+    "A045755",
+    "A049210"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

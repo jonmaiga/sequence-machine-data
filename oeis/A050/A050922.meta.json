@@ -1,0 +1,27 @@
+{
+  "description": "Triangle in which n-th row gives prime factors of n-th Fermat number 2^(2^n)+1.",
+  "id": "A050922",
+  "mentions": [
+    "A000215",
+    "A001316",
+    "A001317",
+    "A003401",
+    "A019434",
+    "A023394",
+    "A045544",
+    "A053576",
+    "A093179"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

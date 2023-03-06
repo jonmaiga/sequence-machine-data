@@ -1,0 +1,24 @@
+{
+  "description": "McKay-Thompson series of class 68A for Monster.",
+  "id": "A058742",
+  "mentions": [
+    "A000521",
+    "A007240",
+    "A007241",
+    "A007267",
+    "A014708",
+    "A045478",
+    "A058638"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": -1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

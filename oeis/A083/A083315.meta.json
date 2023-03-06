@@ -1,0 +1,20 @@
+{
+  "description": "(2*5^n-(4^n-2^n))/2.",
+  "id": "A083315",
+  "mentions": [
+    "A083314",
+    "A083316"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:29:19",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

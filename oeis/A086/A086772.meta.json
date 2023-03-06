@@ -1,0 +1,27 @@
+{
+  "description": "Store the natural numbers in a triangular array such that values on each row have the same number of bits. Start a new row with the smallest number not yet recorded. a(n) represents the initial terms in the resulting array.",
+  "id": "A086772",
+  "mentions": [
+    "A000079",
+    "A014311",
+    "A014312",
+    "A014313",
+    "A018900",
+    "A023688",
+    "A023689",
+    "A023690",
+    "A023691",
+    "A067576"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

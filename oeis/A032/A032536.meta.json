@@ -1,0 +1,23 @@
+{
+  "description": "Integer part of decimal 'base-3 looking' numbers divided by their actual base-3 values.",
+  "id": "A032536",
+  "mentions": [
+    "A007089",
+    "A032532",
+    "A032537",
+    "A032538"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:03:11",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

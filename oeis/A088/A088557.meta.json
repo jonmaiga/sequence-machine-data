@@ -1,0 +1,21 @@
+{
+  "description": "Least even leg of primitive Pythagorean triangles with odd leg 2n+1.",
+  "id": "A088557",
+  "mentions": [
+    "A046092",
+    "A081934",
+    "A088558",
+    "A096891",
+    "A096900"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

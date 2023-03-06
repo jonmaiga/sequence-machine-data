@@ -1,0 +1,29 @@
+{
+  "description": "Smallest positive number that needs more lines when shown on a 7-segment display (digital clock) than any previous term.",
+  "id": "A038619",
+  "mentions": [
+    "A006942",
+    "A010371",
+    "A063720",
+    "A074458",
+    "A143617",
+    "A216261",
+    "A234691",
+    "A234692",
+    "A277116"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:37:10",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

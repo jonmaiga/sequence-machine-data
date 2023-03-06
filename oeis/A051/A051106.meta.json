@@ -1,0 +1,20 @@
+{
+  "description": "Second diagonal of triangle A048601.",
+  "id": "A051106",
+  "mentions": [
+    "A048601",
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:28:38",
+    "offset": 2,
+    "size": 15,
+    "source": "joeis"
+  }
+}

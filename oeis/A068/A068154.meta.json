@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of coefficients in power series for (Product_{i=1..5} (x+i)) / (Product_{i=1..5} (i-x)) = Sum_(n>=0} a(n)/b(n)*x^n.",
+  "id": "A068154",
+  "mentions": [
+    "A026532"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

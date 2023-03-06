@@ -1,0 +1,27 @@
+{
+  "description": "Number of Farey fractions of order n that are <=1/2; cf. A049805.",
+  "id": "A049806",
+  "mentions": [
+    "A005728",
+    "A023022",
+    "A049805",
+    "A049807",
+    "A049808",
+    "A049809",
+    "A049810",
+    "A049811",
+    "A049812",
+    "A049813",
+    "A049814"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:35",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

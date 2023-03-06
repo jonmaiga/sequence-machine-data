@@ -1,0 +1,17 @@
+{
+  "description": "Smallest multiple of prime(n) of the form r*prime(n-1) + s*prime(n+1). r and s are positive integers.",
+  "id": "A085949",
+  "mentions": [
+    "A085950"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

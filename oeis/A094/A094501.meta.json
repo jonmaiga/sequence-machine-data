@@ -1,0 +1,23 @@
+{
+  "description": "Smallest number that requires n iterations of the sum of digits of the divisors (A034690) to reach 15.",
+  "id": "A094501",
+  "mentions": [
+    "A034690",
+    "A086793",
+    "A095347",
+    "A119397",
+    "A260060"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Binomial coefficients C(n,97).",
+  "id": "A017761",
+  "mentions": [
+    "A001787",
+    "A017762",
+    "A242091"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 97,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

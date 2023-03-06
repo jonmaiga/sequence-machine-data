@@ -1,0 +1,25 @@
+{
+  "description": "Smallest integer at which the value of truncated Mertens function equals 2^n.",
+  "id": "A093776",
+  "mentions": [
+    "A000720",
+    "A002110",
+    "A002321",
+    "A088004",
+    "A093772",
+    "A093773",
+    "A093774",
+    "A093775"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

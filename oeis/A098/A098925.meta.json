@@ -1,0 +1,28 @@
+{
+  "description": "Distribution of the number of ways for a child to climb a staircase having r steps (one step or two steps at a time).",
+  "id": "A098925",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A007318",
+    "A011973",
+    "A030528",
+    "A084938",
+    "A092865",
+    "A102426",
+    "A169803"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

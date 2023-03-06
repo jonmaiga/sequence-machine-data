@@ -1,0 +1,38 @@
+{
+  "description": "Rectangular array of numbers Fibonacci(m(n+1))/Fibonacci(m), m >= 1, n >= 0, read by downward antidiagonals.",
+  "id": "A028412",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000204",
+    "A001076",
+    "A001906",
+    "A004187",
+    "A047946",
+    "A049660",
+    "A049666",
+    "A049667",
+    "A049668",
+    "A049669",
+    "A049670",
+    "A051294",
+    "A083564",
+    "A103226",
+    "A214978",
+    "A214984"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

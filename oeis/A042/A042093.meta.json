@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(570).",
+  "id": "A042093",
+  "mentions": [
+    "A040546",
+    "A042092"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:53",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

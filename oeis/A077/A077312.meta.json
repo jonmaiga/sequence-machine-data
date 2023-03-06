@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k such that the concatenation of natural numbers from (n+1) to k is a multiple of n.",
+  "id": "A077312",
+  "mentions": [
+    "A077310",
+    "A077311"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

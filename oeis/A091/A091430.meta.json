@@ -1,0 +1,17 @@
+{
+  "description": "Number of Hamiltonian symmetric trivalent (or cubic) connected graphs on 2n nodes (the Foster census).",
+  "id": "A091430",
+  "mentions": [
+    "A059282"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 151,
+    "source": "oeis-bfile"
+  }
+}

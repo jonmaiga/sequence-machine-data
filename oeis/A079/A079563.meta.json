@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = a(n,m) = Sum_{k=0..n} binomial(m*k,k)*binomial(m*(n-k),n-k) for m=7.",
+  "id": "A079563",
+  "mentions": [
+    "A000302",
+    "A006256",
+    "A078995",
+    "A079678",
+    "A079679"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

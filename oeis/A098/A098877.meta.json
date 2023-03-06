@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that 3*(6*n)^k + 1 is prime.",
+  "id": "A098877",
+  "mentions": [
+    "A098876",
+    "A111094"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:06:27",
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of labeled trees with n+1 nodes such that the degrees of all nodes, excluding the first node, are odd.",
+  "id": "A058014",
+  "mentions": [
+    "A007106",
+    "A138764",
+    "A143601"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

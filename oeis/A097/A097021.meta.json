@@ -1,0 +1,17 @@
+{
+  "description": "Initial terms of chains consisting of five consecutive integers, for neither of which the value of sigma-function is divisible by six.",
+  "id": "A097021",
+  "mentions": [
+    "A084301"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

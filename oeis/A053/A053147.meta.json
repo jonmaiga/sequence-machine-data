@@ -1,0 +1,19 @@
+{
+  "description": "When cototient function (A051953) is iterated with initial value A002110(n), a(n) is the value of first (largest) power of 2 which appears in the iteration.",
+  "id": "A053147",
+  "mentions": [
+    "A002110",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

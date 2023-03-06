@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that A007947(m) = A007947(k) and A007947(m+1) = A007947(k+1), for some k < m.",
+  "id": "A087914",
+  "mentions": [
+    "A007947",
+    "A088966"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

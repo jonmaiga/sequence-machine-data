@@ -1,0 +1,18 @@
+{
+  "description": "Terms k of A002977 such that both (k-1)/2 and (k-1)/3 are also terms of A002977.",
+  "id": "A085249",
+  "mentions": [
+    "A002977",
+    "A016921"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

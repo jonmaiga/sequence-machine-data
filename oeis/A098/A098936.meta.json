@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that the partition function A000041(k) is even and odd the same number of times for 0 <= k <= n.",
+  "id": "A098936",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

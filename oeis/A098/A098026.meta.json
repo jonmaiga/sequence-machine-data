@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime p such that p+1 has exactly n distinct prime factors.",
+  "id": "A098026",
+  "mentions": [
+    "A073918"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

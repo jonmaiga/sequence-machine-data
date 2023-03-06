@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 2^k - 3 is prime.",
+  "id": "A050414",
+  "mentions": [
+    "A045768",
+    "A050415",
+    "A057732"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

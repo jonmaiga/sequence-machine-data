@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k with an odd number of terms in their Zeckendorf representation (write k as a sum of non-consecutive distinct Fibonacci numbers).",
+  "id": "A020899",
+  "mentions": [
+    "A007895",
+    "A014417",
+    "A095076"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest n-th power k^n == 1 (mod 10^n), where k>1.",
+  "id": "A085878",
+  "mentions": [
+    "A085877"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that A081252(m)/m^2 has a local minimum for m = k.",
+  "id": "A081253",
+  "mentions": [
+    "A005009",
+    "A053646",
+    "A062092",
+    "A081252",
+    "A081254",
+    "A266071"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

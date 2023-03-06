@@ -1,0 +1,31 @@
+{
+  "description": "T(i,j) = 1 if F(i) AND F(j) = 0, otherwise 0, where F is A003714 and AND is the bitwise logical-and operation. Table read by antidiagonals.",
+  "id": "A089939",
+  "mentions": [
+    "A000045",
+    "A001333",
+    "A003714",
+    "A005614",
+    "A047999",
+    "A051736",
+    "A051737",
+    "A089934",
+    "A089935",
+    "A089936",
+    "A089937",
+    "A089938"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

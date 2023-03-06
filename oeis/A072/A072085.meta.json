@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A072084(A072084(n)).",
+  "id": "A072085",
+  "mentions": [
+    "A072084",
+    "A072086"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

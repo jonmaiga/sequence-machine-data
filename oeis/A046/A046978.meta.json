@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of Taylor series for exp(x)*sin(x).",
+  "id": "A046978",
+  "mentions": [
+    "A046979",
+    "A189442"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:51:09",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

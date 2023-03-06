@@ -1,0 +1,27 @@
+{
+  "description": "Nilpotent numbers: n such that every group of order n is nilpotent.",
+  "id": "A056867",
+  "mentions": [
+    "A003277",
+    "A027748",
+    "A051532",
+    "A056866",
+    "A056868",
+    "A124010",
+    "A153038",
+    "A173557"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

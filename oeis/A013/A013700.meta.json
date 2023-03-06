@@ -1,0 +1,21 @@
+{
+  "description": "Degree of variety K_{2,n}^3.",
+  "id": "A013700",
+  "mentions": [
+    "A013698",
+    "A013699",
+    "A013701",
+    "A013702"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:17:05",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

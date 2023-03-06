@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that sopfr(k) = sopfr(k + sopfr(k)).",
+  "id": "A050780",
+  "mentions": [
+    "A001414",
+    "A050703",
+    "A050704",
+    "A050705",
+    "A050706",
+    "A050707",
+    "A050708",
+    "A050709",
+    "A050710",
+    "A050781"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

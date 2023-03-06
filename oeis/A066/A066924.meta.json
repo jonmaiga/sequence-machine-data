@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the GCD of n and the Chowla's function of n (A048050) is >= n/3.",
+  "id": "A066924",
+  "mentions": [
+    "A048050",
+    "A074844"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

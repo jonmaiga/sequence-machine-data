@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (2^n + 1)^2 - 2.",
+  "id": "A093069",
+  "mentions": [
+    "A020522",
+    "A031443",
+    "A091514",
+    "A092431",
+    "A093112",
+    "A244663"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

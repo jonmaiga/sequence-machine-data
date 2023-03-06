@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X n invertible matrices A over GF(3) such that A-I is invertible.",
+  "id": "A051680",
+  "mentions": [
+    "A002820",
+    "A053290"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:07:36",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

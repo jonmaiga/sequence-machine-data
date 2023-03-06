@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows in which each term equals the entry above minus the entry left plus twice the entry left-above.",
+  "id": "A094184",
+  "mentions": [
+    "A000118",
+    "A009766",
+    "A049122",
+    "A065432",
+    "A065441",
+    "A086990",
+    "A090412"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes that remain prime through 4 iterations of function f(x) = 3x + 2.",
+  "id": "A023307",
+  "mentions": [
+    "A023208",
+    "A023246",
+    "A023277",
+    "A024893"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "From Goldbach problem: number of decompositions of n into a sum of three primes.",
+  "id": "A068307",
+  "mentions": [
+    "A002375",
+    "A007963",
+    "A010051",
+    "A045917",
+    "A054860",
+    "A059998",
+    "A061358",
+    "A117278",
+    "A139321",
+    "A139322"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

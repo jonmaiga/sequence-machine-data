@@ -1,0 +1,18 @@
+{
+  "description": "a(m,0) = a(m,m) = 2; a(m,n) = sum of primes (with repetition) dividing a(m-1,n-1) and of primes (with repetition) dividing a(m-1,n).",
+  "id": "A097859",
+  "mentions": [
+    "A098330"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

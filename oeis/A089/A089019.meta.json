@@ -1,0 +1,24 @@
+{
+  "description": "First nontrivial x satisfying x^2 - 3*y^2 = d^2, where d=A072330(n).",
+  "id": "A089019",
+  "mentions": [
+    "A072330",
+    "A072360",
+    "A086909",
+    "A089020",
+    "A096672",
+    "A096673",
+    "A096674"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

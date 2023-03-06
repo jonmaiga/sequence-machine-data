@@ -1,0 +1,20 @@
+{
+  "description": "Number of degree-n permutations with exactly one even cycle.",
+  "id": "A096471",
+  "mentions": [
+    "A028353",
+    "A060523"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Start with 1. Convert to base 2, describe it in base 2, convert to base 10.",
+  "id": "A049192",
+  "mentions": [
+    "A005150"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

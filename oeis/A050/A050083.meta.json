@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A050080(k) > A050080(k+1).",
+  "id": "A050083",
+  "mentions": [
+    "A050080"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:13",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

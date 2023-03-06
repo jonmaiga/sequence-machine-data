@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of prime factors in Fibonacci(prime(n)); that is, in the Fibonacci number whose index is the n-th prime.",
+  "id": "A080345",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A001221",
+    "A001605",
+    "A022307"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

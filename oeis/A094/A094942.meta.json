@@ -1,0 +1,24 @@
+{
+  "description": "Numbers having a unique partition into three squares.",
+  "id": "A094942",
+  "mentions": [
+    "A000164",
+    "A000378",
+    "A005875",
+    "A025321",
+    "A094739",
+    "A224442",
+    "A224443"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

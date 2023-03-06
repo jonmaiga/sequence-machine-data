@@ -1,0 +1,21 @@
+{
+  "description": "Consider sequence of fractions A066657/A066658 produced by ratios of terms in A066720; let m = smallest integer such that all fractions 1/n, 2/n, ..., (n-1)/n have appeared when we reach A066720(m) = k; sequence gives values of m; set a(n) = -1 if some fraction i/n never appears.",
+  "id": "A066849",
+  "mentions": [
+    "A066657",
+    "A066658",
+    "A066720",
+    "A066848"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

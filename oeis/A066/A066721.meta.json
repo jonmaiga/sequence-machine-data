@@ -1,0 +1,20 @@
+{
+  "description": "Nonprimes in A066720.",
+  "id": "A066721",
+  "mentions": [
+    "A010051",
+    "A066720",
+    "A066775"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

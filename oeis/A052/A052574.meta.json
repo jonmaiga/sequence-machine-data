@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. (1-2x)/(1-3x+x^2).",
+  "id": "A052574",
+  "mentions": [
+    "A001519"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:03:22",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

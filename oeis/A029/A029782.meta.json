@@ -1,0 +1,19 @@
+{
+  "description": "Cubes such that digits of cube root of n appear in both n^(2/3) and n.",
+  "id": "A029782",
+  "mentions": [
+    "A029780"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:44:05",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

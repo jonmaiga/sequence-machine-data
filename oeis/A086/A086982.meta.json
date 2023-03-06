@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that 10^n+1 is not squarefree.",
+  "id": "A086982",
+  "mentions": [
+    "A005408",
+    "A013929",
+    "A045616",
+    "A049096",
+    "A086981",
+    "A282344",
+    "A282345"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

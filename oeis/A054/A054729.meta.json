@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that genus of modular curve X_0(N) is never equal to n.",
+  "id": "A054729",
+  "mentions": [
+    "A000086",
+    "A000089",
+    "A001615",
+    "A001616",
+    "A001617",
+    "A054726",
+    "A054728",
+    "A054730"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

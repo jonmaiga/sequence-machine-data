@@ -1,0 +1,18 @@
+{
+  "description": "Group the even numbers so that the product of the terms in each group + 1 is a prime: (2), (4), (6), (8, 10, 12, 14), (16), (18), ... Sequence gives number of terms in each group.",
+  "id": "A073697",
+  "mentions": [
+    "A073695",
+    "A073696"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

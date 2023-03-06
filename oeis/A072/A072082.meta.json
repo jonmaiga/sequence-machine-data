@@ -1,0 +1,22 @@
+{
+  "description": "Numbers divisible by the cube of the sum of their digits in base 10.",
+  "id": "A072082",
+  "mentions": [
+    "A003634",
+    "A005349",
+    "A055012",
+    "A072081",
+    "A072083"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

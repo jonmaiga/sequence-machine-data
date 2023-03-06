@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of tangent of 20 degrees.",
+  "id": "A019918",
+  "mentions": [
+    "A019938"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:04:19",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

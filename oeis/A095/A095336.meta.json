@@ -1,0 +1,20 @@
+{
+  "description": "Sum of 1-fibits in Zeckendorf-expansion A014417(p) summed for all primes p in range ]2^n,2^(n+1)].",
+  "id": "A095336",
+  "mentions": [
+    "A014417",
+    "A095062",
+    "A095298",
+    "A095353"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

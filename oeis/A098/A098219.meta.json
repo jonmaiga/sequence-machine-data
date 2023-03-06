@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(sigma(sigma(n))/n) = floor(A051027(n)/n).",
+  "id": "A098219",
+  "mentions": [
+    "A000203",
+    "A008333",
+    "A051027",
+    "A098220",
+    "A098221",
+    "A098222"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

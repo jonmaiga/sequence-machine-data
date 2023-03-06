@@ -1,0 +1,22 @@
+{
+  "description": "List of cubes p^3 of primes with property that next prime after p is a substring of p^3.",
+  "id": "A052076",
+  "mentions": [
+    "A052073",
+    "A052074",
+    "A052075",
+    "A274932"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Fixed point reached by iterating the Kempner function A002034 starting at n.",
+  "id": "A025492",
+  "mentions": [
+    "A002034",
+    "A025493"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

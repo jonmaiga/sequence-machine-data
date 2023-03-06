@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that k*2^n + 1 is a semiprime.",
+  "id": "A085245",
+  "mentions": [
+    "A001358",
+    "A035050",
+    "A076336"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

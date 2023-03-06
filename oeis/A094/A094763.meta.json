@@ -1,0 +1,19 @@
+{
+  "description": "Trajectory of 2 under repeated application of the map n -> n + square excess of n.",
+  "id": "A094763",
+  "mentions": [
+    "A053186",
+    "A094761",
+    "A094764"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

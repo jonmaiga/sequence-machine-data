@@ -1,0 +1,20 @@
+{
+  "description": "Base-10 palindromes that start with 7.",
+  "id": "A043042",
+  "mentions": [
+    "A002113",
+    "A222727",
+    "A222728"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:20:59",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

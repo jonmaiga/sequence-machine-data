@@ -1,0 +1,20 @@
+{
+  "description": "Size of maximal subset of the n^2 cells in an n X n grid such that there are at least 3 edges between any pair of chosen cells.",
+  "id": "A085577",
+  "mentions": [
+    "A085576",
+    "A233735"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:44:17",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

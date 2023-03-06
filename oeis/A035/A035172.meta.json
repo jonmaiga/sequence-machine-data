@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{d|n} Kronecker(-18, d).",
+  "id": "A035172",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A002479",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A122071"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

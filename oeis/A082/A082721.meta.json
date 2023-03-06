@@ -1,0 +1,26 @@
+{
+  "description": "There exist no palindromic hexagonals of length n.",
+  "id": "A082721",
+  "mentions": [
+    "A034307",
+    "A034822",
+    "A054969",
+    "A059868",
+    "A059869",
+    "A059870",
+    "A082722"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

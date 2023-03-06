@@ -1,0 +1,26 @@
+{
+  "description": "Recursion counts for summation table A003056 with formula a(y,0) = y, a(y,x) = a((y XOR x),2*(y AND x)).",
+  "id": "A050600",
+  "mentions": [
+    "A001511",
+    "A003056",
+    "A048720",
+    "A050601",
+    "A050602",
+    "A050603",
+    "A050604",
+    "A080080"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:47:25",
+    "offset": 0,
+    "size": 120,
+    "source": "joeis"
+  }
+}

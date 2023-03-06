@@ -1,0 +1,20 @@
+{
+  "description": "Let b(n) = A048273(n) = maximal number of prime factors of C(n,k) for k=0..n; sequence gives smallest value of k achieving b(n).",
+  "id": "A048299",
+  "mentions": [
+    "A001221",
+    "A001405",
+    "A048273",
+    "A048571"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

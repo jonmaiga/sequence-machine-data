@@ -1,0 +1,19 @@
+{
+  "description": "Numbers to the right of the central elements in the triangle of denominators in Leibniz's Harmonic Triangle.",
+  "id": "A046207",
+  "mentions": [
+    "A003506"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:29:29",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

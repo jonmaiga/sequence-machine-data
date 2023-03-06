@@ -1,0 +1,26 @@
+{
+  "description": "Iterated sum-of-digits of n-th prime; or digital root of n-th prime; or n-th prime modulo 9.",
+  "id": "A038194",
+  "mentions": [
+    "A000040",
+    "A007605",
+    "A010888",
+    "A061237",
+    "A061242",
+    "A139413",
+    "A153110"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

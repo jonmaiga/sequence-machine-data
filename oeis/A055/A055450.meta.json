@@ -1,0 +1,22 @@
+{
+  "description": "Path-counting array T; each step of a path is (1 right) or (1 up) to a point below line y=x, else (1 right and 1 up) or (1 up) to a point on the line y=x, else (1 left) or (1 up) to a point above line y=x. T(i,j)=number of paths to point (i-j,j), for 1<=j<=i, i >= 1.",
+  "id": "A055450",
+  "mentions": [
+    "A000108",
+    "A002212",
+    "A030237",
+    "A045868"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:25:51",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

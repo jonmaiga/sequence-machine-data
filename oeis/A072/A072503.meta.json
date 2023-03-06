@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to lace a shoe with n eyelet pairs such that there is no direct \"horizontal\" connection between any adjacent eyelet pair.",
+  "id": "A072503",
+  "mentions": [
+    "A002866",
+    "A078602",
+    "A078698",
+    "A078702"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

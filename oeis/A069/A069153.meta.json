@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{d|n} d*(d-1)/2.",
+  "id": "A069153",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A001157",
+    "A007437",
+    "A052847",
+    "A086666",
+    "A134840"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:42:03",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

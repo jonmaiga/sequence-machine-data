@@ -1,0 +1,20 @@
+{
+  "description": "Number of solutions to Pillai's equation a^x - b^y = n, with a>0, b>0, x>1, y>1.",
+  "id": "A076427",
+  "mentions": [
+    "A001597",
+    "A074981",
+    "A189117"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

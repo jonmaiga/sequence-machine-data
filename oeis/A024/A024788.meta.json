@@ -1,0 +1,32 @@
+{
+  "description": "Number of 4's in all partitions of n.",
+  "id": "A024788",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A008484",
+    "A024786",
+    "A024787",
+    "A024789",
+    "A024790",
+    "A024791",
+    "A024792",
+    "A024793",
+    "A024794",
+    "A026810",
+    "A066633",
+    "A181187"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

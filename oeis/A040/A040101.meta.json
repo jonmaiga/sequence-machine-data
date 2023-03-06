@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that x^4 = 3 has a solution mod p.",
+  "id": "A040101",
+  "mentions": [
+    "A038874"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Squares of these numbers have all their digits occurring in groups of 2 or more, without ending in zero.",
+  "id": "A079036",
+  "mentions": [
+    "A033023",
+    "A079035"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

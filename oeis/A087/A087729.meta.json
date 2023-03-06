@@ -1,0 +1,18 @@
+{
+  "description": "Let X be the poset of finite subsets of the positive integers. The sequence is the number of downsets in X of cardinality n modulo equivalence by permutations of the positive integers.",
+  "id": "A087729",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

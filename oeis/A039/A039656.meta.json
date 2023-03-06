@@ -1,0 +1,25 @@
+{
+  "description": "Becomes prime after n iterations of f(x) = sigma(x)-1 (least inverse of A039655).",
+  "id": "A039656",
+  "mentions": [
+    "A039649",
+    "A039650",
+    "A039651",
+    "A039652",
+    "A039653",
+    "A039654",
+    "A039655",
+    "A292114",
+    "A292115"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

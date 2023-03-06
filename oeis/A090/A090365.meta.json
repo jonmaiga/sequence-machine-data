@@ -1,0 +1,37 @@
+{
+  "description": "Shifts 1 place left under the INVERT transform of the BINOMIAL transform of this sequence.",
+  "id": "A090365",
+  "mentions": [
+    "A000110",
+    "A000178",
+    "A003319",
+    "A006014",
+    "A007814",
+    "A025480",
+    "A074664",
+    "A085838",
+    "A090366",
+    "A090367",
+    "A094456",
+    "A124758",
+    "A217924",
+    "A243499",
+    "A284005",
+    "A290615",
+    "A329369",
+    "A341392",
+    "A347204",
+    "A347205"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sum of rank(M) over all n X n matrices over GF(2).",
+  "id": "A086098",
+  "mentions": [
+    "A086190",
+    "A086207",
+    "A086875"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

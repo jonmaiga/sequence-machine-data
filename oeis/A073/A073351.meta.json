@@ -1,0 +1,19 @@
+{
+  "description": "n^2(n+1)(2n+1)^2(7n+1)/36.",
+  "id": "A073351",
+  "mentions": [
+    "A007750"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:01:59",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

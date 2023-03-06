@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic acyclic orientations of the Hamming graph (K_n) x (K_n).",
+  "id": "A054583",
+  "mentions": [
+    "A053870"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

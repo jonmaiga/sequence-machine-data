@@ -1,0 +1,29 @@
+{
+  "description": "Prime 3 followed by unique period primes (the period r of 1/p is not shared with any other prime) of the form A019328(r)/gcd(A019328(r),r) in order (periods r are given in A051627).",
+  "id": "A040017",
+  "mentions": [
+    "A002371",
+    "A006883",
+    "A007498",
+    "A007615",
+    "A007732",
+    "A019328",
+    "A048595",
+    "A051626",
+    "A051627",
+    "A323748"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

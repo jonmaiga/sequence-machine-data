@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of number of n-tosses having a run of r or more heads for a fair coin with r=1 to n across and n=1, 2, ... down.",
+  "id": "A050227",
+  "mentions": [
+    "A008466",
+    "A050231",
+    "A050232",
+    "A050233"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:41",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

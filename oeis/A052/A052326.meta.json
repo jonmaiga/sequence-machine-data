@@ -1,0 +1,23 @@
+{
+  "description": "Number of asymmetric trees with a forbidden limb of length 3.",
+  "id": "A052326",
+  "mentions": [
+    "A002955",
+    "A002988",
+    "A002992",
+    "A052318",
+    "A052325",
+    "A052329"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

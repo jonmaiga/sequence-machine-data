@@ -1,0 +1,29 @@
+{
+  "description": "Sum of non-unitary divisors of n!.",
+  "id": "A064138",
+  "mentions": [
+    "A000142",
+    "A000203",
+    "A003444",
+    "A034448",
+    "A046656",
+    "A048105",
+    "A056171",
+    "A056172",
+    "A056657",
+    "A062569",
+    "A063955",
+    "A063960"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

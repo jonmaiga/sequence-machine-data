@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that x^60 = -2 has a solution mod p.",
+  "id": "A051099",
+  "mentions": [
+    "A000040",
+    "A051071",
+    "A216775"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:22",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

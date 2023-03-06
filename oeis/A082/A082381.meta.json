@@ -1,0 +1,31 @@
+{
+  "description": "Sequence of the squared digital root of a number until 1 or 4 is reached. The initial numbers 1,2,..n are not output.",
+  "id": "A082381",
+  "mentions": [
+    "A000012",
+    "A000216",
+    "A000218",
+    "A000221",
+    "A008460",
+    "A008461",
+    "A008462",
+    "A080709",
+    "A082382",
+    "A122065",
+    "A139566",
+    "A171250"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

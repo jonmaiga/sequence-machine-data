@@ -1,0 +1,22 @@
+{
+  "description": "n written in fractional base 10/2.",
+  "id": "A024657",
+  "mentions": [
+    "A007091",
+    "A058185",
+    "A058186",
+    "A102491",
+    "A118761"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:24:07",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

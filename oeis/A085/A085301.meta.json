@@ -1,0 +1,24 @@
+{
+  "description": "Number of factorials between two primorials.",
+  "id": "A085301",
+  "mentions": [
+    "A000142",
+    "A002110",
+    "A067850",
+    "A084320",
+    "A084321",
+    "A084972",
+    "A085355"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

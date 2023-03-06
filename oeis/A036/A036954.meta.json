@@ -1,0 +1,23 @@
+{
+  "description": "Primes with digits in {0,1,2} taken as base 3 and converted to base 10.",
+  "id": "A036954",
+  "mentions": [
+    "A007089",
+    "A036952",
+    "A036953",
+    "A036964"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

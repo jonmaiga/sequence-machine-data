@@ -1,0 +1,23 @@
+{
+  "description": "Table T(n,k), n>=0 and k>=1, read by antidiagonals; the k-th row is defined by : partitions of k*n into powers of k (with T(0,k) = 1).",
+  "id": "A089688",
+  "mentions": [
+    "A000012",
+    "A000123",
+    "A005704",
+    "A005705",
+    "A005706"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

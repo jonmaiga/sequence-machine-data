@@ -1,0 +1,17 @@
+{
+  "description": "Log base 2 (n) mod 29.",
+  "id": "A036165",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

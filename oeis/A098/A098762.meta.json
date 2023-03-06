@@ -1,0 +1,18 @@
+{
+  "description": "This sequence, the sequence of first differences and the sequence of partial sums, are disjoint; a(0) = 1.",
+  "id": "A098762",
+  "mentions": [
+    "A098763"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

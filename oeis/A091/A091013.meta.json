@@ -1,0 +1,20 @@
+{
+  "description": "Numbers having more than one divisor d such that for some x also d-x and d+x are divisors.",
+  "id": "A091013",
+  "mentions": [
+    "A091009",
+    "A091010",
+    "A091011",
+    "A091012"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

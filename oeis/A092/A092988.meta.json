@@ -1,0 +1,17 @@
+{
+  "description": "Least number k < n such that n*k has the maximum number of divisors.",
+  "id": "A092988",
+  "mentions": [
+    "A092989"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 2,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

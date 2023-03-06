@@ -1,0 +1,16 @@
+{
+  "description": "Number of ways to partition an n-cube into subcubes (without reducing isomorphic cases); number of labeled squashed n-cubes; ways to make a tautology from disjoint terms with n Boolean variables; number of Rivest compression schemes for n-bit retrieval.",
+  "id": "A018926",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

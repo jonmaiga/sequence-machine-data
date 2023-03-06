@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that phi(k) is equal to A008473(k-1).",
+  "id": "A039780",
+  "mentions": [
+    "A000010",
+    "A008473",
+    "A039779",
+    "A039781"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

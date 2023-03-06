@@ -1,0 +1,19 @@
+{
+  "description": "Increments in arithmetic progressions of at least 4 terms having the same value of phi(x) in A050495.",
+  "id": "A050496",
+  "mentions": [
+    "A000010",
+    "A050495",
+    "A050497"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:22",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

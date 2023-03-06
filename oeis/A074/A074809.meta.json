@@ -1,0 +1,20 @@
+{
+  "description": "Largest prime factor of A019518, concatenation of first n primes.",
+  "id": "A074809",
+  "mentions": [
+    "A006530",
+    "A019518"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

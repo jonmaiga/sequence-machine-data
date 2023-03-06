@@ -1,0 +1,21 @@
+{
+  "description": "Primes that are congruent to -1 mod n, where n is the index of the prime.",
+  "id": "A052013",
+  "mentions": [
+    "A023143",
+    "A045924",
+    "A048891",
+    "A162567"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of sqrt(2) term in expected number of complex eigenvalues in an n X n real matrix with entries chosen from a standard normal distribution.",
+  "id": "A093605",
+  "mentions": [
+    "A046161",
+    "A052928"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

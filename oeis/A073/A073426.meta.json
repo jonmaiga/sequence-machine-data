@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes between n-th prime and n-th composite or number of primes that are >=Min[prime(n),c(n)] and are < Max[prime(n),c(n)].",
+  "id": "A073426",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002808",
+    "A065890",
+    "A073425"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

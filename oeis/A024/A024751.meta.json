@@ -1,0 +1,15 @@
+{
+  "description": "Binomial coefficients: C(n,k), 7 <= k <= n-7, sorted.",
+  "id": "A024751",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

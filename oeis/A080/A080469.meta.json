@@ -1,0 +1,22 @@
+{
+  "description": "Composite n such that binomial(3*n,n)==3^n (mod n).",
+  "id": "A080469",
+  "mentions": [
+    "A109641",
+    "A109642",
+    "A109760",
+    "A109769"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

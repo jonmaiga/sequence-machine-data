@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest integer such that the sum of any three ordered terms a(k), k <= n, is unique.",
+  "id": "A051912",
+  "mentions": [
+    "A025582",
+    "A036241",
+    "A062065"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

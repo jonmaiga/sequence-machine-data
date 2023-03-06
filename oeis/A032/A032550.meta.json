@@ -1,0 +1,20 @@
+{
+  "description": "Quotient of 'base-7' division described in A032549.",
+  "id": "A032550",
+  "mentions": [
+    "A032532",
+    "A032548",
+    "A032549"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

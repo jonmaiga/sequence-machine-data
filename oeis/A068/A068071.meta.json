@@ -1,0 +1,19 @@
+{
+  "description": "Triangular numbers that remain triangular when the least significant digit is moved to the beginning.",
+  "id": "A068071",
+  "mentions": [
+    "A000217",
+    "A067269"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

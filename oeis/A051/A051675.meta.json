@@ -1,0 +1,24 @@
+{
+  "description": "\"Second factorials\": Product_{k=1..n} k^(k^2).",
+  "id": "A051675",
+  "mentions": [
+    "A002109",
+    "A002117",
+    "A243262",
+    "A255321",
+    "A255323",
+    "A255344"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Centered 9-gonal (also known as nonagonal or enneagonal) numbers. Every third triangular number, starting with a(1)=1.",
+  "id": "A060544",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A000567",
+    "A001263",
+    "A005449",
+    "A006566",
+    "A025035",
+    "A027468",
+    "A051682",
+    "A060543",
+    "A081266",
+    "A101321",
+    "A190152",
+    "A248897"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:42:03",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

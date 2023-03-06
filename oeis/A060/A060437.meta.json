@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of different degrees in the sequence of the degrees of the irreducible representations of the symmetric group S_n, i.e., count each degree only once.",
+  "id": "A060437",
+  "mentions": [
+    "A000041",
+    "A056239",
+    "A060240",
+    "A153452",
+    "A215366"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

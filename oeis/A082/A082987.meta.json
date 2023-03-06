@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=sum(k=0,n,3^k*F(k)) where F(k) is the k-th Fibonacci number.",
+  "id": "A082987",
+  "mentions": [
+    "A014334"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:47:00",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

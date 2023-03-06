@@ -1,0 +1,19 @@
+{
+  "description": "Primes for which only four iterations of 'Prime plus its digit sum equals a prime' are possible.",
+  "id": "A048526",
+  "mentions": [
+    "A047791",
+    "A048519"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

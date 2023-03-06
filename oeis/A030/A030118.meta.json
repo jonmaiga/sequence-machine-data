@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1, a(1) = 1, a(n) = a(n-1) - a(n-2) + n.",
+  "id": "A030118",
+  "mentions": [
+    "A010892",
+    "A047270"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

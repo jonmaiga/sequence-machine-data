@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k is a substring of 7^k.",
+  "id": "A049305",
+  "mentions": [
+    "A000420",
+    "A032740",
+    "A049301",
+    "A049307"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

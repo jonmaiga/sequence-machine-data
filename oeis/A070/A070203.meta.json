@@ -1,0 +1,21 @@
+{
+  "description": "Number of scalene integer triangles with perimeter n having integral inradius.",
+  "id": "A070203",
+  "mentions": [
+    "A005044",
+    "A024153",
+    "A070080",
+    "A070201",
+    "A070204"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

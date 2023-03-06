@@ -1,0 +1,21 @@
+{
+  "description": "Number of connected transitive trivalent (or cubic) graphs with 2n nodes.",
+  "id": "A032355",
+  "mentions": [
+    "A002851",
+    "A005638",
+    "A241167"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 2,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

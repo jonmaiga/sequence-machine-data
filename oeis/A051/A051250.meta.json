@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose reduced residue system consists of 1 and prime powers only.",
+  "id": "A051250",
+  "mentions": [
+    "A000010",
+    "A010055",
+    "A038566",
+    "A048597",
+    "A048862",
+    "A048869",
+    "A139555"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

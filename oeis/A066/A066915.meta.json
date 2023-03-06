@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n^phi(n) + 1.",
+  "id": "A066915",
+  "mentions": [
+    "A066719"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

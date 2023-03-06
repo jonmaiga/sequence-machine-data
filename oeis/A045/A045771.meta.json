@@ -1,0 +1,18 @@
+{
+  "description": "Number of similar sublattices of index n^2 in root lattice D_4.",
+  "id": "A045771",
+  "mentions": [
+    "A035292"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

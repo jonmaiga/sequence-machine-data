@@ -1,0 +1,21 @@
+{
+  "description": "Pisumprimes: prime(k), where k is the sum of the first n digits of Pi.",
+  "id": "A076787",
+  "mentions": [
+    "A000040",
+    "A046974"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

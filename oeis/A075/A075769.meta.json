@@ -1,0 +1,21 @@
+{
+  "description": "A Wallis pair (x,y) satisfies sigma(x^2) = sigma(y^2); sequence gives y's for indecomposable Wallis pairs with x < y (ordered by values of x).",
+  "id": "A075769",
+  "mentions": [
+    "A072182",
+    "A072186",
+    "A075768",
+    "A077053"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

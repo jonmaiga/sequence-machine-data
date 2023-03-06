@@ -1,0 +1,19 @@
+{
+  "description": "Let s_n be the simplex packing n-width for the manifold torus X square; sequence gives denominator of s_n/Pi.",
+  "id": "A059818",
+  "mentions": [
+    "A059812",
+    "A059817"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

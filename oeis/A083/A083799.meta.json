@@ -1,0 +1,22 @@
+{
+  "description": "Main diagonal of A083798.",
+  "id": "A083799",
+  "mentions": [
+    "A083796",
+    "A083797",
+    "A083798",
+    "A083800",
+    "A083801",
+    "A083802"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

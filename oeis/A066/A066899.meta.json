@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = card({k : phi(k) == n (mod k)}).",
+  "id": "A066899",
+  "mentions": [
+    "A000010",
+    "A014197",
+    "A066900"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

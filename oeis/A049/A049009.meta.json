@@ -1,0 +1,28 @@
+{
+  "description": "Number of functions from a set to itself such that the sizes of the preimages of the individual elements in the range form the n-th partition in Abramowitz and Stegun order.",
+  "id": "A049009",
+  "mentions": [
+    "A000041",
+    "A000312",
+    "A019575",
+    "A035206",
+    "A035796",
+    "A036038",
+    "A036040",
+    "A048996",
+    "A178888"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

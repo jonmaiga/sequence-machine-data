@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: let f(x) = x/(1-x-x^2); n-th row gives coefficients of denominator polynomial of n-th derivative f(x)^(n), with highest powers first, for n >= 0.",
+  "id": "A078996",
+  "mentions": [
+    "A084610"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

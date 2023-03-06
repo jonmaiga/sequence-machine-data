@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p + 210 is also prime.",
+  "id": "A049482",
+  "mentions": [
+    "A001359",
+    "A023201",
+    "A045320",
+    "A049481"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

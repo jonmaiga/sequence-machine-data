@@ -1,0 +1,22 @@
+{
+  "description": "Number of n X n (-1,1)-matrices with all eigenvalues >= 0.",
+  "id": "A087488",
+  "mentions": [
+    "A003024",
+    "A055165",
+    "A085656",
+    "A086510"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

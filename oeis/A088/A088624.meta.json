@@ -1,0 +1,18 @@
+{
+  "description": "Index of the first occurrence of n in A068696.",
+  "id": "A088624",
+  "mentions": [
+    "A068696"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

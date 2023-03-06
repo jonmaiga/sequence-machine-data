@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 2*phi(k) + 8 = sigma(k).",
+  "id": "A063466",
+  "mentions": [
+    "A000010",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

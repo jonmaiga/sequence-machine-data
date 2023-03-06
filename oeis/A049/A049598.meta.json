@@ -1,0 +1,28 @@
+{
+  "description": "12 times triangular numbers.",
+  "id": "A049598",
+  "mentions": [
+    "A000217",
+    "A001844",
+    "A003154",
+    "A027468",
+    "A032528",
+    "A035008",
+    "A073577",
+    "A195158",
+    "A195818"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:39:37",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

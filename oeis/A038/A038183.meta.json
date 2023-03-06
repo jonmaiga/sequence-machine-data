@@ -1,0 +1,30 @@
+{
+  "description": "One-dimensional cellular automaton 'sigma-minus' (Rule 90): 000,001,010,011,100,101,110,111 -> 0,1,0,1,1,0,1,0.",
+  "id": "A038183",
+  "mentions": [
+    "A000215",
+    "A001317",
+    "A006977",
+    "A006978",
+    "A038184",
+    "A038185",
+    "A047999",
+    "A048710",
+    "A048720",
+    "A048725",
+    "A048757",
+    "A089893",
+    "A245191"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

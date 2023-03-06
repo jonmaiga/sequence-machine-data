@@ -1,0 +1,19 @@
+{
+  "description": "Square of main diagonal of 3-dimensional box with coprime integer sides and integer face diagonals.",
+  "id": "A023185",
+  "mentions": [
+    "A031173",
+    "A031174",
+    "A031175"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

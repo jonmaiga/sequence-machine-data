@@ -1,0 +1,16 @@
+{
+  "description": "Let b(1)=b(2)=1, b(k+2)=gcd(k!,b(k+1)+b(k)); sequence gives values of n such that b(n)=1.",
+  "id": "A074737",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

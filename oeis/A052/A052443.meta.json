@@ -1,0 +1,31 @@
+{
+  "description": "Number of simple unlabeled n-node graphs of connectivity 2.",
+  "id": "A052443",
+  "mentions": [
+    "A000719",
+    "A002218",
+    "A006290",
+    "A013922",
+    "A052442",
+    "A052444",
+    "A052445",
+    "A259862",
+    "A322387",
+    "A324088",
+    "A327051",
+    "A327101",
+    "A327198",
+    "A327334"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

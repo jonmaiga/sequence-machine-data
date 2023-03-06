@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = number of Egyptian fractions 1 = 1/x_1 + ... + 1/x_k (for any k), with 0 < x_1 <= ... <= x_k = n.",
+  "id": "A092666",
+  "mentions": [
+    "A000058",
+    "A002966",
+    "A020473",
+    "A092667",
+    "A092669",
+    "A259633"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

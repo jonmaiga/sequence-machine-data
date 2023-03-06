@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor( n^2/prime(n) ).",
+  "id": "A097882",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A001221",
+    "A069547"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:10:43",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

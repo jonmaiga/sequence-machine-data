@@ -1,0 +1,20 @@
+{
+  "description": "Let p = n-th prime, take smallest solution (x,y) to the Pellian equation x^2 - p*y^2 = 1 with x and y >= 1; sequence gives value of x.",
+  "id": "A081233",
+  "mentions": [
+    "A002350",
+    "A081234",
+    "A082393"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

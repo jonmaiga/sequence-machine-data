@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2, a(n+1) is smallest prime factor of (2 * Product_{k=1..n} a(k)) + 1.",
+  "id": "A077073",
+  "mentions": [
+    "A000945"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

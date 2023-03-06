@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the digits of the n-th Mersenne prime (A000668).",
+  "id": "A066538",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A001348",
+    "A001370",
+    "A007605",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

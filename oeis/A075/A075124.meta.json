@@ -1,0 +1,15 @@
+{
+  "description": "Orders of symmetric, cubic, connected graphs, sorted from largest to smallest with duplications when there exist multiple such graphs of the same order.",
+  "id": "A075124",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

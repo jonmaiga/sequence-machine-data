@@ -1,0 +1,20 @@
+{
+  "description": "Number of numbers <= prime(n)# having n prime factors (with multiplicity), where prime(n)# = A002110(n) is the n-th primorial.",
+  "id": "A077622",
+  "mentions": [
+    "A001222",
+    "A002110",
+    "A077618",
+    "A077621"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

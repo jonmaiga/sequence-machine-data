@@ -1,0 +1,29 @@
+{
+  "description": "Positive integers n such that n | (3^n + 2).",
+  "id": "A015973",
+  "mentions": [
+    "A015940",
+    "A015949",
+    "A050259",
+    "A067945",
+    "A123062",
+    "A276671",
+    "A276740",
+    "A277126",
+    "A277274",
+    "A277288",
+    "A277289",
+    "A277340"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

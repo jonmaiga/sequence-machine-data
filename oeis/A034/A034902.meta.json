@@ -1,0 +1,20 @@
+{
+  "description": "a(i) is square mod a(j), i <> j; a(n) prime; a(1) = 2.",
+  "id": "A034902",
+  "mentions": [
+    "A034900",
+    "A034901"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

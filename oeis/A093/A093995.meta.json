@@ -1,0 +1,26 @@
+{
+  "description": "n^2 repeated n times, triangle read by rows.",
+  "id": "A093995",
+  "mentions": [
+    "A000290",
+    "A000537",
+    "A000578",
+    "A016742",
+    "A016754",
+    "A127733",
+    "A199332",
+    "A265645"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:33",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

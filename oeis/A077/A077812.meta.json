@@ -1,0 +1,23 @@
+{
+  "description": "Squarefree kernel of numbers containing in their decimal representation only the digits 0 and 1.",
+  "id": "A077812",
+  "mentions": [
+    "A007088",
+    "A007947",
+    "A077805",
+    "A077806",
+    "A077813"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of (Product_{j>=1} (1-(-x)^j) - 1)^23 in powers of x.",
+  "id": "A047648",
+  "mentions": [
+    "A001482"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 23,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

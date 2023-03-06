@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for Zeta(3/2) (A078434).",
+  "id": "A078470",
+  "mentions": [
+    "A078434"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

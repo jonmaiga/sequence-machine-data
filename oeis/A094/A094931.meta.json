@@ -1,0 +1,18 @@
+{
+  "description": "A measure of the excess of the mean of the set of 4 consecutive primes over the 2nd of the set.",
+  "id": "A094931",
+  "mentions": [
+    "A034963"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 4,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "When the Euler phi function is iterated with initial value A002110(n) = n-th primorial, a(n) = exponent of largest power of 2 arising in the iteration.",
+  "id": "A053099",
+  "mentions": [
+    "A000010",
+    "A002110",
+    "A053048"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

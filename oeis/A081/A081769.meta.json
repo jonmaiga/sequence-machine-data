@@ -1,0 +1,20 @@
+{
+  "description": "a(n)-th term of the continued fraction for sum(k>=0,1/2^(2^k)) is 2.",
+  "id": "A081769",
+  "mentions": [
+    "A006466",
+    "A073089"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

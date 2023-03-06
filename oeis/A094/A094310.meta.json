@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k), the k-th term of the n-th row, is the product of all numbers from 1 to n except k: T(n,k) = n!/k.",
+  "id": "A094310",
+  "mentions": [
+    "A000142",
+    "A000254",
+    "A001048",
+    "A001563",
+    "A001710",
+    "A002301",
+    "A061579",
+    "A094307",
+    "A110468",
+    "A129825",
+    "A133799"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

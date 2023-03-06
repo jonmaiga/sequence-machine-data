@@ -1,0 +1,22 @@
+{
+  "description": "Alternating sum of all prime factors of n; primes nonincreasing, starting with the largest prime factor: A006530(n).",
+  "id": "A071322",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A001414",
+    "A006530",
+    "A071321",
+    "A071324"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

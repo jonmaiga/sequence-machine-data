@@ -1,0 +1,28 @@
+{
+  "description": "Table T(n,k) giving number of k-multigraphs on n nodes (n >= 1, k >= 0) read by antidiagonals.",
+  "id": "A063841",
+  "mentions": [
+    "A000088",
+    "A000124",
+    "A004102",
+    "A053400",
+    "A053420",
+    "A053421",
+    "A063842",
+    "A063843",
+    "A327084"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of anti-divisors is a square.",
+  "id": "A074729",
+  "mentions": [
+    "A066272",
+    "A066417"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

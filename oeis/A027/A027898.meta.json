@@ -1,0 +1,17 @@
+{
+  "description": "Divisors of 10^12 + 1.",
+  "id": "A027898",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

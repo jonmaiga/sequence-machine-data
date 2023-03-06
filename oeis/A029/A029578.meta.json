@@ -1,0 +1,26 @@
+{
+  "description": "The natural numbers interleaved with the even numbers.",
+  "id": "A029578",
+  "mentions": [
+    "A000120",
+    "A001477",
+    "A005843",
+    "A009531",
+    "A065423",
+    "A071037",
+    "A211538",
+    "A265705"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

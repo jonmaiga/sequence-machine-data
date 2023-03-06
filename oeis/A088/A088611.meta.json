@@ -1,0 +1,17 @@
+{
+  "description": "a(1) =1, a(n) = n-th squarefree number if n is squarefree else a(n) is the n-th nonsquarefree number.",
+  "id": "A088611",
+  "mentions": [
+    "A088612"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

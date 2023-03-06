@@ -1,0 +1,24 @@
+{
+  "description": "Smallest cube containing exactly n 7's.",
+  "id": "A036534",
+  "mentions": [
+    "A036514",
+    "A036527",
+    "A036536",
+    "A048352",
+    "A048372",
+    "A269247"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Convolution of natural numbers with (1, p(1), p(2), ... ), where p(k) is the k-th prime.",
+  "id": "A023538",
+  "mentions": [
+    "A000027",
+    "A007504",
+    "A008578",
+    "A014148",
+    "A014150",
+    "A014284",
+    "A158611",
+    "A178138"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:18:51",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

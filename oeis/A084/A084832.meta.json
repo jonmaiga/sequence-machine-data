@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that 2*R_k - 1 is prime, where R_k = 11...1 is the repunit (A002275) of length k.",
+  "id": "A084832",
+  "mentions": [
+    "A002275",
+    "A056660",
+    "A084831",
+    "A096503",
+    "A096508",
+    "A096841",
+    "A096846"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

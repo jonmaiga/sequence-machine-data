@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Product_{i=1..n} prime(i)^prime(i).",
+  "id": "A076265",
+  "mentions": [
+    "A000040",
+    "A006939",
+    "A051674",
+    "A094289",
+    "A117579",
+    "A122147",
+    "A122148"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:03:29",
+    "offset": 1,
+    "size": 7,
+    "source": "joeis"
+  }
+}

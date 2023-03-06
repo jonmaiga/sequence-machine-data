@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows in which the n-th row is an arithmetic progression of n terms with a common difference of n, and the first term is chosen the lowest possible so that no number appears twice.",
+  "id": "A075652",
+  "mentions": [
+    "A075648",
+    "A075649",
+    "A075650",
+    "A075651"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

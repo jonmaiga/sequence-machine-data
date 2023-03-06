@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that x^23 = 2 has no solution mod p.",
+  "id": "A040984",
+  "mentions": [
+    "A000040",
+    "A049555",
+    "A212374"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

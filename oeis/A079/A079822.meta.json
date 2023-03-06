@@ -1,0 +1,18 @@
+{
+  "description": "Smallest n-digit multiple of the n-th composite number.",
+  "id": "A079822",
+  "mentions": [
+    "A079821"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

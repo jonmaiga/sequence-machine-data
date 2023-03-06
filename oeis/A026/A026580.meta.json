@@ -1,0 +1,18 @@
+{
+  "description": "T(n,0) + T(n,1) + ... + T(n,n), T given by A026568.",
+  "id": "A026580",
+  "mentions": [
+    "A026568"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:55:24",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

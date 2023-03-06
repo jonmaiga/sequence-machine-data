@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) of asymmetric n X n binary matrices with k=0..n^2 ones under action of dihedral group of the square D_4.",
+  "id": "A054645",
+  "mentions": [
+    "A054252",
+    "A054385"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 3,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

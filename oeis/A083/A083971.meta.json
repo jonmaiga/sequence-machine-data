@@ -1,0 +1,20 @@
+{
+  "description": "Reverse of k concatenated with k, divided by k, where k = A083970(n).",
+  "id": "A083971",
+  "mentions": [
+    "A071273",
+    "A083970"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

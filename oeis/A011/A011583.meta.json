@@ -1,0 +1,18 @@
+{
+  "description": "Legendre symbol (n,13).",
+  "id": "A011583",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:15:51",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

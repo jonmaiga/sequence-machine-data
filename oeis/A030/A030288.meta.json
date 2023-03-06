@@ -1,0 +1,23 @@
+{
+  "description": "a(n+1) is smallest square > a(n) having no digits in common with a(n), with a(0) = 0.",
+  "id": "A030288",
+  "mentions": [
+    "A000290",
+    "A019544",
+    "A030098",
+    "A030287",
+    "A030289"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

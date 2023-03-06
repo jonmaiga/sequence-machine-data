@@ -1,0 +1,31 @@
+{
+  "description": "Largest odd divisor of n!.",
+  "id": "A049606",
+  "mentions": [
+    "A000142",
+    "A000265",
+    "A000680",
+    "A001316",
+    "A003148",
+    "A008977",
+    "A011371",
+    "A060818",
+    "A123746",
+    "A139541",
+    "A160481",
+    "A160624"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

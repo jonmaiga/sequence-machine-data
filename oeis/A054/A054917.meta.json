@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected unlabeled vertex-transitive graphs with n nodes such that complement is also connected.",
+  "id": "A054917",
+  "mentions": [
+    "A006799",
+    "A006800"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

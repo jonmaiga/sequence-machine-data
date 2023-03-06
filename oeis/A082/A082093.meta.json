@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number m such that (m+n)!/m! = (m+1)*(m+2)*...*(m+n) divides lcm(1,...,m).",
+  "id": "A082093",
+  "mentions": [
+    "A011371",
+    "A060818",
+    "A080765"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

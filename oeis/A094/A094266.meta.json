@@ -1,0 +1,26 @@
+{
+  "description": "LQTL Lean Quaternary Temporal Logic: a terse form of temporal logic created by assigning four descriptors such that false, becoming true, true and becoming false are represented and become a linear sequence. In a branching tree two alternative are open, change or no change. The integer sequence above is the count of the row possibilities of the four states over successive iterations.",
+  "id": "A094266",
+  "mentions": [
+    "A000749",
+    "A005418",
+    "A020522",
+    "A038503",
+    "A038504",
+    "A038505",
+    "A063376",
+    "A099423"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Nearest integer to Gamma(n + 5/12)/Gamma(5/12).",
+  "id": "A020003",
+  "mentions": [
+    "A020048",
+    "A020093"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

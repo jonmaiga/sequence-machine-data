@@ -1,0 +1,19 @@
+{
+  "description": "Array T read by diagonals: T(h,k)=number of paths consisting of steps from (0,0) to (h,k) such that each step has length 1 directed up or right and touches the line y=x/4 only at lattice points.",
+  "id": "A047120",
+  "mentions": [
+    "A047089",
+    "A047100"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:00:07",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

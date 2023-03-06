@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 6*(n+1)*(2*n+6)!/((n+3)!*(n+5)!).",
+  "id": "A028379",
+  "mentions": [
+    "A003517",
+    "A120989"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": -1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

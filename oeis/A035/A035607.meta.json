@@ -1,0 +1,33 @@
+{
+  "description": "Table a(d,m) of number of points of L1 norm m in cubic lattice Z^d, read by antidiagonals (d >= 1, m >= 0).",
+  "id": "A035607",
+  "mentions": [
+    "A000213",
+    "A001333",
+    "A001590",
+    "A008288",
+    "A050146",
+    "A070550",
+    "A078057",
+    "A113413",
+    "A119800",
+    "A122542",
+    "A126116",
+    "A180662",
+    "A266213"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:21:23",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime factor of the concatenation of the first n odd primes.",
+  "id": "A089948",
+  "mentions": [
+    "A089933"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

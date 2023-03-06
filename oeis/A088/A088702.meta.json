@@ -1,0 +1,20 @@
+{
+  "description": "Number of polygons with polygonal holes on the square lattice enumerated by half-perimeter.",
+  "id": "A088702",
+  "mentions": [
+    "A002931",
+    "A056634",
+    "A056638",
+    "A056639"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

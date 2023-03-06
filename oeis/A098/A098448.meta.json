@@ -1,0 +1,17 @@
+{
+  "description": "Row sums of triangle A098447, in which diagonal n equals column 0 of the (n+1)-th matrix power of A098447.",
+  "id": "A098448",
+  "mentions": [
+    "A098447"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

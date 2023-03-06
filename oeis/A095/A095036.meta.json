@@ -1,0 +1,22 @@
+{
+  "description": "An example of a (v,k,lambda)=(91,10,1) cyclic difference set.",
+  "id": "A095036",
+  "mentions": [
+    "A000961",
+    "A095025",
+    "A095029",
+    "A095047"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

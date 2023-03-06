@@ -1,0 +1,18 @@
+{
+  "description": "Start with positive integers. On the m-th step, shift terms a(m+1) to a(2m-1) one position to the left, then move a(m) to position (2m-1). Sequence is limit of reordering.",
+  "id": "A098003",
+  "mentions": [
+    "A098046",
+    "A098486"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

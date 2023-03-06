@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1 and smallest number not occurring earlier such that the product of two neighboring terms is a distinct triangular number, where \"distinct\" means that a(n)*a(n+1) may not equal the product of any two previous consecutive terms.",
+  "id": "A081974",
+  "mentions": [
+    "A081975",
+    "A081976",
+    "A081977"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

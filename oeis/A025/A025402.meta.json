@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the sum of 3 distinct positive cubes in 3 or more ways.",
+  "id": "A025402",
+  "mentions": [
+    "A025398",
+    "A025469"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

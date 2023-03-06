@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that n occurs a(n)-1 times, starting at n=0.",
+  "id": "A081315",
+  "mentions": [
+    "A001462",
+    "A001477",
+    "A081316"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

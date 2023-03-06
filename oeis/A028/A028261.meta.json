@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose total number of prime factors (counting multiplicity) is squarefree.",
+  "id": "A028261",
+  "mentions": [
+    "A001222",
+    "A005117",
+    "A014613",
+    "A046310",
+    "A046312"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:45",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into distinct parts == 1 (mod 3), with 1 as the smallest part.",
+  "id": "A092130",
+  "mentions": [
+    "A027349"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

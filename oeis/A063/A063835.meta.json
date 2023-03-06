@@ -1,0 +1,21 @@
+{
+  "description": "Three times partitioned numbers: the number of ways a number can be partitioned in (not necessarily different) parts and each part again so partitioned a second and a third time.",
+  "id": "A063835",
+  "mentions": [
+    "A000041",
+    "A047968",
+    "A063834"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

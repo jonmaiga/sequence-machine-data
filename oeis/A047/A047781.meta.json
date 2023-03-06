@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Sum_{k=0..n-1} binomial(n-1,k)*binomial(n+k,k). Also a(n) = T(n,n), array T as in A049600.",
+  "id": "A047781",
+  "mentions": [
+    "A001003",
+    "A001850",
+    "A002003",
+    "A007052",
+    "A008288",
+    "A049600",
+    "A098660",
+    "A142978",
+    "A241023",
+    "A296129"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

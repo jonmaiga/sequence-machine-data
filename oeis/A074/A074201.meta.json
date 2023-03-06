@@ -1,0 +1,16 @@
+{
+  "description": "Let b(1) = 1, b(2) = 2, b(n+2) = (b(n+1)+1)/(b(n)+1); then a(n) = 1 if b(n) >= 1 and a(n) = 0 otherwise (also a(n) = floor(b(n)) for n > 2).",
+  "id": "A074201",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

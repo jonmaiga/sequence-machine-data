@@ -1,0 +1,18 @@
+{
+  "description": "Integer reached in A085058.",
+  "id": "A085060",
+  "mentions": [
+    "A085058",
+    "A085062"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

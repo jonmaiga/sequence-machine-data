@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes of the form 4m+3 that are <= n.",
+  "id": "A066490",
+  "mentions": [
+    "A000720",
+    "A066339",
+    "A079261",
+    "A296020"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

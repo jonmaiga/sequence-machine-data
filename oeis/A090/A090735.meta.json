@@ -1,0 +1,21 @@
+{
+  "description": "Number of positive squarefree numbers <= n that can be expressed as a sum of 2 squares > 0.",
+  "id": "A090735",
+  "mentions": [
+    "A005117",
+    "A020893",
+    "A064533",
+    "A090736"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

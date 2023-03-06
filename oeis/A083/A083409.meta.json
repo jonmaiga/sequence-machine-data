@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime k-tuplet constellations, i.e., patterns with minimal diameter A008407.",
+  "id": "A083409",
+  "mentions": [
+    "A008407",
+    "A020497",
+    "A023193",
+    "A061671",
+    "A065688",
+    "A065706"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 2,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

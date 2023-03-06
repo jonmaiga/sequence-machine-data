@@ -1,0 +1,18 @@
+{
+  "description": "Iterated procedure 'composite k added to sum of its prime factors reaches a prime' yields 6 skipped primes.",
+  "id": "A050773",
+  "mentions": [
+    "A050703",
+    "A050710"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the largest prime factor of k is equal to floor(sqrt(k)).",
+  "id": "A071835",
+  "mentions": [
+    "A000196",
+    "A006530"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

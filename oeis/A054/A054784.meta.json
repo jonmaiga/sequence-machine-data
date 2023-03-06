@@ -1,0 +1,31 @@
+{
+  "description": "Integers n such that sigma(2n) - sigma(n) is a power of 2, where sigma is the sum of the divisors of n.",
+  "id": "A054784",
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A000396",
+    "A000593",
+    "A000668",
+    "A003401",
+    "A046528",
+    "A063883",
+    "A209229",
+    "A306204",
+    "A331410",
+    "A336361",
+    "A336922",
+    "A336923"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

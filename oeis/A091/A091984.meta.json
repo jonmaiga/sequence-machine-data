@@ -1,0 +1,17 @@
+{
+  "description": "Number of steps required for initial p = 10^n to reach 1 in the recurrence p = floor(Li(p)).",
+  "id": "A091984",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

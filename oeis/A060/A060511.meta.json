@@ -1,0 +1,22 @@
+{
+  "description": "Hexagonal excess: smallest amount by which n exceeds a hexagonal number (2k^2-k, A000384).",
+  "id": "A060511",
+  "mentions": [
+    "A000384",
+    "A002262",
+    "A053186",
+    "A055400",
+    "A060510"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

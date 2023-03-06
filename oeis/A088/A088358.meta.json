@@ -1,0 +1,18 @@
+{
+  "description": "a(n) equals sum of first n terms of A(x)^n for n>=1, with a(0)=1.",
+  "id": "A088358",
+  "mentions": [
+    "A233436"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

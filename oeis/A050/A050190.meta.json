@@ -1,0 +1,21 @@
+{
+  "description": "T(n,5), array T as in A050186; a count of aperiodic binary words.",
+  "id": "A050190",
+  "mentions": [
+    "A000389",
+    "A050186",
+    "A051170"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:27",
+    "offset": 5,
+    "size": 34,
+    "source": "joeis"
+  }
+}

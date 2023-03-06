@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the number of times that n occurs as floor(k * sqrt(2)) - k.",
+  "id": "A097509",
+  "mentions": [
+    "A001951",
+    "A001952",
+    "A003151",
+    "A003152",
+    "A006337",
+    "A080763",
+    "A082844",
+    "A097508",
+    "A115004",
+    "A159684",
+    "A188037",
+    "A245219",
+    "A276862"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

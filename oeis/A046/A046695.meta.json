@@ -1,0 +1,18 @@
+{
+  "description": "Sprague-Grundy values for the game Couples-are-Forever (and for octal games .6, .601, .61, .611, .62, .621, .63, .631).",
+  "id": "A046695",
+  "mentions": [
+    "A071433"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:15",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

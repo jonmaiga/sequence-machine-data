@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes of the form 12k + 11 less than 10^n.",
+  "id": "A091164",
+  "mentions": [
+    "A006880",
+    "A091161",
+    "A091162",
+    "A091163"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

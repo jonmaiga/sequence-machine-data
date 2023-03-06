@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = product of all cyclic permutation of concatenation of first n numbers. In each case the digits of a number are kept together for n>9.",
+  "id": "A083957",
+  "mentions": [
+    "A000042",
+    "A083956"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

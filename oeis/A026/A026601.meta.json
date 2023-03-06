@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A026600(k) = 1.",
+  "id": "A026601",
+  "mentions": [
+    "A026600",
+    "A026602",
+    "A026603",
+    "A079498"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

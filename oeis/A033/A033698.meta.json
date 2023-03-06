@@ -1,0 +1,16 @@
+{
+  "description": "Theta series of lattice A_2 tensor E_6 (dimension 12, det. 6561, min. norm 4).",
+  "id": "A033698",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

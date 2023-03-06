@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the continued fraction 1/(Pi+1/(Pi+1/(Pi+1/(Pi+...)))).",
+  "id": "A086773",
+  "mentions": [
+    "A188722"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

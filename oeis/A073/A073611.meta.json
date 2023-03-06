@@ -1,0 +1,17 @@
+{
+  "description": "Smallest m such that there are n primes of the form m-p where p is a prime. Index of the first occurrence of n in A073610.",
+  "id": "A073611",
+  "mentions": [
+    "A073610"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

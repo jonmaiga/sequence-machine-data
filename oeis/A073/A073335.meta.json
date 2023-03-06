@@ -1,0 +1,22 @@
+{
+  "description": "Total number of prime power parts in all partitions of n.",
+  "id": "A073335",
+  "mentions": [
+    "A000041",
+    "A001221",
+    "A001222",
+    "A037032"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

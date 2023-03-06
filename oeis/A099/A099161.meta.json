@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that there is at least one k < prime(m+1) such that k*(prime(m)#)^2 - 1 and k*(prime(m)#)^2 + 1 are twin primes.",
+  "id": "A099161",
+  "mentions": [
+    "A099160",
+    "A099162"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

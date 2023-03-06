@@ -1,0 +1,20 @@
+{
+  "description": "Numbers such that 1+2+3...+a(n) = 1+4+9+...+r^2, for some r.",
+  "id": "A053612",
+  "mentions": [
+    "A039596",
+    "A053611"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

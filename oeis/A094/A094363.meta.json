@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (eta(q) * eta(q^39)) / (eta(q^3) * eta(q^13)) in powers of q.",
+  "id": "A094363",
+  "mentions": [
+    "A094362"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:46:49",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

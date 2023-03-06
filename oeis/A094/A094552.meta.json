@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that there are integers a < b with a^2+(a+1)^2+...+(n-1)^2 = (n+1)^2+(n+2)^2+...+b^2.",
+  "id": "A094552",
+  "mentions": [
+    "A094550",
+    "A094551",
+    "A094553"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of different bracelets with 6 beads of at most n colors, allowing turning over.",
+  "id": "A027670",
+  "mentions": [
+    "A006565"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:35:35",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

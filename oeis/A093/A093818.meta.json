@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = gcd(A001008(n), n!).",
+  "id": "A093818",
+  "mentions": [
+    "A001008",
+    "A060746"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

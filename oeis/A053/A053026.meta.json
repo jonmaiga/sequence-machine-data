@@ -1,0 +1,22 @@
+{
+  "description": "Maximal power of 2 arising when A000005 is applied repeatedly to n!.",
+  "id": "A053026",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000142",
+    "A036450",
+    "A036459",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 95,
+    "source": "joeis"
+  }
+}

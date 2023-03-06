@@ -1,0 +1,21 @@
+{
+  "description": "Positions of odd juggling states in A084457, i.e., positions of nonzero-throws in A084458 - 1.",
+  "id": "A084464",
+  "mentions": [
+    "A084457",
+    "A084458",
+    "A084463",
+    "A084467",
+    "A084507"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

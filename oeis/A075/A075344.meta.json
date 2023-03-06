@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes between consecutive terms of A075343 (excluding endpoints).",
+  "id": "A075344",
+  "mentions": [
+    "A075343"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

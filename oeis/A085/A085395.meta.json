@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of convergents to the Thue-Morse constant 0.41245403364...",
+  "id": "A085395",
+  "mentions": [
+    "A014571",
+    "A014572",
+    "A085394"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

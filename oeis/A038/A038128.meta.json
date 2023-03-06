@@ -1,0 +1,19 @@
+{
+  "description": "Beatty sequence for Euler's constant (A001620).",
+  "id": "A038128",
+  "mentions": [
+    "A001620"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

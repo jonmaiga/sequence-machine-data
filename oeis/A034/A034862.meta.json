@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n!*(3*n^2 - 15*n + 10)/6, n > 4.",
+  "id": "A034862",
+  "mentions": [
+    "A034861"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 4,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers n such that 2^n == 4 (mod n).",
+  "id": "A015921",
+  "mentions": [
+    "A015910",
+    "A050259",
+    "A050990",
+    "A173572"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:45:45",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of perfect matchings in triangle graph with n nodes per side.",
+  "id": "A039907",
+  "mentions": [
+    "A000217",
+    "A071093",
+    "A178446",
+    "A269869"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

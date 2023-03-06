@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k with gcd(2^k-1, Fibonacci(k)) > 1 and not divisible by 2 or 11. Odd members of A074776 not divisible by 11.",
+  "id": "A079506",
+  "mentions": [
+    "A000045",
+    "A000225",
+    "A074776"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

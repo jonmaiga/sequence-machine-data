@@ -1,0 +1,29 @@
+{
+  "description": "Differences between consecutive odd primes, divided by 2.",
+  "id": "A028334",
+  "mentions": [
+    "A000040",
+    "A000230",
+    "A001223",
+    "A005521",
+    "A024675",
+    "A047160",
+    "A067076",
+    "A080378",
+    "A104120",
+    "A107770",
+    "A330556",
+    "A330561"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:51",
+    "offset": 2,
+    "size": 104,
+    "source": "joeis"
+  }
+}

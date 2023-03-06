@@ -1,0 +1,19 @@
+{
+  "description": "Consider all partitions of n into parts all of which are divisors of n; a(n) = number of distinct values taken by the product of the parts.",
+  "id": "A092976",
+  "mentions": [
+    "A000040",
+    "A092975"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

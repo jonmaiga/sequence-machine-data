@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime of the form n^k + k, or 0 if no such prime exists.",
+  "id": "A084743",
+  "mentions": [
+    "A093324"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

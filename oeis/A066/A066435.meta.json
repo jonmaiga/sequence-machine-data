@@ -1,0 +1,20 @@
+{
+  "description": "Conjectured values for a(n) = least natural number k such that sigma(n+k) = sigma(n)+sigma(k) if it exists; otherwise 0.",
+  "id": "A066435",
+  "mentions": [
+    "A091554",
+    "A110108",
+    "A110176"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

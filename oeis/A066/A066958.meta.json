@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered primitive solutions (x,y,z) to xy + yz + zx = n with x,y,z >= 1.",
+  "id": "A066958",
+  "mentions": [
+    "A066851"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

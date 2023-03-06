@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (1+sqrt(5)+sqrt(2*(5+sqrt(5))))/(2*e^((2*Pi)/5)).",
+  "id": "A091899",
+  "mentions": [
+    "A091667"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

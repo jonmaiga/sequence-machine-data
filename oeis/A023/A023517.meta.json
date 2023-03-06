@@ -1,0 +1,19 @@
+{
+  "description": "Greatest prime divisor of prime(n)*prime(n-1) - 1.",
+  "id": "A023517",
+  "mentions": [
+    "A006530",
+    "A023515",
+    "A023525"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 2,
+    "size": 52,
+    "source": "joeis"
+  }
+}

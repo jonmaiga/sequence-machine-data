@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1, a(n) = 1 + a(n - a(a(a(n-1)))).",
+  "id": "A095773",
+  "mentions": [
+    "A001462",
+    "A095774",
+    "A095775"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

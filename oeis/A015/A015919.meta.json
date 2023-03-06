@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers k such that 2^k == 2 (mod k).",
+  "id": "A015919",
+  "mentions": [
+    "A000040",
+    "A001567",
+    "A002997",
+    "A006935",
+    "A008578",
+    "A176997",
+    "A296104"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Sum of (2 - p mod 4) for all prime factors p of n (with repetition).",
+  "id": "A079635",
+  "mentions": [
+    "A005094",
+    "A027746",
+    "A065339",
+    "A072202",
+    "A083025",
+    "A267099",
+    "A268379",
+    "A268380",
+    "A268381"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

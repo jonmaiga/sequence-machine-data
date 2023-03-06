@@ -1,0 +1,33 @@
+{
+  "description": "Minimal number of steps to get from 0 to n by (a) adding 1 or (b) multiplying by 2.",
+  "id": "A056792",
+  "mentions": [
+    "A000045",
+    "A000120",
+    "A000254",
+    "A003313",
+    "A007088",
+    "A014701",
+    "A029578",
+    "A052955",
+    "A056791",
+    "A056796",
+    "A056817",
+    "A061282",
+    "A070939",
+    "A115954",
+    "A260112"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

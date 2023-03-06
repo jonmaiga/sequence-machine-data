@@ -1,0 +1,18 @@
+{
+  "description": "Two different numbers a, b which satisfy sigma(a)=sigma(b)=(a+b)^3/(a^2+b^2) are called a rational amicable pair; sequence gives b numbers.",
+  "id": "A038363",
+  "mentions": [
+    "A038362"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

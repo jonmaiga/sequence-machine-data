@@ -1,0 +1,20 @@
+{
+  "description": "a(n)^2 is the smallest square containing exactly n 9's.",
+  "id": "A048354",
+  "mentions": [
+    "A034994",
+    "A036516"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(715).",
+  "id": "A042376",
+  "mentions": [
+    "A040688",
+    "A042377"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:54",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

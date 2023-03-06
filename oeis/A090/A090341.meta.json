@@ -1,0 +1,21 @@
+{
+  "description": "Difference between the sums of the prime factors, including multiplicity, of n and those of n + 2.",
+  "id": "A090341",
+  "mentions": [
+    "A001414",
+    "A090340",
+    "A090342",
+    "A090343"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

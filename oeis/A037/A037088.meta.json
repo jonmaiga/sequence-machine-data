@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of numbers x, 2^n <= x < 2^(n+1), with k prime factors (counted with multiplicity).",
+  "id": "A037088",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A001358",
+    "A007053",
+    "A014612",
+    "A014614",
+    "A025488",
+    "A029837",
+    "A036378",
+    "A092097"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

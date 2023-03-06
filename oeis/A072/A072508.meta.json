@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Backhouse constant.",
+  "id": "A072508",
+  "mentions": [
+    "A001055",
+    "A030010",
+    "A074269",
+    "A088751",
+    "A104225",
+    "A247818"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

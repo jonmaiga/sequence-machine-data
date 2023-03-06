@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of -tan(tan(tan(1))).",
+  "id": "A085666",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:31",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

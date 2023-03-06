@@ -1,0 +1,21 @@
+{
+  "description": "a(m) is the multiplier of sqrt(2) in the constant alpha(m) = a(m)*sqrt(2) - b(m), where alpha(m) is the value of the constant determined by the binary bits in the recurrence associated with the Graham-Pollak sequence.",
+  "id": "A091524",
+  "mentions": [
+    "A001521",
+    "A003151",
+    "A003152",
+    "A006337"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

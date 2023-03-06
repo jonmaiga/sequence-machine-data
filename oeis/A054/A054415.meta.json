@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime factor of n!-1 (for n>2), a(2)=1.",
+  "id": "A054415",
+  "mentions": [
+    "A002582",
+    "A033312",
+    "A038507",
+    "A051301"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 2,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

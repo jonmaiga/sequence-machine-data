@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 2; a(n) is smallest prime containing a(n-1) as substring.",
+  "id": "A030456",
+  "mentions": [
+    "A068167"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

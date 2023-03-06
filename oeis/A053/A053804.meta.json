@@ -1,0 +1,17 @@
+{
+  "description": "Numbers where the difference of consecutive fifth powers is \"close\" to another fifth power: let m = k^5 - (k-1)^5; sequence lists the numbers k where m - floor(m^(1/5))^5 < floor(sqrt(k))^5.",
+  "id": "A053804",
+  "mentions": [
+    "A053803"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

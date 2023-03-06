@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of 2 X inf arrays [ n, n1, n2, ...; k, k1, k2,... ] with n>=n1>n2>...>=0, k>=k1>k2...>=0, n>k, n1>k1, ...; n >= 1, k >= 0. Note that once ni or ki = 0, the strict inequalities become equalities (constant 0 thereafter).",
+  "id": "A039597",
+  "mentions": [
+    "A274292"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:12:09",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

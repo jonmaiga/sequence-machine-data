@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n matrices over GF(3) of order dividing 6 (i.e., number of solutions of X^6=I in GL(n,3)).",
+  "id": "A053851",
+  "mentions": [
+    "A053771"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:12:07",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

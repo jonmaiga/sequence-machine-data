@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{i=1..n} phi(i) * (ceiling(n/i) - floor(n/i)).",
+  "id": "A015613",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000217",
+    "A002088",
+    "A018805",
+    "A049820",
+    "A091369"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

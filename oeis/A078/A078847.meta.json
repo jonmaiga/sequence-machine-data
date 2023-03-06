@@ -1,0 +1,36 @@
+{
+  "description": "Initial term in sequence of four consecutive primes separated by 3 consecutive differences each <= 6 (i.e., when d = 2, 4 or 6) and forming pattern = [2, 4, 6]; short notation = [246] d-pattern.",
+  "id": "A078847",
+  "mentions": [
+    "A007530",
+    "A022004",
+    "A033451",
+    "A052378",
+    "A078848",
+    "A078849",
+    "A078850",
+    "A078851",
+    "A078852",
+    "A078853",
+    "A078854",
+    "A078855",
+    "A078856",
+    "A078857",
+    "A078858",
+    "A190814",
+    "A190817",
+    "A190819",
+    "A190838"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:07:19",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

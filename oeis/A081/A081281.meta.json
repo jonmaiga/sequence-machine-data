@@ -1,0 +1,25 @@
+{
+  "description": "Square array of binomial transforms of Chebyshev polynomial coefficients.",
+  "id": "A081281",
+  "mentions": [
+    "A006234",
+    "A007051",
+    "A081277",
+    "A081278",
+    "A081279",
+    "A081280"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

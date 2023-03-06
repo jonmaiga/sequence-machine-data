@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 9*a(n-1)-a(n-2); a(0)=2, a(1)=9.",
+  "id": "A056918",
+  "mentions": [
+    "A005248",
+    "A018913",
+    "A049310",
+    "A174500"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

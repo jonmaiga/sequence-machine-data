@@ -1,0 +1,20 @@
+{
+  "description": "Certain numbers a(n) related to Gromov-Witten invariants N_n in dimension n (see formula (7.45) on p. 202 of Cox and Katz).",
+  "id": "A060041",
+  "mentions": [
+    "A013587",
+    "A060345",
+    "A076912"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

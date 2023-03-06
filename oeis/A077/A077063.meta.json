@@ -1,0 +1,20 @@
+{
+  "description": "Squarefree kernel of prime(n) - 1.",
+  "id": "A077063",
+  "mentions": [
+    "A006093",
+    "A007947",
+    "A077066"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

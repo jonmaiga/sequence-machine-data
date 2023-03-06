@@ -1,0 +1,40 @@
+{
+  "description": "Numbers k that are the hypotenuse of exactly 67 distinct integer-sided right triangles, i.e., k^2 can be written as a sum of two squares in 67 ways.",
+  "id": "A097626",
+  "mentions": [
+    "A004144",
+    "A084645",
+    "A084646",
+    "A084647",
+    "A084648",
+    "A084649",
+    "A097101",
+    "A097102",
+    "A097103",
+    "A097219",
+    "A097225",
+    "A097226",
+    "A097238",
+    "A097239",
+    "A097244",
+    "A097245",
+    "A097282",
+    "A290499",
+    "A290500",
+    "A290501",
+    "A290502",
+    "A290503",
+    "A290504",
+    "A290505"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

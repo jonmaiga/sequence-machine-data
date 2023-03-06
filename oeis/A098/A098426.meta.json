@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=(1/2)*sum(i=0,n,rad(binomial(n,i))) where rad(k)=A007947(k).",
+  "id": "A098426",
+  "mentions": [
+    "A007947"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

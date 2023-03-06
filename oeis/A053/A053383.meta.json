@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k) giving denominator of coefficient of x^(n-k) in Bernoulli polynomial B(n, x), n >= 0, 0 <= k <= n.",
+  "id": "A053383",
+  "mentions": [
+    "A048998",
+    "A048999",
+    "A053382",
+    "A144845",
+    "A196838",
+    "A196839"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:08:33",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

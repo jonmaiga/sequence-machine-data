@@ -1,0 +1,22 @@
+{
+  "description": "Fixed points if prime-factor-concatenation function (A084318) is iterated at primorial number initial values.",
+  "id": "A084322",
+  "mentions": [
+    "A001405",
+    "A002110",
+    "A084317",
+    "A084318"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

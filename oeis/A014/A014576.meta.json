@@ -1,0 +1,27 @@
+{
+  "description": "Smallest n-digit narcissistic (or Armstrong) number: smallest n-digit number equal to sum of n-th powers of its digits (or 0 if no such number exists).",
+  "id": "A014576",
+  "mentions": [
+    "A001694",
+    "A003321",
+    "A005188",
+    "A005934",
+    "A007532",
+    "A023052",
+    "A046074"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of positive-definite real {0,1} n X n matrices.",
+  "id": "A085656",
+  "mentions": [
+    "A038379",
+    "A055165",
+    "A080858",
+    "A083029",
+    "A085506",
+    "A085657",
+    "A085658",
+    "A086215"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "14-gonal (or tetradecagonal) numbers: a(n) = n*(6*n-5).",
+  "id": "A051866",
+  "mentions": [
+    "A000217",
+    "A000566",
+    "A001318",
+    "A017533",
+    "A033568",
+    "A195818"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:19",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

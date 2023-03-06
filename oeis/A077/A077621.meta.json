@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree numbers occurring more than once in A076734.",
+  "id": "A077621",
+  "mentions": [
+    "A076734",
+    "A077618",
+    "A077619",
+    "A077620",
+    "A077622"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

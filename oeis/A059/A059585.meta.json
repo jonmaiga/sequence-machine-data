@@ -1,0 +1,21 @@
+{
+  "description": "Number of labeled 3-node T_0-hypergraphs with n hyperedges (empty hyperedges and multiple hyperedges included).",
+  "id": "A059585",
+  "mentions": [
+    "A059084",
+    "A059584",
+    "A059586"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:50:39",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Run lengths of A088023.",
+  "id": "A088742",
+  "mentions": [
+    "A088023",
+    "A088743",
+    "A088744",
+    "A091072"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

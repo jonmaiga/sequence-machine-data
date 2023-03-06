@@ -1,0 +1,21 @@
+{
+  "description": "Number of powers of 2 between (but not including) two consecutive primorials.",
+  "id": "A058033",
+  "mentions": [
+    "A002110",
+    "A045716",
+    "A054850",
+    "A084972"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Multiply by 1, add 1, multiply by 2, add 2, etc., starting with 0.",
+  "id": "A082458",
+  "mentions": [
+    "A007526",
+    "A019460",
+    "A019463",
+    "A019464",
+    "A019465",
+    "A019466",
+    "A038154",
+    "A082448"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

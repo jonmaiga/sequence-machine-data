@@ -1,0 +1,22 @@
+{
+  "description": "Parity of number of distinct primes dividing n (function omega(n)) parity of A001221.",
+  "id": "A092248",
+  "mentions": [
+    "A000035",
+    "A001221",
+    "A156552",
+    "A268411"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:09:49",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

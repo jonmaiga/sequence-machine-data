@@ -1,0 +1,20 @@
+{
+  "description": "Number of different partitions of the set {1, 2, ..., n} into an even number of blocks such that each block contains at least 2 elements.",
+  "id": "A097763",
+  "mentions": [
+    "A000296",
+    "A097762"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

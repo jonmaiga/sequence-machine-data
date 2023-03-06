@@ -1,0 +1,18 @@
+{
+  "description": "Second generation sequence in which each number is skipped that can be written as sum of distinct previous entries. To make the first generation we start with all natural numbers: this gives the powers of 2 (A000079). For the second generation we start with the natural numbers from which are removed the numbers of the first generation.",
+  "id": "A072134",
+  "mentions": [
+    "A000079"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:16:40",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

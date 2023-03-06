@@ -1,0 +1,25 @@
+{
+  "description": "Number of matchings in graph P_{3} X P_{n}.",
+  "id": "A033506",
+  "mentions": [
+    "A030186",
+    "A033507",
+    "A033508",
+    "A033509",
+    "A033510",
+    "A033511",
+    "A100245",
+    "A210662"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

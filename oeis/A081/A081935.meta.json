@@ -1,0 +1,17 @@
+{
+  "description": "Ordered even long legs of primitive Pythagorean triangles.",
+  "id": "A081935",
+  "mentions": [
+    "A020883"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of log(1+tanh(x)*sin(x))/2.",
+  "id": "A024298",
+  "mentions": [
+    "A009396"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:31:05",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

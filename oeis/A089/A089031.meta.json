@@ -1,0 +1,19 @@
+{
+  "description": "Values j in primitive Pythagorean triangles (3i,4j,5k), with 3i",
+  "id": "A089031",
+  "mentions": [
+    "A020882",
+    "A089030",
+    "A089032"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

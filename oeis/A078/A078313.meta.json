@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct prime factors of n*rad(n)+1, where rad=A007947 (squarefree kernel).",
+  "id": "A078313",
+  "mentions": [
+    "A001221",
+    "A007947",
+    "A078310",
+    "A078314",
+    "A078315"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of factorizations into squarefree factors indexed by prime signatures: A050320(A025487).",
+  "id": "A050325",
+  "mentions": [
+    "A025487",
+    "A050320"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

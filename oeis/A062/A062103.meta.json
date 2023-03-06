@@ -1,0 +1,21 @@
+{
+  "description": "Number of paths by which an unpromoted knight (keima) of Shogi can move to various squares on infinite board, if it starts from its origin square, the second leftmost square of the back rank.",
+  "id": "A062103",
+  "mentions": [
+    "A009766",
+    "A049604",
+    "A054425",
+    "A062104"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

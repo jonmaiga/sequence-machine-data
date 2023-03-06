@@ -1,0 +1,19 @@
+{
+  "description": "Sum of primes p satisfying n <= p <= 2n.",
+  "id": "A073837",
+  "mentions": [
+    "A034387",
+    "A073838",
+    "A179213"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

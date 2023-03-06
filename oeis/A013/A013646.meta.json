@@ -1,0 +1,18 @@
+{
+  "description": "Least m such that continued fraction for sqrt(m) has period n.",
+  "id": "A013646",
+  "mentions": [
+    "A215485"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into 10 unordered relatively prime parts.",
+  "id": "A023030",
+  "mentions": [
+    "A282750"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:02",
+    "offset": 10,
+    "size": 49,
+    "source": "joeis"
+  }
+}

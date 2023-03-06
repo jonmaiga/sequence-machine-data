@@ -1,0 +1,16 @@
+{
+  "description": "Numbers whose maximal base-10 run length is 2.",
+  "id": "A033283",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:59",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

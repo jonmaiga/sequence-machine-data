@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sum of n n-th powers starting from n^n.",
+  "id": "A096141",
+  "mentions": [
+    "A031971"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

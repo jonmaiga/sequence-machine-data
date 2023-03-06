@@ -1,0 +1,24 @@
+{
+  "description": "Sum of the first n digits of sqrt(2), including the initial \"1\".",
+  "id": "A099538",
+  "mentions": [
+    "A002193",
+    "A039918",
+    "A046974",
+    "A046975",
+    "A099534",
+    "A099537"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:09:45",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

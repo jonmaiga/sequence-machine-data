@@ -1,0 +1,22 @@
+{
+  "description": "1 iff n-th digit of Pi is >= (n+1)st digit.",
+  "id": "A030658",
+  "mentions": [
+    "A000796",
+    "A095916",
+    "A193496"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:23",
+    "offset": 1,
+    "size": 117,
+    "source": "joeis"
+  }
+}

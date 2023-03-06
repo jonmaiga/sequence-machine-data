@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n = i*p + j*q, where (p,q) is a twin prime pair and i,j>0.",
+  "id": "A087187",
+  "mentions": [
+    "A000607",
+    "A001359",
+    "A006512",
+    "A054735"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

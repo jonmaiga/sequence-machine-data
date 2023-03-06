@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 2^(n-1)*binomial(2n-1, n).",
+  "id": "A069720",
+  "mentions": [
+    "A000079",
+    "A001700",
+    "A003584",
+    "A069723",
+    "A069724",
+    "A082137",
+    "A082143"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

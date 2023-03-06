@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k such that the concatenation k, k+1, k+2 is divisible by n; or 0 if no such number exists.",
+  "id": "A075015",
+  "mentions": [
+    "A075113",
+    "A075114",
+    "A075116",
+    "A075117"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k-almost prime between twin primes (for k >= 2).",
+  "id": "A068525",
+  "mentions": [
+    "A001358",
+    "A001359",
+    "A014574",
+    "A075590"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

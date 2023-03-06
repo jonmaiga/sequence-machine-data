@@ -1,0 +1,18 @@
+{
+  "description": "Phi(prime(n))-prime(phi(n)).",
+  "id": "A036553",
+  "mentions": [
+    "A048849"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:11",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

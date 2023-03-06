@@ -1,0 +1,18 @@
+{
+  "description": "Numbers b such that b+1, b^2+1, b^4+1, b^8+1 and b^16+1 are primes.",
+  "id": "A070694",
+  "mentions": [
+    "A090872",
+    "A235390"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

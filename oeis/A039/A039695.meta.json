@@ -1,0 +1,21 @@
+{
+  "description": "Twin Fibonacci-lucky numbers (middle terms).",
+  "id": "A039695",
+  "mentions": [
+    "A039672",
+    "A039673",
+    "A039693",
+    "A039694"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:12:59",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

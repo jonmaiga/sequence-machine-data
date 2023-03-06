@@ -1,0 +1,18 @@
+{
+  "description": "Inverse Moebius transform of {1, primes}.",
+  "id": "A030014",
+  "mentions": [
+    "A008578"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:45:47",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

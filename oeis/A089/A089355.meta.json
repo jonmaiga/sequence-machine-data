@@ -1,0 +1,19 @@
+{
+  "description": "A quarter-square shaped (A002620) staircase array distributing the frequency of objects counted by A047970.",
+  "id": "A089355",
+  "mentions": [
+    "A002620",
+    "A047970"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

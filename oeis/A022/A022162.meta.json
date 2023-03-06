@@ -1,0 +1,17 @@
+{
+  "description": "First column of spectral array W(sqrt(3/2)).",
+  "id": "A022162",
+  "mentions": [
+    "A022163"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:12:27",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

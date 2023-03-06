@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers n such that number of nonprime d with 0 < d < n, gcd(n,d)=1, is pi(n).",
+  "id": "A049012",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A001221",
+    "A080130"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

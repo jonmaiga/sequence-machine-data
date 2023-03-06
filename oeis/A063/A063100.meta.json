@@ -1,0 +1,20 @@
+{
+  "description": "Compute the cototient function for the g(n) = p(n+1)-p(n)-1 composite numbers between two consecutive primes. Let the number of distinct cototient values be c[n]. Sequence gives g[n]-c[n].",
+  "id": "A063100",
+  "mentions": [
+    "A000010",
+    "A001274",
+    "A051953",
+    "A061106"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

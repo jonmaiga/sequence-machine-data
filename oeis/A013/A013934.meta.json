@@ -1,0 +1,20 @@
+{
+  "description": "Nonsquarefree numbers k such that the sum of all nonsquarefree numbers <= k is nonsquarefree.",
+  "id": "A013934",
+  "mentions": [
+    "A013929",
+    "A013933",
+    "A013935"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

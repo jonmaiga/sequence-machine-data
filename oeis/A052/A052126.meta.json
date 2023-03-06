@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1; for n>1, a(n)=n/(largest prime dividing n).",
+  "id": "A052126",
+  "mentions": [
+    "A000040",
+    "A006530",
+    "A020639",
+    "A032742",
+    "A130065"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

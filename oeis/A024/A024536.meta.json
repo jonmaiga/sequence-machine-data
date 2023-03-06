@@ -1,0 +1,19 @@
+{
+  "description": "[ (4th elementary symmetric function of P(n))/(3rd elementary symmetric function of P(n)) ], where P(n) = {1, p(1), p(2), ..., p(n-1)}, p(0) = 1.",
+  "id": "A024536",
+  "mentions": [
+    "A024523",
+    "A024524"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:03",
+    "offset": 4,
+    "size": 52,
+    "source": "joeis"
+  }
+}

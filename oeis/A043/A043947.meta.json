@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 2 and 5 occur juxtaposed in the base-8 representation of k but not of k+1.",
+  "id": "A043947",
+  "mentions": [
+    "A007094"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:22:09",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

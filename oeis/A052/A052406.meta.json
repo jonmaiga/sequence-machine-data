@@ -1,0 +1,33 @@
+{
+  "description": "Numbers without 4 as a digit.",
+  "id": "A052406",
+  "mentions": [
+    "A004179",
+    "A004723",
+    "A007095",
+    "A011760",
+    "A038612",
+    "A052382",
+    "A052383",
+    "A052404",
+    "A052405",
+    "A052413",
+    "A052414",
+    "A052419",
+    "A052421",
+    "A082833"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

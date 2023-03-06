@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form 2^k or 5*2^k.",
+  "id": "A094958",
+  "mentions": [
+    "A000079",
+    "A005767",
+    "A020714",
+    "A029744",
+    "A029745"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:49:46",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

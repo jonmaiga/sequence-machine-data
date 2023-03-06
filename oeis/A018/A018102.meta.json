@@ -1,0 +1,20 @@
+{
+  "description": "Powers of fourth root of 20 rounded down.",
+  "id": "A018102",
+  "mentions": [
+    "A011016",
+    "A018103",
+    "A018104"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:17:26",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

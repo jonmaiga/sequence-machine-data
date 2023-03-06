@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that there exists a solution to the equation 1 = 1/x_1 + ... + 1/x_k (for any k), 0 < x_1 < ... < x_k = n.",
+  "id": "A092671",
+  "mentions": [
+    "A092669",
+    "A092672",
+    "A093407",
+    "A128253"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

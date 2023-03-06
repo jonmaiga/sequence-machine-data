@@ -1,0 +1,22 @@
+{
+  "description": "Number of primitive Pythagorean triangles with perimeter equal to A002110(n), the product of the first n primes.",
+  "id": "A077177",
+  "mentions": [
+    "A002110",
+    "A070109",
+    "A070826",
+    "A078926"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

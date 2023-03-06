@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n not of the form i^2+(i+1)^2 such that there are integers a < b with a^2+(a+1)^2+...+(n-1)^2 = n^2+(n+1)^2+...+b^2.",
+  "id": "A094523",
+  "mentions": [
+    "A001844",
+    "A094553"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

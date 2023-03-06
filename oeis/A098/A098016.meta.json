@@ -1,0 +1,20 @@
+{
+  "description": "Indices x such that (1/4)(prime(x+1) + prime(x)) is prime.",
+  "id": "A098016",
+  "mentions": [
+    "A000720",
+    "A118134"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

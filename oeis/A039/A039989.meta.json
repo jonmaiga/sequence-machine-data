@@ -1,0 +1,17 @@
+{
+  "description": "k th digit of a(n) is the number of different digits within 3 of k (not including k).",
+  "id": "A039989",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:14",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

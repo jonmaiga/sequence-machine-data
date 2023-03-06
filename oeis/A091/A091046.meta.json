@@ -1,0 +1,21 @@
+{
+  "description": "Stirling transform of first differences of Bell numbers (A005493), if offset zero: a(n) = Sum_{k=1..n} A008277(n,k)*A005493(k).",
+  "id": "A091046",
+  "mentions": [
+    "A000258",
+    "A005493",
+    "A008277",
+    "A039810"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

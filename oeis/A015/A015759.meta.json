@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that phi(k) | sigma_2(k).",
+  "id": "A015759",
+  "mentions": [
+    "A000010",
+    "A001157",
+    "A015765",
+    "A015768",
+    "A093643",
+    "A094470"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

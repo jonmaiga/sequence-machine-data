@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that tau(n)*phi(n) > prime(n) where tau(n) = A000005(n).",
+  "id": "A067892",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

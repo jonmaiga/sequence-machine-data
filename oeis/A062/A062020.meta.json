@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{i=1..n} Sum_{j=1..i} (prime(i) - prime(j)).",
+  "id": "A062020",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A014285",
+    "A062021",
+    "A062022"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

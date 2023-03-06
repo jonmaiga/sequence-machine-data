@@ -1,0 +1,20 @@
+{
+  "description": "Largest prime factor of the denominator of the Bernoulli number B(2*n) (A002445).",
+  "id": "A073409",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A005097"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

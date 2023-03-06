@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of sine of 89 degrees.",
+  "id": "A019898",
+  "mentions": [
+    "A019810"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:04:07",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

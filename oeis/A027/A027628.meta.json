@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Molien series for 5-dimensional group G_3 acting on Jacobi polynomials of ternary self-dual codes.",
+  "id": "A027628",
+  "mentions": [
+    "A027629",
+    "A027630"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:35:31",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

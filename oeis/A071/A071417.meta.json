@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of expected coupon collection numbers rounded up; i.e., if aiming to collect part of a set of n coupons, the expected number of random coupons required to receive first the set with exactly k missing.",
+  "id": "A071417",
+  "mentions": [
+    "A008277",
+    "A008279",
+    "A060293",
+    "A067176"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

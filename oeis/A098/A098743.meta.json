@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n into aliquant parts (i.e., parts that do not divide n).",
+  "id": "A098743",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A002865",
+    "A018818",
+    "A057562",
+    "A200745",
+    "A260797",
+    "A260798"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

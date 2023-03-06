@@ -1,0 +1,33 @@
+{
+  "description": "Period-doubling sequence (or period-doubling word): fixed point of the morphism 0 -> 01, 1 -> 00.",
+  "id": "A096268",
+  "mentions": [
+    "A003159",
+    "A007814",
+    "A035263",
+    "A036554",
+    "A036577",
+    "A048675",
+    "A056832",
+    "A059975",
+    "A071858",
+    "A073059",
+    "A096269",
+    "A096270",
+    "A096271",
+    "A123087",
+    "A220466",
+    "A332813"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

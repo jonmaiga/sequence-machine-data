@@ -1,0 +1,26 @@
+{
+  "description": "Average of smallest prime greater than n^2 and largest prime less than (n+1)^2.",
+  "id": "A056930",
+  "mentions": [
+    "A002378",
+    "A007491",
+    "A053000",
+    "A053001",
+    "A056927",
+    "A056928",
+    "A056929",
+    "A056931"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 16:11:10",
+    "offset": 2,
+    "size": 48,
+    "source": "joeis"
+  }
+}

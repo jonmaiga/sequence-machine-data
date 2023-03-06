@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n^n - 1.",
+  "id": "A048861",
+  "mentions": [
+    "A000312",
+    "A002144",
+    "A014753",
+    "A023037",
+    "A033200",
+    "A048860"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

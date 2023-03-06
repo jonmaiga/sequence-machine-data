@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-celled pseudo still lifes in Conway's Game of Life, up to rotation and reflection.",
+  "id": "A056613",
+  "mentions": [
+    "A019473",
+    "A330283"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

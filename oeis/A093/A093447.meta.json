@@ -1,0 +1,25 @@
+{
+  "description": "Triangle a(n,k) read by rows n which contain columns k=1,2,..,n, where each entry is the product of numbers (k-1)*n-T(k-2)+1 through k*n-T(k-1).",
+  "id": "A093447",
+  "mentions": [
+    "A000142",
+    "A000217",
+    "A001763",
+    "A006963",
+    "A093445",
+    "A093446",
+    "A093448"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

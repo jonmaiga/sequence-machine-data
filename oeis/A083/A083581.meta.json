@@ -1,0 +1,19 @@
+{
+  "description": "8/3-5(-2)^n/3.",
+  "id": "A083581",
+  "mentions": [
+    "A083582"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "A self-generating sequence: there are a(n) (k+1)'s between successive k's, where k=4.",
+  "id": "A018245",
+  "mentions": [
+    "A001468",
+    "A007538"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:53:31",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

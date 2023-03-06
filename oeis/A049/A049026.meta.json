@@ -1,0 +1,19 @@
+{
+  "description": "Greater of amicable pair of Euler's first form with GCD a prime times a power of 2.",
+  "id": "A049026",
+  "mentions": [
+    "A049023",
+    "A049024",
+    "A049025"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

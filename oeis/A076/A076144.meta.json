@@ -1,0 +1,18 @@
+{
+  "description": "Largest squarefree m <= sfn(n) such that m*sfn(n) is also squarefree, where sfn(n) is the n-th squarefree number.",
+  "id": "A076144",
+  "mentions": [
+    "A005117",
+    "A077395"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

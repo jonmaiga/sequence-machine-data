@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{n>=0} n*q^(n^2).",
+  "id": "A037213",
+  "mentions": [
+    "A000196",
+    "A010052"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of subsets of {1, ..., n} containing exactly one twin prime pair.",
+  "id": "A089882",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A071538",
+    "A089827",
+    "A089828",
+    "A089881"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

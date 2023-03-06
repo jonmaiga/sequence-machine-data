@@ -1,0 +1,33 @@
+{
+  "description": "Number of edges in 6-partite Turán graph of order n.",
+  "id": "A033438",
+  "mentions": [
+    "A000212",
+    "A002620",
+    "A007590",
+    "A025708",
+    "A030511",
+    "A033436",
+    "A033437",
+    "A033439",
+    "A033440",
+    "A033441",
+    "A033442",
+    "A033443",
+    "A033444",
+    "A097325",
+    "A184535"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:06:07",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

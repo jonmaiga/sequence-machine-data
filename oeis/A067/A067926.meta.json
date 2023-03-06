@@ -1,0 +1,18 @@
+{
+  "description": "a(n)=phi(n^2+1)/n if (n^2+1) is composite and phi(n^2+1)==0 (mod n).",
+  "id": "A067926",
+  "mentions": [
+    "A066820"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "a(0) = 1; for n>0, a(n) = 1 + coefficient of x^n in expansion of Product_{ n >= 2, n not of the form 2^k-1 } (1+x^n).",
+  "id": "A078661",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "14th powers: a(n) = n^14.",
+  "id": "A010802",
+  "mentions": [
+    "A001015",
+    "A013672"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:07:01",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

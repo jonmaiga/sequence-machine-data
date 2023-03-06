@@ -1,0 +1,17 @@
+{
+  "description": "Column 0 of A048805.",
+  "id": "A048806",
+  "mentions": [
+    "A048805"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:54:19",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients A_n for the s=3 tennis ball problem.",
+  "id": "A075045",
+  "mentions": [
+    "A049235"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:32:51",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

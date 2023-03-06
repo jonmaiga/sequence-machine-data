@@ -1,0 +1,20 @@
+{
+  "description": "A relationship between Pi and the Mandelbrot set. a(n) = number of iterations of z^2 + c that c-values -0.75 + x*i go through before escaping, where x = 10^(-n). Lim_{n->inf} a(n) * x = Pi.",
+  "id": "A097486",
+  "mentions": [
+    "A011545",
+    "A299415",
+    "A300078"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

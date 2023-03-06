@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations of {1,2,...,n} containing exactly 3 occurrences of the 132 pattern.",
+  "id": "A082971",
+  "mentions": [
+    "A002054",
+    "A082970",
+    "A138162",
+    "A138163",
+    "A263771"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 4,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

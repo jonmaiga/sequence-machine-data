@@ -1,0 +1,23 @@
+{
+  "description": "McKay-Thompson series of class 71A for Monster.",
+  "id": "A034322",
+  "mentions": [
+    "A000521",
+    "A007240",
+    "A007241",
+    "A007267",
+    "A014708",
+    "A045478"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:12:33",
+    "offset": -1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = M(n) (mod n) where M(n)=A001006(n) is the n-th Motzkin number.",
+  "id": "A086401",
+  "mentions": [
+    "A001006"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

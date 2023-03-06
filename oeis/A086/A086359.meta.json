@@ -1,0 +1,25 @@
+{
+  "description": "Fixed point if [decimal-digit-sum]-function at initial-value=A000984(n)=C[2n,n] is iterated.",
+  "id": "A086359",
+  "mentions": [
+    "A000984",
+    "A007953",
+    "A010888",
+    "A029898",
+    "A038194",
+    "A086353",
+    "A086361"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

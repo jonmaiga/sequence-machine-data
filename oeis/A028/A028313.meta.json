@@ -1,0 +1,20 @@
+{
+  "description": "Elements in the 5-Pascal triangle (by row).",
+  "id": "A028313",
+  "mentions": [
+    "A028275",
+    "A029653"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:47",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

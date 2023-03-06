@@ -1,0 +1,34 @@
+{
+  "description": "Number of monotone nondecreasing functions [n]->[m] for n >= 0, m >= 0, read by antidiagonals.",
+  "id": "A071919",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000027",
+    "A000110",
+    "A000217",
+    "A000292",
+    "A000332",
+    "A000389",
+    "A007318",
+    "A084938",
+    "A088218",
+    "A110555",
+    "A129186",
+    "A228196",
+    "A228576"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:33:19",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

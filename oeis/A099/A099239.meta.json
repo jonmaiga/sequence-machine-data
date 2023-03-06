@@ -1,0 +1,30 @@
+{
+  "description": "Square array read by antidiagonals associated with sections of 1/(1-x-x^k).",
+  "id": "A099239",
+  "mentions": [
+    "A000012",
+    "A000079",
+    "A001906",
+    "A034856",
+    "A052529",
+    "A055991",
+    "A079675",
+    "A099240",
+    "A099241",
+    "A099242",
+    "A099253"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

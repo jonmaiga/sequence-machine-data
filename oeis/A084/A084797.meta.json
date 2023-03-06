@@ -1,0 +1,20 @@
+{
+  "description": "Greatest number formed by concatenating prime factors of n in base 10.",
+  "id": "A084797",
+  "mentions": [
+    "A073646",
+    "A084796"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

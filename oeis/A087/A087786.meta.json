@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of solutions to x^3 - y^3 == 0 (mod n).",
+  "id": "A087786",
+  "mentions": [
+    "A046530",
+    "A062803",
+    "A087694"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

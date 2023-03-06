@@ -1,0 +1,22 @@
+{
+  "description": "Penholodigital squares: squares containing each of the digits 1..9 exactly once.",
+  "id": "A036744",
+  "mentions": [
+    "A036745",
+    "A071519"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

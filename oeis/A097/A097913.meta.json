@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: (1+x^18)/((1-x)*(1-x^8)*(1-x^12)*(1-x^24)).",
+  "id": "A097913",
+  "mentions": [
+    "A008718"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:10:43",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

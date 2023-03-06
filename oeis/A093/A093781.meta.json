@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the position of the prime 5 in the Euclid-Mullin (EM) sequence of type A000945, if it were started with prime(n) instead of 2.",
+  "id": "A093781",
+  "mentions": [
+    "A000945",
+    "A051308",
+    "A051334",
+    "A056756",
+    "A093777",
+    "A093780",
+    "A093782"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

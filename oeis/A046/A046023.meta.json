@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to color edges of a tetrahedron using <= n colors.",
+  "id": "A046023",
+  "mentions": [
+    "A006008",
+    "A327083"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

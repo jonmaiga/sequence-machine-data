@@ -1,0 +1,23 @@
+{
+  "description": "Number of rooted trees with a forbidden limb of length 6.",
+  "id": "A052329",
+  "mentions": [
+    "A002955",
+    "A002988",
+    "A002992",
+    "A052318",
+    "A052328",
+    "A255636"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

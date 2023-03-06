@@ -1,0 +1,21 @@
+{
+  "description": "Sum of squares of numbers that can be written as t*n + u*(n+1) for nonnegative integers t,u in exactly n ways.",
+  "id": "A076465",
+  "mentions": [
+    "A076389",
+    "A076459",
+    "A076464"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:13:57",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

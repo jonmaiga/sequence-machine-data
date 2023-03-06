@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the n smallest numbers having the sum of their digits equal to n.",
+  "id": "A081928",
+  "mentions": [
+    "A051865",
+    "A081926",
+    "A081927"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

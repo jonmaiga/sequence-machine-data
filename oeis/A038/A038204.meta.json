@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that factorials have exactly n distinct residues mod k.",
+  "id": "A038204",
+  "mentions": [
+    "A038203"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

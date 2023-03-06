@@ -1,0 +1,23 @@
+{
+  "description": "Permutation A057506 applied six times (\"^6\"), permutation A071662 cubed, permutation A071664 squared.",
+  "id": "A071670",
+  "mentions": [
+    "A057163",
+    "A057506",
+    "A071662",
+    "A071664",
+    "A071666",
+    "A071668",
+    "A071669"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

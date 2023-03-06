@@ -1,0 +1,25 @@
+{
+  "description": "Members of the difference sequence (A091381) of the sequence of largest quadratic \"mixed\" residues modulo the primes (A091380) where the latter is non-monotonic.",
+  "id": "A091384",
+  "mentions": [
+    "A088190",
+    "A088196",
+    "A088200",
+    "A091380",
+    "A091381",
+    "A091382",
+    "A091383",
+    "A091385"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

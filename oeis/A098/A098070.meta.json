@@ -1,0 +1,20 @@
+{
+  "description": "Consider a single king on an infinite chessboard. This sequence gives number of n-move paths when king starting at origin reaches the origin again for the first time at step n.",
+  "id": "A098070",
+  "mentions": [
+    "A001620",
+    "A054474",
+    "A094061"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

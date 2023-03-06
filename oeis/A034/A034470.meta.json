@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers using only the curved digits 0, 2, 3, 5, 6, 8 and 9.",
+  "id": "A034470",
+  "mentions": [
+    "A000040",
+    "A028374",
+    "A072960",
+    "A079652"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

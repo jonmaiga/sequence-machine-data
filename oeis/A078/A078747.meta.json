@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Sum_{k>0} k*phi(k)*x^k/(1+x^k).",
+  "id": "A078747",
+  "mentions": [
+    "A000010",
+    "A057660",
+    "A240976",
+    "A299069"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

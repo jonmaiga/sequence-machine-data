@@ -1,0 +1,21 @@
+{
+  "description": "Maximal number of distinct nonempty substrings of any binary string of length n.",
+  "id": "A094913",
+  "mentions": [
+    "A006697",
+    "A103354",
+    "A134457",
+    "A134466"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

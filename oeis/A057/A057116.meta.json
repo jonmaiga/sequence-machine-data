@@ -1,0 +1,16 @@
+{
+  "description": "k = a*b where ab is cyclic permutation of the digits of k.",
+  "id": "A057116",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

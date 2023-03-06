@@ -1,0 +1,21 @@
+{
+  "description": "Number of (binary) bit strings of length n having at least one even length block of 0's followed by an even length block of 1's.",
+  "id": "A065497",
+  "mentions": [
+    "A065455",
+    "A065494",
+    "A065495"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:46:44",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

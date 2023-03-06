@@ -1,0 +1,18 @@
+{
+  "description": "Row 7 of square array defined in A047662.",
+  "id": "A047664",
+  "mentions": [
+    "A047662"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:21:57",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

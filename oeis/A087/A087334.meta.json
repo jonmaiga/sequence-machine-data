@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 3, then smallest number such that every partial product + 1 is a distinct square.",
+  "id": "A087334",
+  "mentions": [
+    "A068559",
+    "A087335"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

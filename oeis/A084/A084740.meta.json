@@ -1,0 +1,31 @@
+{
+  "description": "Least k such that (n^k-1)/(n-1) is prime, or 0 if no such prime exists.",
+  "id": "A084740",
+  "mentions": [
+    "A006093",
+    "A065507",
+    "A065854",
+    "A066180",
+    "A084738",
+    "A084742",
+    "A085398",
+    "A096059",
+    "A103795",
+    "A123487",
+    "A123627",
+    "A126659",
+    "A128164",
+    "A246005"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 115,
+    "source": "oeis-entry"
+  }
+}

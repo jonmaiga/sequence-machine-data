@@ -1,0 +1,19 @@
+{
+  "description": "A fourth order generalization of the Mobius function of n.",
+  "id": "A053981",
+  "mentions": [
+    "A008683",
+    "A053864",
+    "A053865"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:14:47",
+    "offset": 1,
+    "size": 93,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of inequivalent indecomposable binary linear [n,k] codes with no column of zeros of any dimension k <= n.",
+  "id": "A076836",
+  "mentions": [
+    "A034254"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

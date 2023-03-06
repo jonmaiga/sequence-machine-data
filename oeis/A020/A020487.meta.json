@@ -1,0 +1,22 @@
+{
+  "description": "Antiharmonic numbers: numbers n such that sigma_1(n) divides sigma_2(n).",
+  "id": "A020487",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A227771",
+    "A228023",
+    "A228024",
+    "A228036"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

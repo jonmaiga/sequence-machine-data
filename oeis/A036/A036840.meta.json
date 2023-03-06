@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the average of the repeating terms of {T(n,k)} rounded to the nearest integer (rounding up if there's a choice), if {T(n,k)} is eventually periodic; = 0 otherwise. Here T(n,k) is the \"phi/sigma tug-of-war sequence with seed n\" defined by T(n,1) = phi(n), T(n,2) = sigma(phi(n)), T(n,3) = phi(sigma(phi(n))), ..., T(n,k) = phi(T(n,k-1)) if k is odd and = sigma(T(n,k-1)) if k is even.",
+  "id": "A036840",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A036845",
+    "A066437",
+    "A095955",
+    "A096993"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

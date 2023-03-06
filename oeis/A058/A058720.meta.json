@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(n,k) giving the number of simple matroids of rank k on n labeled points (n >= 2, 2 <= k <= n).",
+  "id": "A058720",
+  "mentions": [
+    "A000012",
+    "A000110",
+    "A002662",
+    "A056642",
+    "A058710",
+    "A058711",
+    "A058716",
+    "A058721",
+    "A058722",
+    "A058730",
+    "A100728"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

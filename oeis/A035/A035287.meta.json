@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to place a non-attacking white and black rook on n X n chessboard.",
+  "id": "A035287",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000537",
+    "A002378",
+    "A005408",
+    "A145426",
+    "A162990",
+    "A163102"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:18:55",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

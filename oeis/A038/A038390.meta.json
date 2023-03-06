@@ -1,0 +1,19 @@
+{
+  "description": "Bisection of A028289.",
+  "id": "A038390",
+  "mentions": [
+    "A028289"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:38:25",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

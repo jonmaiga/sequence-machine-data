@@ -1,0 +1,24 @@
+{
+  "description": "Number of diagonal polyominoes with n cells.",
+  "id": "A056841",
+  "mentions": [
+    "A019988",
+    "A056787",
+    "A056840",
+    "A348095"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

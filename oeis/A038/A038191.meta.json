@@ -1,0 +1,18 @@
+{
+  "description": "A034166/2.",
+  "id": "A038191",
+  "mentions": [
+    "A034166"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

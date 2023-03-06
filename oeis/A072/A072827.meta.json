@@ -1,0 +1,33 @@
+{
+  "description": "Number of permutations satisfying i-2<=p(i)<=i+3, i=1..n.",
+  "id": "A072827",
+  "mentions": [
+    "A002524",
+    "A002525",
+    "A002526",
+    "A002527",
+    "A002528",
+    "A002529",
+    "A072850",
+    "A072851",
+    "A072852",
+    "A072853",
+    "A072854",
+    "A072855",
+    "A072856",
+    "A079955",
+    "A080014"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "First number in a sequence of 4 consecutive economical numbers.",
+  "id": "A079323",
+  "mentions": [
+    "A047738"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

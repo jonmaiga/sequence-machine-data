@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (5 - 9*x + 6*x^2)/(1-x)^4.",
+  "id": "A080957",
+  "mentions": [
+    "A080956",
+    "A117951"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the levels of all nodes in all noncrossing trees with n edges.",
+  "id": "A062236",
+  "mentions": [
+    "A001764",
+    "A358091"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

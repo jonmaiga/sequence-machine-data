@@ -1,0 +1,19 @@
+{
+  "description": "Sum of distinct prime divisors of prime(n)-3.",
+  "id": "A023573",
+  "mentions": [
+    "A000040",
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:18:47",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

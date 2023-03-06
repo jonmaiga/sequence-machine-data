@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form k^2 - 2.",
+  "id": "A028871",
+  "mentions": [
+    "A008865",
+    "A010051",
+    "A028870",
+    "A089623",
+    "A094786"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

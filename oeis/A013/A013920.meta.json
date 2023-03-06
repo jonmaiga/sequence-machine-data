@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers k such that the sum of all composites <= k is composite.",
+  "id": "A013920",
+  "mentions": [
+    "A013919",
+    "A013921"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:38:05",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "One quarter of deca-factorial numbers.",
+  "id": "A035273",
+  "mentions": [
+    "A034323",
+    "A035272",
+    "A035274",
+    "A035275",
+    "A035276",
+    "A035277",
+    "A035278",
+    "A035279",
+    "A045757"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

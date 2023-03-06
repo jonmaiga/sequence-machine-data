@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k), n >= 2, n+1 <= k <= 2*n-1, number of permutations p of 1,...,n, with max(p(i)+p(i-1), i=2..n) = k.",
+  "id": "A064484",
+  "mentions": [
+    "A000142",
+    "A052849"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

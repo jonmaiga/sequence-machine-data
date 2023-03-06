@@ -1,0 +1,16 @@
+{
+  "description": "Number of steps needed to reach a prime when the following map is repeatedly applied to n: if n is even then 2n + POD(n) + 1, otherwise 2n - POD(n) - 1, where POD(n) is the product of the digits of n; or -1 if no prime is ever reached.",
+  "id": "A074807",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

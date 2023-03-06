@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T read by rows: dot product * .",
+  "id": "A094414",
+  "mentions": [
+    "A000330",
+    "A000537",
+    "A006527",
+    "A026037",
+    "A026040",
+    "A026043",
+    "A026046",
+    "A026049",
+    "A088003",
+    "A094415"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

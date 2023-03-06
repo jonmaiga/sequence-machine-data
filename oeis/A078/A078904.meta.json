@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4a(n-1) + 3n with a(0) = 0.",
+  "id": "A078904",
+  "mentions": [
+    "A014825",
+    "A078903"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:35:14",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

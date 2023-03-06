@@ -1,0 +1,20 @@
+{
+  "description": "Products of consecutive members of A090206 (nonprime Fibonacci numbers).",
+  "id": "A090228",
+  "mentions": [
+    "A000045",
+    "A090206"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

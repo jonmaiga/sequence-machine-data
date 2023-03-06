@@ -1,0 +1,19 @@
+{
+  "description": "Values of n at which the ratio A005132(n)/n sets a new record.",
+  "id": "A064622",
+  "mentions": [
+    "A005132",
+    "A064621"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{d|n} phi(d)^2.",
+  "id": "A029939",
+  "mentions": [
+    "A000010",
+    "A051731",
+    "A062367",
+    "A065463",
+    "A127473",
+    "A253905"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

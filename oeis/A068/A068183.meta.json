@@ -1,0 +1,27 @@
+{
+  "description": "Largest number without decimal digits equal to 1 whose product of digits gives n!.",
+  "id": "A068183",
+  "mentions": [
+    "A000142",
+    "A001222",
+    "A002473",
+    "A067734",
+    "A068187",
+    "A068189",
+    "A068191"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

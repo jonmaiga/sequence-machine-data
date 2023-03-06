@@ -1,0 +1,21 @@
+{
+  "description": "Difference in count of primes <= mean and > mean below 10^n in A092849 and A092850.",
+  "id": "A092851",
+  "mentions": [
+    "A092800",
+    "A092849",
+    "A092850"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

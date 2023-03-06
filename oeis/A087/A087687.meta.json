@@ -1,0 +1,22 @@
+{
+  "description": "Number of solutions to x^2 + y^2 + z^2 == 0 (mod n).",
+  "id": "A087687",
+  "mentions": [
+    "A062775",
+    "A064549",
+    "A086933"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "look",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

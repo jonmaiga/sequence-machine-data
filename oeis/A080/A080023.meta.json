@@ -1,0 +1,20 @@
+{
+  "description": "log_phi(n) is closer to an integer than is log_phi(m) for any m with 2<=m",
+  "id": "A080023",
+  "mentions": [
+    "A000032",
+    "A080021",
+    "A080022"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

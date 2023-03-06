@@ -1,0 +1,24 @@
+{
+  "description": "Divisors of 28.",
+  "id": "A018254",
+  "mentions": [
+    "A000396",
+    "A000668",
+    "A135652",
+    "A161713"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

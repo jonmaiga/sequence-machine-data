@@ -1,0 +1,17 @@
+{
+  "description": "Natural numbers written out with their digits grouped in sets of 5 (leading zeros omitted).",
+  "id": "A091341",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

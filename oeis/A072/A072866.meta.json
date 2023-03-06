@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k > 1 dividing tau(k*2^n) (cf. A000005).",
+  "id": "A072866",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

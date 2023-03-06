@@ -1,0 +1,21 @@
+{
+  "description": "Number of 2n-move sequences on the 3 X 3 X 3 Rubik's Cube (only quarter-twists count as moves) that leave the cube unchanged.",
+  "id": "A060010",
+  "mentions": [
+    "A054434",
+    "A061713",
+    "A080602"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "description": "Number of trailing zeros in n!; highest power of 5 dividing n!.",
+  "id": "A027868",
+  "mentions": [
+    "A000142",
+    "A000351",
+    "A000966",
+    "A003463",
+    "A004154",
+    "A007091",
+    "A007953",
+    "A008904",
+    "A011371",
+    "A027869",
+    "A053824",
+    "A054861",
+    "A054899",
+    "A054999",
+    "A067080",
+    "A098844",
+    "A112765",
+    "A132027",
+    "A132029",
+    "A191610"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = (1/40320)*8^n + (1/1440)*6^n + (1/360)*5^n + (1/64)*4^n + (11/180)*3^n + (53/288)*2^n + 103/280. Partial sum of Stirling numbers of second kind S(n,i), i=1..8 (i.e., a(n) = Sum_{i=1..8} S(n,i)).",
+  "id": "A099263",
+  "mentions": [
+    "A007051",
+    "A007581",
+    "A008277",
+    "A056272",
+    "A056273",
+    "A099262",
+    "A248925",
+    "A278984"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

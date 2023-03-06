@@ -1,0 +1,30 @@
+{
+  "description": "Fourth power of Fibonacci numbers A000045.",
+  "id": "A056571",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001622",
+    "A001906",
+    "A005248",
+    "A005969",
+    "A007598",
+    "A055870",
+    "A056570",
+    "A056588",
+    "A103323",
+    "A244855"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

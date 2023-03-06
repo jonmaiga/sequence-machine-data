@@ -1,0 +1,18 @@
+{
+  "description": "Twin even-lucky-numbers: middle terms.",
+  "id": "A045957",
+  "mentions": [
+    "A045954"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:27:27",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

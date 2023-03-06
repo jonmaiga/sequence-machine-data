@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic groupoids with no idempotents.",
+  "id": "A030250",
+  "mentions": [
+    "A001329",
+    "A038018"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

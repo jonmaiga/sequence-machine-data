@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=M(n,2)/M(n,1)^2 (see comment).",
+  "id": "A096348",
+  "mentions": [
+    "A096313"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

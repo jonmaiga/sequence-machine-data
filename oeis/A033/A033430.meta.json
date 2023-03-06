@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 4*n^3.",
+  "id": "A033430",
+  "mentions": [
+    "A000292",
+    "A000578",
+    "A001792",
+    "A007588",
+    "A049451",
+    "A280089"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:06:07",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

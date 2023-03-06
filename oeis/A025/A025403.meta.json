@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are the sum of 4 positive cubes in exactly 1 way.",
+  "id": "A025403",
+  "mentions": [
+    "A003327",
+    "A025357",
+    "A025395",
+    "A025399",
+    "A025404",
+    "A025457",
+    "A048926",
+    "A344189"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:28:33",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Square array giving Ramanujan sum T(n,k) = c_k(n) = Sum_{m=1..k, (m,k)=1} exp(2 Pi i m n / k), read by antidiagonals upwards (n >= 1, k >= 1).",
+  "id": "A054534",
+  "mentions": [
+    "A000010",
+    "A008683",
+    "A033999",
+    "A054532",
+    "A054533",
+    "A054535",
+    "A058384",
+    "A062570",
+    "A085097",
+    "A085384",
+    "A085639",
+    "A085906",
+    "A086831",
+    "A099837",
+    "A100051",
+    "A176742",
+    "A282634"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:19:47",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least k such that Mersenne-prime(n)*prime(k)# + 1 is prime, where prime(k)# is the k-th primorial.",
+  "id": "A098571",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A002110",
+    "A098570"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

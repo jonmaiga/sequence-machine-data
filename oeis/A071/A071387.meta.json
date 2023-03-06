@@ -1,0 +1,24 @@
+{
+  "description": "Smallest number for which InvPhi-Set has 2n-1 entries.",
+  "id": "A071387",
+  "mentions": [
+    "A000010",
+    "A014197",
+    "A058277",
+    "A063512",
+    "A071386",
+    "A071388",
+    "A071389"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

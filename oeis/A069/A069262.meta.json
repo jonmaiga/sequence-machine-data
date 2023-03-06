@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 4*prime(n)^2.",
+  "id": "A069262",
+  "mentions": [
+    "A001248",
+    "A048272"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:42:03",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

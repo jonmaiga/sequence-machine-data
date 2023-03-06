@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n,k) of number of minimal 4-covers of a labeled n-set that cover k points of that set uniquely (k=4,..,n).",
+  "id": "A057965",
+  "mentions": [
+    "A016111",
+    "A035347",
+    "A057669",
+    "A057963",
+    "A057964",
+    "A057966",
+    "A057967",
+    "A057968"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 4,
+    "size": 29,
+    "source": "joeis"
+  }
+}

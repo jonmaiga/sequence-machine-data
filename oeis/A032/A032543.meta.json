@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that, when expressed in base 5 and then interpreted in base 10, yield a multiple of the original number.",
+  "id": "A032543",
+  "mentions": [
+    "A007091",
+    "A032542",
+    "A032544"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

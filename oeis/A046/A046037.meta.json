@@ -1,0 +1,15 @@
+{
+  "description": "Numbers n for which floor((3/2)^n) is composite.",
+  "id": "A046037",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

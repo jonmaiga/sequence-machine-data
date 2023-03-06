@@ -1,0 +1,19 @@
+{
+  "description": "Enumeration of all numbers with no repeated digits, and all digits > 0. If the digits of n are k_1, ..., k_m, sort first by 2^k_1 + ... + 2^k_m, then by n.",
+  "id": "A096108",
+  "mentions": [
+    "A010784"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

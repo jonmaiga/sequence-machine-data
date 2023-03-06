@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of a(n,m) = number of m-member minimal T_0-covers of an n-set (n >= 0, 0<= m <=n).",
+  "id": "A094544",
+  "mentions": [
+    "A035348",
+    "A046165",
+    "A094545",
+    "A094546"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

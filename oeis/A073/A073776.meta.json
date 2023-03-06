@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=1..n} -mu(k+1) * a(n-k), with a(0)=1.",
+  "id": "A073776",
+  "mentions": [
+    "A008683",
+    "A068341",
+    "A070965",
+    "A073777",
+    "A157658",
+    "A185694"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

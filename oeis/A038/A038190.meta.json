@@ -1,0 +1,18 @@
+{
+  "description": "Pagoda sequence: a(0) = b(n)-b(n-2) mod 3, where b(n) = A038189(n).",
+  "id": "A038190",
+  "mentions": [
+    "A038189"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:37:53",
+    "offset": -2,
+    "size": 108,
+    "source": "joeis"
+  }
+}

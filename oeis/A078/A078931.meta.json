@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k that divide prime(k)+1 or prime(k)-1.",
+  "id": "A078931",
+  "mentions": [
+    "A000720",
+    "A023143",
+    "A045924",
+    "A162567"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

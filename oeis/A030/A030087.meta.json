@@ -1,0 +1,20 @@
+{
+  "description": "Primes such that digits of p do not appear in p^3.",
+  "id": "A030087",
+  "mentions": [
+    "A029785",
+    "A030086",
+    "A253574"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

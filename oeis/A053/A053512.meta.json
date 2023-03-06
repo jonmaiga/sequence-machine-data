@@ -1,0 +1,19 @@
+{
+  "description": "Half the number of non-self-intersecting paths from one corner of an n X n grid to the opposite corner.",
+  "id": "A053512",
+  "mentions": [
+    "A007764"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:09:55",
+    "offset": 2,
+    "size": 13,
+    "source": "joeis"
+  }
+}

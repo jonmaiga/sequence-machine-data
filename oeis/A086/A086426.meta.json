@@ -1,0 +1,27 @@
+{
+  "description": "Permutation of natural numbers induced by the Catalan bijection gma086426 acting on symbolless S-expressions encoded by A014486/A063171.",
+  "id": "A086426",
+  "mentions": [
+    "A014486",
+    "A057164",
+    "A063171",
+    "A073200",
+    "A074683",
+    "A086425",
+    "A086427",
+    "A086428",
+    "A086429",
+    "A086430",
+    "A086431"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers such that smallest prime factor, largest prime factor and sum of prime factors (with repetition) are all a sum of two squares.",
+  "id": "A071966",
+  "mentions": [
+    "A001414",
+    "A001481",
+    "A002808",
+    "A006530",
+    "A020639"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

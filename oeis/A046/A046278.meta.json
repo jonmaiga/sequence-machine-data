@@ -1,0 +1,20 @@
+{
+  "description": "Concatenate lucky numbers.",
+  "id": "A046278",
+  "mentions": [
+    "A000959",
+    "A019518"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:23:47",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

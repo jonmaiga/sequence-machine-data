@@ -1,0 +1,21 @@
+{
+  "description": "A nonlinear recurrence of order 3: a(1)=a(2)=a(3)=1; a(n)=(a(n-1)+a(n-2))^2/a(n-3).",
+  "id": "A072882",
+  "mentions": [
+    "A064098",
+    "A276095",
+    "A276097"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

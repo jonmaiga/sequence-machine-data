@@ -1,0 +1,23 @@
+{
+  "description": "13*n digit-reversed mod 13.",
+  "id": "A084341",
+  "mentions": [
+    "A084052",
+    "A084053",
+    "A084054",
+    "A084055",
+    "A084339",
+    "A084340"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

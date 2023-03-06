@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into parts not less than the smallest prime factor of n.",
+  "id": "A097360",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A020639",
+    "A097359"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

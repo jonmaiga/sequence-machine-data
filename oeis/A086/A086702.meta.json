@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Lévy's constant.",
+  "id": "A086702",
+  "mentions": [
+    "A002210"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

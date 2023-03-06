@@ -1,0 +1,21 @@
+{
+  "description": "Number of independent subsets of 5^n cube (P_5 X ... X P_5).",
+  "id": "A027680",
+  "mentions": [
+    "A027624",
+    "A027667",
+    "A027668"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

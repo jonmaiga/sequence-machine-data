@@ -1,0 +1,24 @@
+{
+  "description": "\"DIK\" (bracelet, indistinct, unlabeled) transform of 1,2,3,4,...",
+  "id": "A032287",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001906",
+    "A005594",
+    "A032198",
+    "A088305",
+    "A308747"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:30:46",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

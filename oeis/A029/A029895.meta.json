@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of floor(n^2/2) with at most n parts and maximal height n.",
+  "id": "A029895",
+  "mentions": [
+    "A000569",
+    "A004250",
+    "A004251",
+    "A029889",
+    "A047993",
+    "A067059",
+    "A068606",
+    "A068607",
+    "A277218"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

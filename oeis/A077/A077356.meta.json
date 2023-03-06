@@ -1,0 +1,19 @@
+{
+  "description": "Squares whose external digits (MSD and LSD) form a square. Or squares from which deleting the internal digits leaves a square.",
+  "id": "A077356",
+  "mentions": [
+    "A077355",
+    "A077357"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

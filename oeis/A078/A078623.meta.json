@@ -1,0 +1,22 @@
+{
+  "description": "Number of matched parentheses and brackets of length n, where a closing bracket will close any remaining open parentheses back to the matching open bracket (as in some versions of LISP).",
+  "id": "A078623",
+  "mentions": [
+    "A000108",
+    "A001003",
+    "A001006",
+    "A108447"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

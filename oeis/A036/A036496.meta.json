@@ -1,0 +1,21 @@
+{
+  "description": "Number of lines that intersect the first n points on a spiral on a triangular lattice. The spiral starts at (0,0), goes to (1,0) and (1/2, sqrt(3)/2) and continues counterclockwise.",
+  "id": "A036496",
+  "mentions": [
+    "A001399",
+    "A038147"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:26:27",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

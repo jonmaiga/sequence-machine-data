@@ -1,0 +1,21 @@
+{
+  "description": "Grundy function for turn-at-most-9-coins game.",
+  "id": "A054046",
+  "mentions": [
+    "A000069",
+    "A033623",
+    "A054016",
+    "A054047"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

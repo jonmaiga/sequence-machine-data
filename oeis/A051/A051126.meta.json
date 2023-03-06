@@ -1,0 +1,26 @@
+{
+  "description": "Table T(n,k) = n mod k read by antidiagonals (n >= 1, k >= 1).",
+  "id": "A051126",
+  "mentions": [
+    "A002260",
+    "A004736",
+    "A048158",
+    "A051127",
+    "A051777",
+    "A051778"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:54:01",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

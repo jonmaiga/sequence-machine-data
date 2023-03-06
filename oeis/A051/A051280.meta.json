@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n = k/d(k) has exactly 3 solutions, where d(k) = number of divisors of k.",
+  "id": "A051280",
+  "mentions": [
+    "A033950",
+    "A036763",
+    "A051278",
+    "A051279",
+    "A051346"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of labeled forests of n nodes each component of which is a path.",
+  "id": "A011800",
+  "mentions": [
+    "A003724",
+    "A201720"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

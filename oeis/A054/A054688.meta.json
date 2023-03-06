@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonnegative integer n X n matrices with sum of elements equal to n; polynomial symmetric functions of matrix of order n.",
+  "id": "A054688",
+  "mentions": [
+    "A001700",
+    "A007716"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

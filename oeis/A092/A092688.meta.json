@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of triangle A092686, in which the convolution of each row with {1,2} produces a triangle that, when flattened, equals the flattened form of A092686.",
+  "id": "A092688",
+  "mentions": [
+    "A092683",
+    "A092686",
+    "A092687",
+    "A092689"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

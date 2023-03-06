@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for Wallis' number (A007493).",
+  "id": "A058297",
+  "mentions": [
+    "A007493"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

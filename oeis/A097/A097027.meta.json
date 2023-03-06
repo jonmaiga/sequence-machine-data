@@ -1,0 +1,20 @@
+{
+  "description": "Function f(x) = phi(x) + floor(x/2) is iterated; a(n) is the length of transient if the iteration was initiated at n.",
+  "id": "A097027",
+  "mentions": [
+    "A000010",
+    "A097026",
+    "A097028",
+    "A097029"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

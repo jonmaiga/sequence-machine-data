@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = prime(A001511(n)), where A001511 is one more than the 2-adic valuation of n.",
+  "id": "A094290",
+  "mentions": [
+    "A000040",
+    "A001511",
+    "A115364"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

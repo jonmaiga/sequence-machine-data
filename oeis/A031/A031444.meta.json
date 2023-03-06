@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose base-2 representation has one more 0 than 1's.",
+  "id": "A031444",
+  "mentions": [
+    "A000120",
+    "A007088",
+    "A031448",
+    "A037861",
+    "A089648",
+    "A095072"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

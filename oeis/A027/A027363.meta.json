@@ -1,0 +1,20 @@
+{
+  "description": "Generalizing the 27 lines on a cubic surface: number of lines on the generic hypersurface of degree 2n-1 in complex projective (n+1)-space.",
+  "id": "A027363",
+  "mentions": [
+    "A013587",
+    "A076912"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

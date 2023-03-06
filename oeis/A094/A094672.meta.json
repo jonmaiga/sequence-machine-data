@@ -1,0 +1,17 @@
+{
+  "description": "Values of n such that one or more ending terms of the lexicographically earliest squarefree ternary word (LMSFTW) of length n differ(s) from the first n terms of the LMSFTW of length n+1.",
+  "id": "A094672",
+  "mentions": [
+    "A085794"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

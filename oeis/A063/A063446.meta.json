@@ -1,0 +1,17 @@
+{
+  "description": "Integers m such that d(m+1) = 2d(m) where d=A000005.",
+  "id": "A063446",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

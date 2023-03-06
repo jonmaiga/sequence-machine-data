@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which 3 | p(k), where p(k) = A000041(k) is the k-th partition number.",
+  "id": "A083214",
+  "mentions": [
+    "A000041",
+    "A087183",
+    "A243935"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 15:56:56",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

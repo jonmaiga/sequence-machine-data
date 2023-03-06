@@ -1,0 +1,20 @@
+{
+  "description": "Terms of A062273 which are multiples of their indices.",
+  "id": "A077578",
+  "mentions": [
+    "A062273",
+    "A077577",
+    "A077579"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

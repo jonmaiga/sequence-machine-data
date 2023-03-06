@@ -1,0 +1,15 @@
+{
+  "description": "exp(tanh(x)+log(x+1))=1+2*x+3/2!*x^2+2/3!*x^3-11/4!*x^4-38/5!*x^5...",
+  "id": "A013117",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:55",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

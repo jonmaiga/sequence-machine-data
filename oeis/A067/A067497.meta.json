@@ -1,0 +1,24 @@
+{
+  "description": "Smallest power of 2 with n+1 digits (n>=0). Also numbers k such that 1 is the first digit of 2^k.",
+  "id": "A067497",
+  "mentions": [
+    "A000079",
+    "A007524",
+    "A066343",
+    "A067480",
+    "A129344"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:28",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

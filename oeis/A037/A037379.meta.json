@@ -1,0 +1,24 @@
+{
+  "description": "Positive numbers k such that every base-2 digit of k is a base-10 digit of k.",
+  "id": "A037379",
+  "mentions": [
+    "A037372",
+    "A037373",
+    "A037374",
+    "A037375",
+    "A037376",
+    "A037377",
+    "A037378"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

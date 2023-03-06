@@ -1,0 +1,23 @@
+{
+  "description": "Autobiographical numbers (or curious numbers): list of numbers m = x_0 x_1 x_2 ... x_{b-1} (written in base b) such that x_i is the number of \"digits\" in m that are equal to i, for all i=0,...,b-1.",
+  "id": "A046043",
+  "mentions": [
+    "A047841",
+    "A138480",
+    "A359049"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

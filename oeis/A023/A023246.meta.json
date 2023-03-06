@@ -1,0 +1,17 @@
+{
+  "description": "Primes that remain prime through 2 iterations of the function f(x) = 3*x + 2.",
+  "id": "A023246",
+  "mentions": [
+    "A023208"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

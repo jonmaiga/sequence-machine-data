@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1-5x)/((1-6x)(1-7x)).",
+  "id": "A085353",
+  "mentions": [
+    "A000400",
+    "A000420",
+    "A085352"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:39:42",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Square array a(m,n) read by antidiagonals, where a(m,n) = sum(a(m-k,n), k=1..m-1) + sum(a(m,n-k), k=1..n-1).",
+  "id": "A035002",
+  "mentions": [
+    "A011782",
+    "A025192",
+    "A035001",
+    "A051708"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

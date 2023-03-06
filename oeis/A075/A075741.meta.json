@@ -1,0 +1,17 @@
+{
+  "description": "Smallest a(n)>2 such that all integers strictly between a(n)-n and a(n) are composite.",
+  "id": "A075741",
+  "mentions": [
+    "A000101"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A055229(n) = 2.",
+  "id": "A056196",
+  "mentions": [
+    "A036966",
+    "A055229",
+    "A065465"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

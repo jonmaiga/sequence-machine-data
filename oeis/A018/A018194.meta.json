@@ -1,0 +1,18 @@
+{
+  "description": "Number of steps for S(S(..S(n)..)) to converge, where S is the Kempner function A002034.",
+  "id": "A018194",
+  "mentions": [
+    "A002034",
+    "A046022"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

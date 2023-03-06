@@ -1,0 +1,19 @@
+{
+  "description": "Composite k such that Fibonacci(k) == Legendre(k,5) == 1 (mod k).",
+  "id": "A093372",
+  "mentions": [
+    "A049062",
+    "A090820",
+    "A094063"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

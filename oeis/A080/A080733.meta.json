@@ -1,0 +1,20 @@
+{
+  "description": "Smallest distance from n to a squarefree number.",
+  "id": "A080733",
+  "mentions": [
+    "A005117",
+    "A051699",
+    "A081221"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

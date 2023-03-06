@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the sum of smallest prime factors of numbers from 1 to n is divisible by n.",
+  "id": "A088824",
+  "mentions": [
+    "A088821",
+    "A088825"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

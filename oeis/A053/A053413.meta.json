@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form A003266(n) + 1.",
+  "id": "A053413",
+  "mentions": [
+    "A003266",
+    "A053408",
+    "A059709"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

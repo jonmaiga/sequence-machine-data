@@ -1,0 +1,21 @@
+{
+  "description": "Palindromic primes that yield a prime when sandwiched between two 1's. (Prefixing and suffixing a 1 on both sides yields another palindromic prime.)",
+  "id": "A088269",
+  "mentions": [
+    "A002385",
+    "A088270",
+    "A088271",
+    "A088272"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

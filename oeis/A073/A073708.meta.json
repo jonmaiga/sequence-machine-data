@@ -1,0 +1,21 @@
+{
+  "description": "Generating function A(x) satisfies A(x) = (1+x)^2*A(x^2)^2, with A(0)=1.",
+  "id": "A073708",
+  "mentions": [
+    "A073707",
+    "A073709",
+    "A073710"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:12:51",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

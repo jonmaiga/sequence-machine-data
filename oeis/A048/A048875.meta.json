@@ -1,0 +1,25 @@
+{
+  "description": "Generalized Pellian with second term of 6.",
+  "id": "A048875",
+  "mentions": [
+    "A001076",
+    "A001077",
+    "A015448",
+    "A033887",
+    "A097924",
+    "A134418"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

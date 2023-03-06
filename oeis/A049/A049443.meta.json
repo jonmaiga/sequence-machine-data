@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sum of consecutive primes to p is pandigital (includes all 10 digits exactly once).",
+  "id": "A049443",
+  "mentions": [
+    "A049442"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

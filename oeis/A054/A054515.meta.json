@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to place non-intersecting diagonals in convex (n+2)-gon so as to create no quadrilaterals.",
+  "id": "A054515",
+  "mentions": [
+    "A003168",
+    "A046736",
+    "A049124",
+    "A054514",
+    "A348479"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:43:58",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

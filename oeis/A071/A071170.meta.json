@@ -1,0 +1,21 @@
+{
+  "description": "n-th prime reduced modulo sigma(n).",
+  "id": "A071170",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A067696",
+    "A067697"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:11",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

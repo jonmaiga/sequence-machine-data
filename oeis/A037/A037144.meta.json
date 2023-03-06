@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with at most 3 prime factors (counted with multiplicity).",
+  "id": "A037144",
+  "mentions": [
+    "A001222",
+    "A033987",
+    "A037143",
+    "A117358",
+    "A128644",
+    "A178254"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

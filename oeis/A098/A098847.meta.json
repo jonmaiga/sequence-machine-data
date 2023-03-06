@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n*(n + 12).",
+  "id": "A098847",
+  "mentions": [
+    "A063930",
+    "A098832",
+    "A120070"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:28:15",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "For n <= 5, a(n) = 2n-1. For n > 5, a(n) is the least odd number not already used that begins with the last digit of a(n-1).",
+  "id": "A085951",
+  "mentions": [
+    "A085952"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

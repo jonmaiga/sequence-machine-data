@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 4*10^n + 1 is prime.",
+  "id": "A056806",
+  "mentions": [
+    "A056797",
+    "A101712"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

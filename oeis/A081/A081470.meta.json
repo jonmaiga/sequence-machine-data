@@ -1,0 +1,22 @@
+{
+  "description": "Smallest product (n+1)(n+2)...(n+k) which is a multiple of n, where n+k is given by A061243.",
+  "id": "A081470",
+  "mentions": [
+    "A061243",
+    "A081467",
+    "A081468",
+    "A081469",
+    "A081471",
+    "A081472"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

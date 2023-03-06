@@ -1,0 +1,21 @@
+{
+  "description": "Rows of triangle formed using Pascal's rule except begin and end n-th row with (n+1)st prime.",
+  "id": "A051599",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A053210"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:57:11",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

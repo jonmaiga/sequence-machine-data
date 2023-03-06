@@ -1,0 +1,21 @@
+{
+  "description": "Least m such that P - m is prime, where P is the n-th perfect number.",
+  "id": "A078097",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A061644"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

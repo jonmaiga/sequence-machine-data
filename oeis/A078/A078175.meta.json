@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with an integer arithmetic mean of all prime factors.",
+  "id": "A078175",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A001222",
+    "A001414",
+    "A078174",
+    "A200612"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

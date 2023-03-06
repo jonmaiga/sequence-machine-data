@@ -1,0 +1,38 @@
+{
+  "description": "Catalan's triangle with right border removed (n > 0, 0 <= k < n).",
+  "id": "A030237",
+  "mentions": [
+    "A000108",
+    "A000245",
+    "A000344",
+    "A000588",
+    "A001392",
+    "A002057",
+    "A003517",
+    "A003518",
+    "A003519",
+    "A009766",
+    "A011971",
+    "A033184",
+    "A047072",
+    "A059365",
+    "A071724",
+    "A099039",
+    "A106566",
+    "A130020",
+    "A350584"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

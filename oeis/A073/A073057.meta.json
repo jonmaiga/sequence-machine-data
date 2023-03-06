@@ -1,0 +1,19 @@
+{
+  "description": "Start with the word 1234, repeatedly append the words obtained via the maps 1 -> 12, 2 -> 13, 3 -> 42, 4 -> 43.",
+  "id": "A073057",
+  "mentions": [
+    "A020987",
+    "A073058",
+    "A100260"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

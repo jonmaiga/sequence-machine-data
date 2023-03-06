@@ -1,0 +1,19 @@
+{
+  "description": "Number of rooted noncrossing trees with n nodes such that root has degree 1 and the child of the root has degree at least 2.",
+  "id": "A030983",
+  "mentions": [
+    "A006013",
+    "A102892"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, 0<=k",
+  "id": "A096369",
+  "mentions": [
+    "A036378",
+    "A095008",
+    "A095766"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

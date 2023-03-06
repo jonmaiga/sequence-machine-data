@@ -1,0 +1,19 @@
+{
+  "description": "Row sums in triangle of 3rd central factorial numbers (A098436).",
+  "id": "A098437",
+  "mentions": [
+    "A002720",
+    "A098436"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

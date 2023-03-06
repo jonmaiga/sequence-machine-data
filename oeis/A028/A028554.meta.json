@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes of form n(n+3).",
+  "id": "A028554",
+  "mentions": [
+    "A028553",
+    "A058851"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

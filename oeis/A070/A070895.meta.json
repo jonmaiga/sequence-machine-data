@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows where T(n+1,k)=T(n,k)+n*T(n-1,k) starting with T(n,n)=1 and T(n,k)=0 if n",
+  "id": "A070895",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000085",
+    "A000932",
+    "A005843",
+    "A028552",
+    "A059480",
+    "A062323",
+    "A094587",
+    "A187044"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Binary encoding of quadratic residue set formed for n-th prime, coerced to \"complementarily symmetric binary sequence\" with A080261 if the prime is of the form 4k+1.",
+  "id": "A080117",
+  "mentions": [
+    "A055094",
+    "A080118",
+    "A080146",
+    "A080148",
+    "A080261"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

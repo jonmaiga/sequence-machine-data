@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array read by rows: a(n, k) = sum of number of ordered factorizations of all prime signatures with n total prime factors and k distinct prime factors.",
+  "id": "A095705",
+  "mentions": [
+    "A000079",
+    "A000670",
+    "A005649",
+    "A035341",
+    "A050324",
+    "A074206",
+    "A093936",
+    "A096443"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

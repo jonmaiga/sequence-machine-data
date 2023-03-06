@@ -1,0 +1,17 @@
+{
+  "description": "Number of binary abstract 2-D configurations.",
+  "id": "A036300",
+  "mentions": [
+    "A006246"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

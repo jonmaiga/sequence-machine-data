@@ -1,0 +1,21 @@
+{
+  "description": "Largest n-digit norep emirp.",
+  "id": "A030540",
+  "mentions": [
+    "A031991",
+    "A046732"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

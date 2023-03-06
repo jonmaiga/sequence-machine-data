@@ -1,0 +1,21 @@
+{
+  "description": "Minimal values of m=a^2+b^2=c^2+d^2 for each x=a+b+c+d (a,b,c,d positive integers).",
+  "id": "A092541",
+  "mentions": [
+    "A090073",
+    "A091459",
+    "A092357"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

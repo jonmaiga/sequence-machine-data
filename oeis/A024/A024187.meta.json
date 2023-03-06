@@ -1,0 +1,17 @@
+{
+  "description": "n-th elementary symmetric function of 3,4,...,n+3.",
+  "id": "A024187",
+  "mentions": [
+    "A001711"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime which is one more than the product of n distinct numbers.",
+  "id": "A081947",
+  "mentions": [
+    "A046972"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

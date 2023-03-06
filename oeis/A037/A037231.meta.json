@@ -1,0 +1,17 @@
+{
+  "description": "Primes which set a new record for length of Pratt certificate.",
+  "id": "A037231",
+  "mentions": [
+    "A037202"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

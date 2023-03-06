@@ -1,0 +1,32 @@
+{
+  "description": "Numbers having no divisors d>1 such that also d+1 is a divisor.",
+  "id": "A088725",
+  "mentions": [
+    "A000005",
+    "A005408",
+    "A027750",
+    "A055874",
+    "A060680",
+    "A088722",
+    "A088723",
+    "A088724",
+    "A088726",
+    "A129308",
+    "A132895",
+    "A137921",
+    "A328166",
+    "A328450",
+    "A328457"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

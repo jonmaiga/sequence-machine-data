@@ -1,0 +1,21 @@
+{
+  "description": "Floor of (2^n-1)/n.",
+  "id": "A082482",
+  "mentions": [
+    "A023359",
+    "A053638",
+    "A082495",
+    "A162214"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

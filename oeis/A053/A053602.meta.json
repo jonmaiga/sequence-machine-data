@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = a(n-1) - (-1)^n*a(n-2), a(0)=0, a(1)=1.",
+  "id": "A053602",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A051792",
+    "A079977"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "A093503(k) is a term if A093503(k) and A093503(k+1) are successive primes.",
+  "id": "A093504",
+  "mentions": [
+    "A093503"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

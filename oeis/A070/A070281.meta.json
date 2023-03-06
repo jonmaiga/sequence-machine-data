@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime which is the sum of n consecutive primes, or 0 if no such prime exists.",
+  "id": "A070281",
+  "mentions": [
+    "A013918",
+    "A070934"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

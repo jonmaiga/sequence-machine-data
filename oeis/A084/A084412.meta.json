@@ -1,0 +1,18 @@
+{
+  "description": "Least palindromic prime that strictly encloses the n-th palindromic prime, or 0 if no such prime exists.",
+  "id": "A084412",
+  "mentions": [
+    "A002385"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

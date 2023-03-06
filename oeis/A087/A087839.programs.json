@@ -1,0 +1,159 @@
+{
+  "oi": 87839,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "∑[char[char[1]+∑[n]]]",
+      "mt": 85,
+      "px": [
+        "1",
+        "char",
+        "n",
+        "∑",
+        "+",
+        "char",
+        "∑"
+      ]
+    },
+    {
+      "d": "2021-11-18",
+      "ix": "∑[char[C(n, 2)]]-char[1]",
+      "mt": 85,
+      "px": [
+        "n",
+        "2",
+        "C",
+        "char",
+        "∑",
+        "1",
+        "char",
+        "sub"
+      ]
+    },
+    {
+      "d": "2022-07-04",
+      "ix": "∑[char[∑[n]]]^floor(atan(n))",
+      "mt": 85,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "∑",
+        "n",
+        "atan",
+        "floor",
+        "^"
+      ]
+    },
+    {
+      "d": "2022-07-04",
+      "ix": "C(∑[char[∑[n]]], floor(atan(n)))",
+      "mt": 85,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "∑",
+        "n",
+        "atan",
+        "floor",
+        "C"
+      ]
+    },
+    {
+      "d": "2022-07-08",
+      "ix": "gcd(round(acot(n)), ∑[char[∑[n]]])",
+      "mt": 85,
+      "px": [
+        "n",
+        "acot",
+        "round",
+        "n",
+        "∑",
+        "char",
+        "∑",
+        "gcd"
+      ]
+    },
+    {
+      "d": "2022-07-08",
+      "ix": "round(sqrt(comp[lcm(2, n)]))-char[1]",
+      "mt": 85,
+      "px": [
+        "2",
+        "n",
+        "lcm",
+        "comp",
+        "sqrt",
+        "round",
+        "1",
+        "char",
+        "sub"
+      ]
+    },
+    {
+      "d": "2022-07-04",
+      "ix": "round(record[sqrt(xor(1, n))])-char[1]",
+      "mt": 85,
+      "px": [
+        "1",
+        "n",
+        "xor",
+        "sqrt",
+        "record",
+        "round",
+        "1",
+        "char",
+        "sub"
+      ]
+    },
+    {
+      "d": "2022-07-04",
+      "ix": "round(record[sqrt(or(2, n))])-char[1]",
+      "mt": 85,
+      "px": [
+        "2",
+        "n",
+        "or",
+        "sqrt",
+        "record",
+        "round",
+        "1",
+        "char",
+        "sub"
+      ]
+    },
+    {
+      "d": "2022-06-12",
+      "ix": "(∑[char[∑[n]]]-char[1])%15",
+      "mt": 85,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "∑",
+        "1",
+        "char",
+        "sub",
+        "15",
+        "%"
+      ]
+    },
+    {
+      "d": "2021-10-01",
+      "ix": "round(sqrt(n*ceil(atan(n))+1))",
+      "mt": 85,
+      "px": [
+        "n",
+        "n",
+        "atan",
+        "ceil",
+        "*",
+        "1",
+        "+",
+        "sqrt",
+        "round"
+      ]
+    }
+  ]
+}

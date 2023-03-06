@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of 1/e^2.",
+  "id": "A092553",
+  "mentions": [
+    "A001113",
+    "A019774",
+    "A068985",
+    "A094816",
+    "A137346",
+    "A219863"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:32",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

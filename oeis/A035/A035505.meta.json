@@ -1,0 +1,27 @@
+{
+  "description": "Active part of Kimberling's expulsion array as a triangular array.",
+  "id": "A035505",
+  "mentions": [
+    "A000194",
+    "A006852",
+    "A007063",
+    "A035486",
+    "A038807",
+    "A074294",
+    "A175312"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

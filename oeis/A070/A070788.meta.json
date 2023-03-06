@@ -1,0 +1,23 @@
+{
+  "description": "Positive integers n such that the Reverse and Add! trajectory of n (presumably) does not join the trajectory of any m < n.",
+  "id": "A070788",
+  "mentions": [
+    "A006960",
+    "A063048",
+    "A063049",
+    "A067031",
+    "A070789",
+    "A070798"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

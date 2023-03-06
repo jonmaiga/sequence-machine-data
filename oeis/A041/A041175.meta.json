@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(97).",
+  "id": "A041175",
+  "mentions": [
+    "A010168",
+    "A010548",
+    "A020854",
+    "A041174"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:50:43",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

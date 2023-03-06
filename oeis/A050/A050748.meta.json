@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the decimal expansion of k^9 contains no pair of consecutive equal digits.",
+  "id": "A050748",
+  "mentions": [
+    "A050756"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:49:23",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

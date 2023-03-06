@@ -1,0 +1,23 @@
+{
+  "description": "First member of the Diophantine pair (m,k) that satisfies 7*(m^2+m) = k^2+k; a(n)=m.",
+  "id": "A077398",
+  "mentions": [
+    "A053141",
+    "A077397",
+    "A077399",
+    "A077400",
+    "A077401"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

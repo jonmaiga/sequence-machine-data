@@ -1,0 +1,25 @@
+{
+  "description": "a(n)=Sum_{d|n} d*psi(d), where psi(d) is reduced totient function, cf. A002322.",
+  "id": "A061258",
+  "mentions": [
+    "A000005",
+    "A001001",
+    "A002322",
+    "A027750",
+    "A057660",
+    "A060640",
+    "A061259",
+    "A141258"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number such that the arithmetic mean (A) and geometric mean (G) of n and a(n) are both integers.",
+  "id": "A038387",
+  "mentions": [
+    "A038388",
+    "A038389",
+    "A053626",
+    "A053627"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

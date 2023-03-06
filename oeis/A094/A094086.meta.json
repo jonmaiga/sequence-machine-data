@@ -1,0 +1,19 @@
+{
+  "description": "Babylonian reciprocals - factors needed to turn an ugly number into a power of sixty.",
+  "id": "A094086",
+  "mentions": [
+    "A051037"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers whose (British) English names have a prime number of letters.",
+  "id": "A072686",
+  "mentions": [
+    "A072685",
+    "A231075"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

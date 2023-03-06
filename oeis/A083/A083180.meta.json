@@ -1,0 +1,18 @@
+{
+  "description": "Numbers which retain their natural position under the rearrangement of A083179.",
+  "id": "A083180",
+  "mentions": [
+    "A083179",
+    "A083181"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

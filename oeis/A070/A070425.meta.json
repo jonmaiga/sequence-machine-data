@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 7^n mod 43.",
+  "id": "A070425",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:25",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "A081210(A081210(n)).",
+  "id": "A081211",
+  "mentions": [
+    "A081210",
+    "A081212",
+    "A081213",
+    "A131072"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

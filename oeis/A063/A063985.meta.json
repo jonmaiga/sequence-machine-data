@@ -1,0 +1,27 @@
+{
+  "description": "Partial sums of cototient sequence A051953.",
+  "id": "A063985",
+  "mentions": [
+    "A000010",
+    "A000217",
+    "A002088",
+    "A018805",
+    "A048290",
+    "A051953",
+    "A091369",
+    "A100613",
+    "A115004",
+    "A185670"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:28",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

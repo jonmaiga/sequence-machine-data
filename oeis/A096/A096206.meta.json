@@ -1,0 +1,20 @@
+{
+  "description": "Number of different values taken by the absolute value of the permanent of a Hadamard matrix of order 4n.",
+  "id": "A096206",
+  "mentions": [
+    "A096201",
+    "A096204",
+    "A096205"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

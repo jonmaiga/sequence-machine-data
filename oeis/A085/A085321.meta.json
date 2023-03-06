@@ -1,0 +1,19 @@
+{
+  "description": "First difference sequence of A003337, i.e., consecutive differences between those consecutive numbers which are sums of three 4th powers.",
+  "id": "A085321",
+  "mentions": [
+    "A003327",
+    "A003337",
+    "A003399"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

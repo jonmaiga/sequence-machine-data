@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 1/(1/phi(k) + 1/phi(k+1)) is an integer.",
+  "id": "A073542",
+  "mentions": [
+    "A000010",
+    "A073543",
+    "A073544"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

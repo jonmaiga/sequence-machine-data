@@ -1,0 +1,23 @@
+{
+  "description": "Largest product of primorials less than A025487(n) that divides A025487(n).",
+  "id": "A051466",
+  "mentions": [
+    "A025487",
+    "A034776",
+    "A036041",
+    "A051282"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:56:37",
+    "offset": 2,
+    "size": 56,
+    "source": "joeis"
+  }
+}

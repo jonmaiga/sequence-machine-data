@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that sigma(k) > 4*k.",
+  "id": "A068404",
+  "mentions": [
+    "A001221",
+    "A027687",
+    "A068403",
+    "A215264"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n+1) is next smallest nontrivial square containing a(n) as a substring, initial term is 4.",
+  "id": "A050630",
+  "mentions": [
+    "A048559",
+    "A050631",
+    "A050632",
+    "A050636"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

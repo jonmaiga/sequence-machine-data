@@ -1,0 +1,21 @@
+{
+  "description": "Nonzero residues of Catalan sequence modulo 3; related to the Thue-Morse sequence (A001285).",
+  "id": "A085297",
+  "mentions": [
+    "A000108",
+    "A001285",
+    "A039969",
+    "A085296"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

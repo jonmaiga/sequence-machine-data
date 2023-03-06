@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p+1 is palindromic.",
+  "id": "A028981",
+  "mentions": [
+    "A027713"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

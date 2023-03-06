@@ -1,0 +1,21 @@
+{
+  "description": "Table of lcm(x,y) computed for polynomials over GF(2), where (x,y) runs as (1,1),(1,2),(2,1),(1,3),(2,2),(3,1),...",
+  "id": "A091256",
+  "mentions": [
+    "A003990",
+    "A091247",
+    "A091255",
+    "A091257"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

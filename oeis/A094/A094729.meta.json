@@ -1,0 +1,21 @@
+{
+  "description": "Number of connected ordered 2-element multiantichains on a labeled n-set.",
+  "id": "A094729",
+  "mentions": [
+    "A094033",
+    "A094037",
+    "A094738"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

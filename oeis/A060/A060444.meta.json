@@ -1,0 +1,19 @@
+{
+  "description": "Table T(n,k) in which n-th row lists prime factors of 2^n + 1 (n >= 0), without repetition.",
+  "id": "A060444",
+  "mentions": [
+    "A001269",
+    "A046799"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

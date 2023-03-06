@@ -1,0 +1,25 @@
+{
+  "description": "One minus the parity of 1-fibits in Zeckendorf expansion A014417(n).",
+  "id": "A095111",
+  "mentions": [
+    "A000045",
+    "A003714",
+    "A010059",
+    "A014417",
+    "A095076",
+    "A095096",
+    "A095276",
+    "A105774"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

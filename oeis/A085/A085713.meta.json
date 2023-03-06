@@ -1,0 +1,25 @@
+{
+  "description": "Consider numbers k such that phi(x) = k has exactly 3 solutions and they are (3*p, 4*p, 6*p) where p is 1 or a prime. Sequence gives values of p.",
+  "id": "A085713",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A007367",
+    "A007374",
+    "A007614",
+    "A010051",
+    "A032447",
+    "A058277",
+    "A064275"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

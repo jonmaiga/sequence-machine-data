@@ -1,0 +1,19 @@
+{
+  "description": "a(n+1) is the smallest square > a(n) such that the digits of a(n) are all (with multiplicity) properly contained in the digits of a(n+1), with a(0)=4.",
+  "id": "A067714",
+  "mentions": [
+    "A065298"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

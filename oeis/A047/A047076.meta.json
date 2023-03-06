@@ -1,0 +1,21 @@
+{
+  "description": "a(n+1) is the smallest palindromic prime containing exactly 2 more digits on each end than the previous term, with a(n) as a central substring.",
+  "id": "A047076",
+  "mentions": [
+    "A053600"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

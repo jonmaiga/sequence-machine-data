@@ -1,0 +1,19 @@
+{
+  "description": "Triangle, read by rows, that equals the matrix inverse of A071207 when treated as a lower triangular matrix.",
+  "id": "A089962",
+  "mentions": [
+    "A071207"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

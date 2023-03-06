@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A000295(k) = 2^k-k-1 is prime.",
+  "id": "A099439",
+  "mentions": [
+    "A000295",
+    "A063791",
+    "A099440",
+    "A099441",
+    "A099442"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

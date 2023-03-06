@@ -1,0 +1,36 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = Min {m > n | m has same prime factors as n ignoring multiplicity}.",
+  "id": "A065642",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A005117",
+    "A007947",
+    "A013929",
+    "A020639",
+    "A081382",
+    "A084968",
+    "A084969",
+    "A084970",
+    "A284311",
+    "A284342",
+    "A284457",
+    "A284572",
+    "A285112",
+    "A285321",
+    "A285328",
+    "A285332"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

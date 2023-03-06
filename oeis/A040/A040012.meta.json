@@ -1,0 +1,23 @@
+{
+  "description": "Continued fraction for sqrt(17).",
+  "id": "A040012",
+  "mentions": [
+    "A010473",
+    "A041024",
+    "A041025",
+    "A248245"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

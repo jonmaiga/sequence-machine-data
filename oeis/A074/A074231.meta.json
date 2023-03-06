@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that Kronecker(8,n) = mu(gcd(8,n)).",
+  "id": "A074231",
+  "mentions": [
+    "A046055",
+    "A047538"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:14:25",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

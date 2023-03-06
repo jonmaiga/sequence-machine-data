@@ -1,0 +1,17 @@
+{
+  "description": "Consider the family of multigraphs enriched by the species of parts. Sequence gives number of those multigraphs with n loops and edges.",
+  "id": "A098629",
+  "mentions": [
+    "A038205"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of solutions to x^2 == 1 (mod n), that is, square roots of unity modulo n.",
+  "id": "A060594",
+  "mentions": [
+    "A000010",
+    "A001221",
+    "A001620",
+    "A005087",
+    "A005563",
+    "A033948",
+    "A046072",
+    "A046073",
+    "A073103",
+    "A306016"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 103,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Binomial coefficients C(61,n).",
+  "id": "A017777",
+  "mentions": [
+    "A007318",
+    "A010926",
+    "A011001",
+    "A017765",
+    "A017776",
+    "A017778",
+    "A017816"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

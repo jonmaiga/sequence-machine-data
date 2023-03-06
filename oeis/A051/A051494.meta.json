@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1 - x + x^2 + x^3)/(1 - x^2)^3.",
+  "id": "A051494",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:56:29",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

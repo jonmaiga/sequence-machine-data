@@ -1,0 +1,22 @@
+{
+  "description": "a(n)= Sum_{i=1..n} A098168(i).",
+  "id": "A098169",
+  "mentions": [
+    "A005235",
+    "A055211",
+    "A098166",
+    "A098167",
+    "A098168"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

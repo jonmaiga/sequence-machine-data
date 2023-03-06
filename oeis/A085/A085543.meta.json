@@ -1,0 +1,19 @@
+{
+  "description": "Number of divisors of the partition numbers (A000041).",
+  "id": "A085543",
+  "mentions": [
+    "A000005",
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(n/(1+tau)), or equivalently floor(n/(tau)^2), where tau is the golden ratio (A001622).",
+  "id": "A060144",
+  "mentions": [
+    "A001622",
+    "A005206",
+    "A006336",
+    "A132338"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:35:47",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

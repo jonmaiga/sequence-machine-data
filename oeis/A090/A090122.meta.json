@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that nextprime(n^4) - prevprime(n^4) = 4.",
+  "id": "A090122",
+  "mentions": [
+    "A058043",
+    "A077038",
+    "A090125"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

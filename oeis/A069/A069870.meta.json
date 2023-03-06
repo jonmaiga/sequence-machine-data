@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime that can be formed using a partition of n, or 0 if no such prime exists.",
+  "id": "A069870",
+  "mentions": [
+    "A069869"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

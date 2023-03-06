@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients of certain polynomials related to array A078740 ((3,2)-Stirling2).",
+  "id": "A091741",
+  "mentions": [
+    "A001651",
+    "A032766",
+    "A078740"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

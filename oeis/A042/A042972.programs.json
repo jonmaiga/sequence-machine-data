@@ -1,0 +1,120 @@
+{
+  "oi": 42972,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "de[exp(acos(0))]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "exp",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[exp(asin(1))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "exp",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[sqrt(exp(π))]",
+      "mt": 50,
+      "px": [
+        "π",
+        "exp",
+        "sqrt",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-16",
+      "ix": "limit[exp(acos(char[1]))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "char",
+        "acos",
+        "exp",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-02-09",
+      "ix": "limit[exp(acot(char[1]))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "char",
+        "acot",
+        "exp",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-02-09",
+      "ix": "limit[exp(atan(exp(n)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "exp",
+        "atan",
+        "exp",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-10-06",
+      "ix": "limit[exp(acot(tanh(n)))²]",
+      "mt": 50,
+      "px": [
+        "n",
+        "tanh",
+        "acot",
+        "exp",
+        "²",
+        "limit"
+      ]
+    },
+    {
+      "d": "2021-11-06",
+      "ix": "limit[cos(log(a(n-1)))+a(n-1)]",
+      "mt": 50,
+      "px": [
+        "3",
+        "n",
+        "1",
+        "sub",
+        "a",
+        "log",
+        "cos",
+        "n",
+        "1",
+        "sub",
+        "a",
+        "+",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-10-06",
+      "ix": "limit[exp(asin(A057428(n)²))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "A057428",
+        "²",
+        "asin",
+        "exp",
+        "limit"
+      ]
+    }
+  ]
+}

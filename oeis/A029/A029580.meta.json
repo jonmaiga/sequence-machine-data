@@ -1,0 +1,18 @@
+{
+  "description": "a(n+1) = [ A*a(n)+B ]/p^r, where p^r is the highest power of p diving [ A*a(n)+B ] and p=2, A=2.00013, B=3.0.",
+  "id": "A029580",
+  "mentions": [
+    "A036982"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:43:17",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

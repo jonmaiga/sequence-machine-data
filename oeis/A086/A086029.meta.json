@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{i=1..n} C(i+6,7)^2.",
+  "id": "A086029",
+  "mentions": [
+    "A024166",
+    "A085438",
+    "A085442",
+    "A086020",
+    "A086030",
+    "A087127",
+    "A234253"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:21:31",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

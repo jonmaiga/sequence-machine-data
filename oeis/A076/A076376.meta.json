@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k, 2*k and 4*k are balanced numbers (A020492).",
+  "id": "A076376",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A020492",
+    "A055234",
+    "A076375"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

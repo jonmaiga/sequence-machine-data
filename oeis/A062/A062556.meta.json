@@ -1,0 +1,16 @@
+{
+  "description": "Cubes that are the concatenation of three numbers, one of which is the sum of the other two.",
+  "id": "A062556",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

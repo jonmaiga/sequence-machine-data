@@ -1,0 +1,20 @@
+{
+  "description": "Number of relations with 5 arguments on n nodes.",
+  "id": "A051241",
+  "mentions": [
+    "A000595",
+    "A000662",
+    "A001377"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-bfile"
+  }
+}

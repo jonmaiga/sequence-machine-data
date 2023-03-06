@@ -1,0 +1,33 @@
+{
+  "description": "Describe the previous term in binary (method A - initial term is 0).",
+  "id": "A049064",
+  "mentions": [
+    "A001140",
+    "A001141",
+    "A001143",
+    "A001145",
+    "A001151",
+    "A001154",
+    "A001387",
+    "A001391",
+    "A001609",
+    "A005150",
+    "A006715",
+    "A006751",
+    "A259710"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

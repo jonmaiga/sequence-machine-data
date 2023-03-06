@@ -1,0 +1,23 @@
+{
+  "description": "Binary expansion of one of four fixed points (mod 1) of Minkowski's question mark function.",
+  "id": "A048820",
+  "mentions": [
+    "A048817",
+    "A048818",
+    "A048819",
+    "A048821",
+    "A048822"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:54:15",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

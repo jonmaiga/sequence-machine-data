@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor((n+2)*phi) - floor((n+1)*phi) where phi=(1+sqrt(5))/2.",
+  "id": "A082389",
+  "mentions": [
+    "A014675",
+    "A058065",
+    "A059426"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:11:37",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = a(n-1) + c(n) for n >= 3, a( ) increasing, given a(1)=3 a(2)=6; where c( ) is complement of a( ).",
+  "id": "A022952",
+  "mentions": [
+    "A005228",
+    "A022949"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Integers n such that 2^n == 13 (mod n).",
+  "id": "A051446",
+  "mentions": [
+    "A033981",
+    "A033982",
+    "A033983"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

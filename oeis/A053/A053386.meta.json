@@ -1,0 +1,17 @@
+{
+  "description": "A053398(6, n).",
+  "id": "A053386",
+  "mentions": [
+    "A053398"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:08:33",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

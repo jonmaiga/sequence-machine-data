@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime of the form k*a(n-1)*a(n-2)*...*a(1)+1.",
+  "id": "A071580",
+  "mentions": [
+    "A061092",
+    "A258081"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

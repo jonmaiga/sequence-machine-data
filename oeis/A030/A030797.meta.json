@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the constant x such that x^x = e. Inverse of W(1), where W is Lambert's function.",
+  "id": "A030797",
+  "mentions": [
+    "A030178"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

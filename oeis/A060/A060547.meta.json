@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^(floor(n/3) + ((n mod 3) mod 2)).",
+  "id": "A060547",
+  "mentions": [
+    "A008611",
+    "A060550"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

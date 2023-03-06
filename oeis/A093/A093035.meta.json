@@ -1,0 +1,18 @@
+{
+  "description": "Number of triples (d1,d2,d3) where each element is a divisor of n and d1 + d2 + d3 <= n.",
+  "id": "A093035",
+  "mentions": [
+    "A233819"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

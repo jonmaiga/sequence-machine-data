@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of n-tosses having a run of 5 or more heads for a fair coin (i.e., probability is a(n)/2^n).",
+  "id": "A050233",
+  "mentions": [
+    "A001591",
+    "A008466",
+    "A050231",
+    "A050232"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:19:18",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

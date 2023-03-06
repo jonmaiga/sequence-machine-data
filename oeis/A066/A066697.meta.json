@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that Euler phi(k) / Carmichael lambda(k) = 18.",
+  "id": "A066697",
+  "mentions": [
+    "A000010",
+    "A002322"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

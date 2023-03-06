@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n and the n-th Fibonacci number have the same number of distinct prime factors.",
+  "id": "A072556",
+  "mentions": [
+    "A001221",
+    "A022307"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

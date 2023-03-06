@@ -1,0 +1,25 @@
+{
+  "description": "Primes p such that three (the maximum number) primes occur between p and p+12.",
+  "id": "A086140",
+  "mentions": [
+    "A001359",
+    "A007529",
+    "A007530",
+    "A022006",
+    "A022007",
+    "A031930",
+    "A046133",
+    "A086136",
+    "A086139"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Positions of 0's in the decimal expansion of sqrt(2).",
+  "id": "A054296",
+  "mentions": [
+    "A054276",
+    "A054286",
+    "A054297",
+    "A054305",
+    "A054306"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Integers n such that 3*phi(n) < n that are not multiples of smaller integers with this property.",
+  "id": "A091455",
+  "mentions": [
+    "A091454"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

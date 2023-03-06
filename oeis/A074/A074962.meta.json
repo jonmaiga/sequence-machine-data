@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of Glaisher-Kinkelin constant A.",
+  "id": "A074962",
+  "mentions": [
+    "A000178",
+    "A002109",
+    "A051675",
+    "A243262",
+    "A243263",
+    "A243264",
+    "A243265",
+    "A255321",
+    "A255323",
+    "A255344"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of prime palindromes with 2n+1 digits.",
+  "id": "A040025",
+  "mentions": [
+    "A016115"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

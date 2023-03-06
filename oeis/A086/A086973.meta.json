@@ -1,0 +1,17 @@
+{
+  "description": "Period of oscillator reached starting with a segment of n consecutive live cells and applying the LongLife 2D rule (see comment).",
+  "id": "A086973",
+  "mentions": [
+    "A086993"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

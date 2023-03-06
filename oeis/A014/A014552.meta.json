@@ -1,0 +1,28 @@
+{
+  "description": "Number of solutions to Langford (or Langford-Skolem) problem (up to reversal of the order).",
+  "id": "A014552",
+  "mentions": [
+    "A026272",
+    "A050998",
+    "A059106",
+    "A059107",
+    "A059108",
+    "A125762",
+    "A176127",
+    "A192289"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

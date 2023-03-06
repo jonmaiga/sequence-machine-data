@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} 1/n^sqrt(n).",
+  "id": "A096253",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

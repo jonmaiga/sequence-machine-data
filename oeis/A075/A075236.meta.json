@@ -1,0 +1,26 @@
+{
+  "description": "Primes whose base 6 reversal is also prime.",
+  "id": "A075236",
+  "mentions": [
+    "A007500",
+    "A074832",
+    "A074833",
+    "A074834",
+    "A075235",
+    "A075237",
+    "A075238",
+    "A075239"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

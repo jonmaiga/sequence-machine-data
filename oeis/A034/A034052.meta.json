@@ -1,0 +1,28 @@
+{
+  "description": "Numbers with multiplicative digital root value 5.",
+  "id": "A034052",
+  "mentions": [
+    "A002275",
+    "A031347",
+    "A034048",
+    "A034049",
+    "A034050",
+    "A034051",
+    "A034053",
+    "A034054",
+    "A034055",
+    "A034056"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

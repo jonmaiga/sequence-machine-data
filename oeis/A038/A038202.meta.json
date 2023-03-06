@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that n! + k^2 is a square.",
+  "id": "A038202",
+  "mentions": [
+    "A038548",
+    "A068869",
+    "A181892",
+    "A181896"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 4,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

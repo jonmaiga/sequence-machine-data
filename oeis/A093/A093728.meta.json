@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 2E(2i sqrt(2)), where E(k) is the complete elliptic integral of the 2nd kind.",
+  "id": "A093728",
+  "mentions": [
+    "A249491"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

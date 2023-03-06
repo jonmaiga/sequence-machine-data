@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the sine integral at 1.",
+  "id": "A099281",
+  "mentions": [
+    "A099282",
+    "A257535"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:45:49",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Largest prime factor of A060114.",
+  "id": "A081165",
+  "mentions": [
+    "A006530",
+    "A060114",
+    "A081164",
+    "A081166"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

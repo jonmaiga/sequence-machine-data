@@ -1,0 +1,26 @@
+{
+  "description": "Self-inverse infinite permutation which shows the position of the inverse of each finite permutation in A060117 (or A060118) in the same sequence; or equally, the cross-indexing between A060117 and A060118.",
+  "id": "A060125",
+  "mentions": [
+    "A056019",
+    "A060117",
+    "A060118",
+    "A060126",
+    "A060127",
+    "A261220",
+    "A275957",
+    "A275958"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

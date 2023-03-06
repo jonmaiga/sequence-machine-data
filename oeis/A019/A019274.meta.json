@@ -1,0 +1,22 @@
+{
+  "description": "Number of recursive calls needed to compute the n-th Fibonacci number F(n), starting with F(1) = F(2) = 1.",
+  "id": "A019274",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A017125"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

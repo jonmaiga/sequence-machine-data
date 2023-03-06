@@ -1,0 +1,19 @@
+{
+  "description": "First column of A027518.",
+  "id": "A027534",
+  "mentions": [
+    "A008284",
+    "A027518"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:05:22",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

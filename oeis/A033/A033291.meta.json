@@ -1,0 +1,25 @@
+{
+  "description": "A Connell-like sequence: take the first multiple of 1, the next 2 multiples of 2, the next 3 multiples of 3, etc.",
+  "id": "A033291",
+  "mentions": [
+    "A033292",
+    "A033293",
+    "A045975",
+    "A192735",
+    "A192736"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:59",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Least term in period of continued fraction for sqrt(n) is 7.",
+  "id": "A031431",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

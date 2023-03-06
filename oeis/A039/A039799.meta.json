@@ -1,0 +1,17 @@
+{
+  "description": "For S a subset of [ n ] = {1,2,3,...n}, let B_S = {x+y : x,y in S, x",
+  "id": "A039799",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

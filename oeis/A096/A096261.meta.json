@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-tuples of 0,1,2,3,4,5,6,7,8,9 without consecutive digits.",
+  "id": "A096261",
+  "mentions": [
+    "A095263",
+    "A277666"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

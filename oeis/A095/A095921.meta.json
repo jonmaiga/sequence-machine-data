@@ -1,0 +1,22 @@
+{
+  "description": "Intersection of A002182 (highly composite numbers) and A003418 (LCMs of first n positive integers).",
+  "id": "A095921",
+  "mentions": [
+    "A002182",
+    "A003418",
+    "A007416",
+    "A055492"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

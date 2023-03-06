@@ -1,0 +1,18 @@
+{
+  "description": "Decreases from 9 * 10^k down to 1, restarting at 9 * 10^(k+1).",
+  "id": "A089186",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

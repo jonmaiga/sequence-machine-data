@@ -1,0 +1,19 @@
+{
+  "description": "From reversion of e.g.f. for squares.",
+  "id": "A066399",
+  "mentions": [
+    "A006882",
+    "A295188"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

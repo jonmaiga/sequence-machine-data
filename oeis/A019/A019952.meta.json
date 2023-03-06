@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of tangent of 54 degrees.",
+  "id": "A019952",
+  "mentions": [
+    "A000045",
+    "A019845",
+    "A019863",
+    "A019934",
+    "A344171",
+    "A344172",
+    "A344212"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:04:35",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

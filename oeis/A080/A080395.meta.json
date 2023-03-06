@@ -1,0 +1,21 @@
+{
+  "description": "Even numbers k such that the central binomial coefficient A000984(k, k/2) is divisible by k^2.",
+  "id": "A080395",
+  "mentions": [
+    "A000984",
+    "A001405",
+    "A067348",
+    "A080394",
+    "A121943"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

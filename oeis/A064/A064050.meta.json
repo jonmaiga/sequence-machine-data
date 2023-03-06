@@ -1,0 +1,18 @@
+{
+  "description": "Number of essentially different (not mappable to each other by reflection or rotation) arrangements of numbers 1 to n*(n+1)/2 in a triangle of n rows, in such a way that each row and each diagonal is increasing or decreasing.",
+  "id": "A064050",
+  "mentions": [
+    "A064049"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

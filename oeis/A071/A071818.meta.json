@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of T(n,k) where T(n,k)/(n-1)! is probability of player k out of n players winning a game of \"Elimination\": rules are that player 1 chooses one of the others at random to be eliminated, then player 2 (or 3 if player 2 has been eliminated) chooses somebody else at random from the survivors to be eliminated next, then the next surviving player chooses and so on round the circle until all but one have been eliminated.",
+  "id": "A071818",
+  "mentions": [
+    "A000142"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

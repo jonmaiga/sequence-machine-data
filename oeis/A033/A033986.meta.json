@@ -1,0 +1,18 @@
+{
+  "description": "Order of first letter of n-th month of the year.",
+  "id": "A033986",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Number of different hierarchical orderings that can be formed from n unlabeled elements with no repetition of subhierarchies.",
+  "id": "A098407",
+  "mentions": [
+    "A000009",
+    "A000219",
+    "A001970",
+    "A011782",
+    "A034691",
+    "A055887",
+    "A074854",
+    "A075729",
+    "A075900",
+    "A102866",
+    "A133494",
+    "A218482",
+    "A261049",
+    "A296122",
+    "A304961",
+    "A336127",
+    "A358904",
+    "A358906",
+    "A358907"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

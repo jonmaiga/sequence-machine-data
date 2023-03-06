@@ -1,0 +1,34 @@
+{
+  "description": "Number of n X n Young tableaux.",
+  "id": "A039622",
+  "mentions": [
+    "A000108",
+    "A000178",
+    "A000984",
+    "A005789",
+    "A005790",
+    "A005791",
+    "A060854",
+    "A060856",
+    "A074962",
+    "A079478",
+    "A088020",
+    "A107252",
+    "A107254",
+    "A127223",
+    "A153452"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

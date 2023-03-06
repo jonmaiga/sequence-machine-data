@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose set of base 11 digits is {0,A}, where A base 11 = 10 base 10.",
+  "id": "A097257",
+  "mentions": [
+    "A001196",
+    "A005823",
+    "A033047",
+    "A097251",
+    "A097262"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:52:03",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Smallest b>1 such that in base b representation the n-th prime is a repunit.",
+  "id": "A086930",
+  "mentions": [
+    "A000040",
+    "A000225",
+    "A002275",
+    "A002450",
+    "A002452",
+    "A003462",
+    "A003463",
+    "A003464",
+    "A004022",
+    "A016123",
+    "A016125",
+    "A023000",
+    "A023001",
+    "A085104"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 2,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

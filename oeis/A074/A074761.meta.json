@@ -1,0 +1,33 @@
+{
+  "description": "Number of partitions of n of order n.",
+  "id": "A074761",
+  "mentions": [
+    "A000837",
+    "A008683",
+    "A018818",
+    "A074351",
+    "A074752",
+    "A256067",
+    "A256554",
+    "A285572",
+    "A290103",
+    "A305566",
+    "A316429",
+    "A316431",
+    "A316432",
+    "A316433",
+    "A317624"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes that remain prime through 2 iterations of function f(x) = 6x + 5.",
+  "id": "A023257",
+  "mentions": [
+    "A023221"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

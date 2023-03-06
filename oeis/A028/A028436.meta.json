@@ -1,0 +1,17 @@
+{
+  "description": "Golc sequence in base 6. Left to right concatenation of n,int(log_6(n)),int(log_6(int(log_6(n)))),... in base6.",
+  "id": "A028436",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:37:19",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

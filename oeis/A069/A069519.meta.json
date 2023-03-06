@@ -1,0 +1,19 @@
+{
+  "description": "Sum( d divides n,(-1)^d/d) is an integer.",
+  "id": "A069519",
+  "mentions": [
+    "A066192"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

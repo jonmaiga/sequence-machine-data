@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows: number of connected graphs with k >= 0 edges and n nodes (1<=n<=k+1).",
+  "id": "A054923",
+  "mentions": [
+    "A000055",
+    "A000664",
+    "A001349",
+    "A001429",
+    "A001435",
+    "A001436",
+    "A002905",
+    "A007718",
+    "A008406",
+    "A046742",
+    "A046751",
+    "A050535",
+    "A054924",
+    "A191646",
+    "A191970",
+    "A317672",
+    "A322114",
+    "A322151",
+    "A343088"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

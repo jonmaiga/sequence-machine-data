@@ -1,0 +1,22 @@
+{
+  "description": "Mod( binomial(2*n, n), (n+1)*(n+1) ).",
+  "id": "A065350",
+  "mentions": [
+    "A000108",
+    "A000290",
+    "A000984",
+    "A002503",
+    "A065344",
+    "A065349"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

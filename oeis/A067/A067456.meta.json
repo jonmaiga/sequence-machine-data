@@ -1,0 +1,20 @@
+{
+  "description": "Floor( sqrt( sum of the decimal digits of n squared)).",
+  "id": "A067456",
+  "mentions": [
+    "A003132"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Matrix 6th power of partition triangle A008284.",
+  "id": "A050300",
+  "mentions": [
+    "A008284",
+    "A022814",
+    "A038497",
+    "A038498",
+    "A039805",
+    "A039807",
+    "A050301",
+    "A050304"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-07 17:57:27",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

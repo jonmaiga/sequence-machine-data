@@ -1,0 +1,25 @@
+{
+  "description": "Number of unrooted steric quartic trees with 2n (unlabeled) nodes and possessing a bicentroid; number of 2n-carbon alkanes C(2n)H(4n +2) with a bicentroid when stereoisomers are regarded as different.",
+  "id": "A086200",
+  "mentions": [
+    "A000598",
+    "A000602",
+    "A000625",
+    "A000628",
+    "A010373",
+    "A010732",
+    "A010733",
+    "A086194"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

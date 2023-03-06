@@ -1,0 +1,30 @@
+{
+  "description": "Triangular array of natural numbers (greater than 1) arranged by prime signature.",
+  "id": "A095904",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A006881",
+    "A007304",
+    "A025487",
+    "A030078",
+    "A030514",
+    "A054753",
+    "A064839",
+    "A065036",
+    "A077560",
+    "A083140",
+    "A181087"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of composite numbers not greater than the n-th composite number that divide at least one other number not greater than the n-th composite number.",
+  "id": "A096533",
+  "mentions": [
+    "A002808",
+    "A065855",
+    "A096532"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = smallest k such that for each r, 2 <= r <= n, there exists a distinct s, n < s <= k, with the same prime signature as r.",
+  "id": "A087550",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

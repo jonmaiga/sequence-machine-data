@@ -1,0 +1,20 @@
+{
+  "description": "Square array read by antidiagonals of T(n,k)=T(n-1,k-n)+T(n-k,k-1) starting with T(n,k)=0 if either n or k are negative but with T(0,0)=1.",
+  "id": "A071164",
+  "mentions": [
+    "A054431",
+    "A071165"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

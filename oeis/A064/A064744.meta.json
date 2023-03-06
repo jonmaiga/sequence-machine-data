@@ -1,0 +1,21 @@
+{
+  "description": "A064413(n) written in base of primes, read from right to left, written as n-th row of a table.",
+  "id": "A064744",
+  "mentions": [
+    "A064301",
+    "A064413",
+    "A064741",
+    "A064743"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

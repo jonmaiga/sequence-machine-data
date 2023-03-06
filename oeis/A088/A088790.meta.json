@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that (k^k-1)/(k-1) is prime.",
+  "id": "A088790",
+  "mentions": [
+    "A023037",
+    "A054767",
+    "A056826",
+    "A070519",
+    "A125134"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

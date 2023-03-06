@@ -1,0 +1,20 @@
+{
+  "description": "First column of array in A082191.",
+  "id": "A082193",
+  "mentions": [
+    "A082191",
+    "A082192",
+    "A082194",
+    "A082195"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

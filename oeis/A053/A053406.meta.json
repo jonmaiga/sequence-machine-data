@@ -1,0 +1,19 @@
+{
+  "description": "Number of stars brighter than visual magnitude n-1.",
+  "id": "A053406",
+  "mentions": [
+    "A072171"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "dumb",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

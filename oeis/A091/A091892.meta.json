@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k having only one partition into parts which are a sum of exactly as many distinct powers of 2 as there are 1's in the binary representation of k.",
+  "id": "A091892",
+  "mentions": [
+    "A000041",
+    "A000120",
+    "A007814",
+    "A018819",
+    "A086784",
+    "A091889",
+    "A091890",
+    "A091891"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

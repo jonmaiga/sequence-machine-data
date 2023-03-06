@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n-th prime modulo 11.",
+  "id": "A039709",
+  "mentions": [
+    "A000040",
+    "A039703",
+    "A039705",
+    "A039710",
+    "A039715",
+    "A049084",
+    "A137977",
+    "A137978"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:12:45",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

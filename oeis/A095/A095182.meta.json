@@ -1,0 +1,17 @@
+{
+  "description": "Consider the triangle in which the j-th row begins with prime(j) and is the arithmetic progression with least common difference such that the remaining j-1 terms are composite and not divisible by prime(j). Sequence gives last term in each row.",
+  "id": "A095182",
+  "mentions": [
+    "A095181"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

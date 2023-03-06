@@ -1,0 +1,25 @@
+{
+  "description": "Number of digraphs with indegree = outdegree at each vertex, or Eulerian digraphs (including disconnected graphs) with n nodes.",
+  "id": "A058338",
+  "mentions": [
+    "A005195",
+    "A007080",
+    "A058337",
+    "A096368",
+    "A308111",
+    "A308161"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

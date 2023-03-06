@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(n)= smallest number not occurring earlier such that a(n-1)*a(n) -1 is a prime. re-arrangement of natural numbers such that the product of adjacent terms is one more than a prime.",
+  "id": "A081943",
+  "mentions": [
+    "A073666",
+    "A081942"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

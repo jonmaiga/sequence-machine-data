@@ -1,0 +1,19 @@
+{
+  "description": "Nearest integer to R(n) - pi(n), where R(x) is the Riemann prime counting function.",
+  "id": "A052434",
+  "mentions": [
+    "A052435",
+    "A096624",
+    "A096625"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 2,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

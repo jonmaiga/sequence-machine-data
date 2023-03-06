@@ -1,0 +1,19 @@
+{
+  "description": "p(p^2-p+1) as p runs through the primes.",
+  "id": "A083558",
+  "mentions": [
+    "A000040",
+    "A119959"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:38:19",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

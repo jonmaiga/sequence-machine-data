@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n! (mod n^2), that is, n factorial modulo n^2.",
+  "id": "A072230",
+  "mentions": [
+    "A008837",
+    "A174530"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of cyclic compositions of n into parts >= 2.",
+  "id": "A032190",
+  "mentions": [
+    "A000010",
+    "A000358",
+    "A001610",
+    "A008965"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = ((10^n - 1) - 9^n)/9.",
+  "id": "A083446",
+  "mentions": [
+    "A083445"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

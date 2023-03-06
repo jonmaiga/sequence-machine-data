@@ -1,0 +1,23 @@
+{
+  "description": "Number of iterations of f(x) = reverse(x) - maxdigit(x) needed for the numbers in A097155 to reach 89.",
+  "id": "A097157",
+  "mentions": [
+    "A097153",
+    "A097154",
+    "A097155",
+    "A097156",
+    "A097158"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

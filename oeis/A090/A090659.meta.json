@@ -1,0 +1,17 @@
+{
+  "description": "Odd composites with increasing proportion of nontrivial non-witnesses of compositeness by the Miller-Rabin primality test.",
+  "id": "A090659",
+  "mentions": [
+    "A141768"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

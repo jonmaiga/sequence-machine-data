@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} C(n,k)*(2*n-k)!.",
+  "id": "A099022",
+  "mentions": [
+    "A001517",
+    "A076571",
+    "A082765",
+    "A105749",
+    "A328826"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that Fib(k) == 3 (mod k).",
+  "id": "A023175",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

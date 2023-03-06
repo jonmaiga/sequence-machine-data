@@ -1,0 +1,22 @@
+{
+  "description": "Summarize the previous term in base 4 (in increasing order).",
+  "id": "A098155",
+  "mentions": [
+    "A005151",
+    "A098153",
+    "A098154"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

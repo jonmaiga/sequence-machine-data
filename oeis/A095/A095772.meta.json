@@ -1,0 +1,21 @@
+{
+  "description": "Number of times n appears in A093878.",
+  "id": "A095772",
+  "mentions": [
+    "A000045",
+    "A004001",
+    "A051135",
+    "A093878"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

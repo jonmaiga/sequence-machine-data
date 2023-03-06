@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that b(n)/n - 1/2 < 1/k for all k > n, where b(n) is A004001.",
+  "id": "A095899",
+  "mentions": [
+    "A004001"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct sums phi(i) + phi(j) for 1 <= i <= j <= n, phi(k) = A000010(k).",
+  "id": "A061795",
+  "mentions": [
+    "A000010",
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Consider pairs (r,s) such that the polynomial (x^r+1) divides (x^s+1) and 1 <= r < s. This sequence gives the r values; A079581 gives the s values.",
+  "id": "A079673",
+  "mentions": [
+    "A079581",
+    "A079665",
+    "A079672"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

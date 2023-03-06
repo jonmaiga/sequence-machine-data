@@ -1,0 +1,21 @@
+{
+  "description": "Take pairs (x,y) with Sum_{j = x..y} j = concatenation of x and y. Sort pairs on y then x. This sequence gives x of each pair.",
+  "id": "A070152",
+  "mentions": [
+    "A070153",
+    "A071297",
+    "A097166",
+    "A186074"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

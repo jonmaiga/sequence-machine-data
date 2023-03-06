@@ -1,0 +1,17 @@
+{
+  "description": "Quotient of 'base-16' division described in A032563.",
+  "id": "A032564",
+  "mentions": [
+    "A032563"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

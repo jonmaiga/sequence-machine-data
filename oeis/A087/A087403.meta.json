@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest prime of the form 10*K(n) + 1, where K is a number obtained by concatenation of n with itself, or 0 if no such prime exists.",
+  "id": "A087403",
+  "mentions": [
+    "A086766",
+    "A252491"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

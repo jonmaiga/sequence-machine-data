@@ -1,0 +1,25 @@
+{
+  "description": "A simple example of the Lyness 5-cycle: a(1) = a(2) = 1; a(n) = (a(n-1)+1)/a(n-2) (for n>2).",
+  "id": "A076839",
+  "mentions": [
+    "A076824",
+    "A076840",
+    "A076841",
+    "A076844",
+    "A335688",
+    "A335689"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:31:33",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

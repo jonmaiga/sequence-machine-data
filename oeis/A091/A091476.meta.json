@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Pi^2/4.",
+  "id": "A091476",
+  "mentions": [
+    "A000796",
+    "A002388",
+    "A002544",
+    "A003881",
+    "A013661",
+    "A019669",
+    "A102753",
+    "A253191"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:32",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

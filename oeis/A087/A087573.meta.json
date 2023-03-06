@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number k such that prime(4) + k, prime(5) + k, ..., prime(n+3) + k are all prime.",
+  "id": "A087573",
+  "mentions": [
+    "A087551"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (8*4^n - 5)/3.",
+  "id": "A083584",
+  "mentions": [
+    "A007583",
+    "A020988",
+    "A039301",
+    "A083855"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

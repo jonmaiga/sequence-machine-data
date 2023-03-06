@@ -1,0 +1,21 @@
+{
+  "description": "Record terms in A005179.",
+  "id": "A071243",
+  "mentions": [
+    "A000040",
+    "A005179",
+    "A006093",
+    "A061286"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:02:09",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

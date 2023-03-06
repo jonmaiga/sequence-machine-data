@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (1/2)*(n-th number whose base-2 representation has exactly 12 runs).",
+  "id": "A043686",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:57",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

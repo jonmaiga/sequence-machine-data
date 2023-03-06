@@ -1,0 +1,22 @@
+{
+  "description": "Number of decompositions of 2n-1 into sum of a twin lucky number and a twin even-lucky-number (from A045955, A045956).",
+  "id": "A057748",
+  "mentions": [
+    "A000959",
+    "A045954",
+    "A045955",
+    "A045956",
+    "A057701"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 1,
+    "size": 104,
+    "source": "joeis"
+  }
+}

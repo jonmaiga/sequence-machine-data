@@ -1,0 +1,22 @@
+{
+  "description": "Convolution of sum of cubes of divisors with itself.",
+  "id": "A087115",
+  "mentions": [
+    "A001158",
+    "A004009",
+    "A006352",
+    "A013955",
+    "A013973"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

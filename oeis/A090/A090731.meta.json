@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 23a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 23.",
+  "id": "A090731",
+  "mentions": [
+    "A037088",
+    "A049310",
+    "A051502",
+    "A053120",
+    "A077428",
+    "A078355",
+    "A097778"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

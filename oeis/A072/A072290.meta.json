@@ -1,0 +1,23 @@
+{
+  "description": "Number of digits in the decimal expansion of the Champernowne constant that must be scanned to encounter all n-digit strings.",
+  "id": "A072290",
+  "mentions": [
+    "A002275",
+    "A033713",
+    "A053541",
+    "A078427"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Starting values x such that the map x -> A098189(x) enters any cycle of length 53.",
+  "id": "A098194",
+  "mentions": [
+    "A063919",
+    "A098189",
+    "A098190",
+    "A098191",
+    "A098192",
+    "A098193",
+    "A098195"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

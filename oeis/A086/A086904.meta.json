@@ -1,0 +1,18 @@
+{
+  "description": "Write the primes in binary; a(n) = total number of 0's in those which have an n-bit expansion.",
+  "id": "A086904",
+  "mentions": [
+    "A168156"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

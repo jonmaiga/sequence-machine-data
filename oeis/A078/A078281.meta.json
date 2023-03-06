@@ -1,0 +1,20 @@
+{
+  "description": "A078278(n)/22.",
+  "id": "A078281",
+  "mentions": [
+    "A078278",
+    "A078279",
+    "A078280"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

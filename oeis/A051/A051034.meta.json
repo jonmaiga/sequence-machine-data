@@ -1,0 +1,29 @@
+{
+  "description": "Minimal number of primes needed to sum to n.",
+  "id": "A051034",
+  "mentions": [
+    "A000607",
+    "A004526",
+    "A007944",
+    "A007962",
+    "A010051",
+    "A025583",
+    "A051036",
+    "A061358",
+    "A068307",
+    "A072491",
+    "A103765"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:52:55",
+    "offset": 2,
+    "size": 111,
+    "source": "joeis"
+  }
+}

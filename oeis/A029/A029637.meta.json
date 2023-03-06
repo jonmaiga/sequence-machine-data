@@ -1,0 +1,18 @@
+{
+  "description": "Numbers in the (1,2)-Pascal triangle A029635 that are different from 2.",
+  "id": "A029637",
+  "mentions": [
+    "A029635"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:43:29",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

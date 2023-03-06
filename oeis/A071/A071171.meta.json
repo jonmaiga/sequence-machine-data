@@ -1,0 +1,17 @@
+{
+  "description": "L_2 norm of vertices of Permuto-Associahedron in R^n.",
+  "id": "A071171",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:11",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients in expansion of Sum_{k>=0} Product_{j=1..k} (1-x^j) about x = -1.",
+  "id": "A035378",
+  "mentions": [
+    "A022493"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

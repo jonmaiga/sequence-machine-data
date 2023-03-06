@@ -1,0 +1,17 @@
+{
+  "description": "Number of primes p such that n divided by p leaves a 1 or a composite (nonzero) remainder.",
+  "id": "A072531",
+  "mentions": [
+    "A072530"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

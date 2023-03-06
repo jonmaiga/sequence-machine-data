@@ -1,0 +1,19 @@
+{
+  "description": "Smallest palindrome which can be expressed as the product of n palindromes > 1 (not necessarily distinct).",
+  "id": "A088114",
+  "mentions": [
+    "A071277"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

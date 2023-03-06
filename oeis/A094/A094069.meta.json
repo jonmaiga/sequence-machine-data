@@ -1,0 +1,18 @@
+{
+  "description": "Prime(p)-4 for primes p such that prime(p) - 4 is prime.",
+  "id": "A094069",
+  "mentions": [
+    "A006450",
+    "A172367"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

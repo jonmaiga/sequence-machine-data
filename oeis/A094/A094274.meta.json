@@ -1,0 +1,20 @@
+{
+  "description": "Ratio of successive row products of triangle A094270: A094273(n+1) / A094273(n).",
+  "id": "A094274",
+  "mentions": [
+    "A094270",
+    "A094271",
+    "A094272",
+    "A094273"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

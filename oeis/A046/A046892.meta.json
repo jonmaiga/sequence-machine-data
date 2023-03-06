@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of digits of A046891(n) that are primes.",
+  "id": "A046892",
+  "mentions": [
+    "A039999",
+    "A046891"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

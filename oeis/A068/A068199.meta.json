@@ -1,0 +1,23 @@
+{
+  "description": "One of a family of sequences that interpolates between the Bell numbers and the factorials.",
+  "id": "A068199",
+  "mentions": [
+    "A000110",
+    "A000142",
+    "A001861",
+    "A027710",
+    "A068200",
+    "A068201"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

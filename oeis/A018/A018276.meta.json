@@ -1,0 +1,21 @@
+{
+  "description": "Divisors of 84.",
+  "id": "A018276",
+  "mentions": [
+    "A018261",
+    "A018271"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

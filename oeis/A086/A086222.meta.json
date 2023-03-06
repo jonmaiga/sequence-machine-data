@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = card{ (x,y,z) | x <= y <= z and lcm(x,y,z) = n }.",
+  "id": "A086222",
+  "mentions": [
+    "A018892",
+    "A048691",
+    "A070919",
+    "A086165"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

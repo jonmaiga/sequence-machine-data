@@ -1,0 +1,20 @@
+{
+  "description": "Let f be defined on the rationals by f(p/q) =(p+1)/(q+1)=p_{1}/q_{1} where (p_{1},q_{1})=1. Let f^k(p/q)=p_{k}/q_{k} where (p_{k},q_{k})=1. Sequence gives least k such that p_{k}-q_{k} = 1 starting at n.",
+  "id": "A087656",
+  "mentions": [
+    "A053177",
+    "A059975",
+    "A079148"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

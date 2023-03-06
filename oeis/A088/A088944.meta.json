@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = least k such that for any m>=0 k*sum(1<=u<=v<=w<=m,u^n*v/w) is an integer.",
+  "id": "A088944",
+  "mentions": [
+    "A088941",
+    "A088942",
+    "A088943",
+    "A088945"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

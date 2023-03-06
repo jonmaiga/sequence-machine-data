@@ -1,0 +1,23 @@
+{
+  "description": "Multiplicity sequence for classification of nonattacking queens on n X n toroidal board.",
+  "id": "A054501",
+  "mentions": [
+    "A006841",
+    "A007705",
+    "A053994",
+    "A054500",
+    "A054502"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the negabinary expansion of n, that is, the expansion of n in base -2.",
+  "id": "A039724",
+  "mentions": [
+    "A005351",
+    "A007583",
+    "A007608",
+    "A039723",
+    "A073785",
+    "A073786",
+    "A073787",
+    "A073788",
+    "A073789",
+    "A073790",
+    "A212529"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

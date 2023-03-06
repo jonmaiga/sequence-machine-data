@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that prime(n) divides A007406(k), the numerator of the k-th generalized harmonic number H(k,2) = Sum 1/i^2 for i=1..k.",
+  "id": "A093689",
+  "mentions": [
+    "A001008",
+    "A007406",
+    "A072984",
+    "A093569",
+    "A093690"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 3,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

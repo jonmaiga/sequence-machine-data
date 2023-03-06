@@ -1,0 +1,17 @@
+{
+  "description": "T(n,n+2), array T as in A047100.",
+  "id": "A047107",
+  "mentions": [
+    "A047100"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:57:31",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

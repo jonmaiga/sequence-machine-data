@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (x - x^3) / (1 - x^5) in powers of x.",
+  "id": "A092202",
+  "mentions": [
+    "A010891",
+    "A080891",
+    "A105385"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:53:33",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

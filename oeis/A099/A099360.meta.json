@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (2^n + 1)^4 - 2.",
+  "id": "A099360",
+  "mentions": [
+    "A091513",
+    "A091515"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

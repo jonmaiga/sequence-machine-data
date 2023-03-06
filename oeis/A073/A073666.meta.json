@@ -1,0 +1,22 @@
+{
+  "description": "Rearrangement of natural numbers such that a(k)*a(k+1) + 1 is a prime for all k.",
+  "id": "A073666",
+  "mentions": [
+    "A073667",
+    "A081942",
+    "A081943",
+    "A092829",
+    "A092842",
+    "A096100"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

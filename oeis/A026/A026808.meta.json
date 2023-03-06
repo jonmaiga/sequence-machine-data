@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of products P of distinct positive integers satisfying P <= n.",
+  "id": "A026808",
+  "mentions": [
+    "A254578"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

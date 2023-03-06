@@ -1,0 +1,21 @@
+{
+  "description": "Number of non-unitary divisors of binomial(n, floor(n/2)).",
+  "id": "A048243",
+  "mentions": [
+    "A000005",
+    "A001405",
+    "A034444",
+    "A048105"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

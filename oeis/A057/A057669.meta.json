@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) of number of minimal 3-covers of an unlabeled n+3-set that cover k points of that set uniquely (k=3,..,n+3).",
+  "id": "A057669",
+  "mentions": [
+    "A001752",
+    "A005783",
+    "A056885",
+    "A057222",
+    "A057223",
+    "A057524"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

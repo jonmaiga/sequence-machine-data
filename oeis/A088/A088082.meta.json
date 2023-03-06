@@ -1,0 +1,18 @@
+{
+  "description": "Indices n of terms in A088081 such that a(n+1) > a(n).",
+  "id": "A088082",
+  "mentions": [
+    "A088081",
+    "A088083"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

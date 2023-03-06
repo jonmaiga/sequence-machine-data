@@ -1,0 +1,20 @@
+{
+  "description": "Site swap sequence that rises infinitely after t=0. The associated delta sequence p(t)-t for the permutation of Z: A065171.",
+  "id": "A065173",
+  "mentions": [
+    "A000027",
+    "A065171"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:37",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of m such that A080737(m) <= 2n.",
+  "id": "A080740",
+  "mentions": [
+    "A080737",
+    "A080738",
+    "A080739"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

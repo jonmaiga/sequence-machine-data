@@ -1,0 +1,19 @@
+{
+  "description": "n-th row of the following triangle contains smallest set of n primes which form n successive terms of an arithmetic progression from the 2nd to (n+1)th term with the first term 1. Sequence contains the leading diagonal.",
+  "id": "A088252",
+  "mentions": [
+    "A002110",
+    "A088250",
+    "A088251"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

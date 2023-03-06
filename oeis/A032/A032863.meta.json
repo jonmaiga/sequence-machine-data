@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose base-8 representation Sum_{i=0..m} d(i)*8^i has d(m) > d(m-1) < d(m-2) > ...",
+  "id": "A032863",
+  "mentions": [
+    "A032858",
+    "A032859",
+    "A032860",
+    "A032861",
+    "A032862",
+    "A032864",
+    "A032865"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:15",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

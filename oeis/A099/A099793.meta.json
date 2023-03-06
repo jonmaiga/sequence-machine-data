@@ -1,0 +1,20 @@
+{
+  "description": "Table read by rows where row n consists of 2n terms representing k-matches described in A098813.",
+  "id": "A099793",
+  "mentions": [
+    "A000984",
+    "A051292",
+    "A098813"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

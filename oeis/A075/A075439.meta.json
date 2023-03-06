@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows giving successive iterations of the Rule 102 elementary cellular automaton starting with a single ON cell where row n is of length 2n+1.",
+  "id": "A075439",
+  "mentions": [
+    "A047999",
+    "A075438"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

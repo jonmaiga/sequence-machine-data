@@ -1,0 +1,18 @@
+{
+  "description": "Reduced numerators of series expansion for integrand in Renyi's parking constant.",
+  "id": "A050994",
+  "mentions": [
+    "A050995"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:22",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

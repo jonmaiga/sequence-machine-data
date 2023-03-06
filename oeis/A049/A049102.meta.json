@@ -1,0 +1,22 @@
+{
+  "description": "Positive numbers n such that n is a multiple of (product of digits of n) * (sum of digits of n).",
+  "id": "A049102",
+  "mentions": [
+    "A038369",
+    "A049101",
+    "A049105",
+    "A049106",
+    "A052382"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

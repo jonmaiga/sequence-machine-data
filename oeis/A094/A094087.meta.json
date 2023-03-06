@@ -1,0 +1,21 @@
+{
+  "description": "Domination number of the Cartesian product of two n-cycles.",
+  "id": "A094087",
+  "mentions": [
+    "A295428",
+    "A302406",
+    "A303334"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

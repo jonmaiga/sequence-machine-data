@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct prime factors of the numerator of the 2n-th Bernoulli number.",
+  "id": "A079294",
+  "mentions": [
+    "A000367",
+    "A001221",
+    "A046886"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

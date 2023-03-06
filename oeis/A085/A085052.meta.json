@@ -1,0 +1,16 @@
+{
+  "description": "Start with n and continue adding primes until one reaches a prime > n. Or, sequence gives n + P(k) where P(k)=sum_{k=1..n} prime(k) and k is the least value such that n + P(k) is prime and > n.",
+  "id": "A085052",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

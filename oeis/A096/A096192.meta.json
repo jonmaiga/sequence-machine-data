@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=1..n} C(n,k)^4 where C(n,k) is binomial(n,k).",
+  "id": "A096192",
+  "mentions": [
+    "A005260"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

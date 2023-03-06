@@ -1,0 +1,23 @@
+{
+  "description": "Highest power of 3 dividing F(4n) where F(k) is the k-th Fibonacci number.",
+  "id": "A074724",
+  "mentions": [
+    "A000045",
+    "A000203",
+    "A033888",
+    "A038500",
+    "A051064",
+    "A088838"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

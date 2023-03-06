@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) + 1, with a(0) = 1 and a(1) = 7.",
+  "id": "A022321",
+  "mentions": [
+    "A000045",
+    "A000285"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:29",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Replace 2^k in the binary representation of n with k (i.e., if n = 2^b + 2^c + 2^d + ... then a(n) = b + c + d + ...).",
+  "id": "A073642",
+  "mentions": [
+    "A000009",
+    "A000120",
+    "A000523",
+    "A007814",
+    "A011371",
+    "A029931",
+    "A030308",
+    "A059867",
+    "A070939",
+    "A087135",
+    "A087136",
+    "A133457",
+    "A272090"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

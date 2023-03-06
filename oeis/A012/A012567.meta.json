@@ -1,0 +1,15 @@
+{
+  "description": "E.g.f.: arctan(sinh(x)*cos(x)) = x - 4/3!*x^3 + 60/5!*x^5 - 2784/7!*x^7 + 225680/9!*x^9...",
+  "id": "A012567",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

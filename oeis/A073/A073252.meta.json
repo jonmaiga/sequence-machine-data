@@ -1,0 +1,26 @@
+{
+  "description": "Coefficients of replicable function number \"48g\".",
+  "id": "A073252",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A022597",
+    "A121373",
+    "A226622",
+    "A226635"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:01:15",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array T(n,k) read by rows, giving number of labeled free trees such that the root is smaller than all its children, with respect to the number n of vertices and to the size k of the subtree rooted at the vertex labeled by 1.",
+  "id": "A071209",
+  "mentions": [
+    "A000312"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

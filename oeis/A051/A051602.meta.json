@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the maximal number of squares that can be formed from n points in the plane.",
+  "id": "A051602",
+  "mentions": [
+    "A002415",
+    "A063542",
+    "A186705",
+    "A186926",
+    "A258146",
+    "A348469",
+    "A348768"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

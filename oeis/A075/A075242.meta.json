@@ -1,0 +1,19 @@
+{
+  "description": "Least base for which the n-th composite number whose reversal in that base is a prime, or zero if impossible.",
+  "id": "A075242",
+  "mentions": [
+    "A075241"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

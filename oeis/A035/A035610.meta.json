@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: 3/(1 + 2*sqrt(1-12*x)).",
+  "id": "A035610",
+  "mentions": [
+    "A000108",
+    "A039599",
+    "A089022",
+    "A133461",
+    "A183135"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2; for n>1, a(n) = smallest multiple of n beginning with the least significant digit of a(n-1) > n and not divisible by 10 if n is not of the type 10k; otherwise a(n) ends in 0 and a(n+1) begins with the first nonzero digit from the right(LSD) of a(n).",
+  "id": "A080433",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

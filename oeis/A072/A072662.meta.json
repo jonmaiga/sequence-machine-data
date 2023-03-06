@@ -1,0 +1,21 @@
+{
+  "description": "Composition of the A059906 and A048679, i.e., a(n) = A059906(A048679(n)).",
+  "id": "A072662",
+  "mentions": [
+    "A048679",
+    "A059906",
+    "A072657",
+    "A072659",
+    "A072661"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

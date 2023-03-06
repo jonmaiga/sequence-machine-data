@@ -1,0 +1,18 @@
+{
+  "description": "S[A002808(n)] where S[] is Boris Stechkin's function (A055004) and A002808(n) are the composites.",
+  "id": "A063483",
+  "mentions": [
+    "A002808",
+    "A055004"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

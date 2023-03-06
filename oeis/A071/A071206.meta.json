@@ -1,0 +1,20 @@
+{
+  "description": "A071204(n) divided by its largest digit.",
+  "id": "A071206",
+  "mentions": [
+    "A071203",
+    "A071204",
+    "A071205"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

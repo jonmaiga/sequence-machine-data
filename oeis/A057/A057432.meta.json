@@ -1,0 +1,22 @@
+{
+  "description": "Obtained by reading first the numerator then the denominator of fractions in left-hand half of Stern-Brocot tree (A007305/A007306).",
+  "id": "A057432",
+  "mentions": [
+    "A002487",
+    "A007305",
+    "A007306",
+    "A047679",
+    "A057431"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 0,
+    "size": 93,
+    "source": "joeis"
+  }
+}

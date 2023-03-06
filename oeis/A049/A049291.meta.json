@@ -1,0 +1,26 @@
+{
+  "description": "Number of subgroups of index n in free group of rank 4.",
+  "id": "A049291",
+  "mentions": [
+    "A003319",
+    "A027837",
+    "A049290",
+    "A049292",
+    "A049293",
+    "A049294",
+    "A049295"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:57:12",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

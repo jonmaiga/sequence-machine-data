@@ -1,0 +1,18 @@
+{
+  "description": "Reversal point for powers of consecutive natural numbers.",
+  "id": "A031435",
+  "mentions": [
+    "A065560"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

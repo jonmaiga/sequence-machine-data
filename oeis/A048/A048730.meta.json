@@ -1,0 +1,23 @@
+{
+  "description": "Differences between A008589 (multiples of 7) and A048727, a(n) = ((n*7)-Xmult(n,7)).",
+  "id": "A048730",
+  "mentions": [
+    "A008589",
+    "A048715",
+    "A048727",
+    "A048733",
+    "A061858",
+    "A342697"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:33:15",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

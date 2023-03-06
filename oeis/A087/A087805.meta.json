@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of b(k) where {b(k)}_{k>=0} = limit n ->infty {A080578(k)-2k : k=2^n,2^n+1,2^n+2,......}.",
+  "id": "A087805",
+  "mentions": [
+    "A080578"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

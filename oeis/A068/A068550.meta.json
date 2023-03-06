@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = lcm{1, ..., 2n} / binomial(2n, n).",
+  "id": "A068550",
+  "mentions": [
+    "A000984",
+    "A001405",
+    "A003418",
+    "A048619",
+    "A068553",
+    "A099996",
+    "A180000",
+    "A263673"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

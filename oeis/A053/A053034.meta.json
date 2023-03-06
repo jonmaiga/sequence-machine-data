@@ -1,0 +1,19 @@
+{
+  "description": "Length of sequence when A051953 (cototient function) is repeatedly applied starting with n!.",
+  "id": "A053034",
+  "mentions": [
+    "A051953",
+    "A053475"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

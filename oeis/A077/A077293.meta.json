@@ -1,0 +1,21 @@
+{
+  "description": "Partition the concatenation 1234567...of natural numbers into successive strings nontrivially (a(n) is not equal to n) such that the n-th string is a multiple of n.",
+  "id": "A077293",
+  "mentions": [
+    "A077294",
+    "A088597",
+    "A088598"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

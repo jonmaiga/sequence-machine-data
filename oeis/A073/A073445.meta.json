@@ -1,0 +1,20 @@
+{
+  "description": "Second differences of A002808, the sequence of composites.",
+  "id": "A073445",
+  "mentions": [
+    "A002808",
+    "A054546",
+    "A073783"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 115,
+    "source": "oeis-bfile"
+  }
+}

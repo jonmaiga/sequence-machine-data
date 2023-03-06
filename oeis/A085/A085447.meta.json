@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 6*a(n-1) + a(n-2), starting with a(0)=2 and a(1)=6.",
+  "id": "A085447",
+  "mentions": [
+    "A005667",
+    "A005668"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

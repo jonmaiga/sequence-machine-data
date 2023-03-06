@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n^4 + n^3 + n^2 + n + 1 is prime.",
+  "id": "A049409",
+  "mentions": [
+    "A088548"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:37:45",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

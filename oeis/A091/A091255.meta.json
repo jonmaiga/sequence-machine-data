@@ -1,0 +1,36 @@
+{
+  "description": "Square array computed from gcd(P(x),P(y)) where P(x) and P(y) are polynomials with coefficients in {0,1} given by the binary expansions of x and y, and the polynomial calculation is done over GF(2), with the result converted back to a binary number, and then expressed in decimal. Array is symmetric, and is read by falling antidiagonals.",
+  "id": "A091255",
+  "mentions": [
+    "A003987",
+    "A003989",
+    "A048720",
+    "A091247",
+    "A091256",
+    "A091257",
+    "A106449",
+    "A280500",
+    "A280501",
+    "A280503",
+    "A280505",
+    "A286153",
+    "A325634",
+    "A325635",
+    "A325825",
+    "A327856",
+    "A327857"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

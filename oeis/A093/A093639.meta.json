@@ -1,0 +1,19 @@
+{
+  "description": "Self-convolution forms A093638.",
+  "id": "A093639",
+  "mentions": [
+    "A093637",
+    "A093638"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Integer reached in A075102.",
+  "id": "A075103",
+  "mentions": [
+    "A075102"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

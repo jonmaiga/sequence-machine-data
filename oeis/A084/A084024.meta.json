@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows in which row n gives n smallest n-digit multiples of n that are palindromes.",
+  "id": "A084024",
+  "mentions": [
+    "A053041",
+    "A083123",
+    "A084025",
+    "A084026",
+    "A084027",
+    "A084028"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

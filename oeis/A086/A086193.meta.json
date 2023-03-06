@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n matrices with entries in {0,1} with no zero row, no zero column and with zero main diagonal.",
+  "id": "A086193",
+  "mentions": [
+    "A048291"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

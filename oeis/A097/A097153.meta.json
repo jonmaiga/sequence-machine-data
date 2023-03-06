@@ -1,0 +1,23 @@
+{
+  "description": "Reversal of n minus largest digit of n.",
+  "id": "A097153",
+  "mentions": [
+    "A097154",
+    "A097155",
+    "A097156",
+    "A097157",
+    "A097158"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

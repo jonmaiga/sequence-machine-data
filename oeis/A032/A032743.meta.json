@@ -1,0 +1,18 @@
+{
+  "description": "Super-2 Numbers (2 * n^2 contains substring '22' in its decimal expansion).",
+  "id": "A032743",
+  "mentions": [
+    "A014569"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:04:47",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

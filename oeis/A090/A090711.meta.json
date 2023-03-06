@@ -1,0 +1,19 @@
+{
+  "description": "Primes whose base-11 expansion is a (valid) decimal expansion of a prime.",
+  "id": "A090711",
+  "mentions": [
+    "A090712",
+    "A091924"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

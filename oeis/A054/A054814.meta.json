@@ -1,0 +1,31 @@
+{
+  "description": "Second term p(m) of strong prime sextets: p(m)-p(m-1) > p(m+1)-p(m) > p(m+2)-p(m+1) > p(m+3)-p(m+2) > p(m+4)-p(m+3).",
+  "id": "A054814",
+  "mentions": [
+    "A051634",
+    "A051635",
+    "A054800",
+    "A054803",
+    "A054804",
+    "A054808",
+    "A054809",
+    "A054813",
+    "A054815",
+    "A054818",
+    "A054819",
+    "A054840",
+    "A151799",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:22:03",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

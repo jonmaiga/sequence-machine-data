@@ -1,0 +1,25 @@
+{
+  "description": "Product of two triangular matrices C*S2.",
+  "id": "A064308",
+  "mentions": [
+    "A000108",
+    "A001453",
+    "A008277",
+    "A009766",
+    "A064307",
+    "A064309"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

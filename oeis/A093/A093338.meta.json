@@ -1,0 +1,18 @@
+{
+  "description": "Scan primes, write down initial digit if it is a prime.",
+  "id": "A093338",
+  "mentions": [
+    "A077648"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

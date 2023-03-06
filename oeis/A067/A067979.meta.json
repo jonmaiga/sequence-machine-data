@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows of incomplete convolutions of Lucas numbers L(n+1) = A000204(n+1), n>=0.",
+  "id": "A067979",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000204",
+    "A004799",
+    "A067330",
+    "A067980",
+    "A067989",
+    "A067990"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Harshad numbers that are also perfect powers.",
+  "id": "A098121",
+  "mentions": [
+    "A001597",
+    "A005349"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

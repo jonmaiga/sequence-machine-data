@@ -1,0 +1,21 @@
+{
+  "description": "Triangular numbers that are 7 times triangular numbers.",
+  "id": "A077400",
+  "mentions": [
+    "A077398",
+    "A077399",
+    "A077401"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

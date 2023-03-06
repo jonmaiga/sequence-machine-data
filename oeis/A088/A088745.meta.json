@@ -1,0 +1,20 @@
+{
+  "description": "Infinite array read by antidiagonals: for n>=1 let T_n = upper left n X n matrix. Then T_1 = (1), T_n has elements 1..n^2, contains T_{n-1} as n-1 X n-1 upper left submatrix and abs(det(T_n)) is a maximized.",
+  "id": "A088745",
+  "mentions": [
+    "A085000",
+    "A088217",
+    "A088746"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

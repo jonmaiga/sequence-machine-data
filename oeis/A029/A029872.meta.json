@@ -1,0 +1,20 @@
+{
+  "description": "Low temperature series for spin-1/2 Ising specific heat on 2D square lattice.",
+  "id": "A029872",
+  "mentions": [
+    "A002890",
+    "A029873",
+    "A029874"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

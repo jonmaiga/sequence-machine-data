@@ -1,0 +1,28 @@
+{
+  "description": "Image of n under Collatz-2 map, a generalization of the classical '3x+1' - function: instead of dividing an even number by 2 a nonprime will be divided by its smallest prime factor and a prime will be multiplied not by 3 but by its prime-predecessor, before one is added.",
+  "id": "A063041",
+  "mentions": [
+    "A010051",
+    "A020639",
+    "A032742",
+    "A063042",
+    "A063043",
+    "A063044",
+    "A063045",
+    "A063046",
+    "A064989",
+    "A280707"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 2,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

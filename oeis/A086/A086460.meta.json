@@ -1,0 +1,27 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k)=nk+0^n.",
+  "id": "A086460",
+  "mentions": [
+    "A000290",
+    "A004277",
+    "A008458",
+    "A008486",
+    "A008574",
+    "A008706",
+    "A028310",
+    "A049513"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

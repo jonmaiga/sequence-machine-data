@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct ways of arranging the squares {1,4,9,...,(2n)^2} in a circle so that the sum of each two adjacent entries is a prime.",
+  "id": "A072129",
+  "mentions": [
+    "A051252",
+    "A073451"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

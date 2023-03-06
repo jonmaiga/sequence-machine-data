@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n = pi(n)*k + 1 for some k.",
+  "id": "A065136",
+  "mentions": [
+    "A000720",
+    "A057809",
+    "A065134"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

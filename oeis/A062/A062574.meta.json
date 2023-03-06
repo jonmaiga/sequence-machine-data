@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that 8^k - 7^k is prime or a strong pseudoprime.",
+  "id": "A062574",
+  "mentions": [
+    "A000043",
+    "A016177",
+    "A057468",
+    "A059801",
+    "A059802",
+    "A059803",
+    "A062572",
+    "A062666"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

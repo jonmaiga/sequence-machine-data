@@ -1,0 +1,27 @@
+{
+  "description": "Table read by rows of A054994 ordered by A046080.",
+  "id": "A097756",
+  "mentions": [
+    "A001055",
+    "A006339",
+    "A046080",
+    "A046112",
+    "A054994",
+    "A097751",
+    "A097752",
+    "A097753",
+    "A097754",
+    "A097755"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

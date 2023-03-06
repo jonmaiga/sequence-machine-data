@@ -1,0 +1,18 @@
+{
+  "description": "Primes formed from concatenation of two consecutive Fibonacci numbers.",
+  "id": "A045498",
+  "mentions": [
+    "A092778"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

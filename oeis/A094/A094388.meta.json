@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1- 2x - x^2)/((1-x)*(1-3x)).",
+  "id": "A094388",
+  "mentions": [
+    "A001045",
+    "A007051",
+    "A034472"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

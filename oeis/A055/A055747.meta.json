@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Jacobi form of weight 12 and index 1 for the Niemeier lattice of type E_8^3 or D_16+E_8.",
+  "id": "A055747",
+  "mentions": [
+    "A003783",
+    "A004009",
+    "A008411"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:25",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

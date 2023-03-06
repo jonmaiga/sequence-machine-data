@@ -1,0 +1,19 @@
+{
+  "description": "Least difference between 5^n and a power of 2.",
+  "id": "A086453",
+  "mentions": [
+    "A056850",
+    "A061785"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

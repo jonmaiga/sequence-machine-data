@@ -1,0 +1,25 @@
+{
+  "description": "Partial sums of Kolakoski sequence A000002.",
+  "id": "A054353",
+  "mentions": [
+    "A000002",
+    "A074272",
+    "A074286",
+    "A074288",
+    "A078649",
+    "A088568",
+    "A156077"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

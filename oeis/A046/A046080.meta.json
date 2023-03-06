@@ -1,0 +1,36 @@
+{
+  "description": "a(n) is the number of integer-sided right triangles with hypotenuse n.",
+  "id": "A046080",
+  "mentions": [
+    "A000290",
+    "A002144",
+    "A004144",
+    "A006339",
+    "A009000",
+    "A024362",
+    "A046079",
+    "A046081",
+    "A046109",
+    "A063725",
+    "A083025",
+    "A084645",
+    "A084646",
+    "A084647",
+    "A084648",
+    "A084649",
+    "A088111",
+    "A088959",
+    "A224921"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

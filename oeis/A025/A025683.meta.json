@@ -1,0 +1,17 @@
+{
+  "description": "Exponent of 9 (value of i) in n-th number of form 9^i*10^j.",
+  "id": "A025683",
+  "mentions": [
+    "A025581"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:29:41",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

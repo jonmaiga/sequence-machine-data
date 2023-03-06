@@ -1,0 +1,17 @@
+{
+  "description": "Sum{T(i,n-i): i=0,1,...,n}, array T given by A047010.",
+  "id": "A047011",
+  "mentions": [
+    "A047010"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:39:27",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

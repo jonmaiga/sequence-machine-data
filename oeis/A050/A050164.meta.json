@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=S(2n+3,n+3,k+3), 0<=k<=n, n >= 0, array S as in A050157.",
+  "id": "A050164",
+  "mentions": [
+    "A050156",
+    "A050157"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:37",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

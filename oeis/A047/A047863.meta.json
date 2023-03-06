@@ -1,0 +1,31 @@
+{
+  "description": "Number of labeled graphs with 2-colored nodes where black nodes are only connected to white nodes and vice versa.",
+  "id": "A047863",
+  "mentions": [
+    "A000683",
+    "A000798",
+    "A001831",
+    "A002031",
+    "A033995",
+    "A047864",
+    "A052332",
+    "A111636",
+    "A135079",
+    "A191371",
+    "A223887",
+    "A322280"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "changed",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

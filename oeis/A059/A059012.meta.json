@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that have an even number of 0's and 1's in their binary expansion.",
+  "id": "A059012",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A059009",
+    "A059010",
+    "A059014"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes of form p = 2 + Sum_{k = 1..m} k^2 for some m.",
+  "id": "A065244",
+  "mentions": [
+    "A000330",
+    "A065245"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

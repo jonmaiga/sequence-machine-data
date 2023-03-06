@@ -1,0 +1,15 @@
+{
+  "description": "arctanh(arcsinh(x)*arcsin(x))=2/2!*x^2+328/6!*x^6+1356192/10!*x^10...",
+  "id": "A012606",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:47:12",
+    "offset": 0,
+    "size": 10,
+    "source": "joeis"
+  }
+}

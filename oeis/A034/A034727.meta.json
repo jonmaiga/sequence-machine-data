@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = that n-digit number m which gives minimal integral value of m/(sum of digits of m); in case of a tie pick the smallest.",
+  "id": "A034727",
+  "mentions": [
+    "A034686",
+    "A034726",
+    "A034728",
+    "A066007",
+    "A066008"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

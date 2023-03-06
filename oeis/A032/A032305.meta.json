@@ -1,0 +1,27 @@
+{
+  "description": "Number of rooted trees where any 2 subtrees extending from the same node have a different number of nodes.",
+  "id": "A032305",
+  "mentions": [
+    "A000081",
+    "A001678",
+    "A003238",
+    "A004111",
+    "A213920",
+    "A273873",
+    "A290689",
+    "A291443",
+    "A297571",
+    "A318753"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

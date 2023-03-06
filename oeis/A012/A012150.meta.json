@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp(tan(arcsin(x))).",
+  "id": "A012150",
+  "mentions": [
+    "A111959"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:28:31",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

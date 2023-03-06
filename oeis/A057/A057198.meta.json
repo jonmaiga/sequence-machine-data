@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (5*3^(n-1)+1)/2.",
+  "id": "A057198",
+  "mentions": [
+    "A046901",
+    "A060816",
+    "A135423",
+    "A191450"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

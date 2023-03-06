@@ -1,0 +1,19 @@
+{
+  "description": "Shuffles at which new record high cards appear on top of deck in Guy's shuffling problem A035485.",
+  "id": "A035501",
+  "mentions": [
+    "A035485",
+    "A035493",
+    "A035494"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:10",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

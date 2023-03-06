@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k and 2*k are anagrams.",
+  "id": "A023086",
+  "mentions": [
+    "A023087",
+    "A023088",
+    "A023089",
+    "A023090",
+    "A023091",
+    "A023092",
+    "A023093",
+    "A336670"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

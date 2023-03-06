@@ -1,0 +1,21 @@
+{
+  "description": "Smallest possible sum of the digits of a multiple of n.",
+  "id": "A077196",
+  "mentions": [
+    "A007953",
+    "A077194",
+    "A077195"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

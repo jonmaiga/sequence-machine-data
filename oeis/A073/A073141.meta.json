@@ -1,0 +1,21 @@
+{
+  "description": "Product of the largest and smallest number having in binary representation the same number of 0's and 1's as n.",
+  "id": "A073141",
+  "mentions": [
+    "A007088",
+    "A073137",
+    "A073138",
+    "A073139",
+    "A073140"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

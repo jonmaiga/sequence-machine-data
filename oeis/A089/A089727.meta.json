@@ -1,0 +1,18 @@
+{
+  "description": "Largest prime of the form n*k+1, k <= n.",
+  "id": "A089727",
+  "mentions": [
+    "A089726"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

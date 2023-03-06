@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose English names include all five vowels exactly once.",
+  "id": "A058180",
+  "mentions": [
+    "A058179"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

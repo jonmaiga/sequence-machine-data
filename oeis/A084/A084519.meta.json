@@ -1,0 +1,24 @@
+{
+  "description": "Number of indecomposable ground-state 3-ball juggling sequences of period n.",
+  "id": "A084519",
+  "mentions": [
+    "A003319",
+    "A084509",
+    "A084511",
+    "A084512",
+    "A084518",
+    "A084529",
+    "A145463"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:12:36",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

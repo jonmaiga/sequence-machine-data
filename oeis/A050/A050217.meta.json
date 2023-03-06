@@ -1,0 +1,22 @@
+{
+  "description": "Super-Poulet numbers: Poulet numbers whose divisors d all satisfy d|2^d-2.",
+  "id": "A050217",
+  "mentions": [
+    "A001220",
+    "A001567",
+    "A065341",
+    "A178997",
+    "A214305",
+    "A258409"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

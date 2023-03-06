@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = a(2) = 1, a(n) is largest prime factor of concatenation of a(n - 2) and a(n - 1).",
+  "id": "A034969",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

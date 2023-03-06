@@ -1,0 +1,21 @@
+{
+  "description": "Differences between A097598 and A047842.",
+  "id": "A097599",
+  "mentions": [
+    "A045918",
+    "A047842",
+    "A097598"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

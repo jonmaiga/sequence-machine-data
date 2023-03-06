@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1/416.",
+  "id": "A021420",
+  "mentions": [
+    "A021212"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:11:35",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

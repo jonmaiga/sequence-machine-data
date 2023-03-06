@@ -1,0 +1,18 @@
+{
+  "description": "For n>0, a(n) is the least quasi-Carmichael number to base n; a(0) = least composite squarefree integer.",
+  "id": "A029590",
+  "mentions": [
+    "A029591",
+    "A257750"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

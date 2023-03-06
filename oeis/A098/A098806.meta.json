@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime p such that 2n-p and 2n+p are both prime.",
+  "id": "A098806",
+  "mentions": [
+    "A098807"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

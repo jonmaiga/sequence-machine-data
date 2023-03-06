@@ -1,0 +1,20 @@
+{
+  "description": "Nonsquares mod 93.",
+  "id": "A028806",
+  "mentions": [
+    "A010454"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

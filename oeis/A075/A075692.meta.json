@@ -1,0 +1,18 @@
+{
+  "description": "Upper irredundance number for queens graph Q_n on n^2 nodes.",
+  "id": "A075692",
+  "mentions": [
+    "A075709"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

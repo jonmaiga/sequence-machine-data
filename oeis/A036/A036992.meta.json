@@ -1,0 +1,22 @@
+{
+  "description": "Numbers not in A036990 nor A036991.",
+  "id": "A036992",
+  "mentions": [
+    "A036988",
+    "A036990",
+    "A036991"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that k! is divisible by (1!*2!*3!*...*n!).",
+  "id": "A093886",
+  "mentions": [
+    "A093887"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

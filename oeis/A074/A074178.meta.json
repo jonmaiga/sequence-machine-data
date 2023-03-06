@@ -1,0 +1,20 @@
+{
+  "description": "Records of the coefficients of the continued fraction for the Product_{p prime} (1 - 2/p^2).",
+  "id": "A074178",
+  "mentions": [
+    "A065474",
+    "A074893"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

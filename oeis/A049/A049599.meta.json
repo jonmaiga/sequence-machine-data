@@ -1,0 +1,25 @@
+{
+  "description": "Number of (1+e)-divisors of n: if n = Product p(i)^r(i), d = Product p(i)^s(i) and s(i) = 0 or s(i) divides r(i), then d is a (1+e)-divisor of n.",
+  "id": "A049599",
+  "mentions": [
+    "A000005",
+    "A049419",
+    "A049603",
+    "A051378",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

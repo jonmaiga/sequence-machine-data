@@ -1,0 +1,22 @@
+{
+  "description": "Difference between largest prime power factor of n and the smallest number S(n) with S(n)! a multiple of n [taking a(1)=0].",
+  "id": "A057110",
+  "mentions": [
+    "A002034",
+    "A034699",
+    "A057108",
+    "A057111"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

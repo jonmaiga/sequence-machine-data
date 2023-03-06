@@ -1,0 +1,18 @@
+{
+  "description": "Floor of (-1)^n*n!*(E(n,2)-E(n,1)*E(n-1,1)) where E(n,x) = Sum_{k=0..n} (-1)^k*x^k/k!.",
+  "id": "A065955",
+  "mentions": [
+    "A065952",
+    "A065956"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of coefficients in Taylor series for exp(tan(x)).",
+  "id": "A047691",
+  "mentions": [
+    "A006229",
+    "A047692"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

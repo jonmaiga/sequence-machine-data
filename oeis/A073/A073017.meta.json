@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the Product_{n>=1} (1 + 1/n^3).",
+  "id": "A073017",
+  "mentions": [
+    "A000984",
+    "A109219",
+    "A156648",
+    "A175615",
+    "A175617",
+    "A258870",
+    "A258871"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:49:13",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Self-inverse permutation of natural numbers induced by reflections of the rooted plane trees and mountain ranges encoded by A014486.",
+  "id": "A057164",
+  "mentions": [
+    "A014486",
+    "A036044",
+    "A056539",
+    "A057117",
+    "A057123",
+    "A057163",
+    "A057505",
+    "A057506",
+    "A057508",
+    "A061856",
+    "A069772",
+    "A069787",
+    "A080300",
+    "A089408",
+    "A122287",
+    "A122288"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-27 12:56:36",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

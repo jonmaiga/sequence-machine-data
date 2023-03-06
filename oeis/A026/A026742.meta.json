@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = T(n, floor(n/2)), T given by A026736.",
+  "id": "A026742",
+  "mentions": [
+    "A001622",
+    "A026736"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

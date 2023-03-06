@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor((3*n + 4)/4).",
+  "id": "A037915",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:35:47",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

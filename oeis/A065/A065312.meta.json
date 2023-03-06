@@ -1,0 +1,23 @@
+{
+  "description": "Primes which occur exactly once in A065308 (prime(n - pi(n))).",
+  "id": "A065312",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A054546",
+    "A065308",
+    "A065309",
+    "A065310",
+    "A065311"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

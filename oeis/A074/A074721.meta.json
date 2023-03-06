@@ -1,0 +1,24 @@
+{
+  "description": "Concatenate the primes as 2357111317192329313..., then insert commas from left to right so that between each pair of successive commas is a prime, always making the new prime as small as possible.",
+  "id": "A074721",
+  "mentions": [
+    "A000040",
+    "A033308",
+    "A047777",
+    "A053648",
+    "A069090",
+    "A073034"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

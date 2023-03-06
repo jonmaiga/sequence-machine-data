@@ -1,0 +1,20 @@
+{
+  "description": "Concatenation of n and n + 2 or {n,n+2}.",
+  "id": "A032607",
+  "mentions": [
+    "A001704",
+    "A020338"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:04:03",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

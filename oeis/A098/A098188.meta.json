@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle with 4 columns which contains in each row the members of a 4-cycle under the map x->A063919(x), iteration of summing the proper-unitary divisors.",
+  "id": "A098188",
+  "mentions": [
+    "A002827",
+    "A063919",
+    "A097024",
+    "A097030",
+    "A098185",
+    "A098186",
+    "A098187",
+    "A319902"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

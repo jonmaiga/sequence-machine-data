@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = a(n-1)+a(m), where m=n-1-2^p and 2^p= 4.",
+  "id": "A050058",
+  "mentions": [
+    "A050034"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:13",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

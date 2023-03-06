@@ -1,0 +1,21 @@
+{
+  "description": "Number of unlabeled 3-element intersecting families (with not necessarily distinct sets) of an n-element set.",
+  "id": "A055484",
+  "mentions": [
+    "A002727",
+    "A005783",
+    "A051180",
+    "A053155"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:25:55",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

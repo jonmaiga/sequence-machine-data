@@ -1,0 +1,26 @@
+{
+  "description": "Primes of the form k^4 + k^3 + k^2 + k + 1.",
+  "id": "A088548",
+  "mentions": [
+    "A000040",
+    "A002383",
+    "A008858",
+    "A049409",
+    "A053699",
+    "A085104",
+    "A088550",
+    "A125134"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:29:33",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

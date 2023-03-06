@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n+1-k), where k = [ (n+1)/2 ], s = (Lucas numbers), t = (composite numbers).",
+  "id": "A024471",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:24:06",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

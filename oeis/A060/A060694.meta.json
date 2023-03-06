@@ -1,0 +1,23 @@
+{
+  "description": "A triangle related to rooted trees.",
+  "id": "A060694",
+  "mentions": [
+    "A000142",
+    "A000311",
+    "A006963",
+    "A032188",
+    "A052582"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

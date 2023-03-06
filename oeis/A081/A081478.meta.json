@@ -1,0 +1,20 @@
+{
+  "description": "Consider the mapping f(a/b) = (a - b)/(ab). Taking a = 2 and b = 1 to start with and carrying out this mapping repeatedly on each new (reduced) rational number gives the following sequence 2/1,1/2,-1/2,-3/-2,-1/6,... Sequence contains the denominators.",
+  "id": "A081478",
+  "mentions": [
+    "A003687",
+    "A007018"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

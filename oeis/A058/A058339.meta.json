@@ -1,0 +1,31 @@
+{
+  "description": "Number of solutions to 1 + phi(x) = prime(n), where phi is A000010.",
+  "id": "A058339",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A006093",
+    "A058340",
+    "A066071",
+    "A066072",
+    "A066073",
+    "A066074",
+    "A066075",
+    "A066076",
+    "A066077",
+    "A066080",
+    "A210500",
+    "A210501"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

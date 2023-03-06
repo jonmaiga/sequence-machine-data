@@ -1,0 +1,26 @@
+{
+  "description": "Least d for which the number with continued fraction [n,n,n,n...] is in Q(sqrt(d)).",
+  "id": "A013946",
+  "mentions": [
+    "A000045",
+    "A001333",
+    "A002878",
+    "A003688",
+    "A007913",
+    "A015448",
+    "A015449",
+    "A015451",
+    "A077444"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:36",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

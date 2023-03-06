@@ -1,0 +1,18 @@
+{
+  "description": "Primes which yield primes each time the process of removing two outermost digits is carried out until finally a two digit prime (possibly with a leading 0) is obtained.",
+  "id": "A069791",
+  "mentions": [
+    "A069686"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

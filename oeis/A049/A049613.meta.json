@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 2n - (largest prime < 2n-2).",
+  "id": "A049613",
+  "mentions": [
+    "A002373",
+    "A007917",
+    "A020481",
+    "A049653",
+    "A049711",
+    "A049716",
+    "A049847"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:39:39",
+    "offset": 3,
+    "size": 91,
+    "source": "joeis"
+  }
+}

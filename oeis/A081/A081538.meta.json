@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A081537(n)/A081535(n), with a(2) = 1 by convention.",
+  "id": "A081538",
+  "mentions": [
+    "A081535",
+    "A081536",
+    "A081537"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

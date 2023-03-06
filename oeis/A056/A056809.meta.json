@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that k, k+1 and k+2 are products of two primes.",
+  "id": "A056809",
+  "mentions": [
+    "A039833",
+    "A045939",
+    "A070552",
+    "A086005",
+    "A086006",
+    "A092207",
+    "A123255"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

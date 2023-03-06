@@ -1,0 +1,19 @@
+{
+  "description": "Commuting permutations: number of ordered triples of permutations f, g, h in Symm(n) which all commute.",
+  "id": "A072169",
+  "mentions": [
+    "A053529",
+    "A061256"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

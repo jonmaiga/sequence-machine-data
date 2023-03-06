@@ -1,0 +1,30 @@
+{
+  "description": "Array T(k,n) read by antidiagonals: expansion of exp(x+y)/(1-xy).",
+  "id": "A099597",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A006040",
+    "A007318",
+    "A058331",
+    "A070910",
+    "A088699",
+    "A096789",
+    "A099598",
+    "A099599",
+    "A228229"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

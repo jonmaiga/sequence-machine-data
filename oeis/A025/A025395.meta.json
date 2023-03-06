@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are the sum of 3 positive cubes in exactly 1 way.",
+  "id": "A025395",
+  "mentions": [
+    "A003072",
+    "A024981",
+    "A025321",
+    "A025396",
+    "A025403",
+    "A025456",
+    "A338667",
+    "A344188"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:28:33",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

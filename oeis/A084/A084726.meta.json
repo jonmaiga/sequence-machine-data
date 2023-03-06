@@ -1,0 +1,17 @@
+{
+  "description": "Smallest common difference of the arithmetic progression of length n, beginning with 1 whose product of first n terms + 1 is a prime.",
+  "id": "A084726",
+  "mentions": [
+    "A084727"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

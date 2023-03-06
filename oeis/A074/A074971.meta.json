@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n into distinct parts of order n.",
+  "id": "A074971",
+  "mentions": [
+    "A000837",
+    "A033630",
+    "A074761",
+    "A285572",
+    "A290103",
+    "A305566",
+    "A316431",
+    "A316433",
+    "A317624"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

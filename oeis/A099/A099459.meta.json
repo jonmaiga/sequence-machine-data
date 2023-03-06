@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/(1 - 7*x + 9*x^2).",
+  "id": "A099459",
+  "mentions": [
+    "A002540",
+    "A099460",
+    "A099461"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

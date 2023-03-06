@@ -1,0 +1,21 @@
+{
+  "description": "Number of connected partially ordered sets with n \"lines\": pairs (a,b) where a < b and there is no c with a < c < b. The lines form the minimal basis for the partial ordering.",
+  "id": "A022017",
+  "mentions": [
+    "A000112",
+    "A000608",
+    "A022016",
+    "A342590"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

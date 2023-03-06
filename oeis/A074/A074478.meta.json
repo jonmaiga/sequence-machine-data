@@ -1,0 +1,23 @@
+{
+  "description": "Largest prime factor of 5^n + 1.",
+  "id": "A074478",
+  "mentions": [
+    "A002587",
+    "A006530",
+    "A034474",
+    "A074476",
+    "A074479",
+    "A227575"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

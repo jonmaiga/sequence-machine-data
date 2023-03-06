@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 2; a(n+1)^2 is next smallest square ending with a(n)^2.",
+  "id": "A050637",
+  "mentions": [
+    "A048560",
+    "A050631",
+    "A050636",
+    "A061361",
+    "A065789"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

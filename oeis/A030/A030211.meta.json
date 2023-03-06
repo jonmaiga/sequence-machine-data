@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of q^(-1/2) * (eta(q) * eta(q^2))^4 in powers of q.",
+  "id": "A030211",
+  "mentions": [
+    "A002171",
+    "A030203",
+    "A134461"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

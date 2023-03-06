@@ -1,0 +1,20 @@
+{
+  "description": "Numbers a(n) have a representation a(n) = x^2 + y^2 and x is least primitive root of a(n). a(n) is first such number with x increasing in the sequence, x can be found in A082843.",
+  "id": "A082842",
+  "mentions": [
+    "A001481",
+    "A082815",
+    "A082843"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

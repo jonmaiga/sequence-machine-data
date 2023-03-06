@@ -1,0 +1,19 @@
+{
+  "description": "Open 3-dimensional ball numbers (version 4): a(n) is the number of integer points (i,j,k) contained in an open ball of diameter n, centered at (1/2, 1/2, 1/2).",
+  "id": "A053596",
+  "mentions": [
+    "A053415"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

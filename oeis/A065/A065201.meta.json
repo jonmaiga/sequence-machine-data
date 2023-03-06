@@ -1,0 +1,19 @@
+{
+  "description": "Numbers having a non-maximal prime-factor with exponent greater than 1.",
+  "id": "A065201",
+  "mentions": [
+    "A065200",
+    "A065202",
+    "A096156"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

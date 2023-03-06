@@ -1,0 +1,22 @@
+{
+  "description": "Number of chiral n-ominoes in n-2 space.",
+  "id": "A036365",
+  "mentions": [
+    "A036364",
+    "A045648",
+    "A045649"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:10:36",
+    "offset": 3,
+    "size": 28,
+    "source": "joeis"
+  }
+}

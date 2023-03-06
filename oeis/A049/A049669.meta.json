@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Fibonacci(9*n)/34.",
+  "id": "A049669",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A028412",
+    "A111125"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

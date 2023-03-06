@@ -1,0 +1,19 @@
+{
+  "description": "Define the signature symmetry of a number n to be k if n-r and n+r have the same prime signature for r = 1 to k but not for k+1. Sequence contains the signature symmetry of n.",
+  "id": "A093488",
+  "mentions": [
+    "A093489",
+    "A093491",
+    "A093492"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

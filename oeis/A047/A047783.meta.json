@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(Li(n)).",
+  "id": "A047783",
+  "mentions": [
+    "A047784",
+    "A047785"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:50:43",
+    "offset": 2,
+    "size": 69,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n matrices over GF(3) of order dividing 7 (i.e., number of solutions of X^7=I in GL(n,3)).",
+  "id": "A053852",
+  "mentions": [
+    "A053725",
+    "A053772",
+    "A053846"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:56:08",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

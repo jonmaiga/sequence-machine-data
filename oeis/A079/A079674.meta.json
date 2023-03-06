@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction expansion of product(k>=1,1+1/2^k) = 2.384231029031371...",
+  "id": "A079674",
+  "mentions": [
+    "A028362",
+    "A079555"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

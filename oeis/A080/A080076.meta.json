@@ -1,0 +1,22 @@
+{
+  "description": "Proth primes: primes of the form k*2^m + 1 with odd k < 2^m, m >= 1.",
+  "id": "A080076",
+  "mentions": [
+    "A080075",
+    "A134876",
+    "A214120",
+    "A239234",
+    "A248972"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

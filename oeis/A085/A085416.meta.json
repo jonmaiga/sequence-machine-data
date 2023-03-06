@@ -1,0 +1,20 @@
+{
+  "description": "Take prime[n] and continue adding 1,2,..., A085415(n) until one reaches a prime a(n).",
+  "id": "A085416",
+  "mentions": [
+    "A085415",
+    "A085417",
+    "A085418"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

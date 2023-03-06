@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(n,k) = number of polyhedra (triconnected planar graphs) with n faces and k vertices, where (n/2+2) <= k <= (2n+8).",
+  "id": "A058787",
+  "mentions": [
+    "A000109",
+    "A000944",
+    "A001651",
+    "A002840",
+    "A002856",
+    "A049337",
+    "A058786",
+    "A058788",
+    "A212438"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 4,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

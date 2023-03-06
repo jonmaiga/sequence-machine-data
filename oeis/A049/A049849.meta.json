@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of primes q less than n-th prime p for which the Euclidean algorithm for p,q has exactly 3 nonzero remainders.",
+  "id": "A049849",
+  "mentions": [
+    "A049848",
+    "A049850"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:53",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

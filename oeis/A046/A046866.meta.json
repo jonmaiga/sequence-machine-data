@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that 6*7^k - 1 is prime.",
+  "id": "A046866",
+  "mentions": [
+    "A001771",
+    "A002235",
+    "A003307",
+    "A005541",
+    "A046865",
+    "A046867",
+    "A056725",
+    "A079906",
+    "A079907"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

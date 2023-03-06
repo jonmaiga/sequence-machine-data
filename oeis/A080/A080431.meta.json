@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers such that all a(i)*a(j) are distinct.",
+  "id": "A080431",
+  "mentions": [
+    "A066724",
+    "A080430",
+    "A080432"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

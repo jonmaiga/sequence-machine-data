@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of sqrt(e)/24.",
+  "id": "A019797",
+  "mentions": [
+    "A001113",
+    "A019774"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

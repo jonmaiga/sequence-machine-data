@@ -1,0 +1,27 @@
+{
+  "description": "McKay-Thompson series of class 13A for the Monster group with a(0) = -2.",
+  "id": "A034318",
+  "mentions": [
+    "A000521",
+    "A007240",
+    "A007241",
+    "A007267",
+    "A014708",
+    "A034319",
+    "A045478",
+    "A121597",
+    "A133099"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": -1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of v_4, where v_n is the smallest, positive, real solution to the equation (v_n)^n = v_n + 1.",
+  "id": "A060007",
+  "mentions": [
+    "A001622",
+    "A060006",
+    "A160155",
+    "A356032"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

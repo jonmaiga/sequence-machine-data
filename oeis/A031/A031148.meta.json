@@ -1,0 +1,23 @@
+{
+  "description": "Number of series-reduced planted trees with n leaves of 2 colors and no symmetries.",
+  "id": "A031148",
+  "mentions": [
+    "A000669",
+    "A001678",
+    "A038075",
+    "A050381",
+    "A052301"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:12:44",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

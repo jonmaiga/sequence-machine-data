@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n which are divisors of the number formed by concatenating (n-3), (n-2) and (n-1) in that order.",
+  "id": "A088799",
+  "mentions": [
+    "A069860",
+    "A088797",
+    "A088798"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

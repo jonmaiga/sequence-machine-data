@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree numbers whose external as well as internal digits form a squarefree number.",
+  "id": "A077378",
+  "mentions": [
+    "A077376",
+    "A077377",
+    "A077379",
+    "A077380"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

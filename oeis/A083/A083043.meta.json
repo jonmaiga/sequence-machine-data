@@ -1,0 +1,20 @@
+{
+  "description": "Integers y such that 11*x^2 - 9*y^2 = 2 for some integer x.",
+  "id": "A083043",
+  "mentions": [
+    "A075839",
+    "A075843"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

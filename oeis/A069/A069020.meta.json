@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 1; a(n) = smallest number of the form k*a(n-1) +1 divisible by n^2.",
+  "id": "A069020",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

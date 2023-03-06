@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 13; for n > 0, a(n) is the greatest prime factor of PreviousPrime(a(n-1))*a(n-1)-1 where PreviousPrime(prime(k))=prime(k-1).",
+  "id": "A031442",
+  "mentions": [
+    "A031441"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:06:48",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Squares k which are divisible by phi(k).",
+  "id": "A063755",
+  "mentions": [
+    "A000010",
+    "A007694",
+    "A049237"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

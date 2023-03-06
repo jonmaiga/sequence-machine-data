@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k with the property that reading k gives correct, although not necessarily complete, information about itself.",
+  "id": "A059504",
+  "mentions": [
+    "A109775"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nice",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

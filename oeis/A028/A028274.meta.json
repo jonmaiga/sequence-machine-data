@@ -1,0 +1,18 @@
+{
+  "description": "Odd elements (greater than 1) to right of central elements in 3-Pascal triangle A028262.",
+  "id": "A028274",
+  "mentions": [
+    "A028262"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:58:47",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

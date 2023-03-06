@@ -1,0 +1,21 @@
+{
+  "description": "Zero-free Harshad left truncatable numbers.",
+  "id": "A097518",
+  "mentions": [
+    "A005349",
+    "A097569"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

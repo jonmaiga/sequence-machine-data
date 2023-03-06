@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: counts the permutations of partitions described in A083480. Both Arrays have shape sequence A083479.",
+  "id": "A089349",
+  "mentions": [
+    "A083479",
+    "A083480"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

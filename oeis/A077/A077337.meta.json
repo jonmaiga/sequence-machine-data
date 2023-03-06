@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n and R(n) both are squarefree where R(n) (A004086) is the digit reversal of n.",
+  "id": "A077337",
+  "mentions": [
+    "A004086"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

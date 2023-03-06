@@ -1,0 +1,20 @@
+{
+  "description": "Weight distribution of (64, 2^52, 6) Preparata code.",
+  "id": "A028239",
+  "mentions": [
+    "A010032",
+    "A109159"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of divisors of the squarefree numbers: tau(A005117(n)).",
+  "id": "A072048",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A001221",
+    "A001620",
+    "A005117",
+    "A062822",
+    "A065473",
+    "A072047",
+    "A073245"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

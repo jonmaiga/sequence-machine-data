@@ -1,0 +1,34 @@
+{
+  "description": "Antisigma(n): Sum of the numbers less than n that do not divide n.",
+  "id": "A024816",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A004125",
+    "A023896",
+    "A024916",
+    "A066760",
+    "A076617",
+    "A153485",
+    "A173539",
+    "A173540",
+    "A173541",
+    "A244048",
+    "A342344",
+    "A352810",
+    "A352811"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "GCD of consecutive values of Chowla's function.",
+  "id": "A069896",
+  "mentions": [
+    "A000203",
+    "A001650",
+    "A048050"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime == 1 mod (9n).",
+  "id": "A070853",
+  "mentions": [
+    "A034694",
+    "A070846",
+    "A070852"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

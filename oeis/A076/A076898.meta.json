@@ -1,0 +1,19 @@
+{
+  "description": "Let u(1)=u(2)=u(3)=1, u(n)=sign(u(n-1)-u(n-2))/(u(n-3)+1); then a(n) is the numerator of u(n).",
+  "id": "A076898",
+  "mentions": [
+    "A076899"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

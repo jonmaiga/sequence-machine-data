@@ -1,0 +1,22 @@
+{
+  "description": "List of sizes of squares occurring in lowest order example of a perfect squared square.",
+  "id": "A014530",
+  "mentions": [
+    "A002839",
+    "A002881",
+    "A002962",
+    "A342558"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

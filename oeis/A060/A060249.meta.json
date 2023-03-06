@@ -1,0 +1,19 @@
+{
+  "description": "Size of the automorphism group of the symmetric group S_n.",
+  "id": "A060249",
+  "mentions": [
+    "A000142"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

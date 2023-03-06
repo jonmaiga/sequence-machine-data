@@ -1,0 +1,17 @@
+{
+  "description": "Coefficients in generating function for radius of curvature of the sequence A066158.",
+  "id": "A019441",
+  "mentions": [
+    "A066158"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

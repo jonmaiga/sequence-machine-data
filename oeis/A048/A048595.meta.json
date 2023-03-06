@@ -1,0 +1,22 @@
+{
+  "description": "Alternative start to A002371, which is the main entry for this sequence.",
+  "id": "A048595",
+  "mentions": [
+    "A002371",
+    "A060251",
+    "A060283"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:47:11",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

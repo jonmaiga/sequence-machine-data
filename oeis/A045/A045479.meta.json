@@ -1,0 +1,25 @@
+{
+  "description": "McKay-Thompson series of class 2B for the Monster group with a(0) = -8.",
+  "id": "A045479",
+  "mentions": [
+    "A007191",
+    "A007246",
+    "A035099",
+    "A097340",
+    "A107080",
+    "A134786"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:00:06",
+    "offset": -1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

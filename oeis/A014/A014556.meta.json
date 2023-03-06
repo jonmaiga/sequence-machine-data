@@ -1,0 +1,25 @@
+{
+  "description": "Euler's \"Lucky\" numbers: n such that m^2-m+n is prime for m=0..n-1.",
+  "id": "A014556",
+  "mentions": [
+    "A000926",
+    "A003173",
+    "A092749",
+    "A117530",
+    "A117531"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

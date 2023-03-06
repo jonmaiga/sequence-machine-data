@@ -1,0 +1,20 @@
+{
+  "description": "Let d(n) = number of distinct primes dividing n (A001221); sequence gives t such that d(t)=d(t+1)=...=d(t+n-1) is a run of record length.",
+  "id": "A048971",
+  "mentions": [
+    "A001221",
+    "A048932",
+    "A048972"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

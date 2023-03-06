@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number m such that n followed by m ones yields a prime; a(p) = 0 because 0 ones are necessary to yield a prime.",
+  "id": "A083747",
+  "mentions": [
+    "A069568"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

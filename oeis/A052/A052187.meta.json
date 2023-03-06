@@ -1,0 +1,27 @@
+{
+  "description": "Smallest prime p such that p, p+d, and p+2d are consecutive primes for each possible d either 2 or divisible by 6.",
+  "id": "A052187",
+  "mentions": [
+    "A001223",
+    "A047948",
+    "A052160",
+    "A052188",
+    "A052189",
+    "A052195",
+    "A052196",
+    "A052197",
+    "A052198",
+    "A054342"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

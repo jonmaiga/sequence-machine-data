@@ -1,0 +1,15 @@
+{
+  "description": "Related to reciprocal Pythagorean triples: 1/a(n)^2 + 1/k^2 = 1/j^2 has an integer solution (k,j) with k",
+  "id": "A065607",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

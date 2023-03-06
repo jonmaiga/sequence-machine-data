@@ -1,0 +1,19 @@
+{
+  "description": "Largest exponent k >=0 such that (n+1)^k divides n!.",
+  "id": "A071637",
+  "mentions": [
+    "A011776",
+    "A068499"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

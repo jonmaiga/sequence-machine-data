@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Fibonacci(4*n+3) - 2, or Fibonacci(2*n)*Lucas(2*n+3).",
+  "id": "A081013",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A033891",
+    "A056914"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) and a(n)+4^k are primes at least for k=1,2,3,4,5,6.",
+  "id": "A049496",
+  "mentions": [
+    "A023200",
+    "A049492",
+    "A049495",
+    "A049497",
+    "A049500"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:21",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

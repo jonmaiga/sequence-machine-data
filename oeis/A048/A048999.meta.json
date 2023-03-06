@@ -1,0 +1,25 @@
+{
+  "description": "Triangle giving coefficients of (n+1)!*B_n(x), where B_n(x) is a Bernoulli polynomial, ordered by falling powers of x.",
+  "id": "A048999",
+  "mentions": [
+    "A048998",
+    "A053382",
+    "A053383",
+    "A196838",
+    "A196839"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:17:15",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

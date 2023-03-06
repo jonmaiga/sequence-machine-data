@@ -1,0 +1,27 @@
+{
+  "description": "Binary expansion matches ((0)*0001)*(0*); or, Zeckendorf-like expansion of n using recurrence f(n) = f(n-1) + f(n-4).",
+  "id": "A048718",
+  "mentions": [
+    "A000045",
+    "A003269",
+    "A003714",
+    "A048715",
+    "A048719",
+    "A115422",
+    "A115423",
+    "A115424"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 13:32:04",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest positive integer containing the n-th letter of the alphabet (in US English), or -1 if no such integer exists.",
+  "id": "A029722",
+  "mentions": [
+    "A111098",
+    "A114181"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "sign",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

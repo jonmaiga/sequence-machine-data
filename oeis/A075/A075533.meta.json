@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled rooted trees where each node at height h has 0 or h+1 children.",
+  "id": "A075533",
+  "mentions": [
+    "A075532",
+    "A075534"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

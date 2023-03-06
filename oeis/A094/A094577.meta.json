@@ -1,0 +1,22 @@
+{
+  "description": "Central Peirce numbers. Number of set partitions of {1,2,..,2n+1} in which n+1 is the smallest of its block.",
+  "id": "A094577",
+  "mentions": [
+    "A011971",
+    "A020556",
+    "A094574",
+    "A123346",
+    "A216078"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

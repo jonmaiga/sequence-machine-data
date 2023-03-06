@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form Fibonacci(p-1)/p, where p are primes ending in 1 or 9 (i.e., A045468).",
+  "id": "A094808",
+  "mentions": [
+    "A045468",
+    "A094809",
+    "A096028"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

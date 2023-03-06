@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose base-6 representation has the same number of 0's, 2's and 4's.",
+  "id": "A039578",
+  "mentions": [
+    "A007092"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:12:07",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

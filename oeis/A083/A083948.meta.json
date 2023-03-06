@@ -1,0 +1,24 @@
+{
+  "description": "Integer coefficients of A(x), where 1<=a(n)<=8, such that A(x)^(1/8) consists entirely of integer coefficients.",
+  "id": "A083948",
+  "mentions": [
+    "A083947",
+    "A083949",
+    "A083950",
+    "A083952",
+    "A083953",
+    "A083954",
+    "A083955",
+    "A083956"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

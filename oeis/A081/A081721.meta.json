@@ -1,0 +1,36 @@
+{
+  "description": "Number of bracelets of n beads in up to n colors.",
+  "id": "A081721",
+  "mentions": [
+    "A000169",
+    "A000312",
+    "A001700",
+    "A056665",
+    "A081720",
+    "A130293",
+    "A168658",
+    "A213941",
+    "A275549",
+    "A275550",
+    "A275551",
+    "A275552",
+    "A275553",
+    "A275554",
+    "A275555",
+    "A275556",
+    "A275557",
+    "A275558",
+    "A321791"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

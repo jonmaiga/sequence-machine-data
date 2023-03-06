@@ -1,0 +1,20 @@
+{
+  "description": "A sequence related to binomial(n+2, 2).",
+  "id": "A081907",
+  "mentions": [
+    "A000217",
+    "A081894"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

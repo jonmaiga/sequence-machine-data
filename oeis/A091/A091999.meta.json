@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are congruent to {2, 10} mod 12.",
+  "id": "A091999",
+  "mentions": [
+    "A007310",
+    "A017545",
+    "A017641",
+    "A092260",
+    "A109761",
+    "A138591",
+    "A186424"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

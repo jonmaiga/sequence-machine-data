@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the first cube root greater than 10^n such that a(n)^3 is a palfree cube (palfree = contains no palindromic substring except single digits).",
+  "id": "A052067",
+  "mentions": [
+    "A052025",
+    "A052028",
+    "A052063",
+    "A052064",
+    "A052065",
+    "A052068"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:00:59",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

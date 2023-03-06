@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,r) = n^r + r^n (1 <= r <= n).",
+  "id": "A093898",
+  "mentions": [
+    "A055652"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:26:15",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

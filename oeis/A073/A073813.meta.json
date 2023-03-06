@@ -1,0 +1,21 @@
+{
+  "description": "Difference between n and largest unrelated number belonging to n, when n runs over composite numbers. For primes and for 4, unrelated set is empty.",
+  "id": "A073813",
+  "mentions": [
+    "A002808",
+    "A045763",
+    "A056608",
+    "A073759"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

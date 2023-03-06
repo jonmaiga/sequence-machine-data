@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..n} T(n,k), array T as in A049771.",
+  "id": "A049772",
+  "mentions": [
+    "A049771"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:33",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

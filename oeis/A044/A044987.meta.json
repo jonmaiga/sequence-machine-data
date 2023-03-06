@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k whose base-3 representation has four 0's and two 1's.",
+  "id": "A044987",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:22:37",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

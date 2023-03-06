@@ -1,0 +1,17 @@
+{
+  "description": "Numbers which are not members of A074137.",
+  "id": "A074138",
+  "mentions": [
+    "A074137"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

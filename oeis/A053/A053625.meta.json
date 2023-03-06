@@ -1,0 +1,25 @@
+{
+  "description": "Product of 6 consecutive integers.",
+  "id": "A053625",
+  "mentions": [
+    "A000579",
+    "A002378",
+    "A007531",
+    "A045619",
+    "A052762",
+    "A052787",
+    "A173333"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:10:03",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

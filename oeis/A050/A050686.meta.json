@@ -1,0 +1,20 @@
+{
+  "description": "Number of palindromes of length n and containing the digit 1 (or any other fixed nonzero digit).",
+  "id": "A050686",
+  "mentions": [
+    "A050683",
+    "A050720"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:15:24",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

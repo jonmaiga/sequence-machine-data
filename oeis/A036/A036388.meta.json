@@ -1,0 +1,23 @@
+{
+  "description": "Number of odd split numbers (A036382) of which the binary order (A029837) is <= n, i.e., those which occur below 2^n.",
+  "id": "A036388",
+  "mentions": [
+    "A029837",
+    "A036378",
+    "A036382",
+    "A036384",
+    "A036390"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

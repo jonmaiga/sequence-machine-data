@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1-x)/(1-x+x^3).",
+  "id": "A078013",
+  "mentions": [
+    "A050935"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:33:40",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

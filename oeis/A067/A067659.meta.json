@@ -1,0 +1,41 @@
+{
+  "description": "Number of partitions of n into distinct parts such that number of parts is odd.",
+  "id": "A067659",
+  "mentions": [
+    "A000009",
+    "A000069",
+    "A000122",
+    "A000700",
+    "A008289",
+    "A010815",
+    "A024429",
+    "A026804",
+    "A026832",
+    "A027187",
+    "A027193",
+    "A030059",
+    "A030229",
+    "A067661",
+    "A089677",
+    "A101707",
+    "A117192",
+    "A117193",
+    "A166444",
+    "A174726",
+    "A332304",
+    "A332305",
+    "A339890"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

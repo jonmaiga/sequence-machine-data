@@ -1,0 +1,18 @@
+{
+  "description": "Sum of factorials of digits of n equals sum of the primes from the smallest prime factor of n to the largest prime factor of n.",
+  "id": "A074256",
+  "mentions": [
+    "A074036"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

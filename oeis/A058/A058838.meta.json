@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 + sum of the anti-divisors of n.",
+  "id": "A058838",
+  "mentions": [
+    "A066241",
+    "A066272",
+    "A066417",
+    "A066452"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

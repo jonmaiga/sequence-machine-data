@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 3*n - 2* A003159(n).",
+  "id": "A071993",
+  "mentions": [
+    "A003159"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:33:21",
+    "offset": 1,
+    "size": 116,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Conjectural largest exponent k such that n^k does not contain all of the digits 0 through 9 (in decimal notation) or 0 if no such k exists (for example if n is a power of 10).",
+  "id": "A062518",
+  "mentions": [
+    "A020665",
+    "A090493",
+    "A171102"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "McKay-Thompson series of class 27d for Monster.",
+  "id": "A058604",
+  "mentions": [
+    "A000521",
+    "A007240",
+    "A007241",
+    "A007267",
+    "A014708",
+    "A045478",
+    "A112146"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": -1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

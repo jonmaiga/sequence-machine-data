@@ -1,0 +1,17 @@
+{
+  "description": "Theta series of A_14 lattice.",
+  "id": "A023905",
+  "mentions": [
+    "A023902"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:02",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Values of y from solutions to sigma(x+1)*sigma(x)=y^2, where A083539(x) = y^2 is a square number.",
+  "id": "A083541",
+  "mentions": [
+    "A000203",
+    "A060780",
+    "A060781",
+    "A083538",
+    "A083539",
+    "A083540"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

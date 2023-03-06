@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 1/980198019801.",
+  "id": "A036664",
+  "mentions": [
+    "A034948",
+    "A036663",
+    "A036665"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:27:45",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

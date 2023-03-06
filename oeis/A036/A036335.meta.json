@@ -1,0 +1,22 @@
+{
+  "description": "Total number of composite numbers with n digits and n prime factors (counted with multiplicity).",
+  "id": "A036335",
+  "mentions": [
+    "A036336",
+    "A036337",
+    "A036338",
+    "A124033"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

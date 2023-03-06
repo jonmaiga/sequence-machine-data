@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 2^k+1 has more than k divisors (k such that A000005(2^k+1) > k).",
+  "id": "A074696",
+  "mentions": [
+    "A000005",
+    "A046798"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

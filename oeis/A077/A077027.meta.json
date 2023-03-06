@@ -1,0 +1,20 @@
+{
+  "description": "Number of simple integral graphs on n nodes.",
+  "id": "A077027",
+  "mentions": [
+    "A064731",
+    "A287154"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

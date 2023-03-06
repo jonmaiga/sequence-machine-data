@@ -1,0 +1,21 @@
+{
+  "description": "Primes p = prime(i) such that p(i)# - p(i+1) is prime.",
+  "id": "A093078",
+  "mentions": [
+    "A087714",
+    "A088415",
+    "A093077"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

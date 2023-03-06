@@ -1,0 +1,21 @@
+{
+  "description": "Least area common to n distinct primitive Pythagorean triangles.",
+  "id": "A093536",
+  "mentions": [
+    "A024407",
+    "A055193"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

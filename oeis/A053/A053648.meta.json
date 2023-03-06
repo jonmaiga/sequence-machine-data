@@ -1,0 +1,19 @@
+{
+  "description": "Scan decimal expansion of Mersenne primes (A000668), recording all primes seen.",
+  "id": "A053648",
+  "mentions": [
+    "A000668"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:37:24",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

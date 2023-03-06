@@ -1,0 +1,17 @@
+{
+  "description": "Inverse of sequence A035506 considered as a permutation of the natural numbers.",
+  "id": "A064357",
+  "mentions": [
+    "A035506"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

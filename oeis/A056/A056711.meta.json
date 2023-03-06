@@ -1,0 +1,22 @@
+{
+  "description": "Plug g.f. for A000108 (minus the leading 1), 1/2*(1-(1-4*x)^(1/2))/x - 1, into cycle index for dihedral group D_3.",
+  "id": "A056711",
+  "mentions": [
+    "A000108",
+    "A046342",
+    "A058855",
+    "A212355",
+    "A275431"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

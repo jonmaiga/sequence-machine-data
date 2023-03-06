@@ -1,0 +1,29 @@
+{
+  "description": "Floor[X/Y] where X = concatenation in increasing order of first n powers of 2 and Y = that of first n natural numbers.",
+  "id": "A067097",
+  "mentions": [
+    "A019519",
+    "A045507",
+    "A067088",
+    "A067089",
+    "A067090",
+    "A067091",
+    "A067092",
+    "A067093",
+    "A067094",
+    "A067095",
+    "A067096"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

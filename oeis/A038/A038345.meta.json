@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the next n members of the list of twin primes.",
+  "id": "A038345",
+  "mentions": [
+    "A000521",
+    "A001097",
+    "A007468"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:12",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

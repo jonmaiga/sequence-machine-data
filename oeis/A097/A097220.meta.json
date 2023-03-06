@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that pi(n) = product of digits of n.",
+  "id": "A097220",
+  "mentions": [
+    "A000720",
+    "A002473",
+    "A007954",
+    "A097221",
+    "A097222",
+    "A097223"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

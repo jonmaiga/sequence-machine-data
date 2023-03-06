@@ -1,0 +1,27 @@
+{
+  "description": "Largest 4th-power-free number dividing n.",
+  "id": "A058035",
+  "mentions": [
+    "A007947",
+    "A007948",
+    "A008835",
+    "A027748",
+    "A046100",
+    "A053165",
+    "A065466",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

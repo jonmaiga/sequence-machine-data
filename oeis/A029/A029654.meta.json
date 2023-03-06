@@ -1,0 +1,18 @@
+{
+  "description": "Distinct numbers in the (2,1)-Pascal triangle A029653.",
+  "id": "A029654",
+  "mentions": [
+    "A029653",
+    "A064360"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:43:29",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

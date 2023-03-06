@@ -1,0 +1,18 @@
+{
+  "description": "Beginning with 2, a(n+1) is the least prime == -1 (mod (Sum a(i), i=1 to n)).",
+  "id": "A090476",
+  "mentions": [
+    "A090474",
+    "A090475"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Zeroless primes that remain prime if any digit is deleted.",
+  "id": "A034302",
+  "mentions": [
+    "A010051",
+    "A034303",
+    "A034304",
+    "A034305",
+    "A038618",
+    "A051362"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

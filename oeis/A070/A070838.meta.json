@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime p such that |p - R(p)| = 9n, where R(n) is digit reversal of n, A004086; or 0 if no such prime exists.",
+  "id": "A070838",
+  "mentions": [
+    "A004086",
+    "A070837"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

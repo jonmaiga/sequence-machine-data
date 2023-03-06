@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 2; for n>1: a(n) = integer part of x-value when y=0 in (y-tau(n))/(x-1)=(1-tau(n))/(n-1), tau=A000005.",
+  "id": "A096736",
+  "mentions": [
+    "A000005",
+    "A096737",
+    "A096738"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

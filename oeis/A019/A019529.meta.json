@@ -1,0 +1,19 @@
+{
+  "description": "Sum of a(n) terms of 1/sqrt(k) first strictly exceeds n.",
+  "id": "A019529",
+  "mentions": [
+    "A002387",
+    "A004080",
+    "A054040"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:59",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

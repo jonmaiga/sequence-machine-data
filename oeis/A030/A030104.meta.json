@@ -1,0 +1,24 @@
+{
+  "description": "Base 5 reversal of n (written in base 10).",
+  "id": "A030104",
+  "mentions": [
+    "A004086",
+    "A030101",
+    "A030108",
+    "A055950",
+    "A134028",
+    "A319722"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:46:11",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

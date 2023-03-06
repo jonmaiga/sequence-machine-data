@@ -1,0 +1,17 @@
+{
+  "description": "Define b(k) by the recursion b(1)=n, b(k+1)=b(k)-floor(k/b(k)). Sequence gives the value a(n) such that b(a(n))=0; if k>a(n) then b(k) is undefined.",
+  "id": "A074636",
+  "mentions": [
+    "A073339"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

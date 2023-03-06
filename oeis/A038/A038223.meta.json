@@ -1,0 +1,20 @@
+{
+  "description": "Bottom line of 3-wave sequence A038196, also bisection of A006356.",
+  "id": "A038223",
+  "mentions": [
+    "A006356",
+    "A038196"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:02:50",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

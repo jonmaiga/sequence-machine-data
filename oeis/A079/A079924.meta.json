@@ -1,0 +1,18 @@
+{
+  "description": "Solution to the Dancing School Problem with n girls and n+5 boys: f(n,5).",
+  "id": "A079924",
+  "mentions": [
+    "A079908",
+    "A079928"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

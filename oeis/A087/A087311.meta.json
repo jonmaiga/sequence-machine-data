@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2; for n>1, a(n) = smallest number == 1 (mod a(n-1)) with a prime signature of n.",
+  "id": "A087311",
+  "mentions": [
+    "A087312"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

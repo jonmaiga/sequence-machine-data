@@ -1,0 +1,22 @@
+{
+  "description": "Powers of sqrt(10) rounded down.",
+  "id": "A017934",
+  "mentions": [
+    "A010467",
+    "A131581",
+    "A136582",
+    "A175733",
+    "A175734"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

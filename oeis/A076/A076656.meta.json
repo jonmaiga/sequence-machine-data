@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2; a(n) is smallest prime > 3*a(n-1).",
+  "id": "A076656",
+  "mentions": [
+    "A055496"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

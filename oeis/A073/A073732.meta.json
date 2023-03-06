@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of lim_{n -> infinity} n*phi - Sum_{k=1..n} F(k+1)/F(k), where phi is the golden ratio and F(k) denotes the k-th Fibonacci number.",
+  "id": "A073732",
+  "mentions": [
+    "A000045",
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Array T(n,k) (n>=1, k>=1) read by antidiagonals: T(n,n) = 1 for all n; fill in array above diagonal by symmetry; for row n, starting at diagonal T(n,n)=1, for k > n, T(n,k) = T(n,k-1)-(k-1) if this is positive and has not already appeared in this row, otherwise T(n,k) = T(n,k-1)+(k-1).",
+  "id": "A066202",
+  "mentions": [
+    "A063733",
+    "A066201",
+    "A066203",
+    "A066204"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

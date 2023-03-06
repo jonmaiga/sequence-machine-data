@@ -1,0 +1,34 @@
+{
+  "description": "Take the first n numbers written in base 3, concatenate them, then convert from base 3 to base 10.",
+  "id": "A048435",
+  "mentions": [
+    "A007908",
+    "A047778",
+    "A048436",
+    "A048437",
+    "A048438",
+    "A048439",
+    "A048440",
+    "A048441",
+    "A048442",
+    "A048443",
+    "A048444",
+    "A048445",
+    "A048446",
+    "A048447",
+    "A360503"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

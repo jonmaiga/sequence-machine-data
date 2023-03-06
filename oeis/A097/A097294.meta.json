@@ -1,0 +1,19 @@
+{
+  "description": "Contains exactly once every triple i,j,k such that i>j>k>0.",
+  "id": "A097294",
+  "mentions": [
+    "A097293",
+    "A098293"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Least m such that the sum of the aliquot parts of m (A001065) equals n, or 0 if no such number exists.",
+  "id": "A070015",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A005114",
+    "A007369",
+    "A048050",
+    "A048995",
+    "A051444",
+    "A070016",
+    "A359132"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

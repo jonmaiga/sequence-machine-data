@@ -1,0 +1,18 @@
+{
+  "description": "Sigma_3(n)/n > Sigma_3(k)/k for all k < n.",
+  "id": "A055722",
+  "mentions": [
+    "A001158",
+    "A002182"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:25",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

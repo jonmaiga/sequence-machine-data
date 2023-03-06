@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n - 2^k is a prime or 1 for all k satisfying 0 < k, 2^k < n.",
+  "id": "A067526",
+  "mentions": [
+    "A039669"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

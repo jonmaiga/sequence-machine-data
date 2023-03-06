@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of 3n with same number of parts == 1 (mod 3) and == 2 (mod 3).",
+  "id": "A035592",
+  "mentions": [
+    "A035536"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

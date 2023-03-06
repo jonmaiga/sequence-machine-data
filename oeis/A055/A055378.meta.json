@@ -1,0 +1,34 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) = n^trinv(k)+n^(k-((trinv(k)*(trinv(k)-1))/2)) where trinv (k) = floor((1+sqrt(1+8*k))/2) and with 0^0 = 1.",
+  "id": "A055378",
+  "mentions": [
+    "A000027",
+    "A001093",
+    "A001105",
+    "A002262",
+    "A002378",
+    "A002522",
+    "A002523",
+    "A005843",
+    "A007395",
+    "A010054",
+    "A011379",
+    "A025581",
+    "A033431",
+    "A034262",
+    "A048645",
+    "A052216"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:25:15",
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

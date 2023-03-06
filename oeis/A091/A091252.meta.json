@@ -1,0 +1,21 @@
+{
+  "description": "Nonprimitive irreducible polynomials over GF(2).",
+  "id": "A091252",
+  "mentions": [
+    "A014580",
+    "A091247",
+    "A091250",
+    "A091251",
+    "A091253"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

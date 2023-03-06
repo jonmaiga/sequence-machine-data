@@ -1,0 +1,16 @@
+{
+  "description": "Primes p such that 9*p + 8 is also prime.",
+  "id": "A023235",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

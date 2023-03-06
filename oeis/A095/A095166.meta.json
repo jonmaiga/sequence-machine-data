@@ -1,0 +1,19 @@
+{
+  "description": "Group the natural numbers >= 1 so that the n-th group contains n(n+1)/2 numbers and obtain the group sum.",
+  "id": "A095166",
+  "mentions": [
+    "A000217",
+    "A000292"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:05:05",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

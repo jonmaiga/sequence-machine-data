@@ -1,0 +1,25 @@
+{
+  "description": "Rearrange primes so as to form a triangle in which n-th row contains the n smallest primes == 1 (mod n) which have not occurred earlier.",
+  "id": "A077321",
+  "mentions": [
+    "A077322",
+    "A077323",
+    "A077324",
+    "A077325",
+    "A100787",
+    "A100788",
+    "A100789",
+    "A100790"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

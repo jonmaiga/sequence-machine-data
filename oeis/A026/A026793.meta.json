@@ -1,0 +1,23 @@
+{
+  "description": "Juxtaposed partitions of 1,2,3,... into distinct parts, ordered by number of terms and then lexicographically.",
+  "id": "A026793",
+  "mentions": [
+    "A000009",
+    "A015723",
+    "A036036",
+    "A118457",
+    "A118458",
+    "A246688"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

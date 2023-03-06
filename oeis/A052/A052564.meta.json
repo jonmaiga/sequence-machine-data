@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. x*(1-x)/(1-2*x).",
+  "id": "A052564",
+  "mentions": [
+    "A002866",
+    "A014297",
+    "A213068"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

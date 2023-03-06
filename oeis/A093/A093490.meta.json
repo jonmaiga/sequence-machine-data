@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 2; for n > 0, a(n) is the least prime of the form k*n*a(n-1) - 1.",
+  "id": "A093490",
+  "mentions": [
+    "A091771",
+    "A091879",
+    "A103342"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

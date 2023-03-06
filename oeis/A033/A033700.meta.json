@@ -1,0 +1,21 @@
+{
+  "description": "Number of connected transitive 4-valent (or quartic) graphs with n nodes.",
+  "id": "A033700",
+  "mentions": [
+    "A006820",
+    "A033301",
+    "A033483"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 5,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

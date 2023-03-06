@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that t(n) = sigma(n) - n, where t(n) = A008472(n+1) - A008472(n).",
+  "id": "A063981",
+  "mentions": [
+    "A001065",
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Numbers that are not the sum of two triangular numbers.",
+  "id": "A020757",
+  "mentions": [
+    "A000217",
+    "A000729",
+    "A014132",
+    "A020756",
+    "A022544",
+    "A052343",
+    "A061336",
+    "A090864",
+    "A213250",
+    "A302056",
+    "A302057",
+    "A322043",
+    "A322430",
+    "A322431",
+    "A322432",
+    "A322433"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

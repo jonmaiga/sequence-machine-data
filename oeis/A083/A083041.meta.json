@@ -1,0 +1,17 @@
+{
+  "description": "Number of symmetric sum-free subsets of {1,2,...,n-1} with sums taken mod n.",
+  "id": "A083041",
+  "mentions": [
+    "A007865"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

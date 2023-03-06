@@ -1,0 +1,20 @@
+{
+  "description": "Primes having a semiprime number of 1's in their binary representation.",
+  "id": "A085448",
+  "mentions": [
+    "A001358",
+    "A081092"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

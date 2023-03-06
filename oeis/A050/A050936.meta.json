@@ -1,0 +1,27 @@
+{
+  "description": "Sum of two or more consecutive prime numbers.",
+  "id": "A050936",
+  "mentions": [
+    "A000040",
+    "A034707",
+    "A054845",
+    "A054996",
+    "A067372",
+    "A067381",
+    "A084143",
+    "A087072",
+    "A097889"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

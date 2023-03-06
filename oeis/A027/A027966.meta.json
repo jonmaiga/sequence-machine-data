@@ -1,0 +1,21 @@
+{
+  "description": "T(n, 2*n-4), T given by A027960.",
+  "id": "A027966",
+  "mentions": [
+    "A026998",
+    "A027960",
+    "A027967"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:39",
+    "offset": 2,
+    "size": 45,
+    "source": "joeis"
+  }
+}

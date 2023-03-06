@@ -1,0 +1,18 @@
+{
+  "description": "LaBar's conjecture (steps to return n to 1 after division by 3 and, if needed, multiplication by 2, addition of 1 or 2).",
+  "id": "A049067",
+  "mentions": [
+    "A049074"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:34:39",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

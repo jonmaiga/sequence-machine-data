@@ -1,0 +1,22 @@
+{
+  "description": "Write n in binary: 1ab..yz, then a(n) = 1ab..yz + ... + 1yz + 1z + 1.",
+  "id": "A087276",
+  "mentions": [
+    "A005187",
+    "A059893",
+    "A059894",
+    "A087275"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

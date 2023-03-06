@@ -1,0 +1,22 @@
+{
+  "description": "Concatenation of 1, 00, 111, 0000, ..., n 1's (if n is odd) or n 0's (if n is even).",
+  "id": "A065447",
+  "mentions": [
+    "A002275",
+    "A065760",
+    "A065761",
+    "A262806"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

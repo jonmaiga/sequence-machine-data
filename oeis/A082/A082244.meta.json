@@ -1,0 +1,27 @@
+{
+  "description": "Smallest odd prime that is the sum of 2n+1 consecutive primes.",
+  "id": "A082244",
+  "mentions": [
+    "A034962",
+    "A070934",
+    "A082246",
+    "A082251",
+    "A127340",
+    "A127341",
+    "A161612",
+    "A215991",
+    "A216020"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

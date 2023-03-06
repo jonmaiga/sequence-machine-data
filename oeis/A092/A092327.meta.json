@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (1/12)*(n+1)*(n^3+19*n^2+118*n+228).",
+  "id": "A092327",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:09:55",
+    "offset": -1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

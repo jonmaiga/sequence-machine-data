@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the smallest positive integer such that k=n where k is the least positive integer such that n-k and n+k are both primes.",
+  "id": "A082468",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 4,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

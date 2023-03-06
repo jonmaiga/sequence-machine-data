@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (gcd(2^p-1, Fibonacci(p))-1)/(8p) > 0 where p = n-th prime from A080050.",
+  "id": "A079670",
+  "mentions": [
+    "A000045",
+    "A080050",
+    "A080051"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

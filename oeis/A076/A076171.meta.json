@@ -1,0 +1,16 @@
+{
+  "description": "Primes p whose odd-position and even-position digits have the same sum of cubes.",
+  "id": "A076171",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which can be read as (possibly different) numbers when rotated by 180 degrees *final zeros allowed).",
+  "id": "A054047",
+  "mentions": [
+    "A006933",
+    "A014254",
+    "A045574"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:15:29",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "First differences of composite numbers.",
+  "id": "A073783",
+  "mentions": [
+    "A002808",
+    "A073445",
+    "A073784",
+    "A136527"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

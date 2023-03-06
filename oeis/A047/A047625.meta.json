@@ -1,0 +1,15 @@
+{
+  "description": "Floor( Pi * (3/2)^n ).",
+  "id": "A047625",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:50:35",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

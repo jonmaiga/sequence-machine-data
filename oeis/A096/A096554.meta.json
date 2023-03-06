@@ -1,0 +1,19 @@
+{
+  "description": "Output of the linear congruential pseudo-random number generator used in function rand() as described in Kernighan and Ritchie.",
+  "id": "A096554",
+  "mentions": [
+    "A096550",
+    "A096561"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

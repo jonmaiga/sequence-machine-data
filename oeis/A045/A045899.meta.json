@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that k+1 and 3*k+1 are perfect squares.",
+  "id": "A045899",
+  "mentions": [
+    "A011922",
+    "A046174",
+    "A046175",
+    "A046184",
+    "A051047",
+    "A067900",
+    "A076139",
+    "A076140",
+    "A123480",
+    "A217855",
+    "A245031"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

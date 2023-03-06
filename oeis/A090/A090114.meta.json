@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Product_{j=1..n} (prime(n)-j).",
+  "id": "A090114",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:19:19",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

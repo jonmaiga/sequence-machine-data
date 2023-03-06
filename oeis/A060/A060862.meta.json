@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 0 if n is deficient, 1 if n is abundant, 2 if n is perfect.",
+  "id": "A060862",
+  "mentions": [
+    "A000396",
+    "A005100",
+    "A005101",
+    "A082551",
+    "A294934",
+    "A294935",
+    "A294936",
+    "A294937"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

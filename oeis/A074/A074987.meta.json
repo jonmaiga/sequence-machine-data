@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least m not equal to n such that phi(m) = phi(n).",
+  "id": "A074987",
+  "mentions": [
+    "A138537",
+    "A210719",
+    "A296214"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

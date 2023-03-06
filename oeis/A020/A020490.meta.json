@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that phi(k) <= sigma_0(k).",
+  "id": "A020490",
+  "mentions": [
+    "A000005",
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

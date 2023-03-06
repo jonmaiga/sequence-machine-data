@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k-th cyclotomic polynomial has exactly 3 negative coefficients.",
+  "id": "A085900",
+  "mentions": [
+    "A085459",
+    "A086780"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

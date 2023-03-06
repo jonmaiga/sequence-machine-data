@@ -1,0 +1,19 @@
+{
+  "description": "Smallest exponent of 2 when the number of primes in the neighborhood of center=2^n and radius=ceiling(log(2^n)) equals n.",
+  "id": "A096521",
+  "mentions": [
+    "A096509",
+    "A096523"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

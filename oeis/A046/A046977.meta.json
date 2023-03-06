@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of Taylor series for sec(x). Also denominators of Taylor series for sech(x) = 1/cosh(x).",
+  "id": "A046977",
+  "mentions": [
+    "A000364",
+    "A046976",
+    "A099612"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that 2*k^2 - 4 is a square.",
+  "id": "A075870",
+  "mentions": [
+    "A000129",
+    "A000217",
+    "A000290",
+    "A001653",
+    "A002315",
+    "A065113",
+    "A165518"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

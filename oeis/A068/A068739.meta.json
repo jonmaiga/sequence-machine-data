@@ -1,0 +1,22 @@
+{
+  "description": "Width of the bit-masks A068221 & A068222 (number of digits in A068223 & A068224).",
+  "id": "A068739",
+  "mentions": [
+    "A068059",
+    "A068221",
+    "A068222",
+    "A068223",
+    "A068224"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

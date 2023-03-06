@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n with even number (or 0) 2's.",
+  "id": "A092295",
+  "mentions": [
+    "A000041",
+    "A087787"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

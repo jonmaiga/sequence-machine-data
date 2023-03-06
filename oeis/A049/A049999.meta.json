@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest index k such that Fibonacci(k) = d(n), where d = A049998 (sequence of first differences of ordered products of Fibonacci numbers, i.e., of A049997, with no duplicates).",
+  "id": "A049999",
+  "mentions": [
+    "A000045",
+    "A049997",
+    "A049998",
+    "A094563",
+    "A226857",
+    "A271354"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:11",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

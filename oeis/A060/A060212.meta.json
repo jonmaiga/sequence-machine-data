@@ -1,0 +1,25 @@
+{
+  "description": "Primes q such that 6*q-1 and 6*q+1 are twin primes. Proper subset of A002822.",
+  "id": "A060212",
+  "mentions": [
+    "A001359",
+    "A002822",
+    "A014574",
+    "A027856",
+    "A058383",
+    "A059960",
+    "A182481",
+    "A182521",
+    "A294731"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

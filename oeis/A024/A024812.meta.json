@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n for which there is exactly one positive integer m such that n = floor(cot(Pi/(2m))).",
+  "id": "A024812",
+  "mentions": [
+    "A024813"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:25:11",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

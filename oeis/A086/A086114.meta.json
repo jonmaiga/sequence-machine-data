@@ -1,0 +1,22 @@
+{
+  "description": "Number of 4 X n (0,1) matrices such that each row and each column is nondecreasing or nonincreasing.",
+  "id": "A086114",
+  "mentions": [
+    "A016742",
+    "A032260",
+    "A086113",
+    "A086115"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:25:41",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

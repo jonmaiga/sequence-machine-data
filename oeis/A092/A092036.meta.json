@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (Pi*e)^2.",
+  "id": "A092036",
+  "mentions": [
+    "A019609"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:32",
+    "offset": 2,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Let p = prime(n). Then a(n) = p + (next prime >= p+1) + (next prime >= p+3).",
+  "id": "A050200",
+  "mentions": [
+    "A034962"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:27",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

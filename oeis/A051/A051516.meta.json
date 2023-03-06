@@ -1,0 +1,19 @@
+{
+  "description": "Number of triangles with perimeter n having integer sides and area.",
+  "id": "A051516",
+  "mentions": [
+    "A024153",
+    "A070139"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

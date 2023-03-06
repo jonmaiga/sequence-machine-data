@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 16n + 13.",
+  "id": "A082285",
+  "mentions": [
+    "A008594",
+    "A008598",
+    "A016813",
+    "A098502",
+    "A106839",
+    "A119413",
+    "A238476"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

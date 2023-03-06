@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 1/7.",
+  "id": "A020806",
+  "mentions": [
+    "A002371",
+    "A028416",
+    "A049084",
+    "A068028"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:10:31",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Nearest integer to n/sqrt(2).",
+  "id": "A049473",
+  "mentions": [
+    "A001953",
+    "A001954",
+    "A091087"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

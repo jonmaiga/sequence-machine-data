@@ -1,0 +1,26 @@
+{
+  "description": "Rectangular array defined by T(i,1) = T(1,j) = 1 for i >= 1 and j >= 1; T(i,j) = max(T(i-1,j) + T(i-1,j-1), T(i-1,j-1) + T(i,j-1)) for i >= 2, j >= 2, read by antidiagonals.",
+  "id": "A038792",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A001906",
+    "A029907",
+    "A038730",
+    "A134511",
+    "A324242"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:42:11",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

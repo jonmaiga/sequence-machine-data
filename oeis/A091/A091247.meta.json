@@ -1,0 +1,24 @@
+{
+  "description": "Characteristic function of A091242: 1 if the n-th GF(2)[X] polynomial is reducible, 0 otherwise.",
+  "id": "A091247",
+  "mentions": [
+    "A066247",
+    "A091203",
+    "A091205",
+    "A091225",
+    "A091242",
+    "A091245",
+    "A091246"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of 3-times (but not 4-times) reformable permutation of {1,...,n}.",
+  "id": "A067950",
+  "mentions": [
+    "A007709",
+    "A007711",
+    "A007712",
+    "A055459"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 6,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

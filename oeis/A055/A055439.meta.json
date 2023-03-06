@@ -1,0 +1,20 @@
+{
+  "description": "Distribution of first digit of mantissa following Benford's Law, using Sainte-Lague method to minimize chi-squared statistic.",
+  "id": "A055439",
+  "mentions": [
+    "A055440",
+    "A055441",
+    "A055442"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:25:53",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

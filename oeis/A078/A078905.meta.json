@@ -1,0 +1,22 @@
+{
+  "description": "The q expansion of Lambda^5, a Hauptmodul for Gamma_1(5).",
+  "id": "A078905",
+  "mentions": [
+    "A007325",
+    "A109064",
+    "A109091"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

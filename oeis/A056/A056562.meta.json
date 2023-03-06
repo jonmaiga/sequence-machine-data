@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes which are the difference between two triangular numbers, where the smaller is the n-th triangular number.",
+  "id": "A056562",
+  "mentions": [
+    "A000217",
+    "A001227",
+    "A056563",
+    "A056564"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:33:21",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primitive subsequence of A066031: terms of A066031 which are not a multiple of some previous terms.",
+  "id": "A064623",
+  "mentions": [
+    "A066031"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

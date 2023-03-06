@@ -1,0 +1,19 @@
+{
+  "description": "Order of first occurrence of a sequence of exactly n consecutive primes of the form 6*k-1.",
+  "id": "A085516",
+  "mentions": [
+    "A055626",
+    "A085515"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

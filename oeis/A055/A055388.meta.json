@@ -1,0 +1,17 @@
+{
+  "description": "Number of riffle shuffles of 2n cards required to return the deck to initial state.",
+  "id": "A055388",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

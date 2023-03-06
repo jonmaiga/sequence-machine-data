@@ -1,0 +1,19 @@
+{
+  "description": "Number of composites that are a concatenation nk of n and k for values of k from 1 to n.",
+  "id": "A074765",
+  "mentions": [
+    "A068696"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

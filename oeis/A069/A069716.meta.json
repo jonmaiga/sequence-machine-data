@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number such that the LCM of the digits equals n, or 0 if no such number exists.",
+  "id": "A069716",
+  "mentions": [
+    "A068189"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "For k >= 1, let b(k) = ceiling( Sum_{i=1..k} 1/i ); a(n) = number of b(k) that are equal to n.",
+  "id": "A096005",
+  "mentions": [
+    "A002387",
+    "A096143"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

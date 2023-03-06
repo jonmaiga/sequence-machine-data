@@ -1,0 +1,21 @@
+{
+  "description": "Sums of two Fibonacci numbers (allowing 0 as a summand).",
+  "id": "A084176",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A059389"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

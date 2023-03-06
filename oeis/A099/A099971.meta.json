@@ -1,0 +1,23 @@
+{
+  "description": "Write (sqrt(5)-1)/2 as a binary fraction; read this from left to right and whenever a 1 appears, note the integer formed by reading leftwards from that 1.",
+  "id": "A099971",
+  "mentions": [
+    "A094214",
+    "A099969",
+    "A099970",
+    "A099972",
+    "A099973",
+    "A099974"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

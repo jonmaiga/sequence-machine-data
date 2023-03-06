@@ -1,0 +1,21 @@
+{
+  "description": "Sets of three composites in bidirectional 'sum of prime factors' progression/retrogression.",
+  "id": "A057874",
+  "mentions": [
+    "A050703",
+    "A050710",
+    "A050780",
+    "A050781"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

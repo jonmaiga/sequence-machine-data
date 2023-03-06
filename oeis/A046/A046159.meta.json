@@ -1,0 +1,19 @@
+{
+  "description": "Bends of spheres in the plane of Soddy's bowl of integers.",
+  "id": "A046159",
+  "mentions": [
+    "A046160"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

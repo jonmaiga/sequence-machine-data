@@ -1,0 +1,20 @@
+{
+  "description": "Number of most frequently occurring numbers in the 1-to-n multiplication table.",
+  "id": "A064048",
+  "mentions": [
+    "A057142",
+    "A057143",
+    "A057144",
+    "A064047"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

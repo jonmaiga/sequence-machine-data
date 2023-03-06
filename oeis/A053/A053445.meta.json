@@ -1,0 +1,24 @@
+{
+  "description": "Second differences of partition numbers A000041.",
+  "id": "A053445",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A072380",
+    "A081094",
+    "A081095"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

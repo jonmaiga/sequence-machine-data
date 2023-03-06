@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers that are the sum of the first k lucky numbers, A046279(k), for some k.",
+  "id": "A046281",
+  "mentions": [
+    "A000959",
+    "A013918",
+    "A046279",
+    "A046280"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

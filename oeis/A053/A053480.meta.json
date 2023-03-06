@@ -1,0 +1,18 @@
+{
+  "description": "Sum of values when cototient function A051953 is iterated until fixed point is reached.",
+  "id": "A053480",
+  "mentions": [
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = max(core(n),phi(n)) where core(n) is the squarefree part of n.",
+  "id": "A076685",
+  "mentions": [
+    "A000010",
+    "A007913",
+    "A076686"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

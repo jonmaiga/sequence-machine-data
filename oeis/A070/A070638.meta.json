@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^6 mod 15.",
+  "id": "A070638",
+  "mentions": [
+    "A070437",
+    "A070438"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:10:49",
+    "offset": 0,
+    "size": 97,
+    "source": "joeis"
+  }
+}

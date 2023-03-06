@@ -1,0 +1,22 @@
+{
+  "description": "Final digit resulting from iterations of the product of the two numbers formed from the alternating digits of n.",
+  "id": "A087471",
+  "mentions": [
+    "A031347",
+    "A087472",
+    "A087473",
+    "A087474"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

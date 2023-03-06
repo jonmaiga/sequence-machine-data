@@ -1,0 +1,19 @@
+{
+  "description": "Second column (m=1) of triangle A060063.",
+  "id": "A091742",
+  "mentions": [
+    "A060063"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

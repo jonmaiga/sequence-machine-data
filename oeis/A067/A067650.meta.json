@@ -1,0 +1,17 @@
+{
+  "description": "The start of a record-breaking run of consecutive integers with a number of prime factors not equal to 2.",
+  "id": "A067650",
+  "mentions": [
+    "A067665"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

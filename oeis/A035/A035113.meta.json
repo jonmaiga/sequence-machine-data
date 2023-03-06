@@ -1,0 +1,26 @@
+{
+  "description": "Numbers != 2 (mod 4) listed in order of increasing totient function phi (A000010).",
+  "id": "A035113",
+  "mentions": [
+    "A000010",
+    "A002181",
+    "A002202",
+    "A007614",
+    "A014197",
+    "A016825",
+    "A032447",
+    "A035114",
+    "A058277"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of 5-colorings of an n X n grid, up to rotational symmetry.",
+  "id": "A047940",
+  "mentions": [
+    "A047937",
+    "A054752",
+    "A343095"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

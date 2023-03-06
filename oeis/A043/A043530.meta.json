@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct base-3 digits of n.",
+  "id": "A043530",
+  "mentions": [
+    "A007089",
+    "A031944",
+    "A037897",
+    "A154314"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

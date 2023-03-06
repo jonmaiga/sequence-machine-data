@@ -1,0 +1,16 @@
+{
+  "description": "Pisot sequence E(6,16), a(n) = floor( a(n-1)^2/a(n-2) + 1/2 ).",
+  "id": "A010915",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

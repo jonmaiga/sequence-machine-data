@@ -1,0 +1,22 @@
+{
+  "description": "Even numbers with odd abundance: even squares or two times squares.",
+  "id": "A088827",
+  "mentions": [
+    "A016754",
+    "A088828",
+    "A088829",
+    "A191432"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes associated with A053008.",
+  "id": "A053009",
+  "mentions": [
+    "A053008",
+    "A053010"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:05:59",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

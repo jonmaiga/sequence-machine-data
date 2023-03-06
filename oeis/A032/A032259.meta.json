@@ -1,0 +1,16 @@
+{
+  "description": "Number of series-reduced dyslexic planted compound windmills with n leaves of 2 colors with no symmetries.",
+  "id": "A032259",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of the square array A096583, in which the n-th diagonal equals the convolution of the n-th row with the antidiagonal sums (A096584).",
+  "id": "A096585",
+  "mentions": [
+    "A096583",
+    "A096584"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

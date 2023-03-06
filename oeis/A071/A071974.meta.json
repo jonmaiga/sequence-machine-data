@@ -1,0 +1,35 @@
+{
+  "description": "Numerator of rational number i/j such that Sagher map sends i/j to n.",
+  "id": "A071974",
+  "mentions": [
+    "A000290",
+    "A002487",
+    "A020652",
+    "A020653",
+    "A027748",
+    "A038568",
+    "A038569",
+    "A056622",
+    "A071975",
+    "A077591",
+    "A077610",
+    "A124010",
+    "A229994",
+    "A295515"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

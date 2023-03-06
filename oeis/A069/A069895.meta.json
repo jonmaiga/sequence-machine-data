@@ -1,0 +1,24 @@
+{
+  "description": "2^a(n) divides (2n)^(2n): exponent of 2 in (2n)^(2n).",
+  "id": "A069895",
+  "mentions": [
+    "A001511",
+    "A007814",
+    "A079944",
+    "A085534",
+    "A091512",
+    "A249153"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

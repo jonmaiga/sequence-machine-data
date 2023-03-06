@@ -1,0 +1,20 @@
+{
+  "description": "a(n)=n^2 times nearest cube to n^2.",
+  "id": "A077112",
+  "mentions": [
+    "A000290",
+    "A077110"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

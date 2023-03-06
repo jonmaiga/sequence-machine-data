@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0; for n > 0, a(n) = T(n) + k where T(n) is the n-th triangular number (A000217) and k (see A026741) is the smallest positive number such that a(n) is divisible by n.",
+  "id": "A092530",
+  "mentions": [
+    "A000217",
+    "A026741"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:25:57",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

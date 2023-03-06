@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = the smallest (n+k) such that the LCM of numbers from (n+1) to (n+k) is a multiple of n.",
+  "id": "A081472",
+  "mentions": [
+    "A034699",
+    "A061243",
+    "A081467",
+    "A081468",
+    "A081469",
+    "A081470",
+    "A081471"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

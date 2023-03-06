@@ -1,0 +1,17 @@
+{
+  "description": "Multiplicative order of 6 mod n, where gcd(n, 6) = 1.",
+  "id": "A053449",
+  "mentions": [
+    "A050978"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

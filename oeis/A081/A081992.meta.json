@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = count of numbers formed using the digits of next n numbers..",
+  "id": "A081992",
+  "mentions": [
+    "A081991",
+    "A081993"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Differences between numbers k such that k and k+1 have the same sum of divisors.",
+  "id": "A054001",
+  "mentions": [
+    "A000203",
+    "A002961"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

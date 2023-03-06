@@ -1,0 +1,18 @@
+{
+  "description": "Write the natural numbers in groups: 1; 2,3; 4,5,6; 7,8,9,10; ... and multiply the members of each group.",
+  "id": "A057003",
+  "mentions": [
+    "A006003"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

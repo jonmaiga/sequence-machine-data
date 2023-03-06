@@ -1,0 +1,22 @@
+{
+  "description": "Square array T(n,k) = 2*n + k, read by antidiagonals in a zigzag fashion, n >= 0 and k >= 1.",
+  "id": "A082233",
+  "mentions": [
+    "A000326",
+    "A016777",
+    "A082234",
+    "A229035"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

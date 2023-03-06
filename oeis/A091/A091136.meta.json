@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number m such that number of times m divides k! is almost k/n for large k, i.e., smallest m with A090624(m)=n.",
+  "id": "A091136",
+  "mentions": [
+    "A090622",
+    "A090624",
+    "A091137"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

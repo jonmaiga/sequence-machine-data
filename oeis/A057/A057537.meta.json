@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of making change for n Euro-cents using the Euro currency.",
+  "id": "A057537",
+  "mentions": [
+    "A001313"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

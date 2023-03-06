@@ -1,0 +1,21 @@
+{
+  "description": "For each n there are uniquely determined numbers a(n) and b(n) and a polynomial p_n(x) such that for all integers m we have Sum_{i=1..m}i^n(i+1)! = a(n)*Sum_{i=1..m} (i+1)! + p_n(m)*(m+2)! + b(n). The sequence b(n) is A074052.",
+  "id": "A074051",
+  "mentions": [
+    "A000587",
+    "A074052",
+    "A143494"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n not of form (x^2+2y^2 with x >= y >= 0).",
+  "id": "A034028",
+  "mentions": [
+    "A034027",
+    "A097700"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:09:33",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

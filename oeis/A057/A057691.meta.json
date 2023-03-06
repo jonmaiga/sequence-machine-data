@@ -1,0 +1,31 @@
+{
+  "description": "Number of terms before entering cycle in trajectory of P under the 'Px+1' map, where P = n-th prime, or -1 if trajectory does not cycle.",
+  "id": "A057691",
+  "mentions": [
+    "A033478",
+    "A057216",
+    "A057446",
+    "A057522",
+    "A057534",
+    "A057614",
+    "A057684",
+    "A057685",
+    "A057686",
+    "A057687",
+    "A057688",
+    "A057689",
+    "A057690"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 2,
+    "size": 75,
+    "source": "joeis"
+  }
+}

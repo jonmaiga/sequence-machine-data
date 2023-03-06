@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,m) = number of m-block proper covers (without empty blocks and without multiple blocks) of a labeled n-set (n>=2, 2<=m<=2^n-2).",
+  "id": "A095421",
+  "mentions": [
+    "A007537",
+    "A055127",
+    "A055152",
+    "A055154",
+    "A095422",
+    "A095423"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

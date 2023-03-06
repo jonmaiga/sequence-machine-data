@@ -1,0 +1,18 @@
+{
+  "description": "Number of tournaments on n nodes with a unique winner.",
+  "id": "A013976",
+  "mentions": [
+    "A125031"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

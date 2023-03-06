@@ -1,0 +1,17 @@
+{
+  "description": "Phi(phi(p))/2 where p = prime(n).",
+  "id": "A094051",
+  "mentions": [
+    "A008330"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

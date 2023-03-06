@@ -1,0 +1,27 @@
+{
+  "description": "Relative class number h- of cyclotomic field Q(zeta_n).",
+  "id": "A061653",
+  "mentions": [
+    "A000720",
+    "A000927",
+    "A000928",
+    "A005848",
+    "A035115",
+    "A055513",
+    "A061494",
+    "A250216"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

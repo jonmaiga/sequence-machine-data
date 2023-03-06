@@ -1,0 +1,19 @@
+{
+  "description": "Number of isomers of alkyl homologs of adamantane with n carbon atoms.",
+  "id": "A036996",
+  "mentions": [
+    "A000598"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

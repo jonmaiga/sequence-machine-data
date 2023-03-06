@@ -1,0 +1,32 @@
+{
+  "description": "Table a(i,j) = product prime[k]^(Ei[k] AND Ej[k]) where Ei and Ej are the vectors of exponents in the prime factorizations of i and j; AND is the bitwise operation on binary representation of the exponents.",
+  "id": "A059895",
+  "mentions": [
+    "A002260",
+    "A003985",
+    "A003989",
+    "A004198",
+    "A004736",
+    "A020639",
+    "A028234",
+    "A059896",
+    "A059897",
+    "A067029",
+    "A267115",
+    "A284578"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

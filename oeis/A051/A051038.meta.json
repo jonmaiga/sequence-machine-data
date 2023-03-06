@@ -1,0 +1,30 @@
+{
+  "description": "11-smooth numbers: numbers whose prime divisors are all <= 11.",
+  "id": "A051038",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A002110",
+    "A002473",
+    "A003586",
+    "A033620",
+    "A051037",
+    "A080197",
+    "A080681",
+    "A080682",
+    "A080683",
+    "A155182"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "tanh(sec(x)*arcsin(x))=x+2/3!*x^3-20/5!*x^5-1104/7!*x^7-23728/9!*x^9...",
+  "id": "A012790",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:32:29",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

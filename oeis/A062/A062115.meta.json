@@ -1,0 +1,26 @@
+{
+  "description": "Numbers with no prime substring in their decimal expansion.",
+  "id": "A062115",
+  "mentions": [
+    "A039997",
+    "A071062",
+    "A084984",
+    "A163753",
+    "A202259",
+    "A202262",
+    "A202265"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

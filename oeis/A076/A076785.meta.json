@@ -1,0 +1,19 @@
+{
+  "description": "Let u(1)=u(2)=u(3)=1, u(n)=(2^floor(u(n-1)/2)+2^floor(u(n-2)/2)+1)/u(n-3) then a(n) = denominator of u(n).",
+  "id": "A076785",
+  "mentions": [
+    "A076784"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:30:11",
+    "offset": 1,
+    "size": 94,
+    "source": "joeis"
+  }
+}

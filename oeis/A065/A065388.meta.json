@@ -1,0 +1,21 @@
+{
+  "description": "Record values for sigma(m) + phi(m): sum of sigma and totient is larger than for any previous number.",
+  "id": "A065388",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A015702",
+    "A065387"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

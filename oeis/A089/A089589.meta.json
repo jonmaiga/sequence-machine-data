@@ -1,0 +1,24 @@
+{
+  "description": "Iban numbers (the letter i is banned from the English name of the number).",
+  "id": "A089589",
+  "mentions": [
+    "A006933",
+    "A008521",
+    "A008523",
+    "A089590"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

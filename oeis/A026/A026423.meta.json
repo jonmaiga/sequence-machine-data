@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least positive integer > a(n-1) and not a(i)*a(j) for 1<=i<=j<=n, n >= 2.",
+  "id": "A026423",
+  "mentions": [
+    "A026416"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

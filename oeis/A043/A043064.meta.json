@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (s(n)+1)/7, where s(n) = n-th base 7 palindrome that starts with 6.",
+  "id": "A043064",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:20:59",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

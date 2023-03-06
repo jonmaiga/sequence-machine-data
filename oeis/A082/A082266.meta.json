@@ -1,0 +1,22 @@
+{
+  "description": "In the array shown below the n-th row contains all the palindromes that use digits > 0 and have a digit sum of n. The sequence contains the array read by rows.",
+  "id": "A082266",
+  "mentions": [
+    "A082264",
+    "A082265",
+    "A082267"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

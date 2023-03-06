@@ -1,0 +1,20 @@
+{
+  "description": "a(n)^2 is the square obtained in A075404 (or 0 if no such square exists).",
+  "id": "A075405",
+  "mentions": [
+    "A000330",
+    "A075404",
+    "A075406",
+    "A180244"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

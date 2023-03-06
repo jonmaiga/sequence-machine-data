@@ -1,0 +1,17 @@
+{
+  "description": "Numbers whose 5th power is expressible as the sum of two positive cubes.",
+  "id": "A051394",
+  "mentions": [
+    "A050801"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

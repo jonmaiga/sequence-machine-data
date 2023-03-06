@@ -1,0 +1,28 @@
+{
+  "description": "Denominators of Taylor series for exp(x)*sin(x).",
+  "id": "A046979",
+  "mentions": [
+    "A007019",
+    "A007415",
+    "A007452",
+    "A009775",
+    "A046978",
+    "A046981",
+    "A052277",
+    "A092820"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

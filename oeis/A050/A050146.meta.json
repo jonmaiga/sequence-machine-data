@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = T(n,n), array T as in A050143.",
+  "id": "A050146",
+  "mentions": [
+    "A002003",
+    "A006318",
+    "A035607",
+    "A050143",
+    "A050151"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Nonsquarefree numbers obtained by repeating a single digit.",
+  "id": "A077572",
+  "mentions": [
+    "A013929",
+    "A035132",
+    "A077571",
+    "A087094"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

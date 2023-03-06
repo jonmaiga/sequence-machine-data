@@ -1,0 +1,29 @@
+{
+  "description": "Number of transient terms before either 0 or a finite cycle is reached when unitary-proper-divisor-sum-function f(x) = A034460(x) is iterated and the initial value is n.",
+  "id": "A097033",
+  "mentions": [
+    "A002827",
+    "A003062",
+    "A034460",
+    "A063919",
+    "A063991",
+    "A097024",
+    "A097030",
+    "A097031",
+    "A097032",
+    "A097037",
+    "A318880",
+    "A318883"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

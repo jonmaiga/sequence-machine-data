@@ -1,0 +1,28 @@
+{
+  "description": "Largest n-digit triangular number with minimum digit sum.",
+  "id": "A069672",
+  "mentions": [
+    "A069661",
+    "A069662",
+    "A069663",
+    "A069664",
+    "A069665",
+    "A069666",
+    "A069667",
+    "A069668",
+    "A069669",
+    "A069670",
+    "A069671"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

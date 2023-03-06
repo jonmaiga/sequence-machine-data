@@ -1,0 +1,21 @@
+{
+  "description": "a(n+1) = a(n) - F(n) if > 0, otherwise a(n) + F(n), where F() are Fibonacci numbers; a(0) = 0.",
+  "id": "A011369",
+  "mentions": [
+    "A000045",
+    "A001611",
+    "A245618"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:18",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

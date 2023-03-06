@@ -1,0 +1,25 @@
+{
+  "description": "Suppose p and q = p+22 are primes. Define the difference pattern of (p,q) to be the successive differences of the primes in the range p to q. There are 51 possible difference patterns, shown in the Comments line. Sequence gives smallest value of p for each difference pattern, sorted by magnitude.",
+  "id": "A079021",
+  "mentions": [
+    "A000230",
+    "A078957",
+    "A078964",
+    "A078967",
+    "A078969",
+    "A079016",
+    "A079024"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

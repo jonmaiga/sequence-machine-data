@@ -1,0 +1,18 @@
+{
+  "description": "First term = 1 and, for each n > 1, n*a(n) does not appear.",
+  "id": "A072099",
+  "mentions": [
+    "A297190"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

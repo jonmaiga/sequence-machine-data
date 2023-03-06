@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of n when each odd part can be of two kinds.",
+  "id": "A052945",
+  "mentions": [
+    "A025192",
+    "A105474"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

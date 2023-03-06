@@ -1,0 +1,34 @@
+{
+  "description": "Number of paths along a corridor width 8, starting from one side.",
+  "id": "A061551",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000045",
+    "A001405",
+    "A016116",
+    "A028495",
+    "A030436",
+    "A038754",
+    "A094718",
+    "A094854",
+    "A094855",
+    "A178381",
+    "A187498",
+    "A205573",
+    "A336675",
+    "A336678"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

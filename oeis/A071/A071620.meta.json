@@ -1,0 +1,24 @@
+{
+  "description": "Integer lengths of the Champernowne primes (concatenation of first a(n) entries (digits) of A033307 is prime).",
+  "id": "A071620",
+  "mentions": [
+    "A007376",
+    "A033307",
+    "A072125",
+    "A176942",
+    "A265043"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

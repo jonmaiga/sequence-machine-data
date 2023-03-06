@@ -1,0 +1,19 @@
+{
+  "description": "Fermat numbers 2^(2^n) + 1 with digits sorted in increasing order and zeros suppressed.",
+  "id": "A078726",
+  "mentions": [
+    "A000215"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

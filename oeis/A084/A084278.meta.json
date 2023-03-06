@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree numbers n which are the product of an even number of distinct primes such that Fibonacci(n) is also squarefree and the product of an even number of distinct primes.",
+  "id": "A084278",
+  "mentions": [
+    "A000045",
+    "A008683",
+    "A030229",
+    "A075740"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Exponential reversion of sequence of involutions (A000085).",
+  "id": "A050398",
+  "mentions": [
+    "A000085",
+    "A050397"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:28:16",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

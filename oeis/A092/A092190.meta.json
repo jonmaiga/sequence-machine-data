@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes that are the sum of the first n semiprimes for some n.",
+  "id": "A092190",
+  "mentions": [
+    "A001358",
+    "A062198",
+    "A092189"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

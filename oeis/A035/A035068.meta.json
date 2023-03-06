@@ -1,0 +1,20 @@
+{
+  "description": "Palindromic prime lengths of factorials: see A035067.",
+  "id": "A035068",
+  "mentions": [
+    "A000142",
+    "A035067"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

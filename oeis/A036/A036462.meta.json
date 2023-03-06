@@ -1,0 +1,20 @@
+{
+  "description": "Conjecturally, a power of 2 written in base 3 cannot have this many 0's.",
+  "id": "A036462",
+  "mentions": [
+    "A036463",
+    "A104320",
+    "A104321"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

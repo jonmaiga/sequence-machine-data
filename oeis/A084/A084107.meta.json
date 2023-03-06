@@ -1,0 +1,21 @@
+{
+  "description": "A014486-encoding of \"Complete Binary Trees\".",
+  "id": "A084107",
+  "mentions": [
+    "A014486",
+    "A073346",
+    "A080299",
+    "A083941",
+    "A084108"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways n can be written as the sum of squares of consecutive numbers (possibly including squares of negative numbers).",
+  "id": "A062862",
+  "mentions": [
+    "A006331",
+    "A062861",
+    "A062863"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

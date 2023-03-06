@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct prime factors of 2^n-1.",
+  "id": "A046800",
+  "mentions": [
+    "A000225",
+    "A001221",
+    "A046051",
+    "A060443",
+    "A086251"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Replace 0 with 10 in binary representation of n.",
+  "id": "A088697",
+  "mentions": [
+    "A048678",
+    "A084471",
+    "A088698"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

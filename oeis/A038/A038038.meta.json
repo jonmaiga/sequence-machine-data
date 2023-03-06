@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled dyslexic rooted compound windmills with n nodes.",
+  "id": "A038038",
+  "mentions": [
+    "A032289"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

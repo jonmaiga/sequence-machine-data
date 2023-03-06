@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f.: exp( x/(1-x)^2 ).",
+  "id": "A082579",
+  "mentions": [
+    "A000262",
+    "A007434",
+    "A047974",
+    "A052897",
+    "A255806",
+    "A255807",
+    "A255819"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

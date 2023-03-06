@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that do not divide their sum of divisors.",
+  "id": "A054027",
+  "mentions": [
+    "A000203",
+    "A007691",
+    "A054024"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:15:01",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

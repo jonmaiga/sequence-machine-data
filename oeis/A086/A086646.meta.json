@@ -1,0 +1,31 @@
+{
+  "description": "Triangle, read by rows, of numbers T(n,k), 0 <= k <= n, given by T(n,k) = A000364(n-k)*binomial(2*n, 2*k).",
+  "id": "A086646",
+  "mentions": [
+    "A000281",
+    "A000364",
+    "A000436",
+    "A000795",
+    "A002438",
+    "A005647",
+    "A055133",
+    "A084938",
+    "A086645",
+    "A091042",
+    "A103364",
+    "A104033"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

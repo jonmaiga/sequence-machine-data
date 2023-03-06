@@ -1,0 +1,18 @@
+{
+  "description": "Successive digits of Catalan numbers.",
+  "id": "A034005",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:09:23",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

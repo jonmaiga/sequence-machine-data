@@ -1,0 +1,21 @@
+{
+  "description": "Smallest m>0 such that (2n-1)2^m+1 is prime, or -1 if no such value exists.",
+  "id": "A033809",
+  "mentions": [
+    "A040076",
+    "A046067",
+    "A046068",
+    "A046069",
+    "A046070"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

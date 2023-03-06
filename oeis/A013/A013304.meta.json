@@ -1,0 +1,15 @@
+{
+  "description": "sech(log(x+1)-arctanh(x))=1-3/4!*x^4-90/6!*x^6-4095/8!*x^8...",
+  "id": "A013304",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:21:17",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: -(2+7*x-x^3)/(1+4*x-4*x^3-x^4).",
+  "id": "A097949",
+  "mentions": [
+    "A001353",
+    "A097947",
+    "A097948"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:47:31",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

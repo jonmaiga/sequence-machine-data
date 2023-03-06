@@ -1,0 +1,28 @@
+{
+  "description": "Triangle associated with rooted trees with a degree constraint (A036765).",
+  "id": "A064580",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000096",
+    "A007318",
+    "A009766",
+    "A010054",
+    "A026300",
+    "A036765",
+    "A161898",
+    "A256893"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

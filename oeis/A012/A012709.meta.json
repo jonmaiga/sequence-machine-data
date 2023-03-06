@@ -1,0 +1,16 @@
+{
+  "description": "exp(arctanh(x)*exp(x))=1+x+3/2!*x^2+12/3!*x^3+57/4!*x^4+340/5!*x^5...",
+  "id": "A012709",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:19",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

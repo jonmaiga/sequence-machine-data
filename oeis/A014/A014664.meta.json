@@ -1,0 +1,30 @@
+{
+  "description": "Order of 2 modulo the n-th prime.",
+  "id": "A014664",
+  "mentions": [
+    "A000040",
+    "A001122",
+    "A001262",
+    "A001917",
+    "A002326",
+    "A036116",
+    "A036117",
+    "A062117",
+    "A065941",
+    "A072190",
+    "A112927",
+    "A137576",
+    "A270600"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

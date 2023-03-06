@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 3^n*n!*(n+2)!/2!.",
+  "id": "A064633",
+  "mentions": [
+    "A000244",
+    "A010791"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

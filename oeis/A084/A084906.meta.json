@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with at least one place in their decimal representation to insert a division operator such that an integer results.",
+  "id": "A084906",
+  "mentions": [
+    "A084904",
+    "A084905"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

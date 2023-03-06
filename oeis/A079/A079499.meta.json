@@ -1,0 +1,23 @@
+{
+  "description": "Total number of parts in all partitions of n into distinct odd parts.",
+  "id": "A079499",
+  "mentions": [
+    "A000700",
+    "A006128",
+    "A015723",
+    "A032021",
+    "A067619",
+    "A116422"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

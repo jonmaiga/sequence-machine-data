@@ -1,0 +1,19 @@
+{
+  "description": "Square root of the sum of the terms of the n-th row of A082737.",
+  "id": "A082740",
+  "mentions": [
+    "A082737",
+    "A082738",
+    "A082739"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

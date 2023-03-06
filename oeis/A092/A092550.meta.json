@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of -x*(1+x+x^2+x^4)/(-1+2*x^3+x^6).",
+  "id": "A092550",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A078057",
+    "A249576"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:57:21",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

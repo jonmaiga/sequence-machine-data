@@ -1,0 +1,21 @@
+{
+  "description": "Period 4: repeat [0, 1, 4, 1]; a(n) = n^2 mod 8.",
+  "id": "A070432",
+  "mentions": [
+    "A070430",
+    "A070431"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:25",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

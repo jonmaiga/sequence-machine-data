@@ -1,0 +1,19 @@
+{
+  "description": "Starting primes for which there are no solutions in A097231.",
+  "id": "A097232",
+  "mentions": [
+    "A097231",
+    "A097233"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

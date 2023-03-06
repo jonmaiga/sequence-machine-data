@@ -1,0 +1,21 @@
+{
+  "description": "Odd composite numbers k such that cototient(k) - phi(k) = k - 2*phi(k) is an odd prime.",
+  "id": "A083255",
+  "mentions": [
+    "A000010",
+    "A036798",
+    "A051953",
+    "A067800",
+    "A083254"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

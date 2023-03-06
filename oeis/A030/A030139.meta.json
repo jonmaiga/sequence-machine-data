@@ -1,0 +1,21 @@
+{
+  "description": "a(n+1) = sum of digits of (a(n) + a(n-1)).",
+  "id": "A030139",
+  "mentions": [
+    "A000045",
+    "A022378"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:46:13",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1/exp(1) * Sum_{k>=0} (k+n)!^2 / k!^3.",
+  "id": "A069948",
+  "mentions": [
+    "A000110",
+    "A020556",
+    "A069223",
+    "A090210"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

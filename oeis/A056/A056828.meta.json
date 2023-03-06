@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are not the sum of at most three powerful (1) numbers.",
+  "id": "A056828",
+  "mentions": [
+    "A001694",
+    "A076871"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Sequence is defined by property that (a0,a1,a2,a3,...) = binomial transform of (a0,a0,a1,a1,a2,a2,a3,a3,...).",
+  "id": "A051163",
+  "mentions": [
+    "A027826",
+    "A051164",
+    "A051165",
+    "A051166",
+    "A100936",
+    "A100937",
+    "A152198"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Sum of products of factorials of parts in all partitions of n.",
+  "id": "A077365",
+  "mentions": [
+    "A006906",
+    "A051296",
+    "A069123",
+    "A074141",
+    "A134133",
+    "A134134",
+    "A256125",
+    "A265950"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

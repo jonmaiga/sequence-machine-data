@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. cosh(x+x^2/2).",
+  "id": "A085386",
+  "mentions": [
+    "A000085",
+    "A001464",
+    "A085387"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:13:11",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

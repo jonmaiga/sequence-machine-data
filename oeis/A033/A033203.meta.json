@@ -1,0 +1,32 @@
+{
+  "description": "Primes p congruent to {1, 2, 3} (mod 8); or primes p of form x^2 + 2*y^2; or primes p such that x^2 = -2 has a solution mod p.",
+  "id": "A033203",
+  "mentions": [
+    "A000040",
+    "A002332",
+    "A002333",
+    "A002479",
+    "A003628",
+    "A010051",
+    "A033200",
+    "A039706",
+    "A047476",
+    "A051100",
+    "A106856",
+    "A163183",
+    "A163185"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

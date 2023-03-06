@@ -1,0 +1,15 @@
+{
+  "description": "sec(sec(x)*arctan(x))=1+1/2!*x^2+9/4!*x^4+345/6!*x^6+14833/8!*x^8...",
+  "id": "A012812",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:18:16",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

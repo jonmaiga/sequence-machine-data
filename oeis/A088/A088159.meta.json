@@ -1,0 +1,18 @@
+{
+  "description": "First row and main diagonal of square table that satisfies T(n+1,k+1) = sum(i=0,n, sum(j=0,k, T(n-i,k-j)*T(i,j) )).",
+  "id": "A088159",
+  "mentions": [
+    "A088158",
+    "A088160"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

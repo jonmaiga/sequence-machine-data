@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that x^7 = 2 has a solution mod p.",
+  "id": "A042966",
+  "mentions": [
+    "A000040",
+    "A038873",
+    "A040028",
+    "A040098",
+    "A040159",
+    "A040992",
+    "A042967"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:15",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

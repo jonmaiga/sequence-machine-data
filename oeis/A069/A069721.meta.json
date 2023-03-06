@@ -1,0 +1,21 @@
+{
+  "description": "Number of rooted unicursal planar maps with n edges and no vertices of valency 1 (unicursal means that exactly two vertices are of odd valency; there is an Eulerian path).",
+  "id": "A069721",
+  "mentions": [
+    "A069720",
+    "A069722",
+    "A069723"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

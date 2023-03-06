@@ -1,0 +1,27 @@
+{
+  "description": "Table of graphs with n (>=0) nodes and k (>=0) edges. Each type of object labeled from its own label set.",
+  "id": "A091478",
+  "mentions": [
+    "A000012",
+    "A000124",
+    "A000217",
+    "A006125",
+    "A008406",
+    "A033487",
+    "A052295",
+    "A091479"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(379).",
+  "id": "A041719",
+  "mentions": [
+    "A041718"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:52",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

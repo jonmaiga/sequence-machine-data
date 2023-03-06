@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = A005449(n) - 1, where A005449 = second pentagonal numbers.",
+  "id": "A095794",
+  "mentions": [
+    "A000217",
+    "A005449",
+    "A016777",
+    "A049777",
+    "A051340",
+    "A115067",
+    "A126890",
+    "A131414"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:07:35",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

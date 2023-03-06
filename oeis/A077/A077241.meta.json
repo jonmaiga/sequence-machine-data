@@ -1,0 +1,23 @@
+{
+  "description": "Combined Diophantine Chebyshev sequences A054488 and A077413.",
+  "id": "A077241",
+  "mentions": [
+    "A034856",
+    "A054488",
+    "A077242",
+    "A077413",
+    "A214838"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:37:10",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

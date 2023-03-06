@@ -1,0 +1,15 @@
+{
+  "description": "Quadruples of different integers from [ 2,n ] with no common factors between pairs.",
+  "id": "A015628",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:56",
+    "offset": 2,
+    "size": 48,
+    "source": "joeis"
+  }
+}

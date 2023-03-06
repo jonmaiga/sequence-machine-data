@@ -1,0 +1,17 @@
+{
+  "description": "Gaussian binomial coefficient [ n,2 ] for q = -12.",
+  "id": "A015264",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 2,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

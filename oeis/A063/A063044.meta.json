@@ -1,0 +1,20 @@
+{
+  "description": "Collatz-2 (A063041) trajectory starting at 29.",
+  "id": "A063044",
+  "mentions": [
+    "A063041",
+    "A063042"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

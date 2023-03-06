@@ -1,0 +1,24 @@
+{
+  "description": "Primes of the form prime(nk) followed by prime(k).",
+  "id": "A089788",
+  "mentions": [
+    "A089782",
+    "A089783",
+    "A089784",
+    "A089785",
+    "A089786",
+    "A089787",
+    "A089789"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

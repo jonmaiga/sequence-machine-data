@@ -1,0 +1,18 @@
+{
+  "description": "Triangle related to number of compositions of n into relatively prime summands.",
+  "id": "A039912",
+  "mentions": [
+    "A126713"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:15:55",
+    "offset": 2,
+    "size": 73,
+    "source": "joeis"
+  }
+}

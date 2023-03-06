@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that are divisible by at least 4 primes (counted with multiplicity).",
+  "id": "A033987",
+  "mentions": [
+    "A001055",
+    "A001222",
+    "A014613",
+    "A033273",
+    "A033942",
+    "A037144",
+    "A117358",
+    "A178212",
+    "A178254"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:09:17",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

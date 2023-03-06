@@ -1,0 +1,27 @@
+{
+  "description": "Five-digit distinct-digit primes.",
+  "id": "A074671",
+  "mentions": [
+    "A074665",
+    "A074666",
+    "A074667",
+    "A074668",
+    "A074669",
+    "A074670",
+    "A074672",
+    "A074673"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

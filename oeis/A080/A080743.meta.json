@@ -1,0 +1,24 @@
+{
+  "description": "Array read by rows in which n-th row lists orders of elements of Symm(n) that are not orders of elements of Symm(n-1) (6th row is empty, written as 0 by convention).",
+  "id": "A080743",
+  "mentions": [
+    "A008475",
+    "A051613",
+    "A051703",
+    "A080744"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

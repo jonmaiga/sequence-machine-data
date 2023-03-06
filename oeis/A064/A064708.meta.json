@@ -1,0 +1,18 @@
+{
+  "description": "Initial term of run of (at least) n consecutive numbers with just 2 distinct prime factors.",
+  "id": "A064708",
+  "mentions": [
+    "A064709"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

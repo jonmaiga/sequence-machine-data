@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n whose English name has a greater length (A005589) than any smaller number.",
+  "id": "A052363",
+  "mentions": [
+    "A001477",
+    "A005589",
+    "A052360",
+    "A052362"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

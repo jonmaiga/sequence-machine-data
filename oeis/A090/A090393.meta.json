@@ -1,0 +1,20 @@
+{
+  "description": "Eighth diagonal (m=7) of triangle A084938; a(n) = A084938(n+7,n) = (n^7 + 63*n^6 + 1855*n^5 + 34125*n^4 + 438424*n^3 + 3980172*n^2 + 20946960*n)/5040.",
+  "id": "A090393",
+  "mentions": [
+    "A084938",
+    "A090238"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:14:53",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

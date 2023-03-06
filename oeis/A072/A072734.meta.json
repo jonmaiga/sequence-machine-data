@@ -1,0 +1,26 @@
+{
+  "description": "Simple triangle-stretching N X N -> N bijection, variant of A072732.",
+  "id": "A072734",
+  "mentions": [
+    "A001477",
+    "A002262",
+    "A025581",
+    "A072732",
+    "A072735",
+    "A072740",
+    "A072741",
+    "A072787",
+    "A072788"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

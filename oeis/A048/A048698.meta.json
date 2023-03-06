@@ -1,0 +1,20 @@
+{
+  "description": "Nonprime numbers k such that sum of aliquot divisors of k is a cube.",
+  "id": "A048698",
+  "mentions": [
+    "A020477",
+    "A048699",
+    "A194948"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

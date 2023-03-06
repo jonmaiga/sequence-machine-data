@@ -1,0 +1,27 @@
+{
+  "description": "The set of nine consecutive primes forming a 3 X 3 magic square with the smallest magic constant (4440084513).",
+  "id": "A073519",
+  "mentions": [
+    "A024351",
+    "A073520",
+    "A073521",
+    "A073522",
+    "A073523",
+    "A256891",
+    "A265139",
+    "A265614",
+    "A320873"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

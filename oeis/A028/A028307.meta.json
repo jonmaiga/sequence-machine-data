@@ -1,0 +1,21 @@
+{
+  "description": "Form a triangle with n numbers in top row; all other numbers are the sum of their parents. E.g.: 4 1 2 7; 5 3 9; 8 12; 20. The numbers must be positive and distinct and the final number is to be minimized. Sequence gives final number.",
+  "id": "A028307",
+  "mentions": [
+    "A028308",
+    "A062896",
+    "A340389"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

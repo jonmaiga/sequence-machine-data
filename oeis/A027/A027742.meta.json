@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = phi(4^n-1)/(2*n).",
+  "id": "A027742",
+  "mentions": [
+    "A000010",
+    "A027695"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:22:04",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

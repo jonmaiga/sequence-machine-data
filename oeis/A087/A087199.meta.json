@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (3/(4*Pi))^(1/3).",
+  "id": "A087199",
+  "mentions": [
+    "A086201",
+    "A087197",
+    "A087198"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:31",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

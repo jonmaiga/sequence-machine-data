@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (a(n-1) * a(n-6) + a(n-3) * a(n-4)) / a(n-7) (a variant of Somos-7).",
+  "id": "A078495",
+  "mentions": [
+    "A000217",
+    "A006721",
+    "A006723",
+    "A018896",
+    "A025795",
+    "A060656"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

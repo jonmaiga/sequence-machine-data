@@ -1,0 +1,20 @@
+{
+  "description": "Prime factors of repunit of length a(n) are all of different lengths.",
+  "id": "A046420",
+  "mentions": [
+    "A000042",
+    "A004022",
+    "A046053"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

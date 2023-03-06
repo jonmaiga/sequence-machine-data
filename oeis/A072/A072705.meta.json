@@ -1,0 +1,39 @@
+{
+  "description": "Triangle of number of unimodal compositions of n into exactly k distinct terms.",
+  "id": "A072705",
+  "mentions": [
+    "A001523",
+    "A007052",
+    "A032020",
+    "A052928",
+    "A059204",
+    "A060016",
+    "A072574",
+    "A072704",
+    "A072706",
+    "A072707",
+    "A107429",
+    "A115981",
+    "A227038",
+    "A329398",
+    "A332282",
+    "A332285",
+    "A332286",
+    "A332578",
+    "A332870",
+    "A332874"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

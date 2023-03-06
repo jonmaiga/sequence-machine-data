@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows in which row n gives the n-set obtained as the differences {b(n)-b(n-i), 0 <= i <= n-1}, where b() = A005318().",
+  "id": "A096858",
+  "mentions": [
+    "A005318"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

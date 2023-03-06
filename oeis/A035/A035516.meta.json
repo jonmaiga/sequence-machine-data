@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array formed from Zeckendorf expansion of integers: repeatedly subtract the largest Fibonacci number you can until nothing remains.",
+  "id": "A035516",
+  "mentions": [
+    "A000045",
+    "A007895",
+    "A035514",
+    "A035515",
+    "A035517",
+    "A106530",
+    "A273156"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:20:01",
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

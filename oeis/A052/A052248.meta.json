@@ -1,0 +1,29 @@
+{
+  "description": "Greatest prime divisor of all composite numbers between p and next prime.",
+  "id": "A052248",
+  "mentions": [
+    "A006530",
+    "A052180",
+    "A059960",
+    "A061214",
+    "A065091",
+    "A080185",
+    "A080186",
+    "A080187",
+    "A080188",
+    "A080189"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:02:21",
+    "offset": 2,
+    "size": 69,
+    "source": "joeis"
+  }
+}

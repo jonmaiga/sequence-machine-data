@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that prime(n) == -10 (mod n).",
+  "id": "A092052",
+  "mentions": [
+    "A023152",
+    "A045924",
+    "A092044",
+    "A092045",
+    "A092046",
+    "A092047",
+    "A092048",
+    "A092049",
+    "A092050",
+    "A092051"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Exponent of 2 (value of i) in n-th number of form 2^i*5^j.",
+  "id": "A022332",
+  "mentions": [
+    "A003592",
+    "A007814",
+    "A022333"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:29",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

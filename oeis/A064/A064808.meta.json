@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the (n+1)st (n+2)-gonal number.",
+  "id": "A064808",
+  "mentions": [
+    "A000096",
+    "A002378",
+    "A006002",
+    "A006003",
+    "A057145",
+    "A076110",
+    "A131685",
+    "A144693"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:31",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

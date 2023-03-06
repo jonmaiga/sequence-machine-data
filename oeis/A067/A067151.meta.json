@@ -1,0 +1,27 @@
+{
+  "description": "Number of regions in regular n-gon which are quadrilaterals (4-gons) when all its diagonals are drawn.",
+  "id": "A067151",
+  "mentions": [
+    "A007678",
+    "A064869",
+    "A067152",
+    "A067153",
+    "A067154",
+    "A067155",
+    "A067156",
+    "A067157",
+    "A067158",
+    "A067159",
+    "A067163"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 4,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 2^k - k is prime.",
+  "id": "A048744",
+  "mentions": [
+    "A000325",
+    "A052007",
+    "A081296"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

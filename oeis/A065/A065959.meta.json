@@ -1,0 +1,35 @@
+{
+  "description": "a(n) = n^3*Product_{distinct primes p dividing n} (1+1/p^3).",
+  "id": "A065959",
+  "mentions": [
+    "A000010",
+    "A000578",
+    "A001615",
+    "A007434",
+    "A008966",
+    "A034444",
+    "A059376",
+    "A065958",
+    "A065960",
+    "A069091",
+    "A351300",
+    "A351301",
+    "A351302",
+    "A351303",
+    "A351304",
+    "A351305"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

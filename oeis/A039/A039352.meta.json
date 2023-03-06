@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose base-8 representation has the same nonzero number of 4's and 6's.",
+  "id": "A039352",
+  "mentions": [
+    "A007094"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:43:51",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Odd elements in Pascal's triangle.",
+  "id": "A014421",
+  "mentions": [
+    "A001316",
+    "A007318",
+    "A014414",
+    "A143333"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

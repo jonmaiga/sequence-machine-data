@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the largest palindromic substring (without leading zeros) of 2^k is a repdigit of minimum length 2.",
+  "id": "A052058",
+  "mentions": [
+    "A052057",
+    "A052059"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

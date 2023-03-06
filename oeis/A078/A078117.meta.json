@@ -1,0 +1,16 @@
+{
+  "description": "Let u(1)=n, u(2)=n+1, v(1)=n+2, v(2)=n+3, u(k)=abs(u(k-1)-v(k-2)), v(k)=abs(v(k-1)-u(k-2)), then a(n) is the smallest integer such that for any k>=a(n), v(k)=u(k).",
+  "id": "A078117",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

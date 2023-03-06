@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of [x^n] in the Taylor series arccosh(exp(x)-arctanh(x))= x-x^2/6-x^3/72 -359*x^4/2160 -1681*x^5/51840 -52981*x^6/435456 -...",
+  "id": "A013325",
+  "mentions": [
+    "A127230"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:55",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

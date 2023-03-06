@@ -1,0 +1,22 @@
+{
+  "description": "Fibonacci numbers which are semiprimes.",
+  "id": "A053409",
+  "mentions": [
+    "A000045",
+    "A001358",
+    "A006881",
+    "A072381",
+    "A303216"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

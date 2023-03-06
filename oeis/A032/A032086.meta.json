@@ -1,0 +1,21 @@
+{
+  "description": "Number of reversible strings with n beads of 3 colors. If more than 1 bead, not palindromic.",
+  "id": "A032086",
+  "mentions": [
+    "A000244",
+    "A032120",
+    "A056449",
+    "A293500"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:56:12",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

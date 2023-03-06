@@ -1,0 +1,18 @@
+{
+  "description": "Variation on Connell sequence (A001614). In this one, a(1)=1, terms a(n) onwards are generated in \"blocks\" as the next a(n-1) odd numbers > a(n-1) if the previous block ends with a(n-1) even and the next a(n-1) even numbers > a(n-1) if the previous block ends with a(n-1) odd.",
+  "id": "A080276",
+  "mentions": [
+    "A001614"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that sigma_k(k)/k is an integer, where sigma_k(k) is the sum of the k-th powers of the divisors of k (A023887).",
+  "id": "A067313",
+  "mentions": [
+    "A023887"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

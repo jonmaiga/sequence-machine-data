@@ -1,0 +1,21 @@
+{
+  "description": "Triangle giving number of nonisomorphic minimal covering designs with parameters (n, k, k-1) (designs achieving the covering number C(n,k,k-1) given in A066010), for n >= 2, 2 <= k <= n.",
+  "id": "A066701",
+  "mentions": [
+    "A030129",
+    "A051390",
+    "A066010"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

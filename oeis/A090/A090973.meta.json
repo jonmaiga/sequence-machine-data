@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = ceiling((prime(n)/n).",
+  "id": "A090973",
+  "mentions": [
+    "A038605",
+    "A038606",
+    "A068901"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Minimal exponent in prime factorization of n.",
+  "id": "A051904",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A001222",
+    "A005361",
+    "A008479",
+    "A028234",
+    "A051903",
+    "A052409",
+    "A067029",
+    "A076558",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

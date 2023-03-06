@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A019300.",
+  "id": "A088172",
+  "mentions": [
+    "A010060",
+    "A019300",
+    "A029883",
+    "A035263"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:43:00",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

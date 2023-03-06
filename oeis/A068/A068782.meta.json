@@ -1,0 +1,24 @@
+{
+  "description": "Lesser of two consecutive numbers each divisible by a fourth power.",
+  "id": "A068782",
+  "mentions": [
+    "A046101",
+    "A068140",
+    "A068780",
+    "A068781",
+    "A068783",
+    "A068784",
+    "A068785",
+    "A215267"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

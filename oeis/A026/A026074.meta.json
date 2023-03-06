@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = T(3n,n), where T is the array defined in A024996.",
+  "id": "A026074",
+  "mentions": [
+    "A024996"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:11:58",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

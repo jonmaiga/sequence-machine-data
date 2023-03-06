@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number m such that A002313(n)*m - 1 is a square.",
+  "id": "A047818",
+  "mentions": [
+    "A002313",
+    "A002314",
+    "A005528"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:01:37",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

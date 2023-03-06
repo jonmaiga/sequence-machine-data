@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are not the number of quadratic residues mod n for any n.",
+  "id": "A037046",
+  "mentions": [
+    "A000224",
+    "A037041",
+    "A096008",
+    "A111986",
+    "A111987",
+    "A111988"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:33:13",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

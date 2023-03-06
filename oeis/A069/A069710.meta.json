@@ -1,0 +1,21 @@
+{
+  "description": "Primes with arithmetic mean of digits = 1 (sum of digits = number of digits).",
+  "id": "A069710",
+  "mentions": [
+    "A061384",
+    "A069709",
+    "A069711",
+    "A069712"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

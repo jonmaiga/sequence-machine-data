@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n^2 into squares greater than 1.",
+  "id": "A092362",
+  "mentions": [
+    "A000290",
+    "A001156",
+    "A037444",
+    "A078134",
+    "A093115",
+    "A093116"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

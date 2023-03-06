@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = (sum of digits of n written in base 3) modulo 3.",
+  "id": "A053838",
+  "mentions": [
+    "A004128",
+    "A010060",
+    "A010872",
+    "A026600",
+    "A053735",
+    "A053837",
+    "A053839",
+    "A053844",
+    "A090193",
+    "A090239"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:11:49",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

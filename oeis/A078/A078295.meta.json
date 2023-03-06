@@ -1,0 +1,17 @@
+{
+  "description": "Smallest multiple of n whose digits can be re-arranged to be a substring of the cyclic concatenation 1234567890123435678901234...",
+  "id": "A078295",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

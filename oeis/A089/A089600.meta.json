@@ -1,0 +1,20 @@
+{
+  "description": "Another lazy binary representation of n: similar to A089591 except that the single carry is performed before the increment instead of after.",
+  "id": "A089600",
+  "mentions": [
+    "A089591"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

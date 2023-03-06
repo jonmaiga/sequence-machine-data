@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is smallest number k such that k! >= n-th primorial number (A002110(n)).",
+  "id": "A048964",
+  "mentions": [
+    "A000142",
+    "A002110",
+    "A073071",
+    "A093697"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

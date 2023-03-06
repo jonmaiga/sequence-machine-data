@@ -1,0 +1,23 @@
+{
+  "description": "Least x=a(n) such that product of common prime-divisors [without multiplicity] of sigma(x) and phi(x) equals n; or 0 if n is not a squarefree number or if no such x exists. Among indices n only squarefree numbers arise because multiplicity of prime factors is ignored.",
+  "id": "A082057",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A073815",
+    "A082054",
+    "A082055",
+    "A082056"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

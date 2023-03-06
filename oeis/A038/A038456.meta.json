@@ -1,0 +1,18 @@
+{
+  "description": "List of pairs of consecutive numbers each with 4 divisors (duplicates removed).",
+  "id": "A038456",
+  "mentions": [
+    "A039832",
+    "A039833"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

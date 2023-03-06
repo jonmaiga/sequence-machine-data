@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = t(n)*t(n+1)*t(n+2), where t() are the triangular numbers.",
+  "id": "A071910",
+  "mentions": [
+    "A000537",
+    "A004068",
+    "A005891",
+    "A006322",
+    "A006414",
+    "A006542",
+    "A008706",
+    "A052149",
+    "A059827"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:33:19",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

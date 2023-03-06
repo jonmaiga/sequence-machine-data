@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number of 1's in binary representations of primes between 2^n and 2^(n+1) is 4.",
+  "id": "A092100",
+  "mentions": [
+    "A008590",
+    "A081504",
+    "A091935",
+    "A091936"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

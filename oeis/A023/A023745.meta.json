@@ -1,0 +1,22 @@
+{
+  "description": "Plaindromes: numbers whose digits in base 3 are in nondecreasing order.",
+  "id": "A023745",
+  "mentions": [
+    "A000225",
+    "A023746",
+    "A073216"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:19:25",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are the sum of two triangular numbers.",
+  "id": "A020756",
+  "mentions": [
+    "A000217",
+    "A001481",
+    "A002378",
+    "A020757",
+    "A051533",
+    "A052343",
+    "A118139",
+    "A119345"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,k) = number of cycles of length 2k in the binary n-cube, for n >= 2, k = 2, 3, ..., 2^(n-1).",
+  "id": "A085452",
+  "mentions": [
+    "A001788",
+    "A066037",
+    "A085408"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies A057083(x*A(x)) = A(x) and so equals the ratio of the g.f.s of any two adjacent diagonals of triangle A097186.",
+  "id": "A097188",
+  "mentions": [
+    "A004988",
+    "A025748",
+    "A034164",
+    "A057083",
+    "A097186"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

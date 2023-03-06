@@ -1,0 +1,22 @@
+{
+  "description": "Totient(n) and cototient(n) are squares.",
+  "id": "A054754",
+  "mentions": [
+    "A000010",
+    "A002496",
+    "A039770",
+    "A051953",
+    "A063752"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

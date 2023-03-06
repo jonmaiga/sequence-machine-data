@@ -1,0 +1,26 @@
+{
+  "description": "Centered cube numbers: (n+1)^7 + n^7.",
+  "id": "A036085",
+  "mentions": [
+    "A001015",
+    "A100266",
+    "A100267",
+    "A152913",
+    "A154535",
+    "A194155",
+    "A194185",
+    "A194216"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

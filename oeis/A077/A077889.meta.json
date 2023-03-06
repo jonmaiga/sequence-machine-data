@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/( (1-x)*(1 + x^2 + x^3) ).",
+  "id": "A077889",
+  "mentions": [
+    "A077952",
+    "A077962",
+    "A101950",
+    "A180662"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

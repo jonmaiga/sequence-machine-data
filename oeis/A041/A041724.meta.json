@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(382).",
+  "id": "A041724",
+  "mentions": [
+    "A041725"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:23:00",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

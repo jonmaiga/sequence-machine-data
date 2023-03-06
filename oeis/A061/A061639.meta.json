@@ -1,0 +1,21 @@
+{
+  "description": "Number of planar planted trees with n non-root nodes and every 2-valent node isolated.",
+  "id": "A061639",
+  "mentions": [
+    "A000108",
+    "A174107",
+    "A174108"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

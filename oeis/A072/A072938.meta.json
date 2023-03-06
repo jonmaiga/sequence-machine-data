@@ -1,0 +1,26 @@
+{
+  "description": "Highly composite numbers that are half of the next highly composite number.",
+  "id": "A072938",
+  "mentions": [
+    "A000005",
+    "A002110",
+    "A002182",
+    "A002201",
+    "A003418",
+    "A094348",
+    "A106037",
+    "A165412"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

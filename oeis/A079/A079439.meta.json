@@ -1,0 +1,24 @@
+{
+  "description": "Longest cycle in range [A014137(n-1)..A014138(n-1)] of permutation A071661.",
+  "id": "A079439",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A071661",
+    "A073203",
+    "A079437",
+    "A079438",
+    "A079443",
+    "A089408"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

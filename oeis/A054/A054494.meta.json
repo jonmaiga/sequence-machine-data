@@ -1,0 +1,26 @@
+{
+  "description": "Largest Fibonacci factor of n.",
+  "id": "A054494",
+  "mentions": [
+    "A000045",
+    "A005086",
+    "A010056",
+    "A047930",
+    "A054495",
+    "A147956",
+    "A280686",
+    "A280694"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

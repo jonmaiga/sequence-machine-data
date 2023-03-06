@@ -1,0 +1,18 @@
+{
+  "description": "Integer permutation induced by (A096603, A096604).",
+  "id": "A096602",
+  "mentions": [
+    "A096603",
+    "A096604"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

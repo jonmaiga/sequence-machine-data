@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array: for s=0 to r-1, a(r,s) = p(s)^(r-s), where p(s) is the s-th primorial number. (p(0)=1, p(1)=2, p(2)=2*3, p(3)=2*3*5,...).",
+  "id": "A079474",
+  "mentions": [
+    "A002110",
+    "A007318",
+    "A008287",
+    "A027907",
+    "A036035",
+    "A061742",
+    "A074139",
+    "A181555"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

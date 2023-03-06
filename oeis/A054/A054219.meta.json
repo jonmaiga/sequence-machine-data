@@ -1,0 +1,18 @@
+{
+  "description": "Concatenation of n in base 10 down to base 2 is divisible by at least one of these base b numbers, all numbers interpreted as decimals.",
+  "id": "A054219",
+  "mentions": [
+    "A054220"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

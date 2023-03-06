@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 43*2^n-1 is prime.",
+  "id": "A050547",
+  "mentions": [
+    "A032371"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

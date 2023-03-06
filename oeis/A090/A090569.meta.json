@@ -1,0 +1,22 @@
+{
+  "description": "The survivor w(n,2) in a modified Josephus problem, with a step of 2.",
+  "id": "A090569",
+  "mentions": [
+    "A063695",
+    "A088442",
+    "A088443",
+    "A088452",
+    "A145812"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

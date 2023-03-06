@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k^3 has only odd digits.",
+  "id": "A030099",
+  "mentions": [
+    "A000578",
+    "A030100",
+    "A034376",
+    "A052004"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

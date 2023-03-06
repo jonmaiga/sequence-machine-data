@@ -1,0 +1,23 @@
+{
+  "description": "Binary emirps, primes whose binary reversal is a different prime.",
+  "id": "A080790",
+  "mentions": [
+    "A000040",
+    "A004676",
+    "A006567",
+    "A006995",
+    "A007088",
+    "A074832"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

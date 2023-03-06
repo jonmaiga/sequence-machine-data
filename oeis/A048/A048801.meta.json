@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1 + x * A(exp(x) - 1).",
+  "id": "A048801",
+  "mentions": [
+    "A003659",
+    "A213357"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

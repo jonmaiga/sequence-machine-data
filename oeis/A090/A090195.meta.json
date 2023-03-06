@@ -1,0 +1,20 @@
+{
+  "description": "Primes which when multiplied by their largest digit and 1 is subtracted form another prime.",
+  "id": "A090195",
+  "mentions": [
+    "A060418"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

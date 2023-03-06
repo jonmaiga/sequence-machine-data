@@ -1,0 +1,23 @@
+{
+  "description": "Numbers having in binary representation at least one proper prefix that is also a suffix.",
+  "id": "A091066",
+  "mentions": [
+    "A007088",
+    "A070939",
+    "A082461",
+    "A091064",
+    "A091065",
+    "A242869"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

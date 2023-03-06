@@ -1,0 +1,26 @@
+{
+  "description": "n+cototient(n) produces these powers of 2 in order of magnitude.",
+  "id": "A053163",
+  "mentions": [
+    "A000010",
+    "A000043",
+    "A000668",
+    "A001348",
+    "A051953",
+    "A053576",
+    "A053577",
+    "A053579"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "When the 'Summarize preceding term' sequence gets into a cycle.",
+  "id": "A036212",
+  "mentions": [
+    "A007890",
+    "A036058"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:24:47",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Odd-numbered columns of Losanitsch triangle A034851 formatted as triangle with an additional first column.",
+  "id": "A062135",
+  "mentions": [
+    "A000007",
+    "A005993",
+    "A005995",
+    "A008619",
+    "A018211",
+    "A018213",
+    "A034839",
+    "A034851",
+    "A051450",
+    "A061191"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

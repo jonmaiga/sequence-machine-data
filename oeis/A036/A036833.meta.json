@@ -1,0 +1,18 @@
+{
+  "description": "Schoenheim bound L_1(n,6,5).",
+  "id": "A036833",
+  "mentions": [
+    "A011987",
+    "A036838"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:29:53",
+    "offset": 6,
+    "size": 38,
+    "source": "joeis"
+  }
+}

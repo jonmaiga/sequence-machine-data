@@ -1,0 +1,16 @@
+{
+  "description": "Theta series of 52-dimensional lattice of det 2^26 and minimal norm 3.",
+  "id": "A018234",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

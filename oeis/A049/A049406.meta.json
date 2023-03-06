@@ -1,0 +1,17 @@
+{
+  "description": "From a solution to the Prouhet-Tarry-Escott problem: 3^n + 5^n + 30^n + 57^n + 104^n + 116^n + 186^n + 198^n + 245^n + 272^n + 297^n + 299^n.",
+  "id": "A049406",
+  "mentions": [
+    "A049405"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:28:09",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

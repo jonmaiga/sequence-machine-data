@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = least 2k such that p is the least prime in a Goldbach partition of 2k, where p = prime(n).",
+  "id": "A025017",
+  "mentions": [
+    "A025018",
+    "A025019",
+    "A133427",
+    "A133428"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

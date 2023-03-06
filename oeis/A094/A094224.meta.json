@@ -1,0 +1,20 @@
+{
+  "description": "Number of digits in the least n-transposable number.",
+  "id": "A094224",
+  "mentions": [
+    "A092697"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime starting with A000422(n).",
+  "id": "A053547",
+  "mentions": [
+    "A000422"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

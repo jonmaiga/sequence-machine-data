@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of coefficients of generating function of binary rooted trees of height at most n.",
+  "id": "A036602",
+  "mentions": [
+    "A001190",
+    "A036587",
+    "A036588",
+    "A036589",
+    "A036590",
+    "A036591",
+    "A036592"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

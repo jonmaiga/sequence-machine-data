@@ -1,0 +1,21 @@
+{
+  "description": "Number of multiples of 3 in 0..2^n-1 with an even sum of base-2 digits.",
+  "id": "A036557",
+  "mentions": [
+    "A036555",
+    "A036556"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

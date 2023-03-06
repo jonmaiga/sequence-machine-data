@@ -1,0 +1,40 @@
+{
+  "description": "Generalized Stirling number triangle of first kind.",
+  "id": "A094646",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A001710",
+    "A001715",
+    "A001720",
+    "A001725",
+    "A001730",
+    "A006232",
+    "A027642",
+    "A048994",
+    "A049388",
+    "A049389",
+    "A049398",
+    "A049444",
+    "A049458",
+    "A051431",
+    "A060338",
+    "A084938",
+    "A094645",
+    "A132393",
+    "A164555"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

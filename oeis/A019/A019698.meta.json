@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 2*Pi/13.",
+  "id": "A019698",
+  "mentions": [
+    "A019680",
+    "A217548"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:31",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Remainder of division G[n]/Pi[n], where G[n] is the number of composites not exceeding n.",
+  "id": "A073438",
+  "mentions": [
+    "A000720",
+    "A065855",
+    "A073437"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

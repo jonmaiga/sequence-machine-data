@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes p such that p can be expressed as the sum of distinct primes with largest prime in the sum = n-th prime.",
+  "id": "A082547",
+  "mentions": [
+    "A082533",
+    "A082534"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

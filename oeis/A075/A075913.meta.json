@@ -1,0 +1,26 @@
+{
+  "description": "Fifth column of triangle A075500.",
+  "id": "A075913",
+  "mentions": [
+    "A000351",
+    "A008277",
+    "A016164",
+    "A075500",
+    "A075513",
+    "A075911",
+    "A075912",
+    "A075914"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

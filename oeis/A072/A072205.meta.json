@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (p^2 - p + 2)/2 for p = prime(n); number of squares modulo p^2.",
+  "id": "A072205",
+  "mentions": [
+    "A000040",
+    "A000124",
+    "A008837",
+    "A071988",
+    "A075383"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:36:53",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

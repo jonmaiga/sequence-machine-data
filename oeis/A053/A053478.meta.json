@@ -1,0 +1,25 @@
+{
+  "description": "Sum of iterates when phi, A000010, is iterated until fixed point 1.",
+  "id": "A053478",
+  "mentions": [
+    "A000010",
+    "A010554",
+    "A032358",
+    "A049099",
+    "A049100",
+    "A049107",
+    "A049108",
+    "A092693"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Remainder of tau(n) modulo 6.",
+  "id": "A084302",
+  "mentions": [
+    "A000005",
+    "A054763",
+    "A084299",
+    "A084301"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Odd primes p with 4 zeros in any period of the Fibonacci numbers mod p.",
+  "id": "A053028",
+  "mentions": [
+    "A000204",
+    "A001176",
+    "A001602",
+    "A053027",
+    "A053032"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:06:17",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

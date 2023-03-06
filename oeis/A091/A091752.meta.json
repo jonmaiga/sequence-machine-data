@@ -1,0 +1,29 @@
+{
+  "description": "Generalized Stirling2 array (-1,2)S2. Irregular triangle a(n, m) for n >= 1 and 2 <= m <= 2*n.",
+  "id": "A091752",
+  "mentions": [
+    "A005408",
+    "A008279",
+    "A052502",
+    "A078740",
+    "A091535",
+    "A091753",
+    "A091754",
+    "A091755",
+    "A091756",
+    "A331816"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

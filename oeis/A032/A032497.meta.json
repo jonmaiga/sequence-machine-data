@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 241*2^n+1 is prime.",
+  "id": "A032497",
+  "mentions": [
+    "A032373",
+    "A032419",
+    "A032460"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

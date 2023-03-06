@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n*(n+1)*(n^2 + n + 4)/4.",
+  "id": "A061316",
+  "mentions": [
+    "A000217",
+    "A005563",
+    "A006007",
+    "A061314"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:14:35",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

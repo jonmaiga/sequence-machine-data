@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected simple edge-transitive graphs on n vertices.",
+  "id": "A095424",
+  "mentions": [
+    "A095352"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

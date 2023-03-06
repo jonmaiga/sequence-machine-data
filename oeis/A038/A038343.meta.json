@@ -1,0 +1,19 @@
+{
+  "description": "Maximal value of difference between successive primes among the first 10^n primes.",
+  "id": "A038343",
+  "mentions": [
+    "A000101",
+    "A005250"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

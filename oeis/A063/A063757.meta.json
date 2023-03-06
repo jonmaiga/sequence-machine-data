@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: (1+3*x+2*x^2)/((1-x)*(1-2*x^2)).",
+  "id": "A063757",
+  "mentions": [
+    "A020714",
+    "A048489",
+    "A070875"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:54:36",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

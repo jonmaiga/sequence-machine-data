@@ -1,0 +1,18 @@
+{
+  "description": "Primes arising in A090523, or 0 if no such prime exists.",
+  "id": "A090524",
+  "mentions": [
+    "A090523"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

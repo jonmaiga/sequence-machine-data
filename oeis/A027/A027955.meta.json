@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = T(2n+1, n+3), T given by A027948.",
+  "id": "A027955",
+  "mentions": [
+    "A000045",
+    "A027948"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

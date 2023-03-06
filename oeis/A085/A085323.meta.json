@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that both k and k+1 are sums of two positive cubes.",
+  "id": "A085323",
+  "mentions": [
+    "A003325"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

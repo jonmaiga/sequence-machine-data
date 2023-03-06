@@ -1,0 +1,26 @@
+{
+  "description": "Prime number spiral (clockwise, Northwest spoke).",
+  "id": "A053999",
+  "mentions": [
+    "A000040",
+    "A016754",
+    "A054551",
+    "A054553",
+    "A054555",
+    "A054564",
+    "A054566",
+    "A054570"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

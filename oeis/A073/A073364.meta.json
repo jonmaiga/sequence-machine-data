@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations p of (1,2,3,...,n) such that k+p(k) is prime for 1<=k<=n.",
+  "id": "A073364",
+  "mentions": [
+    "A000341",
+    "A010051",
+    "A069191",
+    "A070897",
+    "A134293",
+    "A321610",
+    "A321611"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

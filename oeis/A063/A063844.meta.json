@@ -1,0 +1,19 @@
+{
+  "description": "Smith numbers which are also base-2 pseudoprimes.",
+  "id": "A063844",
+  "mentions": [
+    "A001567",
+    "A006753"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

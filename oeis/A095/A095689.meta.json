@@ -1,0 +1,18 @@
+{
+  "description": "Permutation of natural numbers, inverse permutation to A094870.",
+  "id": "A095689",
+  "mentions": [
+    "A094870"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

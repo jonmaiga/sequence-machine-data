@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = PrimePi(n+2) - PrimePi(n).",
+  "id": "A090405",
+  "mentions": [
+    "A000720",
+    "A080545",
+    "A090406"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

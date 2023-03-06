@@ -1,0 +1,16 @@
+{
+  "description": "Number of unlabeled, connected graphs on n vertices which have no induced subgraph isomorphic to a P5 and are chordal and prime.",
+  "id": "A079569",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

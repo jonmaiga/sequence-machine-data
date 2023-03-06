@@ -1,0 +1,21 @@
+{
+  "description": "Table of orders of transitive permutation groups by degree.",
+  "id": "A023676",
+  "mentions": [
+    "A000001",
+    "A000019",
+    "A023675"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 3,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

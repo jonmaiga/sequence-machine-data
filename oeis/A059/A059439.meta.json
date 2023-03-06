@@ -1,0 +1,23 @@
+{
+  "description": "A diagonal of A059438.",
+  "id": "A059439",
+  "mentions": [
+    "A003319",
+    "A059438",
+    "A259472",
+    "A260503",
+    "A260913"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

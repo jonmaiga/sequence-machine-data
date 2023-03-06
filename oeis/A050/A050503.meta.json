@@ -1,0 +1,19 @@
+{
+  "description": "Nearest integer to n*log(n).",
+  "id": "A050503",
+  "mentions": [
+    "A000040",
+    "A050502",
+    "A050504"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:45:35",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

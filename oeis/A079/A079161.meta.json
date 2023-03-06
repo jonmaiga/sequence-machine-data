@@ -1,0 +1,19 @@
+{
+  "description": "Satisfies a(n)/A079159(n) = p_n, the n-th prime (n>0), a(0)=1.",
+  "id": "A079161",
+  "mentions": [
+    "A079159",
+    "A079160"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

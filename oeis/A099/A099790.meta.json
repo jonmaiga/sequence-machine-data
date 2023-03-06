@@ -1,0 +1,21 @@
+{
+  "description": "Positions of records for terms in the continued fraction of Catalan's constant.",
+  "id": "A099790",
+  "mentions": [
+    "A006752",
+    "A014538",
+    "A099789"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

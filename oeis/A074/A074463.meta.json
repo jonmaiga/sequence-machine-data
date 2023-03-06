@@ -1,0 +1,20 @@
+{
+  "description": "Average digit (rounded up) in the decimal expansion of a prime number p, where 2^p-1 is a Mersenne prime.",
+  "id": "A074463",
+  "mentions": [
+    "A000043",
+    "A074464"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

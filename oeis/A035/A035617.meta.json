@@ -1,0 +1,28 @@
+{
+  "description": "Number of winning length n strings with a 3-symbol alphabet in \"same game\".",
+  "id": "A035617",
+  "mentions": [
+    "A035615",
+    "A065237",
+    "A065238",
+    "A065239",
+    "A065240",
+    "A065241",
+    "A065242",
+    "A065243",
+    "A323844"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nice",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

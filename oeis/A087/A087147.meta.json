@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k!+(k+1)!+1 is prime.",
+  "id": "A087147",
+  "mentions": [
+    "A051856",
+    "A087146",
+    "A118913"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

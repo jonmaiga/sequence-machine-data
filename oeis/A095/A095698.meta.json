@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of {1,2,3,...,n} where, for 1 < i <= n, the i-th number has maximized sum of the i-1 absolute differences from all previous numbers of the permutation.",
+  "id": "A095698",
+  "mentions": [
+    "A008776",
+    "A027649",
+    "A095236"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

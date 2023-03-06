@@ -1,0 +1,21 @@
+{
+  "description": "Number of colors that can be mixed with n >= 0 units of yellow, blue, red.",
+  "id": "A048241",
+  "mentions": [
+    "A048134",
+    "A048240"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:03:57",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

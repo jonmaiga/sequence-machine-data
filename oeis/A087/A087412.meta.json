@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of solutions to x^3 + y^3 == 1 (mod n).",
+  "id": "A087412",
+  "mentions": [
+    "A087786"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k^2 contains exactly 9 different digits.",
+  "id": "A054037",
+  "mentions": [
+    "A016069",
+    "A054031",
+    "A054032",
+    "A054033",
+    "A054034",
+    "A054035",
+    "A054036",
+    "A054038",
+    "A054039",
+    "A156977"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

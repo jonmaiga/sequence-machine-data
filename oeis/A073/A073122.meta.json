@@ -1,0 +1,23 @@
+{
+  "description": "Minimal reversing binary representation of n. Converting sum of powers of 2 in binary representation of a(n) to alternating sum gives n. See A072339.",
+  "id": "A073122",
+  "mentions": [
+    "A065621",
+    "A072219",
+    "A072339",
+    "A256696"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

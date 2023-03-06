@@ -1,0 +1,25 @@
+{
+  "description": "a(1)=1 and for n>1: floor(n^(1/Omega(n))), where Omega(n) is the total number of prime factors of n (A001222).",
+  "id": "A079866",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A006530",
+    "A020639",
+    "A079747",
+    "A079867",
+    "A079868",
+    "A079870",
+    "A358890"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

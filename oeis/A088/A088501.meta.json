@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1/(1-2*log(1+x)).",
+  "id": "A088501",
+  "mentions": [
+    "A320080"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

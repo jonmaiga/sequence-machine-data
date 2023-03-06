@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of Second Mills Number M_2(n).",
+  "id": "A030071",
+  "mentions": [
+    "A030070"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 4,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

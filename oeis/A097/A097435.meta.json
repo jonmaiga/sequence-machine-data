@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n and its reversal are distinct brilliant numbers (A078972).",
+  "id": "A097435",
+  "mentions": [
+    "A001358",
+    "A078972",
+    "A097393"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

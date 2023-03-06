@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of coefficients of Eisenstein series E_12(q) (or E_6(q) or E_24(q)).",
+  "id": "A037164",
+  "mentions": [
+    "A029828"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

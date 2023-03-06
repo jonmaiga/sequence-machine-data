@@ -1,0 +1,15 @@
+{
+  "description": "Least k > n such that C(2n,n) divides C(2k,k).",
+  "id": "A071705",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

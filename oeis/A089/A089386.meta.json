@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number with digital product = 10^n.",
+  "id": "A089386",
+  "mentions": [
+    "A007954",
+    "A011557"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

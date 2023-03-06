@@ -1,0 +1,24 @@
+{
+  "description": "Number of pairs (p,q) of (not necessarily consecutive) primes with q-p = 6 and q < 10^n.",
+  "id": "A080841",
+  "mentions": [
+    "A006512",
+    "A007508",
+    "A023201",
+    "A031924",
+    "A046117",
+    "A046132",
+    "A080840",
+    "A093738"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

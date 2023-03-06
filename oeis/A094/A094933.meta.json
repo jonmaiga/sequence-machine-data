@@ -1,0 +1,18 @@
+{
+  "description": "Primes prime(k) such that (prime(k-1) + prime(k+1) + prime(k+2))/prime(k) = 3.",
+  "id": "A094933",
+  "mentions": [
+    "A119381"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

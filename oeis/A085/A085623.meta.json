@@ -1,0 +1,18 @@
+{
+  "description": "Let p = n-th prime; a(n) = number of pairs (i,j) with 0 < i < p, 0 < j < p such that ij == 1 mod p and i and j have opposite parity.",
+  "id": "A085623",
+  "mentions": [
+    "A201652"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

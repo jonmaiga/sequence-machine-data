@@ -1,0 +1,16 @@
+{
+  "description": "Number of ultraconnected graphs on n unlabeled nodes.",
+  "id": "A046082",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

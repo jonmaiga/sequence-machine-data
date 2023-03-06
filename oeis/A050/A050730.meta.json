@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 9^n contains no pair of consecutive equal digits (probably finite).",
+  "id": "A050730",
+  "mentions": [
+    "A030705",
+    "A046267",
+    "A046275"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

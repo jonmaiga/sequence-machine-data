@@ -1,0 +1,18 @@
+{
+  "description": "When expressed in base 6 and then interpreted in base 10, is a multiple of the original number.",
+  "id": "A062942",
+  "mentions": [
+    "A032546"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

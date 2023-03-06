@@ -1,0 +1,26 @@
+{
+  "description": "Recurrence sequence based on positions of digits in decimal places of gamma, the Euler-Mascheroni constant.",
+  "id": "A098321",
+  "mentions": [
+    "A001620",
+    "A097614",
+    "A098266",
+    "A098289",
+    "A098290",
+    "A098319",
+    "A098320"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

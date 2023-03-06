@@ -1,0 +1,27 @@
+{
+  "description": "Natural numbers written as a square array ending in last row from left to right and rightmost column from bottom to top are read by antidiagonals downwards.",
+  "id": "A060734",
+  "mentions": [
+    "A000290",
+    "A002061",
+    "A002522",
+    "A057211",
+    "A060736",
+    "A064790",
+    "A185725",
+    "A185726",
+    "A185728"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Solutions to A096520[x]=0, that is in neighborhood with c=2^x center and r=Ceiling[Log[2^x]] no prime occurs.",
+  "id": "A096522",
+  "mentions": [
+    "A096509",
+    "A096520",
+    "A096521"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

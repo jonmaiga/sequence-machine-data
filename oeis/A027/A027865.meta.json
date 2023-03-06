@@ -1,0 +1,25 @@
+{
+  "description": "Sums of six consecutive squares: a(n) = n^2 + (n+1)^2 + (n+2)^2 + (n+3)^2 + (n+4)^2 + (n+5)^2.",
+  "id": "A027865",
+  "mentions": [
+    "A000290",
+    "A001844",
+    "A027575",
+    "A027578",
+    "A120328",
+    "A260637",
+    "A276026"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:37",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

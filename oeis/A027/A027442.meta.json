@@ -1,0 +1,17 @@
+{
+  "description": "For n odd, >1, not divisible by 3, we can write 3/n = 1/a + 1/b + 1/c with a>b>c>0, a,b,c distinct and odd; sequence gives smallest a.",
+  "id": "A027442",
+  "mentions": [
+    "A027443"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 5,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

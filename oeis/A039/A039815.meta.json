@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: matrix cube of the Stirling-1 triangle A008275.",
+  "id": "A039815",
+  "mentions": [
+    "A000268",
+    "A008275",
+    "A039811",
+    "A039814",
+    "A039816",
+    "A039817"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Largest multiple of n that can be formed by using the digits of the next n numbers, or 0 if no such number exists.",
+  "id": "A076072",
+  "mentions": [
+    "A076070",
+    "A076071",
+    "A076073",
+    "A080480",
+    "A192392"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

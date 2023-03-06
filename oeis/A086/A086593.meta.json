@@ -1,0 +1,24 @@
+{
+  "description": "Bisection of A086592, denominators of the left-hand half of Kepler's tree of fractions.",
+  "id": "A086593",
+  "mentions": [
+    "A000045",
+    "A020650",
+    "A020651",
+    "A071585",
+    "A071766",
+    "A086592",
+    "A294442"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

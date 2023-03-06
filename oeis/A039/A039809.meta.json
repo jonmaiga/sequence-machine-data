@@ -1,0 +1,21 @@
+{
+  "description": "For n > 1, a(n) doubles under the transform T, where Ta is the matrix product of partition triangle A008284 with a, with a(1) = 1.",
+  "id": "A039809",
+  "mentions": [
+    "A008284",
+    "A039808",
+    "A081719"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:19:28",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Sum of positive divisors of n that are divisible by every prime that divides n.",
+  "id": "A057723",
+  "mentions": [
+    "A000203",
+    "A003557",
+    "A005361",
+    "A007947",
+    "A049060",
+    "A060640",
+    "A065487",
+    "A284318",
+    "A330596"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

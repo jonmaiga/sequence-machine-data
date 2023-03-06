@@ -1,0 +1,22 @@
+{
+  "description": "Record gaps between consecutive primes that repeat at least once before a new record occurs.",
+  "id": "A053686",
+  "mentions": [
+    "A001223",
+    "A002386",
+    "A053695",
+    "A085237",
+    "A133788"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

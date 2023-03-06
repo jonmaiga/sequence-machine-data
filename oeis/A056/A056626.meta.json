@@ -1,0 +1,24 @@
+{
+  "description": "Number of non-unitary square divisors of n.",
+  "id": "A056626",
+  "mentions": [
+    "A000188",
+    "A008833",
+    "A034444",
+    "A046951",
+    "A055229",
+    "A056624",
+    "A162641"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

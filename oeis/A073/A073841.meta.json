@@ -1,0 +1,21 @@
+{
+  "description": "LCM of the composite numbers between n and 2n (both inclusive).",
+  "id": "A073841",
+  "mentions": [
+    "A002182",
+    "A073640",
+    "A073839",
+    "A140813"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Hybrid binary rooted trees with n nodes whose root is labeled by \"n\".",
+  "id": "A011270",
+  "mentions": [
+    "A007863",
+    "A011272"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:18",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = c(prime(n))/prime(n), where c = Perrin sequence A001608 (starting 0,2,3,...) and prime(n) is the n-th prime.",
+  "id": "A014981",
+  "mentions": [
+    "A000040",
+    "A001608",
+    "A052338",
+    "A064723"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

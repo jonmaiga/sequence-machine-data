@@ -1,0 +1,21 @@
+{
+  "description": "Primes which are concatenations of 4 consecutive primes.",
+  "id": "A030473",
+  "mentions": [
+    "A030461",
+    "A030469",
+    "A086040",
+    "A086041"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

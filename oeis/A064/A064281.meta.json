@@ -1,0 +1,15 @@
+{
+  "description": "Least k such that k*10^n+1, k*10^n+3, k*10^n+7 and k*10^n+9 are all prime.",
+  "id": "A064281",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

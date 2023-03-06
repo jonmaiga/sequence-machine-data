@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 9's complement of n-th palindrome (A002113).",
+  "id": "A084019",
+  "mentions": [
+    "A002113",
+    "A061601",
+    "A084020"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

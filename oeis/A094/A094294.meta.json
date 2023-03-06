@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n*a(n-1) - n + 2 for n > 1; a(1)=1.",
+  "id": "A094294",
+  "mentions": [
+    "A001511",
+    "A094293"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

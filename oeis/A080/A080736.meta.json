@@ -1,0 +1,24 @@
+{
+  "description": "Multiplicative function defined by a(1)=1, a(2)=0, a(2^r) = phi(2^r) (r>1), a(p^r) = phi(p^r) (p odd prime, r>=1), where phi is Euler's function A000010.",
+  "id": "A080736",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A016825",
+    "A080737",
+    "A141809"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

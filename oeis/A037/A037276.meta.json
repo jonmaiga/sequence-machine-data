@@ -1,0 +1,28 @@
+{
+  "description": "Start with 1; for n>1, replace n with the concatenation of its prime factors in increasing order.",
+  "id": "A037276",
+  "mentions": [
+    "A027746",
+    "A037274",
+    "A048985",
+    "A067599",
+    "A073646",
+    "A080670",
+    "A084796",
+    "A195264",
+    "A289660",
+    "A290447"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

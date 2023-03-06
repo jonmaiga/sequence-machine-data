@@ -1,0 +1,21 @@
+{
+  "description": "Binomial coefficients C(2*n-6,7).",
+  "id": "A053129",
+  "mentions": [
+    "A000973",
+    "A053123",
+    "A053128"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:06:25",
+    "offset": 7,
+    "size": 29,
+    "source": "joeis"
+  }
+}

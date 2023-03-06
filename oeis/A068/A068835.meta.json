@@ -1,0 +1,17 @@
+{
+  "description": "Start of first occurrence of just n consecutive primes with all even digits except the least significant digit.",
+  "id": "A068835",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

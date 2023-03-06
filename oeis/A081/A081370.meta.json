@@ -1,0 +1,18 @@
+{
+  "description": "Binomial(n^2, n) reduced mod n^2 is 0.",
+  "id": "A081370",
+  "mentions": [
+    "A014062",
+    "A081369"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers of the form 11 + x^2 + x or 11 + 2*x^2.",
+  "id": "A052293",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:02:41",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

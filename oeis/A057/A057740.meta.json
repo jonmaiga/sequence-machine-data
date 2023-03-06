@@ -1,0 +1,39 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of elements of alternating group A_n having order k, for n >= 1, 1 <= k <= A051593(n).",
+  "id": "A057740",
+  "mentions": [
+    "A000793",
+    "A001471",
+    "A048099",
+    "A051593",
+    "A051695",
+    "A054522",
+    "A057731",
+    "A057741",
+    "A061129",
+    "A061130",
+    "A061131",
+    "A061132",
+    "A061133",
+    "A061134",
+    "A061135",
+    "A061136",
+    "A061137",
+    "A061138",
+    "A061139",
+    "A061140"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least coprime m>n with same number of divisors as n, a(1)=1.",
+  "id": "A079428",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A079427"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

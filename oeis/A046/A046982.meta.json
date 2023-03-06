@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of Taylor series for tan(x + Pi/4).",
+  "id": "A046982",
+  "mentions": [
+    "A046983",
+    "A050970"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

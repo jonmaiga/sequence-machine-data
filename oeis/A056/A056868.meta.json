@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that are not nilpotent numbers.",
+  "id": "A056868",
+  "mentions": [
+    "A003277",
+    "A027748",
+    "A051532",
+    "A056866",
+    "A056867",
+    "A060652",
+    "A068919",
+    "A124010",
+    "A300737"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

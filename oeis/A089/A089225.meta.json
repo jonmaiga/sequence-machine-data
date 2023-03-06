@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows, defined by T(n,k) = (n-k)*T(n-1,k)+Sum(k=1..n, T(n-1,k)); T(1,1) = 1, T(1,k)= 0 if k >1.",
+  "id": "A089225",
+  "mentions": [
+    "A003713",
+    "A007840"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Base-6 digits are, in order, the first n terms of the periodic sequence with initial period 1,0,0.",
+  "id": "A033142",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:36:03",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are congruent to {0, 1, 9} mod 10.",
+  "id": "A054967",
+  "mentions": [
+    "A047523"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

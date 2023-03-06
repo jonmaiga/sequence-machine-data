@@ -1,0 +1,23 @@
+{
+  "description": "Number of binary necklaces of length n with no subsequence 000.",
+  "id": "A093305",
+  "mentions": [
+    "A000358",
+    "A001644",
+    "A058265",
+    "A280218",
+    "A280303"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

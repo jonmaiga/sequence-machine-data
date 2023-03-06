@@ -1,0 +1,20 @@
+{
+  "description": "List of pairs of numbers (a < b) in the sequence {a,b}-> {Max[{a,b}]-Min[{a,b}],k*Min[{a,b}]} with k=3 and the first pair {a=1,b=2}.",
+  "id": "A075256",
+  "mentions": [
+    "A075257",
+    "A075258"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

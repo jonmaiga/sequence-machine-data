@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n * floor((n-1)/2).",
+  "id": "A050187",
+  "mentions": [
+    "A050186",
+    "A159797",
+    "A180662"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 11:04:27",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

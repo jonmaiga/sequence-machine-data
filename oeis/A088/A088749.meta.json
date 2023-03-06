@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the lines Im zeta(sigma + i t)=0 that escape to the right.",
+  "id": "A088749",
+  "mentions": [
+    "A088750"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "4th elementary symmetric function of C(n,0), C(n,1), ..., C(n,n).",
+  "id": "A025133",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:03",
+    "offset": 3,
+    "size": 18,
+    "source": "joeis"
+  }
+}

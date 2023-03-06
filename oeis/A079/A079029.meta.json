@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that the class number of quadratic order of discriminant D=-4k equals p, where p runs through the primes.",
+  "id": "A079029",
+  "mentions": [
+    "A000003"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

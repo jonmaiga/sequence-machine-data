@@ -1,0 +1,19 @@
+{
+  "description": "1 + sum of first n terms of A001221.",
+  "id": "A082186",
+  "mentions": [
+    "A001221",
+    "A013939"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

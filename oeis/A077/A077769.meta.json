@@ -1,0 +1,19 @@
+{
+  "description": "Number of times that the sum of two coprime squares of opposite parity is an integer between n^2 and (n+1)^2; multiple representations are counted multiply.",
+  "id": "A077769",
+  "mentions": [
+    "A077766",
+    "A077768",
+    "A077774"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

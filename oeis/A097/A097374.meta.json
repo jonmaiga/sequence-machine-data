@@ -1,0 +1,19 @@
+{
+  "description": "Perfect 4-composites: a perfect 4-composite is a natural number that can be represented in the form a^(a^(a^........(a^(a) ) ) ) for some natural number a and some number b>=1 of up-arrows.",
+  "id": "A097374",
+  "mentions": [
+    "A054871",
+    "A257309"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

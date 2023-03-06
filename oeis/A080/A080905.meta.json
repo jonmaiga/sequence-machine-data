@@ -1,0 +1,19 @@
+{
+  "description": "Sequence of run lengths in first differences of A080900.",
+  "id": "A080905",
+  "mentions": [
+    "A080900",
+    "A080922",
+    "A080927"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

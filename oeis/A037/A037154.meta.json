@@ -1,0 +1,15 @@
+{
+  "description": "Largest prime < n!-1.",
+  "id": "A037154",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:59:10",
+    "offset": 3,
+    "size": 17,
+    "source": "joeis"
+  }
+}

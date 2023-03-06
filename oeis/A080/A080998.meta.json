@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is n's rank among the positive integers in terms of centrality -the fraction of n represented by the average gcd of n and the positive integers, or A018804(n)/n^2 (cf. A080997).",
+  "id": "A080998",
+  "mentions": [
+    "A018804",
+    "A080997",
+    "A081000",
+    "A081001",
+    "A081028",
+    "A081029"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

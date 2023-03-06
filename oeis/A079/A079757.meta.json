@@ -1,0 +1,19 @@
+{
+  "description": "Periodic sequence 1 0 -2 3 -2 0,...",
+  "id": "A079757",
+  "mentions": [
+    "A057079"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:17:57",
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

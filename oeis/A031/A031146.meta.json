@@ -1,0 +1,28 @@
+{
+  "description": "Exponent of the least power of 2 having exactly n zeros in its decimal representation.",
+  "id": "A031146",
+  "mentions": [
+    "A000079",
+    "A006889",
+    "A007377",
+    "A031147",
+    "A063555",
+    "A063575",
+    "A063585",
+    "A063596",
+    "A063606",
+    "A063616",
+    "A063626"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

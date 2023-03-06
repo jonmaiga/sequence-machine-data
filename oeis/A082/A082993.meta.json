@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2; a(n+1) = least prime > a(1)*a(2)*...*a(n).",
+  "id": "A082993",
+  "mentions": [
+    "A340505"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

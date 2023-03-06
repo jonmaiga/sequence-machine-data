@@ -1,0 +1,20 @@
+{
+  "description": "Primes found among the numerators of the continued fraction rational approximations to e.",
+  "id": "A086791",
+  "mentions": [
+    "A002119",
+    "A086788",
+    "A094008"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

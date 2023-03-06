@@ -1,0 +1,21 @@
+{
+  "description": "Hypotenuses x^2 + y^2 of primitive Pythagorean triangles, sorted on values x of the generator pair (x, y), x>y.",
+  "id": "A094194",
+  "mentions": [
+    "A020882",
+    "A094192",
+    "A094193",
+    "A120097",
+    "A120098"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

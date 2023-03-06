@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest prime factor of 1 + lcm(1..k) where k is the n-th prime power A000961(n).",
+  "id": "A051454",
+  "mentions": [
+    "A000961",
+    "A003418",
+    "A049536",
+    "A049537",
+    "A051301",
+    "A051342",
+    "A051452"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

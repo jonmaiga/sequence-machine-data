@@ -1,0 +1,16 @@
+{
+  "description": "If there were a 9-dimensional unimodular lattice with minimal norm 2, this would be its theta series; however, no such lattice exists.",
+  "id": "A032800",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

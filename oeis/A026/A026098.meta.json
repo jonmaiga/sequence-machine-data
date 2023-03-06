@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array T read by rows: T(1,1)=1, T(2,1)=3, T(2,2)=2; for n >= 3, T(n,1)=prime(n) and for k=2,3,...,n, T(n,k) = m*prime(n+1-k), where m is the least positive integer such that m*p(n+1-k) is not any T(i,j) for 1<=i<=n-1 nor any T(n,j) for j<=k-1.",
+  "id": "A026098",
+  "mentions": [
+    "A070264"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:49",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

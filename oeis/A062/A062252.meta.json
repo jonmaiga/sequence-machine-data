@@ -1,0 +1,22 @@
+{
+  "description": "Record-setting values of q(n), the minimal prime q such that n(q+1)-1 is a prime p (i.e., q(n) > q(j) for all 0 < j < n).",
+  "id": "A062252",
+  "mentions": [
+    "A060324",
+    "A060424",
+    "A062251",
+    "A062256"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

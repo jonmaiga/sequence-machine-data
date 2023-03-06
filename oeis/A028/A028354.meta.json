@@ -1,0 +1,23 @@
+{
+  "description": "How the astronomical clock (\"Orloj\") in Prague strikes the hours (digits follow 12343212343... (A028356), n-th group adds to n).",
+  "id": "A028354",
+  "mentions": [
+    "A028355",
+    "A028356",
+    "A068962",
+    "A118382",
+    "A118383"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:53",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of numbers k>1 such that k equals the sum of digits in k^n.",
+  "id": "A046471",
+  "mentions": [
+    "A046000",
+    "A046019",
+    "A046459",
+    "A046469",
+    "A133509",
+    "A152147"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

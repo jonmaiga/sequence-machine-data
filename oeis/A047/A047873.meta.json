@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = max_{r=1..n-1} ceiling(t(t(n)-t(r-1))/(n-r+1)), where t() = triangular numbers A000217.",
+  "id": "A047873",
+  "mentions": [
+    "A000217",
+    "A047837",
+    "A047866"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:09:59",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

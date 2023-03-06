@@ -1,0 +1,33 @@
+{
+  "description": "Triangular array T read by rows: T(n,k) = k^2 mod n, for 1 <= k <= n, n >= 1.",
+  "id": "A048152",
+  "mentions": [
+    "A008959",
+    "A046071",
+    "A053879",
+    "A060036",
+    "A063987",
+    "A070422",
+    "A070430",
+    "A070431",
+    "A070432",
+    "A070435",
+    "A070438",
+    "A133819",
+    "A225126"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:55:27",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers which are both totients and cototients.",
+  "id": "A058825",
+  "mentions": [
+    "A000010",
+    "A002020",
+    "A002202",
+    "A005277",
+    "A005278",
+    "A051953",
+    "A058763"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

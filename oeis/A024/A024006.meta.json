@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 - n^8.",
+  "id": "A024006",
+  "mentions": [
+    "A024004",
+    "A339530"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:21:11",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

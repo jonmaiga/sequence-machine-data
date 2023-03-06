@@ -1,0 +1,31 @@
+{
+  "description": "Numbers that can be expressed as the (unordered) sum of two primes in exactly two ways.",
+  "id": "A067188",
+  "mentions": [
+    "A014091",
+    "A014092",
+    "A023036",
+    "A045917",
+    "A066722",
+    "A067187",
+    "A067189",
+    "A067190",
+    "A067191",
+    "A352229",
+    "A352230",
+    "A352231",
+    "A352233"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

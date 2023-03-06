@@ -1,0 +1,24 @@
+{
+  "description": "If n is even then 2^n+1 otherwise 2^n.",
+  "id": "A052531",
+  "mentions": [
+    "A001045",
+    "A042950",
+    "A052929",
+    "A062510",
+    "A087288",
+    "A280345"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

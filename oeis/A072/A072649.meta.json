@@ -1,0 +1,30 @@
+{
+  "description": "n occurs Fibonacci(n) times (cf. A000045).",
+  "id": "A072649",
+  "mentions": [
+    "A000045",
+    "A002024",
+    "A003714",
+    "A072643",
+    "A072648",
+    "A072650",
+    "A095791",
+    "A095792",
+    "A108852",
+    "A131234",
+    "A256966",
+    "A256967"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

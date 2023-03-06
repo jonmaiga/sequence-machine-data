@@ -1,0 +1,25 @@
+{
+  "description": "Increasing peaks in the prime gap sequence A038664.",
+  "id": "A086979",
+  "mentions": [
+    "A000101",
+    "A000230",
+    "A001223",
+    "A001632",
+    "A002386",
+    "A038664",
+    "A086977",
+    "A086978",
+    "A086980"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

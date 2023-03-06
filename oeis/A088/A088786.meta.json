@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n which are prime and which when each digit is incremented by 2 with carries ignored yields another prime p with the same property.",
+  "id": "A088786",
+  "mentions": [
+    "A088785",
+    "A088787",
+    "A088788"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

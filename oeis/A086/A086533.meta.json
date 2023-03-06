@@ -1,0 +1,20 @@
+{
+  "description": "Numbers in A014092 splittable into a sum of a single number pair (both distinct from 1) having a product that belongs to A086473.",
+  "id": "A086533",
+  "mentions": [
+    "A014092",
+    "A086473",
+    "A086860",
+    "A086888"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

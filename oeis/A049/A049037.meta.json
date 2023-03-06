@@ -1,0 +1,22 @@
+{
+  "description": "Number of cubic lattice walks that start and end at origin after 2n steps, not touching origin at intermediate stages.",
+  "id": "A049037",
+  "mentions": [
+    "A002896",
+    "A054474",
+    "A094059"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

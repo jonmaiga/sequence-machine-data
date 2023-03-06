@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct 3-colorings (X, O and blank) of 3 X 3 grid with floor((n+1)/2) X's, floor(n/2) O's and 9 - n blanks.",
+  "id": "A048246",
+  "mentions": [
+    "A008907",
+    "A048245"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

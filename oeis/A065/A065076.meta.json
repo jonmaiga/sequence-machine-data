@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0, a(1) = 1, a(n) = (sum of digits of a(n-1)) + a(n-2).",
+  "id": "A065076",
+  "mentions": [
+    "A007612",
+    "A007953",
+    "A030132"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

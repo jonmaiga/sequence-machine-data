@@ -1,0 +1,19 @@
+{
+  "description": "Smallest factorial that begins with n.",
+  "id": "A018854",
+  "mentions": [
+    "A018799"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

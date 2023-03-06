@@ -1,0 +1,17 @@
+{
+  "description": "Irreducible trinomials of prime degree for some k: x^p + x^k + 1 is irreducible over GF(5) for at least one k, p>k>0.",
+  "id": "A086339",
+  "mentions": [
+    "A057751"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

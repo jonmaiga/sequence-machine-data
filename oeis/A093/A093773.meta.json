@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest integer at which the value of the \"truncated Mertens function\" (= A088004) equals the n-th prime number.",
+  "id": "A093773",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002321",
+    "A008682",
+    "A059071",
+    "A088004",
+    "A093772"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

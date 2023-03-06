@@ -1,0 +1,22 @@
+{
+  "description": "Position of n-th 1 in A030302.",
+  "id": "A030303",
+  "mentions": [
+    "A003607",
+    "A005183",
+    "A030190",
+    "A030302",
+    "A066099"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

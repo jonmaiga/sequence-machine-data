@@ -1,0 +1,16 @@
+{
+  "description": "a_n = - sum_{i=1..n-1} C(i+1, n-i) (-1)^(n-i) a_i.",
+  "id": "A028380",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "obsc"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:35:41",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

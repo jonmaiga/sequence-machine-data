@@ -1,0 +1,30 @@
+{
+  "description": "Numbers n such that the sum of the middle divisors of n (A071090) is not zero.",
+  "id": "A071562",
+  "mentions": [
+    "A000203",
+    "A000384",
+    "A028982",
+    "A067742",
+    "A071090",
+    "A071561",
+    "A100345",
+    "A129912",
+    "A175040",
+    "A176039",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A244367"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

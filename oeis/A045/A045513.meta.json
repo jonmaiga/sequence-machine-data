@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1/((1-x)*(1-x^2)^2*(1-x^3)^2*(1-x^4)^2*(1-x^5)*(1-x^6)).",
+  "id": "A045513",
+  "mentions": [
+    "A001399",
+    "A001752",
+    "A115264",
+    "A164680",
+    "A210068"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:23:43",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

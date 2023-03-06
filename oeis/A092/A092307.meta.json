@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that there are no primes q, 3 < q < p, such that (q-1) divides (p-1).",
+  "id": "A092307",
+  "mentions": [
+    "A005385",
+    "A027642",
+    "A090801",
+    "A092308",
+    "A152951"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

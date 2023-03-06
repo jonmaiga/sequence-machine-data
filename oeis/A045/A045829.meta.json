@@ -1,0 +1,20 @@
+{
+  "description": "Catafusenes (see reference for precise definition).",
+  "id": "A045829",
+  "mentions": [
+    "A002212",
+    "A004148",
+    "A045445"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:24:48",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

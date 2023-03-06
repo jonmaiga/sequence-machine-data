@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to write n as an ordered sum of two nonzero triangular numbers.",
+  "id": "A053603",
+  "mentions": [
+    "A000217",
+    "A007294",
+    "A010054",
+    "A051533",
+    "A051611",
+    "A052343",
+    "A052348",
+    "A053604"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

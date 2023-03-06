@@ -1,0 +1,20 @@
+{
+  "description": "The terms of A073211 (sums of two powers of 11) divided by 2.",
+  "id": "A073219",
+  "mentions": [
+    "A073211"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:35:32",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

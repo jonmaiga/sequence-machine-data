@@ -1,0 +1,19 @@
+{
+  "description": "When gcd( p(n), q(n) ) increases, where p() is the unrestricted partition function (A000041) and q is the distinct partition function (A000009).",
+  "id": "A060745",
+  "mentions": [
+    "A000009",
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

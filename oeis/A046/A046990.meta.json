@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of Taylor series for log(1/cos(x)). Also from log(cos(x)).",
+  "id": "A046990",
+  "mentions": [
+    "A002430",
+    "A046991",
+    "A050970",
+    "A173018",
+    "A201637"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

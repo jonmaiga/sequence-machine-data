@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(Sum_{k=1..n} sqrt(k)).",
+  "id": "A025224",
+  "mentions": [
+    "A022554",
+    "A352077"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:03",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

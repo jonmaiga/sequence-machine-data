@@ -1,0 +1,19 @@
+{
+  "description": "Main diagonal of A018219, i.e., (n, n, a_n) is a winning position.",
+  "id": "A051261",
+  "mentions": [
+    "A018219",
+    "A077226"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array Q given by rows: Q(n,k) = number of partitions of n that do not contain k as an element; domain: 1 <= k <= n, n >= 1.",
+  "id": "A027300",
+  "mentions": [
+    "A000041",
+    "A027293"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:33:33",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

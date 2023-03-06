@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n plus sum of previous three terms.",
+  "id": "A062544",
+  "mentions": [
+    "A000217",
+    "A000225",
+    "A001477",
+    "A001590",
+    "A001924",
+    "A007800",
+    "A119407",
+    "A325473"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:09:55",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Numbers that are the product of an odd number of distinct primes.",
+  "id": "A030059",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A005117",
+    "A005408",
+    "A007304",
+    "A008683",
+    "A030229",
+    "A030231",
+    "A051270",
+    "A088245",
+    "A104141",
+    "A115343",
+    "A123321"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:45:49",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Fill a triangular array by rows by writing numbers 1, then 1 up to 2^2, then 1 up to 3^2, then 1 up to 4^2 and so on. The final elements of the rows form the sequence.",
+  "id": "A064865",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A064866"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "If Mersenne numbers have 3 or more factors, then list the third factor.",
+  "id": "A089159",
+  "mentions": [
+    "A000043",
+    "A001348",
+    "A016047",
+    "A344515"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of positive squares needed to sum to n using the greedy algorithm.",
+  "id": "A053610",
+  "mentions": [
+    "A000196",
+    "A000290",
+    "A002828",
+    "A006892",
+    "A007953",
+    "A007961",
+    "A048760",
+    "A053186",
+    "A055401",
+    "A057945",
+    "A062535"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

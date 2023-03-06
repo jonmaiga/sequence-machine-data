@@ -1,0 +1,25 @@
+{
+  "description": "GCD of consecutive values of sum-of-proper divisors.",
+  "id": "A070010",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A048586",
+    "A057467",
+    "A058515",
+    "A060778",
+    "A060780",
+    "A069896"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

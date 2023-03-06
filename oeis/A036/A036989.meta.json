@@ -1,0 +1,23 @@
+{
+  "description": "Read binary expansion of n from the right; keep track of the excess of 1's over 0's that have been seen so far; sequence gives 1 + maximum(excess of 1's over 0's).",
+  "id": "A036989",
+  "mentions": [
+    "A010060",
+    "A036988",
+    "A036990",
+    "A051731",
+    "A126387"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

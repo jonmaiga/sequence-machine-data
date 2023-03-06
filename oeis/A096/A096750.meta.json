@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1-x+x^2)/(1-2x+2x^2-x^3-x^4).",
+  "id": "A096750",
+  "mentions": [
+    "A003522"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:18:29",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

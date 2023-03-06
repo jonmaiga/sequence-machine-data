@@ -1,0 +1,25 @@
+{
+  "description": "Primes p such that x^5 = 2 has a solution mod p.",
+  "id": "A040159",
+  "mentions": [
+    "A001132",
+    "A038873",
+    "A040028",
+    "A040098",
+    "A040160",
+    "A040992",
+    "A042966",
+    "A042991"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:14",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

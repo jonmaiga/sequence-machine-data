@@ -1,0 +1,19 @@
+{
+  "description": "\"Dropping time\" in juggler sequence problem starting at 2n+1 (number of steps to reach a lower number than starting value).",
+  "id": "A094778",
+  "mentions": [
+    "A007320",
+    "A094683"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

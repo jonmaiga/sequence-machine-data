@@ -1,0 +1,19 @@
+{
+  "description": "Ratio of the product of divisors of n which are > n^(1/2) to product of divisors of n which are < n^(1/2).",
+  "id": "A072501",
+  "mentions": [
+    "A007955",
+    "A072499",
+    "A072500"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

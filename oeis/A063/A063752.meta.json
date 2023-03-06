@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that cototient(k) is a square.",
+  "id": "A063752",
+  "mentions": [
+    "A000010",
+    "A000396",
+    "A051953",
+    "A246551",
+    "A306670",
+    "A323916",
+    "A323917",
+    "A323918"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

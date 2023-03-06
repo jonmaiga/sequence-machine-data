@@ -1,0 +1,25 @@
+{
+  "description": "Numerator of frequency of integers with smallest divisor prime(n).",
+  "id": "A038110",
+  "mentions": [
+    "A002110",
+    "A005867",
+    "A038111",
+    "A060753",
+    "A236435",
+    "A236436",
+    "A254196"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

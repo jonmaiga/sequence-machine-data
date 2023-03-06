@@ -1,0 +1,18 @@
+{
+  "description": "Triangle whose (i,j)-th entry is binomial(i,j)*4^(i-j)*2^j.",
+  "id": "A038232",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:56:37",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

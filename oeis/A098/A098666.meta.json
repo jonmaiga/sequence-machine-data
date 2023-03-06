@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, 1<=k<=n: the n-th row contains the first n numbers after pairwise reducing all common divisors from left to right.",
+  "id": "A098666",
+  "mentions": [
+    "A008339",
+    "A098667",
+    "A098668",
+    "A098669"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

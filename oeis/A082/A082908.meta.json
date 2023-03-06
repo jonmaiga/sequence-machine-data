@@ -1,0 +1,22 @@
+{
+  "description": "Largest value of gcd(2^n, binomial(n,j)) with j=0..n-1; maximal value of largest power of 2 dividing binomial(n,j) in the n-th row of Pascal's triangle.",
+  "id": "A082908",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A000265",
+    "A007318",
+    "A082907"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

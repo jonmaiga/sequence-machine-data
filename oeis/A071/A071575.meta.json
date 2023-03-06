@@ -1,0 +1,21 @@
+{
+  "description": "Number of iterations of cototient(n) needed to reach 1 (cototient(n) = n-phi(n)).",
+  "id": "A071575",
+  "mentions": [
+    "A032358",
+    "A051953",
+    "A076640"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

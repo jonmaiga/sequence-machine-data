@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that floor(sqrt(2)*p) is also a prime.",
+  "id": "A098858",
+  "mentions": [
+    "A001951"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

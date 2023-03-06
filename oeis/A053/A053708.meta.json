@@ -1,0 +1,22 @@
+{
+  "description": "Nearest prime to n! (but not equal to n!).",
+  "id": "A053708",
+  "mentions": [
+    "A000142",
+    "A006990",
+    "A033932",
+    "A033933",
+    "A037151",
+    "A051701"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:14:17",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

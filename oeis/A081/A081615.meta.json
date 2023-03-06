@@ -1,0 +1,21 @@
+{
+  "description": "Subsequence of A005428 where state = 2.",
+  "id": "A081615",
+  "mentions": [
+    "A005428",
+    "A054995",
+    "A073941",
+    "A081614"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes which are a sandwich of numbers made of only one decimal digit between two 9's.",
+  "id": "A068689",
+  "mentions": [
+    "A068685",
+    "A068687",
+    "A068688"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

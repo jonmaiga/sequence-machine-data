@@ -1,0 +1,31 @@
+{
+  "description": "Least number with n preimages (or immediate predecessors) under f(n) = n + (product of nonzero digits of n).",
+  "id": "A096347",
+  "mentions": [
+    "A063108",
+    "A063425",
+    "A096922",
+    "A096923",
+    "A096924",
+    "A096925",
+    "A096926",
+    "A096927",
+    "A096928",
+    "A096929",
+    "A096930",
+    "A096931",
+    "A096972"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

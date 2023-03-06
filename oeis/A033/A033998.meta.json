@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the sum of the primes <= n is a square.",
+  "id": "A033998",
+  "mentions": [
+    "A000040",
+    "A033997",
+    "A061888",
+    "A061890"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

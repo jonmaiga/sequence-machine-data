@@ -1,0 +1,32 @@
+{
+  "description": "Square array A(n>=0,k>=1) (listed antidiagonally: A(0,1)=1, A(1,1)=1, A(0,2)=1, A(2,1)=2, A(1,2)=1, A(0,3)=1, A(3,1)=3, ...) giving the number of n-edge general plane trees fixed by k-fold application of Catalan Automorphisms A057511/A057512 (Deep rotation of general parenthesizations/plane trees).",
+  "id": "A079216",
+  "mentions": [
+    "A000108",
+    "A002262",
+    "A003418",
+    "A025581",
+    "A057511",
+    "A057512",
+    "A057546",
+    "A079217",
+    "A079222",
+    "A079223",
+    "A079224",
+    "A079225",
+    "A079226",
+    "A079227"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

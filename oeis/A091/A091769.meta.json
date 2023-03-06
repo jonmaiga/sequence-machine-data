@@ -1,0 +1,21 @@
+{
+  "description": "Poincaré series [or Poincare series] (or Molien series) for a certain six-fold wreath product P_6.",
+  "id": "A091769",
+  "mentions": [
+    "A082146",
+    "A089599",
+    "A091434",
+    "A091726"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:56:11",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

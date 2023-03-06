@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that k!! + 2^8 is prime.",
+  "id": "A076195",
+  "mentions": [
+    "A006882",
+    "A076185",
+    "A076186",
+    "A076188",
+    "A076189",
+    "A076190",
+    "A076193",
+    "A076194",
+    "A076196",
+    "A076197",
+    "A080778"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

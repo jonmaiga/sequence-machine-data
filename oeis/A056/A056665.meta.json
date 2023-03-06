@@ -1,0 +1,41 @@
+{
+  "description": "Number of equivalence classes of n-valued Post functions of 1 variable under action of complementing group C(1,n).",
+  "id": "A056665",
+  "mentions": [
+    "A000169",
+    "A000312",
+    "A001323",
+    "A001324",
+    "A001372",
+    "A054630",
+    "A054631",
+    "A075147",
+    "A075195",
+    "A081721",
+    "A130293",
+    "A168658",
+    "A228640",
+    "A275549",
+    "A275550",
+    "A275551",
+    "A275552",
+    "A275553",
+    "A275554",
+    "A275555",
+    "A275556",
+    "A275557",
+    "A275558"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

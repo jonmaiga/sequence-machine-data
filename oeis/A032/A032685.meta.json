@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k surrounded by digit '9' is a prime.",
+  "id": "A032685",
+  "mentions": [
+    "A032682",
+    "A032683",
+    "A032684",
+    "A032690"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:04:39",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

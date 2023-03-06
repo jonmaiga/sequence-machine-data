@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A076341(n)=0.",
+  "id": "A076351",
+  "mentions": [
+    "A076340",
+    "A076341"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

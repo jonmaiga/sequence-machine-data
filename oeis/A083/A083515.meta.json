@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number k such that R(n) + k is a square, where R(n) = A002275.",
+  "id": "A083515",
+  "mentions": [
+    "A002275"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

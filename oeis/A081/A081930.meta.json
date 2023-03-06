@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows in which row n gives n smallest palindromic numbers of n digits each.",
+  "id": "A081930",
+  "mentions": [
+    "A081931",
+    "A081932"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

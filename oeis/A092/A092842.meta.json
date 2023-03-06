@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the solution of the equation A073666(x) = n (A073666(a(n)) = n).",
+  "id": "A092842",
+  "mentions": [
+    "A073666",
+    "A081942",
+    "A081943",
+    "A092829"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

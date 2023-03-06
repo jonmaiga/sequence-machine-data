@@ -1,0 +1,19 @@
+{
+  "description": "Circulant p^2-tournaments up to rotations only, indexed by odd primes p.",
+  "id": "A038790",
+  "mentions": [
+    "A038786",
+    "A038789"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:23:35",
+    "offset": 1,
+    "size": 7,
+    "source": "joeis"
+  }
+}

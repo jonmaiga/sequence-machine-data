@@ -1,0 +1,18 @@
+{
+  "description": "Engel expansion for cos(1).",
+  "id": "A084651",
+  "mentions": [
+    "A067919",
+    "A084652"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

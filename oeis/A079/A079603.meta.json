@@ -1,0 +1,19 @@
+{
+  "description": "\"Trim\" numbers: see reference for definition.",
+  "id": "A079603",
+  "mentions": [
+    "A055186",
+    "A070566",
+    "A145555"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

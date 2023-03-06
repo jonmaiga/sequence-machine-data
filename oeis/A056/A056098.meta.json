@@ -1,0 +1,17 @@
+{
+  "description": "Minimum value in the distribution by first value of Prufer code of noncrossing spanning trees on a circle of n+2 points.",
+  "id": "A056098",
+  "mentions": [
+    "A056096"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

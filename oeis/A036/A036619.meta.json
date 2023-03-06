@@ -1,0 +1,16 @@
+{
+  "description": "Number of 5-ary rooted trees with n nodes and height at most 8.",
+  "id": "A036619",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

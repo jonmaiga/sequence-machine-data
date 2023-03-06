@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: A(x*G098618(x)) = G098618(x), where G098618 is the g.f. for A098618(n) = A007482(n)*Catalan(n).",
+  "id": "A098619",
+  "mentions": [
+    "A000108",
+    "A007482",
+    "A098615",
+    "A098617",
+    "A098618"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

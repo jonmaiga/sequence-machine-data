@@ -1,0 +1,23 @@
+{
+  "description": "The start of a record-breaking run of consecutive integers with a number of prime factors equal to 7.",
+  "id": "A067822",
+  "mentions": [
+    "A001222",
+    "A067813",
+    "A067814",
+    "A067820",
+    "A067821"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Size of maximal triangulation of an n-antiprism with regular polygonal base.",
+  "id": "A036573",
+  "mentions": [
+    "A036572"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:27:07",
+    "offset": 3,
+    "size": 52,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Integers n such that there exists at least one divisor d of n, 1 < d < n, such that d divides n, d+1 divides n+1 and d+2 divides n+2.",
+  "id": "A082773",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

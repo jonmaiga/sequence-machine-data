@@ -1,0 +1,16 @@
+{
+  "description": "Write primes in base 10 but interpret as if in base 11.",
+  "id": "A031216",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:50:41",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

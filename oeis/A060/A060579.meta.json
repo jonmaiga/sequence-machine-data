@@ -1,0 +1,24 @@
+{
+  "description": "Number of homeomorphically irreducible general graphs on 4 labeled nodes and with n edges.",
+  "id": "A060579",
+  "mentions": [
+    "A003514",
+    "A060516",
+    "A060533",
+    "A060537",
+    "A060576",
+    "A060581"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:42:03",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

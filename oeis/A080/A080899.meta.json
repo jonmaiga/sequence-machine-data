@@ -1,0 +1,17 @@
+{
+  "description": "Primes p(k) such that every composite number between p(k) and p(k+1) has exactly three distinct prime factors.",
+  "id": "A080899",
+  "mentions": [
+    "A075583"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

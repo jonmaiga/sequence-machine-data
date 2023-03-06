@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = prime(n) + prime(2n).",
+  "id": "A092390",
+  "mentions": [
+    "A000040",
+    "A087461"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of binary [ n,4 ] codes without 0 columns.",
+  "id": "A034345",
+  "mentions": [
+    "A034253",
+    "A034254",
+    "A034344",
+    "A034346",
+    "A034347",
+    "A034348",
+    "A034349",
+    "A034358",
+    "A253186"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:09",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes p with 2^n < p < 3^n.",
+  "id": "A076958",
+  "mentions": [
+    "A007053",
+    "A055729",
+    "A163825"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form (k! + 3)/3.",
+  "id": "A089131",
+  "mentions": [
+    "A089085"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

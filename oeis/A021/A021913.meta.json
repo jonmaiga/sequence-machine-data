@@ -1,0 +1,29 @@
+{
+  "description": "Period 4: repeat [0, 0, 1, 1].",
+  "id": "A021913",
+  "mentions": [
+    "A000073",
+    "A000217",
+    "A000749",
+    "A005132",
+    "A007877",
+    "A056594",
+    "A062158",
+    "A133872",
+    "A139600",
+    "A139601"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:11:39",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

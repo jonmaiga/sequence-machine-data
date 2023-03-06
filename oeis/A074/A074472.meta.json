@@ -1,0 +1,21 @@
+{
+  "description": "Length of iteration sequence of Collatz-function (A006370) when initial value is 3^n (A000244) and final cycle is followed once.",
+  "id": "A074472",
+  "mentions": [
+    "A000244",
+    "A006370",
+    "A008884",
+    "A075484",
+    "A075488"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

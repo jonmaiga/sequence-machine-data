@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 10 - Pi.",
+  "id": "A030644",
+  "mentions": [
+    "A000796",
+    "A005589"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

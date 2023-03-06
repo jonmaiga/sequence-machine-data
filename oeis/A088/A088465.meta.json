@@ -1,0 +1,20 @@
+{
+  "description": "Primes whose leftmost decimal digit is 1 and whose other decimal digits are all 7's.",
+  "id": "A088465",
+  "mentions": [
+    "A002275",
+    "A089147"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "[ exp(5/17)*n! ].",
+  "id": "A030895",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

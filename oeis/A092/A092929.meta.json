@@ -1,0 +1,20 @@
+{
+  "description": "n-th partial arithmetic mean is equal to the n-th noncomposite number or to prime(n-1) for n>1.",
+  "id": "A092929",
+  "mentions": [
+    "A000040",
+    "A092930"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

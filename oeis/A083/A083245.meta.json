@@ -1,0 +1,25 @@
+{
+  "description": "Difference between numbers of related and numbers of unrelated numbers belonging to n: a(n) = A073757(n)-A045763(n) = (n-u(n))-u(n) = n-2*A045763(n) = 2*A073757(n)-n.",
+  "id": "A083245",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A020488",
+    "A045763",
+    "A073757",
+    "A083243",
+    "A083244",
+    "A083246"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

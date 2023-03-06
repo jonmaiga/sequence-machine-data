@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the analog of the Mertens constant B_2 in the asymptotic series for the variance of the number of prime factors Omega.",
+  "id": "A091589",
+  "mentions": [
+    "A013661",
+    "A083342",
+    "A086242"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

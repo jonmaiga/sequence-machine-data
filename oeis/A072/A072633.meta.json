@@ -1,0 +1,18 @@
+{
+  "description": "Smallest positive integer m where 1^n+2^n+3^n+...+m^n is greater than or equal to (m+1)^n.",
+  "id": "A072633",
+  "mentions": [
+    "A037087"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

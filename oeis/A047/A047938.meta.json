@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to label points of an n X n grid with 3 colors, up to rotational symmetry.",
+  "id": "A047938",
+  "mentions": [
+    "A047937",
+    "A047939",
+    "A054739",
+    "A068253",
+    "A343095"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

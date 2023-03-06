@@ -1,0 +1,20 @@
+{
+  "description": "Number of inequivalent binary linear codes of length n. Also the number of nonisomorphic binary matroids on an n-set.",
+  "id": "A076766",
+  "mentions": [
+    "A034328",
+    "A055545",
+    "A076831"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

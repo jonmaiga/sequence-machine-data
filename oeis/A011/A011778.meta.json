@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k where A011776(k) grows.",
+  "id": "A011778",
+  "mentions": [
+    "A011776",
+    "A011777",
+    "A061769",
+    "A061770",
+    "A092427",
+    "A133481"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

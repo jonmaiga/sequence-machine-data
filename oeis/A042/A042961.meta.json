@@ -1,0 +1,20 @@
+{
+  "description": "The sequence e when b is obtained by reversing the parity of Euler's partition function A000041.",
+  "id": "A042961",
+  "mentions": [
+    "A000041",
+    "A042951",
+    "A042960",
+    "A042962"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:20:57",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

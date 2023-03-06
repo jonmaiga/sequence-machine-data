@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) counts plane partitions of n that can be 'extended' in (k+2) ways to a plane partition of n+1 by adding 1 element to it. Equivalently, it counts how many partitions of n have (k+2) different partitions of n+1 just covering it.",
+  "id": "A097994",
+  "mentions": [
+    "A000219",
+    "A090984",
+    "A096574"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: coefficients d(n,k) of Andre polynomials D(x,n) = Sum_{k>0} d(n,k)*x^k.",
+  "id": "A094503",
+  "mentions": [
+    "A000012",
+    "A000111",
+    "A000142",
+    "A000295",
+    "A000670",
+    "A002105",
+    "A004123",
+    "A008292",
+    "A080795",
+    "A101280",
+    "A113897"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

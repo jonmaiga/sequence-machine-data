@@ -1,0 +1,25 @@
+{
+  "description": "Primorial - 1 prime indices: integers m such that the m-th primorial minus 1 is prime.",
+  "id": "A057704",
+  "mentions": [
+    "A000720",
+    "A002110",
+    "A005234",
+    "A006794",
+    "A014545",
+    "A057705",
+    "A057706"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

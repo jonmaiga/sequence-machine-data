@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1, a(2)=2 and a(n+1) is minimal such that there are a(n-1) primes strictly between a(n) and a(n+1).",
+  "id": "A082279",
+  "mentions": [
+    "A082278"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

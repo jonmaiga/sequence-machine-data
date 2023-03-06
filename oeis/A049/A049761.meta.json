@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array T, read by rows: T(n,k) = n^3 mod k, for k = 1..n and n >= 1.",
+  "id": "A049761",
+  "mentions": [
+    "A049759",
+    "A049760",
+    "A049762",
+    "A049763",
+    "A049764"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:15",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

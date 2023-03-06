@@ -1,0 +1,15 @@
+{
+  "description": "sec(sec(x)*tanh(x))=1+1/2!*x^2+9/4!*x^4+297/6!*x^6+14385/8!*x^8...",
+  "id": "A012838",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:28:09",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

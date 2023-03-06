@@ -1,0 +1,22 @@
+{
+  "description": "Perrin sequence of order 5.",
+  "id": "A087935",
+  "mentions": [
+    "A001608",
+    "A050443",
+    "A087936",
+    "A306646"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

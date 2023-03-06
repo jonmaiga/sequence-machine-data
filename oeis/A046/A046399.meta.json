@@ -1,0 +1,28 @@
+{
+  "description": "Smallest squarefree palindrome with exactly n distinct prime factors.",
+  "id": "A046399",
+  "mentions": [
+    "A046385",
+    "A046392",
+    "A046393",
+    "A046394",
+    "A046395",
+    "A046396",
+    "A046397",
+    "A046398",
+    "A076886"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

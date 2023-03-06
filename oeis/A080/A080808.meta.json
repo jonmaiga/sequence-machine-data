@@ -1,0 +1,27 @@
+{
+  "description": "a(1) = 4, a(n)= smallest n-th power obtained by inserting digits anywhere in a(n-1).",
+  "id": "A080808",
+  "mentions": [
+    "A080514",
+    "A080515",
+    "A080516",
+    "A080807",
+    "A080809",
+    "A080810",
+    "A080811",
+    "A080812",
+    "A097661"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

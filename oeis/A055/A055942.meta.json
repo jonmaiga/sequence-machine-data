@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k > 1 such that k | Sigma(k) + n.",
+  "id": "A055942",
+  "mentions": [
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

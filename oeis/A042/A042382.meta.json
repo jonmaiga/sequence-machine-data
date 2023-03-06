@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(718).",
+  "id": "A042382",
+  "mentions": [
+    "A042383"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:02:42",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

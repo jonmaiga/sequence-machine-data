@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of successive convergents to tan(1/2) using continued fraction 1/(2-1/(6-1/(10-1/(14-1/(18-1/(22-1/(26-1/30-...))))))).",
+  "id": "A053988",
+  "mentions": [
+    "A001497",
+    "A053987",
+    "A161011"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

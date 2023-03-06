@@ -1,0 +1,17 @@
+{
+  "description": "Sequence has period 9 and differences between successive terms are 4, -3, 4, -3, 4, -3, 4, -3, -4.",
+  "id": "A078716",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:02:09",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

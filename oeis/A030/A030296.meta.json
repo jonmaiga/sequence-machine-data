@@ -1,0 +1,24 @@
+{
+  "description": "Smallest start for a run of at least n composite numbers.",
+  "id": "A030296",
+  "mentions": [
+    "A000101",
+    "A002386",
+    "A008950",
+    "A008995",
+    "A008996",
+    "A104138"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Palindromic wing primes (a.k.a. near-repdigit palindromic primes) of the general form r*(10^d - 1)/9 + (m-r)*10^floor(d/2) where d is the number of digits (an odd number > 1), r is the repeated digit, and m (different from r) is the middle digit.",
+  "id": "A077798",
+  "mentions": [
+    "A077775",
+    "A077797"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

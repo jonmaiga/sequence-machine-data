@@ -1,0 +1,28 @@
+{
+  "description": "Primes p such that 4*p+1 is also prime.",
+  "id": "A023212",
+  "mentions": [
+    "A000005",
+    "A001122",
+    "A005098",
+    "A005384",
+    "A030430",
+    "A043297",
+    "A088730",
+    "A090866",
+    "A113601",
+    "A182265",
+    "A182434"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:17:07",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The floor(1.001*x)-perfect numbers, where f-perfect numbers for an arithmetical function f are defined in A066218.",
+  "id": "A066239",
+  "mentions": [
+    "A066218"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

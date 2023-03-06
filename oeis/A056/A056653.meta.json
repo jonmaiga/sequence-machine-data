@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers together with 1 but excluding 4.",
+  "id": "A056653",
+  "mentions": [
+    "A002808",
+    "A014076",
+    "A018252",
+    "A226198"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:51:15",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

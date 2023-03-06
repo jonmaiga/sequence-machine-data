@@ -1,0 +1,28 @@
+{
+  "description": "a(n)-th star number (A003154) is a square.",
+  "id": "A054318",
+  "mentions": [
+    "A001844",
+    "A003154",
+    "A003215",
+    "A006061",
+    "A031138",
+    "A072256",
+    "A182432",
+    "A211955",
+    "A233427",
+    "A253475"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

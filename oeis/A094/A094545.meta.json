@@ -1,0 +1,22 @@
+{
+  "description": "Number of minimal T_0-covers of an n-set.",
+  "id": "A094545",
+  "mentions": [
+    "A035348",
+    "A046165",
+    "A094544",
+    "A094546"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Every string of 2 consecutive base-3 digits contains exactly 2 distinct numbers.",
+  "id": "A043089",
+  "mentions": [
+    "A031941"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:20:59",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

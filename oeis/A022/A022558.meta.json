@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations of length n avoiding the pattern 1342.",
+  "id": "A022558",
+  "mentions": [
+    "A004040",
+    "A005802",
+    "A061552",
+    "A099952",
+    "A117156",
+    "A117158"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(985).",
+  "id": "A042906",
+  "mentions": [
+    "A040953",
+    "A042907"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

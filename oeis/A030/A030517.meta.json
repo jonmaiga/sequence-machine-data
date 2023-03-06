@@ -1,0 +1,20 @@
+{
+  "description": "Number of walks of length n between two vertices on an icosahedron at distance 1.",
+  "id": "A030517",
+  "mentions": [
+    "A030518"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

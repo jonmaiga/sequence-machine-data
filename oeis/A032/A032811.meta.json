@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose set of base-11 digits is {2,3}.",
+  "id": "A032811",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:15",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of essentially parallel series-parallel networks with n unlabeled edges, multiple edges not allowed.",
+  "id": "A058385",
+  "mentions": [
+    "A000084",
+    "A058379",
+    "A058386",
+    "A058387"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

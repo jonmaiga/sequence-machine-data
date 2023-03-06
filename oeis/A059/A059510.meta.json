@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of the array A059220.",
+  "id": "A059510",
+  "mentions": [
+    "A059220"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

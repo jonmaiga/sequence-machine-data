@@ -1,0 +1,20 @@
+{
+  "description": "Area of the Pythagorean triangle a = u^2 - v^2 (cf. A096382) when u=3, v=4,4,5,...",
+  "id": "A096383",
+  "mentions": [
+    "A007531",
+    "A096382"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:14:27",
+    "offset": 2,
+    "size": 35,
+    "source": "joeis"
+  }
+}

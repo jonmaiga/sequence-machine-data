@@ -1,0 +1,24 @@
+{
+  "description": "Number of primes (different from n) that can be produced by altering one digit of decimal expansion of n (without changing the number of digits).",
+  "id": "A048853",
+  "mentions": [
+    "A010051",
+    "A050652",
+    "A050673",
+    "A158124",
+    "A192545"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

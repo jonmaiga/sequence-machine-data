@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{i=0..n} i*L(i), where L = A000032.",
+  "id": "A097039",
+  "mentions": [
+    "A000032"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:58:34",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

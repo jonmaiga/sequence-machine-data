@@ -1,0 +1,23 @@
+{
+  "description": "Sequence arising in search for Legendre sequences.",
+  "id": "A039791",
+  "mentions": [
+    "A000108",
+    "A001700",
+    "A002729",
+    "A002995",
+    "A005097",
+    "A007123"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

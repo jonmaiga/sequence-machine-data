@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that the least k such that (m-k) divides (m+k) is prime.",
+  "id": "A075862",
+  "mentions": [
+    "A075861"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

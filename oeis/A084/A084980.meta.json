@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of (multi)factorials: n-th row is (n+1)!!... {n \"!\"s}, (n+1)!... {n-1 \"!\"s}, ..., (n+1)!.",
+  "id": "A084980",
+  "mentions": [
+    "A000142",
+    "A006882",
+    "A007661",
+    "A007662"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

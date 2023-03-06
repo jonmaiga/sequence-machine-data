@@ -1,0 +1,19 @@
+{
+  "description": "Initial members of prime nonuplets (p, p+4, p+10, p+12, p+18, p+22, p+24, p+28, p+30).",
+  "id": "A022548",
+  "mentions": [
+    "A022545",
+    "A022546",
+    "A022547"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Fourth row of the Pascal-(1,4,1) array A081579.",
+  "id": "A081588",
+  "mentions": [
+    "A081579",
+    "A081587"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:09:05",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

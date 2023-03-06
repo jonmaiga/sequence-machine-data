@@ -1,0 +1,19 @@
+{
+  "description": "Ordered set of a + b - c as (a,b,c) runs through all primitive Pythagorean triples with a",
+  "id": "A020887",
+  "mentions": [
+    "A020888",
+    "A087459"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

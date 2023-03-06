@@ -1,0 +1,19 @@
+{
+  "description": "First multiple of n whose reverse is also divisible by n, or 0 if no such multiple exists.",
+  "id": "A062567",
+  "mentions": [
+    "A112725",
+    "A112726"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

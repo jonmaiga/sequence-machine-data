@@ -1,0 +1,19 @@
+{
+  "description": "Number of B-trees of order 4 with n leaves.",
+  "id": "A037026",
+  "mentions": [
+    "A014535"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:12",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of non-crossing connected graphs on n nodes on a circle in which a fixed (distinguished) node has degree one.",
+  "id": "A089436",
+  "mentions": [
+    "A007297",
+    "A143022"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

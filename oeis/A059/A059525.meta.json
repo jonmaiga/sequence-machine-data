@@ -1,0 +1,31 @@
+{
+  "description": "Number of nonzero n X n binary arrays with all 1's connected.",
+  "id": "A059525",
+  "mentions": [
+    "A020873",
+    "A059020",
+    "A059021",
+    "A285765",
+    "A286139",
+    "A286182",
+    "A286183",
+    "A286184",
+    "A286185",
+    "A286186",
+    "A286187",
+    "A286188",
+    "A286189",
+    "A287151"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

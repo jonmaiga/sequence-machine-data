@@ -1,0 +1,27 @@
+{
+  "description": "Every suffix of palindromic prime a(n) is prime (left-truncatable).",
+  "id": "A052024",
+  "mentions": [
+    "A002385",
+    "A020994",
+    "A024770",
+    "A024785",
+    "A032437",
+    "A033664",
+    "A050986",
+    "A050987",
+    "A052023",
+    "A052025"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Elements to the right of the central elements of the even-Pascal triangle A028326.",
+  "id": "A028330",
+  "mentions": [
+    "A014413",
+    "A028326"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:51",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

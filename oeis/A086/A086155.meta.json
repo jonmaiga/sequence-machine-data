@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of primes between the primes p = A020483(n) and q = 2n + A020483(n).",
+  "id": "A086155",
+  "mentions": [
+    "A000720",
+    "A020483",
+    "A086153",
+    "A086154"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

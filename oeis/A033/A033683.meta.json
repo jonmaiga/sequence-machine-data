@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if n is an odd square not divisible by 3, otherwise 0.",
+  "id": "A033683",
+  "mentions": [
+    "A000035",
+    "A010052",
+    "A010872",
+    "A033684",
+    "A080995",
+    "A098108",
+    "A104777"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

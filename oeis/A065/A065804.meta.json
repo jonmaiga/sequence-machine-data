@@ -1,0 +1,22 @@
+{
+  "description": "Earliest sequence with a(a(n))=n!.",
+  "id": "A065804",
+  "mentions": [
+    "A002516",
+    "A038752",
+    "A054048",
+    "A054049",
+    "A054790",
+    "A054791"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:57:22",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

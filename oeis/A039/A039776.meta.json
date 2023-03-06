@@ -1,0 +1,19 @@
+{
+  "description": "Number of new fractions m/n, where m is 1 or composite, (m,n) = 1 and \"new\" means the value of mn has not occurred before.",
+  "id": "A039776",
+  "mentions": [
+    "A014665",
+    "A039775",
+    "A048864"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:14",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

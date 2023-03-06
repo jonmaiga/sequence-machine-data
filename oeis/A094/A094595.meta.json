@@ -1,0 +1,17 @@
+{
+  "description": "Number of solutions to 1 == nxy (mod z) == nyz (mod x) == nzx (mod y) with 0 < x < y < z.",
+  "id": "A094595",
+  "mentions": [
+    "A094185"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

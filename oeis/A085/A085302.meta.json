@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the partial sum of A085301(j) from j=1 to n; a(n)-1 shows the number of factorials below n-th primorial.",
+  "id": "A085302",
+  "mentions": [
+    "A000142",
+    "A002110",
+    "A073071",
+    "A085301"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

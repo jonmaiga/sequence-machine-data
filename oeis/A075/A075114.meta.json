@@ -1,0 +1,22 @@
+{
+  "description": "Perfect powers n such that 2n + 1 is a perfect power; the value of y^b in the solution of the Diophantine equation x^a - 2y^b = 1.",
+  "id": "A075114",
+  "mentions": [
+    "A001541",
+    "A001542",
+    "A001597",
+    "A117547"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

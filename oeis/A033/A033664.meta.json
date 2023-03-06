@@ -1,0 +1,32 @@
+{
+  "description": "Every suffix is prime.",
+  "id": "A033664",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A020994",
+    "A024770",
+    "A024785",
+    "A032437",
+    "A038680",
+    "A050986",
+    "A050987",
+    "A052023",
+    "A052024",
+    "A052025",
+    "A069866"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

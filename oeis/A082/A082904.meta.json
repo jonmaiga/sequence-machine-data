@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: Pascal's triangle restricted to binomial(n, d) where d is a divisor of n.",
+  "id": "A082904",
+  "mentions": [
+    "A000005",
+    "A007318",
+    "A056045"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

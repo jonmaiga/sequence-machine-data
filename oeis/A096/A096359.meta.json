@@ -1,0 +1,20 @@
+{
+  "description": "Numbers formed by the second nesting of pi(10^n).",
+  "id": "A096359",
+  "mentions": [
+    "A006880",
+    "A101225",
+    "A101226"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

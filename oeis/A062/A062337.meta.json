@@ -1,0 +1,24 @@
+{
+  "description": "Primes whose sum of digits is 7.",
+  "id": "A062337",
+  "mentions": [
+    "A000040",
+    "A000579",
+    "A052221",
+    "A062336",
+    "A244918"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

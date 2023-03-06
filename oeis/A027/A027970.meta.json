@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = T(n, 2*n-8), T given by A027960.",
+  "id": "A027970",
+  "mentions": [
+    "A002878",
+    "A026998",
+    "A027960",
+    "A027971"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:39",
+    "offset": 4,
+    "size": 31,
+    "source": "joeis"
+  }
+}

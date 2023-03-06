@@ -1,0 +1,22 @@
+{
+  "description": "Square-pyramid-tree numbers: a(n) = sum(b(m),m=1..n), b(m) = 1^2, 1^2,2^2, 1^2,2^2,3^2,.. = (A002260)^2.",
+  "id": "A051678",
+  "mentions": [
+    "A000330",
+    "A002260",
+    "A002415"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:57:41",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

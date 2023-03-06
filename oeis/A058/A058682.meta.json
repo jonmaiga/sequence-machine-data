@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = p(0) + p(1) + ... + p(n) - n - 1, where p = partition numbers, A000041.",
+  "id": "A058682",
+  "mentions": [
+    "A000041",
+    "A000065",
+    "A000070",
+    "A053534",
+    "A171239"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sum of A037888(p) for all primes p such that 2^n < p < 2^(n+1).",
+  "id": "A095742",
+  "mentions": [
+    "A036378",
+    "A037888",
+    "A095062",
+    "A095298",
+    "A095732",
+    "A095753"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Not of the form x^2 + x*y + y^2.",
+  "id": "A034020",
+  "mentions": [
+    "A003136",
+    "A003627",
+    "A010815",
+    "A087943",
+    "A088534"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

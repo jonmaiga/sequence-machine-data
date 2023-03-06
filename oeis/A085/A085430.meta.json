@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the minimal m such that the group GL(m,2) has an element of order n.",
+  "id": "A085430",
+  "mentions": [
+    "A002884",
+    "A014664"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

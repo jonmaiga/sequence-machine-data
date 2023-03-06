@@ -1,0 +1,31 @@
+{
+  "description": "Triangle with columns built from certain power sequences.",
+  "id": "A067417",
+  "mentions": [
+    "A000244",
+    "A009998",
+    "A067402",
+    "A067403",
+    "A067410",
+    "A067411",
+    "A067419",
+    "A067420",
+    "A067421",
+    "A067422",
+    "A067423",
+    "A067424"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1-x-sqrt(1-2x-15x^2))/(8x^2).",
+  "id": "A091147",
+  "mentions": [
+    "A000108",
+    "A014433",
+    "A084605",
+    "A217275"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

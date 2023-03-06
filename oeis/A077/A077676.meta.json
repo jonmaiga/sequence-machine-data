@@ -1,0 +1,21 @@
+{
+  "description": "Squares using only squarefree digits (2, 3, 5, 6, 7).",
+  "id": "A077676",
+  "mentions": [
+    "A006716",
+    "A077437",
+    "A077674",
+    "A077675"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

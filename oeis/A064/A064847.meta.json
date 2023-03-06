@@ -1,0 +1,25 @@
+{
+  "description": "Sequence a(n) such that there is a sequence b(n) with a(1) = b(1) = 1, a(n+1) = a(n) * b(n) and b(n+1) = a(n) + b(n) for n >= 1.",
+  "id": "A064847",
+  "mentions": [
+    "A001622",
+    "A001697",
+    "A003686",
+    "A070231",
+    "A070233",
+    "A070234",
+    "A094303"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

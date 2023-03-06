@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n=(d_1+4)*(d_2+4)*...*(d_k+4) where d_1 d_2 ... d_k is the decimal expansion of n.",
+  "id": "A098114",
+  "mentions": [
+    "A097371",
+    "A097372",
+    "A098113"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

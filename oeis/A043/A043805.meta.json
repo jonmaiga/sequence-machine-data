@@ -1,0 +1,16 @@
+{
+  "description": "Numbers n such that number of runs in the base 3 representation of n is congruent to 7 mod 8.",
+  "id": "A043805",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:22:01",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

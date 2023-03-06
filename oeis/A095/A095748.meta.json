@@ -1,0 +1,23 @@
+{
+  "description": "Almost maximally asymmetric primes in binary.",
+  "id": "A095748",
+  "mentions": [
+    "A037888",
+    "A070939",
+    "A095062",
+    "A095743",
+    "A095749",
+    "A095758"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

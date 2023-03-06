@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A051612(n)*A065387(n) = sigma(n)^2-phi(n)^2, where A051612(n) = sigma(n) - phi(n) and A065387(n) = sigma(n) + phi(n).",
+  "id": "A077101",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A051612",
+    "A062354",
+    "A065387",
+    "A077099",
+    "A077100"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

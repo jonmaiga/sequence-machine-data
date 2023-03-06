@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form n^k + n - 1, where k>=2 is minimal.",
+  "id": "A078179",
+  "mentions": [
+    "A000040",
+    "A002327",
+    "A010051",
+    "A076846",
+    "A078178"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

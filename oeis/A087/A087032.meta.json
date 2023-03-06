@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if 2*A151800(n) - n is prime, otherwise 0, where A151800(n) is the smallest prime > n.",
+  "id": "A087032",
+  "mentions": [
+    "A010051",
+    "A087030",
+    "A087033",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

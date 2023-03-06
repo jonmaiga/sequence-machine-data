@@ -1,0 +1,20 @@
+{
+  "description": "Number of 4-element proper antichains of an n-element set.",
+  "id": "A051304",
+  "mentions": [
+    "A032263",
+    "A036239",
+    "A051112"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

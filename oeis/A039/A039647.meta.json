@@ -1,0 +1,20 @@
+{
+  "description": "Related to A000032 (Lucas numbers): (n-1)!*L(n).",
+  "id": "A039647",
+  "mentions": [
+    "A000032",
+    "A039692"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:40:52",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

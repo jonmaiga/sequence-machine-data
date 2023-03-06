@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of T(n,m) = number of bracelets (necklaces than can be turned over) with m white beads and (2n-m) black ones, for 1<=m<=n.",
+  "id": "A073020",
+  "mentions": [
+    "A005648",
+    "A047996",
+    "A052307",
+    "A072506",
+    "A078925"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

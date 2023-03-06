@@ -1,0 +1,24 @@
+{
+  "description": "a(0)=1; for n>0, a(n) = 2*5^(n-1) - (1/2)*Sum_{i=1..n-1} a(i)*a(n-i).",
+  "id": "A085362",
+  "mentions": [
+    "A000351",
+    "A026375",
+    "A026387",
+    "A026392",
+    "A085363",
+    "A085364"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

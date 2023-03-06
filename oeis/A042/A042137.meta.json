@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(593).",
+  "id": "A042137",
+  "mentions": [
+    "A042136"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:30:00",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

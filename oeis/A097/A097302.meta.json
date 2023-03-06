@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of rationals used in the Euler-Maclaurin type derivation of Stirling's formula for N!.",
+  "id": "A097302",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A097301"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

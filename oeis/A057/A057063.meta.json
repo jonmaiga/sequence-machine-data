@@ -1,0 +1,22 @@
+{
+  "description": "Let P(n) of a sequence s(1),s(2),s(3),... be obtained by leaving s(1),...,s(n) fixed and reverse-cyclically permuting every n consecutive terms thereafter; apply P(2) to 1,2,3,... to get PS(2), then apply P(3) to PS(2) to get PS(3), then apply P(4) to PS(3), etc. The limit of PS(n) is A057063.",
+  "id": "A057063",
+  "mentions": [
+    "A007062",
+    "A057030",
+    "A057032",
+    "A057033",
+    "A057064"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

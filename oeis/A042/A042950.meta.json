@@ -1,0 +1,23 @@
+{
+  "description": "Row sums of the Lucas triangle A029635.",
+  "id": "A042950",
+  "mentions": [
+    "A003945",
+    "A003953",
+    "A007283",
+    "A007413",
+    "A029635"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

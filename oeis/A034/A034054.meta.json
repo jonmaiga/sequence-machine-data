@@ -1,0 +1,29 @@
+{
+  "description": "Numbers with multiplicative digital root value 7.",
+  "id": "A034054",
+  "mentions": [
+    "A002275",
+    "A031347",
+    "A034048",
+    "A034049",
+    "A034050",
+    "A034051",
+    "A034052",
+    "A034053",
+    "A034055",
+    "A034056"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:39:47",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

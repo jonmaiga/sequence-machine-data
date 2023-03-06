@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k whose sum of digits exceeds the sum of the digits of k^3.",
+  "id": "A064209",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k in A045954 such that k-1 is prime.",
+  "id": "A045959",
+  "mentions": [
+    "A045954"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:27:29",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

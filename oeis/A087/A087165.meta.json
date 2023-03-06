@@ -1,0 +1,23 @@
+{
+  "description": "a(n)=1 when n == 1 (mod 4), otherwise a(n) = a(n - ceiling(n/4)) + 1. Removing all the 1's results in the original sequence with every term incremented by 1.",
+  "id": "A087165",
+  "mentions": [
+    "A001511",
+    "A018902",
+    "A087088",
+    "A087192",
+    "A244041"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

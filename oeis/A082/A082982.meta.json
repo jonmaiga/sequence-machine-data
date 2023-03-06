@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k, k+1 and k+2 are sums of 2 squares.",
+  "id": "A082982",
+  "mentions": [
+    "A001481",
+    "A050795",
+    "A304441"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

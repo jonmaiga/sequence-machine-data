@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Buffon's constant 2/Pi.",
+  "id": "A060294",
+  "mentions": [
+    "A000796",
+    "A053300",
+    "A076668",
+    "A082542",
+    "A088538",
+    "A154956",
+    "A221918"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

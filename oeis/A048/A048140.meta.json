@@ -1,0 +1,22 @@
+{
+  "description": "Number of planar partitions of n, but partitions that are mirror images of each other (when regarded as 3-D objects) are counted only once.",
+  "id": "A048140",
+  "mentions": [
+    "A000219",
+    "A000784",
+    "A000785",
+    "A005987",
+    "A048141",
+    "A048142"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

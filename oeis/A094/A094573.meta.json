@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) giving number of (<=2)-covers of an n-set with k blocks.",
+  "id": "A094573",
+  "mentions": [
+    "A059443",
+    "A060052",
+    "A094574"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

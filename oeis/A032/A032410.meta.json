@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 121*2^k+1 is prime.",
+  "id": "A032410",
+  "mentions": [
+    "A050586"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Zeckendorf expansion of n: repeatedly subtract the largest Fibonacci number you can until nothing remains.",
+  "id": "A035515",
+  "mentions": [
+    "A035514",
+    "A035516",
+    "A035517"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

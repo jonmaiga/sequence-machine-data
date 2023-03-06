@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A064696(n) = n-1.",
+  "id": "A064697",
+  "mentions": [
+    "A064696"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

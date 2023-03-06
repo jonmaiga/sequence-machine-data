@@ -1,0 +1,20 @@
+{
+  "description": "Sum of divisors of 2*prime(n)+1.",
+  "id": "A072057",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A072055",
+    "A072056"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

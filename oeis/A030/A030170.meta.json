@@ -1,0 +1,18 @@
+{
+  "description": "Let c be the point at which Gamma(x), x>0, is minimized; sequence gives continued fraction for c.",
+  "id": "A030170",
+  "mentions": [
+    "A030169"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

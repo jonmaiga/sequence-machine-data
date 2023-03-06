@@ -1,0 +1,21 @@
+{
+  "description": "Binomial transform, alternating in sign, of the tribonacci numbers.",
+  "id": "A073358",
+  "mentions": [
+    "A000073",
+    "A003633",
+    "A073357"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:46:43",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

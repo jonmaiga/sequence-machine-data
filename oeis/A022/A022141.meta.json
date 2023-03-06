@@ -1,0 +1,16 @@
+{
+  "description": "Fibonacci sequence beginning 5, 17.",
+  "id": "A022141",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:20:47",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

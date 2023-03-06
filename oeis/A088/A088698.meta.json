@@ -1,0 +1,28 @@
+{
+  "description": "Replace 1 with 11 in binary representation of n.",
+  "id": "A088698",
+  "mentions": [
+    "A001196",
+    "A048297",
+    "A048678",
+    "A084471",
+    "A088697",
+    "A277335",
+    "A290258",
+    "A341520",
+    "A341521"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

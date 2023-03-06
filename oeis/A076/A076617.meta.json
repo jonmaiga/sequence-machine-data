@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that sum of the divisors d of k divides 1 + 2 + ... + k = k(k+1)/2.",
+  "id": "A076617",
+  "mentions": [
+    "A000203",
+    "A024816",
+    "A066860",
+    "A232324"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

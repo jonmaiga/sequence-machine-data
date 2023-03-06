@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = s(1)*t(n) + s(2)*t(n-1) + ... + s(k)*t(n+1-k), where k = floor((n+1)/2), s = A023533, t = A014306.",
+  "id": "A024693",
+  "mentions": [
+    "A014306",
+    "A023533"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:24:31",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

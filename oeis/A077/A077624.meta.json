@@ -1,0 +1,18 @@
+{
+  "description": "Largest term in periodic part of continued fraction expansion of square root of 2^n + 1 or 0 if 2^n + 1 is a square.",
+  "id": "A077624",
+  "mentions": [
+    "A077625",
+    "A077635"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

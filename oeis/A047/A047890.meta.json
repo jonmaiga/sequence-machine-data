@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations in S_n with longest increasing subsequence of length <= 5.",
+  "id": "A047890",
+  "mentions": [
+    "A005802",
+    "A047888",
+    "A052399",
+    "A214015"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

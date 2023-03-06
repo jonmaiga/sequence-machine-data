@@ -1,0 +1,24 @@
+{
+  "description": "Binomial coefficients C(100,n).",
+  "id": "A017816",
+  "mentions": [
+    "A007318",
+    "A010926",
+    "A011001",
+    "A017765",
+    "A017815"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

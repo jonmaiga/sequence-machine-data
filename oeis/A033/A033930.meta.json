@@ -1,0 +1,19 @@
+{
+  "description": "Base 10 digital convolution sequence.",
+  "id": "A033930",
+  "mentions": [
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

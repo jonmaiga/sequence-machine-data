@@ -1,0 +1,21 @@
+{
+  "description": "Arrange the nontrivial binomial coefficients C(m,k) (2 <= k <= m/2) in increasing order (not removing duplicates); record the sequence of k's.",
+  "id": "A022912",
+  "mentions": [
+    "A003015",
+    "A006987",
+    "A022911",
+    "A319382"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n circulant invertible (0,1) matrices over the reals.",
+  "id": "A086323",
+  "mentions": [
+    "A003473",
+    "A086328"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

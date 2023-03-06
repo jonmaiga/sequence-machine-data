@@ -1,0 +1,28 @@
+{
+  "description": "Sum of (1+e)-divisors of n. Let n = Product_i p(i)^r(i) then (1+e)-sigma(n) = Product_i (1 + Sum_{s|r(i)} p(i)^s) .",
+  "id": "A051378",
+  "mentions": [
+    "A027748",
+    "A027750",
+    "A049599",
+    "A051377",
+    "A069915",
+    "A107758",
+    "A107759",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

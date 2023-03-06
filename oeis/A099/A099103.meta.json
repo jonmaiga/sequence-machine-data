@@ -1,0 +1,20 @@
+{
+  "description": "Natural numbers n with more digits than Euler totient phi(n).",
+  "id": "A099103",
+  "mentions": [
+    "A000010",
+    "A099102"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

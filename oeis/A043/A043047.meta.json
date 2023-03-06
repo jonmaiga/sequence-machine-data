@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (s(n)+3)/4, where s(n) is the n-th base-4 palindrome that starts with 1 (A043003).",
+  "id": "A043047",
+  "mentions": [
+    "A007090",
+    "A043003"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:20:59",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

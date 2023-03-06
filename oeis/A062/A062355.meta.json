@@ -1,0 +1,36 @@
+{
+  "description": "a(n) = d(n) * phi(n), where d(n) is the number of divisors function.",
+  "id": "A062355",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A001620",
+    "A003557",
+    "A047994",
+    "A061468",
+    "A062354",
+    "A062816",
+    "A062949",
+    "A064840",
+    "A065464",
+    "A079535",
+    "A173557",
+    "A304408",
+    "A318519",
+    "A327169",
+    "A335707"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

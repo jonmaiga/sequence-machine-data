@@ -1,0 +1,31 @@
+{
+  "description": "Number of surviving Collatz residues mod 2^n.",
+  "id": "A076227",
+  "mentions": [
+    "A006370",
+    "A020914",
+    "A020915",
+    "A022921",
+    "A047473",
+    "A054414",
+    "A056576",
+    "A074473",
+    "A075476",
+    "A075483",
+    "A100982",
+    "A156301",
+    "A186009",
+    "A243115"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

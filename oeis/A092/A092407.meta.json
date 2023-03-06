@@ -1,0 +1,15 @@
+{
+  "description": "Coins and notes in the Norwegian currency.",
+  "id": "A092407",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

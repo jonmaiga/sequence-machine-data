@@ -1,0 +1,28 @@
+{
+  "description": "\"Nullwertzahlen\" (or \"inverse prime numbers\"): n=p1*p2*p3*p4*p5*...*pk, where pi are primes with p1 <= p2 <= p3 <= p4 ...; then p1 = 2 and p1*p2*...*pi >= p(i+1) for all i < k.",
+  "id": "A047836",
+  "mentions": [
+    "A047984",
+    "A047985",
+    "A047986",
+    "A047987",
+    "A047988",
+    "A052287",
+    "A174973",
+    "A237593",
+    "A317305"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = the least positive d such that for p=prime(n), the numbers p+0d, p+1d, p+2d, ..., p+(p-1)d are all primes.",
+  "id": "A088430",
+  "mentions": [
+    "A002110",
+    "A061558",
+    "A113834",
+    "A231017",
+    "A231018"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

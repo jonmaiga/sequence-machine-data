@@ -1,0 +1,18 @@
+{
+  "description": "Consider sequence b(m) = | Sum_{k=1..m} mu(k)/k |; sequence gives numerators of record low values of b(m).",
+  "id": "A071759",
+  "mentions": [
+    "A071760"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Apart from the initial term (0), lists all integers whose factorial expansion ends with 1 (i.e., are odd numbers), do not contain a digit zero and each successive digit to the left is at most one greater than the preceding digit.",
+  "id": "A071156",
+  "mentions": [
+    "A000108",
+    "A014486",
+    "A057164",
+    "A071155",
+    "A071158",
+    "A085191",
+    "A085198",
+    "A085199",
+    "A120696"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

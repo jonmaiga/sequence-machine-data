@@ -1,0 +1,23 @@
+{
+  "description": "Primes with digits in descending order that differ exactly by 1.",
+  "id": "A052016",
+  "mentions": [
+    "A006055",
+    "A048398",
+    "A052017",
+    "A138142"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

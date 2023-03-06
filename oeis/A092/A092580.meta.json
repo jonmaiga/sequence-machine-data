@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations p of [n] in which exactly the first k terms satisfy the up-down property, i.e., p(1)< p(2), p(2)>p(3), p(3)",
+  "id": "A092580",
+  "mentions": [
+    "A000111",
+    "A000142",
+    "A001710",
+    "A001715"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

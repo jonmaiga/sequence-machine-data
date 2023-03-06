@@ -1,0 +1,20 @@
+{
+  "description": "Nearest integer to Gamma(n + 6/7)/Gamma(6/7).",
+  "id": "A020029",
+  "mentions": [
+    "A020074",
+    "A020119",
+    "A049209",
+    "A220607"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:16:05",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

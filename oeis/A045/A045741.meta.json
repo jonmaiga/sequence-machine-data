@@ -1,0 +1,21 @@
+{
+  "description": "Number of edges in all noncrossing connected graphs on n nodes on a circle.",
+  "id": "A045741",
+  "mentions": [
+    "A007297",
+    "A103457",
+    "A244038",
+    "A244039"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

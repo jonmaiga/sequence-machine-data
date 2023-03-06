@@ -1,0 +1,15 @@
+{
+  "description": "Expressible as C(m,3) + C(n,3) in at least 3 ways.",
+  "id": "A010329",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:54",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

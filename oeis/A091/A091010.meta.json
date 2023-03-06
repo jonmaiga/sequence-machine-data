@@ -1,0 +1,18 @@
+{
+  "description": "Numbers having no divisor d such that also d-x and d+x are divisors for some x.",
+  "id": "A091010",
+  "mentions": [
+    "A091009",
+    "A091011"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

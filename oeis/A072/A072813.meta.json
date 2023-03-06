@@ -1,0 +1,18 @@
+{
+  "description": "a(n)^A072814(n) is the n-th perfect power.",
+  "id": "A072813",
+  "mentions": [
+    "A001597",
+    "A072814"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

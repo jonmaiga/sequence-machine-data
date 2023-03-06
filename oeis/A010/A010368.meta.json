@@ -1,0 +1,17 @@
+{
+  "description": "Number of points of L1 norm 2n in Hamming code version of E_8 lattice.",
+  "id": "A010368",
+  "mentions": [
+    "A010369"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:04:37",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

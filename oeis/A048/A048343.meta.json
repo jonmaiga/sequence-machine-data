@@ -1,0 +1,19 @@
+{
+  "description": "Total number of distinct palindromes of form 'n-digit number' x 'n-digit number_reversed' (n-digit number not palindromic).",
+  "id": "A048343",
+  "mentions": [
+    "A048344"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "For n >= 1, n n's take places at stage n: the first takes the least untaken place (l.u.p) and for 2<=k<=n, the k-th n takes the l.u.p. more than n-1 places past the place of the (k-1)st n.",
+  "id": "A026409",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:31:13",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

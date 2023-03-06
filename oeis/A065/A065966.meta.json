@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that phi(k) / 2 is prime.",
+  "id": "A065966",
+  "mentions": [
+    "A000010",
+    "A005384",
+    "A005385",
+    "A006530",
+    "A052126",
+    "A066179",
+    "A068211",
+    "A068212"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

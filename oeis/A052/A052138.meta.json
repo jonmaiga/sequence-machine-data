@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of coefficients in function a(x) such that a(a(a(x))) = log (1+x).",
+  "id": "A052138",
+  "mentions": [
+    "A048602",
+    "A048603",
+    "A052139"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:40:51",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

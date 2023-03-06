@@ -1,0 +1,24 @@
+{
+  "description": "McKay-Thompson series of class 14B for Monster.",
+  "id": "A058503",
+  "mentions": [
+    "A000521",
+    "A007240",
+    "A007241",
+    "A007267",
+    "A014708",
+    "A045478",
+    "A132319"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": -1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

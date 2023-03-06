@@ -1,0 +1,15 @@
+{
+  "description": "x = non-multiple of 7 such that xy/(x+y) is an integer and the hypotenuse of the right triangle with legs x and y is an integer.",
+  "id": "A089060",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

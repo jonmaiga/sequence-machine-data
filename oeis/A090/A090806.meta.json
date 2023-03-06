@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: T(n,k) (n >= 2, 1 <= k <= n) = number of partitions of k white balls and n-k black balls in which each part has at least one ball of each color. Also limit of the joint major-index / inversion polynomial for permutations of n elements, as n becomes infinite.",
+  "id": "A090806",
+  "mentions": [
+    "A108461",
+    "A108469"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

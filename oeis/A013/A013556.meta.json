@@ -1,0 +1,16 @@
+{
+  "description": "Numerator of [x^(2n)] of the Taylor series cos(cot(x)-coth(x))= 1 -2*x^2/9 +2*x^4/243 -676*x^6/229635 +62*x^8/295245 -...",
+  "id": "A013556",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Exponent of the n-th prime power A000961(n).",
+  "id": "A025474",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A025473",
+    "A056798",
+    "A100995",
+    "A117331",
+    "A192015"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Largest multiple of n using only nonzero digits with digit sum n, or 0 if no such multiple exists.",
+  "id": "A075399",
+  "mentions": [
+    "A075400"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

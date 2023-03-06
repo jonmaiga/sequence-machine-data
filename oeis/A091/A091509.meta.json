@@ -1,0 +1,20 @@
+{
+  "description": "Numbers (in ascending order, without multiplicity) which occur in triples a,b,c such that a < b < c, (b * c) / (b + c) leaves a, (a * c) / (a + c) leaves b and (a * b) / (a + b) leaves c as a remainder.",
+  "id": "A091509",
+  "mentions": [
+    "A092817",
+    "A092818",
+    "A092819",
+    "A092864"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

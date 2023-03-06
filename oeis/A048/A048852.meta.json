@@ -1,0 +1,22 @@
+{
+  "description": "Difference between b^2 (in c^2=a^2+b^2) and product of successive prime pairs.",
+  "id": "A048852",
+  "mentions": [
+    "A000040",
+    "A006094",
+    "A048851",
+    "A291463"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:09:07",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

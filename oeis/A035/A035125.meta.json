@@ -1,0 +1,19 @@
+{
+  "description": "Roots of 'non-palindromic cubes remaining cubic when written backwards'.",
+  "id": "A035125",
+  "mentions": [
+    "A035090",
+    "A035124"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

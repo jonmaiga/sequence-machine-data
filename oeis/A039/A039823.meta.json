@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = ceiling( (n^2 + n + 2)/4 ).",
+  "id": "A039823",
+  "mentions": [
+    "A000125",
+    "A004524",
+    "A011848",
+    "A063865"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:13:51",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

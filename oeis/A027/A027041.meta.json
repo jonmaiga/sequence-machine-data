@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} T(n,k) * T(n,2n-k), with T given by A027023.",
+  "id": "A027041",
+  "mentions": [
+    "A027023"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

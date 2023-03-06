@@ -1,0 +1,19 @@
+{
+  "description": "Unbranched mono-5-catapolyheptagons.",
+  "id": "A038175",
+  "mentions": [
+    "A038177",
+    "A323850"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

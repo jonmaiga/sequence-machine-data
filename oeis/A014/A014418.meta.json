@@ -1,0 +1,44 @@
+{
+  "description": "Representation of n in base of Catalan numbers (a classic greedy version).",
+  "id": "A014418",
+  "mentions": [
+    "A000035",
+    "A000108",
+    "A007090",
+    "A007623",
+    "A014138",
+    "A014417",
+    "A014420",
+    "A033552",
+    "A161227",
+    "A161228",
+    "A176137",
+    "A197433",
+    "A239903",
+    "A244155",
+    "A244158",
+    "A244159",
+    "A244160",
+    "A244161",
+    "A244216",
+    "A244217",
+    "A244221",
+    "A244222",
+    "A244223",
+    "A244318",
+    "A244320"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

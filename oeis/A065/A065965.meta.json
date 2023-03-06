@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that divide A039916(k).",
+  "id": "A065965",
+  "mentions": [
+    "A039916"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

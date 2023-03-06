@@ -1,0 +1,18 @@
+{
+  "description": "Number of terms in each group of consecutive zeros in A087032.",
+  "id": "A087033",
+  "mentions": [
+    "A087032"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

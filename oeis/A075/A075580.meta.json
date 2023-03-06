@@ -1,0 +1,26 @@
+{
+  "description": "Smallest prime p(k) such that the number of distinct prime divisors of all composite numbers between p(k) and p(k+1) is n.",
+  "id": "A075580",
+  "mentions": [
+    "A052297",
+    "A059960",
+    "A075581",
+    "A075583",
+    "A075584",
+    "A075585",
+    "A075586",
+    "A075587",
+    "A075588",
+    "A075589"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least positive integer k such that all digits of k are 0 or 1 in exactly n different bases B, where 2 <= B <= k; i.e., such that A068953(k)=n.",
+  "id": "A059972",
+  "mentions": [
+    "A068953"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

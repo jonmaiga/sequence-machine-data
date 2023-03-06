@@ -1,0 +1,24 @@
+{
+  "description": "Convolution of A001045(n+1) (generalized (1,2)-Fibonacci), n >= 0, with itself.",
+  "id": "A073371",
+  "mentions": [
+    "A001045",
+    "A045883",
+    "A062111",
+    "A073370",
+    "A099429",
+    "A127976"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

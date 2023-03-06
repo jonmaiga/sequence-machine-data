@@ -1,0 +1,18 @@
+{
+  "description": "a(n)= 3^(4*n-4)* sum_{k>=0} ( Gamma(n+k/3+1/3) / Gamma(4/3+k/3) ) * (Gamma(n+k/3+2/3) / Gamma(5/3+k/3) ) * (Gamma(n+k/3+1) / Gamma(2+k/3) ) * Gamma(n+k/3+4/3) / ( Gamma(7/3+k/3) * k! *exp(1)).",
+  "id": "A072598",
+  "mentions": [
+    "A072019",
+    "A072020"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

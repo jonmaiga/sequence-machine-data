@@ -1,0 +1,17 @@
+{
+  "description": "Counterexamples to the conjecture that an even, prime-indexed triangular plus 1 equals a prime or that an odd, prime-indexed triangular minus 2 equals a prime.",
+  "id": "A097785",
+  "mentions": [
+    "A096333"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = index of first appearance of n in A096862.",
+  "id": "A097008",
+  "mentions": [
+    "A062402",
+    "A096862",
+    "A096863",
+    "A096993",
+    "A097007"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

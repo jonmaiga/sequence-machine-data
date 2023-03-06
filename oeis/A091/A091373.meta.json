@@ -1,0 +1,22 @@
+{
+  "description": "Number of numbers <= n having exactly as many prime factors as the value of their smallest prime factor.",
+  "id": "A091373",
+  "mentions": [
+    "A001222",
+    "A020639",
+    "A091371",
+    "A091372",
+    "A091374",
+    "A091376"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

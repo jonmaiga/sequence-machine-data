@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows in which from the second row onwards the n-th row contains n smallest multiples of (n-1) not included earlier such that the row sum is a multiple of n. Triangle begins with 1.",
+  "id": "A083167",
+  "mentions": [
+    "A083168",
+    "A083169",
+    "A083170",
+    "A083171",
+    "A083172"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

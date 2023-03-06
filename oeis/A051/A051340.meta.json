@@ -1,0 +1,28 @@
+{
+  "description": "A simple 2-dimensional array, read by antidiagonals: T[i,j] = 1 for j>0, T[i,0] = i+1; i,j = 0,1,2,3,...",
+  "id": "A051340",
+  "mentions": [
+    "A125026",
+    "A130295",
+    "A130301",
+    "A141419",
+    "A144112",
+    "A185874",
+    "A185875",
+    "A185876"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:55:37",
+    "offset": 0,
+    "size": 97,
+    "source": "joeis"
+  }
+}

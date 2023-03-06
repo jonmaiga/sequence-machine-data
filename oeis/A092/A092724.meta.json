@@ -1,0 +1,15 @@
+{
+  "description": "Disk degeneracies for brane III in the O(K)->P^1 x P^1 geometry.",
+  "id": "A092724",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

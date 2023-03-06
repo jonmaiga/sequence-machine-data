@@ -1,0 +1,20 @@
+{
+  "description": "Binary widths of A072790.",
+  "id": "A072791",
+  "mentions": [
+    "A072641",
+    "A072642",
+    "A072787",
+    "A072790"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

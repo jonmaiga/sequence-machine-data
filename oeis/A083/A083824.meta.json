@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = digit reversal of 9*n, divided by 9.",
+  "id": "A083824",
+  "mentions": [
+    "A083822",
+    "A083823",
+    "A083825"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

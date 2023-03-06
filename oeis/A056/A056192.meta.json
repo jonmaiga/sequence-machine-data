@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n divided by its characteristic cube divisor A056191.",
+  "id": "A056192",
+  "mentions": [
+    "A000188",
+    "A007913",
+    "A008833",
+    "A055229",
+    "A055231",
+    "A056191",
+    "A056552"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

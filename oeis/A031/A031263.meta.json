@@ -1,0 +1,18 @@
+{
+  "description": "Length of n-th run of digit 3 in A031253.",
+  "id": "A031263",
+  "mentions": [
+    "A031253"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:50:41",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

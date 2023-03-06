@@ -1,0 +1,19 @@
+{
+  "description": "First differences of noncototients A005278.",
+  "id": "A083536",
+  "mentions": [
+    "A005278",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

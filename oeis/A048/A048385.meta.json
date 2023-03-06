@@ -1,0 +1,24 @@
+{
+  "description": "In base-10 notation replace digits of n with their squared values (Version 1).",
+  "id": "A048385",
+  "mentions": [
+    "A007088",
+    "A048386",
+    "A048387",
+    "A048388",
+    "A048389",
+    "A068522"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

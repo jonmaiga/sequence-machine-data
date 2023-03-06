@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = solution to the postage stamp problem with 2 denominations and n stamps.",
+  "id": "A014616",
+  "mentions": [
+    "A002620",
+    "A004116",
+    "A024206",
+    "A028884",
+    "A046691",
+    "A196416"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

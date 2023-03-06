@@ -1,0 +1,19 @@
+{
+  "description": "Used by Polya in calculating A000598.",
+  "id": "A036676",
+  "mentions": [
+    "A000598",
+    "A000621"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:10:01",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

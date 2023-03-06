@@ -1,0 +1,19 @@
+{
+  "description": "Numbers formed from 10 consecutive digits of e whose digital sums are 49.",
+  "id": "A095926",
+  "mentions": [
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

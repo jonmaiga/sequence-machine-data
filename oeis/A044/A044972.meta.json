@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n with property that in base-3 representation the numbers of 0's and 1's are 1 and 2, respectively.",
+  "id": "A044972",
+  "mentions": [
+    "A024023"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

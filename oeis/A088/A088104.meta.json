@@ -1,0 +1,22 @@
+{
+  "description": "Smallest n-digit prime beginning with prime(n), or 0 if no such prime exists.",
+  "id": "A088104",
+  "mentions": [
+    "A077504",
+    "A077505",
+    "A088105",
+    "A088754",
+    "A088755"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

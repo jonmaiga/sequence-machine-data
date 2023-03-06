@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = F(8*n+4)/3, where F=A000045 (the Fibonacci sequence).",
+  "id": "A049678",
+  "mentions": [
+    "A000045",
+    "A004187",
+    "A099483",
+    "A100047"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

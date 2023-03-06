@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of value of x such that K(x) = 2E(x).",
+  "id": "A086199",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

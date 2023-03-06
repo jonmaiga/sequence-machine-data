@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1 and, for n>1, a(n)=a(n-1)+n if n is even and a(n)=smallest positive integer which has not yet appeared in the sequence if n is odd.",
+  "id": "A094077",
+  "mentions": [
+    "A001951",
+    "A001952"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

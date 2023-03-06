@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to partition n into sums of squares of nonprimes.",
+  "id": "A097876",
+  "mentions": [
+    "A090677"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

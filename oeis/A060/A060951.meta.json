@@ -1,0 +1,31 @@
+{
+  "description": "Rank of elliptic curve y^2 = x^3 - n.",
+  "id": "A060951",
+  "mentions": [
+    "A001014",
+    "A002150",
+    "A002152",
+    "A002154",
+    "A031508",
+    "A060748",
+    "A060838",
+    "A060950",
+    "A060952",
+    "A060953",
+    "A081120",
+    "A179136",
+    "A179137"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

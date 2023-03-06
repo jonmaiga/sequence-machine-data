@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that sigma(n) = 7n/2.",
+  "id": "A055153",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A005820",
+    "A007539",
+    "A027687",
+    "A141643",
+    "A141645"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

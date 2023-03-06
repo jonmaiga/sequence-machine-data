@@ -1,0 +1,19 @@
+{
+  "description": "Initial term of n-th row of triangle in A079784.",
+  "id": "A079781",
+  "mentions": [
+    "A079782",
+    "A079783",
+    "A079784"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

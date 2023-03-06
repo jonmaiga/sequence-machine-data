@@ -1,0 +1,20 @@
+{
+  "description": "Define an increasing sequence as follows. Given the first term, called the seed (the seed need not have the property of the remaining terms of the sequence), subsequent terms are defined as obtained by inserting/placing digits (at least one) in the previous term to obtain the smallest number with a given property. This is the growing prime sequence for the seed a(1) = 5.",
+  "id": "A068170",
+  "mentions": [
+    "A068166",
+    "A068167",
+    "A068169"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

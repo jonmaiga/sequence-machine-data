@@ -1,0 +1,21 @@
+{
+  "description": "Nonnegative integers k such that |cos(k)| > |sin(k+1)|.",
+  "id": "A026317",
+  "mentions": [
+    "A026309",
+    "A246303",
+    "A327136",
+    "A327137",
+    "A327138"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:55",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of Sophie Germain primes <= prime(10^n).",
+  "id": "A049040",
+  "mentions": [
+    "A005384",
+    "A006988"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

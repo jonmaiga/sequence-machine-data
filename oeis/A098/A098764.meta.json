@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 3p - q where p and q are consecutive primes.",
+  "id": "A098764",
+  "mentions": [
+    "A000040",
+    "A001043",
+    "A001223",
+    "A001747",
+    "A001748",
+    "A047235",
+    "A086801"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:28:13",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

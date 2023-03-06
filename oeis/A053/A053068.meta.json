@@ -1,0 +1,20 @@
+{
+  "description": "Concatenation of next n Fibonacci numbers.",
+  "id": "A053068",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:08:28",
+    "offset": 1,
+    "size": 8,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Add 4, then reverse the decimal digits; start with 10.",
+  "id": "A016082",
+  "mentions": [
+    "A003608",
+    "A016081",
+    "A055198",
+    "A119031"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:47:21",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

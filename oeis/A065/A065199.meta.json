@@ -1,0 +1,23 @@
+{
+  "description": "Record high values in A033665, ignoring those numbers that are believed never to reach a palindrome.",
+  "id": "A065199",
+  "mentions": [
+    "A023109",
+    "A033665",
+    "A033865",
+    "A065198"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

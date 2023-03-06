@@ -1,0 +1,23 @@
+{
+  "description": "Regular figurative or polygonal numbers of order greater than 2.",
+  "id": "A090466",
+  "mentions": [
+    "A001248",
+    "A057145",
+    "A090428",
+    "A090467",
+    "A176774"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

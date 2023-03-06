@@ -1,0 +1,23 @@
+{
+  "description": "Largest number with the prime signature of n using prime divisors of n.",
+  "id": "A085079",
+  "mentions": [
+    "A027748",
+    "A046523",
+    "A069799",
+    "A071364",
+    "A089247",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

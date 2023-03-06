@@ -1,0 +1,31 @@
+{
+  "description": "Number of nonsquare divisors of n.",
+  "id": "A056595",
+  "mentions": [
+    "A000005",
+    "A000188",
+    "A000290",
+    "A000430",
+    "A006881",
+    "A030078",
+    "A030514",
+    "A030516",
+    "A046951",
+    "A050997",
+    "A054753",
+    "A055205",
+    "A194095",
+    "A194096"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

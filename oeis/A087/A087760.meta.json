@@ -1,0 +1,15 @@
+{
+  "description": "Numbers n such that the sequence of k>=2 such that k^3 divides {binomial(n*k,k)-n} coincides exactly with the sequence of prime numbers.",
+  "id": "A087760",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

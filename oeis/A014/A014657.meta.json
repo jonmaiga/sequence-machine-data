@@ -1,0 +1,31 @@
+{
+  "description": "Numbers m that divide 2^k + 1 for some nonnegative k.",
+  "id": "A014657",
+  "mentions": [
+    "A000051",
+    "A003558",
+    "A005408",
+    "A014659",
+    "A014661",
+    "A091317",
+    "A179480",
+    "A195470",
+    "A195610",
+    "A253608",
+    "A296243",
+    "A296244",
+    "A332433",
+    "A337220"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:40:19",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

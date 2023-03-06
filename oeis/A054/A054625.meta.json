@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-bead necklaces with 6 colors.",
+  "id": "A054625",
+  "mentions": [
+    "A054613",
+    "A075195"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:44:52",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

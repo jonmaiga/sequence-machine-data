@@ -1,0 +1,22 @@
+{
+  "description": "The third, sixth, tenth, fifteenth, ... letters in this sentence are vowels (ignoring spaces and commas).",
+  "id": "A080518",
+  "mentions": [
+    "A005224",
+    "A050481",
+    "A080517",
+    "A080520"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

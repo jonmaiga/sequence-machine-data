@@ -1,0 +1,21 @@
+{
+  "description": "Third diagonal of triangle defined in A051537.",
+  "id": "A070260",
+  "mentions": [
+    "A000466",
+    "A002378",
+    "A051537"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:17",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

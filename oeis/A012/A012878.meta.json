@@ -1,0 +1,15 @@
+{
+  "description": "E.g.f.: exp(sech(x)*arcsin(x))=1+x+1/2!*x^2-1/3!*x^3-7/4!*x^4+5/5!*x^5...",
+  "id": "A012878",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:42",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

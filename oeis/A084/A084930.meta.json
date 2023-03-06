@@ -1,0 +1,33 @@
+{
+  "description": "Triangle of coefficients of Chebyshev polynomials T_{2n+1} (x).",
+  "id": "A084930",
+  "mentions": [
+    "A000330",
+    "A002315",
+    "A005585",
+    "A006232",
+    "A008310",
+    "A028297",
+    "A049310",
+    "A050486",
+    "A053120",
+    "A054333",
+    "A127674",
+    "A127675",
+    "A130777",
+    "A157142"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Nonnegative numbers in (3*A005836 - 1) [A005836 are the numbers with base representation containing no 2].",
+  "id": "A089118",
+  "mentions": [
+    "A001006",
+    "A005836",
+    "A082575",
+    "A089119"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

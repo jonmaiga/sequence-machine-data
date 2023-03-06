@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1/(1 - 4*x + 5*x^2).",
+  "id": "A099456",
+  "mentions": [
+    "A090131",
+    "A099457",
+    "A099458",
+    "A118444",
+    "A139011"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

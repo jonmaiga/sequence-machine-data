@@ -1,0 +1,18 @@
+{
+  "description": "Inverse function of N -> N injection A075175.",
+  "id": "A075176",
+  "mentions": [
+    "A075174",
+    "A075175"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

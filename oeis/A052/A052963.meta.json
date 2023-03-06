@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=1, a(1)=2, a(2)=5, a(n) = 3*a(n+2) - a(n+3).",
+  "id": "A052963",
+  "mentions": [
+    "A066170",
+    "A076264"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:22:26",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

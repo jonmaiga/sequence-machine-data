@@ -1,0 +1,19 @@
+{
+  "description": "Symmetric square array T(n,k)=T(k,n), read by antidiagonals, such that T(n,k) equals the dot product of the k-th antidiagonal with the initial terms of the (n-k)-th row when n>=k, with T(n,0)=1.",
+  "id": "A096589",
+  "mentions": [
+    "A096590"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

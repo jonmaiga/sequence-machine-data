@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the number of steps needed to reach the final value of n via repeated interpretation of n as a base b+1 number where b is the largest digit of n.",
+  "id": "A091048",
+  "mentions": [
+    "A054055",
+    "A068505",
+    "A091047",
+    "A091049"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Only odd numbers occur and for all k there are k numbers between any two successive occurrences of k.",
+  "id": "A056753",
+  "mentions": [
+    "A004771",
+    "A005843",
+    "A008598",
+    "A016813",
+    "A164632",
+    "A181497"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

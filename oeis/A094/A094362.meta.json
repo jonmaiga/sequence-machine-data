@@ -1,0 +1,19 @@
+{
+  "description": "McKay-Thompson series of class 39C for the Monster group with a(0) = 1.",
+  "id": "A094362",
+  "mentions": [
+    "A058661",
+    "A094363"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:46:43",
+    "offset": -1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

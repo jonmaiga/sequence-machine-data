@@ -1,0 +1,21 @@
+{
+  "description": "Self-inverse permutation of natural numbers induced by the automorphism RotateHandshakes180 acting on the parenthesizations encoded by A014486.",
+  "id": "A069771",
+  "mentions": [
+    "A014486",
+    "A057501",
+    "A069772",
+    "A069888",
+    "A069889"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

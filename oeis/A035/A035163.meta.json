@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers k, not a power of 2, such that the E(k) == 1 (mod k), where E(k) is the k-th Euler number (A000364).",
+  "id": "A035163",
+  "mentions": [
+    "A000364",
+    "A081730"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

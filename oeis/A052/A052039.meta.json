@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k such that the first significant digits of 1/k coincide with n.",
+  "id": "A052039",
+  "mentions": [
+    "A052038",
+    "A326818"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:00:25",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Primes mod 13.",
+  "id": "A039711",
+  "mentions": [
+    "A007652",
+    "A038194",
+    "A039701",
+    "A039706",
+    "A039709",
+    "A039710",
+    "A039712",
+    "A039715"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

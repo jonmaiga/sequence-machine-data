@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (Pi/e)^(1/4).",
+  "id": "A096416",
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A061382",
+    "A096414"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:33",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

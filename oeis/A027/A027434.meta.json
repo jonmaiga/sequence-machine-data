@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 2; then defined by property that a(n) = smallest number >= a(n-1) such that successive runs have lengths 1,1,2,2,3,3,4,4.",
+  "id": "A027434",
+  "mentions": [
+    "A027709",
+    "A049068"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

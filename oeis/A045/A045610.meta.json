@@ -1,0 +1,18 @@
+{
+  "description": "Number of different energy states of n positive and n negative charges on a string.",
+  "id": "A045610",
+  "mentions": [
+    "A045723"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

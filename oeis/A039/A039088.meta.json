@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose base-9 representation has the same number of 1's and 6's.",
+  "id": "A039088",
+  "mentions": [
+    "A007095"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

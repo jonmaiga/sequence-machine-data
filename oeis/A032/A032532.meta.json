@@ -1,0 +1,21 @@
+{
+  "description": "Integer part of decimal 'base-2 looking' numbers divided by their actual base-2 values (denominator of a(n) is n, numerator is n written in binary but read in decimal).",
+  "id": "A032532",
+  "mentions": [
+    "A007088",
+    "A032533",
+    "A032534"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

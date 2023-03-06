@@ -1,0 +1,18 @@
+{
+  "description": "Number of series-reduced dyslexic planted planar trees with n leaves of 2 colors.",
+  "id": "A032133",
+  "mentions": [
+    "A032132"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

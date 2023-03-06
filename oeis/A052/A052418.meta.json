@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-crossing hyperbolic knots having symmetry group D4.",
+  "id": "A052418",
+  "mentions": [
+    "A052415",
+    "A052426"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

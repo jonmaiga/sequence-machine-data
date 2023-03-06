@@ -1,0 +1,23 @@
+{
+  "description": "Triangles in open triangular matchstick arrangement (triangle minus one side) of side n.",
+  "id": "A045947",
+  "mentions": [
+    "A000447",
+    "A002412",
+    "A051895",
+    "A082289"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

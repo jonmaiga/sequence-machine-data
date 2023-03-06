@@ -1,0 +1,19 @@
+{
+  "description": "Reversion of Euler totient function A000010.",
+  "id": "A050391",
+  "mentions": [
+    "A000010",
+    "A050392"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:40:22",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

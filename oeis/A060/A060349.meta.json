@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n^(n+2)*(n^2 - 1)*(n+3)*(n+2)*(5*n - 7)/5760.",
+  "id": "A060349",
+  "mentions": [
+    "A007830",
+    "A060348"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 3,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

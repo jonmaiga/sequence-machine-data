@@ -1,0 +1,21 @@
+{
+  "description": "Irregularity index of the n-th irregular prime A000928(n).",
+  "id": "A091887",
+  "mentions": [
+    "A000928",
+    "A060975",
+    "A061576",
+    "A073277",
+    "A091888"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

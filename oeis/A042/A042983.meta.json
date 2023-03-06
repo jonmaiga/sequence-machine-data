@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n > 99 with following property: form a sequence whose initial terms are the t digits of n, later terms given by rule b(i+1) = b(i) + product of t-1 previous terms; then n itself appears in the sequence.",
+  "id": "A042983",
+  "mentions": [
+    "A007629"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

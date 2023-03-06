@@ -1,0 +1,22 @@
+{
+  "description": "Initial values for iteration of A063919(x) function such that iteration ends in the 5-cycle, i.e., in A097024.",
+  "id": "A097035",
+  "mentions": [
+    "A002187",
+    "A063919",
+    "A063991",
+    "A097024",
+    "A097030",
+    "A097037"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

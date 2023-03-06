@@ -1,0 +1,17 @@
+{
+  "description": "Number of non-attacking knights on an n X n board with all non-perimeteral squares removed.",
+  "id": "A086663",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:42:17",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Fractional part of square root of a(n) starts with 5: first term of runs.",
+  "id": "A034111",
+  "mentions": [
+    "A002061",
+    "A034101"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:10:07",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

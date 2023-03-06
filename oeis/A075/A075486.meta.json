@@ -1,0 +1,22 @@
+{
+  "description": "Length of iteration list when Collatz-function is iterated with initial value 2^n + 1.",
+  "id": "A075486",
+  "mentions": [
+    "A006370",
+    "A008908",
+    "A074472",
+    "A075487",
+    "A075488"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

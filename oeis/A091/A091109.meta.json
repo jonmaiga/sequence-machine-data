@@ -1,0 +1,22 @@
+{
+  "description": "Number of occurrences of smallest prime factor in all partitions of n-th composite number: a(n)=A066633(A002808(n), A056608(n)).",
+  "id": "A091109",
+  "mentions": [
+    "A000041",
+    "A002808",
+    "A020639",
+    "A056608",
+    "A066633",
+    "A091114"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

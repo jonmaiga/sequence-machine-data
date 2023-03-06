@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 1, a(2) = 2, and for n > 2, a(n) = a(n-1) + gpf(a(n-1)), where gpf = greatest prime factor = A006530.",
+  "id": "A076271",
+  "mentions": [
+    "A000040",
+    "A006530",
+    "A008578",
+    "A020639",
+    "A036441",
+    "A070229",
+    "A076272",
+    "A076274",
+    "A180107"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

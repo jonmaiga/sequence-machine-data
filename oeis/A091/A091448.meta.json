@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that a1 > a2, where [a0,a1,a2,...] is the simple continued fraction of sqrt(k).",
+  "id": "A091448",
+  "mentions": [
+    "A000196",
+    "A091453"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

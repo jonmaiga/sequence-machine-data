@@ -1,0 +1,19 @@
+{
+  "description": "Let Dedekind's psi(m) = product of (p+1)p^(e-1) for primes p, where p^e is a factor of m. Iterating psi(m) eventually results in a number of form 2^a*3^b. a(n) is the number of steps to reach such a number.",
+  "id": "A019269",
+  "mentions": [
+    "A001615",
+    "A019268",
+    "A065333"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

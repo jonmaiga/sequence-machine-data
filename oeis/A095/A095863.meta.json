@@ -1,0 +1,25 @@
+{
+  "description": "Index of largest triangular number with n digits.",
+  "id": "A095863",
+  "mentions": [
+    "A068092",
+    "A068093",
+    "A068094",
+    "A095864",
+    "A095865",
+    "A095866"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

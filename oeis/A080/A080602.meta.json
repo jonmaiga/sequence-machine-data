@@ -1,0 +1,21 @@
+{
+  "description": "Number of positions in which the 3 X 3 X 3 Rubik's cube puzzle can be after exactly n quarter-turns.",
+  "id": "A080602",
+  "mentions": [
+    "A005452",
+    "A080583",
+    "A080601",
+    "A080638"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

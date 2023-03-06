@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=1, a(n) is the smallest integer > a(n-1) such that the sum of elements of the simple continued fraction for S(n)=1/a(1)+1/a(2)+...+1/a(n) equals n*(n+1)/2 the n-th triangular number.",
+  "id": "A071184",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

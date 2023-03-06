@@ -1,0 +1,20 @@
+{
+  "description": "Number of terms in the simple continued fraction for Sum_{k=1..n} 1/k^3.",
+  "id": "A070986",
+  "mentions": [
+    "A002117",
+    "A055573"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

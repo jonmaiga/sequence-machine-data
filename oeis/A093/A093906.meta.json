@@ -1,0 +1,21 @@
+{
+  "description": "Start with {2} and close under the operations XY and XY+1; sequence gives complete list of numbers that do not appear.",
+  "id": "A093906",
+  "mentions": [
+    "A009293",
+    "A009388",
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

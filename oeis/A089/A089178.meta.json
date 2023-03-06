@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) (n >= 0, 0 <= k <= 1+log_2(floor(n+1)) read by rows: row 0 = {1}, row 1 = {1 1}; for n >=2, row n = row n-1 + (row floor((n-1)/2) shifted one place right).",
+  "id": "A089178",
+  "mentions": [
+    "A033485",
+    "A089177"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

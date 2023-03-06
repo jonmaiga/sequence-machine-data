@@ -1,0 +1,18 @@
+{
+  "description": "T(2n+3,n), array T as in A055216.",
+  "id": "A055219",
+  "mentions": [
+    "A055216"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

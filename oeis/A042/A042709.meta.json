@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(884).",
+  "id": "A042709",
+  "mentions": [
+    "A040854",
+    "A042708"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:13:35",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

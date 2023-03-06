@@ -1,0 +1,24 @@
+{
+  "description": "Number of distinct primes which occur as substrings of the digits of n.",
+  "id": "A039997",
+  "mentions": [
+    "A035232",
+    "A039995",
+    "A062115",
+    "A093301",
+    "A163753",
+    "A205667"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "2^p - 11 for p prime.",
+  "id": "A098231",
+  "mentions": [
+    "A098815"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

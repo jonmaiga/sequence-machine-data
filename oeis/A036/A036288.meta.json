@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 1 + integer log of n: if the prime factorization of n is n = Product (p_j^k_j) then a(n) = 1 + Sum (p_j * k_j) (cf. A001414).",
+  "id": "A036288",
+  "mentions": [
+    "A001221",
+    "A001414",
+    "A027748",
+    "A124010",
+    "A212813",
+    "A212814",
+    "A212815",
+    "A212816",
+    "A212908",
+    "A212909"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

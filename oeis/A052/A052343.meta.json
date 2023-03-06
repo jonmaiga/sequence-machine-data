@@ -1,0 +1,43 @@
+{
+  "description": "Number of ways to write n as the unordered sum of two triangular numbers (zero allowed).",
+  "id": "A052343",
+  "mentions": [
+    "A000194",
+    "A000217",
+    "A002654",
+    "A005369",
+    "A008441",
+    "A010052",
+    "A020756",
+    "A020757",
+    "A025426",
+    "A052344",
+    "A052345",
+    "A052346",
+    "A052347",
+    "A052348",
+    "A053587",
+    "A053692",
+    "A056303",
+    "A056304",
+    "A093518",
+    "A118139",
+    "A119345",
+    "A121444",
+    "A259285",
+    "A259287",
+    "A260415",
+    "A260516"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

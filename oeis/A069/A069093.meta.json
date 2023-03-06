@@ -1,0 +1,26 @@
+{
+  "description": "Jordan function J_8(n).",
+  "id": "A069093",
+  "mentions": [
+    "A000010",
+    "A013667",
+    "A059376",
+    "A059377",
+    "A059378",
+    "A059379",
+    "A059380"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

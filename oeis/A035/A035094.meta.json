@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime of form (n!)*k + 1.",
+  "id": "A035094",
+  "mentions": [
+    "A002981",
+    "A034694",
+    "A035093"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:17:03",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

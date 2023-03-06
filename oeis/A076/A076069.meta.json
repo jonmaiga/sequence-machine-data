@@ -1,0 +1,23 @@
+{
+  "description": "Largest number formed as concatenation of a permutation of the n consecutive numbers 1+n(n-1)/2, ..., n(n+1)/2 (written in decimal).",
+  "id": "A076069",
+  "mentions": [
+    "A076068",
+    "A080479",
+    "A080480",
+    "A192392"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

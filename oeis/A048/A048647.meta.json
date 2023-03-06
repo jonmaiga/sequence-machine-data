@@ -1,0 +1,25 @@
+{
+  "description": "Write n in base 4, then replace each digit '1' with '3' and vice versa and convert back to decimal.",
+  "id": "A048647",
+  "mentions": [
+    "A007090",
+    "A065256",
+    "A115490",
+    "A248813"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

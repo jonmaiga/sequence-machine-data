@@ -1,0 +1,29 @@
+{
+  "description": "Number of connected regular graphs of degree 11 with 2n nodes.",
+  "id": "A014384",
+  "mentions": [
+    "A002851",
+    "A005177",
+    "A006820",
+    "A006821",
+    "A006822",
+    "A014377",
+    "A014378",
+    "A014381",
+    "A014382",
+    "A068934",
+    "A185213"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

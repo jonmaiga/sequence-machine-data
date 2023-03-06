@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; a(n) = a(n-1) + sigma(a(n-1)) where sigma(k) = sum of the divisors of k.",
+  "id": "A081973",
+  "mentions": [
+    "A165929"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Card on top of deck at n-th stage of R. K. Guy's shuffling problem.",
+  "id": "A035485",
+  "mentions": [
+    "A035490",
+    "A035491",
+    "A035492"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

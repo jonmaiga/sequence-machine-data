@@ -1,0 +1,22 @@
+{
+  "description": "Number of odd entries in A004001 that are <= 2^n.",
+  "id": "A095902",
+  "mentions": [
+    "A000079",
+    "A004001",
+    "A095901",
+    "A283480"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

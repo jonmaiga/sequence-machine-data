@@ -1,0 +1,42 @@
+{
+  "description": "Binary Champernowne sequence (or word): write the numbers 0,1,2,3,4,... in base 2 and juxtapose.",
+  "id": "A030190",
+  "mentions": [
+    "A003137",
+    "A003607",
+    "A007376",
+    "A030302",
+    "A030303",
+    "A030308",
+    "A030373",
+    "A030530",
+    "A030548",
+    "A030998",
+    "A031035",
+    "A031076",
+    "A031219",
+    "A033307",
+    "A054634",
+    "A054635",
+    "A056062",
+    "A066099",
+    "A076478",
+    "A083651",
+    "A083652",
+    "A318924"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "cons",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

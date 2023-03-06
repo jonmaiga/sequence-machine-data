@@ -1,0 +1,17 @@
+{
+  "description": "Ordered sequence of distinct terms of the form floor(x^i * floor(x^j)), i,j >= 0, where x = sqrt(3).",
+  "id": "A022769",
+  "mentions": [
+    "A002194"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

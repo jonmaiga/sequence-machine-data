@@ -1,0 +1,15 @@
+{
+  "description": "sech(sin(x)-arctan(x))=1-10/6!*x^6+1288/8!*x^8-152934/10!*x^10...",
+  "id": "A013368",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:38:15",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

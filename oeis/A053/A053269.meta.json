@@ -1,0 +1,26 @@
+{
+  "description": "Coefficients of the '6th-order' mock theta function psi(q).",
+  "id": "A053269",
+  "mentions": [
+    "A053268",
+    "A053270",
+    "A053271",
+    "A053272",
+    "A053273",
+    "A053274",
+    "A262614",
+    "A263041"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

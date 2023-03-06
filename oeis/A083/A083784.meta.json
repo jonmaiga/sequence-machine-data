@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of primes derived from A083782.",
+  "id": "A083784",
+  "mentions": [
+    "A083782",
+    "A083783"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

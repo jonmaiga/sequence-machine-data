@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n with equal number of parts congruent to each of 0, 1 and 2 (mod 3).",
+  "id": "A046765",
+  "mentions": [
+    "A046766",
+    "A046767",
+    "A046768",
+    "A046769",
+    "A046770",
+    "A046771",
+    "A046772",
+    "A046773",
+    "A046774",
+    "A046775",
+    "A046776"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Upper prime of a difference of 16 between consecutive primes.",
+  "id": "A031935",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:57:45",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

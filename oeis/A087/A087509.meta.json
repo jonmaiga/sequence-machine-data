@@ -1,0 +1,20 @@
+{
+  "description": "Number of k such that (k*n) == 2 (mod 3) for 0 <= k <= n.",
+  "id": "A087509",
+  "mentions": [
+    "A087507",
+    "A087508"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:58:17",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of conjectured value of delta related to the Masser-Gramain constant.",
+  "id": "A086058",
+  "mentions": [
+    "A062089",
+    "A241017"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:31",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

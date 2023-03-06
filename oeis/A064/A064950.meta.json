@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{i|n, j|n} lcm(i,j).",
+  "id": "A064950",
+  "mentions": [
+    "A000005",
+    "A060724",
+    "A062368",
+    "A062369",
+    "A062380"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

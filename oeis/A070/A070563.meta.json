@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 0 if 3 divides the Ramanujan number tau(n) (A000594(n)), otherwise 1.",
+  "id": "A070563",
+  "mentions": [
+    "A000594",
+    "A070564"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

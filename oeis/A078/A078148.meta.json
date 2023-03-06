@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that d(phi(n)) = phi(d(n)), where d=A000005 and phi=A000010.",
+  "id": "A078148",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A033632"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

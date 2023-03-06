@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct functions from a set with n^n elements to itself that can be defined naturally (in n) by typed lambda-calculus expressions.",
+  "id": "A065500",
+  "mentions": [
+    "A003418",
+    "A060401"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

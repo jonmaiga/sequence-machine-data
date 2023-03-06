@@ -1,0 +1,17 @@
+{
+  "description": "Weight distribution of hypothetical [ 24,12,10 ] trace-self-dual additive code over GF(4).",
+  "id": "A030331",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

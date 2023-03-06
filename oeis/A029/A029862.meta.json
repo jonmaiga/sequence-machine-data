@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of q^(5/24) / (eta(q) * eta(q^2)^2) in powers of q",
+  "id": "A029862",
+  "mentions": [
+    "A001358",
+    "A007716",
+    "A007717",
+    "A037143",
+    "A320462",
+    "A320655",
+    "A320663",
+    "A320665"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(n,k) giving number of Dyck paths of length 2n with exactly k hills (0 <= k <= n).",
+  "id": "A065600",
+  "mentions": [
+    "A000108",
+    "A000957",
+    "A033184",
+    "A065601",
+    "A124394",
+    "A130595",
+    "A294527",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Orders of finite Abelian groups having the incrementally largest numbers of nonisomorphic forms (A046054).",
+  "id": "A046055",
+  "mentions": [
+    "A000079",
+    "A000688",
+    "A010684",
+    "A046054",
+    "A046056",
+    "A131127",
+    "A134058",
+    "A151821"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

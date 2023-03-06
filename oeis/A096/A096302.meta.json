@@ -1,0 +1,20 @@
+{
+  "description": "Number of combinations of two natural numbers that together have n digits.",
+  "id": "A096302",
+  "mentions": [
+    "A053541"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

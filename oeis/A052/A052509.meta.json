@@ -1,0 +1,33 @@
+{
+  "description": "Knights-move Pascal triangle: T(n,k), n >= 0, 0 <= k <= n; T(n,0) = T(n,n) = 1, T(n,k) = T(n-1,k) + T(n-2,k-1) for k = 1,2,...,n-1, n >= 2.",
+  "id": "A052509",
+  "mentions": [
+    "A000027",
+    "A000071",
+    "A000124",
+    "A000125",
+    "A000127",
+    "A004070",
+    "A006261",
+    "A007318",
+    "A008949",
+    "A023435",
+    "A052553",
+    "A054123",
+    "A054124"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{p prime and p<=n} ceiling(n/p).",
+  "id": "A092494",
+  "mentions": [
+    "A006590",
+    "A013939",
+    "A048865"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

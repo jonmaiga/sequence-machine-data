@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = number of steps in simple Euclidean algorithm for gcd(n,k) where n >= 1, k >= 1.",
+  "id": "A072030",
+  "mentions": [
+    "A003989",
+    "A049834",
+    "A050873",
+    "A072031",
+    "A267177",
+    "A267178",
+    "A267181"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

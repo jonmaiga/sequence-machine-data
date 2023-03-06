@@ -1,0 +1,18 @@
+{
+  "description": "Even numbers n such that 37^2 (the square of the first irregular prime) divides the numerator of Bernoulli(n).",
+  "id": "A090789",
+  "mentions": [
+    "A092230"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

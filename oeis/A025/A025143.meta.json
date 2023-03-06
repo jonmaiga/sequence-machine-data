@@ -1,0 +1,19 @@
+{
+  "description": "Unique sequence a such that a(1) = 2 and r(r(a)) = a != r(a), where for any sequence s of 1's and 2's, r(s(n) := length of n-th run of same symbols in s; r(a) is sequence A025142.",
+  "id": "A025143",
+  "mentions": [
+    "A014675",
+    "A025142",
+    "A288724"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:26:53",
+    "offset": 1,
+    "size": 111,
+    "source": "joeis"
+  }
+}

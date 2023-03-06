@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of (5/2)*Sum_{i=1..n} (-1)^(i-1)/(i^3*C(2*i,i)).",
+  "id": "A089638",
+  "mentions": [
+    "A002117",
+    "A089639"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

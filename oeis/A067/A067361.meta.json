@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 17^n*cos(2*n*arctan(1/4)) or denominator of tan(2*n*arctan(1/4)).",
+  "id": "A067361",
+  "mentions": [
+    "A014498",
+    "A020888",
+    "A020892",
+    "A066770",
+    "A066771",
+    "A067358",
+    "A067359",
+    "A067360"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:56:35",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

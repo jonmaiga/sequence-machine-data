@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f.: (1/2) - (1/2)*(5 - 4*exp(x))^(1/2).",
+  "id": "A052886",
+  "mentions": [
+    "A000108",
+    "A054867",
+    "A293379"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

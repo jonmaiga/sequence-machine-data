@@ -1,0 +1,30 @@
+{
+  "description": "\"Norep emirps\": primes with distinct digits which remain prime when reversed.",
+  "id": "A046732",
+  "mentions": [
+    "A003684",
+    "A006567",
+    "A007500",
+    "A007628",
+    "A029743",
+    "A048051",
+    "A048052",
+    "A048053",
+    "A048054",
+    "A048895"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

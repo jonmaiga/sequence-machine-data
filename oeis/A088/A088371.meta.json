@@ -1,0 +1,18 @@
+{
+  "description": "Position where n is inserted into the n-th row of triangle A088370, where the n-th row differs from the prior row only by the presence of n.",
+  "id": "A088371",
+  "mentions": [
+    "A088370"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

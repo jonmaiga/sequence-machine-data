@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(656).",
+  "id": "A042261",
+  "mentions": [
+    "A040630",
+    "A042260"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:01:45",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

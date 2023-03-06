@@ -1,0 +1,17 @@
+{
+  "description": "Number of positive integers, k, where k <= 2n+1 and gcd(k, 2n+1) = gcd(k+1, 2n+1) = 1.",
+  "id": "A070554",
+  "mentions": [
+    "A058026"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

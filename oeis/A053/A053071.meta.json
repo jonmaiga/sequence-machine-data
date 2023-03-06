@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n invertible binary matrices A such that A^5+I is invertible.",
+  "id": "A053071",
+  "mentions": [
+    "A002820",
+    "A051680",
+    "A053060"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

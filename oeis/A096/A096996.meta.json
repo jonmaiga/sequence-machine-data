@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest initial value if function f(x)=sigma(phi(x))=A062402(x) is iterated and the iteration ends in a cycle of length n.",
+  "id": "A096996",
+  "mentions": [
+    "A062402",
+    "A095956"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

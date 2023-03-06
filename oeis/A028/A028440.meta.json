@@ -1,0 +1,17 @@
+{
+  "description": "Golc sequence in base 10. Left to right concatenation of n,int(log_10(n)),int(log_10(int(log_10(n)))),... in base 10.",
+  "id": "A028440",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:37:19",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

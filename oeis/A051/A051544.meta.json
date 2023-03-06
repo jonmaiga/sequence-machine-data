@@ -1,0 +1,20 @@
+{
+  "description": "Quotients of consecutive values of lcm {1, 4, 7, 10, 13 ...,(3n+1)} (A016777).",
+  "id": "A051544",
+  "mentions": [
+    "A016777",
+    "A051536"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 17:53:24",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Recurrence derived from the decimal places of sqrt(2). a(0)=0, a(i+1)=position of first occurrence of a(i) in decimal places of sqrt(2).",
+  "id": "A098326",
+  "mentions": [
+    "A002193",
+    "A097614",
+    "A098266",
+    "A098289",
+    "A098290",
+    "A098319",
+    "A098320",
+    "A098321",
+    "A098322",
+    "A098323",
+    "A098324",
+    "A098325",
+    "A120482",
+    "A189893"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

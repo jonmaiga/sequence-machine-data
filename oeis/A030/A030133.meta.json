@@ -1,0 +1,26 @@
+{
+  "description": "a(n+1) is the sum of digits of (a(n) + a(n-1)).",
+  "id": "A030133",
+  "mentions": [
+    "A000032",
+    "A007953",
+    "A010888",
+    "A017593",
+    "A030132",
+    "A049341"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

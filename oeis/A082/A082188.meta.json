@@ -1,0 +1,20 @@
+{
+  "description": "First column of square array A082025.",
+  "id": "A082188",
+  "mentions": [
+    "A082025",
+    "A082187",
+    "A082189",
+    "A082190"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

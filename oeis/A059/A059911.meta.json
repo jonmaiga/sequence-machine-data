@@ -1,0 +1,32 @@
+{
+  "description": "a(n) = |{m : multiplicative order of n mod m = 6}|.",
+  "id": "A059911",
+  "mentions": [
+    "A000005",
+    "A002326",
+    "A002329",
+    "A008683",
+    "A048691",
+    "A048785",
+    "A053446",
+    "A053452",
+    "A055205",
+    "A059499",
+    "A059885",
+    "A059892",
+    "A059907",
+    "A059910"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Let M = 2 X 2 matrix [ 1 2 / 5 4 ]; a(n) = (1,2) entry of M^n.",
+  "id": "A092165",
+  "mentions": [
+    "A015540",
+    "A092164",
+    "A092166",
+    "A092167"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:21:31",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

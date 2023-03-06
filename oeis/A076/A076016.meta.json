@@ -1,0 +1,22 @@
+{
+  "description": "Number of systems with n elements having one binary operation satisfying the equation B(AB)=A (semisymmetric quasigroups).",
+  "id": "A076016",
+  "mentions": [
+    "A076017",
+    "A076021",
+    "A350019",
+    "A350020"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

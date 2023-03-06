@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. x^2*(1+x-2x^2)/(1-2x).",
+  "id": "A052638",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

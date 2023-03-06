@@ -1,0 +1,18 @@
+{
+  "description": "Sum of prime powers less than or equal to n.",
+  "id": "A074793",
+  "mentions": [
+    "A034387"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

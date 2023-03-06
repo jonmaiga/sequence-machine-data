@@ -1,0 +1,16 @@
+{
+  "description": "Treated as strings, the concatenation c of the prime factors of n, in increasing order, is an initial segment of n. Equivalently, n begins with c.",
+  "id": "A069154",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; a(n+1) = (Product_{k=1..n} a(k)) * Sum_{k=1..n} a(k).",
+  "id": "A057194",
+  "mentions": [
+    "A058345",
+    "A062097",
+    "A216151"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

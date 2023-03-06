@@ -1,0 +1,22 @@
+{
+  "description": "Call two meanders from A005316 equivalent if they differ by a reflection in the Y axis (if n even) or by reflections in the X or Y axes (if n odd). Sequence gives number of inequivalent meanders with n crossings.",
+  "id": "A077055",
+  "mentions": [
+    "A005316",
+    "A077460",
+    "A078592",
+    "A223096"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

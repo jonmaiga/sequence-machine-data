@@ -1,0 +1,29 @@
+{
+  "description": "Irregular array, read by rows: T(n,k) is the number of labeled acyclic digraphs with n nodes and k arcs (n >= 0, 0 <= k <= n*(n-1)/2).",
+  "id": "A081064",
+  "mentions": [
+    "A003024",
+    "A055533",
+    "A147796",
+    "A147817",
+    "A147821",
+    "A147860",
+    "A147872",
+    "A147881",
+    "A147883",
+    "A147964"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

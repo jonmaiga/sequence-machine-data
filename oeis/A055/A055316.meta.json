@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled trees with n nodes and 4 leaves.",
+  "id": "A055316",
+  "mentions": [
+    "A055314"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 5,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

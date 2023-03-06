@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of Fourier coefficients of Eisenstein series of degree 2 and weight 12 when evaluated at Gram(A_2)*z.",
+  "id": "A037149",
+  "mentions": [
+    "A037148",
+    "A037150"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

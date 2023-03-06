@@ -1,0 +1,22 @@
+{
+  "description": "Number of equivalence classes of self-dual 4-valued Post functions of n variables under action of semi-direct product of symmetric group S_n and complementing group C(n,4).",
+  "id": "A057141",
+  "mentions": [
+    "A000616",
+    "A001323",
+    "A001531",
+    "A057132",
+    "A057134",
+    "A057140"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

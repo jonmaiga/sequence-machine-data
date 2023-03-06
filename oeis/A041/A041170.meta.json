@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(95).",
+  "id": "A041170",
+  "mentions": [
+    "A010546",
+    "A041171"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:45:47",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

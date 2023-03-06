@@ -1,0 +1,18 @@
+{
+  "description": "Sum over all subsets of {1,..,n} of the GCD of the subset.",
+  "id": "A065568",
+  "mentions": [
+    "A034738",
+    "A065567"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

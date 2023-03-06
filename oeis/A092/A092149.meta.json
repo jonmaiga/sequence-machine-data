@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A092673.",
+  "id": "A092149",
+  "mentions": [
+    "A092673"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

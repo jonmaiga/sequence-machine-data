@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of (1+x^3*C)*C, where C = (1-(1-4*x)^(1/2))/(2*x) is g.f. for Catalan numbers, A000108.",
+  "id": "A071726",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

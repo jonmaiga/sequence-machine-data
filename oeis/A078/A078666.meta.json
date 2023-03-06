@@ -1,0 +1,23 @@
+{
+  "description": "Number of isomorphism classes of simple quadrangulations of the sphere having n+2 vertices and n faces, minimal degree 3, with orientation-reversing isomorphisms permitted.",
+  "id": "A078666",
+  "mentions": [
+    "A000103",
+    "A002863",
+    "A007022",
+    "A072552",
+    "A078672",
+    "A113201",
+    "A292515"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 6,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Values of transition of A072608(n) from alternating behavior (0,1,0,1,..) into steadily-1 (1,1,1,..) behavior or changing back. Expressing in terms of A072609(n): at n values it switches from steadily 0 into steadily 1 successive values or back.",
+  "id": "A072610",
+  "mentions": [
+    "A004648",
+    "A072608",
+    "A072609"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

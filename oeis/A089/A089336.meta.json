@@ -1,0 +1,18 @@
+{
+  "description": "Smallest palindrome such that every partial concatenation is prime.",
+  "id": "A089336",
+  "mentions": [
+    "A089335"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

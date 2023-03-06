@@ -1,0 +1,21 @@
+{
+  "description": "Product of the sizes of the conjugacy classes of the symmetric group S_n.",
+  "id": "A064430",
+  "mentions": [
+    "A000041",
+    "A000142",
+    "A007870",
+    "A063073"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers not of form x^2 + 2y^2 + 2yz + 4z^2.",
+  "id": "A097634",
+  "mentions": [
+    "A000398",
+    "A306469"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

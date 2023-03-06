@@ -1,0 +1,24 @@
+{
+  "description": "Consider the binary Champernowne sequence (A030190): smallest number m such that in binary representation n is contained in the concatenation of m and its successors.",
+  "id": "A083653",
+  "mentions": [
+    "A007088",
+    "A030190",
+    "A030304",
+    "A055143",
+    "A083654",
+    "A083655",
+    "A345672"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

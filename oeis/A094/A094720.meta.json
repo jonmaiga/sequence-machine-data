@@ -1,0 +1,19 @@
+{
+  "description": "Fill's first logarithmic constant.",
+  "id": "A094720",
+  "mentions": [
+    "A094721"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

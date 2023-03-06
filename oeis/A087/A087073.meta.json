@@ -1,0 +1,18 @@
+{
+  "description": "Mobius transform of A051664, the number of nonzero terms in the n-th cyclotomic polynomial.",
+  "id": "A087073",
+  "mentions": [
+    "A051664"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 95,
+    "source": "joeis"
+  }
+}

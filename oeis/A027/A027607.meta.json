@@ -1,0 +1,17 @@
+{
+  "description": "Number of non-well-founded sets or hypersets (sets that can contain themselves) of level n (representable by graphs with n nodes).",
+  "id": "A027607",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

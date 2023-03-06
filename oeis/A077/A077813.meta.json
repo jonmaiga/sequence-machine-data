@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree numbers containing in their decimal representation only the digits 0 and 1.",
+  "id": "A077813",
+  "mentions": [
+    "A005117",
+    "A008966",
+    "A020449",
+    "A030308",
+    "A077812"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

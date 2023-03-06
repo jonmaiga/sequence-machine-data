@@ -1,0 +1,33 @@
+{
+  "description": "Table T(n,k) by antidiagonals: T(n,k) = number of partitions of n balls of k colors.",
+  "id": "A075196",
+  "mentions": [
+    "A000027",
+    "A000041",
+    "A002378",
+    "A005380",
+    "A075197",
+    "A162147",
+    "A217093",
+    "A255050",
+    "A255052",
+    "A255903",
+    "A270239",
+    "A270240",
+    "A270241",
+    "A270242",
+    "A270243"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

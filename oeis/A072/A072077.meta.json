@@ -1,0 +1,18 @@
+{
+  "description": "Number of even nontotients not exceeding 2^n.",
+  "id": "A072077",
+  "mentions": [
+    "A005277"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

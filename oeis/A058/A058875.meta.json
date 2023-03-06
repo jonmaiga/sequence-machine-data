@@ -1,0 +1,32 @@
+{
+  "description": "Triangle T(n,k) = C_n(k)/2^(k*(k-1)/2) where C_n(k) = number of k-colored labeled graphs with n nodes (n >= 1, 1 <= k <= n).",
+  "id": "A058875",
+  "mentions": [
+    "A000683",
+    "A006201",
+    "A006202",
+    "A006218",
+    "A008277",
+    "A058843",
+    "A058872",
+    "A058873",
+    "A058874",
+    "A191371",
+    "A213441",
+    "A213442",
+    "A224068"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

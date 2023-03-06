@@ -1,0 +1,17 @@
+{
+  "description": "Number of different values taken by the integer part of n^(1/k) for all k > 1.",
+  "id": "A069624",
+  "mentions": [
+    "A071913"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of spanning trees in a Moebius ladder M_n with 2n vertices.",
+  "id": "A020871",
+  "mentions": [
+    "A121401"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

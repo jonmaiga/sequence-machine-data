@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with digits in nondecreasing order such that sum of the reciprocal of digits is an integer.",
+  "id": "A091784",
+  "mentions": [
+    "A009994",
+    "A034708",
+    "A037268"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

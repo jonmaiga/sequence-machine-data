@@ -1,0 +1,24 @@
+{
+  "description": "Primes base 10 that are never primes in any smaller base b, 2<=b",
+  "id": "A052033",
+  "mentions": [
+    "A038537",
+    "A052026",
+    "A052032",
+    "A235354",
+    "A235377",
+    "A236174",
+    "A236437"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

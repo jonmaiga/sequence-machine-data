@@ -1,0 +1,19 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = size of maximal subset of nodes in n X k grid such that there at least 3 edges between any pair of nodes (n >= 1, k >= 1).",
+  "id": "A085576",
+  "mentions": [
+    "A085577"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

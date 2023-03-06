@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet inverse of the Jordan function J_2 (A007434).",
+  "id": "A046970",
+  "mentions": [
+    "A007434",
+    "A023900",
+    "A027641",
+    "A027642",
+    "A027748",
+    "A063453",
+    "A084920"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

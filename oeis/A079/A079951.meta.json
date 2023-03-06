@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes p with prime(n) == 1 (modulo 2*p).",
+  "id": "A079951",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A079950",
+    "A079952"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

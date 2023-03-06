@@ -1,0 +1,18 @@
+{
+  "description": "Indices of terms in the sequence 3, 1, 4, 5, 9, 14, 23, ... (A000285 prefixed with 3) which are prime numbers.",
+  "id": "A091158",
+  "mentions": [
+    "A000285",
+    "A091157"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

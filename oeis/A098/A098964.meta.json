@@ -1,0 +1,15 @@
+{
+  "description": "Number of elements in the free semigroup on 2 generators x, y which can be constructed from x and y using at most n multiplications.",
+  "id": "A098964",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

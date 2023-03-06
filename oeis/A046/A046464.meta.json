@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the concatenation of numbers from 1 to k is the product of 5 primes (not necessarily distinct).",
+  "id": "A046464",
+  "mentions": [
+    "A007908",
+    "A046460",
+    "A050682"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

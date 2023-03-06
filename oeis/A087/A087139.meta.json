@@ -1,0 +1,20 @@
+{
+  "description": "Least k>1 such that p^k - p^(k-1) + 1 is prime for p = prime(n).",
+  "id": "A087139",
+  "mentions": [
+    "A040076",
+    "A087126",
+    "A122396"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

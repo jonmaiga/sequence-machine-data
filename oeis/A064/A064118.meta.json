@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that the first k digits of e form a prime.",
+  "id": "A064118",
+  "mentions": [
+    "A001113",
+    "A007512",
+    "A047658",
+    "A065815",
+    "A119344",
+    "A136583",
+    "A210706"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

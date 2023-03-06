@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1+31*x-2*x^2-2*x^3)/(1-16*x^2+x^4).",
+  "id": "A077397",
+  "mentions": [
+    "A077398"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

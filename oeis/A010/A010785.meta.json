@@ -1,0 +1,39 @@
+{
+  "description": "Repdigit numbers, or numbers with repeated digits.",
+  "id": "A010785",
+  "mentions": [
+    "A000005",
+    "A009994",
+    "A009996",
+    "A010879",
+    "A037904",
+    "A047842",
+    "A059995",
+    "A065444",
+    "A134336",
+    "A139819",
+    "A151949",
+    "A178401",
+    "A178403",
+    "A180410",
+    "A193459",
+    "A193460",
+    "A202022",
+    "A227362",
+    "A244112"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 9^n - n^4.",
+  "id": "A024105",
+  "mentions": [
+    "A000583",
+    "A001019"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

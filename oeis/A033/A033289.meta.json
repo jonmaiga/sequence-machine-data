@@ -1,0 +1,20 @@
+{
+  "description": "Odd power perfect numbers: numbers k such that opsigma(k) = 2*k, where opsigma(k) = A033634(k).",
+  "id": "A033289",
+  "mentions": [
+    "A000978",
+    "A033634"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

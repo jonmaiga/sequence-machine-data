@@ -1,0 +1,19 @@
+{
+  "description": "Twin lucky numbers (lower terms).",
+  "id": "A031158",
+  "mentions": [
+    "A000959",
+    "A031159",
+    "A031160"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

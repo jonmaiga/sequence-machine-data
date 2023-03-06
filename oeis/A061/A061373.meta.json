@@ -1,0 +1,21 @@
+{
+  "description": "\"Natural\" logarithm, defined inductively by a(1)=1, a(p) = 1 + a(p-1) if p is prime and a(n*m) = a(n) + a(m) if n, m>1.",
+  "id": "A061373",
+  "mentions": [
+    "A005245",
+    "A020639",
+    "A182061"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of basis partitions of n+9 with Durfee square size 3.",
+  "id": "A053799",
+  "mentions": [
+    "A000212",
+    "A000982",
+    "A008749",
+    "A087483"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

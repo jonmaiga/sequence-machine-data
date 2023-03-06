@@ -1,0 +1,22 @@
+{
+  "description": "Primes that remain prime through 5 iterations of function f(x) = 2x + 5.",
+  "id": "A023332",
+  "mentions": [
+    "A023205",
+    "A023243",
+    "A023274",
+    "A023304",
+    "A089038"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

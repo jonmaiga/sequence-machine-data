@@ -1,0 +1,21 @@
+{
+  "description": "Smallest numerator of fraction using palindromes that approximates 'e' to at least n digits after the decimal point.",
+  "id": "A048431",
+  "mentions": [
+    "A001113",
+    "A048432"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of decimal digits in (10^n)-th prime number.",
+  "id": "A099260",
+  "mentions": [
+    "A002285",
+    "A006880",
+    "A006988",
+    "A099261"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

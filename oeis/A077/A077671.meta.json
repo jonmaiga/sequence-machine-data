@@ -1,0 +1,20 @@
+{
+  "description": "Triangular numbers whose digit permutations yield at least one further triangular number.",
+  "id": "A077671",
+  "mentions": [
+    "A069674",
+    "A095869",
+    "A095870"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

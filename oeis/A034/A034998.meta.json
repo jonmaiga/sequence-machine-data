@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Product (1+q^(2k-1))^(-8)*(1+q^(4k))^(-8), k=1..inf.",
+  "id": "A034998",
+  "mentions": [
+    "A002408",
+    "A007331"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:57:00",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

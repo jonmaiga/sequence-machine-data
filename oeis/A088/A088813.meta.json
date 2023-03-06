@@ -1,0 +1,21 @@
+{
+  "description": "Number of subsets of {1, ..., n} that are double-free or sum-free.",
+  "id": "A088813",
+  "mentions": [
+    "A007865",
+    "A050291",
+    "A085489",
+    "A088812"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

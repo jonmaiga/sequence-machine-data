@@ -1,0 +1,31 @@
+{
+  "description": "Square array T(n,k) of second binomial transforms of generalized Fibonacci numbers, read by ascending antidiagonals, with n, k >= 0.",
+  "id": "A083861",
+  "mentions": [
+    "A000351",
+    "A001047",
+    "A002450",
+    "A004254",
+    "A015535",
+    "A015536",
+    "A015537",
+    "A052918",
+    "A082297",
+    "A083856",
+    "A083857",
+    "A093131"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Doubles (index 2+) under \"EGJ\" (unordered, element, labeled) transform.",
+  "id": "A032320",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

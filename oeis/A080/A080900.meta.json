@@ -1,0 +1,27 @@
+{
+  "description": "a(1)=1; for n>1, a(n)=a(n-1)-2 if n is already in the sequence, a(n)=a(n-1)+5 otherwise.",
+  "id": "A080900",
+  "mentions": [
+    "A080578",
+    "A080901",
+    "A080904",
+    "A080905",
+    "A080912",
+    "A080913",
+    "A080914",
+    "A080919",
+    "A080922",
+    "A080927"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

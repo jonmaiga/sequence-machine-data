@@ -1,0 +1,17 @@
+{
+  "description": "Compare t(n) and t(n+1) where t = Ramanujan's tau function (A000594); a(n) = pq where p and q are given below.",
+  "id": "A079394",
+  "mentions": [
+    "A000594"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

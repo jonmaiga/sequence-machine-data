@@ -1,0 +1,26 @@
+{
+  "description": "6-hyperperfect numbers: n = 6*(sigma(n) - n - 1) + 1.",
+  "id": "A028499",
+  "mentions": [
+    "A000396",
+    "A007593",
+    "A028500",
+    "A028501",
+    "A028502",
+    "A034916",
+    "A191469",
+    "A220290"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

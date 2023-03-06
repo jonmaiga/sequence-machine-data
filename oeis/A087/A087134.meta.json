@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number having exactly n divisors that are not greater than the number's greatest prime factor.",
+  "id": "A087134",
+  "mentions": [
+    "A006530",
+    "A025487",
+    "A087133",
+    "A119311",
+    "A119312",
+    "A119313"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

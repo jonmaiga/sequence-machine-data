@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that S(n+2) = S(n)+2, where S(n) is the Kempner function A002034.",
+  "id": "A073534",
+  "mentions": [
+    "A002034"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

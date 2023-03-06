@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = greatest k such that s(k) = n, where s = A026362.",
+  "id": "A026364",
+  "mentions": [
+    "A026362",
+    "A026363",
+    "A285430"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Concatenate all the prime divisors in previous term (with repetition), starting at 49.",
+  "id": "A056938",
+  "mentions": [
+    "A006919",
+    "A037271",
+    "A037273",
+    "A037274",
+    "A238579"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

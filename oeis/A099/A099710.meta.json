@@ -1,0 +1,24 @@
+{
+  "description": "Consider the family of directed multigraphs enriched by the species of endofunctions. Sequence gives number of those multigraphs with n labeled loops and arcs.",
+  "id": "A099710",
+  "mentions": [
+    "A000312",
+    "A014507",
+    "A038205",
+    "A098622",
+    "A099708",
+    "A099709",
+    "A099711"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

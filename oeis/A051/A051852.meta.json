@@ -1,0 +1,19 @@
+{
+  "description": "A051851(n)/row_index_of(n).",
+  "id": "A051852",
+  "mentions": [
+    "A051850",
+    "A051851"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:07",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

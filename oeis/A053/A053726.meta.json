@@ -1,0 +1,28 @@
+{
+  "description": "\"Flag numbers\": number of dots that can be arranged in successive rows of K, K-1, K, K-1, K, ..., K-1, K (assuming there is a total of L > 1 rows of size K > 1).",
+  "id": "A053726",
+  "mentions": [
+    "A000720",
+    "A006254",
+    "A008508",
+    "A064216",
+    "A071904",
+    "A104275",
+    "A144650",
+    "A199593",
+    "A246371",
+    "A250474"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

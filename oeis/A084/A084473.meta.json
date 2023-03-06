@@ -1,0 +1,26 @@
+{
+  "description": "Replace 0 with 0000 in binary representation of n.",
+  "id": "A084473",
+  "mentions": [
+    "A000120",
+    "A000225",
+    "A007088",
+    "A023416",
+    "A084471",
+    "A084474",
+    "A340666"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

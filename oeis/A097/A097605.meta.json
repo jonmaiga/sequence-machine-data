@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that phi(n) divides n^2 - 1, where phi(n) (A000010) is number of positive integers <= n and coprime to n.",
+  "id": "A097605",
+  "mentions": [
+    "A000010",
+    "A098271"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-element unlabeled ordered T_0-antichains; T_1-hypergraphs (with empty hyperedge but without multiple hyperedges) on n labeled nodes.",
+  "id": "A059052",
+  "mentions": [
+    "A059048",
+    "A059049",
+    "A059050",
+    "A059051",
+    "A326960"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

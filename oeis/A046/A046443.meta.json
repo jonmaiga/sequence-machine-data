@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers whose 3 prime factors are distinct in length.",
+  "id": "A046443",
+  "mentions": [
+    "A007304"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:32:53",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

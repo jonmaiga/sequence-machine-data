@@ -1,0 +1,18 @@
+{
+  "description": "Number of reversible strings with n-1 black beads and n-1 white beads. String is not palindromic.",
+  "id": "A032095",
+  "mentions": [
+    "A034877"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:52:34",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

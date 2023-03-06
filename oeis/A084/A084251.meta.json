@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: A(x) = exp(sum(n>=1, A084250(n)*x^n/n)), where A084250 lists the least distinct positive integers that allow A(x) to be an integer power series.",
+  "id": "A084251",
+  "mentions": [
+    "A084250"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

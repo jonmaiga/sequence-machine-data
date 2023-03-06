@@ -1,0 +1,15 @@
+{
+  "description": "Theta series of tensor cube of A_2 lattice (dimension 8, det 3^12).",
+  "id": "A033688",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

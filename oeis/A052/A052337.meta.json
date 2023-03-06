@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions into at most a(1) copies of 1, a(2) copies of 2, ...",
+  "id": "A052337",
+  "mentions": [
+    "A289501"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

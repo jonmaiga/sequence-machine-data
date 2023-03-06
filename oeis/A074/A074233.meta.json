@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose base-4 and base-5 representations are permutations of the same multiset of digits.",
+  "id": "A074233",
+  "mentions": [
+    "A007090",
+    "A007091",
+    "A037423"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

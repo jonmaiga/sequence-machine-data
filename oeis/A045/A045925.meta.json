@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = n*Fibonacci(n).",
+  "id": "A045925",
+  "mentions": [
+    "A000010",
+    "A000032",
+    "A000045",
+    "A000204",
+    "A001629",
+    "A014286",
+    "A014965",
+    "A023607",
+    "A099920",
+    "A104714",
+    "A131410"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

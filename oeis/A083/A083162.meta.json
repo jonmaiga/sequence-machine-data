@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest unused proper divisor or proper multiple of n such that a(n)/n != a(m)/m for all m < n.",
+  "id": "A083162",
+  "mentions": [
+    "A022342"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

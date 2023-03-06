@@ -1,0 +1,23 @@
+{
+  "description": "Primes (including 1) forming 3 X 3 magic square with prime entries and minimal constant 111 = A073502(3).",
+  "id": "A073473",
+  "mentions": [
+    "A008578",
+    "A024351",
+    "A073350",
+    "A073502",
+    "A164843"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

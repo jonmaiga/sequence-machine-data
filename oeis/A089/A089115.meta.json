@@ -1,0 +1,16 @@
+{
+  "description": "Convoluted convolved Fibonacci numbers G_8^(r).",
+  "id": "A089115",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

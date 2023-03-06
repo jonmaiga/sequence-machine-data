@@ -1,0 +1,22 @@
+{
+  "description": "Whitney number of level n of the lattice of the ideals of the crown of size 2 n.",
+  "id": "A051292",
+  "mentions": [
+    "A002426",
+    "A051286",
+    "A051291",
+    "A205810"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

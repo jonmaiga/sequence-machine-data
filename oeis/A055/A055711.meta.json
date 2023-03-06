@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k | sigma_7(k).",
+  "id": "A055711",
+  "mentions": [
+    "A013955",
+    "A055709",
+    "A055710",
+    "A055712",
+    "A055713"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

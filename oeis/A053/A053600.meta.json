@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 2; for n>=1, a(n+1) is the smallest palindromic prime with a(n) as a central substring.",
+  "id": "A053600",
+  "mentions": [
+    "A000040",
+    "A002385",
+    "A034276",
+    "A047076",
+    "A052091",
+    "A052092",
+    "A052205",
+    "A256957",
+    "A261881"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

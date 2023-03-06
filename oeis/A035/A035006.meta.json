@@ -1,0 +1,27 @@
+{
+  "description": "Number of possible rook moves on an n X n chessboard.",
+  "id": "A035006",
+  "mentions": [
+    "A002492",
+    "A006002",
+    "A006564",
+    "A006566",
+    "A033586",
+    "A035005",
+    "A035008",
+    "A049450"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:17:39",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

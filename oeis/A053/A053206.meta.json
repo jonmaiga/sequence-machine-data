@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of A053203.",
+  "id": "A053206",
+  "mentions": [
+    "A053201",
+    "A053202",
+    "A053203",
+    "A053204"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 6,
+    "size": 67,
+    "source": "joeis"
+  }
+}

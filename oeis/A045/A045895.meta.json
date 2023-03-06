@@ -1,0 +1,20 @@
+{
+  "description": "Period length of pairs (a,b) where a has period 2n-2 and b has period n.",
+  "id": "A045895",
+  "mentions": [
+    "A045896",
+    "A204556",
+    "A204557"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:27:05",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

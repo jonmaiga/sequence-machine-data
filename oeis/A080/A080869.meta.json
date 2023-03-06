@@ -1,0 +1,19 @@
+{
+  "description": "a(n+1) = floor( (a(n) + 1)^(1 + 1/n) ), with a(1) = 1.",
+  "id": "A080869",
+  "mentions": [
+    "A059923",
+    "A080870"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

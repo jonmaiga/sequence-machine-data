@@ -1,0 +1,25 @@
+{
+  "description": "Number of blocks of {0,0} in the binary expansion of n.",
+  "id": "A056973",
+  "mentions": [
+    "A003754",
+    "A014081",
+    "A023416",
+    "A033264",
+    "A037800",
+    "A079944",
+    "A107782"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

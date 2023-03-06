@@ -1,0 +1,17 @@
+{
+  "description": "Numbers which can be expressed as the sum of all distinct digit permutations of some number k.",
+  "id": "A071267",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

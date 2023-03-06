@@ -1,0 +1,19 @@
+{
+  "description": "Number of base-2 Fermat pseudoprimes x that have ord(2,x) = n.",
+  "id": "A086249",
+  "mentions": [
+    "A001567",
+    "A086250"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = lcm(n,n+1,n+2).",
+  "id": "A033931",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A007947",
+    "A067046",
+    "A078637",
+    "A188386",
+    "A244009"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

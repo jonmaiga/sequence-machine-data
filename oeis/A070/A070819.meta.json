@@ -1,0 +1,22 @@
+{
+  "description": "Values of commutator[phi,gpf] = commutator[A000010, A006530] at prime arguments; a(1)=0 by convention.",
+  "id": "A070819",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A006530",
+    "A070812",
+    "A070813"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Leftmost column of triangle A091173, in which the n-th row lists the coefficients of the polynomial that generates the n-th diagonal.",
+  "id": "A091174",
+  "mentions": [
+    "A091173",
+    "A091175"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

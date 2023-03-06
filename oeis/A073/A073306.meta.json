@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{2i",
+  "id": "A073306",
+  "mentions": [
+    "A055068",
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:12:39",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

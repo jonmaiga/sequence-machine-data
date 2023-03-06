@@ -1,0 +1,19 @@
+{
+  "description": "Number of derangements of n where minimal cycle size is at least 4.",
+  "id": "A047865",
+  "mentions": [
+    "A000166",
+    "A038205"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

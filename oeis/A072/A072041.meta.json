@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number of the form k + reverse(k) for exactly n integers k, or -1 if no such number exists.",
+  "id": "A072041",
+  "mentions": [
+    "A067030",
+    "A071266",
+    "A072040"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

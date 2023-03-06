@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of Product_{m>=1} (1+q^m)^(-3).",
+  "id": "A022598",
+  "mentions": [
+    "A000122",
+    "A000593",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A022568",
+    "A081362",
+    "A121373",
+    "A286352"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:13:55",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

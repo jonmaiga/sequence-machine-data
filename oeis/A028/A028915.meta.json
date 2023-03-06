@@ -1,0 +1,16 @@
+{
+  "description": "Take next group of 3 primes, beginning at 7, map final digits to base 4 by 1->0, 3->1, 7->3, 9->2; convert back to decimal.",
+  "id": "A028915",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:40:41",
+    "offset": 2,
+    "size": 70,
+    "source": "joeis"
+  }
+}

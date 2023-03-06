@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the Lebesgue-Nagell equation x^2 + n = y^k, with k > 2, has no integer solutions.",
+  "id": "A094598",
+  "mentions": [
+    "A094596",
+    "A094597",
+    "A094599"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

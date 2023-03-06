@@ -1,0 +1,17 @@
+{
+  "description": "Order of omnipower group mod A048184(n).",
+  "id": "A048186",
+  "mentions": [
+    "A048184"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

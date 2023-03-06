@@ -1,0 +1,23 @@
+{
+  "description": "Middle side of the first primitive d-arithmetic triangle, where d=A072330(n).",
+  "id": "A086909",
+  "mentions": [
+    "A072330",
+    "A072360",
+    "A089019",
+    "A089020",
+    "A096672",
+    "A096673",
+    "A096674"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

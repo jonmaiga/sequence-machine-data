@@ -1,0 +1,123 @@
+{
+  "oi": 49470,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "de[cos(1)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "cos",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-01-31",
+      "ix": "limit[cos(tanh(n))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "tanh",
+        "cos",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-02-16",
+      "ix": "limit[cos(contfrac[exp(7)])]",
+      "mt": 50,
+      "px": [
+        "7",
+        "exp",
+        "contfrac",
+        "cos",
+        "limit"
+      ]
+    },
+    {
+      "d": "2021-11-25",
+      "ix": "limit[cos(cos(char[1]))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "char",
+        "cos",
+        "cos",
+        "limit"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[sin(acos(sin(1)))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "sin",
+        "acos",
+        "sin",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[sin(acot(tan(1)))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "tan",
+        "acot",
+        "sin",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[sin(atan(cot(1)))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "cot",
+        "atan",
+        "sin",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-10-06",
+      "ix": "limit[cos(floor(atan(n)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "atan",
+        "floor",
+        "cos",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-10-06",
+      "ix": "limit[cos(ceil(acot(n)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "acot",
+        "ceil",
+        "cos",
+        "limit"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[sin(asin(1)+1)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "1",
+        "+",
+        "sin",
+        "de"
+      ]
+    }
+  ]
+}

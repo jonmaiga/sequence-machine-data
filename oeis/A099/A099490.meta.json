@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that the interval [n,k] contains a subset of integers whose product is twice a square.",
+  "id": "A099490",
+  "mentions": [
+    "A099500",
+    "A099501"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

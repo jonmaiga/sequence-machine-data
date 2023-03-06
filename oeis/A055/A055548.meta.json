@@ -1,0 +1,21 @@
+{
+  "description": "Number of normal n X n (-1,1)-matrices.",
+  "id": "A055548",
+  "mentions": [
+    "A002416",
+    "A055547",
+    "A055549"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

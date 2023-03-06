@@ -1,0 +1,21 @@
+{
+  "description": "Numbers not of form abcd + abce + abde + acde + bcde for 1 <= a <= b <= c <= d <= e.",
+  "id": "A027564",
+  "mentions": [
+    "A025052",
+    "A027563",
+    "A027565",
+    "A027566"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

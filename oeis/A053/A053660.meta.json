@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic cyclic subgroups of general linear group GL(n,4).",
+  "id": "A053660",
+  "mentions": [
+    "A053651",
+    "A053658"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

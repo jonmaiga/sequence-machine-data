@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of Molien series for 5-dimensional representation of dihedral group of order 10.",
+  "id": "A082642",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:14:51",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "arcsinh(sec(x)*tan(x))=x+4/3!*x^3+20/5!*x^5-296/7!*x^7-13360/9!*x^9...",
+  "id": "A012797",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:34:54",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

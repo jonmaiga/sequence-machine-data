@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that n and the n-th prime have the same number of 0's in their binary representation.",
+  "id": "A072577",
+  "mentions": [
+    "A000040",
+    "A023416",
+    "A035103",
+    "A049084",
+    "A071600",
+    "A072578",
+    "A072579",
+    "A072580"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:23",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest Bell number divisible by n not included earlier, or 0 if no such number exists.",
+  "id": "A073877",
+  "mentions": [
+    "A000110",
+    "A066562",
+    "A073878"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

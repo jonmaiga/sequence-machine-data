@@ -1,0 +1,17 @@
+{
+  "description": "Indices of the primes used in A099863, which is a permutation of the odd primes that satisfies the condition that the sequence modulo 2^n has period 2^(n-1) for all n>0, where the least unused primes are chosen in the process.",
+  "id": "A099864",
+  "mentions": [
+    "A099863"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

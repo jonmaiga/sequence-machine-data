@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = H_n(1) / 2^floor(n/2) where H_n is the n-th Hermite polynomial.",
+  "id": "A025165",
+  "mentions": [
+    "A016116",
+    "A062267"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct zeros of x^5-x-1 mod prime(n).",
+  "id": "A086967",
+  "mentions": [
+    "A086937",
+    "A086965",
+    "A086966"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

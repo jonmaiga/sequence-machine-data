@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the number of divisors of k divides the number of divisors of the totient of k.",
+  "id": "A062823",
+  "mentions": [
+    "A000005",
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

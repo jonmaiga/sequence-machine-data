@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the concatenation of the sums of every pair of consecutive digits of n (with a(n) = 0 for 0 <= n <= 9).",
+  "id": "A053392",
+  "mentions": [
+    "A053393",
+    "A060630",
+    "A103117",
+    "A194429",
+    "A328973",
+    "A328974",
+    "A328975"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

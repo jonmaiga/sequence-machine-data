@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form p+8 where p is a prime.",
+  "id": "A092402",
+  "mentions": [
+    "A000040",
+    "A067829",
+    "A067830",
+    "A067831"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

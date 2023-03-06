@@ -1,0 +1,18 @@
+{
+  "description": "Row/column periods of Sprague-Grundy values of Wythoff's Game.",
+  "id": "A046875",
+  "mentions": [
+    "A046874",
+    "A046876"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

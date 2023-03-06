@@ -1,0 +1,20 @@
+{
+  "description": "Triangle whose (i,j)-th entry is binomial(i,j)*5^(i-j)*3^j.",
+  "id": "A038245",
+  "mentions": [
+    "A013622"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:19:38",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

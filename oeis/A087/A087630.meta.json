@@ -1,0 +1,25 @@
+{
+  "description": "Number of n-digit primes ending in 1 in base 10.",
+  "id": "A087630",
+  "mentions": [
+    "A006879",
+    "A073505",
+    "A087631",
+    "A087632",
+    "A087633"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

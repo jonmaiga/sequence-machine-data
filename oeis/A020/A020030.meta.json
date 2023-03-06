@@ -1,0 +1,20 @@
+{
+  "description": "Nearest integer to Gamma(n + 5/7)/Gamma(5/7).",
+  "id": "A020030",
+  "mentions": [
+    "A020075",
+    "A020120",
+    "A147585",
+    "A220606"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:35:44",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that have digits consisting only of line segments or both line segments and curves (base 10 digits are 1, 2, 4, 5, 7).",
+  "id": "A082741",
+  "mentions": [
+    "A028373",
+    "A028374",
+    "A072960"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n is a sum of 2 squares (i.e., n is in A001481(k)) and sigma(n) == 0 (mod 4).",
+  "id": "A071011",
+  "mentions": [
+    "A001481",
+    "A022544"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

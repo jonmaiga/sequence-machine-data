@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number m such that n followed by m threes yields a prime or -1 if no solution exists or has been found for n.",
+  "id": "A090584",
+  "mentions": [
+    "A083747",
+    "A090464",
+    "A090465"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

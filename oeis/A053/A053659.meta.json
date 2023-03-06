@@ -1,0 +1,19 @@
+{
+  "description": "Positions where 0 occurs in decimal expansion of e (starting count at decimal point).",
+  "id": "A053659",
+  "mentions": [
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

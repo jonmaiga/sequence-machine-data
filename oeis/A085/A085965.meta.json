@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of the prime zeta function at 5.",
+  "id": "A085965",
+  "mentions": [
+    "A013663",
+    "A050997",
+    "A085541",
+    "A085548",
+    "A085964",
+    "A085966",
+    "A085969",
+    "A085994",
+    "A086035",
+    "A221712",
+    "A242304"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

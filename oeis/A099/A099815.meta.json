@@ -1,0 +1,18 @@
+{
+  "description": "Maximum determinant that can be formed from the optimal set of nonnegative 3 X 3 matrix elements <=n, which maximize the number of different determinants given in A099834.",
+  "id": "A099815",
+  "mentions": [
+    "A099834"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

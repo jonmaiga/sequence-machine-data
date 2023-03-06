@@ -1,0 +1,21 @@
+{
+  "description": "Number of integers that can be partitioned into squares in n different ways, or the number of times n occurs in A001156.",
+  "id": "A053216",
+  "mentions": [
+    "A000290",
+    "A001156",
+    "A002828",
+    "A053217"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:06:59",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

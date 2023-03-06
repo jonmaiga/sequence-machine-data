@@ -1,0 +1,17 @@
+{
+  "description": "Record subsequence of b(3k+2), b()=A048142().",
+  "id": "A051058",
+  "mentions": [
+    "A048142"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

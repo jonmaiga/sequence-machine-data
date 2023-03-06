@@ -1,0 +1,18 @@
+{
+  "description": "Number of maximal independent generating sets for S_n.",
+  "id": "A078103",
+  "mentions": [
+    "A076863"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

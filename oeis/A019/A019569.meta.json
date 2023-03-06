@@ -1,0 +1,16 @@
+{
+  "description": "Number of bar segments in a certain way of representing the integers graphically.",
+  "id": "A019569",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

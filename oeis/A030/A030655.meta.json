@@ -1,0 +1,20 @@
+{
+  "description": "Pair up the numbers.",
+  "id": "A030655",
+  "mentions": [
+    "A005843",
+    "A030656"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:23",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

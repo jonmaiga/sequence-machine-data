@@ -1,0 +1,20 @@
+{
+  "description": "Final terms of groups in A075626.",
+  "id": "A075628",
+  "mentions": [
+    "A075626",
+    "A075627",
+    "A075629",
+    "A075630"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

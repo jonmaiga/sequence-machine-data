@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of numbers a(n,k) = number of terms in n X n determinant with 2 adjacent diagonals of k and k-1 0's (0<=k<=n).",
+  "id": "A047922",
+  "mentions": [
+    "A000142",
+    "A000271",
+    "A001563",
+    "A002775",
+    "A002776",
+    "A047920"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

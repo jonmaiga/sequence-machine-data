@@ -1,0 +1,20 @@
+{
+  "description": "Number of lattice congruences of the weak order on the Coxeter group S_n (the symmetric group).",
+  "id": "A091687",
+  "mentions": [
+    "A091688",
+    "A330039"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

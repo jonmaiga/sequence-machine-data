@@ -1,0 +1,23 @@
+{
+  "description": "Base-12 complement of n (write n in base 12, then replace each digit with its base-12 negative).",
+  "id": "A055122",
+  "mentions": [
+    "A004488",
+    "A048647",
+    "A055115",
+    "A055126",
+    "A248813"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "List of distinct numbers appearing as denominators of Bernoulli numbers.",
+  "id": "A090801",
+  "mentions": [
+    "A002445",
+    "A090810"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

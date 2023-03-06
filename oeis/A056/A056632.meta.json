@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the total perimeter of all self-avoiding polygons of area n on the square lattice.",
+  "id": "A056632",
+  "mentions": [
+    "A002931",
+    "A056625"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

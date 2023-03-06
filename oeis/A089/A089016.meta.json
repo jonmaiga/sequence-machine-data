@@ -1,0 +1,20 @@
+{
+  "description": "Largest n-round number.",
+  "id": "A089016",
+  "mentions": [
+    "A048597",
+    "A122936",
+    "A122937"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

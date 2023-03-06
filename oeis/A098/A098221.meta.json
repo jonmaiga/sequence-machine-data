@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest number x such that floor(sigma(sigma(x))/x) = n or the A098219(x) quotient equals n.",
+  "id": "A098221",
+  "mentions": [
+    "A000203",
+    "A008333",
+    "A019278",
+    "A051027",
+    "A098219",
+    "A098220",
+    "A098222",
+    "A327630"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

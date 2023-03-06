@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are the sum of 5 positive cubes in exactly 2 ways.",
+  "id": "A048927",
+  "mentions": [
+    "A003328",
+    "A010057",
+    "A025404",
+    "A048926",
+    "A048930",
+    "A294736",
+    "A343702",
+    "A343705",
+    "A344237"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

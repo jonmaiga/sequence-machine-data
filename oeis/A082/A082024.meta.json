@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into 3 parts which have common divisors.",
+  "id": "A082024",
+  "mentions": [
+    "A001221",
+    "A069905",
+    "A082023",
+    "A284825"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

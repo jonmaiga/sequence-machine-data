@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct resistances possible for n resistors with resistances 1, 2, ..., n, each connected in series or parallel to the previous one.",
+  "id": "A051045",
+  "mentions": [
+    "A005840"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

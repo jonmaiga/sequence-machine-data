@@ -1,0 +1,23 @@
+{
+  "description": "Rectangular array T(n,k) of polygonal numbers, by descending antidiagonals.",
+  "id": "A086271",
+  "mentions": [
+    "A006522",
+    "A086270",
+    "A086272",
+    "A086273"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:33:09",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

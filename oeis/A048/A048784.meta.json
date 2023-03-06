@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = tau(binomial(2*n,n)), where tau = number of divisors (A000005).",
+  "id": "A048784",
+  "mentions": [
+    "A000005",
+    "A000984"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

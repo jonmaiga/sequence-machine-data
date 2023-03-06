@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (negative of) Kinkelin constant.",
+  "id": "A084448",
+  "mentions": [
+    "A001620",
+    "A074962",
+    "A084539"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

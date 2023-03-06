@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that prime(n) - sigma(n) - phi(n) = prime(n+1) - sigma(n+1) - phi(n+1), where sigma(n) = sum of divisors of n.",
+  "id": "A048783",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:21",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

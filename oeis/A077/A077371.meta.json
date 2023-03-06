@@ -1,0 +1,23 @@
+{
+  "description": "Fibonacci numbers whose internal digits form a Fibonacci number. Equivalently, Fibonacci numbers from which deleting the MSD and LSD leaves a Fibonacci number.",
+  "id": "A077371",
+  "mentions": [
+    "A001906",
+    "A077372",
+    "A077373",
+    "A077374",
+    "A077375"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

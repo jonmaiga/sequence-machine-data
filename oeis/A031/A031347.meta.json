@@ -1,0 +1,38 @@
+{
+  "description": "Multiplicative digital root of n (keep multiplying digits of n until reaching a single digit).",
+  "id": "A031347",
+  "mentions": [
+    "A002275",
+    "A003001",
+    "A007953",
+    "A007954",
+    "A010888",
+    "A011540",
+    "A011557",
+    "A031286",
+    "A031346",
+    "A034048",
+    "A034049",
+    "A034050",
+    "A034051",
+    "A034052",
+    "A034053",
+    "A034054",
+    "A034055",
+    "A034056"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

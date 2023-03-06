@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose base-3 and base-9 expansions have the same digit sum.",
+  "id": "A037314",
+  "mentions": [
+    "A007089",
+    "A053735",
+    "A053830",
+    "A208665",
+    "A338086"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:35:19",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

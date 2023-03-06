@@ -1,0 +1,25 @@
+{
+  "description": "First differences of sigma(n).",
+  "id": "A053222",
+  "mentions": [
+    "A000203",
+    "A002961",
+    "A053223",
+    "A053224",
+    "A053225",
+    "A053226",
+    "A053227"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

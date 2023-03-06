@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = a(n-1) + a(n-3) + a(n-4), starting with a(0..3) = 1, 2, 2, 3.",
+  "id": "A070550",
+  "mentions": [
+    "A000045",
+    "A001654",
+    "A035607",
+    "A049853",
+    "A059929",
+    "A126116",
+    "A171861",
+    "A180662",
+    "A290565"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

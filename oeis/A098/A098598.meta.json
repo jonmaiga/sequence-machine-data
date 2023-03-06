@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes in sequences formed from the t digits of n where the latter terms are given by rule b(i)=sum of t previous terms; primes are counted from initial t digits up to the largest term < n^2.",
+  "id": "A098598",
+  "mentions": [
+    "A007629",
+    "A073882"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 10,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

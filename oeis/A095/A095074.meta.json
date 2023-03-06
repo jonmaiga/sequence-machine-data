@@ -1,0 +1,22 @@
+{
+  "description": "Primes in whose binary expansion the number of 0-bits is less than or equal to number of 1-bits.",
+  "id": "A095074",
+  "mentions": [
+    "A000040",
+    "A057447",
+    "A095054",
+    "A095062",
+    "A095071"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

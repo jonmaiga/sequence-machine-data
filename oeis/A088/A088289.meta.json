@@ -1,0 +1,16 @@
+{
+  "description": "Triangular numbers in which the sum of the external digits equals the sum of the internal digits.",
+  "id": "A088289",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

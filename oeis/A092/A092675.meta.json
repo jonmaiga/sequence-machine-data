@@ -1,0 +1,26 @@
+{
+  "description": "Primes of the form 80*R_k + 1, where R_k is the repunit (A002275) of length k.",
+  "id": "A092675",
+  "mentions": [
+    "A002275",
+    "A004022",
+    "A051200",
+    "A056664",
+    "A089346",
+    "A092571",
+    "A093174",
+    "A093176",
+    "A093177"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of e/24.",
+  "id": "A019761",
+  "mentions": [
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:33",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

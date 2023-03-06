@@ -1,0 +1,20 @@
+{
+  "description": "Primes of form 3*prime(m) + 2.",
+  "id": "A094524",
+  "mentions": [
+    "A023208",
+    "A091180"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

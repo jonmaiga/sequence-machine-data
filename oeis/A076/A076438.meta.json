@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n which appear to have a unique representation as the difference of two perfect powers; that is, there is only one solution to Pillai's equation a^x - b^y = n, with a>0, b>0, x>1, y>1.",
+  "id": "A076438",
+  "mentions": [
+    "A001597",
+    "A053289",
+    "A074981",
+    "A076427",
+    "A076439",
+    "A076440",
+    "A207079"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n=(d_1+5)(d_2+5)*...*(d_k+5), where d_1 d_2 ... d_k is the decimal expansion of n.",
+  "id": "A097371",
+  "mentions": [
+    "A097372",
+    "A098681"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of non-unitary but squarefree divisors of binomial(n,floor(n/2)). Also number of nonsquarefree but unitary divisors of binomial(n,floor(n/2)).",
+  "id": "A056676",
+  "mentions": [
+    "A000005",
+    "A001405",
+    "A007913",
+    "A039593",
+    "A055229",
+    "A055231",
+    "A056673"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:36:17",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

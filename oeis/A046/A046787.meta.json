@@ -1,0 +1,32 @@
+{
+  "description": "Number of partitions of 5n with equal nonzero number of parts congruent to each of 1, 2, 3 and 4 modulo 5.",
+  "id": "A046787",
+  "mentions": [
+    "A000041",
+    "A046765",
+    "A046776",
+    "A046778",
+    "A046779",
+    "A046780",
+    "A046781",
+    "A046782",
+    "A046783",
+    "A046784",
+    "A046785",
+    "A046786",
+    "A202086",
+    "A202088",
+    "A202192"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

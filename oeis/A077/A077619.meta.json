@@ -1,0 +1,22 @@
+{
+  "description": "Number of occurrences of n-th squarefree number in A076734.",
+  "id": "A077619",
+  "mentions": [
+    "A005117",
+    "A076734",
+    "A077618",
+    "A077620",
+    "A077621",
+    "A077622"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

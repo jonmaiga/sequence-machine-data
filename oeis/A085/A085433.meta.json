@@ -1,0 +1,17 @@
+{
+  "description": "Resultant of the polynomial x^3-1 and the Chebyshev polynomial of the second kind U_n(x).",
+  "id": "A085433",
+  "mentions": [
+    "A085640"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

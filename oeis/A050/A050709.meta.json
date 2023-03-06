@@ -1,0 +1,23 @@
+{
+  "description": "Composites c that reach a prime after 5 iterations of c-> c+sum of prime factors of c.",
+  "id": "A050709",
+  "mentions": [
+    "A050703",
+    "A050704",
+    "A050705",
+    "A050706",
+    "A050707",
+    "A050708",
+    "A050710"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:48:47",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

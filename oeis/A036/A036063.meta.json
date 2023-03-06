@@ -1,0 +1,21 @@
+{
+  "description": "Increasing gaps among twin primes: size.",
+  "id": "A036063",
+  "mentions": [
+    "A002386",
+    "A036061",
+    "A036062",
+    "A113274"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Ternary Thue-Morse sequence: closed under a->abc, b->ac, c->b.",
+  "id": "A036578",
+  "mentions": [
+    "A005679",
+    "A036577",
+    "A036579",
+    "A036580",
+    "A036581",
+    "A036582",
+    "A036583",
+    "A036584",
+    "A036585",
+    "A036586"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:27:07",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

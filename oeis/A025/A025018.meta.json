@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that least prime in the Goldbach partition of k increases.",
+  "id": "A025018",
+  "mentions": [
+    "A001172",
+    "A025019"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

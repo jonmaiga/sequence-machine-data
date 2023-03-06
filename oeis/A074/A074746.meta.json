@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct differences between consecutive anti-divisors of n (ordered by size).",
+  "id": "A074746",
+  "mentions": [
+    "A066272"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

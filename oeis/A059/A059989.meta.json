@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 3*n+1 and 4*n+1 are both squares.",
+  "id": "A059989",
+  "mentions": [
+    "A001570",
+    "A245031"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2^n-1)^2 - 2.",
+  "id": "A093112",
+  "mentions": [
+    "A000225",
+    "A093069"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Cubes whose digits are cubes.",
+  "id": "A019545",
+  "mentions": [
+    "A046031"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:27",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

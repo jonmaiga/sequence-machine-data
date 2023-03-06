@@ -1,0 +1,36 @@
+{
+  "description": "Closest prime to n-th prime p that is different from p (break ties by taking the smaller prime).",
+  "id": "A051701",
+  "mentions": [
+    "A023186",
+    "A023187",
+    "A023188",
+    "A046929",
+    "A046930",
+    "A046931",
+    "A051650",
+    "A051652",
+    "A051697",
+    "A051698",
+    "A051699",
+    "A051700",
+    "A051702",
+    "A051728",
+    "A051729",
+    "A051730",
+    "A116946",
+    "A227878"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:57:45",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

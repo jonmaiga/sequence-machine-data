@@ -1,0 +1,23 @@
+{
+  "description": "9-ish numbers (A011539) which are not lunar primes (A087097).",
+  "id": "A087984",
+  "mentions": [
+    "A011539",
+    "A087061",
+    "A087097",
+    "A133626",
+    "A134211"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

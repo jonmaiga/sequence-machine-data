@@ -1,0 +1,21 @@
+{
+  "description": "Product of digits of n is a nonzero single-digit square.",
+  "id": "A050627",
+  "mentions": [
+    "A002275",
+    "A007954",
+    "A028839",
+    "A028845"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 14:11:16",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Smallest prime equal to the sum of 2n+1 consecutive primes.",
+  "id": "A070934",
+  "mentions": [
+    "A034962",
+    "A070281",
+    "A082244",
+    "A082246",
+    "A082251",
+    "A089793",
+    "A127340",
+    "A127341",
+    "A161612",
+    "A215235",
+    "A215991",
+    "A216020"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

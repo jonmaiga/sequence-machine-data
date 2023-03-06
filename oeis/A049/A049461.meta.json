@@ -1,0 +1,18 @@
+{
+  "description": "Number of equivalence classes of self-dual Boolean functions of n variables under action of LSD(n,2).",
+  "id": "A049461",
+  "mentions": [
+    "A028405",
+    "A028407"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

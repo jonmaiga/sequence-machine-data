@@ -1,0 +1,32 @@
+{
+  "description": "Primes containing only digits from the set {0, 1, 2}.",
+  "id": "A036953",
+  "mentions": [
+    "A007089",
+    "A020450",
+    "A020472",
+    "A036952",
+    "A036964",
+    "A061247",
+    "A079651",
+    "A199325",
+    "A199329",
+    "A199340",
+    "A199349",
+    "A217039",
+    "A260044",
+    "A260267",
+    "A260271"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

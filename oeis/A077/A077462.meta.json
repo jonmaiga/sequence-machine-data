@@ -1,0 +1,25 @@
+{
+  "description": "Prime factor configuration patterns.",
+  "id": "A077462",
+  "mentions": [
+    "A037916",
+    "A046523",
+    "A055932",
+    "A071364",
+    "A079616",
+    "A101296",
+    "A290110",
+    "A300250"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

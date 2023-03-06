@@ -1,0 +1,19 @@
+{
+  "description": "n-th prime rotated one binary place to the right less the n-th prime rotated one binary place to the left.",
+  "id": "A088162",
+  "mentions": [
+    "A000668",
+    "A088146",
+    "A088147"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:15:21",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

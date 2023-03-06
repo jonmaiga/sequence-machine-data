@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that rad(k) - phi(k) <= 1, where rad = A007947 and phi = A000010.",
+  "id": "A082377",
+  "mentions": [
+    "A000010",
+    "A007947"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

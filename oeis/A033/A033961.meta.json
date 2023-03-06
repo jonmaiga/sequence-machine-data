@@ -1,0 +1,16 @@
+{
+  "description": "Number of different sets (\"cut sets\") of triangles a regular (n+2)-gon can be dissected into; two triangulations of an (n+2)-gon are equal if all numbers of congruent triangles coincide.",
+  "id": "A033961",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

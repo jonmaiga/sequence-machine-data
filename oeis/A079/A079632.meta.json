@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(n/floor(sqrt(n)))-floor(sqrt(n)).",
+  "id": "A079632",
+  "mentions": [
+    "A005563",
+    "A064801"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:03:23",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

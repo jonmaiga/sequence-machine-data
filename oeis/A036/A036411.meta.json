@@ -1,0 +1,21 @@
+{
+  "description": "9-gonal square numbers.",
+  "id": "A036411",
+  "mentions": [
+    "A001106",
+    "A048911",
+    "A048919"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

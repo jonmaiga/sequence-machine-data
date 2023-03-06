@@ -1,0 +1,35 @@
+{
+  "description": "Values of n for which A095777(n) is 9 (those terms which are expressible in decimal digits for bases 2 through 10, but not for base 11).",
+  "id": "A095778",
+  "mentions": [
+    "A005836",
+    "A007095",
+    "A011539",
+    "A020654",
+    "A020657",
+    "A023717",
+    "A037465",
+    "A037474",
+    "A037477",
+    "A074940",
+    "A095777",
+    "A171397",
+    "A333656",
+    "A337141",
+    "A337239",
+    "A337250",
+    "A337572",
+    "A338090"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

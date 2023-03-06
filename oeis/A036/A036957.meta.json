@@ -1,0 +1,19 @@
+{
+  "description": "Primes with digits (0,...,4) taken as base 5 and converted to base 10.",
+  "id": "A036957",
+  "mentions": [
+    "A036952",
+    "A036964"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:32:25",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Least k such that k-th prime > n * k.",
+  "id": "A038606",
+  "mentions": [
+    "A000720",
+    "A004648",
+    "A038607",
+    "A038624",
+    "A038625",
+    "A062742",
+    "A090973"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=1, a(n) = ceiling(r(5)*a(n-1)) where r(5) = (1/2)*(5 + sqrt(29)) is the positive root of X^2 = 5*X + 1.",
+  "id": "A082585",
+  "mentions": [
+    "A000071",
+    "A048739",
+    "A049652",
+    "A082574"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:49:20",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

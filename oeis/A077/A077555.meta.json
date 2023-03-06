@@ -1,0 +1,21 @@
+{
+  "description": "Product of terms of n-th row of A077553.",
+  "id": "A077555",
+  "mentions": [
+    "A001358",
+    "A005843",
+    "A077553",
+    "A077554",
+    "A087112"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

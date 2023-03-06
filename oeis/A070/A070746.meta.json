@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k 1's followed by k is a prime.",
+  "id": "A070746",
+  "mentions": [
+    "A068817",
+    "A084428"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

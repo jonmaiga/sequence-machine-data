@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers n for which the sum of the prime-factorization exponents of n (bigomega(n) = A001222(n)) divides n.",
+  "id": "A074946",
+  "mentions": [
+    "A001222",
+    "A134334"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

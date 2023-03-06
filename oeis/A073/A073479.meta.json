@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f.: (1-x)^(-1-x).",
+  "id": "A073479",
+  "mentions": [
+    "A001620",
+    "A007113",
+    "A007120"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Isolated prime difference equals 6: primes prime(k) such that d(k) = prime(k+1) - prime(k) = 6 but neither d(k+1) nor d(k-1) is 6.",
+  "id": "A052160",
+  "mentions": [
+    "A001223",
+    "A033451",
+    "A047948"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

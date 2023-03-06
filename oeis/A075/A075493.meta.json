@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that (sum of digits of k) > (number of divisors of k).",
+  "id": "A075493",
+  "mentions": [
+    "A000005",
+    "A007953",
+    "A057531",
+    "A075491",
+    "A075492",
+    "A185121"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

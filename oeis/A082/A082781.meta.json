@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 6, a(n) = smallest palindromic multiple of a(n-1) obtained by inserting digits anywhere in a(n-1).",
+  "id": "A082781",
+  "mentions": [
+    "A082776",
+    "A082777",
+    "A082778",
+    "A082779",
+    "A082780",
+    "A082782",
+    "A082783"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

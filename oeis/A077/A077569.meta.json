@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: row n lists numbers in the range 1 to 2^(n-1) (inclusive) that have exactly n divisors.",
+  "id": "A077569",
+  "mentions": [
+    "A001055",
+    "A005179",
+    "A077570",
+    "A122819"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "In a square array, positive integers are entered as follows. Start with a(1, 1)=1. Then enter numbers in this order: a(1, 2), a(2, 1), a(3, 1), a(2, 2), a(1, 3), a(1, 4), a(2, 3), a(3, 2), a(4, 1), a(5, 1), a(4, 2), ... such that every entry is the smallest not yet used and such that every entry greater than 1 has a common divisor with its neighbors (in all directions) which are greater than 1.",
+  "id": "A082191",
+  "mentions": [
+    "A082192",
+    "A082193",
+    "A082194",
+    "A082195"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

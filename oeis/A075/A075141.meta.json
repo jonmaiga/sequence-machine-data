@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of the generalized harmonic number H(n,5,3).",
+  "id": "A075141",
+  "mentions": [
+    "A075135",
+    "A075142"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

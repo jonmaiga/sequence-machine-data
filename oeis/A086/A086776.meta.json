@@ -1,0 +1,18 @@
+{
+  "description": "Smaller member of a prime pair (n, n+6) with a square sum.",
+  "id": "A086776",
+  "mentions": [
+    "A023201",
+    "A069496"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

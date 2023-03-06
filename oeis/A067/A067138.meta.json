@@ -1,0 +1,26 @@
+{
+  "description": "OR-numbral multiplication table, read by antidiagonals.",
+  "id": "A067138",
+  "mentions": [
+    "A003986",
+    "A004247",
+    "A007059",
+    "A048720",
+    "A048888",
+    "A067139",
+    "A067398"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

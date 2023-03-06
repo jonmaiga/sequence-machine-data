@@ -1,0 +1,26 @@
+{
+  "description": "Generalized Stirling2 array S_{5,5}(n,k).",
+  "id": "A090216",
+  "mentions": [
+    "A008279",
+    "A016861",
+    "A090209",
+    "A090217",
+    "A090218",
+    "A090222",
+    "A090223"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Total number of Eulerian circuits in labeled multigraphs with n edges.",
+  "id": "A069736",
+  "mentions": [
+    "A011781"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:31:01",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

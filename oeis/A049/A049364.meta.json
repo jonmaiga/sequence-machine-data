@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number that is digitally balanced in all bases 2, 3, ... n.",
+  "id": "A049364",
+  "mentions": [
+    "A031443",
+    "A049354",
+    "A049355",
+    "A065963"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

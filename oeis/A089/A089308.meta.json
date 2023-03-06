@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows, in which n-th row contains n numbers starting with n and in increasing order such that the product of the terms + 1 gives the smallest such prime.",
+  "id": "A089308",
+  "mentions": [
+    "A089307"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

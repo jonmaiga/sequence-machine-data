@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows giving size of minimal asymmetric covering code of length n and radius R.",
+  "id": "A070979",
+  "mentions": [
+    "A019436",
+    "A066000"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

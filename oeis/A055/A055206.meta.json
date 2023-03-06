@@ -1,0 +1,18 @@
+{
+  "description": "Number of balanced, adequate or average primes < 10^n.",
+  "id": "A055206",
+  "mentions": [
+    "A006562"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

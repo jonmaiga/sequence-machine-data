@@ -1,0 +1,18 @@
+{
+  "description": "Lonely non-twin primes: non-twins sandwiched between two pairs of twins.",
+  "id": "A068016",
+  "mentions": [
+    "A001097",
+    "A069453"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that floor[(10^n)/k] is prime.",
+  "id": "A090517",
+  "mentions": [
+    "A090518",
+    "A090519",
+    "A090520"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

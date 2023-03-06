@@ -1,0 +1,21 @@
+{
+  "description": "Euclid-Mullin sequence (A000945) with initial value a(1)=31 instead of a(1)=2.",
+  "id": "A051315",
+  "mentions": [
+    "A000945",
+    "A000946",
+    "A005265",
+    "A005266"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:55:37",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

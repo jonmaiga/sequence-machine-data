@@ -1,0 +1,23 @@
+{
+  "description": "Triangle: T(n,k), k<=n: commutative groupoids with no symmetry with n elements and k idempotents.",
+  "id": "A038022",
+  "mentions": [
+    "A001329",
+    "A001425",
+    "A030258",
+    "A030261",
+    "A030264"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

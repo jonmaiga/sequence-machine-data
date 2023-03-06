@@ -1,0 +1,19 @@
+{
+  "description": "Exponents k such that the sum of decimal digits of 2^k is also a power of 2.",
+  "id": "A095412",
+  "mentions": [
+    "A001370"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

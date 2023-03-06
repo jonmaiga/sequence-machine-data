@@ -1,0 +1,32 @@
+{
+  "description": "Second differences of primes.",
+  "id": "A036263",
+  "mentions": [
+    "A001223",
+    "A006562",
+    "A036262",
+    "A046933",
+    "A051634",
+    "A051635",
+    "A064113",
+    "A079054",
+    "A147812",
+    "A147813",
+    "A182394",
+    "A293154",
+    "A293155"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

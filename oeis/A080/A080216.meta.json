@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest value taken by binomial(n,j) mod j for j in [1..n].",
+  "id": "A080216",
+  "mentions": [
+    "A007318",
+    "A080217",
+    "A081370",
+    "A081371"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

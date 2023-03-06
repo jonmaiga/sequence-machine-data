@@ -1,0 +1,25 @@
+{
+  "description": "Characteristic function for A072795.",
+  "id": "A083924",
+  "mentions": [
+    "A000108",
+    "A000245",
+    "A026008",
+    "A069770",
+    "A072771",
+    "A072795",
+    "A083923",
+    "A083926"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Motzkin paths of length n with k peaks (n>=0, 0<=k<=floor(n/2)).",
+  "id": "A097860",
+  "mentions": [
+    "A001006",
+    "A001263",
+    "A004148",
+    "A097885"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

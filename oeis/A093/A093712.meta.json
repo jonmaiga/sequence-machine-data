@@ -1,0 +1,20 @@
+{
+  "description": "Repeatedly subtract largest prime from n until either a prime or 1 remains.",
+  "id": "A093712",
+  "mentions": [
+    "A000040",
+    "A035514"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

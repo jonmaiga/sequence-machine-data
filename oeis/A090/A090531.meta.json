@@ -1,0 +1,20 @@
+{
+  "description": "Least multiple of n! sandwiched between twin primes, or 0 if no such number exists.",
+  "id": "A090531",
+  "mentions": [
+    "A000142",
+    "A071256",
+    "A090530"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows in which row n gives Legendre symbol (k,p) for 0",
+  "id": "A097343",
+  "mentions": [
+    "A011582",
+    "A068717",
+    "A080891",
+    "A102283",
+    "A175629",
+    "A226520"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

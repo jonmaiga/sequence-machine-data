@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 3^p - 2 is prime.",
+  "id": "A086218",
+  "mentions": [
+    "A014224",
+    "A086214"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

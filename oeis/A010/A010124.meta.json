@@ -1,0 +1,23 @@
+{
+  "description": "Continued fraction for sqrt(19).",
+  "id": "A010124",
+  "mentions": [
+    "A007400",
+    "A010475",
+    "A041028",
+    "A041029"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

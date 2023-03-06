@@ -1,0 +1,20 @@
+{
+  "description": "Prime(n) + s*n is prime, s=4.",
+  "id": "A076299",
+  "mentions": [
+    "A064402",
+    "A076297",
+    "A076298",
+    "A076300"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that there are integers a < b with a+(a+1)+...+(n-1) = n+(n+1)+...+b.",
+  "id": "A094551",
+  "mentions": [
+    "A094550",
+    "A094552",
+    "A094553"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

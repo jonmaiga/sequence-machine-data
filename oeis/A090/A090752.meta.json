@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions (ordered partitions) of n whereby at most 1 increase is allowed and this increase must be by 1.",
+  "id": "A090752",
+  "mentions": [
+    "A000041",
+    "A003116",
+    "A034297"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

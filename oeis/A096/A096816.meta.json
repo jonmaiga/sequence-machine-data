@@ -1,0 +1,17 @@
+{
+  "description": "Row sums of triangle A096815, in which A096815(n,k) equals the k-th term of the convolution of the two prior rows indexed by (n-k) and k.",
+  "id": "A096816",
+  "mentions": [
+    "A096815"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

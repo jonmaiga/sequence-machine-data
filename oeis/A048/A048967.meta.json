@@ -1,0 +1,29 @@
+{
+  "description": "Number of even entries in row n of Pascal's triangle (A007318).",
+  "id": "A048967",
+  "mentions": [
+    "A000120",
+    "A000225",
+    "A001316",
+    "A001317",
+    "A007318",
+    "A023416",
+    "A038573",
+    "A047999",
+    "A219463",
+    "A219843",
+    "A249304"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic cube divisor (A056191) of central binomial coefficient (A001405).",
+  "id": "A056201",
+  "mentions": [
+    "A001405",
+    "A056056",
+    "A056059",
+    "A056060",
+    "A056191",
+    "A056202"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:25",
+    "offset": 1,
+    "size": 94,
+    "source": "joeis"
+  }
+}

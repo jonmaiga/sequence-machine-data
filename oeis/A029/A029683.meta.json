@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = n-th digit after decimal point of cube root of n.",
+  "id": "A029683",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Arrange digits of 2^n in descending order.",
+  "id": "A028910",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A004094",
+    "A004167",
+    "A028909",
+    "A036447",
+    "A057615",
+    "A163632",
+    "A263451",
+    "A321539",
+    "A321540",
+    "A321541",
+    "A321542"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

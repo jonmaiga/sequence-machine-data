@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (2n+1)*2^(2n+1) - 1.",
+  "id": "A098713",
+  "mentions": [
+    "A003261"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

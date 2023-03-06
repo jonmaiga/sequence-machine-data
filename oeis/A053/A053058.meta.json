@@ -1,0 +1,19 @@
+{
+  "description": "Cubes whose digit sum is also a cube.",
+  "id": "A053058",
+  "mentions": [
+    "A000578"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:06:15",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

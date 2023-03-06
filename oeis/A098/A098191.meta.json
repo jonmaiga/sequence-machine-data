@@ -1,0 +1,22 @@
+{
+  "description": "The values within a cycle of length 53 of the map x->A098189(x), sorted.",
+  "id": "A098191",
+  "mentions": [
+    "A000010",
+    "A034449",
+    "A063919",
+    "A098189",
+    "A098195"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

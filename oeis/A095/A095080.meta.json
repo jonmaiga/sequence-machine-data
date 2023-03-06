@@ -1,0 +1,24 @@
+{
+  "description": "Fibeven primes, i.e., primes p whose Zeckendorf-expansion A014417(p) ends with zero.",
+  "id": "A095080",
+  "mentions": [
+    "A000040",
+    "A014417",
+    "A022342",
+    "A095060",
+    "A095062",
+    "A095081",
+    "A095082",
+    "A095087"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

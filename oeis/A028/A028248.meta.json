@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of exp(exp(exp(x) - 1 - x) - 1).",
+  "id": "A028248",
+  "mentions": [
+    "A000110",
+    "A137375",
+    "A352607"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

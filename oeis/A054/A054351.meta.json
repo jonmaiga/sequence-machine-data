@@ -1,0 +1,23 @@
+{
+  "description": "Successive generations of the Kolakoski sequence A000002.",
+  "id": "A054351",
+  "mentions": [
+    "A000002",
+    "A042942",
+    "A054348",
+    "A054349",
+    "A054350",
+    "A054352"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:12:23",
+    "offset": 0,
+    "size": 9,
+    "source": "joeis"
+  }
+}

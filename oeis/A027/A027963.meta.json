@@ -1,0 +1,20 @@
+{
+  "description": "T(n,n+3), T given by A027960.",
+  "id": "A027963",
+  "mentions": [
+    "A000032",
+    "A027960",
+    "A027964"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 3,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

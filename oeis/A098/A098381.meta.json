@@ -1,0 +1,18 @@
+{
+  "description": "Difference between the number of odd entries and the number of even entries of the n-th row of the triangle A097883.",
+  "id": "A098381",
+  "mentions": [
+    "A097883",
+    "A098382"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

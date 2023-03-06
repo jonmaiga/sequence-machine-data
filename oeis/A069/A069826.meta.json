@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that sigma(k^2-k-1) = k*(k+1).",
+  "id": "A069826",
+  "mentions": [
+    "A000203",
+    "A005563",
+    "A116214"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

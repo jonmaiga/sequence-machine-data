@@ -1,0 +1,18 @@
+{
+  "description": "Smallest p for which there are exactly n primitive Pythagorean triangles with perimeter p; i.e., smallest p such that A070109(p) = n.",
+  "id": "A078928",
+  "mentions": [
+    "A070109",
+    "A078927"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

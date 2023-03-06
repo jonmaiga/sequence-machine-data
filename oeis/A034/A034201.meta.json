@@ -1,0 +1,17 @@
+{
+  "description": "Number of binary codes (not necessarily linear) of length n with 6 words.",
+  "id": "A034201",
+  "mentions": [
+    "A034188"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

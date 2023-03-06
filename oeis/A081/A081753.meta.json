@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor(n/12) if n == 2 (mod 12); a(n) = floor(n/12) + 1 otherwise.",
+  "id": "A081753",
+  "mentions": [
+    "A004009",
+    "A008615",
+    "A013973",
+    "A097992",
+    "A103221"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

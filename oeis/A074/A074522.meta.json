@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1^n + 6^n + 9^n.",
+  "id": "A074522",
+  "mentions": [
+    "A001550",
+    "A001576",
+    "A001579",
+    "A034513",
+    "A074501",
+    "A074580",
+    "A074621"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:52:44",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Palindromic primes whose digit permutation yields at least one other palindromic prime.",
+  "id": "A082808",
+  "mentions": [
+    "A082807"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

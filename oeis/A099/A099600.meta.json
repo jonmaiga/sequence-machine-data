@@ -1,0 +1,20 @@
+{
+  "description": "Inventory application: Numerator of the probability (rounded to the nearest trillionth: (10^-12)-th) of at least one shortage per month when n customers each request one item on one independently-chosen random day of a 30-day month, but when only exactly one such item is available per day.",
+  "id": "A099600",
+  "mentions": [
+    "A014088",
+    "A033810"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

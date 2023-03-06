@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n for which binomial(n, floor(n/2)) has more unitary than non-unitary divisors.",
+  "id": "A048197",
+  "mentions": [
+    "A001405",
+    "A034444",
+    "A046098",
+    "A048105",
+    "A048107"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

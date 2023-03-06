@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the prime digits of n.",
+  "id": "A085563",
+  "mentions": [
+    "A007953",
+    "A085562"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

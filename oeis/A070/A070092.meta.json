@@ -1,0 +1,28 @@
+{
+  "description": "Number of isosceles integer triangles with perimeter n and prime side lengths.",
+  "id": "A070092",
+  "mentions": [
+    "A005044",
+    "A010051",
+    "A059169",
+    "A070080",
+    "A070081",
+    "A070082",
+    "A070088",
+    "A070090",
+    "A070100",
+    "A070108",
+    "A070117"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

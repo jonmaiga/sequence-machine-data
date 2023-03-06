@@ -1,0 +1,22 @@
+{
+  "description": "Incrementally largest terms in continued fraction for Copeland-Erdős constant.",
+  "id": "A033310",
+  "mentions": [
+    "A030168",
+    "A033308",
+    "A033309",
+    "A224890"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "cofr",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

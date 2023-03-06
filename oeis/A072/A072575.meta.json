@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) of number of compositions (ordered partitions) of n into distinct parts where largest part is exactly k, 1<=k<=n.",
+  "id": "A072575",
+  "mentions": [
+    "A001339",
+    "A026836",
+    "A032020",
+    "A072574",
+    "A072576"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

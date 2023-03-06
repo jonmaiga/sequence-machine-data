@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n such that BCR(n) = n, where BCR = binary-complement-and-reverse = take one's complement then reverse bit order.",
+  "id": "A035928",
+  "mentions": [
+    "A000225",
+    "A036044",
+    "A061855",
+    "A062383",
+    "A195063",
+    "A195064",
+    "A195065",
+    "A195066"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

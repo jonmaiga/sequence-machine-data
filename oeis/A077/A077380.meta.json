@@ -1,0 +1,21 @@
+{
+  "description": "Largest n-digit squarefree number whose internal as well as external digits form a squarefree number, or 0 if no such number exists.",
+  "id": "A077380",
+  "mentions": [
+    "A077376",
+    "A077377",
+    "A077378",
+    "A077379"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

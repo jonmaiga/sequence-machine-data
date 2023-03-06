@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of 1/((1-2x)(1-6x)).",
+  "id": "A016129",
+  "mentions": [
+    "A071951",
+    "A089278",
+    "A089500",
+    "A100851",
+    "A129467",
+    "A144843"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime divisor of n-th terms of sequence A024675 (averages of two consecutive odd primes).",
+  "id": "A024677",
+  "mentions": [
+    "A023200",
+    "A024675"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

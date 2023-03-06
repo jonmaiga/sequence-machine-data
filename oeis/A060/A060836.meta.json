@@ -1,0 +1,31 @@
+{
+  "description": "Number of permutations of n letters where exactly 5 change position.",
+  "id": "A060836",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000166",
+    "A000217",
+    "A000240",
+    "A000332",
+    "A000387",
+    "A000449",
+    "A000475",
+    "A007290",
+    "A008290",
+    "A008291",
+    "A060008"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:47:23",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

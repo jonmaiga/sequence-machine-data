@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (7^n+1)/2.",
+  "id": "A034494",
+  "mentions": [
+    "A034659",
+    "A081341",
+    "A081342"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

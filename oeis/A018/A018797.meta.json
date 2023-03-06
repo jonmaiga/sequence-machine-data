@@ -1,0 +1,21 @@
+{
+  "description": "Smallest cube that begins with n.",
+  "id": "A018797",
+  "mentions": [
+    "A018796",
+    "A018852"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

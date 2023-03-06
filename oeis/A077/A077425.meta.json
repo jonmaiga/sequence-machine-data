@@ -1,0 +1,26 @@
+{
+  "description": "a(n) == 1 (mod 4) (see A016813), but not a square (i.e., not in A000290).",
+  "id": "A077425",
+  "mentions": [
+    "A000037",
+    "A000290",
+    "A000924",
+    "A010052",
+    "A016813",
+    "A077426",
+    "A077428",
+    "A078355",
+    "A079896"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

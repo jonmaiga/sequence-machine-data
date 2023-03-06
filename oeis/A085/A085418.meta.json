@@ -1,0 +1,20 @@
+{
+  "description": "Primes reached in A085417.",
+  "id": "A085418",
+  "mentions": [
+    "A085415",
+    "A085416",
+    "A085417"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

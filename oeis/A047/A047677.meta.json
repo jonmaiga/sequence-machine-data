@@ -1,0 +1,19 @@
+{
+  "description": "Row 2 of square array defined in A047675: 2*n!*(n+1)!.",
+  "id": "A047677",
+  "mentions": [
+    "A010790",
+    "A047675",
+    "A152877"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:28:36",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

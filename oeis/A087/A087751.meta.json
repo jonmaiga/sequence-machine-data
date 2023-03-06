@@ -1,0 +1,21 @@
+{
+  "description": "Weighted sum of the harmonic numbers.",
+  "id": "A087751",
+  "mentions": [
+    "A001620",
+    "A068102",
+    "A103213"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:16:51",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 4*p + 7 is also prime.",
+  "id": "A023215",
+  "mentions": [
+    "A089986"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:17:07",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

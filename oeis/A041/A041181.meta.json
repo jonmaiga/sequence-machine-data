@@ -1,0 +1,25 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(101).",
+  "id": "A041181",
+  "mentions": [
+    "A000129",
+    "A038207",
+    "A040090",
+    "A041180",
+    "A243399"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:51",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

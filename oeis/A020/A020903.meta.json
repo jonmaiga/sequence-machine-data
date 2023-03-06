@@ -1,0 +1,22 @@
+{
+  "description": "Lim f(f(...f(n))) where f is the fractal sequence given by f(n)=A002260(n+1).",
+  "id": "A020903",
+  "mentions": [
+    "A002260",
+    "A003056",
+    "A020904",
+    "A191770",
+    "A191774",
+    "A191777"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

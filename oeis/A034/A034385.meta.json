@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (1-16*x)^(-1/4), related to quartic factorial numbers.",
+  "id": "A034385",
+  "mentions": [
+    "A000984",
+    "A004987",
+    "A004993",
+    "A007696",
+    "A034688",
+    "A034835",
+    "A034977",
+    "A035024",
+    "A035308"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

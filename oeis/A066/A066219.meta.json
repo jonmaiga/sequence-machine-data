@@ -1,0 +1,15 @@
+{
+  "description": "Numbers n such that |phi(n+1)-phi(n)| = |d(n+1)-d(n)|, where phi is Euler's totient function and d(n) = number of divisors of n.",
+  "id": "A066219",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

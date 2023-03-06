@@ -1,0 +1,22 @@
+{
+  "description": "Number of divisor chains of length n: permutations s_1,s_2,...,s_n of 1,2,...,n such that for all j=1,2,...,n, s_j divides Sum_{i=1..j} s_i.",
+  "id": "A067957",
+  "mentions": [
+    "A093313",
+    "A093314",
+    "A093315",
+    "A094097",
+    "A094098",
+    "A094099"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

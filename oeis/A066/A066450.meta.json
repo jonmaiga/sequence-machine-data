@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the conjectured value of the minimal number to which repeated application of the \"reverse and add!\" algorithm in base n does not terminate in a palindrome. If there is no such number in base n, then a(n) := -1.",
+  "id": "A066450",
+  "mentions": [
+    "A058042"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

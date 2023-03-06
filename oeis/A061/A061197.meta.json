@@ -1,0 +1,19 @@
+{
+  "description": "Table by antidiagonals T(n,k) of number of partitions of k where the largest part is less than or equal to n and where there are no more than two of any particular sized part.",
+  "id": "A061197",
+  "mentions": [
+    "A000726"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

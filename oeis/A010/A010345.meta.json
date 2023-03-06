@@ -1,0 +1,26 @@
+{
+  "description": "Base-5 Armstrong or narcissistic numbers, written in base 5.",
+  "id": "A010345",
+  "mentions": [
+    "A005188",
+    "A010343",
+    "A010346",
+    "A010347",
+    "A010349",
+    "A010351",
+    "A010352"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

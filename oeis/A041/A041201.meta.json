@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(111).",
+  "id": "A041201",
+  "mentions": [
+    "A041200"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:40:28",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

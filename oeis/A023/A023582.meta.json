@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct prime divisors of 2*prime(n)-1.",
+  "id": "A023582",
+  "mentions": [
+    "A001221",
+    "A076274"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:18:47",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

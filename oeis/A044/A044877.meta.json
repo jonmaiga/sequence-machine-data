@@ -1,0 +1,16 @@
+{
+  "description": "Numbers having, in base 6, (sum of even run lengths)=(sum of odd run lengths).",
+  "id": "A044877",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:22:33",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

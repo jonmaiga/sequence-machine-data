@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = d(n) - bigomega(n) - A005361(n).",
+  "id": "A081400",
+  "mentions": [
+    "A000005",
+    "A001222",
+    "A005361",
+    "A007304",
+    "A030230",
+    "A030231",
+    "A034683",
+    "A075819"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

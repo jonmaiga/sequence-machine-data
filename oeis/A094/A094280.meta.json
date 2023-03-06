@@ -1,0 +1,23 @@
+{
+  "description": "a(1)=1 (first row) and then the n-th row of this triangle contains the least set of n unused natural numbers whose sum is k * the sum of the previous row, with k being an integer > 1.",
+  "id": "A094280",
+  "mentions": [
+    "A076105",
+    "A094281",
+    "A094282",
+    "A094283",
+    "A094284",
+    "A122156"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers which can be represented as the sum of two primes (i.e., A002808 excluding A025583).",
+  "id": "A051035",
+  "mentions": [
+    "A002808",
+    "A010051",
+    "A014092",
+    "A025583"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

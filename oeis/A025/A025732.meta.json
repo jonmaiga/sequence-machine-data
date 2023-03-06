@@ -1,0 +1,19 @@
+{
+  "description": "Index of 8^n within sequence of numbers of form 8^i*9^j.",
+  "id": "A025732",
+  "mentions": [
+    "A001018",
+    "A025633"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:04",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

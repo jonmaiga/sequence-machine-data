@@ -1,0 +1,19 @@
+{
+  "description": "Multiples of 11 with digit sum 11, with no zero digits in odd places.",
+  "id": "A083512",
+  "mentions": [
+    "A083513"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

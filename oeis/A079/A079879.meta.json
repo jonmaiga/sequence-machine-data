@@ -1,0 +1,25 @@
+{
+  "description": "Median prime factor: a(1)=1 and for n>1: least prime p such that not more than floor(Omega(n)/2) prime factors are greater than p; Omega(n) is the total number of prime factors of n (A001222).",
+  "id": "A079879",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A006530",
+    "A020639",
+    "A027746",
+    "A033676",
+    "A079880",
+    "A079881"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

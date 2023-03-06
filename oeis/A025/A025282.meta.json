@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number requiring n Fibonacci numbers to build using + and *.",
+  "id": "A025282",
+  "mentions": [
+    "A000045",
+    "A254122",
+    "A254123"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

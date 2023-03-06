@@ -1,0 +1,20 @@
+{
+  "description": "Consider a (solid) triangle with n cells on each edge, for a total of n(n+1)/2 cells; a(n) is number of inequivalent ways of labeling cells with 0's and 1's; triangle may be rotated and turned over.",
+  "id": "A061348",
+  "mentions": [
+    "A061709"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Multiplication table of the digits of the golden ratio read by antidiagonals.",
+  "id": "A098369",
+  "mentions": [
+    "A003991",
+    "A098362",
+    "A098363",
+    "A098368"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:21:31",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

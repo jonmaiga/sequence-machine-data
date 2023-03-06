@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of square root of 62.",
+  "id": "A010515",
+  "mentions": [
+    "A001790",
+    "A005187",
+    "A010146",
+    "A020819"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

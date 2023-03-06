@@ -1,0 +1,17 @@
+{
+  "description": "Least nonzero number having the same number of digits as n which when added to n yields a prime.",
+  "id": "A090924",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

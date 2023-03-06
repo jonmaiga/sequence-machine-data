@@ -1,0 +1,15 @@
+{
+  "description": "Composite numbers equal to the sum of the squarefree numbers from their smallest prime factor to their largest prime factor.",
+  "id": "A074254",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

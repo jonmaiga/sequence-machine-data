@@ -1,0 +1,21 @@
+{
+  "description": "Log_2 of dimension of an irreducible Z_2 graded H-module for Clifford algebra Cl_n.",
+  "id": "A034586",
+  "mentions": [
+    "A034583",
+    "A034584",
+    "A034585"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:15:57",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

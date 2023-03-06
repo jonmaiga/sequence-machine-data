@@ -1,0 +1,40 @@
+{
+  "description": "List giving all subsets of natural numbers arranged in standard statistical (or Yates) order.",
+  "id": "A048793",
+  "mentions": [
+    "A000120",
+    "A001511",
+    "A005183",
+    "A019565",
+    "A029931",
+    "A035327",
+    "A048794",
+    "A070939",
+    "A112798",
+    "A133457",
+    "A213925",
+    "A272011",
+    "A272020",
+    "A291166",
+    "A295235",
+    "A326669",
+    "A326674",
+    "A326675",
+    "A326699",
+    "A326700"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:48:09",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

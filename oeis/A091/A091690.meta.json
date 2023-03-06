@@ -1,0 +1,21 @@
+{
+  "description": "Smallest integer m such that the n-th prime A000040(n) divides partition number A000041(m).",
+  "id": "A091690",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A046641",
+    "A091689"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes in the accumulated tally of steps in the x+1 problem: Repeat until 1 is reached: if x is even divide by 2, otherwise add 1.",
+  "id": "A080821",
+  "mentions": [
+    "A061313"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

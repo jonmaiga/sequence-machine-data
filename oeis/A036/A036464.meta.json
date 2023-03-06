@@ -1,0 +1,28 @@
+{
+  "description": "Number of ways to place two nonattacking queens on an n X n board.",
+  "id": "A036464",
+  "mentions": [
+    "A000914",
+    "A006331",
+    "A047659",
+    "A061994",
+    "A108792",
+    "A163102",
+    "A176186",
+    "A178721",
+    "A348129"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:26:07",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; for n>1, a(n) = the smallest positive integer root of n not included earlier, if such a root exists, otherwise the smallest power of n not included earlier, subject to a(n)<>n.",
+  "id": "A073842",
+  "mentions": [
+    "A073843"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

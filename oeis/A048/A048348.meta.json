@@ -1,0 +1,20 @@
+{
+  "description": "a(n)^2 is the smallest square containing exactly n 3's.",
+  "id": "A048348",
+  "mentions": [
+    "A034982",
+    "A036510"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

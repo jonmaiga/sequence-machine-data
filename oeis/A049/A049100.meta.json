@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Euler phi function applied 4 times to n.",
+  "id": "A049100",
+  "mentions": [
+    "A000010",
+    "A010554",
+    "A049099",
+    "A049107",
+    "A049115"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

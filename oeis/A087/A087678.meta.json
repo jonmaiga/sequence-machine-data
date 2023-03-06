@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n + 9 and n - 9 are both prime.",
+  "id": "A087678",
+  "mentions": [
+    "A014574",
+    "A087679",
+    "A087683",
+    "A087695",
+    "A087697",
+    "A088769"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

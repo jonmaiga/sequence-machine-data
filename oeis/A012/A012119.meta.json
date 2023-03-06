@@ -1,0 +1,16 @@
+{
+  "description": "arctanh(arcsin(arcsinh(x)))=x+2/3!*x^3+32/5!*x^5+1000/7!*x^7+68480/9!*x^9...",
+  "id": "A012119",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:59:11",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

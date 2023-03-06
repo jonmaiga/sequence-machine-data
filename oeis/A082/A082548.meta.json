@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of values of k such that k can be expressed as the sum of distinct primes with largest prime in the sum equal to prime(n).",
+  "id": "A082548",
+  "mentions": [
+    "A007504",
+    "A082533",
+    "A082534",
+    "A327467"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

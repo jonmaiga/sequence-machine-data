@@ -1,0 +1,19 @@
+{
+  "description": "Lesser prime factor of semiprimes in A089542.",
+  "id": "A089543",
+  "mentions": [
+    "A085753",
+    "A089542",
+    "A089544"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

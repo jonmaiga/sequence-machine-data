@@ -1,0 +1,17 @@
+{
+  "description": "Even numbers representable as the sum of two odd composites.",
+  "id": "A076770",
+  "mentions": [
+    "A118081"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

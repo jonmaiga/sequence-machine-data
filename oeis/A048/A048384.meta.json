@@ -1,0 +1,18 @@
+{
+  "description": "Squares resulting from procedure described in A048383.",
+  "id": "A048384",
+  "mentions": [
+    "A048380",
+    "A048383"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

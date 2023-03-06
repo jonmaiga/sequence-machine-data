@@ -1,0 +1,28 @@
+{
+  "description": "Write product of first n primes as x*y with x",
+  "id": "A061060",
+  "mentions": [
+    "A038667",
+    "A060776",
+    "A060777",
+    "A060795",
+    "A060796",
+    "A061030",
+    "A061033",
+    "A061057",
+    "A121315",
+    "A182987",
+    "A263292",
+    "A352813"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

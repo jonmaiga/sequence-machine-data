@@ -1,0 +1,19 @@
+{
+  "description": "n-th row of the following triangle contains n terms of an arithmetic progression with the first term 1 such that the sum is the least possible n-th power. Sequence contains the leading diagonal.",
+  "id": "A093844",
+  "mentions": [
+    "A093460",
+    "A093845",
+    "A110500"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

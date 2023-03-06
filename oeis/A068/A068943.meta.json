@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = f(n, n, n), where f is the generalized super falling factorial (see comments for definition.).",
+  "id": "A068943",
+  "mentions": [
+    "A000178",
+    "A066121",
+    "A068424"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

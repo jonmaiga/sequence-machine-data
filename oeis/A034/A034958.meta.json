@@ -1,0 +1,26 @@
+{
+  "description": "Divide primes into groups with prime(n) elements and add together.",
+  "id": "A034958",
+  "mentions": [
+    "A000040",
+    "A006003",
+    "A007504",
+    "A027441",
+    "A034956",
+    "A034959",
+    "A034960",
+    "A046992",
+    "A180302"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:10",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

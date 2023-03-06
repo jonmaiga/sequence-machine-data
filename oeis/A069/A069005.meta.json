@@ -1,0 +1,20 @@
+{
+  "description": "Let M = 4 X 4 matrix with rows /1,1,1,1/1,1,1,0/1,1,0,0/1,0,0,0/ and A(n) = vector (x(n),y(n),z(n),t(n)) = M^n*A where A is the vector (1,1,1,1); then a(n)=z(n).",
+  "id": "A069005",
+  "mentions": [
+    "A018919",
+    "A091024"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:39:34",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

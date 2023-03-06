@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2^n mod 29.",
+  "id": "A036122",
+  "mentions": [
+    "A000079"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

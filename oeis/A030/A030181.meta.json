@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (eta(q) / eta(q^7))^4 in powers of q.",
+  "id": "A030181",
+  "mentions": [
+    "A052240",
+    "A108481",
+    "A113957",
+    "A262933",
+    "A305443"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": -1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Nearest integer to Gamma(n + 4/9)/Gamma(4/9).",
+  "id": "A020022",
+  "mentions": [
+    "A020067",
+    "A020112",
+    "A144829"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

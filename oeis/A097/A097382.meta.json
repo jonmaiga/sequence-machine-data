@@ -1,0 +1,19 @@
+{
+  "description": "a(h) = d(h,j) = lcm( f(h,j,1) ... f(h,j,h) ), when j=2.",
+  "id": "A097382",
+  "mentions": [
+    "A025558",
+    "A091342"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

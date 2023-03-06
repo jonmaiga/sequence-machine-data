@@ -1,0 +1,28 @@
+{
+  "description": "Sum of reciprocals of digits = 1.",
+  "id": "A037268",
+  "mentions": [
+    "A020473",
+    "A034708",
+    "A037264",
+    "A038034",
+    "A168046",
+    "A214949",
+    "A214950",
+    "A214959"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of divisors of n whose binary representation is contained in that of n.",
+  "id": "A093640",
+  "mentions": [
+    "A000005",
+    "A007088",
+    "A078822",
+    "A093641",
+    "A093642"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

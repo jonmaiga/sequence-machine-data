@@ -1,0 +1,20 @@
+{
+  "description": "Let f(n, m) = binomial(n - m/2 + 1, n - m + 1) - binomial(n - m/2, n - m + 1) and let s(n) = Sum_{k=0..n} f(n, k); then a(n) = numerator of s(n).",
+  "id": "A072287",
+  "mentions": [
+    "A046161"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

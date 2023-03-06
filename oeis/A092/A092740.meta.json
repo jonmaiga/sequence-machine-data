@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p^2 - 1 is the sum of two consecutive primes.",
+  "id": "A092740",
+  "mentions": [
+    "A001043",
+    "A045408"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 3*n^2 + 2*n - 4*sum( i=1, n, A003159(k) ).",
+  "id": "A071992",
+  "mentions": [
+    "A000695",
+    "A003159",
+    "A062880"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, where row (n) = n mod n, n mod (n-1), n mod (n-2), ...n mod 1.",
+  "id": "A051777",
+  "mentions": [
+    "A000005",
+    "A004125",
+    "A032741",
+    "A048158",
+    "A051127",
+    "A051778"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

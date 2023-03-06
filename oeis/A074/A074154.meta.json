@@ -1,0 +1,18 @@
+{
+  "description": "Largest n-digit power of n; or 0 if no such number exists.",
+  "id": "A074154",
+  "mentions": [
+    "A074153"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Fourth convolution of Lucas numbers A000032(n+1), n >= 0.",
+  "id": "A060931",
+  "mentions": [
+    "A000032",
+    "A000204",
+    "A004799",
+    "A060921",
+    "A060922",
+    "A060929",
+    "A060930"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

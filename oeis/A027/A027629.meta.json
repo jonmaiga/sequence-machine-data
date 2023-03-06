@@ -1,0 +1,20 @@
+{
+  "description": "Molien series for complex 8-dimensional group N_3 of order 2^(2.3+2), a central extension of an extraspecial 2-group.",
+  "id": "A027629",
+  "mentions": [
+    "A027628",
+    "A027630"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:35:31",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

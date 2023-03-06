@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the first term of at least one arithmetic progression with 4 or more terms all having the same value of Euler's totient function phi(x).",
+  "id": "A050495",
+  "mentions": [
+    "A000010",
+    "A050496",
+    "A050497"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:22",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

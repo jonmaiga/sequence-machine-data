@@ -1,0 +1,19 @@
+{
+  "description": "Number of coverings of {1..n} by translation and reflection of a single set.",
+  "id": "A096203",
+  "mentions": [
+    "A096154",
+    "A096202",
+    "A329128"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

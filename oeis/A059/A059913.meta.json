@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) of numbers of n degree irreducible polynomials over GF(2) which have order A059912(n,k), k=1..A059499(n).",
+  "id": "A059913",
+  "mentions": [
+    "A000010",
+    "A001037",
+    "A058943",
+    "A059478",
+    "A059499",
+    "A059912"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

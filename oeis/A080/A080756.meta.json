@@ -1,0 +1,18 @@
+{
+  "description": "A positive integer n is in this sequence if it has infinitely many multiples that have exactly n positive divisors each.",
+  "id": "A080756",
+  "mentions": [
+    "A013929"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

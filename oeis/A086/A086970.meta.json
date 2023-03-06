@@ -1,0 +1,28 @@
+{
+  "description": "Fix 1, then exchange the subsequent odd numbers in pairs.",
+  "id": "A086970",
+  "mentions": [
+    "A004442",
+    "A004766",
+    "A004767",
+    "A005408",
+    "A010696",
+    "A014681",
+    "A065164",
+    "A065190",
+    "A086955",
+    "A103889"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:51:39",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

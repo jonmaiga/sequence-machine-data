@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers n smaller than their decimal reverse but having the same number of prime factors.",
+  "id": "A050700",
+  "mentions": [
+    "A050699",
+    "A050701"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

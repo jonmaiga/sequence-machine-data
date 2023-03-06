@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose base-6 representation has exactly 3 runs.",
+  "id": "A043611",
+  "mentions": [
+    "A007092"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:49",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "First member of the Diophantine pair (m,k) that satisfies 6(m^2 + m) = k^2 + k: a(n) = m.",
+  "id": "A077288",
+  "mentions": [
+    "A053141",
+    "A072256",
+    "A077289",
+    "A077290",
+    "A077291",
+    "A080806"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

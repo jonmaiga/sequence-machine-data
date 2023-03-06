@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of 1/(1 - x - x^2 - 2*x^3).",
+  "id": "A077947",
+  "mentions": [
+    "A000079",
+    "A049347",
+    "A077972",
+    "A078010",
+    "A081577",
+    "A139217",
+    "A139218",
+    "A167373",
+    "A173593",
+    "A294627"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

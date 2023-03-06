@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=least k such that base 8 representation of n begins at s(k), where s=A031055.",
+  "id": "A031056",
+  "mentions": [
+    "A031055"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:50:07",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

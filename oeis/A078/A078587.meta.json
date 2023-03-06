@@ -1,0 +1,21 @@
+{
+  "description": "Largest prime p such that p",
+  "id": "A078587",
+  "mentions": [
+    "A078496",
+    "A082467",
+    "A143697"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 4,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

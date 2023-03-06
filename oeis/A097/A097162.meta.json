@@ -1,0 +1,21 @@
+{
+  "description": "Sum( k=0..n, C(floor((n+1)/2),floor((k+1)/2))*2^k ).",
+  "id": "A097162",
+  "mentions": [
+    "A057651",
+    "A075427",
+    "A097165"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

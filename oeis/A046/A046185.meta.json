@@ -1,0 +1,18 @@
+{
+  "description": "A B2-sequence due to Rachel Lewis.",
+  "id": "A046185",
+  "mentions": [
+    "A005282"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

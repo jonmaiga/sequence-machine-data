@@ -1,0 +1,20 @@
+{
+  "description": "Least number m such that integer part of sigma(m)/phi(m) equals n.",
+  "id": "A070033",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A070032"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

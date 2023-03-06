@@ -1,0 +1,19 @@
+{
+  "description": "1, 1, 1, 1, ... a, b, c, d, ac-bd, ...",
+  "id": "A089984",
+  "mentions": [
+    "A089983"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

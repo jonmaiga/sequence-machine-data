@@ -1,0 +1,29 @@
+{
+  "description": "Numbers that are not cubefree. Numbers divisible by a cube greater than 1. Complement of A004709.",
+  "id": "A046099",
+  "mentions": [
+    "A000578",
+    "A001694",
+    "A004709",
+    "A007427",
+    "A030078",
+    "A034448",
+    "A036966",
+    "A036967",
+    "A046101",
+    "A088453",
+    "A188999",
+    "A212793"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:28:57",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

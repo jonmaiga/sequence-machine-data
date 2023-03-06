@@ -1,0 +1,19 @@
+{
+  "description": "Multiples of 6 with only prime digits (2, 3, 5 and 7).",
+  "id": "A077535",
+  "mentions": [
+    "A077533",
+    "A077534"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

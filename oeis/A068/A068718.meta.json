@@ -1,0 +1,21 @@
+{
+  "description": "Boustrophedon transform of A068717 with A068717(1) = -1 instead of 0.",
+  "id": "A068718",
+  "mentions": [
+    "A046951",
+    "A049240",
+    "A068716",
+    "A068717"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

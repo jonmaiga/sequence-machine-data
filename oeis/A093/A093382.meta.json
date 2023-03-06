@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = length k of longest binary sequence x(1) ... x(k) such that for no n <= i < j <= k/2 is x(i) ... x(2i) a subsequence of x(j) ... x(2j).",
+  "id": "A093382",
+  "mentions": [
+    "A014221",
+    "A093383",
+    "A093386",
+    "A094091"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "bref",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

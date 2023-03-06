@@ -1,0 +1,23 @@
+{
+  "description": "Square array T(i,j) in which for every k, the k-th partial sums of every row and column are divisible by k. Array read by antidiagonals, alternating upwards and downwards. Each entry is the least number not already used that fits the divisibility requirement.",
+  "id": "A082218",
+  "mentions": [
+    "A082219",
+    "A082220",
+    "A082221",
+    "A082222",
+    "A082223"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

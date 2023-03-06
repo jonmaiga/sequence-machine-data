@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that sigma(k) = 2k + Omega(k), where Omega(n) is the number of prime divisors of n (with repetition).",
+  "id": "A063788",
+  "mentions": [
+    "A000203",
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

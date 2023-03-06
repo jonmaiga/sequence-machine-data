@@ -1,0 +1,30 @@
+{
+  "description": "Triangle T(n,k) read by rows, giving number of matroids of rank k on n labeled points (n >= 0, 0 <= k <= n).",
+  "id": "A058669",
+  "mentions": [
+    "A000012",
+    "A000079",
+    "A000110",
+    "A000225",
+    "A053534",
+    "A058673",
+    "A058681",
+    "A058687",
+    "A058710",
+    "A058711"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

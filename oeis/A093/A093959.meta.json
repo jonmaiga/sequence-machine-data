@@ -1,0 +1,19 @@
+{
+  "description": "Squares arising as partial products in A094357 + 1.",
+  "id": "A093959",
+  "mentions": [
+    "A094357"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

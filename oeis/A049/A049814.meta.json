@@ -1,0 +1,26 @@
+{
+  "description": "a(n)=number of Farey fractions of order n that are <=1/10; cf. A049805.",
+  "id": "A049814",
+  "mentions": [
+    "A005728",
+    "A049805",
+    "A049806",
+    "A049807",
+    "A049808",
+    "A049809",
+    "A049810",
+    "A049811",
+    "A049812",
+    "A049813"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

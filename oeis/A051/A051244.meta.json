@@ -1,0 +1,19 @@
+{
+  "description": "Binary numbers d(1)...d(j) such that d(i) = d(j+1-i) for all but two values of i.",
+  "id": "A051244",
+  "mentions": [
+    "A050874",
+    "A051247"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:55:09",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

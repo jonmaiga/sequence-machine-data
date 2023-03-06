@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that m and m+2 are both brilliant numbers, where brilliant numbers are semiprimes whose prime factors have an equal number of decimal digits, or whose prime factors are equal.",
+  "id": "A083284",
+  "mentions": [
+    "A078972"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

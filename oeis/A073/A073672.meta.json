@@ -1,0 +1,17 @@
+{
+  "description": "Rearrangement of natural numbers such that sum of n (n>1) terms starting from the n-th term (included) is a prime.",
+  "id": "A073672",
+  "mentions": [
+    "A075470"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

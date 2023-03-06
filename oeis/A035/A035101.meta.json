@@ -1,0 +1,26 @@
+{
+  "description": "E.g.f. x*(c(x/2)-1)/(1-2*x), where c(x) = g.f. for Catalan numbers A000108.",
+  "id": "A035101",
+  "mentions": [
+    "A000108",
+    "A001147",
+    "A001764",
+    "A002866",
+    "A008549",
+    "A035342",
+    "A129890",
+    "A336599"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of \"connected animals\" formed from n rhombic dodecahedra (or edge-connected cubes) in the face-centered cubic lattice, allowing translation and rotations of the lattice.",
+  "id": "A038172",
+  "mentions": [
+    "A000162",
+    "A036168",
+    "A036174",
+    "A038119"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

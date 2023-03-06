@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k that are divisors of the number formed by concatenating (k-1), k and (k+1), in that order.",
+  "id": "A088877",
+  "mentions": [
+    "A069871"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

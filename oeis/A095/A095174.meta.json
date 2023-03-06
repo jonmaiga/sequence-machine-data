@@ -1,0 +1,18 @@
+{
+  "description": "Inverse image of primes 2,3,5,7,... under the map Q defined in A095172.",
+  "id": "A095174",
+  "mentions": [
+    "A095172"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

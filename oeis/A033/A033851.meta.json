@@ -1,0 +1,31 @@
+{
+  "description": "Numbers whose prime factors are 5 and 7.",
+  "id": "A033851",
+  "mentions": [
+    "A003595",
+    "A033845",
+    "A033846",
+    "A033847",
+    "A033848",
+    "A033849",
+    "A033850",
+    "A143201",
+    "A143202",
+    "A147571",
+    "A147575",
+    "A147576",
+    "A147580",
+    "A256617"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

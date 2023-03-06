@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 1, a(1) = 2; for n > 1, a(n) = smallest positive number not already in sequence which has GCD > 1 with some earlier term.",
+  "id": "A089088",
+  "mentions": [
+    "A000040",
+    "A064413",
+    "A112975",
+    "A112988",
+    "A112990"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

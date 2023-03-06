@@ -1,0 +1,22 @@
+{
+  "description": "Squares of even heptagonal numbers.",
+  "id": "A014792",
+  "mentions": [
+    "A000566",
+    "A014637",
+    "A014640",
+    "A014773"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:40:33",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

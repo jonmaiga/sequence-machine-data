@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1 and for n > 1 let a(n) = a(n-1) + m, where m is the arithmetic mean of the largest subset of all predecessors such that m is an integer and m is maximal.",
+  "id": "A063676",
+  "mentions": [
+    "A063677",
+    "A063678"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

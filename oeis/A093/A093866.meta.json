@@ -1,0 +1,15 @@
+{
+  "description": "a(0)=1, then a(n) is the least number such that there are exactly n numbers coprime to a(n-1) between a(n-1) and a(n) (excluded).",
+  "id": "A093866",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

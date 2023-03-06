@@ -1,0 +1,23 @@
+{
+  "description": "Apply (1+Shift)^2 to Bell numbers.",
+  "id": "A011969",
+  "mentions": [
+    "A000110",
+    "A011965",
+    "A011968",
+    "A011970",
+    "A011971",
+    "A106436"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

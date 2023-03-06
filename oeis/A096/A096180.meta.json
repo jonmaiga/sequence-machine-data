@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: fraction of integers having k of the first n positive integers as divisors is T(n,k)/A003418(n).",
+  "id": "A096180",
+  "mentions": [
+    "A003418",
+    "A217863"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

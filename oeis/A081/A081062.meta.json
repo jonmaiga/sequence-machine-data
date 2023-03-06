@@ -1,0 +1,21 @@
+{
+  "description": "Neither 3-smooth numbers nor prime powers.",
+  "id": "A081062",
+  "mentions": [
+    "A000961",
+    "A003586",
+    "A081060",
+    "A081061"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of 1 + 32 * (eta(q^4) / eta(q))^8 in powers of q.",
+  "id": "A097243",
+  "mentions": [
+    "A007096",
+    "A007248",
+    "A014969",
+    "A092877",
+    "A139820",
+    "A189925",
+    "A212318",
+    "A232358"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

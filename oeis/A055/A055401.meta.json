@@ -1,0 +1,31 @@
+{
+  "description": "Number of positive cubes needed to sum to n using the greedy algorithm.",
+  "id": "A055401",
+  "mentions": [
+    "A000433",
+    "A000578",
+    "A002376",
+    "A018888",
+    "A048762",
+    "A048766",
+    "A053610",
+    "A055400",
+    "A261225",
+    "A261226",
+    "A261227",
+    "A261228",
+    "A261229"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

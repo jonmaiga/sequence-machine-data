@@ -1,0 +1,29 @@
+{
+  "description": "Transpose of A072764. 'cons' with arguments swapped.",
+  "id": "A072766",
+  "mentions": [
+    "A002262",
+    "A014486",
+    "A025581",
+    "A038722",
+    "A057548",
+    "A069770",
+    "A072764",
+    "A072767",
+    "A072768",
+    "A072771",
+    "A072772",
+    "A072795"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

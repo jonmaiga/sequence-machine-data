@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of times n occurs in A087817.",
+  "id": "A087824",
+  "mentions": [
+    "A087817"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

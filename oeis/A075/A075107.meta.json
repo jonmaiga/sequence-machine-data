@@ -1,0 +1,23 @@
+{
+  "description": "Number of steps to reach the first integer (= A075108(n)) starting with n/floor(log_2(n)) and iterating the map x -> x*ceiling(x), or -1 if no integer is ever reached.",
+  "id": "A075107",
+  "mentions": [
+    "A068119",
+    "A073524",
+    "A075102",
+    "A075105",
+    "A075106",
+    "A075108",
+    "A075120"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

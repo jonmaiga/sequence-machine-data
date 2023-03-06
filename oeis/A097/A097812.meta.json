@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^2 is the sum of two or more consecutive positive squares.",
+  "id": "A097812",
+  "mentions": [
+    "A001032",
+    "A097811",
+    "A151557"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Take the n-th number which is just a sequence of 1's and 2's (A007931): if the first k digits in order are the same as the last k digits in order then put 1 in the k-th from right digit of a(n), otherwise put a zero.",
+  "id": "A059941",
+  "mentions": [
+    "A007931",
+    "A059942",
+    "A059943"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

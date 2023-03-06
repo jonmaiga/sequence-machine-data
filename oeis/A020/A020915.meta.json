@@ -1,0 +1,29 @@
+{
+  "description": "Number of digits in base-3 representation of 2^n.",
+  "id": "A020915",
+  "mentions": [
+    "A000079",
+    "A007089",
+    "A020914",
+    "A022331",
+    "A022924",
+    "A076227",
+    "A081604",
+    "A102525",
+    "A136409"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

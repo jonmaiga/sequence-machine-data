@@ -1,0 +1,17 @@
+{
+  "description": "Start of consecutive solutions of phi(x) = phi(x+2). That is, phi(a(n)) = phi(a(n)+2) and phi(a(n)+1) = phi(a(n)+3).",
+  "id": "A050938",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

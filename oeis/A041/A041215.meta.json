@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(118).",
+  "id": "A041215",
+  "mentions": [
+    "A010183",
+    "A041214"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:51",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

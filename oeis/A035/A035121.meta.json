@@ -1,0 +1,15 @@
+{
+  "description": "Numbers of the form x^2+82*y^2.",
+  "id": "A035121",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:18:19",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

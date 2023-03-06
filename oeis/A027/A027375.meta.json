@@ -1,0 +1,35 @@
+{
+  "description": "Number of aperiodic binary strings of length n; also number of binary sequences with primitive period n.",
+  "id": "A027375",
+  "mentions": [
+    "A000002",
+    "A000031",
+    "A000048",
+    "A000079",
+    "A000740",
+    "A001037",
+    "A020921",
+    "A025142",
+    "A025143",
+    "A038199",
+    "A051841",
+    "A056267",
+    "A143324",
+    "A152061",
+    "A216953"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:41:19",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

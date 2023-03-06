@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose product of digits +1 and -1 gives twin prime pairs.",
+  "id": "A089377",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A006512",
+    "A007954"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

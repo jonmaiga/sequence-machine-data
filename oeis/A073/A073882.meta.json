@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes between n and n^2.",
+  "id": "A073882",
+  "mentions": [
+    "A000720",
+    "A010051",
+    "A038107",
+    "A117490"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

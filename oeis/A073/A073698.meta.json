@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is smallest prime not already in the sequence such that the sum of the first n terms is an n-th power.",
+  "id": "A073698",
+  "mentions": [
+    "A093355",
+    "A093927",
+    "A093928",
+    "A093929"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

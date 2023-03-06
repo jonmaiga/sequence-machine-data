@@ -1,0 +1,21 @@
+{
+  "description": "Position of the first occurrence of n in continued fraction for Champernowne constant (A030167).",
+  "id": "A038706",
+  "mentions": [
+    "A030167",
+    "A038704",
+    "A038705"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

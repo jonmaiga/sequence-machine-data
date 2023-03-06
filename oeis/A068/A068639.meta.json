@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 0, a(n) = a(n-1) + (-1)^p(n) for n >= 1, where p(n) = highest power of 2 dividing n.",
+  "id": "A068639",
+  "mentions": [
+    "A050292",
+    "A065359",
+    "A065639",
+    "A079944",
+    "A087733"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 79,
+    "source": "joeis"
+  }
+}

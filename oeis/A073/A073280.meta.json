@@ -1,0 +1,20 @@
+{
+  "description": "Self-inverse permutation of natural numbers induced by the composition of the Catalan bijections A069770 & A057163.",
+  "id": "A073280",
+  "mentions": [
+    "A057163",
+    "A069770",
+    "A073200"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

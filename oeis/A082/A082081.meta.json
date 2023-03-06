@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = fixed point when the pseudo-log function A008475[ ] is iterated.",
+  "id": "A082081",
+  "mentions": [
+    "A000961",
+    "A001414",
+    "A008475",
+    "A029908",
+    "A056239",
+    "A082083"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

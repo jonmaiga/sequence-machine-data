@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = binomial(n+2,2) + binomial(n+3,3) + binomial(n+4,4) + binomial(n+5,5).",
+  "id": "A027659",
+  "mentions": [
+    "A035343",
+    "A062750",
+    "A063422"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:35:33",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

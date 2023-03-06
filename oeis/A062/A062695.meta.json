@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree n such that the elliptic curve n*y^2 = x^3 - x arising in the \"congruent number\" problem has rank 2.",
+  "id": "A062695",
+  "mentions": [
+    "A003273",
+    "A006991",
+    "A062693",
+    "A062694",
+    "A259680",
+    "A259687"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

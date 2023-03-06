@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime > n!.",
+  "id": "A037151",
+  "mentions": [
+    "A000142",
+    "A033932",
+    "A087421",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

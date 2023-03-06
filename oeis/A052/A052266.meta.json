@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3 X n matrices over GF(3) under row and column permutations.",
+  "id": "A052266",
+  "mentions": [
+    "A002727"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:02:31",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

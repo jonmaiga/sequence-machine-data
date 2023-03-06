@@ -1,0 +1,27 @@
+{
+  "description": "Euler transform of Euler totient function phi(n), cf. A000010.",
+  "id": "A061255",
+  "mentions": [
+    "A000010",
+    "A001970",
+    "A006171",
+    "A057660",
+    "A061256",
+    "A061257",
+    "A074962",
+    "A299069",
+    "A318975"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "First numerator and then denominator of elements to right of central elements of 1/2-Pascal triangle (by row), excluding 2's.",
+  "id": "A046229",
+  "mentions": [
+    "A046213"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:29:31",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

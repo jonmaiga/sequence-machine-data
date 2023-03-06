@@ -1,0 +1,29 @@
+{
+  "description": "Number of obtuse integer triangles with perimeter n.",
+  "id": "A070101",
+  "mentions": [
+    "A005044",
+    "A024155",
+    "A024156",
+    "A070080",
+    "A070081",
+    "A070082",
+    "A070085",
+    "A070093",
+    "A070102",
+    "A070103",
+    "A070106",
+    "A070127"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

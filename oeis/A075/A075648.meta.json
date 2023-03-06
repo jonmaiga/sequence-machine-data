@@ -1,0 +1,20 @@
+{
+  "description": "Left side of the triangle A075652.",
+  "id": "A075648",
+  "mentions": [
+    "A075649",
+    "A075650",
+    "A075651",
+    "A075652"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Earliest sequence with a(a(n)) = 9n.",
+  "id": "A054789",
+  "mentions": [
+    "A002516",
+    "A002517",
+    "A002518",
+    "A007379",
+    "A008585"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:21:55",
+    "offset": 0,
+    "size": 63,
+    "source": "joeis"
+  }
+}

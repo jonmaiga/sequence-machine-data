@@ -1,0 +1,21 @@
+{
+  "description": "Number of symmetric singular n X n (0,1) matrices over the reals.",
+  "id": "A086906",
+  "mentions": [
+    "A046747",
+    "A086879",
+    "A086899",
+    "A118989"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

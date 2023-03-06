@@ -1,0 +1,22 @@
+{
+  "description": "Number of independent vertex sets in the n-prism graph Y_n = K_2 X C_n (n > 2).",
+  "id": "A051927",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A286513",
+    "A287376"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Product of all distinct nonzero numbers that can be formed from the digits of n.",
+  "id": "A061497",
+  "mentions": [
+    "A061487"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

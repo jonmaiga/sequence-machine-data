@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations sigma of [5n] without fixed points such that sigma^5 = Id.",
+  "id": "A052504",
+  "mentions": [
+    "A001147",
+    "A052502",
+    "A060706",
+    "A261317",
+    "A261381",
+    "A261430"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Binomial transform of A054341 and inverse binomial transform of A049027.",
+  "id": "A059738",
+  "mentions": [
+    "A026300",
+    "A049027",
+    "A054341",
+    "A125176",
+    "A126954"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

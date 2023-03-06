@@ -1,0 +1,19 @@
+{
+  "description": "Start with the prime 11; next prime must exceed previous prime and start with last digit of previous prime.",
+  "id": "A054262",
+  "mentions": [
+    "A053649"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:29:41",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

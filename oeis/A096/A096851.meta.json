@@ -1,0 +1,22 @@
+{
+  "description": "Even transient values of f(x)=phi(sigma(x)) iterations.",
+  "id": "A096851",
+  "mentions": [
+    "A095952",
+    "A095956",
+    "A096849",
+    "A096850",
+    "A096887",
+    "A096890"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

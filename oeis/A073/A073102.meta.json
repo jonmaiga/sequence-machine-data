@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 210n + 1.",
+  "id": "A073102",
+  "mentions": [
+    "A073085",
+    "A124826",
+    "A132230",
+    "A142076"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:50:51",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

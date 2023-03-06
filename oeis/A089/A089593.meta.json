@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^2 + 2k + 2 is prime.",
+  "id": "A089593",
+  "mentions": [
+    "A002496",
+    "A005574",
+    "A090693"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:59:51",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

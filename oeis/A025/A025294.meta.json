@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the sum of 2 nonzero squares in 3 or more ways.",
+  "id": "A025294",
+  "mentions": [
+    "A007692",
+    "A025285",
+    "A025426"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

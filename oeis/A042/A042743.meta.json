@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(902).",
+  "id": "A042743",
+  "mentions": [
+    "A040871",
+    "A042742"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

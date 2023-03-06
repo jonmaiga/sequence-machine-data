@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: a(n,k) = C(n,k)*(2^(n-k) - 1) for k= n, where k=0..max(n-1,0).",
+  "id": "A091913",
+  "mentions": [
+    "A000225",
+    "A001047",
+    "A001787",
+    "A006684",
+    "A007318",
+    "A027641",
+    "A027642",
+    "A028243",
+    "A028310",
+    "A038207",
+    "A045943",
+    "A058877"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

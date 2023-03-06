@@ -1,0 +1,15 @@
+{
+  "description": "\"DHK\" (bracelet, identity, unlabeled) transform of 1,0,1,0,... (odd).",
+  "id": "A032243",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

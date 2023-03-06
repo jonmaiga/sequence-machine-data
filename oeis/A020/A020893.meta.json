@@ -1,0 +1,33 @@
+{
+  "description": "Squarefree sums of two squares; or squarefree numbers with no prime factors of the form 4k+3.",
+  "id": "A020893",
+  "mentions": [
+    "A000290",
+    "A001481",
+    "A002313",
+    "A003654",
+    "A005117",
+    "A008784",
+    "A010052",
+    "A013661",
+    "A022544",
+    "A031398",
+    "A034023",
+    "A064533",
+    "A084349",
+    "A175908",
+    "A202057",
+    "A231754"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of primes p between triangular numbers T(n) < p <= T(n+1).",
+  "id": "A066888",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A014085",
+    "A057062",
+    "A065382",
+    "A083382",
+    "A090970",
+    "A190661"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

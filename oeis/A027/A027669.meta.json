@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that for some m, the sum of the first m n-gonal numbers is again an n-gonal number.",
+  "id": "A027669",
+  "mentions": [
+    "A027696"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

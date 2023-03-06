@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of e^e.",
+  "id": "A073226",
+  "mentions": [
+    "A001113",
+    "A004002",
+    "A030178",
+    "A049006",
+    "A056072",
+    "A072364",
+    "A073227",
+    "A073229",
+    "A073230",
+    "A073233"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

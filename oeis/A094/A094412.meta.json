@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k that divide Fibonacci(k+1) but do not divide Fibonacci(k) + 1.",
+  "id": "A094412",
+  "mentions": [
+    "A000045",
+    "A069107",
+    "A094395",
+    "A094401",
+    "A094411"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

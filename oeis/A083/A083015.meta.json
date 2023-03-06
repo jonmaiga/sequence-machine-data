@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = the number of ordered pairs of n-bit bit strings, such that both bit strings have at least n/2 one-bits, or both have at most n/2 one-bits.",
+  "id": "A083015",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Product of 8 successive primes.",
+  "id": "A046326",
+  "mentions": [
+    "A002110",
+    "A006094",
+    "A046301",
+    "A046302",
+    "A046303",
+    "A046324",
+    "A046325",
+    "A046327"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:31:03",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

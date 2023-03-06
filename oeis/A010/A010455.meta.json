@@ -1,0 +1,19 @@
+{
+  "description": "Squares mod 94.",
+  "id": "A010455",
+  "mentions": [
+    "A028807"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

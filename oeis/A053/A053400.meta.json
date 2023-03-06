@@ -1,0 +1,21 @@
+{
+  "description": "Number of 3-multigraphs on n nodes.",
+  "id": "A053400",
+  "mentions": [
+    "A004102",
+    "A063841",
+    "A063843"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Smallest number whose Reverse and Add! trajectory (presumably) contains exactly n palindromes, or -1 if there is no such number.",
+  "id": "A077594",
+  "mentions": [
+    "A002113",
+    "A006960",
+    "A023108",
+    "A063048",
+    "A063433",
+    "A065001",
+    "A070742"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

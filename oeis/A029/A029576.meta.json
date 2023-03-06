@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of an n-set containing a 9-cycle.",
+  "id": "A029576",
+  "mentions": [
+    "A293211"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

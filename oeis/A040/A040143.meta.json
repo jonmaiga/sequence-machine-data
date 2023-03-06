@@ -1,0 +1,21 @@
+{
+  "description": "Continued fraction for sqrt(156).",
+  "id": "A040143",
+  "mentions": [
+    "A041286",
+    "A041287"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:18:39",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

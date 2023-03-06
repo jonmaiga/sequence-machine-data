@@ -1,0 +1,15 @@
+{
+  "description": "Recip transform of 2*(1 + x^4)-1/(1-x).",
+  "id": "A049152",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:04:38",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

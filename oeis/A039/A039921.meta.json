@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction expansion of w = 2*cos(Pi/7).",
+  "id": "A039921",
+  "mentions": [
+    "A002945",
+    "A160389"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

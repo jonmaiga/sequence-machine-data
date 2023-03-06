@@ -1,0 +1,25 @@
+{
+  "description": "Smallest number whose n-th power is a sum of distinct smaller positive n-th powers.",
+  "id": "A030052",
+  "mentions": [
+    "A001661",
+    "A009003",
+    "A078607",
+    "A332065",
+    "A332097",
+    "A332101"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

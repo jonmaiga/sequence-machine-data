@@ -1,0 +1,29 @@
+{
+  "description": "If n = p_1^e_1 * ... * p_k^e_k, p_1 < ... < p_k primes, then a(n) = p_k^e_k.",
+  "id": "A053585",
+  "mentions": [
+    "A001221",
+    "A006530",
+    "A008475",
+    "A020639",
+    "A028233",
+    "A034684",
+    "A034699",
+    "A051119",
+    "A071178",
+    "A141809"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:09:43",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest prime q such that floor(sigma(sigma(q))/q) = n.",
+  "id": "A098222",
+  "mentions": [
+    "A000203",
+    "A008333",
+    "A025487",
+    "A051027",
+    "A091439",
+    "A098219",
+    "A098220",
+    "A098221"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

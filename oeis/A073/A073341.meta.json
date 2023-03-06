@@ -1,0 +1,21 @@
+{
+  "description": "Number of steps to reach an integer starting with (2n+1)/4 and iterating the map x -> x*ceiling(x).",
+  "id": "A073341",
+  "mentions": [
+    "A073524",
+    "A074735",
+    "A085785",
+    "A085817",
+    "A085833"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

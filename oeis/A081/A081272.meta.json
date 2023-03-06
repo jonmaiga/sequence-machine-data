@@ -1,0 +1,26 @@
+{
+  "description": "Downward vertical of triangular spiral in A051682.",
+  "id": "A081272",
+  "mentions": [
+    "A038764",
+    "A051682",
+    "A060544",
+    "A062741",
+    "A080855",
+    "A081271",
+    "A081589",
+    "A157889"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:59:37",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

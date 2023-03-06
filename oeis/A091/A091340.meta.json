@@ -1,0 +1,22 @@
+{
+  "description": "Amicable numbers with property that each member m of the corresponding amicable pair is divisible by sopfr(m) (the sum of prime factors with repetition, A001414).",
+  "id": "A091340",
+  "mentions": [
+    "A001414",
+    "A046346",
+    "A063990",
+    "A259180",
+    "A267076"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

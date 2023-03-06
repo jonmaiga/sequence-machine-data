@@ -1,0 +1,28 @@
+{
+  "description": "Number of functions from {0,1}^n to {0,1}^n.",
+  "id": "A057156",
+  "mentions": [
+    "A000079",
+    "A000312",
+    "A000722",
+    "A001146",
+    "A036289",
+    "A043322",
+    "A057157",
+    "A092258",
+    "A134880"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

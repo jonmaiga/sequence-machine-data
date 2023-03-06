@@ -1,0 +1,17 @@
+{
+  "description": "Self-inverse integer permutation induced by A088230.",
+  "id": "A088337",
+  "mentions": [
+    "A088230"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

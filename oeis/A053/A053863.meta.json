@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n matrices over GF(4) of order dividing 8 (i.e., number of solutions of X^8=I in GL(n,4)).",
+  "id": "A053863",
+  "mentions": [
+    "A053765",
+    "A053773"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Fibonacci(n) - n.",
+  "id": "A065220",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A000126",
+    "A001477",
+    "A001924",
+    "A002062",
+    "A045925"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:44:49",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

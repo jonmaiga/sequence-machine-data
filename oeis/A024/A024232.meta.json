@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of sinh(sin(x))*sin(x)/2.",
+  "id": "A024232",
+  "mentions": [
+    "A009591"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:02:04",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

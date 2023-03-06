@@ -1,0 +1,22 @@
+{
+  "description": "Number of connected labeled chordal graphs on n nodes with no induced path P_4; also the number of labeled trees with each vertex replaced by a clique.",
+  "id": "A058863",
+  "mentions": [
+    "A007134",
+    "A048802",
+    "A058864",
+    "A058865",
+    "A060356"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

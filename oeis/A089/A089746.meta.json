@@ -1,0 +1,21 @@
+{
+  "description": "Period 12: repeat (4, 4, 1, 2, 1, 1, 2, 2, 3, 3, 3, 3). (Number of syllables in English name of the months.)",
+  "id": "A089746",
+  "mentions": [
+    "A031139",
+    "A031189",
+    "A075774"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:05:51",
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the difference between Pi/8 (A019675) and A091473.",
+  "id": "A091494",
+  "mentions": [
+    "A019675",
+    "A091473"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": -42,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

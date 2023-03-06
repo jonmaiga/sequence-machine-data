@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=least k satisfying a(k)=2*k in A050128.",
+  "id": "A050130",
+  "mentions": [
+    "A050128"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 10:59:15",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

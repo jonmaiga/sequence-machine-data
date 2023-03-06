@@ -1,0 +1,19 @@
+{
+  "description": "First nontrivial or multidigital Armstrong number to base n.",
+  "id": "A016087",
+  "mentions": [
+    "A005188",
+    "A259347"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 3,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

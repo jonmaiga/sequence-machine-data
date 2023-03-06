@@ -1,0 +1,22 @@
+{
+  "description": "Fourth unsigned column of Lanczos triangle A053125 (decreasing powers).",
+  "id": "A054322",
+  "mentions": [
+    "A002700",
+    "A053123",
+    "A053125",
+    "A054329"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

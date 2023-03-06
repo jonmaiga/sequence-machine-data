@@ -1,0 +1,18 @@
+{
+  "description": "Numerators in expansion of exp(exp(x)-1)/(2-x).",
+  "id": "A058815",
+  "mentions": [
+    "A058816"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

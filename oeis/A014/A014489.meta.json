@@ -1,0 +1,23 @@
+{
+  "description": "Positions of involutions (permutations whose square is the identity) in reverse colexicographic order (A055089/A195663).",
+  "id": "A014489",
+  "mentions": [
+    "A055089",
+    "A055092",
+    "A060112",
+    "A064640",
+    "A195663",
+    "A261099",
+    "A261220"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:39:49",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

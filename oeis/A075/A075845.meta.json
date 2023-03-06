@@ -1,0 +1,17 @@
+{
+  "description": "Associated to determinants of skew-symmetric matrices related to Catalan-numbers or central binomial coefficients.",
+  "id": "A075845",
+  "mentions": [
+    "A127632"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

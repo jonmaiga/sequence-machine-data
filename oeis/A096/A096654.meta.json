@@ -1,0 +1,27 @@
+{
+  "description": "Denominators of self-convergents to 1/(e-2).",
+  "id": "A096654",
+  "mentions": [
+    "A000166",
+    "A000255",
+    "A055596",
+    "A096655",
+    "A096656",
+    "A096657",
+    "A096658",
+    "A097591",
+    "A233590"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:14:18",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

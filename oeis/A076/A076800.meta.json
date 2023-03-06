@@ -1,0 +1,20 @@
+{
+  "description": "Greedy powers of (e/4): sum_{n=1..inf} (e/4)^a(n) = 1.",
+  "id": "A076800",
+  "mentions": [
+    "A077468",
+    "A077475"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

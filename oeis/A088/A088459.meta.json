@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) represents the number of lozenge tilings of an (n,1,n)-hexagon which include the non-vertical tile above the main diagonal starting in position k+1.",
+  "id": "A088459",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000984",
+    "A002378",
+    "A002411",
+    "A004302",
+    "A006011",
+    "A360571"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:29:27",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

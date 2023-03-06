@@ -1,0 +1,23 @@
+{
+  "description": "Not necessarily symmetric n X 4 crossword puzzle grids.",
+  "id": "A034187",
+  "mentions": [
+    "A001333",
+    "A034184",
+    "A034185",
+    "A034186",
+    "A059680",
+    "A292357"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

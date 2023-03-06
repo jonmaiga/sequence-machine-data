@@ -1,0 +1,20 @@
+{
+  "description": "Nexus numbers (n+1)^17 - n^17.",
+  "id": "A022533",
+  "mentions": [
+    "A010805",
+    "A047969"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

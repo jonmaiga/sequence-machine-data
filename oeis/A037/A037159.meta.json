@@ -1,0 +1,24 @@
+{
+  "description": "Consider the trajectory of n under the iteration of a map which sends x to 3x - sigma(x) if this is >= 0; otherwise the iteration stops. The sequence gives values of n which eventually reach 0.",
+  "id": "A037159",
+  "mentions": [
+    "A033885",
+    "A033945",
+    "A033946",
+    "A037160",
+    "A058541",
+    "A058542",
+    "A058545"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

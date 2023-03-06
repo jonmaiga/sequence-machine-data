@@ -1,0 +1,19 @@
+{
+  "description": "Record depths reached by card 1 in the shuffle in A035485.",
+  "id": "A057975",
+  "mentions": [
+    "A035485",
+    "A035492",
+    "A057976"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

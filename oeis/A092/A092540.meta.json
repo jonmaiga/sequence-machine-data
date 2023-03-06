@@ -1,0 +1,18 @@
+{
+  "description": "Primes such that their binary representation coincides with first n terms of A051023 for some n.",
+  "id": "A092540",
+  "mentions": [
+    "A051023",
+    "A092539"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

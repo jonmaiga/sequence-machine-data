@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k is a substring of k^k.",
+  "id": "A049329",
+  "mentions": [
+    "A000312"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers n such that string 3,7 occurs in the base 8 representation of n but not of n-1.",
+  "id": "A044218",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:22:19",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

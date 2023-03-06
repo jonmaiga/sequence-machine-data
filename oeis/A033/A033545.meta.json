@@ -1,0 +1,18 @@
+{
+  "description": "Uniform numbers retired by New York Yankees.",
+  "id": "A033545",
+  "mentions": [
+    "A033546"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

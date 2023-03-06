@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; a(n+1) is the least squarefree m not already used such that |m-a(n)| is not equal to |a(k+1)-a(k)| for any k < n.",
+  "id": "A084334",
+  "mentions": [
+    "A081145",
+    "A084331"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose smallest expression as a sum of positive cubes requires exactly 7 cubes.",
+  "id": "A018890",
+  "mentions": [
+    "A004829",
+    "A018888",
+    "A018889"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

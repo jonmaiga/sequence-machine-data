@@ -1,0 +1,36 @@
+{
+  "description": "Binary expansion matches (100(0)*)*(0|1|10)?; or, Zeckendorf-like expansion of n using recurrence f(n) = f(n-1) + f(n-3).",
+  "id": "A048715",
+  "mentions": [
+    "A000045",
+    "A000930",
+    "A003714",
+    "A003726",
+    "A004742",
+    "A004743",
+    "A004744",
+    "A048716",
+    "A048717",
+    "A048718",
+    "A048719",
+    "A048727",
+    "A048730",
+    "A048733",
+    "A115422",
+    "A115423",
+    "A115424"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:30:23",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

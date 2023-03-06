@@ -1,0 +1,20 @@
+{
+  "description": "Number of 4 X n (0,1)-matrices with no consecutive 1's in any row or column.",
+  "id": "A051737",
+  "mentions": [
+    "A051736",
+    "A089934"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

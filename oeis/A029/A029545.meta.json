@@ -1,0 +1,15 @@
+{
+  "description": "Theta series of 10-dimensional 2-modular lattice of minimal norm 2.",
+  "id": "A029545",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

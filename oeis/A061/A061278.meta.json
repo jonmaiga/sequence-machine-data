@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 5*a(n-1) - 5*a(n-2) + a(n-3) with a(1) = 1 and a(k) = 0 if k <= 0.",
+  "id": "A061278",
+  "mentions": [
+    "A001075",
+    "A001353",
+    "A001571",
+    "A001834",
+    "A001835",
+    "A003500",
+    "A079935",
+    "A101265",
+    "A212336"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Maximal number of pairwise edge-disjoint monochromatic K_3's in a K_n for any 2-coloring of the edges of K_n.",
+  "id": "A060407",
+  "mentions": [
+    "A001839"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 3,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for log(15/2).",
+  "id": "A016535",
+  "mentions": [
+    "A016584"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

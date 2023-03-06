@@ -1,0 +1,33 @@
+{
+  "description": "Square array read by antidiagonals of number of ways of dividing n*k labeled items into n labeled boxes with k items in each box.",
+  "id": "A060538",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A000680",
+    "A000984",
+    "A006480",
+    "A008977",
+    "A008978",
+    "A014606",
+    "A014608",
+    "A014609",
+    "A034841",
+    "A060539",
+    "A060540",
+    "A187783"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Terms of A088753 that are not terms of A063048.",
+  "id": "A089521",
+  "mentions": [
+    "A063048",
+    "A088753",
+    "A089522",
+    "A089694"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

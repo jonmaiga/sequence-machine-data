@@ -1,0 +1,20 @@
+{
+  "description": "Primes resulting from serial multiplication of even composites, minus 1.",
+  "id": "A093155",
+  "mentions": [
+    "A093154",
+    "A101323"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

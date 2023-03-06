@@ -1,0 +1,27 @@
+{
+  "description": "Hoax numbers: composite numbers whose digit-sum equals the sum of the digit-sums of its distinct prime factors.",
+  "id": "A019506",
+  "mentions": [
+    "A001221",
+    "A002808",
+    "A006753",
+    "A007953",
+    "A027748",
+    "A050223",
+    "A066247",
+    "A202387",
+    "A202393"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

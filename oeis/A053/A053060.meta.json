@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n invertible binary matrices A such that A^3+I is invertible.",
+  "id": "A053060",
+  "mentions": [
+    "A002820",
+    "A053071"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

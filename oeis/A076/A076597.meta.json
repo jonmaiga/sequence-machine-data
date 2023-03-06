@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that sqrt(k*(k-1)*(k-2)*(k-3)+1) is a prime.",
+  "id": "A076597",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

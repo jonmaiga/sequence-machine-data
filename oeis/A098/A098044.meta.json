@@ -1,0 +1,20 @@
+{
+  "description": "Odd primes p such that Pi_{3,1}(p) = Pi_{3,2}(p) - 1, where Pi_{m,n}(p) denotes the number of primes q <= p with q == n (mod m).",
+  "id": "A098044",
+  "mentions": [
+    "A000040",
+    "A007352",
+    "A096629"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

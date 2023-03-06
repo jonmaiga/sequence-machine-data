@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers in writing first denominator and then numerator of each element of the 1/5-Pascal triangle (by row).",
+  "id": "A046623",
+  "mentions": [
+    "A046601"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "frac",
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:34:03",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

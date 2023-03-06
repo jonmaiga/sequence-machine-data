@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered factorizations indexed by prime signatures: A074206(A025487).",
+  "id": "A050324",
+  "mentions": [
+    "A002033",
+    "A025487",
+    "A034776",
+    "A074206",
+    "A163272"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected regular bipartite graphs of degree 7 with 2n nodes.",
+  "id": "A014387",
+  "mentions": [
+    "A008326"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 7,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

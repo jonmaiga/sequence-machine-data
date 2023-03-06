@@ -1,0 +1,36 @@
+{
+  "description": "Number of monic irreducible polynomials over GF(4) of degree n with fixed nonzero trace.",
+  "id": "A054660",
+  "mentions": [
+    "A000048",
+    "A008683",
+    "A046209",
+    "A046211",
+    "A051841",
+    "A054661",
+    "A074025",
+    "A074033",
+    "A074034",
+    "A074035",
+    "A074406",
+    "A074407",
+    "A074408",
+    "A074409",
+    "A074448",
+    "A074449",
+    "A074450",
+    "A300628"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

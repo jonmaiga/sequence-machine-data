@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2^(n-2)*binomial(n+1,2).",
+  "id": "A052482",
+  "mentions": [
+    "A080929",
+    "A301459"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

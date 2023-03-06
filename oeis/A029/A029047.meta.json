@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/((1-x)(1-x^3)(1-x^6)(1-x^10)).",
+  "id": "A029047",
+  "mentions": [
+    "A008620"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:41:11",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

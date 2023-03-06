@@ -1,0 +1,20 @@
+{
+  "description": "Integers 1 to Catalan(n) followed by integers 1 to Catalan(n+1) etc.",
+  "id": "A082854",
+  "mentions": [
+    "A000108",
+    "A002260",
+    "A082853"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

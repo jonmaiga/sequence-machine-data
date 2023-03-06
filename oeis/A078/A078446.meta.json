@@ -1,0 +1,23 @@
+{
+  "description": "a(1)=a(2)=1; a(n)=a(n-2)/2 if a(n-2) is even, a(n)=a(n-1)+a(n-2) otherwise.",
+  "id": "A078446",
+  "mentions": [
+    "A004737",
+    "A006590",
+    "A027052",
+    "A071028",
+    "A071797",
+    "A078358"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

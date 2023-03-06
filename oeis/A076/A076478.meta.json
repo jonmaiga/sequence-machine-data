@@ -1,0 +1,47 @@
+{
+  "description": "The binary Champernowne sequence: concatenate binary vectors of lengths 1, 2, 3, ... in numerical order.",
+  "id": "A076478",
+  "mentions": [
+    "A000523",
+    "A005498",
+    "A005843",
+    "A007931",
+    "A030308",
+    "A048881",
+    "A053645",
+    "A081241",
+    "A171757",
+    "A206332",
+    "A258410",
+    "A341256",
+    "A341258",
+    "A341334",
+    "A342753",
+    "A342910",
+    "A346299",
+    "A346300",
+    "A346301",
+    "A346302",
+    "A346303",
+    "A346304",
+    "A346305",
+    "A346306",
+    "A346307",
+    "A346308",
+    "A346309",
+    "A346310"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "k between A001359(n) and A001359(n+1) such that A073830(k) is maximal.",
+  "id": "A073832",
+  "mentions": [
+    "A001359",
+    "A073830",
+    "A073831"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

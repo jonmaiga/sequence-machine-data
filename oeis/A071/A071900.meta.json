@@ -1,0 +1,31 @@
+{
+  "description": "1/4 times the number of n X n 0..7 matrices with MM' mod 8 = I, where M' is the transpose of M and I is the n X n identity matrix.",
+  "id": "A071900",
+  "mentions": [
+    "A060968",
+    "A071302",
+    "A071303",
+    "A071304",
+    "A071305",
+    "A071306",
+    "A071307",
+    "A071308",
+    "A071309",
+    "A071310",
+    "A087784",
+    "A208895",
+    "A264083"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

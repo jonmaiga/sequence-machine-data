@@ -1,0 +1,18 @@
+{
+  "description": "Cube root of n-th partial sum of A090960.",
+  "id": "A090961",
+  "mentions": [
+    "A090960"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

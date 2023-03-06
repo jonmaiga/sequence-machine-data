@@ -1,0 +1,20 @@
+{
+  "description": "Roman numerals version of the Look and Say sequence (original at A005150).",
+  "id": "A098595",
+  "mentions": [
+    "A005150"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

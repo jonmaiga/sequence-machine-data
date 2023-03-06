@@ -1,0 +1,22 @@
+{
+  "description": "First nonprime number reached when iterating n under x->2*x+1.",
+  "id": "A093007",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A038699",
+    "A063377",
+    "A070939",
+    "A093009"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

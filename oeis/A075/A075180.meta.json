@@ -1,0 +1,32 @@
+{
+  "description": "Denominators from e.g.f. 1/(1-exp(-x)) - 1/x.",
+  "id": "A075180",
+  "mentions": [
+    "A000142",
+    "A002445",
+    "A006232",
+    "A006233",
+    "A006863",
+    "A006953",
+    "A027641",
+    "A027642",
+    "A060054",
+    "A079612",
+    "A106831",
+    "A242179",
+    "A300711"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

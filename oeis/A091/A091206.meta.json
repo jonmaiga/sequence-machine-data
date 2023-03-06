@@ -1,0 +1,32 @@
+{
+  "description": "Primes whose binary representation encodes a polynomial irreducible over GF(2).",
+  "id": "A091206",
+  "mentions": [
+    "A000040",
+    "A014580",
+    "A027697",
+    "A091207",
+    "A091208",
+    "A091209",
+    "A091212",
+    "A091214",
+    "A091247",
+    "A235041",
+    "A235042",
+    "A235045",
+    "A238186",
+    "A255569",
+    "A257688"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

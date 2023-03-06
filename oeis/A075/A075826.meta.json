@@ -1,0 +1,22 @@
+{
+  "description": "n minus (number of letters in English name of n).",
+  "id": "A075826",
+  "mentions": [
+    "A005589",
+    "A007208",
+    "A167507"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "less",
+    "sign",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:48:57",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

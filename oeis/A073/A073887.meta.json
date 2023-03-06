@@ -1,0 +1,16 @@
+{
+  "description": "Smallest prime p such that sum of p and the next n-1 primes is a perfect square, or 1 if no such prime exists.",
+  "id": "A073887",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

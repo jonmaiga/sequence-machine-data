@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p^2-p-1 is prime.",
+  "id": "A091567",
+  "mentions": [
+    "A053182",
+    "A053184",
+    "A065508",
+    "A091568"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

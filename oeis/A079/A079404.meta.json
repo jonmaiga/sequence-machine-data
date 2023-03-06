@@ -1,0 +1,17 @@
+{
+  "description": "Let G(n) be the set of numbers between 2^(n-1) and 2^n-1, inclusive. There is a unique number m(n) in G(n) so that the denominator of the m(n)-th partial sum of the double harmonic series is divisible by smaller 2-power than that of others in G(n). This power is defined to be a(n).",
+  "id": "A079404",
+  "mentions": [
+    "A079403"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

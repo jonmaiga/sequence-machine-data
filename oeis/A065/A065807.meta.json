@@ -1,0 +1,30 @@
+{
+  "description": "Squares with a smaller square as final digits.",
+  "id": "A065807",
+  "mentions": [
+    "A038678",
+    "A050634",
+    "A050636",
+    "A050638",
+    "A061839",
+    "A065689",
+    "A065776",
+    "A065782",
+    "A065785",
+    "A065788",
+    "A065791",
+    "A065808"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

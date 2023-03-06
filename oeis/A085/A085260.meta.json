@@ -1,0 +1,24 @@
+{
+  "description": "Ratio-determined insertion sequence I(0.0833344) (see the link below).",
+  "id": "A085260",
+  "mentions": [
+    "A078362",
+    "A082630",
+    "A082981",
+    "A085376",
+    "A094954",
+    "A108299",
+    "A238379"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

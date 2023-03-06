@@ -1,0 +1,20 @@
+{
+  "description": "Least k <= n such that n*tau(k) = k*tau(n), where tau(n) is the number of divisors of n (A000005).",
+  "id": "A094758",
+  "mentions": [
+    "A000005",
+    "A094757",
+    "A094759",
+    "A095300"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

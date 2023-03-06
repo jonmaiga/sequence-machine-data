@@ -1,0 +1,17 @@
+{
+  "description": "Least product of successive primes beginning from just greater than n which is > n!.",
+  "id": "A092981",
+  "mentions": [
+    "A092982"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

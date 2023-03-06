@@ -1,0 +1,17 @@
+{
+  "description": "Position of n^2 + (n+1)^2 in A000404 (sums of 2 nonzero squares).",
+  "id": "A024519",
+  "mentions": [
+    "A000404"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

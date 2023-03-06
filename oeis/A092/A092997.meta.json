@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that 1 < c < n < p < k, where p is a prime and c is a composite number such that for every c there exists a distinct p.",
+  "id": "A092997",
+  "mentions": [
+    "A077154",
+    "A092996",
+    "A092998"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

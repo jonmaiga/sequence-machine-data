@@ -1,0 +1,24 @@
+{
+  "description": "Coefficient triangle of polynomials (falling powers) related to convolutions of A001045(n+1), n >= 0, (generalized (1,2)-Fibonacci). Companion triangle is A073399.",
+  "id": "A073400",
+  "mentions": [
+    "A001045",
+    "A073370",
+    "A073372",
+    "A073399",
+    "A073401"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

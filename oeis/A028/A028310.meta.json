@@ -1,0 +1,32 @@
+{
+  "description": "Expansion of (1 - x + x^2) / (1 - x)^2 in powers of x.",
+  "id": "A028310",
+  "mentions": [
+    "A000007",
+    "A000027",
+    "A000660",
+    "A001477",
+    "A004001",
+    "A005183",
+    "A005229",
+    "A006784",
+    "A062157",
+    "A112934",
+    "A123110",
+    "A204503",
+    "A212393"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:47",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

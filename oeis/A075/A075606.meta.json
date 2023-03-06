@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k not a palindrome and not divisible by 10 such that k and R(k) both are divisible by n, or 0 if n is divisible by 10.",
+  "id": "A075606",
+  "mentions": [
+    "A004086",
+    "A075605"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

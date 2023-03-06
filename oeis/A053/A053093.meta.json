@@ -1,0 +1,18 @@
+{
+  "description": "Smallest composite which when sum of prime factors is repeatedly subtracted reaches a prime after n iterations.",
+  "id": "A053093",
+  "mentions": [
+    "A050710",
+    "A053094"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

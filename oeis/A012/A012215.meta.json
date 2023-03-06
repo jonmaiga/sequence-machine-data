@@ -1,0 +1,15 @@
+{
+  "description": "arctan(arctan(arcsinh(x)))=x-5/3!*x^3+137/5!*x^5-9029/7!*x^7...",
+  "id": "A012215",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:58:39",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

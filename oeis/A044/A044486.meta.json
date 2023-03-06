@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that string 0,3 occurs in the base 6 representation of n but not of n+1.",
+  "id": "A044486",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:22:27",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

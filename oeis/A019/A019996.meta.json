@@ -1,0 +1,17 @@
+{
+  "description": "From George Gilbert's marks problem: jumping 6 marks at a time (final positions).",
+  "id": "A019996",
+  "mentions": [
+    "A019995"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

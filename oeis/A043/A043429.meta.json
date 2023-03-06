@@ -1,0 +1,18 @@
+{
+  "description": "Numbers having one 2 in base 8.",
+  "id": "A043429",
+  "mentions": [
+    "A007094"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:15",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

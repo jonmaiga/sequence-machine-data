@@ -1,0 +1,30 @@
+{
+  "description": "Derivative of n: write n in binary, replace each pair of adjacent bits with their mod 2 sum (a(0)=a(1)=0 by convention). Also n XOR (n shift 1).",
+  "id": "A038554",
+  "mentions": [
+    "A000035",
+    "A000225",
+    "A003188",
+    "A003415",
+    "A030308",
+    "A038556",
+    "A038558",
+    "A038570",
+    "A038571",
+    "A062289",
+    "A079944"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:39:13",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

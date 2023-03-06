@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} C(n,k)*Stirling1(n,k)*Stirling2(n,k).",
+  "id": "A047795",
+  "mentions": [
+    "A008275",
+    "A008277",
+    "A047792",
+    "A047793",
+    "A047794"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

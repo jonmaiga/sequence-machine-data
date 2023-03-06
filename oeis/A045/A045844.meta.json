@@ -1,0 +1,23 @@
+{
+  "description": "a(n+1) = a(n) + largest digit of a(n); a(0) = 1.",
+  "id": "A045844",
+  "mentions": [
+    "A061681",
+    "A095815",
+    "A132137"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

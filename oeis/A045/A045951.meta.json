@@ -1,0 +1,16 @@
+{
+  "description": "Number of solutions to product_A+product_B=product_C where A,B,C is a partition of {1,2,...n}.",
+  "id": "A045951",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

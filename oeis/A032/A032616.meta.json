@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(n^2/Pi).",
+  "id": "A032616",
+  "mentions": [
+    "A032615"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:04:05",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

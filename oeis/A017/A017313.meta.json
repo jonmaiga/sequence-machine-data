@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (10*n + 3)^9.",
+  "id": "A017313",
+  "mentions": [
+    "A001017",
+    "A017305"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:24",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

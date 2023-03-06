@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the multiplicative order of 2 modulo k is odd.",
+  "id": "A036259",
+  "mentions": [
+    "A002326",
+    "A007733",
+    "A036260",
+    "A053006"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

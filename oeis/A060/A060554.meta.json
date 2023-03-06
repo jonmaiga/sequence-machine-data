@@ -1,0 +1,20 @@
+{
+  "description": "String together the first n numbers in an order which maximizes the result.",
+  "id": "A060554",
+  "mentions": [
+    "A000422",
+    "A060555"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

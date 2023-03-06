@@ -1,0 +1,29 @@
+{
+  "description": "Powers of ten written in base 2.",
+  "id": "A055473",
+  "mentions": [
+    "A000468",
+    "A007088",
+    "A011557",
+    "A055474",
+    "A055475",
+    "A055476",
+    "A055477",
+    "A055478",
+    "A055479",
+    "A291962"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes that are the arithmetic mean of their prime predecessor and another prime.",
+  "id": "A071680",
+  "mentions": [
+    "A000040",
+    "A006562",
+    "A071681"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

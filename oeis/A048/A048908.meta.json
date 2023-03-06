@@ -1,0 +1,20 @@
+{
+  "description": "Indices of triangular numbers which are also 9-gonal.",
+  "id": "A048908",
+  "mentions": [
+    "A048907",
+    "A048909"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

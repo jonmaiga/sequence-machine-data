@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows, giving prime sequences (p-1|2n) appearing in the n-th von Staudt-Clausen sum.",
+  "id": "A080092",
+  "mentions": [
+    "A000146",
+    "A002445",
+    "A027642",
+    "A046886",
+    "A138239",
+    "A143343"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

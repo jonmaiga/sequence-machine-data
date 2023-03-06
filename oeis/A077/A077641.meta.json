@@ -1,0 +1,18 @@
+{
+  "description": "Number of squarefree integers in closed interval [n, 2n-1], i.e., among n consecutive numbers beginning with n.",
+  "id": "A077641",
+  "mentions": [
+    "A005117"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

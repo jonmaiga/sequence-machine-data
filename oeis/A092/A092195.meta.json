@@ -1,0 +1,20 @@
+{
+  "description": "Primes p that do not divide A001008(k), the numerator of the k-th harmonic number H(k), for any k < p-1.",
+  "id": "A092195",
+  "mentions": [
+    "A001008",
+    "A007703",
+    "A072984",
+    "A092101"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

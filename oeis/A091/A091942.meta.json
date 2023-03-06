@@ -1,0 +1,20 @@
+{
+  "description": "a(n) equals the maximum number of partial quotients in the simple continued fraction expansion of (1/n + 1/k) for k>=1.",
+  "id": "A091942",
+  "mentions": [
+    "A091941",
+    "A091943",
+    "A091944"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

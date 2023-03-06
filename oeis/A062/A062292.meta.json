@@ -1,0 +1,21 @@
+{
+  "description": "A B_2 sequence: a(n) is the smallest cube such that the pairwise sums of {a(1)...a(n)} are all distinct.",
+  "id": "A062292",
+  "mentions": [
+    "A005282",
+    "A010672",
+    "A011185",
+    "A025582",
+    "A062294"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

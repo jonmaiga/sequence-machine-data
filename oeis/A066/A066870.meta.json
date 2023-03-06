@@ -1,0 +1,19 @@
+{
+  "description": "Happy amicable pairs: numbers which belong to an amicable pair in which both terms are happy numbers.",
+  "id": "A066870",
+  "mentions": [
+    "A007770",
+    "A063990"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

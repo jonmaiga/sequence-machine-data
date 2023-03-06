@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime p such that p+n is twice its reversal, or 0 if impossible.",
+  "id": "A099191",
+  "mentions": [
+    "A099190"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

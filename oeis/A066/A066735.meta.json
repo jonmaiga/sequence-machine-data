@@ -1,0 +1,21 @@
+{
+  "description": "Primes p dividing 1 + the product of the primes less than p.",
+  "id": "A066735",
+  "mentions": [
+    "A002110",
+    "A002585",
+    "A081618",
+    "A100465"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that m and F(m) are relatively prime, where F(m) denotes the m-th Fibonacci number.",
+  "id": "A074215",
+  "mentions": [
+    "A000045",
+    "A001177",
+    "A008683",
+    "A104714"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

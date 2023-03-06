@@ -1,0 +1,24 @@
+{
+  "description": "Let f(n) be the smallest number such that the arithmetic mean (A) and geometric mean (G) of n and f(n) are both integers; sequence gives G values.",
+  "id": "A038388",
+  "mentions": [
+    "A038387",
+    "A038389",
+    "A053626",
+    "A053627",
+    "A253905"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

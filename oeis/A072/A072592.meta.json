@@ -1,0 +1,22 @@
+{
+  "description": "Even numbers with at least one prime factor of form 4*k+1.",
+  "id": "A072592",
+  "mentions": [
+    "A002144",
+    "A004613",
+    "A005843",
+    "A008846",
+    "A009003",
+    "A072591"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

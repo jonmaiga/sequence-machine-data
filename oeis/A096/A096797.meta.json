@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of coefficients, read by row polynomials P_n(y), that satisfy the g.f.: A038497(x,y) = Product_{n>=1} 1/(1-x^n)^[P_n(y)/n], with P_n(0)=0 for n>=1 and P_0(0)=1.",
+  "id": "A096797",
+  "mentions": [
+    "A000041",
+    "A008284",
+    "A038497",
+    "A096798"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

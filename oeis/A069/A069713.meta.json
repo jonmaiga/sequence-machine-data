@@ -1,0 +1,22 @@
+{
+  "description": "As a square array T(n,k) by antidiagonals, number of ways of partitioning k into up to n parts each no more than 5, or into up to 5 parts each no more than n; as a triangle t(n,k), number of ways of partitioning n into exactly k parts each no more than 6 (i.e., of arranging k indistinguishable standard dice to produce a total of n).",
+  "id": "A069713",
+  "mentions": [
+    "A001402",
+    "A001975",
+    "A061676",
+    "A068914"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

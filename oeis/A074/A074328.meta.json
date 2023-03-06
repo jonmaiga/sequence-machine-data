@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that prime(m^2+1)-prime(m^2)=2, where prime(j) is the j-th prime.",
+  "id": "A074328",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A029707"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

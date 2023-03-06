@@ -1,0 +1,22 @@
+{
+  "description": "Difference between the two segments of edge d = A089025(n) partitioned by cevian c = A088513(n).",
+  "id": "A088587",
+  "mentions": [
+    "A001570",
+    "A028230",
+    "A088513",
+    "A088514",
+    "A089025"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

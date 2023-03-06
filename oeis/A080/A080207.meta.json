@@ -1,0 +1,20 @@
+{
+  "description": "Let F(x) = 1 + x + 4x^2 + 9x^3 + ... = g.f. for A002835 (solid partitions restricted to two planes) and write F(x) = 1/Product_{n>=1} (1-x^n)^a(n).",
+  "id": "A080207",
+  "mentions": [
+    "A000293",
+    "A002835",
+    "A037452"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

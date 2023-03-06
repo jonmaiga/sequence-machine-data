@@ -1,0 +1,23 @@
+{
+  "description": "Fermat's Diophantine m-tuple: 1 + the product of any two distinct terms is a square.",
+  "id": "A030063",
+  "mentions": [
+    "A192629",
+    "A192630",
+    "A192631",
+    "A192632"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of reversible string structures with n beads using exactly six different colors.",
+  "id": "A056330",
+  "mentions": [
+    "A000770",
+    "A008277",
+    "A056313",
+    "A056324",
+    "A056325",
+    "A056391",
+    "A284949",
+    "A304976",
+    "A320529"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:38:42",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

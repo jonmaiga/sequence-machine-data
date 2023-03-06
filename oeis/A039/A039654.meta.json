@@ -1,0 +1,33 @@
+{
+  "description": "a(n) = prime reached by iterating f(x) = sigma(x)-1 starting at n, or -1 if no prime is ever reached.",
+  "id": "A039654",
+  "mentions": [
+    "A000010",
+    "A039649",
+    "A039650",
+    "A039651",
+    "A039652",
+    "A039653",
+    "A039655",
+    "A039656",
+    "A177343",
+    "A290447",
+    "A291301",
+    "A291302",
+    "A291776",
+    "A291777",
+    "A292112",
+    "A292113",
+    "A292874"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:12:13",
+    "offset": 2,
+    "size": 66,
+    "source": "joeis"
+  }
+}

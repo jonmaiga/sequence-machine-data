@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of coefficients of polynomials enumerating trees with n labeled nodes by inversions.",
+  "id": "A052121",
+  "mentions": [
+    "A000111",
+    "A000272",
+    "A057500"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

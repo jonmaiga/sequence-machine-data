@@ -1,0 +1,21 @@
+{
+  "description": "a(n+1) = a(n) + n (if n is odd), a(n+1) = a(n) * n (if n is even).",
+  "id": "A047904",
+  "mentions": [
+    "A000124",
+    "A047905",
+    "A077138"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:13:04",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

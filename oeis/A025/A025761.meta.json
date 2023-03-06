@@ -1,0 +1,16 @@
+{
+  "description": "8th-order Vatalan numbers (generalization of Catalan numbers).",
+  "id": "A025761",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

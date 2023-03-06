@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest palindrome > a(n-1) such that a(1)+a(2)+...+a(n) is a prime.",
+  "id": "A051934",
+  "mentions": [
+    "A002113",
+    "A010051",
+    "A051896",
+    "A087581"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

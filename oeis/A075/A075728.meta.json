@@ -1,0 +1,19 @@
+{
+  "description": "Records in abs(sigma(n)-2*n) (absolute value of A033879).",
+  "id": "A075728",
+  "mentions": [
+    "A006093",
+    "A033879",
+    "A074918"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

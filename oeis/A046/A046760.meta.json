@@ -1,0 +1,23 @@
+{
+  "description": "Wasteful numbers.",
+  "id": "A046760",
+  "mentions": [
+    "A046758",
+    "A046759",
+    "A050252",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

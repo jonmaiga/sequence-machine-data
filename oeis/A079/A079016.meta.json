@@ -1,0 +1,32 @@
+{
+  "description": "Suppose p and q = p+12 are primes. Define the difference pattern of (p,q) to be the successive differences of the primes in the range p to q. There are 14 possible difference patterns, namely [12], [2,10], [4,8], [6,6], [8,4], [10,2], [2,4,6], [2,6,4], [4,2,6], [4,6,2], [6,2,4], [6,4,2], [2,4,2,4] and [4,2,4,2]. Sequence gives smallest value of p for each difference pattern, sorted by magnitude.",
+  "id": "A079016",
+  "mentions": [
+    "A000230",
+    "A022006",
+    "A022007",
+    "A031930",
+    "A046137",
+    "A047948",
+    "A078847",
+    "A078848",
+    "A078850",
+    "A078851",
+    "A078853",
+    "A078855",
+    "A079017",
+    "A079024"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

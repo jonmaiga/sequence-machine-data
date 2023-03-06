@@ -1,0 +1,19 @@
+{
+  "description": "Concatenation of Łukasiewicz words.",
+  "id": "A059984",
+  "mentions": [
+    "A000108",
+    "A006134",
+    "A059985"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

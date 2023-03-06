@@ -1,0 +1,20 @@
+{
+  "description": "Starting from generation 5 add previous and next term yielding generation 6.",
+  "id": "A048452",
+  "mentions": [
+    "A047844",
+    "A048448",
+    "A048451",
+    "A048466"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:59:07",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

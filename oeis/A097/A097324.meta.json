@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A067655(n) is different from A049606(n).",
+  "id": "A097324",
+  "mentions": [
+    "A049606",
+    "A067655"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

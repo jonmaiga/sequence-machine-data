@@ -1,0 +1,20 @@
+{
+  "description": "A list of equal temperaments (equal divisions of the octave) whose nearest scale steps are closer and closer approximations to the ratios of six simple musical tones: 8/7 5/4 4/3 3/2 8/5 7/4.",
+  "id": "A060526",
+  "mentions": [
+    "A054540",
+    "A060257",
+    "A060525"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of solutions (x,y,z,u,v,w) to x+y+z = u+v+w, 0<=x,y,z,u,v,w<=n-1, x>=y>=z, u>=v>=w.",
+  "id": "A071009",
+  "mentions": [
+    "A071816"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:51",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

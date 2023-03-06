@@ -1,0 +1,30 @@
+{
+  "description": "Largest unitary square divisor of n: if n=LLgggf (see A056192) and a(n) = LL, then its complementary divisor n/LL = gggf and gcd(L^2, n/LL) = 1.",
+  "id": "A056623",
+  "mentions": [
+    "A000188",
+    "A008833",
+    "A020639",
+    "A028233",
+    "A028234",
+    "A034444",
+    "A046951",
+    "A055229",
+    "A056192",
+    "A056622",
+    "A067029"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Third column of triangle A089504.",
+  "id": "A089513",
+  "mentions": [
+    "A089504",
+    "A089505",
+    "A089507",
+    "A089514"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

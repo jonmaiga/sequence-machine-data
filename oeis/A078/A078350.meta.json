@@ -1,0 +1,25 @@
+{
+  "description": "Number of primes in {n, f(n), f(f(n)), ..., 1}, where f is the Collatz function defined by f(x) = x/2 if x is even; f(x) = 3x + 1 if x is odd.",
+  "id": "A078350",
+  "mentions": [
+    "A000079",
+    "A006370",
+    "A010051",
+    "A055509",
+    "A064684",
+    "A181921",
+    "A196871"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

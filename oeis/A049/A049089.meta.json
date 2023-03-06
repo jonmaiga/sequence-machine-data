@@ -1,0 +1,19 @@
+{
+  "description": "Array read by antidiagonals: T(1,j)=2j+2 i>=1, T(i,1)=2i+2 i>=1, T(i,j)=T(i-1,j-1)+T(i-1,j).",
+  "id": "A049089",
+  "mentions": [
+    "A079859"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:34:45",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

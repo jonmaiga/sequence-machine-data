@@ -1,0 +1,16 @@
+{
+  "description": "Numbers n such that 210*n-11 is prime.",
+  "id": "A076356",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:03:01",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

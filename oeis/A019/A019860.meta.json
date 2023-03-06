@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of sine of 51 degrees.",
+  "id": "A019860",
+  "mentions": [
+    "A019812",
+    "A019826",
+    "A019843",
+    "A019851",
+    "A019857",
+    "A019865",
+    "A019882",
+    "A019896"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:59",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

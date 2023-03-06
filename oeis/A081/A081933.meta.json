@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(n) is the smallest number coprime to n and beginning with a(n-1).",
+  "id": "A081933",
+  "mentions": [
+    "A065829"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

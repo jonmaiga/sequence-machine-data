@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = sigma_18(n), the sum of the 18th powers of the divisors of n.",
+  "id": "A013966",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A001160",
+    "A013954",
+    "A013972",
+    "A017665",
+    "A017712"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

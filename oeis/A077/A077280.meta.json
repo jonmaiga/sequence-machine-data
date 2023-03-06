@@ -1,0 +1,19 @@
+{
+  "description": "Sum of next a(n) successive primes is a square.",
+  "id": "A077280",
+  "mentions": [
+    "A077281",
+    "A077282",
+    "A077283"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "If composite k and its reverse are different and have same number of prime factors, then the larger of them is a term of the sequence.",
+  "id": "A050701",
+  "mentions": [
+    "A004086",
+    "A050699",
+    "A050700"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:48:43",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

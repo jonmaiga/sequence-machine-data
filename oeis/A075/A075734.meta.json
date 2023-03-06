@@ -1,0 +1,19 @@
+{
+  "description": "Fibonacci numbers F(k) when k is a product of an even number of distinct primes A030229 (mu(k)=1).",
+  "id": "A075734",
+  "mentions": [
+    "A000045",
+    "A030229"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

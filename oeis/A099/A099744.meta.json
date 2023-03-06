@@ -1,0 +1,24 @@
+{
+  "description": "Palindromes n such that 10n01 is a prime.",
+  "id": "A099744",
+  "mentions": [
+    "A002113",
+    "A032672",
+    "A099720",
+    "A099746",
+    "A100026",
+    "A100027"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

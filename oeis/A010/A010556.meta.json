@@ -1,0 +1,25 @@
+{
+  "description": "High temperature series for spin-1/2 Ising magnetic susceptibility on 4D simple cubic lattice.",
+  "id": "A010556",
+  "mentions": [
+    "A002906",
+    "A002913",
+    "A010041",
+    "A010044",
+    "A010047",
+    "A010579",
+    "A010580",
+    "A030008",
+    "A030046"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

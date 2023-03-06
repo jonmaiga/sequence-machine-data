@@ -1,0 +1,15 @@
+{
+  "description": "Triangular numbers whose largest proper divisor is also triangular.",
+  "id": "A076170",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

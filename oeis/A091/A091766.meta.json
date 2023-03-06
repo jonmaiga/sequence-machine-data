@@ -1,0 +1,19 @@
+{
+  "description": "For n > 2, let m be the least number that cannot be expressed as a(i), a(i)+a(j), or a(i)-a(j) with i, j < n. Then a(n) = a(n-1)+m.",
+  "id": "A091766",
+  "mentions": [
+    "A000244",
+    "A091767"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

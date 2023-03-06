@@ -1,0 +1,18 @@
+{
+  "description": "Number of alternating runs in all permutations of [n] (the permutation 732569148 has four alternating runs: 732, 2569, 91 and 148).",
+  "id": "A097971",
+  "mentions": [
+    "A006157"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:54:34",
+    "offset": 2,
+    "size": 20,
+    "source": "joeis"
+  }
+}

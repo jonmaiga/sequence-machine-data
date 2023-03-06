@@ -1,0 +1,19 @@
+{
+  "description": "Fibonacci numbers using only the curved digits 0, 3, 6, 8 and 9.",
+  "id": "A079657",
+  "mentions": [
+    "A072960"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest 6-tuple of consecutive primes such that a(n)+a(n+1)+a(n+2), n=1...4, are again consecutive primes.",
+  "id": "A089444",
+  "mentions": [
+    "A089445",
+    "A089446"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

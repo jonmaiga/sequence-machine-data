@@ -1,0 +1,23 @@
+{
+  "description": "Sums of the squares of the elements in the subsets of the integers 1 to n.",
+  "id": "A087076",
+  "mentions": [
+    "A000076",
+    "A001787",
+    "A001788",
+    "A014483",
+    "A058645"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

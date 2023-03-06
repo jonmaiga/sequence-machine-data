@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = least k such that tan(k) < tan(a(n-1)), for n >= 1, with a(0) = 0.",
+  "id": "A024815",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

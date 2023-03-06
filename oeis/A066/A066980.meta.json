@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that antid(k) > antid(k+1) and santid(k) > santid(k+1), where antid(k) = A066272 and santid(k) = A066417.",
+  "id": "A066980",
+  "mentions": [
+    "A066272",
+    "A066417"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

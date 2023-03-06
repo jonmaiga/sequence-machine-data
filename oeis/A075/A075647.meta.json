@@ -1,0 +1,21 @@
+{
+  "description": "List of groups in A075643.",
+  "id": "A075647",
+  "mentions": [
+    "A075643",
+    "A075644",
+    "A075645",
+    "A075646"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

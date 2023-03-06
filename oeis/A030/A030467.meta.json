@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k^2 is a concatenation of two successive numbers.",
+  "id": "A030467",
+  "mentions": [
+    "A020339",
+    "A020340",
+    "A030465",
+    "A030466",
+    "A054214",
+    "A054215",
+    "A054216"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

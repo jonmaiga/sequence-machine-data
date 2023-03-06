@@ -1,0 +1,38 @@
+{
+  "description": "As a square table by antidiagonals, the n-digit number which in base k starts 1010101...",
+  "id": "A059848",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000035",
+    "A000975",
+    "A001477",
+    "A002522",
+    "A008619",
+    "A033113",
+    "A033114",
+    "A033115",
+    "A033116",
+    "A033117",
+    "A033118",
+    "A033119",
+    "A034262",
+    "A056830",
+    "A059826",
+    "A059830",
+    "A059839"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

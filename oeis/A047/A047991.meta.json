@@ -1,0 +1,20 @@
+{
+  "description": "Triangle formed from expansion of (x-1)(x+2)(x-3)...(x+-n).",
+  "id": "A047991",
+  "mentions": [
+    "A047990"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:52:21",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Triangle read by rows: n-th row gives trajectory of 2n under the map x->(x^2-4)/6, stopping when the next term would be negative or nonintegral.",
+  "id": "A081880",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

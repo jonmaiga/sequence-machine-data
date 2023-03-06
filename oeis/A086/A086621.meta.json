@@ -1,0 +1,20 @@
+{
+  "description": "Main diagonal of square table A086620 of coefficients, T(n,k), of x^n*y^k in f(x,y) that satisfies f(x,y) = 1/(1-x-y) + xy*f(x,y)^2.",
+  "id": "A086621",
+  "mentions": [
+    "A001622",
+    "A086620",
+    "A086622"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

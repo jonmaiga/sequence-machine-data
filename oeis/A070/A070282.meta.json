@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1; a(2) = 2; a(n) = [sum of digits of a(n-1)]^[sum of digits of a(n-2)] for n > 2.",
+  "id": "A070282",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

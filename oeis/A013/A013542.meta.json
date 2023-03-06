@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of the coefficient [x^(2n+1)] of the Taylor series sinh(cosec(x) - coth(x)).",
+  "id": "A013542",
+  "mentions": [
+    "A013536",
+    "A202382"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

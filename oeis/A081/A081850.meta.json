@@ -1,0 +1,19 @@
+{
+  "description": "Consider recurrence b(0) = (2n+1)/4, b(n) = b(0)*ceiling(b(n-1)); sequence gives number of steps to reach an integer (or -1 if no integer is ever reached).",
+  "id": "A081850",
+  "mentions": [
+    "A073524",
+    "A081849",
+    "A081851"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

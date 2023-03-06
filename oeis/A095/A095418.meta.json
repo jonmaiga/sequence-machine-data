@@ -1,0 +1,26 @@
+{
+  "description": "Excess of sum of all decimal digits of distinct prime factors for n-th repunit over corresponding digit-sum for repunit itself (which is n).",
+  "id": "A095418",
+  "mentions": [
+    "A002275",
+    "A095370",
+    "A095402",
+    "A095413",
+    "A095414",
+    "A095415",
+    "A095416",
+    "A095417"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

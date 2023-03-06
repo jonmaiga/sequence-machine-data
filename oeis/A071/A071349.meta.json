@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k for which the GCD of the k-th primorial number and its totient (A058250) sets record.",
+  "id": "A071349",
+  "mentions": [
+    "A000010",
+    "A002110",
+    "A005867",
+    "A058250",
+    "A071350"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

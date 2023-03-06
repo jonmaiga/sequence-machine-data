@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime beginning and ending in at least n seven's.",
+  "id": "A068162",
+  "mentions": [
+    "A068160",
+    "A068161"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

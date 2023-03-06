@@ -1,0 +1,22 @@
+{
+  "description": "All terms are squares and a(n) is length of n-th run.",
+  "id": "A013189",
+  "mentions": [
+    "A001462",
+    "A080605",
+    "A080606",
+    "A080607"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

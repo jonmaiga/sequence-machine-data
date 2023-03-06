@@ -1,0 +1,20 @@
+{
+  "description": "a(n+1) = a(n) + (n^2 + 1)*a(n-1).",
+  "id": "A047990",
+  "mentions": [
+    "A047991"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

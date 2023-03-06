@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct edge lengths in the convex hull of the maximal volume arrangements of n points on a sphere.",
+  "id": "A081366",
+  "mentions": [
+    "A033177",
+    "A081314"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 4,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

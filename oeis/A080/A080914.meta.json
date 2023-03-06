@@ -1,0 +1,19 @@
+{
+  "description": "A080900 sorted and duplicates removed.",
+  "id": "A080914",
+  "mentions": [
+    "A080900",
+    "A080919"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

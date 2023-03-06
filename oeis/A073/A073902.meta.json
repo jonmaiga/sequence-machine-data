@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-digit primes with digit sum n.",
+  "id": "A073902",
+  "mentions": [
+    "A069710"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

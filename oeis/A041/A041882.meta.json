@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(463).",
+  "id": "A041882",
+  "mentions": [
+    "A041883"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "frac",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:13:14",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

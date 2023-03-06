@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the decimal expansion of its base-7 conversion is also prime.",
+  "id": "A065725",
+  "mentions": [
+    "A065361",
+    "A065720",
+    "A065727"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

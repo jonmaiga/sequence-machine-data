@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 66*(n+1)*binomial(n+5,11).",
+  "id": "A027816",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:31",
+    "offset": 6,
+    "size": 23,
+    "source": "joeis"
+  }
+}

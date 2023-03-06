@@ -1,0 +1,22 @@
+{
+  "description": "Number of 3 X 3 integer matrices with elements in the range [ -n,n ] which represent a six-fold rotation. Also the sequence for the corresponding six-fold rotoinversions.",
+  "id": "A053174",
+  "mentions": [
+    "A053170",
+    "A053171",
+    "A053172",
+    "A053173"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

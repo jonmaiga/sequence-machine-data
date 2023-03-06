@@ -1,0 +1,16 @@
+{
+  "description": "Number of least favorable parameter configurations.",
+  "id": "A053437",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

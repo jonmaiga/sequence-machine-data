@@ -1,0 +1,18 @@
+{
+  "description": "Exotic numbers: write n in base 10 as d_1 d_2 ... d_k; sequence gives numbers n which can be obtained by using the digits d_1 ... d_k exactly once, at most one each of the symbols +, -, x, \"divided by\", sqrt, factorial, ^, together with any number of parentheses.",
+  "id": "A064818",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least number 2k such that p^2 divides the numerator of the Bernoulli number B(2k), where p is the n-th irregular prime, A000928(n).",
+  "id": "A092681",
+  "mentions": [
+    "A000928",
+    "A035112",
+    "A091887",
+    "A092682"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

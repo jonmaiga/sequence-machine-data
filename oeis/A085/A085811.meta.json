@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n including 3, but not 1.",
+  "id": "A085811",
+  "mentions": [
+    "A002865",
+    "A008483"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

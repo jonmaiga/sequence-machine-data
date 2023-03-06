@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2^n + 1)^2.",
+  "id": "A028400",
+  "mentions": [
+    "A000051",
+    "A060919"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:11:10",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

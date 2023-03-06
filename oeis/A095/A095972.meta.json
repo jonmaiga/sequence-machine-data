@@ -1,0 +1,20 @@
+{
+  "description": "Number of quadratic nonresidues modulo n.",
+  "id": "A095972",
+  "mentions": [
+    "A000224",
+    "A096013",
+    "A218578"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(298).",
+  "id": "A041561",
+  "mentions": [
+    "A041560"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:52",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

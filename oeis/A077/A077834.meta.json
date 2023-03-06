@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/(1 - 2*x - 2*x^2 - 3*x^3).",
+  "id": "A077834",
+  "mentions": [
+    "A000244",
+    "A049347",
+    "A152733"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:53:40",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

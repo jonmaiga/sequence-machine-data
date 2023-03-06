@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = mu(prime(n)+1) + mu(prime(n)-1), where mu is the Moebius function.",
+  "id": "A089496",
+  "mentions": [
+    "A000040",
+    "A008683",
+    "A070750",
+    "A075432",
+    "A089451",
+    "A089495",
+    "A089497"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

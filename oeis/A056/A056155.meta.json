@@ -1,0 +1,19 @@
+{
+  "description": "Positive integer k, 1 <= k <= n, which maximizes k^(n+1-k).",
+  "id": "A056155",
+  "mentions": [
+    "A003320"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

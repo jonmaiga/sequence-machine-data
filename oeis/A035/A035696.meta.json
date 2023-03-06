@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into parts 8k+4 and 8k+7 with at least one part of each type.",
+  "id": "A035696",
+  "mentions": [
+    "A035441",
+    "A035468",
+    "A035618",
+    "A035695",
+    "A035697",
+    "A035699"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

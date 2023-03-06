@@ -1,0 +1,17 @@
+{
+  "description": "Smallest m in range 2..n-1 such that m^8 == 1 mod n, or 1 if no such number exists.",
+  "id": "A070673",
+  "mentions": [
+    "A070667"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

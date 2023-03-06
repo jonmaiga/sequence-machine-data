@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = index of the n-th local minimum of A053707.",
+  "id": "A088364",
+  "mentions": [
+    "A025475",
+    "A053707",
+    "A088363"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of maximum-length 2-surprising sequences in n symbols.",
+  "id": "A089973",
+  "mentions": [
+    "A008062"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle in which n-th row contains smallest n numbers coprime to n which have not occurred earlier.",
+  "id": "A077159",
+  "mentions": [
+    "A077160",
+    "A077161",
+    "A077162"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

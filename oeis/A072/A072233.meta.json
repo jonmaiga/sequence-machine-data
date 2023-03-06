@@ -1,0 +1,37 @@
+{
+  "description": "Square array T(n,k) read by antidiagonals giving number of ways to distribute n indistinguishable objects in k indistinguishable containers; containers may be left empty.",
+  "id": "A072233",
+  "mentions": [
+    "A000041",
+    "A006141",
+    "A008284",
+    "A008289",
+    "A047993",
+    "A048993",
+    "A059607",
+    "A063995",
+    "A064174",
+    "A080510",
+    "A081362",
+    "A096401",
+    "A105806",
+    "A106529",
+    "A117409",
+    "A168659",
+    "A215366",
+    "A316439"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

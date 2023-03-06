@@ -1,0 +1,19 @@
+{
+  "description": "Naive list of twin primes (A077800 prefixed by 2, 3).",
+  "id": "A099609",
+  "mentions": [
+    "A001097",
+    "A070076",
+    "A077800"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

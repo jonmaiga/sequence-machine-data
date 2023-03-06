@@ -1,0 +1,21 @@
+{
+  "description": "Least p with p, q both prime, p+q = 2n.",
+  "id": "A020481",
+  "mentions": [
+    "A002373",
+    "A020482",
+    "A047949",
+    "A171637"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 2,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

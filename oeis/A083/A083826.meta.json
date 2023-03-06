@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k such that k+ 9*(A000042(n-1)*{n, mod 10) is digit reversal of k. A000042(n) = (10^n-1)/9.,a(10n) = 0.",
+  "id": "A083826",
+  "mentions": [
+    "A000042"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

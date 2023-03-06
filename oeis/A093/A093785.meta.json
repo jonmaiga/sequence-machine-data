@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are divisible by every digit in their Roman numeral representation.",
+  "id": "A093785",
+  "mentions": [
+    "A006968",
+    "A034838",
+    "A061493",
+    "A078715"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

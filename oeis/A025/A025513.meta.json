@@ -1,0 +1,18 @@
+{
+  "description": "Exactly half of first a(n) terms of A022300 are 1's (not known to be infinite).",
+  "id": "A025513",
+  "mentions": [
+    "A022300",
+    "A025512"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

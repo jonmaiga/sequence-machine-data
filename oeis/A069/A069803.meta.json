@@ -1,0 +1,20 @@
+{
+  "description": "Smaller of two consecutive palindromic primes.",
+  "id": "A069803",
+  "mentions": [
+    "A069804"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Primes with either no internal digits or all internal digits are 6.",
+  "id": "A069681",
+  "mentions": [
+    "A069675",
+    "A069676",
+    "A069677",
+    "A069678",
+    "A069679",
+    "A069680",
+    "A069682",
+    "A069683",
+    "A069684"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

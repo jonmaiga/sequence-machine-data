@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array T given by T(n,k) = number of 01-words of length n containing k 1's, no three of which are consecutive.",
+  "id": "A078802",
+  "mentions": [
+    "A000073",
+    "A027907",
+    "A060961",
+    "A078803",
+    "A082601"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:07:13",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

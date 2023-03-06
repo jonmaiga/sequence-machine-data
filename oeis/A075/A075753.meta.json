@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime factor of n-th odd triangular number.",
+  "id": "A075753",
+  "mentions": [
+    "A014493",
+    "A020639",
+    "A042963",
+    "A069901"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

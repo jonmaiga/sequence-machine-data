@@ -1,0 +1,20 @@
+{
+  "description": "Engel expansion of log(10) = 2.30259...",
+  "id": "A059182",
+  "mentions": [
+    "A002392",
+    "A006784"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

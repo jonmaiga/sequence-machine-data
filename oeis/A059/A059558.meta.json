@@ -1,0 +1,18 @@
+{
+  "description": "Beatty sequence for 1 + 1/gamma^2.",
+  "id": "A059558",
+  "mentions": [
+    "A059557"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:49:31",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sextuple factorial numbers: Product_{k=0..n-1} (6*k+4).",
+  "id": "A049308",
+  "mentions": [
+    "A008543",
+    "A008544",
+    "A011781",
+    "A048994"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

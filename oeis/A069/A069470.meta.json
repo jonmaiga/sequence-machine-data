@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k>=1} floor(n/(k*(k+1)/2)).",
+  "id": "A069470",
+  "mentions": [
+    "A000217",
+    "A002024",
+    "A004275",
+    "A006218",
+    "A007862",
+    "A013936",
+    "A013937",
+    "A013938",
+    "A013939"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

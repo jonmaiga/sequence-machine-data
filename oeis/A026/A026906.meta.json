@@ -1,0 +1,20 @@
+{
+  "description": "Number of sums S of distinct positive integers satisfying S <= n.",
+  "id": "A026906",
+  "mentions": [
+    "A000009",
+    "A000070",
+    "A036469"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

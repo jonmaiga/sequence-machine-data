@@ -1,0 +1,27 @@
+{
+  "description": "Centered heptagonal numbers.",
+  "id": "A069099",
+  "mentions": [
+    "A000217",
+    "A000566",
+    "A001106",
+    "A001263",
+    "A003215",
+    "A024966",
+    "A057655",
+    "A101321"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:42:03",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

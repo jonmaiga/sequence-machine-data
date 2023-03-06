@@ -1,0 +1,20 @@
+{
+  "description": "Let P(n,k) = n!/(Product_{i=1..pi(n)/2^(k-1)} prime(i)) be an integer matrix of \"partial\" factorials. Then a(n) = sum_{k=1..8} floor( P(n,k)/P(n-1,k)).",
+  "id": "A088494",
+  "mentions": [
+    "A000720",
+    "A088140",
+    "A088493"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = a(2) = 1; a(n) = a(a(n-1)) + a(n+1 - 2*a(n-1)).",
+  "id": "A070868",
+  "mentions": [
+    "A070881"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

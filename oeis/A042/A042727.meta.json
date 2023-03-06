@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(893).",
+  "id": "A042727",
+  "mentions": [
+    "A040863",
+    "A042726"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:28:38",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of (1/Pi)^(1/Pi)^(1/Pi).",
+  "id": "A073241",
+  "mentions": [
+    "A000796",
+    "A049541",
+    "A073234",
+    "A073240",
+    "A073242",
+    "A073243"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:29",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

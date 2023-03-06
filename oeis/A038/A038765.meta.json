@@ -1,0 +1,19 @@
+{
+  "description": "Next-to-last diagonal of A024462.",
+  "id": "A038765",
+  "mentions": [
+    "A024462"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

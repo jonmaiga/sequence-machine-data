@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = (p^2*(p+1)*(p+2))/6 where p is n-th prime.",
+  "id": "A098741",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:28:13",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

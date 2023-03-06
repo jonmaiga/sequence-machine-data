@@ -1,0 +1,19 @@
+{
+  "description": "Numbers having a different number of prime factors as their successors (counted with multiplicity).",
+  "id": "A077656",
+  "mentions": [
+    "A001222",
+    "A045920",
+    "A077655"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

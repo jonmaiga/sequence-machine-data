@@ -1,0 +1,19 @@
+{
+  "description": "Number of base-2 strong pseudoprimes (A001262) less than 10^n.",
+  "id": "A055552",
+  "mentions": [
+    "A001262"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Distance between 2*(n-th prime) and next prime.",
+  "id": "A059787",
+  "mentions": [
+    "A005384",
+    "A005385"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

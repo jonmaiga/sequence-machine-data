@@ -1,0 +1,37 @@
+{
+  "description": "Ordered hypotenuses (with multiplicity) of primitive Pythagorean triangles.",
+  "id": "A020882",
+  "mentions": [
+    "A002037",
+    "A004613",
+    "A008846",
+    "A020883",
+    "A020886",
+    "A024409",
+    "A046086",
+    "A046087",
+    "A081804",
+    "A088511",
+    "A094194",
+    "A113482",
+    "A119321",
+    "A120681",
+    "A120682",
+    "A121727",
+    "A180620",
+    "A222946",
+    "A231100"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

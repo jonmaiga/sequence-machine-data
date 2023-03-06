@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers such that the sum of the prime factors is odd (counted with multiplicity).",
+  "id": "A036350",
+  "mentions": [
+    "A001414",
+    "A036349",
+    "A046363",
+    "A335657"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:25:03",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

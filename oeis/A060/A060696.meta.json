@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations in S_n avoiding the strings 123, 321 and 231.",
+  "id": "A060696",
+  "mentions": [
+    "A006882",
+    "A011782"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

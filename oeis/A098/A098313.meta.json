@@ -1,0 +1,18 @@
+{
+  "description": "Inverse of A098311.",
+  "id": "A098313",
+  "mentions": [
+    "A098311",
+    "A098314"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

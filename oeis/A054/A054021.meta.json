@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that Chowla's function of n is divisible by the number of proper divisors of n.",
+  "id": "A054021",
+  "mentions": [
+    "A032741",
+    "A048050",
+    "A054015",
+    "A054020"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

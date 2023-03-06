@@ -1,0 +1,29 @@
+{
+  "description": "Numbers of the form 5*2^n or 5*3*2^n; a(n) = 5*A029744(n).",
+  "id": "A070004",
+  "mentions": [
+    "A000010",
+    "A006530",
+    "A007283",
+    "A029744",
+    "A068211",
+    "A070002",
+    "A070003",
+    "A070777",
+    "A070812",
+    "A070813",
+    "A070816"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:52:19",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

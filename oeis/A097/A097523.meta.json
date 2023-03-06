@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = least k such that k - prime(n) and k + prime(n) are both prime.",
+  "id": "A097523",
+  "mentions": [
+    "A000040",
+    "A087711"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

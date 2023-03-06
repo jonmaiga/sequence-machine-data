@@ -1,0 +1,36 @@
+{
+  "description": "Smallest prime p such that the infinite sequence {p, p'=2p-1, p''=2p'-1, ...} begins with a string of exactly n primes.",
+  "id": "A064812",
+  "mentions": [
+    "A002808",
+    "A005382",
+    "A005383",
+    "A005602",
+    "A005603",
+    "A006450",
+    "A049076",
+    "A049081",
+    "A050436",
+    "A050439",
+    "A057326",
+    "A057327",
+    "A057328",
+    "A057329",
+    "A057330",
+    "A065860",
+    "A076237",
+    "A076239",
+    "A181697",
+    "A263879"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

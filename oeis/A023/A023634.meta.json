@@ -1,0 +1,17 @@
+{
+  "description": "s(3n)-s(3n-1), where s( ) is sequence A023633.",
+  "id": "A023634",
+  "mentions": [
+    "A023633"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:18:51",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

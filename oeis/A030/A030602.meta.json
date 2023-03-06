@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=(# 1's)-(# 2's) in first n terms of A030588.",
+  "id": "A030602",
+  "mentions": [
+    "A030588"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:21",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

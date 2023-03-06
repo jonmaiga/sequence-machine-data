@@ -1,0 +1,28 @@
+{
+  "description": "Number of n X 7 binary arrays with a path of adjacent 1's and no path of adjacent 0's from top row to bottom row.",
+  "id": "A069427",
+  "mentions": [
+    "A001047",
+    "A034182",
+    "A069361",
+    "A069395",
+    "A069396",
+    "A069416",
+    "A069417",
+    "A069428",
+    "A069429",
+    "A069447",
+    "A069448",
+    "A069452"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

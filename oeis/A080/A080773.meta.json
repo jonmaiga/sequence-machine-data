@@ -1,0 +1,20 @@
+{
+  "description": "In binary representation: sum of number of 1's in prime factors of n (with repetition).",
+  "id": "A080773",
+  "mentions": [
+    "A000120",
+    "A007088",
+    "A134599"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

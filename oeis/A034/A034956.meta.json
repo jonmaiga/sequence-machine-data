@@ -1,0 +1,27 @@
+{
+  "description": "Divide natural numbers in groups with prime(n) elements and add together.",
+  "id": "A034956",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A006003",
+    "A007504",
+    "A027441",
+    "A034957",
+    "A034958",
+    "A034959",
+    "A034960",
+    "A046992"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:17:33",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

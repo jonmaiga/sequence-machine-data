@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of -109/121 - 82/(121*sqrt(3)) + (2*sqrt(-35139 + 28634*sqrt(3)))/121 - Pi/3 + arccos((-1 + sqrt(3))/2).",
+  "id": "A093822",
+  "mentions": [
+    "A010527",
+    "A093821"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:32",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

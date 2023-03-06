@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) of series-reduced (or homeomorphically irreducible) labeled graphs with n nodes and k edges, k=0..binomial(n,2).",
+  "id": "A060514",
+  "mentions": [
+    "A003514",
+    "A331437",
+    "A331438"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

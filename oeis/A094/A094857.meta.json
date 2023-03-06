@@ -1,0 +1,15 @@
+{
+  "description": "Coefficient of identity representation in k-th tensor power of the irreducible representation of S_n indexed by (n-2,1,1).",
+  "id": "A094857",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

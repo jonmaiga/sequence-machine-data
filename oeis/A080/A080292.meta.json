@@ -1,0 +1,27 @@
+{
+  "description": "Orbit size of each tree A080293(n) under Donaghey's \"Map M\" Catalan automorphism.",
+  "id": "A080292",
+  "mentions": [
+    "A057505",
+    "A057506",
+    "A080272",
+    "A080293",
+    "A080295",
+    "A080302",
+    "A080967",
+    "A080973",
+    "A080975",
+    "A080977"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

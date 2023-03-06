@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that floor( (1+1/k)^n ) = floor( (1+1/n)^k ) is not equal to round(n*91/100).",
+  "id": "A072933",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

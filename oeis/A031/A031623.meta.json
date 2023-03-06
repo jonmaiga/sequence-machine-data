@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the continued fraction for sqrt(k) has odd period and if the last term of the periodic part is deleted the two central terms are both 35.",
+  "id": "A031623",
+  "mentions": [
+    "A003814"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

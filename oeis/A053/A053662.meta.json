@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 2n+1 divides n!+1.",
+  "id": "A053662",
+  "mentions": [
+    "A005097",
+    "A006093",
+    "A053663"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

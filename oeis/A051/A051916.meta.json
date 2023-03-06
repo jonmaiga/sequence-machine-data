@@ -1,0 +1,25 @@
+{
+  "description": "The Greek sequence: 2^a * 3^b * 5^c where a = 0,1,2,3,..., b,c in {0,1}, excluding the terms 1,2; that is: (a,b,c) != (0,0,0), (1,0,0).",
+  "id": "A051916",
+  "mentions": [
+    "A003401",
+    "A007283",
+    "A020707",
+    "A020714",
+    "A051037",
+    "A110286"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:08:22",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

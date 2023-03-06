@@ -1,0 +1,18 @@
+{
+  "description": "Number of identity bracelets with n labeled beads of 3 colors.",
+  "id": "A032338",
+  "mentions": [
+    "A032240"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:42:29",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

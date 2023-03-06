@@ -1,0 +1,28 @@
+{
+  "description": "Number (> 0) of iterations of sigma (A000203) required to reach a multiple of n when starting with n.",
+  "id": "A019294",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A000396",
+    "A007691",
+    "A019276",
+    "A019277",
+    "A019278",
+    "A019292",
+    "A019295",
+    "A111227"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

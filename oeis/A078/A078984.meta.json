@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of convergents to zeta(3).",
+  "id": "A078984",
+  "mentions": [
+    "A013631",
+    "A078985"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

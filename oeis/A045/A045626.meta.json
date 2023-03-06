@@ -1,0 +1,16 @@
+{
+  "description": "Bends in loxodromic sequence of spheres in which each 5 consecutive spheres are in mutual contact.",
+  "id": "A045626",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

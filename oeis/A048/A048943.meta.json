@@ -1,0 +1,17 @@
+{
+  "description": "Product of divisors of n is a square.",
+  "id": "A048943",
+  "mentions": [
+    "A229153"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:47:33",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

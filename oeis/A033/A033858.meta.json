@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that j(k) + ud(k) = d(k), where j(k) = A033831, ud(k) = number of unitary divisors of k (A034444), d(k) = number of divisors of k (A000005).",
+  "id": "A033858",
+  "mentions": [
+    "A000005",
+    "A033831",
+    "A034444"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Remainder when the sum of the first n primes is divided by n.",
+  "id": "A090396",
+  "mentions": [
+    "A007504",
+    "A045345",
+    "A060620"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

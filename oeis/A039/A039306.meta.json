@@ -1,0 +1,26 @@
+{
+  "description": "Number of distinct quadratic residues mod 9^n.",
+  "id": "A039306",
+  "mentions": [
+    "A000993",
+    "A023105",
+    "A039300",
+    "A039301",
+    "A039302",
+    "A039303",
+    "A039304",
+    "A039305"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

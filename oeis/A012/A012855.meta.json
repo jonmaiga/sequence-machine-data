@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0, a(1) = 1, a(2) = 1; thereafter a(n) = 5*a(n-1) - 4*a(n-2) + a(n-3).",
+  "id": "A012855",
+  "mentions": [
+    "A000931",
+    "A012814",
+    "A012864",
+    "A060006",
+    "A176476"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:50:45",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers A such that there is an equation of the form (A = Product of m + 1 primes) = (B = Product of m primes) + (C = Product of m primes), where A*B*C is a primorial number (A002110).",
+  "id": "A056602",
+  "mentions": [
+    "A002110",
+    "A056600",
+    "A057035"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

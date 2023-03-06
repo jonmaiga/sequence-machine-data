@@ -1,0 +1,22 @@
+{
+  "description": "Iterate the map in A006369 starting at 14.",
+  "id": "A028396",
+  "mentions": [
+    "A006369",
+    "A028394",
+    "A094328",
+    "A094329",
+    "A185589",
+    "A185590"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:50:35",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

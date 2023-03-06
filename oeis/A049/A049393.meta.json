@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1-25*x)^(1/5).",
+  "id": "A049393",
+  "mentions": [
+    "A049382"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers m such that Sum_{i=1..m} K(i,m) = Sum_{i=1..m} K(m,i) where K(x,y) is the Kronecker symbol (x/y).",
+  "id": "A071959",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

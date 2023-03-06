@@ -1,0 +1,20 @@
+{
+  "description": "Number of 2-multigraphs with loops on n nodes.",
+  "id": "A053513",
+  "mentions": [
+    "A000666",
+    "A004102",
+    "A053514"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

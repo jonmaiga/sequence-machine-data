@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(63).",
+  "id": "A041110",
+  "mentions": [
+    "A010516",
+    "A041111"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:51",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

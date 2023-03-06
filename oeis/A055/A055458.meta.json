@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest composite solution x to the equation phi(x+2n) = phi(x)+2n.",
+  "id": "A055458",
+  "mentions": [
+    "A000010",
+    "A007694",
+    "A049237",
+    "A050472",
+    "A050473",
+    "A054906"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

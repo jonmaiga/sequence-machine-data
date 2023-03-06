@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = least number m such that the quotient m/n is obtained merely by shifting the leftmost digit of m to the right end and the second digit of m is not zero.",
+  "id": "A094676",
+  "mentions": [
+    "A094224",
+    "A097717",
+    "A249596",
+    "A249599"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

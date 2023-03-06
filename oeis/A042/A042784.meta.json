@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(923).",
+  "id": "A042784",
+  "mentions": [
+    "A042785"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "If k is a number with exactly two distinct decimal digits, say a and b, neither of which is 0 (i.e., a member of A101594), define the self-complement of k, SC(k), to be the number obtained by replacing a with b and vice versa. Then a(n) = gcd(A101594(n), SC(A101594(n))).",
+  "id": "A083985",
+  "mentions": [
+    "A083983",
+    "A083984",
+    "A083986",
+    "A101594"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

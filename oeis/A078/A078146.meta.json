@@ -1,0 +1,23 @@
+{
+  "description": "Length of period of continued fraction for square root of -1 + n!.",
+  "id": "A078146",
+  "mentions": [
+    "A003285",
+    "A033312",
+    "A064025",
+    "A078145"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

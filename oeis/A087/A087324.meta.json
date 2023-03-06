@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n and its 9's complement both have the same prime signature.",
+  "id": "A087324",
+  "mentions": [
+    "A087325"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

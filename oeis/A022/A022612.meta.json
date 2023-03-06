@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Product_{m>=1} (1+q^m)^(-17).",
+  "id": "A022612",
+  "mentions": [
+    "A000593"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

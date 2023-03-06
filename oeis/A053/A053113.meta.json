@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of (-1 + 1/(1-10*x)^10)/(100*x); related to A053109.",
+  "id": "A053113",
+  "mentions": [
+    "A000012",
+    "A001792",
+    "A036068",
+    "A036070",
+    "A036083",
+    "A036224",
+    "A053109",
+    "A053110"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

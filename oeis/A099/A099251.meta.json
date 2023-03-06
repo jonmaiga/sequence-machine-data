@@ -1,0 +1,26 @@
+{
+  "description": "Bisection of Motzkin sums (A005043).",
+  "id": "A099251",
+  "mentions": [
+    "A005043",
+    "A099252",
+    "A175136",
+    "A180662",
+    "A196265",
+    "A246860",
+    "A247304"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

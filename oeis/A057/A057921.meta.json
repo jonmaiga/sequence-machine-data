@@ -1,0 +1,18 @@
+{
+  "description": "d(n+1) divides d(n), where d(n) is number of positive divisors of n.",
+  "id": "A057921",
+  "mentions": [
+    "A005237",
+    "A057922"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

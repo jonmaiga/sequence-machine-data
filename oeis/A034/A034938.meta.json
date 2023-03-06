@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that (p-3)/2 is a prime of the form 6k-1.",
+  "id": "A034938",
+  "mentions": [
+    "A034937",
+    "A038536"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:17:29",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

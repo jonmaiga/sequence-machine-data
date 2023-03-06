@@ -1,0 +1,17 @@
+{
+  "description": "Euler transform of Thue-Morse sequence A001285.",
+  "id": "A029877",
+  "mentions": [
+    "A001285"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:06",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

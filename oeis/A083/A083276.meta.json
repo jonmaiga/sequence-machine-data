@@ -1,0 +1,24 @@
+{
+  "description": "Number of distinct chess positions after n plies including differences due to availability and possibility of castling and en passant captures.",
+  "id": "A083276",
+  "mentions": [
+    "A019319",
+    "A048987",
+    "A057745",
+    "A089957"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Denominators of the continued fraction n + 1/(n + 1/...) [n times].",
+  "id": "A084844",
+  "mentions": [
+    "A000035",
+    "A000045",
+    "A000129",
+    "A001076",
+    "A006190",
+    "A052918",
+    "A065599",
+    "A073133",
+    "A084845",
+    "A097690",
+    "A097691",
+    "A117715",
+    "A129194",
+    "A290864"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Pandigital primes.",
+  "id": "A050288",
+  "mentions": [
+    "A000040",
+    "A050278",
+    "A171102"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

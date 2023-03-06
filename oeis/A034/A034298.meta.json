@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = min_S max_i b_i where S={b_i} (1 <= i <= n), b_i > 0, b_i distinct and either b_i|b_{i-1} or b_{i-1}|b_i.",
+  "id": "A034298",
+  "mentions": [
+    "A035280",
+    "A337125"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

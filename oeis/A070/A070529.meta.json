@@ -1,0 +1,30 @@
+{
+  "description": "Number of divisors of repunit 111...111 (with n digits).",
+  "id": "A070529",
+  "mentions": [
+    "A000005",
+    "A002275",
+    "A003020",
+    "A004023",
+    "A046053",
+    "A046412",
+    "A046413",
+    "A051064",
+    "A070528",
+    "A095370",
+    "A102380",
+    "A176973"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

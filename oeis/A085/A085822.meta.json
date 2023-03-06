@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime with n prime substrings (excluding prime itself but allowing leading zeros).",
+  "id": "A085822",
+  "mentions": [
+    "A085823"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

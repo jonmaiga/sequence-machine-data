@@ -1,0 +1,18 @@
+{
+  "description": "Number of different coefficient values in expansion of Product (1+q^1+q^3...+q^(2i-1)), i=1 to n.",
+  "id": "A039824",
+  "mentions": [
+    "A028872"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:13:51",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

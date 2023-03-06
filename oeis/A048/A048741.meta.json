@@ -1,0 +1,22 @@
+{
+  "description": "Product of aliquot divisors of composite n (1 and primes omitted).",
+  "id": "A048741",
+  "mentions": [
+    "A002808",
+    "A007422",
+    "A007956",
+    "A048740"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

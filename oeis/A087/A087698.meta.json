@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, giving T(n,k) = maximum number of examples (Boolean inputs) at Hamming distance 2 for symmetric Boolean functions that can have different outputs.",
+  "id": "A087698",
+  "mentions": [
+    "A088219",
+    "A159853"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:08:23",
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

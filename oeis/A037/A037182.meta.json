@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 10^n*(10^n-1) / 2.",
+  "id": "A037182",
+  "mentions": [
+    "A000217",
+    "A101291"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:02:10",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

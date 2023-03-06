@@ -1,0 +1,16 @@
+{
+  "description": "Cubes such that n^(2/3) and n have same digits.",
+  "id": "A029799",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:44:17",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

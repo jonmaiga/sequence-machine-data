@@ -1,0 +1,23 @@
+{
+  "description": "In prime factorization of n replace odd primes with 3.",
+  "id": "A079065",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A003586",
+    "A006519",
+    "A065333"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

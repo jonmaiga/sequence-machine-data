@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Product_{m=>1} (1+m*(m+1)*q^m).",
+  "id": "A092485",
+  "mentions": [
+    "A022629",
+    "A265836"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

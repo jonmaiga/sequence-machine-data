@@ -1,0 +1,20 @@
+{
+  "description": "Truncated triangular numbers: n*(n+1)/2 - 3*t*(t+1)/2 with t=4.",
+  "id": "A051940",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:51",
+    "offset": 8,
+    "size": 50,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes which occur as the difference of consecutive prime powers >1 as and when they occur.",
+  "id": "A073652",
+  "mentions": [
+    "A053707",
+    "A076047",
+    "A077273"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

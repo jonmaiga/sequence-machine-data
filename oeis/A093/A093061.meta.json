@@ -1,0 +1,21 @@
+{
+  "description": "6 * Sum_{d|n} (d mod 3).",
+  "id": "A093061",
+  "mentions": [
+    "A004016",
+    "A082909",
+    "A090331"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

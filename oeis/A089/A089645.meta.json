@@ -1,0 +1,22 @@
+{
+  "description": "Penny Flipping, or Flipping Coins: Given a stack of n coins, flip the top coin, then the stack of the top two coins, then the stack of the top three etc... starting again with the top coin after flipping all n coins. A flip of m coins reverses their order and inverts their state. This is the number of flips required to restore the stack to its original configuration.",
+  "id": "A089645",
+  "mentions": [
+    "A002326",
+    "A003558",
+    "A056951"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

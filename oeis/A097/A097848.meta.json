@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = minimal number of terms needed to write k/n (for 1 <= k <= n with gcd(k,n) = 1) as a sum of unit fractions.",
+  "id": "A097848",
+  "mentions": [
+    "A097847",
+    "A097849"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

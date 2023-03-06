@@ -1,0 +1,24 @@
+{
+  "description": "Path of a knight's tour on an infinite chessboard.",
+  "id": "A068609",
+  "mentions": [
+    "A068225",
+    "A068608",
+    "A068610",
+    "A068611",
+    "A068612",
+    "A068613",
+    "A068614",
+    "A068615"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

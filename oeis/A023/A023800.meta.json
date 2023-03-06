@@ -1,0 +1,22 @@
+{
+  "description": "Xenodromes: all digits in base 5 are different.",
+  "id": "A023800",
+  "mentions": [
+    "A023798",
+    "A023810"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

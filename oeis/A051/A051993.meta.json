@@ -1,0 +1,26 @@
+{
+  "description": "Consider real quadratic fields of ERD-type with class groups of exponent 2 and discriminants of the form D = r^2*k^2+k, k odd; sequence gives values of r.",
+  "id": "A051993",
+  "mentions": [
+    "A051990",
+    "A051991",
+    "A051992",
+    "A051994",
+    "A051995",
+    "A051996",
+    "A051997",
+    "A051998"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of terms in the Pippenger product.",
+  "id": "A084149",
+  "mentions": [
+    "A084148"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

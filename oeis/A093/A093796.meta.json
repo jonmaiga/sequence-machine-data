@@ -1,0 +1,21 @@
+{
+  "description": "Sequence of digit-values after concatenating the natural numbers in Roman numeral representation.",
+  "id": "A093796",
+  "mentions": [
+    "A007376",
+    "A061493",
+    "A222581"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

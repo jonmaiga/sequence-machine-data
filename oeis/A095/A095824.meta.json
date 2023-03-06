@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n + largest digit of n is prime.",
+  "id": "A095824",
+  "mentions": [
+    "A054055"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

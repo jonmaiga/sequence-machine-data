@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Lehmer's constant.",
+  "id": "A030125",
+  "mentions": [
+    "A002065",
+    "A002665",
+    "A002794",
+    "A002795"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "cons",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

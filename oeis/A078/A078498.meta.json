@@ -1,0 +1,20 @@
+{
+  "description": "Let q(n) be the prime defined in A078497; sequence gives (q(n)-prime(n))/6.",
+  "id": "A078498",
+  "mentions": [
+    "A078496",
+    "A078497"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 5,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Taxicab, taxi-cab or Hardy-Ramanujan numbers: the smallest number that is the sum of 2 positive integral cubes in n ways.",
+  "id": "A011541",
+  "mentions": [
+    "A001235",
+    "A003826",
+    "A023050",
+    "A047696",
+    "A080642"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

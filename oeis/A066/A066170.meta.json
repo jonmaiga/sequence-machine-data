@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (-1)^n*(-1)^(floor(3*k/2))*binomial(floor((n+k)/2),k), 0 <= k <= n, n >= 0.",
+  "id": "A066170",
+  "mentions": [
+    "A007700",
+    "A030111",
+    "A046854",
+    "A059455",
+    "A065941",
+    "A108299",
+    "A187660"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

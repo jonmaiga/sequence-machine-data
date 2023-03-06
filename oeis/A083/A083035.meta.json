@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(sqrt(2)*n)-2*floor(n/sqrt(2)).",
+  "id": "A083035",
+  "mentions": [
+    "A001951",
+    "A083036",
+    "A083037",
+    "A083038"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

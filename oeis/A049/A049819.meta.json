@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Max_{k=1..n} T(n,k), array T as in A049816.",
+  "id": "A049819",
+  "mentions": [
+    "A049816"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:43",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

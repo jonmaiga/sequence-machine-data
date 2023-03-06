@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (n-1)*binomial(2n,n) + 1 is prime.",
+  "id": "A085793",
+  "mentions": [
+    "A066699",
+    "A066726"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

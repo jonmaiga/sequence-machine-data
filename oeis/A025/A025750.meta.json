@@ -1,0 +1,20 @@
+{
+  "description": "5th-order Patalan numbers (generalization of Catalan numbers).",
+  "id": "A025750",
+  "mentions": [
+    "A034301",
+    "A034687",
+    "A049393"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

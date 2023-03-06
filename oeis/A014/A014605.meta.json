@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A001935; at one time this was conjectured to agree with A007478.",
+  "id": "A014605",
+  "mentions": [
+    "A001935",
+    "A007478"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

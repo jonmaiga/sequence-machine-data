@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime(n) + prime(n-1) - a(n-1), with a(0)=0, a(1)=127, and prime(i) is the i-th prime.",
+  "id": "A082456",
+  "mentions": [
+    "A000040",
+    "A014686",
+    "A014687",
+    "A082454",
+    "A082455"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

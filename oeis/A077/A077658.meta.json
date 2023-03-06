@@ -1,0 +1,18 @@
+{
+  "description": "Least composite number not congruent to 0 (modulo the first n primes) which contains its greatest proper divisor as a substring of itself, both in base two.",
+  "id": "A077658",
+  "mentions": [
+    "A063138"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

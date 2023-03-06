@@ -1,0 +1,22 @@
+{
+  "description": "Numbers from the 290-theorem.",
+  "id": "A030051",
+  "mentions": [
+    "A030050",
+    "A116582",
+    "A154363"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

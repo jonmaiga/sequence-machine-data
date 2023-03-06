@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1, a(n) is the smallest number >= a(n-1) such that the simple continued fraction for S(n) = 1/a(1) + 1/a(2) + ... + 1/a(n) contains exactly n elements.",
+  "id": "A071012",
+  "mentions": [
+    "A201267",
+    "A354742"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

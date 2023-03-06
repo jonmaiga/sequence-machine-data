@@ -1,0 +1,18 @@
+{
+  "description": "Trans-Harshad numerals: base-10 numerals that represent positive Harshad numbers in every base in which they occur.",
+  "id": "A080459",
+  "mentions": [
+    "A005349"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Ramanujan's a-series: expansion of (1+53x+9x^2)/(1-82x-82x^2+x^3).",
+  "id": "A051028",
+  "mentions": [
+    "A051029",
+    "A051030"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

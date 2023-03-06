@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = T(n,n-3), T given by A026536. Also number of integer strings s(0), ..., s(n), counted by T, such that s(n) = 3.",
+  "id": "A026540",
+  "mentions": [
+    "A026536"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 3,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

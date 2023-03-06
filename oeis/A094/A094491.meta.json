@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that 2^j+p^j are primes for j=0,4,8,128.",
+  "id": "A094491",
+  "mentions": [
+    "A082101",
+    "A094473",
+    "A094490"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

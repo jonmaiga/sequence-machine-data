@@ -1,0 +1,32 @@
+{
+  "description": "Number of partitions of n^2 into squares.",
+  "id": "A037444",
+  "mentions": [
+    "A000041",
+    "A000290",
+    "A001156",
+    "A003108",
+    "A027601",
+    "A030273",
+    "A046042",
+    "A072964",
+    "A229239",
+    "A229468",
+    "A259792",
+    "A259793",
+    "A259799"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

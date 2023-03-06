@@ -1,0 +1,23 @@
+{
+  "description": "Distinct even prime-gap lengths (number of composites between primes), from 3+2, 7+4, 23+6,...",
+  "id": "A058320",
+  "mentions": [
+    "A000101",
+    "A005250",
+    "A008996",
+    "A014320",
+    "A014321"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:26",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

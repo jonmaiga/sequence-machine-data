@@ -1,0 +1,20 @@
+{
+  "description": "4*prime(n) + (prime(n) mod 4).",
+  "id": "A075520",
+  "mentions": [
+    "A000040",
+    "A001749",
+    "A039702"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (2^n - 1)^11 - 2.",
+  "id": "A098939",
+  "mentions": [
+    "A091515"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "First prime in the arithmetic progression n+k*(n+1) with k>0.",
+  "id": "A088732",
+  "mentions": [
+    "A010051",
+    "A088733"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

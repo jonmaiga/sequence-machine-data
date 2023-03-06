@@ -1,0 +1,17 @@
+{
+  "description": "Sequence A022292 divided by 2.",
+  "id": "A022293",
+  "mentions": [
+    "A022292"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:12:33",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

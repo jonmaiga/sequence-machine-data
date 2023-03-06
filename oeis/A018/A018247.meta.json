@@ -1,0 +1,28 @@
+{
+  "description": "The 10-adic integer x = ...8212890625 satisfying x^2 = x.",
+  "id": "A018247",
+  "mentions": [
+    "A003226",
+    "A007185",
+    "A018248",
+    "A033819",
+    "A054869",
+    "A055620",
+    "A075693",
+    "A259468",
+    "A259469"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

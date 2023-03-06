@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{i = 0..m} d(i)*8^i, where Sum_{i = 0..m} d(i)*4^i is the base 4 representation of n.",
+  "id": "A037462",
+  "mentions": [
+    "A007091",
+    "A037454",
+    "A102491"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:35:41",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

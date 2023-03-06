@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Pi^4/36 = zeta(2)^2.",
+  "id": "A098198",
+  "mentions": [
+    "A000005",
+    "A002088",
+    "A013661",
+    "A024916",
+    "A152649"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:20:25",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

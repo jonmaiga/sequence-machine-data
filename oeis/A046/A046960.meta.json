@@ -1,0 +1,20 @@
+{
+  "description": "Bessel function J_0(n) is a monotonically decreasing positive sequence.",
+  "id": "A046960",
+  "mentions": [
+    "A046961",
+    "A046962",
+    "A046963"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

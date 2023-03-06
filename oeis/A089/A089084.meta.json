@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that abs ( (sum_m (m=1..n) d(m)) / n - log(n) - 2*gamma + 1) is a decreasing sequence, where d(m) is the number of divisors A000005(m) and gamma is Euler's constant A001620.",
+  "id": "A089084",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A006218",
+    "A089044"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

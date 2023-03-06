@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; set of digits of a(n)^2 is a proper subset of the set of digits of a(n+1)^2.",
+  "id": "A067635",
+  "mentions": [
+    "A014563",
+    "A066825"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

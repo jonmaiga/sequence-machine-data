@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime obtained as a sum of n terms of a geometric progression + the common ratio, or 0 if no such terms exists. Smallest prime of the form (a +ar +ar^2 + ar^3 +... ) + r.",
+  "id": "A088121",
+  "mentions": [
+    "A088120"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

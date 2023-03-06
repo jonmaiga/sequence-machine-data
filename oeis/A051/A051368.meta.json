@@ -1,0 +1,24 @@
+{
+  "description": "Number of Boolean functions of n variables and rank 8 from the Post class F(5,2).",
+  "id": "A051368",
+  "mentions": [
+    "A000918",
+    "A036239",
+    "A051180",
+    "A051181",
+    "A051182",
+    "A051183",
+    "A051184"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:47:20",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

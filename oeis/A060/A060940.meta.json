@@ -1,0 +1,25 @@
+{
+  "description": "Triangle in which n-th row gives the phi(n) terms appearing as initial primes in arithmetic progressions with difference n, with initial term equal to the smallest positive residue coprimes to n.",
+  "id": "A060940",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A002144",
+    "A007519",
+    "A034693",
+    "A034694",
+    "A038566",
+    "A088732"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

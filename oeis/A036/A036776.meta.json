@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of labeled rooted trees on a set of size n where each node has at most 4 neighbors that are further away from the root than the node itself.",
+  "id": "A036776",
+  "mentions": [
+    "A036774",
+    "A036775",
+    "A036777",
+    "A325201"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:57:53",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to partition n labeled elements into 4 pie slices allowing the pie to be turned over; number of 2-element proper antichains of an n-element set.",
+  "id": "A032263",
+  "mentions": [
+    "A000453"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

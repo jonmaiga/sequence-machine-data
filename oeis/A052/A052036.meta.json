@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number that must be added to n to make or keep n palindromic.",
+  "id": "A052036",
+  "mentions": [
+    "A002113",
+    "A052037",
+    "A088997"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:00:19",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

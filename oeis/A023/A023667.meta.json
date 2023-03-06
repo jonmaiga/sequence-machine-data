@@ -1,0 +1,17 @@
+{
+  "description": "Convolution of A001950 with itself.",
+  "id": "A023667",
+  "mentions": [
+    "A001950"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:19:31",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

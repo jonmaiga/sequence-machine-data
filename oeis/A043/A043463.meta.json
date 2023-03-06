@@ -1,0 +1,18 @@
+{
+  "description": "Numbers having three 2's in base 9.",
+  "id": "A043463",
+  "mentions": [
+    "A007095"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:17",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

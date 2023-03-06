@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct irreducible polynomials dividing n-th GF(2)[X]-polynomial.",
+  "id": "A091221",
+  "mentions": [
+    "A000051",
+    "A000374",
+    "A001221",
+    "A091203",
+    "A091205",
+    "A091247"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

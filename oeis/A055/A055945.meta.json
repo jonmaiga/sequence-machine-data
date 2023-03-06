@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n - (reversal of base-2 digits of n) (and then the result is written in base 10).",
+  "id": "A055945",
+  "mentions": [
+    "A030101",
+    "A030109",
+    "A265326"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

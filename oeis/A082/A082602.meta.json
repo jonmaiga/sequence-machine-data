@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes between successive Fibonacci numbers (including possibly the Fibonacci numbers themselves).",
+  "id": "A082602",
+  "mentions": [
+    "A000045",
+    "A001605",
+    "A005478",
+    "A054782",
+    "A076777"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

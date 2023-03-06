@@ -1,0 +1,15 @@
+{
+  "description": "Number of primes between sigma(n) and n.",
+  "id": "A074397",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

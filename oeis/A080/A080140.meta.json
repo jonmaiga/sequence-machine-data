@@ -1,0 +1,20 @@
+{
+  "description": "Least positive integer multiples of angle x such that their direction cosines form a unit vector: sum(k>0, cos(a(k)*x)^2)=1, where a(1)=1 and x=(2/3).",
+  "id": "A080140",
+  "mentions": [
+    "A080136",
+    "A080137",
+    "A080138",
+    "A080139"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

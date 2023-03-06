@@ -1,0 +1,21 @@
+{
+  "description": "One half of fourth column of triangle A075181.",
+  "id": "A075184",
+  "mentions": [
+    "A008275",
+    "A048594",
+    "A075181"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

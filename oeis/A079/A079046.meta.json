@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients of the polynomials in the numerator of the generating function f(x)=(x-x^2)/(x^3-2x^2-2x+1) for F(n)^2, (where F(n) is the Fibonacci sequence) and its successive derivatives starting with the highest power of x.",
+  "id": "A079046",
+  "mentions": [
+    "A079045"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

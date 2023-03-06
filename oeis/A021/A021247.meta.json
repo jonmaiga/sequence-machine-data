@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 1/243.",
+  "id": "A021247",
+  "mentions": [
+    "A000012",
+    "A010701",
+    "A021085",
+    "A021733",
+    "A068542"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:11:33",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

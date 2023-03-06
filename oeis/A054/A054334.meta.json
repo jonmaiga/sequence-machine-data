@@ -1,0 +1,24 @@
+{
+  "description": "1/512 of 11th unsigned column of triangle A053120 (T-Chebyshev, rising powers, zeros omitted).",
+  "id": "A054334",
+  "mentions": [
+    "A005585",
+    "A040977",
+    "A050486",
+    "A053120",
+    "A053347",
+    "A054333"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:18:17",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

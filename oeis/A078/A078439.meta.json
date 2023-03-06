@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} gcd(k,n)*mu(gcd(k,n))^2.",
+  "id": "A078439",
+  "mentions": [
+    "A000010",
+    "A001620",
+    "A008683",
+    "A063659"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

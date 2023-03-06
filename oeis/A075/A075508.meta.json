@@ -1,0 +1,30 @@
+{
+  "description": "Shifts one place left under 9th-order binomial transform.",
+  "id": "A075508",
+  "mentions": [
+    "A000110",
+    "A004211",
+    "A004212",
+    "A004213",
+    "A005011",
+    "A005012",
+    "A008277",
+    "A075504",
+    "A075506",
+    "A075507",
+    "A075509"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

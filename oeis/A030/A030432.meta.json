@@ -1,0 +1,30 @@
+{
+  "description": "Primes of form 10n+7.",
+  "id": "A030432",
+  "mentions": [
+    "A000040",
+    "A017353",
+    "A030430",
+    "A030431",
+    "A030433",
+    "A039949",
+    "A045357",
+    "A045380",
+    "A049509",
+    "A102342",
+    "A132231"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

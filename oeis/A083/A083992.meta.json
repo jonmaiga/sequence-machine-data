@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; then the smallest number such that both the forward and reverse n-th partial concatenation is a prime for n > 1. (Reverse concatenation is taken term-wise and not digit-wise.)",
+  "id": "A083992",
+  "mentions": [
+    "A083993",
+    "A083994"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

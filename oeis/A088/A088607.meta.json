@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1. For n > 1, a(n) = prime(n) if n is prime, else a(n) = composite(n).",
+  "id": "A088607",
+  "mentions": [
+    "A088608"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

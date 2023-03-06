@@ -1,0 +1,19 @@
+{
+  "description": "Indices of prime Motzkin numbers.",
+  "id": "A092831",
+  "mentions": [
+    "A001006",
+    "A092832"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

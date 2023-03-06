@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the sum of smallest prime factors of numbers from 1 to n.",
+  "id": "A088821",
+  "mentions": [
+    "A020639",
+    "A038110",
+    "A038111",
+    "A046669",
+    "A088822",
+    "A088823",
+    "A088824",
+    "A088825"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

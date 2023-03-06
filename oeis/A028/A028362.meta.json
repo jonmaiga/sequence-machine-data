@@ -1,0 +1,32 @@
+{
+  "description": "Total number of self-dual binary codes of length 2n. Totally isotropic spaces of index n in symplectic geometry of dimension 2n.",
+  "id": "A028362",
+  "mentions": [
+    "A000124",
+    "A003178",
+    "A003179",
+    "A005329",
+    "A006088",
+    "A028361",
+    "A028363",
+    "A048675",
+    "A053632",
+    "A068052",
+    "A079555",
+    "A155103",
+    "A285101"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

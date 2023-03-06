@@ -1,0 +1,18 @@
+{
+  "description": "Even numbers n such that 2n-5 is a prime of the form 4k+3.",
+  "id": "A089257",
+  "mentions": [
+    "A002145"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

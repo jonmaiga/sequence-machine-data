@@ -1,0 +1,24 @@
+{
+  "description": "Partial sums of usigma(n)^2: square of the sum of unitary divisors of n.",
+  "id": "A074789",
+  "mentions": [
+    "A002117",
+    "A013661",
+    "A034448",
+    "A057434",
+    "A061502",
+    "A064609",
+    "A072379"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

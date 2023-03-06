@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 6, a(n) = smallest number of the form k*a(n-1) +1 with the same prime signature p*q ( 6 = 2*3), where p and q are primes.",
+  "id": "A085066",
+  "mentions": [
+    "A061092",
+    "A085065"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

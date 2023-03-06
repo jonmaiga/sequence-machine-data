@@ -1,0 +1,15 @@
+{
+  "description": "n is the sum of k nonzero squares for all 5 <= k <= n-14 (contains all integers >= 19 except 33).",
+  "id": "A018824",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:54:05",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

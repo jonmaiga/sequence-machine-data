@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n-th elementary symmetric function of the first n+1 positive integers congruent to 1 mod 4.",
+  "id": "A024382",
+  "mentions": [
+    "A000384",
+    "A007696",
+    "A024216",
+    "A024378",
+    "A024379"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

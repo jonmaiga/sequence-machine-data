@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of D/2, where D^2 = 3*sqrt(3)/Pi.",
+  "id": "A093604",
+  "mentions": [
+    "A010527",
+    "A011002",
+    "A087197",
+    "A097603"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:13:13",
+    "offset": 0,
+    "size": 120,
+    "source": "joeis"
+  }
+}

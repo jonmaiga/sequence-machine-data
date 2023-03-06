@@ -1,0 +1,20 @@
+{
+  "description": "Centered cube numbers: a(n) = (n+1)^20 + n^20.",
+  "id": "A036098",
+  "mentions": [
+    "A010808",
+    "A036096",
+    "A036097"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

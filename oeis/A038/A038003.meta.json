@@ -1,0 +1,25 @@
+{
+  "description": "Odd Catalan numbers; more precisely, A000108(2^n-1).",
+  "id": "A038003",
+  "mentions": [
+    "A000108",
+    "A001790",
+    "A094389",
+    "A098597",
+    "A119861",
+    "A119908",
+    "A120274",
+    "A120275"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

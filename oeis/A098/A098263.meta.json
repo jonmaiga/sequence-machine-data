@@ -1,0 +1,21 @@
+{
+  "description": "Chebyshev polynomials S(n,731).",
+  "id": "A098263",
+  "mentions": [
+    "A049310",
+    "A098291",
+    "A098292"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:20:49",
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of anagrams of A046888(n) that are primes.",
+  "id": "A046889",
+  "mentions": [
+    "A046810",
+    "A046888"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of zeta(4) in base 2.",
+  "id": "A068430",
+  "mentions": [
+    "A013662"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:41:33",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

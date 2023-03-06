@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the smallest solution >0 to cos(x)=cos(x^2).",
+  "id": "A068558",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:41:45",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

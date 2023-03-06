@@ -1,0 +1,21 @@
+{
+  "description": "Period length of continued fraction for square root of n-th decimal repunit.",
+  "id": "A096485",
+  "mentions": [
+    "A002275",
+    "A096483",
+    "A096484"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

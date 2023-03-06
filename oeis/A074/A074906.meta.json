@@ -1,0 +1,22 @@
+{
+  "description": "Aliquot sequence starting at 1521.",
+  "id": "A074906",
+  "mentions": [
+    "A001065",
+    "A008888",
+    "A008889"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

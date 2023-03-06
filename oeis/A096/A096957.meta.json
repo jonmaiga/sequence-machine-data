@@ -1,0 +1,22 @@
+{
+  "description": "Fourth column (m=3) of (1,6)-Pascal triangle A096956.",
+  "id": "A096957",
+  "mentions": [
+    "A000292",
+    "A056115",
+    "A096956",
+    "A096958"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:47:51",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

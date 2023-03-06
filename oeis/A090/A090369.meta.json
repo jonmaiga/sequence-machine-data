@@ -1,0 +1,22 @@
+{
+  "description": "Smallest divisor of 2n that is > 2, or 0 if no such divisor exists.",
+  "id": "A090369",
+  "mentions": [
+    "A020639",
+    "A090368",
+    "A117078",
+    "A117563",
+    "A118534"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

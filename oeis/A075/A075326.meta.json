@@ -1,0 +1,33 @@
+{
+  "description": "Anti-Fibonacci numbers: start with a(0) = 0, and extend by the rule that the next term is the sum of the two smallest numbers that are not in the sequence nor were used to form an earlier sum.",
+  "id": "A075326",
+  "mentions": [
+    "A000045",
+    "A003893",
+    "A008585",
+    "A017305",
+    "A035263",
+    "A047215",
+    "A075325",
+    "A075327",
+    "A075425",
+    "A079523",
+    "A131323",
+    "A249031",
+    "A249032",
+    "A249406",
+    "A265389",
+    "A299405"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Lower bound on cumulative mean of distances between cards after n shuffles in A024222.",
+  "id": "A024542",
+  "mentions": [
+    "A024222"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:03",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

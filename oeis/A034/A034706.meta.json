@@ -1,0 +1,24 @@
+{
+  "description": "Numbers which are sums of consecutive triangular numbers.",
+  "id": "A034706",
+  "mentions": [
+    "A000217",
+    "A001110",
+    "A034705",
+    "A050941",
+    "A129803",
+    "A131557",
+    "A257711",
+    "A269414"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

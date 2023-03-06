@@ -1,0 +1,28 @@
+{
+  "description": "Number of 4-ary Lyndon words of length n over Z_4 with trace 1 and subtrace 1.",
+  "id": "A074407",
+  "mentions": [
+    "A068596",
+    "A074403",
+    "A074404",
+    "A074405",
+    "A074406",
+    "A074408",
+    "A074409",
+    "A074410",
+    "A074411",
+    "A074412",
+    "A074413"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

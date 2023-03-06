@@ -1,0 +1,22 @@
+{
+  "description": "4-perfect (quadruply-perfect or sous-triple) numbers: sum of divisors of n is 4n.",
+  "id": "A027687",
+  "mentions": [
+    "A000396",
+    "A005820",
+    "A007539",
+    "A010888",
+    "A046060",
+    "A046061"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

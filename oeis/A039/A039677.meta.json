@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of Fibonacci-lucky numbers.",
+  "id": "A039677",
+  "mentions": [
+    "A039672"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:12:37",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

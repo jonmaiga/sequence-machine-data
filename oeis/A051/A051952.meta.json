@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are not a sum of 3 positive squares nor are of the form 4^a*(8b+7) and which are not multiples of 4.",
+  "id": "A051952",
+  "mentions": [
+    "A000408",
+    "A004214",
+    "A223731"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

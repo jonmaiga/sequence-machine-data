@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X n matrices with entries {-1,0,1} that are diagonalizable over the real numbers.",
+  "id": "A091502",
+  "mentions": [
+    "A091503",
+    "A091504"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

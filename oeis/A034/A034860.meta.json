@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n!*(2*n-5)/2.",
+  "id": "A034860",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 3,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

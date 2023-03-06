@@ -1,0 +1,21 @@
+{
+  "description": "Stirling transform of Catalan numbers: Sum_{k=0..n} |Stirling1(n,k)|*C(2*k,k)/(k+1).",
+  "id": "A086662",
+  "mentions": [
+    "A000108",
+    "A008275",
+    "A064856"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

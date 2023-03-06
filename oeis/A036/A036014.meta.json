@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number such that the product a(1)a(2)...a(n) falls between a twin prime pair, starting with a(1)=2.",
+  "id": "A036014",
+  "mentions": [
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

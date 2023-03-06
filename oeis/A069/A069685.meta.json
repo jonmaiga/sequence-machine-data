@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of coefficients in -log(1+x)log(1-x) power series.",
+  "id": "A069685",
+  "mentions": [
+    "A049281",
+    "A076100"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:53:38",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

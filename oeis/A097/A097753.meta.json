@@ -1,0 +1,22 @@
+{
+  "description": "Table read by antidiagonals of least integer \"mod 4 prime signatures\" k ordered by number of Pythagorean triples with hypotenuse = k.",
+  "id": "A097753",
+  "mentions": [
+    "A097751",
+    "A097752",
+    "A097754",
+    "A097755",
+    "A097756"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

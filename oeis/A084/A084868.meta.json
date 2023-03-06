@@ -1,0 +1,28 @@
+{
+  "description": "Main diagonal of symmetric square table A084867, in which the antidiagonal sums (A006012) form the first row shifted left.",
+  "id": "A084868",
+  "mentions": [
+    "A000108",
+    "A000302",
+    "A001906",
+    "A006012",
+    "A011782",
+    "A026671",
+    "A028329",
+    "A081696",
+    "A084867",
+    "A106566"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

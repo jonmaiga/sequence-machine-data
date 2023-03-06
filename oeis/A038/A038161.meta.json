@@ -1,0 +1,19 @@
+{
+  "description": "(A038590-1)/6.",
+  "id": "A038161",
+  "mentions": [
+    "A035019",
+    "A038162",
+    "A038590"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

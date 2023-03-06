@@ -1,0 +1,26 @@
+{
+  "description": "Successively larger 3-ball ground-state site swaps of A084501 in concatenated decimal notation.",
+  "id": "A084502",
+  "mentions": [
+    "A084500",
+    "A084501",
+    "A084506",
+    "A084507",
+    "A084509",
+    "A084512",
+    "A084522",
+    "A222222"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

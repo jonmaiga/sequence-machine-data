@@ -1,0 +1,23 @@
+{
+  "description": "Number of (undirected) Hamiltonian paths on the 4 X n knight graph.",
+  "id": "A079137",
+  "mentions": [
+    "A079312",
+    "A083386",
+    "A123935",
+    "A123936",
+    "A165134",
+    "A169696",
+    "A328341"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

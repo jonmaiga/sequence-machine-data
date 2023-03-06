@@ -1,0 +1,19 @@
+{
+  "description": "Where A098650 reaches a record.",
+  "id": "A098651",
+  "mentions": [
+    "A098650",
+    "A098652"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

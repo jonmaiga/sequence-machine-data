@@ -1,0 +1,20 @@
+{
+  "description": "Aronson's sequence in French: m est la premiere, la dixieme ... lettre de cette phrase.",
+  "id": "A014367",
+  "mentions": [
+    "A005224"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nice",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

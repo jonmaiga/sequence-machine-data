@@ -1,0 +1,19 @@
+{
+  "description": "Areas of more than one primitive Pythagorean triangle.",
+  "id": "A024407",
+  "mentions": [
+    "A024365",
+    "A024406"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

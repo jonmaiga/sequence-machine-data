@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes below n^2 does not exceed n times the number of primes below n.",
+  "id": "A060303",
+  "mentions": [
+    "A000720",
+    "A060199",
+    "A060208"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

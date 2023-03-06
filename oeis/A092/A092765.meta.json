@@ -1,0 +1,20 @@
+{
+  "description": "Consider the 1-D random walk with jumps to next-nearest neighbors. Sequence gives number of paths of length n ending at origin.",
+  "id": "A092765",
+  "mentions": [
+    "A027907",
+    "A187430"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

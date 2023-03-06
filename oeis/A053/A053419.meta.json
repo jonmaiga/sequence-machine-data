@@ -1,0 +1,27 @@
+{
+  "description": "Number of graphs with loops (symmetric relations) with n edges.",
+  "id": "A053419",
+  "mentions": [
+    "A000664",
+    "A000666",
+    "A007716",
+    "A007717",
+    "A020555",
+    "A050535",
+    "A094574",
+    "A191970",
+    "A316974",
+    "A339063"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

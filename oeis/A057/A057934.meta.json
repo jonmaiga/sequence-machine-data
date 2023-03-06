@@ -1,0 +1,32 @@
+{
+  "description": "Number of prime factors of 10^n + 1 (counted with multiplicity).",
+  "id": "A057934",
+  "mentions": [
+    "A001271",
+    "A001562",
+    "A003021",
+    "A046053",
+    "A054992",
+    "A057935",
+    "A057936",
+    "A057937",
+    "A057938",
+    "A057939",
+    "A057940",
+    "A057941",
+    "A057951",
+    "A119704",
+    "A344897"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 2*10^k + 7*R_k - 6 is prime, where R_k = 11...1 is the repunit (A002275) of length k.",
+  "id": "A098960",
+  "mentions": [
+    "A002275",
+    "A101966"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

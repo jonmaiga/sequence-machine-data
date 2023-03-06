@@ -1,0 +1,18 @@
+{
+  "description": "Smallest n-th power beginning with the concatenation of first n natural numbers.",
+  "id": "A068121",
+  "mentions": [
+    "A068122"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

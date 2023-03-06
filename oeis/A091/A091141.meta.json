@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2*a(n-1) + 4*a(n-2) - 2*a(n-3) with initial terms 1, 4, 13.",
+  "id": "A091141",
+  "mentions": [
+    "A091140",
+    "A091142"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

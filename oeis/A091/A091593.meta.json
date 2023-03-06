@@ -1,0 +1,22 @@
+{
+  "description": "Reversion of Jacobsthal numbers A001045.",
+  "id": "A091593",
+  "mentions": [
+    "A000108",
+    "A001045",
+    "A154825",
+    "A357588"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

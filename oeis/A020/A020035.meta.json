@@ -1,0 +1,19 @@
+{
+  "description": "Nearest integer to Gamma(n + 5/6)/Gamma(5/6).",
+  "id": "A020035",
+  "mentions": [
+    "A008543",
+    "A020080",
+    "A020125"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:22:51",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

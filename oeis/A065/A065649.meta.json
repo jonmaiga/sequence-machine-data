@@ -1,0 +1,26 @@
+{
+  "description": "Permutation of nonnegative integers based on Champernowne's constant 0.123456789101112131415...",
+  "id": "A065649",
+  "mentions": [
+    "A033307",
+    "A065648",
+    "A065650",
+    "A261279",
+    "A261293",
+    "A261333"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

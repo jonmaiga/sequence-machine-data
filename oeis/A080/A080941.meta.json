@@ -1,0 +1,23 @@
+{
+  "description": "Greatest proper divisor of n which is a suffix of n in binary representation; a(n) = 0 if no such divisor exists.",
+  "id": "A080941",
+  "mentions": [
+    "A000079",
+    "A007088",
+    "A027751",
+    "A030308",
+    "A080940",
+    "A080942"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

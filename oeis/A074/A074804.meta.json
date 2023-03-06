@@ -1,0 +1,17 @@
+{
+  "description": "Kolakoski-(3,2) sequence: a(n) is length of n-th run.",
+  "id": "A074804",
+  "mentions": [
+    "A000002"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

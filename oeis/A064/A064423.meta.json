@@ -1,0 +1,20 @@
+{
+  "description": "Position of n-th prime in A064413 (if it begins at 2).",
+  "id": "A064423",
+  "mentions": [
+    "A064413",
+    "A064425",
+    "A064955"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 157,
+    "source": "oeis-bfile"
+  }
+}

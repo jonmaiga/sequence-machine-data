@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that both p-2 and p-4 are semiprimes.",
+  "id": "A092105",
+  "mentions": [
+    "A063638",
+    "A092104"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

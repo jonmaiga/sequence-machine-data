@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that (14*10^(k-1) - 41)/9 is a plateau prime.",
+  "id": "A082699",
+  "mentions": [
+    "A056246",
+    "A068646",
+    "A082697",
+    "A082720"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

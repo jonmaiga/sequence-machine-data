@@ -1,0 +1,21 @@
+{
+  "description": "Least x = a(n) such that number of common prime factors (ignoring multiplicity) of sigma(x) = A000203(x) and phi(x) = A000010(x) equals n.",
+  "id": "A081383",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A081396"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

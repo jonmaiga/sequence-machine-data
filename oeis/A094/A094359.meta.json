@@ -1,0 +1,22 @@
+{
+  "description": "Pair reversal of a Jacobsthal sequence.",
+  "id": "A094359",
+  "mentions": [
+    "A000918",
+    "A078008",
+    "A084183",
+    "A094360"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

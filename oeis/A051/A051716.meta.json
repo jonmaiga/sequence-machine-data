@@ -1,0 +1,32 @@
+{
+  "description": "Numerators of Bernoulli twin numbers C(n).",
+  "id": "A051716",
+  "mentions": [
+    "A000367",
+    "A027641",
+    "A027642",
+    "A051714",
+    "A051715",
+    "A051717",
+    "A129724",
+    "A129825",
+    "A129826",
+    "A164555",
+    "A290317",
+    "A290318"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

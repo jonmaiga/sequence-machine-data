@@ -1,0 +1,20 @@
+{
+  "description": "Arrange digits of primes in ascending order (omitting any that contain 0's), sort list, remove duplicates.",
+  "id": "A032524",
+  "mentions": [
+    "A007933",
+    "A034442"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

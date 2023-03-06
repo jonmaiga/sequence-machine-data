@@ -1,0 +1,21 @@
+{
+  "description": "Sum of digits in base 2 is a divisor of sum of prime divisors (A008472).",
+  "id": "A076380",
+  "mentions": [
+    "A008472",
+    "A075657",
+    "A076381",
+    "A076387"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

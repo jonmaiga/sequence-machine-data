@@ -1,0 +1,18 @@
+{
+  "description": "Primes of form prime(1) + ... + prime(k) + 1.",
+  "id": "A053845",
+  "mentions": [
+    "A013918"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:11:51",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

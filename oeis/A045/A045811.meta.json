@@ -1,0 +1,20 @@
+{
+  "description": "In the list of divisors of n (in base 3), each digit 0-2 appears equally often.",
+  "id": "A045811",
+  "mentions": [
+    "A038564",
+    "A038565",
+    "A045812"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:18",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

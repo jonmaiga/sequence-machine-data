@@ -1,0 +1,21 @@
+{
+  "description": "Non-Cayley-isomorphic circulant p^2-tournaments, indexed by odd primes p.",
+  "id": "A054246",
+  "mentions": [
+    "A038788",
+    "A038791",
+    "A049288"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 3,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

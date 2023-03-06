@@ -1,0 +1,29 @@
+{
+  "description": "Positions of ones in A007001. Repeating part in each sub-permutation A082315[A014137(n-1)..A014138(n-1)] normalized to begin from 1.",
+  "id": "A085197",
+  "mentions": [
+    "A007001",
+    "A014137",
+    "A014138",
+    "A072795",
+    "A076050",
+    "A080237",
+    "A080336",
+    "A081291",
+    "A082315",
+    "A082854",
+    "A085180",
+    "A085196"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:36:39",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Least k>1 such that first n terms of A022303 repeat beginning at k-th term.",
+  "id": "A025519",
+  "mentions": [
+    "A022303"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

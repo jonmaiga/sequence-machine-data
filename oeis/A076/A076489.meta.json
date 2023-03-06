@@ -1,0 +1,24 @@
+{
+  "description": "Number of common (distinct) digits of consecutive natural numbers.",
+  "id": "A076489",
+  "mentions": [
+    "A001477",
+    "A031298",
+    "A076490",
+    "A226637",
+    "A238845",
+    "A239092"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

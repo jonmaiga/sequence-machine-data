@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of terms in the expansion of (x+y+z)*(x^2+y^2+z^2)*(x^3+y^3+z^3)*...*(x^n+y^n+z^n).",
+  "id": "A086796",
+  "mentions": [
+    "A000124"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

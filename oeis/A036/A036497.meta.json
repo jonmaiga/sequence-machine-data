@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into distinct primes (counting 1 as a prime).",
+  "id": "A036497",
+  "mentions": [
+    "A000586",
+    "A008578"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

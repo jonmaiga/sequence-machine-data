@@ -1,0 +1,22 @@
+{
+  "description": "Number of primitive (period n) bracelet structures using exactly six different colored beads.",
+  "id": "A056370",
+  "mentions": [
+    "A056307",
+    "A056364",
+    "A056365",
+    "A056391",
+    "A276543"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:23:17",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

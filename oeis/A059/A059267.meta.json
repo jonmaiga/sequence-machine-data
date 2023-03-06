@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n with 2 divisors d1 and d2 having difference 2: d2 - d1 = 2; equivalently, numbers that are 0 (mod 4) or have a divisor d of the form d = m^2 - 1.",
+  "id": "A059267",
+  "mentions": [
+    "A008585",
+    "A008586",
+    "A037074",
+    "A099475",
+    "A099477",
+    "A143714"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

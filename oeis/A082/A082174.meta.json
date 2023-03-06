@@ -1,0 +1,19 @@
+{
+  "description": "Number of primitive reduced indefinite quadratic forms over the integers in two variables with discriminants D(n)=A079896(n).",
+  "id": "A082174",
+  "mentions": [
+    "A079896",
+    "A082175"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

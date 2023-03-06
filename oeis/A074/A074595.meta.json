@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime factors of numbers that are not prime powers (with multiplicity).",
+  "id": "A074595",
+  "mentions": [
+    "A001222",
+    "A024619",
+    "A074592",
+    "A074593",
+    "A074594"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:24:09",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

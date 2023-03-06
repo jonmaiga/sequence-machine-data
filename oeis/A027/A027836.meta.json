@@ -1,0 +1,21 @@
+{
+  "description": "Total number of vertices in all loopless rooted planar maps with n edges.",
+  "id": "A027836",
+  "mentions": [
+    "A000260",
+    "A002293",
+    "A005470",
+    "A342981"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

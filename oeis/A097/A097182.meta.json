@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) has the property that the first (n+1) terms of A(x)^(n+1) form the n-th row polynomial R_n(y) of triangle A097181 and satisfy R_n(1/2) = 8^n for all n>=0.",
+  "id": "A097182",
+  "mentions": [
+    "A097181",
+    "A097183",
+    "A097184",
+    "A097185",
+    "A097194"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

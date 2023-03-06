@@ -1,0 +1,23 @@
+{
+  "description": "T(n,5), array T as in A051168; a count of Lyndon words; aperiodic necklaces with 5 black beads and n-5 white beads.",
+  "id": "A051170",
+  "mentions": [
+    "A000031",
+    "A001037",
+    "A011795",
+    "A036837",
+    "A051168"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:54:15",
+    "offset": 5,
+    "size": 40,
+    "source": "joeis"
+  }
+}

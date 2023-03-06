@@ -1,0 +1,36 @@
+{
+  "description": "Number of numbers <= n with same number of distinct prime factors as n.",
+  "id": "A067003",
+  "mentions": [
+    "A000010",
+    "A000961",
+    "A001221",
+    "A002110",
+    "A006049",
+    "A007774",
+    "A008479",
+    "A033992",
+    "A033993",
+    "A051270",
+    "A058933",
+    "A061142",
+    "A067004",
+    "A294277",
+    "A294278",
+    "A302242",
+    "A322837",
+    "A322841"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

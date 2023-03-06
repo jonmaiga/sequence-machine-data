@@ -1,0 +1,19 @@
+{
+  "description": "Minimal span for an absolute difference triangle of distinct entries whose base consists of a sequence of n positive integers.",
+  "id": "A098065",
+  "mentions": [
+    "A000096",
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

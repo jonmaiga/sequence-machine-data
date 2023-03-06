@@ -1,0 +1,20 @@
+{
+  "description": "Main diagonal of A058735.",
+  "id": "A058737",
+  "mentions": [
+    "A000669",
+    "A058735",
+    "A106240"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 2,
+    "size": 27,
+    "source": "joeis"
+  }
+}

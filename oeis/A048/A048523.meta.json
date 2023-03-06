@@ -1,0 +1,25 @@
+{
+  "description": "Primes for which only one iteration of 'Prime plus its digit sum equals a prime' is possible.",
+  "id": "A048523",
+  "mentions": [
+    "A047791",
+    "A048519",
+    "A048524",
+    "A048527",
+    "A062028",
+    "A090009",
+    "A320878",
+    "A320880"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:14:23",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

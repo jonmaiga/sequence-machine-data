@@ -1,0 +1,26 @@
+{
+  "description": "a(0) = 6; for n>0, a(n) = 2*a(n-1) - 1.",
+  "id": "A083575",
+  "mentions": [
+    "A020737",
+    "A050526",
+    "A083683",
+    "A083686",
+    "A083705",
+    "A168596",
+    "A181565",
+    "A195744"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

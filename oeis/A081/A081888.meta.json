@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that the least positive primitive root of n is larger than the value for all positive numbers smaller than n.",
+  "id": "A081888",
+  "mentions": [
+    "A002229",
+    "A002230",
+    "A081889",
+    "A306252"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

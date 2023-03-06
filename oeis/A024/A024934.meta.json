@@ -1,0 +1,25 @@
+{
+  "description": "Sum of remainders n mod p, over all primes p < n.",
+  "id": "A024934",
+  "mentions": [
+    "A000720",
+    "A004125",
+    "A013939",
+    "A024924",
+    "A067435",
+    "A067436",
+    "A101336",
+    "A105221"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

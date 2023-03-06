@@ -1,0 +1,30 @@
+{
+  "description": "Number of binary codes of length 5 with n words.",
+  "id": "A034190",
+  "mentions": [
+    "A034188",
+    "A034189",
+    "A034191",
+    "A034192",
+    "A034193",
+    "A034194",
+    "A034195",
+    "A034196",
+    "A034197",
+    "A039754",
+    "A171872",
+    "A171876"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

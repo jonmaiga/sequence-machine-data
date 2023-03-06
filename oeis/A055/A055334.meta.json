@@ -1,0 +1,23 @@
+{
+  "description": "Number of asymmetric (identity) trees with n nodes and k leaves.",
+  "id": "A055334",
+  "mentions": [
+    "A000220",
+    "A001399",
+    "A055327",
+    "A055335",
+    "A055339"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

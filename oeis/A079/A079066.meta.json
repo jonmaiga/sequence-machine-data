@@ -1,0 +1,35 @@
+{
+  "description": "\"Memory\" of prime(n): the number of (previous) primes contained as substrings in prime(n).",
+  "id": "A079066",
+  "mentions": [
+    "A033274",
+    "A035232",
+    "A039997",
+    "A079075",
+    "A179909",
+    "A179910",
+    "A179911",
+    "A179912",
+    "A179913",
+    "A179914",
+    "A179915",
+    "A179916",
+    "A179917",
+    "A179918",
+    "A179919",
+    "A179922"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

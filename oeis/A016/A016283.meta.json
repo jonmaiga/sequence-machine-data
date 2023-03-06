@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 6^n/8 - 4^(n-1) + 2^(n-3).",
+  "id": "A016283",
+  "mentions": [
+    "A008277",
+    "A025966",
+    "A064436",
+    "A075497"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Limiting sequence if we start with 2 and successively replace n with 2,3,4,...,n,n+1.",
+  "id": "A076050",
+  "mentions": [
+    "A000108",
+    "A007001",
+    "A071159"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "A simple grammar: pairs of cycles of cycles.",
+  "id": "A052822",
+  "mentions": [
+    "A001620"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

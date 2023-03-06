@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(743).",
+  "id": "A042431",
+  "mentions": [
+    "A040715",
+    "A042430"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:54",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

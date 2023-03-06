@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A092614.",
+  "id": "A093723",
+  "mentions": [
+    "A007355",
+    "A092613",
+    "A092614",
+    "A093724"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

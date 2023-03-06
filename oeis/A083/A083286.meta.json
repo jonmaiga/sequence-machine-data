@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of K(3), a constant related to the Josephus problem.",
+  "id": "A083286",
+  "mentions": [
+    "A054995",
+    "A083287"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

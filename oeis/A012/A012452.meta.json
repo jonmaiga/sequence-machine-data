@@ -1,0 +1,15 @@
+{
+  "description": "arctanh(arctan(x)*tan(x))=2/2!*x^2+400/6!*x^6-2688/8!*x^8...",
+  "id": "A012452",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:48:47",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

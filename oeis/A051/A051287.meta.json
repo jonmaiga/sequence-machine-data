@@ -1,0 +1,16 @@
+{
+  "description": "Triangular array T read by rows: T(n,k)=P(n,k,|n-2k|), where P(n,k,c)=number of vectors (x(1),x(2,),...,x(n)) of k 1's and n-k 0's such that x(i)=x(n+1-i) for exactly c values of i.",
+  "id": "A051287",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:22",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of polydominoes.",
+  "id": "A056785",
+  "mentions": [
+    "A056786",
+    "A210996",
+    "A213376",
+    "A213377",
+    "A213378"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

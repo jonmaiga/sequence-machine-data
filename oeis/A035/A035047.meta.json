@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of alternating sum transform (PSumSIGN) of Harmonic numbers H(n) = A001008/A002805.",
+  "id": "A035047",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A035048"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

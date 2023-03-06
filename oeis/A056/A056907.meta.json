@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that 36*k^2 + 12*k + 5 is prime (sorted by absolute values with negatives before positives).",
+  "id": "A056907",
+  "mentions": [
+    "A005473",
+    "A047201",
+    "A056900",
+    "A056902",
+    "A056904",
+    "A056906",
+    "A056908"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 16:11:10",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

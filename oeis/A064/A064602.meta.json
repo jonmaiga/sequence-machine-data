@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of A001157: Sum_{j=1..n} sigma_2(j).",
+  "id": "A064602",
+  "mentions": [
+    "A000330",
+    "A001157",
+    "A064603",
+    "A064604",
+    "A064605",
+    "A248076"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Greatest common divisor of n and sum of decimal digits of n-th prime.",
+  "id": "A081652",
+  "mentions": [
+    "A000040",
+    "A007605",
+    "A007953",
+    "A066750",
+    "A081653"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:20:45",
+    "offset": 1,
+    "size": 104,
+    "source": "joeis"
+  }
+}

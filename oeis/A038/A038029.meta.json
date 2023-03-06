@@ -1,0 +1,19 @@
+{
+  "description": "Incrementally largest values of A038025.",
+  "id": "A038029",
+  "mentions": [
+    "A038025",
+    "A038030",
+    "A038031"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

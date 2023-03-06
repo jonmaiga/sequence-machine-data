@@ -1,0 +1,27 @@
+{
+  "description": "Smallest number m such that first digit - second digit + third digit - fourth digit ... (of m) = n.",
+  "id": "A061479",
+  "mentions": [
+    "A008593",
+    "A032945",
+    "A060978",
+    "A060980",
+    "A060982",
+    "A061470",
+    "A061478",
+    "A061870",
+    "A061882",
+    "A225693"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-27 12:56:37",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

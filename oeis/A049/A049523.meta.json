@@ -1,0 +1,28 @@
+{
+  "description": "Smallest starting index for a run of exactly n consecutive equal digits in decimal expansion of Pi.",
+  "id": "A049523",
+  "mentions": [
+    "A049514",
+    "A049515",
+    "A049516",
+    "A049517",
+    "A049518",
+    "A049519",
+    "A049520",
+    "A049521",
+    "A049522",
+    "A084144"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

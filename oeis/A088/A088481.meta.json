@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that the lunar product of the distinct lunar prime divisors of n is > n.",
+  "id": "A088481",
+  "mentions": [
+    "A087061"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

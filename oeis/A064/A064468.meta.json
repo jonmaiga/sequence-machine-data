@@ -1,0 +1,18 @@
+{
+  "description": "Positions of powers of 2 in A064413 (if it starts at 2).",
+  "id": "A064468",
+  "mentions": [
+    "A064413",
+    "A064954"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

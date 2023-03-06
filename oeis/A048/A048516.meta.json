@@ -1,0 +1,21 @@
+{
+  "description": "Array T read by diagonals: T(m,n)=number of subsets S of {1,2,3,...,m+n-1} such that |S|>1 and |a-b|>=m for all distinct a and b in S, m=1,2,3,...; n=1,2,3,...",
+  "id": "A048516",
+  "mentions": [
+    "A000295",
+    "A001924",
+    "A050228"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:12:57",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

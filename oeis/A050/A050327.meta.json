@@ -1,0 +1,23 @@
+{
+  "description": "Number of factorizations into distinct squarefree factors indexed by prime signatures. A050326(A025487).",
+  "id": "A050327",
+  "mentions": [
+    "A000110",
+    "A002110",
+    "A025487",
+    "A050326",
+    "A054841",
+    "A293243"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

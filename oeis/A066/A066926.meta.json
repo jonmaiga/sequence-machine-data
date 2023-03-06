@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k having a partition k = sum x_i for which sum k/x_i is also a partition of k.",
+  "id": "A066926",
+  "mentions": [
+    "A066925"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

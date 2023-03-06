@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = sum of absolute-valued coefficients of (1+2x-4x^2)^n.",
+  "id": "A084779",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

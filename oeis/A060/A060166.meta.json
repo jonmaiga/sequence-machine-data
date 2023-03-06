@@ -1,0 +1,26 @@
+{
+  "description": "Number of orbits of length n under the map whose periodic points are counted by A001641.",
+  "id": "A060166",
+  "mentions": [
+    "A001641",
+    "A060164",
+    "A060165",
+    "A060167",
+    "A060168",
+    "A060169",
+    "A060170",
+    "A060171"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:51:31",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k)=number of Catalan knight paths in right half-plane from (0,0) to (n,k), for 0 <= k <= 2n, n >= 0. (See A096587 for the definition of a Catalan knight.)",
+  "id": "A096608",
+  "mentions": [
+    "A002605",
+    "A096587",
+    "A096609",
+    "A096610",
+    "A099611",
+    "A099612",
+    "A355320"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

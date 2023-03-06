@@ -1,0 +1,40 @@
+{
+  "description": "Number of middle divisors of n, i.e., divisors in the half-open interval [sqrt(n/2), sqrt(n*2)).",
+  "id": "A067742",
+  "mentions": [
+    "A000005",
+    "A001227",
+    "A003056",
+    "A028982",
+    "A028983",
+    "A053866",
+    "A067743",
+    "A071090",
+    "A071561",
+    "A071562",
+    "A082647",
+    "A128605",
+    "A131576",
+    "A237048",
+    "A237593",
+    "A240542",
+    "A245092",
+    "A249351",
+    "A279387",
+    "A299761",
+    "A348406",
+    "A355143"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..8} floor(p(n, k)/p(n-1, k)), where p(n, k) = n!/( Product_{i=1..floor(n/2^k)} A004001(i) ).",
+  "id": "A088493",
+  "mentions": [
+    "A004001",
+    "A005185",
+    "A005229",
+    "A088491"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 2,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

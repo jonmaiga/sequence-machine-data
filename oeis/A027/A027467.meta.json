@@ -1,0 +1,32 @@
+{
+  "description": "Triangle whose (n,k)-th entry is 15^(n-k)*binomial(n,k).",
+  "id": "A027467",
+  "mentions": [
+    "A007318",
+    "A027465",
+    "A027466",
+    "A038207",
+    "A038231",
+    "A038243",
+    "A038255",
+    "A038279",
+    "A038291",
+    "A038303",
+    "A038315",
+    "A038327",
+    "A133371",
+    "A147716"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:08:50",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

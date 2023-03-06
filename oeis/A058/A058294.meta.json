@@ -1,0 +1,27 @@
+{
+  "description": "Successive rows of a triangle, the columns of which are generalized Fibonacci sequences S(j).",
+  "id": "A058294",
+  "mentions": [
+    "A001040",
+    "A001053",
+    "A058307",
+    "A058308",
+    "A058309",
+    "A102472",
+    "A102473"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

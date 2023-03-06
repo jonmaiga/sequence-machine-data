@@ -1,0 +1,20 @@
+{
+  "description": "Look at all 2^(n-1)-1 nonempty subsets S of {1, 2, ..., n-1}; a(n) gives number of such S with property that it is impossible to partition n into parts from S such that each s in S is used at least once.",
+  "id": "A070880",
+  "mentions": [
+    "A088314",
+    "A088528"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

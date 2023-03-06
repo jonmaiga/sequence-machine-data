@@ -1,0 +1,18 @@
+{
+  "description": "T(n,m) for positive n,m is the first integer we get when iterating f starting with f(n/m), where function f on rationals is defined as f(p/q)=abs(p-q)/NextOddCollatz(p)(we assume p,q coprime), where NextOddCollatz(p) is the next odd number that is found in the Collatz trajectory of p. When no integer is reached by iteration, T(n,m)=0.",
+  "id": "A063405",
+  "mentions": [
+    "A062366"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

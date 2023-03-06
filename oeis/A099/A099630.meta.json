@@ -1,0 +1,20 @@
+{
+  "description": "Smallest and largest primes pairwise displayed with k digits from k=2,3,... with repeated decimal digits.",
+  "id": "A099630",
+  "mentions": [
+    "A098224",
+    "A098227",
+    "A099629"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Increasing gaps among twin primes: the smallest prime of the second twin pair.",
+  "id": "A036062",
+  "mentions": [
+    "A002386",
+    "A036061",
+    "A036063",
+    "A113274",
+    "A113275"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

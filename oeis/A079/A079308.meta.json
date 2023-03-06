@@ -1,0 +1,20 @@
+{
+  "description": "For a partition P of a positive integer, let f(P) be the product of k+1, over all parts k in P. Let a(n,r) be the sum of f(P) over all partitions P of n with smallest part r. Sequence gives table of a(n,r) for 1 <= r <= n, in the order a(1,1); a(2,1), a(2,2); a(3,1), a(3,2), a(3,3); ...",
+  "id": "A079308",
+  "mentions": [
+    "A074139",
+    "A074141"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

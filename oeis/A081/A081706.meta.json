@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that binary representation ends either in an odd number of ones followed by one zero or in an even number of ones.",
+  "id": "A081706",
+  "mentions": [
+    "A001006",
+    "A002212",
+    "A003159",
+    "A010060",
+    "A079523",
+    "A121539",
+    "A161639",
+    "A161890"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

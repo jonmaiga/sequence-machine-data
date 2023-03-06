@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k that divide 5^k + 2^k.",
+  "id": "A045578",
+  "mentions": [
+    "A074600"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

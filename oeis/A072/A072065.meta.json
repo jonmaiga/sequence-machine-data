@@ -1,0 +1,23 @@
+{
+  "description": "Define a \"piece\" to consist of 3 mutually touching pennies welded together to form a triangle; sequence gives side lengths of triangles that can be made from such pieces.",
+  "id": "A072065",
+  "mentions": [
+    "A008594",
+    "A017545",
+    "A017629",
+    "A017653"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:34:27",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

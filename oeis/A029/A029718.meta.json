@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of form 2x^2 + 2xy + 3y^2.",
+  "id": "A029718",
+  "mentions": [
+    "A028586",
+    "A028927",
+    "A035170",
+    "A106865",
+    "A344232"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:43:43",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

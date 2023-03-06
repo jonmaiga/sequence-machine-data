@@ -1,0 +1,25 @@
+{
+  "description": "Triangle, read by rows, such that row n equals the inverse binomial transform of column n of the triangle A034870 of coefficients in successive powers of the trinomial (1+2*x+x^2), omitting leading zeros.",
+  "id": "A099605",
+  "mentions": [
+    "A000129",
+    "A008288",
+    "A026000",
+    "A034870",
+    "A099602",
+    "A099606",
+    "A099607"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:16:19",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

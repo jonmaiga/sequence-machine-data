@@ -1,0 +1,27 @@
+{
+  "description": "Number of integers k among 1..n for which gcd(k,n) is a cube.",
+  "id": "A078429",
+  "mentions": [
+    "A000010",
+    "A000027",
+    "A010057",
+    "A061020",
+    "A077834",
+    "A077947",
+    "A206369",
+    "A210826",
+    "A327626"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

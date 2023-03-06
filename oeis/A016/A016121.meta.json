@@ -1,0 +1,25 @@
+{
+  "description": "Number of sequences (a_1, a_2, ..., a_n) of length n with a_1 = 1 satisfying a_i <= a_{i+1} <= 2*a_i.",
+  "id": "A016121",
+  "mentions": [
+    "A008934",
+    "A060690",
+    "A089006",
+    "A097712",
+    "A351157",
+    "A351158",
+    "A351287",
+    "A351288"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

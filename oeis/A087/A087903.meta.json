@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows of the numbers T(n,k) (n > 1, 0 < k < n) of set partitions of n of length k which do not have a proper subset of parts with a union equal to a subset {1,2,...,j} with j < n.",
+  "id": "A087903",
+  "mentions": [
+    "A000110",
+    "A000295",
+    "A008277",
+    "A055105",
+    "A055106",
+    "A074664",
+    "A084938",
+    "A086329"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

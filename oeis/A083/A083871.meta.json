@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of sqrt(355/113).",
+  "id": "A083871",
+  "mentions": [
+    "A068079"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:18:39",
+    "offset": 1,
+    "size": 106,
+    "source": "joeis"
+  }
+}

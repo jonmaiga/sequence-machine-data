@@ -1,0 +1,23 @@
+{
+  "description": "Pierce expansion of log(2).",
+  "id": "A091846",
+  "mentions": [
+    "A006275",
+    "A006276",
+    "A006283",
+    "A006284",
+    "A006784",
+    "A059180"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

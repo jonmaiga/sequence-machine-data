@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the period length of the n-th diagonal, from the right, of Rule 30 (begun from an initial black cell).",
+  "id": "A094605",
+  "mentions": [
+    "A094604",
+    "A094606"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

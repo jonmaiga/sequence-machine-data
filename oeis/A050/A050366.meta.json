@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as an lterm, where an lterm is an unordered sum which is either 2, or 1 + an ordered product of lterms.",
+  "id": "A050366",
+  "mentions": [
+    "A002033",
+    "A050318",
+    "A050319",
+    "A050365"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:44:45",
+    "offset": 2,
+    "size": 53,
+    "source": "joeis"
+  }
+}

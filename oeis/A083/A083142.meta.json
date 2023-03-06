@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes that cannot be expressed as the difference of two palindromes.",
+  "id": "A083142",
+  "mentions": [
+    "A002113",
+    "A084843"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

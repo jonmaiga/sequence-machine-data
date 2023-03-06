@@ -1,0 +1,18 @@
+{
+  "description": "Molien series for action of SL(3,C) on ternary forms of degree 4.",
+  "id": "A083024",
+  "mentions": [
+    "A008615"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:03",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

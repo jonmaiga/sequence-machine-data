@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which are multiples of their largest digit (decimal notation).",
+  "id": "A071204",
+  "mentions": [
+    "A054055",
+    "A071203",
+    "A071205",
+    "A071206"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

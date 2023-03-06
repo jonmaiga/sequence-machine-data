@@ -1,0 +1,26 @@
+{
+  "description": "Number of terms in simple continued fraction for n-th harmonic number H_n = Sum_{k=1..n} (1/k).",
+  "id": "A055573",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A058027",
+    "A089729",
+    "A100398",
+    "A110020",
+    "A112286",
+    "A112287",
+    "A139001"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

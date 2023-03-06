@@ -1,0 +1,19 @@
+{
+  "description": "Gilda's primes: primes in A042947.",
+  "id": "A046850",
+  "mentions": [
+    "A042947"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

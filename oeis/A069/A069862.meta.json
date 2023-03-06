@@ -1,0 +1,27 @@
+{
+  "description": "Smallest k such that n divides the concatenation of numbers from (n+1) to (n+k), where (n+1) is on the most significant side.",
+  "id": "A069862",
+  "mentions": [
+    "A069860",
+    "A069861",
+    "A088343",
+    "A088797",
+    "A088799",
+    "A088868",
+    "A088870",
+    "A088872",
+    "A088885",
+    "A088947"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Factorization and index-recursion preserving isomorphism from nonnegative integers to polynomials over GF(2).",
+  "id": "A091204",
+  "mentions": [
+    "A000040",
+    "A007097",
+    "A010051",
+    "A014580",
+    "A018252",
+    "A048720",
+    "A061775",
+    "A091202",
+    "A091205",
+    "A091225",
+    "A091227",
+    "A091230",
+    "A091238",
+    "A091242",
+    "A091247",
+    "A106442",
+    "A106444",
+    "A106446",
+    "A235041",
+    "A245703",
+    "A245814",
+    "A245822"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of different coefficient values in expansion of Product_{i=1..n} (1-q^1+q^2-...+(-q)^i).",
+  "id": "A039830",
+  "mentions": [
+    "A039823",
+    "A039909"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

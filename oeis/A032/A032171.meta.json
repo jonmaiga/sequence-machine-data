@@ -1,0 +1,26 @@
+{
+  "description": "Number of rooted compound windmills (mobiles) of n nodes with no symmetries.",
+  "id": "A032171",
+  "mentions": [
+    "A000108",
+    "A007853",
+    "A032200",
+    "A055363",
+    "A254040",
+    "A304173",
+    "A304175",
+    "A317852"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

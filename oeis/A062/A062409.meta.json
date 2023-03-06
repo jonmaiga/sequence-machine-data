@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that floor(e*k) is prime.",
+  "id": "A062409",
+  "mentions": [
+    "A022843",
+    "A077545"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

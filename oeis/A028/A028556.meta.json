@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes of form k*(k+4).",
+  "id": "A028556",
+  "mentions": [
+    "A028347",
+    "A028555"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

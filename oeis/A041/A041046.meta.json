@@ -1,0 +1,30 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(29).",
+  "id": "A041046",
+  "mentions": [
+    "A010128",
+    "A010484",
+    "A041018",
+    "A041047",
+    "A041090",
+    "A041150",
+    "A041226",
+    "A041318",
+    "A041426",
+    "A041550",
+    "A087130"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:47:50",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

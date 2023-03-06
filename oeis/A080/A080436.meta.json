@@ -1,0 +1,19 @@
+{
+  "description": "Smallest multiple of n obtained by inserting digits between every pair of digits of n. If n is a k-digit number then there are (k-1) places where digit insertion takes place and a(n) contains at least 2k-1 digits.",
+  "id": "A080436",
+  "mentions": [
+    "A110734",
+    "A110735"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

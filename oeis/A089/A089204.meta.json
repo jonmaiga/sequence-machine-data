@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = numerator of P(n, k) = 1 - n!/(n^k*(n-k)!).",
+  "id": "A089204",
+  "mentions": [
+    "A088141",
+    "A089206"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

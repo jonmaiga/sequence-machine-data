@@ -1,0 +1,19 @@
+{
+  "description": "Lower triangle T(j,k) read by rows, where T(j,k) is the number of occurrences of the digit k-1 as least significant digit in the base-j multiplication table.",
+  "id": "A095026",
+  "mentions": [
+    "A018804"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

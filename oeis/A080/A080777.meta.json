@@ -1,0 +1,22 @@
+{
+  "description": "a(n), when spelled in English, is the smallest positive integer with exactly n letters.",
+  "id": "A080777",
+  "mentions": [
+    "A001166",
+    "A052196",
+    "A084390"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "fini",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 3,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

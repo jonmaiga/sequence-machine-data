@@ -1,0 +1,18 @@
+{
+  "description": "Product{: k=1,2,...,n}, where denotes the integer second nearest to x. (For x=(2h+1)/2, is defined to be h, not h+1; if x is an integer, then is defined to be x+1.)",
+  "id": "A075998",
+  "mentions": [
+    "A075999",
+    "A076001"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

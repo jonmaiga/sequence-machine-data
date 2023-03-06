@@ -1,0 +1,30 @@
+{
+  "description": "Numerator of the quotient sigma(3n)/sigma(n).",
+  "id": "A088838",
+  "mentions": [
+    "A000203",
+    "A001620",
+    "A007949",
+    "A038712",
+    "A080278",
+    "A088837",
+    "A088839",
+    "A088840",
+    "A144613",
+    "A214369"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Numbers with exactly 5 ones in binary expansion.",
+  "id": "A014313",
+  "mentions": [
+    "A000079",
+    "A005148",
+    "A007088",
+    "A014311",
+    "A014312",
+    "A018900",
+    "A023688",
+    "A023689",
+    "A023690",
+    "A023691",
+    "A038447",
+    "A057168"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

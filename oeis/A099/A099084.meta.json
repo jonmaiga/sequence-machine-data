@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 1.2. ... .n-1.n + 4 is a prime (dot between numbers means concatenation).",
+  "id": "A099084",
+  "mentions": [
+    "A099081",
+    "A099082",
+    "A099083"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

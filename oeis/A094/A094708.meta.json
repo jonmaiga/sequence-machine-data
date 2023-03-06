@@ -1,0 +1,18 @@
+{
+  "description": "Size of the smallest set hitting all {x, 2x, 3x} contained in D(n) = the first n 3-smooth numbers {1, 2, 3, 4, 6, 8, 9, 12, 16, 18, 24, 27,...} (A003586).",
+  "id": "A094708",
+  "mentions": [
+    "A003586",
+    "A057561"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

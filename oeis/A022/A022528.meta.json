@@ -1,0 +1,23 @@
+{
+  "description": "Nexus numbers (n+1)^12-n^12.",
+  "id": "A022528",
+  "mentions": [
+    "A008292",
+    "A008456",
+    "A022527",
+    "A022529",
+    "A047969"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

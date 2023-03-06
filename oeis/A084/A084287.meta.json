@@ -1,0 +1,19 @@
+{
+  "description": "Self-similar table, read by antidiagonals, where the k-th row is the product of the k-th prime with the antidiagonals of the first k rows of the table.",
+  "id": "A084287",
+  "mentions": [
+    "A084288"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

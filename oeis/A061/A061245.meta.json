@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers with odd digits in descending order.",
+  "id": "A061245",
+  "mentions": [
+    "A028867",
+    "A052014",
+    "A061244"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

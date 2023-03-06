@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that divide both Fibonacci(k+1) and Lucas(k) + 1.",
+  "id": "A094402",
+  "mentions": [
+    "A069107",
+    "A094398",
+    "A094400"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

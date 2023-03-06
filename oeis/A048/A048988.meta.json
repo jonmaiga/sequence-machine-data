@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 4*k^2 + 4*k + 59.",
+  "id": "A048988",
+  "mentions": [
+    "A005846",
+    "A007641",
+    "A271980"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

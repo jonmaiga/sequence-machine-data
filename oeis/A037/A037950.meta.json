@@ -1,0 +1,15 @@
+{
+  "description": "Primes at which cusp form Delta_20 is not ordinary.",
+  "id": "A037950",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

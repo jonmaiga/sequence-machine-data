@@ -1,0 +1,18 @@
+{
+  "description": "Shortest leg of a Pythagorean triangle with a hypotenuse of length 5n.",
+  "id": "A066662",
+  "mentions": [
+    "A036842",
+    "A055527"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

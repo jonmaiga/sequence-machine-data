@@ -1,0 +1,25 @@
+{
+  "description": "a(1)=4; if n = Product p_i^e_i, n > 1, then a(n) = Product p_{i+1}^{e_i+1}.",
+  "id": "A045967",
+  "mentions": [
+    "A000040",
+    "A027748",
+    "A045966",
+    "A062739",
+    "A124010",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

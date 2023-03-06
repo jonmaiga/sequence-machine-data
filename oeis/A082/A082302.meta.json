@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f.: (1 - 5*x - sqrt(25*x^2 - 14*x + 1))/(2*x).",
+  "id": "A082302",
+  "mentions": [
+    "A006318",
+    "A047891",
+    "A078018"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

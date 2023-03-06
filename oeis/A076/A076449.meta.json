@@ -1,0 +1,23 @@
+{
+  "description": "Least number whose digits can be used to form exactly n different primes (not necessarily using all digits).",
+  "id": "A076449",
+  "mentions": [
+    "A039993",
+    "A072857",
+    "A075053",
+    "A076730",
+    "A134596"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows in which each row is the inverse binomial transform of a diagonal of A089246.",
+  "id": "A089302",
+  "mentions": [
+    "A089246"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

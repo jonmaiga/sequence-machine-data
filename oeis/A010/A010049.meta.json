@@ -1,0 +1,28 @@
+{
+  "description": "Second-order Fibonacci numbers.",
+  "id": "A010049",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001629",
+    "A006367",
+    "A007895",
+    "A023610",
+    "A029907",
+    "A094440",
+    "A134410",
+    "A135830"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

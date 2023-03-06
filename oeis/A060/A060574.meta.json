@@ -1,0 +1,25 @@
+{
+  "description": "Tower of Hanoi: using the optimal way to move an even number of disks from peg 0 to peg 2 or an odd number from peg 0 to peg 1, a(n) is the smallest disk on peg 1 after n moves (or 0 if there are no disks on peg 1).",
+  "id": "A060574",
+  "mentions": [
+    "A000695",
+    "A001511",
+    "A055662",
+    "A060571",
+    "A060572",
+    "A060573",
+    "A060575"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

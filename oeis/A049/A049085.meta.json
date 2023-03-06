@@ -1,0 +1,42 @@
+{
+  "description": "Irregular table T(n,k) = maximal part of the k-th partition of n, when listed in Abramowitz-Stegun order (as in A036043).",
+  "id": "A049085",
+  "mentions": [
+    "A000041",
+    "A001221",
+    "A006128",
+    "A019575",
+    "A026791",
+    "A036036",
+    "A036037",
+    "A036042",
+    "A036043",
+    "A080577",
+    "A103921",
+    "A115623",
+    "A124734",
+    "A185974",
+    "A193073",
+    "A194546",
+    "A334301",
+    "A334302",
+    "A334433",
+    "A334438",
+    "A334439",
+    "A334440",
+    "A334441"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

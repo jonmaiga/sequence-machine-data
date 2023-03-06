@@ -1,0 +1,19 @@
+{
+  "description": "Figaro's opening aria in 'Le Nozze di Figaro' by Mozart.",
+  "id": "A027884",
+  "mentions": [
+    "A027885"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

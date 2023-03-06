@@ -1,0 +1,21 @@
+{
+  "description": "Cubes x such that x + reverse of x is a prime.",
+  "id": "A072369",
+  "mentions": [
+    "A000578",
+    "A056964",
+    "A072366"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

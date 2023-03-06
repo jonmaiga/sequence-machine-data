@@ -1,0 +1,18 @@
+{
+  "description": "n-th powers arising in A083502.",
+  "id": "A083503",
+  "mentions": [
+    "A074792",
+    "A083502"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

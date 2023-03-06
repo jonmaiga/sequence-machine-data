@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that A000422(k) is nonsquarefree.",
+  "id": "A050688",
+  "mentions": [
+    "A000422",
+    "A013929",
+    "A048288",
+    "A048342",
+    "A050675",
+    "A050687"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

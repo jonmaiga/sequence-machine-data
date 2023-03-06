@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1 + x)^12 / (1 - x)^13.",
+  "id": "A053805",
+  "mentions": [
+    "A008288",
+    "A240876"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:11:31",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

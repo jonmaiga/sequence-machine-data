@@ -1,0 +1,19 @@
+{
+  "description": "Squares pertaining to A087334: a(n) = n-th partial product of A087334 + 1.",
+  "id": "A087335",
+  "mentions": [
+    "A068859",
+    "A087334"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes of the form 8k+7 less than 10^n.",
+  "id": "A091129",
+  "mentions": [
+    "A091126",
+    "A091127",
+    "A091128"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

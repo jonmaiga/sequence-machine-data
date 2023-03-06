@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{i >= 1} i/prime(i)^2.",
+  "id": "A097906",
+  "mentions": [
+    "A085548",
+    "A115563"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

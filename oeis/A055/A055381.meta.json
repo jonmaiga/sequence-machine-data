@@ -1,0 +1,26 @@
+{
+  "description": "Smallest composite k such that the n closest primes below and above k are symmetric about k.",
+  "id": "A055381",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001223",
+    "A055380",
+    "A055382",
+    "A151800",
+    "A359440"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

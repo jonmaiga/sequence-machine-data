@@ -1,0 +1,22 @@
+{
+  "description": "Number of labeled n-node T_0-hypergraphs without multiple hyperedges (empty hyperedge excluded).",
+  "id": "A059088",
+  "mentions": [
+    "A059084",
+    "A059085",
+    "A059087",
+    "A059089"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

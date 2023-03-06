@@ -1,0 +1,25 @@
+{
+  "description": "Square nearest to n.",
+  "id": "A053187",
+  "mentions": [
+    "A000290",
+    "A002483",
+    "A048760",
+    "A053188",
+    "A061023",
+    "A201053",
+    "A245552"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

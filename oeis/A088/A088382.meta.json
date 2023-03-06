@@ -1,0 +1,21 @@
+{
+  "description": "Numbers not exceeding the 4th power of their smallest prime-factor.",
+  "id": "A088382",
+  "mentions": [
+    "A000430",
+    "A020639",
+    "A088379",
+    "A088380",
+    "A088383"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n)^2 is smallest square starting with a string of n 4's.",
+  "id": "A034984",
+  "mentions": [
+    "A034985"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:34:32",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

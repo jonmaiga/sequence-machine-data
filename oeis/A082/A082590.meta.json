@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1/((1 - 2*x)*sqrt(1 - 4*x)).",
+  "id": "A082590",
+  "mentions": [
+    "A034430",
+    "A068555",
+    "A076729",
+    "A112336",
+    "A120617",
+    "A226302"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

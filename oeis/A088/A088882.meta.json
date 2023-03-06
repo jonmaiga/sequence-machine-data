@@ -1,0 +1,21 @@
+{
+  "description": "Nontrivial palindromes in base 10 (i.e., palindromes that are not RepDigits such as 3, 111, 22222, or 888888888).",
+  "id": "A088882",
+  "mentions": [
+    "A002113",
+    "A010785",
+    "A046075",
+    "A050783"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

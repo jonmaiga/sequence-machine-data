@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of coefficients of expansion of Bessel function J_3(x).",
+  "id": "A014401",
+  "mentions": [
+    "A002454",
+    "A002474",
+    "A002506"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

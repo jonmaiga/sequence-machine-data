@@ -1,0 +1,18 @@
+{
+  "description": "Smallest positive number of \"triangular\" shuffles of n(n+1)/2 cards needed to restore them to their original order.",
+  "id": "A048782",
+  "mentions": [
+    "A121052",
+    "A122158"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

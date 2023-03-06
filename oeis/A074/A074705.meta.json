@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=4; for n>1: number of primes between squares of (n-1)-th and (n+1)-th primes.",
+  "id": "A074705",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of inequivalent Mendelsohn triple systems (MTS(n,1)) of order n and index 1.",
+  "id": "A013579",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

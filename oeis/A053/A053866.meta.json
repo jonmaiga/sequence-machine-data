@@ -1,0 +1,34 @@
+{
+  "description": "Parity of A000203(n), the sum of the divisors of n; a(n) = 1 when n is a square or twice a square, 0 otherwise.",
+  "id": "A053866",
+  "mentions": [
+    "A000035",
+    "A000203",
+    "A000593",
+    "A001157",
+    "A001227",
+    "A019590",
+    "A025441",
+    "A028982",
+    "A063524",
+    "A067742",
+    "A093709",
+    "A145393",
+    "A156552",
+    "A286357",
+    "A292583",
+    "A295896"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

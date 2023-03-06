@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that A066266(k) is prime.",
+  "id": "A066267",
+  "mentions": [
+    "A002110",
+    "A005234",
+    "A006939",
+    "A066266",
+    "A066268",
+    "A066269"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

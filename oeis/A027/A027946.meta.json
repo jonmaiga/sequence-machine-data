@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the sum of the non-Fibonacci numbers in row n of array T given by A027935, computed as T(n,m) + T(n,m+1) + ... + T(n,n-1), where m = floor((n+2)/2).",
+  "id": "A027946",
+  "mentions": [
+    "A000045",
+    "A027935"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

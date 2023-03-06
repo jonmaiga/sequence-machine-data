@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction for tan(1/5).",
+  "id": "A019428",
+  "mentions": [
+    "A161014"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

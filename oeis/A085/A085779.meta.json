@@ -1,0 +1,19 @@
+{
+  "description": "Smallest m such that the triangular number A000217(n) divides m!.",
+  "id": "A085779",
+  "mentions": [
+    "A000217",
+    "A002034"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:31",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

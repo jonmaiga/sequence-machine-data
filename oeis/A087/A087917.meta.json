@@ -1,0 +1,21 @@
+{
+  "description": "Number of unordered ways to write n as a sum of 3 odious numbers (A000069).",
+  "id": "A087917",
+  "mentions": [
+    "A000069",
+    "A010060",
+    "A087916"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes that are not less than prime(n)-Log2(prime(n)) and not greater than prime(n)+Log2(prime(n)), where Log2=A000523.",
+  "id": "A098397",
+  "mentions": [
+    "A000523",
+    "A000720",
+    "A097935",
+    "A098389",
+    "A098390",
+    "A098396",
+    "A098398"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

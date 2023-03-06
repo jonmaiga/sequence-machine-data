@@ -1,0 +1,20 @@
+{
+  "description": "Evaluate n^4 - 93n^3 + 3196n^2 - 48008n + 265483 for n >= 0, record the primes.",
+  "id": "A095974",
+  "mentions": [
+    "A076808",
+    "A076809",
+    "A095946"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

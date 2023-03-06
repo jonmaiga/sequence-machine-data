@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=(# 3's)-(# 4's) in first n terms of A031269.",
+  "id": "A031284",
+  "mentions": [
+    "A031269"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:50:41",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

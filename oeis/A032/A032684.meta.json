@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k surrounded by digit '7' is prime.",
+  "id": "A032684",
+  "mentions": [
+    "A032689"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

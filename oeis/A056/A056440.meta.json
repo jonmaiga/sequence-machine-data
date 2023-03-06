@@ -1,0 +1,21 @@
+{
+  "description": "Number of primitive (period n) step cyclic shifted sequence structures using a maximum of three different symbols.",
+  "id": "A056440",
+  "mentions": [
+    "A056371",
+    "A056391",
+    "A056420",
+    "A056430"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:42:32",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

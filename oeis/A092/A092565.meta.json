@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of coefficients T(n,k) (n>=0, 0<=k<=2n), read by rows, where the n-th row polynomial equals the numerator of the n-th convergent of the continued fraction [1+x+x^2;1+x+x^2,1+x+x^2,...] for n>0, with the zeroth row defined as T(0,0)=1.",
+  "id": "A092565",
+  "mentions": [
+    "A000045",
+    "A001629",
+    "A006190",
+    "A037027",
+    "A092566"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

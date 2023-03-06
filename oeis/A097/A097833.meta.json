@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of Chebyshev sequence S(n,20)= U(n,10)=A075843(n+1).",
+  "id": "A097833",
+  "mentions": [
+    "A075843",
+    "A212336"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:03:10",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of aperiodic necklaces with n labeled beads of 5 colors.",
+  "id": "A032324",
+  "mentions": [
+    "A001692"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:41:01",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

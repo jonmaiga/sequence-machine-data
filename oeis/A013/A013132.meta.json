@@ -1,0 +1,15 @@
+{
+  "description": "sin(tanh(x)+arcsin(x))=2*x-9/3!*x^3+97/5!*x^5-2975/7!*x^7...",
+  "id": "A013132",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:51:22",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

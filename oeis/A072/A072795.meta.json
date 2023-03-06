@@ -1,0 +1,30 @@
+{
+  "description": "A014486-indices of the plane binary trees AND plane general trees whose left subtree is just a stick: \\. thus corresponding to the parenthesizations whose first element (of the top-level list) is an empty parenthesization: ().",
+  "id": "A072795",
+  "mentions": [
+    "A000108",
+    "A014486",
+    "A057548",
+    "A063171",
+    "A069770",
+    "A072643",
+    "A072764",
+    "A072766",
+    "A080300",
+    "A081291",
+    "A083937",
+    "A085201",
+    "A085223"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

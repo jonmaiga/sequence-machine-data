@@ -1,0 +1,21 @@
+{
+  "description": "Number of 1's in the continued fraction expansion of (3/2)^n.",
+  "id": "A071915",
+  "mentions": [
+    "A071315",
+    "A071316",
+    "A071337",
+    "A071529"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

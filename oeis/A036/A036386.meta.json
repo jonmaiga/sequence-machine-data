@@ -1,0 +1,21 @@
+{
+  "description": "Number of prime powers (p^2, p^3, ...) <= 2^n.",
+  "id": "A036386",
+  "mentions": [
+    "A007053",
+    "A029837",
+    "A036378",
+    "A036390"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

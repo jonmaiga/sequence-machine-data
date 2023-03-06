@@ -1,0 +1,23 @@
+{
+  "description": "Sixth column of triangle A075498.",
+  "id": "A075516",
+  "mentions": [
+    "A008277",
+    "A075498",
+    "A075513",
+    "A075515",
+    "A075906"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:31:22",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

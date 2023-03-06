@@ -1,0 +1,18 @@
+{
+  "description": "2^(n-1) times coefficient of x in (1+x)^n mod U(n,x), U the Chebyshev polynomials.",
+  "id": "A099590",
+  "mentions": [
+    "A099586"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

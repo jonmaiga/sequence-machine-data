@@ -1,0 +1,20 @@
+{
+  "description": "Multiply perfect numbers for which quotient=sigma[3,x]/x=A001158[x]/x is nonintegral.",
+  "id": "A088844",
+  "mentions": [
+    "A001158",
+    "A007691",
+    "A066269"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

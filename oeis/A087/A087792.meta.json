@@ -1,0 +1,16 @@
+{
+  "description": "Indices n such that S^n(1) is an integer where S(x) = 4/3*ceiling(x).",
+  "id": "A087792",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

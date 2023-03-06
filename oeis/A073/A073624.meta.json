@@ -1,0 +1,19 @@
+{
+  "description": "Primes ordered so that their most significant digits form the digits of Euler-Mascheroni constant .5772156649...",
+  "id": "A073624",
+  "mentions": [
+    "A073622",
+    "A073623"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

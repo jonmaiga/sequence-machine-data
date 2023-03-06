@@ -1,0 +1,17 @@
+{
+  "description": "Omit digits 0, 1, 8 from n.",
+  "id": "A031978",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:57:45",
+    "offset": 1,
+    "size": 83,
+    "source": "joeis"
+  }
+}

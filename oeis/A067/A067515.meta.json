@@ -1,0 +1,21 @@
+{
+  "description": "Fibonacci numbers with index = digit sum.",
+  "id": "A067515",
+  "mentions": [
+    "A000045",
+    "A020995"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

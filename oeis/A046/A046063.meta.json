@@ -1,0 +1,32 @@
+{
+  "description": "Numbers k such that the k-th partition number A000041(k) is prime.",
+  "id": "A046063",
+  "mentions": [
+    "A000041",
+    "A035359",
+    "A049575",
+    "A051143",
+    "A111036",
+    "A111045",
+    "A111389",
+    "A113499",
+    "A114165",
+    "A114166",
+    "A114167",
+    "A114168",
+    "A114169",
+    "A114170",
+    "A115214"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

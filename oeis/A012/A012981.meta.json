@@ -1,0 +1,16 @@
+{
+  "description": "arctanh(arctan(x)+sin(x))=2*x+13/3!*x^3+553/5!*x^5+57839/7!*x^7...",
+  "id": "A012981",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:25:28",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

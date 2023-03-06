@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 16a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 16.",
+  "id": "A090727",
+  "mentions": [
+    "A001081",
+    "A080246"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:42:24",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

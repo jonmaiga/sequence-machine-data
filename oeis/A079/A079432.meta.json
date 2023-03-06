@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A079431(A079431(n)).",
+  "id": "A079432",
+  "mentions": [
+    "A078701",
+    "A079431"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

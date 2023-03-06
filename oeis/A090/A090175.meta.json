@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Mod[n,10+Sum[Mod[Floor[n/10^m],10],{m,1,10}]]",
+  "id": "A090175",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

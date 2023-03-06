@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients a(n) of a series connected with the odd primes.",
+  "id": "A074142",
+  "mentions": [
+    "A005097",
+    "A030018"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

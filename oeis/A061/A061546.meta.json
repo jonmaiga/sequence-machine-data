@@ -1,0 +1,24 @@
+{
+  "description": "Harmonic mean of digits is 7.",
+  "id": "A061546",
+  "mentions": [
+    "A061383",
+    "A061388",
+    "A061423",
+    "A061425",
+    "A062179",
+    "A062185"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:27",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

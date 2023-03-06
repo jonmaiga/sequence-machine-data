@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the n-th quintic factorial number divided by 5.",
+  "id": "A034325",
+  "mentions": [
+    "A008548",
+    "A034300",
+    "A034301",
+    "A034323",
+    "A052562"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

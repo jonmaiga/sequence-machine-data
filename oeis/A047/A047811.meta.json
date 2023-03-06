@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n >= 4 that are not palindromic in any base b, 2 <= b <= n/2.",
+  "id": "A047811",
+  "mentions": [
+    "A016038",
+    "A050812",
+    "A050813",
+    "A135549"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

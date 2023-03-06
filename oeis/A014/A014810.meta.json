@@ -1,0 +1,19 @@
+{
+  "description": "Multiplicity of trivial character in V_n, where V = Sum V_n is the graded module for the Monster simple group.",
+  "id": "A014810",
+  "mentions": [
+    "A055771",
+    "A055791"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:56",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

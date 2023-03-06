@@ -1,0 +1,21 @@
+{
+  "description": "Fifth column (m=6) of array A090452.",
+  "id": "A091026",
+  "mentions": [
+    "A090452",
+    "A090454",
+    "A091027"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:29:29",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

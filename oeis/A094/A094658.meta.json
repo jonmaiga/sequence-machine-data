@@ -1,0 +1,16 @@
+{
+  "description": "Smallest number which requires n iterations to reach a prime when iterating x + sum of squares of digits of x.",
+  "id": "A094658",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

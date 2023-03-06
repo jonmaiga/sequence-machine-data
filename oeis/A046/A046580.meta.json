@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of the elements to the right of the central elements of the 1/4-Pascal triangle (by row).",
+  "id": "A046580",
+  "mentions": [
+    "A046563"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "frac",
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 11:01:55",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

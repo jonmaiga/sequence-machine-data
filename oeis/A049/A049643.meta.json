@@ -1,0 +1,23 @@
+{
+  "description": "Number of fractions in Farey series of order n.",
+  "id": "A049643",
+  "mentions": [
+    "A000010",
+    "A005728",
+    "A049641",
+    "A115004"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:40:11",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

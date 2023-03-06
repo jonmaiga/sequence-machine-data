@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of form 4^i*6^j, with i, j >= 0.",
+  "id": "A025618",
+  "mentions": [
+    "A003586"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

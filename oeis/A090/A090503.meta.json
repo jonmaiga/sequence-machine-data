@@ -1,0 +1,20 @@
+{
+  "description": "Number of hyperplanes in a finite projective space (of some dimension d over some finite field of order q).",
+  "id": "A090503",
+  "mentions": [
+    "A000961",
+    "A053696",
+    "A108348"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

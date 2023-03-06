@@ -1,0 +1,22 @@
+{
+  "description": "Values that show the slow decrease in the Andrica function Af(k) = sqrt(p(k+1)) - sqrt(p(k)), where p(k) denotes the k-th prime.",
+  "id": "A084977",
+  "mentions": [
+    "A078693",
+    "A079098",
+    "A079296",
+    "A084974",
+    "A084975",
+    "A084976"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

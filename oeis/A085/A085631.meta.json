@@ -1,0 +1,18 @@
+{
+  "description": "Let b(n)=product of exponents of prime factorization of n. Sequence gives palindromes n such that b(n) is also palindromic and sets a new record.",
+  "id": "A085631",
+  "mentions": [
+    "A005361"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

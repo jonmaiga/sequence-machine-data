@@ -1,0 +1,18 @@
+{
+  "description": "Reduced root factorial of n: product of the smallest integer root of numbers from 1 to n.",
+  "id": "A068625",
+  "mentions": [
+    "A052410"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

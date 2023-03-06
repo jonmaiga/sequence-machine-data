@@ -1,0 +1,19 @@
+{
+  "description": "(1+e)-sigma perfect numbers: (1+e)-sigma(x)=2*x.",
+  "id": "A049603",
+  "mentions": [
+    "A049599",
+    "A051378"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of self-avoiding closed walks (from (0,0) to (0,0)) of length 2n in strip {-1, 0, 1} X Z.",
+  "id": "A022444",
+  "mentions": [
+    "A007825",
+    "A022445"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of zeta function of icosian ring (nonzero terms).",
+  "id": "A035282",
+  "mentions": [
+    "A031363",
+    "A035187",
+    "A078472",
+    "A078473"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

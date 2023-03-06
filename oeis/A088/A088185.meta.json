@@ -1,0 +1,20 @@
+{
+  "description": "Numbers which are not the sum of two coprime semiprimes.",
+  "id": "A088185",
+  "mentions": [
+    "A001358",
+    "A072966",
+    "A088183",
+    "A088184"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

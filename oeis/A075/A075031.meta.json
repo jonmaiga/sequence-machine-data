@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number k such that the number of divisors of the n numbers from k through k+n-1 are nonincreasing.",
+  "id": "A075031",
+  "mentions": [
+    "A075028",
+    "A075029",
+    "A075046"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

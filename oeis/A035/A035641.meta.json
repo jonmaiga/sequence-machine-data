@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into parts 6k and 6k+5 with at least one part of each type.",
+  "id": "A035641",
+  "mentions": [
+    "A035441",
+    "A035468",
+    "A035618",
+    "A035640",
+    "A035642",
+    "A035699"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

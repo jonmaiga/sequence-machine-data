@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 2^omega(n)*mu(n)^2.",
+  "id": "A074823",
+  "mentions": [
+    "A001221",
+    "A008683",
+    "A008966",
+    "A028234",
+    "A034444",
+    "A067029",
+    "A069201",
+    "A226177",
+    "A347149"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

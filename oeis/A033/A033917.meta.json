@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients of iterated exponential function defined by y(x) = x^y(x) for e^-e < x < e^(1/e), expanded about x=1.",
+  "id": "A033917",
+  "mentions": [
+    "A052880",
+    "A215703",
+    "A216349",
+    "A216350",
+    "A277536",
+    "A277537"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

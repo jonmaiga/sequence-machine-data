@@ -1,0 +1,25 @@
+{
+  "description": "Smallest Fibonacci number with digit sum n, or -1 if no such number exists.",
+  "id": "A067182",
+  "mentions": [
+    "A000045",
+    "A001175",
+    "A004090",
+    "A007953",
+    "A020995"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:43:55",
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

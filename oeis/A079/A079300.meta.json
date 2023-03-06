@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of shortest addition chains ending in n.",
+  "id": "A079300",
+  "mentions": [
+    "A003313",
+    "A079301",
+    "A079302",
+    "A118386",
+    "A118387"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

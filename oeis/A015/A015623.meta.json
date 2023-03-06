@@ -1,0 +1,18 @@
+{
+  "description": "Quadruples of different integers from [ 1,n ] with no common factors between pairs.",
+  "id": "A015623",
+  "mentions": [
+    "A185348",
+    "A186974"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

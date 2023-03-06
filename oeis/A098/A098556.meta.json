@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that k*Mersenne - prime(n) + 1 is prime.",
+  "id": "A098556",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A098555"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

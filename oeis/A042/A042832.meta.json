@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(947).",
+  "id": "A042832",
+  "mentions": [
+    "A042833"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:55:33",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

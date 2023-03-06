@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(j,k) read by rows, where T(j,k) = length of the longest cycle in the in-situ transposition of a rectangular j X k matrix.",
+  "id": "A093056",
+  "mentions": [
+    "A093055",
+    "A093057"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

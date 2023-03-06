@@ -1,0 +1,15 @@
+{
+  "description": "Number of spanning trees in the line graph of the product of two star graphs, each of order n, L(S_n x S_n).",
+  "id": "A066544",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

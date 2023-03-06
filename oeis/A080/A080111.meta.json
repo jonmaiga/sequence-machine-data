@@ -1,0 +1,19 @@
+{
+  "description": "Characteristic function of A080113.",
+  "id": "A080111",
+  "mentions": [
+    "A080113",
+    "A080116",
+    "A080117"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

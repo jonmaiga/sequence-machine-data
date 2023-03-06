@@ -1,0 +1,22 @@
+{
+  "description": "A subclass of quasi-acyclic automata with 2 inputs, n transient and k absorbing labeled states; square array T(n,k) read by descending antidiagonals (n >= 0 and k >= 1).",
+  "id": "A082171",
+  "mentions": [
+    "A082159",
+    "A082163",
+    "A082169"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

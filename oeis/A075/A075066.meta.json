@@ -1,0 +1,19 @@
+{
+  "description": "Alternately odd and even composite numbers complementing the parity of the index.",
+  "id": "A075066",
+  "mentions": [
+    "A005381",
+    "A075065"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

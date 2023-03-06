@@ -1,0 +1,23 @@
+{
+  "description": "Total of odd numbers in the generations from 2 onwards.",
+  "id": "A048460",
+  "mentions": [
+    "A001316",
+    "A047844",
+    "A048448",
+    "A048455",
+    "A105321",
+    "A220466"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:21",
+    "offset": 2,
+    "size": 85,
+    "source": "joeis"
+  }
+}

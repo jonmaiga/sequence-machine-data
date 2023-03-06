@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{2*i+3*j=n, 0<=i<=n, 0<=j<=n} n!/( (2*i)!*(3*j)!) ).",
+  "id": "A094715",
+  "mentions": [
+    "A000748",
+    "A010892",
+    "A024493",
+    "A094717"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

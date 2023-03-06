@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of Sum_{k=1..n} mu(k)/k.",
+  "id": "A070888",
+  "mentions": [
+    "A008683",
+    "A068337",
+    "A070889"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

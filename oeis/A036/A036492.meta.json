@@ -1,0 +1,22 @@
+{
+  "description": "Offsets for the Atkin Partition Congruence theorem.",
+  "id": "A036492",
+  "mentions": [
+    "A000041",
+    "A036490",
+    "A036491"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:26:27",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k that divide 4^k + 1, k not a power of 5.",
+  "id": "A015974",
+  "mentions": [
+    "A015950"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:56",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

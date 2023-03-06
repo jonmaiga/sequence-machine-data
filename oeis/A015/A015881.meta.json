@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that sigma(k) = sigma(k+11).",
+  "id": "A015881",
+  "mentions": [
+    "A002961",
+    "A007373",
+    "A015861",
+    "A015863",
+    "A015865",
+    "A015866",
+    "A015867",
+    "A015876",
+    "A015877",
+    "A015880",
+    "A015882",
+    "A015883",
+    "A181647"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

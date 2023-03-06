@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n(n+7)(n+1)(n^2+2n+12)/120.",
+  "id": "A051746",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:58:09",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

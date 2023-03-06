@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1; a(n) = A059333(a(n-1)) + a(n-1).",
+  "id": "A059361",
+  "mentions": [
+    "A059333"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

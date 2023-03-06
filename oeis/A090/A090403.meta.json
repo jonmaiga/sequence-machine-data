@@ -1,0 +1,31 @@
+{
+  "description": "Balanced primes: Primes which are both the arithmetic mean and median of a sequence of 2k+1 consecutive primes, for some k>0.",
+  "id": "A090403",
+  "mentions": [
+    "A006562",
+    "A082077",
+    "A082078",
+    "A082079",
+    "A096693",
+    "A096697",
+    "A096698",
+    "A096699",
+    "A096700",
+    "A096701",
+    "A096702",
+    "A096703",
+    "A096704",
+    "A096711"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

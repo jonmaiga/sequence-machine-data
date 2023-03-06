@@ -1,0 +1,28 @@
+{
+  "description": "Let u be any string of n digits from {0,...,4}; let f(u) = number of distinct primes, not beginning with 0, formed by permuting the digits of u; then a(n) = max_u f(u).",
+  "id": "A065846",
+  "mentions": [
+    "A065843",
+    "A065844",
+    "A065845",
+    "A065847",
+    "A065848",
+    "A065849",
+    "A065850",
+    "A065851",
+    "A065852",
+    "A065853"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

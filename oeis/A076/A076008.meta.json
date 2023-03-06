@@ -1,0 +1,23 @@
+{
+  "description": "Second column of triangle A075504.",
+  "id": "A076008",
+  "mentions": [
+    "A001019",
+    "A008277",
+    "A075504",
+    "A075513",
+    "A076009"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the number of arithmetic progressions of 2 or more positive integers, nondecreasing with sum <= n.",
+  "id": "A049991",
+  "mentions": [
+    "A014405",
+    "A014406",
+    "A049980",
+    "A049981",
+    "A049982",
+    "A049983",
+    "A049987",
+    "A049988",
+    "A049989",
+    "A049990",
+    "A111333",
+    "A127938"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:21",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that gcd(C(2*k,k), C(3*k,k), C(4*k,k), ..., C((k+1)*k,k) ) = 1.",
+  "id": "A080170",
+  "mentions": [
+    "A007318",
+    "A051283"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

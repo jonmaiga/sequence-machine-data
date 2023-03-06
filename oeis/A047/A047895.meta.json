@@ -1,0 +1,18 @@
+{
+  "description": "Difference of decimal orders of Euler and Tangential numbers: deviations of Zigs and Zags.",
+  "id": "A047895",
+  "mentions": [
+    "A047893",
+    "A047894"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Geometrically weak primes: primes that are smaller than the geometric mean of their neighbors (2 is included by convention).",
+  "id": "A068828",
+  "mentions": [
+    "A000040",
+    "A006562",
+    "A046869",
+    "A051634",
+    "A051635"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

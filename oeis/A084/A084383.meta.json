@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=0; for n>0, a(n) = smallest number that is not a concatenation of any number of distinct earlier terms in increasing order.",
+  "id": "A084383",
+  "mentions": [
+    "A048991",
+    "A048992"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

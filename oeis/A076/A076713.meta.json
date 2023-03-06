@@ -1,0 +1,19 @@
+{
+  "description": "Harshad (Niven) triangular numbers: triangular numbers which are divisible by the sum of their digits.",
+  "id": "A076713",
+  "mentions": [
+    "A000217",
+    "A005349"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

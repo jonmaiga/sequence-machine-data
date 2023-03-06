@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers k with the property that k minus the sum of the prime factors of k is prime.",
+  "id": "A050704",
+  "mentions": [
+    "A050703",
+    "A050710"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

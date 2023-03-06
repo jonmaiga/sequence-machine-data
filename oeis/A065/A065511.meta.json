@@ -1,0 +1,17 @@
+{
+  "description": "Let p(k) denote k-th prime; consider solutions (n,m) of the Diophantine system {p(p(n)+1)-p(p(n))=2, p(p(n))-6.p(p(m))=-1} (*); sequence gives values of m.",
+  "id": "A065511",
+  "mentions": [
+    "A060213"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

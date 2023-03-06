@@ -1,0 +1,19 @@
+{
+  "description": "Let M_n be the n X n matrix M_(i,j)=1/(2^i+2^j), then a(n) is the numerator of det(M_n).",
+  "id": "A069741",
+  "mentions": [
+    "A049450",
+    "A069743"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

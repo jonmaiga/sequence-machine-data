@@ -1,0 +1,19 @@
+{
+  "description": "(10^n)-th zero of the Riemann zeta function rounded to the nearest integer.",
+  "id": "A082668",
+  "mentions": [
+    "A002410",
+    "A072080"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

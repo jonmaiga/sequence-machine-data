@@ -1,0 +1,15 @@
+{
+  "description": "Ceiling of GAMMA(n+1/11)/GAMMA(1/11).",
+  "id": "A020104",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:01:39",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

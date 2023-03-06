@@ -1,0 +1,20 @@
+{
+  "description": "Complement of A081023: actual locations of \"t\" in this wholly inaccurate variation of the Aronson sentence: \"T is the second, third, fifth, sixth, seventh . . . letter of this sentence, not counting commas or spaces\".",
+  "id": "A081024",
+  "mentions": [
+    "A005224",
+    "A081023"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

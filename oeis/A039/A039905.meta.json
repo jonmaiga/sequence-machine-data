@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions with at most one part divisible by 5.",
+  "id": "A039905",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; string of digits of a(n)^2 is a substring of the string of digits of a(n+1)^2.",
+  "id": "A067634",
+  "mentions": [
+    "A014563",
+    "A066825"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

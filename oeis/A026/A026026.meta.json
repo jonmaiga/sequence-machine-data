@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of (s(0), s(1), ..., s(2n-1)) such that s(i) is a nonnegative integer and |s(i) - s(i-1)| = 1 for i = 1,2,...,n, s(0) = 3, s(2n-1) = 4. Also a(n) = T(2n-1,n-1), where T is defined in A026022.",
+  "id": "A026026",
+  "mentions": [
+    "A000108",
+    "A026022"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:40:53",
+    "offset": 2,
+    "size": 26,
+    "source": "joeis"
+  }
+}

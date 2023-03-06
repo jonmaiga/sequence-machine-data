@@ -1,0 +1,22 @@
+{
+  "description": "Initial prime in set of 4 consecutive primes with common gap 42.",
+  "id": "A058323",
+  "mentions": [
+    "A033447",
+    "A033448",
+    "A033451",
+    "A052242",
+    "A052243",
+    "A058252"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

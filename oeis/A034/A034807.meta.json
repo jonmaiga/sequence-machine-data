@@ -1,0 +1,40 @@
+{
+  "description": "Triangle T(n,k) of coefficients of Lucas (or Cardan) polynomials.",
+  "id": "A034807",
+  "mentions": [
+    "A000032",
+    "A000108",
+    "A000290",
+    "A000330",
+    "A002415",
+    "A011973",
+    "A029635",
+    "A061896",
+    "A111125",
+    "A113279",
+    "A114525",
+    "A117179",
+    "A127672",
+    "A127677",
+    "A132460",
+    "A156308",
+    "A157000",
+    "A217476",
+    "A263916",
+    "A284966"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:16:29",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

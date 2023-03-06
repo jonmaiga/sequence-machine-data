@@ -1,0 +1,20 @@
+{
+  "description": "Divisors of 270.",
+  "id": "A018365",
+  "mentions": [
+    "A001599"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

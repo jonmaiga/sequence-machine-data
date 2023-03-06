@@ -1,0 +1,34 @@
+{
+  "description": "a(n) = Sum_{k<=n} tau(k)^2, where tau = number of divisors function A000005.",
+  "id": "A061502",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A035116",
+    "A057434",
+    "A061503",
+    "A072379",
+    "A073002",
+    "A074789",
+    "A082633",
+    "A086279",
+    "A092742",
+    "A201994",
+    "A201995",
+    "A245074",
+    "A318755",
+    "A319090",
+    "A319091"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

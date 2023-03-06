@@ -1,0 +1,19 @@
+{
+  "description": "Fixed points of 1+Phi power sigma function 1PhiPsigma: if j = Product p_i^r_i then 1PhiPsigma(j) = Product {Sum p_i^r_i, 0 <= s_i < r_i, s_i is 0 or coprime to r_i} 1PhiPsigma(j) = j.",
+  "id": "A095724",
+  "mentions": [
+    "A061389",
+    "A095723"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

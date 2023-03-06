@@ -1,0 +1,18 @@
+{
+  "description": "Array T(k,n) read by antidiagonals: T(n,k) = 2^(n-1) * ((k+1)*n - 2k) + k + 1.",
+  "id": "A048494",
+  "mentions": [
+    "A005183"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:12:55",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

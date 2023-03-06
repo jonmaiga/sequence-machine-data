@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows in which the n-th row gives the smallest set of n consecutive numbers with the same prime signatures.",
+  "id": "A083785",
+  "mentions": [
+    "A034173",
+    "A034174",
+    "A083787"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

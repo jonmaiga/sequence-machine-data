@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that 10^n+k is a brilliant number (cf. A078972).",
+  "id": "A083289",
+  "mentions": [
+    "A078972",
+    "A084475",
+    "A084476"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

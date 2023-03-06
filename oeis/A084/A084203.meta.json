@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) defined by: A(x)^3 consists entirely of integer coefficients between 1 and 3 (A083953); A(x) is the unique power series solution with A(0)=1.",
+  "id": "A084203",
+  "mentions": [
+    "A083953",
+    "A084202",
+    "A084204",
+    "A084212"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

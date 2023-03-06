@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (4 + 17*sqrt(2) - 6*sqrt(3) - 7*Pi + 21*log(1+sqrt(2)) + 42*log(2+sqrt(3)))/75.",
+  "id": "A093066",
+  "mentions": [
+    "A073012"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

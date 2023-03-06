@@ -1,0 +1,21 @@
+{
+  "description": "Weakly distance-regular digraphs on n nodes (excluding distance-regular graphs).",
+  "id": "A057560",
+  "mentions": [
+    "A057495",
+    "A057498",
+    "A057499"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

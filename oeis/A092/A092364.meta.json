@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n^2*binomial(n,2).",
+  "id": "A092364",
+  "mentions": [
+    "A085540"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:09:55",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

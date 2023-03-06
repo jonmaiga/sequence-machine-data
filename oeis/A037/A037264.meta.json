@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose sum of reciprocals of digits is the reciprocal of an integer.",
+  "id": "A037264",
+  "mentions": [
+    "A037265",
+    "A045910",
+    "A052382",
+    "A168046",
+    "A214949",
+    "A214958"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

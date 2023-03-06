@@ -1,0 +1,26 @@
+{
+  "description": "Björner-Welker sequence: 2^n*(n^2 + n + 2) - 1.",
+  "id": "A055580",
+  "mentions": [
+    "A000337",
+    "A001788",
+    "A002378",
+    "A045618",
+    "A055249",
+    "A055252",
+    "A066185",
+    "A119258"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

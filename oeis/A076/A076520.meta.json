@@ -1,0 +1,21 @@
+{
+  "description": "n appears once if n is the sum of 2 nonzero squares in 1 way, twice if n is the sum of 2 squares in 2 ways, 3 times if n is the sum of 2 squares 3 ways etc.",
+  "id": "A076520",
+  "mentions": [
+    "A000404",
+    "A001105",
+    "A025285",
+    "A025302"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

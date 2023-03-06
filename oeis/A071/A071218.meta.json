@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the largest prime factor of the sum of the two consecutive primes prime(k) + prime(k+1) is at most k.",
+  "id": "A071218",
+  "mentions": [
+    "A001043",
+    "A006530",
+    "A071216",
+    "A071217",
+    "A071219"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

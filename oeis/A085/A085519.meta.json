@@ -1,0 +1,20 @@
+{
+  "description": "One of the three possible weight distributions for a [16,7,6] binary code.",
+  "id": "A085519",
+  "mentions": [
+    "A085517",
+    "A085518"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

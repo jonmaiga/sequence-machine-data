@@ -1,0 +1,19 @@
+{
+  "description": "Numbers in which inserting, prefixing or suffixing a 1 anywhere yields only composite numbers.",
+  "id": "A070328",
+  "mentions": [
+    "A002808",
+    "A070329"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

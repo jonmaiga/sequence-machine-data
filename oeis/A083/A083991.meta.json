@@ -1,0 +1,20 @@
+{
+  "description": "Members of A083989 whose 10's complement is also a member of A083989.",
+  "id": "A083991",
+  "mentions": [
+    "A055120",
+    "A083989",
+    "A083990"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

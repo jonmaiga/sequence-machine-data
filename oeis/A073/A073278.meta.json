@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows. The triangle is constructed from the coefficients of the n-th derivative of the normal probability distribution function.",
+  "id": "A073278",
+  "mentions": [
+    "A000085",
+    "A000217",
+    "A050534"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

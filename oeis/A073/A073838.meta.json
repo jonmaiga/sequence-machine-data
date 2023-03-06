@@ -1,0 +1,19 @@
+{
+  "description": "Product of primes p satisfying n <= p <= 2n.",
+  "id": "A073838",
+  "mentions": [
+    "A034386",
+    "A073837",
+    "A179214"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Lunar product of distinct lunar prime divisors of n.",
+  "id": "A088471",
+  "mentions": [
+    "A087061",
+    "A088469",
+    "A088470"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

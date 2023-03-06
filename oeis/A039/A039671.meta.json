@@ -1,0 +1,20 @@
+{
+  "description": "Row sums up to the main diagonal of the \"postage stamp\" array (n,m >= 0) defined in A007059.",
+  "id": "A039671",
+  "mentions": [
+    "A007059",
+    "A126198"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:42:37",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

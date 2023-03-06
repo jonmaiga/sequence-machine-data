@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = the largest integer whose square has n digits and first digit 1.",
+  "id": "A083377",
+  "mentions": [
+    "A049416",
+    "A083378",
+    "A083379",
+    "A083380"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

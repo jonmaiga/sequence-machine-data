@@ -1,0 +1,17 @@
+{
+  "description": "Converse numbers: composite Fibonacci numbers Fib(n) that are congruent to Legendre symbol (n/5) mod n.",
+  "id": "A048593",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:13:33",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

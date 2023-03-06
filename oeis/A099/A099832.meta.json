@@ -1,0 +1,20 @@
+{
+  "description": "Perimeters of Pythagorean triangles that can be constructed in exactly 3 different ways.",
+  "id": "A099832",
+  "mentions": [
+    "A098714",
+    "A099381",
+    "A099383",
+    "A156687"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose base-7 representation Sum_{i=0..m} d(i)*7^i has d(0) <= d(1) >= d(2) <= ...",
+  "id": "A032904",
+  "mentions": [
+    "A023763",
+    "A032845",
+    "A032854",
+    "A032870",
+    "A032886",
+    "A032895"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:17",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

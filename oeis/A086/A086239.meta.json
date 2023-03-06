@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} c(k)/prime(k), where c(k) = -1 if p == 1 (mod 4) and c(k) = +1 if p == 3 (mod 4).",
+  "id": "A086239",
+  "mentions": [
+    "A166509",
+    "A221712"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

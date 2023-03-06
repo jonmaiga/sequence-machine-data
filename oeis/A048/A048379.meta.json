@@ -1,0 +1,22 @@
+{
+  "description": "Apply the transformation 0->1->2->3->4->5->6->7->8->9->0 to digits of n.",
+  "id": "A048379",
+  "mentions": [
+    "A002283",
+    "A169918",
+    "A169930"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows in which n-th row gives trajectory of n (omitting n itself) under the map k -> k-1 if k odd, k -> k/2 if k even.",
+  "id": "A080825",
+  "mentions": [
+    "A082404"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

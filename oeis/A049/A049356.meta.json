@@ -1,0 +1,19 @@
+{
+  "description": "Digitally balanced numbers in base 5: equal numbers of 0's, 1's, ..., 4's.",
+  "id": "A049356",
+  "mentions": [
+    "A031443",
+    "A031946"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

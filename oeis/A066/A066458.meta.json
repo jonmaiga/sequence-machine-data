@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that Sum_{d runs through digits of n} d^d = pi(n) (cf. A000720).",
+  "id": "A066458",
+  "mentions": [
+    "A000720",
+    "A105328",
+    "A105329"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

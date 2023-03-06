@@ -1,0 +1,22 @@
+{
+  "description": "A binomial transform of factorial numbers.",
+  "id": "A084261",
+  "mentions": [
+    "A000142",
+    "A002896",
+    "A137704",
+    "A161556"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

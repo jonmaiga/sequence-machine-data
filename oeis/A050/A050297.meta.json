@@ -1,0 +1,19 @@
+{
+  "description": "Number of scalars which can be constructed from the Riemann tensor and metric tensor in n dimensions.",
+  "id": "A050297",
+  "mentions": [
+    "A005701"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:43:17",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Absolute value of difference between counts of uninterrupted runs of 3 nonprimes in A093187 and A093188.",
+  "id": "A093399",
+  "mentions": [
+    "A092642",
+    "A092643",
+    "A092644",
+    "A093187",
+    "A093188"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

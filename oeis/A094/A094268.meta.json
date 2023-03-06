@@ -1,0 +1,21 @@
+{
+  "description": "Starting term of smallest consecutive n-tuples of abundant numbers.",
+  "id": "A094268",
+  "mentions": [
+    "A005101",
+    "A005231",
+    "A096399"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

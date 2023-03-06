@@ -1,0 +1,21 @@
+{
+  "description": "Orders of proper semifields.",
+  "id": "A088247",
+  "mentions": [
+    "A000961",
+    "A088248"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Piptorial numbers = product of first n pips or prime-indexed primes.",
+  "id": "A080696",
+  "mentions": [
+    "A006450"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

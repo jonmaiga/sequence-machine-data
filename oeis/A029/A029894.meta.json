@@ -1,0 +1,23 @@
+{
+  "description": "Number of directed (or Gale-Ryser) graphical partitions: degree-vector pairs (in-degree, out-degree) for directed graphs (loops allowed) with n vertices; or possible ordered pair (row-sum, column-sum) vectors for a 0-1 matrix.",
+  "id": "A029894",
+  "mentions": [
+    "A000569",
+    "A004250",
+    "A004251",
+    "A029889",
+    "A318396",
+    "A327913"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

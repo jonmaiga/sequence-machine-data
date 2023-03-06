@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (3*n + 2)^6.",
+  "id": "A016794",
+  "mentions": [
+    "A001014",
+    "A016789",
+    "A016790",
+    "A016791",
+    "A016792",
+    "A016793"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:53:17",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

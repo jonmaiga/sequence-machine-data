@@ -1,0 +1,20 @@
+{
+  "description": "Juggling states associated with the juggling sequence A084452.",
+  "id": "A084451",
+  "mentions": [
+    "A084449",
+    "A084452",
+    "A084507"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

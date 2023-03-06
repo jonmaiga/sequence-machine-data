@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^(n-k)*binomial(k,floor(k/2)).",
+  "id": "A086905",
+  "mentions": [
+    "A001405",
+    "A036256",
+    "A101491"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

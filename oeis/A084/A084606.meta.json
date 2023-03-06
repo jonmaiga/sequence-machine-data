@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, where the n-th row lists the (2n+1) coefficients of (1+2x+2x^2)^n.",
+  "id": "A084606",
+  "mentions": [
+    "A002426",
+    "A006139",
+    "A084600",
+    "A084605",
+    "A084608",
+    "A084615"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

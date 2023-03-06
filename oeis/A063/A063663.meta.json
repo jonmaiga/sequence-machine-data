@@ -1,0 +1,17 @@
+{
+  "description": "Numbers which can be written as b^2*c^2*(b^2+c^2).",
+  "id": "A063663",
+  "mentions": [
+    "A063664"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "description": "Number of cycle types of conjugacy classes of all even permutations of n elements.",
+  "id": "A046682",
+  "mentions": [
+    "A000041",
+    "A000700",
+    "A000701",
+    "A000702",
+    "A006950",
+    "A015128",
+    "A027187",
+    "A027193",
+    "A088902",
+    "A114088",
+    "A115994",
+    "A118301",
+    "A122111",
+    "A171966",
+    "A238352",
+    "A258116",
+    "A296150",
+    "A321648",
+    "A321649",
+    "A325039",
+    "A330644",
+    "A352486",
+    "A352487",
+    "A352488",
+    "A352489",
+    "A352490",
+    "A352491"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

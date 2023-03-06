@@ -1,0 +1,23 @@
+{
+  "description": "Triangle related to generalized Catalan numbers A064340.",
+  "id": "A067327",
+  "mentions": [
+    "A000108",
+    "A002001",
+    "A064340",
+    "A067328"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

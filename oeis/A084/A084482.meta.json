@@ -1,0 +1,24 @@
+{
+  "description": "Primes base 10 that remain primes in all nine bases b, 2<=b<=10, when the expansions are interpreted as decimal numbers.",
+  "id": "A084482",
+  "mentions": [
+    "A038537",
+    "A052026",
+    "A052027",
+    "A052033",
+    "A236356"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

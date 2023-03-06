@@ -1,0 +1,19 @@
+{
+  "description": "In the following square array numbers are entered like this a(1,1),a(1,2),a(2,1),a(3,1),a(2,2),a(1,3),a(1,4),a(2,3),a(3,2),a(4,1),a(5,1),a(4,2),... such that every entry is the geometric mean of the two diametrically opposite neighbors (wherever a pair exists). 1 2 4 8 16 32 64... 3 6 12 24 48 96 192... 9 18 36 72 144 288 576... 27 54 108 216 432 864 1728... ... Sequence contains numbers as they are entered.",
+  "id": "A082234",
+  "mentions": [
+    "A082233"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

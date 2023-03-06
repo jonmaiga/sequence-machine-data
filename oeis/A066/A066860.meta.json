@@ -1,0 +1,21 @@
+{
+  "description": "The sum of the non-divisors of n (less than n) is a multiple of the sum of the divisors of n.",
+  "id": "A066860",
+  "mentions": [
+    "A000203",
+    "A024816",
+    "A076617",
+    "A232324"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

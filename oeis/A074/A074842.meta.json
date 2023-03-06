@@ -1,0 +1,19 @@
+{
+  "description": "Triplets: base 10 representation is the juxtaposition of three identical strings.",
+  "id": "A074842",
+  "mentions": [
+    "A020338"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

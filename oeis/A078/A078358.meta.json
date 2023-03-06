@@ -1,0 +1,32 @@
+{
+  "description": "Non-oblong numbers: Complement of A002378.",
+  "id": "A078358",
+  "mentions": [
+    "A000027",
+    "A002378",
+    "A004737",
+    "A005369",
+    "A006590",
+    "A027052",
+    "A049068",
+    "A071028",
+    "A071797",
+    "A077057",
+    "A077425",
+    "A077427",
+    "A078446",
+    "A144786"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

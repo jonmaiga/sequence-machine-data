@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = lcm{1, 2, ..., n}/(n*(n-1)), n >= 2.",
+  "id": "A099946",
+  "mentions": [
+    "A002378",
+    "A002944",
+    "A003418",
+    "A025558"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 2,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

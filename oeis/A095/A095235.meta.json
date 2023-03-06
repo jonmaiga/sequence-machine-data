@@ -1,0 +1,18 @@
+{
+  "description": "Wasteful numbers: may be described using fewer letters than are in the usual name.",
+  "id": "A095235",
+  "mentions": [
+    "A045494"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

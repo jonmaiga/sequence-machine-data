@@ -1,0 +1,20 @@
+{
+  "description": "Number of iterations of the map k -> A000001(k) needed to reach 1 starting at n, or -1 if no such number exists.",
+  "id": "A072410",
+  "mentions": [
+    "A000001",
+    "A052409",
+    "A066952",
+    "A142978"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

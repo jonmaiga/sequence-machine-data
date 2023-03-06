@@ -1,0 +1,21 @@
+{
+  "description": "Dropping any digit gives a prime number.",
+  "id": "A034895",
+  "mentions": [
+    "A004022",
+    "A051362",
+    "A267413"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

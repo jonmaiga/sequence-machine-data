@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=number of numbers h^2+k^2 that are <=2n^2; equivalently, a(n)=T(n,n), array T as in A048149.",
+  "id": "A048150",
+  "mentions": [
+    "A048149"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:55:27",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

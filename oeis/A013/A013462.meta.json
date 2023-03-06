@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of e.g.f.: exp(arctan(x)-arctanh(x))=1-4/3!*x^3+160/6!*x^6-1440/7!*x^7...",
+  "id": "A013462",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:09:25",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

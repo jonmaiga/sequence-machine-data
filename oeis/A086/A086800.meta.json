@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows in which row n lists differences between prime(n) and prime(k) for 1 <= k <= n.",
+  "id": "A086800",
+  "mentions": [
+    "A040976"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:56:53",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

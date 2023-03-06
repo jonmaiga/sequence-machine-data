@@ -1,0 +1,21 @@
+{
+  "description": "Packing density for n balls in complex projective plane using Fubini-Study metric (numerators).",
+  "id": "A045496",
+  "mentions": [
+    "A030042",
+    "A045497"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:23:41",
+    "offset": 1,
+    "size": 97,
+    "source": "joeis"
+  }
+}

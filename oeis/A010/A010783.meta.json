@@ -1,0 +1,18 @@
+{
+  "description": "Triangle of numbers floor(n/(n-k)).",
+  "id": "A010783",
+  "mentions": [
+    "A010766"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

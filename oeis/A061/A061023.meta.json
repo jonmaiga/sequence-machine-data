@@ -1,0 +1,25 @@
+{
+  "description": "Difference between the closest square and the closest cube to n.",
+  "id": "A061023",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A053187",
+    "A201053",
+    "A201217"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

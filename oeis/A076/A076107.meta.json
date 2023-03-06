@@ -1,0 +1,19 @@
+{
+  "description": "First of n consecutive integers whose sum is a positive n-th power, or 0 if no such integers exist.",
+  "id": "A076107",
+  "mentions": [
+    "A076108",
+    "A076109"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

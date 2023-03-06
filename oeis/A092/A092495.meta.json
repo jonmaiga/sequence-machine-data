@@ -1,0 +1,20 @@
+{
+  "description": "Least factorial multiple of n.",
+  "id": "A092495",
+  "mentions": [
+    "A000142",
+    "A002034",
+    "A071120"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

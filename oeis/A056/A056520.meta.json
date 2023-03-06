@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n + 2)*(2*n^2 - n + 3)/6.",
+  "id": "A056520",
+  "mentions": [
+    "A000330",
+    "A030238",
+    "A196265",
+    "A253903"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:33:19",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

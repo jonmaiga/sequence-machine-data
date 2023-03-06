@@ -1,0 +1,18 @@
+{
+  "description": "Consider smallest m such that m^2 = x1^2 + ... + xn^2 with 0 < x1 < ... < xn. Sequence gives values of m^2.",
+  "id": "A018936",
+  "mentions": [
+    "A018935",
+    "A018937"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

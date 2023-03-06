@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that 2^k + 1 is divisible by a square > 1.",
+  "id": "A049096",
+  "mentions": [
+    "A001220",
+    "A049093",
+    "A049094",
+    "A049095",
+    "A072936",
+    "A086982",
+    "A282269",
+    "A282270"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

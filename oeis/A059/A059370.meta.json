@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of numbers obtained by inverting infinite matrix defined in A059369, read from right to left.",
+  "id": "A059370",
+  "mentions": [
+    "A059369",
+    "A059372",
+    "A059373"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

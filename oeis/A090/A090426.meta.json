@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, otherwise a(n) = floor(Pi^(n+1)/(Pi^2 + 1)).",
+  "id": "A090426",
+  "mentions": [
+    "A090039",
+    "A090427",
+    "A093607",
+    "A093608"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

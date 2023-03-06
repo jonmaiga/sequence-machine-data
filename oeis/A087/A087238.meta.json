@@ -1,0 +1,23 @@
+{
+  "description": "First differences of A057809.",
+  "id": "A087238",
+  "mentions": [
+    "A038227",
+    "A038623",
+    "A038627",
+    "A057809",
+    "A087235",
+    "A087242"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 2,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

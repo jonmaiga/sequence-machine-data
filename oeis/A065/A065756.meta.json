@@ -1,0 +1,23 @@
+{
+  "description": "Generalization of the Genocchi numbers given by the Gandhi polynomials A(n+1,r) = r^5 A(n, r + 1) - (r - 1)^5 A(n, r); A(1,r) = r^5 - (r-1)^5.",
+  "id": "A065756",
+  "mentions": [
+    "A001469",
+    "A064624",
+    "A064625",
+    "A065755",
+    "A065757"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

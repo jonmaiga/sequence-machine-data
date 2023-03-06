@@ -1,0 +1,19 @@
+{
+  "description": "Index of powers of 2 arising as the difference of a pair of successive terms of A087356.",
+  "id": "A087357",
+  "mentions": [
+    "A087356"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

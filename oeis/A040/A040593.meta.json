@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction for sqrt(618).",
+  "id": "A040593",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:19:27",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

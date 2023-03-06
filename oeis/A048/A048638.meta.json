@@ -1,0 +1,19 @@
+{
+  "description": "Height of lattice of parameters of mixed orthogonal arrays with 2^n runs and strength 2.",
+  "id": "A048638",
+  "mentions": [
+    "A039930",
+    "A048164"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

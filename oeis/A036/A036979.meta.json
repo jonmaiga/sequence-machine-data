@@ -1,0 +1,20 @@
+{
+  "description": "Primes arising in A036978.",
+  "id": "A036979",
+  "mentions": [
+    "A036978",
+    "A045918"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:32:27",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

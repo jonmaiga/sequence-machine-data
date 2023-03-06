@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Fibonacci(8n)/3.",
+  "id": "A049686",
+  "mentions": [
+    "A000045",
+    "A004187",
+    "A049668"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

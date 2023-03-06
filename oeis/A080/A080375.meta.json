@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=distinct values of lcm of first n consecutive prime differences[see A080374].",
+  "id": "A080375",
+  "mentions": [
+    "A001223",
+    "A080374",
+    "A080376"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

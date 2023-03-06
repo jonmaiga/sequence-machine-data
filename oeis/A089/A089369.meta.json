@@ -1,0 +1,19 @@
+{
+  "description": "Begin with n and place (n-1) on the least significant side, place (n-2) on the most significant side and so on until a 1 is placed.",
+  "id": "A089369",
+  "mentions": [
+    "A089370"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

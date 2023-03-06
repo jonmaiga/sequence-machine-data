@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n-th sept-factorial number divided by 6.",
+  "id": "A034833",
+  "mentions": [
+    "A034829",
+    "A034830",
+    "A034831",
+    "A034832",
+    "A034834",
+    "A045754",
+    "A049209"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

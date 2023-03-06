@@ -1,0 +1,31 @@
+{
+  "description": "Numbers that are primitively represented by x^2 + xy + y^2.",
+  "id": "A034017",
+  "mentions": [
+    "A000086",
+    "A000217",
+    "A002061",
+    "A002476",
+    "A003136",
+    "A004611",
+    "A007645",
+    "A045611",
+    "A045897",
+    "A210484",
+    "A226946",
+    "A341422",
+    "A343232"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

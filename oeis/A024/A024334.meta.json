@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of sin(log(1+x)^2)/2.",
+  "id": "A024334",
+  "mentions": [
+    "A009468"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:03",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

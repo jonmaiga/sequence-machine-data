@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest prime that is the concatenation of n and m for some m < n, or 0 if no such prime exists.",
+  "id": "A089713",
+  "mentions": [
+    "A070219",
+    "A089715"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

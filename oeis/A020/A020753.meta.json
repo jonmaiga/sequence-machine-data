@@ -1,0 +1,26 @@
+{
+  "description": "Sizes of successive increasing gaps between squarefree numbers.",
+  "id": "A020753",
+  "mentions": [
+    "A005117",
+    "A020754",
+    "A020755",
+    "A045882",
+    "A051681",
+    "A076259"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

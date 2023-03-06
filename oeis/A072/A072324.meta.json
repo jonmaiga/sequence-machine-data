@@ -1,0 +1,21 @@
+{
+  "description": "Terms of A071383 such that A071383(n) = 5 * A071383(n-1).",
+  "id": "A072324",
+  "mentions": [
+    "A071383",
+    "A071384",
+    "A071385"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

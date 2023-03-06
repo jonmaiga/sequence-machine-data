@@ -1,0 +1,22 @@
+{
+  "description": "A paradoxical sequence: a positive integer n is in this sequence if and only if n is not in sequence A_n in the database.",
+  "id": "A053169",
+  "mentions": [
+    "A000001",
+    "A000002",
+    "A000019",
+    "A053873",
+    "A107357"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Handsome numbers (A007532) representable as a sum of any positive powers of their digits in two distinct ways, not counting different powers of duplicated digits as distinct.",
+  "id": "A050240",
+  "mentions": [
+    "A007532",
+    "A050241"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

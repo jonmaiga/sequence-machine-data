@@ -1,0 +1,26 @@
+{
+  "description": "Smallest solution to gcd(x, reverse(x)) = 5^n.",
+  "id": "A072021",
+  "mentions": [
+    "A004086",
+    "A055483",
+    "A069554",
+    "A071686",
+    "A072005",
+    "A072016",
+    "A072018",
+    "A072050"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

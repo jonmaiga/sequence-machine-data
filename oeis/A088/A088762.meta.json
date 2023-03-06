@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that (2n-1, 2n+3) is a cousin prime pair.",
+  "id": "A088762",
+  "mentions": [
+    "A023200",
+    "A046132",
+    "A087679",
+    "A088764",
+    "A088766",
+    "A088768",
+    "A088770",
+    "A111981"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:32:19",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

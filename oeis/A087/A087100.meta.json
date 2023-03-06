@@ -1,0 +1,23 @@
+{
+  "description": "A000225 (2^n - 1) interlaced with A008593 (11n).",
+  "id": "A087100",
+  "mentions": [
+    "A000225",
+    "A008593",
+    "A063914",
+    "A086848",
+    "A087098"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:11:45",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

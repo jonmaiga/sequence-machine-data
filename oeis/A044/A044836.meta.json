@@ -1,0 +1,23 @@
+{
+  "description": "Positive integers having more base-10 runs of even length than odd.",
+  "id": "A044836",
+  "mentions": [
+    "A044828",
+    "A044851",
+    "A044866",
+    "A044941",
+    "A044950",
+    "A338754"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

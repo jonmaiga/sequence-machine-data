@@ -1,0 +1,20 @@
+{
+  "description": "LCM of first n prime powers modulo next prime power.",
+  "id": "A070705",
+  "mentions": [
+    "A000961",
+    "A051126",
+    "A051451"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

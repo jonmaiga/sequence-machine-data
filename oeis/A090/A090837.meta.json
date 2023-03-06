@@ -1,0 +1,25 @@
+{
+  "description": "Primes p such that p, p+6, p+12, p+18 are consecutive primes and p = 6*k+1 for some k.",
+  "id": "A090837",
+  "mentions": [
+    "A033451",
+    "A090832",
+    "A090833",
+    "A090834",
+    "A090835",
+    "A090836",
+    "A090838",
+    "A090839"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

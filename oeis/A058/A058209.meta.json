@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor( exp(gamma) n log log n ) - sigma(n), where gamma is Euler's constant (A001620) and sigma(n) is sum of divisors of n (A000203).",
+  "id": "A058209",
+  "mentions": [
+    "A000203",
+    "A001620",
+    "A057641",
+    "A057642",
+    "A058210"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 2,
+    "size": 72,
+    "source": "joeis"
+  }
+}

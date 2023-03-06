@@ -1,0 +1,17 @@
+{
+  "description": "First nonzero digit after decimal point in sqrt(p(n+1)) - sqrt(p(n)) where p(n) is n-th prime.",
+  "id": "A063259",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

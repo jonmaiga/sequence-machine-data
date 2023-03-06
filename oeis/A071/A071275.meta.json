@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes in A071274.",
+  "id": "A071275",
+  "mentions": [
+    "A071273",
+    "A071274"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

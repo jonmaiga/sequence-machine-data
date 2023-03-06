@@ -1,0 +1,16 @@
+{
+  "description": "Biased numbers: n such that all terms of the sequence f(n), f(f(n)), f(f(f(n))), ..., 1, where f(k) = Floor(k/2), are odd.",
+  "id": "A066880",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

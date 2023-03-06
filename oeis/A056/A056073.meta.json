@@ -1,0 +1,19 @@
+{
+  "description": "Number of 7-element ordered antichains on an unlabeled n-element set; T_1-hypergraphs with 7 labeled nodes and n hyperedges.",
+  "id": "A056073",
+  "mentions": [
+    "A051115",
+    "A056005"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:17:38",
+    "offset": 5,
+    "size": 11,
+    "source": "joeis"
+  }
+}

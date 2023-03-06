@@ -1,0 +1,18 @@
+{
+  "description": "Products of numbers of faces of Platonic solids, i.e., of {4,6,8,12,20}.",
+  "id": "A062554",
+  "mentions": [
+    "A053016",
+    "A062614"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

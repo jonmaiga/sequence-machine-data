@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n + (n+1)^2 + (n+2)^3.",
+  "id": "A027620",
+  "mentions": [
+    "A000027",
+    "A027621",
+    "A027622",
+    "A028387"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

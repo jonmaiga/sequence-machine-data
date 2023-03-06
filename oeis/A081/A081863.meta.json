@@ -1,0 +1,21 @@
+{
+  "description": "Largest integer m such that m divides (sigma_(2n+1)(2k-1)-sigma(2k-1)) for all k>=1.",
+  "id": "A081863",
+  "mentions": [
+    "A000203",
+    "A045979",
+    "A051225",
+    "A051227",
+    "A051229"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct non-extendable sequences X={x(1),x(2),...,x(k)} where x(1)=1, the x(i)'s are distinct elements of {1,...,n} with |x(i)-x(i+1)|=1 or 2, for i=1,2,...,k.",
+  "id": "A054668",
+  "mentions": [
+    "A000073",
+    "A053623"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:09:05",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

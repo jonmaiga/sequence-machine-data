@@ -1,0 +1,37 @@
+{
+  "description": "Number of partitions of n into two relatively prime parts. After initial term, this is the \"half-totient\" function phi(n)/2 (A000010(n)/2).",
+  "id": "A023022",
+  "mentions": [
+    "A000010",
+    "A023896",
+    "A046657",
+    "A049703",
+    "A049806",
+    "A055034",
+    "A055684",
+    "A062956",
+    "A115004",
+    "A181875",
+    "A181876",
+    "A181877",
+    "A182972",
+    "A182973",
+    "A183918",
+    "A232631",
+    "A232633",
+    "A245497",
+    "A245718"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:14:55",
+    "offset": 2,
+    "size": 83,
+    "source": "joeis"
+  }
+}

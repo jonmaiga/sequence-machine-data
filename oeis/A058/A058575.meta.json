@@ -1,0 +1,18 @@
+{
+  "description": "The sequence S defined in A058562.",
+  "id": "A058575",
+  "mentions": [
+    "A058562"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f.: (1-x)^(-1/2)*exp(-x/2 -x^2/4 -x^3/6 -x^4/8).",
+  "id": "A053533",
+  "mentions": [
+    "A001205",
+    "A053532"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

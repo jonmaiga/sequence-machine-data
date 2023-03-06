@@ -1,0 +1,17 @@
+{
+  "description": "Numerator of I(n) = (-1) * Integral_{x=0..4^n} (1-x^(3/2)) dx.",
+  "id": "A094506",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:40:29",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

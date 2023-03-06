@@ -1,0 +1,26 @@
+{
+  "description": "Number of n X n rational {0,1}-matrices of determinant 0.",
+  "id": "A046747",
+  "mentions": [
+    "A000409",
+    "A000410",
+    "A002416",
+    "A002884",
+    "A055165",
+    "A056989",
+    "A056990"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

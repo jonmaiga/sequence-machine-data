@@ -1,0 +1,26 @@
+{
+  "description": "A ternary tribonacci triangle: form the triangle as follows: start with 3 single values: 1, 2, 3. Each succeeding row is a concatenation of the previous 3 rows.",
+  "id": "A059832",
+  "mentions": [
+    "A000213",
+    "A001590",
+    "A059825",
+    "A059835",
+    "A305389",
+    "A305390",
+    "A305391"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

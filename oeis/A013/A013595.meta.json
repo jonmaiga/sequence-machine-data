@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle read by rows: coefficients of cyclotomic polynomial Phi_n(x) (exponents in increasing order).",
+  "id": "A013595",
+  "mentions": [
+    "A000010",
+    "A005117",
+    "A007947",
+    "A008683",
+    "A013596",
+    "A020500",
+    "A020513",
+    "A160340",
+    "A262404",
+    "A262405",
+    "A278567"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

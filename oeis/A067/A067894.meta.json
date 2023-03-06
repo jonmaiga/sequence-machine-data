@@ -1,0 +1,20 @@
+{
+  "description": "Write 0, 1, ..., n in binary and add as if they were decimal numbers.",
+  "id": "A067894",
+  "mentions": [
+    "A007088",
+    "A067895"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

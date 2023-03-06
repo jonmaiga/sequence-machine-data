@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that prime(k) + k and prime(k) - k are both primes.",
+  "id": "A064403",
+  "mentions": [
+    "A143794"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients of 1/sqrt(1-14*x+9*x^2); also, a(n) is the central coefficient of (1+7x+10x^2)^n.",
+  "id": "A084774",
+  "mentions": [
+    "A006442"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

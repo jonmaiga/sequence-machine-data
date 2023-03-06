@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 2*x / ((1+x)^2*(1-2*x)^2).",
+  "id": "A095977",
+  "mentions": [
+    "A073371",
+    "A128099"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

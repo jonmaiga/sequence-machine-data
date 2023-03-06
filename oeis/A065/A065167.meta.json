@@ -1,0 +1,30 @@
+{
+  "description": "Table T(n,k) read by antidiagonals, where the k-th row gives the permutation t->t+k of Z, folded to N (k >= 0, n >= 1).",
+  "id": "A065167",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000027",
+    "A007395",
+    "A010701",
+    "A054425",
+    "A065164",
+    "A065165",
+    "A065166",
+    "A065171",
+    "A065174",
+    "A065177"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

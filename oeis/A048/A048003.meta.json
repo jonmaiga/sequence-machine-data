@@ -1,0 +1,27 @@
+{
+  "description": "Triangular array T read by rows: T(h,k) = number of binary words of length h and maximal runlength k.",
+  "id": "A048003",
+  "mentions": [
+    "A000071",
+    "A000079",
+    "A000100",
+    "A000102",
+    "A006979",
+    "A006980",
+    "A045623",
+    "A048004",
+    "A229756"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

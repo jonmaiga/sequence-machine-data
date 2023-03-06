@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 2; a(n) is smallest prime > 2*a(n-1).",
+  "id": "A055496",
+  "mentions": [
+    "A006992",
+    "A060264",
+    "A065545",
+    "A163469",
+    "A163963",
+    "A229608"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

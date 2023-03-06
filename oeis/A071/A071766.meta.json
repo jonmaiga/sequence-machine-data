@@ -1,0 +1,27 @@
+{
+  "description": "Denominator of the continued fraction expansion whose terms are the first-order differences of exponents in the binary representation of 4n, with the exponents of 2 being listed in descending order.",
+  "id": "A071766",
+  "mentions": [
+    "A000045",
+    "A002487",
+    "A006068",
+    "A059893",
+    "A070941",
+    "A071585",
+    "A086593",
+    "A233279"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

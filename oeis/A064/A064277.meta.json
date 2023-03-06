@@ -1,0 +1,18 @@
+{
+  "description": "Anti-divisorial 2-decomposition values.",
+  "id": "A064277",
+  "mentions": [
+    "A066272"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

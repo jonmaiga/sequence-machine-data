@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n^2 - (1 + (-1)^n)/2.",
+  "id": "A085046",
+  "mentions": [
+    "A008811",
+    "A109613",
+    "A141222",
+    "A255840",
+    "A255876"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

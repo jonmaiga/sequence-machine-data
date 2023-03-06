@@ -1,0 +1,26 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k) = number of partitions of n into distinct parts, each no more than k.",
+  "id": "A070936",
+  "mentions": [
+    "A000009",
+    "A000079",
+    "A008284",
+    "A025591",
+    "A026836",
+    "A053632",
+    "A060016"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Let b(n) = number of prime factors (with multiplicity) of concatenation of numbers from 1 to n; sequence gives smallest number m with b(m) = n.",
+  "id": "A050676",
+  "mentions": [
+    "A007908",
+    "A046460",
+    "A050678"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

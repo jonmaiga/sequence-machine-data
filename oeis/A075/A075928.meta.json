@@ -1,0 +1,28 @@
+{
+  "description": "List of codewords in binary lexicode with Hamming distance 4 written as decimal numbers.",
+  "id": "A075928",
+  "mentions": [
+    "A075926",
+    "A075929",
+    "A075930",
+    "A075934",
+    "A075937",
+    "A075944",
+    "A075945",
+    "A075946",
+    "A075949",
+    "A194851"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

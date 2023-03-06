@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Calabi's constant.",
+  "id": "A046095",
+  "mentions": [
+    "A046096"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:28:47",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

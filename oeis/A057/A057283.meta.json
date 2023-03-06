@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k | 10^k + 9^k + 8^k + 7^k + 6^k + 5^k + 4^k + 3^k.",
+  "id": "A057283",
+  "mentions": [
+    "A001022"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

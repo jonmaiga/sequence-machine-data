@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k) of numbers of partitions of n into distinct positive integers <= k, 0<=k<=n.",
+  "id": "A079126",
+  "mentions": [
+    "A000009",
+    "A002024",
+    "A026840",
+    "A035294",
+    "A067953",
+    "A079122",
+    "A079124",
+    "A079125"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

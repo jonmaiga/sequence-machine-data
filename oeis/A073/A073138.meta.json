@@ -1,0 +1,32 @@
+{
+  "description": "Largest number having in its binary representation the same number of 0's and 1's as n.",
+  "id": "A073138",
+  "mentions": [
+    "A000120",
+    "A000523",
+    "A007088",
+    "A023416",
+    "A030109",
+    "A038573",
+    "A073137",
+    "A073139",
+    "A073140",
+    "A073141",
+    "A080100",
+    "A221714",
+    "A319650"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:50:51",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of numbers k<=n with mu(k+n)=mu(k), where mu=A008683 (Moebius function).",
+  "id": "A081247",
+  "mentions": [
+    "A008683",
+    "A081248"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

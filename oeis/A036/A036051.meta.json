@@ -1,0 +1,18 @@
+{
+  "description": "Sum of distances between greatest-part-order and length-order of partitions of n.",
+  "id": "A036051",
+  "mentions": [
+    "A036045",
+    "A036056"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:11",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

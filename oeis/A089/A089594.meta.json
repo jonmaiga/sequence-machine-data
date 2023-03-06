@@ -1,0 +1,33 @@
+{
+  "description": "Alternating sum of squares to n.",
+  "id": "A089594",
+  "mentions": [
+    "A000217",
+    "A036799",
+    "A036800",
+    "A036827",
+    "A059841",
+    "A077925",
+    "A126646",
+    "A130472",
+    "A225144",
+    "A232599",
+    "A232600",
+    "A232601",
+    "A232602",
+    "A232603",
+    "A232604"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

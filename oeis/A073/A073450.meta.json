@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(j,k) = remainder of Fibonacci(j) divided by Fibonacci(k), for 3 < j and 2 < k < j.",
+  "id": "A073450",
+  "mentions": [
+    "A072523"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

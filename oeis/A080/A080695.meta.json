@@ -1,0 +1,21 @@
+{
+  "description": "Concatenation of the prime power factors (with maximal exponent) of n; a(1) = 1 by convention.",
+  "id": "A080695",
+  "mentions": [
+    "A037276",
+    "A067599",
+    "A080670",
+    "A230305"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

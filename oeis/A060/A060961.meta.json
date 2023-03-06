@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into 1's, 3's and 5's.",
+  "id": "A060961",
+  "mentions": [
+    "A027907",
+    "A060945",
+    "A293506"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:20:46",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

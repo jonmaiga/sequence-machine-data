@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that mu(k) + mu(k+1) + mu(k+2) = 2.",
+  "id": "A063848",
+  "mentions": [
+    "A063838"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

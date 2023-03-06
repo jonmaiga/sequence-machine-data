@@ -1,0 +1,16 @@
+{
+  "description": "Numbers which cannot be reached in the Countdown Numbers Game starting from (1,2,3,4,5,6): the game allows brackets and the operations + - x and / and not all numbers need be used, while the result of each partial calculation must be an integer.",
+  "id": "A061310",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

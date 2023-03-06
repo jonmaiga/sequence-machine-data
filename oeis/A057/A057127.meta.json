@@ -1,0 +1,22 @@
+{
+  "description": "-2 is a square mod n.",
+  "id": "A057127",
+  "mentions": [
+    "A008784",
+    "A033203",
+    "A057125",
+    "A057126",
+    "A057128",
+    "A057129"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:35:41",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

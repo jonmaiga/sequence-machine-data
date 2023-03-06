@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Catalan(n)*(3^(n+1) - 2^(n+1) + 1)/2.",
+  "id": "A063017",
+  "mentions": [
+    "A000108",
+    "A063016"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

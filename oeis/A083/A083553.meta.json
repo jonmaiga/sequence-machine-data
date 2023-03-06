@@ -1,0 +1,22 @@
+{
+  "description": "Product of prime(n+1)-1 and prime(n)-1.",
+  "id": "A083553",
+  "mentions": [
+    "A006093",
+    "A037165",
+    "A058263",
+    "A083538",
+    "A083555"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

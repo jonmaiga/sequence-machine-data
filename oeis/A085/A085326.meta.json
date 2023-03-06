@@ -1,0 +1,22 @@
+{
+  "description": "a(n)=p is smallest prime such that rev(p)=n^j with some exponent, or 0 if no such prime exists [when e.g. n=1,n=3k or n=11k, k>1].",
+  "id": "A085326",
+  "mentions": [
+    "A085298",
+    "A085299",
+    "A085300",
+    "A085324",
+    "A085325"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Floor(n^3/8).",
+  "id": "A081276",
+  "mentions": [
+    "A002620",
+    "A011863",
+    "A038503"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:59:39",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Reverse and Add! carried out in base 3; number of steps needed to reach a palindrome, or -1 if no palindrome is ever reached.",
+  "id": "A077402",
+  "mentions": [
+    "A014190",
+    "A033665",
+    "A066057",
+    "A066450",
+    "A075685",
+    "A077404",
+    "A077405",
+    "A077408"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

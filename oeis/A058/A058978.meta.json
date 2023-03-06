@@ -1,0 +1,19 @@
+{
+  "description": "Minimal number of (non-consecutive) Fibonacci numbers needed to get n by addition and subtraction.",
+  "id": "A058978",
+  "mentions": [
+    "A000045",
+    "A007895",
+    "A105446"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-09 16:15:08",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

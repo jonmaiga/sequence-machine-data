@@ -1,0 +1,16 @@
+{
+  "description": "n-th bit in binary expansion of square root of n.",
+  "id": "A029692",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:43:41",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

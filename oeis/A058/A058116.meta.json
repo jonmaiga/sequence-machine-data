@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of isomorphism classes of commutative semigroups of order n with k idempotents.",
+  "id": "A058116",
+  "mentions": [
+    "A001426",
+    "A006966",
+    "A058108",
+    "A058117",
+    "A058142",
+    "A058167"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

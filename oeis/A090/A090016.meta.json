@@ -1,0 +1,28 @@
+{
+  "description": "Permanent of (0,1)-matrix of size n X (n+d) with d=6 and n-1 zeros not on a line.",
+  "id": "A090016",
+  "mentions": [
+    "A000153",
+    "A000166",
+    "A000255",
+    "A000261",
+    "A001909",
+    "A001910",
+    "A055790",
+    "A090010",
+    "A090012",
+    "A090015"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

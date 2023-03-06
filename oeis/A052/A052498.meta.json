@@ -1,0 +1,27 @@
+{
+  "description": "Number of nonsingular n X n matrices over GF(11).",
+  "id": "A052498",
+  "mentions": [
+    "A002884",
+    "A027879",
+    "A052496",
+    "A052497",
+    "A053290",
+    "A053291",
+    "A053292",
+    "A053293",
+    "A110195"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

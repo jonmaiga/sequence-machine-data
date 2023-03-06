@@ -1,0 +1,21 @@
+{
+  "description": "Maximal run length in base-9 representation of n.",
+  "id": "A043283",
+  "mentions": [
+    "A002452",
+    "A043276",
+    "A043290",
+    "A044940"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

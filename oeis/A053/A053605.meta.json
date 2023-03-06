@@ -1,0 +1,18 @@
+{
+  "description": "Total multiplicity of the eigenvalue 0 in the spectra of the n^(n-2) labeled trees on n vertices.",
+  "id": "A053605",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:35:10",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

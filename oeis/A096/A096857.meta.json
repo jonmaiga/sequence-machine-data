@@ -1,0 +1,20 @@
+{
+  "description": "a[n] is the length of terminal cycle of the trajectory of g[x]=sigma(phi(x)] if started at 2^n. Formally identical to A096852, but arguments are shifted by 1 and the iterated functions are different!.",
+  "id": "A096857",
+  "mentions": [
+    "A062401",
+    "A062402",
+    "A096852",
+    "A096858"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

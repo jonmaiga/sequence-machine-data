@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(n+1) > a(n) is the smallest multiple of a(n) using only odd digits.",
+  "id": "A078221",
+  "mentions": [
+    "A078222"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

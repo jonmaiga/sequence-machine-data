@@ -1,0 +1,23 @@
+{
+  "description": "Difference between 2 consecutive primes between which a nontrivial power of prime is found.",
+  "id": "A060849",
+  "mentions": [
+    "A007917",
+    "A007918",
+    "A013632",
+    "A013633",
+    "A049711",
+    "A246547"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

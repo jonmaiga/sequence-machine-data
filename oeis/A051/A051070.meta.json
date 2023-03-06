@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the n-th term in sequence A_n, respecting the offset, or a(n) = -1 if A_n has fewer than n terms.",
+  "id": "A051070",
+  "mentions": [
+    "A000019",
+    "A000020",
+    "A000058",
+    "A031135",
+    "A031214",
+    "A091967",
+    "A102288",
+    "A107357"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

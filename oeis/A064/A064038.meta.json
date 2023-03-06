@@ -1,0 +1,33 @@
+{
+  "description": "Numerator of average number of swaps needed to bubble sort a string of n distinct letters.",
+  "id": "A064038",
+  "mentions": [
+    "A000217",
+    "A001809",
+    "A007742",
+    "A014634",
+    "A014695",
+    "A026741",
+    "A033567",
+    "A033991",
+    "A060819",
+    "A061041",
+    "A130658",
+    "A190186",
+    "A190187",
+    "A350660"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 08:32:55",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

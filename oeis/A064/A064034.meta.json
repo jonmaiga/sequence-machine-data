@@ -1,0 +1,19 @@
+{
+  "description": "2-dimensional table T(i, j) defined for any integers i and j, read by antidiagonals in the southeast quadrant. T(i, j) gives the \"Fibonacci depth\" of (i, j): form the Fibonacci sequence starting with i, j: w(0) = i, w(1) = j, w(n) = w(n-1) + w(n-2). It can be shown that for all but finitely many n, the w(n) have the same sign, i.e., are all positive, all negative or all zero. T(i, j), is the smallest number of iterations required to find out which of these cases holds.",
+  "id": "A064034",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

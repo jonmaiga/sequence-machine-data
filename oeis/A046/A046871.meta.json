@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sigma(2,n) divides sigma(4,n).",
+  "id": "A046871",
+  "mentions": [
+    "A001157",
+    "A001159",
+    "A020486",
+    "A020487",
+    "A046841"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct products ij with 0 <= i, j <= 2^n - 1.",
+  "id": "A027417",
+  "mentions": [
+    "A027384",
+    "A027424"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

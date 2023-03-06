@@ -1,0 +1,19 @@
+{
+  "description": "Rearrangement of even numbers such that a(n) + a(n+1) + 1 and a(n)*a(n+1) + 1 are primes for all n.",
+  "id": "A073665",
+  "mentions": [
+    "A073661",
+    "A073662",
+    "A073664"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

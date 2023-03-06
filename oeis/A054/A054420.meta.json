@@ -1,0 +1,21 @@
+{
+  "description": "Number of connectable 3 X n binary matrices.",
+  "id": "A054420",
+  "mentions": [
+    "A054417",
+    "A054418",
+    "A054421"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

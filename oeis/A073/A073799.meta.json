@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that begin a run of consecutive integers k such that PrimePi(k) divides 2^k.",
+  "id": "A073799",
+  "mentions": [
+    "A000079",
+    "A000720",
+    "A015910",
+    "A033844",
+    "A051439",
+    "A062173",
+    "A064367",
+    "A073797",
+    "A073798",
+    "A074325"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

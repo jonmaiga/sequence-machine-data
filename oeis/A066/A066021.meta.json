@@ -1,0 +1,19 @@
+{
+  "description": "(a(n)^6+1)/(n^6+1) is the smallest integer > 1.",
+  "id": "A066021",
+  "mentions": [
+    "A065964",
+    "A098239"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

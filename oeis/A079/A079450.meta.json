@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 2^(n-1)*u(n) where u(1)=1 and u(n) = frac(3/2*u(n-1)) + 1.",
+  "id": "A079450",
+  "mentions": [
+    "A077468"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

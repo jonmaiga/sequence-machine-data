@@ -1,0 +1,20 @@
+{
+  "description": "Sequence of special consecutive prime differences which can be arranged into rows of distinct differences with k=1,2,3,...length. Each row is obtained from segment of k+1 consecutive primes started with A079007[k].",
+  "id": "A098214",
+  "mentions": [
+    "A001223",
+    "A079007",
+    "A098213"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Another version of triangular array in A062991 unsigned and transposed : triangle T(n,k), 0<=k<=n, read by rows; given by [0, 1, 1, 1, 1, 1, 1, ...] DELTA [1, 1, 1, 1, 1, 1, 1, 1, 1, ...] where DELTA is the operator defined in A084938.",
+  "id": "A094385",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000108",
+    "A001700",
+    "A002694",
+    "A062991",
+    "A064062",
+    "A064087",
+    "A064092",
+    "A064094",
+    "A084938",
+    "A234950"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

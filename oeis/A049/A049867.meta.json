@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum{a(k): k=0,1,2,...,n-4,n-2,n-1}; a(n-3) is not a summand; 3 initial terms required.",
+  "id": "A049867",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:00:05",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

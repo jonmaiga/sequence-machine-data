@@ -1,0 +1,17 @@
+{
+  "description": "Smallest multiple of n with initial digits that of the reversal of n, deleting the leading zeros wherever required.",
+  "id": "A074156",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

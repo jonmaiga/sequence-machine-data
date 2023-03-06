@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the first prime p from A031924 such that A052180(primepi(p)) = prime(n).",
+  "id": "A052229",
+  "mentions": [
+    "A031924",
+    "A031925",
+    "A052158",
+    "A052180"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 3,
+    "size": 38,
+    "source": "joeis"
+  }
+}

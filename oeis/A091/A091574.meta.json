@@ -1,0 +1,24 @@
+{
+  "description": "Poincaré series [or Poincare series] of the preprojective algebra of an extended Dynkin diagram of type D_4.",
+  "id": "A091574",
+  "mentions": [
+    "A091571",
+    "A091572",
+    "A091573",
+    "A091575",
+    "A091576",
+    "A091577"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:46:29",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

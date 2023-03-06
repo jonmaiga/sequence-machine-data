@@ -1,0 +1,17 @@
+{
+  "description": "Value of x corresponding to the minimal solution of the Pell equation x^2+d*y^2, as d runs through the squarefree numbers.",
+  "id": "A023677",
+  "mentions": [
+    "A023678"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

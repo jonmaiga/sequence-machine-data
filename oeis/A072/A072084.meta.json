@@ -1,0 +1,24 @@
+{
+  "description": "In prime factorization of n replace all primes with their numbers of 1's in binary representation.",
+  "id": "A072084",
+  "mentions": [
+    "A000120",
+    "A014499",
+    "A027746",
+    "A072085",
+    "A072087"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

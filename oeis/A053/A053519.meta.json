@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of successive convergents to continued fraction 1+2/(3+3/(4+4/(5+5/(6+6/(7+7/(8+8/(9+9/10+...))))))).",
+  "id": "A053519",
+  "mentions": [
+    "A053518",
+    "A053520",
+    "A053556",
+    "A053557"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:29:05",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*cycle_index(Cyclic(4), A(x)).",
+  "id": "A036719",
+  "mentions": [
+    "A036717",
+    "A036718"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:33:30",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

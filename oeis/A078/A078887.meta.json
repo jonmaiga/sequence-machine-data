@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of Sum {n>=0} 1/6^(2^n).",
+  "id": "A078887",
+  "mentions": [
+    "A007404",
+    "A008683",
+    "A036987",
+    "A078585",
+    "A078885",
+    "A078886",
+    "A078888",
+    "A078889",
+    "A078890",
+    "A165424"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

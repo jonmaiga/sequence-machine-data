@@ -1,0 +1,28 @@
+{
+  "description": "Smallest oblong (promic) number containing exactly n 6's.",
+  "id": "A048542",
+  "mentions": [
+    "A002378",
+    "A048530",
+    "A048532",
+    "A048534",
+    "A048536",
+    "A048538",
+    "A048540",
+    "A048541",
+    "A048544",
+    "A048546",
+    "A048548"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

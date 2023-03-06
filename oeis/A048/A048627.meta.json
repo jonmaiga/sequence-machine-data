@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that the maximal value of A001222(binomial(m,k)) and the central value A001222(A001405(m)) are identical.",
+  "id": "A048627",
+  "mentions": [
+    "A001222",
+    "A001405",
+    "A020731",
+    "A048622"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

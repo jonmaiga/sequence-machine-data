@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that (10^k - 1) - 7*10^floor(k/2) is a palindromic wing prime (a.k.a. near-repdigit palindromic prime).",
+  "id": "A077778",
+  "mentions": [
+    "A004023",
+    "A077775",
+    "A077798",
+    "A107123",
+    "A107127",
+    "A107648",
+    "A107649",
+    "A115073",
+    "A183174",
+    "A183187"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

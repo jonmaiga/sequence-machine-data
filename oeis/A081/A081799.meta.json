@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of the electric permittivity of vacuum in SI units as defined before 20 May 2019.",
+  "id": "A081799",
+  "mentions": [
+    "A003673",
+    "A003676",
+    "A003678",
+    "A019694",
+    "A072915",
+    "A081823",
+    "A182999",
+    "A213610",
+    "A213611",
+    "A213612",
+    "A213613",
+    "A213614"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:17",
+    "offset": -11,
+    "size": 104,
+    "source": "joeis"
+  }
+}

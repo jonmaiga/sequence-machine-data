@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=2; for n > 0, a(n) = n + floor(sqrt(4n-3)) + 2.",
+  "id": "A080037",
+  "mentions": [
+    "A000267",
+    "A033638",
+    "A080036"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

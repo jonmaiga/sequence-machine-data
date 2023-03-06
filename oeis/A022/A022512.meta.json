@@ -1,0 +1,24 @@
+{
+  "description": "Describe previous term from the right (method A - initial term is 8).",
+  "id": "A022512",
+  "mentions": [
+    "A006711",
+    "A022482",
+    "A022506",
+    "A022507",
+    "A022513"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:09:17",
+    "offset": 0,
+    "size": 10,
+    "source": "joeis"
+  }
+}

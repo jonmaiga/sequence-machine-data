@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct terms in iteration-list when cototient-function[=A051953] is iterated and the initial value is odd number.",
+  "id": "A098201",
+  "mentions": [
+    "A051953",
+    "A053475",
+    "A098200"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

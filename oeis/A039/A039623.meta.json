@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = n^2*(n^2+3)/4.",
+  "id": "A039623",
+  "mentions": [
+    "A000217",
+    "A002724",
+    "A005353",
+    "A052271",
+    "A052272",
+    "A058001",
+    "A058004",
+    "A246106"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:12:11",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

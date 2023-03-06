@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = Sum_{d | n} d/core(d) where core(x) is the smallest number such that x*core(x) is a square.",
+  "id": "A068976",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001221",
+    "A001222",
+    "A001620",
+    "A008833",
+    "A010052",
+    "A034444",
+    "A055155",
+    "A061547"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

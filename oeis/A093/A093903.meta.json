@@ -1,0 +1,27 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = a(n-1)-p if there exists a prime p (take the smallest) that has not yet been used and is such that a(n) is new and > 0, otherwise a(n) = a(n-1)+p if the same conditions are satisfied.",
+  "id": "A093903",
+  "mentions": [
+    "A000040",
+    "A005132",
+    "A006509",
+    "A094746",
+    "A113959",
+    "A113960",
+    "A113961",
+    "A113962"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

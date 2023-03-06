@@ -1,0 +1,52 @@
+{
+  "description": "Irregular triangle of numbers read by rows: {binomial(n-k, k), n >= 0, 0 <= k <= floor(n/2)}; or, triangle of coefficients of (one version of) Fibonacci polynomials.",
+  "id": "A011973",
+  "mentions": [
+    "A000045",
+    "A000108",
+    "A000129",
+    "A000166",
+    "A000930",
+    "A005314",
+    "A007318",
+    "A007380",
+    "A025581",
+    "A030528",
+    "A049310",
+    "A052553",
+    "A053122",
+    "A053123",
+    "A054123",
+    "A054142",
+    "A055087",
+    "A055151",
+    "A084938",
+    "A092865",
+    "A098474",
+    "A098925",
+    "A102426",
+    "A102541",
+    "A124644",
+    "A134264",
+    "A145574",
+    "A169803",
+    "A180566",
+    "A218272",
+    "A224838",
+    "A332602"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:15:59",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

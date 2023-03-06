@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n <= d(n)^2, where d() = number of divisors (A000005).",
+  "id": "A035033",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A034884",
+    "A035034",
+    "A035035",
+    "A036763",
+    "A273323"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

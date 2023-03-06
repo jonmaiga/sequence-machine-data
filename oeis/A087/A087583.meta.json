@@ -1,0 +1,20 @@
+{
+  "description": "Distinct primes such that the absolute values of successive differences are distinct palindromes. a(n+1) is chosen to be < a(n) if such a prime exists, minimizing a(n)-a(n+1); otherwise the minimal a(n+1) > a(n) is chosen.",
+  "id": "A087583",
+  "mentions": [
+    "A087581",
+    "A087582"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

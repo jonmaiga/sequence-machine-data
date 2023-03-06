@@ -1,0 +1,21 @@
+{
+  "description": "a(n+3) = 2*a(n+2) + 3*a(n+1) - a(n); with a(1) = 1, a(2) = 4, a(3) = 10.",
+  "id": "A095127",
+  "mentions": [
+    "A095125",
+    "A095126",
+    "A095128"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

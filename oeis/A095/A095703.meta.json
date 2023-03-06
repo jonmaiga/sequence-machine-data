@@ -1,0 +1,20 @@
+{
+  "description": "Integer part of the (positive) solution to x^x = 10^n.",
+  "id": "A095703",
+  "mentions": [
+    "A066022",
+    "A086858"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

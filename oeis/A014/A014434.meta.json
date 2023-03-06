@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{i=0..n-1} a(i) * a(n-i), a(0) = 1, a(1) = 5.",
+  "id": "A014434",
+  "mentions": [
+    "A091148"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:38:38",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

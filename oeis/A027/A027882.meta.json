@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sum_{k>=1} k^n (2/3)^k.",
+  "id": "A027882",
+  "mentions": [
+    "A000629",
+    "A032183"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:50:21",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

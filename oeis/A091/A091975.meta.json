@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n>1, a(n) = largest integer k such that the word a(1)a(2)...a(n-1) is of is of the form xy^(k_1)Y^(k_2)y^(k_3)Y^(k_4)...y^(k_(m-1))Y^(k_m) where y has positive length and Y=reverse(y) and k_1+k_2+k_3+...+k_m = k.",
+  "id": "A091975",
+  "mentions": [
+    "A090822",
+    "A091976",
+    "A092331",
+    "A092335"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number that requires n steps to reach 0 when iterating the mapping k -> abs(reverse(lpd(k))-reverse(Lpf(k))). lpd(k) is the largest proper divisor and Lpf(k) is the largest prime factor of k.",
+  "id": "A076424",
+  "mentions": [
+    "A074347",
+    "A076423"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

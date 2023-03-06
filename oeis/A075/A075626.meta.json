@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, then group the natural numbers so that the n-th group contains n numbers relatively prime to n whose sum is divisible by n.",
+  "id": "A075626",
+  "mentions": [
+    "A075627",
+    "A075628",
+    "A075629",
+    "A075630"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of 1/2.",
+  "id": "A020761",
+  "mentions": [
+    "A010503",
+    "A019824",
+    "A019863",
+    "A019884",
+    "A020763",
+    "A020765",
+    "A020781",
+    "A179294",
+    "A237603",
+    "A239798"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:10:29",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

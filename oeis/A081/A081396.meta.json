@@ -1,0 +1,23 @@
+{
+  "description": "Number of common prime factors (ignoring multiplicity) of sigma(n) = A000203(n) and phi(n) = A000010(n).",
+  "id": "A081396",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001221",
+    "A009223",
+    "A081383",
+    "A082055"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

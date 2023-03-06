@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (3*n+5)!!!/5!!!.",
+  "id": "A051605",
+  "mentions": [
+    "A007559",
+    "A008544",
+    "A032031",
+    "A034000",
+    "A034001",
+    "A051604"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

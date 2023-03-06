@@ -1,0 +1,29 @@
+{
+  "description": "Triangular array, read by rows: first differences in n,n direction of trinomial array A027907.",
+  "id": "A025177",
+  "mentions": [
+    "A024996",
+    "A025178",
+    "A025179",
+    "A025180",
+    "A025181",
+    "A025182",
+    "A026109",
+    "A026110",
+    "A026134",
+    "A027907"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:26:59",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

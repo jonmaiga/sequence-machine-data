@@ -1,0 +1,15 @@
+{
+  "description": "Theta series of lattice D3 tensor D3* (dimension 9, det. 262144, min. norm 6).",
+  "id": "A033694",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

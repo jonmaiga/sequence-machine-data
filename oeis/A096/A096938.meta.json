@@ -1,0 +1,27 @@
+{
+  "description": "McKay-Thompson series of class 60F for the Monster group.",
+  "id": "A096938",
+  "mentions": [
+    "A000700",
+    "A003105",
+    "A006950",
+    "A070048",
+    "A097793",
+    "A112193",
+    "A133563",
+    "A261770",
+    "A261771",
+    "A261772"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:47:49",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

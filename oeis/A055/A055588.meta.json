@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 3*a(n-1) - a(n-2) - 1 with a(0) = 1 and a(1) = 2.",
+  "id": "A055588",
+  "mentions": [
+    "A001519",
+    "A001906",
+    "A008346",
+    "A034943",
+    "A052925",
+    "A055587",
+    "A094790",
+    "A144955",
+    "A196265"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

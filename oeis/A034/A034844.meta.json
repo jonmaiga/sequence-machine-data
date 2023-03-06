@@ -1,0 +1,26 @@
+{
+  "description": "Primes with only nonprime decimal digits.",
+  "id": "A034844",
+  "mentions": [
+    "A000040",
+    "A033274",
+    "A084984",
+    "A109066",
+    "A141409",
+    "A152313",
+    "A179336",
+    "A193238"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:16:47",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

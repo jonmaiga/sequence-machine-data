@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into distinct nonprime parts.",
+  "id": "A096258",
+  "mentions": [
+    "A002095",
+    "A204389"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

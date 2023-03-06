@@ -1,0 +1,30 @@
+{
+  "description": "Third spoke of a hexagonal spiral.",
+  "id": "A056107",
+  "mentions": [
+    "A000578",
+    "A002648",
+    "A003136",
+    "A003215",
+    "A054552",
+    "A056105",
+    "A056106",
+    "A056108",
+    "A056109",
+    "A132111",
+    "A181123",
+    "A201053"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:30:45",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

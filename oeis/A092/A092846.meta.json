@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 100...001^n, where there are just enough zeros for the result to display the terms in the n-th row of Pascal's triangle.",
+  "id": "A092846",
+  "mentions": [
+    "A001020",
+    "A001405",
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

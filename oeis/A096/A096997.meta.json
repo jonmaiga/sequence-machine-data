@@ -1,0 +1,18 @@
+{
+  "description": "If f(x)=sigma(phi[x])=A062402[x] function is iterated starting from these listed values, then the start-value never returns. These are the transient terms of this iteration. Never occur in terminal cycles.",
+  "id": "A096997",
+  "mentions": [
+    "A062402",
+    "A096849"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

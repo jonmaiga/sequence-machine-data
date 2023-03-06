@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) defined by Sum_{k=1..n} T(n,k)*u^k*t^n/n! = ((1+t)*(1+t^2)*(1+t^3)...)^u.",
+  "id": "A075525",
+  "mentions": [
+    "A000009",
+    "A000593",
+    "A008298",
+    "A264428",
+    "A265024",
+    "A338787",
+    "A338788"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

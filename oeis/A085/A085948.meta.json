@@ -1,0 +1,18 @@
+{
+  "description": "Total number of elements in all subsets of {1,2,..,n} with relatively prime elements.",
+  "id": "A085948",
+  "mentions": [
+    "A085411"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

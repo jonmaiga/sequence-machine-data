@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of consistent orderings of 1..n based only on factorization.",
+  "id": "A094206",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

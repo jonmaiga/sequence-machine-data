@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of sine of 15 degrees.",
+  "id": "A019824",
+  "mentions": [
+    "A002194",
+    "A019812",
+    "A019814",
+    "A019819",
+    "A019821",
+    "A019887",
+    "A019889",
+    "A019894",
+    "A019896",
+    "A020765",
+    "A101263"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:45",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^2 mod 28.",
+  "id": "A070450",
+  "mentions": [
+    "A070448",
+    "A070449"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:27",
+    "offset": 0,
+    "size": 89,
+    "source": "joeis"
+  }
+}

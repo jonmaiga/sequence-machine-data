@@ -1,0 +1,22 @@
+{
+  "description": "Fourth binomial transform of Fibonacci numbers F(n).",
+  "id": "A081574",
+  "mentions": [
+    "A000045",
+    "A028387",
+    "A081569",
+    "A099453"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

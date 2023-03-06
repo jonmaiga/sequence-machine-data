@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} A003159(k).",
+  "id": "A071994",
+  "mentions": [
+    "A003159"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Floor[concatenation of seven consecutive numbers from n to n+6 divided by 7].",
+  "id": "A036377",
+  "mentions": [
+    "A073086",
+    "A074991",
+    "A074992",
+    "A074993",
+    "A074994",
+    "A074995",
+    "A074996",
+    "A074999"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:25:23",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

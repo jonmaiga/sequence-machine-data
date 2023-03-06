@@ -1,0 +1,22 @@
+{
+  "description": "Number of 6-ary Lyndon words with trace 0 mod 6.",
+  "id": "A054665",
+  "mentions": [
+    "A000048",
+    "A046209",
+    "A046211",
+    "A051841",
+    "A054660"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:08:01",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that can be written as k/d(k) in four or more ways, where d(k) = number of divisors of k.",
+  "id": "A051346",
+  "mentions": [
+    "A000005",
+    "A051278",
+    "A051279",
+    "A051280",
+    "A217125",
+    "A217126",
+    "A217127"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

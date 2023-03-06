@@ -1,0 +1,32 @@
+{
+  "description": "Smallest magic constant for any n X n magic square made from consecutive primes, or 0 if no such magic square exists.",
+  "id": "A073520",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A007504",
+    "A049084",
+    "A073519",
+    "A073521",
+    "A073522",
+    "A073523",
+    "A104157",
+    "A245721",
+    "A256234",
+    "A320873",
+    "A320874",
+    "A320876"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

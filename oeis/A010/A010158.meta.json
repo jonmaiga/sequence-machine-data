@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction for sqrt(85).",
+  "id": "A010158",
+  "mentions": [
+    "A010536"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

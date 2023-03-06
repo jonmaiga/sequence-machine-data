@@ -1,0 +1,20 @@
+{
+  "description": "Primitive numbers n such that the product of factorials of all proper divisors of n does not divide n!.",
+  "id": "A075422",
+  "mentions": [
+    "A075071",
+    "A075460",
+    "A248693"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

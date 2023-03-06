@@ -1,0 +1,26 @@
+{
+  "description": "Cototients of consecutive pure powers of primes.",
+  "id": "A053211",
+  "mentions": [
+    "A000010",
+    "A001248",
+    "A002618",
+    "A025475",
+    "A036689",
+    "A051953",
+    "A053191",
+    "A053192",
+    "A053650"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

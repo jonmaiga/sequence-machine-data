@@ -1,0 +1,22 @@
+{
+  "description": "Number of numbers neither relatively prime to nor divisors of primorial number(n).",
+  "id": "A051272",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A002110",
+    "A045763",
+    "A051271"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

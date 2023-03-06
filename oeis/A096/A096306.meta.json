@@ -1,0 +1,18 @@
+{
+  "description": "Number of iterations of n -> n + (largest digit of n) needed for the trajectory of n to join the trajectory of A045844.",
+  "id": "A096306",
+  "mentions": [
+    "A045844"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

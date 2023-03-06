@@ -1,0 +1,17 @@
+{
+  "description": "Number of Pythagorean triangles having the n-th prime prime(n) as one of their sides.",
+  "id": "A088978",
+  "mentions": [
+    "A046081"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p, p+12, p+24 are consecutive primes.",
+  "id": "A052188",
+  "mentions": [
+    "A001223",
+    "A033447",
+    "A033451",
+    "A047948"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:01:49",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

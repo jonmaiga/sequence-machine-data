@@ -1,0 +1,24 @@
+{
+  "description": "The continued fraction for the \"binary\" Champernowne constant.",
+  "id": "A066717",
+  "mentions": [
+    "A030190",
+    "A033307",
+    "A054635",
+    "A066716",
+    "A077771",
+    "A077772"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Powers of fourth root of 8 rounded up.",
+  "id": "A018068",
+  "mentions": [
+    "A001018"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

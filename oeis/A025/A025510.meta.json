@@ -1,0 +1,17 @@
+{
+  "description": "Least k>1 such that complement of first n terms of A006928 repeats beginning at k-th term.",
+  "id": "A025510",
+  "mentions": [
+    "A006928"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

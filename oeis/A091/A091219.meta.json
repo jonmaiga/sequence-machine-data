@@ -1,0 +1,22 @@
+{
+  "description": "Moebius-analog for the domain GF(2)[X]: a(n)=0 if A091221(n)!=A091222(n) (i.e., if the polynomial is not squarefree), otherwise (-1)^A091222(n).",
+  "id": "A091219",
+  "mentions": [
+    "A008683",
+    "A091203",
+    "A091205",
+    "A091221",
+    "A091222",
+    "A091247"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

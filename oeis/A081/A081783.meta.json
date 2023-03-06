@@ -1,0 +1,20 @@
+{
+  "description": "Continued cotangent for zeta(2)=Pi^2/6.",
+  "id": "A081783",
+  "mentions": [
+    "A001620",
+    "A002666",
+    "A002667"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "If any power of 2 ends with k 4's and 7's, they must be the first k terms of this sequence in reverse order.",
+  "id": "A023404",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

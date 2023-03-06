@@ -1,0 +1,20 @@
+{
+  "description": "Prime liponombres.",
+  "id": "A050280",
+  "mentions": [
+    "A014254"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "fini",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n+0, n+1, ... and n+7 are, in some order, 1 * a prime, 2 * a prime, ... and 8 * a prime.",
+  "id": "A071370",
+  "mentions": [
+    "A071367",
+    "A071373"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

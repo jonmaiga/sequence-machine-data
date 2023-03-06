@@ -1,0 +1,21 @@
+{
+  "description": "Number of Catalan knight paths from (0,0) to (n,3) in the region between and on the lines y=0 and y=3. (See A096587 for the definition of Catalan knight.).",
+  "id": "A099331",
+  "mentions": [
+    "A096587",
+    "A099328",
+    "A099329",
+    "A099330"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:09:05",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numerator of (1/Pi)*Integral_{x=0..infinity} (sin(x)/x)^n dx.",
+  "id": "A049330",
+  "mentions": [
+    "A002297",
+    "A002304",
+    "A002305",
+    "A049331",
+    "A099765"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

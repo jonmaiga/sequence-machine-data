@@ -1,0 +1,35 @@
+{
+  "description": "Number of compositions minus number of partitions: A011782(n) - A000041(n).",
+  "id": "A056823",
+  "mentions": [
+    "A000041",
+    "A002051",
+    "A011782",
+    "A025487",
+    "A056808",
+    "A056986",
+    "A102726",
+    "A106356",
+    "A117989",
+    "A144300",
+    "A238279",
+    "A261982",
+    "A269134",
+    "A333755",
+    "A335447",
+    "A335456",
+    "A335485"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:10:06",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

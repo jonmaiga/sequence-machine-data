@@ -1,0 +1,21 @@
+{
+  "description": "Non-perfect powers k for which q = A051903(k)/A051904(k) is an integer, A051904(k) > 1.",
+  "id": "A093770",
+  "mentions": [
+    "A001597",
+    "A051903",
+    "A051904",
+    "A093769"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

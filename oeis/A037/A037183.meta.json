@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number that is palindromic (with at least 2 digits) in n bases.",
+  "id": "A037183",
+  "mentions": [
+    "A065531",
+    "A107129",
+    "A135549",
+    "A135551"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of words with 4 runs in Varshamov-Tenengolts code VT_0(n) of length n.",
+  "id": "A054530",
+  "mentions": [
+    "A054528"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 4,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "A discrete version of the Mangoldt function: if n is prime then ceiling(log(n)) else 0.",
+  "id": "A029832",
+  "mentions": [
+    "A029833",
+    "A029834",
+    "A053821"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 115,
+    "source": "oeis-bfile"
+  }
+}

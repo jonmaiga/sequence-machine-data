@@ -1,0 +1,27 @@
+{
+  "description": "Number of strings over Z_4 of length n with trace 0 and subtrace 2.",
+  "id": "A068774",
+  "mentions": [
+    "A068620",
+    "A068711",
+    "A068777",
+    "A068778",
+    "A068786",
+    "A068787",
+    "A068788",
+    "A068789",
+    "A068790"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

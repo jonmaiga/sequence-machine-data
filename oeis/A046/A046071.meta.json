@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of nonzero quadratic residues mod n.",
+  "id": "A046071",
+  "mentions": [
+    "A063987",
+    "A096008",
+    "A105612"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:28:25",
+    "offset": 2,
+    "size": 93,
+    "source": "joeis"
+  }
+}

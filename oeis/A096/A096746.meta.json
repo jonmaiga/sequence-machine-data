@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of triangle A096744, which shifts one place diagonally left and upward under the matrix cube operation.",
+  "id": "A096746",
+  "mentions": [
+    "A096744",
+    "A096745"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

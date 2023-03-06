@@ -1,0 +1,19 @@
+{
+  "description": "Number of steps required for the initial value p = 10^n to reach 0 in the recurrence p = pi(p).",
+  "id": "A091985",
+  "mentions": [
+    "A000720"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

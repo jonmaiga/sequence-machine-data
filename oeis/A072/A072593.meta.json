@@ -1,0 +1,20 @@
+{
+  "description": "In prime factorization of n replace multiplication with bitwise logical 'or'.",
+  "id": "A072593",
+  "mentions": [
+    "A007947",
+    "A027746",
+    "A072591",
+    "A072594"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

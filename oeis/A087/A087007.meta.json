@@ -1,0 +1,27 @@
+{
+  "description": "Divisors of 510510.",
+  "id": "A087007",
+  "mentions": [
+    "A000005",
+    "A002110",
+    "A005117",
+    "A018255",
+    "A018336",
+    "A087005",
+    "A087006",
+    "A087008"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

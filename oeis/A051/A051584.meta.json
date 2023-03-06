@@ -1,0 +1,18 @@
+{
+  "description": "Number of integer-sided triangles of area n.",
+  "id": "A051584",
+  "mentions": [
+    "A051585",
+    "A051586"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

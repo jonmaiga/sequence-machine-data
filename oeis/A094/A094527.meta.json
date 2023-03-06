@@ -1,0 +1,32 @@
+{
+  "description": "Triangle T(n,k), read by rows, defined by T(n,k) = binomial(2*n,n-k).",
+  "id": "A094527",
+  "mentions": [
+    "A000108",
+    "A005810",
+    "A006232",
+    "A007318",
+    "A032443",
+    "A034870",
+    "A036910",
+    "A039598",
+    "A039599",
+    "A062344",
+    "A088218",
+    "A094531",
+    "A110162"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:51:53",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

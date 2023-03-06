@@ -1,0 +1,23 @@
+{
+  "description": "Products of two palindromic primes.",
+  "id": "A046368",
+  "mentions": [
+    "A001358",
+    "A002113",
+    "A002385",
+    "A033620",
+    "A046376",
+    "A046400"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:32:13",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction for sqrt(2) + sqrt(3).",
+  "id": "A089078",
+  "mentions": [
+    "A135611",
+    "A188640"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

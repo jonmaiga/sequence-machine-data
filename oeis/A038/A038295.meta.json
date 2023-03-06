@@ -1,0 +1,17 @@
+{
+  "description": "Triangle whose (i,j)-th entry is binomial(i,j)*9^(i-j)*5^j.",
+  "id": "A038295",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:55:14",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

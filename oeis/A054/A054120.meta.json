@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array T(n,k): start with T(n,0)=T(n,n)=1 for n >= 0; recursively, draw vertical lines through T(n-1,k-1) if present and T(n-1,k) if present; then T(n,k) is the sum of T(i,j) that lie on or between the lines and not below T(n,k).",
+  "id": "A054120",
+  "mentions": [
+    "A052392",
+    "A052945",
+    "A054122",
+    "A081577"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "eigen",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:15:43",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

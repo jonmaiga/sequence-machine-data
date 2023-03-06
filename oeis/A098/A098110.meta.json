@@ -1,0 +1,28 @@
+{
+  "description": "Smallest number that is the difference between two positive cubes in n ways.",
+  "id": "A098110",
+  "mentions": [
+    "A011541",
+    "A014439",
+    "A014440",
+    "A014441",
+    "A034179",
+    "A047696",
+    "A181123",
+    "A265625",
+    "A333376",
+    "A333377"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

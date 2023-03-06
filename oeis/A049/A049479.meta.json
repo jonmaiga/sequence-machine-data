@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime dividing 2^n - 1.",
+  "id": "A049479",
+  "mentions": [
+    "A005420",
+    "A020639",
+    "A236769"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

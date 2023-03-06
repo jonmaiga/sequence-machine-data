@@ -1,0 +1,18 @@
+{
+  "description": "Let N(2n) denote the numerator of B(2n), the 2n-th Bernoulli number and D(2n) the denominator; sequence gives values of n such that gcd(N(2n),D(2n-2))=7.",
+  "id": "A068206",
+  "mentions": [
+    "A068528"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

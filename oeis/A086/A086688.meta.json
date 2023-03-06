@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes < prime(n)^3.",
+  "id": "A086688",
+  "mentions": [
+    "A038098"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

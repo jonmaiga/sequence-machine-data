@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = 3^n-n^6.",
+  "id": "A024029",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:53:26",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

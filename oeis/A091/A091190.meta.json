@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies xA(x)^3 = B(xA(x^3)) where B(x) = x/(1-3x).",
+  "id": "A091190",
+  "mentions": [
+    "A085748",
+    "A091188",
+    "A091200"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

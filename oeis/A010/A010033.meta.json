@@ -1,0 +1,15 @@
+{
+  "description": "A thinks of x in set M; B asks questions: is x in T?; A may lie once but only when true answer is Yes; a(n) is maximal size of M such that B can determine x with <= n questions.",
+  "id": "A010033",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

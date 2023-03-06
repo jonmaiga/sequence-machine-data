@@ -1,0 +1,16 @@
+{
+  "description": "Number of similarity classes of descendants created by bisection refinement from an initial n-simplex.",
+  "id": "A019999",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:47:00",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

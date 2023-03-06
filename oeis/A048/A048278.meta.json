@@ -1,0 +1,30 @@
+{
+  "description": "Positive numbers n such that the numbers binomial(n,k) are squarefree for all k = 0..n.",
+  "id": "A048278",
+  "mentions": [
+    "A000225",
+    "A005117",
+    "A018253",
+    "A019532",
+    "A046098",
+    "A048276",
+    "A048277",
+    "A048279",
+    "A055010",
+    "A249441",
+    "A249452"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

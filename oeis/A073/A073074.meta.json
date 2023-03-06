@@ -1,0 +1,18 @@
+{
+  "description": "Inverse Aronson transform of odious numbers (A000069).",
+  "id": "A073074",
+  "mentions": [
+    "A000069"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

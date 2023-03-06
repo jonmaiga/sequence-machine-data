@@ -1,0 +1,27 @@
+{
+  "description": "First differences of the central trinomial coefficients A002426.",
+  "id": "A025178",
+  "mentions": [
+    "A001006",
+    "A002426",
+    "A005717",
+    "A007971",
+    "A025177",
+    "A079309",
+    "A097893",
+    "A105696",
+    "A162551"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

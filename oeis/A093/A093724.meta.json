@@ -1,0 +1,19 @@
+{
+  "description": "First occurrence of n in A093723, or -1 if n does not occur.",
+  "id": "A093724",
+  "mentions": [
+    "A092613",
+    "A092614",
+    "A093723"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 4,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

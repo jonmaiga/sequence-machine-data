@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Sum_{d|n, d==1 (mod 4)} d.",
+  "id": "A050449",
+  "mentions": [
+    "A000593",
+    "A001826",
+    "A035451",
+    "A050452",
+    "A050460",
+    "A078181",
+    "A284097",
+    "A284098",
+    "A284099",
+    "A284100"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Let n range through the odd numbers skipping multiples of 5; a(n) = n-th prime ending in n.",
+  "id": "A089779",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of constant C>0 such that sum(k>=1,1/C^(k^2)) = 1.",
+  "id": "A078975",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Larger of the two prime numbers whose product is A082663(n).",
+  "id": "A082684",
+  "mentions": [
+    "A082663",
+    "A082683"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

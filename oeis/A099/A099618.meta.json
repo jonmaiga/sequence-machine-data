@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if the n-th prime == 1 mod 6, otherwise a(n) = 0.",
+  "id": "A099618",
+  "mentions": [
+    "A000040",
+    "A039704",
+    "A091178"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

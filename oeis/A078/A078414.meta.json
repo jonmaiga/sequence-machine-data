@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (a(n-1)+a(n-2))/7^k, where 7^k is the highest power of 7 dividing a(n-1)+a(n-2).",
+  "id": "A078414",
+  "mentions": [
+    "A000045",
+    "A078412",
+    "A214094",
+    "A214156",
+    "A216231",
+    "A216275",
+    "A216835"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

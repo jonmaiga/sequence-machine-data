@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime p such that 2*p+1 has n prime factors (with multiplicity).",
+  "id": "A072060",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A023595",
+    "A072055",
+    "A072059"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

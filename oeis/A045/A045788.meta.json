@@ -1,0 +1,25 @@
+{
+  "description": "Squares with initial digit '5'.",
+  "id": "A045788",
+  "mentions": [
+    "A045784",
+    "A045785",
+    "A045786",
+    "A045787",
+    "A045789",
+    "A045791",
+    "A045792",
+    "A045793"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

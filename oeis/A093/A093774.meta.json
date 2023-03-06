@@ -1,0 +1,22 @@
+{
+  "description": "Smallest integers at which the value of truncated Mertens function equals n!.",
+  "id": "A093774",
+  "mentions": [
+    "A000720",
+    "A002321",
+    "A088004",
+    "A093772",
+    "A093773"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are in both the 1-additive and 0-additive sequences (A002858 and A033627).",
+  "id": "A033628",
+  "mentions": [
+    "A002858",
+    "A033627"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:09",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

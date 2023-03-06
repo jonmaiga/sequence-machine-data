@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that sigma_2(k) >= 3/2 k^2, where sigma_2(x) is the sum of the squares of the divisors of x.",
+  "id": "A096490",
+  "mentions": [
+    "A001157",
+    "A056866"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

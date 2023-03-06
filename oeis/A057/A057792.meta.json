@@ -1,0 +1,21 @@
+{
+  "description": "Sum[k^k], where sum is over positive integers, k, where k <= n and gcd(k,n) = 1.",
+  "id": "A057792",
+  "mentions": [
+    "A023896",
+    "A053818",
+    "A053819",
+    "A053820",
+    "A308481"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

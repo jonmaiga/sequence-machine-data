@@ -1,0 +1,21 @@
+{
+  "description": "Centered cube numbers: (n+1)^23 + n^23.",
+  "id": "A036101",
+  "mentions": [
+    "A001358",
+    "A010811",
+    "A036099",
+    "A036100"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

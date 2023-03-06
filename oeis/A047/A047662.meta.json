@@ -1,0 +1,29 @@
+{
+  "description": "Square array a(n,k) read by antidiagonals: a(n,1)=n, a(1,k)=k, a(n,k)=a(n-1,k-1)+a(n-1,k)+a(n,k-1)+1.",
+  "id": "A047662",
+  "mentions": [
+    "A001850",
+    "A006007",
+    "A008288",
+    "A037237",
+    "A047661",
+    "A047663",
+    "A047664",
+    "A047665",
+    "A048776"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:21:55",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

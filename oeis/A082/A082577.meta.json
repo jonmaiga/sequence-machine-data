@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = first digit to the right of decimal point of n*(sqrt(5)-1)/2.",
+  "id": "A082577",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

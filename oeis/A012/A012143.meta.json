@@ -1,0 +1,15 @@
+{
+  "description": "cosh(arcsin(arctanh(x)))=1+1/2!*x^2+13/4!*x^4+469/6!*x^6+33433/8!*x^8...",
+  "id": "A012143",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:38:58",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Nondecreasing sums of digits: a(0) = 0 and for n>0: a(n) = Min{m>n|SumOfDigits(m)>= SumOfDigits(a(n-1))}, where SumOfDigits = A007953.",
+  "id": "A067043",
+  "mentions": [
+    "A007953",
+    "A048377",
+    "A051885",
+    "A138472",
+    "A192686"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

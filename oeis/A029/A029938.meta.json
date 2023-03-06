@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (p-5)(p-7)/24, where p=prime(n).",
+  "id": "A029938",
+  "mentions": [
+    "A000040",
+    "A029937"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:44:49",
+    "offset": 3,
+    "size": 45,
+    "source": "joeis"
+  }
+}

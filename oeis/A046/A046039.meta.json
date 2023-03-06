@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which cannot be represented as a sum of distinct 4th powers.",
+  "id": "A046039",
+  "mentions": [
+    "A001422",
+    "A001476",
+    "A003999",
+    "A279487"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

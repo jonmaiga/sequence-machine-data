@@ -1,0 +1,20 @@
+{
+  "description": "Critical dimensions for N-modular lattices.",
+  "id": "A033826",
+  "mentions": [
+    "A033821",
+    "A033827"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

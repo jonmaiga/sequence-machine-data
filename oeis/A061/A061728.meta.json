@@ -1,0 +1,20 @@
+{
+  "description": "Start with (a, b) = (2, 4). The next pair (a', b') is ((b + 1) mod 10, (a + 1) mod 10) where (a, b) is the previous pair.",
+  "id": "A061728",
+  "mentions": [
+    "A061729"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:39:49",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

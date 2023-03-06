@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 121*2^n-1 is a prime.",
+  "id": "A050586",
+  "mentions": [
+    "A032410"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

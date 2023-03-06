@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 1, a(1) = 1, a(n) = 2*a(n-1) + (2*n-1)^2*a(n-2) for n > 1.",
+  "id": "A072372",
+  "mentions": [
+    "A024199",
+    "A024200"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:51:41",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

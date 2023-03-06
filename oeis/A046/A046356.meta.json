@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers with only palindromic prime factors whose sum is palindromic (counted with multiplicity).",
+  "id": "A046356",
+  "mentions": [
+    "A046355",
+    "A046357"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

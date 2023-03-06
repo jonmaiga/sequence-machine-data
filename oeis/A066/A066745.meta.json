@@ -1,0 +1,16 @@
+{
+  "description": "Least number of applications of f(k) = k(k+1)+1 to n to yield a prime, if this number exists; 0 otherwise.",
+  "id": "A066745",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

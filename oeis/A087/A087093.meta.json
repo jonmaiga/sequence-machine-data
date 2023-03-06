@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that have the same number of divisors as their digit reversal, but with different prime signatures.",
+  "id": "A087093",
+  "mentions": [
+    "A000005",
+    "A062895",
+    "A085869",
+    "A085870"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

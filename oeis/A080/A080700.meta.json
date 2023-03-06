@@ -1,0 +1,20 @@
+{
+  "description": "Product of upper bound twin-prime-indexed primes and their lower bound twin prime.",
+  "id": "A080700",
+  "mentions": [
+    "A057470",
+    "A057473"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

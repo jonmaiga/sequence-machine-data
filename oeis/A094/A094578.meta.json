@@ -1,0 +1,18 @@
+{
+  "description": "A094559/4.",
+  "id": "A094578",
+  "mentions": [
+    "A094559"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

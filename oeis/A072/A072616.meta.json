@@ -1,0 +1,20 @@
+{
+  "description": "Number of essentially different ways of arranging numbers 1 through 2n around a circle so that the sum of each pair of adjacent numbers is prime and the odd (or even) numbers are in order.",
+  "id": "A072616",
+  "mentions": [
+    "A051252",
+    "A072617",
+    "A072618"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

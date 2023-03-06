@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = binomial(2n+1, n+1)*binomial(n+2, 2).",
+  "id": "A085373",
+  "mentions": [
+    "A000984",
+    "A001622",
+    "A002544",
+    "A119578"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

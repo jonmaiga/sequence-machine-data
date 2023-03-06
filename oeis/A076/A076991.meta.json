@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2, a(n) = smallest positive integer not occurring earlier such that the sum of three successive terms is a square.",
+  "id": "A076991",
+  "mentions": [
+    "A034175",
+    "A076093",
+    "A077396"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

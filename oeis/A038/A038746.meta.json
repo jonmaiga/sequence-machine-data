@@ -1,0 +1,28 @@
+{
+  "description": "Coefficients arising in the enumeration of configurations of linear chains.",
+  "id": "A038746",
+  "mentions": [
+    "A002932",
+    "A002934",
+    "A033155",
+    "A033323",
+    "A034006",
+    "A042949",
+    "A046788",
+    "A047057",
+    "A173380",
+    "A174319"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

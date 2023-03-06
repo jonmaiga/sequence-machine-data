@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: B(x/(1-x)) where B is g.f. of A000169.",
+  "id": "A038051",
+  "mentions": [
+    "A000169",
+    "A036249",
+    "A038052",
+    "A048802"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

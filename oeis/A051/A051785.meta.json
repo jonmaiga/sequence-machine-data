@@ -1,0 +1,21 @@
+{
+  "description": "Number of letters in n-th Catalan number.",
+  "id": "A051785",
+  "mentions": [
+    "A000108",
+    "A005589"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:58:27",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

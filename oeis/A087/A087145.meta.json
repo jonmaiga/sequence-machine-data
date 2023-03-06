@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct disconnected simple symmetric graphs on n nodes.",
+  "id": "A087145",
+  "mentions": [
+    "A133181",
+    "A286931"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

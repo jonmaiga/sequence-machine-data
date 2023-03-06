@@ -1,0 +1,20 @@
+{
+  "description": "Number of 2-element intersecting families whose union is an n-element set.",
+  "id": "A053152",
+  "mentions": [
+    "A036239",
+    "A064686"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

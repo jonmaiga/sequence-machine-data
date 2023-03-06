@@ -1,0 +1,18 @@
+{
+  "description": "n-th nonzero Fibonacci numbers arising in A053408.",
+  "id": "A053412",
+  "mentions": [
+    "A000045",
+    "A053408"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

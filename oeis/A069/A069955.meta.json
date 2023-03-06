@@ -1,0 +1,25 @@
+{
+  "description": "Let W(n) = Product_{k=1..n} (1 - 1/4k^2), the partial Wallis product (lim_{n->infinity} W(n) = 2/Pi); then a(n) = numerator(W(n)).",
+  "id": "A069955",
+  "mentions": [
+    "A001790",
+    "A001902",
+    "A046161",
+    "A056982",
+    "A120994",
+    "A120995"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "In ternary representation: minimal number of editing steps (delete, insert or substitute) to transform n into n^2.",
+  "id": "A091093",
+  "mentions": [
+    "A000290",
+    "A001738",
+    "A007089",
+    "A081604",
+    "A091091",
+    "A091092"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

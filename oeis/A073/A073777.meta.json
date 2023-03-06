@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sum(-A068341(k+1)*a(n-k), k=1..n), a(0)=1.",
+  "id": "A073777",
+  "mentions": [
+    "A008683",
+    "A068341",
+    "A070965",
+    "A073776"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

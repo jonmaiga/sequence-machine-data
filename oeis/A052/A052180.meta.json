@@ -1,0 +1,25 @@
+{
+  "description": "Last filtering prime for n-th prime p: find smallest prime factor of each of the composite numbers between p and next prime; take maximal value.",
+  "id": "A052180",
+  "mentions": [
+    "A000720",
+    "A000879",
+    "A010051",
+    "A020639",
+    "A052248",
+    "A083269"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:01:45",
+    "offset": 2,
+    "size": 93,
+    "source": "joeis"
+  }
+}

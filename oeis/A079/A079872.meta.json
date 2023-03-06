@@ -1,0 +1,20 @@
+{
+  "description": "signum(round(n^(1/Omega(n)))^Omega(n) - n), where Omega(n) is the total number of prime factors of n (A001222).",
+  "id": "A079872",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A057427",
+    "A079869"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

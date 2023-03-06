@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 2i + 1 where i is the least index such that A039508(i) = n or 0 if there is none.",
+  "id": "A039511",
+  "mentions": [
+    "A039508",
+    "A039509",
+    "A039510",
+    "A039512",
+    "A039513",
+    "A039514",
+    "A039515"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

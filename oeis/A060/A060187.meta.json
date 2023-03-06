@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: Eulerian numbers of type B, T(n,k) (1 <= k <= n) given by T(n, 1) = T(n,n) = 1, otherwise T(n, k) = (2*n - 2*k + 1)*T(n-1, k-1) + (2*k - 1)*T(n-1, k).",
+  "id": "A060187",
+  "mentions": [
+    "A000165",
+    "A000447",
+    "A002436",
+    "A008292",
+    "A060188",
+    "A060189",
+    "A060190",
+    "A062715",
+    "A145901",
+    "A145905",
+    "A282628"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:14:45",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

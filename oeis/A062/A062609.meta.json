@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that 43^k - 42^k is prime or a strong pseudoprime.",
+  "id": "A062609",
+  "mentions": [
+    "A000043",
+    "A057468",
+    "A059801",
+    "A059803",
+    "A062572",
+    "A062608",
+    "A062611",
+    "A062666",
+    "A215632"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

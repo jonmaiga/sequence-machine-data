@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of divisors of n that are fundamental discriminants.",
+  "id": "A086669",
+  "mentions": [
+    "A003658",
+    "A290098"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

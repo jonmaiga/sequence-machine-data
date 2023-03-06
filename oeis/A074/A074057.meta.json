@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2*phi(n-2)-(n-1).",
+  "id": "A074057",
+  "mentions": [
+    "A000010",
+    "A000215",
+    "A019434",
+    "A232720"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 3,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

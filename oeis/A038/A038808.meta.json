@@ -1,0 +1,20 @@
+{
+  "description": "Palindromic numbers which are the difference of two positive cubes.",
+  "id": "A038808",
+  "mentions": [
+    "A002113",
+    "A038593",
+    "A109879"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

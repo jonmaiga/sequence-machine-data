@@ -1,0 +1,23 @@
+{
+  "description": "Record primes reached in A048986.",
+  "id": "A049065",
+  "mentions": [
+    "A037271",
+    "A037276",
+    "A048985",
+    "A048986",
+    "A056938"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

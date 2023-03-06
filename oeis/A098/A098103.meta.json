@@ -1,0 +1,21 @@
+{
+  "description": "Consider the succession of single digits of the primes (A000040): 2 3 5 7 1 1 1 3 1 7 1 9 2 3 2 9 3 1 ... (A033308). This sequence is the lexicographically earliest derangement of A000040 that produces the same succession of digits.",
+  "id": "A098103",
+  "mentions": [
+    "A000040",
+    "A033308",
+    "A098067"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

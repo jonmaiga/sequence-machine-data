@@ -1,0 +1,17 @@
+{
+  "description": "First prime in n# + m.",
+  "id": "A092792",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

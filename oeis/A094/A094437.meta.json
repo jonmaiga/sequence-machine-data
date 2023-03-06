@@ -1,0 +1,30 @@
+{
+  "description": "Triangular array T(n,k) = Fibonacci(k+2)*C(n,k), k=0..n, n>=0.",
+  "id": "A094437",
+  "mentions": [
+    "A000045",
+    "A084938",
+    "A094435",
+    "A094436",
+    "A094438",
+    "A094439",
+    "A094440",
+    "A094441",
+    "A094442",
+    "A094443",
+    "A094444"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:46:53",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

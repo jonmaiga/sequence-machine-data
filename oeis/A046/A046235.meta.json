@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose cube is palindromic in base 6.",
+  "id": "A046235",
+  "mentions": [
+    "A046236"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

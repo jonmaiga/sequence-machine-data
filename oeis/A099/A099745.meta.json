@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of [n] with exactly 2 valleys which avoid the permutation 1324.",
+  "id": "A099745",
+  "mentions": [
+    "A000079"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

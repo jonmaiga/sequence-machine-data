@@ -1,0 +1,17 @@
+{
+  "description": "Denominator of the last term of the Egyptian fraction sum (using the greedy algorithm) which satisfies 1 = 1/n + 1/(n+1) + 1/(n+2) ... 1/a(n).",
+  "id": "A069257",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

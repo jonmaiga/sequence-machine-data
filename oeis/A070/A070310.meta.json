@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the sum of its aliquot parts and the number of its divisors are both perfect numbers.",
+  "id": "A070310",
+  "mentions": [
+    "A000005",
+    "A000396",
+    "A001065",
+    "A237286"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

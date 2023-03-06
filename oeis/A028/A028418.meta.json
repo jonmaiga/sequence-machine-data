@@ -1,0 +1,26 @@
+{
+  "description": "Sum over all n! permutations of n letters of maximum cycle length.",
+  "id": "A028418",
+  "mentions": [
+    "A000142",
+    "A006128",
+    "A028417",
+    "A033312",
+    "A060014",
+    "A066052",
+    "A126074",
+    "A202364",
+    "A322384"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

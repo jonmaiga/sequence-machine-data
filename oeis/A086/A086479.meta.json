@@ -1,0 +1,20 @@
+{
+  "description": "Number of invertible circulant (0,1) matrices over the reals that have even determinant.",
+  "id": "A086479",
+  "mentions": [
+    "A003473",
+    "A086323",
+    "A086324"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

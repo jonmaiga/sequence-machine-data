@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 4*a(n-1) - a(n-2), a(0)=1, a(1)=6.",
+  "id": "A054491",
+  "mentions": [
+    "A001353",
+    "A001834",
+    "A049310",
+    "A077234",
+    "A077235",
+    "A077236",
+    "A238731"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

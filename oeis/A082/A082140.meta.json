@@ -1,0 +1,22 @@
+{
+  "description": "A transform of binomial(n,6).",
+  "id": "A082140",
+  "mentions": [
+    "A002409",
+    "A080951",
+    "A082137",
+    "A082139"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

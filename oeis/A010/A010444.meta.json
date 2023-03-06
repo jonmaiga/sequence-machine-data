@@ -1,0 +1,20 @@
+{
+  "description": "Squares mod 83.",
+  "id": "A010444",
+  "mentions": [
+    "A028796"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

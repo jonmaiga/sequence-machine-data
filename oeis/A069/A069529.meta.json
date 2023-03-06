@@ -1,0 +1,25 @@
+{
+  "description": "Smallest multiple of n with digit sum = 10, or 0 if no such number exists, e.g. a(3k)= 0.",
+  "id": "A069529",
+  "mentions": [
+    "A069521",
+    "A069522",
+    "A069523",
+    "A069524",
+    "A069525",
+    "A069526",
+    "A069527",
+    "A069528"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

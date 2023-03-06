@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1, a(n) = sigma(n) if sigma(n) >= a(n-1), otherwise a(n) = a(n-1) + sigma(n).",
+  "id": "A092406",
+  "mentions": [
+    "A000203",
+    "A024916",
+    "A160664"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

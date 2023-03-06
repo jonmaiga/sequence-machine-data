@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of arranging the numbers 1 ... 2n into a 2 X n array so there is exactly one local maximum.",
+  "id": "A087923",
+  "mentions": [
+    "A007846",
+    "A087783"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

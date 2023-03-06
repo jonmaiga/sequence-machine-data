@@ -1,0 +1,15 @@
+{
+  "description": "Discriminants of totally real quintic fields.",
+  "id": "A023683",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

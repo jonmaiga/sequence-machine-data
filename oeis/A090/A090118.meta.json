@@ -1,0 +1,20 @@
+{
+  "description": "a(n)=prevprime[A090116(n)], the largest prime previous to squares given in A090116, being such that distance of a(n) to the following prime equals 2n.",
+  "id": "A090118",
+  "mentions": [
+    "A090116",
+    "A090117",
+    "A090119"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

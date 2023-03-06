@@ -1,0 +1,21 @@
+{
+  "description": "Integer quotients n(n+1)(n+2)...(n+5) / (n+(n+1)+(n+2)+...+(n+5)).",
+  "id": "A032773",
+  "mentions": [
+    "A032771",
+    "A032772"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Difference between (smallest square strictly greater than 2^n) and 2^n.",
+  "id": "A056008",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A017910",
+    "A051204",
+    "A056007",
+    "A238454"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

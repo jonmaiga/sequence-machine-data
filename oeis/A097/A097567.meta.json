@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)= count of partitions p such that Abs( Odd(p)-Odd(p') ) = k, where p' is the transpose of p and Odd(p) counts the odd elements in p. Related to Stanley's 'f'.",
+  "id": "A097567",
+  "mentions": [
+    "A000041",
+    "A097566"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

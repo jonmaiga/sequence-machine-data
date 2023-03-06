@@ -1,0 +1,29 @@
+{
+  "description": "Triangle T by rows: second differences of Motzkin triangle (A026300), (i >= -1, -1<=j<=i).",
+  "id": "A026120",
+  "mentions": [
+    "A001006",
+    "A026105",
+    "A026107",
+    "A026122",
+    "A026123",
+    "A026124",
+    "A026125",
+    "A026126",
+    "A026127",
+    "A026135",
+    "A026300"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:55",
+    "offset": -1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

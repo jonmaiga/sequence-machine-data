@@ -1,0 +1,23 @@
+{
+  "description": "Number of 7 X 7 binary matrices with n=0..49 ones up to row and column permutations.",
+  "id": "A053304",
+  "mentions": [
+    "A002724",
+    "A049311",
+    "A052371",
+    "A321609"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

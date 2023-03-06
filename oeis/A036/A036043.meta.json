@@ -1,0 +1,47 @@
+{
+  "description": "Irregular triangle read by rows: row n (n >= 0) gives number of parts in all partitions of n (in Abramowitz and Stegun order).",
+  "id": "A036043",
+  "mentions": [
+    "A000041",
+    "A001222",
+    "A006128",
+    "A008284",
+    "A026791",
+    "A036036",
+    "A036037",
+    "A036038",
+    "A036039",
+    "A036040",
+    "A036042",
+    "A049085",
+    "A103921",
+    "A115623",
+    "A119441",
+    "A124734",
+    "A124736",
+    "A128628",
+    "A185974",
+    "A193073",
+    "A296150",
+    "A334301",
+    "A334433",
+    "A334435",
+    "A334438",
+    "A334439",
+    "A334440",
+    "A334441"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:24:17",
+    "offset": 0,
+    "size": 97,
+    "source": "joeis"
+  }
+}

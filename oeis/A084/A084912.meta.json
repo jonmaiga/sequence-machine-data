@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1024; a(n) = 5*a(n-1)/8.",
+  "id": "A084912",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "dumb",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

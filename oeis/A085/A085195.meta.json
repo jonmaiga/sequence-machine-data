@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of A085194.",
+  "id": "A085195",
+  "mentions": [
+    "A000108",
+    "A000302",
+    "A085186",
+    "A085188",
+    "A085194"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

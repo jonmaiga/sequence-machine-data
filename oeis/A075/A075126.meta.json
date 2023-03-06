@@ -1,0 +1,19 @@
+{
+  "description": "Number of bargraphs of site-perimeter n.",
+  "id": "A075126",
+  "mentions": [
+    "A075125",
+    "A274207"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

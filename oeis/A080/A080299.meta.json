@@ -1,0 +1,21 @@
+{
+  "description": "A014486-encoding of plane binary trees (Stanley's d) whose interior zigzag-tree (Stanley's c, i.e., tree obtained by discarding the outermost edges of the binary tree) is isomorphic to a valid plane binary tree (Stanley's d).",
+  "id": "A080299",
+  "mentions": [
+    "A014486",
+    "A080298",
+    "A080310",
+    "A080313"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Hexagonal spiral sequence: sequence is written as a hexagonal spiral around a 'dummy' center, each entry is the sum of the row in the previous direction containing the previous entry.",
+  "id": "A063178",
+  "mentions": [
+    "A062410",
+    "A063177"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

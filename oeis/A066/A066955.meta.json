@@ -1,0 +1,20 @@
+{
+  "description": "Number of unordered solutions of xy+yz+zx=n, x,y,z>0.",
+  "id": "A066955",
+  "mentions": [
+    "A000196",
+    "A066360",
+    "A094379"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

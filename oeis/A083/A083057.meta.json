@@ -1,0 +1,21 @@
+{
+  "description": "A fractal sequence.",
+  "id": "A083057",
+  "mentions": [
+    "A083038",
+    "A083054",
+    "A083055",
+    "A083056"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

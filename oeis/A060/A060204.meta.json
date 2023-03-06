@@ -1,0 +1,18 @@
+{
+  "description": "Square pyramorphic numbers: suppose the k-th square pyramidal number S(k) (A000330) ends in k; sequence gives value of S(k).",
+  "id": "A060204",
+  "mentions": [
+    "A000330",
+    "A093534"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

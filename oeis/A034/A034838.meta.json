@@ -1,0 +1,32 @@
+{
+  "description": "Numbers k that are divisible by every digit of k.",
+  "id": "A034838",
+  "mentions": [
+    "A002796",
+    "A007602",
+    "A010785",
+    "A011540",
+    "A034709",
+    "A052382",
+    "A059405",
+    "A066484",
+    "A087140",
+    "A113028",
+    "A115569",
+    "A128635",
+    "A225299",
+    "A346267"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

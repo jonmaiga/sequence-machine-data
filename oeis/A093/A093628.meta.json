@@ -1,0 +1,19 @@
+{
+  "description": "Triangle, read by rows, such that diagonal n is equal to the Euler transform of row n, where each row starts with 1.",
+  "id": "A093628",
+  "mentions": [
+    "A093629",
+    "A093630"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

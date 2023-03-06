@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(tan m), where m is the least positive integer such that floor(tan m) > floor(tan k) for k = 0,1,...,m-1.",
+  "id": "A024818",
+  "mentions": [
+    "A000503",
+    "A024814"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

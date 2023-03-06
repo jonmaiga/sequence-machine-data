@@ -1,0 +1,35 @@
+{
+  "description": "Number of primes between (prime(n))^2 and (prime(n+1))^2, with a(0) = 2 by convention.",
+  "id": "A050216",
+  "mentions": [
+    "A000430",
+    "A000879",
+    "A001223",
+    "A001248",
+    "A010051",
+    "A014085",
+    "A029707",
+    "A054272",
+    "A089609",
+    "A137859",
+    "A250473",
+    "A250474",
+    "A251719",
+    "A251723",
+    "A256468",
+    "A256469",
+    "A256470"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Ordering of a deck of 52 cards after an in-shuffle.",
+  "id": "A059952",
+  "mentions": [
+    "A059953"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

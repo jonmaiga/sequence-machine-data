@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = prime(9*n - 6).",
+  "id": "A031913",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:57:43",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

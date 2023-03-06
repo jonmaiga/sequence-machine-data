@@ -1,0 +1,24 @@
+{
+  "description": "Decimal numbers n such that after possibly prefixing leading 0's to n, the resulting number n' can be broken into 2 numbers of equal length, n' = xy, such that x^2+y^2 = n (y may also have leading zeros).",
+  "id": "A064942",
+  "mentions": [
+    "A002654",
+    "A055616",
+    "A055617",
+    "A055618",
+    "A055619",
+    "A064943",
+    "A101311"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

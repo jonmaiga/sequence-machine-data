@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k such that tau(n + k) = tau (nk), or 0 if no such number exists, where tau = A000005.",
+  "id": "A085045",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

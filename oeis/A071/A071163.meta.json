@@ -1,0 +1,32 @@
+{
+  "description": "A014486-indices for rooted binary trees with height equal to number of internal vertices. (Binary trees where at each internal vertex at least the other child is leaf.)",
+  "id": "A071163",
+  "mentions": [
+    "A007318",
+    "A009766",
+    "A014486",
+    "A057163",
+    "A069767",
+    "A069768",
+    "A069770",
+    "A071162",
+    "A080300",
+    "A122301",
+    "A122302",
+    "A122353",
+    "A122354",
+    "A153141",
+    "A209640"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

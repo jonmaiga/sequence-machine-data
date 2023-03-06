@@ -1,0 +1,32 @@
+{
+  "description": "Table by antidiagonals where T(n,k)=sum_i T(floor[n/i],k-1) starting with T(n,0)=1 if n>0 and T(0,0)=0.",
+  "id": "A077593",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000027",
+    "A001477",
+    "A005408",
+    "A006218",
+    "A034856",
+    "A052905",
+    "A057427",
+    "A061201",
+    "A061202",
+    "A061203",
+    "A061204",
+    "A077592"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

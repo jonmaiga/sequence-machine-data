@@ -1,0 +1,20 @@
+{
+  "description": "Triangle in which n-th row lists infinitary divisors of n.",
+  "id": "A077609",
+  "mentions": [
+    "A027750",
+    "A037445",
+    "A049417"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

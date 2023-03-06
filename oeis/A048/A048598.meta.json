@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of the sequence (A001097) of twin primes.",
+  "id": "A048598",
+  "mentions": [
+    "A001097",
+    "A048599"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:47:11",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "cosh(sin(arctanh(x)))=1+1/2!*x^2+5/4!*x^4+61/6!*x^6+937/8!*x^8...",
+  "id": "A012060",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:22:38",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes yielding other primes after each digit is incremented by 2 with carries ignored.",
+  "id": "A088785",
+  "mentions": [
+    "A088786",
+    "A088787",
+    "A088788"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Extreme points of set of n X n symmetric substochastic matrices.",
+  "id": "A053553",
+  "mentions": [
+    "A006847"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

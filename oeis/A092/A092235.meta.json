@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of a constant x with the property that when x is added to each of the partial quotients of the continued fraction of x, the resulting continued fraction has a value of 1.",
+  "id": "A092235",
+  "mentions": [
+    "A092234"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

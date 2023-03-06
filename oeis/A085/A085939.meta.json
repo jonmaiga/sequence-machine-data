@@ -1,0 +1,21 @@
+{
+  "description": "Horadam sequence (0,1,6,4).",
+  "id": "A085939",
+  "mentions": [
+    "A000032",
+    "A000129",
+    "A024318"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

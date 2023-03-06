@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = C(n-1,1) + C(n-3,3) + ... + C(n-2*m-1,2*m+1), where m = floor((n-2)/4).",
+  "id": "A024490",
+  "mentions": [
+    "A000004",
+    "A000045",
+    "A001045",
+    "A005252",
+    "A010892",
+    "A113405",
+    "A191754"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 2,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

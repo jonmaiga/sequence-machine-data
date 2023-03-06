@@ -1,0 +1,24 @@
+{
+  "description": "T(n,k) = highest power of prime(k) dividing n!, read by rows.",
+  "id": "A085604",
+  "mentions": [
+    "A000142",
+    "A000720",
+    "A011371",
+    "A022559",
+    "A054861",
+    "A115627",
+    "A141809"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

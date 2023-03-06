@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the integer (reduced squarefree) under the square root obtained when the inverse of Minkowski's question mark function is applied to the n-th ratio A007305(n+1)/A047679(n-1) in the full Stern-Brocot tree and zero when it results a rational value.",
+  "id": "A065937",
+  "mentions": [
+    "A007305",
+    "A047679",
+    "A065935",
+    "A065936",
+    "A065939"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

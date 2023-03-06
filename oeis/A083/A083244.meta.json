@@ -1,0 +1,24 @@
+{
+  "description": "k is in the sequence iff the number of numbers unrelated to k is larger than that of related ones[=divisors and coprimes] to k: A045763(k) > A073757(k) or A045763(k) > k/2 or A073757(k) < k/2.",
+  "id": "A083244",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A020488",
+    "A045763",
+    "A073757",
+    "A083243",
+    "A083245"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

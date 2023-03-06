@@ -1,0 +1,18 @@
+{
+  "description": "Variation of Stechkin's function, A055004.",
+  "id": "A062827",
+  "mentions": [
+    "A055004"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

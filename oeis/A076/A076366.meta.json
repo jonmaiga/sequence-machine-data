@@ -1,0 +1,27 @@
+{
+  "description": "Number of numbers for which the count of nonprimes (i.e., 1 and composites) in their reduced residue set equals n.",
+  "id": "A076366",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A001221",
+    "A048597",
+    "A048864",
+    "A048865",
+    "A070971",
+    "A072022",
+    "A072023",
+    "A074915"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

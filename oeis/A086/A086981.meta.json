@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest k where (10^k+1)=0 mod prime(n)^2, or 0 if no such k exists.",
+  "id": "A086981",
+  "mentions": [
+    "A000040",
+    "A005408",
+    "A086982"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

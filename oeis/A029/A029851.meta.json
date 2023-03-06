@@ -1,0 +1,23 @@
+{
+  "description": "Number of self-converse semigroups of order n.",
+  "id": "A029851",
+  "mentions": [
+    "A001423",
+    "A001426",
+    "A027851"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

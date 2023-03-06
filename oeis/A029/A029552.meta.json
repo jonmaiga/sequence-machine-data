@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of phi(x) / f(-x) in powers of x where phi(), f() are Ramanujan theta functions.",
+  "id": "A029552",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A083906",
+    "A098613",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:49:27",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 6*p-7 and 6*p-5 are twin primes and p is also a twin prime.",
+  "id": "A089152",
+  "mentions": [
+    "A089151"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Least multiple of n such that the n-th concatenation is a multiple of n. The (previous) (n-1)-th term is so chosen that the n-th term exists.",
+  "id": "A090512",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

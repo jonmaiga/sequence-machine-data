@@ -1,0 +1,16 @@
+{
+  "description": "a(0)=a(1)=1 a(n)=a(n-1)+floor(sqrt(a(n-2))).",
+  "id": "A076677",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

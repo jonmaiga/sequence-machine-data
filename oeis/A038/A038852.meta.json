@@ -1,0 +1,15 @@
+{
+  "description": "Numbers that are divisible by 6 (and 18) and are differences between two cubes in at least one way.",
+  "id": "A038852",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

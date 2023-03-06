@@ -1,0 +1,15 @@
+{
+  "description": "Sum of the first n twin prime pairs.",
+  "id": "A086169",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:27:51",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

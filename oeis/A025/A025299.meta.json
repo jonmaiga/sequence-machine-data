@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the sum of 2 nonzero squares in 8 or more ways.",
+  "id": "A025299",
+  "mentions": [
+    "A025291",
+    "A025298",
+    "A025300",
+    "A025336"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:27:37",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

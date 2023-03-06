@@ -1,0 +1,18 @@
+{
+  "description": "Number of letters in n (in Dutch).",
+  "id": "A090589",
+  "mentions": [
+    "A007485"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:15",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

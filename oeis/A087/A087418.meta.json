@@ -1,0 +1,18 @@
+{
+  "description": "Consider pairs (p,k) such that p is a prime, q and r are the two primes following p, 0",
+  "id": "A087418",
+  "mentions": [
+    "A002110",
+    "A087419"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

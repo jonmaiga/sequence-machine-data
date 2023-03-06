@@ -1,0 +1,29 @@
+{
+  "description": "Number of connected 6-colorable (i.e., chromatic number <= 6) simple graphs on n nodes.",
+  "id": "A076325",
+  "mentions": [
+    "A005142",
+    "A076282",
+    "A076318",
+    "A076322",
+    "A076323",
+    "A076324",
+    "A076326",
+    "A076327",
+    "A076328",
+    "A084269",
+    "A126740"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes not at the center of a 3 X 3 magic square of primes.",
+  "id": "A073350",
+  "mentions": [
+    "A024351",
+    "A073473"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

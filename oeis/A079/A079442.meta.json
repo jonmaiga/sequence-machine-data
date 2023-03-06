@@ -1,0 +1,29 @@
+{
+  "description": "Number of fixed points in range [A014137(n-1)..A014138(n)] of permutation A071663.",
+  "id": "A079442",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A057505",
+    "A071663",
+    "A073202",
+    "A079438",
+    "A079441",
+    "A079443",
+    "A079444",
+    "A089408"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

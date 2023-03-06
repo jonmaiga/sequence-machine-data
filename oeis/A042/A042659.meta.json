@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(859).",
+  "id": "A042659",
+  "mentions": [
+    "A040829",
+    "A042658"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:54",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

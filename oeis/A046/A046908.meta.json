@@ -1,0 +1,20 @@
+{
+  "description": "Number of irreducible posets with n labeled points.",
+  "id": "A046908",
+  "mentions": [
+    "A000798",
+    "A001035",
+    "A046907"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

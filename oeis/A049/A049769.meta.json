@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array T read by rows: T(n,k) = (k^3 mod n) + (n^3 mod k).",
+  "id": "A049769",
+  "mentions": [
+    "A048154",
+    "A049761",
+    "A049767"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:29",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the cosine integral at 1.",
+  "id": "A099282",
+  "mentions": [
+    "A001620",
+    "A099281",
+    "A257535"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

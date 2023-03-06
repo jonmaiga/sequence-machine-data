@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that m divides (product of digits of m) * (sum of digits of m).",
+  "id": "A049101",
+  "mentions": [
+    "A038369",
+    "A049102",
+    "A049105",
+    "A049106"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

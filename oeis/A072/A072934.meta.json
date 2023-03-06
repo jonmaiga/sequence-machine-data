@@ -1,0 +1,19 @@
+{
+  "description": "Length of longest non-crossing walk along vertices of n-dimensional hypercubes.",
+  "id": "A072934",
+  "mentions": [
+    "A000937"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

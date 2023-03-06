@@ -1,0 +1,17 @@
+{
+  "description": "Literal string created by the first time an orderless exponent appears; the exponents from A025487.",
+  "id": "A090323",
+  "mentions": [
+    "A025487"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

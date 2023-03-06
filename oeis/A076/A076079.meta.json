@@ -1,0 +1,19 @@
+{
+  "description": "Largest multiple of n < the n-th prime.",
+  "id": "A076079",
+  "mentions": [
+    "A076080",
+    "A076081"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

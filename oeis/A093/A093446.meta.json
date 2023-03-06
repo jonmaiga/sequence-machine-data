@@ -1,0 +1,18 @@
+{
+  "description": "Largest member of the n-th row of the triangular triangle (A093445).",
+  "id": "A093446",
+  "mentions": [
+    "A001571",
+    "A093445"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

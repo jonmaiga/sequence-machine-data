@@ -1,0 +1,23 @@
+{
+  "description": "Number of 2n-bead balanced binary strings of fundamental period 2n, rotationally equivalent to reverse, complement and reversed complement.",
+  "id": "A045665",
+  "mentions": [
+    "A007727",
+    "A045662",
+    "A045663",
+    "A045664",
+    "A045674",
+    "A045683"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

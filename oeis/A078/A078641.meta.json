@@ -1,0 +1,15 @@
+{
+  "description": "Number of numbers between 1 and n-1 inclusive that are coprime to n(n+1)(n+2)(n+3).",
+  "id": "A078641",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

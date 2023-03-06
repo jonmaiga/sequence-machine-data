@@ -1,0 +1,19 @@
+{
+  "description": "Number of terms (excluding the first) of A002211 for which the geometric mean produces progressively better approximations to Khinchin's constant (itself).",
+  "id": "A048613",
+  "mentions": [
+    "A002211",
+    "A209600"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

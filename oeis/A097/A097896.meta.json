@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of n with either all parts odd or all parts even.",
+  "id": "A097896",
+  "mentions": [
+    "A000045",
+    "A096441"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:19:23",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

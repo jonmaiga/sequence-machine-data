@@ -1,0 +1,18 @@
+{
+  "description": "Numbers which are the average of two primes in more ways than any smaller number.",
+  "id": "A053033",
+  "mentions": [
+    "A002375",
+    "A045917"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

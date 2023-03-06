@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = s(1)*t(n) + s(2)*t(n-1) + ... + s(k)*t(n+1-k), where k = floor((n+1)/2), s = A001950 (upper Wythoff sequence), t = A023533.",
+  "id": "A024690",
+  "mentions": [
+    "A001950",
+    "A023533"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:24:31",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

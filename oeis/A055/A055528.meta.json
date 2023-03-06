@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=10*a(n-1)+n^3, a(0)=0.",
+  "id": "A055528",
+  "mentions": [
+    "A014824"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:47:48",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers in A070938 that set a new record for digital sums and ending digits.",
+  "id": "A070594",
+  "mentions": [
+    "A005349",
+    "A070938"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

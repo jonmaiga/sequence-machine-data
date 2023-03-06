@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are both triangular and tetrahedral.",
+  "id": "A027568",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A001110",
+    "A039596",
+    "A102349",
+    "A102461",
+    "A102772",
+    "A224421"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

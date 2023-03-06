@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers n such that primitive part of Lucas(n) (see A061447) is prime.",
+  "id": "A061445",
+  "mentions": [
+    "A061254",
+    "A061442",
+    "A061443",
+    "A061446",
+    "A061447"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

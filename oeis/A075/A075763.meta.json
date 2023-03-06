@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that divide A001003(k-1).",
+  "id": "A075763",
+  "mentions": [
+    "A001003",
+    "A075764"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

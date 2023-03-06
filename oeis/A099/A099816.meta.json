@@ -1,0 +1,20 @@
+{
+  "description": "Bisection of A000796 (decimal expansion of Pi).",
+  "id": "A099816",
+  "mentions": [
+    "A000796",
+    "A099817"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

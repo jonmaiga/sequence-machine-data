@@ -1,0 +1,18 @@
+{
+  "description": "Smallest available number fitting the infinite repeating pattern of digits even/even/odd/odd/even/even/odd/odd/...",
+  "id": "A098164",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

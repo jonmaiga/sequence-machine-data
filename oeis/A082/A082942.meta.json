@@ -1,0 +1,19 @@
+{
+  "description": "(n^2+1)*(4*n^2+1)*(4*n^2+3).",
+  "id": "A082942",
+  "mentions": [
+    "A083196"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:29:31",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Natural numbers arranged in a square maze beginning 1, 2, 3, then moving right, then up, right, down, left, down, right, etc., and read by antidiagonals upwards.",
+  "id": "A093650",
+  "mentions": [
+    "A080335",
+    "A081344",
+    "A081347",
+    "A081348",
+    "A081349"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

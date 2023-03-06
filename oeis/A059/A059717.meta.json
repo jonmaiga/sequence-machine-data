@@ -1,0 +1,23 @@
+{
+  "description": "Start with decimal expansion of n; if all digits have the same parity, stop; otherwise write down the number formed by the even digits and the number formed by the odd digits and add them; repeat.",
+  "id": "A059717",
+  "mentions": [
+    "A011557",
+    "A059707",
+    "A059708"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

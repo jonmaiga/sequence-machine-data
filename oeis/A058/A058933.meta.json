@@ -1,0 +1,37 @@
+{
+  "description": "Let k be bigomega(n) (i.e., n is a k-almost-prime). a(n) = number of k-almost-primes <= n.",
+  "id": "A058933",
+  "mentions": [
+    "A000010",
+    "A000079",
+    "A000961",
+    "A001222",
+    "A001358",
+    "A006049",
+    "A014612",
+    "A014613",
+    "A014614",
+    "A045920",
+    "A061142",
+    "A067003",
+    "A078843",
+    "A209934",
+    "A302242",
+    "A322838",
+    "A322839",
+    "A322840",
+    "A340313"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

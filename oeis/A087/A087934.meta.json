@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least k>=0 such that P(x)=(x-1)*(x-2)*..(x-n)-k has only 1 real root if n is odd, only 2 real roots if n is even.",
+  "id": "A087934",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

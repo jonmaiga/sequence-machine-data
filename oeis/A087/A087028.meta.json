@@ -1,0 +1,22 @@
+{
+  "description": "Number of bounded (<=n) lunar divisors of n.",
+  "id": "A087028",
+  "mentions": [
+    "A087029",
+    "A087061",
+    "A087062",
+    "A087082"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 200,
+    "source": "oeis-bfile"
+  }
+}

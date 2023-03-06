@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers of the form 2x^2+xy-2y^2 (discriminant 17).",
+  "id": "A035258",
+  "mentions": [
+    "A035199",
+    "A038889"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:18:55",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

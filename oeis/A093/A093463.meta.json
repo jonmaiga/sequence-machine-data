@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; for n>1, a(n) = n*a(n-1) + 1 if n is a prime else a(n) = n*a(n-1) - 1.",
+  "id": "A093463",
+  "mentions": [
+    "A093464"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

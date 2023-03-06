@@ -1,0 +1,23 @@
+{
+  "description": "a(n) in base 16 is a repdigit.",
+  "id": "A048340",
+  "mentions": [
+    "A010785",
+    "A028987",
+    "A028988",
+    "A033029"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

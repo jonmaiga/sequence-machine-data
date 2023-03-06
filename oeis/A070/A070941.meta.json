@@ -1,0 +1,23 @@
+{
+  "description": "Length of binary representation of 2n+1.",
+  "id": "A070941",
+  "mentions": [
+    "A003314",
+    "A011782",
+    "A029837",
+    "A070939",
+    "A070940",
+    "A123753"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 0,
+    "size": 93,
+    "source": "joeis"
+  }
+}

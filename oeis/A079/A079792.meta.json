@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(n) = a(n-1)/gcd(a(n-1),n) if gcd(a(n-1),n) > 1 otherwise a(n) is the concatenation of a(n-1) and n.",
+  "id": "A079792",
+  "mentions": [
+    "A079791"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

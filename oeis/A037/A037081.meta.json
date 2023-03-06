@@ -1,0 +1,20 @@
+{
+  "description": "In ternary expansion of n, reading from left to right, successive runs of the digits occur in order ...,0,1,2,0,1,2,...",
+  "id": "A037081",
+  "mentions": [
+    "A037078",
+    "A037080"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:33:37",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

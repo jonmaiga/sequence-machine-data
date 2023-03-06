@@ -1,0 +1,22 @@
+{
+  "description": "If all digits have the same parity, stop; otherwise write down the number formed by the even digits and the number formed by the odd digits and multiply them; repeat.",
+  "id": "A059707",
+  "mentions": [
+    "A059708",
+    "A059717"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

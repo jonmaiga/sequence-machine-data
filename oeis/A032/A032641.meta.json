@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k concatenated with k+1 is a lucky number.",
+  "id": "A032641",
+  "mentions": [
+    "A000959",
+    "A032651"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

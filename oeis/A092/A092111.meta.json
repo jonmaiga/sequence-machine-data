@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n+1 minus the greatest number of 1's in the binary representations of primes between 2^n and 2^(n+1).",
+  "id": "A092111",
+  "mentions": [
+    "A000043",
+    "A091937",
+    "A091938",
+    "A092112"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

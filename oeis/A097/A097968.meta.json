@@ -1,0 +1,22 @@
+{
+  "description": "Consider the succession of single digits of the positive even integers: 2 4 6 8 1 0 1 2 1 4 1 6 1 8 2 0 2 2 2 4 ... (A036211). This sequence is the lexicographically earliest sequence of distinct positive odd integers that produces the same succession of digits.",
+  "id": "A097968",
+  "mentions": [
+    "A005408",
+    "A005843",
+    "A036211",
+    "A098099"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

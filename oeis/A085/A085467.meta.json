@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of coefficients of e^2 in the table of (2n)th du Bois Reymond constants.",
+  "id": "A085467",
+  "mentions": [
+    "A085466"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

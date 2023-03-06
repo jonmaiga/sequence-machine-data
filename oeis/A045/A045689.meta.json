@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of expansion of tan(sin(x)) - sin(tan(x)).",
+  "id": "A045689",
+  "mentions": [
+    "A045688",
+    "A096664",
+    "A096671",
+    "A096712",
+    "A096716"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:18",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, a(n) = if n mod 10 = 0 then n else smallest number m, not occurring earlier such that m*a(n-d) is a palindrome, where d = if n mod 10 = 1 then 2 else 1.",
+  "id": "A083664",
+  "mentions": [
+    "A002113",
+    "A083125",
+    "A083665",
+    "A083666"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

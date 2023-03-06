@@ -1,0 +1,20 @@
+{
+  "description": "Nearest integer to Gamma(n + 1/11)/Gamma(1/11).",
+  "id": "A020014",
+  "mentions": [
+    "A010680",
+    "A020059",
+    "A020104",
+    "A256192"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

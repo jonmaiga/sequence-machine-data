@@ -1,0 +1,21 @@
+{
+  "description": "Number of even graphical partitions of order 2n - number of odd partitions.",
+  "id": "A029892",
+  "mentions": [
+    "A000569",
+    "A004250",
+    "A004251",
+    "A029889"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that 2^k + 1 is a semiprime.",
+  "id": "A092559",
+  "mentions": [
+    "A000978",
+    "A066263",
+    "A073936",
+    "A085724",
+    "A092558",
+    "A092561",
+    "A092562",
+    "A093179",
+    "A107036"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

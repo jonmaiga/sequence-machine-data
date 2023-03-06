@@ -1,0 +1,20 @@
+{
+  "description": "First column of triangle A093899.",
+  "id": "A093900",
+  "mentions": [
+    "A093899"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = smallest integer that can't be written as p*a(i)+1, for any prime p and 0 a(n-1).",
+  "id": "A078180",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

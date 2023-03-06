@@ -1,0 +1,21 @@
+{
+  "description": "Number of solutions to rev(x^2)=rev(x)^2 below 10^n.",
+  "id": "A098690",
+  "mentions": [
+    "A061909",
+    "A085305",
+    "A098701",
+    "A225301"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Permutation of Z, folded to N, corresponding to the site swap pattern ...242824202428242... (A065176).",
+  "id": "A065174",
+  "mentions": [
+    "A065167",
+    "A065171",
+    "A065175",
+    "A065176"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

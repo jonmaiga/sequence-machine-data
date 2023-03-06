@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that the Fibonacci residues F(k) mod n form the complete set (0,1,2,...,n-1).",
+  "id": "A079002",
+  "mentions": [
+    "A000045",
+    "A001175",
+    "A003593",
+    "A066853",
+    "A224482",
+    "A249104"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

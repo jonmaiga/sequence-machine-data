@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the sum of the squares of distinct primes.",
+  "id": "A048261",
+  "mentions": [
+    "A024450",
+    "A121518"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:19:25",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

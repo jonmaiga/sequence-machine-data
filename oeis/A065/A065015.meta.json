@@ -1,0 +1,18 @@
+{
+  "description": "Sum divides product: number of integer solutions (w,x,y,z), w >= x >= y >= z > 0, to the equation w*x*y*z = n*(w+x+y+z).",
+  "id": "A065015",
+  "mentions": [
+    "A063520",
+    "A071690"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

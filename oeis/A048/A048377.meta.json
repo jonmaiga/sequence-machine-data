@@ -1,0 +1,23 @@
+{
+  "description": "Append d digits d after each digit d in decimal expansion of n.",
+  "id": "A048377",
+  "mentions": [
+    "A003132",
+    "A007953",
+    "A048376"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

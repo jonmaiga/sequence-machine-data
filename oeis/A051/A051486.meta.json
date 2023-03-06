@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) = number of symmetric Boolean functions of n variables and rank from 0 to 2^n.",
+  "id": "A051486",
+  "mentions": [
+    "A011782"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(m,n) giving of number of steps in the Euclidean algorithm for gcd(m,n) with 0<=m",
+  "id": "A051010",
+  "mentions": [
+    "A034883",
+    "A049826",
+    "A051011",
+    "A051012",
+    "A130130"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:52:45",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

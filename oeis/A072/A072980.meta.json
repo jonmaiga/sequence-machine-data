@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of b(n)=sum (k'<=n,1/k') where k' denotes the squarefree numbers.",
+  "id": "A072980",
+  "mentions": [
+    "A072983"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

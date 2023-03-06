@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime > A085820(n) ending with A085820(n).",
+  "id": "A085821",
+  "mentions": [
+    "A085820"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

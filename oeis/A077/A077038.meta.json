@@ -1,0 +1,21 @@
+{
+  "description": "Least difference of primes p, q such that p < n^3 < q.",
+  "id": "A077038",
+  "mentions": [
+    "A000578",
+    "A014220",
+    "A058043",
+    "A077037"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 2,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

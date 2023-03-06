@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form primorial(P(k))/2-2.",
+  "id": "A087398",
+  "mentions": [
+    "A014545",
+    "A067024",
+    "A096177",
+    "A096178",
+    "A096547"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

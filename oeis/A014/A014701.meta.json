@@ -1,0 +1,27 @@
+{
+  "description": "Number of multiplications to compute n-th power by the Chandah-sutra method.",
+  "id": "A014701",
+  "mentions": [
+    "A003313",
+    "A007088",
+    "A007931",
+    "A007953",
+    "A036299",
+    "A052955",
+    "A056791",
+    "A056792",
+    "A115964"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Infinite lower triangular matrix, M, that satisfies [M^4](i,j) = M(i+1,j+1) for all i,j>=0 where [M^n](i,j) denotes the element at row i, column j, of the n-th power of matrix M, with M(0,k)=1 and M(k,k)=1 for all k>=0.",
+  "id": "A078536",
+  "mentions": [
+    "A078121",
+    "A078122",
+    "A078537"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

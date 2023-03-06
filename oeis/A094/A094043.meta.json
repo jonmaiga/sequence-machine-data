@@ -1,0 +1,19 @@
+{
+  "description": "Alternate composite and prime numbers not included earlier such that every partial concatenation is a prime: a(2n) is prime and a(2n-1) is not prime.",
+  "id": "A094043",
+  "mentions": [
+    "A088614",
+    "A094045"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

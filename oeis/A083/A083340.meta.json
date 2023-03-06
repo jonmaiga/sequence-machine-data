@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that A020549(n)=(n!)^2+1 is a semiprime.",
+  "id": "A083340",
+  "mentions": [
+    "A001358",
+    "A020549",
+    "A046029",
+    "A083341",
+    "A282706"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*cycle_index(Sym(6), A(x)).",
+  "id": "A036722",
+  "mentions": [
+    "A000081",
+    "A036717",
+    "A036718",
+    "A036719",
+    "A036720",
+    "A036721",
+    "A182378",
+    "A244372",
+    "A292553",
+    "A292554",
+    "A292555",
+    "A292556",
+    "A299038"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

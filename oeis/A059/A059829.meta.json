@@ -1,0 +1,18 @@
+{
+  "description": "Maximal size of a minimal-generating-set of G where G is a finite group of order n.",
+  "id": "A059829",
+  "mentions": [
+    "A003277",
+    "A051903"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes that when squared gives numbers with digits in nondecreasing order.",
+  "id": "A028865",
+  "mentions": [
+    "A028866",
+    "A028868",
+    "A028869"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

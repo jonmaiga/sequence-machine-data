@@ -1,0 +1,21 @@
+{
+  "description": "First n-digit prime encountered in decimal expansion of Pi (ignoring the initial 3).",
+  "id": "A076094",
+  "mentions": [
+    "A047658",
+    "A076106",
+    "A076129"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

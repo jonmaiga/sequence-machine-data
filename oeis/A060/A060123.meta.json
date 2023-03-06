@@ -1,0 +1,24 @@
+{
+  "description": "Second solution mod p of x^3 = 2 for primes p such that more than one solution exists.",
+  "id": "A060123",
+  "mentions": [
+    "A014752",
+    "A040028",
+    "A059940",
+    "A060121",
+    "A060122",
+    "A060124",
+    "A060914"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

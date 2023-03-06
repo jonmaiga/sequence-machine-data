@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that {largest m such that 1, 2, ..., m divide k} is different from {largest m such that m! divides k}; numbers k which are either odd multiples of 12 or the largest m such that (m-1)! divides k is a composite number > 5.",
+  "id": "A055926",
+  "mentions": [
+    "A007623",
+    "A017593",
+    "A055874",
+    "A055881",
+    "A072668",
+    "A073762",
+    "A232098",
+    "A232099",
+    "A232100",
+    "A232741",
+    "A232742",
+    "A232743",
+    "A232744",
+    "A232745"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

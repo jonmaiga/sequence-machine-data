@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose base-3 representation has the same number of 0's and 1's.",
+  "id": "A039000",
+  "mentions": [
+    "A007089",
+    "A062756",
+    "A077267"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

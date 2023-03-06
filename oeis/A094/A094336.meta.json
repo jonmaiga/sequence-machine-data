@@ -1,0 +1,15 @@
+{
+  "description": "Product of next n numbers divided by the largest factorial divisor.",
+  "id": "A094336",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

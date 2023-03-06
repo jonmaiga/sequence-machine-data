@@ -1,0 +1,18 @@
+{
+  "description": "Number of rational knots of n crossings with signature 0 (chiral pairs counted twice).",
+  "id": "A078478",
+  "mentions": [
+    "A006134"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 3,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

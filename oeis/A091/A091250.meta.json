@@ -1,0 +1,23 @@
+{
+  "description": "List of primitive irreducible polynomials over GF(2), interpreted as binary vectors, then written in base 10.",
+  "id": "A091250",
+  "mentions": [
+    "A007088",
+    "A011260",
+    "A014580",
+    "A058947",
+    "A091247",
+    "A091249",
+    "A091252"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

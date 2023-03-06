@@ -1,0 +1,20 @@
+{
+  "description": "Maximal number of zeros in a column of the character table of the symmetric group S_n.",
+  "id": "A086642",
+  "mentions": [
+    "A000041",
+    "A085800"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

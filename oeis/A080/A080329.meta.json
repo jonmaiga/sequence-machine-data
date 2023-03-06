@@ -1,0 +1,20 @@
+{
+  "description": "Larger of the two Ulam numbers that sum to the n-th Ulam number.",
+  "id": "A080329",
+  "mentions": [
+    "A002858",
+    "A080328",
+    "A080330",
+    "A080331"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree numbers of the form m*rad(m)+1, where rad = A007947 (squarefree kernel).",
+  "id": "A078325",
+  "mentions": [
+    "A005117",
+    "A007947",
+    "A008966",
+    "A078310",
+    "A078324",
+    "A224866"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

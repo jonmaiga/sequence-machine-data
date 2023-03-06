@@ -1,0 +1,21 @@
+{
+  "description": "|First digit - last digit| for n-th prime.",
+  "id": "A040164",
+  "mentions": [
+    "A000040",
+    "A040163"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:19:11",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

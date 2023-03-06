@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of phi rounded to n places.",
+  "id": "A011552",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:52:30",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

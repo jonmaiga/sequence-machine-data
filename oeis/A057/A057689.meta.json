@@ -1,0 +1,31 @@
+{
+  "description": "Maximal term in trajectory of P under the 'Px+1' map, where P = n-th prime, or -1 if no such term exists.",
+  "id": "A057689",
+  "mentions": [
+    "A033478",
+    "A057216",
+    "A057446",
+    "A057522",
+    "A057534",
+    "A057614",
+    "A057684",
+    "A057685",
+    "A057686",
+    "A057687",
+    "A057688",
+    "A057690",
+    "A057691"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 2,
+    "size": 30,
+    "source": "joeis"
+  }
+}

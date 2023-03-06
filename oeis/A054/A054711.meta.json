@@ -1,0 +1,25 @@
+{
+  "description": "Multiplicative order of 11 mod n, where gcd(n, 11) = 1.",
+  "id": "A054711",
+  "mentions": [
+    "A053446",
+    "A053448",
+    "A053449",
+    "A053450",
+    "A053452",
+    "A054703",
+    "A054717",
+    "A351524"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:21:03",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

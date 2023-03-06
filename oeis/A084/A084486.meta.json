@@ -1,0 +1,22 @@
+{
+  "description": "Number of 4 X n 0-1 matrices which have n+3 1's and have no zero rows or zero columns.",
+  "id": "A084486",
+  "mentions": [
+    "A001787",
+    "A055602",
+    "A055603",
+    "A084485"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:03:38",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

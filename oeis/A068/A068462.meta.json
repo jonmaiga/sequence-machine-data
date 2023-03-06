@@ -1,0 +1,17 @@
+{
+  "description": "Factorial expansion of the cube root of 2: 2^(1/3) = Sum_{n>0} a(n)/n!.",
+  "id": "A068462",
+  "mentions": [
+    "A007514"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Total number of elements in all primitive subsets of the integers 1 to n.",
+  "id": "A087077",
+  "mentions": [
+    "A051026",
+    "A087078",
+    "A087080",
+    "A355145"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

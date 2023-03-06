@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the k-th Fibonacci number reversed is prime.",
+  "id": "A036971",
+  "mentions": [
+    "A036797",
+    "A036972",
+    "A095179"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "\"Look and Say\" (or LS) transform of A079342(n). These terms are such that A079342(n) divides a(n).",
+  "id": "A079350",
+  "mentions": [
+    "A005150",
+    "A045918",
+    "A056815",
+    "A079342",
+    "A079562"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

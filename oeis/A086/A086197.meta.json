@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of running averages of A051903.",
+  "id": "A086197",
+  "mentions": [
+    "A051903",
+    "A086196"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Let q_n be least prime > x_n := 1 + 2*n!; sequence gives a(n) = q_n-x_n+1.",
+  "id": "A082434",
+  "mentions": [
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

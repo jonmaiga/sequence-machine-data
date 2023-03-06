@@ -1,0 +1,34 @@
+{
+  "description": "Array T(m,n) read by antidiagonals: T(m,n) = number of ways of 3-coloring an m X n grid (m >= 1, n >= 1).",
+  "id": "A078099",
+  "mentions": [
+    "A000079",
+    "A020698",
+    "A025192",
+    "A052913",
+    "A068253",
+    "A078100",
+    "A078101",
+    "A078102",
+    "A207994",
+    "A207995",
+    "A207997",
+    "A222144",
+    "A222281",
+    "A222340",
+    "A222444",
+    "A222462"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

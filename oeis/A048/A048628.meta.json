@@ -1,0 +1,20 @@
+{
+  "description": "n-th 4k+1 prime times (n+1)st 4k+3 prime.",
+  "id": "A048628",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A022757"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:57:31",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

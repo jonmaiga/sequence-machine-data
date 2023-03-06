@@ -1,0 +1,15 @@
+{
+  "description": "sech(arctan(arcsinh(x)))=1-1/2!*x^2+17/4!*x^4-769/6!*x^6+66401/8!*x^8...",
+  "id": "A012221",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 06:24:40",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Start with 1; at n-th step, write down what is in the sequence so far.",
+  "id": "A079668",
+  "mentions": [
+    "A005150",
+    "A051120",
+    "A079585",
+    "A079586"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

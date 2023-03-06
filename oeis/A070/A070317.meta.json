@@ -1,0 +1,19 @@
+{
+  "description": "Record values of nextprime(n^2)-n^2, cf. A070316.",
+  "id": "A070317",
+  "mentions": [
+    "A053000",
+    "A070316"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

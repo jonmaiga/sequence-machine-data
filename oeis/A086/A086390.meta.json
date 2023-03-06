@@ -1,0 +1,18 @@
+{
+  "description": "Composite n such that F(n^2+1)==1 (mod n) where F(k) denotes the k-th Fibonacci number.",
+  "id": "A086390",
+  "mentions": [
+    "A086367",
+    "A086391"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

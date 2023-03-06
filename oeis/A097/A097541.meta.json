@@ -1,0 +1,19 @@
+{
+  "description": "Sum_{k=1..n-1} J(2*n,k)*k, where J(i,j) is the Jacobi symbol.",
+  "id": "A097541",
+  "mentions": [
+    "A097540",
+    "A097542",
+    "A097544"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

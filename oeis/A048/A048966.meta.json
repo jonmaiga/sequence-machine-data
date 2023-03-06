@@ -1,0 +1,27 @@
+{
+  "description": "A convolution triangle of numbers obtained from A025748.",
+  "id": "A048966",
+  "mentions": [
+    "A025748",
+    "A025756",
+    "A033184",
+    "A034000",
+    "A049213",
+    "A049223",
+    "A049224"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

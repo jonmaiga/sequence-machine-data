@@ -1,0 +1,17 @@
+{
+  "description": "When sum {k=1 to n} H(k) k! (n-k)! (mod {n+1}) (A091528) is not zero.",
+  "id": "A091529",
+  "mentions": [
+    "A091528"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

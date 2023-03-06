@@ -1,0 +1,19 @@
+{
+  "description": "Primes which are the sum of three nonzero squares.",
+  "id": "A085317",
+  "mentions": [
+    "A000408",
+    "A094712",
+    "A094713"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

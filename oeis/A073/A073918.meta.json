@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime which is 1 more than a product of n distinct primes: a(n) is a prime and a(n) - 1 is a squarefree number with n prime factors.",
+  "id": "A073918",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A055734",
+    "A073917",
+    "A081545",
+    "A098026"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

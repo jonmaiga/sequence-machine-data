@@ -1,0 +1,27 @@
+{
+  "description": "\"Difference\" of the sequences of triangular numbers (A000217) and the primes (cf. A092858).",
+  "id": "A092859",
+  "mentions": [
+    "A000217",
+    "A051006",
+    "A092855",
+    "A092857",
+    "A092858",
+    "A092860",
+    "A092861",
+    "A092862",
+    "A092863",
+    "A092874"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

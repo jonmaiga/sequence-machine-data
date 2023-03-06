@@ -1,0 +1,21 @@
+{
+  "description": "Ratios of sums of successive groups in A076105.",
+  "id": "A076104",
+  "mentions": [
+    "A076101",
+    "A076102",
+    "A076103",
+    "A076105"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

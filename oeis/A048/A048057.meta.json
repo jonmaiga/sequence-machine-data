@@ -1,0 +1,23 @@
+{
+  "description": "Fourier coefficients of T_{12}.",
+  "id": "A048057",
+  "mentions": [
+    "A006922",
+    "A048100",
+    "A048101",
+    "A048110",
+    "A048145"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:48:19",
+    "offset": -2,
+    "size": 13,
+    "source": "joeis"
+  }
+}

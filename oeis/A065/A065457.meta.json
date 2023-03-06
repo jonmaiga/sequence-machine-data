@@ -1,0 +1,18 @@
+{
+  "description": "Period of the flip-riffle shuffle function on a deck of 2n cards.",
+  "id": "A065457",
+  "mentions": [
+    "A002326",
+    "A055388"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:39",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

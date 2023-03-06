@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that A007306(n) divides n.",
+  "id": "A091765",
+  "mentions": [
+    "A007306"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

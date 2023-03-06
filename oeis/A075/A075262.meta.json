@@ -1,0 +1,20 @@
+{
+  "description": "z-value of the solution (x,y,z) to 3/(2n+1) = 1/x + 1/y + 1/z satisfying 0 < x < y < z, odd x, y, z and having the largest z-value. The x and y components are in A075260 and A075261.",
+  "id": "A075262",
+  "mentions": [
+    "A075259",
+    "A075260",
+    "A075261"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

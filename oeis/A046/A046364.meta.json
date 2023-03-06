@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers whose sum of prime factors is prime (counted with multiplicity).",
+  "id": "A046364",
+  "mentions": [
+    "A046363",
+    "A046365"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:31:41",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

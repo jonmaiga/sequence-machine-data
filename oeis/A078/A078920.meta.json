@@ -1,0 +1,32 @@
+{
+  "description": "Upper triangle of Catalan Number Wall.",
+  "id": "A078920",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000108",
+    "A000330",
+    "A005700",
+    "A006149",
+    "A006150",
+    "A006151",
+    "A006858",
+    "A091962",
+    "A123352",
+    "A358597"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

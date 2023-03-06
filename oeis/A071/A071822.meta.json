@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose largest prime factor is of the form 4k+3.",
+  "id": "A071822",
+  "mentions": [
+    "A004767",
+    "A006530",
+    "A071821"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

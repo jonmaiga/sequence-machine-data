@@ -1,0 +1,42 @@
+{
+  "description": "A square array based on natural numbers (A000027) with each term being the sum of 2 consecutive terms in the previous row.",
+  "id": "A058394",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000337",
+    "A001477",
+    "A001787",
+    "A001792",
+    "A005408",
+    "A007318",
+    "A008574",
+    "A008619",
+    "A022856",
+    "A027656",
+    "A034007",
+    "A034009",
+    "A045618",
+    "A045623",
+    "A045889",
+    "A045891",
+    "A055249",
+    "A055250",
+    "A055251",
+    "A057884",
+    "A058393",
+    "A058395"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

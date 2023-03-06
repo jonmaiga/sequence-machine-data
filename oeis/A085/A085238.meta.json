@@ -1,0 +1,19 @@
+{
+  "description": "Sort the numbers 2^i and 3^j. Then a(n) is the exponent of the n-th term.",
+  "id": "A085238",
+  "mentions": [
+    "A006899",
+    "A085239",
+    "A085240"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

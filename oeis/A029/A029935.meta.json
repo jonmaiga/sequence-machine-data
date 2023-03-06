@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum phi(d)*phi(n/d); d divides n.",
+  "id": "A029935",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A001620",
+    "A005117",
+    "A018804",
+    "A029936",
+    "A143258",
+    "A159937"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

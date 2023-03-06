@@ -1,0 +1,21 @@
+{
+  "description": "Number of terms in base 4 representation of n-th Fibonacci number.",
+  "id": "A020912",
+  "mentions": [
+    "A000045",
+    "A110591"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:11:03",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

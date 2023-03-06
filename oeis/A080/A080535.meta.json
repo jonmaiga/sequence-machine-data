@@ -1,0 +1,23 @@
+{
+  "description": "Number of protons in longest known radioactive decay series ending with Lead 208 (\"thorium series\"), reversed.",
+  "id": "A080535",
+  "mentions": [
+    "A080531",
+    "A080533",
+    "A080534",
+    "A080536",
+    "A080539"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Jablonski table T(n,k) read by antidiagonals: T(n,k) = number of necklaces with n beads of k colors.",
+  "id": "A075195",
+  "mentions": [
+    "A000010",
+    "A000012",
+    "A000027",
+    "A000031",
+    "A000217",
+    "A001867",
+    "A001868",
+    "A001869",
+    "A006527",
+    "A006528",
+    "A006565",
+    "A054620",
+    "A054621",
+    "A054624",
+    "A054625",
+    "A054629",
+    "A054630",
+    "A054631",
+    "A056665",
+    "A185651",
+    "A321791"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

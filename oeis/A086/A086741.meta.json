@@ -1,0 +1,18 @@
+{
+  "description": "A026905(n)-A014284(n); partial sums of partition numbers - partial sums of primes.",
+  "id": "A086741",
+  "mentions": [
+    "A014284",
+    "A026905"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

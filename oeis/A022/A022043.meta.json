@@ -1,0 +1,15 @@
+{
+  "description": "Theta series of D_12 lattice.",
+  "id": "A022043",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:28",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

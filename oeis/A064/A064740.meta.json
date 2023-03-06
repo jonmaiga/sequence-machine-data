@@ -1,0 +1,24 @@
+{
+  "description": "Smallest controlling prime when A064413(n) is computed.",
+  "id": "A064740",
+  "mentions": [
+    "A020639",
+    "A064413",
+    "A064741",
+    "A064742",
+    "A064743",
+    "A073734"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 2,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Smallest divisor d of n such that all intervals [(k-1)*d+1:k*d] contain at least one prime, 1<=k<=n/d; a(1)=1.",
+  "id": "A088444",
+  "mentions": [
+    "A002808",
+    "A008578",
+    "A088445",
+    "A088447",
+    "A088448",
+    "A088449",
+    "A088450",
+    "A088451"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

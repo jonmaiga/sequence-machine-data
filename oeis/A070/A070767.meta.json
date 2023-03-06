@@ -1,0 +1,22 @@
+{
+  "description": "Number of polyhexes with n cells that do not tile the plane.",
+  "id": "A070767",
+  "mentions": [
+    "A000228",
+    "A038144",
+    "A054360",
+    "A070766",
+    "A070768"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

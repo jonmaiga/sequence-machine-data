@@ -1,0 +1,25 @@
+{
+  "description": "Numbers not containing all divisors in their binary representation.",
+  "id": "A093642",
+  "mentions": [
+    "A000005",
+    "A007088",
+    "A027750",
+    "A078822",
+    "A093640",
+    "A105441",
+    "A123345"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

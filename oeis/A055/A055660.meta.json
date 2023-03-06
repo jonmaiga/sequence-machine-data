@@ -1,0 +1,20 @@
+{
+  "description": "Number of (2,2; n,n)-partitions of a chain of length n^2 + n.",
+  "id": "A055660",
+  "mentions": [
+    "A001622",
+    "A030060",
+    "A055663"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 4,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

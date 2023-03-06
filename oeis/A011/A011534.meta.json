@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that contain a 4.",
+  "id": "A011534",
+  "mentions": [
+    "A011531",
+    "A011532",
+    "A011533",
+    "A011535",
+    "A011536",
+    "A011537",
+    "A011538",
+    "A011539",
+    "A011540"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:15:49",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

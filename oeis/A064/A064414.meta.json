@@ -1,0 +1,23 @@
+{
+  "description": "Fix a > 0, b > 0, k > 0 and define G_1 = a, G_2 = b, G_k = G_(k-1) + G_(k-2); sequence gives numbers m such that there exists (a, b) where G_k is divisible by m.",
+  "id": "A064414",
+  "mentions": [
+    "A000010",
+    "A000057",
+    "A001177",
+    "A232357",
+    "A232656"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of -C, where C = -0.2959050055752... is the real solution < 0 to zeta(x) = x.",
+  "id": "A069857",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that k^9 is an interprime = average of two successive primes.",
+  "id": "A075232",
+  "mentions": [
+    "A024675",
+    "A072568",
+    "A072569",
+    "A075190",
+    "A075191",
+    "A075192",
+    "A075228",
+    "A075229",
+    "A075230",
+    "A075231",
+    "A075233",
+    "A075234"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

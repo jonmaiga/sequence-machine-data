@@ -1,0 +1,15 @@
+{
+  "description": "tanh(tanh(x)+arctan(x))=2*x-20/3!*x^3+872/5!*x^5-82848/7!*x^7...",
+  "id": "A013148",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:12:03",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

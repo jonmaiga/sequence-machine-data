@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic connected partial lattices.",
+  "id": "A030268",
+  "mentions": [
+    "A006966",
+    "A022562"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

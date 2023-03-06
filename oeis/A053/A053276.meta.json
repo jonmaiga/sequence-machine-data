@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients of the '7th-order' mock theta function F_1(q).",
+  "id": "A053276",
+  "mentions": [
+    "A053275",
+    "A053277",
+    "A053278",
+    "A053279",
+    "A053280"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

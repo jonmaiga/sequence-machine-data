@@ -1,0 +1,21 @@
+{
+  "description": "Number of non-congruent solutions to x^2 + 2y^2 == -1 (mod n).",
+  "id": "A089002",
+  "mentions": [
+    "A086932",
+    "A088965"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = sigma(n) mod 3.",
+  "id": "A074941",
+  "mentions": [
+    "A000203",
+    "A002324",
+    "A010872"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which there exist k-digit palindromic wing primes (a.k.a. near-repdigit palindromic primes) of the general form r*(10^k - 1)/9 + (m-r)*10^floor(k/2) where k is the number of digits (an odd number > 1), r is the repeated digit, and m (different from r) is the middle digit.",
+  "id": "A077797",
+  "mentions": [
+    "A077775",
+    "A077798"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

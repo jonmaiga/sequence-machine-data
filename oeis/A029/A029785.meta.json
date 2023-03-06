@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k whose cube k^3 has no digit in common with k.",
+  "id": "A029785",
+  "mentions": [
+    "A029783",
+    "A029784",
+    "A029786",
+    "A111116",
+    "A113316",
+    "A113951"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

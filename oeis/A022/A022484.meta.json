@@ -1,0 +1,19 @@
+{
+  "description": "Number of 1's in n-th term of A022482.",
+  "id": "A022484",
+  "mentions": [
+    "A022482",
+    "A268643"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

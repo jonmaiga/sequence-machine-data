@@ -1,0 +1,22 @@
+{
+  "description": "Numbers where a gap begins in the sequence of squarefree numbers (A005117).",
+  "id": "A053806",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A045882",
+    "A051681",
+    "A053797"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

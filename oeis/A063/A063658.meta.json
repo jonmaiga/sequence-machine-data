@@ -1,0 +1,18 @@
+{
+  "description": "The number of integers m in [1..n] for which gcd(m,n) is divisible by a square greater than 1.",
+  "id": "A063658",
+  "mentions": [
+    "A063659"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

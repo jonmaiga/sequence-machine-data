@@ -1,0 +1,20 @@
+{
+  "description": "Involution of natural numbers which shows the position of the inverse of each non-recursive Catalan automorphism in table A089840.",
+  "id": "A089843",
+  "mentions": [
+    "A089837",
+    "A089838",
+    "A089839",
+    "A089840"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

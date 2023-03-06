@@ -1,0 +1,15 @@
+{
+  "description": "Number of 2^m between 7^n and 7^(n+1).",
+  "id": "A022923",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:14:49",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

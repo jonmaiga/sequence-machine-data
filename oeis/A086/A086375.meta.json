@@ -1,0 +1,19 @@
+{
+  "description": "Number of factors over Q in the factorization of U_n(x) + 1 where U_n(x) is the Chebyshev polynomial of the second kind.",
+  "id": "A086375",
+  "mentions": [
+    "A086327",
+    "A086374"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

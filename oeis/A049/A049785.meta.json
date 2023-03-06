@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (n mod floor(n/k)) = T(n,n), array T as in A049783.",
+  "id": "A049785",
+  "mentions": [
+    "A049783",
+    "A049784",
+    "A049786",
+    "A049787",
+    "A049788",
+    "A049789"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:33",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

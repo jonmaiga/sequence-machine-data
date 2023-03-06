@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n^n-(-1)^n)/(n+1).",
+  "id": "A081216",
+  "mentions": [
+    "A014566",
+    "A056826",
+    "A062160",
+    "A124899"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

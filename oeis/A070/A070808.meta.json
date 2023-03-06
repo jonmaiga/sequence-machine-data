@@ -1,0 +1,17 @@
+{
+  "description": "Sum(((-1)^k*binomial(4*n,k)),k=n..2*n).",
+  "id": "A070808",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

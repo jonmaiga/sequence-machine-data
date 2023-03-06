@@ -1,0 +1,19 @@
+{
+  "description": "Values of A038007 ending in 2.",
+  "id": "A038011",
+  "mentions": [
+    "A038007",
+    "A038012"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

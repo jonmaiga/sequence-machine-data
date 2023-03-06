@@ -1,0 +1,15 @@
+{
+  "description": "Quasi-Carmichael numbers to base -2: squarefree composites n such that for every prime p that divides n, p+2 divides n+2.",
+  "id": "A029562",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

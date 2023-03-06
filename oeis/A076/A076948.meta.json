@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that nk-1 is a square, or 0 if no such number exists.",
+  "id": "A076948",
+  "mentions": [
+    "A002522",
+    "A008784",
+    "A037213"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

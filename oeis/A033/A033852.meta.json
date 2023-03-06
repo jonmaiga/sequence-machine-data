@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that j(k)*phi(k) = sigma(k), where j(n) = A033831(n).",
+  "id": "A033852",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A033831"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

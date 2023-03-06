@@ -1,0 +1,22 @@
+{
+  "description": "Number of palindromic triangular numbers with n digits.",
+  "id": "A054263",
+  "mentions": [
+    "A000217",
+    "A003098",
+    "A008509",
+    "A008510"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

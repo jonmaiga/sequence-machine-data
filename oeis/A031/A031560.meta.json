@@ -1,0 +1,15 @@
+{
+  "description": "that the continued fraction for sqrt(k) has even period and if the last term of the periodic part is deleted the central term is 62.",
+  "id": "A031560",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

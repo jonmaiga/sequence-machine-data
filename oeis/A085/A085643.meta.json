@@ -1,0 +1,24 @@
+{
+  "description": "Refines sequence A078812 using permutations and products of exponents on least prime signatures.",
+  "id": "A085643",
+  "mentions": [
+    "A000041",
+    "A000079",
+    "A001906",
+    "A006906",
+    "A025487",
+    "A036035",
+    "A078812"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

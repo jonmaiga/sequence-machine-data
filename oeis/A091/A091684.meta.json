@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 0 if n is divisible by 3, otherwise a(n) = n.",
+  "id": "A091684",
+  "mentions": [
+    "A008585",
+    "A100050"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

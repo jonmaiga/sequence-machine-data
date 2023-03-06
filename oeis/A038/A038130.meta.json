@@ -1,0 +1,22 @@
+{
+  "description": "Beatty sequence for 2*Pi.",
+  "id": "A038130",
+  "mentions": [
+    "A022844",
+    "A108586",
+    "A108592",
+    "A140758",
+    "A246388"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:37:35",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

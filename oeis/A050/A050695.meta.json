@@ -1,0 +1,24 @@
+{
+  "description": "Composite numbers k such that none of the prime factors of k is a substring of k.",
+  "id": "A050695",
+  "mentions": [
+    "A035139",
+    "A050694",
+    "A050696",
+    "A050698",
+    "A131929",
+    "A131930"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

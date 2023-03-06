@@ -1,0 +1,18 @@
+{
+  "description": "Smallest multiple of n starting with 1 with descending digit string (a left substring of 10987654321098...), 0 if no such number exists.",
+  "id": "A069886",
+  "mentions": [
+    "A061074"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

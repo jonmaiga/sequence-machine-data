@@ -1,0 +1,21 @@
+{
+  "description": "For n >= 2, let h=floor((n-1)/2), L=n-h, R=n+h; then a(L)=n if a(L) not yet defined, otherwise a(R)=n; thus |a(n)-n| = floor((1/2)*(a(n)-1)).",
+  "id": "A026166",
+  "mentions": [
+    "A026167",
+    "A026182",
+    "A026198",
+    "A026202"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

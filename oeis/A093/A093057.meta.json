@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(j,k) read by rows, where T(j,k) = number of matrix elements remaining at fixed position in the in-situ transposition of a rectangular j X k matrix (singleton cycles).",
+  "id": "A093057",
+  "mentions": [
+    "A050873",
+    "A093055",
+    "A093056"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

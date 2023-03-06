@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) equals the k-th term of the convolution of the (n-k)-th row with the (2k)-th Fibonacci polynomial (A011973).",
+  "id": "A092422",
+  "mentions": [
+    "A011973",
+    "A092423",
+    "A092424"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

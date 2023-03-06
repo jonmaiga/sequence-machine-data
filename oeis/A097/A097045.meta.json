@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = a(n-1) - a(floor(sqrt(n))) for n > 1; a(1) = 1.",
+  "id": "A097045",
+  "mentions": [
+    "A097046"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

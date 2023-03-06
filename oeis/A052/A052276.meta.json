@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative numbers of the form n^3 (+/-) 3, n >= 0.",
+  "id": "A052276",
+  "mentions": [
+    "A003325"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:02:35",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

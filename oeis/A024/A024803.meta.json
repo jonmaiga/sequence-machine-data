@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the sum of 3 distinct nonzero squares, including repetitions.",
+  "id": "A024803",
+  "mentions": [
+    "A001974",
+    "A004432",
+    "A025415"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

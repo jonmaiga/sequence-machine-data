@@ -1,0 +1,22 @@
+{
+  "description": "Number of labeled rooted 2,3 cacti (triangular cacti with bridges).",
+  "id": "A091481",
+  "mentions": [
+    "A032035",
+    "A066325",
+    "A091485",
+    "A091486"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:43:45",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

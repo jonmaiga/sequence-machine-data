@@ -1,0 +1,19 @@
+{
+  "description": "Number of positions that the 3 X 3 X 3 Rubik cube puzzle can be in after exactly n moves.",
+  "id": "A080583",
+  "mentions": [
+    "A080601",
+    "A080602"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

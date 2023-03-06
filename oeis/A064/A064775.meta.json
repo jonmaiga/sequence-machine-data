@@ -1,0 +1,24 @@
+{
+  "description": "Card{ k<=n, k such that all prime divisors of k are <= sqrt(k) }.",
+  "id": "A064775",
+  "mentions": [
+    "A048098",
+    "A063539",
+    "A242493",
+    "A295084",
+    "A333535",
+    "A333536"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

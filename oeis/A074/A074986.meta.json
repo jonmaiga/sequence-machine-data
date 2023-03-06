@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonempty subsets of {1,2,3,...,n} that are closed under both GCD and LCM.",
+  "id": "A074986",
+  "mentions": [
+    "A051839",
+    "A122977",
+    "A122978"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

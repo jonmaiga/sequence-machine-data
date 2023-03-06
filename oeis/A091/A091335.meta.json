@@ -1,0 +1,23 @@
+{
+  "description": "Number of prime divisors of n-th term of Sylvester's sequence A000058.",
+  "id": "A091335",
+  "mentions": [
+    "A000058",
+    "A001221",
+    "A014546",
+    "A091336"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

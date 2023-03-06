@@ -1,0 +1,19 @@
+{
+  "description": "Number of unimodal functions [1..n]->[1..n].",
+  "id": "A088536",
+  "mentions": [
+    "A071920",
+    "A225006"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

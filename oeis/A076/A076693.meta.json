@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the average of prime(n) and prime(n+1) is a perfect cube.",
+  "id": "A076693",
+  "mentions": [
+    "A000578",
+    "A024675"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

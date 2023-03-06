@@ -1,0 +1,30 @@
+{
+  "description": "Number of ways to write 1/n as a sum of exactly 2 unit fractions.",
+  "id": "A018892",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A001221",
+    "A018894",
+    "A046079",
+    "A048691",
+    "A063647",
+    "A089233",
+    "A126097",
+    "A126098",
+    "A184389"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

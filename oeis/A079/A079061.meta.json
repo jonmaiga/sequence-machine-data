@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime p such that the least positive primitive root of p equals prime(n).",
+  "id": "A079061",
+  "mentions": [
+    "A001918",
+    "A023048",
+    "A066529",
+    "A084739"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

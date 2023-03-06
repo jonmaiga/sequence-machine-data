@@ -1,0 +1,22 @@
+{
+  "description": "Primes whose reversal is a multiple of 13.",
+  "id": "A087764",
+  "mentions": [
+    "A087762",
+    "A087765",
+    "A087766",
+    "A087767"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

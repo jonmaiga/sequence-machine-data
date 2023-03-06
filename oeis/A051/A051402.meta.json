@@ -1,0 +1,22 @@
+{
+  "description": "Inverse Mertens function: smallest k such that |M(k)| = n, where M(x) is Mertens's function A002321.",
+  "id": "A051402",
+  "mentions": [
+    "A002321",
+    "A008683",
+    "A051400",
+    "A051401",
+    "A060434"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

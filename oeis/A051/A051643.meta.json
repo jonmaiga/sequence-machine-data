@@ -1,0 +1,22 @@
+{
+  "description": "Central elements in Parker's partition triangle.",
+  "id": "A051643",
+  "mentions": [
+    "A007042",
+    "A047812",
+    "A136621"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

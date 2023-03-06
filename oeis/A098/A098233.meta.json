@@ -1,0 +1,23 @@
+{
+  "description": "Consider the family of ordinary multigraphs. Sequence gives the triangle read by rows giving coefficients of polynomials arising from enumeration of those multigraphs on n edges.",
+  "id": "A098233",
+  "mentions": [
+    "A002718",
+    "A020554",
+    "A038205",
+    "A360037",
+    "A360038",
+    "A360039"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

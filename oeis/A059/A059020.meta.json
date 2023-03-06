@@ -1,0 +1,43 @@
+{
+  "description": "Number of 2 X n checkerboards (with at least one red square) in which the set of red squares is edge connected.",
+  "id": "A059020",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A002203",
+    "A020873",
+    "A048776",
+    "A048777",
+    "A052542",
+    "A059021",
+    "A059524",
+    "A059525",
+    "A231829",
+    "A285765",
+    "A285934",
+    "A286139",
+    "A286182",
+    "A286183",
+    "A286184",
+    "A286185",
+    "A286186",
+    "A286187",
+    "A286188",
+    "A286189",
+    "A286191",
+    "A286304",
+    "A287151"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

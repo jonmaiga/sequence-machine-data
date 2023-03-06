@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 - n^5.",
+  "id": "A024003",
+  "mentions": [
+    "A024049"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:21:11",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

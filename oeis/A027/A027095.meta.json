@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A027082(n, 2n-8).",
+  "id": "A027095",
+  "mentions": [
+    "A027082"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:56:21",
+    "offset": 4,
+    "size": 26,
+    "source": "joeis"
+  }
+}

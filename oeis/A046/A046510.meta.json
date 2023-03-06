@@ -1,0 +1,30 @@
+{
+  "description": "Numbers with multiplicative persistence value 1.",
+  "id": "A046510",
+  "mentions": [
+    "A003001",
+    "A014120",
+    "A046501",
+    "A046511",
+    "A046512",
+    "A046513",
+    "A046514",
+    "A046515",
+    "A046516",
+    "A046517",
+    "A046518",
+    "A352531",
+    "A352532"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

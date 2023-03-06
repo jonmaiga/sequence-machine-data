@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of natural numbers induced by the composition of the Catalan bijections A057163 & A072796.",
+  "id": "A073283",
+  "mentions": [
+    "A057163",
+    "A072796",
+    "A073200",
+    "A073282"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (Product of first n twin prime pair averages [A014574]) - 1 is prime.",
+  "id": "A079140",
+  "mentions": [
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

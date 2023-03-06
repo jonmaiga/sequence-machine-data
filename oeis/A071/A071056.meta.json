@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number m such that m = p(i) mod p(i)^2 for 1<=i<=n.",
+  "id": "A071056",
+  "mentions": [
+    "A053664"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

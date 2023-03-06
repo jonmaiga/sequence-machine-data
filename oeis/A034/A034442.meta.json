@@ -1,0 +1,19 @@
+{
+  "description": "Arrange digits of primes in ascending order (omitting any that contain 0's), then sort list.",
+  "id": "A034442",
+  "mentions": [
+    "A032524"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:13:35",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

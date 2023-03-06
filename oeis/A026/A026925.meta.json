@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into an odd number of parts, the greatest being 5; also, a(n+9) = number of partitions of n+4 into an even number of parts, each <=5.",
+  "id": "A026925",
+  "mentions": [
+    "A026811",
+    "A026929",
+    "A262920"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:33:13",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

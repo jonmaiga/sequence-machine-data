@@ -1,0 +1,24 @@
+{
+  "description": "Product of a prime and the following number.",
+  "id": "A036690",
+  "mentions": [
+    "A034953",
+    "A036689",
+    "A060800",
+    "A065463",
+    "A179119",
+    "A306633"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:28:05",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "5*n digit-reversed mod 5.",
+  "id": "A084054",
+  "mentions": [
+    "A084052",
+    "A084053",
+    "A084055",
+    "A084339",
+    "A084340",
+    "A084341"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

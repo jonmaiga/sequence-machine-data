@@ -1,0 +1,18 @@
+{
+  "description": "Rearrangement of primes so that sum of the absolute value of the successive differences is also a prime.",
+  "id": "A094744",
+  "mentions": [
+    "A094743",
+    "A094745"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

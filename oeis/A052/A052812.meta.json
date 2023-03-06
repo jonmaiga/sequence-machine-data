@@ -1,0 +1,24 @@
+{
+  "description": "A simple grammar: power set of pairs of sequences.",
+  "id": "A052812",
+  "mentions": [
+    "A002117",
+    "A026007",
+    "A052847",
+    "A219555",
+    "A255834",
+    "A255835"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:21:47",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

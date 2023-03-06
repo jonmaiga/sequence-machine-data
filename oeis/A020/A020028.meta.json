@@ -1,0 +1,19 @@
+{
+  "description": "Nearest integer to Gamma(n + 1/8)/Gamma(1/8).",
+  "id": "A020028",
+  "mentions": [
+    "A020073",
+    "A020118",
+    "A045755"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:15:10",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

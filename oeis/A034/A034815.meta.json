@@ -1,0 +1,19 @@
+{
+  "description": "Concatenations C1 and C2 are both prime (see the comment lines).",
+  "id": "A034815",
+  "mentions": [
+    "A034808",
+    "A034821"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:16:49",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

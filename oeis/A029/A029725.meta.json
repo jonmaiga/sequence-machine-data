@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct subgroups of alternating group A_n, counting conjugates as distinct.",
+  "id": "A029725",
+  "mentions": [
+    "A005432",
+    "A029726",
+    "A116652"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

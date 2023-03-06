@@ -1,0 +1,19 @@
+{
+  "description": "Engel expansion of sqrt(2).",
+  "id": "A028254",
+  "mentions": [
+    "A002193",
+    "A006784",
+    "A028257"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

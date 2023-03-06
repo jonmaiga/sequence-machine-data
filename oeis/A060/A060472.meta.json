@@ -1,0 +1,21 @@
+{
+  "description": "Smallest positive a(n) such that the number of solutions to a(n)=a(j)+a(k), j",
+  "id": "A060472",
+  "mentions": [
+    "A033627",
+    "A060469",
+    "A060470",
+    "A060471"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:42:01",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

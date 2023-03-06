@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the largest divisor of n that is coprime to a larger divisor of n.",
+  "id": "A052128",
+  "mentions": [
+    "A054372",
+    "A076388",
+    "A354933"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

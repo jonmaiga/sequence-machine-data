@@ -1,0 +1,15 @@
+{
+  "description": "Number of products of distinct primes <= prime(n) equal to -1 (mod prime(n)).",
+  "id": "A024404",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

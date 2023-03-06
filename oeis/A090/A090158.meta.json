@@ -1,0 +1,18 @@
+{
+  "description": "Odd-indexed terms of the binomial transform equals 1 and the even-indexed terms of the second binomial transform equals 1.",
+  "id": "A090158",
+  "mentions": [
+    "A090145"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:49:19",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

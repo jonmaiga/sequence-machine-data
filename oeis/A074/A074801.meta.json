@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the sum of the n-th row of the triangle formed by replacing each m in Pascal's triangle with sigma(m).",
+  "id": "A074801",
+  "mentions": [
+    "A000079",
+    "A000203",
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Square table by antidiagonals of minimum number of moves between two positions in the Tower of Hanoi (with three pegs: 0,1,2), where with position n written in base 3, xyz means smallest disk is on peg z, second smallest is on peg y, third smallest on peg x, etc. and leading zeros indicate largest disks are all on peg 0.",
+  "id": "A060592",
+  "mentions": [
+    "A001511",
+    "A007798",
+    "A055661",
+    "A055662"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

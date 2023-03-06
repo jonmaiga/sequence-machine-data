@@ -1,0 +1,15 @@
+{
+  "description": "Let (p1,p2), (p3,p4) be two pairs of successive primes such that p1*p2=p3+p4-1, |p2-p1|=|p4-p3|; sequence gives |p2-p1|=|p4-p3|.",
+  "id": "A047975",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:26:51",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

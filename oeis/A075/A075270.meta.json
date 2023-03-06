@@ -1,0 +1,20 @@
+{
+  "description": "Sum of Lucas numbers and inverted Lucas numbers: a(n) = A000032(n)*A075193(n).",
+  "id": "A075270",
+  "mentions": [
+    "A000032",
+    "A075193"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:06:18",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

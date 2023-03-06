@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that 1+SquareFreeKernel(m)*CubeFreeKernel(m) is prime.",
+  "id": "A097381",
+  "mentions": [
+    "A097378",
+    "A097379",
+    "A097380"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

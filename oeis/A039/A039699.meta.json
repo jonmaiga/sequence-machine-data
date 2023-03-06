@@ -1,0 +1,27 @@
+{
+  "description": "Number of 4-dimensional cubic lattice walks that start and end at origin after 2n steps, free to pass through origin at intermediate stages.",
+  "id": "A039699",
+  "mentions": [
+    "A000984",
+    "A002894",
+    "A002895",
+    "A002896",
+    "A054474",
+    "A086232",
+    "A287318"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

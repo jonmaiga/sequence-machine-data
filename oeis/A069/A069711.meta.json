@@ -1,0 +1,20 @@
+{
+  "description": "Squares whose arithmetic mean of digits is an integer (i.e., the sum of digits is a multiple of the number of digits).",
+  "id": "A069711",
+  "mentions": [
+    "A069709",
+    "A069710",
+    "A069712"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

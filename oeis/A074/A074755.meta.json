@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-digit non-leading-zero trimorphic numbers (m such that m^3 ends in m).",
+  "id": "A074755",
+  "mentions": [
+    "A033819"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

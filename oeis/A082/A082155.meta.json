@@ -1,0 +1,19 @@
+{
+  "description": "Dispersion of the complement of row 1 of A082154.",
+  "id": "A082155",
+  "mentions": [
+    "A000384",
+    "A082154"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

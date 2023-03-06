@@ -1,0 +1,20 @@
+{
+  "description": "Number of different values of i^2 + j^2 + k^2 for i,j,k in [ 0,n ] (or [ -n,n ]).",
+  "id": "A034966",
+  "mentions": [
+    "A047800",
+    "A047801"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:10",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

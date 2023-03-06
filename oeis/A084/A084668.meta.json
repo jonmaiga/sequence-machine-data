@@ -1,0 +1,22 @@
+{
+  "description": "Brilliant Niven numbers, i.e., numbers with two prime factors of the same length (in decimal notation) which are also divisible by the sum of their digits.",
+  "id": "A084668",
+  "mentions": [
+    "A005349",
+    "A078972"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

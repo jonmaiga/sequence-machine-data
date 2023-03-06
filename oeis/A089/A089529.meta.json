@@ -1,0 +1,23 @@
+{
+  "description": "A089528 indexed by A000040.",
+  "id": "A089529",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A089526",
+    "A089527",
+    "A089528",
+    "A089532"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of consecutive primes x-2,x+2 such that x=j*(p(n)#/2)/p(k), where 1 <= j < p(n+1) and 2 <= k <= n and p(k) doesn't divide j.",
+  "id": "A087941",
+  "mentions": [
+    "A002110",
+    "A087859",
+    "A088968"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

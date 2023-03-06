@@ -1,0 +1,19 @@
+{
+  "description": "Min{m: n = Sum((m mod (1+k*L(n)!))*2^(k-1): 1<=k<=L(n))}, where L(n) = length of binary representation of n, cf. A070939, A000142.",
+  "id": "A094096",
+  "mentions": [
+    "A000142",
+    "A070939"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that (r-p)/log(p) > 4, where r is the next prime after p.",
+  "id": "A082889",
+  "mentions": [
+    "A082862",
+    "A082884",
+    "A082886",
+    "A082888",
+    "A082890",
+    "A082891"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primitive Chacon sequence: fixed under 0->0012, 1->12, 2->012.",
+  "id": "A049321",
+  "mentions": [
+    "A003849",
+    "A049320"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

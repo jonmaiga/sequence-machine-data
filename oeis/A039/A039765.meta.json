@@ -1,0 +1,20 @@
+{
+  "description": "Number of edges in the Hasse diagrams for the D-analogs of the partition lattices.",
+  "id": "A039765",
+  "mentions": [
+    "A003128",
+    "A039759"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:14",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

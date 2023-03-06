@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n!!! is an interprime.",
+  "id": "A074165",
+  "mentions": [
+    "A053709",
+    "A074176"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

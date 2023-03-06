@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = n * mu(n), where mu is the Möbius function A008683.",
+  "id": "A055615",
+  "mentions": [
+    "A000027",
+    "A008683",
+    "A013929",
+    "A023900",
+    "A061669",
+    "A062004",
+    "A068340",
+    "A261869",
+    "A261890"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

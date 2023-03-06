@@ -1,0 +1,32 @@
+{
+  "description": "Positive m such that when written in binary, no rotated value of m is greater than m.",
+  "id": "A065609",
+  "mentions": [
+    "A000031",
+    "A000120",
+    "A000740",
+    "A001037",
+    "A008965",
+    "A032153",
+    "A059966",
+    "A163381",
+    "A275692",
+    "A328594",
+    "A328595",
+    "A328596",
+    "A328607",
+    "A328668"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

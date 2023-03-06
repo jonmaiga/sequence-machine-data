@@ -1,0 +1,22 @@
+{
+  "description": "Number of intersecting families of an n-element set. Also number of n-variable clique Boolean functions.",
+  "id": "A051185",
+  "mentions": [
+    "A036239",
+    "A051180",
+    "A051184",
+    "A191391"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

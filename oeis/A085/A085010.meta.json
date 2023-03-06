@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=2^(2^n)*sum(k=0,n,1/2^(2^k)).",
+  "id": "A085010",
+  "mentions": [
+    "A007404",
+    "A074854"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

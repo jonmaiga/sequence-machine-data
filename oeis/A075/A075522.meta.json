@@ -1,0 +1,21 @@
+{
+  "description": "Number of steps to reach the first nonprime (=A075523(n)) starting with the n-th prime p and iterating the map k -> 4*k+(p mod 4), or -1 if no integer is ever reached.",
+  "id": "A075522",
+  "mentions": [
+    "A000040",
+    "A075519",
+    "A075520",
+    "A075521",
+    "A075523"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

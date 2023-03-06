@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of compositions of n as the sum of k integral powers of 2.",
+  "id": "A073266",
+  "mentions": [
+    "A023359",
+    "A048298",
+    "A073265",
+    "A209229",
+    "A333047",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

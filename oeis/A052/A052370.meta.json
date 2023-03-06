@@ -1,0 +1,22 @@
+{
+  "description": "Number of 6 X 6 binary matrices with n=0...36 ones up to row and column permutations.",
+  "id": "A052370",
+  "mentions": [
+    "A002724",
+    "A049311",
+    "A053304",
+    "A053305"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

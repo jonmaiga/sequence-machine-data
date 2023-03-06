@@ -1,0 +1,19 @@
+{
+  "description": "Balanced primes separated from the next lower and next higher prime neighbors by 42.",
+  "id": "A053077",
+  "mentions": [
+    "A052198"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

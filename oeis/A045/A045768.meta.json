@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that sigma(k) == 2 (mod k).",
+  "id": "A045768",
+  "mentions": [
+    "A000040",
+    "A007691",
+    "A017665",
+    "A045769",
+    "A045770",
+    "A050414",
+    "A050415",
+    "A054013",
+    "A054024",
+    "A076496",
+    "A088834",
+    "A108775",
+    "A181597",
+    "A230606"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

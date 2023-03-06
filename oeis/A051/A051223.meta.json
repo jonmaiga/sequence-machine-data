@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways of placing n nonattacking superqueens on an n X n board.",
+  "id": "A051223",
+  "mentions": [
+    "A000170",
+    "A051224"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

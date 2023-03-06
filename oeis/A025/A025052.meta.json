@@ -1,0 +1,31 @@
+{
+  "description": "Numbers not of form ab + bc + ca for 1<=a<=b<=c (probably the list is complete).",
+  "id": "A025052",
+  "mentions": [
+    "A000926",
+    "A006093",
+    "A027563",
+    "A027564",
+    "A027565",
+    "A027566",
+    "A034168",
+    "A055745",
+    "A093669",
+    "A093670",
+    "A094379",
+    "A094380",
+    "A094381"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

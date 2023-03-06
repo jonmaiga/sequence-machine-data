@@ -1,0 +1,16 @@
+{
+  "description": "Number of terms generated for n in increasing bases starting at 2 until the last term with only decimal digits is reached, or 0 where the number of such terms would be infinite (n",
+  "id": "A095777",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

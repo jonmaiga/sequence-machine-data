@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n with property that when writing down all the natural numbers from 0 to n one uses the same number of even and odd digits.",
+  "id": "A098160",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

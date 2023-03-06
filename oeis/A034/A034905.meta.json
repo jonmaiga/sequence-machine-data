@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose square contains no loops in its digits (assumes 1, 2, 3, 5, 7 have no loops and 0, 4, 6, 8, 9 do).",
+  "id": "A034905",
+  "mentions": [
+    "A001742",
+    "A031153"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

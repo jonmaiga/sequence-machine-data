@@ -1,0 +1,20 @@
+{
+  "description": "Odd split numbers: have a nontrivial factorization n=ab with a and b coprime, so that L(a) + L(b) <= L(n), where L(x) = A029837(x) = ceiling(log_2(x)).",
+  "id": "A036382",
+  "mentions": [
+    "A029827",
+    "A029837",
+    "A036378",
+    "A036390"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

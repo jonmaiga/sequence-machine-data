@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct ways to tile a 2 X n rectangle with dominoes (solutions are identified if they are rotations or reflections of each other).",
+  "id": "A060312",
+  "mentions": [
+    "A001224",
+    "A068928",
+    "A102526"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

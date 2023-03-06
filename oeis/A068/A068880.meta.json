@@ -1,0 +1,20 @@
+{
+  "description": "Smallest n-digit square with property that digits alternate in parity.",
+  "id": "A068880",
+  "mentions": [
+    "A030152",
+    "A068876",
+    "A068881"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

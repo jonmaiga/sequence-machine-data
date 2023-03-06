@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that the Eisenstein integer (1 - ω)^n - 1 has prime norm, where ω = -1/2 + sqrt(-3)/2.",
+  "id": "A066408",
+  "mentions": [
+    "A000043",
+    "A010527",
+    "A057429",
+    "A066413"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

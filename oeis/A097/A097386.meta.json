@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that (largest digit of n)^(smallest digit of n) + n is prime.",
+  "id": "A097386",
+  "mentions": [
+    "A054054",
+    "A054055",
+    "A097385",
+    "A097387"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle, read by rows, where the n-th diagonal is generated from the n-th row by the sum of the products of the n-th row terms with binomial coefficients.",
+  "id": "A091491",
+  "mentions": [
+    "A000108",
+    "A001453",
+    "A014137",
+    "A014138",
+    "A033184",
+    "A096465",
+    "A099324",
+    "A104402"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

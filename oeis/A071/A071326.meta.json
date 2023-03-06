@@ -1,0 +1,22 @@
+{
+  "description": "Sum of squares > 1 dividing n.",
+  "id": "A071326",
+  "mentions": [
+    "A000203",
+    "A010052",
+    "A035316",
+    "A071325",
+    "A071327"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

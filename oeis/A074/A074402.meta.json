@@ -1,0 +1,17 @@
+{
+  "description": "Multiplicative closure of Euler's \"numeri idonei\" (A000926).",
+  "id": "A074402",
+  "mentions": [
+    "A000926"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

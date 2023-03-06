@@ -1,0 +1,21 @@
+{
+  "description": "Number of palindromic structures using exactly five different symbols.",
+  "id": "A056474",
+  "mentions": [
+    "A000481",
+    "A056391",
+    "A056470"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:13:45",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

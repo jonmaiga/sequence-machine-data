@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction for sqrt(86).",
+  "id": "A010159",
+  "mentions": [
+    "A010537"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

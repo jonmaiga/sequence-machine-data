@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of 4 + 2*sqrt(6).",
+  "id": "A090654",
+  "mentions": [
+    "A010480",
+    "A090388",
+    "A090458",
+    "A090488",
+    "A090550",
+    "A090655",
+    "A090656",
+    "A092290",
+    "A092294",
+    "A176213"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

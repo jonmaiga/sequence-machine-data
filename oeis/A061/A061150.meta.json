@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{d|n} d*prime(d).",
+  "id": "A061150",
+  "mentions": [
+    "A000040",
+    "A007441",
+    "A007445",
+    "A030009",
+    "A061151",
+    "A061152",
+    "A127093"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

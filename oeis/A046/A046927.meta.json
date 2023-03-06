@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to express 2n+1 as p+2q where p and q are primes.",
+  "id": "A046927",
+  "mentions": [
+    "A000720",
+    "A033270",
+    "A194830",
+    "A194831"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

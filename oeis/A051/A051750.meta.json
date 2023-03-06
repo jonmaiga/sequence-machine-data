@@ -1,0 +1,28 @@
+{
+  "description": "Primes whose cubes lack zeros.",
+  "id": "A051750",
+  "mentions": [
+    "A000040",
+    "A000578",
+    "A051751",
+    "A051832",
+    "A051833",
+    "A052040",
+    "A052041",
+    "A052042",
+    "A052043",
+    "A052044",
+    "A052045"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

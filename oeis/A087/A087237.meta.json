@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = (Max{x : n*pi(x) = x} - Min{x : n*pi(x) = x})/n = A087236(n)/n.",
+  "id": "A087237",
+  "mentions": [
+    "A000720",
+    "A038623",
+    "A038626",
+    "A038627",
+    "A057809",
+    "A087235",
+    "A087236",
+    "A087240",
+    "A102281"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose Hebrew name begin with the letter \"Shin\".",
+  "id": "A072426",
+  "mentions": [
+    "A104292"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

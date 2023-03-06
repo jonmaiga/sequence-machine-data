@@ -1,0 +1,19 @@
+{
+  "description": "Number of cards needed to be drawn (with replacement) from a deck of n cards to have a 50% or greater chance of seeing each card at least once.",
+  "id": "A073593",
+  "mentions": [
+    "A090582",
+    "A178923"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

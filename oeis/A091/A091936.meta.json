@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime between 2^n and 2^(n+1), having a minimal number of 1's in binary representation.",
+  "id": "A091936",
+  "mentions": [
+    "A000120",
+    "A019434",
+    "A091935",
+    "A091938"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

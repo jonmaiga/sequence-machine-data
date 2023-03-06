@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of sum(1/(6*m+5)^2,m=0..infinity).",
+  "id": "A086731",
+  "mentions": [
+    "A086722",
+    "A086730"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Highest prime dividing the least n-multiperfect number (A007539).",
+  "id": "A072002",
+  "mentions": [
+    "A007539",
+    "A007691"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

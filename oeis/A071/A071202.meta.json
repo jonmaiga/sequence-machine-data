@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals giving number of paths up and left from (0,0) to (n,k) where x/y",
+  "id": "A071202",
+  "mentions": [
+    "A000108",
+    "A071201"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

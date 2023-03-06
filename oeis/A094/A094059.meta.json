@@ -1,0 +1,19 @@
+{
+  "description": "Analog of A054474 for walks on a 3-dimensional grid.",
+  "id": "A094059",
+  "mentions": [
+    "A049037",
+    "A054474"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

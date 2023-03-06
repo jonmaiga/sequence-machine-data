@@ -1,0 +1,20 @@
+{
+  "description": "Number of indecomposable groups of order 2^n.",
+  "id": "A094448",
+  "mentions": [
+    "A000679",
+    "A090751"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

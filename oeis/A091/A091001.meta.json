@@ -1,0 +1,22 @@
+{
+  "description": "Number of walks of length n between adjacent nodes on the Petersen graph.",
+  "id": "A091001",
+  "mentions": [
+    "A000244",
+    "A001045",
+    "A091000",
+    "A091002"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle of primes arising in A088651. The n-th row of the triangle contains set of n primes of the form r*A088651(n)-1 for r = 1 to n. Sequence contains the triangle by rows.",
+  "id": "A088652",
+  "mentions": [
+    "A088651"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

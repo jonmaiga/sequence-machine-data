@@ -1,0 +1,22 @@
+{
+  "description": "Triangle in which the n-th row contains n distinct composite numbers with the least product and has least number of prime divisors. No member of a row is a multiple of another member of the row.",
+  "id": "A077553",
+  "mentions": [
+    "A001358",
+    "A005843",
+    "A077554",
+    "A077555",
+    "A087112"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

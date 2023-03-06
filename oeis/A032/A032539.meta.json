@@ -1,0 +1,23 @@
+{
+  "description": "Integer part of decimal 'base-4 looking' numbers divided by their actual base-4 values.",
+  "id": "A032539",
+  "mentions": [
+    "A007090",
+    "A032532",
+    "A032540",
+    "A032541"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:03:15",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

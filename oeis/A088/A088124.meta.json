@@ -1,0 +1,19 @@
+{
+  "description": "Let f(n,x) = 1 + 4x + 6x^2 + 8x^3 + 9x^4 + ... + composite(n)*x^n; a(n)= smallest prime f(n,x), or 0 if no such prime exists.",
+  "id": "A088124",
+  "mentions": [
+    "A088122",
+    "A088123",
+    "A088125"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

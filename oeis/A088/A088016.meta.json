@@ -1,0 +1,19 @@
+{
+  "description": "To obtain a(n+1), add the square of the n-th partial sum to the n-th partial sum of the squares, then divide this result by a(n), for all n >= 0, with a(0)=1.",
+  "id": "A088016",
+  "mentions": [
+    "A030186",
+    "A087640"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

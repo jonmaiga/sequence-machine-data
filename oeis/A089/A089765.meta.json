@@ -1,0 +1,21 @@
+{
+  "description": "Composite n whose sum of distinct divisors, s(d), ignoring divisors n and 1, divided by the count of divisors (not counting n and 1), c(d), are primes. Duplicate divisors, as in 2*2=4 are counted just once.",
+  "id": "A089765",
+  "mentions": [
+    "A002808",
+    "A048968",
+    "A048969"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Values of A062410 on folding point positions of the spiral.",
+  "id": "A063254",
+  "mentions": [
+    "A062410",
+    "A063253",
+    "A063255"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

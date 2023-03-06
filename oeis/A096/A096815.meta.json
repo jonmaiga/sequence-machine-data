@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows, such that T(n,k) equals the k-th term of the convolution of the two prior rows indexed by (n-k) and k.",
+  "id": "A096815",
+  "mentions": [
+    "A096811",
+    "A096816"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

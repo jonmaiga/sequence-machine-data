@@ -1,0 +1,22 @@
+{
+  "description": "Number of 4k+3 integers in range ]2^n,2^(n+1)] whose Jacobi-vector is a Motzkin-path (A095100).",
+  "id": "A095090",
+  "mentions": [
+    "A095062",
+    "A095091",
+    "A095092",
+    "A095100"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

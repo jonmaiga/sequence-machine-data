@@ -1,0 +1,22 @@
+{
+  "description": "Sum of next n 9th powers.",
+  "id": "A075670",
+  "mentions": [
+    "A006003",
+    "A072474",
+    "A075664",
+    "A075671"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

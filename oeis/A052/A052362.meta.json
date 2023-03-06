@@ -1,0 +1,22 @@
+{
+  "description": "Indices of records in length of English name of n including spaces and dashes (A052360): n such that k < n => A052360(k) < A052360(n).",
+  "id": "A052362",
+  "mentions": [
+    "A005589",
+    "A052360",
+    "A052363"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:55:42",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

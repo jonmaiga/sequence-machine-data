@@ -1,0 +1,29 @@
+{
+  "description": "Consider the Kaprekar map n->K(n) defined in A151949. Sequence gives numbers belonging to cycles of length greater than 1.",
+  "id": "A099010",
+  "mentions": [
+    "A069746",
+    "A090429",
+    "A099009",
+    "A151949",
+    "A164715",
+    "A165000",
+    "A165019",
+    "A165039",
+    "A165058",
+    "A165078",
+    "A165097",
+    "A165117"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

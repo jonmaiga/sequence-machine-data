@@ -1,0 +1,19 @@
+{
+  "description": "Arithmetic progressions of at least 4 terms with common difference 6 having the same value of phi(x) start at these numbers.",
+  "id": "A050498",
+  "mentions": [
+    "A000010",
+    "A039670",
+    "A163573"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

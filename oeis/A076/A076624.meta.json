@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the non-divisors of n between 1 and n is a perfect square.",
+  "id": "A076624",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A024816"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

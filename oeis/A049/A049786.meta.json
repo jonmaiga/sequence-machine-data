@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = T(n,n-1), array T as in A049783.",
+  "id": "A049786",
+  "mentions": [
+    "A049783",
+    "A049784",
+    "A049785",
+    "A049787",
+    "A049788",
+    "A049789"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:33",
+    "offset": 2,
+    "size": 66,
+    "source": "joeis"
+  }
+}

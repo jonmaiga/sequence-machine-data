@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest nonnegative solution k to 24*k == 1 (mod 7^(2*n-2)).",
+  "id": "A052463",
+  "mentions": [
+    "A000041",
+    "A052462",
+    "A052465",
+    "A052466",
+    "A327770"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

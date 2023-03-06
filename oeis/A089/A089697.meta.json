@@ -1,0 +1,19 @@
+{
+  "description": "Smallest n-digit number k such that k+1 as well as 1 + the product of digits of k are squares greater than 1.",
+  "id": "A089697",
+  "mentions": [
+    "A081990",
+    "A089698"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction for root of x^5 - x - 1.",
+  "id": "A039922",
+  "mentions": [
+    "A002945",
+    "A160155"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that can be written in binary representation as concatenation of primes.",
+  "id": "A090421",
+  "mentions": [
+    "A000040",
+    "A004676",
+    "A007088",
+    "A090418",
+    "A090419",
+    "A090420",
+    "A090422",
+    "A090423"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

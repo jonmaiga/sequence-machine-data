@@ -1,0 +1,21 @@
+{
+  "description": "Number of primitive (aperiodic) reversible strings with n beads using a maximum of three different colors.",
+  "id": "A056314",
+  "mentions": [
+    "A032120",
+    "A045625",
+    "A056391",
+    "A284871"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:56:16",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

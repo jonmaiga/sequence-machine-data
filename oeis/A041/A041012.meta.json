@@ -1,0 +1,18 @@
+{
+  "description": "Concatenate the next a(n) integers to get the n+1 term.",
+  "id": "A041012",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

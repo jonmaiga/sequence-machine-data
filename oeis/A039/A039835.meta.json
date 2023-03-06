@@ -1,0 +1,20 @@
+{
+  "description": "Indices of triangular numbers which are also heptagonal.",
+  "id": "A039835",
+  "mentions": [
+    "A046193",
+    "A046194"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

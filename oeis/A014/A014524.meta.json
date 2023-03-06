@@ -1,0 +1,25 @@
+{
+  "description": "Number of Hamiltonian paths from NW to SW corners in a grid with 2n rows and 4 columns.",
+  "id": "A014524",
+  "mentions": [
+    "A000532",
+    "A003695",
+    "A006864",
+    "A014523",
+    "A014585",
+    "A181688",
+    "A271592"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

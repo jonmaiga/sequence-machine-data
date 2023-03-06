@@ -1,0 +1,18 @@
+{
+  "description": "A012249(2n) divided by 2^(2n-1).",
+  "id": "A012250",
+  "mentions": [
+    "A012249"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:36:18",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Best packings of m>1 equal circles into a larger circle setting a new density record.",
+  "id": "A084644",
+  "mentions": [
+    "A023393",
+    "A051657",
+    "A084618"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

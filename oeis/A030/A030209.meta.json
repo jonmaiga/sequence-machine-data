@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (eta(q) * eta(q^2) * eta(q^3) * eta(q^6))^2 in powers of q.",
+  "id": "A030209",
+  "mentions": [
+    "A030188",
+    "A030203",
+    "A181101",
+    "A181102",
+    "A186100"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

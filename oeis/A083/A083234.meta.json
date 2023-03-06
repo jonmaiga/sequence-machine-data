@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (3*10^n + 2^n)/4.",
+  "id": "A083234",
+  "mentions": [
+    "A066443",
+    "A082724"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

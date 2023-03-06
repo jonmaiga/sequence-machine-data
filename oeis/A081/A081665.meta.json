@@ -1,0 +1,19 @@
+{
+  "description": "Smallest integer q for which there exists a fraction p/q containing n in its decimal expansion.",
+  "id": "A081665",
+  "mentions": [
+    "A081664"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

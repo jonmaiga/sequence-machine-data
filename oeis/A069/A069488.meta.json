@@ -1,0 +1,23 @@
+{
+  "description": "Primes > 100 in which every substring of length 2 is also prime.",
+  "id": "A069488",
+  "mentions": [
+    "A010051",
+    "A038618",
+    "A069489",
+    "A069490",
+    "A090534",
+    "A242377"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

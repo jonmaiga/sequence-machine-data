@@ -1,0 +1,21 @@
+{
+  "description": "Least Fibonacci number ending with n.",
+  "id": "A023184",
+  "mentions": [
+    "A000045",
+    "A020344",
+    "A020345",
+    "A023185"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:16:45",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

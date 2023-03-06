@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k whose abundance is 2: sigma(k) - 2k = 2.",
+  "id": "A088831",
+  "mentions": [
+    "A033880",
+    "A045768",
+    "A050414",
+    "A191363"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

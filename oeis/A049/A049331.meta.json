@@ -1,0 +1,25 @@
+{
+  "description": "Denominator of (1/Pi)*Integral_{0..oo} (sin x / x)^n dx.",
+  "id": "A049331",
+  "mentions": [
+    "A002298",
+    "A002304",
+    "A002305",
+    "A049330",
+    "A099765"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

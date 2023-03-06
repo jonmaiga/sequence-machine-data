@@ -1,0 +1,24 @@
+{
+  "description": "Numbers ending in the letter N.",
+  "id": "A060228",
+  "mentions": [
+    "A059093",
+    "A166726",
+    "A166727",
+    "A166728",
+    "A166729",
+    "A166730",
+    "A166731"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

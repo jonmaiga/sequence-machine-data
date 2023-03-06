@@ -1,0 +1,17 @@
+{
+  "description": "Site percolation series for hexagonal net.",
+  "id": "A030131",
+  "mentions": [
+    "A006735"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

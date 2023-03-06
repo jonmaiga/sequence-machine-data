@@ -1,0 +1,19 @@
+{
+  "description": "Number of identity bracelets of n beads of 4 colors.",
+  "id": "A032241",
+  "mentions": [
+    "A000011",
+    "A309528"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

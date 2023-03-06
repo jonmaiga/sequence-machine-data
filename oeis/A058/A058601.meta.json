@@ -1,0 +1,31 @@
+{
+  "description": "McKay-Thompson series of class 27b for the Monster group.",
+  "id": "A058601",
+  "mentions": [
+    "A000521",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A007240",
+    "A007241",
+    "A007267",
+    "A014708",
+    "A045478",
+    "A058096",
+    "A112194",
+    "A131985",
+    "A152954",
+    "A192329"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:18:30",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

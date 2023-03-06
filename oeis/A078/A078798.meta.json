@@ -1,0 +1,21 @@
+{
+  "description": "Sum of Manhattan distances over all self-avoiding n-step walks on square lattice. Numerator of mean Manhattan displacement s(n) = a(n)/A046661(n).",
+  "id": "A078798",
+  "mentions": [
+    "A001411",
+    "A046661",
+    "A078797"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

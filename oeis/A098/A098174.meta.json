@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest e > 0 such that the initial digit of n^e = 1 in decimal representation.",
+  "id": "A098174",
+  "mentions": [
+    "A000030",
+    "A098175",
+    "A131835"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

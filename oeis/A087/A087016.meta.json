@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of G(3/2), where G is the Barnes G-function.",
+  "id": "A087016",
+  "mentions": [
+    "A087013",
+    "A087014",
+    "A087015",
+    "A087017"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

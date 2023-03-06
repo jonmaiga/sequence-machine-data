@@ -1,0 +1,15 @@
+{
+  "description": "Floor( e * (3/2)^n ).",
+  "id": "A081225",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:17:25",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

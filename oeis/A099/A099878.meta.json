@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of a nested radical: Sqrt(1 + CubeRoot(2 + 4thRoot(3 + 5thRoot(4 + ...",
+  "id": "A099878",
+  "mentions": [
+    "A072449",
+    "A099874",
+    "A099876",
+    "A099877"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

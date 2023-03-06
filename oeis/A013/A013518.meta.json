@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of [x^(2n+1)] in the Taylor expansion arcsin(cosec(x)-cot(x)) = x/2 + x^3/16 + 3*x^5/256 + 83*x^7/30720 + 8887*x^9/12386304 + ...",
+  "id": "A013518",
+  "mentions": [
+    "A012780",
+    "A089171"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

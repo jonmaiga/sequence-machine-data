@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of numbers relating two simple context-free grammars (A052709 and A052705).",
+  "id": "A073152",
+  "mentions": [
+    "A052705",
+    "A052709"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

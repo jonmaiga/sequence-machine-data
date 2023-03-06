@@ -1,0 +1,18 @@
+{
+  "description": "Number of Abelian subgroups of Chevalley group A_n(2) (the group of nonsingular n X n matrices over GF(2)).",
+  "id": "A047052",
+  "mentions": [
+    "A062240",
+    "A062250"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Number of (0,1) matrices with n ones and no zero rows or columns, up to row and column permutations.",
+  "id": "A049311",
+  "mentions": [
+    "A002724",
+    "A007716",
+    "A028657",
+    "A034691",
+    "A048194",
+    "A049312",
+    "A052370",
+    "A052371",
+    "A053304",
+    "A053305",
+    "A055192",
+    "A055599",
+    "A056156",
+    "A057149",
+    "A057150",
+    "A057151",
+    "A057152",
+    "A089259",
+    "A116540",
+    "A283877",
+    "A321609"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

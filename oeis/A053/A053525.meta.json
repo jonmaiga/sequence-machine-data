@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f.: (1-x)/(2-exp(x)).",
+  "id": "A053525",
+  "mentions": [
+    "A000670",
+    "A005840",
+    "A008292",
+    "A052882"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

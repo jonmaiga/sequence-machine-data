@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n which are divisors of the number produced by concatenating (n-1), (n-2), ... (n-5) in that order.",
+  "id": "A088869",
+  "mentions": [
+    "A069860",
+    "A088797",
+    "A088798",
+    "A088799",
+    "A088800",
+    "A088868",
+    "A088870",
+    "A088871",
+    "A088872"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of sublattices of index n in generic 8-dimensional lattice.",
+  "id": "A038995",
+  "mentions": [
+    "A001001",
+    "A038991",
+    "A038992",
+    "A038993",
+    "A038994",
+    "A038996",
+    "A038997",
+    "A038998",
+    "A038999"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

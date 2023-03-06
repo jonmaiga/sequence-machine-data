@@ -1,0 +1,29 @@
+{
+  "description": "Square table, read by antidiagonals, of coefficients T(k,n) (row k; column n) defined by :T(k,n) = k*T(k,n-1)+ n; T(k,0) = 0.",
+  "id": "A089000",
+  "mentions": [
+    "A000217",
+    "A000295",
+    "A000340",
+    "A001477",
+    "A010000",
+    "A014825",
+    "A014827",
+    "A023811",
+    "A062805",
+    "A088990"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

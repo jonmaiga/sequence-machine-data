@@ -1,0 +1,17 @@
+{
+  "description": "Exactly half the first a(n) terms of A022303 are 1's.",
+  "id": "A022305",
+  "mentions": [
+    "A022303"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:12:35",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of factorizations of n into distinct factors for some n (image of A045778).",
+  "id": "A045779",
+  "mentions": [
+    "A001055",
+    "A001222",
+    "A033833",
+    "A045778",
+    "A045780",
+    "A045782",
+    "A045783",
+    "A318286",
+    "A328966",
+    "A330972",
+    "A330973",
+    "A330974",
+    "A330975",
+    "A330976",
+    "A330997"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

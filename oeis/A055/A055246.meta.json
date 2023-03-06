@@ -1,0 +1,27 @@
+{
+  "description": "At step number k >= 1 the 2^(k-1) open intervals that are erased from [0,1] in the Cantor middle-third set construction are I(k,n) = (a(n)/3^k, (1+a(n))/3^k), n=1..2^(k-1).",
+  "id": "A055246",
+  "mentions": [
+    "A003278",
+    "A005823",
+    "A005836",
+    "A055247",
+    "A074938",
+    "A074939",
+    "A079944",
+    "A112035",
+    "A191107"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:25:01",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

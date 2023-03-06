@@ -1,0 +1,20 @@
+{
+  "description": "Fit a polynomial of degree k-1 to column k of array in A048790, evaluate it at dimension n = -1.",
+  "id": "A094100",
+  "mentions": [
+    "A048663",
+    "A048790",
+    "A048868",
+    "A094101"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

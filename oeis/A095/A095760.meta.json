@@ -1,0 +1,20 @@
+{
+  "description": "Number of A095747-primes in range ]2^(2n-1),2^2n].",
+  "id": "A095760",
+  "mentions": [
+    "A095062",
+    "A095747",
+    "A095757",
+    "A095759"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

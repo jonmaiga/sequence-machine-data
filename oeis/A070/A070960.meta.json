@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; a(n) = n!*(3/2) for n>=2.",
+  "id": "A070960",
+  "mentions": [
+    "A000142",
+    "A060315",
+    "A245334"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

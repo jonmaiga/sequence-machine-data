@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of Pi/8.",
+  "id": "A019675",
+  "mentions": [
+    "A000796",
+    "A001539",
+    "A003881",
+    "A019670",
+    "A024235",
+    "A061550",
+    "A195697",
+    "A195909",
+    "A195913",
+    "A244978",
+    "A334422"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:31",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

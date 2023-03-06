@@ -1,0 +1,18 @@
+{
+  "description": "Indices k of Bernoulli numbers B(k) whose numerators are primes.",
+  "id": "A092132",
+  "mentions": [
+    "A092133"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

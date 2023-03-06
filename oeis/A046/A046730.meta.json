@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A002172(n) / 2.",
+  "id": "A046730",
+  "mentions": [
+    "A002172"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

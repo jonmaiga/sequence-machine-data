@@ -1,0 +1,28 @@
+{
+  "description": "a(n+2) = -a(n+1) + a(n) (signed Fibonacci numbers) with a(-2) = a(-1) = 1; or Fibonacci numbers (A000045) extended to negative indices.",
+  "id": "A039834",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A011782",
+    "A038754",
+    "A055830",
+    "A215022",
+    "A215023",
+    "A227431",
+    "A343773"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": -2,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

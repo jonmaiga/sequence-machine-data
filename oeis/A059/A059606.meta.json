@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of (1/2)*(exp(2*x)-1)*exp(exp(x)-1).",
+  "id": "A059606",
+  "mentions": [
+    "A000110",
+    "A000217",
+    "A005493",
+    "A008277",
+    "A035098",
+    "A059604",
+    "A059605"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

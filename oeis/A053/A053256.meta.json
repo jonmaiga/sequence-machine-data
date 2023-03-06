@@ -1,0 +1,30 @@
+{
+  "description": "Coefficients of the '5th-order' mock theta function f_0(q).",
+  "id": "A053256",
+  "mentions": [
+    "A001622",
+    "A053257",
+    "A053258",
+    "A053259",
+    "A053260",
+    "A053261",
+    "A053262",
+    "A053263",
+    "A053264",
+    "A053265",
+    "A053266",
+    "A053267"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

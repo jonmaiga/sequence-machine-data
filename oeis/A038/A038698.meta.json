@@ -1,0 +1,34 @@
+{
+  "description": "Excess of 4k-1 primes over 4k+1 primes, beginning with prime 2.",
+  "id": "A038698",
+  "mentions": [
+    "A000040",
+    "A007350",
+    "A007351",
+    "A038691",
+    "A066520",
+    "A112632",
+    "A156749",
+    "A199547",
+    "A216057",
+    "A267097",
+    "A267098",
+    "A267107",
+    "A269364",
+    "A292378"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "hear",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d dividing n} binomial(2d,d).",
+  "id": "A072929",
+  "mentions": [
+    "A000010",
+    "A000984"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

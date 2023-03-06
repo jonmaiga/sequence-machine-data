@@ -1,0 +1,17 @@
+{
+  "description": "Form a triangle with n numbers in top row; all other numbers are the product of their parents. The numbers must be positive and distinct and the final number is to be minimized.",
+  "id": "A028308",
+  "mentions": [
+    "A028307"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Numbers with exactly 4 ones in binary expansion.",
+  "id": "A014312",
+  "mentions": [
+    "A000079",
+    "A014311",
+    "A014313",
+    "A018900",
+    "A023688",
+    "A023689",
+    "A023690",
+    "A023691",
+    "A057168",
+    "A090706",
+    "A127324",
+    "A194882",
+    "A194883",
+    "A194884"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

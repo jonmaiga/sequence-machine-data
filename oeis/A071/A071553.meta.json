@@ -1,0 +1,18 @@
+{
+  "description": "Least x greater than 1 such that x^n == 1 (mod i) for each i=1,2,3,...,n.",
+  "id": "A071553",
+  "mentions": [
+    "A003418"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

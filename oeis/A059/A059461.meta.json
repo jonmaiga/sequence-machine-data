@@ -1,0 +1,25 @@
+{
+  "description": "Numbers which are the sum of their proper divisors containing the digit 0.",
+  "id": "A059461",
+  "mentions": [
+    "A059462",
+    "A059463",
+    "A059464",
+    "A059465",
+    "A059466",
+    "A059467",
+    "A059468",
+    "A271448"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

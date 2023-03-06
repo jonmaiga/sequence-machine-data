@@ -1,0 +1,21 @@
+{
+  "description": "Number of 7/3+-power-free words over the alphabet {0,1}.",
+  "id": "A082380",
+  "mentions": [
+    "A007777",
+    "A028445",
+    "A038952",
+    "A082379"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

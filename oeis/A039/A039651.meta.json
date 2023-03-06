@@ -1,0 +1,23 @@
+{
+  "description": "Number of iterations of f(x) = phi(x)+1 on n required to reach a prime.",
+  "id": "A039651",
+  "mentions": [
+    "A039649",
+    "A039650",
+    "A039652",
+    "A039653",
+    "A039654",
+    "A039655",
+    "A039656"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:12:11",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Square array T(k,n) by antidiagonals, where T(k,n) is number of ways of placing n identifiable nonnegative intervals with a total of exactly k starting and/or finishing points.",
+  "id": "A059515",
+  "mentions": [
+    "A000007",
+    "A000680",
+    "A057427",
+    "A058481",
+    "A059117",
+    "A059516",
+    "A300729"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

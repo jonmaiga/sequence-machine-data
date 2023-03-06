@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n-th multiple of n with digit sum n.",
+  "id": "A082260",
+  "mentions": [
+    "A002998",
+    "A082259",
+    "A082261",
+    "A082262",
+    "A082263",
+    "A245062"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Binomial transform of (-1)^mod(n,3) (A257075).",
+  "id": "A086953",
+  "mentions": [
+    "A024493",
+    "A024495",
+    "A057079",
+    "A131370",
+    "A131708",
+    "A257075"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:34:22",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

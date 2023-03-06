@@ -1,0 +1,18 @@
+{
+  "description": "Primes P such that P=k*p(n)#-p(n+1) is prime for least k. Here p(i)# denotes the i-th primorial and p(i) denotes the i-th prime.",
+  "id": "A090188",
+  "mentions": [
+    "A090189"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

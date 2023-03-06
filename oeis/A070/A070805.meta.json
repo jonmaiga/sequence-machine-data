@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2; a(n) = largest prime not exceeding the sum of all previous terms.",
+  "id": "A070805",
+  "mentions": [
+    "A070218"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

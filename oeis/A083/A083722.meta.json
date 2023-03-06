@@ -1,0 +1,26 @@
+{
+  "description": "Product of primes greater than the greatest prime factor of n but not greater than n.",
+  "id": "A083722",
+  "mentions": [
+    "A002110",
+    "A006530",
+    "A007917",
+    "A049084",
+    "A083720",
+    "A083721",
+    "A293892",
+    "A293893",
+    "A293894"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

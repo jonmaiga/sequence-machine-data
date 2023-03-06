@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) = number of degree-n permutations with k even cycles, k=0..n.",
+  "id": "A060523",
+  "mentions": [
+    "A060524"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

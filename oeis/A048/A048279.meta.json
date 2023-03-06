@@ -1,0 +1,19 @@
+{
+  "description": "Values of n for which no values of C(n,k) except k=0 and k=n are squarefree.",
+  "id": "A048279",
+  "mentions": [
+    "A048276",
+    "A048277",
+    "A048278"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Functions on n points with a single labeled point.",
+  "id": "A027853",
+  "mentions": [
+    "A001372",
+    "A038002"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 06:27:55",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "First differences of A092673.",
+  "id": "A092155",
+  "mentions": [
+    "A092673"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

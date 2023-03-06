@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = n!*(4*n^3 - 30*n^2 + 40*n + 3)/24.",
+  "id": "A034863",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 4,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

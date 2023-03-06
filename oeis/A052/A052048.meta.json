@@ -1,0 +1,24 @@
+{
+  "description": "Cubes whose digits occur with the same frequency.",
+  "id": "A052048",
+  "mentions": [
+    "A045540",
+    "A052046",
+    "A052047",
+    "A052049",
+    "A052050",
+    "A052051",
+    "A052052"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 18:51:39",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

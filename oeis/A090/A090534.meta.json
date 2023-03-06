@@ -1,0 +1,18 @@
+{
+  "description": "Least n-digit prime in which every two-digit string is also a prime, or 0 if no such number exists. (n-1 two-digit string primes occur.)",
+  "id": "A090534",
+  "mentions": [
+    "A242377"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

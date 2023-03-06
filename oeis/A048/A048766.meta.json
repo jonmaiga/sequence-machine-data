@@ -1,0 +1,22 @@
+{
+  "description": "Integer part of cube root of n. Or, number of cubes <= n. Or, n appears 3n^2 + 3n + 1 times.",
+  "id": "A048766",
+  "mentions": [
+    "A000196",
+    "A003215",
+    "A007412",
+    "A210826"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

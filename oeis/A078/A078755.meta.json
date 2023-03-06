@@ -1,0 +1,17 @@
+{
+  "description": "Values of n such that equal numbers of 0's and 1's occur in the first n terms of the repetition-resistant sequence A079101.",
+  "id": "A078755",
+  "mentions": [
+    "A079101"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

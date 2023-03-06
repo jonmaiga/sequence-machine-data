@@ -1,0 +1,18 @@
+{
+  "description": "Consider the difference (A033873(k)) between the smallest prime > 10^k and 10^k; sequence lists the successive values of A033873(k) which are primes.",
+  "id": "A097517",
+  "mentions": [
+    "A033873",
+    "A033874"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

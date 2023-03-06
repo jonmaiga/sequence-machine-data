@@ -1,0 +1,28 @@
+{
+  "description": "Number of primes less than 10^n having at least one digit 1.",
+  "id": "A091645",
+  "mentions": [
+    "A006880",
+    "A091635",
+    "A091646",
+    "A091647",
+    "A091705",
+    "A091706",
+    "A091707",
+    "A091708",
+    "A091709",
+    "A091710"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

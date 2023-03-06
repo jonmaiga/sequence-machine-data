@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: n-th row is the first arithmetic progression with common difference n of n numbers with the same prime signature.",
+  "id": "A087307",
+  "mentions": [
+    "A087306"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

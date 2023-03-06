@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = T(2n,n), where T(n,k) is in A037027.",
+  "id": "A038112",
+  "mentions": [
+    "A001002",
+    "A037027",
+    "A092566"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

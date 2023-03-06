@@ -1,0 +1,27 @@
+{
+  "description": "Sum of prime factors of n-th semiprime.",
+  "id": "A068318",
+  "mentions": [
+    "A001358",
+    "A001414",
+    "A003415",
+    "A084126",
+    "A084127",
+    "A109313",
+    "A120831",
+    "A120832",
+    "A120833",
+    "A120834"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:41:31",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

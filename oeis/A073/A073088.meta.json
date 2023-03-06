@@ -1,0 +1,19 @@
+{
+  "description": "Sum of first n terms of the simple continued fraction of Sum_{k>=0} 1/2^(2^k) (cf. A007400).",
+  "id": "A073088",
+  "mentions": [
+    "A007400"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:50:51",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

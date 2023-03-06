@@ -1,0 +1,25 @@
+{
+  "description": "Primes having in binary representation a prime number of 1's.",
+  "id": "A081092",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A000215",
+    "A046704",
+    "A049084",
+    "A052294",
+    "A081091",
+    "A081093"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

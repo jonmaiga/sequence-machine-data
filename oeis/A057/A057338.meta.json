@@ -1,0 +1,22 @@
+{
+  "description": "Occurrences of most frequently occurring number in 1-to-n multiplication cube.",
+  "id": "A057338",
+  "mentions": [
+    "A057142",
+    "A057339",
+    "A057340",
+    "A057341",
+    "A057344"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

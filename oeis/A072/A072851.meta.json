@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 0, a(1) = a(2) = 1, a(n) = abs ( Sum{( - 1)^k*a(abs(n - k))*a(k), k=2..n-1})",
+  "id": "A072851",
+  "mentions": [
+    "A072231"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

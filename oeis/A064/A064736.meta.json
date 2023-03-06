@@ -1,0 +1,25 @@
+{
+  "description": "a(1)=1, a(2)=2; for n>0, a(2*n+2) = smallest number missing from {a(1), ... ,a(2*n)}, and a(2*n+1) = a(2*n)*a(2*n+2).",
+  "id": "A064736",
+  "mentions": [
+    "A064745",
+    "A064764",
+    "A210770",
+    "A286290",
+    "A286291",
+    "A286292",
+    "A286293"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

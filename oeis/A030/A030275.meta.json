@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of sequence {b(1), b(2),...} which when COMPOSED with itself gives {1,2,3,...}.",
+  "id": "A030275",
+  "mentions": [
+    "A030274",
+    "A091138"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:06",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

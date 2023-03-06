@@ -1,0 +1,28 @@
+{
+  "description": "2*a(n)^2 + 7 is a square.",
+  "id": "A077442",
+  "mentions": [
+    "A000129",
+    "A001652",
+    "A001653",
+    "A038761",
+    "A038762",
+    "A046090",
+    "A077443",
+    "A077985",
+    "A101386",
+    "A253811"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Egyptian fractions: number of partitions of 1 into reciprocals of positive integers <= n.",
+  "id": "A020473",
+  "mentions": [
+    "A038034",
+    "A092666",
+    "A092670",
+    "A208480"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

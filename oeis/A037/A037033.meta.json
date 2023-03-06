@@ -1,0 +1,22 @@
+{
+  "description": "Earliest sequence of 6 primes according to the rules stipulated in A005150.",
+  "id": "A037033",
+  "mentions": [
+    "A005150",
+    "A038131",
+    "A038132"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

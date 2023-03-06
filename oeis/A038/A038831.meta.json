@@ -1,0 +1,26 @@
+{
+  "description": "Number of primes between n*10^11 and (n+1)*10^11.",
+  "id": "A038831",
+  "mentions": [
+    "A038823",
+    "A038824",
+    "A038825",
+    "A038826",
+    "A038827",
+    "A038828",
+    "A038829",
+    "A038830",
+    "A038832",
+    "A080132"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

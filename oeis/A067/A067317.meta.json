@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 1 + binomial(k,j) is prime for only 2 values of j (0 <= j <= k).",
+  "id": "A067317",
+  "mentions": [
+    "A067316"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

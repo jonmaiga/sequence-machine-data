@@ -1,0 +1,20 @@
+{
+  "description": "Generalized Catalan numbers C(-11; n).",
+  "id": "A064333",
+  "mentions": [
+    "A000108",
+    "A064334"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

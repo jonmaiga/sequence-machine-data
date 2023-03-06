@@ -1,0 +1,19 @@
+{
+  "description": "Number of independent sets of nodes in graph K_6 X C_n (n > 2).",
+  "id": "A051931",
+  "mentions": [
+    "A287376"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

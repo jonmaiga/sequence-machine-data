@@ -1,0 +1,27 @@
+{
+  "description": "Triangles with perimeter n and relatively prime integer side lengths.",
+  "id": "A051493",
+  "mentions": [
+    "A005044",
+    "A057887",
+    "A070091",
+    "A070094",
+    "A070102",
+    "A070109",
+    "A070110",
+    "A070138",
+    "A070202",
+    "A123323"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

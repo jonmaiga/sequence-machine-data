@@ -1,0 +1,17 @@
+{
+  "description": "Mersenne-like sequence factors of complex real square type 2*Prime[m]^2-n^2-1.",
+  "id": "A095737",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

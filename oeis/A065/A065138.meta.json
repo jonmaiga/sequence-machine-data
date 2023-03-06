@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are equal to the sum of their digits plus the sum of cubes of their digits.",
+  "id": "A065138",
+  "mentions": [
+    "A046197",
+    "A065137"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

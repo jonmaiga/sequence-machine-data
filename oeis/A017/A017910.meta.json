@@ -1,0 +1,24 @@
+{
+  "description": "Powers of sqrt(2) rounded down.",
+  "id": "A017910",
+  "mentions": [
+    "A000079",
+    "A000196",
+    "A017912",
+    "A084188",
+    "A136417",
+    "A190568"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

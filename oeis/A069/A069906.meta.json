@@ -1,0 +1,27 @@
+{
+  "description": "Number of pentagons that can be formed with perimeter n. In other words, number of partitions of n into five parts such that the sum of any four is more than the fifth.",
+  "id": "A069906",
+  "mentions": [
+    "A002621",
+    "A005044",
+    "A026811",
+    "A062890",
+    "A069907",
+    "A288253",
+    "A288254",
+    "A288255",
+    "A288256"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

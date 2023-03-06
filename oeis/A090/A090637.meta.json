@@ -1,0 +1,19 @@
+{
+  "description": "Trajectory of 28 under the map k -> A003415(k) (taking the arithmetic derivative).",
+  "id": "A090637",
+  "mentions": [
+    "A003415",
+    "A090635",
+    "A090636"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

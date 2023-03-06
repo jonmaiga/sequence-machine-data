@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2*Fibonacci(n) - (1 - (-1)^n)/2.",
+  "id": "A062114",
+  "mentions": [
+    "A000045",
+    "A052952",
+    "A134513"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

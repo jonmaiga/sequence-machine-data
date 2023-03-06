@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that sopfr(n)/spf(n) is a semiprime and sopfr(n)/lpf(n) is a semiprime, where sopfr(n) = A001414(n) is sum of primes dividing n (with repetition), spf(n) and lpf(n) are smallest and largest primes dividing n, respectively. Also, spf(n)!=lpf(n).",
+  "id": "A085718",
+  "mentions": [
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

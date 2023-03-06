@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = lcm(n, n+1, n+2, n+3, n+4) / 60.",
+  "id": "A067048",
+  "mentions": [
+    "A067046",
+    "A067047"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:40:17",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

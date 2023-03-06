@@ -1,0 +1,21 @@
+{
+  "description": "Nim-Grundy function for Take-a-Square (or Subtract-a-Square) game.",
+  "id": "A014586",
+  "mentions": [
+    "A014587",
+    "A014589",
+    "A030193",
+    "A297963"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

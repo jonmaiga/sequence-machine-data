@@ -1,0 +1,16 @@
+{
+  "description": "Numerator of [x^(2n)] in the Taylor expansion log(cot(x)*arctanh(x))= x^4/15 +x^6/15 +317*x^8/5670 +389*x^10/8505 +6895597*x^12/182432250 +...",
+  "id": "A012871",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:55",
+    "offset": 2,
+    "size": 15,
+    "source": "joeis"
+  }
+}

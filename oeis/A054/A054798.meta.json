@@ -1,0 +1,20 @@
+{
+  "description": "Let N(k) and D(k) be the sequences defined in A054765 and A012244; write N(k)* D(k+j ) - N(k+j)*D(k) = (-1)^(k+1)*(k!)^2*P(k) where P(k) is a polynomial in k of degree j-1; sequence gives coefficients of expansion of P(k) in powers of k for j=1,2,3,...",
+  "id": "A054798",
+  "mentions": [
+    "A012244",
+    "A054765"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

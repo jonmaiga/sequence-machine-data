@@ -1,0 +1,17 @@
+{
+  "description": "Golc sequence in base 7. Left to right concatenation of n,int(log_7(n)),int(log_7(int(log_7(n)))),... in base7.",
+  "id": "A028437",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:37:19",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

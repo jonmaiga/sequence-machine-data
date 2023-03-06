@@ -1,0 +1,32 @@
+{
+  "description": "Triangle giving numerators of coefficients of Euler polynomials, highest powers first.",
+  "id": "A059341",
+  "mentions": [
+    "A004172",
+    "A004173",
+    "A004174",
+    "A004175",
+    "A011934",
+    "A020523",
+    "A020524",
+    "A020525",
+    "A020526",
+    "A020547",
+    "A020548",
+    "A058940",
+    "A059342"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "frac",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 93,
+    "source": "joeis"
+  }
+}

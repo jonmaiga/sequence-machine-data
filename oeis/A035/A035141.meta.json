@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers k such that digits in k and in juxtaposition of prime factors of k are the same (apart from multiplicity).",
+  "id": "A035141",
+  "mentions": [
+    "A035139",
+    "A035140"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

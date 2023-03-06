@@ -1,0 +1,27 @@
+{
+  "description": "Mersenne composites: 2^prime(m) - 1 is not a prime.",
+  "id": "A065341",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A001348",
+    "A001567",
+    "A054723",
+    "A135975",
+    "A135980",
+    "A136030",
+    "A136031",
+    "A145097"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

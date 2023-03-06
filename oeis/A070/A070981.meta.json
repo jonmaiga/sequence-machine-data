@@ -1,0 +1,19 @@
+{
+  "description": "Smallest integer k such that n divides floor((4/3)^k).",
+  "id": "A070981",
+  "mentions": [
+    "A064628"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

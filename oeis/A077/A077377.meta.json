@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree numbers whose external digits form a squarefree number.",
+  "id": "A077377",
+  "mentions": [
+    "A077376",
+    "A077378",
+    "A077379",
+    "A077380"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

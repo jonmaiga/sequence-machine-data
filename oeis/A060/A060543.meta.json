@@ -1,0 +1,32 @@
+{
+  "description": "Triangle, read by antidiagonals, where T(n,k) = C(n+n*k+k, n*k+k).",
+  "id": "A060543",
+  "mentions": [
+    "A000012",
+    "A001700",
+    "A005408",
+    "A007318",
+    "A015219",
+    "A025174",
+    "A060539",
+    "A060540",
+    "A060544",
+    "A060545",
+    "A108267",
+    "A108288",
+    "A108289",
+    "A108290"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

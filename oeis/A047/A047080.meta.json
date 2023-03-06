@@ -1,0 +1,35 @@
+{
+  "description": "Triangular array T read by rows: T(h,k)=number of paths from (0,0) to (k,h-k) using step-vectors (0,1), (1,0), (1,1) with no right angles between pairs of consecutive steps.",
+  "id": "A047080",
+  "mentions": [
+    "A000012",
+    "A001590",
+    "A022856",
+    "A028310",
+    "A047081",
+    "A047082",
+    "A047083",
+    "A047084",
+    "A047085",
+    "A047086",
+    "A047087",
+    "A047088",
+    "A078042",
+    "A089071",
+    "A091337",
+    "A171155"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:00:01",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(prime(n)/composite(n)).",
+  "id": "A073458",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A073459"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

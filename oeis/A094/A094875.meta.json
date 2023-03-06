@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=1 if floor(Pi*10^n) is prime, otherwise a(n)=0.",
+  "id": "A094875",
+  "mentions": [
+    "A000796",
+    "A010051",
+    "A089281"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

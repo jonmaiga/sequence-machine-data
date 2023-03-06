@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of triangle A054448 (second member of partial row sums triangle family of Fibonacci convolution triangle).",
+  "id": "A054449",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A054448"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:16:29",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

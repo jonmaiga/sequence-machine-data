@@ -1,0 +1,21 @@
+{
+  "description": "Molien series for group G_{1,2}^{8} of order 1536.",
+  "id": "A051462",
+  "mentions": [
+    "A051461",
+    "A051463"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:56:27",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

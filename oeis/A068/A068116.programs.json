@@ -1,0 +1,131 @@
+{
+  "oi": 68116,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[sin(1)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "sin",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cos(asin(cos(1)))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "cos",
+        "asin",
+        "cos",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cos(acot(tan(1)))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "tan",
+        "acot",
+        "cos",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cos(atan(cot(1)))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "cot",
+        "atan",
+        "cos",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cos(acos(0)+1)]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "1",
+        "+",
+        "cos",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2022-05-14",
+      "ix": "contfrac[cos(1-acos(0))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "0",
+        "acos",
+        "sub",
+        "cos",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cos(1)*tan(1)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "cos",
+        "1",
+        "tan",
+        "*",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cos(1)/cot(1)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "cos",
+        "1",
+        "cot",
+        "/",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-18",
+      "ix": "contfrac[cos(π/2+1)]",
+      "mt": 50,
+      "px": [
+        "π",
+        "2",
+        "/",
+        "1",
+        "+",
+        "cos",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-18",
+      "ix": "contfrac[sqrt(1-cos(1)²)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "1",
+        "cos",
+        "²",
+        "sub",
+        "sqrt",
+        "contfrac"
+      ]
+    }
+  ]
+}

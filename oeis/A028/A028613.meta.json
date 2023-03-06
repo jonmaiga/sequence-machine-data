@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of theta_3(q) * theta_3(q^12) + theta_2(q) * theta_2(q^12) in powers of q^(1/4).",
+  "id": "A028613",
+  "mentions": [
+    "A033716",
+    "A112604",
+    "A112607"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:39:23",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p + 4 is prime and p == 9 (mod 10).",
+  "id": "A074822",
+  "mentions": [
+    "A001223",
+    "A023200",
+    "A030433",
+    "A117078",
+    "A117563"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

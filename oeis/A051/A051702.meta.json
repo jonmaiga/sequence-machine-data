@@ -1,0 +1,27 @@
+{
+  "description": "Distance from n-th prime to closest prime.",
+  "id": "A051702",
+  "mentions": [
+    "A023186",
+    "A023188",
+    "A046929",
+    "A046931",
+    "A051650",
+    "A051652",
+    "A051697",
+    "A051728",
+    "A051730"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

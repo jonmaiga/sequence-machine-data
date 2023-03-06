@@ -1,0 +1,19 @@
+{
+  "description": "(Product of all composite numbers from 1 to n)/ ( product of the prime divisors of all composite numbers up to n). More precisely, denominator = product of the largest squarefree divisors of composite numbers up to n.",
+  "id": "A085056",
+  "mentions": [
+    "A003557",
+    "A084744"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k divides the sum of digits of 9^k.",
+  "id": "A062927",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

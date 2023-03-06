@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k^2+k+7 is a palindrome.",
+  "id": "A027722",
+  "mentions": [
+    "A005471",
+    "A027692",
+    "A027723",
+    "A027724",
+    "A027729",
+    "A027756"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

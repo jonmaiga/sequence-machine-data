@@ -1,0 +1,20 @@
+{
+  "description": "Smallest initial value k that reaches 1 in n steps when iterating the map m -> rad(m)-1, where rad(m) is the squarefree kernel of m (A007947).",
+  "id": "A075426",
+  "mentions": [
+    "A007947",
+    "A075425",
+    "A075427",
+    "A110157"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

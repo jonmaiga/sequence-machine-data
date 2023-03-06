@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 31; a(n+1) = a(n) + sum of decimal digits of a(n).",
+  "id": "A036228",
+  "mentions": [
+    "A003052",
+    "A004207",
+    "A006507",
+    "A007618",
+    "A016052",
+    "A249043"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:24:47",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

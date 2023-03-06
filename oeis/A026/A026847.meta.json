@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = T(n,m) + T(n,m+1) + ... + T(n,n), where m=[ (n+1)/2 ], T given by A026725.",
+  "id": "A026847",
+  "mentions": [
+    "A026725"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:02:33",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

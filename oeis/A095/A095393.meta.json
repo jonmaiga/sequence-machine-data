@@ -1,0 +1,19 @@
+{
+  "description": "Terms n are such that exactly half[=24] of the {210n+r} set is prime. Here r runs through the reduced residue system mod 210 (RRS[210]).",
+  "id": "A095393",
+  "mentions": [
+    "A095389",
+    "A095392"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

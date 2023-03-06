@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of coefficients in expansion of x^2*(1-exp(-2*x))^(-2).",
+  "id": "A098087",
+  "mentions": [
+    "A104007",
+    "A104042",
+    "A104097"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

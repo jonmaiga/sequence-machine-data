@@ -1,0 +1,26 @@
+{
+  "description": "Positive integers sorted by A001414(n), the sum of their prime divisors, as the major key and n as the minor key.",
+  "id": "A064364",
+  "mentions": [
+    "A000607",
+    "A000792",
+    "A001414",
+    "A002098",
+    "A056240",
+    "A257815"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

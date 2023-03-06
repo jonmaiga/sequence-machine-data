@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Li_4(1/2).",
+  "id": "A099218",
+  "mentions": [
+    "A076788",
+    "A099217",
+    "A099219",
+    "A099220",
+    "A099221",
+    "A099222",
+    "A099223",
+    "A099224"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

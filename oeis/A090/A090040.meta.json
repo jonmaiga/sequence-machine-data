@@ -1,0 +1,23 @@
+{
+  "description": "(3*6^n + 2^n)/4.",
+  "id": "A090040",
+  "mentions": [
+    "A019590",
+    "A081335",
+    "A117317",
+    "A175840",
+    "A193649"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

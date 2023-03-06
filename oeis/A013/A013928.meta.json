@@ -1,0 +1,31 @@
+{
+  "description": "Number of (positive) squarefree numbers < n.",
+  "id": "A013928",
+  "mentions": [
+    "A000720",
+    "A002321",
+    "A005117",
+    "A008683",
+    "A008966",
+    "A057627",
+    "A066779",
+    "A081239",
+    "A107079",
+    "A158819",
+    "A179211",
+    "A179215",
+    "A284584"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

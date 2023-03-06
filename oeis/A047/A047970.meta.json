@@ -1,0 +1,28 @@
+{
+  "description": "Antidiagonal sums of nexus numbers (A047969).",
+  "id": "A047970",
+  "mentions": [
+    "A003101",
+    "A005425",
+    "A026898",
+    "A047969",
+    "A074664",
+    "A085388",
+    "A089246",
+    "A101494",
+    "A112531",
+    "A112532",
+    "A242431"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

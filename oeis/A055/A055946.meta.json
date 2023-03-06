@@ -1,0 +1,20 @@
+{
+  "description": "n + reversal of base 3 digits of n (written in base 10).",
+  "id": "A055946",
+  "mentions": [
+    "A030102",
+    "A056964"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

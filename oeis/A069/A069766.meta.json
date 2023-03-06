@@ -1,0 +1,19 @@
+{
+  "description": "Self-inverse permutation of natural numbers induced by the automorphism RotateHandshakes180 (A069771) or xReflectHandshakes (A069772) acting on the symmetric parenthesizations encoded by A061855.",
+  "id": "A069766",
+  "mentions": [
+    "A061855",
+    "A069771",
+    "A069772"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

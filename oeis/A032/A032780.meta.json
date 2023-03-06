@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n(n+1)(n+2)...(n+8) / (n+(n+1)+(n+2)+...+(n+8)).",
+  "id": "A032780",
+  "mentions": [
+    "A032765",
+    "A032798",
+    "A104678"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:04:57",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

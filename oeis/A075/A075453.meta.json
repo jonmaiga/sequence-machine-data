@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of 1/pp(n) + 1/pp(n+1), where pp(n)=A001597(n-1) is the n-th perfect power.",
+  "id": "A075453",
+  "mentions": [
+    "A001597"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

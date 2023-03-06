@@ -1,0 +1,24 @@
+{
+  "description": "Full Łukasiewicz word for each rooted plane tree (interpretation e in Stanley's exercise 19) encoded by A014486 (or A063171).",
+  "id": "A079436",
+  "mentions": [
+    "A014486",
+    "A057514",
+    "A057515",
+    "A059984",
+    "A059985",
+    "A063171",
+    "A071153"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

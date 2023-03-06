@@ -1,0 +1,15 @@
+{
+  "description": "Number of irreducible polynomials (over the rationals) of form a*x^2+b*x+c 1<=a<=n, 1<=b<=n, 1<=c<=n.",
+  "id": "A079671",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

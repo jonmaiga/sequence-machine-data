@@ -1,0 +1,23 @@
+{
+  "description": "Primes p(k) having a smaller sum of digits than k.",
+  "id": "A090433",
+  "mentions": [
+    "A007605",
+    "A007953",
+    "A033548",
+    "A090431",
+    "A090432",
+    "A090457"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

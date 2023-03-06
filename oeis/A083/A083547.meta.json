@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sqrt(sqrt(phi(A083546(n)) * phi(1+A083546(n)))), the 4th root of product of totients of terms and 1+terms of A082788.",
+  "id": "A083547",
+  "mentions": [
+    "A000010",
+    "A082788",
+    "A083538",
+    "A083542",
+    "A083545",
+    "A083546"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Pseudoprimes to bases 2 and 5.",
+  "id": "A083732",
+  "mentions": [
+    "A001567",
+    "A005936"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

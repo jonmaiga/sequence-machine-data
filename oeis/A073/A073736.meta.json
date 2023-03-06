@@ -1,0 +1,20 @@
+{
+  "description": "Sum of primes whose index is congruent to n (mod 3); equals the partial sums of A073737 (in which sums of three successive terms form the primes).",
+  "id": "A073736",
+  "mentions": [
+    "A073737"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

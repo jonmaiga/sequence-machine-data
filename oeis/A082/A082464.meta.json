@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A072181(k) - 1 is prime.",
+  "id": "A082464",
+  "mentions": [
+    "A072181",
+    "A082463"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

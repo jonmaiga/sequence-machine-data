@@ -1,0 +1,30 @@
+{
+  "description": "Natural numbers in square maze arrangement, read by antidiagonals.",
+  "id": "A081344",
+  "mentions": [
+    "A001844",
+    "A002061",
+    "A004120",
+    "A016754",
+    "A053755",
+    "A081345",
+    "A081346",
+    "A194280",
+    "A213928",
+    "A219159",
+    "A220603",
+    "A220604"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

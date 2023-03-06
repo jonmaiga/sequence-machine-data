@@ -1,0 +1,18 @@
+{
+  "description": "Rearrangement of natural numbers such that the sum of n terms beginning with the n-th term is a palindrome. Smallest number not included earlier is given priority.",
+  "id": "A085100",
+  "mentions": [
+    "A085101"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

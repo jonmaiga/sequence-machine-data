@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A000203(A046528(n)): sigma of those numbers whose sigma is a power of 2, in order of appearance.",
+  "id": "A094502",
+  "mentions": [
+    "A000203",
+    "A046528",
+    "A048947",
+    "A078426",
+    "A094505"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

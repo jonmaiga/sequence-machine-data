@@ -1,0 +1,19 @@
+{
+  "description": "Integer part of ((4th elementary symmetric function of 1,2,...,n)/(1+2+...+n)).",
+  "id": "A024171",
+  "mentions": [
+    "A000217",
+    "A000915"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Rearrangement of integers such that a(0)!*a(1)!*...*a(n)! + 1 is prime.",
+  "id": "A094351",
+  "mentions": [
+    "A094352"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

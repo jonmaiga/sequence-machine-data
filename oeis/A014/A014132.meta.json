@@ -1,0 +1,41 @@
+{
+  "description": "Complement of triangular numbers (A000217); also array T(n,k) = ((n+k)^2 + n-k)/2, n, k > 0, read by antidiagonals.",
+  "id": "A014132",
+  "mentions": [
+    "A000096",
+    "A000124",
+    "A000217",
+    "A001105",
+    "A002024",
+    "A002260",
+    "A003057",
+    "A004202",
+    "A004736",
+    "A006002",
+    "A007401",
+    "A010054",
+    "A035214",
+    "A080036",
+    "A114327",
+    "A118011",
+    "A145397",
+    "A237593",
+    "A242401",
+    "A248952",
+    "A256188"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:38:31",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

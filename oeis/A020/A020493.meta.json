@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that d(n) (number of divisors) divides phi(n) (Euler function) divides sigma(n) (sum of divisors).",
+  "id": "A020493",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

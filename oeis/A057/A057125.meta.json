@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that 3 is a square mod n.",
+  "id": "A057125",
+  "mentions": [
+    "A008784",
+    "A038874",
+    "A057126",
+    "A057127",
+    "A057128",
+    "A057129",
+    "A057759"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

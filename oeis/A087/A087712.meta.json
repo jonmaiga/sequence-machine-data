@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 1; if n = k-th prime, a(n) = k; otherwise write all prime factors of n in nondecreasing order, replace each prime with its rank, and concatenate the ranks.",
+  "id": "A087712",
+  "mentions": [
+    "A027746",
+    "A049084",
+    "A077960",
+    "A082467",
+    "A098282",
+    "A112798",
+    "A156055"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

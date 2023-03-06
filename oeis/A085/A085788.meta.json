@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of n 3-spaced triangular numbers beginning with t(3), e.g., a(2)=t(3)+t(6)=6+21=27.",
+  "id": "A085788",
+  "mentions": [
+    "A001283",
+    "A004188",
+    "A006002",
+    "A254407"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:07:39",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(794).",
+  "id": "A042531",
+  "mentions": [
+    "A040765",
+    "A042530"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:32:04",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

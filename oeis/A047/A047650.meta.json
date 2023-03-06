@@ -1,0 +1,20 @@
+{
+  "description": "Primes for which golden mean tau is a quadratic residue.",
+  "id": "A047650",
+  "mentions": [
+    "A001583",
+    "A005968",
+    "A047651"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:16:13",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

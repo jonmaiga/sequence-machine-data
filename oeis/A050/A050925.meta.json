@@ -1,0 +1,30 @@
+{
+  "description": "Numerator of (n+1)*Bernoulli(n).",
+  "id": "A050925",
+  "mentions": [
+    "A000142",
+    "A000367",
+    "A002445",
+    "A002882",
+    "A003245",
+    "A050932",
+    "A106831",
+    "A123125",
+    "A127187",
+    "A127188",
+    "A242179"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

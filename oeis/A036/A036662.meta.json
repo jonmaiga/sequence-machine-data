@@ -1,0 +1,21 @@
+{
+  "description": "Shapes of height-balanced AVL trees of height at most 5 with n nodes.",
+  "id": "A036662",
+  "mentions": [
+    "A006265",
+    "A143897"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

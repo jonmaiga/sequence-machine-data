@@ -1,0 +1,15 @@
+{
+  "description": "Number of steps from one unit vector to next in linear quantum cellular automata.",
+  "id": "A019540",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

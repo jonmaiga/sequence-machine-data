@@ -1,0 +1,19 @@
+{
+  "description": "Let n = 2^e_2 * 3^e_3 * 5^e_5 * ... be the prime factorization of n; sequence gives n such that max{e_2, e_3, ...} is prime.",
+  "id": "A074661",
+  "mentions": [
+    "A056594",
+    "A060476",
+    "A096432"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

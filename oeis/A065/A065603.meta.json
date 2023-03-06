@@ -1,0 +1,22 @@
+{
+  "description": "Transposition diameter: maximal number of moves in an optimal sorting of n objects by moving blocks.",
+  "id": "A065603",
+  "mentions": [
+    "A164366",
+    "A219243"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

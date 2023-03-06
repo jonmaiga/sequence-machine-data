@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k with property that the sum of the digits of k is strictly less than the product of the digits of k.",
+  "id": "A062999",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A034710",
+    "A062329",
+    "A062996",
+    "A062997",
+    "A062998"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

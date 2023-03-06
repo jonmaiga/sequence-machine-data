@@ -1,0 +1,15 @@
+{
+  "description": "Number of solutions to c(1)*prime(2) + ... + c(n)*prime(n+1) = 2, where c(i) = +-1 for i>1, c(1) = 1.",
+  "id": "A022899",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

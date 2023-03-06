@@ -1,0 +1,24 @@
+{
+  "description": "Number of consecutive successors of n having the same number of prime factors as n (counted with multiplicity).",
+  "id": "A077655",
+  "mentions": [
+    "A001222",
+    "A045920",
+    "A045939",
+    "A045940",
+    "A045941",
+    "A045942",
+    "A077656",
+    "A077657"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

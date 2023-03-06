@@ -1,0 +1,19 @@
+{
+  "description": "Reflective numbers: n such that the decimal encoding of the prime factorization of n (A067599) is palindronomic.",
+  "id": "A066985",
+  "mentions": [
+    "A067598",
+    "A067599"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

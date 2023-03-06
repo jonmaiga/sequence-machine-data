@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are proper divisors of the number you get by rotating digits right once.",
+  "id": "A034089",
+  "mentions": [
+    "A245680"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:46:55",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

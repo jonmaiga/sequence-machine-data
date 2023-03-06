@@ -1,0 +1,17 @@
+{
+  "description": "Least number of the form x^2 + y^3 (x, y nonnegative) in exactly n ways.",
+  "id": "A060861",
+  "mentions": [
+    "A045634"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

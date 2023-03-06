@@ -1,0 +1,23 @@
+{
+  "description": "Half of theta series of cubic lattice with respect to edge.",
+  "id": "A045834",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A005876",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

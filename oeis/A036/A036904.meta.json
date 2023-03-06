@@ -1,0 +1,23 @@
+{
+  "description": "Scan decimal expansion of e until all n-digit strings have been seen; a(n) is number of digits that must be scanned.",
+  "id": "A036904",
+  "mentions": [
+    "A001113",
+    "A032510",
+    "A036900",
+    "A036906",
+    "A088576"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

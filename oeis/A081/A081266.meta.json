@@ -1,0 +1,29 @@
+{
+  "description": "Staggered diagonal of triangular spiral in A051682.",
+  "id": "A081266",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A005449",
+    "A014105",
+    "A022266",
+    "A033585",
+    "A051682",
+    "A062725",
+    "A144312",
+    "A144314",
+    "A218470"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

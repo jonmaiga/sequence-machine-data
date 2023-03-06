@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime not already used that is of the form prime(n)+kn for some k > 0.",
+  "id": "A090471",
+  "mentions": [
+    "A072063"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Pseudoprimes to base 41.",
+  "id": "A020169",
+  "mentions": [
+    "A001567"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:00",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

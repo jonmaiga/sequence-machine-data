@@ -1,0 +1,18 @@
+{
+  "description": "Number of steps needed to reach an integer starting with n-1/4 and iterating the map x ->x*ceiling(x).",
+  "id": "A081882",
+  "mentions": [
+    "A068119"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Beatty sequence for log(10).",
+  "id": "A059545",
+  "mentions": [
+    "A002392",
+    "A059546"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:49:31",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

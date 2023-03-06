@@ -1,0 +1,21 @@
+{
+  "description": "Fibonacci regression array: For n>=2 and 1<=k<=n-1, T(n,k) is the last term before the first nonpositive term in the sequence n, k, n-k, 2k-n, 2n-3k, 5k-3n, ...",
+  "id": "A097367",
+  "mentions": [
+    "A000045",
+    "A097368",
+    "A097369"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

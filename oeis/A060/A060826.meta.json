@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the largest number such that 3^a(n) [also 6^a(n)] divides A025487(n) (least prime signatures).",
+  "id": "A060826",
+  "mentions": [
+    "A007949",
+    "A025487",
+    "A036041",
+    "A051282",
+    "A122841"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

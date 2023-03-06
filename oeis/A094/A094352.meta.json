@@ -1,0 +1,17 @@
+{
+  "description": "Primes arising as b(0)!*b(1)!*...*b(n)! + 1 where b() = sequence A094351.",
+  "id": "A094352",
+  "mentions": [
+    "A094351"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

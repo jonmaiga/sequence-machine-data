@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n in which the greatest part is 7.",
+  "id": "A026813",
+  "mentions": [
+    "A008284",
+    "A008636",
+    "A026810",
+    "A026811",
+    "A026812",
+    "A026814",
+    "A026815",
+    "A026816"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

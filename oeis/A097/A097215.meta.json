@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that A076078(m) = m and bigomega(m) >= 2; or in other words, A097214, excluding powers of 2.",
+  "id": "A097215",
+  "mentions": [
+    "A002235",
+    "A076078",
+    "A097214",
+    "A097416",
+    "A281993"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

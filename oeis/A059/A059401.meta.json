@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that contain as proper substrings every maximal prime power dividing them.",
+  "id": "A059401",
+  "mentions": [
+    "A010055",
+    "A024619",
+    "A050694",
+    "A059402",
+    "A141809"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of full spectrum rook's walks on a (2 X n) board.",
+  "id": "A096121",
+  "mentions": [
+    "A096970",
+    "A102038",
+    "A269565"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:29:25",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

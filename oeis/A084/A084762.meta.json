@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of Product((2*n-p)/p: 2",
+  "id": "A084762",
+  "mentions": [
+    "A084763"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

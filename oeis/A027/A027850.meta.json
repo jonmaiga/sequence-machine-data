@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (n+1)*(14*n^3+13*n^2+6*n+1).",
+  "id": "A027850",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:35",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

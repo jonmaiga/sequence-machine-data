@@ -1,0 +1,23 @@
+{
+  "description": "Number of planar partitions of n with trace 4.",
+  "id": "A089351",
+  "mentions": [
+    "A000219",
+    "A005380",
+    "A005993",
+    "A050531",
+    "A089353"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:58:01",
+    "offset": 4,
+    "size": 37,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{0<=j<=i<=n} A027170(i, j).",
+  "id": "A027180",
+  "mentions": [
+    "A027170",
+    "A027178"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Powers of 2 with composite exponents.",
+  "id": "A073718",
+  "mentions": [
+    "A000079",
+    "A002808",
+    "A275306"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

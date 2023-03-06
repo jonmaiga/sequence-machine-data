@@ -1,0 +1,16 @@
+{
+  "description": "Cubes such that cube root of n and n have same digits.",
+  "id": "A029796",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:06",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

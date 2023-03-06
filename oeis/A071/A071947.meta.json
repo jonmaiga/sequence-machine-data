@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows of numbers of paths in a lattice satisfying certain conditions.",
+  "id": "A071947",
+  "mentions": [
+    "A002426",
+    "A005043",
+    "A027907",
+    "A089942",
+    "A112657"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:33:21",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

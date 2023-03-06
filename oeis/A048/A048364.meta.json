@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the index of the smallest triangular number containing exactly n 9's.",
+  "id": "A048364",
+  "mentions": [
+    "A036526",
+    "A048355",
+    "A049363"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

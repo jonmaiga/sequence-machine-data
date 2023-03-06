@@ -1,0 +1,21 @@
+{
+  "description": "Total number of 1's in the binary expansions of the first n primes: summatory A014499.",
+  "id": "A095375",
+  "mentions": [
+    "A000120",
+    "A000788",
+    "A014499",
+    "A079584"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Waring's problem: least positive integer requiring maximum number of terms when expressed as a sum of positive n-th powers.",
+  "id": "A018886",
+  "mentions": [
+    "A002379",
+    "A079611",
+    "A185187"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:53:39",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

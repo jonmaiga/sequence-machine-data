@@ -1,0 +1,23 @@
+{
+  "description": "Pell equation solutions (12*b(n))^2 - 145*a(n)^2 = -1 with b(n)=A097769(n), n >= 0.",
+  "id": "A097770",
+  "mentions": [
+    "A049310",
+    "A053120",
+    "A097768",
+    "A097769",
+    "A188647"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form F(i)^2 + F(j)^3, where F() are Fibonacci numbers.",
+  "id": "A045704",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:25:31",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

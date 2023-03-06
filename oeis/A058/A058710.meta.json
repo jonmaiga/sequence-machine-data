@@ -1,0 +1,29 @@
+{
+  "description": "Triangle T(n,k) giving number of loopless matroids of rank k on n labeled points (n >= 0, 0 <= k <= n).",
+  "id": "A058710",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000110",
+    "A008277",
+    "A056642",
+    "A058692",
+    "A058711",
+    "A058712",
+    "A058715",
+    "A058720"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

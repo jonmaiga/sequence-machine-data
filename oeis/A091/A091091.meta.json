@@ -1,0 +1,24 @@
+{
+  "description": "Numbers needing in binary and ternary representation an equal minimal number of editing steps (delete, insert or substitute) to transform them into their square.",
+  "id": "A091091",
+  "mentions": [
+    "A000290",
+    "A001737",
+    "A001738",
+    "A007088",
+    "A007089",
+    "A091092",
+    "A091093"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

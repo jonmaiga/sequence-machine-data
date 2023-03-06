@@ -1,0 +1,21 @@
+{
+  "description": "Number of odd semiprimes < 10^n. Number of terms of A046315 < 10^n.",
+  "id": "A085770",
+  "mentions": [
+    "A046315",
+    "A066265",
+    "A220262",
+    "A292785"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

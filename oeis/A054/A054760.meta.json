@@ -1,0 +1,30 @@
+{
+  "description": "Table T(n,k) = order of (n,k)-cage (smallest n-regular graph of girth k), n >= 2, k >= 3, read by antidiagonals.",
+  "id": "A054760",
+  "mentions": [
+    "A000066",
+    "A006787",
+    "A006856",
+    "A037233",
+    "A191595",
+    "A198300",
+    "A218553",
+    "A218554",
+    "A218555"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

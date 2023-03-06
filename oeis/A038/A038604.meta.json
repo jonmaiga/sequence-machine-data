@@ -1,0 +1,31 @@
+{
+  "description": "Primes not containing the digit '2'.",
+  "id": "A038604",
+  "mentions": [
+    "A000040",
+    "A038603",
+    "A038611",
+    "A038612",
+    "A038613",
+    "A038614",
+    "A038615",
+    "A038616",
+    "A038617",
+    "A038618",
+    "A052404",
+    "A065091"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: exp(x*exp(x*exp(x)) + 1/2*x^2*exp(x*exp(x))^2 + 1/4*x^4*exp(x*exp(x))^4).",
+  "id": "A060910",
+  "mentions": [
+    "A000949",
+    "A000951",
+    "A060905",
+    "A060913"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:53:49",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

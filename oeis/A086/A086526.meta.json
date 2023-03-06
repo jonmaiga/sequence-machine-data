@@ -1,0 +1,19 @@
+{
+  "description": "Beginning with 2, the smallest even number not included earlier such that the arithmetic mean of a pair of successive terms is a prime.",
+  "id": "A086526",
+  "mentions": [
+    "A055265",
+    "A086527"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

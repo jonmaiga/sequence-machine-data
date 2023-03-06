@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^2 contains only digits {0,3,4}, not ending with zero.",
+  "id": "A058429",
+  "mentions": [
+    "A058430"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

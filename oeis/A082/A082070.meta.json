@@ -1,0 +1,27 @@
+{
+  "description": "Smallest prime that divides phi(n) and sigma(n) = A000203(n), or 1 if phi(n) and sigma(n) are relatively prime.",
+  "id": "A082070",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A009223",
+    "A020639",
+    "A082064",
+    "A082067",
+    "A082068",
+    "A082069",
+    "A082071",
+    "A082072"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

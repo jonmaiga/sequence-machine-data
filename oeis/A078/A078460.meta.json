@@ -1,0 +1,19 @@
+{
+  "description": "Initial n digits in decimal portion of the Traveling Salesman constant (A073008) form a prime number.",
+  "id": "A078460",
+  "mentions": [
+    "A073008"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

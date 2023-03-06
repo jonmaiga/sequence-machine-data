@@ -1,0 +1,22 @@
+{
+  "description": "Smallest nontrivial extension of n which is prime.",
+  "id": "A030665",
+  "mentions": [
+    "A018800",
+    "A068695",
+    "A069695",
+    "A077501"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

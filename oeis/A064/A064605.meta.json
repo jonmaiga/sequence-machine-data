@@ -1,0 +1,29 @@
+{
+  "description": "Partial sum of Sigma_2(n) is divisible by n, where Sigma_2(n)=A001157(n).",
+  "id": "A064605",
+  "mentions": [
+    "A001157",
+    "A045345",
+    "A048290",
+    "A050226",
+    "A056650",
+    "A062982",
+    "A064602",
+    "A064606",
+    "A064607",
+    "A064610",
+    "A064611",
+    "A064612"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

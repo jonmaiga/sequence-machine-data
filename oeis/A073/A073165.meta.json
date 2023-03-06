@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) read by rows: related to David G. Cantor's sigma function.",
+  "id": "A073165",
+  "mentions": [
+    "A000356",
+    "A001700",
+    "A003645",
+    "A049505",
+    "A133112"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

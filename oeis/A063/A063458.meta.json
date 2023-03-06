@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor(a(n-1)^(Pi-1)); a(1) = 2.",
+  "id": "A063458",
+  "mentions": [
+    "A063457"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

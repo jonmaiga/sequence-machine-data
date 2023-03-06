@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = T(n,n), T given by A026568. Also a(n) = number of integer strings s(0),...,s(n) counted by T, such that s(n)=0.",
+  "id": "A026569",
+  "mentions": [
+    "A026568"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:18:22",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

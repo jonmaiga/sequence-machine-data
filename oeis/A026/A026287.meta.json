@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = sum of the numbers between the two n's in A026284.",
+  "id": "A026287",
+  "mentions": [
+    "A026284"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:31:11",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

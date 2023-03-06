@@ -1,0 +1,20 @@
+{
+  "description": "First denominator and then numerator of 1/2-Pascal triangle (by row), excluding 1's.",
+  "id": "A046216",
+  "mentions": [
+    "A046213"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "frac",
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:29:29",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

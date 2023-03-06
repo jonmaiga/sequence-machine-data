@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-digit numbers with nonzero multiplicative digital root 3.",
+  "id": "A051814",
+  "mentions": [
+    "A051802",
+    "A051805",
+    "A051823"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

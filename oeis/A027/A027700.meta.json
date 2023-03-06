@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the k-th prime has an even number of 1's in its binary expansion.",
+  "id": "A027700",
+  "mentions": [
+    "A027697",
+    "A027698",
+    "A027699"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

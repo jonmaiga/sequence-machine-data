@@ -1,0 +1,19 @@
+{
+  "description": "A card-arranging problem: number of permutations p_1, ..., p_n of 1, ..., n such that i + p_i is a cube for every i.",
+  "id": "A096904",
+  "mentions": [
+    "A006063",
+    "A096680"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 180,
+    "source": "oeis-entry"
+  }
+}

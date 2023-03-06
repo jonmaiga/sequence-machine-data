@@ -1,0 +1,21 @@
+{
+  "description": "Circuit cost of the hardest Boolean function of n variables; metric: 2-input AND-gates cost 1, NOT is free, fanout is free, inputs are free, no feedback allowed.",
+  "id": "A057241",
+  "mentions": [
+    "A056287",
+    "A058759"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

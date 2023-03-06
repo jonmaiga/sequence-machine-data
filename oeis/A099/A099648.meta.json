@@ -1,0 +1,21 @@
+{
+  "description": "Largest term arising in complete-iteration-list (both transient and cycle) when f(x) = A003132(x) is iterated, i.e., if digit-squares of iterate added repeatedly until steady state (= either cycle or fixed point) is reached.",
+  "id": "A099648",
+  "mentions": [
+    "A003132",
+    "A031176",
+    "A099646",
+    "A099649"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

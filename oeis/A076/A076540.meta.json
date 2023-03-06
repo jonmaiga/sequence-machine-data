@@ -1,0 +1,23 @@
+{
+  "description": "Number of branches in all ordered trees with n edges.",
+  "id": "A076540",
+  "mentions": [
+    "A000108",
+    "A001791",
+    "A005717",
+    "A073663",
+    "A136535"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

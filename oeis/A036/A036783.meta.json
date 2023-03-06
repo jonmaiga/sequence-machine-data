@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*cycle_index(G,A(x)) where G = tetragonal pyramid group of order 4 with cycle index (z1^5+2*z1*z4+z1*z2^2)/4.",
+  "id": "A036783",
+  "mentions": [
+    "A036784"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:17:24",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

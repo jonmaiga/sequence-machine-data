@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers n such that the trajectory of n under the Reverse and Add! operation carried out in base 2 (presumably) does not join the trajectory of any m < n.",
+  "id": "A092210",
+  "mentions": [
+    "A035522",
+    "A070788",
+    "A075252",
+    "A091675"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

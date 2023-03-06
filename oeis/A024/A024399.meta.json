@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [ (3rd elementary symmetric function of S(n))/(first elementary symmetric function of S(n)) ], where S(n) = {first n+2 positive integers congruent to 2 mod 3}.",
+  "id": "A024399",
+  "mentions": [
+    "A005449",
+    "A024392"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:23:15",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

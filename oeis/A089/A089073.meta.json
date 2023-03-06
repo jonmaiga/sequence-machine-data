@@ -1,0 +1,18 @@
+{
+  "description": "Number of symmetric non-crossing connected graphs on n equidistant nodes on a circle.",
+  "id": "A089073",
+  "mentions": [
+    "A078531"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

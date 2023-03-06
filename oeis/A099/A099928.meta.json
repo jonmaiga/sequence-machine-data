@@ -1,0 +1,17 @@
+{
+  "description": "Row sums of Pellonomial triangle A099927.",
+  "id": "A099928",
+  "mentions": [
+    "A099927"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

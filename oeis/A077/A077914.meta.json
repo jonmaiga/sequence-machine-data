@@ -1,0 +1,22 @@
+{
+  "description": "Sums of two distinct primes in exactly two ways.",
+  "id": "A077914",
+  "mentions": [
+    "A077969",
+    "A078299",
+    "A080854",
+    "A080862",
+    "A117929"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

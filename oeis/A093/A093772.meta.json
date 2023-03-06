@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest integer at which the value of the \"truncated Mertens function\" (= A088004) equals n.",
+  "id": "A093772",
+  "mentions": [
+    "A002321",
+    "A008682",
+    "A059071",
+    "A088004",
+    "A093773"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

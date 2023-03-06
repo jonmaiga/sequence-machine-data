@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(H(n) + exp(H(n))*log(H(n))), where H(n) = Sum_{k=1..n} 1/k.",
+  "id": "A057640",
+  "mentions": [
+    "A000203",
+    "A001008",
+    "A002805",
+    "A057641"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

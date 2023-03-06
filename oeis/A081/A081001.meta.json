@@ -1,0 +1,22 @@
+{
+  "description": "n is in the sequence if and only if it does not rank among the top n positive integers in centrality (cf. A080997 for fuller explanation of this concept).",
+  "id": "A081001",
+  "mentions": [
+    "A018804",
+    "A080997",
+    "A080998",
+    "A081000",
+    "A081028"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

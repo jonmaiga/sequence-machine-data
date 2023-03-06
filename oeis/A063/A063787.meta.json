@@ -1,0 +1,24 @@
+{
+  "description": "a(2^k) = k + 1 and a(2^k + i) = 1 + a(i) for k >= 0 and 0 < i < 2^k.",
+  "id": "A063787",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A007814",
+    "A047457",
+    "A086799",
+    "A131136",
+    "A330038"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

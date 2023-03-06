@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = prime(9*n - 2).",
+  "id": "A031383",
+  "mentions": [
+    "A017245"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:50:45",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

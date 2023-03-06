@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of sets of natural numbers [a,b,c,d,e] that can be produced with the numbers [0..n] such that the values of all the distinct parenthesized expressions of a-b-c-d-e are different.",
+  "id": "A054026",
+  "mentions": [
+    "A002620",
+    "A045991",
+    "A047929"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:15:01",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

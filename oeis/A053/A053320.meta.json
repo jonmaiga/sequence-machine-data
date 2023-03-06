@@ -1,0 +1,19 @@
+{
+  "description": "Distance between pairs of primes differing by 4.",
+  "id": "A053320",
+  "mentions": [
+    "A023200",
+    "A227346"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:07:59",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

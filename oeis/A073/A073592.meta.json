@@ -1,0 +1,25 @@
+{
+  "description": "Euler transform of negative integers.",
+  "id": "A073592",
+  "mentions": [
+    "A000219",
+    "A001157",
+    "A001478",
+    "A026007",
+    "A156616",
+    "A166861",
+    "A255528",
+    "A283272"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

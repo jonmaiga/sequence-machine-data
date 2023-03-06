@@ -1,0 +1,17 @@
+{
+  "description": "Second term of continued fraction for log(n).",
+  "id": "A057603",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 2,
+    "size": 95,
+    "source": "joeis"
+  }
+}

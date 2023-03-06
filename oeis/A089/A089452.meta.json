@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = smallest prime k such that k*(prime(n)-1) + prime(n) is prime.",
+  "id": "A089452",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 2,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

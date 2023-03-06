@@ -1,0 +1,20 @@
+{
+  "description": "Largest odd number that can be represented in exactly n ways as p+2*i^2 where p is 1 or a prime and i >= 0.",
+  "id": "A055108",
+  "mentions": [
+    "A007697",
+    "A016067",
+    "A046903"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

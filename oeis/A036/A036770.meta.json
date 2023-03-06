@@ -1,0 +1,22 @@
+{
+  "description": "Number of labeled rooted trees with a degree constraint: (2*n)!/(2^n) * C(2*n+1, n).",
+  "id": "A036770",
+  "mentions": [
+    "A001190",
+    "A036771",
+    "A036772",
+    "A036773",
+    "A052510"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:29:33",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

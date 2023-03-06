@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted 6-dimensional \"polycubes\" with n cells, with no symmetries removed.",
+  "id": "A048667",
+  "mentions": [
+    "A048663",
+    "A048790",
+    "A151832"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(i,j) = lcm(i,j)/gcd(i,j) for 1 <= j <= i.",
+  "id": "A051537",
+  "mentions": [
+    "A002378",
+    "A050873",
+    "A051173",
+    "A054531",
+    "A056789",
+    "A070260",
+    "A070261",
+    "A070262",
+    "A164306"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:56:49",
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

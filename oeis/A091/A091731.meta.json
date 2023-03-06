@@ -1,0 +1,19 @@
+{
+  "description": "Number of irreducible elements of Z[sqrt(-5)] of norm n (counting a and -a once only).",
+  "id": "A091731",
+  "mentions": [
+    "A091730"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

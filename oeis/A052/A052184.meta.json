@@ -1,0 +1,19 @@
+{
+  "description": "Length of shortest dominating cycle in binary hypercube of dimension n.",
+  "id": "A052184",
+  "mentions": [
+    "A052185"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

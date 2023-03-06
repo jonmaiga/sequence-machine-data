@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: the n-th row contains the first n-1 multiples of prime(n) followed by the next multiple that will make the row sum a multiple of n.",
+  "id": "A083173",
+  "mentions": [
+    "A083174",
+    "A083175",
+    "A083176"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

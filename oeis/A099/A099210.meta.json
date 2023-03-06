@@ -1,0 +1,16 @@
+{
+  "description": "a(n)=(P(n)*P(n+2))^5 with P(i)=i-th prime.",
+  "id": "A099210",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Values of n where A072629 switches from 01010.. into 0000.. or back.",
+  "id": "A072630",
+  "mentions": [
+    "A000149",
+    "A004648",
+    "A072608",
+    "A072609",
+    "A072610",
+    "A072629"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

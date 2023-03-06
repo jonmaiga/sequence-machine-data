@@ -1,0 +1,19 @@
+{
+  "description": "Number of composite numbers whose juxtaposition of prime factors has length n.",
+  "id": "A036334",
+  "mentions": [
+    "A036326",
+    "A036333"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

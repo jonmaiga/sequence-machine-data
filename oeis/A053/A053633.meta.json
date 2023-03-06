@@ -1,0 +1,26 @@
+{
+  "description": "Triangular array T(n,k) giving coefficients in expansion of Product_{j=1..n} (1+x^j) mod x^(n+1)-1.",
+  "id": "A053633",
+  "mentions": [
+    "A000016",
+    "A000048",
+    "A053632",
+    "A063776",
+    "A300328",
+    "A300628"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:10:05",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "A014486-encoding of the Catalan mountain ranges with only even-length slopes allowed.",
+  "id": "A083932",
+  "mentions": [
+    "A008585",
+    "A014486",
+    "A080316",
+    "A083931",
+    "A083933",
+    "A083934"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Pronic numbers repeated 4 times; a(n) = floor(n/4) * ceiling((n+1)/4).",
+  "id": "A038714",
+  "mentions": [
+    "A002378",
+    "A004526"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:41:37",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

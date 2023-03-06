@@ -1,0 +1,20 @@
+{
+  "description": "Primes that yield another prime on placing a 9 on both sides (as leading and trailing digits).",
+  "id": "A069690",
+  "mentions": [
+    "A069687",
+    "A069688",
+    "A069689"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

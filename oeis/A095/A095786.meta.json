@@ -1,0 +1,18 @@
+{
+  "description": "Values of n for which A095777(n) is 17 (those terms which are expressible in decimal digits for bases 2 through 18, but not for base 19).",
+  "id": "A095786",
+  "mentions": [
+    "A095777"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

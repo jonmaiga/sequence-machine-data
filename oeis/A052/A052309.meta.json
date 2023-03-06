@@ -1,0 +1,17 @@
+{
+  "description": "Column 1 of triangle A052308.",
+  "id": "A052309",
+  "mentions": [
+    "A052308"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:05:29",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

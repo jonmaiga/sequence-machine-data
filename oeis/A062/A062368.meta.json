@@ -1,0 +1,26 @@
+{
+  "description": "Multiplicative with a(p^e) = (e+1)*(e+2)*(4*e+3)/6.",
+  "id": "A062368",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A002412",
+    "A007425",
+    "A028234",
+    "A060648",
+    "A062380",
+    "A067029"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

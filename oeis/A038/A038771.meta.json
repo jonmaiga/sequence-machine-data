@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest composite number c such that A002110(n) + c is prime.",
+  "id": "A038771",
+  "mentions": [
+    "A002110",
+    "A005235",
+    "A054757",
+    "A054758"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

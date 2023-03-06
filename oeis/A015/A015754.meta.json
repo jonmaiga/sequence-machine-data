@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into distinct parts, none being 7.",
+  "id": "A015754",
+  "mentions": [
+    "A015742",
+    "A015744",
+    "A015745",
+    "A015746",
+    "A015750",
+    "A015753",
+    "A015755",
+    "A025147"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

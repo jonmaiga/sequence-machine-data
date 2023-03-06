@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 1 + product of first n composite numbers is prime.",
+  "id": "A053982",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A057017"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

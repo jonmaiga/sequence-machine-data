@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1 and then numbers such that the product of n terms starting with the n-th term is an n-th power. The smallest numbers not occurring earlier are used first.",
+  "id": "A082236",
+  "mentions": [
+    "A082237"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

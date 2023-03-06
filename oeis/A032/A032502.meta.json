@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 251*2^k+1 is prime.",
+  "id": "A032502",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

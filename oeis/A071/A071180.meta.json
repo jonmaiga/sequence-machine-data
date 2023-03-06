@@ -1,0 +1,16 @@
+{
+  "description": "Number of numbers m with n < m <= n^2 containing n in decimal representation.",
+  "id": "A071180",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

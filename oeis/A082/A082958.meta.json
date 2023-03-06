@@ -1,0 +1,19 @@
+{
+  "description": "Number of symmetric short bushes with n edges.",
+  "id": "A082958",
+  "mentions": [
+    "A007814",
+    "A035263"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

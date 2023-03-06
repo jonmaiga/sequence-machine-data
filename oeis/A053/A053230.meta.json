@@ -1,0 +1,28 @@
+{
+  "description": "First differences between numbers k for which sigma(k) < sigma(k+1).",
+  "id": "A053230",
+  "mentions": [
+    "A000203",
+    "A053224",
+    "A053231",
+    "A053232",
+    "A053233",
+    "A053234",
+    "A053235",
+    "A053236",
+    "A053237",
+    "A053238"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

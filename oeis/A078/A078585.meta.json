@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of Sum_{n>=0} 1/4^(2^n).",
+  "id": "A078585",
+  "mentions": [
+    "A006464",
+    "A007404",
+    "A008683",
+    "A036987",
+    "A078885",
+    "A078886",
+    "A078887",
+    "A078888",
+    "A078889",
+    "A078890"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "3-Carmichael numbers: Carmichael numbers equal to the product of 3 primes: k = p*q*r, where p < q < r are primes such that a^(k-1) == 1 (mod k) if a is prime to k.",
+  "id": "A087788",
+  "mentions": [
+    "A002997",
+    "A162290",
+    "A324316",
+    "A324460"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

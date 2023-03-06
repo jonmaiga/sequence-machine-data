@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(657).",
+  "id": "A042262",
+  "mentions": [
+    "A042263"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:14:17",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

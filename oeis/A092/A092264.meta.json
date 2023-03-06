@@ -1,0 +1,23 @@
+{
+  "description": "a(n)*a(n-5) = a(n-1)*a(n-4)+a(n-2)+a(n-3), with initial terms a(1) = ... = a(5) = 1.",
+  "id": "A092264",
+  "mentions": [
+    "A072881",
+    "A133846",
+    "A133847",
+    "A133848",
+    "A133854"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

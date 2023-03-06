@@ -1,0 +1,20 @@
+{
+  "description": "Period length of continued fraction for square root of A095372(n)=1+90*(-1+100^n)/99.",
+  "id": "A096486",
+  "mentions": [
+    "A095372",
+    "A096485"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

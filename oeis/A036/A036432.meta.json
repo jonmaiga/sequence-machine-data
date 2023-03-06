@@ -1,0 +1,21 @@
+{
+  "description": "Sets a record for the number of positive integers which, when added to the number of their divisors, gives n.",
+  "id": "A036432",
+  "mentions": [
+    "A036431"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Rectangular array, by antidiagonals: T(n,k) = rank of k-th n in A097291.",
+  "id": "A097347",
+  "mentions": [
+    "A000290",
+    "A002522",
+    "A010000",
+    "A097291",
+    "A097292"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

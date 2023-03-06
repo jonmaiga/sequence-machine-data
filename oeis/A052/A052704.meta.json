@@ -1,0 +1,19 @@
+{
+  "description": "Apart from the leading term, a(n) = Catalan(n-1)*4^(n-1).",
+  "id": "A052704",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

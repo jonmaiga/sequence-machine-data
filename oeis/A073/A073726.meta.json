@@ -1,0 +1,20 @@
+{
+  "description": "Primitive irreducible trinomials: x^n + x^k + 1 is a primitive irreducible polynomial (mod 2) for some k with 0 < k < n.",
+  "id": "A073726",
+  "mentions": [
+    "A001153",
+    "A074744",
+    "A194125"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

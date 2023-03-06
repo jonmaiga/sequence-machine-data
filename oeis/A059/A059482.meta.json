@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=1, a(n) = a(n-1) + 8*10^(n-1).",
+  "id": "A059482",
+  "mentions": [
+    "A002282"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

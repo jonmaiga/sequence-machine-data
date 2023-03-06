@@ -1,0 +1,21 @@
+{
+  "description": "Number of preferential arrangements (or simple hierarchies) of 2*n labeled elements with two kinds of elements (where each kind has n elements).",
+  "id": "A099880",
+  "mentions": [
+    "A000670",
+    "A003480",
+    "A075729",
+    "A154921"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

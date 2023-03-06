@@ -1,0 +1,26 @@
+{
+  "description": "Table T(n,k) read along rows: the coefficient [q^k] of the Sum_{m=0..n} [n,m]_q over q-Binomial coefficients.",
+  "id": "A083906",
+  "mentions": [
+    "A000041",
+    "A029552",
+    "A033638",
+    "A049597",
+    "A077028",
+    "A083479",
+    "A083480",
+    "A098613"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

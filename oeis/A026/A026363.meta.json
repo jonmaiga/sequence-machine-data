@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = least k such that s(k) = n, where s = A026362.",
+  "id": "A026363",
+  "mentions": [
+    "A000027",
+    "A004526",
+    "A026362",
+    "A026364",
+    "A079255",
+    "A080428",
+    "A187224",
+    "A285430"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

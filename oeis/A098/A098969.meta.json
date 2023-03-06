@@ -1,0 +1,18 @@
+{
+  "description": "Where the records (A098968) occur in A046930 (if initial term is 0 not 1).",
+  "id": "A098969",
+  "mentions": [
+    "A046930",
+    "A098968"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

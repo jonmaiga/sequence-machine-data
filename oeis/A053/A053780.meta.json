@@ -1,0 +1,24 @@
+{
+  "description": "Palindromes arising in A053779.",
+  "id": "A053780",
+  "mentions": [
+    "A002113",
+    "A002808",
+    "A029965",
+    "A029966",
+    "A053779",
+    "A171706",
+    "A171741"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:02:39",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers having one 3 in base 6.",
+  "id": "A043381",
+  "mentions": [
+    "A007092"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

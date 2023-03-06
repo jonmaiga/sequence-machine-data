@@ -1,0 +1,33 @@
+{
+  "description": "First differences of n^k.",
+  "id": "A085388",
+  "mentions": [
+    "A002001",
+    "A005054",
+    "A011782",
+    "A025192",
+    "A052268",
+    "A052934",
+    "A053506",
+    "A055272",
+    "A055274",
+    "A055275",
+    "A055276",
+    "A083064",
+    "A085389",
+    "A085390"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

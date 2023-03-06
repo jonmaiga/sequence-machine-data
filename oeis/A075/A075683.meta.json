@@ -1,0 +1,17 @@
+{
+  "description": "2nd differences of A075681.",
+  "id": "A075683",
+  "mentions": [
+    "A075681"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

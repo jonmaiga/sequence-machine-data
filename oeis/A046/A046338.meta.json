@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes > 0 with an even number of prime factors (counted with multiplicity).",
+  "id": "A046338",
+  "mentions": [
+    "A028260",
+    "A046337"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

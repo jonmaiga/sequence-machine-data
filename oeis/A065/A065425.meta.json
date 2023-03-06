@@ -1,0 +1,19 @@
+{
+  "description": "Smallest odd prime greater than n such that the decimal expansion of its base n conversion is also prime.",
+  "id": "A065425",
+  "mentions": [
+    "A065720",
+    "A065727"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

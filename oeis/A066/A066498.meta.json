@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that 3 divides phi(k).",
+  "id": "A066498",
+  "mentions": [
+    "A000010",
+    "A007645",
+    "A066499",
+    "A066500",
+    "A066501",
+    "A066502",
+    "A088232",
+    "A277915"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

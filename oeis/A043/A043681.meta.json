@@ -1,0 +1,18 @@
+{
+  "description": "When cubed gives number composed just of the digits 0, 1, 2, 3.",
+  "id": "A043681",
+  "mentions": [
+    "A030175"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

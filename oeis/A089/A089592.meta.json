@@ -1,0 +1,20 @@
+{
+  "description": "For any prime p, define a sequence S_p: S_p(1) = p and S_p(n+1) is the least prime > S_p(n) that begins with the last digit of S_p(n). Let f(p) be the first member of S_p that is the digit reversal of the previous member. Sequence contains primes p that such that f(p) does not equal f(q) for any q < p.",
+  "id": "A089592",
+  "mentions": [
+    "A061448"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

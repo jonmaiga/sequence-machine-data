@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A068639.",
+  "id": "A087733",
+  "mentions": [
+    "A068639"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

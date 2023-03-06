@@ -1,0 +1,18 @@
+{
+  "description": "Number of 1's minus number of 0's in first n terms of A030317.",
+  "id": "A030323",
+  "mentions": [
+    "A030317"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:47:41",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

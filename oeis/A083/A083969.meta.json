@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that 2.n.3.n.5.n.7.n.11 is prime (dot means concatenation).",
+  "id": "A083969",
+  "mentions": [
+    "A032711",
+    "A083677",
+    "A092115",
+    "A092117"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

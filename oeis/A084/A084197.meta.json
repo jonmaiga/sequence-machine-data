@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that there exists at least one prime q",
+  "id": "A084197",
+  "mentions": [
+    "A049084",
+    "A082539",
+    "A084196",
+    "A084198",
+    "A084200"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Primes with primitive root 82.",
+  "id": "A019404",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 13:40:33",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

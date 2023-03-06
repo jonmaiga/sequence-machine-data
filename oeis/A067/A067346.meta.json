@@ -1,0 +1,24 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k)=T(n,k-1)*n^2/(n-1)-Catalan(k-1) with a(n,1)=n-1 and a(1,k)=0 where Catalan(k)=C(2k,k)/(k+1)=A000108(k).",
+  "id": "A067346",
+  "mentions": [
+    "A000004",
+    "A000108",
+    "A001700",
+    "A067336",
+    "A067345",
+    "A067347"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

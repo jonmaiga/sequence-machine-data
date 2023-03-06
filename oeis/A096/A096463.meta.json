@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of convergents to Pi/2.",
+  "id": "A096463",
+  "mentions": [
+    "A053300",
+    "A096456"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

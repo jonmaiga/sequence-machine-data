@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(120).",
+  "id": "A041219",
+  "mentions": [
+    "A002530",
+    "A041218"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:51",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

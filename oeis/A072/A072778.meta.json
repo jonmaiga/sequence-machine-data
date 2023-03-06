@@ -1,0 +1,18 @@
+{
+  "description": "Number of powers of squarefree numbers <= n.",
+  "id": "A072778",
+  "mentions": [
+    "A013928",
+    "A072774"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

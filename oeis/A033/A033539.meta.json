@@ -1,0 +1,22 @@
+{
+  "description": "a(0)=1, a(1)=1, a(2)=1, a(n) = 2*a(n-1) + a(n-2) + 1.",
+  "id": "A033539",
+  "mentions": [
+    "A001333",
+    "A002203",
+    "A033538"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

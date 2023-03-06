@@ -1,0 +1,17 @@
+{
+  "description": "First column of spectral array W(sqrt(3)).",
+  "id": "A022158",
+  "mentions": [
+    "A022159"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:12:25",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

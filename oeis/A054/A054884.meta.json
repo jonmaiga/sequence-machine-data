@@ -1,0 +1,25 @@
+{
+  "description": "Number of closed walks of length n along the edges of an icosahedron based at a vertex.",
+  "id": "A054884",
+  "mentions": [
+    "A030517",
+    "A030518",
+    "A054881",
+    "A054882",
+    "A054883",
+    "A054885"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

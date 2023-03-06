@@ -1,0 +1,26 @@
+{
+  "description": "m such that A086956(m)=n and A086956(k)=n for exactly one k",
+  "id": "A086958",
+  "mentions": [
+    "A086938",
+    "A086939",
+    "A086956",
+    "A086957",
+    "A086959",
+    "A086960",
+    "A086961",
+    "A086962",
+    "A086963",
+    "A086964"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

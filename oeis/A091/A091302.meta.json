@@ -1,0 +1,20 @@
+{
+  "description": "Number of equivalence classes of directed Hamiltonian cycles (or Gray codes) in the binary n-cube with one node marked.",
+  "id": "A091302",
+  "mentions": [
+    "A003042",
+    "A006069",
+    "A066037",
+    "A159344"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

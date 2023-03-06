@@ -1,0 +1,24 @@
+{
+  "description": "Sum of two powerful numbers (definition (1), A001694).",
+  "id": "A076871",
+  "mentions": [
+    "A001694",
+    "A070049",
+    "A076872",
+    "A085252",
+    "A085253",
+    "A261883"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

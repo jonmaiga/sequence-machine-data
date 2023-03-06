@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number x such that phi(x)=A000010(x) has exactly n different decimal digits.",
+  "id": "A081716",
+  "mentions": [
+    "A000010",
+    "A007809",
+    "A038378"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

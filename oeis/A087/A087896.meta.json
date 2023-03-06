@@ -1,0 +1,17 @@
+{
+  "description": "Least prime p such that n^p - (n-1)^p is composite.",
+  "id": "A087896",
+  "mentions": [
+    "A229073"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

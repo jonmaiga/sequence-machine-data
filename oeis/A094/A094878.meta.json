@@ -1,0 +1,17 @@
+{
+  "description": "n sets a new record in A094830.",
+  "id": "A094878",
+  "mentions": [
+    "A094830"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

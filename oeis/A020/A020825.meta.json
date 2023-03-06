@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1/sqrt(68).",
+  "id": "A020825",
+  "mentions": [
+    "A020774"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:10:33",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

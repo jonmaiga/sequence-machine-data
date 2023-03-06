@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct Gaussian primes in the factorization of n.",
+  "id": "A086275",
+  "mentions": [
+    "A005089",
+    "A005091",
+    "A059841",
+    "A078458"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

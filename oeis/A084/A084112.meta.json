@@ -1,0 +1,20 @@
+{
+  "description": "Nonprimes in A084111.",
+  "id": "A084112",
+  "mentions": [
+    "A010051",
+    "A018252",
+    "A084110",
+    "A084111"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Smallest number with same prime signature as n.",
+  "id": "A046523",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000142",
+    "A001221",
+    "A002110",
+    "A003418",
+    "A025487",
+    "A071364",
+    "A085079",
+    "A089247",
+    "A124010",
+    "A124859",
+    "A181819",
+    "A181821",
+    "A181822"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

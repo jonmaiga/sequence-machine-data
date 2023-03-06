@@ -1,0 +1,19 @@
+{
+  "description": "Number of refactorable integers (A033950) of binary order (A029837) n.",
+  "id": "A036761",
+  "mentions": [
+    "A000005",
+    "A029837",
+    "A033950"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

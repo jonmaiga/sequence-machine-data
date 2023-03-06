@@ -1,0 +1,28 @@
+{
+  "description": "Second column (k=3) of array A090438 ((4,2)-Stirling2) divided by 8.",
+  "id": "A091032",
+  "mentions": [
+    "A001620",
+    "A002674",
+    "A049470",
+    "A073742",
+    "A073743",
+    "A090438",
+    "A091033",
+    "A099281",
+    "A099282",
+    "A099284"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:36:29",
+    "offset": 2,
+    "size": 13,
+    "source": "joeis"
+  }
+}

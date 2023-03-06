@@ -1,0 +1,23 @@
+{
+  "description": "a(n+1) = a(n) + sum of digits of a(n)^2.",
+  "id": "A033298",
+  "mentions": [
+    "A004207",
+    "A007953",
+    "A047892",
+    "A139417"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:06:01",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

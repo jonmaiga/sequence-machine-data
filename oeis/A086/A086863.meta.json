@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=floor{square((1*n^0+1*n^1+2*n^2+4*n^3)/(1*n^0+2*n^1+1*n^2))}",
+  "id": "A086863",
+  "mentions": [
+    "A085899",
+    "A086790"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:50:35",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{ d divides n } (n/d)^(3d).",
+  "id": "A073706",
+  "mentions": [
+    "A000005",
+    "A055225",
+    "A073705"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "6th binomial transform of (1,1,0,0,0,0,...).",
+  "id": "A081106",
+  "mentions": [
+    "A006234",
+    "A079028",
+    "A081105"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

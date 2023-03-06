@@ -1,0 +1,16 @@
+{
+  "description": "Numbers such that two successive terms have no common digit and have distinct prime signature.",
+  "id": "A086305",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

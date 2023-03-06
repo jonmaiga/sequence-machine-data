@@ -1,0 +1,17 @@
+{
+  "description": "\"Memory\" of 2^n: the number of (previous) powers of 2 contained as substrings in 2^n.",
+  "id": "A079246",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

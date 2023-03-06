@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number having exactly n divisors d such that also d+2 is a divisor.",
+  "id": "A099476",
+  "mentions": [
+    "A059267",
+    "A099475"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Integers pertaining to A099520: a(n) = {b(n)+b(n+1)}/n where b(n) is the n-th term of A099520.",
+  "id": "A075074",
+  "mentions": [
+    "A075073",
+    "A099520"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

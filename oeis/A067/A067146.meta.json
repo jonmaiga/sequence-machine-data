@@ -1,0 +1,20 @@
+{
+  "description": "Shifts left under exponential reversion.",
+  "id": "A067146",
+  "mentions": [
+    "A210949",
+    "A277410"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "eigen",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

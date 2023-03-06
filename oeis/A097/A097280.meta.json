@@ -1,0 +1,21 @@
+{
+  "description": "Perimeter of integer triangle (A001611(n), A001611(n+1), A001611(n+2)).",
+  "id": "A097280",
+  "mentions": [
+    "A000045",
+    "A001611",
+    "A097281"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:00:26",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

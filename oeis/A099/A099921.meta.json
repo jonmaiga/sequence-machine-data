@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 5*Fibonacci(n)^2.",
+  "id": "A099921",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A007598"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

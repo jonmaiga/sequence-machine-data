@@ -1,0 +1,22 @@
+{
+  "description": "Record differences between n-th prime and (n+2)-nd prime.",
+  "id": "A031132",
+  "mentions": [
+    "A031131",
+    "A031133",
+    "A031134",
+    "A122412",
+    "A122413"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

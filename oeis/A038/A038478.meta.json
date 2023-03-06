@@ -1,0 +1,21 @@
+{
+  "description": "Sums of 2 distinct powers of 6.",
+  "id": "A038478",
+  "mentions": [
+    "A000400",
+    "A038444",
+    "A038479",
+    "A038480"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

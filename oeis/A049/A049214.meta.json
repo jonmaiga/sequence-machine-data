@@ -1,0 +1,20 @@
+{
+  "description": "Scaled coefficients of (arctanh x)^3.",
+  "id": "A049214",
+  "mentions": [
+    "A049215",
+    "A049216",
+    "A049217"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:59:51",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

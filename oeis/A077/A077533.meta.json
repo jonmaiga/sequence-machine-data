@@ -1,0 +1,19 @@
+{
+  "description": "Multiples of 3 using only prime digits (2, 3, 5 and 7).",
+  "id": "A077533",
+  "mentions": [
+    "A008585",
+    "A046034"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

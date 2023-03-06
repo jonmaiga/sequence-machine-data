@@ -1,0 +1,25 @@
+{
+  "description": "Multiples of 8 in which there is no common digit in successive terms.",
+  "id": "A083496",
+  "mentions": [
+    "A083490",
+    "A083491",
+    "A083492",
+    "A083493",
+    "A083494",
+    "A083495",
+    "A083497"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

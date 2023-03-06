@@ -1,0 +1,27 @@
+{
+  "description": "Largest prime less than 2n.",
+  "id": "A060265",
+  "mentions": [
+    "A005843",
+    "A006530",
+    "A007917",
+    "A020482",
+    "A049653",
+    "A060308",
+    "A088631",
+    "A255313",
+    "A255316",
+    "A255427"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 2,
+    "size": 65,
+    "source": "joeis"
+  }
+}

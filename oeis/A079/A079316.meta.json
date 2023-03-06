@@ -1,0 +1,22 @@
+{
+  "description": "Number of first-quadrant cells (including the two boundaries) That are ON at stage n of the cellular automaton described in A079317.",
+  "id": "A079316",
+  "mentions": [
+    "A000695",
+    "A079314",
+    "A079317",
+    "A151922",
+    "A151923"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

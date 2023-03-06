@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, giving T(n,k) = number of k-member minimal ordered covers of a labeled n-set (1 <= k <= n).",
+  "id": "A049055",
+  "mentions": [
+    "A035348",
+    "A049056"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:58:43",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

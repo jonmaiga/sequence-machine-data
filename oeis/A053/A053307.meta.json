@@ -1,0 +1,24 @@
+{
+  "description": "Number of nonnegative integer 2 X 2 matrices with sum of elements equal to n, under row and column permutations.",
+  "id": "A053307",
+  "mentions": [
+    "A000330",
+    "A006527",
+    "A081283",
+    "A081284",
+    "A202175",
+    "A318795"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:07:57",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

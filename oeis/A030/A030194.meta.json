@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=0; a(n) is the smallest m such that m - a(i) is not a triangular number for any i < n.",
+  "id": "A030194",
+  "mentions": [
+    "A000217",
+    "A082183",
+    "A336531"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

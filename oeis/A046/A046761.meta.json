@@ -1,0 +1,29 @@
+{
+  "description": "Largest number that is equal to sum of n-th powers of its digits.",
+  "id": "A046761",
+  "mentions": [
+    "A003321",
+    "A005188",
+    "A023052",
+    "A046074",
+    "A162218",
+    "A162221",
+    "A162224",
+    "A162227",
+    "A162230",
+    "A162233",
+    "A162236"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

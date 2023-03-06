@@ -1,0 +1,20 @@
+{
+  "description": "\"AFK\" (ordered, size, unlabeled) transform of 2,1,1,1,...",
+  "id": "A032006",
+  "mentions": [
+    "A032005",
+    "A032007",
+    "A032008",
+    "A032303"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

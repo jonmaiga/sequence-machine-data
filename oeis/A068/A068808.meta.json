@@ -1,0 +1,20 @@
+{
+  "description": "Triangular numbers with strictly increasing sum of digits.",
+  "id": "A068808",
+  "mentions": [
+    "A000217",
+    "A062688"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

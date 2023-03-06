@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of generalized Stirling numbers S_{3,2}(n,k) read by rows (n>=1, 2<=k<=2n).",
+  "id": "A078740",
+  "mentions": [
+    "A005408",
+    "A008279",
+    "A078738",
+    "A078739",
+    "A090452"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Cell populations in the development of the L-pentomino with the 2D cellular automaton rule \"Seeds\" (/2).",
+  "id": "A097996",
+  "mentions": [
+    "A097981",
+    "A097995"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

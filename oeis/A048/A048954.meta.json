@@ -1,0 +1,26 @@
+{
+  "description": "Wendt determinant of n-th circulant matrix C(n).",
+  "id": "A048954",
+  "mentions": [
+    "A052182",
+    "A066933",
+    "A086459",
+    "A086569",
+    "A096964",
+    "A129205",
+    "A215615",
+    "A215616"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

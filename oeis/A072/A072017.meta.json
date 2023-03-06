@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that gcd(k, reverse(k)) = 81 = 3^4, where reverse(x) = A004086(x).",
+  "id": "A072017",
+  "mentions": [
+    "A004086",
+    "A055483",
+    "A069554",
+    "A071016",
+    "A071686",
+    "A072005",
+    "A072016",
+    "A072018"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

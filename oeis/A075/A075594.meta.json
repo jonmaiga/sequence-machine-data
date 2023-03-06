@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2n) = composite, a(2n+1) = prime and sum of two successive terms is alternately prime or composite.",
+  "id": "A075594",
+  "mentions": [
+    "A075593",
+    "A103824",
+    "A103825"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

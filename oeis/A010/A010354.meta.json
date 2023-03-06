@@ -1,0 +1,32 @@
+{
+  "description": "Base-8 Armstrong or narcissistic numbers (written in base 10).",
+  "id": "A010354",
+  "mentions": [
+    "A005188",
+    "A010344",
+    "A010346",
+    "A010348",
+    "A010350",
+    "A010351",
+    "A010353",
+    "A161948",
+    "A161949",
+    "A161950",
+    "A161951",
+    "A161952",
+    "A161953"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

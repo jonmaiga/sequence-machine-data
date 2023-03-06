@@ -1,0 +1,21 @@
+{
+  "description": "Sorted numbers of vertices in the Archimedean polyhedra.",
+  "id": "A092538",
+  "mentions": [
+    "A092536",
+    "A092537"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

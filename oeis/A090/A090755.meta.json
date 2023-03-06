@@ -1,0 +1,18 @@
+{
+  "description": "Denominator of the expansion of e^(1 + x + x^2 + x^3 + x^4).",
+  "id": "A090755",
+  "mentions": [
+    "A090754"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

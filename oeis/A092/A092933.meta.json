@@ -1,0 +1,18 @@
+{
+  "description": "Let 1, a, b, c,... be the numbers coprime to k in ascending order; then k belongs to this sequence if k = a partial sum of these numbers.",
+  "id": "A092933",
+  "mentions": [
+    "A117892",
+    "A117893"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

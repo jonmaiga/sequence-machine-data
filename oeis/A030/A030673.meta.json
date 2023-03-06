@@ -1,0 +1,23 @@
+{
+  "description": "Smallest cube that begins with n-th prime.",
+  "id": "A030673",
+  "mentions": [
+    "A000040",
+    "A000578",
+    "A018797",
+    "A030674"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

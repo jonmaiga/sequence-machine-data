@@ -1,0 +1,18 @@
+{
+  "description": "Starting from the right (the least significant end) rewrite 0 to 0 and x1 to 1 in the binary expansion of n.",
+  "id": "A072650",
+  "mentions": [
+    "A003714",
+    "A048679"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

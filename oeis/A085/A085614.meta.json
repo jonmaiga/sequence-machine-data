@@ -1,0 +1,20 @@
+{
+  "description": "Number of elementary arches of size n.",
+  "id": "A085614",
+  "mentions": [
+    "A143018",
+    "A206300",
+    "A224884"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

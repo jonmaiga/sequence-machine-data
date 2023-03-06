@@ -1,0 +1,21 @@
+{
+  "description": "Number of pairs of integers x, y (of either sign) with x^2 - y^2 = n.",
+  "id": "A094572",
+  "mentions": [
+    "A000005",
+    "A058071",
+    "A093061",
+    "A112329"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

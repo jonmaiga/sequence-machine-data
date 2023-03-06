@@ -1,0 +1,18 @@
+{
+  "description": "Positions of the terms of A090847^4 in A090847, where A090847 is equal to the union of the self-convolutions A090847^2 and A090847^4 when ordered by size.",
+  "id": "A090848",
+  "mentions": [
+    "A090845",
+    "A090847"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

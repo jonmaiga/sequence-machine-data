@@ -1,0 +1,18 @@
+{
+  "description": "Prime indices of prime Fibonacci numbers.",
+  "id": "A083668",
+  "mentions": [
+    "A001605",
+    "A075737"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:15:09",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

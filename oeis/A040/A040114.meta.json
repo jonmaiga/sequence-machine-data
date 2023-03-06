@@ -1,0 +1,22 @@
+{
+  "description": "List of absolute values of differences between digits of 10, 11, 12, ..., listed digit by digit.",
+  "id": "A040114",
+  "mentions": [
+    "A037904",
+    "A040115",
+    "A040163",
+    "A040997"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:18:09",
+    "offset": 10,
+    "size": 102,
+    "source": "joeis"
+  }
+}

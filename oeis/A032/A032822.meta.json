@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose set of base-10 digits is {1,4}.",
+  "id": "A032822",
+  "mentions": [
+    "A020452"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:15",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Maximum gap in two-stage prime-sieves.",
+  "id": "A072753",
+  "mentions": [
+    "A072752",
+    "A288815"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 3,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

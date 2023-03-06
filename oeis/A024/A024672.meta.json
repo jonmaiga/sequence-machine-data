@@ -1,0 +1,17 @@
+{
+  "description": "Positions of odd numbers in A024670 (distinct sums of cubes of distinct positive integers).",
+  "id": "A024672",
+  "mentions": [
+    "A024670"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

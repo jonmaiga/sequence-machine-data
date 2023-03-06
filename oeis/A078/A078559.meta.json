@@ -1,0 +1,26 @@
+{
+  "description": "Numerator of Product_{i=1..n} (p_i+1)/(p_i-1) where p_i is the i-th prime.",
+  "id": "A078559",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A002110",
+    "A005867",
+    "A020492",
+    "A054640",
+    "A078558",
+    "A078560"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Hyperbolic Coxeter groups of rank n.",
+  "id": "A029771",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 4,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

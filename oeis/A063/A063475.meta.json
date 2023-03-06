@@ -1,0 +1,17 @@
+{
+  "description": "Sum_{d | H(n)} d^2, where H(n) is the Half-Totient function (A023022).",
+  "id": "A063475",
+  "mentions": [
+    "A023022"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 3,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

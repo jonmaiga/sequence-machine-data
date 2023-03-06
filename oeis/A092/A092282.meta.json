@@ -1,0 +1,20 @@
+{
+  "description": "Difference between largest square number and largest cube number less than n.",
+  "id": "A092282",
+  "mentions": [
+    "A000196",
+    "A048766"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

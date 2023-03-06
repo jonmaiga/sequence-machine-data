@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are imprimitively (and possibly also primitively) represented by x^2+xy+y^2.",
+  "id": "A034019",
+  "mentions": [
+    "A003136",
+    "A034018",
+    "A045897"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

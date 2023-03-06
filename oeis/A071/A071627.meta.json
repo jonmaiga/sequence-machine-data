@@ -1,0 +1,21 @@
+{
+  "description": "Terms of Chernoff sequence A006939 divided by (n + 1)!.",
+  "id": "A071627",
+  "mentions": [
+    "A000005",
+    "A000142",
+    "A006939"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

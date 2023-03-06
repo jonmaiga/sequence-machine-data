@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array T read by rows: T(n,k)=k mod n, for k=1,2,...,n, n=1,2,...",
+  "id": "A048151",
+  "mentions": [
+    "A002262"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:55:27",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

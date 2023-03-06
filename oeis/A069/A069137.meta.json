@@ -1,0 +1,25 @@
+{
+  "description": "Numbers which are sums of neither 1, 2, 3, 4, 5 or 6 nonnegative cubes.",
+  "id": "A069137",
+  "mentions": [
+    "A000578",
+    "A003072",
+    "A003325",
+    "A003327",
+    "A003328",
+    "A003329",
+    "A057907",
+    "A085334"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest Fibonacci index to produce a factor p^2 (for primes p).",
+  "id": "A065106",
+  "mentions": [
+    "A001602",
+    "A037917",
+    "A065069",
+    "A065107"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

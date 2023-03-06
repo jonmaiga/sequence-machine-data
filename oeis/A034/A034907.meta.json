@@ -1,0 +1,18 @@
+{
+  "description": "a(n) in base 10 is a(n-1) in base a(n-1).",
+  "id": "A034907",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

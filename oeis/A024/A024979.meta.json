@@ -1,0 +1,17 @@
+{
+  "description": "Position of n^3 + 9 in A024975.",
+  "id": "A024979",
+  "mentions": [
+    "A024975"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 3,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

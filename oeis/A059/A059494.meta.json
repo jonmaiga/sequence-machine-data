@@ -1,0 +1,20 @@
+{
+  "description": "For odd p such that 2^p-1 is a prime (A000043), write 2^p-1 = x^2+3*y^2; sequence gives values of x.",
+  "id": "A059494",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A059495"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

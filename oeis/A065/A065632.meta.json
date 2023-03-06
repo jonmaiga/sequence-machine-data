@@ -1,0 +1,18 @@
+{
+  "description": "Permutation of N induced by rotating the node 4 left in the infinite planar binary tree. The fourth row of A065626. Inverse of A065631.",
+  "id": "A065632",
+  "mentions": [
+    "A065626",
+    "A065631"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

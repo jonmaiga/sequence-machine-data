@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that sigma(k) - phi(k) is a cube.",
+  "id": "A062385",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

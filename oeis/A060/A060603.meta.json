@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of expressing an n-cycle in the symmetric group S_n as a product of n+1 transpositions.",
+  "id": "A060603",
+  "mentions": [
+    "A000272",
+    "A060348"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

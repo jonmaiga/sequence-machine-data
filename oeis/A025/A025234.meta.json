@@ -1,0 +1,19 @@
+{
+  "description": "An L-tile is a 2 X 2 square with the upper 1 X 1 subsquare removed; no rotations are allowed. a(n) = number of tilings of a 4 X n rectangle using tiles that are either 1 X 1 squares or L-tiles.",
+  "id": "A025234",
+  "mentions": [
+    "A002478"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:31:05",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

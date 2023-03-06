@@ -1,0 +1,21 @@
+{
+  "description": "Number of real {0,1}-matrices having permanent=1.",
+  "id": "A089482",
+  "mentions": [
+    "A003024",
+    "A088672",
+    "A089479",
+    "A089480"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

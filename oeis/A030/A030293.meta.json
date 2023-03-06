@@ -1,0 +1,18 @@
+{
+  "description": "Cubes with at most two different digits.",
+  "id": "A030293",
+  "mentions": [
+    "A043537"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:02:44",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

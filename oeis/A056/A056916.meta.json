@@ -1,0 +1,21 @@
+{
+  "description": "Product of the orders of the elements in a cyclic group with n elements.",
+  "id": "A056916",
+  "mentions": [
+    "A057660",
+    "A067911",
+    "A071248"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

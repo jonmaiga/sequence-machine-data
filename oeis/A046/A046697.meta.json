@@ -1,0 +1,20 @@
+{
+  "description": "Number of catacondensed simply-connected monopentapolyhexes (catafusenes).",
+  "id": "A046697",
+  "mentions": [
+    "A024311",
+    "A038392",
+    "A044046"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:32:23",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

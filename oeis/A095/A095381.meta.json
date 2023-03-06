@@ -1,0 +1,23 @@
+{
+  "description": "Initial values for 3x+1 trajectories in which the largest term arising in the iteration is a power of 2.",
+  "id": "A095381",
+  "mentions": [
+    "A006884",
+    "A007814",
+    "A025586",
+    "A087256",
+    "A209229",
+    "A225124"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

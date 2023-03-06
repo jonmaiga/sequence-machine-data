@@ -1,0 +1,20 @@
+{
+  "description": "Product of 3 successive Catalan numbers.",
+  "id": "A014228",
+  "mentions": [
+    "A000108",
+    "A005568",
+    "A342288"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

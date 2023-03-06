@@ -1,0 +1,19 @@
+{
+  "description": "Primes with all odd digits such that the next four primes also contain all odd digits.",
+  "id": "A068832",
+  "mentions": [
+    "A068830",
+    "A068831"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

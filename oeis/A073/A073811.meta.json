@@ -1,0 +1,24 @@
+{
+  "description": "Number of common divisors of n and phi(n).",
+  "id": "A073811",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A009195",
+    "A073802",
+    "A073808",
+    "A073809",
+    "A073810"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

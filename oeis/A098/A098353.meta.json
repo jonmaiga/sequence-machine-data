@@ -1,0 +1,22 @@
+{
+  "description": "Multiplication table of the odd numbers read by antidiagonals.",
+  "id": "A098353",
+  "mentions": [
+    "A003991",
+    "A098352",
+    "A157454",
+    "A204022"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:21:31",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

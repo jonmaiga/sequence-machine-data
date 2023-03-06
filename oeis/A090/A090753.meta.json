@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients of power series A(x) such that n-th term of A(x)^n = n!*n*x^(n-1), for n>0.",
+  "id": "A090753",
+  "mentions": [
+    "A075834",
+    "A090238",
+    "A136633",
+    "A211207"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

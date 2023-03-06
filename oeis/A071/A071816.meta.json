@@ -1,0 +1,23 @@
+{
+  "description": "Number of ordered solutions to x+y+z = u+v+w, 0 <= x, y, z, u, v, w < n.",
+  "id": "A071816",
+  "mentions": [
+    "A008528",
+    "A070302",
+    "A071817",
+    "A077042"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

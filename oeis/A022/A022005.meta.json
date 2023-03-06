@@ -1,0 +1,22 @@
+{
+  "description": "Initial members of prime triples (p, p+4, p+6).",
+  "id": "A022005",
+  "mentions": [
+    "A002476",
+    "A007529",
+    "A029710",
+    "A073649",
+    "A098413"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:28",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

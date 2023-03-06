@@ -1,0 +1,23 @@
+{
+  "description": "5-full numbers: if p divides n then so does p^5.",
+  "id": "A069492",
+  "mentions": [
+    "A001694",
+    "A036966",
+    "A036967",
+    "A050997",
+    "A258602"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

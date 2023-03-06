@@ -1,0 +1,20 @@
+{
+  "description": "Consider the version of the Collatz or 3x+1 problem where x -> x/2 if x is even, x -> (3x+1)/2 if x is odd. Define the stopping time of x to be the number of steps needed to reach 1. Sequence gives the number of integers x with stopping time n.",
+  "id": "A060322",
+  "mentions": [
+    "A005186",
+    "A131450",
+    "A248573"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

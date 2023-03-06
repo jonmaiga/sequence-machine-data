@@ -1,0 +1,36 @@
+{
+  "description": "Numbers that are the products of 2 or more consecutive integers.",
+  "id": "A045619",
+  "mentions": [
+    "A000142",
+    "A001597",
+    "A002378",
+    "A007531",
+    "A052762",
+    "A052787",
+    "A053625",
+    "A064224",
+    "A084720",
+    "A093449",
+    "A097889",
+    "A120436",
+    "A137895",
+    "A137899",
+    "A137900",
+    "A137911",
+    "A137912"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of next n even interprimes.",
+  "id": "A075675",
+  "mentions": [
+    "A007468",
+    "A075673",
+    "A075674"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

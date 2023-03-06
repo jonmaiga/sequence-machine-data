@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes that are the sum of two positive cubes. Common terms of A003325 and A046315.",
+  "id": "A085366",
+  "mentions": [
+    "A001358",
+    "A003325",
+    "A046315",
+    "A046388",
+    "A085367"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

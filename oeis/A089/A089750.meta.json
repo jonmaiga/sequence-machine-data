@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = the first prime in the orbit of n under f(n) = n + the first prime > n, or 0 if no such prime exists.",
+  "id": "A089750",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

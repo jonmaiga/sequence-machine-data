@@ -1,0 +1,25 @@
+{
+  "description": "Distance LQnR(p_n) (A088196) from p_n.",
+  "id": "A088198",
+  "mentions": [
+    "A000040",
+    "A088192",
+    "A088196",
+    "A088197",
+    "A088199",
+    "A088200",
+    "A088201"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

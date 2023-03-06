@@ -1,0 +1,19 @@
+{
+  "description": "Lesser Fortunate numbers.",
+  "id": "A055211",
+  "mentions": [
+    "A002110",
+    "A005235"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

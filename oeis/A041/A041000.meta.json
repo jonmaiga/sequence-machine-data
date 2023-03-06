@@ -1,0 +1,22 @@
+{
+  "description": "If decimal expansion of n-th prime is x1 x2 ... xk, sort the xi into nonincreasing order, y1 y2 ... yk; then a(n) = |y1-y2-y3...-yk|.",
+  "id": "A041000",
+  "mentions": [
+    "A007953",
+    "A040164",
+    "A054055"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:20:13",
+    "offset": 1,
+    "size": 106,
+    "source": "joeis"
+  }
+}

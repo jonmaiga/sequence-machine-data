@@ -1,0 +1,27 @@
+{
+  "description": "a(1) = 7; a(n) is smallest number >= a(n-1) such that the juxtaposition a(1)a(2)...a(n) is a prime.",
+  "id": "A046257",
+  "mentions": [
+    "A033679",
+    "A033680",
+    "A033681",
+    "A046254",
+    "A046255",
+    "A046256",
+    "A046258",
+    "A046259",
+    "A069609",
+    "A074343",
+    "A111524"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:19",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

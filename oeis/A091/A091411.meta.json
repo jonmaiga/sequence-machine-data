@@ -1,0 +1,21 @@
+{
+  "description": "Lengths of the B blocks in analysis of A090822.",
+  "id": "A091411",
+  "mentions": [
+    "A090822",
+    "A091410",
+    "A091579",
+    "A095828"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

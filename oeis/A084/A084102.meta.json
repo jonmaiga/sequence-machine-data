@@ -1,0 +1,21 @@
+{
+  "description": "Inverse binomial transform of A084101.",
+  "id": "A084102",
+  "mentions": [
+    "A009116",
+    "A009545",
+    "A084101"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

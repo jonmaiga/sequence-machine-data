@@ -1,0 +1,23 @@
+{
+  "description": "Triangle in which n-th row contains n smallest multiples of the n-th prime.",
+  "id": "A077320",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A033286",
+    "A196421"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

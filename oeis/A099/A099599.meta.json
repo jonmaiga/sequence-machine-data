@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T read by rows: coefficients of polynomials generating array A099597.",
+  "id": "A099599",
+  "mentions": [
+    "A000027",
+    "A000142",
+    "A099597"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

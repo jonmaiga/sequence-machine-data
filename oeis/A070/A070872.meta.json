@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A070871(n) = n.",
+  "id": "A070872",
+  "mentions": [
+    "A002487",
+    "A070871"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

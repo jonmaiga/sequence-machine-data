@@ -1,0 +1,22 @@
+{
+  "description": "Number of rooted 2-connected loopless 4-regular planar maps with n inner faces.",
+  "id": "A099553",
+  "mentions": [
+    "A000139",
+    "A058860",
+    "A290326",
+    "A342980"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

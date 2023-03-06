@@ -1,0 +1,27 @@
+{
+  "description": "Number of solutions to the equation phi(x) = n!.",
+  "id": "A055506",
+  "mentions": [
+    "A000010",
+    "A000142",
+    "A000203",
+    "A014197",
+    "A054873",
+    "A055486",
+    "A055487",
+    "A067847",
+    "A165773",
+    "A165774"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array T read by rows: T(n,k) = Sum_{j=1..k} (n mod floor(k/j)) for n, k >= 1.",
+  "id": "A049783",
+  "mentions": [
+    "A049784",
+    "A049785",
+    "A049786",
+    "A049787",
+    "A049788",
+    "A049789"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:33",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

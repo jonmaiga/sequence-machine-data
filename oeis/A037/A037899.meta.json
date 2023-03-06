@@ -1,0 +1,16 @@
+{
+  "description": "a(n)=(greatest base 5 digit of n)-(least base 5 digit of n).",
+  "id": "A037899",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:35:45",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

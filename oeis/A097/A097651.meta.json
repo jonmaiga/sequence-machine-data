@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the earliest number m such that n*pi(m)=phi(m).",
+  "id": "A097651",
+  "mentions": [
+    "A037171"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

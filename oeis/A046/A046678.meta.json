@@ -1,0 +1,24 @@
+{
+  "description": "Number of divisors of n and sum of divisors of n are relatively prime.",
+  "id": "A046678",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A028982",
+    "A046679",
+    "A046680",
+    "A046681",
+    "A046683",
+    "A046685"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the next n digits of phi, the golden ratio.",
+  "id": "A093473",
+  "mentions": [
+    "A081368",
+    "A090897"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

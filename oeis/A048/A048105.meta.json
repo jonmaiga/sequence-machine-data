@@ -1,0 +1,27 @@
+{
+  "description": "Number of non-unitary divisors of n.",
+  "id": "A048105",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001620",
+    "A005117",
+    "A007875",
+    "A034444",
+    "A056170",
+    "A225817",
+    "A229099",
+    "A306016"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

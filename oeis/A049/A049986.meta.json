@@ -1,0 +1,34 @@
+{
+  "description": "a(n) is the number of arithmetic progressions of 4 or more positive integers, strictly increasing with sum n.",
+  "id": "A049986",
+  "mentions": [
+    "A000217",
+    "A014405",
+    "A014406",
+    "A023645",
+    "A049980",
+    "A049981",
+    "A049982",
+    "A049983",
+    "A049987",
+    "A049988",
+    "A049989",
+    "A049990",
+    "A049991",
+    "A049994",
+    "A127938",
+    "A321014"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

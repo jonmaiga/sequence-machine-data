@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes in the interval (n,4n].",
+  "id": "A075699",
+  "mentions": [
+    "A000720",
+    "A074990",
+    "A108954"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

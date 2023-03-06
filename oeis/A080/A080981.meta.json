@@ -1,0 +1,23 @@
+{
+  "description": "A014486-encodings of the trees whose interior zigzag-tree (Stanley's c) is branch-reduced (in the sense defined by Donaghey).",
+  "id": "A080981",
+  "mentions": [
+    "A005554",
+    "A014486",
+    "A057505",
+    "A057506",
+    "A080968",
+    "A080971",
+    "A080980"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

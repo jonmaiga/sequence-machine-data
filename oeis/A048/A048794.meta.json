@@ -1,0 +1,25 @@
+{
+  "description": "Subsets of natural numbers arranged in standard statistical (or Yates) order.",
+  "id": "A048794",
+  "mentions": [
+    "A000027",
+    "A000225",
+    "A007908",
+    "A048793",
+    "A131577"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

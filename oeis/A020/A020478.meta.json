@@ -1,0 +1,25 @@
+{
+  "description": "Number of singular 2 X 2 matrices over Z(n) (i.e., with determinant = 0).",
+  "id": "A020478",
+  "mentions": [
+    "A005353",
+    "A059306",
+    "A062801",
+    "A069097",
+    "A102631",
+    "A240547"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

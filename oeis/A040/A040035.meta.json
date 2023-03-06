@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction for sqrt(42).",
+  "id": "A040035",
+  "mentions": [
+    "A010496"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

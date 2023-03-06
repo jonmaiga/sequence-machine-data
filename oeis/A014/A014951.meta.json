@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers k such that k divides 12^k - 1.",
+  "id": "A014951",
+  "mentions": [
+    "A015961"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

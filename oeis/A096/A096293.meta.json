@@ -1,0 +1,18 @@
+{
+  "description": "Number of iterations of n -> n + (sum of squares of digits of n) needed for the trajectory of n to join the trajectory of A033936.",
+  "id": "A096293",
+  "mentions": [
+    "A033936"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Group the natural numbers such that the n-th group contains n terms and the group sum is the smallest possible prime.",
+  "id": "A075348",
+  "mentions": [
+    "A075344",
+    "A075345",
+    "A075346",
+    "A075347",
+    "A262663",
+    "A262665"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

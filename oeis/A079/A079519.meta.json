@@ -1,0 +1,24 @@
+{
+  "description": "Related to tennis ball problem.",
+  "id": "A079519",
+  "mentions": [
+    "A079513",
+    "A079514",
+    "A079515",
+    "A079516",
+    "A079517",
+    "A079518",
+    "A079520"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

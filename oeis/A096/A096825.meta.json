@@ -1,0 +1,23 @@
+{
+  "description": "Maximal size of an antichain in divisor lattice D(n).",
+  "id": "A096825",
+  "mentions": [
+    "A001055",
+    "A008480",
+    "A096826",
+    "A096827",
+    "A253249",
+    "A285573"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

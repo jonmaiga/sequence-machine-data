@@ -1,0 +1,21 @@
+{
+  "description": "Smallest value of lcm(n+1, n+2, ..., n+k) (for k >= 0) that is divisible by the product of all the primes up to n.",
+  "id": "A075367",
+  "mentions": [
+    "A075365",
+    "A075366",
+    "A075368"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

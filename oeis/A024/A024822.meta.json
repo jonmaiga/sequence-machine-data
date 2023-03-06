@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least m such that if r and s in {1/1, 1/4, 1/7,..., 1/(3n-2)} satisfy r < s, then r < k/m < s for some integer k.",
+  "id": "A024822",
+  "mentions": [
+    "A001000"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:03",
+    "offset": 2,
+    "size": 46,
+    "source": "joeis"
+  }
+}

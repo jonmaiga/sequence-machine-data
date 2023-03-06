@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. BesselI(0,2*sqrt(3)*x) + BesselI(1,2*sqrt(3)*x)/sqrt(3).",
+  "id": "A098662",
+  "mentions": [
+    "A098663"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

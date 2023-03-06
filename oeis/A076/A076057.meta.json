@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that Sum_{j=1..k} A006513(j) = 3*k/2.",
+  "id": "A076057",
+  "mentions": [
+    "A006513",
+    "A014682"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

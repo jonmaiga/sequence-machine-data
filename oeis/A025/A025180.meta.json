@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of (s(0), s(1), ..., s(n)) such that s(i) is an integer, s(0) = 0, |s(1)| = 1, |s(i) - s(i-1)| <= 1 for i >= 2, s(n) = 2. Also a(n) = T(n,n-2), where T is the array defined in A025177.",
+  "id": "A025180",
+  "mentions": [
+    "A014531",
+    "A025177",
+    "A026069"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:05:21",
+    "offset": 2,
+    "size": 27,
+    "source": "joeis"
+  }
+}

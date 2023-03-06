@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime which leaves a remainder 1 when divided by primorial(n), i.e., when divided by first n primes.",
+  "id": "A073917",
+  "mentions": [
+    "A002110",
+    "A073915",
+    "A076689",
+    "A103783",
+    "A214089"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

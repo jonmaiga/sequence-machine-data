@@ -1,0 +1,20 @@
+{
+  "description": "Smallest integral value of m/(sum of digits of m) for any n-digit number m.",
+  "id": "A034726",
+  "mentions": [
+    "A034727",
+    "A034728",
+    "A066007"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

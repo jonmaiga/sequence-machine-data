@@ -1,0 +1,27 @@
+{
+  "description": "Number of pairs (p,q), 0 <= p < q, such that p+q divides n.",
+  "id": "A079247",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001227",
+    "A008619",
+    "A069734",
+    "A086670",
+    "A110654",
+    "A158951",
+    "A168509"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

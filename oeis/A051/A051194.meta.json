@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array T read by rows: T(n,k) = number of positive integers that divide both n and k.",
+  "id": "A051194",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A024916",
+    "A050873",
+    "A077478"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:54:25",
+    "offset": 1,
+    "size": 93,
+    "source": "joeis"
+  }
+}

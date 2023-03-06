@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(159).",
+  "id": "A041292",
+  "mentions": [
+    "A041293"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:11:00",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

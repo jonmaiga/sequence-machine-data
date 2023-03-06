@@ -1,0 +1,23 @@
+{
+  "description": "Primes in \"Ulam's Prime sequence\". A prime is in the sequence iff p+1 can be expressed in exactly 1 way as the sum of 2 previous distinct primes.",
+  "id": "A078425",
+  "mentions": [
+    "A001857",
+    "A002858",
+    "A002859",
+    "A003666",
+    "A003667",
+    "A007300",
+    "A048951"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

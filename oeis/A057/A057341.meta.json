@@ -1,0 +1,21 @@
+{
+  "description": "Occurrences of most frequently occurring number in 1-to-n 4-dimensional multiplication table.",
+  "id": "A057341",
+  "mentions": [
+    "A057142",
+    "A057338",
+    "A057342",
+    "A057343",
+    "A057344"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Cupolar numbers: a(n) = (n+1)*(5*n^2+7*n+3)/3.",
+  "id": "A096000",
+  "mentions": [
+    "A000447",
+    "A005902",
+    "A100145",
+    "A100185",
+    "A100188"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:07:51",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of triangles of partition numbers with the n-partition number as largest side.",
+  "id": "A092289",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Triangle of labeled mobiles (circular rooted trees) with n nodes and k leaves.",
+  "id": "A055349",
+  "mentions": [
+    "A000142",
+    "A038037",
+    "A055303",
+    "A055340",
+    "A055350",
+    "A055351",
+    "A055352",
+    "A055353",
+    "A055354",
+    "A055355",
+    "A055356",
+    "A055363"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

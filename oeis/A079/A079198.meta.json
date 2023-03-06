@@ -1,0 +1,25 @@
+{
+  "description": "Number of associative non-commutative closed binary operations on a set of order n.",
+  "id": "A079198",
+  "mentions": [
+    "A002489",
+    "A023814",
+    "A023815",
+    "A079192",
+    "A079195",
+    "A079199",
+    "A079200",
+    "A079210"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

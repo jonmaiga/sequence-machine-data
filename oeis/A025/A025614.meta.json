@@ -1,0 +1,29 @@
+{
+  "description": "Numbers of form 3^i*6^j, with i, j >= 0.",
+  "id": "A025614",
+  "mentions": [
+    "A003586",
+    "A003593",
+    "A003594",
+    "A003597",
+    "A025610",
+    "A025618",
+    "A025622",
+    "A025626",
+    "A025627",
+    "A025628",
+    "A107364"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

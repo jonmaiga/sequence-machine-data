@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of sum of reciprocal perfect powers (excluding 1).",
+  "id": "A072102",
+  "mentions": [
+    "A001597"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Difference of numbers of composite and prime numbers <= n.",
+  "id": "A072731",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002808",
+    "A010051",
+    "A065855",
+    "A066247"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:07",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

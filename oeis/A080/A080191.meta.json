@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p is the largest of all prime factors of the numbers between the prime preceding 2*p and the next prime.",
+  "id": "A080191",
+  "mentions": [
+    "A000040",
+    "A052248",
+    "A059788",
+    "A080192"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

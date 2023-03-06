@@ -1,0 +1,33 @@
+{
+  "description": "Prime constant: decimal value of (A010051 interpreted as a binary number).",
+  "id": "A051006",
+  "mentions": [
+    "A000720",
+    "A010051",
+    "A034785",
+    "A051007",
+    "A092855",
+    "A092857",
+    "A092858",
+    "A092859",
+    "A092860",
+    "A092861",
+    "A092862",
+    "A092863",
+    "A092874",
+    "A119523",
+    "A132800"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

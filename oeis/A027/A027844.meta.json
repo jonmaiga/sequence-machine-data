@@ -1,0 +1,23 @@
+{
+  "description": "Number of subgroups of index n of fundamental group of the non-orientable cycle bundle over the Klein bottle.",
+  "id": "A027844",
+  "mentions": [
+    "A001001",
+    "A027845",
+    "A046524",
+    "A060640"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle formed from coefficients of the polynomials p(1)=x, p(n+1) = (n + x*(n+1))*p(n) + x*x*(d/dx)p(n).",
+  "id": "A075856",
+  "mentions": [
+    "A000142",
+    "A000312",
+    "A001147",
+    "A054589",
+    "A112007",
+    "A185164",
+    "A209937",
+    "A239098"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

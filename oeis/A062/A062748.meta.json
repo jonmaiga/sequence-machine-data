@@ -1,0 +1,26 @@
+{
+  "description": "Fourth column (r=3) of FS(3) staircase array A062745.",
+  "id": "A062748",
+  "mentions": [
+    "A000124",
+    "A000217",
+    "A000292",
+    "A014473",
+    "A050407",
+    "A060351",
+    "A062745",
+    "A062746"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:12:51",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

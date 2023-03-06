@@ -1,0 +1,20 @@
+{
+  "description": "Prime unoriented alternating links with n crossings and 2 components.",
+  "id": "A059741",
+  "mentions": [
+    "A002863",
+    "A002864",
+    "A059739"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

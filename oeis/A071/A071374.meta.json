@@ -1,0 +1,18 @@
+{
+  "description": "0 iff n is of the form 4^a*(8k+7), otherwise 1.",
+  "id": "A071374",
+  "mentions": [
+    "A071377",
+    "A072401"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

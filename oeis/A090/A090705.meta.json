@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest permutation of squarefree numbers with mu(a(n)) = -(-1)^n, where mu = A008683.",
+  "id": "A090705",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A102510",
+    "A102511"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

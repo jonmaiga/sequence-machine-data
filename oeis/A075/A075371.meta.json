@@ -1,0 +1,18 @@
+{
+  "description": "Smallest squarefree number greater than the previous term such that the every partial sum is squarefree.",
+  "id": "A075371",
+  "mentions": [
+    "A075370",
+    "A075372"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

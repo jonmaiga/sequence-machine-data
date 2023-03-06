@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor((5/4)^n).",
+  "id": "A065565",
+  "mentions": [
+    "A002379",
+    "A064628",
+    "A094500",
+    "A094969"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:27:08",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

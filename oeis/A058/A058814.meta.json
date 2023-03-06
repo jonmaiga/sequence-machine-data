@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k divides the number of digits of k!.",
+  "id": "A058814",
+  "mentions": [
+    "A000142",
+    "A001113",
+    "A034886",
+    "A061010",
+    "A090583"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; a(n) = least k > a(n-1) such that each prime of form a(i)+a(j) occurs for unique i <= j.",
+  "id": "A080435",
+  "mentions": [
+    "A082929",
+    "A082930",
+    "A082931"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

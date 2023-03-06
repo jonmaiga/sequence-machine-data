@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having in binary representation fewer ones than in their squares.",
+  "id": "A094695",
+  "mentions": [
+    "A000120",
+    "A000290",
+    "A001737",
+    "A007088",
+    "A077436",
+    "A094694"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

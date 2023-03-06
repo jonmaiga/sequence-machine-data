@@ -1,0 +1,24 @@
+{
+  "description": "Moebius invariant of cographic hyperplane arrangement for complete graph K_n. Also value of Tutte dichromatic polynomial T_G(0,1) for G=K_n. Also alternating sum F_{n,1} - F_{n,2} + F_{n,3} - ..., where F_{n,k} is the number of labeled forests on n nodes with k connected components.",
+  "id": "A057817",
+  "mentions": [
+    "A001147",
+    "A053506",
+    "A060917",
+    "A060918",
+    "A243098"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

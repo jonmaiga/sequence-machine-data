@@ -1,0 +1,20 @@
+{
+  "description": "Denominators in expansion of exp(2x)/(1-x).",
+  "id": "A053485",
+  "mentions": [
+    "A010842",
+    "A053484"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

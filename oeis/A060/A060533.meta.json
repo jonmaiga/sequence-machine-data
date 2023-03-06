@@ -1,0 +1,22 @@
+{
+  "description": "Number of homeomorphically irreducible multigraphs (or series-reduced multigraphs or multigraphs without nodes of degree 2) on 3 labeled nodes.",
+  "id": "A060533",
+  "mentions": [
+    "A003514",
+    "A060516",
+    "A060534",
+    "A060537"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:42:03",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

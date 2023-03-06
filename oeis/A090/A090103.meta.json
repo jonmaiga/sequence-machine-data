@@ -1,0 +1,21 @@
+{
+  "description": "n written in base equal to the number of distinct prime factors of n and a(1)=0.",
+  "id": "A090103",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A031974"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

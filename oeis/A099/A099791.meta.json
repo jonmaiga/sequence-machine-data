@@ -1,0 +1,20 @@
+{
+  "description": "Records for terms in the continued fraction of the Glaisher-Kinkelin constant A.",
+  "id": "A099791",
+  "mentions": [
+    "A099792"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cofr",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

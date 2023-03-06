@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the 2nd Du Bois-Reymond constant.",
+  "id": "A062546",
+  "mentions": [
+    "A062545",
+    "A073747",
+    "A207528",
+    "A224196",
+    "A243108",
+    "A245333"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

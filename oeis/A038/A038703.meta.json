@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p^2 mod q is odd, where q is the previous prime.",
+  "id": "A038703",
+  "mentions": [
+    "A038702",
+    "A058188"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

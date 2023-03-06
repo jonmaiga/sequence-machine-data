@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of exp(2x)/(1-x)^2.",
+  "id": "A081923",
+  "mentions": [
+    "A000522",
+    "A001339",
+    "A010027",
+    "A010842",
+    "A081924"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:27:27",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

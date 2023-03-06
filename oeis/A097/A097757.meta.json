@@ -1,0 +1,24 @@
+{
+  "description": "Table read by rows where row n consists of integers that can be expressed as the sum of distinct squares in exactly n ways.",
+  "id": "A097757",
+  "mentions": [
+    "A001422",
+    "A003995",
+    "A033461",
+    "A097563",
+    "A097758",
+    "A097759",
+    "A097760"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Write n in base 2, complement each digit (d -> 1-d) and append the complemented digits to the sequence.",
+  "id": "A030315",
+  "mentions": [
+    "A030190",
+    "A180433",
+    "A180443"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:47:39",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

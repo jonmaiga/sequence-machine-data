@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers k such that the derivative of k-th Bernoulli polynomial B(k,x) contains only integer coefficients.",
+  "id": "A094960",
+  "mentions": [
+    "A007850"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

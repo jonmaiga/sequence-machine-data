@@ -1,0 +1,20 @@
+{
+  "description": "For all n, if d is recursively applied to a(n) exactly 6 times then the fixed point of d-iteration is just reached.",
+  "id": "A036458",
+  "mentions": [
+    "A000005",
+    "A036457",
+    "A036459"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

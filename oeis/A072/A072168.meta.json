@@ -1,0 +1,20 @@
+{
+  "description": "Floor of ratio of volume of n-dimensional cube of side 2 to volume of n-dimensional ball of radius 1.",
+  "id": "A072168",
+  "mentions": [
+    "A057649",
+    "A072345",
+    "A072346"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

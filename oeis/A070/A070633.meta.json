@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of k>0 such that phi(k) divides n.",
+  "id": "A070633",
+  "mentions": [
+    "A000010",
+    "A014197",
+    "A069932",
+    "A071181",
+    "A319048"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

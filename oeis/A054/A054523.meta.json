@@ -1,0 +1,34 @@
+{
+  "description": "Triangle read by rows: T(n,k) = phi(n/k) if k divides n, T(n,k)=0 otherwise (n >= 1, 1 <= k <= n).",
+  "id": "A054523",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000027",
+    "A000203",
+    "A007431",
+    "A008683",
+    "A018804",
+    "A029935",
+    "A038040",
+    "A051731",
+    "A054521",
+    "A054525",
+    "A069097",
+    "A102190",
+    "A126988",
+    "A127192"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:19:47",
+    "offset": 1,
+    "size": 93,
+    "source": "joeis"
+  }
+}

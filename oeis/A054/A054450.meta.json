@@ -1,0 +1,35 @@
+{
+  "description": "Triangle of partial row sums of unsigned triangle A049310(n,m), n >= m >= 0 (Chebyshev S-polynomials).",
+  "id": "A054450",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000045",
+    "A029907",
+    "A038793",
+    "A038794",
+    "A038795",
+    "A038796",
+    "A049310",
+    "A052952",
+    "A053121",
+    "A054451",
+    "A054453",
+    "A099571",
+    "A099572",
+    "A152948"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:19:15",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

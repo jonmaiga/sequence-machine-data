@@ -1,0 +1,23 @@
+{
+  "description": "Define b by b(1) = 1 and for n>1, b(n) = b(n-1)+1/(2+1/b(n-1)); sequence gives denominator of b(n).",
+  "id": "A080985",
+  "mentions": [
+    "A079269",
+    "A079278",
+    "A080984",
+    "A080986",
+    "A080987"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

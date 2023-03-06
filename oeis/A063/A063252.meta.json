@@ -1,0 +1,21 @@
+{
+  "description": "Numbers for which a mixed L/R binary rotation sequence will reach a fixed point sooner than either a pure only-left or only-right iteration.",
+  "id": "A063252",
+  "mentions": [
+    "A048881",
+    "A063250",
+    "A063251"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

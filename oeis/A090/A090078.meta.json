@@ -1,0 +1,22 @@
+{
+  "description": "In binary expansion of n, reduce contiguous blocks of 0's to 0.",
+  "id": "A090078",
+  "mentions": [
+    "A007088",
+    "A090077",
+    "A090079"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

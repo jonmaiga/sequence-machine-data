@@ -1,0 +1,18 @@
+{
+  "description": "Probability of obtaining a run of n consecutive cards of the same color in a deck of 52, denominators.",
+  "id": "A086440",
+  "mentions": [
+    "A086439"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

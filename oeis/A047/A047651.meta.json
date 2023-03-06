@@ -1,0 +1,19 @@
+{
+  "description": "Minimal positive value of tau modulo primes in A047650.",
+  "id": "A047651",
+  "mentions": [
+    "A001583",
+    "A047650"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

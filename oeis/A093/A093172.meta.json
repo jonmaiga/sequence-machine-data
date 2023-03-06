@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 10^n - 3.",
+  "id": "A093172",
+  "mentions": [
+    "A002275",
+    "A056662",
+    "A089675"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

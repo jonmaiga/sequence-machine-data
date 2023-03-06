@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k>=1} floor(n*phi^(1-k)).",
+  "id": "A020959",
+  "mentions": [
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:00",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

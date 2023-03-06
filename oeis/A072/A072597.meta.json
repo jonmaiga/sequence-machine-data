@@ -1,0 +1,34 @@
+{
+  "description": "Expansion of 1/(exp(-x) - x) as exponential generating function.",
+  "id": "A072597",
+  "mentions": [
+    "A000110",
+    "A006153",
+    "A009998",
+    "A030178",
+    "A048594",
+    "A048993",
+    "A052820",
+    "A089148",
+    "A119502",
+    "A129841",
+    "A140749",
+    "A141412",
+    "A152650",
+    "A152656",
+    "A152818",
+    "A154372"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

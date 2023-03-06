@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is smallest positive integer multiple of n-th prime, say k*prime(n), such that k*prime(n) == 1 (mod j) for each integer j with 1 < j < prime(n).",
+  "id": "A094998",
+  "mentions": [
+    "A099794",
+    "A099795",
+    "A099796"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

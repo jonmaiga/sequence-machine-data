@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree even composite numbers with an odd number of prime factors.",
+  "id": "A053858",
+  "mentions": [
+    "A002808",
+    "A026424",
+    "A039956",
+    "A075819"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

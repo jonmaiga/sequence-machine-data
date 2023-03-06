@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n/(2*n-A082851(n)) is an integer.",
+  "id": "A082396",
+  "mentions": [
+    "A082851"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

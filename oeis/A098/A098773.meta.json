@@ -1,0 +1,17 @@
+{
+  "description": "p*2^p + 1 where p is prime.",
+  "id": "A098773",
+  "mentions": [
+    "A098640"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:51:07",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

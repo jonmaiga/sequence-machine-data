@@ -1,0 +1,26 @@
+{
+  "description": "Primes p such that the composite numbers between p and the next prime together contain exactly three distinct prime factors.",
+  "id": "A075583",
+  "mentions": [
+    "A052297",
+    "A059960",
+    "A075580",
+    "A075584",
+    "A075585",
+    "A075586",
+    "A075587",
+    "A075588",
+    "A075589",
+    "A080899"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

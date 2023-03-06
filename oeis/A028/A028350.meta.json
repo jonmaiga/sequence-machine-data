@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of -1/x + 6*3F2( 5/6, 1, 7/6; 3/2, 2; 108*x).",
+  "id": "A028350",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": -1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Sums of the antidiagonals of the table of k-almost primes (A078840).",
+  "id": "A078842",
+  "mentions": [
+    "A078840",
+    "A078841",
+    "A078843",
+    "A078844",
+    "A078845",
+    "A078846"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

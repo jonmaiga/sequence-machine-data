@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into at most 1 copy of 1, 2 copies of 2, 3 copies of 3, ... .",
+  "id": "A052335",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002378",
+    "A024940",
+    "A033461",
+    "A087153",
+    "A117144",
+    "A225044"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

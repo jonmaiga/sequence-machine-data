@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest number required to make the concatenation of a(n) and 2n+1 a prime, or -1 if no such number exists.",
+  "id": "A061309",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 92,
+    "source": "joeis"
+  }
+}

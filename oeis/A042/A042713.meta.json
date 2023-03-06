@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(886).",
+  "id": "A042713",
+  "mentions": [
+    "A040856",
+    "A042712"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:57:26",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

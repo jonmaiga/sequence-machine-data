@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n^2 + 5*n - 2)/2.",
+  "id": "A046691",
+  "mentions": [
+    "A000096",
+    "A000217",
+    "A002522",
+    "A027379",
+    "A028884"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:11:31",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

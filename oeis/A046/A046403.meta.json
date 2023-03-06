@@ -1,0 +1,24 @@
+{
+  "description": "Numbers with exactly 5 distinct palindromic prime factors.",
+  "id": "A046403",
+  "mentions": [
+    "A002385",
+    "A014614",
+    "A046371",
+    "A046400",
+    "A046401",
+    "A046402"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

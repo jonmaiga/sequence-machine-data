@@ -1,0 +1,32 @@
+{
+  "description": "Smallest palindrome greater than n in bases n and n+1.",
+  "id": "A048268",
+  "mentions": [
+    "A029965",
+    "A029966",
+    "A048269",
+    "A060792",
+    "A097928",
+    "A097929",
+    "A097930",
+    "A097931",
+    "A099145",
+    "A099146",
+    "A099147",
+    "A099153",
+    "A130883"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:19:25",
+    "offset": 2,
+    "size": 46,
+    "source": "joeis"
+  }
+}

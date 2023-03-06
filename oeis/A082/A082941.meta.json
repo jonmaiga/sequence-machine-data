@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the odd-length palindrome whose digits up to the center are those of n and whose center digit is equal to the digital root of the product of the factorial of n and the reverse of n.",
+  "id": "A082941",
+  "mentions": [
+    "A002113",
+    "A082940"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

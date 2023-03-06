@@ -1,0 +1,17 @@
+{
+  "description": "Greatest number, not divisible by 4, having exactly n partitions into three positive squares.",
+  "id": "A095812",
+  "mentions": [
+    "A025414"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

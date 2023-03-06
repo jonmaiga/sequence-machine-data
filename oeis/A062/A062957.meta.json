@@ -1,0 +1,18 @@
+{
+  "description": "C(n^2)-C(n), where C(n) is Chowla's function (A048050).",
+  "id": "A062957",
+  "mentions": [
+    "A048050"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

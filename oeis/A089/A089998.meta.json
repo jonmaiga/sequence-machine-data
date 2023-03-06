@@ -1,0 +1,24 @@
+{
+  "description": "Smallest square with Hamming weight n (i.e., with exactly n 1's when written in binary).",
+  "id": "A089998",
+  "mentions": [
+    "A000120",
+    "A000290",
+    "A061712",
+    "A089999",
+    "A090001",
+    "A231897"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

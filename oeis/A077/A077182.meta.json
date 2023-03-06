@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number k such that the concatenation of natural numbers from 1 to k is divisible by the prime(n).",
+  "id": "A077182",
+  "mentions": [
+    "A077180",
+    "A077181"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the least k such that prime(n+1)+prime(n+2)+...+prime(n+k) is a multiple of prime(n).",
+  "id": "A086447",
+  "mentions": [
+    "A055233",
+    "A055514",
+    "A086448"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

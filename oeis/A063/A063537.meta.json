@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that floor(tan(k)) > floor(tan(m)) for all m < k.",
+  "id": "A063537",
+  "mentions": [
+    "A024814"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

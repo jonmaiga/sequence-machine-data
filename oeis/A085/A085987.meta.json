@@ -1,0 +1,35 @@
+{
+  "description": "Product of exactly four primes, three of which are distinct (p^2*q*r).",
+  "id": "A085987",
+  "mentions": [
+    "A000041",
+    "A001248",
+    "A006881",
+    "A007304",
+    "A014613",
+    "A025487",
+    "A030078",
+    "A030514",
+    "A036035",
+    "A046386",
+    "A046387",
+    "A050326",
+    "A050997",
+    "A054753",
+    "A065036",
+    "A085986",
+    "A086974",
+    "A178212",
+    "A307341"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

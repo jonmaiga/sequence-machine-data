@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^2 - 3n + 3 is prime.",
+  "id": "A089358",
+  "mentions": [
+    "A002384"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:58:03",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

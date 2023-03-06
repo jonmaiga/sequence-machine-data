@@ -1,0 +1,19 @@
+{
+  "description": "Least common multiple of n and its digit sum.",
+  "id": "A099469",
+  "mentions": [
+    "A005349"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

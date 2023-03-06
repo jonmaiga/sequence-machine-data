@@ -1,0 +1,30 @@
+{
+  "description": "Positive integers which apparently never result in a palindrome under repeated applications of the function A056964(x) = x + (x with digits reversed).",
+  "id": "A023108",
+  "mentions": [
+    "A004086",
+    "A006960",
+    "A023109",
+    "A030547",
+    "A056964",
+    "A063048",
+    "A065198",
+    "A065199",
+    "A075421",
+    "A088753",
+    "A089521",
+    "A089694"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

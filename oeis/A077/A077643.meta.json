@@ -1,0 +1,19 @@
+{
+  "description": "Number of squarefree integers in closed interval [2^n, -1 + 2*2^n], i.e., among 2^n consecutive numbers beginning with 2^n.",
+  "id": "A077643",
+  "mentions": [
+    "A077641",
+    "A077642"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

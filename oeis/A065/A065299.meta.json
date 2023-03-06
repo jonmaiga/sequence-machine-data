@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that sigma(k)*phi(k) is squarefree.",
+  "id": "A065299",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A008683",
+    "A028982",
+    "A049149",
+    "A049195",
+    "A049199",
+    "A055008",
+    "A062354"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

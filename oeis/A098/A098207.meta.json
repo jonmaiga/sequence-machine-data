@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the square of near-repdigit number A033175(n).",
+  "id": "A098207",
+  "mentions": [
+    "A033175",
+    "A055557"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:26:34",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

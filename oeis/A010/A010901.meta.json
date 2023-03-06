@@ -1,0 +1,20 @@
+{
+  "description": "Pisot sequences E(4,7), P(4,7).",
+  "id": "A010901",
+  "mentions": [
+    "A005251",
+    "A008776",
+    "A010925"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

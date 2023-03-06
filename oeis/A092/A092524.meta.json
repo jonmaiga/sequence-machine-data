@@ -1,0 +1,29 @@
+{
+  "description": "Binary representation of n interpreted in base p, where p is the smallest prime factor of n: p = A020639(n).",
+  "id": "A092524",
+  "mentions": [
+    "A003071",
+    "A005836",
+    "A007088",
+    "A016945",
+    "A020639",
+    "A029886",
+    "A061297",
+    "A093431",
+    "A102393",
+    "A104258",
+    "A122248",
+    "A128975"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

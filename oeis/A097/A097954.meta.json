@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 7*10^n + 9 is prime.",
+  "id": "A097954",
+  "mentions": [
+    "A101130"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

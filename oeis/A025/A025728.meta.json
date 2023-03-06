@@ -1,0 +1,19 @@
+{
+  "description": "Index of 8^n within sequence of numbers of form 3^i*8^j (A025615).",
+  "id": "A025728",
+  "mentions": [
+    "A025615",
+    "A025699"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

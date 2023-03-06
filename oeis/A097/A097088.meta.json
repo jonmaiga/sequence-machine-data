@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of coefficients in function A(x) such that A(A(x)) = x+x^2.",
+  "id": "A097088",
+  "mentions": [
+    "A097089"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

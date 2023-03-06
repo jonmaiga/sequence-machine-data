@@ -1,0 +1,16 @@
+{
+  "description": "Differences between the sum of the first three primes and the fourth prime in consecutive prime quadruples.",
+  "id": "A096380",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

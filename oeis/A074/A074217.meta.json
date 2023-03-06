@@ -1,0 +1,15 @@
+{
+  "description": "Floor(n^Pi) is a prime.",
+  "id": "A074217",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

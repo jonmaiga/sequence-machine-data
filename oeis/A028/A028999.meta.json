@@ -1,0 +1,19 @@
+{
+  "description": "Binary expansion of arctan(1/2)/Pi.",
+  "id": "A028999",
+  "mentions": [
+    "A004715"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:41:13",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

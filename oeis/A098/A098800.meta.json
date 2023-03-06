@@ -1,0 +1,20 @@
+{
+  "description": "Length of longest prefix of binary representation of n that is also a suffix of that of n^2.",
+  "id": "A098800",
+  "mentions": [
+    "A001737",
+    "A007088",
+    "A091269"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

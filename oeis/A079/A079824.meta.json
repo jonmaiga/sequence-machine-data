@@ -1,0 +1,24 @@
+{
+  "description": "Sum of numbers in n-th upward diagonal of triangle in A079823.",
+  "id": "A079824",
+  "mentions": [
+    "A000124",
+    "A000326",
+    "A079823",
+    "A185787",
+    "A185788"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:20:39",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

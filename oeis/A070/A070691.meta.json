@@ -1,0 +1,19 @@
+{
+  "description": "(Sum of digits of n)^n.",
+  "id": "A070691",
+  "mentions": [
+    "A007953",
+    "A067040"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:40:11",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

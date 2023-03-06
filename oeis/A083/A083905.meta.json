@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: 1/(1-x) * sum(k>=0, (-1)^k*x^2^(k+1)/(1+x^2^k)).",
+  "id": "A083905",
+  "mentions": [
+    "A006288",
+    "A023416",
+    "A030300",
+    "A065359",
+    "A079944"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n for which number of distinct prime divisors of C(n,k) has maximum at k = [n/2].",
+  "id": "A020731",
+  "mentions": [
+    "A001221",
+    "A019491",
+    "A048299",
+    "A048484",
+    "A048486"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

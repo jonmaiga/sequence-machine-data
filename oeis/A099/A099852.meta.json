@@ -1,0 +1,21 @@
+{
+  "description": "Terms in A099850 that are divisible by their position in that sequence.",
+  "id": "A099852",
+  "mentions": [
+    "A004648",
+    "A099850",
+    "A099851"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

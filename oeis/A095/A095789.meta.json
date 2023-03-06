@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of table A095788 of iterated binomial transforms of A095148, which also forms the antidiagonal sums shift right.",
+  "id": "A095789",
+  "mentions": [
+    "A095148",
+    "A095788"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

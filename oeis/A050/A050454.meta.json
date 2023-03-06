@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{d|n, d=3 mod 4} d^3.",
+  "id": "A050454",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

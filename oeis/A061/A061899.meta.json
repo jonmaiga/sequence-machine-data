@@ -1,0 +1,20 @@
+{
+  "description": "Fibonacci numbers that are not squarefree.",
+  "id": "A061899",
+  "mentions": [
+    "A000045",
+    "A037917",
+    "A061305"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

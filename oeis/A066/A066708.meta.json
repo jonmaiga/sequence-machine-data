@@ -1,0 +1,17 @@
+{
+  "description": "Least m such that n = m mod tau(m) if such m exists, otherwise 0.",
+  "id": "A066708",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

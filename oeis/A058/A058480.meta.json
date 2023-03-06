@@ -1,0 +1,18 @@
+{
+  "description": "Total number of interior nodes in all series-parallel networks with n labeled edges, multiple edges allowed.",
+  "id": "A058480",
+  "mentions": [
+    "A058478",
+    "A058479"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

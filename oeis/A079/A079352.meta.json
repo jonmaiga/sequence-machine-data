@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1, then a(n)=3*a(n-1) if n is already in the sequence, a(n)=2*a(n-1) otherwise.",
+  "id": "A079352",
+  "mentions": [
+    "A064437",
+    "A079000"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positions of 9's in the decimal expansion of Pi.",
+  "id": "A053753",
+  "mentions": [
+    "A037007",
+    "A048940",
+    "A096763"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "\"Truncated Mertens function\": values of -1 at primes are left out, that is, summatory Moebius when argument runs through nonprimes.",
+  "id": "A088004",
+  "mentions": [
+    "A000720",
+    "A002321",
+    "A008683",
+    "A030229"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Goodstein sequence starting with 16: to calculate a(n+1), write a(n) in the hereditary representation in base n+2, then bump the base to n+3, then subtract 1.",
+  "id": "A059933",
+  "mentions": [
+    "A056004",
+    "A056041",
+    "A056193",
+    "A057650",
+    "A211378",
+    "A215409",
+    "A222117",
+    "A266201",
+    "A266204",
+    "A266205"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes congruent to {1, 2, 3, 5} (mod 8).",
+  "id": "A042998",
+  "mentions": [
+    "A000040",
+    "A045403"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

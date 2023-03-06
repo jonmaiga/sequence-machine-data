@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that (31*10^(k-1) - 13)/9 is a plateau prime.",
+  "id": "A082706",
+  "mentions": [
+    "A056253",
+    "A082697",
+    "A082720"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

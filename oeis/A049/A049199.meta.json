@@ -1,0 +1,21 @@
+{
+  "description": "Nonsquarefree numbers whose Euler totient function is also nonsquarefree.",
+  "id": "A049199",
+  "mentions": [
+    "A000010",
+    "A005117",
+    "A013929",
+    "A049198"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

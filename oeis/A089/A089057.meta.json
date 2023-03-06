@@ -1,0 +1,15 @@
+{
+  "description": "n! divided by prime whose index is the integer part of log(n).",
+  "id": "A089057",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

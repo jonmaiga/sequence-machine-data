@@ -1,0 +1,22 @@
+{
+  "description": "Squares of odd pentagonal pyramidal numbers.",
+  "id": "A014799",
+  "mentions": [
+    "A002411",
+    "A014800",
+    "A015223",
+    "A015224"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:40:33",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

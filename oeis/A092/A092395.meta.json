@@ -1,0 +1,15 @@
+{
+  "description": "Primes occurring as divisors of fibonacci(p) with p prime.",
+  "id": "A092395",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

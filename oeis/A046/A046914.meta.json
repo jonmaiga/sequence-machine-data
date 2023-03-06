@@ -1,0 +1,19 @@
+{
+  "description": "Sum of aliquot factors (divisors excluding the number itself) of 10^n.",
+  "id": "A046914",
+  "mentions": [
+    "A001065"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:45:02",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

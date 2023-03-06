@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers that are the sum of 2 primes.",
+  "id": "A048974",
+  "mentions": [
+    "A014092",
+    "A052147",
+    "A065091",
+    "A067187",
+    "A088685"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 20:13:05",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Consider all integer triples (i,j,k), j >= k > 0, with binomial(i+2,3)=j^3+k^3, ordered by increasing i; sequence gives i values.",
+  "id": "A054205",
+  "mentions": [
+    "A000292",
+    "A054206",
+    "A054207"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

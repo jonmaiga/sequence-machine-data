@@ -1,0 +1,19 @@
+{
+  "description": "If n = (p_1)^(m_1)...(p_k)^(m_k) then a(n) = (p_1)^((p_1)^(m_1) - 1)...(p_k)((p_k)^(m_k) - 1).",
+  "id": "A036879",
+  "mentions": [
+    "A033950"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:11:25",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

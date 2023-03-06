@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = Product_{j=1..n} Product_{k=1..n} gcd(j,k).",
+  "id": "A092287",
+  "mentions": [
+    "A003989",
+    "A018806",
+    "A051190",
+    "A056040",
+    "A090494",
+    "A129365",
+    "A129439",
+    "A129453",
+    "A129454",
+    "A129455",
+    "A224479",
+    "A224497"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

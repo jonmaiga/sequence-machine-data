@@ -1,0 +1,19 @@
+{
+  "description": "Values x of smallest positive pair (x,y) satisfying x^2 - 2*y^2 = -+d, where d=A058529(n).",
+  "id": "A094136",
+  "mentions": [
+    "A058529",
+    "A094137",
+    "A094138"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

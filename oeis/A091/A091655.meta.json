@@ -1,0 +1,18 @@
+{
+  "description": "Least number k such that the continued fraction expansion of H(k) contains n, where H(k) is the k-th Harmonic number.",
+  "id": "A091655",
+  "mentions": [
+    "A055573",
+    "A091656"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

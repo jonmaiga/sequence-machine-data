@@ -1,0 +1,26 @@
+{
+  "description": "Length of list created by n substitutions k -> Range[-1-abs(k), abs(k)+1] starting with {1}.",
+  "id": "A084076",
+  "mentions": [
+    "A000108",
+    "A084075",
+    "A084077",
+    "A084078",
+    "A115139",
+    "A115193",
+    "A115195",
+    "A167432",
+    "A167435"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

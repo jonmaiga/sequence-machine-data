@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct (modulo rotation and reflection) n X n associative panmagic squares.",
+  "id": "A081263",
+  "mentions": [
+    "A006052",
+    "A081262"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

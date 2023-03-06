@@ -1,0 +1,19 @@
+{
+  "description": "Least integer with each \"mod 2 prime signature\".",
+  "id": "A097273",
+  "mentions": [
+    "A097272",
+    "A097274",
+    "A097275"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

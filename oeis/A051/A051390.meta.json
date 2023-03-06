@@ -1,0 +1,24 @@
+{
+  "description": "Number of nonisomorphic Steiner quadruple systems (SQS's) of order n.",
+  "id": "A051390",
+  "mentions": [
+    "A001201",
+    "A030128",
+    "A030129",
+    "A124119",
+    "A124120"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Energetic numbers, allowing zero as an exponent.",
+  "id": "A072096",
+  "mentions": [
+    "A055480"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

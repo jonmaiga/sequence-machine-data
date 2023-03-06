@@ -1,0 +1,17 @@
+{
+  "description": "Self-convolution of A023532.",
+  "id": "A023616",
+  "mentions": [
+    "A023532"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:19:13",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

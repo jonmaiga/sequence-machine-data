@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number m such that 2*m - p is composite for the first n primes p.",
+  "id": "A051169",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A025017",
+    "A051610",
+    "A116111"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

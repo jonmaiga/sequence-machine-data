@@ -1,0 +1,16 @@
+{
+  "description": "Denominator(Bernoulli(n-1) + 1/n)=42, where n runs through the primes.",
+  "id": "A090797",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

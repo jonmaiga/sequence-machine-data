@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of floor(log_2(k)) (= A000523(k)).",
+  "id": "A061168",
+  "mentions": [
+    "A000523",
+    "A001855",
+    "A076478",
+    "A123753"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

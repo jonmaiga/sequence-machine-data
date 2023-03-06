@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = binomial(sigma(n+1), sigma(n)).",
+  "id": "A078504",
+  "mentions": [
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

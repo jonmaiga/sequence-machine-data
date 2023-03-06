@@ -1,0 +1,18 @@
+{
+  "description": "f(n) where strategic move on f(n) X 3 rectangle in Chomp is (n,1).",
+  "id": "A029900",
+  "mentions": [
+    "A029899",
+    "A029905"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

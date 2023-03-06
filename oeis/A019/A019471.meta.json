@@ -1,0 +1,15 @@
+{
+  "description": "Maximum number of states needed to accept an n-th order approximation to a language over (0+1)^*, n=1..infinity.",
+  "id": "A019471",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

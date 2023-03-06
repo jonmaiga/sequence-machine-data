@@ -1,0 +1,20 @@
+{
+  "description": "Coefficient triangle of certain polynomials N(3; m,x).",
+  "id": "A062145",
+  "mentions": [
+    "A000292",
+    "A062137"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

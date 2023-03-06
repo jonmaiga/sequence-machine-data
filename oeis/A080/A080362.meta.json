@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of positive integers x such that the number of unitary-prime-divisors of x! equals n. Same as the number of positive integers x such that the number of primes in (x/2,x] equals n.",
+  "id": "A080362",
+  "mentions": [
+    "A000142",
+    "A000720",
+    "A056169",
+    "A056171",
+    "A080359",
+    "A080360",
+    "A080361",
+    "A104272"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

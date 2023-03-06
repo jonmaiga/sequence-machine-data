@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations (p1,...,pn) such that 1 <= |pk - k| <= 2 for all k.",
+  "id": "A033305",
+  "mentions": [
+    "A112575",
+    "A183324",
+    "A259776",
+    "A260074"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

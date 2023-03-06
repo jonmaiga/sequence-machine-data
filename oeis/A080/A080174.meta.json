@@ -1,0 +1,22 @@
+{
+  "description": "Primes p(k) such that p(k)*k falls between twin primes.",
+  "id": "A080174",
+  "mentions": [
+    "A000720",
+    "A001359",
+    "A006512",
+    "A014574",
+    "A062291",
+    "A192611"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes obtained as the sum of two successive terms of A084035.",
+  "id": "A084037",
+  "mentions": [
+    "A084035",
+    "A084038"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

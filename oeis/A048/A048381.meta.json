@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that replacing each nonzero digit d with the d-th prime (replacing each 0 digit with a 1) yields a prime.",
+  "id": "A048381",
+  "mentions": [
+    "A048380",
+    "A048382"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (i) the largest prime factor of n is not a palindrome and (ii) the sum of the factorials of the digits of n is equal to the largest prime factor of n reversed.",
+  "id": "A074301",
+  "mentions": [
+    "A111185"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

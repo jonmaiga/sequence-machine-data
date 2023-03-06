@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows in which n-th row gives all values of n!/{(p!)^a*(q!)^b*(r!)^c*...} (in increasing order) for all factorizations n = p^a*q^b*r^c*....",
+  "id": "A075377",
+  "mentions": [
+    "A001055",
+    "A036038"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

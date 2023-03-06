@@ -1,0 +1,19 @@
+{
+  "description": "Maximum of even products of partitions of n.",
+  "id": "A091915",
+  "mentions": [
+    "A000792",
+    "A091916"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

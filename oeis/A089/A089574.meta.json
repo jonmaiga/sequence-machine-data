@@ -1,0 +1,39 @@
+{
+  "description": "Column 4 of an array closely related to A083480. (Both arrays have shape sequence A083479).",
+  "id": "A089574",
+  "mentions": [
+    "A000124",
+    "A000168",
+    "A000330",
+    "A006011",
+    "A006468",
+    "A034261",
+    "A034263",
+    "A047970",
+    "A083479",
+    "A083480",
+    "A086602",
+    "A105552",
+    "A107600",
+    "A107601",
+    "A108538",
+    "A109125",
+    "A109126",
+    "A109820",
+    "A109821",
+    "A110553",
+    "A110624"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:59:45",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

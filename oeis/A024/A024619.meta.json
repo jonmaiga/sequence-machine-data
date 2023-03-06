@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that are not powers of primes p^k (k >= 0); complement of A000961.",
+  "id": "A024619",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001221",
+    "A010055",
+    "A014963",
+    "A020500",
+    "A080257",
+    "A085970",
+    "A118887",
+    "A340511"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

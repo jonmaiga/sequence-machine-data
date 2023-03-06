@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are the sum of 3 triangular numbers in exactly 2 ways.",
+  "id": "A071530",
+  "mentions": [
+    "A000217",
+    "A002097",
+    "A002636",
+    "A008443",
+    "A060773",
+    "A061262",
+    "A064816",
+    "A064825"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

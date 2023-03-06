@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of the coefficients of Euler-Ramanujan's harmonic number expansion into negative powers of a triangular number.",
+  "id": "A093334",
+  "mentions": [
+    "A000217",
+    "A001620",
+    "A238813"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that both the sum of the digits of k and 1 plus the product of its digits are primes.",
+  "id": "A087339",
+  "mentions": [
+    "A087340"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

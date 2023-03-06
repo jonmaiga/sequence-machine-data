@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that (k*prime(n)#)^2 + 1 is prime, where prime(n)# is the n-th primorial.",
+  "id": "A098778",
+  "mentions": [
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Denominator of sigma(4n)/sigma(n).",
+  "id": "A088840",
+  "mentions": [
+    "A000203",
+    "A038712",
+    "A080278",
+    "A088837",
+    "A088838",
+    "A088839",
+    "A088841"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

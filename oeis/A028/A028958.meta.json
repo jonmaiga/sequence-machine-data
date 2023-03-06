@@ -1,0 +1,20 @@
+{
+  "description": "Numbers represented by quadratic form with Gram matrix [ 2, 1; 1, 12 ] (divided by 2).",
+  "id": "A028958",
+  "mentions": [
+    "A028929",
+    "A028959",
+    "A033217",
+    "A106867"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:40:41",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

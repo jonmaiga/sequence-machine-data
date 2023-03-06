@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for sqrt(679).",
+  "id": "A040652",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:19:27",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

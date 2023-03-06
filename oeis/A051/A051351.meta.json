@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-1) + sum of digits of n-th prime.",
+  "id": "A051351",
+  "mentions": [
+    "A007605",
+    "A075544"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:55:43",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

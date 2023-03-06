@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X n matrices over GF(5) with rank n-1.",
+  "id": "A086778",
+  "mentions": [
+    "A053292",
+    "A060870",
+    "A085404"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

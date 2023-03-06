@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k#*2^k-1 is prime, where k# = product of primes <= k.",
+  "id": "A084406",
+  "mentions": [
+    "A034386"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

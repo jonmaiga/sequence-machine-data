@@ -1,0 +1,29 @@
+{
+  "description": "Sequence remaining after third round of Flavius Josephus sieve; remove every fourth term of A047241.",
+  "id": "A056530",
+  "mentions": [
+    "A000027",
+    "A000960",
+    "A002944",
+    "A003418",
+    "A005408",
+    "A017533",
+    "A017557",
+    "A017605",
+    "A047241",
+    "A056531",
+    "A131713"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:33:19",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

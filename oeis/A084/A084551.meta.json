@@ -1,0 +1,23 @@
+{
+  "description": "Primes which are a concatenation of five consecutive numbers.",
+  "id": "A084551",
+  "mentions": [
+    "A030458",
+    "A030471",
+    "A052087",
+    "A052088",
+    "A052089"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

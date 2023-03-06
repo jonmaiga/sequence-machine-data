@@ -1,0 +1,20 @@
+{
+  "description": "Row sums from triangle in A080818.",
+  "id": "A080819",
+  "mentions": [
+    "A080817",
+    "A080818",
+    "A080820"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

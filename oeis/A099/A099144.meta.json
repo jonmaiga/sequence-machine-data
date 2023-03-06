@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the equation S(k) = S(n+k) has no solutions for k <= n, where S is the Kempner function A002034.",
+  "id": "A099144",
+  "mentions": [
+    "A002034",
+    "A099143"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

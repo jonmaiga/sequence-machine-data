@@ -1,0 +1,19 @@
+{
+  "description": "Convolution of Fibonacci numbers and A023533.",
+  "id": "A023613",
+  "mentions": [
+    "A000045",
+    "A023533"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

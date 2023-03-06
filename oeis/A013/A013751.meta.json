@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 12^(3*n + 2).",
+  "id": "A013751",
+  "mentions": [
+    "A001021",
+    "A013750"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = greatest k such that s(k) = n, where s = A026358.",
+  "id": "A026360",
+  "mentions": [
+    "A026358"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:59",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

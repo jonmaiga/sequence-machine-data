@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n>1, a(n) = a(n-1)*n if n is prime, a(n) = a(n-1)/n if n is composite dividing a(n-1) else a(n) = a(n-1).",
+  "id": "A085087",
+  "mentions": [
+    "A034386",
+    "A089581",
+    "A099788"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

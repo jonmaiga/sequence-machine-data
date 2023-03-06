@@ -1,0 +1,15 @@
+{
+  "description": "Least positive integer k for which 8^n divides k!.",
+  "id": "A020647",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:10:19",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

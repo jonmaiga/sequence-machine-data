@@ -1,0 +1,18 @@
+{
+  "description": "Numbers which when multiplied by their final digit have products with same digital sequence except that last is first. Numbers obtained by concatenating a term any number of times with itself also have the defining property and are omitted.",
+  "id": "A081463",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k divides sum of first k primes A007504(k).",
+  "id": "A045345",
+  "mentions": [
+    "A007504",
+    "A090396",
+    "A171399"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

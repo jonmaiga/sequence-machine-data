@@ -1,0 +1,21 @@
+{
+  "description": "Let M_k be the k X k matrix M_k(i,j)=1/binomial(i+n,j); then a(n)=1/det(M_(n+1)).",
+  "id": "A069945",
+  "mentions": [
+    "A005249",
+    "A056040",
+    "A163085"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

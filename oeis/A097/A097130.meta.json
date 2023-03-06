@@ -1,0 +1,18 @@
+{
+  "description": "Carmichael numbers that are not == 1 mod 24.",
+  "id": "A097130",
+  "mentions": [
+    "A002997",
+    "A097061"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

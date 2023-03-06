@@ -1,0 +1,19 @@
+{
+  "description": "Value of initial digit of n in Roman numeral representation.",
+  "id": "A093704",
+  "mentions": [
+    "A000030"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

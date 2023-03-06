@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{d|n, d odd} d*2^(n/d - 1), a(0)=0.",
+  "id": "A054601",
+  "mentions": [
+    "A000016",
+    "A000031",
+    "A054598",
+    "A054599",
+    "A054600"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

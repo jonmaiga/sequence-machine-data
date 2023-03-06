@@ -1,0 +1,21 @@
+{
+  "description": "Primes such that deleting some digit yields a prime.",
+  "id": "A080603",
+  "mentions": [
+    "A080608",
+    "A096235",
+    "A096246"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

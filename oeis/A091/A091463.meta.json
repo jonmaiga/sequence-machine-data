@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest j such that 1/1 + 1/4 + 1/7 + ... + 1/j exceeds n.",
+  "id": "A091463",
+  "mentions": [
+    "A002387",
+    "A056053",
+    "A056054",
+    "A091462",
+    "A091464"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

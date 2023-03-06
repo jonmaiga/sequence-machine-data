@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(n-1) + a(floor(n/2))^2 for n > 0, a(0) = 1.",
+  "id": "A067868",
+  "mentions": [
+    "A000123",
+    "A056520",
+    "A058039"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime of the form k^n+2 with k>1.",
+  "id": "A095302",
+  "mentions": [
+    "A087576",
+    "A095303",
+    "A095304"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

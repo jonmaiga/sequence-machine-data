@@ -1,0 +1,16 @@
+{
+  "description": "Lower member p of a pair of twin primes such that p-1 is squarefree.",
+  "id": "A089188",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

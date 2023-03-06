@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that phi(n)*d(n) is a multiple of sigma(n), where d(n) is the number of divisors of n.",
+  "id": "A050934",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

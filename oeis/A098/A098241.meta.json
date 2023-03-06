@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that n = 216k+108 is element of A097703 and A007494 and A098240.",
+  "id": "A098241",
+  "mentions": [
+    "A007494",
+    "A016777",
+    "A063880",
+    "A067778",
+    "A097703",
+    "A097704",
+    "A098240"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

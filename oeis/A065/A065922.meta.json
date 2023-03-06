@@ -1,0 +1,20 @@
+{
+  "description": "Bessel polynomial {y_n}'(4).",
+  "id": "A065922",
+  "mentions": [
+    "A001514",
+    "A065920",
+    "A065921"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

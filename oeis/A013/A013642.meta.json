@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the continued fraction for sqrt(k) has period 2.",
+  "id": "A013642",
+  "mentions": [
+    "A001066",
+    "A004957",
+    "A026604",
+    "A043549",
+    "A047219",
+    "A090848"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:37:29",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

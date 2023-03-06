@@ -1,0 +1,20 @@
+{
+  "description": "n appears 1+[n/3] times.",
+  "id": "A073188",
+  "mentions": [
+    "A001840",
+    "A008620",
+    "A073189"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

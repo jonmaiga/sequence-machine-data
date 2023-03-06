@@ -1,0 +1,26 @@
+{
+  "description": "Convolution of Catalan numbers A000108 with A020918.",
+  "id": "A045724",
+  "mentions": [
+    "A000108",
+    "A000302",
+    "A000984",
+    "A001700",
+    "A020918",
+    "A029887",
+    "A038845",
+    "A042941"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:35:41",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that (71*10^(k-1) - 17)/9 is a plateau prime.",
+  "id": "A082715",
+  "mentions": [
+    "A056262",
+    "A082697",
+    "A082720"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

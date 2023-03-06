@@ -1,0 +1,28 @@
+{
+  "description": "Ordered short legs of primitive Pythagorean triangles.",
+  "id": "A020884",
+  "mentions": [
+    "A009004",
+    "A020882",
+    "A020883",
+    "A020885",
+    "A020886",
+    "A024352",
+    "A024359",
+    "A037213",
+    "A081874",
+    "A081925"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

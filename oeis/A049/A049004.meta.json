@@ -1,0 +1,18 @@
+{
+  "description": "First letter of English names for months of year, mapping A -> 1, B -> 2 etc.",
+  "id": "A049004",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "dumb",
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-27 08:31:19",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

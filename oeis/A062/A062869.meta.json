@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: For n >= 0, k >= 0, T(n,k) is the number of permutations pi of n such that the total distance Sum_i abs(i-pi(i)) = 2k. Equivalently, k = Sum_i max(i-pi(i),0).",
+  "id": "A062869",
+  "mentions": [
+    "A000142",
+    "A002620",
+    "A005990",
+    "A009006",
+    "A033638",
+    "A062866",
+    "A062867",
+    "A062870",
+    "A072949",
+    "A301897",
+    "A357329"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

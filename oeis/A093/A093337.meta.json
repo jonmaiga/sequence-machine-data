@@ -1,0 +1,20 @@
+{
+  "description": "Penultimate digits of the primes.",
+  "id": "A093337",
+  "mentions": [
+    "A007652",
+    "A077648",
+    "A093336"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 11,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

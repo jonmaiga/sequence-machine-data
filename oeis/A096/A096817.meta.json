@@ -1,0 +1,28 @@
+{
+  "description": "Exponents k such that 2^k - 11 is prime.",
+  "id": "A096817",
+  "mentions": [
+    "A000043",
+    "A050414",
+    "A059608",
+    "A059609",
+    "A059610",
+    "A059611",
+    "A059612",
+    "A096502",
+    "A096818",
+    "A096819",
+    "A096820"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

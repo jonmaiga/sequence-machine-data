@@ -1,0 +1,26 @@
+{
+  "description": "Positions of 3's in A048288.",
+  "id": "A050680",
+  "mentions": [
+    "A000422",
+    "A046462",
+    "A048288",
+    "A050679",
+    "A050681",
+    "A050682"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

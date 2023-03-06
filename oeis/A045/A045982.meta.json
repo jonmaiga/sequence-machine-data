@@ -1,0 +1,22 @@
+{
+  "description": "Describe all the previous terms!.",
+  "id": "A045982",
+  "mentions": [
+    "A005150",
+    "A045918",
+    "A045981"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

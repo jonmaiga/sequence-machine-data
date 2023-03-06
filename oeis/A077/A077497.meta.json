@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form 2^r*5^s + 1.",
+  "id": "A077497",
+  "mentions": [
+    "A003592",
+    "A005109",
+    "A019434",
+    "A077313",
+    "A077498",
+    "A077500"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

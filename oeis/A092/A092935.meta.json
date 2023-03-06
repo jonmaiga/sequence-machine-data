@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; a(n) = floor {(n+1)(n+2)(n+3)...(n+k)}/{(n-1)(n-2)(n-3)...(n-k)} for the least value of k.",
+  "id": "A092935",
+  "mentions": [
+    "A001700",
+    "A103634"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

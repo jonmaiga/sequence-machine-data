@@ -1,0 +1,19 @@
+{
+  "description": "Difference between Kolakoski(n)=A000002(n) and 1 (n odd) or 2 (n even).",
+  "id": "A074290",
+  "mentions": [
+    "A000002",
+    "A074291"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

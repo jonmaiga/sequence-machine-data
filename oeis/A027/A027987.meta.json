@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum{T(n,k)*T(n,k+3)}, 0<=k<=2n-3, T given by A027960.",
+  "id": "A027987",
+  "mentions": [
+    "A027960"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:27:24",
+    "offset": 3,
+    "size": 21,
+    "source": "joeis"
+  }
+}

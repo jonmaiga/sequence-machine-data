@@ -1,0 +1,15 @@
+{
+  "description": "Numbers n such that n-th prime = sigma(sigma(n)) + 1.",
+  "id": "A074240",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

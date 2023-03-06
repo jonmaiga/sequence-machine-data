@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of hard hexagon entropy constant.",
+  "id": "A085851",
+  "mentions": [
+    "A066864",
+    "A085850",
+    "A247413"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

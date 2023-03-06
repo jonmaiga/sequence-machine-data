@@ -1,0 +1,18 @@
+{
+  "description": "List of primes p which are equal to a central binomial coefficient C(n,floor(n/2)) plus 1.",
+  "id": "A066749",
+  "mentions": [
+    "A001405",
+    "A067366"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

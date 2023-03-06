@@ -1,0 +1,35 @@
+{
+  "description": "Number of log-concave compositions (ordered partitions) of n.",
+  "id": "A069916",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000041",
+    "A001055",
+    "A002843",
+    "A003238",
+    "A003242",
+    "A008965",
+    "A048004",
+    "A059966",
+    "A070211",
+    "A074206",
+    "A122651",
+    "A167606",
+    "A167865",
+    "A175342",
+    "A325325",
+    "A325547"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

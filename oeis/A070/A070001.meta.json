@@ -1,0 +1,21 @@
+{
+  "description": "Palindromic integers > 0, whose 'Reverse and Add!' trajectory (presumably) does not lead to another palindrome.",
+  "id": "A070001",
+  "mentions": [
+    "A002113",
+    "A023108",
+    "A063048",
+    "A063057"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

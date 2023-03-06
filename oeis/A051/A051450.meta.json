@@ -1,0 +1,21 @@
+{
+  "description": "Number of positive rational knots with 2n+1 crossings.",
+  "id": "A051450",
+  "mentions": [
+    "A000045",
+    "A192232",
+    "A192464"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

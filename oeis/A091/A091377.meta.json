@@ -1,0 +1,23 @@
+{
+  "description": "Numbers having fewer prime factors than the value of their smallest prime factor.",
+  "id": "A091377",
+  "mentions": [
+    "A001222",
+    "A020639",
+    "A091371",
+    "A091374",
+    "A091375",
+    "A091376"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

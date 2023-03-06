@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n-th sextic factorial number divided by 2.",
+  "id": "A034689",
+  "mentions": [
+    "A007559",
+    "A008542",
+    "A034723",
+    "A034724",
+    "A034787",
+    "A034788",
+    "A047058",
+    "A047657"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

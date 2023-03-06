@@ -1,0 +1,31 @@
+{
+  "description": "Array of the coefficients A(n,k) in the expansion of Product_{i>=1} 1/(1-x^i)^n = Sum_{k>=0} A(n,k)*x^k, n >= 1, k >= 0.",
+  "id": "A060850",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A000096",
+    "A000712",
+    "A000716",
+    "A001477",
+    "A006503",
+    "A006504",
+    "A006922",
+    "A023003",
+    "A023021",
+    "A067687"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

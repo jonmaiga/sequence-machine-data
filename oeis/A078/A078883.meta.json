@@ -1,0 +1,23 @@
+{
+  "description": "Lesser member p of a twin prime pair such that p+1 is 3-smooth.",
+  "id": "A078883",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A003586",
+    "A014574",
+    "A027856",
+    "A059960",
+    "A078884"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

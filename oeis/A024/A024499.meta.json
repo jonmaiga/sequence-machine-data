@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = [ C(2n,n)/(n-1) ].",
+  "id": "A024499",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:28:50",
+    "offset": 2,
+    "size": 25,
+    "source": "joeis"
+  }
+}

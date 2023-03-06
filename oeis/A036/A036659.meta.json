@@ -1,0 +1,19 @@
+{
+  "description": "Product of n with sum of next n consecutive integers.",
+  "id": "A036659",
+  "mentions": [
+    "A036660"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:27:43",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

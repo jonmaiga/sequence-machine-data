@@ -1,0 +1,18 @@
+{
+  "description": "Decimal representation if A023532 is binary.",
+  "id": "A060625",
+  "mentions": [
+    "A023532"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

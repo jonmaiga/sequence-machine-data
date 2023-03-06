@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array T read by rows: T(n,k) = (k^4 mod n) + (n^4 mod k).",
+  "id": "A049771",
+  "mentions": [
+    "A049772"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:29",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

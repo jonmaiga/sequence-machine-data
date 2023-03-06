@@ -1,0 +1,23 @@
+{
+  "description": "Sum of next n 7th powers.",
+  "id": "A075668",
+  "mentions": [
+    "A006003",
+    "A072474",
+    "A075664",
+    "A075670",
+    "A075671"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:41:59",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

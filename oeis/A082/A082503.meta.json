@@ -1,0 +1,18 @@
+{
+  "description": "Grundy numbers for start position of 1 X n triangular Dots and Boxes.",
+  "id": "A082503",
+  "mentions": [
+    "A082501"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

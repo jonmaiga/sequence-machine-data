@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{k=1..n} s(n,k), where s(n,k) is unsigned Stirling number of the first kind. (s(n,k) = number of permutations of n elements which contain exactly k cycles.)",
+  "id": "A058807",
+  "mentions": [
+    "A058808",
+    "A132393",
+    "A294373"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

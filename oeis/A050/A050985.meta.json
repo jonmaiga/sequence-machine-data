@@ -1,0 +1,26 @@
+{
+  "description": "Cubefree part of n.",
+  "id": "A050985",
+  "mentions": [
+    "A004709",
+    "A007913",
+    "A008834",
+    "A046099",
+    "A053165",
+    "A301596",
+    "A301597"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

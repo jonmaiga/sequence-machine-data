@@ -1,0 +1,19 @@
+{
+  "description": "If 4*n+1 is not prime and 4*n+3 is prime then a(n)=4*n+3, else a(n)=0.",
+  "id": "A094897",
+  "mentions": [
+    "A045751",
+    "A094896",
+    "A095278"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

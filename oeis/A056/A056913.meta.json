@@ -1,0 +1,26 @@
+{
+  "description": "Odd squarefree numbers for which the number of prime divisors is even.",
+  "id": "A056913",
+  "mentions": [
+    "A000379",
+    "A002556",
+    "A008836",
+    "A026424",
+    "A028260",
+    "A056911",
+    "A056912",
+    "A059897",
+    "A185197"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

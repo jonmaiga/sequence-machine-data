@@ -1,0 +1,21 @@
+{
+  "description": "A trisection of 1/(1-x-x^4).",
+  "id": "A099234",
+  "mentions": [
+    "A003269",
+    "A099233",
+    "A116089"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

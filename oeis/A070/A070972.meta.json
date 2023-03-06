@@ -1,0 +1,20 @@
+{
+  "description": "Length of longest run of consecutive 1's in binary expansion of 3^n (A004656).",
+  "id": "A070972",
+  "mentions": [
+    "A004656",
+    "A011754"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

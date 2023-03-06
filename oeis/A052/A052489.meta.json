@@ -1,0 +1,22 @@
+{
+  "description": "Largest number that is n times sum of its decimal digits.",
+  "id": "A052489",
+  "mentions": [
+    "A003634",
+    "A003635",
+    "A052490"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

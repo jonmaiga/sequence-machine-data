@@ -1,0 +1,18 @@
+{
+  "description": "Starting position of the first occurrence of n in the decimal expansion of Pi such that a(n) > a(n-1) for n >= 1.",
+  "id": "A082591",
+  "mentions": [
+    "A014777"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

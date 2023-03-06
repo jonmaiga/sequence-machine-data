@@ -1,0 +1,21 @@
+{
+  "description": "T(4,n) with T(n,m) as in A063394.",
+  "id": "A063397",
+  "mentions": [
+    "A063394",
+    "A063396",
+    "A063398"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

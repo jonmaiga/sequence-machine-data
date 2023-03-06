@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n conference matrices (including both symmetric and antisymmetric).",
+  "id": "A086262",
+  "mentions": [
+    "A086260",
+    "A086261"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

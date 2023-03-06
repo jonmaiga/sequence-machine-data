@@ -1,0 +1,17 @@
+{
+  "description": "From Vikram Seth's novel, \"A Suitable Boy\".",
+  "id": "A055627",
+  "mentions": [
+    "A036740"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

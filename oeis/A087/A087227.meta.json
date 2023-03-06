@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct prime factors of A087226(n), the LCM of terms in trajectory of 3x+1 (function) initiated at n.",
+  "id": "A087227",
+  "mentions": [
+    "A006370",
+    "A078219",
+    "A078719",
+    "A087226"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

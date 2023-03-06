@@ -1,0 +1,24 @@
+{
+  "description": "Number of bracelets of length n using exactly two different colored beads.",
+  "id": "A056342",
+  "mentions": [
+    "A000029",
+    "A008277",
+    "A027383",
+    "A052823",
+    "A056391",
+    "A059076",
+    "A273891"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

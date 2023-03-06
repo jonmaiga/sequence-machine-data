@@ -1,0 +1,29 @@
+{
+  "description": "McKay-Thompson series of class 8E for the Monster group.",
+  "id": "A029841",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A001938",
+    "A010054",
+    "A010815",
+    "A029839",
+    "A029845",
+    "A079006",
+    "A112143",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

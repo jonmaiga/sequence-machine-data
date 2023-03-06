@@ -1,0 +1,18 @@
+{
+  "description": "Total number of nodes in all planted trees on n nodes.",
+  "id": "A095341",
+  "mentions": [
+    "A000081"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:53:24",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

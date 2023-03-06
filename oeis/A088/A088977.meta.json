@@ -1,0 +1,25 @@
+{
+  "description": "Side of primitive equilateral triangle with prime cevian p=A002476(n) cutting an edge into two integral parts.",
+  "id": "A088977",
+  "mentions": [
+    "A002476",
+    "A061281",
+    "A088241",
+    "A088242",
+    "A088243",
+    "A088296",
+    "A088298",
+    "A088299"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

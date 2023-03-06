@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that can be written as a concatenation of distinct proper divisors.",
+  "id": "A050480",
+  "mentions": [
+    "A032742"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

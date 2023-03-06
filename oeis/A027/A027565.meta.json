@@ -1,0 +1,22 @@
+{
+  "description": "Largest number not of form k_1 k_2 .. k_n (1/k_1 + .. + 1/k_n), k_i integers >= 1.",
+  "id": "A027565",
+  "mentions": [
+    "A025052",
+    "A027563",
+    "A027564",
+    "A027566"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

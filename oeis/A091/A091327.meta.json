@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows giving number of inequivalent even binary linear [n,k] codes containing no zero columns (n >= 2, 1 <= k <= n-1).",
+  "id": "A091327",
+  "mentions": [
+    "A091325",
+    "A091328"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

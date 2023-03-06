@@ -1,0 +1,23 @@
+{
+  "description": "Recursive sequence; one more than maximum of products of pairs of previous terms with indices summing to current index.",
+  "id": "A091980",
+  "mentions": [
+    "A003095",
+    "A056971",
+    "A168542",
+    "A309049",
+    "A355108"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

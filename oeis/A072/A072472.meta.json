@@ -1,0 +1,17 @@
+{
+  "description": "a(-1)=1, a(0) = 2; a(n) = product of numbers from p(n)+1 up to p(n+1), where p(n) is the n-th prime.",
+  "id": "A072472",
+  "mentions": [
+    "A072470"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": -1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

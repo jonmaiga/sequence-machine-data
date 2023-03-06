@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{r=1..n} r^4*binomial(n,r)^2.",
+  "id": "A074334",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A002457",
+    "A037966",
+    "A037972",
+    "A329444",
+    "A329913"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

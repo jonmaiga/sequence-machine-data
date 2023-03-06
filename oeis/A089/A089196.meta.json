@@ -1,0 +1,19 @@
+{
+  "description": "Floor(n / (smallest prime factor of n+1)).",
+  "id": "A089196",
+  "mentions": [
+    "A020639",
+    "A032742"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:56:39",
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

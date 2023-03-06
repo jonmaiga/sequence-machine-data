@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are divisible by at least one of their digits in every base.",
+  "id": "A055238",
+  "mentions": [
+    "A038770",
+    "A055239",
+    "A055240",
+    "A055241",
+    "A055242"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

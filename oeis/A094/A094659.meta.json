@@ -1,0 +1,19 @@
+{
+  "description": "Number of closed walks of length n at a vertex of the cyclic graph on 7 nodes C_7.",
+  "id": "A094659",
+  "mentions": [
+    "A094648"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

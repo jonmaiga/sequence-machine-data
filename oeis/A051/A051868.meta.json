@@ -1,0 +1,26 @@
+{
+  "description": "16-gonal (or hexadecagonal) numbers: a(n) = n*(7*n-6).",
+  "id": "A051868",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000566",
+    "A000567",
+    "A051682",
+    "A051874",
+    "A255187",
+    "A282852"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:19",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

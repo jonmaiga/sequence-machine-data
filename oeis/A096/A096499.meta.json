@@ -1,0 +1,23 @@
+{
+  "description": "Difference between prime following and prime preceding n-th repunit.",
+  "id": "A096499",
+  "mentions": [
+    "A002275",
+    "A068693",
+    "A096497",
+    "A096498",
+    "A096869",
+    "A096870"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

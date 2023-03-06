@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct odd numbers visible as proper subsequences of n.",
+  "id": "A045888",
+  "mentions": [
+    "A045887",
+    "A342845",
+    "A342846"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

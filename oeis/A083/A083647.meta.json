@@ -1,0 +1,19 @@
+{
+  "description": "For primes p: Number of steps to reach 2 when iterating f(p) = greatest prime divisor of p-1.",
+  "id": "A083647",
+  "mentions": [
+    "A006530",
+    "A023503",
+    "A082449"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations satisfying i-2<=p(i)<=i+6, i=1..n.",
+  "id": "A072853",
+  "mentions": [
+    "A002524",
+    "A002529",
+    "A072827",
+    "A072850",
+    "A072856",
+    "A079955",
+    "A080014"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that A000002(n)=A000002(n+1) where A000002 is the Kolakoski sequence.",
+  "id": "A078649",
+  "mentions": [
+    "A000002",
+    "A013948",
+    "A054353",
+    "A054354",
+    "A074262",
+    "A074263",
+    "A216345"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "These numbers take a record number of steps to reach the top of the deck in Guy's shuffle (see A035485).",
+  "id": "A057983",
+  "mentions": [
+    "A035485",
+    "A035490",
+    "A035493",
+    "A035494",
+    "A057984",
+    "A060750",
+    "A060752"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

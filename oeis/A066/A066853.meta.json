@@ -1,0 +1,20 @@
+{
+  "description": "Number of different remainders (or residues) for the Fibonacci numbers (A000045) when divided by n (i.e., the size of the set of F(i) mod n over all i).",
+  "id": "A066853",
+  "mentions": [
+    "A000045",
+    "A001175",
+    "A079002",
+    "A128924"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Terms of Binary Gleichniszahlen-Reihe (BGR) sequence A045998 converted into decimal (Look and Say Sequence, mod 2, read in binary and converted to decimal).",
+  "id": "A048522",
+  "mentions": [
+    "A005150",
+    "A045998",
+    "A045999"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

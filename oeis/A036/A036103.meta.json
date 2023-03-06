@@ -1,0 +1,21 @@
+{
+  "description": "A look-and-say sequence: each term summarizes the previous two terms.",
+  "id": "A036103",
+  "mentions": [
+    "A036059",
+    "A036106"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:24:43",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

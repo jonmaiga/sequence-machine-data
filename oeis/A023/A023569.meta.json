@@ -1,0 +1,18 @@
+{
+  "description": "Greatest prime divisor of prime(n) - 3.",
+  "id": "A023569",
+  "mentions": [
+    "A023568",
+    "A057733"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:18:47",
+    "offset": 3,
+    "size": 70,
+    "source": "joeis"
+  }
+}

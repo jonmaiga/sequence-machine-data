@@ -1,0 +1,18 @@
+{
+  "description": "Permanent of the n X n matrix M where M(i,i) = 0 and for i != j, M(i,j) = mu(|i-j|) where mu( ) is the moebius function.",
+  "id": "A086095",
+  "mentions": [
+    "A008683",
+    "A071085"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

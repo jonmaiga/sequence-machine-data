@@ -1,0 +1,25 @@
+{
+  "description": "Global ranking function for totally balanced binary sequences.",
+  "id": "A080300",
+  "mentions": [
+    "A000523",
+    "A014137",
+    "A014486",
+    "A080116",
+    "A080301",
+    "A209640",
+    "A213704",
+    "A215406"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

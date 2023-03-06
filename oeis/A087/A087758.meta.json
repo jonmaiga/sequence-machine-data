@@ -1,0 +1,18 @@
+{
+  "description": "Index of first occurrence of n in A005229.",
+  "id": "A087758",
+  "mentions": [
+    "A005229"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

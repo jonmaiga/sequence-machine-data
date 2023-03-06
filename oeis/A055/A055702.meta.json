@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n | Sigma_8(n) + Phi(n)^8.",
+  "id": "A055702",
+  "mentions": [
+    "A013956"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

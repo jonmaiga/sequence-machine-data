@@ -1,0 +1,21 @@
+{
+  "description": "Number of bits in n!.",
+  "id": "A072831",
+  "mentions": [
+    "A000142",
+    "A003070",
+    "A034886"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Values of k for which the earliest maximal value of A001221(C(k,j)) is j = floor(k/2).",
+  "id": "A048486",
+  "mentions": [
+    "A001221",
+    "A001405",
+    "A034973",
+    "A048273",
+    "A048571"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

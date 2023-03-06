@@ -1,0 +1,22 @@
+{
+  "description": "Third row of Pascal-(1,2,1) array A081577.",
+  "id": "A081583",
+  "mentions": [
+    "A013610",
+    "A038764",
+    "A081577",
+    "A081584"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:09:05",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

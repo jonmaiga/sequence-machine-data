@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = least k>1 such that (1+2+3+...+k) divides (1^n + 2^n + 3^n + ... + k^n).",
+  "id": "A094756",
+  "mentions": [
+    "A094755",
+    "A095366"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

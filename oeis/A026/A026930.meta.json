@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n into an even number of parts, the greatest being 6; also, a(n+11) = number of partitions of n+5 into an odd number of parts, each <=6.",
+  "id": "A026930",
+  "mentions": [
+    "A026921"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:33:13",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

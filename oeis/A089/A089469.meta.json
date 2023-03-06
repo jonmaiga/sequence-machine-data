@@ -1,0 +1,19 @@
+{
+  "description": "a(n+1) = the n-th term of the n-th binomial transform.",
+  "id": "A089469",
+  "mentions": [
+    "A071207",
+    "A088956"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

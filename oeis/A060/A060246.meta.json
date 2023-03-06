@@ -1,0 +1,32 @@
+{
+  "description": "Triangle whose rows are the degrees of the irreducible representations of the groups PSL(2,p) as p runs through the primes.",
+  "id": "A060246",
+  "mentions": [
+    "A003860",
+    "A003879",
+    "A003882",
+    "A003883",
+    "A003885",
+    "A003886",
+    "A003887",
+    "A003890",
+    "A003891",
+    "A060240",
+    "A060241",
+    "A060247",
+    "A124678"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

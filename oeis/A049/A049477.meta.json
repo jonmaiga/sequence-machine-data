@@ -1,0 +1,21 @@
+{
+  "description": "For each record-breaking row, m, of A088643, the sequence gives the length, k, of the longest earlier row contained in row m.",
+  "id": "A049477",
+  "mentions": [
+    "A049476",
+    "A049478",
+    "A088643",
+    "A346778"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

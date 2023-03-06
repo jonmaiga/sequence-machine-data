@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the least common multiple of numbers in {1,2,3,...,n-1} which do not divide n.",
+  "id": "A067391",
+  "mentions": [
+    "A003418",
+    "A007978",
+    "A024816",
+    "A038610",
+    "A049820",
+    "A055067",
+    "A066574",
+    "A173540"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

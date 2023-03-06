@@ -1,0 +1,19 @@
+{
+  "description": "Aronson transform of lower Wythoff sequence A000201.",
+  "id": "A080760",
+  "mentions": [
+    "A000201",
+    "A080746"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

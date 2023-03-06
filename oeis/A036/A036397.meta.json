@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients of cluster series for site percolation problem on triangular lattice with 1st, 2nd and 3rd neighbor bonds.",
+  "id": "A036397",
+  "mentions": [
+    "A003200",
+    "A003203"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of covers of an unlabeled n-set such that every point of the set is covered by exactly 5 subsets of the cover and that intersection of every 5 subsets of the cover contains at most one point.",
+  "id": "A058792",
+  "mentions": [
+    "A050535",
+    "A050913",
+    "A058783",
+    "A058784",
+    "A058785",
+    "A058790",
+    "A331508"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

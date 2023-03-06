@@ -1,0 +1,23 @@
+{
+  "description": "Third unsigned column of triangle A051379.",
+  "id": "A051561",
+  "mentions": [
+    "A049388",
+    "A051379",
+    "A051560",
+    "A163931",
+    "A163932"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:41:01",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

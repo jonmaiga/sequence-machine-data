@@ -1,0 +1,20 @@
+{
+  "description": "Least m >= a(n-1)+n such that m!/(m-n)! is a multiple of a(n-1)!/(a(n-1)-(n-1))!.",
+  "id": "A094272",
+  "mentions": [
+    "A094270",
+    "A094271",
+    "A094273",
+    "A094274"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The $620 prime list.",
+  "id": "A018188",
+  "mentions": [
+    "A000040",
+    "A107007"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

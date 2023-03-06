@@ -1,0 +1,37 @@
+{
+  "description": "Number of partitions of n into distinct squares.",
+  "id": "A033461",
+  "mentions": [
+    "A000290",
+    "A001156",
+    "A001422",
+    "A001462",
+    "A003995",
+    "A005117",
+    "A052335",
+    "A078135",
+    "A078434",
+    "A109298",
+    "A114638",
+    "A117144",
+    "A242434",
+    "A279329",
+    "A324571",
+    "A324572",
+    "A324587",
+    "A324588",
+    "A341040"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

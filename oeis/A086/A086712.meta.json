@@ -1,0 +1,18 @@
+{
+  "description": "Number of times the n-th prime power can be written as an arithmetic mean of two other prime powers.",
+  "id": "A086712",
+  "mentions": [
+    "A000961",
+    "A071681"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

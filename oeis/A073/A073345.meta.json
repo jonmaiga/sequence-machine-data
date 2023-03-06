@@ -1,0 +1,30 @@
+{
+  "description": "Table T(n,k) (listed antidiagonalwise in order T(0,0), T(1,0), T(0,1), T(2,0), T(1,1), ...) giving the number of rooted plane binary trees of size n and height k.",
+  "id": "A073345",
+  "mentions": [
+    "A000108",
+    "A001263",
+    "A001699",
+    "A002262",
+    "A011782",
+    "A014480",
+    "A025581",
+    "A065329",
+    "A073346",
+    "A073429",
+    "A073773",
+    "A073774"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

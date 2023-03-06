@@ -1,0 +1,20 @@
+{
+  "description": "n-th partition number (A000041) sets a new record for number of divisors.",
+  "id": "A085544",
+  "mentions": [
+    "A000041",
+    "A085543",
+    "A154789"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest integer that can be written in exactly n ways as the sum of two primes that are congruent modulo 3.",
+  "id": "A078647",
+  "mentions": [
+    "A074169",
+    "A078646",
+    "A078648"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

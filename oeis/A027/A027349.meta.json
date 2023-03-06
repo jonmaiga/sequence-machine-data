@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into distinct odd parts, the least being 1.",
+  "id": "A027349",
+  "mentions": [
+    "A000700",
+    "A001523",
+    "A096441",
+    "A116860",
+    "A188674"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Permanent of the character table of the elementary abelian group (C_2)^n.",
+  "id": "A085806",
+  "mentions": [
+    "A061301",
+    "A096204",
+    "A096205"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

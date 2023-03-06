@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 4 does not divide phi(k), where phi is Euler's totient function (A000010).",
+  "id": "A097987",
+  "mentions": [
+    "A000010",
+    "A066499",
+    "A172019"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

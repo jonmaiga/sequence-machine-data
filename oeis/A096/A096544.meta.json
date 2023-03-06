@@ -1,0 +1,19 @@
+{
+  "description": "Formed from a secondary diagonal of triangle A096542 where a(n) = A096542(n,n-3)/4.",
+  "id": "A096544",
+  "mentions": [
+    "A057500",
+    "A096542",
+    "A096543"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

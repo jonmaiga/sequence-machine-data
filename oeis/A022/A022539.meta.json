@@ -1,0 +1,19 @@
+{
+  "description": "Nexus numbers (n+1)^23 - n^23.",
+  "id": "A022539",
+  "mentions": [
+    "A010811",
+    "A047969"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

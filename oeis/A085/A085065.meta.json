@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 4, a(n) = smallest number of the form k*a(n-1) +1 with the same prime signature p^2, where p is a prime.",
+  "id": "A085065",
+  "mentions": [
+    "A061092"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

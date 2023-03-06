@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = core(1)*core(2)*...*core(n) where core(n) is the squarefree part of n (A007913).",
+  "id": "A069260",
+  "mentions": [
+    "A000142",
+    "A007913"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

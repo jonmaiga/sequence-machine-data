@@ -1,0 +1,19 @@
+{
+  "description": "Least m such that A078142(m) = A006530(m) = n-th prime.",
+  "id": "A078328",
+  "mentions": [
+    "A006530",
+    "A078142",
+    "A078327"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

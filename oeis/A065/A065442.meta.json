@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of Erdős-Borwein constant Sum_{k>=1} 1/(2^k - 1).",
+  "id": "A065442",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A038631",
+    "A065443",
+    "A066766",
+    "A073668",
+    "A179951",
+    "A211705",
+    "A211706",
+    "A323482"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 10:56:35",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

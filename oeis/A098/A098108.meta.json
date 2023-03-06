@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 1 if n is an odd square, otherwise 0.",
+  "id": "A098108",
+  "mentions": [
+    "A000035",
+    "A000122",
+    "A000594",
+    "A002448",
+    "A010052",
+    "A010054",
+    "A016754",
+    "A126811"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

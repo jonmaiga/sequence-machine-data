@@ -1,0 +1,23 @@
+{
+  "description": "Number of subsets of {1,.., n} containing at least one square.",
+  "id": "A089888",
+  "mentions": [
+    "A000079",
+    "A000196",
+    "A000225",
+    "A089886",
+    "A089887",
+    "A089890"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

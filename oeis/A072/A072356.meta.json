@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = if n=p*q^2 for primes p<>q then q*p^2 else n.",
+  "id": "A072356",
+  "mentions": [
+    "A054753"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

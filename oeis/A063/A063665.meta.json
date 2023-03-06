@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways 1/n can be written as 1/x^2 + 1/y^2 with y >= x >= 1.",
+  "id": "A063665",
+  "mentions": [
+    "A000161",
+    "A018892",
+    "A025426",
+    "A063664"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

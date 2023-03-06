@@ -1,0 +1,20 @@
+{
+  "description": "Write the numbers from 1 to n^2 consecutively in n rows of length n; let c(k) = number of primes in k-th column; a(n) = minimal c(k) for gcd(k,n) = 1.",
+  "id": "A083414",
+  "mentions": [
+    "A010051",
+    "A083382",
+    "A083415",
+    "A084927"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

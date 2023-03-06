@@ -1,0 +1,30 @@
+{
+  "description": "Refactorable numbers: number of divisors of k divides k. Also known as tau numbers.",
+  "id": "A033950",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A000720",
+    "A009230",
+    "A036762",
+    "A036763",
+    "A039819",
+    "A051278",
+    "A051279",
+    "A051280",
+    "A054008",
+    "A235353",
+    "A281188"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Size of the largest subset S of {1,2,3,...,n} with the property that if i and j are distinct elements of S then i XOR j is not in S, where XOR is the bitwise exclusive-OR operator.",
+  "id": "A078881",
+  "mentions": [
+    "A006165",
+    "A078882"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:09:25",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

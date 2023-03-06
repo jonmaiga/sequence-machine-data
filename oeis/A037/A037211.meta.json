@@ -1,0 +1,20 @@
+{
+  "description": "Smallest natural number k such that periodic part of 1/sqrt(k) is n (or 0 if no such number exists).",
+  "id": "A037211",
+  "mentions": [
+    "A037207"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

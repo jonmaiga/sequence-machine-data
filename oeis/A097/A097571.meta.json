@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that triangular number t(n) (see A000217) = n(n+1)/2 is a product of three consecutive integers.",
+  "id": "A097571",
+  "mentions": [
+    "A000217",
+    "A001219",
+    "A001652"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

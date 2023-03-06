@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes between n^4 and (n+1)^4.",
+  "id": "A061235",
+  "mentions": [
+    "A014085",
+    "A060199",
+    "A062517"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

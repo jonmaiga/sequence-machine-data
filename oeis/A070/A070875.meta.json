@@ -1,0 +1,30 @@
+{
+  "description": "Binary expansion is 1x100...0 where x = 0 or 1.",
+  "id": "A070875",
+  "mentions": [
+    "A000010",
+    "A002487",
+    "A005009",
+    "A020714",
+    "A063757",
+    "A063920",
+    "A070876",
+    "A093873",
+    "A123760",
+    "A228405",
+    "A309019"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

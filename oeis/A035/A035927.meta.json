@@ -1,0 +1,21 @@
+{
+  "description": "One less than number of n-multisets chosen from a 10-set.",
+  "id": "A035927",
+  "mentions": [
+    "A000582",
+    "A014553",
+    "A179239"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:23:17",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

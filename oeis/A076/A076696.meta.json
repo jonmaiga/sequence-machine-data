@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: n-th row contains n numbers whose product is a square; all numbers in triangle are distinct.",
+  "id": "A076696",
+  "mentions": [
+    "A076031",
+    "A076596"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

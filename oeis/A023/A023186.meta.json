@@ -1,0 +1,31 @@
+{
+  "description": "Lonely (or isolated) primes: increasing distance to nearest prime.",
+  "id": "A023186",
+  "mentions": [
+    "A023187",
+    "A023188",
+    "A046929",
+    "A046930",
+    "A046931",
+    "A051650",
+    "A051652",
+    "A051697",
+    "A051702",
+    "A051728",
+    "A051729",
+    "A051730",
+    "A102723",
+    "A120937"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sums of four consecutive primes.",
+  "id": "A034963",
+  "mentions": [
+    "A000040",
+    "A001043",
+    "A011974",
+    "A034707"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

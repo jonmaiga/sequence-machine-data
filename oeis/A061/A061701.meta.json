@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number m such that GCD of d(m^2) and d(m) is 2n+1.",
+  "id": "A061701",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A048691"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

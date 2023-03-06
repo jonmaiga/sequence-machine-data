@@ -1,0 +1,22 @@
+{
+  "description": "Number of rooted planar 4-constellations with n quadrangles: rooted planar maps with bicolored faces having n black quadrangular faces and an arbitrary number of white faces of degrees multiple to 4.",
+  "id": "A090374",
+  "mentions": [
+    "A000257",
+    "A069726",
+    "A069729",
+    "A090373"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:34:21",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

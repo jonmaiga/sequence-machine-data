@@ -1,0 +1,21 @@
+{
+  "description": "Smaller of the two factors of the n-th semiprime number of the form m!+1.",
+  "id": "A082952",
+  "mentions": [
+    "A002981",
+    "A046315",
+    "A078778",
+    "A080802"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

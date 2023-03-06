@@ -1,0 +1,17 @@
+{
+  "description": "Round(113*phi^n).",
+  "id": "A080105",
+  "mentions": [
+    "A080104"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:47:45",
+    "offset": -12,
+    "size": 42,
+    "source": "joeis"
+  }
+}

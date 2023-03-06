@@ -1,0 +1,19 @@
+{
+  "description": "Odd k such that b(k) is less than b(k-1) and b(k+1). b(k): A033178.",
+  "id": "A038005",
+  "mentions": [
+    "A033178",
+    "A038006",
+    "A038013"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:12",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

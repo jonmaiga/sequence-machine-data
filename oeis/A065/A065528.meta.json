@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that phi(n) is a nontrivial power b^c where b > 1 and c > 1.",
+  "id": "A065528",
+  "mentions": [
+    "A166955",
+    "A227533"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

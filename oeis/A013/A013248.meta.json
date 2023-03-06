@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of e.g.f. tan(log(x+1) - arctan(x)).",
+  "id": "A013248",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:37:22",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

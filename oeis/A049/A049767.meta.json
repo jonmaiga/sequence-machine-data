@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array T, read by rows: T(n,k) = (k^2 mod n) + (n^2 mod k), for k = 1..n and n >= 1.",
+  "id": "A049767",
+  "mentions": [
+    "A048152",
+    "A049759",
+    "A049768"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:27",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

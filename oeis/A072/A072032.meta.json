@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = gcd(2^n, reverse(2^n)) = gcd(2^n, A004086(2^n)) = A055483(2^n).",
+  "id": "A072032",
+  "mentions": [
+    "A004086",
+    "A055483",
+    "A071686"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

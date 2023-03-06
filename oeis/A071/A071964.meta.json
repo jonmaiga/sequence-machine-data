@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n = Lpf(n)*Lpf(phi(n)) where Lpf(x) = A006530(x) is the largest prime factor of x.",
+  "id": "A071964",
+  "mentions": [
+    "A006530"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

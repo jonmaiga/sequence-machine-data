@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k >= 1} 1/(1-x^k)^c(k), where c(1), c(2), ... = 2 3 2 3 2 3 2 3 ....",
+  "id": "A029863",
+  "mentions": [
+    "A002513",
+    "A010693",
+    "A085140",
+    "A262380"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:42:59",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

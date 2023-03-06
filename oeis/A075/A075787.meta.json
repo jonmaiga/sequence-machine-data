@@ -1,0 +1,20 @@
+{
+  "description": "Even-digit perfect powers.",
+  "id": "A075787",
+  "mentions": [
+    "A001597",
+    "A076442"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

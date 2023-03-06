@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of eta(q^3) * eta(q^5) * eta(q^6) * eta(q^10) in powers of q.",
+  "id": "A030218",
+  "mentions": [
+    "A286137"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

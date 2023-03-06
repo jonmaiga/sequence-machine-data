@@ -1,0 +1,20 @@
+{
+  "description": "Safe primes (A005385) (p and (p-1)/2 are primes) such that 8*p+1 (A023228) is also prime.",
+  "id": "A075706",
+  "mentions": [
+    "A005384",
+    "A005385",
+    "A023228",
+    "A059455"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

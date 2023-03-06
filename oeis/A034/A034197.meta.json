@@ -1,0 +1,26 @@
+{
+  "description": "Number of binary codes of length 12 with n words.",
+  "id": "A034197",
+  "mentions": [
+    "A034188",
+    "A034189",
+    "A034190",
+    "A034191",
+    "A034192",
+    "A034193",
+    "A034194",
+    "A034195",
+    "A034196"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:02:22",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

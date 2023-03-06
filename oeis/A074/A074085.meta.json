@@ -1,0 +1,24 @@
+{
+  "description": "Coefficient of q^2 in nu(n), where nu(0) = 1, nu(1) = b and, for n >= 2, nu(n) = b*nu(n-1) + lambda*(1 + q + q^2 + ... + q^(n - 2))*nu(n-2) with (b,lambda) = (2,1).",
+  "id": "A074085",
+  "mentions": [
+    "A000129",
+    "A074082",
+    "A074083",
+    "A074084",
+    "A074086",
+    "A074087",
+    "A074089"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:40:15",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Sum of unitary divisors minus Euler phi: a(n) = A034448(n) - A000010(n).",
+  "id": "A098189",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A034448",
+    "A063919",
+    "A098190",
+    "A098195"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

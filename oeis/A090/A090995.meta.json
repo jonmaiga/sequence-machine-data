@@ -1,0 +1,22 @@
+{
+  "description": "Number of meaningful differential operations of the n-th order on the space R^10.",
+  "id": "A090995",
+  "mentions": [
+    "A090989",
+    "A090990",
+    "A090994",
+    "A220062"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

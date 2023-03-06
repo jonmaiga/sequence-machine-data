@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(834).",
+  "id": "A042611",
+  "mentions": [
+    "A042610"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:53:48",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Second in a series of arrays counting standard tableaux by partition type.",
+  "id": "A059797",
+  "mentions": [
+    "A000041",
+    "A000142",
+    "A007318",
+    "A008459",
+    "A053445"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

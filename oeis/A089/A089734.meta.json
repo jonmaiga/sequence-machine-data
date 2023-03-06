@@ -1,0 +1,15 @@
+{
+  "description": "Smallest b (b >=0) such that 6*n+1= p + 2*b^2, p prime.",
+  "id": "A089734",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

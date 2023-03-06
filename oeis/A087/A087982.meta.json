@@ -1,0 +1,19 @@
+{
+  "description": "Maximal permanent of a nonsingular n X n (+1,-1)-matrix.",
+  "id": "A087982",
+  "mentions": [
+    "A087981",
+    "A087983"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

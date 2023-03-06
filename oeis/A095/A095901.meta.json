@@ -1,0 +1,23 @@
+{
+  "description": "A004001 (mod 2).",
+  "id": "A095901",
+  "mentions": [
+    "A000035",
+    "A004001",
+    "A095902",
+    "A283480",
+    "A283481"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:07:43",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of permutations in the symmetric group S_n such that the size of their centralizer is odd.",
+  "id": "A088994",
+  "mentions": [
+    "A000142",
+    "A001620",
+    "A007838",
+    "A007841",
+    "A087639",
+    "A088335",
+    "A294506",
+    "A305199",
+    "A309319"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

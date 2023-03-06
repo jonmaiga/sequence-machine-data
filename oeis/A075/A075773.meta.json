@@ -1,0 +1,19 @@
+{
+  "description": "Let {b(n)} be the sequence of perfect powers (A001597); then a(n) = max { b(n)-b(n-1), b(n+1)-b(n) }.",
+  "id": "A075773",
+  "mentions": [
+    "A001597",
+    "A053289",
+    "A075772"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose consecutive digits differ by 5.",
+  "id": "A048407",
+  "mentions": [
+    "A033075",
+    "A033081",
+    "A033088",
+    "A048406",
+    "A048410"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:01:30",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Triangle T(n,k) read by rows: coefficients of a polynomial sequence occurring when calculating the n-th derivative of Lambert function W.",
+  "id": "A042977",
+  "mentions": [
+    "A000142",
+    "A000169",
+    "A000444",
+    "A000525",
+    "A013703",
+    "A052582",
+    "A054589",
+    "A064781",
+    "A064782",
+    "A064785"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "look",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = s(1)*s(2)*...*s(n+1)*(1/s(2) - 1/s(3) + ... + c/s(n+1)), where c = (-1)^(n+1) and s(k) = 4k-3 for k = 1,2,3,...",
+  "id": "A024384",
+  "mentions": [
+    "A024383",
+    "A024397"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

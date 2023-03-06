@@ -1,0 +1,25 @@
+{
+  "description": "Main diagonal of square maze arrangement of natural numbers A081349.",
+  "id": "A081352",
+  "mentions": [
+    "A000982",
+    "A054569",
+    "A081349",
+    "A081350",
+    "A081351",
+    "A116940",
+    "A236283"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

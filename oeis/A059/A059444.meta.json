@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of square root of (Pi * e / 2).",
+  "id": "A059444",
+  "mentions": [
+    "A059445",
+    "A060196",
+    "A108088"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

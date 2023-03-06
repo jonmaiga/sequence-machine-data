@@ -1,0 +1,23 @@
+{
+  "description": "Nonzero coefficients in one of the 5-adic expansions of sqrt(-1).",
+  "id": "A051276",
+  "mentions": [
+    "A034935",
+    "A048898",
+    "A048899",
+    "A210850",
+    "A210851"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:55:51",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

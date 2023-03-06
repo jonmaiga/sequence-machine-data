@@ -1,0 +1,18 @@
+{
+  "description": "Leading least prime signatures: a(n) is in A025487 but a(n)/2 is not.",
+  "id": "A056153",
+  "mentions": [
+    "A025487",
+    "A062515"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

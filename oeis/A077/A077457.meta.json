@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = sigma_4(n^4)/sigma_2(n^4).",
+  "id": "A077457",
+  "mentions": [
+    "A001157",
+    "A001159",
+    "A013667",
+    "A057660",
+    "A077454",
+    "A077455",
+    "A077456"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

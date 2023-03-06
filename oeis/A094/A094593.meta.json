@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (p-1)/x, where p = prime(n) and x = ord(3,p), the smallest positive integer such that 3^x == 1 mod p.",
+  "id": "A094593",
+  "mentions": [
+    "A000040",
+    "A001917",
+    "A062117"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 3,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

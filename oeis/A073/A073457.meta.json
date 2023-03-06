@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that phi(n) = pi(n) + 2.",
+  "id": "A073457",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A037171",
+    "A037228",
+    "A072456",
+    "A073455"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

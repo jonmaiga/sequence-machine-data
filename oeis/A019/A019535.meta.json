@@ -1,0 +1,19 @@
+{
+  "description": "Let I_c(n,d) be the maximal number of independent sets in d-regular simple connected graphs with n nodes; sequence gives I_c(n,6).",
+  "id": "A019535",
+  "mentions": [
+    "A019533",
+    "A019534"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 7,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

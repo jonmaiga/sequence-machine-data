@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of non-parallel lines determined by a pair of vertices (extreme points) in the polytope of real n X n doubly stochastic matrices. The vertices are the n! permutation matrices.",
+  "id": "A059615",
+  "mentions": [
+    "A000166",
+    "A059760"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

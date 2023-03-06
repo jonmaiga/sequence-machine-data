@@ -1,0 +1,18 @@
+{
+  "description": "Deepest position in the deck reached by card 1 before returning to the top in the shuffle in A035485 and A035499.",
+  "id": "A057974",
+  "mentions": [
+    "A035485",
+    "A035499"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes which do not appear in A071196.",
+  "id": "A071200",
+  "mentions": [
+    "A071196"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n)= 7*n - 3*sum(i=1,n,b(i)) (see comment for b(i) definition).",
+  "id": "A076087",
+  "mentions": [
+    "A006370"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

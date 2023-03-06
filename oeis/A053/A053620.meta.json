@@ -1,0 +1,19 @@
+{
+  "description": "Nearest integer to R(n) = the Riemann prime number formula.",
+  "id": "A053620",
+  "mentions": [
+    "A000720",
+    "A047784",
+    "A052434"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

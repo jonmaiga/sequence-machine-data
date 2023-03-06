@@ -1,0 +1,30 @@
+{
+  "description": "Number of simple unlabeled n-node graphs of edge-connectivity 3.",
+  "id": "A052448",
+  "mentions": [
+    "A052446",
+    "A052447",
+    "A241703",
+    "A241704",
+    "A241705",
+    "A263296",
+    "A338511",
+    "A338583",
+    "A338593",
+    "A338594",
+    "A338604",
+    "A339072"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

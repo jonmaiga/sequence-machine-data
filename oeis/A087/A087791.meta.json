@@ -1,0 +1,18 @@
+{
+  "description": "Indices n such that S^n(1) is an integer where S(x) = 3/2*ceiling(x).",
+  "id": "A087791",
+  "mentions": [
+    "A005187"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

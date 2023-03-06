@@ -1,0 +1,19 @@
+{
+  "description": "Primes containing only digits from the set (0,1,2,3,4,5,6,7).",
+  "id": "A036962",
+  "mentions": [
+    "A036952",
+    "A036964"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

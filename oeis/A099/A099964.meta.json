@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: The n-th row is constructed by forming the partial sums of the previous row, reading from the right and if n is a triangular number repeating the final term.",
+  "id": "A099964",
+  "mentions": [
+    "A008282",
+    "A010054",
+    "A099959",
+    "A099961",
+    "A099965",
+    "A099966",
+    "A099968"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

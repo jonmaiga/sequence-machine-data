@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that N(n+1) - N(n) sets a new record, where N(n) = A005349.",
+  "id": "A082517",
+  "mentions": [
+    "A005349",
+    "A082516"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

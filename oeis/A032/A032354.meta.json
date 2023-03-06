@@ -1,0 +1,20 @@
+{
+  "description": "j-invariants for orders of class number 1.",
+  "id": "A032354",
+  "mentions": [
+    "A133675",
+    "A267195"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,m) read by rows: number of rises (drops) in the compositions of n with m parts, m>=2.",
+  "id": "A094953",
+  "mentions": [
+    "A004526",
+    "A007518",
+    "A007590",
+    "A045883",
+    "A045927"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

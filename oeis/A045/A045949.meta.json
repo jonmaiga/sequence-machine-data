@@ -1,0 +1,23 @@
+{
+  "description": "Number of equilateral triangles formed out of matches that can be found in a hexagonal chunk of side length n in hexagonal array of matchsticks.",
+  "id": "A045949",
+  "mentions": [
+    "A008893",
+    "A033581",
+    "A045943",
+    "A045945",
+    "A045946",
+    "A307253"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:27:17",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

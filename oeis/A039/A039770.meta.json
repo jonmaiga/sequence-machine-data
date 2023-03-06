@@ -1,0 +1,35 @@
+{
+  "description": "Numbers k such that phi(k) is a perfect square.",
+  "id": "A039770",
+  "mentions": [
+    "A000010",
+    "A002496",
+    "A004171",
+    "A007614",
+    "A054755",
+    "A062732",
+    "A068560",
+    "A078164",
+    "A114063",
+    "A247129",
+    "A262406",
+    "A306882",
+    "A306908",
+    "A324745",
+    "A324746",
+    "A324747"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

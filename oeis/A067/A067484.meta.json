@@ -1,0 +1,22 @@
+{
+  "description": "Powers of 6 with initial digit 6.",
+  "id": "A067484",
+  "mentions": [
+    "A067480",
+    "A067481",
+    "A067482",
+    "A067483"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

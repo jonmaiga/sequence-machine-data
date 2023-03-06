@@ -1,0 +1,23 @@
+{
+  "description": "Pascal's triangle (excluding first, last two elements of each row) read by rows, row n read mod n.",
+  "id": "A053202",
+  "mentions": [
+    "A007318",
+    "A053200",
+    "A053201",
+    "A053203",
+    "A053205"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:06:49",
+    "offset": 4,
+    "size": 103,
+    "source": "joeis"
+  }
+}

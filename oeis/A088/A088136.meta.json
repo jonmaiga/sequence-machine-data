@@ -1,0 +1,23 @@
+{
+  "description": "Primes such that sum of first and last digits is prime.",
+  "id": "A088136",
+  "mentions": [
+    "A007953",
+    "A046704",
+    "A088133",
+    "A088134",
+    "A088135"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

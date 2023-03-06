@@ -1,0 +1,18 @@
+{
+  "description": "Smallest positive k such that phi(1+k*2^n) <= phi(k*2^n), where phi is Euler's totient function.",
+  "id": "A090849",
+  "mentions": [
+    "A090851",
+    "A091025"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

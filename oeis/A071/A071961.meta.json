@@ -1,0 +1,20 @@
+{
+  "description": "Sum( i=1, n, K(n,i) ) where K(x,y) is the Kronecker symbol (x/y).",
+  "id": "A071961",
+  "mentions": [
+    "A071958",
+    "A096396",
+    "A096397"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 115,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "(Smallest prime >= 2^n) - (largest prime <= 2^n).",
+  "id": "A058249",
+  "mentions": [
+    "A013597",
+    "A013603",
+    "A014210",
+    "A014234",
+    "A038804"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

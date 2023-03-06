@@ -1,0 +1,19 @@
+{
+  "description": "Roman numerals for n evaluated as if in base 36.",
+  "id": "A073421",
+  "mentions": [
+    "A072922"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

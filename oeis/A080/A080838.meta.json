@@ -1,0 +1,22 @@
+{
+  "description": "Orchard crossing number of complete bipartite graph K_{1,n}.",
+  "id": "A080838",
+  "mentions": [
+    "A006918",
+    "A060423",
+    "A211539",
+    "A274228"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

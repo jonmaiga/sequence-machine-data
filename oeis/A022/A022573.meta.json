@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{m>=1} (1+x^m)^8.",
+  "id": "A022573",
+  "mentions": [
+    "A000009",
+    "A000593",
+    "A286335"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

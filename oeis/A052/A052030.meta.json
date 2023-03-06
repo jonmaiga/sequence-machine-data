@@ -1,0 +1,21 @@
+{
+  "description": "Primes base 10 that remain primes in four bases b, 2<=b<=10, expansions interpreted as decimal numbers.",
+  "id": "A052030",
+  "mentions": [
+    "A038537",
+    "A052026",
+    "A052032",
+    "A052033"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

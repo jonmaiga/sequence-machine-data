@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k such that (product of first n primes)*k+1 is divisible by the (n+1)-th prime. Also (A075306(n)-1)/A002110(n).",
+  "id": "A081617",
+  "mentions": [
+    "A002110",
+    "A075306",
+    "A081618"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum_{d divides n} (-d)^d.",
+  "id": "A076723",
+  "mentions": [
+    "A062796",
+    "A321385"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Smallest term of first run of (at least) n consecutive integers which are not squarefree.",
+  "id": "A045882",
+  "mentions": [
+    "A002110",
+    "A013929",
+    "A020754",
+    "A049535",
+    "A051681",
+    "A053806",
+    "A061742",
+    "A068781",
+    "A069021",
+    "A070258",
+    "A070284",
+    "A077640",
+    "A077647",
+    "A078143",
+    "A078144"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

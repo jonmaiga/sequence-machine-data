@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled totally ordered semigroups with n elements.",
+  "id": "A084965",
+  "mentions": [
+    "A023814"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

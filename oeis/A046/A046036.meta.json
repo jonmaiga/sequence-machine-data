@@ -1,0 +1,22 @@
+{
+  "description": "Indices of the concatenation of the first n odd numbers (A019519) which are primes.",
+  "id": "A046036",
+  "mentions": [
+    "A019519",
+    "A048847",
+    "A066811"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

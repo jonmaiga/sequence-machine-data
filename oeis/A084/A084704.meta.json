@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime p > prime(n) such that (p + prime(n))/2 is prime.",
+  "id": "A084704",
+  "mentions": [
+    "A001358",
+    "A165138"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 2,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

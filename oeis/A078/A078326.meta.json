@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n-1 and n are a pair of consecutive powerful numbers.",
+  "id": "A078326",
+  "mentions": [
+    "A007947",
+    "A060355",
+    "A064549",
+    "A078310",
+    "A078315",
+    "A078325"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into 4 positive cubes.",
+  "id": "A025457",
+  "mentions": [
+    "A000578",
+    "A003108",
+    "A003327",
+    "A025403",
+    "A025407",
+    "A025420",
+    "A025455",
+    "A025456"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

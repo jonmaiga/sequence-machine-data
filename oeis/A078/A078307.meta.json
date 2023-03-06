@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d divides n} (-1)^(n/d+1)*d^3.",
+  "id": "A078307",
+  "mentions": [
+    "A000593",
+    "A027998",
+    "A078306"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

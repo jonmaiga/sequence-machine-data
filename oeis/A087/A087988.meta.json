@@ -1,0 +1,22 @@
+{
+  "description": "Palindromic numbers whose squares and cubes are equally palindromic.",
+  "id": "A087988",
+  "mentions": [
+    "A002113",
+    "A002778",
+    "A002779",
+    "A002780",
+    "A002781"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

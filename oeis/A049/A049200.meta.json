@@ -1,0 +1,25 @@
+{
+  "description": "Euler totient function phi applied to the n-th squarefree number.",
+  "id": "A049200",
+  "mentions": [
+    "A000010",
+    "A001221",
+    "A005117",
+    "A013929",
+    "A082695",
+    "A083343",
+    "A265668"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

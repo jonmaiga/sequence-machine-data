@@ -1,0 +1,19 @@
+{
+  "description": "A B3-sequence: a(1) = 1; for n>1, a(n) = smallest number > a(n-1) such that the sums of any three terms are all distinct.",
+  "id": "A096772",
+  "mentions": [
+    "A005282",
+    "A051912"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

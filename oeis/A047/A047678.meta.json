@@ -1,0 +1,18 @@
+{
+  "description": "Row 3 of square array defined in A047675.",
+  "id": "A047678",
+  "mentions": [
+    "A047675"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:30:16",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

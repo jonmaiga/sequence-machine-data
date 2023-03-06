@@ -1,0 +1,17 @@
+{
+  "description": "Consider the solutions to k = a+b = x*y and a*b = k*(x+y) where k, a, b, x, and y are all positive integers, ordered by increasing k and, in case of ties, by increasing x. Sequence gives values of a*b.",
+  "id": "A057421",
+  "mentions": [
+    "A057371"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

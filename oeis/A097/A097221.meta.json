@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that for some k and a_1,a_2,...,a_k the concatenation of the a_i is equal to n and their product is equal to pi(n).",
+  "id": "A097221",
+  "mentions": [
+    "A097220",
+    "A097222"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

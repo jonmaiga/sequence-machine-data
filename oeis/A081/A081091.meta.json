@@ -1,0 +1,26 @@
+{
+  "description": "Primes of the form 2^i + 2^j + 1, i > j > 0.",
+  "id": "A081091",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A000215",
+    "A010051",
+    "A014311",
+    "A070739",
+    "A081092",
+    "A081504",
+    "A095077"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

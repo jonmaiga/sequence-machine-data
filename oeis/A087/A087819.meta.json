@@ -1,0 +1,17 @@
+{
+  "description": "z values corresponding to A087818.",
+  "id": "A087819",
+  "mentions": [
+    "A087818"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

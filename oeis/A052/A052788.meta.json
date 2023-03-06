@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted trees with n nodes and 5-colored non-root nodes.",
+  "id": "A052788",
+  "mentions": [
+    "A242249"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

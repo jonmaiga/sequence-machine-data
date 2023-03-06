@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p divides 5^((p-1)/2) + 4^((p-1)/2).",
+  "id": "A097957",
+  "mentions": [
+    "A003631"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

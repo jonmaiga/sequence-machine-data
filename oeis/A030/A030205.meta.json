@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of q^(-1/2) * eta(q)^2 * eta(q^5)^2 in power of q.",
+  "id": "A030205",
+  "mentions": [
+    "A030203",
+    "A030210",
+    "A049310",
+    "A159817",
+    "A273163"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:47:03",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Starting positions of strings of three 9's in the decimal expansion of Pi.",
+  "id": "A083642",
+  "mentions": [
+    "A050272",
+    "A083643"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:11:29",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

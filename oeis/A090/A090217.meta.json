@@ -1,0 +1,26 @@
+{
+  "description": "A generalization of triangle A071951 (Legendre-Stirling).",
+  "id": "A090217",
+  "mentions": [
+    "A008279",
+    "A071951",
+    "A089504",
+    "A090215",
+    "A090216",
+    "A090435",
+    "A090436"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

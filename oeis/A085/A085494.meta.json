@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n having exactly one partition into distinct divisors of n+1.",
+  "id": "A085494",
+  "mentions": [
+    "A085491",
+    "A085493",
+    "A085499"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

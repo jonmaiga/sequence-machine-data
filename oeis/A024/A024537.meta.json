@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = floor( a(n-1)/(sqrt(2) - 1) ), with a(0) = 1.",
+  "id": "A024537",
+  "mentions": [
+    "A000129",
+    "A048211",
+    "A048739",
+    "A153588",
+    "A171842",
+    "A174283",
+    "A174286",
+    "A176499",
+    "A176502"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:43:30",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

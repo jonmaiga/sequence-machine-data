@@ -1,0 +1,23 @@
+{
+  "description": "Triangle in which n-th row lists all primitive roots modulo the n-th prime.",
+  "id": "A060749",
+  "mentions": [
+    "A001918",
+    "A008330",
+    "A046147",
+    "A071894"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:26",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

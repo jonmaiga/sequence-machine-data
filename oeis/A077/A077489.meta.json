@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest multiple of 4 with sum of digits = n.",
+  "id": "A077489",
+  "mentions": [
+    "A069532",
+    "A069534",
+    "A077490"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Triangle T(n,k) read by rows: the number of compositions of n into k parts, modulo cyclic shifts.",
+  "id": "A037306",
+  "mentions": [
+    "A000010",
+    "A004526",
+    "A007318",
+    "A007997",
+    "A008610",
+    "A008646",
+    "A008965",
+    "A027750",
+    "A032191",
+    "A047996",
+    "A052307",
+    "A215251",
+    "A241926",
+    "A245558",
+    "A245559"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:35:19",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

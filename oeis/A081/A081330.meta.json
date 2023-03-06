@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that can be written as sum of two 3-smooth numbers.",
+  "id": "A081330",
+  "mentions": [
+    "A003586",
+    "A081326",
+    "A081327",
+    "A081328",
+    "A081329",
+    "A081332",
+    "A081333"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

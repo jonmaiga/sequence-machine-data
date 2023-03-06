@@ -1,0 +1,23 @@
+{
+  "description": "Perfect powers m^k where m is a positive integer and k >= 3.",
+  "id": "A076467",
+  "mentions": [
+    "A001597",
+    "A036966",
+    "A076468",
+    "A076469",
+    "A076470",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Largest number m such that number of times m divides k! is almost k/n for large k, i.e., largest m with A090624(m)=n.",
+  "id": "A091137",
+  "mentions": [
+    "A000142",
+    "A002207",
+    "A002790",
+    "A027760",
+    "A090622",
+    "A090624",
+    "A091136",
+    "A171080"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

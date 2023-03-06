@@ -1,0 +1,26 @@
+{
+  "description": "Triangle: a(n,m) = number of permutations of (1,2,...,n) with one or more fixed points in the m first positions.",
+  "id": "A061018",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A001563",
+    "A002467",
+    "A007680",
+    "A061312",
+    "A180191"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

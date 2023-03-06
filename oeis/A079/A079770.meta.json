@@ -1,0 +1,19 @@
+{
+  "description": "Number of configurations that are exactly n moves from the starting position in the Bicube or Bandaged Rubik's Cube puzzle.",
+  "id": "A079770",
+  "mentions": [
+    "A079771"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

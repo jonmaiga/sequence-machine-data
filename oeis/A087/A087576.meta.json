@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number k > 1 such that k^n+2 is prime.",
+  "id": "A087576",
+  "mentions": [
+    "A095302",
+    "A095303",
+    "A095304"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

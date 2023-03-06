@@ -1,0 +1,19 @@
+{
+  "description": "Write Pi = 3.d(1)d(2)d(3)... where d(m) is the m-th digit of the decimal expansion of Pi. Then a(n) = m is the smallest integer such that 1/(n+1) < 0.d(m)d(m+1)d(m+2)... < 1/n.",
+  "id": "A073597",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Differences p(i)-p(j) between primes, sorted in numerical order.",
+  "id": "A030173",
+  "mentions": [
+    "A001223",
+    "A005843",
+    "A007921",
+    "A040976",
+    "A092953"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:46:35",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

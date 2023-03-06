@@ -1,0 +1,20 @@
+{
+  "description": "Least n-digit prime using digit 7 once and rest all 1, or 0 if no such prime exists.",
+  "id": "A090535",
+  "mentions": [
+    "A090536",
+    "A090537",
+    "A090538"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Odd triangular numbers with prime indices.",
+  "id": "A034954",
+  "mentions": [
+    "A000217",
+    "A002313",
+    "A014493",
+    "A034953",
+    "A034955"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:17:33",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

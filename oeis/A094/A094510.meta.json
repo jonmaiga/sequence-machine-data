@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number distinct from n, not occurring earlier and having in binary representation exactly as many ones as n.",
+  "id": "A094510",
+  "mentions": [
+    "A000120",
+    "A007088",
+    "A094511"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

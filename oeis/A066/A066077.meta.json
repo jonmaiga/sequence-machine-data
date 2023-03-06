@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the number of x such that sigma(x)-1 is 0 or one of the first n-1 primes.",
+  "id": "A066077",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A058339",
+    "A058340",
+    "A066071",
+    "A066072",
+    "A066073",
+    "A066074",
+    "A066075",
+    "A066076",
+    "A066080",
+    "A296375"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

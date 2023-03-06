@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to reach a sum of n by a down-only cascade through Pascal's Triangle, starting at C(0,0)=1 at the apex and shifting left or right by exactly one position at each step.",
+  "id": "A091820",
+  "mentions": [
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(9*n,9*k).",
+  "id": "A094213",
+  "mentions": [
+    "A000079",
+    "A007613",
+    "A070775",
+    "A070782",
+    "A070832",
+    "A070833",
+    "A070967",
+    "A081294",
+    "A094211"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

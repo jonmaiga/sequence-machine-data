@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1; a(n) is the minimal unused odd prime such that the sum a(1)+a(2)+...+a(n) is divisible by n.",
+  "id": "A074106",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

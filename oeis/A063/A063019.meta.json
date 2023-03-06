@@ -1,0 +1,21 @@
+{
+  "description": "Reversion of y - y^2 + y^3 - y^4.",
+  "id": "A063019",
+  "mentions": [
+    "A063022",
+    "A063023",
+    "A215340"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:36:03",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

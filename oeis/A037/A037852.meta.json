@@ -1,0 +1,22 @@
+{
+  "description": "Number of normal subgroups of dihedral group with 2n elements.",
+  "id": "A037852",
+  "mentions": [
+    "A000005",
+    "A007503",
+    "A062249",
+    "A062553",
+    "A176040"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:35:45",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

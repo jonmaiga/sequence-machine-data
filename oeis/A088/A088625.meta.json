@@ -1,0 +1,19 @@
+{
+  "description": "14*C(n,8).",
+  "id": "A088625",
+  "mentions": [
+    "A088617"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:32:15",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

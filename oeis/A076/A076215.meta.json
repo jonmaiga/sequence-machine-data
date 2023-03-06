@@ -1,0 +1,18 @@
+{
+  "description": "Square root of sum defined in A007475(n) and A001032(n).",
+  "id": "A076215",
+  "mentions": [
+    "A001032",
+    "A007475"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

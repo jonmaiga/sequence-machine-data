@@ -1,0 +1,20 @@
+{
+  "description": "Ordered set of (a + b - c)/2 as (a,b,c) runs through all primitive Pythagorean triples with a",
+  "id": "A020888",
+  "mentions": [
+    "A014498",
+    "A020887",
+    "A068068"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

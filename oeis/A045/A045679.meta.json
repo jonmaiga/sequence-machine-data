@@ -1,0 +1,22 @@
+{
+  "description": "Numbers congruent to 0,1,4,9 mod 12 missing from A045673 (conjectured to be finite).",
+  "id": "A045679",
+  "mentions": [
+    "A042944",
+    "A042945",
+    "A042946",
+    "A045673",
+    "A045674",
+    "A112652"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

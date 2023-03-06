@@ -1,0 +1,15 @@
+{
+  "description": "cos(sin(x)-arcsin(x))=1-40/6!*x^6-896/8!*x^8-62304/10!*x^10...",
+  "id": "A013346",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:13:10",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-dimensional partitions of 6.",
+  "id": "A042984",
+  "mentions": [
+    "A007326",
+    "A007327",
+    "A008780"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:20:51",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Triangle of numbers of forests on n nodes containing k trees.",
+  "id": "A095133",
+  "mentions": [
+    "A000055",
+    "A000088",
+    "A000664",
+    "A005195",
+    "A005196",
+    "A008406",
+    "A105821",
+    "A106240",
+    "A136605",
+    "A215930",
+    "A274937"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

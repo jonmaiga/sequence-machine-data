@@ -1,0 +1,19 @@
+{
+  "description": "Number of k, 1 <= k <= n, such that k^3+1 divides n^3+1.",
+  "id": "A069929",
+  "mentions": [
+    "A066743"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

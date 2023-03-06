@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that there is at least one k dividing (n-1)!-1 (n<=k<=2n).",
+  "id": "A085477",
+  "mentions": [
+    "A085468"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

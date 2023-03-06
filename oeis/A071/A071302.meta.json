@@ -1,0 +1,33 @@
+{
+  "description": "a(n) = (1/2) * (number of n X n 0..2 matrices M with MM' mod 3 = I, where M' is the transpose of M and I is the n X n identity matrix).",
+  "id": "A071302",
+  "mentions": [
+    "A003053",
+    "A003920",
+    "A060968",
+    "A071303",
+    "A071304",
+    "A071305",
+    "A071306",
+    "A071307",
+    "A071308",
+    "A071309",
+    "A071310",
+    "A071900",
+    "A087784",
+    "A208895",
+    "A264083",
+    "A318609"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

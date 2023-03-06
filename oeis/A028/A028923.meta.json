@@ -1,0 +1,21 @@
+{
+  "description": "Kissing number of n-dimensional lattice Kappa_n.",
+  "id": "A028923",
+  "mentions": [
+    "A001116",
+    "A002336",
+    "A257479"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

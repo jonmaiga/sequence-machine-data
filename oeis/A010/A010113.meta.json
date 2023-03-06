@@ -1,0 +1,15 @@
+{
+  "description": "Specific heat coefficients for square lattice spin 3/2 Ising model.",
+  "id": "A010113",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

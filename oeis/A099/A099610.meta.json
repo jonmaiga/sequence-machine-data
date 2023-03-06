@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest odd number that is greater than n^2 and is the product of two distinct primes.",
+  "id": "A099610",
+  "mentions": [
+    "A000290",
+    "A046388",
+    "A099611",
+    "A349806"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

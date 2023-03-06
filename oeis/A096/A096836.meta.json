@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes in the neighborhood of 10^n with radius ceiling(log(10^n)).",
+  "id": "A096836",
+  "mentions": [
+    "A096509",
+    "A096523",
+    "A096830",
+    "A096840"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

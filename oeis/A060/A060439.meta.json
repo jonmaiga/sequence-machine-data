@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k), 1 <= k <= n, giving maximal size of ternary code of length n and covering radius k.",
+  "id": "A060439",
+  "mentions": [
+    "A004044",
+    "A060438",
+    "A060440"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

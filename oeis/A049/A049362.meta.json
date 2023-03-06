@@ -1,0 +1,20 @@
+{
+  "description": "Digitally balanced numbers in bases 2, 3 and 4.",
+  "id": "A049362",
+  "mentions": [
+    "A031443",
+    "A049354",
+    "A049355"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:21",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

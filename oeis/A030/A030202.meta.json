@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of q^(-1/4) * eta(q) * eta(q^5) in powers of q.",
+  "id": "A030202",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A030203",
+    "A030205",
+    "A030210",
+    "A121373",
+    "A159818"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

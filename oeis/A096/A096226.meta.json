@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least exponent k > 1 such that m^k is congruent to m modulo n for all natural numbers m, or a(n) = 1 if no such k exists.",
+  "id": "A096226",
+  "mentions": [
+    "A002322",
+    "A011773"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

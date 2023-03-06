@@ -1,0 +1,18 @@
+{
+  "description": "Prime Bell numbers (A000110).",
+  "id": "A051131",
+  "mentions": [
+    "A000110",
+    "A051130"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that there are no palindromic squares of length n.",
+  "id": "A034822",
+  "mentions": [
+    "A002778",
+    "A002779",
+    "A034307"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

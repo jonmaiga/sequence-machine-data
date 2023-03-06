@@ -1,0 +1,18 @@
+{
+  "description": "Lucas-Lehmer residues for Mersenne numbers with prime indices.",
+  "id": "A095847",
+  "mentions": [
+    "A003010"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

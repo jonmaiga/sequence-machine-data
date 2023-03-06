@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with property that can bring the first digit to the back of the number to get a prime (zeros are dropped).",
+  "id": "A097312",
+  "mentions": [
+    "A095179"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n! in binary.",
+  "id": "A036603",
+  "mentions": [
+    "A000142",
+    "A049606"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

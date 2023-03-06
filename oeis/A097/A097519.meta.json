@@ -1,0 +1,19 @@
+{
+  "description": "Prime differences between nextprime(2^n) and 2^n.",
+  "id": "A097519",
+  "mentions": [
+    "A013597",
+    "A033873",
+    "A033874"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

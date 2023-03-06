@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes < n of form 1+k*spf(n), where spf(n) is the smallest prime factor of n (A020639).",
+  "id": "A082650",
+  "mentions": [
+    "A000720",
+    "A008578",
+    "A020639",
+    "A035096"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

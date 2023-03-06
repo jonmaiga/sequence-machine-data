@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n for which there are exactly four k such that n = k + reverse(k).",
+  "id": "A072428",
+  "mentions": [
+    "A067030",
+    "A072041"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

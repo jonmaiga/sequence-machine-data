@@ -1,0 +1,22 @@
+{
+  "description": "\"Fibonacci in pairs from left\": start with a(1)=1, a(2)=1; repeatedly adjoin sum of previous two terms but chopped from the left into pairs of 2 digits.",
+  "id": "A093091",
+  "mentions": [
+    "A093086",
+    "A093087",
+    "A093088",
+    "A093089",
+    "A093090"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

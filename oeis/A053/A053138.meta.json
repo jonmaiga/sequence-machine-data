@@ -1,0 +1,22 @@
+{
+  "description": "Binomial coefficients C(2*n+9,9).",
+  "id": "A053138",
+  "mentions": [
+    "A000582",
+    "A007318",
+    "A053131",
+    "A053137"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:06:25",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

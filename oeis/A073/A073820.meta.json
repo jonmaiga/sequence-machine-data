@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n+1-i such that prime(i)*(n+1-i) is maximized (1 <= i <= n).",
+  "id": "A073820",
+  "mentions": [
+    "A073818",
+    "A073819"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

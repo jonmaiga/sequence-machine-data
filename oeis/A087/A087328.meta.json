@@ -1,0 +1,20 @@
+{
+  "description": "Independence numbers for KT_3 knight on hexagonal board.",
+  "id": "A087328",
+  "mentions": [
+    "A087327",
+    "A087329"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:55:01",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Glaisher's chi_4(n).",
+  "id": "A030212",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A002607",
+    "A010054",
+    "A010815",
+    "A030203",
+    "A121373",
+    "A215472",
+    "A247067"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

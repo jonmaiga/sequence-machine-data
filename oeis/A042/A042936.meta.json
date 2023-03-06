@@ -1,0 +1,28 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(1000).",
+  "id": "A042936",
+  "mentions": [
+    "A001077",
+    "A001333",
+    "A002531",
+    "A005667",
+    "A041006",
+    "A041008",
+    "A041010",
+    "A041014",
+    "A042934",
+    "A042937"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:01:39",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

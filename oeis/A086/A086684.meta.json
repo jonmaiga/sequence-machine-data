@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n! - Sum_{i} p_i!^e_i, where n = Product_{i} (p_i^e_i).",
+  "id": "A086684",
+  "mentions": [
+    "A000142",
+    "A118138"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

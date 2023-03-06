@@ -1,0 +1,20 @@
+{
+  "description": "Number of inequivalent n X n matrices over GF(5) under action of dihedral group of the square D_4.",
+  "id": "A054752",
+  "mentions": [
+    "A054247",
+    "A343097"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Inverse binomial transform of A002487.",
+  "id": "A071015",
+  "mentions": [
+    "A002487"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:20:39",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

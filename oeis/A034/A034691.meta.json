@@ -1,0 +1,27 @@
+{
+  "description": "Euler transform of powers of 2 [1,2,4,8,16,...].",
+  "id": "A034691",
+  "mentions": [
+    "A000079",
+    "A004211",
+    "A034899",
+    "A075729",
+    "A083413",
+    "A104500",
+    "A166861",
+    "A247003",
+    "A290222",
+    "A358369"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

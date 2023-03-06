@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n+1)*binomial(n+1, 9).",
+  "id": "A027769",
+  "mentions": [
+    "A000757",
+    "A233440"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:29",
+    "offset": 8,
+    "size": 28,
+    "source": "joeis"
+  }
+}

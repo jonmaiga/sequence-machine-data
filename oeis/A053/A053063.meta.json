@@ -1,0 +1,20 @@
+{
+  "description": "Pendulum numbers: alternately append n to beginning or end of previous term.",
+  "id": "A053063",
+  "mentions": [
+    "A281254"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

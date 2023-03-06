@@ -1,0 +1,17 @@
+{
+  "description": "A common Swedish drinking song.",
+  "id": "A091978",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

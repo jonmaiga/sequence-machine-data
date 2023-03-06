@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonempty subsets of the set of vertices of a regular n-gon in the plane such that their center of gravity is the center of the polygon.",
+  "id": "A070894",
+  "mentions": [
+    "A103314"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

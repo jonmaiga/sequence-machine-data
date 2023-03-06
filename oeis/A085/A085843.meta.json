@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k) read by rows; given by [1, 1, 1, 1, 1, ...] DELTA [1, 1, 2, 5, 14, 42, 132, 429, 1430, ...] (A000108) where DELTA is Deléham's operator defined in A084938.",
+  "id": "A085843",
+  "mentions": [
+    "A000108",
+    "A084938",
+    "A261048"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

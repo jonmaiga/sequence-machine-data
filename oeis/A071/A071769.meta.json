@@ -1,0 +1,20 @@
+{
+  "description": "Determinant of the n X n matrix whose element (i,j) equals |i-j| (mod 4).",
+  "id": "A071769",
+  "mentions": [
+    "A071768",
+    "A087982"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:12:48",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

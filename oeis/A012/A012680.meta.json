@@ -1,0 +1,15 @@
+{
+  "description": "arctan(tanh(x)*arctan(x))=2/2!*x^2-16/4!*x^4+80/6!*x^6+14464/8!*x^8...",
+  "id": "A012680",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:09:08",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

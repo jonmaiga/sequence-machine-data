@@ -1,0 +1,31 @@
+{
+  "description": "Array read by antidiagonals upwards: A(m,k) = 2^m * (2k+1), m,k >= 0.",
+  "id": "A054582",
+  "mentions": [
+    "A000027",
+    "A001511",
+    "A002024",
+    "A003602",
+    "A006519",
+    "A014480",
+    "A025480",
+    "A035513",
+    "A075300",
+    "A135764",
+    "A209268"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:20:05",
+    "offset": 0,
+    "size": 63,
+    "source": "joeis"
+  }
+}

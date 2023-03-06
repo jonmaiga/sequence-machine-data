@@ -1,0 +1,22 @@
+{
+  "description": "n-th prime prime(n) written in base (prime(n) (mod 4)).",
+  "id": "A072804",
+  "mentions": [
+    "A008713",
+    "A072803",
+    "A072805",
+    "A072806",
+    "A072807"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

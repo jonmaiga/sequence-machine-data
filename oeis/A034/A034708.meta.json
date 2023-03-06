@@ -1,0 +1,22 @@
+{
+  "description": "Numbers for which the sum of reciprocals of digits is an integer.",
+  "id": "A034708",
+  "mentions": [
+    "A052382",
+    "A168046",
+    "A214950",
+    "A214957"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:16:25",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Denominators for Fibonacci Binary Verticals viewed as Periodic Binary Fractions: a(n) = ((2^(3*(2^n))) - 1).",
+  "id": "A036287",
+  "mentions": [
+    "A000045",
+    "A036286"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

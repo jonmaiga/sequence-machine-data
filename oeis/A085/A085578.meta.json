@@ -1,0 +1,18 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) is the number of distinct products ij with 1<=i<=m, i<=j<=n, for m>=1, n>=1.",
+  "id": "A085578",
+  "mentions": [
+    "A027424"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

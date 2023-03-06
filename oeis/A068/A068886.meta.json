@@ -1,0 +1,15 @@
+{
+  "description": "First of n consecutive numbers such that the k-th number is divisible by a k-th power for k = 1,...,n.",
+  "id": "A068886",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

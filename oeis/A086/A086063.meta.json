@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = if n<=1 then 1 else smallest k>1 such that in binary representation n is contained in n^k.",
+  "id": "A086063",
+  "mentions": [
+    "A007088",
+    "A045537",
+    "A094543"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

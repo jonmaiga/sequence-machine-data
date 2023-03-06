@@ -1,0 +1,27 @@
+{
+  "description": "Permutation of natural numbers induced by the Catalan bijection gma089868 acting on the parenthesizations/binary trees encoded by A014486/A063171.",
+  "id": "A089868",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A014486",
+    "A063171",
+    "A085170",
+    "A086586",
+    "A086587",
+    "A089408",
+    "A089846",
+    "A089867",
+    "A090826"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

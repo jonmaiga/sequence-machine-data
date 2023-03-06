@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographical-support sequence T(n,k), n,k nonnegative: total number of checks required by a \"lexicographical\" algorithm to find out which rows and columns of each of the n by k zero-one matrices are nonzero.",
+  "id": "A058547",
+  "mentions": [
+    "A058347"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

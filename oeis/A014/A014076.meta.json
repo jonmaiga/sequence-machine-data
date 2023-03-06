@@ -1,0 +1,29 @@
+{
+  "description": "Odd nonprimes.",
+  "id": "A014076",
+  "mentions": [
+    "A000035",
+    "A002808",
+    "A005408",
+    "A010051",
+    "A047846",
+    "A056653",
+    "A067970",
+    "A071904",
+    "A091113",
+    "A091236",
+    "A196274"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

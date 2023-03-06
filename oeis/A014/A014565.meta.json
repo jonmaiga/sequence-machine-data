@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of rabbit constant.",
+  "id": "A014565",
+  "mentions": [
+    "A000045",
+    "A000201",
+    "A000301",
+    "A001950",
+    "A005206",
+    "A005614",
+    "A014675",
+    "A060144",
+    "A073115",
+    "A098317",
+    "A119809",
+    "A119812"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:39:55",
+    "offset": 0,
+    "size": 103,
+    "source": "joeis"
+  }
+}

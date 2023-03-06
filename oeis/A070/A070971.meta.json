@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest positive integer m for which A070194(m) (i.e., the maximal gap in {k|gcd(k,m) = 1, 1 <= k <= m-1}) is n.",
+  "id": "A070971",
+  "mentions": [
+    "A000010",
+    "A048669",
+    "A061498",
+    "A070194",
+    "A071194",
+    "A128759"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

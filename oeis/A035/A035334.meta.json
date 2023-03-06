@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = smallest number which is not the sum of exactly 1 or a(n-1) earlier terms.",
+  "id": "A035334",
+  "mentions": [
+    "A055456"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

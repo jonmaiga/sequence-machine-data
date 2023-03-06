@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = (n+2)^(k+1)/(n+1)^2+k+1-(k+1)/(n+1)-1/(n+1)^2, n >= 0, k >= 0.",
+  "id": "A094250",
+  "mentions": [
+    "A000225",
+    "A047926",
+    "A073724",
+    "A094195",
+    "A094259"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:47:24",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

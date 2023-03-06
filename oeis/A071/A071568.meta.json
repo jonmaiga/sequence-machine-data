@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k>n such that n^3+1 divides k*n^2+1.",
+  "id": "A071568",
+  "mentions": [
+    "A101220"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:49",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "A self-generating sequence: let S = {}, a(0) = 333; for n >= 1, factorize a(n-1), arrange prime factors in increasing order and append their digits to S; then a(n) is the 3-digit number formed from terms 3n, 3n+1, 3n+2 of S. Leading zeros are omitted from a(n).",
+  "id": "A066801",
+  "mentions": [
+    "A066349"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

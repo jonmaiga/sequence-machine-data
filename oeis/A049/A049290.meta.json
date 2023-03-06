@@ -1,0 +1,26 @@
+{
+  "description": "Array T(n,k) = number of subgroups of index k in free group of rank n, read by antidiagonals.",
+  "id": "A049290",
+  "mentions": [
+    "A000225",
+    "A003319",
+    "A027837",
+    "A049291",
+    "A049294",
+    "A049295",
+    "A057014"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

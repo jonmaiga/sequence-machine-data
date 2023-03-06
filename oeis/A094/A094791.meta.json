@@ -1,0 +1,34 @@
+{
+  "description": "Triangle read by rows giving coefficients of polynomials arising in successive differences of (n!)_{n>=0}.",
+  "id": "A094791",
+  "mentions": [
+    "A000166",
+    "A000217",
+    "A000255",
+    "A001563",
+    "A001564",
+    "A001565",
+    "A001688",
+    "A001689",
+    "A008290",
+    "A023043",
+    "A094792",
+    "A094793",
+    "A094794",
+    "A094795",
+    "A098825",
+    "A126353"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

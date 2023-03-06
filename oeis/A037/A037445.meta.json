@@ -1,0 +1,39 @@
+{
+  "description": "Number of infinitary divisors (or i-divisors) of n.",
+  "id": "A037445",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A001221",
+    "A001316",
+    "A004607",
+    "A007357",
+    "A007358",
+    "A007947",
+    "A028234",
+    "A038148",
+    "A049417",
+    "A050376",
+    "A063990",
+    "A064547",
+    "A067029",
+    "A074848",
+    "A124010",
+    "A156552",
+    "A286575"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

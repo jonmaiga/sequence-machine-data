@@ -1,0 +1,23 @@
+{
+  "description": "Nonsquarefree numbers squared. A013929(n)^2.",
+  "id": "A062320",
+  "mentions": [
+    "A008966",
+    "A013929",
+    "A037213",
+    "A046099",
+    "A320965"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

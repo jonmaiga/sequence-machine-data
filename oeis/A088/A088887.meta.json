@@ -1,0 +1,19 @@
+{
+  "description": "Number of different prime signatures of the m values when A056239(m) is equal to n.",
+  "id": "A088887",
+  "mentions": [
+    "A056239",
+    "A088314"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

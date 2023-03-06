@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the largest prime before A002282(n) repdigits.",
+  "id": "A099668",
+  "mentions": [
+    "A002275",
+    "A002282",
+    "A002283",
+    "A003617",
+    "A003618",
+    "A068104",
+    "A096497",
+    "A096498",
+    "A099656",
+    "A099667"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

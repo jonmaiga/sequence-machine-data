@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n^3 - n^2 - n - 1.",
+  "id": "A083074",
+  "mentions": [
+    "A000027",
+    "A002378",
+    "A028387",
+    "A083064"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:03",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

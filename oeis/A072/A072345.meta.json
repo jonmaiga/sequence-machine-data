@@ -1,0 +1,22 @@
+{
+  "description": "Volume of n-dimensional sphere of radius r is V_n*r^n = Pi^(n/2)*r^n/(n/2)! = C_n*Pi^floor(n/2)*r^n; sequence gives numerator of C_n.",
+  "id": "A072345",
+  "mentions": [
+    "A072346",
+    "A072478",
+    "A072479"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:36:50",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

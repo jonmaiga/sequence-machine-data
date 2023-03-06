@@ -1,0 +1,22 @@
+{
+  "description": "Smallest x such that sigma(x) mod 6 = n.",
+  "id": "A084303",
+  "mentions": [
+    "A000203",
+    "A074384",
+    "A074625"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

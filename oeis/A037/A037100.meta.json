@@ -1,0 +1,21 @@
+{
+  "description": "Lexically first set of (even) numbers, beginning with 4, such that for any two different terms, a(i) + a(j) + 1 is prime.",
+  "id": "A037100",
+  "mentions": [
+    "A093483",
+    "A103828",
+    "A119752",
+    "A133761"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

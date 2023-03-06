@@ -1,0 +1,18 @@
+{
+  "description": "Largest natural number x=a[n] for which sum of decimal digits exceeds x/n; for n=1, the case when no such number exists, a[1]=0 was taken arbitrarily.",
+  "id": "A092600",
+  "mentions": [
+    "A092596"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest composite number that is obtained by placing digits anywhere in n; a(n) = n if n is composite.",
+  "id": "A080470",
+  "mentions": [
+    "A062584",
+    "A068164",
+    "A068165"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

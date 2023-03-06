@@ -1,0 +1,26 @@
+{
+  "description": "Prime powers with exponents that are themselves prime powers.",
+  "id": "A096165",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001222",
+    "A010055",
+    "A050376",
+    "A053810",
+    "A082522",
+    "A164336",
+    "A164345"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

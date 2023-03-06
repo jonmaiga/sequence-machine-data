@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that phi(k) + 1 is prime.",
+  "id": "A039698",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A006093",
+    "A007614",
+    "A039649",
+    "A039689",
+    "A065512",
+    "A066071",
+    "A078892",
+    "A248792",
+    "A263028",
+    "A296079"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of monotone n-weightings of complete bipartite digraph K(3,3).",
+  "id": "A085465",
+  "mentions": [
+    "A006003",
+    "A006322",
+    "A006325",
+    "A079547",
+    "A085461"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:42:25",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (1-x)^(-1)/(1 + 2*x - 2*x^2 - x^3).",
+  "id": "A077916",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A002571",
+    "A064831",
+    "A103433",
+    "A103434",
+    "A203803",
+    "A207969",
+    "A207970"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

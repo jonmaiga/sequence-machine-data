@@ -1,0 +1,27 @@
+{
+  "description": "First differences of Thue-Morse sequence A001285.",
+  "id": "A029883",
+  "mentions": [
+    "A001285",
+    "A007413",
+    "A010060",
+    "A035263",
+    "A036554",
+    "A036577",
+    "A036585",
+    "A091785",
+    "A091855"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

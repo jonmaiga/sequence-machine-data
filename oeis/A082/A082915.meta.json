@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n for which the first difference sequence of A054040 decreases.",
+  "id": "A082915",
+  "mentions": [
+    "A054040"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

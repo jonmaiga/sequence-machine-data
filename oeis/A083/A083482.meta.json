@@ -1,0 +1,21 @@
+{
+  "description": "Square root of smallest square of the type n(n+1)*k.",
+  "id": "A083482",
+  "mentions": [
+    "A002378",
+    "A007913",
+    "A019554",
+    "A083481"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

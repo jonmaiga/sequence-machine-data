@@ -1,0 +1,18 @@
+{
+  "description": "Largest proper substring of 2^n that is a power of 2 (0 if none).",
+  "id": "A033921",
+  "mentions": [
+    "A000079"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

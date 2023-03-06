@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n X n checkerboard by two edgewise-connected sets which produce the maximum n^2-2n+2 frontier edges between the two sets. Partitions equal under rotation or reflection are counted only once.",
+  "id": "A068393",
+  "mentions": [
+    "A068381",
+    "A068392",
+    "A068416",
+    "A265914"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

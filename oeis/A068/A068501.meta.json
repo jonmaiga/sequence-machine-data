@@ -1,0 +1,20 @@
+{
+  "description": "Values m such that the consecutive pair parameters(m,m+1) generate Pythagorean triples whose odd terms are both prime.",
+  "id": "A068501",
+  "mentions": [
+    "A048161",
+    "A051892",
+    "A067755",
+    "A067756"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

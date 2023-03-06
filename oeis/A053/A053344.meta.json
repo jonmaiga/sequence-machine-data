@@ -1,0 +1,20 @@
+{
+  "description": "Minimal number of coins needed to pay n cents using coins of denominations 1, 5, 10, 25 cents.",
+  "id": "A053344",
+  "mentions": [
+    "A001299",
+    "A011542"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:08:01",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

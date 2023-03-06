@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k+1 and sigma(k)+1 are both perfect squares.",
+  "id": "A089954",
+  "mentions": [
+    "A000203",
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Final digit of C(2k,k) when not equal to zero.",
+  "id": "A073094",
+  "mentions": [
+    "A037453"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

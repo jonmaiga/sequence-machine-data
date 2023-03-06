@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n > 1 such that n and sigma(n) have the same largest prime factor.",
+  "id": "A071834",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A006530",
+    "A071190"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

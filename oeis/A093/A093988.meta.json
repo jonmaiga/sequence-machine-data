@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 2^k + 3*k is prime.",
+  "id": "A093988",
+  "mentions": [
+    "A082101",
+    "A086653",
+    "A094963"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

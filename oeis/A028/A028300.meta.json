@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1; thereafter a(n+1) = a(n)^2 + n.",
+  "id": "A028300",
+  "mentions": [
+    "A086851",
+    "A098152",
+    "A153058",
+    "A153059",
+    "A153060"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Total number of edges in the distinct simple graphs on n nodes.",
+  "id": "A086314",
+  "mentions": [
+    "A000088",
+    "A014695",
+    "A064038"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

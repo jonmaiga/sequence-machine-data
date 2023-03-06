@@ -1,0 +1,18 @@
+{
+  "description": "Partial sum of Pi(k) from 1 to 2^n.",
+  "id": "A072111",
+  "mentions": [
+    "A000720",
+    "A073224"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

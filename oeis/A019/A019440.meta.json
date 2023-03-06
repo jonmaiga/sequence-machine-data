@@ -1,0 +1,20 @@
+{
+  "description": "Integers in alphabetical order in British English.",
+  "id": "A019440",
+  "mentions": [
+    "A004740",
+    "A026081"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "dumb",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Least m such that if r and s in {Pi/2 - atn(h): h = 1,2,...,n} satisfy r < s, then r < k/m < s for some integer k.",
+  "id": "A024832",
+  "mentions": [
+    "A001000"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 2,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

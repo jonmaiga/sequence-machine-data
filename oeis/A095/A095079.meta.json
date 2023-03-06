@@ -1,0 +1,20 @@
+{
+  "description": "Primes with two 0-bits in their binary expansion.",
+  "id": "A095079",
+  "mentions": [
+    "A095059",
+    "A095062"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

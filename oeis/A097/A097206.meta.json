@@ -1,0 +1,15 @@
+{
+  "description": "Numbers of the form 5^p * p^5 for p prime.",
+  "id": "A097206",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

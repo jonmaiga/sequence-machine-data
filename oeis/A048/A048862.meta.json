@@ -1,0 +1,26 @@
+{
+  "description": "Number of primes in the reduced residue system of n-th primorial number (=A002110(n)).",
+  "id": "A048862",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A000849",
+    "A001221",
+    "A002110",
+    "A007625",
+    "A048597",
+    "A048863"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

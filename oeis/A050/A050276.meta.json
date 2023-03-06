@@ -1,0 +1,18 @@
+{
+  "description": "Nonzero numerators in asymptotic expansion of the Riemann-Seigel Z-function.",
+  "id": "A050276",
+  "mentions": [
+    "A050277"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

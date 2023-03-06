@@ -1,0 +1,26 @@
+{
+  "description": "Concatenate next digit at right hand end (where the next digit after 9 is again 0).",
+  "id": "A057137",
+  "mentions": [
+    "A007908",
+    "A010879",
+    "A014824",
+    "A037610",
+    "A057138",
+    "A057139",
+    "A120819"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

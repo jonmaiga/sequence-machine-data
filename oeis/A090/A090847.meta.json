@@ -1,0 +1,18 @@
+{
+  "description": "Let A denote the sequence; then A is equal to the union of the self-convolutions A^2 and A^4, with terms in ascending order by size, where a(0)=1.",
+  "id": "A090847",
+  "mentions": [
+    "A090845",
+    "A090848"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

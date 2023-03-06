@@ -1,0 +1,20 @@
+{
+  "description": "Numbers not of form n + sum of digits of n^2.",
+  "id": "A051374",
+  "mentions": [
+    "A003052",
+    "A033298"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:55:45",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

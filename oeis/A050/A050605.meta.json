@@ -1,0 +1,24 @@
+{
+  "description": "Column/row 2 of A050602: a(n) = add3c(n,2).",
+  "id": "A050605",
+  "mentions": [
+    "A000217",
+    "A001511",
+    "A007814",
+    "A014550",
+    "A050602",
+    "A069834",
+    "A161737"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:47:25",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

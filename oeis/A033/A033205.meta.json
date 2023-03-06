@@ -1,0 +1,28 @@
+{
+  "description": "Primes of form x^2 + 5*y^2.",
+  "id": "A033205",
+  "mentions": [
+    "A000040",
+    "A020669",
+    "A029718",
+    "A091729",
+    "A106856",
+    "A106865",
+    "A121568",
+    "A139643",
+    "A140633",
+    "A216815"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

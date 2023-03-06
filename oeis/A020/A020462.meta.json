@@ -1,0 +1,16 @@
+{
+  "description": "Primes that contain digits 3 and 5 only.",
+  "id": "A020462",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:09:57",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

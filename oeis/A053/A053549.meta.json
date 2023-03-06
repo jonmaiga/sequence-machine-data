@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled rooted connected graphs.",
+  "id": "A053549",
+  "mentions": [
+    "A001187",
+    "A006125"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

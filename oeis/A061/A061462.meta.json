@@ -1,0 +1,19 @@
+{
+  "description": "The exact power of 2 that divides the n-th Bell number (A000110). Has period 12.",
+  "id": "A061462",
+  "mentions": [
+    "A000110"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

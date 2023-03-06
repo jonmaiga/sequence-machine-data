@@ -1,0 +1,29 @@
+{
+  "description": "Array read by antidiagonals: T(k,n) = (k+1)2^n - k.",
+  "id": "A048483",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A033484",
+    "A036563",
+    "A048487",
+    "A048488",
+    "A048489",
+    "A048490",
+    "A048491",
+    "A048493",
+    "A048494"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:08:45",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

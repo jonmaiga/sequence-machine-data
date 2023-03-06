@@ -1,0 +1,21 @@
+{
+  "description": "The sequence b, given that c is a left shift by one place of b.",
+  "id": "A041004",
+  "mentions": [
+    "A041002",
+    "A041003"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:20:31",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

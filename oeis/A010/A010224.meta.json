@@ -1,0 +1,16 @@
+{
+  "description": "Continued fraction for sqrt(181).",
+  "id": "A010224",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:02:59",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

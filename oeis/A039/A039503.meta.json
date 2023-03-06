@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers from A039500.",
+  "id": "A039503",
+  "mentions": [
+    "A037084",
+    "A039500",
+    "A039505"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:11:59",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

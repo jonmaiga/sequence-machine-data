@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = p - A072181(n), where p is the least prime > A072181(n) + 1.",
+  "id": "A082432",
+  "mentions": [
+    "A005235",
+    "A037153",
+    "A037155",
+    "A055211",
+    "A072181"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

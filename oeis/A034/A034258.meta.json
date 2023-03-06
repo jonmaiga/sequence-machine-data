@@ -1,0 +1,20 @@
+{
+  "description": "Write n! as a product of n numbers, n! = k(1)*k(2)*...*k(n) with k(1) <= k(2) <= ..., in all possible ways; a(n) = max value of k(1).",
+  "id": "A034258",
+  "mentions": [
+    "A034259",
+    "A034260"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

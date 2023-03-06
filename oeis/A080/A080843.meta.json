@@ -1,0 +1,25 @@
+{
+  "description": "Tribonacci word: limit S(infinity), where S(0) = 0, S(1) = 0,1, S(2) = 0,1,0,2 and for n >= 0, S(n+3) = S(n+2) S(n+1) S(n).",
+  "id": "A080843",
+  "mentions": [
+    "A000073",
+    "A003849",
+    "A092782",
+    "A278038",
+    "A278045",
+    "A317950",
+    "A319198"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

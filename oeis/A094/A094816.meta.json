@@ -1,0 +1,44 @@
+{
+  "description": "Triangle read by rows: T(n,k) are the coefficients of Charlier polynomials: A046716 transposed, for 0 <= k <= n.",
+  "id": "A094816",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A000522",
+    "A001339",
+    "A002104",
+    "A007318",
+    "A008275",
+    "A024000",
+    "A027641",
+    "A027642",
+    "A046716",
+    "A049020",
+    "A068985",
+    "A082030",
+    "A095000",
+    "A095177",
+    "A095722",
+    "A095740",
+    "A096307",
+    "A096341",
+    "A130189",
+    "A130190",
+    "A132393",
+    "A137346",
+    "A327997"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:25:34",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

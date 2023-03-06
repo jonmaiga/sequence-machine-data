@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma(A087979(n))/phi(A087979(n)) or 0 if A087979(n) is not a balanced number.",
+  "id": "A088847",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A020492",
+    "A087979",
+    "A088830"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

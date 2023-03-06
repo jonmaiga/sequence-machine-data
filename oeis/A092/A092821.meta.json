@@ -1,0 +1,19 @@
+{
+  "description": "Table read by rows: T(n,k)= z (z') or product of z with its complex conjugate, with z=Sum[binomial[n,t] I^t, {t,0,k}].",
+  "id": "A092821",
+  "mentions": [
+    "A092822"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

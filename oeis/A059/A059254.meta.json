@@ -1,0 +1,16 @@
+{
+  "description": "Size of maximal subset of the Sobol sequence (projection of a 0/1-cube with the projection vectors b_i=(i,rev(i)), where rev(i) is the value of the reversed binary representation of i).",
+  "id": "A059254",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

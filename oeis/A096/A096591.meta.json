@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T, read by rows, such that the matrix square shifts T one place diagonally left and upward, with T(n,0)=T(n,n)=1 for n>=0.",
+  "id": "A096591",
+  "mentions": [
+    "A000108",
+    "A096592"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

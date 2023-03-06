@@ -1,0 +1,21 @@
+{
+  "description": "Number of Lyndon words (aperiodic necklaces) with 3n beads of 3 colors, n beads of each color.",
+  "id": "A074655",
+  "mentions": [
+    "A022553",
+    "A029808",
+    "A074651",
+    "A074656"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Essentially A053506 but with leading 0 (instead of 1) and offset 0.",
+  "id": "A055861",
+  "mentions": [
+    "A000169",
+    "A000312",
+    "A053506",
+    "A055858",
+    "A055860"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:17:30",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

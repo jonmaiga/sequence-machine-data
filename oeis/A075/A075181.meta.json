@@ -1,0 +1,32 @@
+{
+  "description": "Coefficients of certain polynomials (rising powers).",
+  "id": "A075181",
+  "mentions": [
+    "A000142",
+    "A001286",
+    "A007840",
+    "A008275",
+    "A048594",
+    "A075178",
+    "A075182",
+    "A075183",
+    "A075184",
+    "A075185",
+    "A075186",
+    "A075187",
+    "A094638"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

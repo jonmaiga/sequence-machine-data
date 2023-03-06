@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose sum of digits is even.",
+  "id": "A054683",
+  "mentions": [
+    "A014263",
+    "A054684",
+    "A099814",
+    "A179081",
+    "A179082",
+    "A179084",
+    "A270264",
+    "A356929"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:20:29",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the primes from the smallest prime factor of n to the largest prime factor of n.",
+  "id": "A074036",
+  "mentions": [
+    "A055233",
+    "A169802",
+    "A169804"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

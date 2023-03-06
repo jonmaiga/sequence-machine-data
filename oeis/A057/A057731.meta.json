@@ -1,0 +1,35 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of elements of order k in symmetric group S_n, for n >= 1, 1 <= k <= g(n), where g(n) = A000793(n) is Landau's function.",
+  "id": "A057731",
+  "mentions": [
+    "A000142",
+    "A000793",
+    "A001189",
+    "A001471",
+    "A054522",
+    "A057740",
+    "A057741",
+    "A059593",
+    "A060014",
+    "A074351",
+    "A074859",
+    "A153760",
+    "A153761",
+    "A222029"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

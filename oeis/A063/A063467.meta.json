@@ -1,0 +1,20 @@
+{
+  "description": "Number of idempotent reversible binary (i.e., radius one half) cellular automata of order n. Equivalently, number of loop-noded symmetric 2-colored unique 2-path graphs on n nodes. Equivalently, number of idempotent semicentral bigroupoids of order n.",
+  "id": "A063467",
+  "mentions": [
+    "A261864"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1, a(2n+1) = a(n), a(2n) = a(n) + a(n-1) + ... + a(n-m) + ... where a(n",
+  "id": "A086450",
+  "mentions": [
+    "A002487",
+    "A011657",
+    "A085765",
+    "A086449"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

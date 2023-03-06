@@ -1,0 +1,22 @@
+{
+  "description": "Array T read by antidiagonals: T(k,n) = k*n*2^(n-1) + 1, n >= 0, k >= 1.",
+  "id": "A049069",
+  "mentions": [
+    "A002064",
+    "A005183",
+    "A048472",
+    "A049513"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:34:39",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

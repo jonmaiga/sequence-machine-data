@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m such that m-th triangular number (A000217) ends in m.",
+  "id": "A067270",
+  "mentions": [
+    "A000217",
+    "A003226",
+    "A007185",
+    "A016090",
+    "A018247",
+    "A018248",
+    "A093534",
+    "A301912"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

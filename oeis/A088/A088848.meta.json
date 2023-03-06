@@ -1,0 +1,19 @@
+{
+  "description": "Number of prime factors, without multiplicity, of numbers that can be expressed as the sum of two distinct 4th powers in exactly two distinct ways.",
+  "id": "A088848",
+  "mentions": [
+    "A003824"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

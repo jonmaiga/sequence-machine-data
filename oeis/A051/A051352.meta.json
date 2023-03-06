@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0; for n>0, a(n) = a(n-1) + n if n not prime else a(n-1) - n.",
+  "id": "A051352",
+  "mentions": [
+    "A005171",
+    "A010051"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

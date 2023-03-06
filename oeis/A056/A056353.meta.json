@@ -1,0 +1,23 @@
+{
+  "description": "Number of bracelet structures using a maximum of three different colored beads.",
+  "id": "A056353",
+  "mentions": [
+    "A000011",
+    "A002076",
+    "A027671",
+    "A056391",
+    "A114438",
+    "A152176"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:17:52",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Primes not containing the decimal digit 0, a.k.a. zeroless or zerofree primes.",
+  "id": "A038618",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A038603",
+    "A038604",
+    "A038611",
+    "A038612",
+    "A038613",
+    "A038614",
+    "A038615",
+    "A038616",
+    "A038617",
+    "A052382",
+    "A056709",
+    "A168046",
+    "A195943"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

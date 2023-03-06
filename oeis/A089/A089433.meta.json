@@ -1,0 +1,19 @@
+{
+  "description": "Number of noncrossing connected graphs on n nodes having exactly two interior faces.",
+  "id": "A089433",
+  "mentions": [
+    "A007297",
+    "A089434"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 4,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "A(n,k) = Sum_{h=0..n-1, m=0..k} A(h,m) for n >= 1 and k >= 1, with A(n,0) = 1 for n >= 0 and A(0,k) = 0 for k >= 1; square array A, read by descending antidiagonals.",
+  "id": "A050143",
+  "mentions": [
+    "A000225",
+    "A001519",
+    "A001792",
+    "A001911",
+    "A050147",
+    "A050148",
+    "A055807",
+    "A084938"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:15",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Prime(2^j) at which (prime(1+2^n)-prime(2^n))/log(prime(2^n)) sets a (low) record.",
+  "id": "A082862",
+  "mentions": [
+    "A074327"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

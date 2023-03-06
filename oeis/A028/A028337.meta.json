@@ -1,0 +1,18 @@
+{
+  "description": "Palindromes of the form n(n+1).",
+  "id": "A028337",
+  "mentions": [
+    "A028336"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

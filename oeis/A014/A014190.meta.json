@@ -1,0 +1,31 @@
+{
+  "description": "Palindromes in base 3 (written in base 10).",
+  "id": "A014190",
+  "mentions": [
+    "A002113",
+    "A006995",
+    "A007089",
+    "A014192",
+    "A029803",
+    "A029952",
+    "A029953",
+    "A029954",
+    "A029955",
+    "A118594",
+    "A134027",
+    "A330312"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

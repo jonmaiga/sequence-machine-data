@@ -1,0 +1,21 @@
+{
+  "description": "Pierce expansion for 4 - Pi.",
+  "id": "A061233",
+  "mentions": [
+    "A014014",
+    "A015884",
+    "A154956"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

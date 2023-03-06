@@ -1,0 +1,20 @@
+{
+  "description": "n-th highly composite number equals a(n)-th composite number.",
+  "id": "A074329",
+  "mentions": [
+    "A000720",
+    "A002182",
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

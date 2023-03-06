@@ -1,0 +1,20 @@
+{
+  "description": "Signed Stirling numbers of the second kind.",
+  "id": "A080417",
+  "mentions": [
+    "A008277"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

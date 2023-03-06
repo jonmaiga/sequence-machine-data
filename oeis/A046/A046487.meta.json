@@ -1,0 +1,22 @@
+{
+  "description": "Palindromes k such that the sum of the first palindromes up to k is a palindrome.",
+  "id": "A046487",
+  "mentions": [
+    "A002113",
+    "A046486",
+    "A046488"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

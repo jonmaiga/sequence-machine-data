@@ -1,0 +1,32 @@
+{
+  "description": "Number of compositions of the integer n in which the first part is >= the other parts.",
+  "id": "A079500",
+  "mentions": [
+    "A000081",
+    "A000311",
+    "A001678",
+    "A007059",
+    "A048816",
+    "A048888",
+    "A067399",
+    "A092921",
+    "A120803",
+    "A186537",
+    "A188541",
+    "A316624",
+    "A320154",
+    "A320160",
+    "A320169"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

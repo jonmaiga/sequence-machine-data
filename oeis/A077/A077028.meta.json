@@ -1,0 +1,29 @@
+{
+  "description": "The rascal triangle, read by rows: T(n,k) (n >= 0, 0 <= k <= n) = k(n-k) + 1.",
+  "id": "A077028",
+  "mentions": [
+    "A000005",
+    "A000108",
+    "A000125",
+    "A003991",
+    "A004247",
+    "A007318",
+    "A033638",
+    "A057145",
+    "A077029",
+    "A105851",
+    "A128139"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

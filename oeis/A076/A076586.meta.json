@@ -1,0 +1,26 @@
+{
+  "description": "Total number of right truncatable primes in base n.",
+  "id": "A076586",
+  "mentions": [
+    "A024763",
+    "A024764",
+    "A024765",
+    "A024766",
+    "A024767",
+    "A024768",
+    "A024769",
+    "A024770",
+    "A076623"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

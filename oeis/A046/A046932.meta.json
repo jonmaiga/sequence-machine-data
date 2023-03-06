@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = period of x^n + x + 1 over GF(2), i.e., the smallest integer m>0 such that x^n + x + 1 divides x^m + 1 over GF(2).",
+  "id": "A046932",
+  "mentions": [
+    "A010760",
+    "A055061",
+    "A073639",
+    "A100730",
+    "A112683"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

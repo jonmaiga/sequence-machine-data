@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number m such that the trajectory of m under iteration of cototient function[=A051953] contains exactly n distinct numbers (including m and the fixed point=0). Or: the required number of iterations[=operations,transitions] is n-1.",
+  "id": "A098197",
+  "mentions": [
+    "A000010",
+    "A007755",
+    "A051953",
+    "A098196"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

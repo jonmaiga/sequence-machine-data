@@ -1,0 +1,24 @@
+{
+  "description": "Neither the sum or difference of 2 squares.",
+  "id": "A062316",
+  "mentions": [
+    "A016825",
+    "A017137",
+    "A022544",
+    "A079299",
+    "A084109",
+    "A097271",
+    "A263715"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

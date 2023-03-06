@@ -1,0 +1,23 @@
+{
+  "description": "Meandric numbers for a river crossing two perpendicular roads at n points, beginning in the (-,-) quadrant and ending in any quadrant.",
+  "id": "A076907",
+  "mentions": [
+    "A005316",
+    "A076875",
+    "A076876",
+    "A076906",
+    "A077551"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

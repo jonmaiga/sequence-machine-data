@@ -1,0 +1,26 @@
+{
+  "description": "Number of points of l_1 norm n in the \"diamond\" lattice D^+_4.",
+  "id": "A035878",
+  "mentions": [
+    "A005925",
+    "A008412",
+    "A010006",
+    "A010369",
+    "A035877",
+    "A035879",
+    "A035881",
+    "A035926"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:23:15",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

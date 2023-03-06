@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of BesselJ(0,2).",
+  "id": "A091681",
+  "mentions": [
+    "A000290",
+    "A068985",
+    "A070910",
+    "A073701",
+    "A197036",
+    "A334380",
+    "A334381",
+    "A334383"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:51:57",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

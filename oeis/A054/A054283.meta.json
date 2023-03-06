@@ -1,0 +1,27 @@
+{
+  "description": "Positions of 7's in the decimal expansion of exp(1).",
+  "id": "A054283",
+  "mentions": [
+    "A001113",
+    "A054276",
+    "A054277",
+    "A054278",
+    "A054279",
+    "A054280",
+    "A054281",
+    "A054282",
+    "A054284",
+    "A054285"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

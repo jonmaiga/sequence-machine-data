@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that [A070080(n), A070081(n), A070082(n)] is an obtuse integer triangle.",
+  "id": "A070127",
+  "mentions": [
+    "A070080",
+    "A070081",
+    "A070082",
+    "A070085",
+    "A070101",
+    "A070128",
+    "A070129",
+    "A070130",
+    "A070131",
+    "A070132",
+    "A070133",
+    "A070134",
+    "A070135"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that sigma(n)+phi(n) has exactly 4 divisors.",
+  "id": "A067350",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A067349",
+    "A067351"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

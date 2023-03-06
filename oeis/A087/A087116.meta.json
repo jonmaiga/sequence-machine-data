@@ -1,0 +1,26 @@
+{
+  "description": "Number of maximal groups of consecutive zeros in binary representation of n.",
+  "id": "A087116",
+  "mentions": [
+    "A003817",
+    "A007088",
+    "A023416",
+    "A033264",
+    "A069010",
+    "A087117",
+    "A087118",
+    "A087119",
+    "A087120"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

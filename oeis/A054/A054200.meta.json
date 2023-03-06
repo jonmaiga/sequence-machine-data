@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary vectors (x_1,...x_n) satisfying Sum_{i=1..n} i*x_i = 3 (mod n+1) = size of Varshamov-Tenengolts code VT_3(n).",
+  "id": "A054200",
+  "mentions": [
+    "A000016",
+    "A000048"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:29:36",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, of coefficients for the second iteration of the hyperbinomial transform.",
+  "id": "A089460",
+  "mentions": [
+    "A088956",
+    "A089461",
+    "A089462",
+    "A089463"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

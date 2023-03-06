@@ -1,0 +1,31 @@
+{
+  "description": "Array of values of Jordan function J_k(n) read by antidiagonals (version 1).",
+  "id": "A059379",
+  "mentions": [
+    "A000010",
+    "A000225",
+    "A002260",
+    "A004736",
+    "A020522",
+    "A024023",
+    "A024049",
+    "A059376",
+    "A059377",
+    "A059378",
+    "A059380",
+    "A059387",
+    "A067858"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

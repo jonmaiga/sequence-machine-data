@@ -1,0 +1,21 @@
+{
+  "description": "Curvatures in diagram constructed by inscribing 2 circles of curvature 0 and 1 inside circle of curvature 0, continuing indefinitely to inscribe circles wherever possible.",
+  "id": "A045673",
+  "mentions": [
+    "A008784",
+    "A042944",
+    "A042946",
+    "A045679",
+    "A189226"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

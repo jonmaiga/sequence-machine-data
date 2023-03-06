@@ -1,0 +1,24 @@
+{
+  "description": "Sum of anti-divisors of n.",
+  "id": "A066417",
+  "mentions": [
+    "A000203",
+    "A007814",
+    "A058838",
+    "A064277",
+    "A066272",
+    "A066416",
+    "A066418"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

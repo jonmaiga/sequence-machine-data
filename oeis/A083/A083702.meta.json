@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number having Fibonacci(n) as least primitive root, or 0 if no such number exists.",
+  "id": "A083702",
+  "mentions": [
+    "A000045",
+    "A083701",
+    "A214158"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

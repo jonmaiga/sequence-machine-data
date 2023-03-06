@@ -1,0 +1,20 @@
+{
+  "description": "Ninth column (m=8) of (1,4)-Pascal triangle A095666.",
+  "id": "A095671",
+  "mentions": [
+    "A000581",
+    "A095666"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:05:57",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

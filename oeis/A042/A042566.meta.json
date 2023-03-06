@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(812).",
+  "id": "A042566",
+  "mentions": [
+    "A042567"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:54",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

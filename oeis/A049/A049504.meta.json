@@ -1,0 +1,21 @@
+{
+  "description": "Product_{i = 0..n-1} ((3*i+1)!*(6*i)!*(2*i)!)/((4*i)!*(4*i+1)!).",
+  "id": "A049504",
+  "mentions": [
+    "A051255",
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Take n sheets of paper, arrange them into piles, write on each sheet the cardinality (number of sheets) of its pile. Do this again, so each sheet is labeled by an ordered pair of positive integers. How many ways can this be done so that every sheet has a unique label? (Only distinct sets of labels count, not every permutation of the labels or sheets.).",
+  "id": "A093578",
+  "mentions": [
+    "A000217",
+    "A093579",
+    "A093580"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

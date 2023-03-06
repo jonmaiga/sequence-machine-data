@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic ways a loop can cross two parallel roads 2n times.",
+  "id": "A086031",
+  "mentions": [
+    "A077054",
+    "A085973"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

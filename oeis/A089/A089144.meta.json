@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that 6*p-5 and 6*p-1 are primes.",
+  "id": "A089144",
+  "mentions": [
+    "A090606",
+    "A090607",
+    "A090608",
+    "A090609",
+    "A090610"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

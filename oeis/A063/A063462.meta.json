@@ -1,0 +1,18 @@
+{
+  "description": "n * last digit of n.",
+  "id": "A063462",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:27:31",
+    "offset": 0,
+    "size": 63,
+    "source": "joeis"
+  }
+}

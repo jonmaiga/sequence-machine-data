@@ -1,0 +1,19 @@
+{
+  "description": "Real part of Propp's cubic recurrence starting with i (i^2=-1).",
+  "id": "A086889",
+  "mentions": [
+    "A051786",
+    "A086890"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

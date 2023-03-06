@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction expansion of Product_{p prime} (1 - 1/(p^2-1)).",
+  "id": "A072101",
+  "mentions": [
+    "A065469"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

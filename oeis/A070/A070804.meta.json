@@ -1,0 +1,25 @@
+{
+  "description": "Number of primes not exceeding phi(n).",
+  "id": "A070804",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A007818",
+    "A070800",
+    "A070801",
+    "A070802",
+    "A070803"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

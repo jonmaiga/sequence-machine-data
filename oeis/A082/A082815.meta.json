@@ -1,0 +1,21 @@
+{
+  "description": "Consider primes p with a unique representation p = x^2 + y^2, where x is least primitive root of p. a(n) is the first such prime with x increasing in the sequence, x can be found in A082816.",
+  "id": "A082815",
+  "mentions": [
+    "A001481",
+    "A002313",
+    "A082816",
+    "A082842"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

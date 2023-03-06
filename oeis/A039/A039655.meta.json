@@ -1,0 +1,26 @@
+{
+  "description": "Number of iterations of f(x) = sigma(x)-1 applied to n required to reach a prime, or -1 if no prime is ever reached.",
+  "id": "A039655",
+  "mentions": [
+    "A039649",
+    "A039650",
+    "A039651",
+    "A039652",
+    "A039653",
+    "A039654",
+    "A039656",
+    "A290447",
+    "A292114",
+    "A292115"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:12:13",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Difference between n^2 and the largest cube <= n^2.",
+  "id": "A075847",
+  "mentions": [
+    "A000290",
+    "A070923",
+    "A077106",
+    "A077110",
+    "A077111",
+    "A077116"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(426).",
+  "id": "A041811",
+  "mentions": [
+    "A040405",
+    "A041810"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:19:03",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Nontrivial numbers k containing no zero digits which are divisible by the number formed by writing the digits of k in ascending order.",
+  "id": "A084687",
+  "mentions": [
+    "A086083"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

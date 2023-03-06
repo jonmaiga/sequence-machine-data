@@ -1,0 +1,32 @@
+{
+  "description": "Compose the natural numbers with themselves, A(x) = B(B(x)) where B(x) = x/(1-x)^2 is the generating function for natural numbers.",
+  "id": "A030267",
+  "mentions": [
+    "A000045",
+    "A001629",
+    "A001870",
+    "A023610",
+    "A030279",
+    "A038731",
+    "A045623",
+    "A088305",
+    "A121462",
+    "A153294",
+    "A279282",
+    "A307415",
+    "A308723"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:35:18",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

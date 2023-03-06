@@ -1,0 +1,30 @@
+{
+  "description": "Largest 3-smooth divisor of n.",
+  "id": "A065331",
+  "mentions": [
+    "A001620",
+    "A006519",
+    "A007310",
+    "A007814",
+    "A007949",
+    "A038500",
+    "A047229",
+    "A053165",
+    "A065330",
+    "A082633",
+    "A225546"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

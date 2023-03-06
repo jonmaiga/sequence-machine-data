@@ -1,0 +1,28 @@
+{
+  "description": "Beatty sequence for sqrt(3); complement of A054406.",
+  "id": "A022838",
+  "mentions": [
+    "A000290",
+    "A026255",
+    "A054406",
+    "A080757",
+    "A144077",
+    "A171970",
+    "A171972",
+    "A184796",
+    "A194028",
+    "A194106",
+    "A194979"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

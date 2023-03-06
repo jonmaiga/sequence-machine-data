@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(481).",
+  "id": "A041918",
+  "mentions": [
+    "A041919"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "frac",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:17:32",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

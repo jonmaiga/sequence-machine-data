@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (2^(3*n-1))/(integral_{x=0..1} (1-x^4)^n dx).",
+  "id": "A088505",
+  "mentions": [
+    "A007695",
+    "A007696"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:38:32",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

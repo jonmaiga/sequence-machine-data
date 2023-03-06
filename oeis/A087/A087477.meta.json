@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sqrt(51)-4.",
+  "id": "A087477",
+  "mentions": [
+    "A000796",
+    "A010504",
+    "A087478"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

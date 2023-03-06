@@ -1,0 +1,20 @@
+{
+  "description": "Transform of A059226 applied to sequence 0, 0, 1, 0, 0, 0, 0, ...",
+  "id": "A059273",
+  "mentions": [
+    "A059226",
+    "A059227",
+    "A059271",
+    "A059272"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

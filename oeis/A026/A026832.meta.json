@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into distinct parts, the least being odd.",
+  "id": "A026832",
+  "mentions": [
+    "A000009",
+    "A026804",
+    "A026805",
+    "A026807",
+    "A026833",
+    "A092265",
+    "A096661",
+    "A096765",
+    "A097042"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

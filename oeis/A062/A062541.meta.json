@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = floor(Pi^n * e^n).",
+  "id": "A062541",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

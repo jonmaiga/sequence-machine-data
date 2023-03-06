@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(n) = a(n-1) times smallest divisor of n >= n^(1/2).",
+  "id": "A072489",
+  "mentions": [
+    "A033676",
+    "A072488"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Number of nonsquarefree terms in 3x+1 trajectory started at n.",
+  "id": "A087891",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

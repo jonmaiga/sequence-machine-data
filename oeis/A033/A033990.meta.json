@@ -1,0 +1,33 @@
+{
+  "description": "Write 0,1,2,... in a clockwise spiral on a square lattice, writing each digit at a separate lattice point, starting with 0 at the origin and 1 at x=0, y=-1; sequence gives the numbers on the negative y-axis.",
+  "id": "A033990",
+  "mentions": [
+    "A001107",
+    "A002939",
+    "A002943",
+    "A007742",
+    "A033307",
+    "A033951",
+    "A033952",
+    "A033953",
+    "A033954",
+    "A033988",
+    "A033989",
+    "A033991",
+    "A033996"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:09:35",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

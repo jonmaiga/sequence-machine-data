@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of Gaussian product of arithmetic mean and Lehmer mean evaluated at 1 + 4*x.",
+  "id": "A078801",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

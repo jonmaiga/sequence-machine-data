@@ -1,0 +1,17 @@
+{
+  "description": "Smallest triangular number which is one more than the product of n distinct numbers > 1.",
+  "id": "A081951",
+  "mentions": [
+    "A081950"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

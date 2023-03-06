@@ -1,0 +1,23 @@
+{
+  "description": "Least balanced numbers (A020492): m such that the quotient sigma(m)/phi(m) equals the n-th prime.",
+  "id": "A063513",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A020492",
+    "A023897",
+    "A055234"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

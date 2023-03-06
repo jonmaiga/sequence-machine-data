@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k that divide sigma(k) * phi(k) and are not divisible by 6.",
+  "id": "A047630",
+  "mentions": [
+    "A011775"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

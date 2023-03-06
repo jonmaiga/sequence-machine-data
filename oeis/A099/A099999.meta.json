@@ -1,0 +1,29 @@
+{
+  "description": "Number of geometrical configurations of type (n_3).",
+  "id": "A099999",
+  "mentions": [
+    "A001403",
+    "A023994",
+    "A098702",
+    "A098804",
+    "A098822",
+    "A098841",
+    "A098851",
+    "A098852",
+    "A098854",
+    "A100001"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

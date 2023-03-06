@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to tile a 9 X n rectangle with 1 X 1 and 2 X 2 tiles.",
+  "id": "A063653",
+  "mentions": [
+    "A001045",
+    "A054854",
+    "A054855",
+    "A063650",
+    "A063651",
+    "A063652",
+    "A063654",
+    "A245013"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:58:04",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(0,0) = 1, T(n,k) = Sum_{j=max(0,1-k)..n-k} (2^j)*(binomial(k+j,1+j) + binomial(k+j+1,1+j))*T(n-1,k-1+j)).",
+  "id": "A085734",
+  "mentions": [
+    "A000182",
+    "A000364",
+    "A001147",
+    "A083061",
+    "A088874",
+    "A098906"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

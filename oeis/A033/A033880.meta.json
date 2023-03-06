@@ -1,0 +1,32 @@
+{
+  "description": "Abundance of n, or (sum of divisors of n) - 2n.",
+  "id": "A033880",
+  "mentions": [
+    "A000079",
+    "A000203",
+    "A000396",
+    "A001065",
+    "A005100",
+    "A005101",
+    "A005843",
+    "A017665",
+    "A017666",
+    "A023197",
+    "A028982",
+    "A033879",
+    "A302991",
+    "A318172"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Distinct largest-peak-values in 3x+1 trajectory arranged by their first appearance as initial value increases. A025586 without repetitions while keeping order.",
+  "id": "A087251",
+  "mentions": [
+    "A025586"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Array read by diagonals: T(h,k)=number of paths consisting of steps from (0,0) to (h,k) such that each step has length 1 directed up or right and no up-step crosses the line y=4x/3. (Thus a path crosses the line only at lattice points and on right-steps.).",
+  "id": "A047140",
+  "mentions": [
+    "A047110",
+    "A047130",
+    "A047141",
+    "A047142",
+    "A047143",
+    "A047144",
+    "A047145",
+    "A047146",
+    "A047147",
+    "A047148",
+    "A047149",
+    "A047150"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:00:11",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of different solutions to a variant of the 3-ball tennis ball problem.",
+  "id": "A079486",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A002293",
+    "A049235"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

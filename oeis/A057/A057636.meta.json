@@ -1,0 +1,20 @@
+{
+  "description": "Initial prime in first sequence of n primes congruent to 4 modulo 5. The first prime in a sequence of length n all ending with the digit 9.",
+  "id": "A057636",
+  "mentions": [
+    "A054681",
+    "A057618",
+    "A057631",
+    "A068150"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

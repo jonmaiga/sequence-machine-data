@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = binomial coefficient C(n,41).",
+  "id": "A010994",
+  "mentions": [
+    "A001787",
+    "A010990",
+    "A010991",
+    "A010992",
+    "A242091"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:59:45",
+    "offset": 41,
+    "size": 21,
+    "source": "joeis"
+  }
+}

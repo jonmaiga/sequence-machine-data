@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (4n+2)!/2^(2n+1).",
+  "id": "A052277",
+  "mentions": [
+    "A002432",
+    "A013662",
+    "A067912",
+    "A068447"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:54:35",
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Denominators in full Stern-Brocot tree.",
+  "id": "A047679",
+  "mentions": [
+    "A002487",
+    "A007305",
+    "A007306",
+    "A025480",
+    "A054424",
+    "A054429",
+    "A059893",
+    "A152976",
+    "A153036"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose factorial has '16' as its final two digits before the trailing zeros.",
+  "id": "A045554",
+  "mentions": [
+    "A000142"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

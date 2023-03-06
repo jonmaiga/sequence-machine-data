@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/((1-5x)(1-9x)(1-10x)).",
+  "id": "A020494",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

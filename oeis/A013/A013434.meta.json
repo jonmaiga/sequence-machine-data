@@ -1,0 +1,15 @@
+{
+  "description": "cos(arcsin(x)-arctanh(x))=1-10/6!*x^6-840/8!*x^8-87750/10!*x^10...",
+  "id": "A013434",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:44:29",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

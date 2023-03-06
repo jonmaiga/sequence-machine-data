@@ -1,0 +1,41 @@
+{
+  "description": "Fixed points of A048673 and A064216: Numbers n such that if n = product_{k >= 1} (p_k)^(c_k), then Product_{k >= 1} (p_{k+1})^(c_k) = (2*n)-1, where p_k indicates the k-th prime, A000040(k).",
+  "id": "A048674",
+  "mentions": [
+    "A000040",
+    "A003961",
+    "A045965",
+    "A048673",
+    "A064216",
+    "A064989",
+    "A108228",
+    "A245449",
+    "A246281",
+    "A246282",
+    "A246351",
+    "A246352",
+    "A246361",
+    "A246362",
+    "A246371",
+    "A246372",
+    "A269860",
+    "A285701",
+    "A319630",
+    "A336853",
+    "A348514",
+    "A349573",
+    "A349622"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

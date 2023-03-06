@@ -1,0 +1,20 @@
+{
+  "description": "Coordination sequence for AlPO_4-11 structure with respect to node (X) where decagon and two hexagons meet.",
+  "id": "A072149",
+  "mentions": [
+    "A072150",
+    "A072154"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

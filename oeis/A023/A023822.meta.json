@@ -1,0 +1,15 @@
+{
+  "description": "Sum of exponents in prime-power factorization of C(3n,n-3).",
+  "id": "A023822",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:02",
+    "offset": 3,
+    "size": 78,
+    "source": "joeis"
+  }
+}

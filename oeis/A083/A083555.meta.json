@@ -1,0 +1,22 @@
+{
+  "description": "Quotient of LCM of prime(n+1)-1 and prime(n)-1 and GCD of the same two numbers.",
+  "id": "A083555",
+  "mentions": [
+    "A006093",
+    "A051537",
+    "A058263",
+    "A083538",
+    "A083554"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

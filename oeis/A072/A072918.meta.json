@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = p(n) - sigma(n), where p(n) is the least prime greater than sigma(n).",
+  "id": "A072918",
+  "mentions": [
+    "A000203",
+    "A013632",
+    "A202111"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

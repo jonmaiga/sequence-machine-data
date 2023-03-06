@@ -1,0 +1,23 @@
+{
+  "description": "A062401(x) is iterated. Initial value = n!. a(n) is the path-length of trajectory = count of transients and recurrent terms, i.e., all distinct states arising in trajectory.",
+  "id": "A097005",
+  "mentions": [
+    "A000010",
+    "A000142",
+    "A000203",
+    "A062401",
+    "A096859"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

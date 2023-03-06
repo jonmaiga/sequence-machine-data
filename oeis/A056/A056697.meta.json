@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is least N > 1 congruent to -1,0, or 1 mod i for all i=1,...,n.",
+  "id": "A056697",
+  "mentions": [
+    "A187824",
+    "A220890",
+    "A220891"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

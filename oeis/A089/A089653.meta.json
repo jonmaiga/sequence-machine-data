@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that (product of prime factors of n) - 1 is a perfect square.",
+  "id": "A089653",
+  "mentions": [
+    "A007947",
+    "A089632",
+    "A091419",
+    "A091420"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

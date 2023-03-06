@@ -1,0 +1,20 @@
+{
+  "description": "Number of 0's in n-th row of triangle in A070950.",
+  "id": "A070951",
+  "mentions": [
+    "A070950",
+    "A070952"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

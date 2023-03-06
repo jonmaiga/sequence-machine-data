@@ -1,0 +1,23 @@
+{
+  "description": "Number of integers from 1 to 10^(n+1)-1 that lack 0 and 1 as a digit.",
+  "id": "A052379",
+  "mentions": [
+    "A023001",
+    "A024101",
+    "A052386"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

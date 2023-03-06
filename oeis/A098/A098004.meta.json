@@ -1,0 +1,16 @@
+{
+  "description": "Fractional Pisot 4 X 4 Markov sequence Bezier {1/4,1/2,1/4} of golden mean, theta0 and theta1.",
+  "id": "A098004",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

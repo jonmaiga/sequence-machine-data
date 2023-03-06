@@ -1,0 +1,17 @@
+{
+  "description": "Time wave sequence of Terrance McKenna.",
+  "id": "A092943",
+  "mentions": [
+    "A092948"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

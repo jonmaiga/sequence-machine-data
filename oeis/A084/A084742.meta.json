@@ -1,0 +1,26 @@
+{
+  "description": "Least k such that (n^k+1)/(n+1) is prime, or 0 if no such prime exists.",
+  "id": "A084742",
+  "mentions": [
+    "A055494",
+    "A065507",
+    "A084740",
+    "A084741",
+    "A103795",
+    "A126659",
+    "A128164",
+    "A246392",
+    "A250174",
+    "A250178"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

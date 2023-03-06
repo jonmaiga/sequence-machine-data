@@ -1,0 +1,30 @@
+{
+  "description": "Triangular numbers that are half other triangular numbers.",
+  "id": "A075528",
+  "mentions": [
+    "A000129",
+    "A000217",
+    "A001652",
+    "A002315",
+    "A006062",
+    "A029546",
+    "A029549",
+    "A046090",
+    "A046729",
+    "A053141",
+    "A084159",
+    "A096979"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

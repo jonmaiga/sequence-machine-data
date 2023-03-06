@@ -1,0 +1,19 @@
+{
+  "description": "When the Euler phi function is iterated with initial value A002110(n)=primorial, a(n)= first (maximal) power of 2 emerging during iteration.",
+  "id": "A053098",
+  "mentions": [
+    "A000010",
+    "A002110",
+    "A053047"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

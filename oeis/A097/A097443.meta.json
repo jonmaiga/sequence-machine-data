@@ -1,0 +1,27 @@
+{
+  "description": "Half-period primes, i.e., primes p for which the decimal expansion of 1/p has period (p-1)/2.",
+  "id": "A097443",
+  "mentions": [
+    "A000040",
+    "A001913",
+    "A001914",
+    "A006883",
+    "A007732",
+    "A055628",
+    "A056157",
+    "A056210",
+    "A056217",
+    "A097955",
+    "A098680"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Molien series for complex 4-dimensional Clifford group of order 92160 and genus 2. Also Molien series of ring of biweight enumerators of Type II self-dual binary codes.",
+  "id": "A028288",
+  "mentions": [
+    "A008621",
+    "A008718",
+    "A024186",
+    "A039946",
+    "A051263"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:47",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

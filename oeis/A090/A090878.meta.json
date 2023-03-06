@@ -1,0 +1,25 @@
+{
+  "description": "Numerator of Integral_{x=0..infinity} exp(-x)*(1+x/n)^n dx.",
+  "id": "A090878",
+  "mentions": [
+    "A036503",
+    "A036505",
+    "A063170",
+    "A095996",
+    "A120266",
+    "A128433",
+    "A128434"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

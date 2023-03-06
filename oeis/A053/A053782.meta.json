@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the sum of the first k composite numbers is prime.",
+  "id": "A053782",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A013919",
+    "A053872"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

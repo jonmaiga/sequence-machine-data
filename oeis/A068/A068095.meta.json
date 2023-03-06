@@ -1,0 +1,21 @@
+{
+  "description": "All primes dividing each term are Fibonacci numbers.",
+  "id": "A068095",
+  "mentions": [
+    "A000045",
+    "A001605",
+    "A005478"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

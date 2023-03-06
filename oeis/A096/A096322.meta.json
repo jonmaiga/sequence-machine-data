@@ -1,0 +1,30 @@
+{
+  "description": "Limiting sequence formed by rows of A094504 read backwards: rightmost Floor[n/2]+1 terms of row n in table A094504.",
+  "id": "A096322",
+  "mentions": [
+    "A000293",
+    "A094504",
+    "A094508",
+    "A096272",
+    "A096573",
+    "A096574",
+    "A096575",
+    "A096576",
+    "A096577",
+    "A096578",
+    "A096579",
+    "A096580",
+    "A096581"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

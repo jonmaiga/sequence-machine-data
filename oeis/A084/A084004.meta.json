@@ -1,0 +1,20 @@
+{
+  "description": "Squares obtained as a concatenation of k and 10's complement of k.",
+  "id": "A084004",
+  "mentions": [
+    "A084005",
+    "A084006",
+    "A084007"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the root x of Ei(x)=0, where Ei is the exponential integral.",
+  "id": "A091723",
+  "mentions": [
+    "A070769",
+    "A084945"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

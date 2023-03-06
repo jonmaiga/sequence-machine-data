@@ -1,0 +1,20 @@
+{
+  "description": "Minimal number of rectangles with integer sides that will form any rectangle with area n.",
+  "id": "A034880",
+  "mentions": [
+    "A033676",
+    "A052126",
+    "A070966"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

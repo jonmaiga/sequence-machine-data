@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest positive integer not already in sequence such that the partial sum a(1)+...+a(n) is prime.",
+  "id": "A054408",
+  "mentions": [
+    "A055265",
+    "A073659",
+    "A254337"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

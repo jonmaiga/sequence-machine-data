@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that the concatenation a(1), a(2), a(3), ..., a(n-1), a(n) is divisible by n if and only if n is not a prime.",
+  "id": "A095247",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

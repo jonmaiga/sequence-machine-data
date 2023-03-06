@@ -1,0 +1,20 @@
+{
+  "description": "Let Oc(n) = A005900(n) = n-th octahedral number. Consider all integer triples (i,j,k), j >= k > 0, with Oc(i) = Oc(j)+Oc(k), ordered by increasing i; sequence gives j values.",
+  "id": "A053677",
+  "mentions": [
+    "A005900",
+    "A053676",
+    "A053678"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

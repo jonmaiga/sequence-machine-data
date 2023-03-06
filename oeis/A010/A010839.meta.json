@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k >= 1} (1-x^k)^48.",
+  "id": "A010839",
+  "mentions": [
+    "A126581",
+    "A282330",
+    "A282332",
+    "A290009",
+    "A290010"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 1/prime(k) has period prime(k) - 1 and 1/prime(k+1) has period prime(k+1) - 1.",
+  "id": "A060258",
+  "mentions": [
+    "A060257"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

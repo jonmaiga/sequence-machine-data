@@ -1,0 +1,20 @@
+{
+  "description": "\"The partial sums of the positions where T occurs in this sentence are one, eight, twentyfive, fortynine, eightythree, onehundredtwentysix, ...\" (Variation of Aronson's sequence).",
+  "id": "A089613",
+  "mentions": [
+    "A005224"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

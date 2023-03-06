@@ -1,0 +1,24 @@
+{
+  "description": "T(n, k) = S(2n+2, n+2, k+2) for 0<=k<=n and n >= 0, array S as in A050157.",
+  "id": "A050163",
+  "mentions": [
+    "A000245",
+    "A000531",
+    "A001791",
+    "A002057",
+    "A050155",
+    "A050157"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:27",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

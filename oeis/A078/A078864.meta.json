@@ -1,0 +1,21 @@
+{
+  "description": "Smallest primes from A001359, each belonging to those different residue class of mod 210 which are listed in A078859. Arranged according to possible least positive residues mod 210.",
+  "id": "A078864",
+  "mentions": [
+    "A001359",
+    "A008364",
+    "A078859"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

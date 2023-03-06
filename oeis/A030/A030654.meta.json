@@ -1,0 +1,18 @@
+{
+  "description": "n^4*a(n) is the number of spheres in complex projective space tangent to 4 smooth surfaces of degree n in general position.",
+  "id": "A030654",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:23",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

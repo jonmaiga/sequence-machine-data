@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into distinct parts which are coprime to n and which are also pairwise relatively prime.",
+  "id": "A083290",
+  "mentions": [
+    "A000010",
+    "A000586",
+    "A007360",
+    "A036998",
+    "A082415"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (A088567(8n) mod 2).",
+  "id": "A089013",
+  "mentions": [
+    "A014707",
+    "A038189",
+    "A088567"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

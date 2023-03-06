@@ -1,0 +1,18 @@
+{
+  "description": "Positions of zeros in Per Nørgård's infinity sequence (A004718).",
+  "id": "A083866",
+  "mentions": [
+    "A004718",
+    "A005107"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

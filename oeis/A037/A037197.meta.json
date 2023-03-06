@@ -1,0 +1,22 @@
+{
+  "description": "Number of divisors of sigma(n) = number of divisors of n.",
+  "id": "A037197",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A062068",
+    "A073802",
+    "A073804"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

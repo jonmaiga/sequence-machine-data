@@ -1,0 +1,21 @@
+{
+  "description": "Numbers having no decomposition into a sum of two prime powers.",
+  "id": "A071331",
+  "mentions": [
+    "A000961",
+    "A014092",
+    "A071330",
+    "A109829"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Even numbers k such that k/2 - 1 is prime.",
+  "id": "A089241",
+  "mentions": [
+    "A000040",
+    "A029933",
+    "A072055"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:57:59",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

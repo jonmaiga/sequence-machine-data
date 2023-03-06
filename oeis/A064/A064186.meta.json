@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n!+1 and n!-1 have the same number of prime divisors (with repetition).",
+  "id": "A064186",
+  "mentions": [
+    "A054990",
+    "A054991"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

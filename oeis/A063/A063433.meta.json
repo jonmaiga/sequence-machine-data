@@ -1,0 +1,23 @@
+{
+  "description": "'Reverse and Add!' trajectory of 10577.",
+  "id": "A063433",
+  "mentions": [
+    "A004086",
+    "A006960",
+    "A023108",
+    "A033865",
+    "A056964",
+    "A063434"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:30:48",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

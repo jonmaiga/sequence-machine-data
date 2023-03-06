@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that p-1 is not squarefree.",
+  "id": "A049092",
+  "mentions": [
+    "A005596",
+    "A039787",
+    "A078330",
+    "A088144",
+    "A088179",
+    "A089451",
+    "A145199"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:34:45",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

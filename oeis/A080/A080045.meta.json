@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of triangular array: T(n,1)=T(n,n)=1/n and T(n,k)=T(n-1,k-1)+t(n-1,k), 1",
+  "id": "A080045",
+  "mentions": [
+    "A007318",
+    "A080044"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

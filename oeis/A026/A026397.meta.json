@@ -1,0 +1,19 @@
+{
+  "description": "Sum{T(n-k,k)}, 0<=k<=[ n/2 ], where T is the array in A026386.",
+  "id": "A026397",
+  "mentions": [
+    "A026385",
+    "A026386"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:55:26",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Pentagonal numbers with even index.",
+  "id": "A049452",
+  "mentions": [
+    "A000217",
+    "A000326",
+    "A001105",
+    "A001107",
+    "A001318",
+    "A022266",
+    "A033428",
+    "A033568",
+    "A033570",
+    "A033991",
+    "A049450",
+    "A049453",
+    "A140090",
+    "A185019"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:37:47",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

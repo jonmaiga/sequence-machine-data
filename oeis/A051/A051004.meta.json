@@ -1,0 +1,22 @@
+{
+  "description": "Numbers divisible both by their individual digits and by the sum of their digits.",
+  "id": "A051004",
+  "mentions": [
+    "A005349",
+    "A034838",
+    "A038369",
+    "A087142"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

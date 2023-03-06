@@ -1,0 +1,19 @@
+{
+  "description": "Number of arrangements of n labeled balls in n labeled columns where only 1 column may have more than 1 ball.",
+  "id": "A086984",
+  "mentions": [
+    "A000407",
+    "A086985"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

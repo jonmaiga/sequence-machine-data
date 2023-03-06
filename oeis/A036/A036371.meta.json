@@ -1,0 +1,20 @@
+{
+  "description": "Number of ternary rooted trees with n nodes and height at most 3.",
+  "id": "A036371",
+  "mentions": [
+    "A036370"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

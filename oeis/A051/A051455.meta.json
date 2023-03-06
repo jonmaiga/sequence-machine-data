@@ -1,0 +1,20 @@
+{
+  "description": "(Terms in A029623)/2.",
+  "id": "A051455",
+  "mentions": [
+    "A029618",
+    "A029623"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:56:25",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

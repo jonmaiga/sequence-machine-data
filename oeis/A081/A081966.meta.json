@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of A081964.",
+  "id": "A081966",
+  "mentions": [
+    "A081964",
+    "A081965"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

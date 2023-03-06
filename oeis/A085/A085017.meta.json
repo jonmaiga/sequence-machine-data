@@ -1,0 +1,18 @@
+{
+  "description": "Reverse(Prime(n)) concatenated with Prime(n) (a palindrome) is divisible by n.",
+  "id": "A085017",
+  "mentions": [
+    "A085016"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

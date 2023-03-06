@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that n, n+2, n+4, n+6, n+8, n+10, n+12 and n+14 are semiprimes.",
+  "id": "A082919",
+  "mentions": [
+    "A001358",
+    "A056809",
+    "A070552",
+    "A082130",
+    "A082131",
+    "A092125",
+    "A092126",
+    "A092127",
+    "A092128",
+    "A092129",
+    "A092207",
+    "A092209",
+    "A217222"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

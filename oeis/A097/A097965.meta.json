@@ -1,0 +1,18 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into n parts, allowing zeros, with distinct nonzero parts.",
+  "id": "A097965",
+  "mentions": [
+    "A032020",
+    "A088218"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of (s(0), s(1), ..., s(n)) such that every s(i) is an integer, s(0) = 0, s(1) = 1, s(n) = 2, |s(i) - s(i-1)| <= 1 for i >= 2, |s(2) - s(1)| = 1, |s(3) - s(2)| = 1 if s(2) = 1. Also T(n,n-2), where T is the array in A026268.",
+  "id": "A026288",
+  "mentions": [
+    "A026123",
+    "A026268"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:04",
+    "offset": 2,
+    "size": 28,
+    "source": "joeis"
+  }
+}

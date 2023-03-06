@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime factor of Googolplex - n which exceeds 16.",
+  "id": "A078814",
+  "mentions": [
+    "A072288"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

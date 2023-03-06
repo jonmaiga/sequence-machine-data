@@ -1,0 +1,29 @@
+{
+  "description": "Smallest number m such that m(m+1)/2 is divisible by n.",
+  "id": "A011772",
+  "mentions": [
+    "A000217",
+    "A066561",
+    "A080982",
+    "A343995",
+    "A343996",
+    "A343997",
+    "A343998",
+    "A344005",
+    "A345984"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

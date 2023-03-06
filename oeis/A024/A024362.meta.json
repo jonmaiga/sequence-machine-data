@@ -1,0 +1,31 @@
+{
+  "description": "Number of primitive Pythagorean triangles with hypotenuse n.",
+  "id": "A024362",
+  "mentions": [
+    "A000290",
+    "A001221",
+    "A002144",
+    "A008846",
+    "A010052",
+    "A020882",
+    "A024361",
+    "A024409",
+    "A046079",
+    "A046080",
+    "A106594",
+    "A120960",
+    "A137409",
+    "A159781"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

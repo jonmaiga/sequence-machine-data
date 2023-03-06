@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (s(n)+1)/2, where s=A006995 (base-2 palindromes).",
+  "id": "A044051",
+  "mentions": [
+    "A006995",
+    "A141707"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

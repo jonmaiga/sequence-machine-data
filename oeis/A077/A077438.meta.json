@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that Sum_{d|k} mu(d) mu(n/d)^2 = -1.",
+  "id": "A077438",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A007304",
+    "A030059",
+    "A046387",
+    "A088245",
+    "A115343",
+    "A123321",
+    "A162143"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:39:25",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

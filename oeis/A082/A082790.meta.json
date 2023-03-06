@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic configurations of degree >= 2 (or generators) of n triples in Steiner triple systems.",
+  "id": "A082790",
+  "mentions": [
+    "A050913",
+    "A082789"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

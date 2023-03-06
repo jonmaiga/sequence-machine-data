@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of g.f.: (1+x^4+x^5+x^9)/((1-x)*(1-x^2)*(1-x^4)^2).",
+  "id": "A097869",
+  "mentions": [
+    "A097870"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:10:41",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

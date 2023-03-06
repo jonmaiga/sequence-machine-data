@@ -1,0 +1,22 @@
+{
+  "description": "Prime index of largest prime factor of 3*prime(n)+1.",
+  "id": "A087274",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A006530",
+    "A087272",
+    "A087273"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

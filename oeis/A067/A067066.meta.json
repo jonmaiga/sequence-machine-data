@@ -1,0 +1,20 @@
+{
+  "description": "Number of Gnutella users reachable with given connections and hops.",
+  "id": "A067066",
+  "mentions": [
+    "A104881"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Hexagonal cata-condensed helicenes with n cells (non-planar cata-fused benzenoid hydrocarbons).",
+  "id": "A038143",
+  "mentions": [
+    "A002216",
+    "A018190",
+    "A038142"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

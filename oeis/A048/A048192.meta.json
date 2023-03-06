@@ -1,0 +1,22 @@
+{
+  "description": "Number of connected chordal graphs on n vertices.",
+  "id": "A048192",
+  "mentions": [
+    "A048193",
+    "A048194",
+    "A287427"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

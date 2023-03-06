@@ -1,0 +1,22 @@
+{
+  "description": "Generalized Catalan numbers C(5; n).",
+  "id": "A064088",
+  "mentions": [
+    "A000108",
+    "A059365",
+    "A064087",
+    "A064094"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n,k) = n AND k, 0<=k<=n, bitwise logical AND, read by rows.",
+  "id": "A080099",
+  "mentions": [
+    "A004198",
+    "A051933",
+    "A080098",
+    "A080100",
+    "A102037",
+    "A222423",
+    "A265705"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "hear",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

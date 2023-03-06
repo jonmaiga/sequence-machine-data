@@ -1,0 +1,23 @@
+{
+  "description": "Sums of first n signatured primes (A073579).",
+  "id": "A077039",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A073579",
+    "A077040",
+    "A077041"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

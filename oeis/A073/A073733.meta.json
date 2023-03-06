@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of convergents to log_2(10).",
+  "id": "A073733",
+  "mentions": [
+    "A028232",
+    "A046104"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

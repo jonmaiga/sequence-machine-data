@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0. If n is odd, a(n) = a(n-1) + n, otherwise a(n) = a(n-1) * n.",
+  "id": "A077138",
+  "mentions": [
+    "A047904",
+    "A047905",
+    "A222559"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "n-th distinct number to appear in A055168; also the n-th to appear in A217760.",
+  "id": "A055170",
+  "mentions": [
+    "A055168",
+    "A055186",
+    "A217760"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:24:13",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

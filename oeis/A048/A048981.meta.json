@@ -1,0 +1,23 @@
+{
+  "description": "Squarefree values of n for which the quadratic field Q[ sqrt(n) ] is norm-Euclidean.",
+  "id": "A048981",
+  "mentions": [
+    "A003173",
+    "A003174",
+    "A263465"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

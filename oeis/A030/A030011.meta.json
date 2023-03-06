@@ -1,0 +1,19 @@
+{
+  "description": "Inverse Euler transform of {1, primes}.",
+  "id": "A030011",
+  "mentions": [
+    "A000040",
+    "A030010"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

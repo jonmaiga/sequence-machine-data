@@ -1,0 +1,19 @@
+{
+  "description": "Lucky numbers that are both palindromic and nonprime.",
+  "id": "A031880",
+  "mentions": [
+    "A000959",
+    "A032350"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

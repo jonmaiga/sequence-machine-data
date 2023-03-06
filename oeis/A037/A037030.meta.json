@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 666*n + 1 is prime.",
+  "id": "A037030",
+  "mentions": [
+    "A037029"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:33:03",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

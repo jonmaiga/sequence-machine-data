@@ -1,0 +1,19 @@
+{
+  "description": "Primes of form x^2+39*y^2.",
+  "id": "A033227",
+  "mentions": [
+    "A106856",
+    "A234194"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

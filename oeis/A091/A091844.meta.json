@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 4. To get a(n+1), write the string a(1)a(2)...a(n) as xy^k for words x and y (where y has positive length) and k is maximized, i.e., k = the maximal number of repeating blocks at the end of the sequence so far. Then a(n+1) = max(k,4).",
+  "id": "A091844",
+  "mentions": [
+    "A090822",
+    "A091787",
+    "A091799",
+    "A091845"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

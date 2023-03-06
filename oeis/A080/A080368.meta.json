@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the least unitary prime divisor of n, or 0 if no such prime divisor exists.",
+  "id": "A080368",
+  "mentions": [
+    "A000040",
+    "A001694",
+    "A027748",
+    "A034444",
+    "A056169",
+    "A080367",
+    "A124010",
+    "A277697",
+    "A277698"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

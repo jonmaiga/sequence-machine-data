@@ -1,0 +1,20 @@
+{
+  "description": "Let phi_m(x) denote the Euler totient function applied m times to x. Sequence gives the minimum number of iterations m such that phi_m(n) divides n.",
+  "id": "A073407",
+  "mentions": [
+    "A000010",
+    "A019294"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

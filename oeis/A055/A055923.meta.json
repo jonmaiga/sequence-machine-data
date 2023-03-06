@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n in which each part occurs a prime number (or 0) times.",
+  "id": "A055923",
+  "mentions": [
+    "A000041",
+    "A007690",
+    "A055922"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

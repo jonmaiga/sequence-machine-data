@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of natural numbers induced by the automorphism gt-df->bf (switch from the Depth First to the Breadth First coding for the general trees/parenthesizations) acting on the parenthesizations encoded by A014486.",
+  "id": "A072089",
+  "mentions": [
+    "A014486",
+    "A057118",
+    "A072088",
+    "A072620",
+    "A072622"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

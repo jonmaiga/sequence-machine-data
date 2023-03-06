@@ -1,0 +1,20 @@
+{
+  "description": "For n > 0, a(n+1) is the least prime not already used such that abs(a(n+1)-a(n)/2n is prime.",
+  "id": "A093932",
+  "mentions": [
+    "A093931"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

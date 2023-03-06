@@ -1,0 +1,39 @@
+{
+  "description": "Numbers n such that genus of group Gamma_0(n) is zero.",
+  "id": "A091401",
+  "mentions": [
+    "A000086",
+    "A000089",
+    "A001615",
+    "A001616",
+    "A001617",
+    "A002894",
+    "A006077",
+    "A081085",
+    "A091403",
+    "A093388",
+    "A127776",
+    "A276018",
+    "A276019",
+    "A276020",
+    "A276021",
+    "A276022",
+    "A276177",
+    "A276178",
+    "A276179",
+    "A276180"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

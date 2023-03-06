@@ -1,0 +1,20 @@
+{
+  "description": "Triangle whose n-th row contains the n smallest numbers that are products of n distinct integers > 1, read by rows.",
+  "id": "A081957",
+  "mentions": [
+    "A081958",
+    "A081959",
+    "A081960"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

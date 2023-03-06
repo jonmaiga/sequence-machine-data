@@ -1,0 +1,31 @@
+{
+  "description": "Badly sieved numbers: as in the Sieve of Eratosthenes multiples of unmarked numbers p are marked, but only up to p^2.",
+  "id": "A066680",
+  "mentions": [
+    "A000040",
+    "A000225",
+    "A026424",
+    "A056875",
+    "A066681",
+    "A066682",
+    "A066683",
+    "A075362",
+    "A099042",
+    "A099043",
+    "A099104",
+    "A191743",
+    "A207432",
+    "A270877"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

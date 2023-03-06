@@ -1,0 +1,23 @@
+{
+  "description": "Moebius transform of the cototient function A051953.",
+  "id": "A062790",
+  "mentions": [
+    "A001065",
+    "A007431",
+    "A051953",
+    "A056239",
+    "A115004",
+    "A318836"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A083539(k) is a square; solutions x to sigma(x+1)*sigma(x)=y^2 for some y.",
+  "id": "A083540",
+  "mentions": [
+    "A000203",
+    "A060780",
+    "A060781",
+    "A083538",
+    "A083539"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that A081252(m)/m^2 has a local maximum for m = k.",
+  "id": "A081254",
+  "mentions": [
+    "A000225",
+    "A000975",
+    "A005578",
+    "A020714",
+    "A020989",
+    "A048573",
+    "A052549",
+    "A053646",
+    "A072197",
+    "A081252",
+    "A081253",
+    "A181971",
+    "A266219"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

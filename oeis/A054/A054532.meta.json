@@ -1,0 +1,24 @@
+{
+  "description": "Ramanujan sum T(n, k) = c_k(n) = Sum_{m=1..k, (m,k)=1} exp(2*Pi*i*m*n / k), triangular array read by rows for n >= 1 and 1 <= k <= n.",
+  "id": "A054532",
+  "mentions": [
+    "A054533",
+    "A054534",
+    "A054535",
+    "A282634"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:19:47",
+    "offset": 1,
+    "size": 92,
+    "source": "joeis"
+  }
+}

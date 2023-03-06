@@ -1,0 +1,29 @@
+{
+  "description": "a(n)^2 is the least square to contain n different decimal digits.",
+  "id": "A054039",
+  "mentions": [
+    "A016069",
+    "A054031",
+    "A054032",
+    "A054033",
+    "A054034",
+    "A054035",
+    "A054036",
+    "A054037",
+    "A054038"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

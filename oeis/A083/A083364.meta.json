@@ -1,0 +1,20 @@
+{
+  "description": "Antidiagonal sums of table A083362.",
+  "id": "A083364",
+  "mentions": [
+    "A083362",
+    "A083363"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:34:17",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

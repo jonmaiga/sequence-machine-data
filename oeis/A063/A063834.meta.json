@@ -1,0 +1,36 @@
+{
+  "description": "Twice partitioned numbers: the number of ways a number can be partitioned into not necessarily different parts and each part is again so partitioned.",
+  "id": "A063834",
+  "mentions": [
+    "A000041",
+    "A006906",
+    "A007425",
+    "A036036",
+    "A047966",
+    "A047968",
+    "A048996",
+    "A055887",
+    "A063835",
+    "A196545",
+    "A270995",
+    "A271619",
+    "A279375",
+    "A279784",
+    "A279791",
+    "A321449",
+    "A323718",
+    "A327769"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

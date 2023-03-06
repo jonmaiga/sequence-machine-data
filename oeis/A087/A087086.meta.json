@@ -1,0 +1,33 @@
+{
+  "description": "Primitive sets of integers, each subset mapped onto a unique binary integer, values here shown in decimal.",
+  "id": "A087086",
+  "mentions": [
+    "A000120",
+    "A048793",
+    "A051026",
+    "A070939",
+    "A285572",
+    "A285573",
+    "A303362",
+    "A304713",
+    "A305148",
+    "A316476",
+    "A326704",
+    "A328171",
+    "A328460",
+    "A328593",
+    "A328671"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

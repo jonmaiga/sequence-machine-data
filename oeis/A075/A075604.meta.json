@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number k such that there are exactly n relatively prime numbers using all digits of k.",
+  "id": "A075604",
+  "mentions": [
+    "A075603"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:29",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

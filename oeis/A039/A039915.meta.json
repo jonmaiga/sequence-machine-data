@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that k(p-1)-1 is positive and divisible by p where p = n-th prime.",
+  "id": "A039915",
+  "mentions": [
+    "A000217",
+    "A006093",
+    "A039678"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:15:55",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

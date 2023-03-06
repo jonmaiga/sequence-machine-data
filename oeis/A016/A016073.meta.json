@@ -1,0 +1,22 @@
+{
+  "description": "Undulating squares.",
+  "id": "A016073",
+  "mentions": [
+    "A033619",
+    "A122875"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

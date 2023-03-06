@@ -1,0 +1,20 @@
+{
+  "description": "Convolution of A052701 (Catalan numbers multiplied by powers of 2) with powers of -1.",
+  "id": "A064306",
+  "mentions": [
+    "A000108",
+    "A052701"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

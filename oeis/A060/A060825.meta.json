@@ -1,0 +1,23 @@
+{
+  "description": "Smallest n-digit left truncatable prime of Henry VIII type.",
+  "id": "A060825",
+  "mentions": [
+    "A024785",
+    "A052023",
+    "A052025",
+    "A055521"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 3,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

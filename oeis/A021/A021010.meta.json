@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of coefficients of Laguerre polynomials L_n(x) (powers of x in decreasing order).",
+  "id": "A021010",
+  "mentions": [
+    "A002457",
+    "A002720",
+    "A021009",
+    "A295383"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:37:57",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

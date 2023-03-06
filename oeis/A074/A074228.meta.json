@@ -1,0 +1,19 @@
+{
+  "description": "Even bases n for which the smallest (Fermat) pseudoprime has Moebius function mu = -1.",
+  "id": "A074228",
+  "mentions": [
+    "A007535",
+    "A074485"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

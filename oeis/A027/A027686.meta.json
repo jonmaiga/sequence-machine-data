@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to transform say (((((((ab)c)d)e)f)g)h) to (a(b(c(d(e(f(gh))))))) where there are n multiplications (hence n+1 variables) by repeatedly applying the one-way associative law ((xy)z) -> (x(yz)).",
+  "id": "A027686",
+  "mentions": [
+    "A000108",
+    "A282698"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers congruent to {63, 123, 183, 243, 303, 363} mod 420.",
+  "id": "A096023",
+  "mentions": [
+    "A007310",
+    "A017629",
+    "A047391",
+    "A096022",
+    "A096024",
+    "A096025",
+    "A096026",
+    "A096027"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:08:41",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

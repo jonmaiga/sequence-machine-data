@@ -1,0 +1,19 @@
+{
+  "description": "Position of sqrt(n) in the mapping N2QuQR2 given in A065937.",
+  "id": "A065939",
+  "mentions": [
+    "A065934",
+    "A065937",
+    "A065938"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

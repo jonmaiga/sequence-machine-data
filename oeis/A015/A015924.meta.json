@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers n such that 2^n == 16 (mod n).",
+  "id": "A015924",
+  "mentions": [
+    "A033984",
+    "A050992",
+    "A128121",
+    "A173138"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:45:47",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of 5-smooth numbers (A051037) <= n.",
+  "id": "A071520",
+  "mentions": [
+    "A051037",
+    "A106598",
+    "A112751"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:26:45",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

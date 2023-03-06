@@ -1,0 +1,30 @@
+{
+  "description": "Numbers of the form (2^{mr}-1)/(2^r-1) for positive integers m, r.",
+  "id": "A064896",
+  "mentions": [
+    "A056538",
+    "A064894",
+    "A076270",
+    "A076275",
+    "A076284",
+    "A076285",
+    "A076286",
+    "A076287",
+    "A076288",
+    "A076289",
+    "A125121",
+    "A245730"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

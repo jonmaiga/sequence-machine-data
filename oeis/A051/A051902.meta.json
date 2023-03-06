@@ -1,0 +1,26 @@
+{
+  "description": "Minimal primorial safe primes: p and primorial*p + 1 are both primes.",
+  "id": "A051902",
+  "mentions": [
+    "A002110",
+    "A005385",
+    "A051644",
+    "A051646",
+    "A051648",
+    "A051649",
+    "A051651",
+    "A051887",
+    "A051888"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:52:19",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Increasing partial quotients of number defined in A085825 and A085826.",
+  "id": "A085827",
+  "mentions": [
+    "A085825",
+    "A085826"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

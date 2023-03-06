@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (1/Pi)*(2^n/n)*(n-1)!*Integral_{t>=0} (sin(t)/t)^n dt.",
+  "id": "A099765",
+  "mentions": [
+    "A049330",
+    "A261398"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

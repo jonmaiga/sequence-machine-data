@@ -1,0 +1,22 @@
+{
+  "description": "Number of 2n-bead balanced binary necklaces which are equivalent to their complement, but not equivalent to their reverse and their reversed complement.",
+  "id": "A045677",
+  "mentions": [
+    "A000013",
+    "A045674",
+    "A045675",
+    "A045676",
+    "A045678"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:10:25",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

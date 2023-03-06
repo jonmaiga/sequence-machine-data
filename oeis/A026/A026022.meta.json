@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array T read by rows: T(n,0) = 1 for n >= 0; T(n,k) = C(n,k) for k = 1,2,...,n, for n = 1,2,3; and for n >= 4, T(n,k) = T(n-1,k-1) + T(n-1,k) for k = 1,2,...,[ (n+2)/2 ] and T(n,(n+3)/2) = T(n-1,(n+1)/2) if n is odd.",
+  "id": "A026022",
+  "mentions": [
+    "A026016",
+    "A026029"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:47",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Order of Burnside group B(6,n) of exponent 6 and rank n.",
+  "id": "A079683",
+  "mentions": [
+    "A004006",
+    "A051576",
+    "A079682",
+    "A116398"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "bref",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

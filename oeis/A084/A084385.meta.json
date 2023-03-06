@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; a(n+1) is the smallest number not occurring earlier and coprime to Sum_{j=1..n} a(j).",
+  "id": "A084385",
+  "mentions": [
+    "A064413",
+    "A111244",
+    "A261351"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

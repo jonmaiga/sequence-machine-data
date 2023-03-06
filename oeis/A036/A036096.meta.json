@@ -1,0 +1,20 @@
+{
+  "description": "Centered cube numbers: (n+1)^18 + n^18.",
+  "id": "A036096",
+  "mentions": [
+    "A010806",
+    "A036094",
+    "A036095"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

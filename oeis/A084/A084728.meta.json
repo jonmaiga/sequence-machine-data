@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = smallest multiple of n such that a(1)*a(2)*...*a(n) + 1 is a prime.",
+  "id": "A084728",
+  "mentions": [
+    "A084729"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

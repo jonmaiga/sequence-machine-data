@@ -1,0 +1,24 @@
+{
+  "description": "Maximum number of regions into which the plane is divided by n triangles.",
+  "id": "A077588",
+  "mentions": [
+    "A002061",
+    "A005448",
+    "A056220",
+    "A077591",
+    "A096777",
+    "A242658"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:41:31",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

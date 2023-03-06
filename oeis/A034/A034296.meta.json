@@ -1,0 +1,31 @@
+{
+  "description": "Number of flat partitions of n: partitions {a_i} with each |a_i - a_{i-1}| <= 1.",
+  "id": "A034296",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A034297",
+    "A092265",
+    "A224956",
+    "A238353",
+    "A238863",
+    "A238864",
+    "A238865",
+    "A238866",
+    "A238867",
+    "A238868",
+    "A238869",
+    "A239954"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) least k > a(n-1) such that a(k)=s(n), for n >= 2, where s = A026600.",
+  "id": "A026614",
+  "mentions": [
+    "A026600"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:32:53",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

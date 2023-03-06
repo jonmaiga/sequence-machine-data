@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Sum_{k>=0} x^(k^2)*(-1)^k/(Product_{i=1..k} 1-x^i).",
+  "id": "A039924",
+  "mentions": [
+    "A003116",
+    "A224898",
+    "A286041",
+    "A286316"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

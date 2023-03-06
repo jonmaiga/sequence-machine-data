@@ -1,0 +1,30 @@
+{
+  "description": "Coefficient triangle of certain polynomials.",
+  "id": "A056588",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000071",
+    "A007598",
+    "A010048",
+    "A055870",
+    "A056570",
+    "A056572",
+    "A056585",
+    "A056589",
+    "A056592"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:25",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

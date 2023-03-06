@@ -1,0 +1,21 @@
+{
+  "description": "Imprimitively represented by x^2+2y^2.",
+  "id": "A034030",
+  "mentions": [
+    "A002479",
+    "A034031",
+    "A034034",
+    "A057127",
+    "A097700"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:09:27",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Antidiagonal sums of square table A089447, which lists the coefficients of x^n*y^k in f(x,y) that satisfies: f(x,y) = g(x,y) + xy*f(x,y)^4 and where g(x,y) satisfies: 1 + (x+y-1)*g(x,y) + xy*g(x,y)^2 = 0.",
+  "id": "A089449",
+  "mentions": [
+    "A002293",
+    "A089447",
+    "A089448"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

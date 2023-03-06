@@ -1,0 +1,18 @@
+{
+  "description": "Smallest positive square that contains n consecutive internal 0's.",
+  "id": "A066371",
+  "mentions": [
+    "A066392"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

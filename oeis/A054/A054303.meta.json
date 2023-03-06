@@ -1,0 +1,27 @@
+{
+  "description": "Positions of 7's in the decimal expansion of sqrt(2).",
+  "id": "A054303",
+  "mentions": [
+    "A002193",
+    "A054296",
+    "A054297",
+    "A054298",
+    "A054299",
+    "A054300",
+    "A054301",
+    "A054302",
+    "A054304",
+    "A054305"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Second column (k=3) sequence of array ((7,2)-Stirling2) divided by 14.",
+  "id": "A091551",
+  "mentions": [
+    "A007840",
+    "A091550",
+    "A091552"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

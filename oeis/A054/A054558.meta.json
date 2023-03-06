@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled pure 2-complexes on n nodes (0-simplexes) with 5 2-simplexes and 9 1-simplexes.",
+  "id": "A054558",
+  "mentions": [
+    "A054557"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:19:49",
+    "offset": 5,
+    "size": 26,
+    "source": "joeis"
+  }
+}

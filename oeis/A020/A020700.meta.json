@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k + sum of its prime factors = (k+1) + sum of its prime factors.",
+  "id": "A020700",
+  "mentions": [
+    "A020905",
+    "A075254",
+    "A228126"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

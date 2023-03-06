@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = binomial(2*n+6,n+7)*(n^2+7*n+1)/(n+8) = f(n,n+6) where f is given in A034261.",
+  "id": "A034273",
+  "mentions": [
+    "A034261",
+    "A034263",
+    "A034275"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

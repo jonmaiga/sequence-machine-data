@@ -1,0 +1,21 @@
+{
+  "description": "(1/n) times final term of n-th group in A075383.",
+  "id": "A075389",
+  "mentions": [
+    "A075383",
+    "A075384",
+    "A075385",
+    "A075386"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

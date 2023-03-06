@@ -1,0 +1,16 @@
+{
+  "description": "(7^n)-th prime.",
+  "id": "A058239",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

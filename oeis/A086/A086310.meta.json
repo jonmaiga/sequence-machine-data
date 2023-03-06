@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of constant appearing in the expected number of comparisons for an unsuccessful digital tree search (negated).",
+  "id": "A086310",
+  "mentions": [
+    "A065442",
+    "A086309"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

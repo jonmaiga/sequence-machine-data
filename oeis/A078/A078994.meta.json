@@ -1,0 +1,15 @@
+{
+  "description": "Determinant of n X n matrix M(n) where m(i,i)=i if i>j, m(i,j)=i-j if j>i, m(i,j)=j-i.",
+  "id": "A078994",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

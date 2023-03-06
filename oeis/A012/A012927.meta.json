@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of e.g.f. tan(tan(x) + log(x+1)).",
+  "id": "A012927",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:55",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

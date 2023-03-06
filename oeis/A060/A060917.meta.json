@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f.: exp((-1)^k/k*LambertW(-x)^k)/(k-1)!, k=3.",
+  "id": "A060917",
+  "mentions": [
+    "A057817",
+    "A060918",
+    "A243098"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 3,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

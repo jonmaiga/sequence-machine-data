@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(644).",
+  "id": "A042236",
+  "mentions": [
+    "A040618",
+    "A042237"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:47:42",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

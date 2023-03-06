@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of eta(q^5)*eta(q^19).",
+  "id": "A030213",
+  "mentions": [
+    "A030199",
+    "A030201",
+    "A030214",
+    "A030215",
+    "A030216",
+    "A030217"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

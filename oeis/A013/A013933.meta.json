@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the sum of the first k nonsquarefree numbers is nonsquarefree.",
+  "id": "A013933",
+  "mentions": [
+    "A013929",
+    "A013934",
+    "A013935"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

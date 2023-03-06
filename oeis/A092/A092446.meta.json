@@ -1,0 +1,15 @@
+{
+  "description": "Numbers n such that if P = 10*n^2+1, then P, P+6, P+12 and P+18 are all primes.",
+  "id": "A092446",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

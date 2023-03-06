@@ -1,0 +1,21 @@
+{
+  "description": "A simple grammar: sequences of pairs of cycles.",
+  "id": "A052811",
+  "mentions": [
+    "A005359",
+    "A006252",
+    "A346921"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

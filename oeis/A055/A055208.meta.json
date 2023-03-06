@@ -1,0 +1,38 @@
+{
+  "description": "Table read by ascending antidiagonals: T(n,k) (n >= 1, k >= 1) is the sum of k-th powers of digits of n.",
+  "id": "A055208",
+  "mentions": [
+    "A000012",
+    "A000051",
+    "A000079",
+    "A000244",
+    "A000302",
+    "A000351",
+    "A000400",
+    "A000420",
+    "A001018",
+    "A001019",
+    "A003132",
+    "A007395",
+    "A034472",
+    "A034474",
+    "A051128",
+    "A052539",
+    "A055012",
+    "A055013",
+    "A055014"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:55:09",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

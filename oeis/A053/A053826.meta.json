@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet inverse of sigma_4 function (A001159).",
+  "id": "A053826",
+  "mentions": [
+    "A001159",
+    "A046099"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

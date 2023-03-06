@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n for which there is at least one x < n such that sigma(x) = sigma(n).",
+  "id": "A069822",
+  "mentions": [
+    "A263025",
+    "A296087",
+    "A296214"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

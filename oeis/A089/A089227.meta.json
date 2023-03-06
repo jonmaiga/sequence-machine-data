@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 1 + k*ds(k) is prime, where ds(k) is the sum of digits of k.",
+  "id": "A089227",
+  "mentions": [
+    "A007953",
+    "A057147"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

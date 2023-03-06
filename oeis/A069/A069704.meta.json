@@ -1,0 +1,20 @@
+{
+  "description": "Let M_2n be the 2n X 2n matrix M_(i,j)=C(2i,j)-C(2j,i) where C(k,l) denotes the binomial coefficients; then a(n)=det(M_2n).",
+  "id": "A069704",
+  "mentions": [
+    "A005249",
+    "A060739",
+    "A067689"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

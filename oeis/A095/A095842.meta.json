@@ -1,0 +1,23 @@
+{
+  "description": "Prime powers having no partition into two prime powers.",
+  "id": "A095842",
+  "mentions": [
+    "A000961",
+    "A071330",
+    "A071331",
+    "A095840",
+    "A095841",
+    "A095874",
+    "A115231"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

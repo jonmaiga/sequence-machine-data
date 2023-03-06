@@ -1,0 +1,19 @@
+{
+  "description": "Polynomial extrapolation of 2, 3, 5, 7, 11, 13, 17.",
+  "id": "A061166",
+  "mentions": [
+    "A061165"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:11:39",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

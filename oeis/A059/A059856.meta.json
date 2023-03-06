@@ -1,0 +1,22 @@
+{
+  "description": "Write down decimal expansion of Euler-Mascheroni constant gamma (A001620); divide up into minimal chunks so that chunks have increasing length and do not begin with zero.",
+  "id": "A059856",
+  "mentions": [
+    "A001620",
+    "A002852",
+    "A033091",
+    "A098967"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

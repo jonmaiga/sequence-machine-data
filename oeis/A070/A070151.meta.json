@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is one fourth of the even leg of the unique primitive Pythagorean triangle with hypotenuse A002144(n).",
+  "id": "A070151",
+  "mentions": [
+    "A002144",
+    "A002330",
+    "A002331",
+    "A002365",
+    "A002366",
+    "A070079",
+    "A080109",
+    "A144954",
+    "A144960",
+    "A145046"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:25",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

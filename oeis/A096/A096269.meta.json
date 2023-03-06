@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of distinct palindromes of length n that occur in A096268.",
+  "id": "A096269",
+  "mentions": [
+    "A096268"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

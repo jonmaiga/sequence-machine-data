@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least k such that A048823(n) = k.",
+  "id": "A048824",
+  "mentions": [
+    "A048823"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "sinh(sinh(x)+arctan(x))=2*x+7/3!*x^3+17/5!*x^5+1089/7!*x^7...",
+  "id": "A013062",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:56:04",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of connected planar regular graphs of degree 4 with n nodes.",
+  "id": "A072552",
+  "mentions": [
+    "A005964",
+    "A006820",
+    "A078666",
+    "A292515"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 6,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

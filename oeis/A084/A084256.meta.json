@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of x such that x^2 + x^3 + x^5 + x^7 + x^11 + x^13 + x^17 + ... = 1.",
+  "id": "A084256",
+  "mentions": [
+    "A000040",
+    "A001055",
+    "A084255",
+    "A084257"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{ d divides n } (n/d)^(2d).",
+  "id": "A073705",
+  "mentions": [
+    "A038041",
+    "A055225",
+    "A151954",
+    "A236696"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

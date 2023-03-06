@@ -1,0 +1,25 @@
+{
+  "description": "Sum of digits of n modulo 10.",
+  "id": "A053837",
+  "mentions": [
+    "A000120",
+    "A007953",
+    "A010060",
+    "A010879",
+    "A053838",
+    "A053844"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:11:49",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Concatenation of (3n-2), (3n-1) and 3n divided by 3.",
+  "id": "A082252",
+  "mentions": [
+    "A082251",
+    "A082253",
+    "A082254",
+    "A082255",
+    "A082256"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Number of different digraphs on an n-cube.",
+  "id": "A078780",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of rooted planar trees where any 2 subtrees extending from same node have a different number of nodes.",
+  "id": "A032010",
+  "mentions": [
+    "A032009"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:08",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

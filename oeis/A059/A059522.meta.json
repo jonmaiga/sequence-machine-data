@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, then a(n) = n*(n^(n-1)-1)*(n-2)!/(n-1).",
+  "id": "A059522",
+  "mentions": [
+    "A058128"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

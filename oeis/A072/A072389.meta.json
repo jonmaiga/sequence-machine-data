@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form x*(x+1) * y*(y+1) (\"bipronics\") with x and y nonnegative integers.",
+  "id": "A072389",
+  "mentions": [
+    "A053990",
+    "A085780"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "description": "Irregular triangular array T read by rows: T(n, 0) = T(n, 2*n) = 1, T(n, 1) = T(n, 2*n-1) = floor(n/2 + 1), for even n >= 2, T(n, k) = T(n-1, k-2) + T(n-1, k-1) + T(n-1, k), otherwise T(n, k) = T(n-1, k-2) + T(n-1, k).",
+  "id": "A026552",
+  "mentions": [
+    "A026519",
+    "A026536",
+    "A026553",
+    "A026554",
+    "A026555",
+    "A026556",
+    "A026557",
+    "A026558",
+    "A026559",
+    "A026560",
+    "A026563",
+    "A026565",
+    "A026566",
+    "A026567",
+    "A026568",
+    "A026584",
+    "A027272",
+    "A027273",
+    "A027274",
+    "A027275",
+    "A027276",
+    "A027926"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

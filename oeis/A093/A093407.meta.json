@@ -1,0 +1,18 @@
+{
+  "description": "For p = prime(n), the least k such that p divides the numerator of a sum 1/k + 1/x1 +...+ 1/xm, where x1,...,xm (for any m) are distinct positive integers <= k.",
+  "id": "A093407",
+  "mentions": [
+    "A092671",
+    "A093408"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

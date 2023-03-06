@@ -1,0 +1,27 @@
+{
+  "description": "Triangular array O by rows: O(n,k) = number of partitions of n into an odd number of parts, the greatest being k.",
+  "id": "A026920",
+  "mentions": [
+    "A008284",
+    "A026921",
+    "A026922",
+    "A026923",
+    "A026924",
+    "A026925",
+    "A026926",
+    "A027187",
+    "A027193"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:33:11",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

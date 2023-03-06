@@ -1,0 +1,22 @@
+{
+  "description": "Sum of unitary divisors of n is a square > 1.",
+  "id": "A063937",
+  "mentions": [
+    "A010052",
+    "A034448",
+    "A063936"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

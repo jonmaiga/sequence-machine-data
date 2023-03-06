@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; a(n) = n*a(n-1) if n does not divide a(n-1), otherwise a(n) = a(n-1).",
+  "id": "A066616",
+  "mentions": [
+    "A003418",
+    "A037992",
+    "A059896",
+    "A059897",
+    "A284567"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

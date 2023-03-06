@@ -1,0 +1,21 @@
+{
+  "description": "Niven (or Harshad) numbers that are not divisible by 3.",
+  "id": "A085370",
+  "mentions": [
+    "A001651",
+    "A005349",
+    "A007953",
+    "A085371"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:42:01",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

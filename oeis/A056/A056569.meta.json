@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of Fibonomial triangle A010048.",
+  "id": "A056569",
+  "mentions": [
+    "A010048",
+    "A062073",
+    "A181926"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:31:54",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

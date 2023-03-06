@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) = number of Boolean functions mapping {0,1}^n to {0,1}^n with image of size k (k = 0...2^n) under action of GL(n,2).",
+  "id": "A053874",
+  "mentions": [
+    "A000585"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:12:11",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

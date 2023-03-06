@@ -1,0 +1,20 @@
+{
+  "description": "Determinant of KK* where K is Kasteleyn-Percus matrix for fool's diamond of order n.",
+  "id": "A071102",
+  "mentions": [
+    "A340166",
+    "A340291"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

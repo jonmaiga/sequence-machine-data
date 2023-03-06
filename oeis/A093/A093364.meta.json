@@ -1,0 +1,21 @@
+{
+  "description": "Gaps associated with the arithmetic progressions of primes in A005115.",
+  "id": "A093364",
+  "mentions": [
+    "A005115",
+    "A006560",
+    "A126989"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

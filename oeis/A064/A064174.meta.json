@@ -1,0 +1,37 @@
+{
+  "description": "Number of partitions of n with nonnegative rank.",
+  "id": "A064174",
+  "mentions": [
+    "A000041",
+    "A003114",
+    "A006141",
+    "A039900",
+    "A047993",
+    "A063995",
+    "A064173",
+    "A090858",
+    "A105806",
+    "A106529",
+    "A133121",
+    "A324516",
+    "A324518",
+    "A324520",
+    "A324521",
+    "A324522",
+    "A324560",
+    "A324562",
+    "A324572"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

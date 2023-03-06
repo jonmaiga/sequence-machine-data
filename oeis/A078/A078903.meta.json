@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n^2 - Sum_{u=1..n} Sum_{v=1..u} valuation(2*v, 2).",
+  "id": "A078903",
+  "mentions": [
+    "A000788",
+    "A001511",
+    "A005187",
+    "A048881",
+    "A067699",
+    "A073504",
+    "A076178",
+    "A078904",
+    "A079944"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Sorted elements of table (A035002) of a(m,n) = sum(a(m-k,n), k=1..m-1)+sum(a(m,n-k), k=1..n-1).",
+  "id": "A035001",
+  "mentions": [
+    "A035002"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:17:49",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

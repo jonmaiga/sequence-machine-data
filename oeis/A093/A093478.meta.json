@@ -1,0 +1,22 @@
+{
+  "description": "Number of regular (finite but not necessarily convex) polytopes of full rank in n-dimensional space, or -1 if the number is infinite.",
+  "id": "A093478",
+  "mentions": [
+    "A000943",
+    "A000944",
+    "A053016",
+    "A060296",
+    "A063927",
+    "A093479"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 113,
+    "source": "oeis-entry"
+  }
+}

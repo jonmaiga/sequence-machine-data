@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of binomial(n,k)*(binomial(n+k,k)-binomial(n+k-2,k-1)).",
+  "id": "A080721",
+  "mentions": [
+    "A033282",
+    "A051924",
+    "A063007",
+    "A145903"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

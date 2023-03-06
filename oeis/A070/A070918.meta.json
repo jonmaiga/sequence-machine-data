@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of T(n,k) coefficients of polynomials with first n prime numbers as roots.",
+  "id": "A070918",
+  "mentions": [
+    "A000040",
+    "A005867",
+    "A008275",
+    "A054640",
+    "A078456"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

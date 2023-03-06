@@ -1,0 +1,18 @@
+{
+  "description": "Class number h(p) of real quadratic field Q(sqrt(p)) where p is n-th prime == 1 mod 4.",
+  "id": "A076498",
+  "mentions": [
+    "A002144",
+    "A076499"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

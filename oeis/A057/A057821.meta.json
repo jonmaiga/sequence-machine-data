@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least nonnegative integer k such that 2^n - k is a safe prime.",
+  "id": "A057821",
+  "mentions": [
+    "A005385",
+    "A013603",
+    "A243916"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 3,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

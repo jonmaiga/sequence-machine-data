@@ -1,0 +1,15 @@
+{
+  "description": "Let QR be the set of quadratic residues mod n: QR = {x^2 mod n, 1 <= x <= n-1}. Let MR be the set of values taken by 2^x mod n: MR = {2^x mod n, 0 <= x <= n-2}. Usually if QR is a subset of MR then n is prime and otherwise n is composite. Sequence gives numbers that violate this rule, i.e., composites where QR is a subset of MR and primes where QR is not a subset of MR.",
+  "id": "A082595",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

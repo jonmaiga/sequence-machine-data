@@ -1,0 +1,21 @@
+{
+  "description": "Bisection of A007947.",
+  "id": "A099984",
+  "mentions": [
+    "A007947",
+    "A065463",
+    "A099985"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

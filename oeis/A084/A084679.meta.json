@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers with coprime numbers of prime factors with and without repetition.",
+  "id": "A084679",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A070011"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

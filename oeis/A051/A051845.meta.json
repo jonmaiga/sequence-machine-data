@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) read by rows, in which row n gives all permutations of digits 1..n interpreted in base n+1.",
+  "id": "A051845",
+  "mentions": [
+    "A023811",
+    "A051846",
+    "A134640",
+    "A134750"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

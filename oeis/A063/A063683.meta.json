@@ -1,0 +1,22 @@
+{
+  "description": "Integers formed from the reduced residue sets of even numbers and Fibonacci numbers.",
+  "id": "A063683",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A050611",
+    "A054432",
+    "A054433"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

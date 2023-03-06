@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that numerator of Bernoulli(2k) is divisible by the square of 59, the second irregular prime.",
+  "id": "A093058",
+  "mentions": [
+    "A000928",
+    "A091216",
+    "A092221"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

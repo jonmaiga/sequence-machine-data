@@ -1,0 +1,21 @@
+{
+  "description": "Values (x+y-1)/2, where x^2+y^2=p runs over the Pythagorean primes A002144.",
+  "id": "A096029",
+  "mentions": [
+    "A002144",
+    "A005098",
+    "A079886",
+    "A096030"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

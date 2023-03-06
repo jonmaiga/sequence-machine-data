@@ -1,0 +1,16 @@
+{
+  "description": "Smallest nontrivial extension of n-th palindromic prime which is a prime.",
+  "id": "A030680",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Carmichael numbers which are also base-2 strong pseudoprimes.",
+  "id": "A063847",
+  "mentions": [
+    "A001262",
+    "A002997"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

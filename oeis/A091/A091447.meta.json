@@ -1,0 +1,21 @@
+{
+  "description": "Concatenate binary vectors ordered first by length, then by the number of 1's and finally by an 'unusual' lexicographical ordering (read words from right to left, 1 comes before 0).",
+  "id": "A091447",
+  "mentions": [
+    "A076478",
+    "A091444",
+    "A091445",
+    "A091446"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

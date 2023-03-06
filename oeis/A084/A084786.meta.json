@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of the triangle (A084783) and the differences of the main diagonal (A084785) and the first column (A084784).",
+  "id": "A084786",
+  "mentions": [
+    "A084783",
+    "A084784",
+    "A084785"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

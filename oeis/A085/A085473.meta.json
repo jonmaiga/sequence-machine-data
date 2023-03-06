@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 6*n^2 + 3*n + 1.",
+  "id": "A085473",
+  "mentions": [
+    "A000217",
+    "A001318",
+    "A016813",
+    "A085474",
+    "A085475"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:42:25",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

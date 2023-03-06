@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = largest prime < 2*prime(n).",
+  "id": "A059788",
+  "mentions": [
+    "A005382",
+    "A005383",
+    "A005384",
+    "A005385",
+    "A006992",
+    "A007917",
+    "A052248",
+    "A055496",
+    "A065091",
+    "A100484",
+    "A151799"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:29:35",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) = if (k-th digit of pi) = (n-th digit of pi) then 1 else 0, 1<=k<=n (pi=3.14159... ), triangular array read by rows.",
+  "id": "A090626",
+  "mentions": [
+    "A000796",
+    "A064823"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of possible positions for n discs on a standard 7 X 6 board of Connect-Four.",
+  "id": "A090224",
+  "mentions": [
+    "A212693"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

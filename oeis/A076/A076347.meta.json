@@ -1,0 +1,23 @@
+{
+  "description": "A076340(A005117(n)), real part of squarefree numbers mapped as defined in A076340, A076341.",
+  "id": "A076347",
+  "mentions": [
+    "A005117",
+    "A076340",
+    "A076341",
+    "A076342",
+    "A076343",
+    "A076348",
+    "A076349"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

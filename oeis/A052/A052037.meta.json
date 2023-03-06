@@ -1,0 +1,21 @@
+{
+  "description": "Smallest positive number that must be added to n to reach a palindrome.",
+  "id": "A052037",
+  "mentions": [
+    "A002113",
+    "A052036",
+    "A088997"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

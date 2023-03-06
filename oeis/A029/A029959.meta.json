@@ -1,0 +1,31 @@
+{
+  "description": "Numbers that are palindromic in base 14.",
+  "id": "A029959",
+  "mentions": [
+    "A002113",
+    "A006995",
+    "A014190",
+    "A014192",
+    "A029803",
+    "A029952",
+    "A029953",
+    "A029954",
+    "A029955",
+    "A029956",
+    "A029957",
+    "A029958"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Binary expansion of n does not contain 1-bits at even positions. Integers whose base 4 representation consists of only 0's and 2s.",
+  "id": "A062033",
+  "mentions": [
+    "A062880"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:14:35",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

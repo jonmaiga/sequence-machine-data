@@ -1,0 +1,29 @@
+{
+  "description": "Chebyshev sequence with Diophantine property.",
+  "id": "A078988",
+  "mentions": [
+    "A041025",
+    "A049310",
+    "A053120",
+    "A077232",
+    "A078989",
+    "A094954",
+    "A097316",
+    "A188647",
+    "A195619",
+    "A195620"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that concatenation of numbers from 1 to n is a semiprime.",
+  "id": "A046461",
+  "mentions": [
+    "A007908",
+    "A046460"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

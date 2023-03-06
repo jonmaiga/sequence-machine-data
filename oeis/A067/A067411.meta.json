@@ -1,0 +1,27 @@
+{
+  "description": "Third column of triangle A067410 and second column of A067417.",
+  "id": "A067411",
+  "mentions": [
+    "A000244",
+    "A000400",
+    "A001045",
+    "A002001",
+    "A038195",
+    "A067403",
+    "A067410",
+    "A067412",
+    "A067417"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

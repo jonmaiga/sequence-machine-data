@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of coefficients of asymptotic expansion of probability p(n) (see A002816) in powers of 1/n.",
+  "id": "A078630",
+  "mentions": [
+    "A002816",
+    "A078631",
+    "A089222"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

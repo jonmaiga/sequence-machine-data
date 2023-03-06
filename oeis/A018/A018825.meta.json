@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are not the sum of 2 nonzero squares.",
+  "id": "A018825",
+  "mentions": [
+    "A000404",
+    "A004431",
+    "A022544",
+    "A025426",
+    "A063725",
+    "A081324"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

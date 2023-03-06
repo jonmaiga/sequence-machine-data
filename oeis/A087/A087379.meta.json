@@ -1,0 +1,18 @@
+{
+  "description": "Beginning with 2, primes such that the difference between two successive terms is a distinct composite number.",
+  "id": "A087379",
+  "mentions": [
+    "A068632"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

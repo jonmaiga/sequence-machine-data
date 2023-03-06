@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of the probability that the convex hull of n+2 randomly chosen points in the unit ball B^n has n+1 vertices (with factor of Pi^n dropped for n even).",
+  "id": "A051051",
+  "mentions": [
+    "A051050"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:17:08",
+    "offset": 0,
+    "size": 10,
+    "source": "joeis"
+  }
+}

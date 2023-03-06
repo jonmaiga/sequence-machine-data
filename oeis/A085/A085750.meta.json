@@ -1,0 +1,25 @@
+{
+  "description": "Determinant of the symmetric n X n matrix A defined by A[i,j] = |i-j| for 1 <= i,j <= n.",
+  "id": "A085750",
+  "mentions": [
+    "A001787",
+    "A085807",
+    "A100071",
+    "A203993",
+    "A204249",
+    "A278845",
+    "A278847"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

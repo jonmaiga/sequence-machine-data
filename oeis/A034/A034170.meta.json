@@ -1,0 +1,24 @@
+{
+  "description": "Disjoint discriminants (one form per genus) of type 1.",
+  "id": "A034170",
+  "mentions": [
+    "A000926",
+    "A004766",
+    "A034169",
+    "A139826",
+    "A232528"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

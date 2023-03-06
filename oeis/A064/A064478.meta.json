@@ -1,0 +1,22 @@
+{
+  "description": "If n = Product p(k)^e(k) then a(n) = Product (p(k)+1)^e(k), a(0) = 1, a(1)=2.",
+  "id": "A064478",
+  "mentions": [
+    "A003958",
+    "A003959",
+    "A064476",
+    "A064479"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

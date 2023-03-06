@@ -1,0 +1,20 @@
+{
+  "description": "1+n+n^13 is a prime.",
+  "id": "A075717",
+  "mentions": [
+    "A002384",
+    "A075716",
+    "A075718"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

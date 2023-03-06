@@ -1,0 +1,26 @@
+{
+  "description": "Central sextinomial coefficients.",
+  "id": "A063419",
+  "mentions": [
+    "A000984",
+    "A002426",
+    "A005191",
+    "A005721",
+    "A018901",
+    "A023520",
+    "A025012",
+    "A063260"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

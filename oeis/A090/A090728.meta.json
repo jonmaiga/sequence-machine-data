@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 20*a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 20.",
+  "id": "A090728",
+  "mentions": [
+    "A001085",
+    "A037035",
+    "A054877",
+    "A080959"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:04:53",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

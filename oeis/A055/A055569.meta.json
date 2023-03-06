@@ -1,0 +1,25 @@
+{
+  "description": "Sum of digits of a(n)^3 is greater than or equal to a(n).",
+  "id": "A055569",
+  "mentions": [
+    "A004164",
+    "A046459",
+    "A055568",
+    "A055570",
+    "A055571",
+    "A055572"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

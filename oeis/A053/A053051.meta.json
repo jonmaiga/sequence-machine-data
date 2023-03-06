@@ -1,0 +1,22 @@
+{
+  "description": "Smallest integer m such that sum_(k=1 to m) d(k) is divisible by n, where d(k) (A000005) is the number of divisors of k.",
+  "id": "A053051",
+  "mentions": [
+    "A000005",
+    "A002034",
+    "A006218",
+    "A011772"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:06:37",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

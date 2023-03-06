@@ -1,0 +1,29 @@
+{
+  "description": "Palindromic in base 5.",
+  "id": "A029952",
+  "mentions": [
+    "A002113",
+    "A006995",
+    "A014190",
+    "A014192",
+    "A029803",
+    "A029953",
+    "A029954",
+    "A029955",
+    "A261917",
+    "A261918"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

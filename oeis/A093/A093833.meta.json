@@ -1,0 +1,25 @@
+{
+  "description": "3^n-Jacobsthal(n).",
+  "id": "A093833",
+  "mentions": [
+    "A001045",
+    "A004054",
+    "A052992",
+    "A053581",
+    "A093834",
+    "A175654",
+    "A175659"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:08:42",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

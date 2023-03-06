@@ -1,0 +1,19 @@
+{
+  "description": "Maximal order of element of alternating group A_{2n+1}.",
+  "id": "A057743",
+  "mentions": [
+    "A051593",
+    "A057742"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

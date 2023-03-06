@@ -1,0 +1,21 @@
+{
+  "description": "Numbers such that length in binary representation and number of ones have a common divisor greater than 1.",
+  "id": "A099248",
+  "mentions": [
+    "A000120",
+    "A007088",
+    "A070939",
+    "A099244",
+    "A099247"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

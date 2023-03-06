@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct zeros of x^3-x-1 mod prime(n).",
+  "id": "A086965",
+  "mentions": [
+    "A030199",
+    "A086937",
+    "A086966",
+    "A086967"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

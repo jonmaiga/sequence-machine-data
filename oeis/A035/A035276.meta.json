@@ -1,0 +1,26 @@
+{
+  "description": "One seventh of deca-factorial numbers.",
+  "id": "A035276",
+  "mentions": [
+    "A035272",
+    "A035273",
+    "A035274",
+    "A035275",
+    "A035277",
+    "A035278",
+    "A035279",
+    "A045757"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

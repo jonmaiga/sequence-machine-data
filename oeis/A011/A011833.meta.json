@@ -1,0 +1,17 @@
+{
+  "description": "Number of f-vectors for simplicial complexes of dimension at most 8 on at most n-1 vertices.",
+  "id": "A011833",
+  "mentions": [
+    "A007695"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:03:41",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

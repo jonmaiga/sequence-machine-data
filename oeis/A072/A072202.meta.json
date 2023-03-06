@@ -1,0 +1,26 @@
+{
+  "description": "Same numbers of prime factors of forms 4*k+1 and 4*k+3, counted with multiplicity.",
+  "id": "A072202",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A065339",
+    "A078613",
+    "A079635",
+    "A080774",
+    "A083025",
+    "A202237",
+    "A267099",
+    "A268381"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

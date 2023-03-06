@@ -1,0 +1,18 @@
+{
+  "description": "Nonprimes n such that Mod(n,4) == 1 and denominator(Fibonacci((n-1)/4)/n) = 1.",
+  "id": "A091982",
+  "mentions": [
+    "A047272"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

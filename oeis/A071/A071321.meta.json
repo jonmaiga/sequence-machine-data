@@ -1,0 +1,27 @@
+{
+  "description": "Alternating sum of all prime factors of n; primes nondecreasing, starting with the least prime factor: A020639(n).",
+  "id": "A071321",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A001222",
+    "A001414",
+    "A008836",
+    "A020639",
+    "A027746",
+    "A033999",
+    "A071322",
+    "A071323"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

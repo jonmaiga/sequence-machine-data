@@ -1,0 +1,20 @@
+{
+  "description": "Take prime[n] and continue adding n,n+1,..., n+a(n)-1 until one reaches a prime.",
+  "id": "A085417",
+  "mentions": [
+    "A085415",
+    "A085416",
+    "A085418"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

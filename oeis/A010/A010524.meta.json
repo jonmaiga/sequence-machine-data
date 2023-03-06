@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of square root of 72.",
+  "id": "A010524",
+  "mentions": [
+    "A002193",
+    "A040063",
+    "A195284"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest fourth power k such that k-1 is divisible by an n-th power, k > 1.",
+  "id": "A088040",
+  "mentions": [
+    "A088041"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

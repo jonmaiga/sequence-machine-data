@@ -1,0 +1,18 @@
+{
+  "description": "Smallest triangular number with n prime factors (counted with multiplicity).",
+  "id": "A075088",
+  "mentions": [
+    "A000217",
+    "A076550"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

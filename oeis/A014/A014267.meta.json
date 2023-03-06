@@ -1,0 +1,16 @@
+{
+  "description": "Number of rooted trees on n nodes with forbidden limbs.",
+  "id": "A014267",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:55",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

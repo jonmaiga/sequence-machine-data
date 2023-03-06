@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 10*p + 3 is also prime.",
+  "id": "A023238",
+  "mentions": [
+    "A023239",
+    "A102338"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

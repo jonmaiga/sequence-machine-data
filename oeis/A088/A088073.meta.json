@@ -1,0 +1,18 @@
+{
+  "description": "Beginning with 11 (concatenation of 1 twice), smallest number which is a concatenation of itself as many (say k) times required, chosen from odd numbers not == 5 (mod 10), in natural order, so that every partial concatenation is prime.",
+  "id": "A088073",
+  "mentions": [
+    "A088074"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

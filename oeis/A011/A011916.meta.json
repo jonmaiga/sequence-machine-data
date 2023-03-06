@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = ((b(n)-1)+sqrt(3*b(n)^2-4*b(n)+1))/2, where b(n) is A011922(n).",
+  "id": "A011916",
+  "mentions": [
+    "A001075",
+    "A001353",
+    "A011918",
+    "A011922",
+    "A109437",
+    "A239071"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

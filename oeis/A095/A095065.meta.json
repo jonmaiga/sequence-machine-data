@@ -1,0 +1,21 @@
+{
+  "description": "Number of fib000 primes (A095085) in range ]2^n,2^(n+1)].",
+  "id": "A095065",
+  "mentions": [
+    "A095062",
+    "A095066",
+    "A095067",
+    "A095068",
+    "A095085"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

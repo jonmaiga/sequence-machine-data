@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = binomial(n^2, n).",
+  "id": "A014062",
+  "mentions": [
+    "A002110",
+    "A177234",
+    "A295773"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

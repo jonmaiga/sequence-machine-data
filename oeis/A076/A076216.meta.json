@@ -1,0 +1,18 @@
+{
+  "description": "Partial sum of coefficients in the continued fraction expansion of sum(k>=0,1/2^(2^k-1)).",
+  "id": "A076216",
+  "mentions": [
+    "A006466"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

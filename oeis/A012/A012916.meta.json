@@ -1,0 +1,15 @@
+{
+  "description": "cos(arcsin(x)+sin(x))=1-4/2!*x^2+16/4!*x^4-184/6!*x^6+1152/8!*x^8...",
+  "id": "A012916",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:23:29",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

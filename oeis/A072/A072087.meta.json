@@ -1,0 +1,23 @@
+{
+  "description": "Least k such that A072084(k) = n.",
+  "id": "A072087",
+  "mentions": [
+    "A000043",
+    "A000120",
+    "A027746",
+    "A061712",
+    "A072084"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

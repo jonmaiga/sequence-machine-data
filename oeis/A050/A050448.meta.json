@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{d|n, d==1 (mod 4)} d^4.",
+  "id": "A050448",
+  "mentions": [
+    "A001159"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:45:25",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) + 1 for n>1, a(0)=3, a(1)=11.",
+  "id": "A022410",
+  "mentions": [
+    "A000032",
+    "A156279"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:29",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

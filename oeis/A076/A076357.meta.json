@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor(t^n) where n=39661481813^(1/10) (approximately 11.4772). a(n) is prime for n<=10.",
+  "id": "A076357",
+  "mentions": [
+    "A063636",
+    "A076255"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Twice the primorials (first definition), 2*A002110(n).",
+  "id": "A088860",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A097250"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

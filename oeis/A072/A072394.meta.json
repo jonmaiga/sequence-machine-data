@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sigma(n)=reversal(n)-n.",
+  "id": "A072394",
+  "mentions": [
+    "A072234",
+    "A178321",
+    "A178322"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

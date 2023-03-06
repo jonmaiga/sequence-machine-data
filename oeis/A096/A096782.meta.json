@@ -1,0 +1,19 @@
+{
+  "description": "A096780(A096780(n)).",
+  "id": "A096782",
+  "mentions": [
+    "A075383",
+    "A096780",
+    "A096781"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

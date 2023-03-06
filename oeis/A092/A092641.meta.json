@@ -1,0 +1,20 @@
+{
+  "description": "Absolute value of difference between counts of uninterrupted runs of 2 primes in A092639 and A092640.",
+  "id": "A092641",
+  "mentions": [
+    "A092639",
+    "A092640"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 5^n contains no pair of consecutive equal digits (probably finite).",
+  "id": "A050726",
+  "mentions": [
+    "A008839",
+    "A046263",
+    "A046271"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

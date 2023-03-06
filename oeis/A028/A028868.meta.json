@@ -1,0 +1,21 @@
+{
+  "description": "Primes that when squared give numbers with digits in descending order.",
+  "id": "A028868",
+  "mentions": [
+    "A028865",
+    "A028866",
+    "A028869"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

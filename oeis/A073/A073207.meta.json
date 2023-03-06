@@ -1,0 +1,25 @@
+{
+  "description": "Permutation of natural numbers induced by the Catalan bijection gmA073207 acting on the parenthesizations as ordered by A014486.",
+  "id": "A073207",
+  "mentions": [
+    "A014486",
+    "A057163",
+    "A072796",
+    "A072797",
+    "A073196",
+    "A073200",
+    "A073205",
+    "A073208",
+    "A073210"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

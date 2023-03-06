@@ -1,0 +1,26 @@
+{
+  "description": "Primes p such that p^2 is a palindromic square.",
+  "id": "A065378",
+  "mentions": [
+    "A002778",
+    "A002779",
+    "A007573",
+    "A016106",
+    "A016113",
+    "A028816",
+    "A034822",
+    "A059744",
+    "A065379"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

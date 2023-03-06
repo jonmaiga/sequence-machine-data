@@ -1,0 +1,25 @@
+{
+  "description": "Total number of Latin cubes of order n.",
+  "id": "A098679",
+  "mentions": [
+    "A002860",
+    "A098843",
+    "A098846",
+    "A099321",
+    "A249026"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

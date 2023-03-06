@@ -1,0 +1,21 @@
+{
+  "description": "Let f(n) be the smallest prime == 1 mod n (cf. A034694). Sequence gives triangle T(j,k) = f^k(j) for 1 <= k <= j, read by rows.",
+  "id": "A083809",
+  "mentions": [
+    "A034693",
+    "A034694",
+    "A083810",
+    "A160940"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

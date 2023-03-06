@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes with exactly 3 prime factors (counted with multiplicity).",
+  "id": "A046329",
+  "mentions": [
+    "A014612",
+    "A046316",
+    "A046409"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

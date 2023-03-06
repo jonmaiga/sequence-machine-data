@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 1/(1-x^3-x^4).",
+  "id": "A052697",
+  "mentions": [
+    "A000142",
+    "A017817"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

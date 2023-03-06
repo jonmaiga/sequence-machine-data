@@ -1,0 +1,28 @@
+{
+  "description": "a(1) = 8; a(n) = smallest number such that the juxtaposition a(1)a(2)...a(n) is a prime.",
+  "id": "A069610",
+  "mentions": [
+    "A046258",
+    "A069603",
+    "A069605",
+    "A069606",
+    "A069607",
+    "A069608",
+    "A069609",
+    "A069611",
+    "A074344",
+    "A092528",
+    "A111525"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Triangle of gcd( 2^p-1, 2^q-1 ) = 2^gcd(p,q) - 1.",
+  "id": "A046143",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:29:15",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

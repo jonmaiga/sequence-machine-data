@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array T read by rows: T(n,0) = T(n,n) = 1 for n >= 0; for n >= 2 and 1 <= k <= n-1, T(n,k) = T(n-1,k-1) + T(n-2,k-1) + T(n-1,k) if n is even and k=(n-2)/2, otherwise T(n,k) = T(n-1,k-1) + T(n-1,k).",
+  "id": "A026736",
+  "mentions": [
+    "A026737",
+    "A026743",
+    "A111279"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:32:55",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

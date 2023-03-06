@@ -1,0 +1,23 @@
+{
+  "description": "If f(x) = (sum of unitary proper divisors of x) = A063919(x) is iterated, the iteration may lead to a fixed point which is either equals 0 or it is from A002827, a unitary perfect number > 1: 6,60,90,87360... Here initial values are collected for which the iteration ends in a unitary perfect number > 1.",
+  "id": "A098185",
+  "mentions": [
+    "A002827",
+    "A063919",
+    "A063991",
+    "A097024",
+    "A097030",
+    "A097037",
+    "A098186"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

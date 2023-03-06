@@ -1,0 +1,22 @@
+{
+  "description": "Tennis ball problem: Balls 1 and 2 are thrown into a room; you throw one on lawn; then balls 3 and 4 are thrown in and you throw any of the 3 balls onto the lawn; then balls 5 and 6 are thrown in and you throw one of the 4 balls onto the lawn; after n turns, consider all possible collections on lawn and add all the values.",
+  "id": "A031970",
+  "mentions": [
+    "A000108",
+    "A028364",
+    "A049235",
+    "A078516",
+    "A079486"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

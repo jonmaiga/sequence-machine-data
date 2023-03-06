@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose base-7 representation Sum_{i=0..m} d(i)*7^(m-i) has d(i)=0 for all odd i.",
+  "id": "A032942",
+  "mentions": [
+    "A007093"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

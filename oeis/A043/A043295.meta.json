@@ -1,0 +1,22 @@
+{
+  "description": "Sum of digits of numerator of Bernoulli number B(2n).",
+  "id": "A043295",
+  "mentions": [
+    "A000367",
+    "A007953",
+    "A043296"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:15",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

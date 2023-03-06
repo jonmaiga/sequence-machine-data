@@ -1,0 +1,18 @@
+{
+  "description": "Palindromic primes with middle digit 5.",
+  "id": "A082441",
+  "mentions": [
+    "A002385"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

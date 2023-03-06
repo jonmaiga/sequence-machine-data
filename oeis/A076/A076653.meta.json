@@ -1,0 +1,24 @@
+{
+  "description": "Smallest prime number not occurring earlier and starting with the final digit of the previous term.",
+  "id": "A076653",
+  "mentions": [
+    "A076652",
+    "A076654",
+    "A082238",
+    "A089755",
+    "A107809",
+    "A180022"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

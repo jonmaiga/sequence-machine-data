@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{j=0..k-1} (i(j) - j) where n = Sum_{j=0..k-1} 2^i(j).",
+  "id": "A055941",
+  "mentions": [
+    "A000120",
+    "A029837",
+    "A126441",
+    "A161511",
+    "A161920",
+    "A241816"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

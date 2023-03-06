@@ -1,0 +1,21 @@
+{
+  "description": "Minimal k > n such that (4k+3n)(4n+3k) is a square.",
+  "id": "A083752",
+  "mentions": [
+    "A010052",
+    "A085018",
+    "A085019",
+    "A235188"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

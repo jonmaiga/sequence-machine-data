@@ -1,0 +1,19 @@
+{
+  "description": "Primes that remain prime through 3 iterations of function f(x) = 5x + 6.",
+  "id": "A023285",
+  "mentions": [
+    "A023219",
+    "A023254",
+    "A081759"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

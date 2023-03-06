@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=1; a(1)=1; a(n)= a(n-1) + floor(sqrt(a(n-1)*a(n-2))) + floor(sqrt(a(n-3)*a(n-4))) + ....",
+  "id": "A043328",
+  "mentions": [
+    "A002083",
+    "A043327"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:00:49",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

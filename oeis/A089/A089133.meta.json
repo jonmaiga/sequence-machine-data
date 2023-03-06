@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = If [ Mod[A001591[n], 1]=1 then A001591[n] else A001591[n]+1 If PrimeQ[a[n]]==True then a[n]",
+  "id": "A089133",
+  "mentions": [
+    "A001591"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "less",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

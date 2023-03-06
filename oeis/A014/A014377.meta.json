@@ -1,0 +1,37 @@
+{
+  "description": "Number of connected regular graphs of degree 7 with 2n nodes.",
+  "id": "A014377",
+  "mentions": [
+    "A002851",
+    "A005177",
+    "A006820",
+    "A006821",
+    "A006822",
+    "A014378",
+    "A014381",
+    "A014382",
+    "A014384",
+    "A068934",
+    "A165628",
+    "A165877",
+    "A181153",
+    "A184963",
+    "A184964",
+    "A184965",
+    "A184973"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

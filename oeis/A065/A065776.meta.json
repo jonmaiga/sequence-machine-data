@@ -1,0 +1,21 @@
+{
+  "description": "a(n+1) is the next smallest square ending with a(n), initial term is 6.",
+  "id": "A065776",
+  "mentions": [
+    "A050634",
+    "A065689",
+    "A065777",
+    "A065778"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form n+mu(n), where mu is the Moebius function (A008683).",
+  "id": "A075431",
+  "mentions": [
+    "A008683",
+    "A039787",
+    "A049097",
+    "A063015",
+    "A075430"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of bicentered 5-valent trees with n nodes.",
+  "id": "A036649",
+  "mentions": [
+    "A036648",
+    "A036650"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

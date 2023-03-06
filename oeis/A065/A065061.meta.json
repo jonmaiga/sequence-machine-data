@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k such that sigma(k) - tau(k) is a prime.",
+  "id": "A065061",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A023194",
+    "A038344",
+    "A055813",
+    "A062700",
+    "A064205",
+    "A065608",
+    "A115919",
+    "A141242",
+    "A229264",
+    "A229265",
+    "A229266",
+    "A229268"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

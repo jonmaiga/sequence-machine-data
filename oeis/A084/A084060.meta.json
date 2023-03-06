@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1/2 + (1-6*n)*(-1)^n/2.",
+  "id": "A084060",
+  "mentions": [
+    "A032766",
+    "A047270",
+    "A084056"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

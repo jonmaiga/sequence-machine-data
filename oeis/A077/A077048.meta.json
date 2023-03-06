@@ -1,0 +1,21 @@
+{
+  "description": "Doubly restricted composition numbers: number of compositions of [n^2/2] into up to n positive integers each no more than n.",
+  "id": "A077048",
+  "mentions": [
+    "A029895",
+    "A077045",
+    "A077046",
+    "A077047"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

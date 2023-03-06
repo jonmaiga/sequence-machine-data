@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime whose base-n reversal is not a prime.",
+  "id": "A075240",
+  "mentions": [
+    "A075241",
+    "A075242"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

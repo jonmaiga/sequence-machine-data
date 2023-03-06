@@ -1,0 +1,32 @@
+{
+  "description": "Number of runs of 1's in the binary representation of n.",
+  "id": "A069010",
+  "mentions": [
+    "A000035",
+    "A000120",
+    "A002450",
+    "A005811",
+    "A014081",
+    "A033264",
+    "A037800",
+    "A079944",
+    "A227349",
+    "A246588",
+    "A268411",
+    "A268412",
+    "A268415"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

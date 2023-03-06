@@ -1,0 +1,29 @@
+{
+  "description": "Number of binary Lyndon words with an even number of 1's.",
+  "id": "A051841",
+  "mentions": [
+    "A000010",
+    "A000031",
+    "A000048",
+    "A000079",
+    "A001037",
+    "A008683",
+    "A027375",
+    "A027750",
+    "A042979",
+    "A042980"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:21:56",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

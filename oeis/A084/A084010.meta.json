@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (2^n concatenated with Reverse(2^n))) divided by 11.",
+  "id": "A084010",
+  "mentions": [
+    "A084008",
+    "A084009"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

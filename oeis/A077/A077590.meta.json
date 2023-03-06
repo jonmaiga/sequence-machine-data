@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of imaginary part of the infinite power tower of i.",
+  "id": "A077590",
+  "mentions": [
+    "A049006",
+    "A077589"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

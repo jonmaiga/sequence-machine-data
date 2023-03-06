@@ -1,0 +1,24 @@
+{
+  "description": "Sum of antidiagonals of A060736.",
+  "id": "A061349",
+  "mentions": [
+    "A001844",
+    "A002378",
+    "A004526",
+    "A005900",
+    "A006918",
+    "A060736"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:30:47",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

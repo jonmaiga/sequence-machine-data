@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{i = 0..floor(n/2)} (-1)^(i + floor(n/2)) F(2*i + e), where F = A000045 (Fibonacci numbers) and e = (1-(-1)^n)/2.",
+  "id": "A074677",
+  "mentions": [
+    "A000045",
+    "A006498",
+    "A056594"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

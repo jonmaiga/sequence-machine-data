@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 4*k-1 is divisible only by primes of form 4*m-1 (i.e., by the Gaussian primes A002145).",
+  "id": "A094180",
+  "mentions": [
+    "A002145",
+    "A094179"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

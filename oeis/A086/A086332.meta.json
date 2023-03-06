@@ -1,0 +1,19 @@
+{
+  "description": "Least highly composite number having n distinct prime factors.",
+  "id": "A086332",
+  "mentions": [
+    "A002182",
+    "A008578",
+    "A022404"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

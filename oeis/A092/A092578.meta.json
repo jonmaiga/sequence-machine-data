@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of e^(-7).",
+  "id": "A092578",
+  "mentions": [
+    "A001113",
+    "A019774",
+    "A068985"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:32",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

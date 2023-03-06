@@ -1,0 +1,19 @@
+{
+  "description": "Primes which are the difference between two successive nontrivial prime powers (A025475).",
+  "id": "A076047",
+  "mentions": [
+    "A025475",
+    "A053810",
+    "A075308"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

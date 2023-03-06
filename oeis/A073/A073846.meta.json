@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 1; thereafter, every even-indexed term is prime and every odd-indexed term is composite.",
+  "id": "A073846",
+  "mentions": [
+    "A000035",
+    "A000040",
+    "A002808",
+    "A018252",
+    "A059841",
+    "A067747",
+    "A073898",
+    "A261314"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

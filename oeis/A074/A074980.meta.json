@@ -1,0 +1,18 @@
+{
+  "description": "Numbers which are not of the form m^p - n^q where p = 2 or 3, q = 2 or 3.",
+  "id": "A074980",
+  "mentions": [
+    "A023057",
+    "A074981"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

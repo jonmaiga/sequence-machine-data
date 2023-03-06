@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = sum_{k=0..n} (C(n,k) mod 3).",
+  "id": "A051638",
+  "mentions": [
+    "A001316",
+    "A006047",
+    "A062756",
+    "A083093"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:57:27",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

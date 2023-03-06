@@ -1,0 +1,22 @@
+{
+  "description": "Integers k such that nextprime(k^5) - prevprime(k^5) = 4.",
+  "id": "A090123",
+  "mentions": [
+    "A058043",
+    "A077038",
+    "A090121",
+    "A090122",
+    "A090124",
+    "A090125"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

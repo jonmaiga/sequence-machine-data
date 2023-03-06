@@ -1,0 +1,19 @@
+{
+  "description": "Smallest n such that the least witness function W(n) = m, as m runs through the values in A089105.",
+  "id": "A089825",
+  "mentions": [
+    "A089105"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of rational coefficients in a series expansion of z! = Gamma(z+1), convergent for Re(z) >= 0, given as equation (21) in the referenced paper by Lanczos.",
+  "id": "A090675",
+  "mentions": [
+    "A090674",
+    "A144618"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

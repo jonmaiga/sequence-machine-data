@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=2, a(2)=6. For n >= 2, a(n) = floor(a(n-1)/2) if this is not among 0,a(1),...,a(n-1); otherwise a(n) = 3*n.",
+  "id": "A050138",
+  "mentions": [
+    "A050000",
+    "A050128",
+    "A050135",
+    "A050136"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

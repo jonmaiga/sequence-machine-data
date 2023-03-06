@@ -1,0 +1,17 @@
+{
+  "description": "Values in Pfennigs of German money before the introduction of the Euro.",
+  "id": "A082593",
+  "mentions": [
+    "A051109"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

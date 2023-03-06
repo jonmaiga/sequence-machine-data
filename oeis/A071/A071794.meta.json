@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest integer > 0 that cannot be obtained from the integers {1, ..., n} using each number at most once and the operators +, -, *, /, ^.",
+  "id": "A071794",
+  "mentions": [
+    "A060315"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

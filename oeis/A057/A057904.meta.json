@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers that are not the sum of exactly three positive cubes.",
+  "id": "A057904",
+  "mentions": [
+    "A003072",
+    "A025456"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

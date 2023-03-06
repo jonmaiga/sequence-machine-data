@@ -1,0 +1,33 @@
+{
+  "description": "Sum of all partitions of n into distinct parts.",
+  "id": "A066189",
+  "mentions": [
+    "A000009",
+    "A015723",
+    "A022629",
+    "A026793",
+    "A056239",
+    "A066186",
+    "A118457",
+    "A147655",
+    "A246688",
+    "A325504",
+    "A325505",
+    "A325506",
+    "A325513",
+    "A325515",
+    "A325537"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

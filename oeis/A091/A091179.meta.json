@@ -1,0 +1,22 @@
+{
+  "description": "A088878 indexed by A000040.",
+  "id": "A091179",
+  "mentions": [
+    "A000040",
+    "A088878",
+    "A091180",
+    "A091181"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

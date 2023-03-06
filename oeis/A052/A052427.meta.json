@@ -1,0 +1,22 @@
+{
+  "description": "Baxter-Hickerson numbers.",
+  "id": "A052427",
+  "mentions": [
+    "A016789",
+    "A051832",
+    "A051833",
+    "A052044",
+    "A052045"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

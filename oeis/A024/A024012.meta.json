@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2^n - n^2.",
+  "id": "A024012",
+  "mentions": [
+    "A072180",
+    "A075896",
+    "A099481",
+    "A099482"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

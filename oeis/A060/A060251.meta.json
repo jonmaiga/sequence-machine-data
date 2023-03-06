@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = periodic part of decimal expansion of n/n-th prime (leading 0's moved to end).",
+  "id": "A060251",
+  "mentions": [
+    "A036275",
+    "A060282",
+    "A060283"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

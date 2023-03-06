@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (2/3) * 4^n * binomial(3*n, n).",
+  "id": "A036909",
+  "mentions": [
+    "A005809",
+    "A025174"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

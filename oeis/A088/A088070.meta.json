@@ -1,0 +1,18 @@
+{
+  "description": "Numbers sandwiched between two numbers having the same number of prime divisors.",
+  "id": "A088070",
+  "mentions": [
+    "A063464"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

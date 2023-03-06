@@ -1,0 +1,28 @@
+{
+  "description": "Squares of A002278.",
+  "id": "A075413",
+  "mentions": [
+    "A002275",
+    "A002278",
+    "A002283",
+    "A002477",
+    "A075411",
+    "A075412",
+    "A075414",
+    "A075415",
+    "A075416",
+    "A075417"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

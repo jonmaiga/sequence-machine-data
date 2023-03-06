@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that A065863(n) = 1, i.e., prime(n) mod (n - Pi(n)) = 1.",
+  "id": "A072623",
+  "mentions": [
+    "A004648",
+    "A057809",
+    "A065133",
+    "A065134",
+    "A065135",
+    "A065860",
+    "A065863",
+    "A072608",
+    "A072610"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

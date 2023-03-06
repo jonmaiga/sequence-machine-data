@@ -1,0 +1,27 @@
+{
+  "description": "Number of Eisenstein-Jacobi primes of norm n.",
+  "id": "A055667",
+  "mentions": [
+    "A004016",
+    "A035019",
+    "A055025",
+    "A055029",
+    "A055664",
+    "A055668",
+    "A135461",
+    "A135462"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:27:15",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

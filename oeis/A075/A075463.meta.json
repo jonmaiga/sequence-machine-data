@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of rotation-reflection inequivalent solutions to the all-ones lights out problem on an n X n square.",
+  "id": "A075463",
+  "mentions": [
+    "A075462",
+    "A075464",
+    "A159257"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

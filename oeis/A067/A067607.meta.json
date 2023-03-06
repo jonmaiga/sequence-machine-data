@@ -1,0 +1,17 @@
+{
+  "description": "Number of pancake stacks requiring a maximum number of flips to order.",
+  "id": "A067607",
+  "mentions": [
+    "A058986"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

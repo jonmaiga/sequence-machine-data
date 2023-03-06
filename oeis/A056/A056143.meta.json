@@ -1,0 +1,21 @@
+{
+  "description": "Concatenate ... floor[n/100], floor[n/10], n.",
+  "id": "A056143",
+  "mentions": [
+    "A028440",
+    "A048321",
+    "A056142"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:30:53",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

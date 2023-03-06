@@ -1,0 +1,21 @@
+{
+  "description": "Let Dedekind's psi(m) = product of (p+1)p^(e-1) for primes p, where p^e is a factor of m. Iterating psi(m) eventually results in a number of form 2^a*3^b. a(n) is the smallest number that requires n steps to reach such a number.",
+  "id": "A019268",
+  "mentions": [
+    "A005113",
+    "A019269",
+    "A082449"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

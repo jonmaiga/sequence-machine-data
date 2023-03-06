@@ -1,0 +1,23 @@
+{
+  "description": "Smallest multiple of n beginning with 4.",
+  "id": "A082794",
+  "mentions": [
+    "A000030",
+    "A082795",
+    "A082796",
+    "A082797",
+    "A082798"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:47",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

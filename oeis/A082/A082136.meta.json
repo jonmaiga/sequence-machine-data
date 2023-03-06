@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. x*exp(5*x)*cosh(x).",
+  "id": "A082136",
+  "mentions": [
+    "A082134",
+    "A082135"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2(m!)^2 for n = 2m and m!(m+1)! for n = 2m+1.",
+  "id": "A092186",
+  "mentions": [
+    "A002620",
+    "A125300",
+    "A152877"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

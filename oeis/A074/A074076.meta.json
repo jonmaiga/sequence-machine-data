@@ -1,0 +1,23 @@
+{
+  "description": "One-sixth of the area of some primitive Heronian triangles with a distance of 2n+1 between the median and altitude points on the longest side.",
+  "id": "A074076",
+  "mentions": [
+    "A002349",
+    "A002350",
+    "A023039",
+    "A033313",
+    "A074074",
+    "A074075"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

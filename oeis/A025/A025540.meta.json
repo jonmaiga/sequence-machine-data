@@ -1,0 +1,20 @@
+{
+  "description": "Least common multiple of {C(0,0), C(2,1), ..., C(2n,n)}.",
+  "id": "A025540",
+  "mentions": [
+    "A000984",
+    "A003418",
+    "A099996"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

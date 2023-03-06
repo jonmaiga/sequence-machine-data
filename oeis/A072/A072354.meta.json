@@ -1,0 +1,28 @@
+{
+  "description": "a(n)-th Fibonacci number is the smallest Fibonacci number containing n digits.",
+  "id": "A072354",
+  "mentions": [
+    "A072353",
+    "A105700",
+    "A105702",
+    "A105703",
+    "A105704",
+    "A105705",
+    "A105706",
+    "A105707",
+    "A105708",
+    "A105709"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

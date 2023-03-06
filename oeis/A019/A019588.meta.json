@@ -1,0 +1,23 @@
+{
+  "description": "The right budding sequence: # of i such that 0",
+  "id": "A019588",
+  "mentions": [
+    "A019587",
+    "A194733",
+    "A194734",
+    "A194738"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:59",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

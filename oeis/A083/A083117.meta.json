@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k such that k*n contains a single digit with multiplicity, or 0 if no such number exists.",
+  "id": "A083117",
+  "mentions": [
+    "A083116",
+    "A083118"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

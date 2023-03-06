@@ -1,0 +1,28 @@
+{
+  "description": "Real part of the function defined multiplicatively on the complex numbers by 2->(2,0) and p->((floor(p/4)+floor((p mod 4)/2))*4,2-(p mod 4)) for odd primes p.",
+  "id": "A076340",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000961",
+    "A001358",
+    "A005117",
+    "A076341",
+    "A076342",
+    "A076343",
+    "A076345",
+    "A076347",
+    "A076349"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

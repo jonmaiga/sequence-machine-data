@@ -1,0 +1,19 @@
+{
+  "description": "Euler transform of 5 4 3 2 1 1 1 1 1 1 1 ...",
+  "id": "A029861",
+  "mentions": [
+    "A029859",
+    "A029860"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:09:51",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

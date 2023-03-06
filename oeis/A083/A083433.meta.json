@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; a palindrome is included in the sequence if it has a prime signature that is different from all previous terms.",
+  "id": "A083433",
+  "mentions": [
+    "A083434",
+    "A083435"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "n which divide A062273(n).",
+  "id": "A077579",
+  "mentions": [
+    "A062273",
+    "A077577",
+    "A077578"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

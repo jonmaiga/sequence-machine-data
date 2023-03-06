@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (1/(3n-1))*M(3n; n,n,n), where M(...) is a multinomial coefficient.",
+  "id": "A024488",
+  "mentions": [
+    "A006480",
+    "A024489"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:25:20",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

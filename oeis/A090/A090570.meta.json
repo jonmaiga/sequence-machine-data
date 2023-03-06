@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are congruent to {0, 1} mod 9.",
+  "id": "A090570",
+  "mentions": [
+    "A005010",
+    "A008591",
+    "A010888",
+    "A017173",
+    "A030308",
+    "A145389"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:15",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

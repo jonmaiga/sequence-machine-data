@@ -1,0 +1,22 @@
+{
+  "description": "Number of decimal digits in (n!)!; A000197.",
+  "id": "A063979",
+  "mentions": [
+    "A000197",
+    "A001163",
+    "A001164",
+    "A034886",
+    "A063944"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

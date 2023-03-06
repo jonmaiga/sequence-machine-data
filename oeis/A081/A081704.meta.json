@@ -1,0 +1,22 @@
+{
+  "description": "Let f(0)=1, f(1)=t, f(n+1) = (f(n)^2+t^n)/f(n-1). f(t) is a polynomial with integer coefficients. Then a(n) = f(n) when t=3.",
+  "id": "A081704",
+  "mentions": [
+    "A001519",
+    "A006012",
+    "A018902",
+    "A147703"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

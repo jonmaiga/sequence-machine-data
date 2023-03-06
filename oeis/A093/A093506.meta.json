@@ -1,0 +1,20 @@
+{
+  "description": "Variation on Golomb's sequence starting with (1,2): a(n)=length of n-th run of consecutive integers with same parity.",
+  "id": "A093506",
+  "mentions": [
+    "A001462",
+    "A187790",
+    "A187792"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

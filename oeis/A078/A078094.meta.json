@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that Omega(k) = Omega(k+1) + Omega(k+2) + Omega(k+3) + Omega(k+4). (Omega(k) denotes the number of prime factors of k, counting multiplicity).",
+  "id": "A078094",
+  "mentions": [
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

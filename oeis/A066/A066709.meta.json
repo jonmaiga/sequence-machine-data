@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(r,c) of winning binary \"same game\" templates.",
+  "id": "A066709",
+  "mentions": [
+    "A007318",
+    "A035615",
+    "A066345",
+    "A066346"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

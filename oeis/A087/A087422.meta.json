@@ -1,0 +1,17 @@
+{
+  "description": "Number of terms in the expansion of Product(x_i + x_{i+1} + ... + x_j) over 1 <= i < j <= n.",
+  "id": "A087422",
+  "mentions": [
+    "A000178"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

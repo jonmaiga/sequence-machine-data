@@ -1,0 +1,22 @@
+{
+  "description": "A nonsense sequence.",
+  "id": "A089784",
+  "mentions": [
+    "A007652",
+    "A089787",
+    "A131712"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "less",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

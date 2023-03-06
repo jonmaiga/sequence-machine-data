@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Sum_{n >= 2} 1/S(n)!, where S(n) is the Kempner number A002034(n).",
+  "id": "A048799",
+  "mentions": [
+    "A002034",
+    "A038024",
+    "A048834",
+    "A048835",
+    "A048836",
+    "A048837",
+    "A048838",
+    "A071120"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:49:49",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

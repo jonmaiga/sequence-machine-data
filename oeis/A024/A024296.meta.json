@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f.: log(1+tan(x)*sinh(x))/2 (even powers only).",
+  "id": "A024296",
+  "mentions": [
+    "A009378"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:19",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

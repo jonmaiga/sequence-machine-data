@@ -1,0 +1,17 @@
+{
+  "description": "If C is a self-dual code over Z_4 of length N=24m+n, 1 <= n <= 24, then the minimum Lee weight of C is bounded above by 8m+a(n).",
+  "id": "A098069",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

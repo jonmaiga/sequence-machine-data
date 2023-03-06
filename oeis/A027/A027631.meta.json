@@ -1,0 +1,18 @@
+{
+  "description": "Molien series for Hecke group H_{3,4}.",
+  "id": "A027631",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:35:33",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

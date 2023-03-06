@@ -1,0 +1,18 @@
+{
+  "description": "Distinct numbers seen when writing first numerator and then denominator of central elements of 1/2-Pascal triangle.",
+  "id": "A046224",
+  "mentions": [
+    "A046213"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

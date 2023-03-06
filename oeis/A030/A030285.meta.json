@@ -1,0 +1,16 @@
+{
+  "description": "Palindromes whose digits do not appear in previous term.",
+  "id": "A030285",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:08:25",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

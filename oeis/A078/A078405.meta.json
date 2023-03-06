@@ -1,0 +1,18 @@
+{
+  "description": "Smallest positive integer than cannot be obtained from exactly n copies of n using parentheses and the operations +, -, /, *, ^ and concatenation.",
+  "id": "A078405",
+  "mentions": [
+    "A078413"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

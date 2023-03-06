@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = lcm{ phi(1), ..., phi(n) }, where phi is Euler's totient function A000010.",
+  "id": "A051547",
+  "mentions": [
+    "A000010",
+    "A076244",
+    "A076245"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

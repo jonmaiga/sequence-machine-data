@@ -1,0 +1,18 @@
+{
+  "description": "Binomial transform of A001037.",
+  "id": "A054190",
+  "mentions": [
+    "A001037"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:29:47",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

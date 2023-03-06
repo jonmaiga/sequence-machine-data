@@ -1,0 +1,17 @@
+{
+  "description": "Lesser of twin balanced primes (A090403).",
+  "id": "A096694",
+  "mentions": [
+    "A090403"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array, read by rows: T(n,k) = concatenated decimal representations of k and n, 1<=k<=n.",
+  "id": "A084855",
+  "mentions": [
+    "A020338",
+    "A055642",
+    "A066686",
+    "A067574",
+    "A084854",
+    "A349520"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

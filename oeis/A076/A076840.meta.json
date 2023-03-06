@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = a(2) = 1; a(n) = (a(n-1) + 1)/a(n-2) (for n>2, n odd), (a(n-1)^2 + 1)/a(n-2) (for n>2, n even).",
+  "id": "A076840",
+  "mentions": [
+    "A076839",
+    "A076841",
+    "A076844"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:31:33",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

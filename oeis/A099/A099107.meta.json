@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least M such that there are n values in 0..M with no two values summing to a square.",
+  "id": "A099107",
+  "mentions": [
+    "A210380"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

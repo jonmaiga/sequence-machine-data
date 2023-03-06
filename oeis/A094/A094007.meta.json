@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the denominator of the k-th convergent of the continued fraction expansion of e is prime.",
+  "id": "A094007",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A007677",
+    "A094008",
+    "A102049"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

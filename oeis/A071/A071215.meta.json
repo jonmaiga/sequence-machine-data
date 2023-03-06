@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct prime factors of sum of 2 successive primes.",
+  "id": "A071215",
+  "mentions": [
+    "A001043",
+    "A001221",
+    "A071216"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

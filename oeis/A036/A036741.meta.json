@@ -1,0 +1,19 @@
+{
+  "description": "Values increase, Roman numerals increase lexicographically.",
+  "id": "A036741",
+  "mentions": [
+    "A036742"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

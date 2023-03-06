@@ -1,0 +1,25 @@
+{
+  "description": "Discriminants of imaginary quadratic fields with class number 1 (negated).",
+  "id": "A014602",
+  "mentions": [
+    "A003173",
+    "A003656",
+    "A013658",
+    "A014603",
+    "A046002",
+    "A046020"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to represent the n-th prime as arithmetic mean of three other odd primes.",
+  "id": "A071704",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A065091",
+    "A071681",
+    "A071703",
+    "A258233"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

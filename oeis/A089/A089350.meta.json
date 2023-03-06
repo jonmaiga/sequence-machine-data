@@ -1,0 +1,18 @@
+{
+  "description": "Sum of all digits in all even numbers from 0 to 8(10^(k+1)-1)/9 (with (k+1) 8's).",
+  "id": "A089350",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of binary codes of length n with k words (n >= 0, 0 <= k <= 2^n); also number of 0/1-polytopes with vertices from the unit n-cube; also number of inequivalent Boolean functions of n variables with exactly k nonzero values under action of Jevons group.",
+  "id": "A039754",
+  "mentions": [
+    "A000616",
+    "A005646",
+    "A034188",
+    "A034189",
+    "A034190",
+    "A052265",
+    "A171871",
+    "A171876",
+    "A276777"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

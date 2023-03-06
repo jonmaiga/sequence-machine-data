@@ -1,0 +1,21 @@
+{
+  "description": "Product of the longest chain of consecutive primes (starting with A020639(n)) which divides n.",
+  "id": "A053590",
+  "mentions": [
+    "A020639",
+    "A073485",
+    "A192280"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

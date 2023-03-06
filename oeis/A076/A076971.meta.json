@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, a(n+1)= smallest triangular number greater than the n-th partial sum.",
+  "id": "A076971",
+  "mentions": [
+    "A076972"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

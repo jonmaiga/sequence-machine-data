@@ -1,0 +1,18 @@
+{
+  "description": "Sum of number of prime-factors of all prefixes in decimal representation of n.",
+  "id": "A098893",
+  "mentions": [
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

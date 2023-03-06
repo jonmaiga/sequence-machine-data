@@ -1,0 +1,22 @@
+{
+  "description": "Number of occurrences of n-th prime in A065308, where A065308(j) = prime(j - pi(j)).",
+  "id": "A065310",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A054546",
+    "A054576",
+    "A065308",
+    "A065309"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:37",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

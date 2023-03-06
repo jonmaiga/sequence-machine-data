@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n=(d_1+2)*(d_2+2)*...*(d_k+2) where d_1 d_2 ... d_k is the decimal expansion of n.",
+  "id": "A098113",
+  "mentions": [
+    "A097371",
+    "A097372",
+    "A098114"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

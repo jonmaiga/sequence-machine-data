@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=1; a(n+1) = Sum_{k=1..n} a(k) a(floor(n/k)).",
+  "id": "A097417",
+  "mentions": [
+    "A001622",
+    "A038044",
+    "A078346",
+    "A097919"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

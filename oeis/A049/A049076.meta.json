@@ -1,0 +1,27 @@
+{
+  "description": "Number of steps in the prime index chain for the n-th prime.",
+  "id": "A049076",
+  "mentions": [
+    "A000040",
+    "A006450",
+    "A007097",
+    "A049077",
+    "A049081",
+    "A049084",
+    "A078442",
+    "A236542"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:34:41",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Product_{ p | n } (1 + Legendre(2,p) ).",
+  "id": "A091396",
+  "mentions": [
+    "A091337",
+    "A091379",
+    "A091397",
+    "A091398",
+    "A091399"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

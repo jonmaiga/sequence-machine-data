@@ -1,0 +1,22 @@
+{
+  "description": "The t-est sequence is similar to the Aronson sequence except that instead of being in English it is in Latin.",
+  "id": "A072423",
+  "mentions": [
+    "A005224",
+    "A014367",
+    "A072886",
+    "A072887"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

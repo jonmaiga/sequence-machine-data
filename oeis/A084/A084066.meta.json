@@ -1,0 +1,27 @@
+{
+  "description": "Least integer coefficients of A(x), where 1<=a(n)<=11, such that A(x)^(1/11) consists entirely of integer coefficients.",
+  "id": "A084066",
+  "mentions": [
+    "A083947",
+    "A083948",
+    "A083949",
+    "A083950",
+    "A083952",
+    "A083953",
+    "A083954",
+    "A083955",
+    "A083956",
+    "A084067"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

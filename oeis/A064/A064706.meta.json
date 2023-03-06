@@ -1,0 +1,32 @@
+{
+  "description": "Square of permutation defined by A003188.",
+  "id": "A064706",
+  "mentions": [
+    "A000695",
+    "A003188",
+    "A054238",
+    "A059905",
+    "A059906",
+    "A064707",
+    "A100280",
+    "A100282",
+    "A133872",
+    "A163233",
+    "A165211",
+    "A180201",
+    "A233280",
+    "A302846"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:31",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

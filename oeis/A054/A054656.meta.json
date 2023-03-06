@@ -1,0 +1,17 @@
+{
+  "description": "Number of primes <= n which do not appear in any partitions of n into distinct primes.",
+  "id": "A054656",
+  "mentions": [
+    "A000586"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

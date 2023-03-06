@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [ a(n-1)/a(1) ] + [ a(n-2)/a(2) ] + ... + [ a(1)/a(n-1) ], for n >= 3.",
+  "id": "A022858",
+  "mentions": [
+    "A022855",
+    "A022874"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:07:27",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

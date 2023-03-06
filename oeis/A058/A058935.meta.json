@@ -1,0 +1,30 @@
+{
+  "description": "Concatenation of first n binary numbers.",
+  "id": "A058935",
+  "mentions": [
+    "A001855",
+    "A007088",
+    "A007908",
+    "A029837",
+    "A030190",
+    "A030302",
+    "A030303",
+    "A047778",
+    "A066716",
+    "A117640"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

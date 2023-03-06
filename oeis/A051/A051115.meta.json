@@ -1,0 +1,24 @@
+{
+  "description": "Number of monotone Boolean functions of n variables with 7 mincuts.",
+  "id": "A051115",
+  "mentions": [
+    "A016269",
+    "A047707",
+    "A051112",
+    "A051113",
+    "A051114",
+    "A051116",
+    "A051117",
+    "A051118"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:12:40",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

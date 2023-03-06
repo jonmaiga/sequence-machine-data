@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n^4 starts with n itself (in base 10).",
+  "id": "A052211",
+  "mentions": [
+    "A052210",
+    "A233451",
+    "A233452",
+    "A233453",
+    "A233454",
+    "A233455",
+    "A233456"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

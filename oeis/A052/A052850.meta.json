@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: x/(1-x)+log((1-x)/(1-2*x)).",
+  "id": "A052850",
+  "mentions": [
+    "A199660"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

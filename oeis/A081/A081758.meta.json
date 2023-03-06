@@ -1,0 +1,19 @@
+{
+  "description": "Sum of prime factors (with repetition) of sum of prime factors (with repetition) of n.",
+  "id": "A081758",
+  "mentions": [
+    "A001414",
+    "A002217",
+    "A029908"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:17",
+    "offset": 2,
+    "size": 85,
+    "source": "joeis"
+  }
+}

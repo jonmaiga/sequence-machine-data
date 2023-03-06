@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor(prime(2^n)/composite(2^n)).",
+  "id": "A073719",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A002818",
+    "A033844",
+    "A065856",
+    "A073459"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

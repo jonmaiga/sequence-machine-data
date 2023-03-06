@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that 4^k - 3^k is prime.",
+  "id": "A059801",
+  "mentions": [
+    "A000043",
+    "A057468",
+    "A059802",
+    "A129736",
+    "A129737"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

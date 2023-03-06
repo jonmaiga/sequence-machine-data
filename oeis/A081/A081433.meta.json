@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that RevBinary(RevDecimal(n))=RevDecimal(RevBinary(n)), where RevDecimal(n) is the decimal reversal of n (A004086) and RevBinary(n) is the binary reversal of n (A030101).",
+  "id": "A081433",
+  "mentions": [
+    "A004086",
+    "A007088",
+    "A030101",
+    "A081431",
+    "A081432",
+    "A081434"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Rows of triangle formed using Pascal's rule except begin and end n-th row with (n+1)^2.",
+  "id": "A051668",
+  "mentions": [
+    "A051669"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:57:39",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

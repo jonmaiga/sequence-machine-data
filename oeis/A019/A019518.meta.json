@@ -1,0 +1,24 @@
+{
+  "description": "Smarandache-Wellin numbers: a(n) is the concatenation of first n primes (written in base 10).",
+  "id": "A019518",
+  "mentions": [
+    "A000040",
+    "A038394",
+    "A046035",
+    "A046284",
+    "A068670",
+    "A069151"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

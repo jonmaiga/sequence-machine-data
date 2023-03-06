@@ -1,0 +1,22 @@
+{
+  "description": "Number of words of length n over an alphabet of size 4 that are not \"bifix-free\".",
+  "id": "A094559",
+  "mentions": [
+    "A003000",
+    "A019308",
+    "A019309",
+    "A094578"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

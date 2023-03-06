@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 2^(n-th prime).",
+  "id": "A034785",
+  "mentions": [
+    "A000040",
+    "A000430",
+    "A007542",
+    "A051006",
+    "A073718",
+    "A074736",
+    "A184082",
+    "A184083"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

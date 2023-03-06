@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose 4th power is the sum of two positive cubes.",
+  "id": "A051386",
+  "mentions": [
+    "A003325",
+    "A051387"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

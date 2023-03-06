@@ -1,0 +1,20 @@
+{
+  "description": "Sums of rows of A077529.",
+  "id": "A077531",
+  "mentions": [
+    "A077529",
+    "A077530",
+    "A077532"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

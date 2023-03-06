@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to express 1 as the sum of unit fractions such that the sum of the denominators is n.",
+  "id": "A051908",
+  "mentions": [
+    "A002966",
+    "A028229",
+    "A058360",
+    "A270599",
+    "A316854",
+    "A316855",
+    "A316888",
+    "A316904"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

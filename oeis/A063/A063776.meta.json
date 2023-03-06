@@ -1,0 +1,33 @@
+{
+  "description": "Number of subsets of {1,2,...,n} which sum to 0 modulo n.",
+  "id": "A063776",
+  "mentions": [
+    "A000010",
+    "A000013",
+    "A000016",
+    "A000031",
+    "A051293",
+    "A053633",
+    "A053634",
+    "A053636",
+    "A054539",
+    "A065795",
+    "A068009",
+    "A082550",
+    "A327475",
+    "A327481"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

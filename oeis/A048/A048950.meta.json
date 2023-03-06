@@ -1,0 +1,18 @@
+{
+  "description": "Base 3 Euler-Jacobi pseudoprimes.",
+  "id": "A048950",
+  "mentions": [
+    "A005935",
+    "A047713"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

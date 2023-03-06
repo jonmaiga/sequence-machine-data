@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = (F(2n+3) - F(n))/2 where F() = Fibonacci numbers A000045.",
+  "id": "A027994",
+  "mentions": [
+    "A000045",
+    "A000667",
+    "A005207",
+    "A027926",
+    "A056014",
+    "A059216",
+    "A059219",
+    "A059502",
+    "A059512",
+    "A125171"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

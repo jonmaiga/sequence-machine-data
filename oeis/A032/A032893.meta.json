@@ -1,0 +1,16 @@
+{
+  "description": "Numbers whose base-5 representation Sum_{i=0..m} d(i)*5^i has d(0) >= d(1) <= d(2) >= ...",
+  "id": "A032893",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:17",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

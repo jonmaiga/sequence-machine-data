@@ -1,0 +1,25 @@
+{
+  "description": "1/256 of tenth unsigned column of triangle A053120 (T-Chebyshev, rising powers, zeros omitted).",
+  "id": "A054333",
+  "mentions": [
+    "A000581",
+    "A005585",
+    "A040977",
+    "A050486",
+    "A053120",
+    "A053347",
+    "A111125"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:18:17",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

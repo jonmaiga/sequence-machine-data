@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that m^(n+1) == m (mod n) holds for all m.",
+  "id": "A014117",
+  "mentions": [
+    "A007018",
+    "A031971",
+    "A054377",
+    "A100016",
+    "A106741",
+    "A124240",
+    "A242927"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of 3 X n nonnegative integer matrices with all column sums 3, up to row and column permutation.",
+  "id": "A058407",
+  "mentions": [
+    "A050531",
+    "A058389",
+    "A058408"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:07:29",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

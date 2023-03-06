@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (-1)^(k+1)*A000045(k)/k!.",
+  "id": "A099935",
+  "mentions": [
+    "A000045",
+    "A001113",
+    "A098689",
+    "A193010",
+    "A193026"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

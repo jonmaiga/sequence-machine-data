@@ -1,0 +1,21 @@
+{
+  "description": "Concatenation of 'prevprime(n) and n' is a prime.",
+  "id": "A034808",
+  "mentions": [
+    "A007917",
+    "A034809",
+    "A034821",
+    "A151799"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:16:29",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

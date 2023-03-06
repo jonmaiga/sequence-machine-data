@@ -1,0 +1,27 @@
+{
+  "description": "Number of ways to write n as differences of (-4)-gonal numbers. If pe(n):=1/2*n*((e-2)*n+(4-e)) is the n-th e-gonal number, then a(n) = |{(m,k) of Z X Z; pe(-1)(m+k)-pe(m-1)=n}| for e=-4.",
+  "id": "A099751",
+  "mentions": [
+    "A001227",
+    "A001620",
+    "A027748",
+    "A035191",
+    "A035218",
+    "A048272",
+    "A124010",
+    "A256232"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

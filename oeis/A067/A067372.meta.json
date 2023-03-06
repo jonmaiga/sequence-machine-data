@@ -1,0 +1,20 @@
+{
+  "description": "Integers expressible as the sum of (at least two) consecutive primes in at least 2 ways.",
+  "id": "A067372",
+  "mentions": [
+    "A050936",
+    "A054997",
+    "A067381"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

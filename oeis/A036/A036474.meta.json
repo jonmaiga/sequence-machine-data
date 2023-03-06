@@ -1,0 +1,27 @@
+{
+  "description": "Amicable quadruples: the numbers d referred to in A036471.",
+  "id": "A036474",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A036471",
+    "A036472",
+    "A036473",
+    "A116148",
+    "A125490",
+    "A125492",
+    "A137231",
+    "A161005",
+    "A233553"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

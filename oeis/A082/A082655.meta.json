@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct letters needed to spell English names of numbers 1 through n.",
+  "id": "A082655",
+  "mentions": [
+    "A005589",
+    "A052360",
+    "A052362",
+    "A052363"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Stirling transform of Catalan numbers: a(n) = Sum_{k=0..n} stirling2(n,k)*binomial(2*k,k)/(k+1).",
+  "id": "A064856",
+  "mentions": [
+    "A000108",
+    "A066053",
+    "A086672"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

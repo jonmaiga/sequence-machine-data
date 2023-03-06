@@ -1,0 +1,25 @@
+{
+  "description": "Smallest n-digit number divisible by n.",
+  "id": "A053041",
+  "mentions": [
+    "A066209",
+    "A066557",
+    "A066558",
+    "A066559",
+    "A162213"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

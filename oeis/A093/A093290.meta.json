@@ -1,0 +1,15 @@
+{
+  "description": "If S*2^k - 3 and S*2^k + 3 are primes for k=0 to 2, then a(n) = S/10.",
+  "id": "A093290",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

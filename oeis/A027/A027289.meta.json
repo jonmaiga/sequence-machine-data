@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)-1} T(n,k) * T(n,k+2), with T given by A026009.",
+  "id": "A027289",
+  "mentions": [
+    "A026009"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:48:03",
+    "offset": 2,
+    "size": 26,
+    "source": "joeis"
+  }
+}

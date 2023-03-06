@@ -1,0 +1,22 @@
+{
+  "description": "Score at stage n in \"tug of war\" between prime gap increases vs. prime gap decreases: start with score = 0 at n = 1 and at stage n = k > 1, increase (resp. decrease) the score by 1 if the k-th prime gap is greater (resp. less) than the previous prime gap.",
+  "id": "A092243",
+  "mentions": [
+    "A079054",
+    "A175102",
+    "A269737",
+    "A269738",
+    "A269739"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

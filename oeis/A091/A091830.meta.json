@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1; a(2n)=(a(n)+1) mod 2, a(2n+1)=a(2n)+1.",
+  "id": "A091830",
+  "mentions": [
+    "A059009",
+    "A059010"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

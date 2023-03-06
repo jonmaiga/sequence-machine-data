@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{d divides n, n/d=3 mod 4} d.",
+  "id": "A050464",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:45:25",
+    "offset": 1,
+    "size": 83,
+    "source": "joeis"
+  }
+}

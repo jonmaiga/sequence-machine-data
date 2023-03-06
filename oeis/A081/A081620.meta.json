@@ -1,0 +1,20 @@
+{
+  "description": "Least m with n*(n+1)/2 divisors.",
+  "id": "A081620",
+  "mentions": [
+    "A000005",
+    "A000217",
+    "A005179",
+    "A081619"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

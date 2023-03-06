@@ -1,0 +1,20 @@
+{
+  "description": "Scaled sums of squares.",
+  "id": "A060080",
+  "mentions": [
+    "A000330",
+    "A001044",
+    "A060074"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

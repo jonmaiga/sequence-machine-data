@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of triangle A086606: the n-th term of the n-th self-convolution of the sequence formed by flattening triangle A086606.",
+  "id": "A086607",
+  "mentions": [
+    "A086606",
+    "A086608"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

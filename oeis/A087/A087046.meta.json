@@ -1,0 +1,23 @@
+{
+  "description": "Algebraic order of r_n, the value of r in the logistic map that corresponding to the onset of the period 2^n-cycle.",
+  "id": "A087046",
+  "mentions": [
+    "A000215",
+    "A086180",
+    "A086181",
+    "A087089",
+    "A118454",
+    "A346192"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

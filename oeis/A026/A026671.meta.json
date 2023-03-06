@@ -1,0 +1,30 @@
+{
+  "description": "Number of lattice paths from (0,0) to (n,n) with steps (0,1), (1,0) and, when on the diagonal, (1,1).",
+  "id": "A026671",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A000108",
+    "A000984",
+    "A001519",
+    "A026670",
+    "A026725",
+    "A026736",
+    "A026781",
+    "A039599",
+    "A054335",
+    "A111961"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

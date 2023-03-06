@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T read by rows: T(i,j) = R(i-j,j), where R(i,0) = 1 for i >= 0, R(0,j) = 0 for j >= 1, and R(i,j) = Sum_{h=0..i-1, k=0..j} R(h,k) for i >= 1 and j >= 1.",
+  "id": "A055807",
+  "mentions": [
+    "A001519",
+    "A050143",
+    "A050146",
+    "A050147",
+    "A050148",
+    "A055809",
+    "A055810",
+    "A055811",
+    "A055815",
+    "A055816",
+    "A055817",
+    "A084938",
+    "A111516"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:29:19",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that Hofstadter Q-sequence Q(k) (A005185) satisfies Q(k) = k/2.",
+  "id": "A027619",
+  "mentions": [
+    "A005185"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:00:44",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Reversing binary representation of n. Converting sum of powers of 2 in binary representation of a(n) to alternating sum gives n.",
+  "id": "A065621",
+  "mentions": [
+    "A000069",
+    "A003188",
+    "A010060",
+    "A048724",
+    "A065620",
+    "A072219",
+    "A073122",
+    "A104895",
+    "A105081",
+    "A114389",
+    "A114390",
+    "A115857",
+    "A115872",
+    "A245471"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:39",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of witnesses for strong pseudoprimality of 2n+1, i.e., number of bases b, 1 <= b <= 2n, in which 2n+1 is a strong pseudoprime.",
+  "id": "A071294",
+  "mentions": [
+    "A000265",
+    "A001221",
+    "A001262",
+    "A006093",
+    "A007814",
+    "A020229",
+    "A020231",
+    "A020233",
+    "A060684",
+    "A063994",
+    "A141768",
+    "A182291",
+    "A195328",
+    "A195508"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

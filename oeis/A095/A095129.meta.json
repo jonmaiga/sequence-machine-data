@@ -1,0 +1,20 @@
+{
+  "description": "Jac(n)(2Jac(n)-1).",
+  "id": "A095129",
+  "mentions": [
+    "A001045",
+    "A095130"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:33:04",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

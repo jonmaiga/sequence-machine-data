@@ -1,0 +1,23 @@
+{
+  "description": "Number of derangements of n where minimal cycle size is at least 3.",
+  "id": "A038205",
+  "mentions": [
+    "A000166",
+    "A047865",
+    "A158243"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "x^2 + y^2 mod A053443(n) does not take on value a(n).",
+  "id": "A053444",
+  "mentions": [
+    "A053443"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

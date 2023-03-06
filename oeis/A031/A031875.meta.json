@@ -1,0 +1,19 @@
+{
+  "description": "Lexically first 12-mark Golomb ruler.",
+  "id": "A031875",
+  "mentions": [
+    "A079433"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

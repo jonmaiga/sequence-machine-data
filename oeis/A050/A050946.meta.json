@@ -1,0 +1,27 @@
+{
+  "description": "\"Stirling-Bernoulli transform\" of Fibonacci numbers.",
+  "id": "A050946",
+  "mentions": [
+    "A000004",
+    "A000045",
+    "A006490",
+    "A027642",
+    "A051782",
+    "A100868",
+    "A100872",
+    "A105796",
+    "A163626",
+    "A164555"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

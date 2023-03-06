@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (9^n-1)/8 mod n.",
+  "id": "A094924",
+  "mentions": [
+    "A002452",
+    "A094918",
+    "A094920"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

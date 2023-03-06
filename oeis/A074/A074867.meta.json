@@ -1,0 +1,35 @@
+{
+  "description": "a(n) = M(a(n-1)) + M(a(n-2)) where a(1)=a(2)=1 and M(k) is the product of the digits of k in base 10.",
+  "id": "A074867",
+  "mentions": [
+    "A000045",
+    "A001175",
+    "A003893",
+    "A010073",
+    "A010074",
+    "A010075",
+    "A010076",
+    "A010879",
+    "A059995",
+    "A131294",
+    "A131295",
+    "A131296",
+    "A131297",
+    "A131318",
+    "A131319",
+    "A131320"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:26:37",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

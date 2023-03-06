@@ -1,0 +1,16 @@
+{
+  "description": "Special values of the hypergeometric function 3F1: a(n) = binomial(n,2) * hypergeom([1,-n+1,-n+2],[3],1).",
+  "id": "A080996",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

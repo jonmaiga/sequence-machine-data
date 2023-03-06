@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = length of longest prefix of binary representation of n that is also a suffix of that of n+1.",
+  "id": "A091269",
+  "mentions": [
+    "A007088",
+    "A091270"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

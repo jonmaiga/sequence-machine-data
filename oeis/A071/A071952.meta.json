@@ -1,0 +1,24 @@
+{
+  "description": "Diagonal T(n,3) of triangle in A071951.",
+  "id": "A071952",
+  "mentions": [
+    "A000079",
+    "A015309",
+    "A016129",
+    "A071951",
+    "A089278",
+    "A089500",
+    "A129467"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 4,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

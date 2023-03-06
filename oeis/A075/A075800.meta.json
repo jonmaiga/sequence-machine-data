@@ -1,0 +1,21 @@
+{
+  "description": "Palindromic numbers which are products of an odd number of distinct primes.",
+  "id": "A075800",
+  "mentions": [
+    "A002385",
+    "A030059",
+    "A032350",
+    "A069217"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

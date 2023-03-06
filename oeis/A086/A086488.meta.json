@@ -1,0 +1,20 @@
+{
+  "description": "A086487(n)/S where S is the sum of the prime divisors.",
+  "id": "A086488",
+  "mentions": [
+    "A008472",
+    "A086486",
+    "A086487"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

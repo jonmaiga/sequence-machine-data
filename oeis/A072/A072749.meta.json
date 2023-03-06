@@ -1,0 +1,22 @@
+{
+  "description": "Count of factors of 5 in the first n squarefree numbers.",
+  "id": "A072749",
+  "mentions": [
+    "A005117",
+    "A072747",
+    "A072748",
+    "A072750",
+    "A072751"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

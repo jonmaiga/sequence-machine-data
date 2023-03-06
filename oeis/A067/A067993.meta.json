@@ -1,0 +1,17 @@
+{
+  "description": "Consider the sequence of ratios min(t(n-1)/t(n), t(n)/t(n-1)), n=2,3,4,..., where the t(n) are the terms of A067992. Let m be the smallest integer such that all fractions 1/n, 2/n, ..., (n-1)/n have appeared when we reach A067992(m); this sequence gives the values of m; set a(n)=0 if some fraction i/n never appears.",
+  "id": "A067993",
+  "mentions": [
+    "A067992"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

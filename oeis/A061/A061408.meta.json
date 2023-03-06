@@ -1,0 +1,21 @@
+{
+  "description": "For each y >= 1 there are only finitely many values of x >= 1 such that x-y and x+y are both positive squares; list all such pairs (x,y) ordered by values of y; sequence gives y values.",
+  "id": "A061408",
+  "mentions": [
+    "A056924",
+    "A060829",
+    "A060830",
+    "A061409"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

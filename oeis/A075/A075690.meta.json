@@ -1,0 +1,17 @@
+{
+  "description": "Differences between (n-1)*(n-2)^4 and A028294.",
+  "id": "A075690",
+  "mentions": [
+    "A028294"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of 1 / (chi(-x) * chi(-x^7)) in powers of x where chi() is a Ramanujan theta function.",
+  "id": "A093950",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A102314",
+    "A112212",
+    "A121373",
+    "A246762"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:21:13",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

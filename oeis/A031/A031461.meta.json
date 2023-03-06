@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose base-4 representation has the same number of 0's as 3's.",
+  "id": "A031461",
+  "mentions": [
+    "A000120",
+    "A007090",
+    "A023416",
+    "A031443",
+    "A031448",
+    "A037861"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:51:17",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

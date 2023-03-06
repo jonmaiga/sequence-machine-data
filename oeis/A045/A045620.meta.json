@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that digits of n^3 include digits of n^2.",
+  "id": "A045620",
+  "mentions": [
+    "A029772",
+    "A046827",
+    "A046829"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:25:29",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

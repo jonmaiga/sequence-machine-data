@@ -1,0 +1,17 @@
+{
+  "description": "Largest k such that (2n-1)/k + 2 as well as (2n-1)k + 2 are prime, or 0 if no such number exists.",
+  "id": "A094753",
+  "mentions": [
+    "A094752"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

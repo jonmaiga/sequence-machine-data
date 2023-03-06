@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that floor((5/4)^(k+1))/floor((5/4)^k) = 5/4.",
+  "id": "A065566",
+  "mentions": [
+    "A065554",
+    "A138589",
+    "A139768"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

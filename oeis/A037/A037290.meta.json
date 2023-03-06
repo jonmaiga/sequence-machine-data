@@ -1,0 +1,21 @@
+{
+  "description": "Number of self-converse rings (isomorphic to inverse) with n elements.",
+  "id": "A037290",
+  "mentions": [
+    "A027623",
+    "A037289"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Bidirectional 'Delannoy' variation of the Boustrophedon transform applied to all 1's sequence: Fill an triangular array in alternating directions. Let the first element of each row in that direction be equal to 1. Each next entry is given by T(n,k) = T(n,k +/- 1) + T(n-1,k-1) + T(n-1,k) + T(n-2,k-1), where the +/- depends on which is the previous element in the direction one is filling in the row. The final number of row n gives a(n).",
+  "id": "A064643",
+  "mentions": [
+    "A008288",
+    "A064641",
+    "A064644"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

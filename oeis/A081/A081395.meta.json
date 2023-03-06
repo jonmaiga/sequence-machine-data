@@ -1,0 +1,22 @@
+{
+  "description": "a(n)=x is the smallest value such that number of non-unitary prime divisors of a(n)-th Catalan number, A000108(x)=C(2x,x)/(x+1) equals n.",
+  "id": "A081395",
+  "mentions": [
+    "A000108",
+    "A081389",
+    "A081393",
+    "A081394"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

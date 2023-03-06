@@ -1,0 +1,17 @@
+{
+  "description": "Largest prime less than or equal to the sum of first n primes (A007504).",
+  "id": "A066039",
+  "mentions": [
+    "A007504"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

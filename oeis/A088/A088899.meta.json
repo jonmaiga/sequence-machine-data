@@ -1,0 +1,21 @@
+{
+  "description": "T(n, k) = number of ordered pairs of integers (x,y) with x^2/n^2 + y^2/k^2 = 1, 1 <= k <= n; triangular array, read by rows.",
+  "id": "A088899",
+  "mentions": [
+    "A046109",
+    "A088897",
+    "A088898"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of different primes embedded in n.",
+  "id": "A039993",
+  "mentions": [
+    "A039999",
+    "A072857",
+    "A075053",
+    "A076497",
+    "A134596",
+    "A134597"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

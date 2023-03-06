@@ -1,0 +1,19 @@
+{
+  "description": "Strobogrammatic primes: the same upside down (calculator-style numerals).",
+  "id": "A018847",
+  "mentions": [
+    "A007597",
+    "A018846"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

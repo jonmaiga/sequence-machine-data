@@ -1,0 +1,19 @@
+{
+  "description": "Beginning with 2, the smallest even number greater than the previous term such that every partial product + 1 is a prime.",
+  "id": "A084724",
+  "mentions": [
+    "A083566",
+    "A084723",
+    "A084725"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

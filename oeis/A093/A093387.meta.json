@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2^(n-1) - binomial(n, floor(n/2)).",
+  "id": "A093387",
+  "mentions": [
+    "A000079",
+    "A000108",
+    "A001405",
+    "A127365",
+    "A191310"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "q-Catalan numbers (binomial version) for q=3.",
+  "id": "A015033",
+  "mentions": [
+    "A015030"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

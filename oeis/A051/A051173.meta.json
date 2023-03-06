@@ -1,0 +1,27 @@
+{
+  "description": "Triangular array T read by rows: T(u,v) = lcm(u,v).",
+  "id": "A051173",
+  "mentions": [
+    "A000384",
+    "A002260",
+    "A003990",
+    "A050873",
+    "A051193",
+    "A051537",
+    "A075362",
+    "A109043"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:54:19",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

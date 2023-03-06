@@ -1,0 +1,22 @@
+{
+  "description": "Unrestricted Perrin pseudoprimes.",
+  "id": "A013998",
+  "mentions": [
+    "A000010",
+    "A001608",
+    "A018187",
+    "A127687",
+    "A173656",
+    "A215339"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

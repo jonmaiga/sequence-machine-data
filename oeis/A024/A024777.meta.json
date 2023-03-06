@@ -1,0 +1,18 @@
+{
+  "description": "Every prefix and suffix prime in base 9 (written in base 9).",
+  "id": "A024777",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

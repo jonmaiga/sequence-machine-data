@@ -1,0 +1,20 @@
+{
+  "description": "Second column (k=5) of array A090214 ((4,4)-Stirling2) divided by 4*4!=96.",
+  "id": "A091037",
+  "mentions": [
+    "A090214",
+    "A091038"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 2,
+    "size": 12,
+    "source": "joeis"
+  }
+}

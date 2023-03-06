@@ -1,0 +1,18 @@
+{
+  "description": "Fibonacci numbers obtained by concatenation of successive terms of A082213.",
+  "id": "A082214",
+  "mentions": [
+    "A082213"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

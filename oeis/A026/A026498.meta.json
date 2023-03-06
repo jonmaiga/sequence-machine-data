@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = t(1+3n), where t = A001285 (Thue-Morse sequence).",
+  "id": "A026498",
+  "mentions": [
+    "A001285",
+    "A026492",
+    "A026513"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

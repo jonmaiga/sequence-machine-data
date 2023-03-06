@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Smallest nontrivial number k > 9 such that first (leftmost) digit - second digit + third digit - fourth digit ... of k = n.",
+  "id": "A061882",
+  "mentions": [
+    "A008593",
+    "A051885",
+    "A060978",
+    "A060980",
+    "A060982",
+    "A061470",
+    "A061479",
+    "A061870"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-27 12:56:37",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

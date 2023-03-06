@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k)=sum((n+1-i)!*stirling2(n,n+1-i),i=1..k), n>=1, 1<=k<=n.",
+  "id": "A084417",
+  "mentions": [
+    "A000142",
+    "A000670",
+    "A052875",
+    "A084416"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

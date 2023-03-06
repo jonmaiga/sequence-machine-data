@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that tau(n) is different from tau(n-1), where tau(m) = number of divisors of m.",
+  "id": "A083794",
+  "mentions": [
+    "A083795"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

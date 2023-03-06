@@ -1,0 +1,26 @@
+{
+  "description": "Primeval numbers: numbers that set a record for the number of distinct primes that can be obtained by permuting some subset of their digits.",
+  "id": "A072857",
+  "mentions": [
+    "A039993",
+    "A075053",
+    "A076449",
+    "A076497",
+    "A119535",
+    "A179239",
+    "A239196",
+    "A239197",
+    "A328447"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

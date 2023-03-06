@@ -1,0 +1,19 @@
+{
+  "description": "When A032523 is a maximum; or, A091657 less duplicates.",
+  "id": "A091658",
+  "mentions": [
+    "A001203",
+    "A032523",
+    "A091657"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

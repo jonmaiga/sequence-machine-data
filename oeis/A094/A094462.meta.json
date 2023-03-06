@@ -1,0 +1,30 @@
+{
+  "description": "a(n) is the 6th term in Euclid-Mullin (EM) prime sequence initiated with n-th prime.",
+  "id": "A094462",
+  "mentions": [
+    "A000945",
+    "A005385",
+    "A051308",
+    "A051335",
+    "A051614",
+    "A051616",
+    "A091460",
+    "A093778",
+    "A093782",
+    "A094152",
+    "A094153",
+    "A094460",
+    "A094461",
+    "A094463"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

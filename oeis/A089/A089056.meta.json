@@ -1,0 +1,20 @@
+{
+  "description": "Primes whose sum of digits [s(d)] is a prime and where sum of two such consecutive s(d) values is a square.",
+  "id": "A089056",
+  "mentions": [
+    "A046704"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

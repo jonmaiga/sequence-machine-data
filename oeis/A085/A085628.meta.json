@@ -1,0 +1,22 @@
+{
+  "description": "Number of antisymmetric transitive binary relations on n labeled points.",
+  "id": "A085628",
+  "mentions": [
+    "A000079",
+    "A000798",
+    "A001035",
+    "A006905",
+    "A079265"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

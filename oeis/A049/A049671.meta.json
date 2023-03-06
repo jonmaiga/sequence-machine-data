@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (F(n) + F(4*n))/2, where F=A000045 (the Fibonacci sequence).",
+  "id": "A049671",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

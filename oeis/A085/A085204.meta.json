@@ -1,0 +1,18 @@
+{
+  "description": "Transpose of A085203.",
+  "id": "A085204",
+  "mentions": [
+    "A085203"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of potential flows in 3 X 3 array with integer velocities in -n..n, i.e., number of 3 X 3 arrays with adjacent elements differing by no more than n, counting arrays differing by a constant only once.",
+  "id": "A068744",
+  "mentions": [
+    "A063496",
+    "A068722",
+    "A068738",
+    "A068745",
+    "A068746",
+    "A068747",
+    "A068748",
+    "A068761"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

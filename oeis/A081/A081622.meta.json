@@ -1,0 +1,23 @@
+{
+  "description": "Number of 6-core partitions of n.",
+  "id": "A081622",
+  "mentions": [
+    "A010054",
+    "A033687",
+    "A045831",
+    "A053723",
+    "A053724"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

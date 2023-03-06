@@ -1,0 +1,33 @@
+{
+  "description": "Coefficient table for Chebyshev's U(2*n,x) polynomial expanded in decreasing powers of (-4*(1-x^2)).",
+  "id": "A082985",
+  "mentions": [
+    "A000204",
+    "A000244",
+    "A000330",
+    "A002878",
+    "A003945",
+    "A005408",
+    "A005585",
+    "A050486",
+    "A054142",
+    "A054333",
+    "A057788",
+    "A084534",
+    "A084930",
+    "A172431"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

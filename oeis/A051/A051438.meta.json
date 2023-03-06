@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = prime(2^n - 1).",
+  "id": "A051438",
+  "mentions": [
+    "A000040",
+    "A000225",
+    "A018249",
+    "A033844",
+    "A051439",
+    "A051440",
+    "A181363"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

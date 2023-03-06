@@ -1,0 +1,27 @@
+{
+  "description": "Numerators of ratios converging to Thue-Morse constant.",
+  "id": "A048707",
+  "mentions": [
+    "A001146",
+    "A010060",
+    "A014571",
+    "A014572",
+    "A019300",
+    "A048708",
+    "A080814",
+    "A080815",
+    "A133468"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

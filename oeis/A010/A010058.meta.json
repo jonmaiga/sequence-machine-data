@@ -1,0 +1,19 @@
+{
+  "description": "1 if n is a Catalan number else 0.",
+  "id": "A010058",
+  "mentions": [
+    "A000108",
+    "A092459"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

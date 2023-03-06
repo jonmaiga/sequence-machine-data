@@ -1,0 +1,20 @@
+{
+  "description": "Binary representation of a(n) equals first n+1 terms of A051023.",
+  "id": "A092539",
+  "mentions": [
+    "A051023",
+    "A092540"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=1..n} bigomega(tau(k)).",
+  "id": "A079057",
+  "mentions": [
+    "A058061"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of configurations of the 3 X 2 variant of Sam Loyd's sliding block 15-puzzle that require a minimum of n moves to be reached, starting with the empty square in one of the corners.",
+  "id": "A090034",
+  "mentions": [
+    "A087725",
+    "A089473",
+    "A090033",
+    "A090035",
+    "A090036",
+    "A090163",
+    "A090167"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

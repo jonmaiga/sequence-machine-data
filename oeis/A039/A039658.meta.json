@@ -1,0 +1,19 @@
+{
+  "description": "Related to enumeration of edge-rooted catafusenes.",
+  "id": "A039658",
+  "mentions": [
+    "A007317",
+    "A026118"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

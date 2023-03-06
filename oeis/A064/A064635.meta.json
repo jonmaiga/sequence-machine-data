@@ -1,0 +1,18 @@
+{
+  "description": "Even numbers not appearing in A064466. a(n) = A064466(A064634(n)) + 2 for n > 0.",
+  "id": "A064635",
+  "mentions": [
+    "A064466",
+    "A064634"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

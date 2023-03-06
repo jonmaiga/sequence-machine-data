@@ -1,0 +1,23 @@
+{
+  "description": "Least number that is the sum of n positive n-th powers in at least 2 ways.",
+  "id": "A091414",
+  "mentions": [
+    "A008917",
+    "A048610",
+    "A185673",
+    "A230477",
+    "A230561"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

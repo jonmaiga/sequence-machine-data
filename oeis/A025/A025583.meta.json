@@ -1,0 +1,26 @@
+{
+  "description": "Composite numbers that are not the sum of 2 primes.",
+  "id": "A025583",
+  "mentions": [
+    "A000040",
+    "A001031",
+    "A002372",
+    "A002374",
+    "A002808",
+    "A010051",
+    "A051034",
+    "A071335"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

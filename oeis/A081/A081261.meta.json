@@ -1,0 +1,20 @@
+{
+  "description": "Start with a(1)=4; apply 4 -> 665, 5 -> 56665, 6 -> 566665; iterate.",
+  "id": "A081261",
+  "mentions": [
+    "A079000",
+    "A079948",
+    "A081260"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "sech(sec(x)*arcsinh(x))=1-1/2!*x^2-3/4!*x^4-45/6!*x^6+2457/8!*x^8...",
+  "id": "A012833",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:27:01",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Constant term in (1+x)^n mod (1+x^4).",
+  "id": "A099586",
+  "mentions": [
+    "A099587",
+    "A099588",
+    "A099589"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

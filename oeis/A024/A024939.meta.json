@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into distinct odd primes.",
+  "id": "A024939",
+  "mentions": [
+    "A000586",
+    "A024937",
+    "A099773"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 18:30:49",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = phi(sigma(n)).",
+  "id": "A062401",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A033632",
+    "A062402",
+    "A096852",
+    "A096857",
+    "A096994",
+    "A096995"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

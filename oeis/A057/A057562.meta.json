@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into parts all relatively prime to n.",
+  "id": "A057562",
+  "mentions": [
+    "A000041",
+    "A036998",
+    "A038566",
+    "A098743",
+    "A100347",
+    "A227296"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with a nonzero palindromic digital product (contains no zeros).",
+  "id": "A090274",
+  "mentions": [
+    "A046510",
+    "A090273"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

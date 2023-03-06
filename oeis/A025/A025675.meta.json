@@ -1,0 +1,17 @@
+{
+  "description": "Exponent of 8 (value of j) in n-th number of form 7^i*8^j.",
+  "id": "A025675",
+  "mentions": [
+    "A002262"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:29:41",
+    "offset": 1,
+    "size": 103,
+    "source": "joeis"
+  }
+}

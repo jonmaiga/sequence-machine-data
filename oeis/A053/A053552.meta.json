@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. is obtained by reversion of e.g.f. for A053549.",
+  "id": "A053552",
+  "mentions": [
+    "A053549"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:49:04",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

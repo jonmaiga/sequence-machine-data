@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/(1 - x^10 - x^11 - x^12 - x^13 - x^14 - x^15 - x^16).",
+  "id": "A017892",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:04:21",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

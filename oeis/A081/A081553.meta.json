@@ -1,0 +1,23 @@
+{
+  "description": "Sum of n-th row of A081551.",
+  "id": "A081553",
+  "mentions": [
+    "A081551",
+    "A081552",
+    "A126431",
+    "A161680"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

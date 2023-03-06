@@ -1,0 +1,20 @@
+{
+  "description": "Number of palindromic divisors of a(n) sets a new record.",
+  "id": "A093036",
+  "mentions": [
+    "A002093",
+    "A087990",
+    "A226732"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

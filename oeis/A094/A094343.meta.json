@@ -1,0 +1,25 @@
+{
+  "description": "List of pairs of primes (p, q) with q - p = 4.",
+  "id": "A094343",
+  "mentions": [
+    "A000040",
+    "A001097",
+    "A023200",
+    "A046132",
+    "A111980",
+    "A111981",
+    "A140546"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

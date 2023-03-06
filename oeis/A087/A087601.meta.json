@@ -1,0 +1,22 @@
+{
+  "description": "Primes occurring as lesser side of Heronian triangle (sides are consecutive integers, area and inradius are integers).",
+  "id": "A087601",
+  "mentions": [
+    "A001353",
+    "A003500",
+    "A016064",
+    "A087602"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

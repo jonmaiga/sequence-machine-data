@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: A(x) = 1 + x*A(x)^2/(1-x-x^2).",
+  "id": "A084782",
+  "mentions": [
+    "A000045",
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

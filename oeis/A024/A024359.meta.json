@@ -1,0 +1,23 @@
+{
+  "description": "Number of primitive Pythagorean triangles with short leg n.",
+  "id": "A024359",
+  "mentions": [
+    "A020884",
+    "A024352",
+    "A024360",
+    "A024361",
+    "A132404",
+    "A139544"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

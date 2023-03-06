@@ -1,0 +1,21 @@
+{
+  "description": "Largest n-digit member of A089392, or 0 if there is no such n-digit term.",
+  "id": "A089394",
+  "mentions": [
+    "A089392",
+    "A089393",
+    "A252495",
+    "A252996"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

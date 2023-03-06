@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that prime(k) + prime(k+3) = prime(k+1) + prime(k+2).",
+  "id": "A022884",
+  "mentions": [
+    "A000720",
+    "A022885",
+    "A261470"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

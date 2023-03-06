@@ -1,0 +1,18 @@
+{
+  "description": "k that maximizes partitions of n into exactly k parts.",
+  "id": "A046155",
+  "mentions": [
+    "A002569",
+    "A026819"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:19",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

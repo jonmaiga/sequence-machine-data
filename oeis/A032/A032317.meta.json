@@ -1,0 +1,17 @@
+{
+  "description": "Shifts left under \"EGJ\" (unordered, element, labeled) transform.",
+  "id": "A032317",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

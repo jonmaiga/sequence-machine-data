@@ -1,0 +1,27 @@
+{
+  "description": "Powers of 4 with digit sum divisible by 4.",
+  "id": "A067508",
+  "mentions": [
+    "A067499",
+    "A067500",
+    "A067501",
+    "A067502",
+    "A067503",
+    "A067504",
+    "A067505",
+    "A067506",
+    "A067507"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:20:41",
+    "offset": 0,
+    "size": 9,
+    "source": "joeis"
+  }
+}

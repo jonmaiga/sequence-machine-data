@@ -1,0 +1,32 @@
+{
+  "description": "Upper central divisor of n-th primorial.",
+  "id": "A060796",
+  "mentions": [
+    "A000196",
+    "A002110",
+    "A033677",
+    "A060755",
+    "A060776",
+    "A060777",
+    "A060795",
+    "A061030",
+    "A061031",
+    "A061032",
+    "A061033",
+    "A061057",
+    "A061060",
+    "A182987",
+    "A200744"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

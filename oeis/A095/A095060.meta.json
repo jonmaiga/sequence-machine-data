@@ -1,0 +1,21 @@
+{
+  "description": "Number of fibeven primes (A095080) in range ]2^n,2^(n+1)].",
+  "id": "A095060",
+  "mentions": [
+    "A036378",
+    "A095061",
+    "A095062",
+    "A095067",
+    "A095080"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

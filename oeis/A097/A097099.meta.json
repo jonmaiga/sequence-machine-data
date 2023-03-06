@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k>0 such that (2^k)*A002110(n) - 1 is prime.",
+  "id": "A097099",
+  "mentions": [
+    "A002110",
+    "A098929"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p divides 10^n-1, p is the largest prime producing decimal fraction period n and p is not the largest prime dividing 10^n-1.",
+  "id": "A081317",
+  "mentions": [
+    "A003020",
+    "A005422",
+    "A061075",
+    "A081318"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

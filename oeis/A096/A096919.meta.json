@@ -1,0 +1,20 @@
+{
+  "description": "Greatest prime factor of n-th product of 3 distinct primes.",
+  "id": "A096919",
+  "mentions": [
+    "A006530",
+    "A007304",
+    "A096917",
+    "A096918"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:47:35",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least m such that n = S(k) = S(k+m) for some k, where S is the Kempner function A002034.",
+  "id": "A099120",
+  "mentions": [
+    "A000005",
+    "A002034",
+    "A046021",
+    "A099118",
+    "A099119"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

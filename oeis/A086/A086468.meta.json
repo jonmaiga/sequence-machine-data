@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 2*zeta(3)/5.",
+  "id": "A086468",
+  "mentions": [
+    "A002117",
+    "A086465",
+    "A086466",
+    "A086467"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

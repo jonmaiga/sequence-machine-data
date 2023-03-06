@@ -1,0 +1,20 @@
+{
+  "description": "An invariant of the set {Log(2), Log(3), Log(5),..., Log(Prime(2n)), Log(Prime(2n+1))}.",
+  "id": "A086596",
+  "mentions": [
+    "A068101"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

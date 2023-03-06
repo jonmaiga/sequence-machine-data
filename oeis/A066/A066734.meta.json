@@ -1,0 +1,18 @@
+{
+  "description": "Numbers such that the nonzero product of the digits of its 4th power is also a 4th power.",
+  "id": "A066734",
+  "mentions": [
+    "A067071"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

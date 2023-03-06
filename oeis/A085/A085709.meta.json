@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=1; then smallest multiple of n such that a(n) + a(n-1) is a semiprime.",
+  "id": "A085709",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

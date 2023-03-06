@@ -1,0 +1,25 @@
+{
+  "description": "Permutation of Z, obtained by reflecting the juggling sequence A084452 from positive to negative numbers (with zero thrown at beat 0), folded to N with functions N2Z and Z2N.",
+  "id": "A084455",
+  "mentions": [
+    "A065166",
+    "A084452",
+    "A084454",
+    "A084461",
+    "A084466",
+    "A084491",
+    "A084495",
+    "A084499",
+    "A084507"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

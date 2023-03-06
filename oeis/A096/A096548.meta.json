@@ -1,0 +1,23 @@
+{
+  "description": "Difference between the smallest 10^n-digit prime and 10^(10^n-1).",
+  "id": "A096548",
+  "mentions": [
+    "A002283",
+    "A007920",
+    "A033873"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

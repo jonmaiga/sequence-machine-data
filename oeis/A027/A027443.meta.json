@@ -1,0 +1,17 @@
+{
+  "description": "For n != 1 mod 3, we can write 3/(2n+1) = 1/a + 1/b + 1/c with a>b>c>0, a,b,c distinct and odd; sequence gives smallest such a, or 1 if n = 1 mod 3.",
+  "id": "A027443",
+  "mentions": [
+    "A027442"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

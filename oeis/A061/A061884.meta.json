@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = sum_{ d | n } phi(lcm(d,n/d)), where phi(n) = Euler totient A000010.",
+  "id": "A061884",
+  "mentions": [
+    "A000010",
+    "A001616",
+    "A007427",
+    "A057670"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

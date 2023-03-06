@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = prime(2n+1) - prime(2n).",
+  "id": "A088680",
+  "mentions": [
+    "A001223",
+    "A078584",
+    "A088682",
+    "A088683",
+    "A088684"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:32:15",
+    "offset": 1,
+    "size": 95,
+    "source": "joeis"
+  }
+}

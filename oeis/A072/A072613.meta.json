@@ -1,0 +1,23 @@
+{
+  "description": "Number of numbers of the form p*q (p, q distinct primes) less than or equal to n.",
+  "id": "A072613",
+  "mentions": [
+    "A000720",
+    "A070548",
+    "A072000",
+    "A280710"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

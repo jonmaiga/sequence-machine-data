@@ -1,0 +1,17 @@
+{
+  "description": "Rearrangement of natural numbers such that every partial sum is a proper prime power.",
+  "id": "A075562",
+  "mentions": [
+    "A246547"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

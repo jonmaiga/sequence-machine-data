@@ -1,0 +1,31 @@
+{
+  "description": "Decimal expansion of sin(3*Pi/10) (sine of 54 degrees).",
+  "id": "A019863",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A010503",
+    "A019827",
+    "A019836",
+    "A019872",
+    "A020761",
+    "A020765",
+    "A094214",
+    "A134972",
+    "A201488",
+    "A239798"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:04:01",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

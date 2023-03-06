@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to fill an n X n matrix with numbers 1, 2, ..., n*n such that each row and each column is decreasing or increasing.",
+  "id": "A062528",
+  "mentions": [
+    "A039622",
+    "A060854"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

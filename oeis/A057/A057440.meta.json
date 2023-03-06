@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n*M127 + 1 is prime, where M127 = 2^127 - 1.",
+  "id": "A057440",
+  "mentions": [
+    "A057441"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

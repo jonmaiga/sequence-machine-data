@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sigma(phi(n)) = reversal(n).",
+  "id": "A071525",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A135238"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

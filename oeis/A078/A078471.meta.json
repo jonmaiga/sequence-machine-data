@@ -1,0 +1,22 @@
+{
+  "description": "Sum of all odd divisors of all positive integers <= n.",
+  "id": "A078471",
+  "mentions": [
+    "A000203",
+    "A000593",
+    "A024916",
+    "A271342",
+    "A326124"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

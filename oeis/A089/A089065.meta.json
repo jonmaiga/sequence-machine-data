@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 2^13466917 - 1, the 39th Mersenne prime A000668(39).",
+  "id": "A089065",
+  "mentions": [
+    "A000043",
+    "A000668"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 4053946,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

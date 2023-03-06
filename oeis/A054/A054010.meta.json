@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n with property that n is divisible by the number of its proper divisors.",
+  "id": "A054010",
+  "mentions": [
+    "A032741",
+    "A033950",
+    "A054009",
+    "A055719"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n^2 is a palindromic square with an asymmetric root.",
+  "id": "A060087",
+  "mentions": [
+    "A007573",
+    "A059744",
+    "A059745",
+    "A060088"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

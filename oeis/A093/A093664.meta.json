@@ -1,0 +1,20 @@
+{
+  "description": "Convergent of 2^n-th row of lower triangular matrix A093662.",
+  "id": "A093664",
+  "mentions": [
+    "A016121",
+    "A093662",
+    "A093663"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

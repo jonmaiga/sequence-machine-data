@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that aren't the sum of distinct primes of the form 6k+5.",
+  "id": "A048264",
+  "mentions": [
+    "A007528",
+    "A048265",
+    "A324076"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 - q^(10k-5))^2.",
+  "id": "A089814",
+  "mentions": [
+    "A022597"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:07:17",
+    "offset": 0,
+    "size": 97,
+    "source": "joeis"
+  }
+}

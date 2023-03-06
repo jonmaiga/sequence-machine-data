@@ -1,0 +1,22 @@
+{
+  "description": "Number of solutions to x^4 == 1 (mod n).",
+  "id": "A073103",
+  "mentions": [
+    "A060594",
+    "A060839",
+    "A123865"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

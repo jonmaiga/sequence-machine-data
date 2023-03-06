@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to partition n elements into pie slices each with at least 2 elements allowing the pie to be turned over.",
+  "id": "A032278",
+  "mentions": [
+    "A000005",
+    "A027750",
+    "A055642",
+    "A134681"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

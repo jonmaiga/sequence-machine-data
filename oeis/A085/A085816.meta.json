@@ -1,0 +1,17 @@
+{
+  "description": "Semiprimes such that the sum of the factorials of the digits is also semiprime.",
+  "id": "A085816",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

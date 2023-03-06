@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes in enlarged neighborhood with center = n-th primorial and radius = 2*ceiling(log(n-th primorial)). So compared to A096831, the radius is doubled.",
+  "id": "A096832",
+  "mentions": [
+    "A002110",
+    "A096509",
+    "A096523",
+    "A096830",
+    "A096831",
+    "A096840"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

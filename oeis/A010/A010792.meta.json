@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n!*(n+3)! / 3!.",
+  "id": "A010792",
+  "mentions": [
+    "A010791",
+    "A010793",
+    "A010794",
+    "A010795",
+    "A261879"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "The smallest k>1 such that k divides sigma(k*n) is equal to 3.",
+  "id": "A067051",
+  "mentions": [
+    "A000203",
+    "A001105",
+    "A028982",
+    "A049605",
+    "A072862",
+    "A074216",
+    "A074384",
+    "A074627",
+    "A074628",
+    "A074629",
+    "A074630",
+    "A084301",
+    "A087943"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

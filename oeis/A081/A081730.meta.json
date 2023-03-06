@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the n-th Euler number == 1 (mod n).",
+  "id": "A081730",
+  "mentions": [
+    "A000364",
+    "A035163",
+    "A069042"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

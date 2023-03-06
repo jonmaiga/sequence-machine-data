@@ -1,0 +1,27 @@
+{
+  "description": "Number of divisors of n which are > 1 and < n (nontrivial divisors).",
+  "id": "A070824",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A027751",
+    "A032741",
+    "A051778",
+    "A074206",
+    "A175992",
+    "A200213",
+    "A251683"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

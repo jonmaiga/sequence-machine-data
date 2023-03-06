@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 3^n-2^(n-1) is prime.",
+  "id": "A095906",
+  "mentions": [
+    "A082103"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

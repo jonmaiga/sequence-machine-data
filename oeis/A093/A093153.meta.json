@@ -1,0 +1,23 @@
+{
+  "description": "Difference between counts of odd composites in A093151 and A093152 [Count (1 mod 4) - count (3 mod 4)].",
+  "id": "A093153",
+  "mentions": [
+    "A091098",
+    "A091099",
+    "A091295",
+    "A093151",
+    "A093152"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

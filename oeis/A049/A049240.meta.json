@@ -1,0 +1,23 @@
+{
+  "description": "Smallest nonnegative value taken on by x^2 - n*y^2 for an infinite number of integer pairs (x, y).",
+  "id": "A049240",
+  "mentions": [
+    "A000037",
+    "A001045",
+    "A005931",
+    "A009531",
+    "A010052"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

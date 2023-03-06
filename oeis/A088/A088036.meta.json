@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^3 - 1 is divisible by a cube other than 1.",
+  "id": "A088036",
+  "mentions": [
+    "A046099",
+    "A068601",
+    "A088035"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

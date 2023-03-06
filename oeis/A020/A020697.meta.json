@@ -1,0 +1,19 @@
+{
+  "description": "Number of divisors of A019505(n).",
+  "id": "A020697",
+  "mentions": [
+    "A000005",
+    "A019505"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

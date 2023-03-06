@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of essentially different ways in which the integers 1,2,3,...,n can be arranged in a sequence such that all pairs of adjacent integers sum to a prime number. Rotations and reversals are counted only once.",
+  "id": "A073452",
+  "mentions": [
+    "A051252",
+    "A073451"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

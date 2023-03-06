@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of a nested radical: CubeRoot(1 + CubeRoot(2 + CubeRoot(3 + CubeRoot(4 + ...",
+  "id": "A099874",
+  "mentions": [
+    "A072449"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

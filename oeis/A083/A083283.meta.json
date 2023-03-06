@@ -1,0 +1,18 @@
+{
+  "description": "Engel expansion for i^i = exp(-Pi/2).",
+  "id": "A083283",
+  "mentions": [
+    "A049006",
+    "A049007"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

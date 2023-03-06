@@ -1,0 +1,22 @@
+{
+  "description": "Palindromic primes formed from the reflected decimal expansion of Pi.",
+  "id": "A039954",
+  "mentions": [
+    "A002385",
+    "A119351",
+    "A135697",
+    "A135698"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

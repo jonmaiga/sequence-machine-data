@@ -1,0 +1,22 @@
+{
+  "description": "Length of hypotenuse squared in right triangle formed by a palindromic spiral plotted in Cartesian coordinates.",
+  "id": "A048871",
+  "mentions": [
+    "A002113",
+    "A048851"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:16:33",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Construct difference array so that (1) first row begins with 1, (2) every row is monotonic increasing, (3) no number appears more than once, (4) smallest number not yet used begins a new row. Sequence gives first row of array.",
+  "id": "A057153",
+  "mentions": [
+    "A005228",
+    "A037257",
+    "A037260",
+    "A052474",
+    "A056230",
+    "A056231",
+    "A056232",
+    "A056233",
+    "A056234",
+    "A057154",
+    "A057267",
+    "A133544",
+    "A200379"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

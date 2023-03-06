@@ -1,0 +1,18 @@
+{
+  "description": "Number of Hamiltonian cycles in the directed graph with 2n nodes {0..2n-1} and edges from each i to 2i (mod 2n) and to 2i+1 (mod 2n).",
+  "id": "A027362",
+  "mentions": [
+    "A003473"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

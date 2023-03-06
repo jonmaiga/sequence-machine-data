@@ -1,0 +1,17 @@
+{
+  "description": "Number of solutions of +- 1 +- 2 +- ... +- (n-1) +- n = 0 in which the partial sums +- 1 +- ... +- k (1<=k<=n) are all distinct.",
+  "id": "A015818",
+  "mentions": [
+    "A063865"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

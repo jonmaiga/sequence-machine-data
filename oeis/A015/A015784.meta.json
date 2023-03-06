@@ -1,0 +1,15 @@
+{
+  "description": "Phi(n) + 5 | sigma(n + 5).",
+  "id": "A015784",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:56",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected labeled graphs with n nodes and n+7 edges.",
+  "id": "A096150",
+  "mentions": [
+    "A057500",
+    "A343088"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

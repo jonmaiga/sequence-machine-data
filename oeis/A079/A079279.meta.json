@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=n for n<=3; for n>3, a(n) is next integer sharing common factors with 1 or 2 of previous 3 terms.",
+  "id": "A079279",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

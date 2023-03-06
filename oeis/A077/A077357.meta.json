@@ -1,0 +1,19 @@
+{
+  "description": "Squares whose external digits (MSD and LSD) as well as internal digits form squares.",
+  "id": "A077357",
+  "mentions": [
+    "A077355",
+    "A077356"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

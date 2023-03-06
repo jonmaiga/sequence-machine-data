@@ -1,0 +1,19 @@
+{
+  "description": "Primes that represent some mean of 4 consecutive (2 smaller, itself, 1 larger) primes.",
+  "id": "A094932",
+  "mentions": [
+    "A034963"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 4,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = mod(A078008(n),10).",
+  "id": "A091085",
+  "mentions": [
+    "A078008"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:29:31",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

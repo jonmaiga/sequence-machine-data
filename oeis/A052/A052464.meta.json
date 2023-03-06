@@ -1,0 +1,28 @@
+{
+  "description": "Fixed points for operation of repeatedly replacing a number with the sum of the fifth power of its digits.",
+  "id": "A052464",
+  "mentions": [
+    "A003321",
+    "A023052",
+    "A046074",
+    "A046197",
+    "A052455",
+    "A055014",
+    "A124068",
+    "A124069",
+    "A226970"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

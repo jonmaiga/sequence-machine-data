@@ -1,0 +1,19 @@
+{
+  "description": "Position of n^2 in A003136.",
+  "id": "A024610",
+  "mentions": [
+    "A000290",
+    "A003136"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

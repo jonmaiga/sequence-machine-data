@@ -1,0 +1,20 @@
+{
+  "description": "Numbers which are either a divisor or a multiple of their 9's complement.",
+  "id": "A084020",
+  "mentions": [
+    "A002113",
+    "A084019"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

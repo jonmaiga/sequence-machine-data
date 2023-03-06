@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers seen in decimal expansion of Pi (disregarding the decimal period) contiguous, smallest and distinct.",
+  "id": "A050817",
+  "mentions": [
+    "A016062",
+    "A047777",
+    "A050807",
+    "A050818",
+    "A050819"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:50:55",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Squares whose digits occur with the same frequency.",
+  "id": "A052046",
+  "mentions": [
+    "A045540",
+    "A052047",
+    "A052048",
+    "A052049",
+    "A052050",
+    "A052051",
+    "A052052",
+    "A078255"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

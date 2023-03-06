@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted planar maps.",
+  "id": "A046650",
+  "mentions": [
+    "A000087",
+    "A046653"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:01:24",
+    "offset": 2,
+    "size": 29,
+    "source": "joeis"
+  }
+}

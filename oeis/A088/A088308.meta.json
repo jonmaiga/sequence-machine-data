@@ -1,0 +1,18 @@
+{
+  "description": "2 followed by list of composite numbers mod 10.",
+  "id": "A088308",
+  "mentions": [
+    "A002808",
+    "A083786"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

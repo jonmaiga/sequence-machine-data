@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k that divide sigma(k-1)+sigma(k)+sigma(k+1), where sigma() is the \"sum of integer divisors\" function.",
+  "id": "A072188",
+  "mentions": [
+    "A007691"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

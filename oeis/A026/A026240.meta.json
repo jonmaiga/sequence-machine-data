@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = |s(n) - n|, where s = A026239.",
+  "id": "A026240",
+  "mentions": [
+    "A026239"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:51",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: (1/(1-x^8))*exp( 8*sum_{i>=0} x^(8*i+1)/(8*i+1) ) for an order-8 linear recurrence with varying coefficients.",
+  "id": "A097682",
+  "mentions": [
+    "A001620",
+    "A097673",
+    "A097677",
+    "A097679",
+    "A097681"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

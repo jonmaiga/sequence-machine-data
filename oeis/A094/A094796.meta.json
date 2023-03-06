@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows giving coefficients of polynomials arising in successive differences of central binomial numbers.",
+  "id": "A094796",
+  "mentions": [
+    "A000244",
+    "A000984",
+    "A027472",
+    "A036217",
+    "A163771"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

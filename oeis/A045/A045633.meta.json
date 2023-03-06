@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2n-bead black-white reversible complementable necklaces with n black beads and fundamental period 2n.",
+  "id": "A045633",
+  "mentions": [
+    "A006840"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:55:09",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

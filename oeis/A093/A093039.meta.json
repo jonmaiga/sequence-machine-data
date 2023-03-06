@@ -1,0 +1,24 @@
+{
+  "description": "Sequence resulting from a sum of three repeated binomial(n+3,4) sequences.",
+  "id": "A093039",
+  "mentions": [
+    "A001318",
+    "A001651",
+    "A008805",
+    "A028724",
+    "A058187",
+    "A189976"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

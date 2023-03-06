@@ -1,0 +1,29 @@
+{
+  "description": "Gaussian binomial coefficient [ n,10 ] for q=-7.",
+  "id": "A015393",
+  "mentions": [
+    "A015386",
+    "A015388",
+    "A015390",
+    "A015391",
+    "A015392",
+    "A015394",
+    "A015397",
+    "A015398",
+    "A015399",
+    "A015401",
+    "A015402"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 10,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest a(n) not already in the sequence and not having the same length as a(n-1).",
+  "id": "A098760",
+  "mentions": [
+    "A001633",
+    "A001637"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

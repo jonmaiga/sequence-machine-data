@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(621).",
+  "id": "A042192",
+  "mentions": [
+    "A040596",
+    "A042193"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:53",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

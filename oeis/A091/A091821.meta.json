@@ -1,0 +1,16 @@
+{
+  "description": "a(n) counts the one-bits in the binary representation of n when we cycle from left to right through the individual bits of n, restarting at the leftmost bit after the rightmost is reached and performing n bitwise steps in total.",
+  "id": "A091821",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

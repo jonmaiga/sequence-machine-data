@@ -1,0 +1,28 @@
+{
+  "description": "Suppose n=(p1^e1)(p2^e2)... where p1,p2,... are the prime numbers and e1,e2,... are nonnegative integers. Then a(n) = e1 + (e2)*5 + (e3)*25 + (e4)*125 + ... + (ek)*(5^(k-1)) + ...",
+  "id": "A090882",
+  "mentions": [
+    "A001222",
+    "A048675",
+    "A054841",
+    "A090880",
+    "A090881",
+    "A090883",
+    "A090884",
+    "A195017",
+    "A248663",
+    "A276075",
+    "A276085"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

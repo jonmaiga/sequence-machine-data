@@ -1,0 +1,23 @@
+{
+  "description": "Substring of both its square and its cube.",
+  "id": "A029943",
+  "mentions": [
+    "A003226",
+    "A018834",
+    "A029942"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

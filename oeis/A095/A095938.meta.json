@@ -1,0 +1,17 @@
+{
+  "description": "a(n+1) = (a(n)-1)-th prime + 1.",
+  "id": "A095938",
+  "mentions": [
+    "A007097"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

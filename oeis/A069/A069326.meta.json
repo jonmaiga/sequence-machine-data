@@ -1,0 +1,37 @@
+{
+  "description": "Number of 4 X n binary arrays with path of adjacent 1's from upper right corner to lower left corner.",
+  "id": "A069326",
+  "mentions": [
+    "A048739",
+    "A069325",
+    "A069327",
+    "A069328",
+    "A069329",
+    "A069330",
+    "A069331",
+    "A069332",
+    "A069333",
+    "A069334",
+    "A069335",
+    "A069336",
+    "A069337",
+    "A069338",
+    "A069339",
+    "A069340",
+    "A069341",
+    "A069342",
+    "A069343",
+    "A069344",
+    "A359575"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

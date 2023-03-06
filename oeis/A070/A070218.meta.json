@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 2; a(n) is the smallest prime greater than the sum of all previous terms.",
+  "id": "A070218",
+  "mentions": [
+    "A063807",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

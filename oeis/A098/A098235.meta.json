@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as a sum of two ordered positive squarefree numbers.",
+  "id": "A098235",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A008966",
+    "A071068",
+    "A098236"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n * prime(prime(n)).",
+  "id": "A080697",
+  "mentions": [
+    "A000040",
+    "A006450",
+    "A033286"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:47:07",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

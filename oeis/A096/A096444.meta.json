@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (Pi - 1)/2.",
+  "id": "A096444",
+  "mentions": [
+    "A019669",
+    "A096418",
+    "A121225",
+    "A342680"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:31:39",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

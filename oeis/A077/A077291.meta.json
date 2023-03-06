@@ -1,0 +1,21 @@
+{
+  "description": "Second member of Diophantine pair (m,k) that satisfies 6*(m^2 + m) = k^2 + k: a(n) = k.",
+  "id": "A077291",
+  "mentions": [
+    "A077288",
+    "A077289",
+    "A077290"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

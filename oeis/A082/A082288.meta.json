@@ -1,0 +1,22 @@
+{
+  "description": "n>1 appears bigomega(n) times, where bigomega(n)=A001222(n) is the number of prime factors of n (with repetition), a(1)=1.",
+  "id": "A082288",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A022559",
+    "A027746",
+    "A082287",
+    "A112798"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

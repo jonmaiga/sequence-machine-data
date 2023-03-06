@@ -1,0 +1,18 @@
+{
+  "description": "Minimum value of abs(n-x*tau(x)) x>0.",
+  "id": "A073068",
+  "mentions": [
+    "A036438"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

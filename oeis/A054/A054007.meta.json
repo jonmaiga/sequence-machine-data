@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k and k+1 have the same sum but an unequal number of divisors.",
+  "id": "A054007",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A002961",
+    "A005237",
+    "A053249",
+    "A054004",
+    "A054005",
+    "A054006"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

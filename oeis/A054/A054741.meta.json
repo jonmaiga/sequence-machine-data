@@ -1,0 +1,30 @@
+{
+  "description": "Numbers m such that totient(m) < cototient(m).",
+  "id": "A054741",
+  "mentions": [
+    "A000010",
+    "A000079",
+    "A005408",
+    "A007947",
+    "A036798",
+    "A051953",
+    "A083254",
+    "A089684",
+    "A115405",
+    "A119432",
+    "A173557",
+    "A177712",
+    "A323170"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = lcm(n, A025586(n)), least common multiple of n and largest value in 3x+1 iteration list started at n.",
+  "id": "A087259",
+  "mentions": [
+    "A025586",
+    "A033496",
+    "A087261"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

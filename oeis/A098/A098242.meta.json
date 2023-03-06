@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that gcd(2k+1, numerator(Bernoulli(4k+2))) is not squarefree.",
+  "id": "A098242",
+  "mentions": [
+    "A067778",
+    "A097704",
+    "A098240"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of 1/((1-x)(1-x^5)(1-x^6)(1-x^12)).",
+  "id": "A029090",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:41:11",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

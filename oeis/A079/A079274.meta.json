@@ -1,0 +1,19 @@
+{
+  "description": "Number of divisors associated with the cyclic cases within the n-th group of least prime signatures.",
+  "id": "A079274",
+  "mentions": [
+    "A074141"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

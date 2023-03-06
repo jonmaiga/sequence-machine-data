@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = (4*n+10)(!^4)/10(!^4), related to A000407 ((4*n+2)(!^4) quartic, or 4-factorials).",
+  "id": "A051622",
+  "mentions": [
+    "A000407",
+    "A001813",
+    "A007696",
+    "A034176",
+    "A034177",
+    "A047053",
+    "A051617",
+    "A051618",
+    "A051621"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

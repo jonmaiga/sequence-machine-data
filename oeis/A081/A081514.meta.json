@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: row n = lexicographically earliest choice for n distinct divisors of A081512(n) = m whose sum is m.",
+  "id": "A081514",
+  "mentions": [
+    "A081512",
+    "A081513"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

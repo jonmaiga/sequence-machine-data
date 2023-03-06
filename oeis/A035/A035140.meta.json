@@ -1,0 +1,19 @@
+{
+  "description": "Digits of juxtaposition of prime factors of n appear also in n.",
+  "id": "A035140",
+  "mentions": [
+    "A035139",
+    "A035141"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:18:43",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

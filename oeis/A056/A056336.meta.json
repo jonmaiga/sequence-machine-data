@@ -1,0 +1,22 @@
+{
+  "description": "Number of primitive (aperiodic) reversible string structures with n beads using exactly two different colors.",
+  "id": "A056336",
+  "mentions": [
+    "A056318",
+    "A056331",
+    "A056391",
+    "A063524",
+    "A276544"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:00:48",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

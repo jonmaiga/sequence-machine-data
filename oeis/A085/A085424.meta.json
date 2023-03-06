@@ -1,0 +1,23 @@
+{
+  "description": "Number of ones in the symmetric signed digit expansion of n with q=2 (i.e., the representation of n in the (-1,0,1)_2 number system).",
+  "id": "A085424",
+  "mentions": [
+    "A005578",
+    "A007302",
+    "A057526",
+    "A085423",
+    "A085425"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

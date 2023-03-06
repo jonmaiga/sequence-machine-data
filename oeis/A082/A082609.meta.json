@@ -1,0 +1,20 @@
+{
+  "description": "Begin with 1 and then smallest number not included earlier such that a(n)*a(n+1) -1 is a cube.",
+  "id": "A082609",
+  "mentions": [
+    "A082607",
+    "A082608",
+    "A082610",
+    "A083203"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

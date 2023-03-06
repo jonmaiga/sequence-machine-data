@@ -1,0 +1,28 @@
+{
+  "description": "Superduperfactorials: product of first n superfactorials.",
+  "id": "A055462",
+  "mentions": [
+    "A000142",
+    "A000178",
+    "A000332",
+    "A002109",
+    "A002117",
+    "A036740",
+    "A074962",
+    "A255268",
+    "A255269",
+    "A306635"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

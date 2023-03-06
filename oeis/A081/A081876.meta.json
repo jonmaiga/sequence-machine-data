@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the starting position of the second occurrence of a string of the initial n decimal digits of Pi in the decimal expansion of Pi.",
+  "id": "A081876",
+  "mentions": [
+    "A000796",
+    "A048940",
+    "A166028"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

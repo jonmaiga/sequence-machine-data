@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that 3^n+2 is a semiprime.",
+  "id": "A081715",
+  "mentions": [
+    "A001358",
+    "A051783",
+    "A057735",
+    "A080443",
+    "A080892"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

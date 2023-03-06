@@ -1,0 +1,33 @@
+{
+  "description": "Numbers with digits 3 and 4 only.",
+  "id": "A032834",
+  "mentions": [
+    "A000523",
+    "A002276",
+    "A007088",
+    "A007931",
+    "A032810",
+    "A032829",
+    "A032833",
+    "A102659",
+    "A256077",
+    "A256290",
+    "A256291",
+    "A256292",
+    "A256340",
+    "A256341"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:15",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

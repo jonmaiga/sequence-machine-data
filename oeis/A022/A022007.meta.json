@@ -1,0 +1,22 @@
+{
+  "description": "Initial members of prime 5-tuples (p, p+4, p+6, p+10, p+12).",
+  "id": "A022007",
+  "mentions": [
+    "A000040",
+    "A022006",
+    "A052378",
+    "A089157"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:28",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

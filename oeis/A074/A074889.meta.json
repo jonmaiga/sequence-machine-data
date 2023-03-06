@@ -1,0 +1,18 @@
+{
+  "description": "Non-palindromic numbers such that the two largest proper divisors are palindromes having at least two digits and no other divisor is a palindrome with at least two digits.",
+  "id": "A074889",
+  "mentions": [
+    "A075407"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Intersection of A003136 and A038590.",
+  "id": "A038160",
+  "mentions": [
+    "A003136",
+    "A038590"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

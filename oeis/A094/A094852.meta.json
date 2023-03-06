@@ -1,0 +1,18 @@
+{
+  "description": "Records in A001992.",
+  "id": "A094852",
+  "mentions": [
+    "A001992",
+    "A094853"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

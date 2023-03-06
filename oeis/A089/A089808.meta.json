@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(1/((n*r) mod 1)), where r = phi^(-2) = (3 - sqrt(5))/2.",
+  "id": "A089808",
+  "mentions": [
+    "A024569",
+    "A078588",
+    "A089809"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

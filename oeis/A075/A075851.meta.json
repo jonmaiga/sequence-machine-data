@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations s of {1,2,...,n} such that |s(i)-i|>2 for each i=1,2,...,n.",
+  "id": "A075851",
+  "mentions": [
+    "A001883",
+    "A075852"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

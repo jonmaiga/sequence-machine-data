@@ -1,0 +1,18 @@
+{
+  "description": "Smallest primes of form p = 2^x-(2n-1) where x=A096502(n), the least exponent providing this kind of prime.",
+  "id": "A096822",
+  "mentions": [
+    "A096502",
+    "A101036"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

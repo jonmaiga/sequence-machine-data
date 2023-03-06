@@ -1,0 +1,34 @@
+{
+  "description": "Quintuple factorial numbers: a(n) = Product_{k=0..n-1} (5*k + 2).",
+  "id": "A047055",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A000165",
+    "A001813",
+    "A008544",
+    "A008548",
+    "A047056",
+    "A047215",
+    "A047657",
+    "A048994",
+    "A052562",
+    "A084940",
+    "A084947",
+    "A084948",
+    "A084949",
+    "A169621"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

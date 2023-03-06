@@ -1,0 +1,24 @@
+{
+  "description": "Prime factorization of n encoded by interleaving successive prime exponents in unary to bit-positions given by columns of A001477.",
+  "id": "A075175",
+  "mentions": [
+    "A001477",
+    "A003986",
+    "A003987",
+    "A003989",
+    "A003990",
+    "A004198",
+    "A075173",
+    "A075176"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

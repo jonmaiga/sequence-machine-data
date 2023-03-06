@@ -1,0 +1,17 @@
+{
+  "description": "Column 6 of triangle A055898.",
+  "id": "A055902",
+  "mentions": [
+    "A055898"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:29:35",
+    "offset": 6,
+    "size": 25,
+    "source": "joeis"
+  }
+}

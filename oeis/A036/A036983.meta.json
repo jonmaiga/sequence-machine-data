@@ -1,0 +1,20 @@
+{
+  "description": "Number of invariants in Hilbert basis for binary forms of degree n.",
+  "id": "A036983",
+  "mentions": [
+    "A036984"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

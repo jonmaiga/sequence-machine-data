@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number k such that A065422(k)/A065422(k+1) = k^n, where k>1.",
+  "id": "A070970",
+  "mentions": [
+    "A065422"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

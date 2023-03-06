@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A002430(n) / A046990(n).",
+  "id": "A092505",
+  "mentions": [
+    "A002430",
+    "A007814",
+    "A046990",
+    "A130654"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

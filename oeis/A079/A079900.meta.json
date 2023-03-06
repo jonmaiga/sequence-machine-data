@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = the smallest positive number which furnishes a \"one-line proof\" for primality of prime(n), the n-th prime; i.e., the smallest k which is relatively prime to p such that k*(p+k) is divisible by every prime less than sqrt(p), where p=prime(n).",
+  "id": "A079900",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

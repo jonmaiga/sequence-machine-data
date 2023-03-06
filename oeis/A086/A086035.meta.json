@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the prime zeta modulo function at 5 for primes of the form 4k+1.",
+  "id": "A086035",
+  "mentions": [
+    "A002144",
+    "A085965",
+    "A085994",
+    "A086032",
+    "A086039",
+    "A343615",
+    "A343625"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

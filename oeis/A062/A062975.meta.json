@@ -1,0 +1,17 @@
+{
+  "description": "Half-totient function of n is not divisible by the number of divisors of n.",
+  "id": "A062975",
+  "mentions": [
+    "A023022"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 3,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=0, a(1)=1, a(2)=10; for n>2, a(n) = a(n-1)^2 + 10.",
+  "id": "A092501",
+  "mentions": [
+    "A092500"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

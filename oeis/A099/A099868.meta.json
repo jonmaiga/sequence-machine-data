@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 5*a(n-1) - a(n-2), a(0) = 3, a(1) = 25.",
+  "id": "A099868",
+  "mentions": [
+    "A003501",
+    "A004254",
+    "A099867"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

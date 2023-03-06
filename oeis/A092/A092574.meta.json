@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers that can be represented in the form x^2 + 3y^2 with (x,y) = 1 and x and y positive.",
+  "id": "A092574",
+  "mentions": [
+    "A002476",
+    "A092572",
+    "A092573",
+    "A092575",
+    "A244819"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

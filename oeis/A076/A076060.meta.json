@@ -1,0 +1,20 @@
+{
+  "description": "Sums of members of groups in A076062.",
+  "id": "A076060",
+  "mentions": [
+    "A076058",
+    "A076059",
+    "A076061",
+    "A076062"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations s of {1,2,...,n} such that |s(i)-i| for i=1,2,...,n are all distinct.",
+  "id": "A075866",
+  "mentions": [
+    "A125183"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

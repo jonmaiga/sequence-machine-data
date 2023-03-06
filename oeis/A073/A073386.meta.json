@@ -1,0 +1,23 @@
+{
+  "description": "Ninth convolution of A000129(n+1) (generalized (2,1)-Fibonacci, called Pell numbers), n>=0, with itself.",
+  "id": "A073386",
+  "mentions": [
+    "A000129",
+    "A054456",
+    "A058402",
+    "A058403",
+    "A073385"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-element unlabeled ordered T_0-antichains without isolated vertices; number of T_1-hypergraphs (without empty edge and without multiple edges) on n labeled vertices.",
+  "id": "A059523",
+  "mentions": [
+    "A003465",
+    "A059052",
+    "A059201",
+    "A326961"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

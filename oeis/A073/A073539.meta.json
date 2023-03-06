@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that if p is a prime and divides k then p divides phi(k) (but converse is not a condition for the sequence: phi(k) could have prime factors not dividing k).",
+  "id": "A073539",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A002322",
+    "A007947",
+    "A055744",
+    "A151999"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

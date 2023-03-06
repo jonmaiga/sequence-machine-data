@@ -1,0 +1,21 @@
+{
+  "description": "The binary encoding (as a rooted planar tree) of each rooted planar binary tree. See A057123 for illustration.",
+  "id": "A057122",
+  "mentions": [
+    "A014486",
+    "A057119",
+    "A057123",
+    "A057124",
+    "A057517"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-27 12:56:36",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

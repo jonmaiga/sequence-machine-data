@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (12*Pi)/715.",
+  "id": "A093591",
+  "mentions": [
+    "A093524"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:35",
+    "offset": 0,
+    "size": 103,
+    "source": "joeis"
+  }
+}

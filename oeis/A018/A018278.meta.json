@@ -1,0 +1,22 @@
+{
+  "description": "Divisors of 90.",
+  "id": "A018278",
+  "mentions": [
+    "A018271",
+    "A018276",
+    "A033630"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

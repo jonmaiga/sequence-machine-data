@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2*phi(n)/2^omega(n).",
+  "id": "A070306",
+  "mentions": [
+    "A000010",
+    "A001221",
+    "A271547"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

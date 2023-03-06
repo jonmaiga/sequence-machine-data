@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = a(2) = 0; for n > 2, the least dimension of a lattice possessing a symmetry of order n.",
+  "id": "A080737",
+  "mentions": [
+    "A000010",
+    "A067240",
+    "A080736",
+    "A080738",
+    "A080739",
+    "A080740",
+    "A141809",
+    "A152455"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Table by antidiagonals of n*k*(k+1)/2.",
+  "id": "A062707",
+  "mentions": [
+    "A000217",
+    "A000332",
+    "A001477",
+    "A002411",
+    "A057145"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

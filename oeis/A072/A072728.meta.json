@@ -1,0 +1,26 @@
+{
+  "description": "Numerator of rationals >= 1 whose continued fractions consist only of 1's and 2's, in ascending order by the sum of the continued fraction terms and descending by lowest order continued fraction terms to highest.",
+  "id": "A072728",
+  "mentions": [
+    "A000129",
+    "A071585",
+    "A071766",
+    "A072726",
+    "A072727",
+    "A072729"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

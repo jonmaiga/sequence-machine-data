@@ -1,0 +1,24 @@
+{
+  "description": "Number of asymmetric rooted polygonal cacti with bridges (mixed Husimi trees).",
+  "id": "A035353",
+  "mentions": [
+    "A000083",
+    "A000237",
+    "A000314",
+    "A035082",
+    "A035349",
+    "A035357"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

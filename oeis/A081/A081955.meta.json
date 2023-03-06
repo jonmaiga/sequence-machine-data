@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^r*3^s where r = n(n+1)/2 and s = n(n-1)/2.",
+  "id": "A081955",
+  "mentions": [
+    "A025192",
+    "A081954",
+    "A081956",
+    "A171795"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

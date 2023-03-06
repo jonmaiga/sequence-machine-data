@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(699).",
+  "id": "A042344",
+  "mentions": [
+    "A042345"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:36:04",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

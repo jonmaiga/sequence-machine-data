@@ -1,0 +1,19 @@
+{
+  "description": "Number of self-avoiding paths with diagonal steps from corner to opposite corner of n X n grid.",
+  "id": "A038496",
+  "mentions": [
+    "A007764",
+    "A140518"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

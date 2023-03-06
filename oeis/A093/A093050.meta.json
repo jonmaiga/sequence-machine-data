@@ -1,0 +1,24 @@
+{
+  "description": "Exponent of 2 in (3^n-3)*2^(n-1).",
+  "id": "A093050",
+  "mentions": [
+    "A016129",
+    "A024281",
+    "A024287",
+    "A066406",
+    "A071952",
+    "A093051",
+    "A093052"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

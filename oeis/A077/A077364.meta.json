@@ -1,0 +1,21 @@
+{
+  "description": "Largest n-digit square whose external digits as well as internal digits form a square, or 0 if no such number exists.",
+  "id": "A077364",
+  "mentions": [
+    "A077355",
+    "A077356",
+    "A077357",
+    "A077363"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

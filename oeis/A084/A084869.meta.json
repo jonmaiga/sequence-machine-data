@@ -1,0 +1,29 @@
+{
+  "description": "Number of 2-multiantichains of an n-set.",
+  "id": "A084869",
+  "mentions": [
+    "A000079",
+    "A000217",
+    "A000392",
+    "A016269",
+    "A032263",
+    "A034472",
+    "A047707",
+    "A051112",
+    "A051118",
+    "A084870",
+    "A084883"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

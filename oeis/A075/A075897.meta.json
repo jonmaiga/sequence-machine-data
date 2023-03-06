@@ -1,0 +1,20 @@
+{
+  "description": "1 if binary weight of n is 1 or 2, otherwise 0.",
+  "id": "A075897",
+  "mentions": [
+    "A000120",
+    "A048645"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways of 4-coloring a map in which there is a central circle surrounded by an annulus divided into n-1 regions. There are n regions in all.",
+  "id": "A090860",
+  "mentions": [
+    "A001045",
+    "A008683",
+    "A092297"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 4,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

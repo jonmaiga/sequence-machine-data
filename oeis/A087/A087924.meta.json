@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways of arranging the numbers 1 ... 3n into a 3 X n array so there is exactly one local maximum.",
+  "id": "A087924",
+  "mentions": [
+    "A007846",
+    "A087783"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

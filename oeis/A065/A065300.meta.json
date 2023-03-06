@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sum of divisors is a squarefree number.",
+  "id": "A065300",
+  "mentions": [
+    "A000203",
+    "A002110",
+    "A008683",
+    "A065299"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

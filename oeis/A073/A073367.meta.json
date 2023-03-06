@@ -1,0 +1,19 @@
+{
+  "description": "Remainder when n-th composite is divided by number of composites not exceeding n.",
+  "id": "A073367",
+  "mentions": [
+    "A002808",
+    "A065855"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 4,
+    "size": 88,
+    "source": "joeis"
+  }
+}

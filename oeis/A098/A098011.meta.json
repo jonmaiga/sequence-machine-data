@@ -1,0 +1,22 @@
+{
+  "description": "10^a(n) + 1 = A088773(n).",
+  "id": "A098011",
+  "mentions": [
+    "A003953",
+    "A042950",
+    "A088773",
+    "A119440"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

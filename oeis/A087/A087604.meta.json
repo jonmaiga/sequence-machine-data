@@ -1,0 +1,24 @@
+{
+  "description": "Smallest k such that n times concatenation of k with itself followed by a 3 is a prime, or 0 if no such number exists.",
+  "id": "A087604",
+  "mentions": [
+    "A086920",
+    "A087605",
+    "A087606",
+    "A087607",
+    "A087608",
+    "A087609",
+    "A087610"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

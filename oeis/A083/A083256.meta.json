@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A046523(n-th nonprime number) = A046523(A018252(n)).",
+  "id": "A083256",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A007395",
+    "A018252",
+    "A046523",
+    "A071364",
+    "A083257"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

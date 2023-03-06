@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = position of n^2 + (n+1)^2 in A004431 (sums of 2 distinct nonzero squares).",
+  "id": "A024513",
+  "mentions": [
+    "A004431"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

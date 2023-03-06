@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of x / ( (x-1)*(x^3 - 9*x^2 + 6*x - 1) ).",
+  "id": "A094256",
+  "mentions": [
+    "A000108",
+    "A005023",
+    "A080938",
+    "A094829",
+    "A332437",
+    "A332438",
+    "A332602"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

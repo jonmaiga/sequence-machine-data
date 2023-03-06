@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor( prime(n)*prime(n+2) / prime(n+1) ).",
+  "id": "A073271",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A022462",
+    "A073272",
+    "A073273"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

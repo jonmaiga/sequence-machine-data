@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of B(4n+2)/(8n+4) where B(m) are the Bernoulli numbers.",
+  "id": "A043304",
+  "mentions": [
+    "A043303"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Beginning with 2, a(n+1) is the least prime == -1 (mod Product_{i=1..n} a(i) ).",
+  "id": "A090475",
+  "mentions": [
+    "A071580",
+    "A090474",
+    "A090476",
+    "A258081"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of semiprime divisors of n-th composite number.",
+  "id": "A088737",
+  "mentions": [
+    "A001221",
+    "A001358",
+    "A002808",
+    "A056170",
+    "A088738"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

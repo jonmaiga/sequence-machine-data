@@ -1,0 +1,20 @@
+{
+  "description": "Series expansion of (-3 - 2*x)/(1 + x - x^3) in powers of x.",
+  "id": "A078712",
+  "mentions": [
+    "A001608",
+    "A001945"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:25:38",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

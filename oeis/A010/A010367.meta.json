@@ -1,0 +1,21 @@
+{
+  "description": "High-temperature spin-1/2 Ising model series for second derivative of susceptibility with respect to magnetic field for A_4* lattice.",
+  "id": "A010367",
+  "mentions": [
+    "A010047",
+    "A010559",
+    "A010560",
+    "A010564"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

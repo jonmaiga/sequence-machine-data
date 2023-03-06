@@ -1,0 +1,22 @@
+{
+  "description": "Primes of form x^2+6*y^2.",
+  "id": "A033199",
+  "mentions": [
+    "A002481",
+    "A107006",
+    "A107008",
+    "A139643"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

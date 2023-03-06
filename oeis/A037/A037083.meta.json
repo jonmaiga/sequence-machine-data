@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n!!! + 1 is prime (0 is included by convention).",
+  "id": "A037083",
+  "mentions": [
+    "A007661",
+    "A037082",
+    "A084438"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

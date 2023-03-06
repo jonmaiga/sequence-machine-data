@@ -1,0 +1,23 @@
+{
+  "description": "Length of longest contiguous block of 1's in binary expansion of n^3.",
+  "id": "A090003",
+  "mentions": [
+    "A000120",
+    "A000578",
+    "A038374",
+    "A090001",
+    "A090002",
+    "A090049"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

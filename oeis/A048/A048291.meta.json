@@ -1,0 +1,29 @@
+{
+  "description": "Number of {0,1} n X n matrices with no zero rows or columns.",
+  "id": "A048291",
+  "mentions": [
+    "A054976",
+    "A055599",
+    "A055601",
+    "A086193",
+    "A086206",
+    "A104601",
+    "A104602",
+    "A183109",
+    "A247158",
+    "A283624"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of integers from 0 to 10^n-1 which contain at least one decimal digit = 0.",
+  "id": "A095807",
+  "mentions": [
+    "A016189"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

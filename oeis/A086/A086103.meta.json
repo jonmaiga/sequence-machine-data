@@ -1,0 +1,19 @@
+{
+  "description": "Primes appearing as the concatenation of the last two digits of prime(A086102(n)) and the first two digits of prime(A086102(n)+1).",
+  "id": "A086103",
+  "mentions": [
+    "A086102"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

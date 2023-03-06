@@ -1,0 +1,29 @@
+{
+  "description": "a(0) = 1; for n > 0, a(n) = number of rings with n elements.",
+  "id": "A027623",
+  "mentions": [
+    "A037234",
+    "A037289",
+    "A037291",
+    "A127707",
+    "A127708",
+    "A209401",
+    "A342375",
+    "A342376",
+    "A342377"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "more",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

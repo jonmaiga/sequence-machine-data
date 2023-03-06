@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose iterated sum of digits is a prime.",
+  "id": "A028835",
+  "mentions": [
+    "A010888",
+    "A028834",
+    "A028843"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

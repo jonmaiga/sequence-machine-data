@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n*(2*n+5).",
+  "id": "A033537",
+  "mentions": [
+    "A014107",
+    "A100035",
+    "A100036",
+    "A100037",
+    "A100038",
+    "A100039"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:06:29",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

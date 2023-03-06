@@ -1,0 +1,20 @@
+{
+  "description": "Triple products of Fibonacci numbers: F(i)*F(j)*F(k), 2 <= i <= j <= k.",
+  "id": "A094563",
+  "mentions": [
+    "A000045",
+    "A049997",
+    "A065108",
+    "A094564"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

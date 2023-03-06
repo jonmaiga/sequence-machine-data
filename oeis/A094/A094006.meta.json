@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = a(2) = 1; for n > 1, a(n+1) = largest integer k such that the word a(1)a(2)...a(n-1) is of the form xy^k for words x and y (where y has positive length), i.e., the maximal number of repeating blocks at the end of the sequence so far.",
+  "id": "A094006",
+  "mentions": [
+    "A090822"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

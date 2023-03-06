@@ -1,0 +1,19 @@
+{
+  "description": "Factor 2n+1 = (2^m1)*(3^m2)*(5^m3)*...; a(n) = number of initial zero exponents.",
+  "id": "A038802",
+  "mentions": [
+    "A020639",
+    "A049084"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:42:11",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

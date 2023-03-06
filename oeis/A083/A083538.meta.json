@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sigma(n)*sigma(n+1)/gcd(sigma(n+1), sigma(n))^2.",
+  "id": "A083538",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A058515",
+    "A060780",
+    "A060781",
+    "A066813",
+    "A083539"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

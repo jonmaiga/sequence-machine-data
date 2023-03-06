@@ -1,0 +1,18 @@
+{
+  "description": "Perfect powers that can be permuted into another perfect power (in base 10).",
+  "id": "A069656",
+  "mentions": [
+    "A001597"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

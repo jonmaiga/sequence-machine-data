@@ -1,0 +1,22 @@
+{
+  "description": "Sum of 18 but no fewer nonzero fourth powers.",
+  "id": "A046049",
+  "mentions": [
+    "A000583",
+    "A002377",
+    "A046048",
+    "A099591"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

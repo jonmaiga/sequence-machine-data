@@ -1,0 +1,21 @@
+{
+  "description": "x^2 + y^2 does not take on all possible values mod n.",
+  "id": "A053443",
+  "mentions": [
+    "A053444",
+    "A064533",
+    "A240370",
+    "A243379"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

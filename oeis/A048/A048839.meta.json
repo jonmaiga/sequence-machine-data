@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n dividing P(n)!, where P(n) is the largest prime factor of n.",
+  "id": "A048839",
+  "mentions": [
+    "A002034",
+    "A057109"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:06:13",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

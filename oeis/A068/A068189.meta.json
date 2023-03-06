@@ -1,0 +1,26 @@
+{
+  "description": "Smallest positive number whose product of digits equals n, or a(n)=0 if no such number exists, i.e. when n has a prime divisor greater than 7.",
+  "id": "A068189",
+  "mentions": [
+    "A001222",
+    "A002473",
+    "A007954",
+    "A067734",
+    "A068183",
+    "A068187",
+    "A068191",
+    "A085123",
+    "A280249"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

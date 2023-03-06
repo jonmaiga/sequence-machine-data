@@ -1,0 +1,26 @@
+{
+  "description": "A sum with next-to-central binomial coefficients of even order, Catalan related.",
+  "id": "A029760",
+  "mentions": [
+    "A000108",
+    "A000346",
+    "A000984",
+    "A001700",
+    "A001791",
+    "A002457",
+    "A008549",
+    "A039598",
+    "A139262"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

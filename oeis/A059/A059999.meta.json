@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (1/6)*n^5 - (19/8)*n^4 + (51/4)*n^3 - (253/8)*n^2 + (445/12)*n - 14.",
+  "id": "A059999",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "dumb",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:35:39",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

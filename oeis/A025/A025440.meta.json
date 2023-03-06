@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1/((1-2x)(1-3x)(1-4x)(1-6x)).",
+  "id": "A025440",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:30:23",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of Boolean functions on n inputs with representing polynomial of max degree n.",
+  "id": "A037267",
+  "mentions": [
+    "A001146",
+    "A037293"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:42:59",
+    "offset": 0,
+    "size": 7,
+    "source": "joeis"
+  }
+}

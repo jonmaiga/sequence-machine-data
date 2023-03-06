@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of the probability that the convex hull of n+2 randomly chosen points in the unit ball B^n has n+1 vertices.",
+  "id": "A051050",
+  "mentions": [
+    "A051051"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:13:04",
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

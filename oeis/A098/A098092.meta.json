@@ -1,0 +1,19 @@
+{
+  "description": "Unique solution to the [10,3] postage stamp problem (showing that V(10,3) = 155).",
+  "id": "A098092",
+  "mentions": [
+    "A001213"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

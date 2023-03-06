@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that (2*10^(5*n) - 10^(4*n) + 2*10^(3*n) + 10^(2*n) + 10^n + 1)/3 is prime.",
+  "id": "A051832",
+  "mentions": [
+    "A051750",
+    "A051751",
+    "A051833",
+    "A052040",
+    "A052041",
+    "A052042",
+    "A052043",
+    "A052044",
+    "A052045"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

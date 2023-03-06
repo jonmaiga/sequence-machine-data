@@ -1,0 +1,16 @@
+{
+  "description": "For m>0, each n+m > 5 is expressed as Sum_{k = x,y,z}(pk)_m where (pk)_m is a prime with x <= y <= z; a(n) = largest m such that (pk)_1 = (pk)_2 = ... = (pk)_m.",
+  "id": "A059965",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

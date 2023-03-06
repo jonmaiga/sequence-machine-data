@@ -1,0 +1,20 @@
+{
+  "description": "Main diagonal of triangle A097094; g.f. A(x) satisfies A(x)/(1-x-x^2) = A(x^2)^2/(1-x-x^3)^2.",
+  "id": "A097095",
+  "mentions": [
+    "A097094",
+    "A097096",
+    "A097097"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

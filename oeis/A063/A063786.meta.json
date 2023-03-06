@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: A(x) = (x-2*x^2-2*x^3-(1+x)*sqrt(1-4*x^2)+sqrt(1-4*x^6))/(2*x^2).",
+  "id": "A063786",
+  "mentions": [
+    "A000108",
+    "A000207"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 2,
+    "size": 36,
+    "source": "joeis"
+  }
+}

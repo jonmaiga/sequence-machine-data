@@ -1,0 +1,30 @@
+{
+  "description": "Irregular triangle of rows of numbers in increasing order. Row 1 = {1}. Row m + 1 contains all numbers k such that phi(k) is in row m.",
+  "id": "A058812",
+  "mentions": [
+    "A000010",
+    "A003434",
+    "A005277",
+    "A007617",
+    "A007755",
+    "A058811",
+    "A060611",
+    "A092878",
+    "A098196",
+    "A135832",
+    "A334111"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

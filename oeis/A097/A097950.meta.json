@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: (1+x^5+x^10)/((1-x)*(1-x^3)).",
+  "id": "A097950",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:15:57",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

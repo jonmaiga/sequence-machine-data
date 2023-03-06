@@ -1,0 +1,21 @@
+{
+  "description": "Number of primitive (period n) n-bead necklaces with exactly five different colored beads.",
+  "id": "A056290",
+  "mentions": [
+    "A001692",
+    "A056285",
+    "A056391",
+    "A254040"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

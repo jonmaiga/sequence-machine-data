@@ -1,0 +1,28 @@
+{
+  "description": "Number of different numbers that are formed by permuting digits of n.",
+  "id": "A047726",
+  "mentions": [
+    "A000142",
+    "A043537",
+    "A043562",
+    "A055098",
+    "A055642",
+    "A100910",
+    "A171102",
+    "A179239"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (sqrt(20467) - sqrt(19578) + sqrt(10177) - sqrt(9553))/2.",
+  "id": "A087478",
+  "mentions": [
+    "A000796",
+    "A087477"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:58:15",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

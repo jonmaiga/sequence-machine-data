@@ -1,0 +1,25 @@
+{
+  "description": "Square array T(k,n) = C(n-1,k) + Sum_{i=0..k} C(n,i) read by antidiagonals (k >= 1, n >= 1).",
+  "id": "A059214",
+  "mentions": [
+    "A014206",
+    "A046127",
+    "A059173",
+    "A059174",
+    "A059250",
+    "A178522",
+    "A216274"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

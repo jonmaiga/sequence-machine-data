@@ -1,0 +1,20 @@
+{
+  "description": "Jacobi form of weight 12 and index 1 for the Niemeier lattice of type D_24.",
+  "id": "A055749",
+  "mentions": [
+    "A003785",
+    "A022055",
+    "A055747"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:25",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

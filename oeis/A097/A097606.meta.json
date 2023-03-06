@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of terms among {a(1), a(2), a(3), ..., a(n-1)} that are coprime to n; a(1)=6.",
+  "id": "A097606",
+  "mentions": [
+    "A096216"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

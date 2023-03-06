@@ -1,0 +1,17 @@
+{
+  "description": "Number of ordered biquanimous partitions of 2n.",
+  "id": "A064914",
+  "mentions": [
+    "A002219"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

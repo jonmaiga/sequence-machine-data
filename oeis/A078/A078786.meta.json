@@ -1,0 +1,20 @@
+{
+  "description": "Period of cycle of the inventory sequence (as in A063850) starting with n.",
+  "id": "A078786",
+  "mentions": [
+    "A063850",
+    "A078970"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

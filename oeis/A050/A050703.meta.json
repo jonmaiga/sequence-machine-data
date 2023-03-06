@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that when added to the sum of their prime factors (with multiplicity) become prime.",
+  "id": "A050703",
+  "mentions": [
+    "A000040",
+    "A023208",
+    "A023213",
+    "A050704",
+    "A050710",
+    "A075254"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of ordered quadruples of integers from [ 1..n ] with no global factor.",
+  "id": "A015634",
+  "mentions": [
+    "A000332",
+    "A002088",
+    "A015631",
+    "A015650",
+    "A117108",
+    "A177976"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

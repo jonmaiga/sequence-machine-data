@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes not exceeding sum of divisors of n.",
+  "id": "A070803",
+  "mentions": [
+    "A000203",
+    "A000720",
+    "A007818",
+    "A070800",
+    "A070804"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that sigma(phi(k)) = phi(sigma(k)-k).",
+  "id": "A058653",
+  "mentions": [
+    "A062402"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

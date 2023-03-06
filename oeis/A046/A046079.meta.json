@@ -1,0 +1,27 @@
+{
+  "description": "Number of Pythagorean triangles with leg n.",
+  "id": "A046079",
+  "mentions": [
+    "A000290",
+    "A001227",
+    "A001751",
+    "A018892",
+    "A024361",
+    "A024362",
+    "A024363",
+    "A046080",
+    "A046081"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

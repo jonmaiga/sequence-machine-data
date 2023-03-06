@@ -1,0 +1,24 @@
+{
+  "description": "Concatenation of n 2's followed by 3.",
+  "id": "A091628",
+  "mentions": [
+    "A089823",
+    "A091629",
+    "A091630",
+    "A091631",
+    "A091632"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:19:56",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

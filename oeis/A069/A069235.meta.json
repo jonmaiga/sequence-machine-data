@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k, not perfect squares, such that the squarefree part of k divides sigma(k).",
+  "id": "A069235",
+  "mentions": [
+    "A000037",
+    "A000203",
+    "A007913"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

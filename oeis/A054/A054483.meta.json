@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of lowest terms fraction from division of a highly composite number (1) by its predecessor.",
+  "id": "A054483",
+  "mentions": [
+    "A002182",
+    "A054481",
+    "A054482"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 2,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

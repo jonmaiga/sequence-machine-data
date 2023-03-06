@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers which when read backwards are primes.",
+  "id": "A076055",
+  "mentions": [
+    "A002808",
+    "A076056",
+    "A095179"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

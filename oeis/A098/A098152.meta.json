@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = a(n-1)^2 + n, with a(0)=0.",
+  "id": "A098152",
+  "mentions": [
+    "A003095",
+    "A028300",
+    "A086851",
+    "A153058",
+    "A153059",
+    "A153060"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

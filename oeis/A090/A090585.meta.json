@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of (Sum_{k=1..n} k) / (Product_{k=1..n} k).",
+  "id": "A090585",
+  "mentions": [
+    "A000217",
+    "A069268",
+    "A089026",
+    "A090586",
+    "A118679"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

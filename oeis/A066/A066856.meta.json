@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = omega(n!+1), where omega is the number of distinct primes dividing n, A001221.",
+  "id": "A066856",
+  "mentions": [
+    "A001221",
+    "A002981",
+    "A054990",
+    "A064237",
+    "A084846"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

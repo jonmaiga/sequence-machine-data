@@ -1,0 +1,22 @@
+{
+  "description": "Greatest prime factor of the product of the neighbors of the n-th prime.",
+  "id": "A087713",
+  "mentions": [
+    "A000040",
+    "A006093",
+    "A006530",
+    "A008864",
+    "A024710",
+    "A084920"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

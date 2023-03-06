@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that denominator of Sum_{k=1..n} 1/k^2 is not a square.",
+  "id": "A073527",
+  "mentions": [
+    "A007407",
+    "A073526"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

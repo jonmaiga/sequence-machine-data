@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of w(n) equals 3 where w(1)=w(2)=w(3)=1, w(n)=(w(n-1)*w(n-2)+(w(n-1)+w(n-2))/3) / w(n-3).",
+  "id": "A072561",
+  "mentions": [
+    "A072557",
+    "A072560"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:23",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

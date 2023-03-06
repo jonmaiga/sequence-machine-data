@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1-x)*(1-2*x)/(1-5*x+5*x^2).",
+  "id": "A052936",
+  "mentions": [
+    "A000032",
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

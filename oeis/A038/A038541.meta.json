@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of modules with n elements over the ring of integers in the imaginary quadratic field of discriminant -20.",
+  "id": "A038541",
+  "mentions": [
+    "A038540",
+    "A248107",
+    "A352550",
+    "A352567"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

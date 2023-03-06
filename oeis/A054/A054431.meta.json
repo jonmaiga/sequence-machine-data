@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(x, y) tells whether (x, y) are coprime (1) or not (0).",
+  "id": "A054431",
+  "mentions": [
+    "A000010",
+    "A003989",
+    "A047999",
+    "A054425",
+    "A054432",
+    "A054521",
+    "A055088",
+    "A215200"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:19:13",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

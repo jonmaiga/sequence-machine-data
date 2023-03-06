@@ -1,0 +1,21 @@
+{
+  "description": "Well-order the rational numbers; take numerators.",
+  "id": "A037161",
+  "mentions": [
+    "A020652",
+    "A037162"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "frac",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

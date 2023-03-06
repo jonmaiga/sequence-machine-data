@@ -1,0 +1,22 @@
+{
+  "description": "Number of ternary Lyndon words of length n with trace 0 and subtrace 0 over GF(3).",
+  "id": "A053548",
+  "mentions": [
+    "A053560",
+    "A053561",
+    "A053562",
+    "A053563",
+    "A053564"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:43:52",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

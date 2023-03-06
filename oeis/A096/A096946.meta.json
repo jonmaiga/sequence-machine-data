@@ -1,0 +1,22 @@
+{
+  "description": "Ninth column of (1,5)-Pascal triangle A096940.",
+  "id": "A096946",
+  "mentions": [
+    "A000581",
+    "A096940",
+    "A096945",
+    "A096947"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:47:51",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

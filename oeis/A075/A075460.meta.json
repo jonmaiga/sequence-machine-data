@@ -1,0 +1,19 @@
+{
+  "description": "Odd primitive numbers such that n! divided by product of factorials of all proper divisors of n is not an integer.",
+  "id": "A075460",
+  "mentions": [
+    "A075071",
+    "A075422"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

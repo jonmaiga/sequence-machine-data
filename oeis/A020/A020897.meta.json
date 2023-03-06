@@ -1,0 +1,18 @@
+{
+  "description": "Sum of two nonzero rational cubes.",
+  "id": "A020897",
+  "mentions": [
+    "A159843"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of different initial values for 3x+1 trajectories started with initial values not exceeding 2^n and in which the peak values are larger than 2^n.",
+  "id": "A095383",
+  "mentions": [
+    "A087256",
+    "A095381",
+    "A095382",
+    "A095384"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of series-parallel networks with n unlabeled edges, multiple edges not allowed.",
+  "id": "A058387",
+  "mentions": [
+    "A000084",
+    "A000311",
+    "A000669",
+    "A006351",
+    "A058381",
+    "A058385",
+    "A058386",
+    "A339290"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

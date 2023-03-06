@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction expansion of the One-ninth constant (A072558).",
+  "id": "A072559",
+  "mentions": [
+    "A072558",
+    "A073007"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

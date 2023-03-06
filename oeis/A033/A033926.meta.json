@@ -1,0 +1,26 @@
+{
+  "description": "Base 6 digital convolution sequence.",
+  "id": "A033926",
+  "mentions": [
+    "A007092",
+    "A033922",
+    "A033923",
+    "A033924",
+    "A033925",
+    "A033927",
+    "A033928",
+    "A033929",
+    "A033930"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:08:57",
+    "offset": 0,
+    "size": 98,
+    "source": "joeis"
+  }
+}

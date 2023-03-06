@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} pp(k)) where pp(k) is the parity of p(k) the k-th partition number = A040051(k).",
+  "id": "A071754",
+  "mentions": [
+    "A040051"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

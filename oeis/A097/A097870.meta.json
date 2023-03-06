@@ -1,0 +1,19 @@
+{
+  "description": "Molien series for group of order 4608 acting on joint weight enumerators of a pair of binary doubly-even self-dual codes.",
+  "id": "A097870",
+  "mentions": [
+    "A097869"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:10:41",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

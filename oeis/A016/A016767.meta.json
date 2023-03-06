@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (3*n)^3.",
+  "id": "A016767",
+  "mentions": [
+    "A000578",
+    "A010693",
+    "A020639",
+    "A155955"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:53:17",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

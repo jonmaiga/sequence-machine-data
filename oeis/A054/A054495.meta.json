@@ -1,0 +1,23 @@
+{
+  "description": "Smallest k such that n/k is a Fibonacci number.",
+  "id": "A054495",
+  "mentions": [
+    "A000045",
+    "A005086",
+    "A010056",
+    "A037943",
+    "A054494"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

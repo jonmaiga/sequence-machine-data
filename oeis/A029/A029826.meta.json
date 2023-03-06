@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/(x^10+x^9-x^7-x^6-x^5-x^4-x^3+x+1) (inverse of Salem polynomial).",
+  "id": "A029826",
+  "mentions": [
+    "A073011",
+    "A125950"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes for which golden mean is a cubic residue.",
+  "id": "A047652",
+  "mentions": [
+    "A001583",
+    "A047650"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:17:19",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

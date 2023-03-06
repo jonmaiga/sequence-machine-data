@@ -1,0 +1,18 @@
+{
+  "description": "Consider pairs (k,m) such that k^2 begins with a 1 and when the 1 is changed to a 2 we again get a square, m^2; sequence gives values of k for primitive solutions.",
+  "id": "A018233",
+  "mentions": [
+    "A018232"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:50:20",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

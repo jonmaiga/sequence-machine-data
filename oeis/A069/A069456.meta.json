@@ -1,0 +1,18 @@
+{
+  "description": "Non-twin primes that are at least doubly lonely.",
+  "id": "A069456",
+  "mentions": [
+    "A007510",
+    "A069453"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

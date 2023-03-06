@@ -1,0 +1,21 @@
+{
+  "description": "Product of terms in n-th row of triangle in A077172.",
+  "id": "A077175",
+  "mentions": [
+    "A077172",
+    "A077173",
+    "A077174",
+    "A077176",
+    "A100918"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

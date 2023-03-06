@@ -1,0 +1,20 @@
+{
+  "description": "Largest sequence of primes obtained by adding two-distinct-digit primes, growing from right to left.",
+  "id": "A032909",
+  "mentions": [
+    "A032910"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

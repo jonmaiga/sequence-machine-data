@@ -1,0 +1,21 @@
+{
+  "description": "Largest value in Collatz-2 (A063041) trajectory starting at n.",
+  "id": "A063045",
+  "mentions": [
+    "A025586",
+    "A063041",
+    "A063042",
+    "A063043",
+    "A063044"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=A069521(n)/n.",
+  "id": "A088391",
+  "mentions": [
+    "A069521"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Fibonacci(Pn+1) mod Pn, where Pn is the n-th prime.",
+  "id": "A051830",
+  "mentions": [
+    "A000045",
+    "A003631",
+    "A045468",
+    "A051831",
+    "A051834"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:01",
+    "offset": 1,
+    "size": 103,
+    "source": "joeis"
+  }
+}

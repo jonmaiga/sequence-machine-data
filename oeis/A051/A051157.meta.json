@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2^p^3 - 1)/(2^p^2 - 1) where p = n-th prime.",
+  "id": "A051157",
+  "mentions": [
+    "A051154",
+    "A051155",
+    "A051156"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

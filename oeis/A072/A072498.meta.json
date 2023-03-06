@@ -1,0 +1,17 @@
+{
+  "description": "n is not equal to the product of the k smallest divisors of n for any k.",
+  "id": "A072498",
+  "mentions": [
+    "A072510"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

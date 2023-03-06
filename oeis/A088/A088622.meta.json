@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime obtained as the concatenation of a power of n followed by a 1, or 0 if no such number exists.",
+  "id": "A088622",
+  "mentions": [
+    "A088623",
+    "A088782",
+    "A088783"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

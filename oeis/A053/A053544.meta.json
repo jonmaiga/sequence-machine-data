@@ -1,0 +1,21 @@
+{
+  "description": "A052999 / 18.",
+  "id": "A053544",
+  "mentions": [
+    "A052495",
+    "A052902",
+    "A052999"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:09:43",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

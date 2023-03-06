@@ -1,0 +1,29 @@
+{
+  "description": "Chebyshev polynomials S(n,27) + S(n-1,27) with Diophantine property.",
+  "id": "A097834",
+  "mentions": [
+    "A049310",
+    "A052918",
+    "A053120",
+    "A087130",
+    "A097781",
+    "A097783",
+    "A097835",
+    "A097837",
+    "A097840",
+    "A100047",
+    "A168561"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

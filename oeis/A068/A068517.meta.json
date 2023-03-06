@@ -1,0 +1,17 @@
+{
+  "description": "a(2n) = concatenation of 4n+1 and 4n+2, a(2n+1) = concatenation of the two most nearly equal numbers whose product is a(2n).",
+  "id": "A068517",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

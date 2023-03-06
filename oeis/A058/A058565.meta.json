@@ -1,0 +1,27 @@
+{
+  "description": "McKay-Thompson series of class 21C for the Monster group.",
+  "id": "A058565",
+  "mentions": [
+    "A000521",
+    "A002652",
+    "A002655",
+    "A007240",
+    "A007241",
+    "A007267",
+    "A010815",
+    "A014708",
+    "A045478",
+    "A282877"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:46:07",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle of certain double factorials.",
+  "id": "A092081",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000165",
+    "A001147",
+    "A002866",
+    "A005563",
+    "A006882",
+    "A051577",
+    "A077415"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

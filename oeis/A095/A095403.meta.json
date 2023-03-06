@@ -1,0 +1,21 @@
+{
+  "description": "Sum of digits of n minus the sum of digits of all distinct prime factors of n.",
+  "id": "A095403",
+  "mentions": [
+    "A007953",
+    "A051351",
+    "A095402"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-entry"
+  }
+}

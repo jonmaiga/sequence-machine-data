@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 17^n sin(2n arctan(1/4)) or numerator of tan(2n arctan(1/4)).",
+  "id": "A067360",
+  "mentions": [
+    "A014498",
+    "A020888",
+    "A020892",
+    "A066770",
+    "A066771",
+    "A067358",
+    "A067359",
+    "A067361"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:10:48",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

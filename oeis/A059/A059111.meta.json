@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(prime(n) - n*log(n)).",
+  "id": "A059111",
+  "mentions": [
+    "A059112",
+    "A064658",
+    "A064659"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

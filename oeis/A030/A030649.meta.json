@@ -1,0 +1,18 @@
+{
+  "description": "Dimensions of multiples of minimal representation of complex Lie algebra E7.",
+  "id": "A030649",
+  "mentions": [
+    "A121736"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:23",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

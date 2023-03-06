@@ -1,0 +1,23 @@
+{
+  "description": "Initial seeds x which will enter a cycle of length 4 under the iteration of x -> A063919(x), the sum of proper unitary divisors.",
+  "id": "A098187",
+  "mentions": [
+    "A002827",
+    "A063919",
+    "A097024",
+    "A097030",
+    "A098185",
+    "A098186",
+    "A098188"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

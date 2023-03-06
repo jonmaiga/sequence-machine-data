@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(n,k) giving number of rooted maps regardless of genus with n edges and k nodes (n >= 0, k = 1..n+1).",
+  "id": "A053979",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A000346",
+    "A000698",
+    "A001147",
+    "A007318",
+    "A025192",
+    "A084120",
+    "A084938",
+    "A127160",
+    "A128709",
+    "A167872"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

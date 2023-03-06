@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals of coefficients of generating function exp(x)/(1-y-xy).",
+  "id": "A088699",
+  "mentions": [
+    "A002720",
+    "A007318",
+    "A081124",
+    "A086885",
+    "A099597",
+    "A176120",
+    "A247158"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

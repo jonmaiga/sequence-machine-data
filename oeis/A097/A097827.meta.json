@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of Chebyshev sequence S(n,12)= U(n,6)=A004191(n).",
+  "id": "A097827",
+  "mentions": [
+    "A004191",
+    "A212336"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:14:19",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

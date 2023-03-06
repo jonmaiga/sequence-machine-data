@@ -1,0 +1,29 @@
+{
+  "description": "Array of coefficients of denominator polynomials of the n-th approximation of the continued fraction x/(1+x/(2+x/(3+..., related to Laguerre polynomial coefficients.",
+  "id": "A084950",
+  "mentions": [
+    "A001040",
+    "A008619",
+    "A021009",
+    "A052119",
+    "A058797",
+    "A180047",
+    "A180048",
+    "A180049",
+    "A221913",
+    "A221915"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

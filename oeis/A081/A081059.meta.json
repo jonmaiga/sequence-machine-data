@@ -1,0 +1,20 @@
+{
+  "description": "Shuffle number in Guy's shuffle (see A035485) for the card that is at the top of the deck after n shuffles to come to the top again.",
+  "id": "A081059",
+  "mentions": [
+    "A035485",
+    "A060750",
+    "A060751",
+    "A081058"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

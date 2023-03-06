@@ -1,0 +1,18 @@
+{
+  "description": "Smallest nontrivial extension of n-th cube which is a cube.",
+  "id": "A030695",
+  "mentions": [
+    "A030696"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:53",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

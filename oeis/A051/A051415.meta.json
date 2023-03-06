@@ -1,0 +1,24 @@
+{
+  "description": "Numbers not of form n + sum of digits of n^3.",
+  "id": "A051415",
+  "mentions": [
+    "A003052",
+    "A051373",
+    "A051374",
+    "A051408",
+    "A051414"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:55:59",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

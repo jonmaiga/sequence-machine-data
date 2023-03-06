@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor( n^e ), e = 2.718281828...",
+  "id": "A061293",
+  "mentions": [
+    "A000149",
+    "A000290",
+    "A000578"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

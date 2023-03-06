@@ -1,0 +1,28 @@
+{
+  "description": "Alternately append n to end or beginning of previous term.",
+  "id": "A053064",
+  "mentions": [
+    "A000030",
+    "A007908",
+    "A007953",
+    "A010879",
+    "A037123",
+    "A053063",
+    "A055642",
+    "A058183",
+    "A131055"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

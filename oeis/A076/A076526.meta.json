@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = r * max(e_1, ..., e_r), where n = p_1^e_1 . .... p_r^e_r is the canonical prime factorization of n, a(1) = 0.",
+  "id": "A076526",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A051903",
+    "A076558",
+    "A076745"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

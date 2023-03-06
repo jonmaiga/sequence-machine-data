@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (H(n) - 1)*lcm{1,...,n}, where H(n) is the n-th harmonic number.",
+  "id": "A027457",
+  "mentions": [
+    "A001008",
+    "A002262",
+    "A002805",
+    "A003418",
+    "A027446",
+    "A096180"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

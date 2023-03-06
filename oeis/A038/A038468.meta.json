@@ -1,0 +1,24 @@
+{
+  "description": "Sums of 6 distinct powers of 3.",
+  "id": "A038468",
+  "mentions": [
+    "A000244",
+    "A038448",
+    "A038464",
+    "A038465",
+    "A038466",
+    "A038467",
+    "A038469"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Lower prime of a record difference between it and the second prime after it.",
+  "id": "A031133",
+  "mentions": [
+    "A031131",
+    "A031132",
+    "A031134",
+    "A122412",
+    "A122413"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

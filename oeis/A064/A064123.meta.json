@@ -1,0 +1,17 @@
+{
+  "description": "Number of divisors of 5^n - 1 that are relatively prime to 5^m - 1 for all 0 < m < n.",
+  "id": "A064123",
+  "mentions": [
+    "A063982"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

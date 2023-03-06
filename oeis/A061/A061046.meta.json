@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of 1/36 - 1/n^2.",
+  "id": "A061046",
+  "mentions": [
+    "A061035",
+    "A061045",
+    "A061050"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

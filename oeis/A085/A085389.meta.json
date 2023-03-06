@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n*(n+1)^(n-1) + 0^n)/(n+1).",
+  "id": "A085389",
+  "mentions": [
+    "A053506",
+    "A055865",
+    "A085388",
+    "A085390"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

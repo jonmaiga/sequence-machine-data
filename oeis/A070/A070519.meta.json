@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that Cyclotomic(k,k) (i.e., the value of k-th cyclotomic polynomial at k) is a prime number.",
+  "id": "A070519",
+  "mentions": [
+    "A070518",
+    "A070520",
+    "A085398",
+    "A088790",
+    "A088817",
+    "A088875",
+    "A117544"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

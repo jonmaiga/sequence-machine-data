@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that F(n+1)*F(n-1)*B(2n) is an integer, where F(k)=k-th Fibonacci number and B(2k)=2k-th Bernoulli number.",
+  "id": "A090863",
+  "mentions": [
+    "A045979",
+    "A053176"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

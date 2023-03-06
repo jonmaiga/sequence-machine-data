@@ -1,0 +1,23 @@
+{
+  "description": "Number of squares that can be obtained by permuting the digits of n.",
+  "id": "A062892",
+  "mentions": [
+    "A007937",
+    "A096598",
+    "A096599",
+    "A096600"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

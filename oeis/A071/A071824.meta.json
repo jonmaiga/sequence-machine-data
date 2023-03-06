@@ -1,0 +1,16 @@
+{
+  "description": "Number of x with largest prime factor of the form 4k+1 less than or equal to n.",
+  "id": "A071824",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

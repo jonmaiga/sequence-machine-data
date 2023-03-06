@@ -1,0 +1,24 @@
+{
+  "description": "Peak values reached by A062402 at the sites listed in A065389.",
+  "id": "A065390",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A062402",
+    "A065389",
+    "A065391",
+    "A065392",
+    "A065393",
+    "A065394"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

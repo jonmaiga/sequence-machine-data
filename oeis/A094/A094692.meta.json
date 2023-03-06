@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 2^(5/4)*sqrt(Pi)*exp(Pi/8)/Gamma(1/4)^2.",
+  "id": "A094692",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

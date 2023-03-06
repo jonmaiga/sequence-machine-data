@@ -1,0 +1,15 @@
+{
+  "description": "Given a(1), ..., a(n-1), a(n) is minimal such that all terms of the sequence are distinct positive integers and, for all k>=1, the sum of the k terms from a(k) to a(2k-1) is a k-th power.",
+  "id": "A076992",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

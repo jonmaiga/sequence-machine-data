@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers in A092447.",
+  "id": "A092449",
+  "mentions": [
+    "A092447"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

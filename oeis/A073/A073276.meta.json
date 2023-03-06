@@ -1,0 +1,21 @@
+{
+  "description": "Irregular primes (A000928) with irregularity index one.",
+  "id": "A073276",
+  "mentions": [
+    "A000367",
+    "A000928",
+    "A060974",
+    "A060975",
+    "A073277"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

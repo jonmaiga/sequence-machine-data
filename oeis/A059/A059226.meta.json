@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k) (0 <= k <= n) read by rows: top entry is 1, all other rows begin with 0; typical entry is sum of entry to left plus sum of all entries above it in the triangle.",
+  "id": "A059226",
+  "mentions": [
+    "A000079",
+    "A001787",
+    "A059224",
+    "A059227",
+    "A059228",
+    "A059229",
+    "A059271"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

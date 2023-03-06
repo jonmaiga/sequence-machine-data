@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction expansion for cos(1).",
+  "id": "A068115",
+  "mentions": [
+    "A049470"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

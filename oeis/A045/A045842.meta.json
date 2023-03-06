@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Product_{k>=0} 1/(1 - x^(k+1))^A001156(k).",
+  "id": "A045842",
+  "mentions": [
+    "A001156"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

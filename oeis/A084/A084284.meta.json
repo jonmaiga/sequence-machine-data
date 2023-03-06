@@ -1,0 +1,24 @@
+{
+  "description": "Number of connected labeled 4-colorable (i.e., chromatic number <= 4) graphs on n nodes.",
+  "id": "A084284",
+  "mentions": [
+    "A001832",
+    "A084274",
+    "A084280",
+    "A084283",
+    "A084285",
+    "A084286"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

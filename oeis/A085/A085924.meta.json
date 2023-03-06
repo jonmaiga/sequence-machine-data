@@ -1,0 +1,23 @@
+{
+  "description": "If k = product (p_i)^(r_i), where p_i are primes in increasing order, then k is a member if concatenation of r_i as decimal numbers forms a palindrome.",
+  "id": "A085924",
+  "mentions": [
+    "A072774",
+    "A103653",
+    "A236510",
+    "A242414"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

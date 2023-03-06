@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = C( C(n,2), k) for n >= 0, 0 <= k <= C(n,2).",
+  "id": "A084546",
+  "mentions": [
+    "A006125",
+    "A007318",
+    "A008406",
+    "A083029"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

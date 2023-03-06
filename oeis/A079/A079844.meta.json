@@ -1,0 +1,19 @@
+{
+  "description": "Number of positions that are exactly n moves from the starting position in the Rashkey Type 1 puzzle.",
+  "id": "A079844",
+  "mentions": [
+    "A079843"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

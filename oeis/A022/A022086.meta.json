@@ -1,0 +1,26 @@
+{
+  "description": "Fibonacci sequence beginning 0, 3.",
+  "id": "A022086",
+  "mentions": [
+    "A000045",
+    "A026390",
+    "A036999",
+    "A097135",
+    "A111314",
+    "A119457",
+    "A187893",
+    "A280154"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:28",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

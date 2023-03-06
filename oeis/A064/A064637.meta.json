@@ -1,0 +1,21 @@
+{
+  "description": "Setwise difference of A060132 and A059590. Those terms of A060132 which are not representable as a sum of distinct factorials.",
+  "id": "A064637",
+  "mentions": [
+    "A055089",
+    "A059590",
+    "A060117",
+    "A060132",
+    "A064477"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

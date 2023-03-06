@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = round(sqrt(n)) - floor(sqrt(n)).",
+  "id": "A023969",
+  "mentions": [
+    "A000194",
+    "A000196",
+    "A080343",
+    "A080344"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

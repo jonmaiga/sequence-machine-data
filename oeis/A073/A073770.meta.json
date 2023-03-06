@@ -1,0 +1,18 @@
+{
+  "description": "Primes p not of the form q + s where q is prime and s > 0 is the smallest square such that q + s is prime.",
+  "id": "A073770",
+  "mentions": [
+    "A065377",
+    "A073609"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

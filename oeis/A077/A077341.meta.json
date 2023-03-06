@@ -1,0 +1,23 @@
+{
+  "description": "Triangle in which n-th row contains the first n numbers, not already present, that begin with n.",
+  "id": "A077341",
+  "mentions": [
+    "A077339",
+    "A077340",
+    "A077342",
+    "A077343"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

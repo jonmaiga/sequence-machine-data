@@ -1,0 +1,26 @@
+{
+  "description": "Ratio-dependent insertion sequence I(0.36704) (see the link below).",
+  "id": "A085376",
+  "mentions": [
+    "A001835",
+    "A001906",
+    "A080874",
+    "A082630",
+    "A082981",
+    "A085348",
+    "A085349",
+    "A117535",
+    "A129445"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

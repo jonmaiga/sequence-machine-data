@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the sum of the first k semiprimes is a semiprime.",
+  "id": "A092189",
+  "mentions": [
+    "A092190"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

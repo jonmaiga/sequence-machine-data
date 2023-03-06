@@ -1,0 +1,21 @@
+{
+  "description": "Squares satisfying sigma(n)==0 (mod 3).",
+  "id": "A074216",
+  "mentions": [
+    "A002476",
+    "A065764",
+    "A067051",
+    "A072864"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

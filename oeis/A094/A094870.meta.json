@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1; for n > 1, a(n) is the minimal positive integer t not equal to a(1), ..., a(n-1) such that t - a(n-i) is not equal to a(n-i) - a(n-2i) for all 1 <= i < n/2.",
+  "id": "A094870",
+  "mentions": [
+    "A095689",
+    "A229037",
+    "A293862"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

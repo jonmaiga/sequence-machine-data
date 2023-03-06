@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest positive integer k such that harmonic mean of n and k is an integer.",
+  "id": "A053626",
+  "mentions": [
+    "A005279"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The non-octal numbers: numbers containing an 8 or 9 (they cannot be mistaken for octal numbers).",
+  "id": "A057104",
+  "mentions": [
+    "A007094"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

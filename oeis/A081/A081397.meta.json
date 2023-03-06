@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = least k such that GCD of sigma(k) = A000203(k) and phi(k) = A000010(k) equals n-th primorial = A002110(n).",
+  "id": "A081397",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A002110",
+    "A081383",
+    "A081396"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

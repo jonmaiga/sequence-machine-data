@@ -1,0 +1,24 @@
+{
+  "description": "Convolution of A000108 (Catalan numbers) with A020922.",
+  "id": "A045530",
+  "mentions": [
+    "A000108",
+    "A000302",
+    "A000984",
+    "A020922",
+    "A045492",
+    "A045505"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

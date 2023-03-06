@@ -1,0 +1,19 @@
+{
+  "description": "exp(Sum_{n>0} x^n/n^2) = Sum_{n>=0} a(n)*x^n/n!^2.",
+  "id": "A074707",
+  "mentions": [
+    "A193436",
+    "A217145"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

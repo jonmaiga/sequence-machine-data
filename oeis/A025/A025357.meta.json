@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the sum of 4 nonzero squares in exactly 1 way.",
+  "id": "A025357",
+  "mentions": [
+    "A025428",
+    "A243148"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

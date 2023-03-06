@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that mu(k)+mu(k+1) = 0.",
+  "id": "A074819",
+  "mentions": [
+    "A007674",
+    "A008683",
+    "A059956",
+    "A065474",
+    "A068781",
+    "A092410"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "(2^n)-th digit of infinite string 12345678910111213141516...",
+  "id": "A023104",
+  "mentions": [
+    "A007376",
+    "A023103",
+    "A033307"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:02",
+    "offset": 0,
+    "size": 108,
+    "source": "joeis"
+  }
+}

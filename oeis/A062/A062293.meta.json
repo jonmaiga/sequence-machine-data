@@ -1,0 +1,23 @@
+{
+  "description": "Smallest multiple k*n of n which has even digits and is a palindrome or becomes a palindrome when 0's are added on the left (e.g., 10 becomes 010, which is a palindrome).",
+  "id": "A062293",
+  "mentions": [
+    "A004151",
+    "A014263",
+    "A061797",
+    "A062279",
+    "A136522"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

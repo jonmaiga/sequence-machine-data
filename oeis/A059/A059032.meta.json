@@ -1,0 +1,19 @@
+{
+  "description": "Another variant of Boustrophedon transform applied to 1, 0, 0, 0, ...",
+  "id": "A059032",
+  "mentions": [
+    "A059033",
+    "A059034",
+    "A059035"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

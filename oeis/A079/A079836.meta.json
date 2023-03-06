@@ -1,0 +1,25 @@
+{
+  "description": "Following is the triangle in which the n-th row contains n numbers with n divisors that lie between A079835(n) and A079835(n+1); sequence gives the first column.",
+  "id": "A079836",
+  "mentions": [
+    "A030513",
+    "A030514",
+    "A030515",
+    "A030516",
+    "A030626",
+    "A030627",
+    "A079835",
+    "A079837"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

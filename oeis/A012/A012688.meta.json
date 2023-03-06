@@ -1,0 +1,15 @@
+{
+  "description": "arcsin(tanh(x)*cos(x))=x-4/3!*x^3+576/7!*x^7+8960/9!*x^9...",
+  "id": "A012688",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:42:48",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

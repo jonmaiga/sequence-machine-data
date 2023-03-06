@@ -1,0 +1,32 @@
+{
+  "description": "Triangle of partial row sums (prs) of triangle A055249.",
+  "id": "A055252",
+  "mentions": [
+    "A001788",
+    "A001793",
+    "A007318",
+    "A049611",
+    "A049612",
+    "A053121",
+    "A055248",
+    "A055249",
+    "A055580",
+    "A055581",
+    "A055582",
+    "A055583",
+    "A055584"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:24:51",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

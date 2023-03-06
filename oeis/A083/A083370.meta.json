@@ -1,0 +1,19 @@
+{
+  "description": "Primes satisfying f(2p)=p when f(1)=5 (see comment).",
+  "id": "A083370",
+  "mentions": [
+    "A006530",
+    "A076973",
+    "A124582"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

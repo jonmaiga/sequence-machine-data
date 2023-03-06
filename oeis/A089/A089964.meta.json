@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the denominator of Sum_{j=1..k} mu(j)/j equals Product_{prime p<=k} p.",
+  "id": "A089964",
+  "mentions": [
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

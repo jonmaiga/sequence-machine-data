@@ -1,0 +1,19 @@
+{
+  "description": "Squares n such that sqrt(n) and n have the same set of digits.",
+  "id": "A029794",
+  "mentions": [
+    "A029793"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

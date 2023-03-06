@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 2*phi(n) if n composite, or 2*phi(n) - (A000120(n)-1) if n prime, where phi = A000010, Euler's totient function, and a(1) = 1.",
+  "id": "A035532",
+  "mentions": [
+    "A000010",
+    "A000120",
+    "A005187",
+    "A010051",
+    "A035531",
+    "A048881",
+    "A297111",
+    "A297115"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

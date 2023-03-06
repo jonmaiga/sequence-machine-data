@@ -1,0 +1,25 @@
+{
+  "description": "Greedy powers of (8/13): Sum_{n>=1} (8/13)^a(n) = 1.",
+  "id": "A077475",
+  "mentions": [
+    "A077468",
+    "A077469",
+    "A077470",
+    "A077471",
+    "A077472",
+    "A077473",
+    "A077474"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

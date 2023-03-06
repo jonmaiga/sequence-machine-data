@@ -1,0 +1,21 @@
+{
+  "description": "Number of n X n 0-1 matrices with half 1's and half 0's (rounded up/down if odd).",
+  "id": "A082963",
+  "mentions": [
+    "A014409",
+    "A019318",
+    "A054247",
+    "A054252"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

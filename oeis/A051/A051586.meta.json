@@ -1,0 +1,18 @@
+{
+  "description": "There are exactly n integer-sided triangles of area a(n).",
+  "id": "A051586",
+  "mentions": [
+    "A051584",
+    "A051585"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

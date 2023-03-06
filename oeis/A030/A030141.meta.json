@@ -1,0 +1,33 @@
+{
+  "description": "Numbers in which parity of the decimal digits alternates.",
+  "id": "A030141",
+  "mentions": [
+    "A030142",
+    "A030143",
+    "A030144",
+    "A030147",
+    "A030152",
+    "A056830",
+    "A062285",
+    "A103181",
+    "A110303",
+    "A110304",
+    "A110305",
+    "A228709",
+    "A228710",
+    "A228722",
+    "A228723"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

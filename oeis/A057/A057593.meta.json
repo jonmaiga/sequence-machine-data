@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n, k) giving period length of the periodic sequence k^i (i >= imin) mod n (n >= 2, 1 <= k <= n-1).",
+  "id": "A057593",
+  "mentions": [
+    "A038566",
+    "A057594",
+    "A057595",
+    "A086145",
+    "A139366",
+    "A216327",
+    "A290601",
+    "A290602"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 2,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

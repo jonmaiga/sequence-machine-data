@@ -1,0 +1,23 @@
+{
+  "description": "For all numbers of the form 6 +- 1 starting with 5,7,11,13,..., '1' indicates prime and '0' indicates composite.",
+  "id": "A075743",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A007310",
+    "A010051",
+    "A156706"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

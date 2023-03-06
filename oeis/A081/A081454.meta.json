@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows in which the n-th row contains n distinct numbers whose product is a square, which is minimal over all choices for n distinct numbers.",
+  "id": "A081454",
+  "mentions": [
+    "A081455",
+    "A081456",
+    "A081457"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

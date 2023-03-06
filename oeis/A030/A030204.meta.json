@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of q^(-1/8) * eta(q) * eta(q^2) in powers of q.",
+  "id": "A030204",
+  "mentions": [
+    "A000122",
+    "A000203",
+    "A000700",
+    "A002513",
+    "A010054",
+    "A010815",
+    "A030203",
+    "A083650",
+    "A107063",
+    "A107064",
+    "A121373",
+    "A138514"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

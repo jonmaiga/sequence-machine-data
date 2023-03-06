@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that have a primitive root (the multiplicative group modulo n is cyclic).",
+  "id": "A033948",
+  "mentions": [
+    "A000010",
+    "A001783",
+    "A002322",
+    "A033949",
+    "A034380",
+    "A060594",
+    "A061345",
+    "A062373",
+    "A072209",
+    "A160377",
+    "A278568"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

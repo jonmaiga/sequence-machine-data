@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1, a(2)=10, a(n) = floor(a(n-1)/phi) + floor(a(n-2)/phi) where phi is the golden ratio (1+sqrt(5))/2 (if a(2) < 10 a(k) converges to an integer value).",
+  "id": "A072930",
+  "mentions": [
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

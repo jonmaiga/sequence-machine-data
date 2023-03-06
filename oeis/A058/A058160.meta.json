@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of labeled commutative monoids of order n with k idempotents and a fixed identity.",
+  "id": "A058160",
+  "mentions": [
+    "A058142",
+    "A058156",
+    "A058158",
+    "A058159",
+    "A058162",
+    "A058164"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

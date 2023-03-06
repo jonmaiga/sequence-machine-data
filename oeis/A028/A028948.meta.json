@@ -1,0 +1,19 @@
+{
+  "description": "An \"extremely strange sequence\": a(n+1) = [ A*a(n)+B ]/p^r, where p^r is the highest power of p dividing [ A*a(n)+B ] and p=2, A=4.001, B=1.2.",
+  "id": "A028948",
+  "mentions": [
+    "A000265"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:14:49",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

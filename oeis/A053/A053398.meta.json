@@ -1,0 +1,30 @@
+{
+  "description": "Nim-values from game of Kopper's Nim.",
+  "id": "A053398",
+  "mentions": [
+    "A000523",
+    "A003986",
+    "A003987",
+    "A007814",
+    "A050603",
+    "A051775",
+    "A053384",
+    "A053399",
+    "A053890",
+    "A245836"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:08:33",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

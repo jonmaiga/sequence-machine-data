@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, for n > 1 a(n) is the smallest number such that the product of all previous terms is > n^n.",
+  "id": "A074185",
+  "mentions": [
+    "A074186"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

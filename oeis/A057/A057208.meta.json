@@ -1,0 +1,24 @@
+{
+  "description": "Primes of the form 8k+5 generated recursively: a(1)=5, a(n) = least prime p == 5 (mod 8) with p | 4+Q^2, where Q is the product of all previous terms in the sequence.",
+  "id": "A057208",
+  "mentions": [
+    "A000945",
+    "A000946",
+    "A005265",
+    "A005266",
+    "A007521",
+    "A051308",
+    "A051335",
+    "A057204"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

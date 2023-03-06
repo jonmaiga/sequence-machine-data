@@ -1,0 +1,20 @@
+{
+  "description": "Smallest odd number for which Miller-Rabin primality test on bases <= n-th prime does not reveal compositeness.",
+  "id": "A014233",
+  "mentions": [
+    "A006945"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

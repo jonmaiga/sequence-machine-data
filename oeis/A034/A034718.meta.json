@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet convolution of b_n=n with b_n with b_n.",
+  "id": "A034718",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A001620",
+    "A007425",
+    "A038040",
+    "A082633",
+    "A329323"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

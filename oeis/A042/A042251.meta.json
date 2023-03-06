@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(651).",
+  "id": "A042251",
+  "mentions": [
+    "A040625",
+    "A042250"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:54",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

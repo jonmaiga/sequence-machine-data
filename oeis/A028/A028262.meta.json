@@ -1,0 +1,22 @@
+{
+  "description": "Elements in 3-Pascal triangle (by row).",
+  "id": "A028262",
+  "mentions": [
+    "A007318",
+    "A028275",
+    "A072405"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest n-aspiring number. That is, a(n) = smallest k such that s^(n)(k) is perfect but s^(n-1)(k) is not, where s(k) is the sum of the aliquot parts of k and s^(i) means iterate s i times.",
+  "id": "A099771",
+  "mentions": [
+    "A063769"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

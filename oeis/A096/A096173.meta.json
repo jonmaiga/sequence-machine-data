@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k^3+1 is an odd semiprime.",
+  "id": "A096173",
+  "mentions": [
+    "A001358",
+    "A006093",
+    "A046315",
+    "A055494",
+    "A081256",
+    "A096174",
+    "A237037",
+    "A237038",
+    "A237039",
+    "A237040"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:09:03",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

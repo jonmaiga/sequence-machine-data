@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that n + 3 and n - 3 are both prime.",
+  "id": "A087695",
+  "mentions": [
+    "A010051",
+    "A014574",
+    "A046117",
+    "A087678",
+    "A087683",
+    "A087696",
+    "A087697",
+    "A088763"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

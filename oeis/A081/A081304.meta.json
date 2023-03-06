@@ -1,0 +1,20 @@
+{
+  "description": "Number of numbers m <= n with prime factors less than 2*spf(m), where spf(m) is the smallest prime factor of m (A020639).",
+  "id": "A081304",
+  "mentions": [
+    "A020639",
+    "A081303",
+    "A081305",
+    "A081306"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

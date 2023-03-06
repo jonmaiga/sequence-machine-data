@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p - 2 is squarefree.",
+  "id": "A049231",
+  "mentions": [
+    "A005117",
+    "A005596",
+    "A039787",
+    "A049233"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

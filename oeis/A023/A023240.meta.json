@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that 10*p + 9 is also prime.",
+  "id": "A023240",
+  "mentions": [
+    "A102700"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

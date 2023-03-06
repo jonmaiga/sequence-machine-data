@@ -1,0 +1,28 @@
+{
+  "description": "Jordan function J_4(n).",
+  "id": "A059377",
+  "mentions": [
+    "A000010",
+    "A007434",
+    "A013663",
+    "A059376",
+    "A059378",
+    "A059379",
+    "A059380",
+    "A069091",
+    "A069095"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:44:21",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

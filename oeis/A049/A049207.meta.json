@@ -1,0 +1,21 @@
+{
+  "description": "Array T(m,n) of products of pronic numbers m(m+1) * n(n+1) read by antidiagonals (\"bipronics\").",
+  "id": "A049207",
+  "mentions": [
+    "A002378",
+    "A053990",
+    "A072389"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:35:31",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

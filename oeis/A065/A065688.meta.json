@@ -1,0 +1,22 @@
+{
+  "description": "First prime in the smallest (nontrivial) prime k-tuplet.",
+  "id": "A065688",
+  "mentions": [
+    "A008407",
+    "A020497",
+    "A023193",
+    "A047947",
+    "A261324"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

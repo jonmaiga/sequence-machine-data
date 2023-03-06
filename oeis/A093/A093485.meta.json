@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (27*n^2 + 9*n + 2)/2.",
+  "id": "A093485",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A003215",
+    "A005901",
+    "A006656",
+    "A124388"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = self-convolution of row n of array T given by A027926.",
+  "id": "A027989",
+  "mentions": [
+    "A000045",
+    "A027926",
+    "A054142",
+    "A172991",
+    "A188648",
+    "A196265"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:02:17",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: 1/((1-x)*(1-x^2))^5.",
+  "id": "A038165",
+  "mentions": [
+    "A006918",
+    "A008619",
+    "A038163",
+    "A059601",
+    "A059602"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:37:43",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of dyslexic identity planted planar trees with n+1 nodes and leaves of 2 colors.",
+  "id": "A032103",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

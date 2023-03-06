@@ -1,0 +1,18 @@
+{
+  "description": "Primes in which odd positioned digits are composite and even positioned digits are primes. The least significant digit is the taken to be the first digit.",
+  "id": "A083821",
+  "mentions": [
+    "A083820"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

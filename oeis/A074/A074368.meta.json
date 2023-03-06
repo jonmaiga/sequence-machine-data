@@ -1,0 +1,17 @@
+{
+  "description": "Rearrangement of odd numbers such that a(k) + a(k+1) + 1 is a prime for all k.",
+  "id": "A074368",
+  "mentions": [
+    "A073661"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

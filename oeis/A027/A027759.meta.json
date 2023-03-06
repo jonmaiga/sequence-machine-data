@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of Sum_{p prime, p-1|n} 1/p.",
+  "id": "A027759",
+  "mentions": [
+    "A000146",
+    "A000367",
+    "A002445",
+    "A027760"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

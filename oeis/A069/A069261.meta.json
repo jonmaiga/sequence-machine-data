@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of the Egyptian fraction for the fractional part of Feigenbaum's constant, 4.6692...",
+  "id": "A069261",
+  "mentions": [
+    "A006890",
+    "A069544"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

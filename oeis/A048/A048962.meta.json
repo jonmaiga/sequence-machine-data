@@ -1,0 +1,23 @@
+{
+  "description": "Table in which n-th row lists digits in periodic part of decimal expansion of 1/n.",
+  "id": "A048962",
+  "mentions": [
+    "A007732",
+    "A048963",
+    "A048997"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-26 20:03:41",
+    "offset": 1,
+    "size": 98,
+    "source": "joeis"
+  }
+}

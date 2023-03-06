@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: a(n,m) = T[n,m,m] where T[i,j,k] is the 3-dimensional pyramid defined by T[n,m,0]=1 and T[i,j,k]=0 if j>i or k>j and T[i,j,k]=T[i-1,j,k]+T[i,j-1,k]+T[i,j,k-1].",
+  "id": "A065078",
+  "mentions": [
+    "A005789",
+    "A065057",
+    "A065058"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

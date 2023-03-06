@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into an even number of parts, the least being 6; also, a(n+6) = number of partitions of n into an odd number of parts, each >=6.",
+  "id": "A027198",
+  "mentions": [
+    "A026799",
+    "A027192"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

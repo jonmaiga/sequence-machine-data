@@ -1,0 +1,31 @@
+{
+  "description": "Fifth column (k=6) of array A090438 ((4,2)-Stirling2).",
+  "id": "A091035",
+  "mentions": [
+    "A001620",
+    "A049469",
+    "A049470",
+    "A053134",
+    "A073742",
+    "A073743",
+    "A090438",
+    "A091034",
+    "A091036",
+    "A099281",
+    "A099282",
+    "A099283",
+    "A099284"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:15:39",
+    "offset": 3,
+    "size": 12,
+    "source": "joeis"
+  }
+}

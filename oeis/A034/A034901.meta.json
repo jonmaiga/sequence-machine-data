@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is square mod a(i), i < n; a(n) nonsquare; a(1) = 2.",
+  "id": "A034901",
+  "mentions": [
+    "A000037",
+    "A034900",
+    "A034902"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

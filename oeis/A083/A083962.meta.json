@@ -1,0 +1,18 @@
+{
+  "description": "Smallest palindromic multiple of n containing the digit string of a(n-1); or 0 if no such number exists.",
+  "id": "A083962",
+  "mentions": [
+    "A083963"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

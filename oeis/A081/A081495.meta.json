@@ -1,0 +1,20 @@
+{
+  "description": "Start with Pascal's triangle; form a rhombus by sliding down n steps from top on both sides then sliding down inwards to complete the rhombus and then deleting the inner numbers; a(n) = sum of entries on perimeter of rhombus.",
+  "id": "A081495",
+  "mentions": [
+    "A081494",
+    "A081496",
+    "A081497"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

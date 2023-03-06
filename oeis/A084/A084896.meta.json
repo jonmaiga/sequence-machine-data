@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of arithmetic-geometric mean of (1,4).",
+  "id": "A084896",
+  "mentions": [
+    "A068521",
+    "A084895",
+    "A084897",
+    "A084898"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:30:41",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

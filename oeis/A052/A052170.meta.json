@@ -1,0 +1,22 @@
+{
+  "description": "Number of directed loopless multigraphs with n arcs.",
+  "id": "A052170",
+  "mentions": [
+    "A007717",
+    "A037240",
+    "A050535",
+    "A050930",
+    "A333361"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Length of runs in the sequence of row/column periods of Sprague-Grundy values of Wythoff's Game (A046875).",
+  "id": "A046876",
+  "mentions": [
+    "A004481",
+    "A046874",
+    "A046875"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

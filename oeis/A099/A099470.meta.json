@@ -1,0 +1,20 @@
+{
+  "description": "A sequence generated from the Quadrifoil.",
+  "id": "A099470",
+  "mentions": [
+    "A099254",
+    "A099471"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:06:01",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

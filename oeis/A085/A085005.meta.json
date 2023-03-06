@@ -1,0 +1,26 @@
+{
+  "description": "A Von Koch curve related to the Golden ratio.",
+  "id": "A085005",
+  "mentions": [
+    "A083035",
+    "A083036",
+    "A083037",
+    "A083038",
+    "A085002",
+    "A085003",
+    "A085004",
+    "A094200",
+    "A094201"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

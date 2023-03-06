@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k = (product of digits of k) * (sum of digits of k).",
+  "id": "A038369",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A038364",
+    "A062237",
+    "A066282",
+    "A066308"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "This sequence, the sequence of differences, sums and products of consecutive terms are four disjoint sequences. a(0) = 2.",
+  "id": "A098763",
+  "mentions": [
+    "A098762"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

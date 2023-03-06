@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n*A001865(n).",
+  "id": "A063169",
+  "mentions": [
+    "A000169",
+    "A001865",
+    "A063170",
+    "A066324",
+    "A219706"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

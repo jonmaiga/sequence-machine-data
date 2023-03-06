@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (prime(n)-3)*(prime(n)-5)/8.",
+  "id": "A030007",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:45:43",
+    "offset": 2,
+    "size": 49,
+    "source": "joeis"
+  }
+}

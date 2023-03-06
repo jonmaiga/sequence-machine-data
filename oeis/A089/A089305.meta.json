@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime of the form n*(n+1)*(n+2)...(n+k) + 1, k > 0, i.e., a(n) > n+1, or 0 if no such prime exists.",
+  "id": "A089305",
+  "mentions": [
+    "A087564"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

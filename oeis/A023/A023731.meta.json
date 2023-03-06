@@ -1,0 +1,17 @@
+{
+  "description": "Numbers with exactly two 2's in base 5 expansion.",
+  "id": "A023731",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:19:25",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

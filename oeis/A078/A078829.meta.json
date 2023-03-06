@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having exactly one prime contained as binary substring in binary representation of n.",
+  "id": "A078829",
+  "mentions": [
+    "A007088",
+    "A078826",
+    "A078830",
+    "A225243"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

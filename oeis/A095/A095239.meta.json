@@ -1,0 +1,18 @@
+{
+  "description": "Analog of A095236 when the phones are arranged in a circle.",
+  "id": "A095239",
+  "mentions": [
+    "A095236",
+    "A095240"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

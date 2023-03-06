@@ -1,0 +1,22 @@
+{
+  "description": "Greatest of the most frequent prime factors of squarefree numbers <= n; a(1)=1.",
+  "id": "A072751",
+  "mentions": [
+    "A005117",
+    "A072747",
+    "A072748",
+    "A072749",
+    "A072750"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:07",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

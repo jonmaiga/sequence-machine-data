@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array T given by rows: T(n,k)=sum of quotients when Euclidean algorithm acts on n and k; for k=1,2,...,n; n=1,2,3,...; also number of subtraction steps when computing gcd(n,k) using subtractions rather than divisions.",
+  "id": "A049834",
+  "mentions": [
+    "A049828",
+    "A049835",
+    "A072030"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:43",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

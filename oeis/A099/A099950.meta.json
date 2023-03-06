@@ -1,0 +1,16 @@
+{
+  "description": "Number of 2-sparse nonoverlapping partitions of n.",
+  "id": "A099950",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

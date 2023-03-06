@@ -1,0 +1,31 @@
+{
+  "description": "Number of Gaussian integers in a reduced system modulo n.",
+  "id": "A079458",
+  "mentions": [
+    "A000010",
+    "A003557",
+    "A007947",
+    "A053191",
+    "A060997",
+    "A218147",
+    "A227499",
+    "A238533",
+    "A238534",
+    "A239441",
+    "A239442",
+    "A239443"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

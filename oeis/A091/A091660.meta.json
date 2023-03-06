@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of -PolyGamma(2,(1+sqrt(3))/2)/2.",
+  "id": "A091660",
+  "mentions": [
+    "A091659"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

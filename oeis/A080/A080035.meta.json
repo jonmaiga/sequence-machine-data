@@ -1,0 +1,21 @@
+{
+  "description": "\"Orderly\" Friedman numbers (or \"good\" Friedman numbers): Friedman numbers (A036057) where the construction digits are used in the proper order.",
+  "id": "A080035",
+  "mentions": [
+    "A036057",
+    "A156954",
+    "A252483"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

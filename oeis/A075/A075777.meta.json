@@ -1,0 +1,18 @@
+{
+  "description": "Minimal surface area of a rectangular solid with volume n and integer sides.",
+  "id": "A075777",
+  "mentions": [
+    "A135711"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

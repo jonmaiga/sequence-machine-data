@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = s(1)*s(n) + s(2)*s(n-1) + ... + s(k)*s(n+1-k), where k = floor((n+1)/2), s = (odd natural numbers).",
+  "id": "A024598",
+  "mentions": [
+    "A143218"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:23:59",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

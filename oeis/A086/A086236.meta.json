@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of probability that a random walk on an 8-d lattice returns to the origin.",
+  "id": "A086236",
+  "mentions": [
+    "A086230",
+    "A086232",
+    "A086233",
+    "A086234",
+    "A086235",
+    "A242816"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

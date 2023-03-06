@@ -1,0 +1,32 @@
+{
+  "description": "Number of iterations until n reaches a number in A039943 under \"x goes to sum of squares of digits of x\" map.",
+  "id": "A099645",
+  "mentions": [
+    "A000216",
+    "A000218",
+    "A000221",
+    "A003132",
+    "A003621",
+    "A007700",
+    "A007770",
+    "A008460",
+    "A008462",
+    "A008463",
+    "A031176",
+    "A039943",
+    "A080709",
+    "A122065",
+    "A139566"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

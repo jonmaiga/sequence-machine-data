@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k begins a new chain of squarefree integers. I.e., k is squarefree but k-1 is not.",
+  "id": "A072284",
+  "mentions": [
+    "A001221",
+    "A005117",
+    "A013929",
+    "A059956",
+    "A065474",
+    "A120992",
+    "A136742",
+    "A136743"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

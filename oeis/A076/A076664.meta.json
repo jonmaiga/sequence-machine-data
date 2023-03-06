@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} antisigma(k), where antisigma(i) = sum of the nondivisors of i that are between 1 and i.",
+  "id": "A076664",
+  "mentions": [
+    "A000292",
+    "A024816",
+    "A024916"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

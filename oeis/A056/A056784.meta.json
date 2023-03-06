@@ -1,0 +1,22 @@
+{
+  "description": "First nonprime in a sequence of consecutive nonprimes which is at least twice as long as any earlier run of consecutive nonprimes in this list.",
+  "id": "A056784",
+  "mentions": [
+    "A000101",
+    "A002386",
+    "A008950",
+    "A008995",
+    "A008996",
+    "A114100"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

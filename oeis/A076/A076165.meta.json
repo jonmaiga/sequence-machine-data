@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that sum of cubes of even digits of n equals sum of cubes of odd digits of n.",
+  "id": "A076165",
+  "mentions": [
+    "A036301",
+    "A076166"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are not the sum of a square and a prime.",
+  "id": "A014090",
+  "mentions": [
+    "A002471",
+    "A014089",
+    "A020495",
+    "A064233",
+    "A104275"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

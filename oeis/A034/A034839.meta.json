@@ -1,0 +1,30 @@
+{
+  "description": "Triangular array formed by taking every other term of each row of Pascal's triangle.",
+  "id": "A034839",
+  "mentions": [
+    "A001147",
+    "A007318",
+    "A008619",
+    "A034867",
+    "A034870",
+    "A080928",
+    "A084938",
+    "A086645",
+    "A099174",
+    "A119326",
+    "A201701"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:16:45",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

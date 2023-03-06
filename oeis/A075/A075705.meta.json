@@ -1,0 +1,20 @@
+{
+  "description": "Safe primes (A005385) (p and (p-1)/2 are primes) such that 6*p+1 is also prime.",
+  "id": "A075705",
+  "mentions": [
+    "A005384",
+    "A005385",
+    "A007693",
+    "A059455"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

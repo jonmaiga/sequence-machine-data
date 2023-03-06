@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Max(n, R(n)), where R(n) (A004086) = digit reversal of n.",
+  "id": "A068637",
+  "mentions": [
+    "A004086",
+    "A004186",
+    "A068636"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "hear",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

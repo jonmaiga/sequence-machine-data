@@ -1,0 +1,18 @@
+{
+  "description": "Values of n for which there are no empty intervals when fractional_part(i E) for i = 1, ..., n is plotted along [ 0, 1 ] subdivided into n equal regions.",
+  "id": "A036413",
+  "mentions": [
+    "A036412"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

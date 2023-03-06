@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which Fibonacci(k) is the first member of a 1,1 pair (A052005).",
+  "id": "A052006",
+  "mentions": [
+    "A000045",
+    "A036284",
+    "A037093",
+    "A050815",
+    "A051392",
+    "A052005"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:59",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

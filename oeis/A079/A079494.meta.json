@@ -1,0 +1,17 @@
+{
+  "description": "Number of words of weight n in the free central groupoid on one generator.",
+  "id": "A079494",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Let p = n-th prime, then a(n) = smallest prime having p as its least prime primitive root.",
+  "id": "A084739",
+  "mentions": [
+    "A001918",
+    "A002233",
+    "A079061",
+    "A084735",
+    "A133434"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Tetrahedron with T(t,n,k)=n-k; succession of growing finite triangles with increasing values towards bottom left.",
+  "id": "A056560",
+  "mentions": [
+    "A002262",
+    "A025581",
+    "A056557",
+    "A056558",
+    "A056559"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:33:21",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

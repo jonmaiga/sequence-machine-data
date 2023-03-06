@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that, when expressed in base 6 and then interpreted in base 10, yield a multiple of the original number.",
+  "id": "A032546",
+  "mentions": [
+    "A032532",
+    "A032545",
+    "A032547"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:39:43",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Array f(m,n) read by antidiagonals: f(m,n) = minimal number of 0's in a 2m X 2n (0,1) matrix that contains no m X n submatrix of 1's (m >= 1, n >= 1).",
+  "id": "A070259",
+  "mentions": [
+    "A070300"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

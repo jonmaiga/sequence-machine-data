@@ -1,0 +1,21 @@
+{
+  "description": "Smallest lucky number with a decimal expansion starting n, n-1, ..., 2, 1.",
+  "id": "A057610",
+  "mentions": [
+    "A000959",
+    "A053547"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

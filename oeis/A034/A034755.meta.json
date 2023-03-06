@@ -1,0 +1,16 @@
+{
+  "description": "Dirichlet convolution of 3^(n-1) with Catalan numbers.",
+  "id": "A034755",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:18:03",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

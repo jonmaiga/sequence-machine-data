@@ -1,0 +1,19 @@
+{
+  "description": "Number of plane partitions of n with 3 or more columns.",
+  "id": "A089924",
+  "mentions": [
+    "A000219",
+    "A000991",
+    "A091357"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of coefficients in expansion of sin(n*x) (or sin(n*x)/cos(x) if n is even) in ascending powers of sin(x).",
+  "id": "A028298",
+  "mentions": [
+    "A028297"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:47",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

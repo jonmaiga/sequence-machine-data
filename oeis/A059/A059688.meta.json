@@ -1,0 +1,27 @@
+{
+  "description": "Length of Cunningham chain containing prime(n) either as initial, internal or final term.",
+  "id": "A059688",
+  "mentions": [
+    "A005384",
+    "A005385",
+    "A005602",
+    "A007700",
+    "A023272",
+    "A023302",
+    "A023330",
+    "A053176",
+    "A059452",
+    "A059456",
+    "A059500"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

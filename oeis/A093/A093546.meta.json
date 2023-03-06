@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n divides 2^n^2 + 1.",
+  "id": "A093546",
+  "mentions": [
+    "A006521",
+    "A067945",
+    "A093547"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

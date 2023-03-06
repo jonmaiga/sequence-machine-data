@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = sigma(A046523(n)), sum of divisors of the least number with the same prime signature as n.",
+  "id": "A083262",
+  "mentions": [
+    "A000203",
+    "A046523",
+    "A276528",
+    "A286360"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

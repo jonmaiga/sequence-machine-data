@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 3*a(n-1) - a(n-2), a(0)=1, a(1)=6.",
+  "id": "A054492",
+  "mentions": [
+    "A002878",
+    "A054486"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

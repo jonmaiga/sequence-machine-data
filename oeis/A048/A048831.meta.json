@@ -1,0 +1,18 @@
+{
+  "description": "Number of rooted identity game trees of height n, first player to reach to reach top wins. Second player wins.",
+  "id": "A048831",
+  "mentions": [
+    "A048829"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

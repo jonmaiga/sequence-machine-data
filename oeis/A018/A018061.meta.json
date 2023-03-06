@@ -1,0 +1,15 @@
+{
+  "description": "Powers of fourth root of 6 rounded to nearest integer.",
+  "id": "A018061",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:31:08",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

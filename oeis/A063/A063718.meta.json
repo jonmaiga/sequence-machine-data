@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest divisor of n^2 that is greater than n.",
+  "id": "A063718",
+  "mentions": [
+    "A063427",
+    "A063648",
+    "A063717"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 2,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of tan(tanh(x))*x/2.",
+  "id": "A024303",
+  "mentions": [
+    "A009718"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:19",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

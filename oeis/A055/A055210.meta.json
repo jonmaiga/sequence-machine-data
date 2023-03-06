@@ -1,0 +1,25 @@
+{
+  "description": "Sum of totients of square divisors of n.",
+  "id": "A055210",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001157",
+    "A008833",
+    "A010052",
+    "A013661",
+    "A078434"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

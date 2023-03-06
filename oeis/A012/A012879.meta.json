@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of e.g.f.: exp(sech(x)*arctan(x))=1+x+1/2!*x^2-4/3!*x^3-19/4!*x^4+20/5!*x^5...",
+  "id": "A012879",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:36",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

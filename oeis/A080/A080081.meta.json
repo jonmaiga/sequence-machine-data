@@ -1,0 +1,19 @@
+{
+  "description": "Beatty sequence for (3+sqrt(13))/2.",
+  "id": "A080081",
+  "mentions": [
+    "A059550",
+    "A276397"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

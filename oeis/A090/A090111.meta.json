@@ -1,0 +1,23 @@
+{
+  "description": "Values of n such that P[n]=4n^2-154n+1523 is prime and also {P[n+1],...,P[n+7-1]} are prime numbers. Namely: the terms are arguments providing a sequence of 7 polynomially consecutive primes with respect to 4x^2-154x+1523 polynomial communicated by Rivera (2003).",
+  "id": "A090111",
+  "mentions": [
+    "A055561",
+    "A090101",
+    "A090102",
+    "A090107",
+    "A090109",
+    "A090110",
+    "A090563"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

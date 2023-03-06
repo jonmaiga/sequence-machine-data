@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, where the n-th row lists the (2n+1) coefficients of (1 + x + 3x^2)^n.",
+  "id": "A084602",
+  "mentions": [
+    "A002426",
+    "A084600",
+    "A084601",
+    "A084603",
+    "A084615"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

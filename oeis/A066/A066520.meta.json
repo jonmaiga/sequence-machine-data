@@ -1,0 +1,42 @@
+{
+  "description": "Number of primes of the form 4m+3 <= n minus number of primes of the form 4m+1 <= n.",
+  "id": "A066520",
+  "mentions": [
+    "A007350",
+    "A038698",
+    "A051024",
+    "A051025",
+    "A066339",
+    "A066490",
+    "A071838",
+    "A112632",
+    "A151763",
+    "A156749",
+    "A320857",
+    "A320858",
+    "A321856",
+    "A321857",
+    "A321858",
+    "A321859",
+    "A321860",
+    "A321861",
+    "A321862",
+    "A321863",
+    "A321864",
+    "A321865"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

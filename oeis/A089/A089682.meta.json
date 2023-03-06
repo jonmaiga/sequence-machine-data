@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 3*m^2 - 1.",
+  "id": "A089682",
+  "mentions": [
+    "A080663"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:04:35",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

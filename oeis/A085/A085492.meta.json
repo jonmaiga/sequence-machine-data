@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n having no partition into distinct divisors of n+1.",
+  "id": "A085492",
+  "mentions": [
+    "A006093",
+    "A085491",
+    "A085493",
+    "A085497"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "LCM of n-th group of terms in A074147.",
+  "id": "A082736",
+  "mentions": [
+    "A061925",
+    "A074147",
+    "A074148",
+    "A074149",
+    "A082735"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

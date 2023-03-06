@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime number p such that n+p = q is also a prime, or 0 if no such prime number exists.",
+  "id": "A087242",
+  "mentions": [
+    "A087243",
+    "A174960"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Squares arising as a concatenation of k and 9's complement of k.",
+  "id": "A084006",
+  "mentions": [
+    "A007913",
+    "A046412",
+    "A084004",
+    "A084005",
+    "A084007"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of centered 5-valent trees with n nodes.",
+  "id": "A036648",
+  "mentions": [
+    "A036649",
+    "A036650"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:11",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

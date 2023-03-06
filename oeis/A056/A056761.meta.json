@@ -1,0 +1,26 @@
+{
+  "description": "Odd numbers less than the cube of their number of divisors.",
+  "id": "A056761",
+  "mentions": [
+    "A000005",
+    "A000265",
+    "A034884",
+    "A035033",
+    "A035035",
+    "A056757",
+    "A056767",
+    "A056781"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

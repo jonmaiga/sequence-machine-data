@@ -1,0 +1,31 @@
+{
+  "description": "Second level generalization of Catalan triangle (0th level is Pascal's triangle A007318; first level is Catalan triangle A009766; 3rd level is A069270).",
+  "id": "A069269",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A001764",
+    "A006013",
+    "A006629",
+    "A006630",
+    "A006631",
+    "A007318",
+    "A009766",
+    "A055998",
+    "A069270",
+    "A098746",
+    "A110616"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

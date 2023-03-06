@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = smallest k such that k=a(n-k-1) is the only appearance of k so far; if there is no such k, then a(n) = least positive integer that has not yet appeared.",
+  "id": "A026272",
+  "mentions": [
+    "A000027",
+    "A014552",
+    "A026242",
+    "A026350",
+    "A026354",
+    "A035513",
+    "A072061",
+    "A176127"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:51",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

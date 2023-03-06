@@ -1,0 +1,18 @@
+{
+  "description": "Number of non-descending integral vectors b of length n such that number of symmetric 0-1-matrices A of order n with row sums <= b is odd.",
+  "id": "A028506",
+  "mentions": [
+    "A029893"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

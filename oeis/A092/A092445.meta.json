@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the first term of the sexy prime quadruple a(n), a(n)+6, a(n)+12 and a(n)+18 that becomes a perfect square if the rightmost digit (1) is removed.",
+  "id": "A092445",
+  "mentions": [
+    "A023201",
+    "A046117"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

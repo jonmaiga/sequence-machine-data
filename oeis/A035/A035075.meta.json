@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = ceiling(sqrt(8*10^n)).",
+  "id": "A035075",
+  "mentions": [
+    "A035069",
+    "A035076",
+    "A045862",
+    "A067478"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:18:36",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

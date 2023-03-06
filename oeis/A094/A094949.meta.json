@@ -1,0 +1,26 @@
+{
+  "description": "Phi(m)*sigma(m), where m is the product of exactly two primes that differ by 2, where phi=A000010, sigma=A000203.",
+  "id": "A094949",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001359",
+    "A002415",
+    "A006512",
+    "A037074",
+    "A040040",
+    "A120875",
+    "A120876"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:03:17",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

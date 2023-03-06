@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that prime(k) == 6 (mod k).",
+  "id": "A023148",
+  "mentions": [
+    "A023143",
+    "A023144",
+    "A023145",
+    "A023146",
+    "A023147",
+    "A023149",
+    "A023150",
+    "A023151",
+    "A023152",
+    "A092048"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

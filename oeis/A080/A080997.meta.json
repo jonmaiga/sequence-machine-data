@@ -1,0 +1,27 @@
+{
+  "description": "The positive integers arranged in nonincreasing order of centrality (the fraction of n represented by the average gcd of n and the other positive integers).",
+  "id": "A080997",
+  "mentions": [
+    "A003991",
+    "A018804",
+    "A061017",
+    "A080998",
+    "A080999",
+    "A081000",
+    "A081001",
+    "A081028",
+    "A081029"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

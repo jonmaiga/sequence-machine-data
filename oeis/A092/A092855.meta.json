@@ -1,0 +1,21 @@
+{
+  "description": "Representation of sqrt(2) - 1 by an infinite sequence.",
+  "id": "A092855",
+  "mentions": [
+    "A051006",
+    "A092857",
+    "A092875"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

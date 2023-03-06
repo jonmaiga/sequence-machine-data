@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = a(m) if a(m) has already occurred exactly once and n = a(m) + m + 4, else a(n) = least positive integer that has not yet occurred.",
+  "id": "A026284",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:51",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

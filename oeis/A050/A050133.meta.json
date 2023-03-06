@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=least k satisfying a(k)=n in A050132.",
+  "id": "A050133",
+  "mentions": [
+    "A050132"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:15",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

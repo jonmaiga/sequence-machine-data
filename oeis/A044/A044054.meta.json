@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that string 0,2 occurs in the base-3 representation of k but not of k-1.",
+  "id": "A044054",
+  "mentions": [
+    "A007089",
+    "A044435"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:22:15",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

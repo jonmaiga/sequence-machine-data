@@ -1,0 +1,43 @@
+{
+  "description": "Difference between the arithmetic mean of the neighbors of the terms and the term itself follows the pattern 0,1,2,3,4,5,...",
+  "id": "A086514",
+  "mentions": [
+    "A000124",
+    "A000125",
+    "A000127",
+    "A000290",
+    "A002522",
+    "A005408",
+    "A006261",
+    "A014106",
+    "A016813",
+    "A058331",
+    "A080856",
+    "A161700",
+    "A161701",
+    "A161702",
+    "A161703",
+    "A161704",
+    "A161706",
+    "A161707",
+    "A161708",
+    "A161710",
+    "A161711",
+    "A161712",
+    "A161713",
+    "A161715",
+    "A177342"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

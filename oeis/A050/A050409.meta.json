@@ -1,0 +1,28 @@
+{
+  "description": "Truncated square pyramid numbers: a(n) = Sum_{k = n..2*n} k^2.",
+  "id": "A050409",
+  "mentions": [
+    "A000330",
+    "A033994",
+    "A045943",
+    "A129371",
+    "A132112",
+    "A132121",
+    "A132124",
+    "A225144",
+    "A304993"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:45:15",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

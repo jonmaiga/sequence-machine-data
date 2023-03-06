@@ -1,0 +1,23 @@
+{
+  "description": "26th powers: a(n) = n^26.",
+  "id": "A089081",
+  "mentions": [
+    "A008454",
+    "A008456",
+    "A010801",
+    "A010813"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:40:24",
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

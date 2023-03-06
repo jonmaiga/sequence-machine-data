@@ -1,0 +1,26 @@
+{
+  "description": "Odd part of n modulo 3.",
+  "id": "A099544",
+  "mentions": [
+    "A000265",
+    "A010872",
+    "A099545",
+    "A099546",
+    "A099547",
+    "A099548",
+    "A099549",
+    "A099550",
+    "A099551"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:15:03",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

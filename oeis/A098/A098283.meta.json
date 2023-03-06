@@ -1,0 +1,18 @@
+{
+  "description": "Consider the family of multigraphs enriched by the species of cycles. Sequence gives the triangle read by rows giving coefficients of polynomials arising from enumeration of those multigraphs on n edges.",
+  "id": "A098283",
+  "mentions": [
+    "A038205"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

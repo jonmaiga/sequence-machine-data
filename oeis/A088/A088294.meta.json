@@ -1,0 +1,22 @@
+{
+  "description": "Primes in which the digit string can be partitioned into three parts such that third (least significant) part is the product of the first two.",
+  "id": "A088294",
+  "mentions": [
+    "A088291",
+    "A088292",
+    "A088293",
+    "A280635",
+    "A280636"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Accumulative sum of the greatest digit of n minus the least digit of n (A037904) <= 10^n.",
+  "id": "A072817",
+  "mentions": [
+    "A037904"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

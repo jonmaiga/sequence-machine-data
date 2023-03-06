@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = ceiling(k^2 / n), 0 < k <= n.",
+  "id": "A078879",
+  "mentions": [
+    "A014811"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

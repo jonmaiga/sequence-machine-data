@@ -1,0 +1,22 @@
+{
+  "description": "Number of Motzkin paths of length n with no level steps at even level.",
+  "id": "A090345",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A001006",
+    "A008619",
+    "A090344"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

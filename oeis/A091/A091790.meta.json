@@ -1,0 +1,18 @@
+{
+  "description": "Palindromes obtained as the concatenation of three successive terms of A091789.",
+  "id": "A091790",
+  "mentions": [
+    "A091789"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

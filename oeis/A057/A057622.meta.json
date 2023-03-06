@@ -1,0 +1,24 @@
+{
+  "description": "Initial prime in first sequence of n consecutive primes congruent to 5 modulo 6.",
+  "id": "A057622",
+  "mentions": [
+    "A000040",
+    "A055626",
+    "A057619",
+    "A057620",
+    "A057621",
+    "A057624",
+    "A247967"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

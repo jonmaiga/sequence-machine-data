@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 2^k contains 2^12=4096 as its largest proper substring of the form 2^m.",
+  "id": "A046298",
+  "mentions": [
+    "A033921"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

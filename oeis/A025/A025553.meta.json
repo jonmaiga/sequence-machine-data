@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = (Sum_{i=0..n-1} 1/b(i)) * LCM{b(i): i=0..n-1}, where b(i) = C(i,floor(i/2)).",
+  "id": "A025553",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:55:39",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

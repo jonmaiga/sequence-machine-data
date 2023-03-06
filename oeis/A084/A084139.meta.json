@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the largest number for which exactly n primes are bounded between a(n) and 2a(n) exclusively.",
+  "id": "A084139",
+  "mentions": [
+    "A060715",
+    "A060756",
+    "A084138",
+    "A084140",
+    "A084141",
+    "A084142",
+    "A104272",
+    "A168421"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

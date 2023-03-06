@@ -1,0 +1,18 @@
+{
+  "description": "Least k>1 such that complement of first n terms of Kolakoski sequence (A000002) repeats beginning at k-th term.",
+  "id": "A022296",
+  "mentions": [
+    "A000002",
+    "A022294"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:29",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

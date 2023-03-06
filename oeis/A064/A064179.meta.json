@@ -1,0 +1,35 @@
+{
+  "description": "Infinitary version of Moebius function: infinitary MoebiusMu of n, equal to mu(n) iff mu(n) differs from zero, else 1 or -1 depending on whether the sum of the binary digits of the exponents in the prime decomposition of n is even or odd.",
+  "id": "A064179",
+  "mentions": [
+    "A000028",
+    "A000188",
+    "A000379",
+    "A001221",
+    "A003961",
+    "A007913",
+    "A008683",
+    "A008833",
+    "A008836",
+    "A050376",
+    "A050377",
+    "A059897",
+    "A064547",
+    "A091732",
+    "A225546",
+    "A302777"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

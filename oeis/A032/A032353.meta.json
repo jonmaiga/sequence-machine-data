@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 7*2^k+1 is prime.",
+  "id": "A032353",
+  "mentions": [
+    "A002255",
+    "A050527"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

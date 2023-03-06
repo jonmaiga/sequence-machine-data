@@ -1,0 +1,23 @@
+{
+  "description": "Take natural numbers, exchange first and third quadrisection.",
+  "id": "A092486",
+  "mentions": [
+    "A064429",
+    "A074066",
+    "A080412",
+    "A080782",
+    "A159966"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

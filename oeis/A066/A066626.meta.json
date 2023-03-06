@@ -1,0 +1,17 @@
+{
+  "description": "Concatenation of cubes in increasing order up to the n-th and then in decreasing order.",
+  "id": "A066626",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

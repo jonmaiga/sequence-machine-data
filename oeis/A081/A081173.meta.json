@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2, then a(n) = greatest prime factor of (a(n-1)^2+2).",
+  "id": "A081173",
+  "mentions": [
+    "A083388"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

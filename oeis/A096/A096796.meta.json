@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n for n <= 2; for n > 2, a(n) = 2a(n-1) - a(n - floor( 1/2 + sqrt(2n) )).",
+  "id": "A096796",
+  "mentions": [
+    "A003056",
+    "A005318",
+    "A083920",
+    "A096824"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

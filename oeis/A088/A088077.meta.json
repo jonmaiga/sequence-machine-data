@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number m sandwiched between m-1 and m+1, both with special properties as follows: both are squarefree; both have n distinct prime factors.",
+  "id": "A088077",
+  "mentions": [
+    "A001221",
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

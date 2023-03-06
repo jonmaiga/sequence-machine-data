@@ -1,0 +1,20 @@
+{
+  "description": "Primes which can be partitioned into distinct factorials. 0! and 1! are not considered distinct.",
+  "id": "A089359",
+  "mentions": [
+    "A059590",
+    "A088332",
+    "A300947",
+    "A301593"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

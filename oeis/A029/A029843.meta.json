@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{m>=1} ((1+q^(2*m-1))/(1+q^(2*m)))^6.",
+  "id": "A029843",
+  "mentions": [
+    "A029838",
+    "A029839",
+    "A029840",
+    "A029841",
+    "A029842",
+    "A029844"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

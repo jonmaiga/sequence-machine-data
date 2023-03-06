@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number that is not a sum of at most one power of each of the numbers 1 through n.",
+  "id": "A047870",
+  "mentions": [
+    "A047871"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

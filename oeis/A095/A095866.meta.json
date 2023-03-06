@@ -1,0 +1,25 @@
+{
+  "description": "Largest n-digit number - largest n-digit triangular number.",
+  "id": "A095866",
+  "mentions": [
+    "A068092",
+    "A068093",
+    "A068094",
+    "A095863",
+    "A095864",
+    "A095865"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Rectangular array T(n,k) of central polygonal numbers, by antidiagonals.",
+  "id": "A086273",
+  "mentions": [
+    "A000027",
+    "A016777",
+    "A016921",
+    "A017281",
+    "A086270",
+    "A086271",
+    "A086272",
+    "A086274",
+    "A112414"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:33:09",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

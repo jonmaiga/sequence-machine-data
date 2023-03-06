@@ -1,0 +1,19 @@
+{
+  "description": "Number of isolated-pentagon fullerenes with 2n vertices (or carbon atoms).",
+  "id": "A086423",
+  "mentions": [
+    "A007894",
+    "A046880",
+    "A057210"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 30,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

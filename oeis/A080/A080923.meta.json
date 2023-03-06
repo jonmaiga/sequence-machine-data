@@ -1,0 +1,26 @@
+{
+  "description": "First differences of A003946.",
+  "id": "A080923",
+  "mentions": [
+    "A003946",
+    "A005051",
+    "A025192",
+    "A026097",
+    "A034839",
+    "A034867",
+    "A083583",
+    "A110168"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:54:11",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

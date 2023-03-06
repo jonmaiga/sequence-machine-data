@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the prime index of the Lesser Fortunate number A055211(n), or 0 if A055211(n) is not a prime.",
+  "id": "A098166",
+  "mentions": [
+    "A000720",
+    "A055211",
+    "A098167"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

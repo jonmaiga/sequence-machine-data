@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 128p+1 and (p-1)/128 are both prime.",
+  "id": "A086477",
+  "mentions": [
+    "A085957",
+    "A085958",
+    "A086476",
+    "A086478"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

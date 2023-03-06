@@ -1,0 +1,33 @@
+{
+  "description": "Jacobsthal-Lucas numbers.",
+  "id": "A014551",
+  "mentions": [
+    "A000079",
+    "A001045",
+    "A006995",
+    "A019322",
+    "A033999",
+    "A060867",
+    "A062510",
+    "A066845",
+    "A078008",
+    "A102345",
+    "A105723",
+    "A111317",
+    "A135440",
+    "A166920"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:48:47",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that m*2^k+1 is not prime for all coefficients m in the range 0<=m<=k.",
+  "id": "A061410",
+  "mentions": [
+    "A061411",
+    "A061412",
+    "A061413",
+    "A061414",
+    "A061415"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

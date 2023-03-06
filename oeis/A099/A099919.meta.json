@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = F(3) + F(6) + F(9) + ... + F(3n), F(n) = Fibonacci numbers A000045.",
+  "id": "A099919",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A004794",
+    "A014445",
+    "A015448",
+    "A027941",
+    "A049652",
+    "A053606",
+    "A058038",
+    "A087635",
+    "A138134"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

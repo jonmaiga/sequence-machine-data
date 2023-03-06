@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = floor((sqrt(1+8*n)-3)/2).",
+  "id": "A052146",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:01:35",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

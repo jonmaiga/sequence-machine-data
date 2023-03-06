@@ -1,0 +1,21 @@
+{
+  "description": "Greedy frac multiples of e: a(1)=1, sum(n>0,frac(a(n)*x))=1 at x=e.",
+  "id": "A079939",
+  "mentions": [
+    "A007677",
+    "A079934",
+    "A079937",
+    "A079940"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

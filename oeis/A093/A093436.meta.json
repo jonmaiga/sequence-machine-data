@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of exp(Pi*sqrt(67)).",
+  "id": "A093436",
+  "mentions": [
+    "A060295"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:07:29",
+    "offset": 12,
+    "size": 105,
+    "source": "joeis"
+  }
+}

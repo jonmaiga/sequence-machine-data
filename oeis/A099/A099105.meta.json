@@ -1,0 +1,19 @@
+{
+  "description": "If n = Product p_i^r_i let Uphi(n) = Product(p_i^r_i - 1). Call (x,y) a square unitary phi amicable pair if Uphi(x)^2 = Uphi(y)^2 = x^2-y^2. Sequence gives x values for square unitary phi amicable pairs.",
+  "id": "A099105",
+  "mentions": [
+    "A099106"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

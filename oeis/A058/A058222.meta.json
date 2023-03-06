@@ -1,0 +1,23 @@
+{
+  "description": "Tree of tournament sequences read across rows.",
+  "id": "A058222",
+  "mentions": [
+    "A002083",
+    "A008934",
+    "A058223"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

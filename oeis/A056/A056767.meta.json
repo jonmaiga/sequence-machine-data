@@ -1,0 +1,25 @@
+{
+  "description": "Largest number of binary size n (i.e., between (n-1)-th and n-th powers of 2) with the following property: cube of its number of divisors is larger than the number itself.",
+  "id": "A056767",
+  "mentions": [
+    "A000005",
+    "A029837",
+    "A034884",
+    "A035033",
+    "A035035",
+    "A056757",
+    "A056781"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

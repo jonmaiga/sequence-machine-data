@@ -1,0 +1,19 @@
+{
+  "description": "Nonprimes of the form 4*k+1.",
+  "id": "A091113",
+  "mentions": [
+    "A014076",
+    "A016813",
+    "A091236"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

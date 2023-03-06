@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of Integrate_{x=0..n} binomial (x, n) dx.",
+  "id": "A094369",
+  "mentions": [
+    "A094370"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

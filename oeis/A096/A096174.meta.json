@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers k such that (k^3+1)/(k+1) is prime.",
+  "id": "A096174",
+  "mentions": [
+    "A055494",
+    "A081256",
+    "A096173"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

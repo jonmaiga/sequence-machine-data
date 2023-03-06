@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is smallest prime > 10*a(n-1), a(1) = 7.",
+  "id": "A065537",
+  "mentions": [
+    "A048552",
+    "A065122"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

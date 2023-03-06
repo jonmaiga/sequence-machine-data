@@ -1,0 +1,32 @@
+{
+  "description": "Table T(n,k) giving number of ways of obtaining exactly one correct answer on an (n,k)-matching problem (1 <= k <= n).",
+  "id": "A076732",
+  "mentions": [
+    "A000012",
+    "A000166",
+    "A000240",
+    "A001477",
+    "A002061",
+    "A003470",
+    "A047920",
+    "A060475",
+    "A076731",
+    "A094792",
+    "A094793",
+    "A094794",
+    "A094795",
+    "A193463"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

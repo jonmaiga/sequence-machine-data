@@ -1,0 +1,18 @@
+{
+  "description": "G.f. is F^2, where F is g.f. for Fibonacci word (A003849).",
+  "id": "A080844",
+  "mentions": [
+    "A003849",
+    "A080845"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

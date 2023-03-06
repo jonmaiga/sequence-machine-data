@@ -1,0 +1,22 @@
+{
+  "description": "Let f(0) = 1, f(1) = 12, f(2) = 223, f(3) = 3334, = f(4) = 44445, f(5) = 555556, etc. Sequence gives concatenation of 0, f(0), f(f(0)), f(f(f(0))), ...",
+  "id": "A085693",
+  "mentions": [
+    "A000110",
+    "A048993",
+    "A085694",
+    "A120698"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

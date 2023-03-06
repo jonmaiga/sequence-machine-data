@@ -1,0 +1,20 @@
+{
+  "description": "Product of digits of n is a nonzero square.",
+  "id": "A050626",
+  "mentions": [
+    "A007954",
+    "A028839",
+    "A028845"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

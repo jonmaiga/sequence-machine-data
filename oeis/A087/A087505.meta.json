@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that 5*k+3 is a prime.",
+  "id": "A087505",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

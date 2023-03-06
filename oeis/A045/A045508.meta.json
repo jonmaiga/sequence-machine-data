@@ -1,0 +1,21 @@
+{
+  "description": "Concatenate factorials.",
+  "id": "A045508",
+  "mentions": [
+    "A000142",
+    "A007908"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

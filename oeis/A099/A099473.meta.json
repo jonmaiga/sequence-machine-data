@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that binomial(2*k,k) cannot be represented as the sum of three squares.",
+  "id": "A099473",
+  "mentions": [
+    "A004215",
+    "A099472"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

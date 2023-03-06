@@ -1,0 +1,21 @@
+{
+  "description": "Primes none of whose proper initial segments are primes.",
+  "id": "A069090",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A074721",
+    "A276707"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonterminal symbols in a certain \"divide-and-conquer\" context-free grammar in Chomsky normal form that generates all permutations of n symbols.",
+  "id": "A092284",
+  "mentions": [
+    "A090349"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

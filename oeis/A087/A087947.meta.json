@@ -1,0 +1,18 @@
+{
+  "description": "Sum of successive remainders in computing Euclidean algorithm for (1, 1/sqrt(-n)) has real and imaginary parts equal.",
+  "id": "A087947",
+  "mentions": [
+    "A086378",
+    "A087948"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Recurrence sequence based on positions of digits in decimal places of 1/G, where G is Catalan's constant (also often called K).",
+  "id": "A098323",
+  "mentions": [
+    "A097614",
+    "A098266",
+    "A098289",
+    "A098290",
+    "A098319",
+    "A098320",
+    "A098321",
+    "A098322"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

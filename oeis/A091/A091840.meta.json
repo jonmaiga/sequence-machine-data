@@ -1,0 +1,20 @@
+{
+  "description": "Lengths of suffix blocks associated with A091787.",
+  "id": "A091840",
+  "mentions": [
+    "A090822",
+    "A091579",
+    "A091787",
+    "A091841"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

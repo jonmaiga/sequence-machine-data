@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 0; for n > 0, a(n) = final nonzero number in the sequence n, f(n,2), f(f(n,2),3), f(f(f(n,2),3),4),..., where f(n,d)=Floor(n/F(d+1)), with F denoting the Fibonacci numbers (A000045).",
+  "id": "A099564",
+  "mentions": [
+    "A000045",
+    "A000142",
+    "A002110",
+    "A003266",
+    "A099563",
+    "A099565",
+    "A276153"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

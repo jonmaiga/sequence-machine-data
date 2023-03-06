@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of lim_{n-->infty} B(2n,5)/(B(2n)*25^n) ( see comment for B(n,k) definition ).",
+  "id": "A096052",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A096045",
+    "A096046",
+    "A096047",
+    "A096048",
+    "A096049",
+    "A096050",
+    "A096051"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

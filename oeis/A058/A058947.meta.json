@@ -1,0 +1,32 @@
+{
+  "description": "Coefficients of primitive irreducible polynomials over GF(2) listed in lexicographic order.",
+  "id": "A058947",
+  "mentions": [
+    "A000020",
+    "A001037",
+    "A007088",
+    "A011260",
+    "A058943",
+    "A058944",
+    "A058945",
+    "A058946",
+    "A058948",
+    "A058949",
+    "A058950",
+    "A058951",
+    "A058952",
+    "A091250"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

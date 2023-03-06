@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of n! which are also differences between consecutive divisors of n! (ordered by size).",
+  "id": "A060742",
+  "mentions": [
+    "A000142",
+    "A027423",
+    "A060737",
+    "A060738",
+    "A060741"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

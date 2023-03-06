@@ -1,0 +1,26 @@
+{
+  "description": "Primes which can be expressed as sums of distinct powers of 8.",
+  "id": "A077722",
+  "mentions": [
+    "A000040",
+    "A000695",
+    "A020449",
+    "A033045",
+    "A077717",
+    "A077718",
+    "A077719",
+    "A077720",
+    "A077721",
+    "A077723"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

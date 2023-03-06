@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction for the 2nd du Bois-Reymond constant.",
+  "id": "A062545",
+  "mentions": [
+    "A062546"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:26:49",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

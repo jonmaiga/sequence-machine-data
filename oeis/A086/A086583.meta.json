@@ -1,0 +1,19 @@
+{
+  "description": "Self-convolution of A086582; the first 2^n terms of this sequence gives the 2^n terms that follow the 2^n-th term of A086582.",
+  "id": "A086583",
+  "mentions": [
+    "A086582",
+    "A086584"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

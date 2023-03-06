@@ -1,0 +1,22 @@
+{
+  "description": "Inverse of A098550.",
+  "id": "A098551",
+  "mentions": [
+    "A098479",
+    "A098550",
+    "A098553",
+    "A249943",
+    "A255940"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

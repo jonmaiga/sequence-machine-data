@@ -1,0 +1,21 @@
+{
+  "description": "Number of odd composites between 2^n and 2^(n + 1).",
+  "id": "A094812",
+  "mentions": [
+    "A036616",
+    "A036622",
+    "A071904"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

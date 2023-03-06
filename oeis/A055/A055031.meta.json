@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of (Sum(m^(n-1),m=1..n-1)+1)/n.",
+  "id": "A055031",
+  "mentions": [
+    "A055023",
+    "A055030",
+    "A055032",
+    "A201560",
+    "A204187"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

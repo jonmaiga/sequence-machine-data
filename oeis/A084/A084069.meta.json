@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that 7*k^2 = floor(k*sqrt(7)*ceiling(k*sqrt(7))).",
+  "id": "A084069",
+  "mentions": [
+    "A001078",
+    "A001080",
+    "A001109",
+    "A001353",
+    "A001653",
+    "A060645",
+    "A084068",
+    "A084070",
+    "A143643",
+    "A159678"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:55:27",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

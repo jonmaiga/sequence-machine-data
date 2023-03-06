@@ -1,0 +1,32 @@
+{
+  "description": "Replace 2^k in binary expansion of n with Fibonacci(k+2).",
+  "id": "A022290",
+  "mentions": [
+    "A000045",
+    "A000225",
+    "A001911",
+    "A003714",
+    "A003754",
+    "A022342",
+    "A026274",
+    "A029931",
+    "A030308",
+    "A054204",
+    "A059590",
+    "A062877",
+    "A089625"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:29",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

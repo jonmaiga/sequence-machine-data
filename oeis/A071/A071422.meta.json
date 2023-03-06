@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = a(n-1) + sum of decimal digits of sigma(n), the sum of divisors of n.",
+  "id": "A071422",
+  "mentions": [
+    "A000788",
+    "A037123",
+    "A051351",
+    "A067342"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

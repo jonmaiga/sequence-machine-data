@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of e.g.f.: exp(tan(arctanh(x)))=1+x+1/2!*x^2+5/3!*x^3+17/4!*x^4+121/5!*x^5...",
+  "id": "A012174",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:55",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

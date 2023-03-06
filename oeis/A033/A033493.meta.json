@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the numbers in the trajectory of n for the 3x+1 problem.",
+  "id": "A033493",
+  "mentions": [
+    "A006370",
+    "A006577",
+    "A049074",
+    "A070165"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

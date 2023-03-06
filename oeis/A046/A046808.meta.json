@@ -1,0 +1,18 @@
+{
+  "description": "Recursive sequence of indices of Proth primes a*2^b + 1.",
+  "id": "A046808",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

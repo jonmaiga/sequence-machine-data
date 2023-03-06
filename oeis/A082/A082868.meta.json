@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction approximation to Product_{k>=2} zeta(k).",
+  "id": "A082868",
+  "mentions": [
+    "A021002"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

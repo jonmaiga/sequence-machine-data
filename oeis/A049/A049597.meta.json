@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array T(n,k) in which k-th column gives coefficients of sum of Gaussian polynomials [k,m] for m=0..k.",
+  "id": "A049597",
+  "mentions": [
+    "A083906"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:21",
+    "offset": 0,
+    "size": 97,
+    "source": "joeis"
+  }
+}

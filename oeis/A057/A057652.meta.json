@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n-2^k is a lucky number for all k such that 1 < 2^k < n.",
+  "id": "A057652",
+  "mentions": [
+    "A000959",
+    "A039669"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

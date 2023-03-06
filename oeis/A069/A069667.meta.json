@@ -1,0 +1,23 @@
+{
+  "description": "Smallest nontrivial (no trailing zeros) n-digit square with minimum digit sum.",
+  "id": "A069667",
+  "mentions": [
+    "A069661",
+    "A069662",
+    "A069663",
+    "A069664",
+    "A069665",
+    "A069666"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

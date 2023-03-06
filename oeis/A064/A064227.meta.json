@@ -1,0 +1,23 @@
+{
+  "description": "From Recamán's sequence (A005132): record values in A057167.",
+  "id": "A064227",
+  "mentions": [
+    "A005132",
+    "A057167",
+    "A064228"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

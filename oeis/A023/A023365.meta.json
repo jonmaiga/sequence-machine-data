@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2^(3^(n-1)).",
+  "id": "A023365",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A181875",
+    "A181876",
+    "A181877"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

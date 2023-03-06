@@ -1,0 +1,19 @@
+{
+  "description": "Hard numbers: a(n) = smallest positive number m with f(m) = n, where f(m) is the smallest number of digits that are needed to construct m using only 1's, 2's and any number of +, -, *, ^ signs, allowing concatenation of the digits.",
+  "id": "A060273",
+  "mentions": [
+    "A060274",
+    "A260016"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

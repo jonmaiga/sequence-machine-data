@@ -1,0 +1,31 @@
+{
+  "description": "First differences of A049472, floor(n/sqrt(2)).",
+  "id": "A080764",
+  "mentions": [
+    "A001333",
+    "A001951",
+    "A001952",
+    "A005614",
+    "A049472",
+    "A119812",
+    "A159684",
+    "A171588",
+    "A188295",
+    "A221150",
+    "A221151",
+    "A221152",
+    "A230901"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

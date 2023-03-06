@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n + a(floor(sqrt(n))) for n > 1; a(1) = 1.",
+  "id": "A097044",
+  "mentions": [
+    "A097043"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

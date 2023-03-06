@@ -1,0 +1,21 @@
+{
+  "description": "Multiply perfect numbers for which the quotient sigma(5,x)/x A001160(x)/x is nonintegral.",
+  "id": "A088845",
+  "mentions": [
+    "A001158",
+    "A001160",
+    "A007691",
+    "A066269",
+    "A088843"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

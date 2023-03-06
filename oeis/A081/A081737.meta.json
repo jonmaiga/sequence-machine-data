@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (n-1)*10 + n-th decimal digit of Pi=3.14159...",
+  "id": "A081737",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

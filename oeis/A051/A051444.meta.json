@@ -1,0 +1,23 @@
+{
+  "description": "Smallest k such that sigma(k) = n, or 0 if there is no such k, where sigma = A000203 = sum of divisors.",
+  "id": "A051444",
+  "mentions": [
+    "A000203",
+    "A002191",
+    "A002192",
+    "A007369",
+    "A007626",
+    "A299762"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

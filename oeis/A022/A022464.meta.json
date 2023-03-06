@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 36*n^2 - 810*n + 2753, n >= 0, sorted.",
+  "id": "A022464",
+  "mentions": [
+    "A050268"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

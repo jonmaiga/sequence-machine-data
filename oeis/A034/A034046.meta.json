@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are both primitively and imprimitively represented by x^2+y^2+z^2.",
+  "id": "A034046",
+  "mentions": [
+    "A000378",
+    "A004215",
+    "A034043",
+    "A034047",
+    "A047449"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:09:31",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number of the form n^k +1, with tau(a(n)) = tau(n), or 0 if no such number exists.",
+  "id": "A087319",
+  "mentions": [
+    "A087318"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

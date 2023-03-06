@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 0, a(2) = 1, a(3) = 1, a(4) = 7; thereafter, a(n) = a(n-1) + (n-1)*a(n-2).",
+  "id": "A086828",
+  "mentions": [
+    "A000085"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

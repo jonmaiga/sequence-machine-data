@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = denominator(N), where N = 0.246...up to 2n (concatenation 2 to 2n of first n even numbers after decimal point).",
+  "id": "A078260",
+  "mentions": [
+    "A078257",
+    "A078261"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

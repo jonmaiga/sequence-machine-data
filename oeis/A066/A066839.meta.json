@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sum of positive divisors k of n with k <= sqrt(n).",
+  "id": "A066839",
+  "mentions": [
+    "A000203",
+    "A038548",
+    "A070038",
+    "A072499",
+    "A161906",
+    "A334466"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

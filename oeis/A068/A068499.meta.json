@@ -1,0 +1,24 @@
+{
+  "description": "Numbers m such that m! reduced modulo (m+1) is not zero.",
+  "id": "A068499",
+  "mentions": [
+    "A000040",
+    "A006093",
+    "A039915",
+    "A062569",
+    "A078456",
+    "A166460"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

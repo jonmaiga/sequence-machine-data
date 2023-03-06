@@ -1,0 +1,23 @@
+{
+  "description": "The (2^n)-th composite number.",
+  "id": "A065856",
+  "mentions": [
+    "A000079",
+    "A000720",
+    "A002808",
+    "A033844",
+    "A062298",
+    "A065855"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Convolution of Fibonacci numbers and {F(2), F(3), F(4), ...}.",
+  "id": "A023610",
+  "mentions": [
+    "A000045",
+    "A001629",
+    "A002940",
+    "A004798",
+    "A010049",
+    "A029907",
+    "A063967",
+    "A144153",
+    "A181630"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

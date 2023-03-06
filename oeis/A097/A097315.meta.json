@@ -1,0 +1,29 @@
+{
+  "description": "Pell equation solutions (3*b(n))^2 - 10*a(n)^2 = -1 with b(n) = A097314(n), n >= 0.",
+  "id": "A097315",
+  "mentions": [
+    "A005668",
+    "A049310",
+    "A053120",
+    "A078987",
+    "A097314",
+    "A188647",
+    "A195616",
+    "A195617",
+    "A221874",
+    "A238379"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "The 17 prime powers k = p^w such that d(p^w)^3 > p^w where d = A000005().",
+  "id": "A056759",
+  "mentions": [
+    "A000005",
+    "A034884",
+    "A035033",
+    "A035035",
+    "A056757",
+    "A056781"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

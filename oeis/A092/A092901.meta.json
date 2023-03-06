@@ -1,0 +1,19 @@
+{
+  "description": "Number of irregular primes (A000928) less than 10^n.",
+  "id": "A092901",
+  "mentions": [
+    "A000928"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

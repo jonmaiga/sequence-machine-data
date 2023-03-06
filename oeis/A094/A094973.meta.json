@@ -1,0 +1,18 @@
+{
+  "description": "Square numbers which equal a triangular number times an odd number between 1 and 15.",
+  "id": "A094973",
+  "mentions": [
+    "A000217",
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

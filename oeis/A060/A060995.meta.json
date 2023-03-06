@@ -1,0 +1,19 @@
+{
+  "description": "Number of routes of length 2n on the sides of an octagon from a point to opposite point.",
+  "id": "A060995",
+  "mentions": [
+    "A007070",
+    "A056236"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

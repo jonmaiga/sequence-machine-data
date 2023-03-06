@@ -1,0 +1,26 @@
+{
+  "description": "Base-2 digits are, in order, the first n terms of the periodic sequence with initial period [1,1,0].",
+  "id": "A033129",
+  "mentions": [
+    "A011655",
+    "A057744",
+    "A078043",
+    "A083713",
+    "A173593",
+    "A289006",
+    "A294627"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

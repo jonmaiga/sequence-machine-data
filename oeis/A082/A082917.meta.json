@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that can be expressed as the sum of two odd primes in more ways than any smaller even number.",
+  "id": "A082917",
+  "mentions": [
+    "A001172",
+    "A002110",
+    "A002375",
+    "A082918",
+    "A109679",
+    "A116979"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

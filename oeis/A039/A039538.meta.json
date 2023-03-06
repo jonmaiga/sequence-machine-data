@@ -1,0 +1,17 @@
+{
+  "description": "Numbers whose base-12 representation has the same nonzero number of 5's and 6's.",
+  "id": "A039538",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:12:03",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of (1/e)^(1/e).",
+  "id": "A072364",
+  "mentions": [
+    "A001113",
+    "A068985",
+    "A072365",
+    "A073229",
+    "A073230",
+    "A258707"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

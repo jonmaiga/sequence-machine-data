@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the sum of the odd degrees of the irreducible representations of the symmetric group S_n.",
+  "id": "A089248",
+  "mentions": [
+    "A000085",
+    "A059867"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

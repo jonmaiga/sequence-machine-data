@@ -1,0 +1,25 @@
+{
+  "description": "Central elements of the (1,2)-Pascal triangle A029635.",
+  "id": "A029651",
+  "mentions": [
+    "A000034",
+    "A000108",
+    "A001700",
+    "A003409",
+    "A029635",
+    "A039599",
+    "A143398",
+    "A145460"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

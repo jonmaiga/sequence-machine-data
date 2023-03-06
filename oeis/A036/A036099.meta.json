@@ -1,0 +1,20 @@
+{
+  "description": "Centered cube numbers: (n+1)^21 + n^21.",
+  "id": "A036099",
+  "mentions": [
+    "A010809",
+    "A036097",
+    "A036098"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

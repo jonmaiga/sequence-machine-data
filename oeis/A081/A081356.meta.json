@@ -1,0 +1,18 @@
+{
+  "description": "Least m such that A081355(m)=LD(m,m^2)=n, where LD(x,y) denotes the Levenshtein distance between x and y in decimal representation.",
+  "id": "A081356",
+  "mentions": [
+    "A081355"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

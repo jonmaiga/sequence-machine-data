@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle: row n is 1, 2, 3, 4, .., prime(n).",
+  "id": "A037125",
+  "mentions": [
+    "A000040",
+    "A002260"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:33:55",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

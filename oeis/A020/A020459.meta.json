@@ -1,0 +1,20 @@
+{
+  "description": "Primes that contain digits 2 and 7 only.",
+  "id": "A020459",
+  "mentions": [
+    "A000040",
+    "A284921",
+    "A329760"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

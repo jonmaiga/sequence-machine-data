@@ -1,0 +1,24 @@
+{
+  "description": "Number of one-element transitions from the partitions of n to the partitions of n+1 for labeled parts.",
+  "id": "A093694",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A001620",
+    "A006128",
+    "A089378",
+    "A093695",
+    "A225610"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:04:50",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of 3-cycles in range [A014137(2n+2)..A014138(2n+2)] of permutation A057505 (= Donaghey's automorphism M).",
+  "id": "A079444",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A057505",
+    "A079440",
+    "A079442"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

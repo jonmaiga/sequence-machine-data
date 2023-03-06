@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array: a(n,k) is the number of binary necklaces (no turning over) of length n whose longest run of 1's has length k. Table begins at n=0, k=0.",
+  "id": "A063686",
+  "mentions": [
+    "A000358",
+    "A032190",
+    "A048004",
+    "A048887",
+    "A093305",
+    "A280218"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "A084017(n)/n.",
+  "id": "A084018",
+  "mentions": [
+    "A084013",
+    "A084014",
+    "A084015",
+    "A084016",
+    "A084017"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Where A007535 reaches a record.",
+  "id": "A098653",
+  "mentions": [
+    "A007535",
+    "A098654"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

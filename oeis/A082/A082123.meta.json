@@ -1,0 +1,21 @@
+{
+  "description": "Smallest difference > 1 between d and p/d for any divisor d of the partial product p of the sequence, starting with 17.",
+  "id": "A082123",
+  "mentions": [
+    "A003681",
+    "A082120",
+    "A082124"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows. First in a series of triangular arrays counting permutations of partitions.",
+  "id": "A092271",
+  "mentions": [
+    "A007290",
+    "A008290",
+    "A025487",
+    "A086141",
+    "A090774",
+    "A111492",
+    "A121726",
+    "A211603",
+    "A238363",
+    "A339016",
+    "A339033"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

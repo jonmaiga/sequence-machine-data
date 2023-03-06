@@ -1,0 +1,21 @@
+{
+  "description": "Integers which when multiplied by 3 have an odd number of 1's in their binary expansion (cf. A000069).",
+  "id": "A036556",
+  "mentions": [
+    "A000069",
+    "A008585",
+    "A036555",
+    "A036557"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

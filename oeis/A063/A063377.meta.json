@@ -1,0 +1,26 @@
+{
+  "description": "Sophie Germain degree of n: number of iterations of n under f(k) = 2k+1 before we reach a number that is not a prime.",
+  "id": "A063377",
+  "mentions": [
+    "A005384",
+    "A005602",
+    "A005603",
+    "A063378",
+    "A093007",
+    "A093008",
+    "A292936",
+    "A339579",
+    "A339581"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

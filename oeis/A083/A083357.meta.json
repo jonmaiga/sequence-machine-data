@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A083356(n) (the total area of all incongruent integer-sided rectangles of area <= n) is a square.",
+  "id": "A083357",
+  "mentions": [
+    "A083356",
+    "A083358"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of coefficients of EllipticK/Pi.",
+  "id": "A038534",
+  "mentions": [
+    "A000120",
+    "A001790",
+    "A038533",
+    "A038535",
+    "A056040",
+    "A056982",
+    "A060632"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

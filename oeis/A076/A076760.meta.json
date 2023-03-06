@@ -1,0 +1,17 @@
+{
+  "description": "3-apexes of Omega: numbers k such that Omega(k-3) < Omega(k-2)< Omega(k-1) < Omega(k) > Omega(k+1) > Omega(k+2) > Omega(k+3), where Omega(m) = the number of prime factors of m, counting multiplicity.",
+  "id": "A076760",
+  "mentions": [
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

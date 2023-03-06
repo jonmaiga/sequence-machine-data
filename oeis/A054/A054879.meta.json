@@ -1,0 +1,26 @@
+{
+  "description": "Closed walks of length 2n along the edges of a cube based at a vertex.",
+  "id": "A054879",
+  "mentions": [
+    "A081294",
+    "A086872",
+    "A092812",
+    "A102518",
+    "A121314",
+    "A121822",
+    "A122983"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

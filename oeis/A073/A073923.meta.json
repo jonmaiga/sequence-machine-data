@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1, a(n) is the smallest power of 2 not included earlier such that sum(k=1,n,a(n)) is prime.",
+  "id": "A073923",
+  "mentions": [
+    "A059661"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

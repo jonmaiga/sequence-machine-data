@@ -1,0 +1,19 @@
+{
+  "description": "Numbers having two 4's in base 10.",
+  "id": "A043506",
+  "mentions": [
+    "A011534",
+    "A043498"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

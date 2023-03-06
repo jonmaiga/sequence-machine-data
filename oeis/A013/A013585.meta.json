@@ -1,0 +1,18 @@
+{
+  "description": "Smallest m such that 1!+...+m! is divisible by 2n+1, or 0 if no such m exists.",
+  "id": "A013585",
+  "mentions": [
+    "A003422",
+    "A013584"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

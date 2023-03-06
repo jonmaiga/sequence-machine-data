@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum {0",
+  "id": "A096963",
+  "mentions": [
+    "A002131",
+    "A007331",
+    "A013670",
+    "A096960",
+    "A096961",
+    "A096962"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

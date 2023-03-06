@@ -1,0 +1,18 @@
+{
+  "description": "Values of k associated with A060397.",
+  "id": "A060398",
+  "mentions": [
+    "A060397"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

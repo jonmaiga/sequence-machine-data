@@ -1,0 +1,16 @@
+{
+  "description": "Let Product[1+Sum[b(i,j) x^(i*j),{i,1,Infinity}],{j,1,Infinity}]=1+Sum[c(n) x^n,{n,1,Infinity}], where b(i,j) is plus or minus one and c(n) is plus or minus one or zero. Furthermore, let b(1,1)=1 (for definiteness). Then, for a given n, a(n) is the number of ways in which the coefficients b(i,j) i<=n, j<=n can be chosen.",
+  "id": "A088857",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

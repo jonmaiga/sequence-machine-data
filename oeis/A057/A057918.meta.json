@@ -1,0 +1,27 @@
+{
+  "description": "Number of pairs of numbers (r,s) each less than n such that (r,s,n) is in geometric progression.",
+  "id": "A057918",
+  "mentions": [
+    "A000007",
+    "A000188",
+    "A005117",
+    "A008966",
+    "A013929",
+    "A132345",
+    "A133466",
+    "A195085"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

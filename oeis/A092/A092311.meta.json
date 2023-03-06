@@ -1,0 +1,26 @@
+{
+  "description": "Total number of largest parts in all partitions of n into odd parts.",
+  "id": "A092311",
+  "mentions": [
+    "A092268",
+    "A092269",
+    "A092309",
+    "A092310",
+    "A092313",
+    "A092314",
+    "A092321",
+    "A092322"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

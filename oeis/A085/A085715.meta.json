@@ -1,0 +1,17 @@
+{
+  "description": "Squarefree conductors of quintic fields.",
+  "id": "A085715",
+  "mentions": [
+    "A085716"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

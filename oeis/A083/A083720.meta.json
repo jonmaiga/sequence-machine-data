@@ -1,0 +1,24 @@
+{
+  "description": "Product of primes less than greatest prime factor of n but not dividing n.",
+  "id": "A083720",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A002110",
+    "A006530",
+    "A007947",
+    "A049084",
+    "A079067",
+    "A083722"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

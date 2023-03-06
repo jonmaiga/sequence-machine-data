@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that n = phi(x)*core(x) for some x <= n, where phi(x) is the Euler totient function and core(x) the squarefree part of x.",
+  "id": "A082473",
+  "mentions": [
+    "A000010",
+    "A002618",
+    "A007913",
+    "A194507",
+    "A327170",
+    "A327171",
+    "A327172"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

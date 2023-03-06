@@ -1,0 +1,22 @@
+{
+  "description": "Triangle: T(n,k), k<=n: groupoids with n elements and k idempotents.",
+  "id": "A038018",
+  "mentions": [
+    "A001329",
+    "A030247",
+    "A030250",
+    "A030253"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

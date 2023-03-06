@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (11*n + 4)*C(n+3, 3)/4.",
+  "id": "A055268",
+  "mentions": [
+    "A000027",
+    "A000292",
+    "A050441",
+    "A051865",
+    "A220212"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:24:59",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

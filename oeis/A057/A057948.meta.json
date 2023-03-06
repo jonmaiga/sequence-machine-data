@@ -1,0 +1,21 @@
+{
+  "description": "S-primes: let S = {1,5,9, ... 4i+1, ...}; then an S-prime is in S but is not divisible by any members of S except itself and 1.",
+  "id": "A057948",
+  "mentions": [
+    "A002144",
+    "A054520",
+    "A057949",
+    "A057950",
+    "A107978"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = least positive integer solution k to h(k) = h(k-1)+h(k-2)+...+h(k-n), where h(n) is the length of n, f(n), f(f(n)), ...., 1 in the Collatz (or 3x + 1) problem. (The earliest \"1\" is meant.)",
+  "id": "A078438",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

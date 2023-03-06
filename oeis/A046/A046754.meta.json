@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the square of d(k) (number of divisors) divides k.",
+  "id": "A046754",
+  "mentions": [
+    "A033950",
+    "A046755",
+    "A046756"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

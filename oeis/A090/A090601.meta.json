@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-element groupoids with an identity.",
+  "id": "A090601",
+  "mentions": [
+    "A000142",
+    "A090602",
+    "A090603"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

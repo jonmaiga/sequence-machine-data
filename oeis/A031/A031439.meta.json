@@ -1,0 +1,25 @@
+{
+  "description": "a(0) = 1, a(n) is the greatest prime factor of a(n-1)^2+1 for n > 0.",
+  "id": "A031439",
+  "mentions": [
+    "A002144",
+    "A002313",
+    "A003095",
+    "A006530",
+    "A014442",
+    "A056650",
+    "A072268",
+    "A125256"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

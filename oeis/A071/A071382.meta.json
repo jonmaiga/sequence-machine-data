@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (30^n+1)/31 is a prime.",
+  "id": "A071382",
+  "mentions": [
+    "A071381"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Sum{Floor(n*(r^k): r=3/4, k>=0).",
+  "id": "A087070",
+  "mentions": [
+    "A005187"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "One-thirtieth the area of the unique Pythagorean triangle whose hypotenuse is A002144(n), the n-th prime of the form 4k+1.",
+  "id": "A068386",
+  "mentions": [
+    "A002144",
+    "A002330",
+    "A002331",
+    "A002365",
+    "A002366",
+    "A008846"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

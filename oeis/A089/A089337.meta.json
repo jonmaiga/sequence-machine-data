@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest number that is either a divisor or a multiple, in that priority (order), of a(n-1) such that it is a distinct palindrome not included earlier.",
+  "id": "A089337",
+  "mentions": [
+    "A002113"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

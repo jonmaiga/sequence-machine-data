@@ -1,0 +1,17 @@
+{
+  "description": "Numerator of integral from 0 to 1 of (1 + x^2)^n, in lowest terms.",
+  "id": "A077595",
+  "mentions": [
+    "A076729"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest palindromic prime that begins with A082768(n), or 0 if no such number exists.",
+  "id": "A082769",
+  "mentions": [
+    "A082768",
+    "A082770"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

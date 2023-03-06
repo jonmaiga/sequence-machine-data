@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest strictly increasing base-2 autovarious sequence: a(n) = number of distinct a(k) mod 2^n (written in base 2).",
+  "id": "A037090",
+  "mentions": [
+    "A037091"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:12",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

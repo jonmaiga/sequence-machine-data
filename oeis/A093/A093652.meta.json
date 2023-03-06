@@ -1,0 +1,19 @@
+{
+  "description": "Let a(1) = 1, a(2) = 2, a(3) = 7, a(4) = 15 and for n >= 5 set a(n) = (n*b(n) - b(n-2)) / 2, where b(n) = 4*b(n-2) - b(n-4) for n >= 5 and b(1) = 1, b(2) = 2, b(3) = 5, b(4) = 8.",
+  "id": "A093652",
+  "mentions": [
+    "A082630"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:43:28",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

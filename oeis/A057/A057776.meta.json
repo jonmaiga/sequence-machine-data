@@ -1,0 +1,22 @@
+{
+  "description": "a(n)-th prime is smallest such that p(a(n))-1 is divisible by 2^(n-1) and quotient is odd.",
+  "id": "A057776",
+  "mentions": [
+    "A000040",
+    "A006093",
+    "A057773",
+    "A057775",
+    "A057777",
+    "A057778"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

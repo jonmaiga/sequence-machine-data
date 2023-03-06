@@ -1,0 +1,25 @@
+{
+  "description": "A list of equal temperaments (equal divisions of the octave) whose nearest scale steps are closer and closer approximations to the ratios of two tones of musical harmony: the perfect 4th, 4/3 and its complement the perfect 5th, 3/2.",
+  "id": "A060528",
+  "mentions": [
+    "A005664",
+    "A020857",
+    "A054540",
+    "A060525",
+    "A060526",
+    "A060527",
+    "A206788",
+    "A254351"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

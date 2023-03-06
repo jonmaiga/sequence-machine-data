@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that number of distinct prime divisors of n is a divisor of n.",
+  "id": "A075592",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A070776",
+    "A074946",
+    "A185307"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

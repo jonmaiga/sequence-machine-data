@@ -1,0 +1,26 @@
+{
+  "description": "Total number of decimal digits of all distinct prime factors of the n-th repunit.",
+  "id": "A095413",
+  "mentions": [
+    "A002275",
+    "A095370",
+    "A095407",
+    "A095414",
+    "A095415",
+    "A095416",
+    "A095417",
+    "A095418"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

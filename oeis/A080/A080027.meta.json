@@ -1,0 +1,18 @@
+{
+  "description": "Let s(1) = 1; let s(2m) = {s(2m-1),m+1,s(2m-1)}, s(2m+1) = {s(2m),s(2m)}; sequence gives limit of s(k) for large k.",
+  "id": "A080027",
+  "mentions": [
+    "A080028"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

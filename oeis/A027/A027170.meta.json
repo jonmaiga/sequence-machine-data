@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array T read by rows (4-diamondization of Pascal's triangle). Step 1: t(n,k) = C(n+2,k+1) + C(n+1,k) + C(n+1,k+1) + C(n,k). Step 2: T(n,k) = t(n,k) - t(0,0) + 1. Domain: 0 <= k <= n, n >= 0.",
+  "id": "A027170",
+  "mentions": [
+    "A007318",
+    "A026907"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:33:23",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

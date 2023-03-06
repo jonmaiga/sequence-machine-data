@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose base-4 representation is the decimal representation of a prime.",
+  "id": "A036955",
+  "mentions": [
+    "A000040",
+    "A004678",
+    "A007090",
+    "A036952",
+    "A036964",
+    "A107715"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:32:25",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

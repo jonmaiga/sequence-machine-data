@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n! - p is a prime, where p is the smallest prime > n.",
+  "id": "A084750",
+  "mentions": [
+    "A002982",
+    "A050299",
+    "A064401",
+    "A084749",
+    "A084751"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of sum of reciprocals of first n prime powers; denominator=A051451(n).",
+  "id": "A096795",
+  "mentions": [
+    "A000961",
+    "A024451",
+    "A051451"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

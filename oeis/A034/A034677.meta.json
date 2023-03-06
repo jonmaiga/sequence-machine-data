@@ -1,0 +1,21 @@
+{
+  "description": "Sum of cubes of unitary divisors of n.",
+  "id": "A034677",
+  "mentions": [
+    "A034444",
+    "A034448",
+    "A286880"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

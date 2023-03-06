@@ -1,0 +1,19 @@
+{
+  "description": "Emirpnons (nonprimes whose reversal is a different nonprime).",
+  "id": "A054518",
+  "mentions": [
+    "A006567"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:19:45",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

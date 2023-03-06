@@ -1,0 +1,19 @@
+{
+  "description": "Number of distances not measured by the shortest Golomb ruler with n marks (i.e., length of shortest Golomb ruler with n marks minus number of distances measured by that ruler.",
+  "id": "A078106",
+  "mentions": [
+    "A000217",
+    "A003022",
+    "A106683"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

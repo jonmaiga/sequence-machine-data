@@ -1,0 +1,23 @@
+{
+  "description": "Number of terms in n-th row of triangle in A073932.",
+  "id": "A073933",
+  "mentions": [
+    "A032742",
+    "A060681",
+    "A064097",
+    "A073932",
+    "A073934",
+    "A073935"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

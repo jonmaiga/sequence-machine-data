@@ -1,0 +1,19 @@
+{
+  "description": "Inverse of n under Nim (or Conway) multiplication.",
+  "id": "A051917",
+  "mentions": [
+    "A051776"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

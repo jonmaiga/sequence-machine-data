@@ -1,0 +1,26 @@
+{
+  "description": "Fixed point when phi(sigma(n)+phi(n))=A077080 is iterated with initial value of n.",
+  "id": "A077081",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A051682",
+    "A065387",
+    "A077080",
+    "A077082",
+    "A077083",
+    "A077084",
+    "A077085"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

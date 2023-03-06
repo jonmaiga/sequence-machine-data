@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that reciprocal of n terminates with an infinite repetition of digit 1. Multiples of 10 are omitted.",
+  "id": "A064560",
+  "mentions": [
+    "A064561",
+    "A064567"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

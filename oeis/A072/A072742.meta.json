@@ -1,0 +1,21 @@
+{
+  "description": "Lesser members of a pair of primes (p, q) such that, for some integer k, (p+q)/2 = 2^k and p > 2^(k-1).",
+  "id": "A072742",
+  "mentions": [
+    "A072743",
+    "A072744",
+    "A072745",
+    "A072746"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes resulting from procedure described in A048381.",
+  "id": "A048382",
+  "mentions": [
+    "A048380",
+    "A048381"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:22:01",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

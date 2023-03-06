@@ -1,0 +1,18 @@
+{
+  "description": "Primes which are digital complements (A055120) of primes.",
+  "id": "A089740",
+  "mentions": [
+    "A055120"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

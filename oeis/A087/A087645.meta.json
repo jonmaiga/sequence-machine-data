@@ -1,0 +1,20 @@
+{
+  "description": "Third column of A071223.",
+  "id": "A087645",
+  "mentions": [
+    "A052149",
+    "A071223"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:06:01",
+    "offset": 2,
+    "size": 37,
+    "source": "joeis"
+  }
+}

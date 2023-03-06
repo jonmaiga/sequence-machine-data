@@ -1,0 +1,20 @@
+{
+  "description": "Arrange 1-digit numbers in Spanish in alphabetical order, then 2-digit numbers, then 3-digit numbers, etc.",
+  "id": "A097960",
+  "mentions": [
+    "A000052"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

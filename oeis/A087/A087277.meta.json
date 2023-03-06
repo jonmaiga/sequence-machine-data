@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the three second-degree cyclotomic polynomials x^2 + 1, x^2 - x + 1 and x^2 + x + 1 are simultaneously prime when evaluated at x=k.",
+  "id": "A087277",
+  "mentions": [
+    "A014574",
+    "A231612",
+    "A231613",
+    "A231614",
+    "A233512"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

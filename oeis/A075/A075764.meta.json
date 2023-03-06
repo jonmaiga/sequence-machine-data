@@ -1,0 +1,21 @@
+{
+  "description": "Schroeder pseudoprimes: Composites k that divide the k-th Schroeder number A001003(k-1).",
+  "id": "A075764",
+  "mentions": [
+    "A001003",
+    "A002808",
+    "A013998",
+    "A075762",
+    "A075763"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

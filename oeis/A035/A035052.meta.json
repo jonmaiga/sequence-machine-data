@@ -1,0 +1,23 @@
+{
+  "description": "Number of sets of rooted connected graphs where every block is a complete graph.",
+  "id": "A035052",
+  "mentions": [
+    "A007549",
+    "A007563",
+    "A030019",
+    "A035051",
+    "A035053",
+    "A245566"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

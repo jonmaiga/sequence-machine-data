@@ -1,0 +1,22 @@
+{
+  "description": "Nexus numbers (n+1)^8 - n^8.",
+  "id": "A022524",
+  "mentions": [
+    "A008292",
+    "A022523",
+    "A022525",
+    "A047969"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

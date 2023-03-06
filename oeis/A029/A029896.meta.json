@@ -1,0 +1,18 @@
+{
+  "description": "Convolution of Thue-Morse sequence A001285 with A008578 = {1, primes}.",
+  "id": "A029896",
+  "mentions": [
+    "A001285",
+    "A008578"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:44:47",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

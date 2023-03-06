@@ -1,0 +1,24 @@
+{
+  "description": "Triangular array T(n,k) giving the number of labeled even graphs with n nodes and k edges for n >= 0 and 0 <= k <= n*(n-1-[0 == n mod 2])/2 (with no trailing zeros).",
+  "id": "A054669",
+  "mentions": [
+    "A001147",
+    "A006125",
+    "A033678",
+    "A058878",
+    "A340312"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:15:18",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

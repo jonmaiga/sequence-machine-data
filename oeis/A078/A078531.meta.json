@@ -1,0 +1,24 @@
+{
+  "description": "Coefficients of power series that satisfies A(x)^2 - 4*x*A(x)^3 = 1, A(0)=1.",
+  "id": "A078531",
+  "mentions": [
+    "A000108",
+    "A002420",
+    "A078532",
+    "A078533",
+    "A078534",
+    "A078535",
+    "A214377"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

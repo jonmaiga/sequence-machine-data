@@ -1,0 +1,24 @@
+{
+  "description": "Numbers which are not an integer multiple of their number of binary 1's.",
+  "id": "A065878",
+  "mentions": [
+    "A000120",
+    "A049445",
+    "A058898",
+    "A065413",
+    "A065877",
+    "A065879",
+    "A065880"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

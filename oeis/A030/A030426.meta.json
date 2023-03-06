@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Fibonacci(prime(n)).",
+  "id": "A030426",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A005478"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

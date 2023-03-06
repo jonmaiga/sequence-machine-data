@@ -1,0 +1,19 @@
+{
+  "description": "Positive numbers that are not 3 or 6 (mod 9).",
+  "id": "A074232",
+  "mentions": [
+    "A016051"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:14:25",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of a number x such that adding exp(1) to each of the partial quotients of the continued fraction of x evaluates to x+2.",
+  "id": "A087044",
+  "mentions": [
+    "A087043"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

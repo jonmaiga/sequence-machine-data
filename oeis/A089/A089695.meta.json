@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that placing as many possible '+' signs anywhere in between the digits yields a prime in every case. Let abcd... be the digits of m; then abcd, a + bcd, ab + cd, abc + d, a + b + cd, a + bc + d, ab + c + d, a + b + c + d, ... are all prime.",
+  "id": "A089695",
+  "mentions": [
+    "A089392",
+    "A089696"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

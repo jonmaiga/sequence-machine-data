@@ -1,0 +1,19 @@
+{
+  "description": "Smallest palindromic prime containing the digit string of n.",
+  "id": "A083982",
+  "mentions": [
+    "A002113",
+    "A085054"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

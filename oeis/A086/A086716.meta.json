@@ -1,0 +1,22 @@
+{
+  "description": "Convolution of triangular numbers with partition numbers.",
+  "id": "A086716",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000217",
+    "A182738",
+    "A259279"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

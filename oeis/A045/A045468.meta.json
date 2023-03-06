@@ -1,0 +1,27 @@
+{
+  "description": "Primes congruent to {1, 4} mod 5.",
+  "id": "A045468",
+  "mentions": [
+    "A001654",
+    "A003631",
+    "A010051",
+    "A030430",
+    "A030433",
+    "A038872",
+    "A047209",
+    "A064739",
+    "A090771",
+    "A123976"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

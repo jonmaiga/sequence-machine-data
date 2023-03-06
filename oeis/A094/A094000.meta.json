@@ -1,0 +1,31 @@
+{
+  "description": "Number of n X n (0,1)-matrices with no zero rows or columns and with all rows distinct and all columns distinct, up to permutation of rows.",
+  "id": "A094000",
+  "mentions": [
+    "A048291",
+    "A059202",
+    "A088309",
+    "A088310",
+    "A088616",
+    "A089673",
+    "A089674",
+    "A093466",
+    "A094223",
+    "A116532",
+    "A116539",
+    "A181230",
+    "A259763"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

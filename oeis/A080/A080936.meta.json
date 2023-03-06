@@ -1,0 +1,44 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Dyck paths of semilength n and height k (1 <= k <= n).",
+  "id": "A080936",
+  "mentions": [
+    "A000012",
+    "A000081",
+    "A000108",
+    "A000225",
+    "A001263",
+    "A005043",
+    "A032027",
+    "A034781",
+    "A079214",
+    "A080934",
+    "A080935",
+    "A109082",
+    "A258109",
+    "A259885",
+    "A259899",
+    "A262600",
+    "A268316",
+    "A284778",
+    "A289418",
+    "A289419",
+    "A289420",
+    "A289421",
+    "A289422",
+    "A289423",
+    "A289481",
+    "A358379"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Smallest cube containing exactly n 0's.",
+  "id": "A036527",
+  "mentions": [
+    "A036507",
+    "A036528",
+    "A036536",
+    "A048345",
+    "A048365",
+    "A086008",
+    "A269250"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

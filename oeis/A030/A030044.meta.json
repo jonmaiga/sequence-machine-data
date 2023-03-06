@@ -1,0 +1,20 @@
+{
+  "description": "High temperature series in v^2 = tanh(J/kT)^2 for spin-1/2 Ising partition function on 4D simple cubic lattice, divided by 2/(1+v)^4.",
+  "id": "A030044",
+  "mentions": [
+    "A030045",
+    "A030047",
+    "A030048",
+    "A030049"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

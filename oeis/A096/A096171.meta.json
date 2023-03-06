@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n^4+1 is an odd semiprime.",
+  "id": "A096171",
+  "mentions": [
+    "A000068",
+    "A037896",
+    "A046388",
+    "A069170",
+    "A096169",
+    "A096172"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

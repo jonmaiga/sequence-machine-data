@@ -1,0 +1,22 @@
+{
+  "description": "Geometric mean of the digits is an integer: k-digit numbers such that the product of the digits is a number of the form m^k.",
+  "id": "A061430",
+  "mentions": [
+    "A061426",
+    "A061427",
+    "A061428"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

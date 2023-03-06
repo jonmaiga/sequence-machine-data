@@ -1,0 +1,24 @@
+{
+  "description": "(Greatest prime <= n) * (greatest prime factor of n).",
+  "id": "A083717",
+  "mentions": [
+    "A001248",
+    "A001358",
+    "A006530",
+    "A007917",
+    "A083714",
+    "A083715",
+    "A083716",
+    "A083718"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

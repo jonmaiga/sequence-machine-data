@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that sum of squares of even digits of n equals sum of squares of odd digits of n.",
+  "id": "A076164",
+  "mentions": [
+    "A036301",
+    "A071650",
+    "A124176",
+    "A124177",
+    "A303269",
+    "A304439",
+    "A304440"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

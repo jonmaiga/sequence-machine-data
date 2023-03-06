@@ -1,0 +1,21 @@
+{
+  "description": "Number of points (x,y) in square lattice with (x-1/2)^2+(y-1/2)^2 <= n.",
+  "id": "A057962",
+  "mentions": [
+    "A004018",
+    "A004020",
+    "A005883",
+    "A057961"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

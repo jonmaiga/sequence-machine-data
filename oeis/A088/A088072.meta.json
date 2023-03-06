@@ -1,0 +1,18 @@
+{
+  "description": "Numbers sandwiched between two numbers having only one prime divisor (at least) one of which is composite.",
+  "id": "A088072",
+  "mentions": [
+    "A014574",
+    "A088071"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

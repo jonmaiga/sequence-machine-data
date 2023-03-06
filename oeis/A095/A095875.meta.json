@@ -1,0 +1,19 @@
+{
+  "description": "Number of lattice points on graph of parabola y >= x^2 with y <= n.",
+  "id": "A095875",
+  "mentions": [
+    "A001650",
+    "A095876"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": -1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

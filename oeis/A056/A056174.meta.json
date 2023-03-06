@@ -1,0 +1,21 @@
+{
+  "description": "Number of non-monotone maps from 1,...,n to 1,...,n.",
+  "id": "A056174",
+  "mentions": [
+    "A000312",
+    "A000984",
+    "A001700",
+    "A045992"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:19:53",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

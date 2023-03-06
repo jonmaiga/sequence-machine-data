@@ -1,0 +1,31 @@
+{
+  "description": "Triangular array T read by rows: T(n,0)=T(n,n)=1 for n >= 0; for n >= 2 and 1 <= k <= n-1, T(n,k) = T(n-1,k-1) + T(n-2,k-1) + T(n-1,k) if 1 <= k <= floor(n/2), else T(n,k) = T(n-1,k-1) + T(n-1,k).",
+  "id": "A026780",
+  "mentions": [
+    "A000108",
+    "A006318",
+    "A026781",
+    "A026782",
+    "A026783",
+    "A026784",
+    "A026785",
+    "A026786",
+    "A026787",
+    "A026788",
+    "A026789",
+    "A026790",
+    "A249488"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:32:55",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

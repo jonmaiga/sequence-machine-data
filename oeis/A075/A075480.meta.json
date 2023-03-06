@@ -1,0 +1,23 @@
+{
+  "description": "Number of iteration that first becomes smaller than the initial value if Collatz function (A006370) is iterated, starting with numbers of the form 64n + 39.",
+  "id": "A075480",
+  "mentions": [
+    "A006370",
+    "A074473",
+    "A074474",
+    "A075476",
+    "A075483"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

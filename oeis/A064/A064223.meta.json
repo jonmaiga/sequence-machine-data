@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; a(n+1) = a(n) + number of decimal digits of a(n) for n > 0.",
+  "id": "A064223",
+  "mentions": [
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

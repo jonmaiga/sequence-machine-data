@@ -1,0 +1,32 @@
+{
+  "description": "McKay-Thompson series of class 16B for the Monster group.",
+  "id": "A029839",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A007096",
+    "A010054",
+    "A010815",
+    "A029838",
+    "A029840",
+    "A029841",
+    "A029842",
+    "A029843",
+    "A029844",
+    "A079006",
+    "A082304",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Array read by rows in which n-th row lists the periodic part of the base-n expansion of 1/7.",
+  "id": "A079483",
+  "mentions": [
+    "A020806",
+    "A048962",
+    "A048963"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

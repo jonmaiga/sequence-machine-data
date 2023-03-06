@@ -1,0 +1,17 @@
+{
+  "description": "1) Write n in binary; 2) Find run lengths of this expression; 3) Replace these as follows: 1 -> 0, 2 -> 010, 3 -> 01010, 4 -> 0101010...; 4) Remove final 0 and append an initial 1; 5) The term a(n) is the number with the obtained Zeckendorf expression.",
+  "id": "A057336",
+  "mentions": [
+    "A057337"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that Fibonacci(k) == 89 (mod k).",
+  "id": "A023182",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:02",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

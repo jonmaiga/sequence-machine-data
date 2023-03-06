@@ -1,0 +1,19 @@
+{
+  "description": "Tower of Hanoi game: a(n) is the number of pegs occupied by already-moved disks after move #n.",
+  "id": "A089280",
+  "mentions": [
+    "A001511",
+    "A035263"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

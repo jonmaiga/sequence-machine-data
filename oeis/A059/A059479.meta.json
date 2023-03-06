@@ -1,0 +1,21 @@
+{
+  "description": "Number of 3 X 3 matrices with elements from {0,...,n-1} such that the middle element of each of the eight lines of three (rows, columns and diagonals) is the square (mod n) of the difference of the end elements.",
+  "id": "A059479",
+  "mentions": [
+    "A008833",
+    "A013664",
+    "A082020"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

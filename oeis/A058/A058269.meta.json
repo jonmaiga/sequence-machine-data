@@ -1,0 +1,22 @@
+{
+  "description": "An approximation to sigma_{3/2}(n): floor( sum_{d|n} d^(3/2) ).",
+  "id": "A058269",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A058270",
+    "A058271",
+    "A247041"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

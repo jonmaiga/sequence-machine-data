@@ -1,0 +1,28 @@
+{
+  "description": "Greatest primorial number (A002110) which divides n.",
+  "id": "A053589",
+  "mentions": [
+    "A002110",
+    "A053669",
+    "A111701",
+    "A260188",
+    "A276084",
+    "A276086",
+    "A276150",
+    "A276151",
+    "A276152",
+    "A276157"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:09:43",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

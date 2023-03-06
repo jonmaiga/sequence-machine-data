@@ -1,0 +1,19 @@
+{
+  "description": "Let m = number of ways of partitioning n into parts using all the parts of a subset of {1, 2, ..., n-1} whose sum of all parts of a subset is less than n; a(n) gives number of different subsets of {1, 2, ..., n-1} whose m is 0.",
+  "id": "A088528",
+  "mentions": [
+    "A070880",
+    "A088314"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

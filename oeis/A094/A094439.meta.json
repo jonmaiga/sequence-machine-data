@@ -1,0 +1,29 @@
+{
+  "description": "Triangular array T(n,k) = Fibonacci(k+4)*C(n,k), k=0..n, n>=0.",
+  "id": "A094439",
+  "mentions": [
+    "A000045",
+    "A007318",
+    "A094435",
+    "A094436",
+    "A094437",
+    "A094438",
+    "A094440",
+    "A094441",
+    "A094442",
+    "A094443",
+    "A094444"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

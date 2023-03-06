@@ -1,0 +1,20 @@
+{
+  "description": "At stage 1, start with a unit square. At each successive stage add 4*(n-1) new squares around outside with edge-to-edge contacts. Sequence gives number of squares (regardless of size) at n-th stage.",
+  "id": "A056640",
+  "mentions": [
+    "A001844",
+    "A255840"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:33:29",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

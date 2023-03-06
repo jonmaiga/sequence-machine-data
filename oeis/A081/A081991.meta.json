@@ -1,0 +1,19 @@
+{
+  "description": "Numbers in ascending order formed by using all the digits of the next n numbers.",
+  "id": "A081991",
+  "mentions": [
+    "A081992",
+    "A081993"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

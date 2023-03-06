@@ -1,0 +1,20 @@
+{
+  "description": "All primes that divide n are of the form prime(2k-1), where prime(k) is k-th prime.",
+  "id": "A066208",
+  "mentions": [
+    "A066207",
+    "A206284",
+    "A215366",
+    "A297845"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2^(n*(n+1)/2)*A055209(n).",
+  "id": "A091804",
+  "mentions": [
+    "A000629",
+    "A000670",
+    "A001906",
+    "A052841",
+    "A055209"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

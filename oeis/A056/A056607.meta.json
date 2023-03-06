@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the n-th primorial divided by squarefree kernel of corresponding central binomial coefficient.",
+  "id": "A056607",
+  "mentions": [
+    "A001405",
+    "A002110",
+    "A048633"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:47:44",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

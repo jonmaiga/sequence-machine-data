@@ -1,0 +1,27 @@
+{
+  "description": "Maximum number of (distinct) primes that an n-digit number may shelter (i.e., primes contained among all digital substrings' permutations).",
+  "id": "A076730",
+  "mentions": [
+    "A039993",
+    "A072857",
+    "A075053",
+    "A076449",
+    "A076497",
+    "A134596",
+    "A134597"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

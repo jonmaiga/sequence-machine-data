@@ -1,0 +1,21 @@
+{
+  "description": "Open disk numbers (version 3): a(n) is the number of points (i+j/2,j*sqrt(3)/2), i,j integers (triangular grid) contained in an open disk of diameter n, centered at (0,0).",
+  "id": "A053458",
+  "mentions": [
+    "A053416",
+    "A053456",
+    "A053457",
+    "A053459"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

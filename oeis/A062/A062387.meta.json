@@ -1,0 +1,19 @@
+{
+  "description": "Squares in which removing a suitably chosen digit yields another square and this process can be continued until the digits are exhausted.",
+  "id": "A062387",
+  "mentions": [
+    "A034377",
+    "A034378"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

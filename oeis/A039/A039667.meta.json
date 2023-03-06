@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that together with their double and triple contain every digit from 1-9 exactly once.",
+  "id": "A039667",
+  "mentions": [
+    "A050289"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

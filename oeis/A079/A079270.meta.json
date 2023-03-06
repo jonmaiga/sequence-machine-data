@@ -1,0 +1,16 @@
+{
+  "description": "Nonpalindromic squares k such that reverse(k) - k is a cube.",
+  "id": "A079270",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

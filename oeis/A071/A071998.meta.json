@@ -1,0 +1,19 @@
+{
+  "description": "Write n in binary, interpret that as a decimal number, convert back to binary.",
+  "id": "A071998",
+  "mentions": [
+    "A007088"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:33:25",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

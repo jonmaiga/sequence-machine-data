@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions in expanding space.",
+  "id": "A023879",
+  "mentions": [
+    "A062796"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

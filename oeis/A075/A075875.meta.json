@@ -1,0 +1,22 @@
+{
+  "description": "Triangular numbers that are 3-almost primes.",
+  "id": "A075875",
+  "mentions": [
+    "A000217",
+    "A014612",
+    "A128896"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

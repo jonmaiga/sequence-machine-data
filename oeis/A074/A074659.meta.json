@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A074658, which counts the convex partitions of n.",
+  "id": "A074659",
+  "mentions": [
+    "A074658",
+    "A074660"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

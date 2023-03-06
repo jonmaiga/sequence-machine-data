@@ -1,0 +1,17 @@
+{
+  "description": "a(n) equals the number of partial quotients of the simple continued fraction expansion of the nonsimple continued fraction: 1/(1+2/(2+3/(3+...+n/n)))).",
+  "id": "A088458",
+  "mentions": [
+    "A005131"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

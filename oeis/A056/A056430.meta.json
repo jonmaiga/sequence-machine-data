@@ -1,0 +1,21 @@
+{
+  "description": "Number of step cyclic shifted sequence structures using a maximum of three different symbols.",
+  "id": "A056430",
+  "mentions": [
+    "A056371",
+    "A056391",
+    "A056411",
+    "A288627"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:53:57",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

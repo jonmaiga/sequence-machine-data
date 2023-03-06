@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows in which the n-th row contains the least set of n successive primes whose successive difference forms an arithmetic progression with common difference 2, (successive even numbers).",
+  "id": "A094749",
+  "mentions": [
+    "A016045",
+    "A092749"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

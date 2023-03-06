@@ -1,0 +1,18 @@
+{
+  "description": "Length of longest non-overlapping repeated subword of n in binary representation.",
+  "id": "A097295",
+  "mentions": [
+    "A007088",
+    "A007582"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

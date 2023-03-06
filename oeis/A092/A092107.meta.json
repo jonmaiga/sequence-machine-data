@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Dyck paths of semilength n having exactly k UUU's (triple rises) where U=(1,1). Rows have 1,1,1,2,3,4,5,... entries, respectively.",
+  "id": "A092107",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A001405",
+    "A007318",
+    "A014532",
+    "A033321",
+    "A171380",
+    "A243752",
+    "A243753"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

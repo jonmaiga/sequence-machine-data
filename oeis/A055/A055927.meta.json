@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k + 1 has one more divisor than k.",
+  "id": "A055927",
+  "mentions": [
+    "A000005",
+    "A006073",
+    "A045983",
+    "A049820",
+    "A051950",
+    "A075044"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

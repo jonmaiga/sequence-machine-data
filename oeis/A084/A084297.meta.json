@@ -1,0 +1,22 @@
+{
+  "description": "Primes p=prime(m) such that pi(m*p)/m is integer.",
+  "id": "A084297",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A057855",
+    "A084295"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "description": "Odd numbers with an even number of prime factors (counted with multiplicity).",
+  "id": "A046337",
+  "mentions": [
+    "A000035",
+    "A002557",
+    "A005408",
+    "A008836",
+    "A028260",
+    "A036349",
+    "A046315",
+    "A046338",
+    "A046470",
+    "A056913",
+    "A063745",
+    "A067019",
+    "A166698",
+    "A297845",
+    "A327858",
+    "A345452",
+    "A353557",
+    "A356299",
+    "A356312",
+    "A358777",
+    "A359161",
+    "A359163",
+    "A359371",
+    "A359596",
+    "A359607",
+    "A359608"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

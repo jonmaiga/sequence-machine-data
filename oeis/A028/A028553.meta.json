@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k*(k+3) is a palindrome.",
+  "id": "A028553",
+  "mentions": [
+    "A028554",
+    "A058851",
+    "A058852"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

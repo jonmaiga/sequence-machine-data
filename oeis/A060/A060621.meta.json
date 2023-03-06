@@ -1,0 +1,19 @@
+{
+  "description": "Number of flips between the d-dimensional tilings of the unary zonotope Z(D,d). Here the codimension D-d is equal to 3 and d varies.",
+  "id": "A060621",
+  "mentions": [
+    "A060595",
+    "A060638"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

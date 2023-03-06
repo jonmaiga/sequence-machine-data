@@ -1,0 +1,19 @@
+{
+  "description": "Least n-digit 'happy' prime.",
+  "id": "A046519",
+  "mentions": [
+    "A007770",
+    "A035497"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:28:39",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

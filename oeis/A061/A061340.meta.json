@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n*omega(n)^n where omega(n) is the number of distinct prime divisors of n.",
+  "id": "A061340",
+  "mentions": [
+    "A001221",
+    "A061452"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

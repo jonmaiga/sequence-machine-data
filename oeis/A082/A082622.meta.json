@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 3, a(n) = smallest palindromic prime obtained by inserting two paired digits anywhere in a(n-1).",
+  "id": "A082622",
+  "mentions": [
+    "A082620",
+    "A082621"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

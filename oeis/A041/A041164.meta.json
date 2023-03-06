@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(92).",
+  "id": "A041164",
+  "mentions": [
+    "A010543",
+    "A041165"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:49:11",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

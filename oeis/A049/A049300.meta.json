@@ -1,0 +1,23 @@
+{
+  "description": "Smallest number starting a longest interval of consecutive integers, each of which is divisible by at least one of the first n primes.",
+  "id": "A049300",
+  "mentions": [
+    "A002110",
+    "A048669",
+    "A048670",
+    "A058989",
+    "A128707"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

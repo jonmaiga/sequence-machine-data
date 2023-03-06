@@ -1,0 +1,29 @@
+{
+  "description": "Substrings from the right are prime numbers (using only odd digits different from 5).",
+  "id": "A032437",
+  "mentions": [
+    "A020994",
+    "A024770",
+    "A024785",
+    "A033664",
+    "A050986",
+    "A050987",
+    "A052023",
+    "A052024",
+    "A052025"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

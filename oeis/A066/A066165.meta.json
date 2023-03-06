@@ -1,0 +1,20 @@
+{
+  "description": "Variant of Stanley's children's game. Class of n (named) children forms into rings of at least two with exactly one child inside each ring. a(n) gives number of possibilities, including clockwise order (or which hand is held), in each ring.",
+  "id": "A066165",
+  "mentions": [
+    "A066166"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:28",
+    "offset": 3,
+    "size": 21,
+    "source": "joeis"
+  }
+}

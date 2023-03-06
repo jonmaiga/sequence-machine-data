@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n=A082534(x)=A082534(y), where x",
+  "id": "A082546",
+  "mentions": [
+    "A082534"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

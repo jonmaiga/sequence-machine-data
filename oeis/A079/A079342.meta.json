@@ -1,0 +1,23 @@
+{
+  "description": "Integers n that divide LS(n), where LS is the \"Look and Say\" function (A045918).",
+  "id": "A079342",
+  "mentions": [
+    "A005150",
+    "A045918",
+    "A056815",
+    "A079562",
+    "A152957"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:00:05",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

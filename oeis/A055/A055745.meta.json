@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree numbers not of form ab + bc + ca for 1 <= a <= b <= c (probably the list is complete).",
+  "id": "A055745",
+  "mentions": [
+    "A025052",
+    "A034168",
+    "A034169",
+    "A060997"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

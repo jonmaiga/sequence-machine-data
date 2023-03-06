@@ -1,0 +1,20 @@
+{
+  "description": "A path-counting array, read by rows: T(i,j)=number of paths from (0,0) to (i-j,j) using steps (1 unit right and 1 unit up) or (1 unit right and 2 units up).",
+  "id": "A055215",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:24:41",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

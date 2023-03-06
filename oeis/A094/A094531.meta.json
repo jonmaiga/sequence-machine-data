@@ -1,0 +1,28 @@
+{
+  "description": "Array read by rows: right-hand side of triangle A027907 of trinomial coefficients.",
+  "id": "A094531",
+  "mentions": [
+    "A000108",
+    "A007318",
+    "A026300",
+    "A027907",
+    "A027914",
+    "A094527",
+    "A102587",
+    "A108044",
+    "A111808"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

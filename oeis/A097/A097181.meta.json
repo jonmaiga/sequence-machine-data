@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows in which row n gives coefficients of polynomial R_n(y) that satisfies R_n(1/2) = 8^n, where R_n(y) forms the initial (n+1) terms of g.f. A097182(y)^(n+1).",
+  "id": "A097181",
+  "mentions": [
+    "A097179",
+    "A097182",
+    "A097183",
+    "A097184",
+    "A097185",
+    "A097186"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

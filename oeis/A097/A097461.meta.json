@@ -1,0 +1,15 @@
+{
+  "description": "The value of C in y = x^2+17x+C such that y is prime for all x = 0 to 9.",
+  "id": "A097461",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

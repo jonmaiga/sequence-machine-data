@@ -1,0 +1,21 @@
+{
+  "description": "Digital Fibonacci numbers: a(0) = a(1) = 1; a(n+2) = a(n) ++ a(n+1) where ++ stands for digit-wise sum (with no carries).",
+  "id": "A096095",
+  "mentions": [
+    "A000045",
+    "A197945"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

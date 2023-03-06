@@ -1,0 +1,18 @@
+{
+  "description": "phi(n) is equal to the product of the dual prime-power components of n-1 (i.e., A008477(n-1)).",
+  "id": "A039783",
+  "mentions": [
+    "A000010",
+    "A008477"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

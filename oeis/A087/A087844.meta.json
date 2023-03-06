@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = a(a(a(min(n-1, abs(n - a(n-1)))))) + a(abs(n - a(n-3))).",
+  "id": "A087844",
+  "mentions": [
+    "A005185",
+    "A081831"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

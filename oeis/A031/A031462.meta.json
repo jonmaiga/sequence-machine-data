@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose base-4 representation has one more 0 than 3's.",
+  "id": "A031462",
+  "mentions": [
+    "A007090"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:51:17",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

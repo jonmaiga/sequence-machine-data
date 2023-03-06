@@ -1,0 +1,20 @@
+{
+  "description": "sum{i*(n^(n-i-1)+n^(n+i-1)) | 1<=i",
+  "id": "A068793",
+  "mentions": [
+    "A023811",
+    "A062813",
+    "A068792"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 2,
+    "size": 12,
+    "source": "joeis"
+  }
+}

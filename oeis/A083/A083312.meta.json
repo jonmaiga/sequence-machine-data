@@ -1,0 +1,19 @@
+{
+  "description": "Largest integer m such that 1+2+...+m divides n.",
+  "id": "A083312",
+  "mentions": [
+    "A000217",
+    "A007843",
+    "A011772"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

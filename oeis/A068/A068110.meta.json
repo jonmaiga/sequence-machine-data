@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of coefficients in J0(i*sqrt(x))^2 power series where J0 denotes the ordinary Bessel function of order 0.",
+  "id": "A068110",
+  "mentions": [
+    "A068111"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "If n = D0*10^0 + D1*10^1 + D2*10^2 + .. + Dk*10^k define f(n) = D0*0^10 + D1*1^10 + D2*2^10 + .. + Dk*k^10 (e.g. if n = 421 then f(n) = 4*2^10 + 2*1^10 + 1*0^10 = 4098). Sequence gives values of n such that f(n) is divisible by n.",
+  "id": "A065110",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

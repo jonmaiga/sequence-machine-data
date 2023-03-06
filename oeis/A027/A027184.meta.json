@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (1/2)*(n-th largest even number in array T given by A027170).",
+  "id": "A027184",
+  "mentions": [
+    "A027170",
+    "A027183"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

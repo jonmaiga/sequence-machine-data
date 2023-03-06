@@ -1,0 +1,19 @@
+{
+  "description": "Number of Pythagorean triples in the range [1..n], i.e., the number of integer solutions to x^2 + y^2 = z^2 with 1 <= x,y,z <= n.",
+  "id": "A063468",
+  "mentions": [
+    "A046080",
+    "A062775",
+    "A211422"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

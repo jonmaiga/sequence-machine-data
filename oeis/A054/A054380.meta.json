@@ -1,0 +1,18 @@
+{
+  "description": "Reduced denominators of the coefficients in a series expansion for Gamma[x].",
+  "id": "A054380",
+  "mentions": [
+    "A054379"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

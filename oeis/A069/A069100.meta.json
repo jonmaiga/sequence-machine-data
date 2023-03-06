@@ -1,0 +1,20 @@
+{
+  "description": "n-th n-digit prime number.",
+  "id": "A069100",
+  "mentions": [
+    "A003617",
+    "A107108",
+    "A107109"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

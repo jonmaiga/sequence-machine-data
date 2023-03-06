@@ -1,0 +1,26 @@
+{
+  "description": "Generalized Bell numbers (from (5,5)-Stirling2 array A090216).",
+  "id": "A090209",
+  "mentions": [
+    "A000110",
+    "A000522",
+    "A020556",
+    "A069223",
+    "A071379",
+    "A090210",
+    "A090216",
+    "A283154"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

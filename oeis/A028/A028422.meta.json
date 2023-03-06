@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways n can be properly factored.",
+  "id": "A028422",
+  "mentions": [
+    "A001055",
+    "A066032",
+    "A216599",
+    "A216600",
+    "A216601",
+    "A216602"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

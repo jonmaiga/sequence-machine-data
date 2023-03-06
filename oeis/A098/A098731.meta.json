@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 2*R_k is a happy number (A007770), where R_k = 11...1 is the repunit (A002275) of length k.",
+  "id": "A098731",
+  "mentions": [
+    "A002275",
+    "A007770"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

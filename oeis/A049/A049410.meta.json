@@ -1,0 +1,30 @@
+{
+  "description": "A triangle of numbers related to triangle A049325.",
+  "id": "A049410",
+  "mentions": [
+    "A000369",
+    "A008275",
+    "A008279",
+    "A008297",
+    "A008545",
+    "A039692",
+    "A049325",
+    "A049426",
+    "A264428",
+    "A265604",
+    "A265605"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:11:02",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

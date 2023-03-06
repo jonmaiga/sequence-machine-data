@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that sigma(k) == 2 mod 6.",
+  "id": "A074628",
+  "mentions": [
+    "A000203",
+    "A072862",
+    "A074384",
+    "A074627",
+    "A074629",
+    "A074630",
+    "A084301"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

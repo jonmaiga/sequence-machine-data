@@ -1,0 +1,22 @@
+{
+  "description": "Primes such that every distinct permutation of digits is composite (including permutations with leading zeros).",
+  "id": "A039986",
+  "mentions": [
+    "A004022",
+    "A030291",
+    "A179239",
+    "A225421",
+    "A244529"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest positive solution k to 24*k == 1 (mod 13^n).",
+  "id": "A052466",
+  "mentions": [
+    "A000041",
+    "A052462",
+    "A052463",
+    "A052465"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

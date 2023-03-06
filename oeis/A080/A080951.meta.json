@@ -1,0 +1,25 @@
+{
+  "description": "Sequence associated with recurrence a(n) = 2*a(n-1) + k*(k+2)*a(n-2).",
+  "id": "A080951",
+  "mentions": [
+    "A057711",
+    "A080928",
+    "A080929",
+    "A082138",
+    "A082139",
+    "A082140",
+    "A082141"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to place 3 nonattacking kings on an n X n board.",
+  "id": "A061996",
+  "mentions": [
+    "A061995",
+    "A061997",
+    "A061998",
+    "A193580"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:14:29",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

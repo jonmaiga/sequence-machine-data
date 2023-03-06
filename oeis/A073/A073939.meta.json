@@ -1,0 +1,17 @@
+{
+  "description": "Least m such that A078142(m) gives the n-th prime, where A078142(n) is the sum of the differences of the distinct prime factors p of n and the next square larger than p.",
+  "id": "A073939",
+  "mentions": [
+    "A078142"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

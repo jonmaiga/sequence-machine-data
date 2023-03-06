@@ -1,0 +1,22 @@
+{
+  "description": "Number of directed 3-multigraphs on n nodes.",
+  "id": "A053468",
+  "mentions": [
+    "A000171",
+    "A000273",
+    "A003086",
+    "A053467"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

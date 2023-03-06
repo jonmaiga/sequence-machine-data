@@ -1,0 +1,28 @@
+{
+  "description": "Length of transient part of aliquot sequence for n, or -1 if transient part is infinite.",
+  "id": "A098008",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001065",
+    "A003023",
+    "A007906",
+    "A008892",
+    "A044050",
+    "A072891",
+    "A098007",
+    "A206708"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

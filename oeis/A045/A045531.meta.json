@@ -1,0 +1,28 @@
+{
+  "description": "Number of sticky functions: endofunctions of [n] having a fixed point.",
+  "id": "A045531",
+  "mentions": [
+    "A000169",
+    "A000312",
+    "A039621",
+    "A047969",
+    "A055858",
+    "A066274",
+    "A066275",
+    "A068996",
+    "A246049",
+    "A350454"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

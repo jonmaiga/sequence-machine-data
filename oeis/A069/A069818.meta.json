@@ -1,0 +1,16 @@
+{
+  "description": "Let x = 1.757739951145463... be smallest real number that satisfies gcd(floor(x^m),m)=1 for all integers m>0; sequence gives floor(x^n).",
+  "id": "A069818",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

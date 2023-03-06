@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for sqrt(521).",
+  "id": "A040498",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:19:25",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

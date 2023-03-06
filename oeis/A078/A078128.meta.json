@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to write n as sum of cubes>1.",
+  "id": "A078128",
+  "mentions": [
+    "A000578",
+    "A001235",
+    "A003108",
+    "A078129",
+    "A078130",
+    "A078131",
+    "A078132",
+    "A078133",
+    "A078134"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

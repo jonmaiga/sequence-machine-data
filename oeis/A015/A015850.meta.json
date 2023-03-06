@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that phi(k + 12) | sigma(k) for k not congruent to 0 (mod 3).",
+  "id": "A015850",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:56",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 10n + 3.",
+  "id": "A017305",
+  "mentions": [
+    "A008592",
+    "A017198",
+    "A017281",
+    "A017293",
+    "A156677"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:53:25",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

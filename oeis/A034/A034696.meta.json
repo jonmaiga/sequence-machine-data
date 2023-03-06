@@ -1,0 +1,18 @@
+{
+  "description": "Dirichlet convolution of primes (A000040) with themselves.",
+  "id": "A034696",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

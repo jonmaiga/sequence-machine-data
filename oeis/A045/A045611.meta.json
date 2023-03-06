@@ -1,0 +1,23 @@
+{
+  "description": "Number of different energy states of n positive and n negative charges on a necklace. Different sets of distances between n points chosen from 2n equally spaced points on a circle.",
+  "id": "A045611",
+  "mentions": [
+    "A001700",
+    "A006840",
+    "A045610",
+    "A045612",
+    "A077078",
+    "A077079"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Powers of sqrt(11) rounded down.",
+  "id": "A017937",
+  "mentions": [
+    "A010468"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

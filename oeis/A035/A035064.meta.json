@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that 2^n does not contain the digit 9 (probably finite).",
+  "id": "A035064",
+  "mentions": [
+    "A007377",
+    "A034293",
+    "A035057",
+    "A035058",
+    "A035059",
+    "A035060",
+    "A035061",
+    "A035062",
+    "A035063"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = greatest integer not found after first n in A026400.",
+  "id": "A026405",
+  "mentions": [
+    "A026400"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

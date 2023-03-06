@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of L(n) = (Sum_{k=1..n} k^n)/(Sum_{k=1..n-1} k^n).",
+  "id": "A043299",
+  "mentions": [
+    "A001113",
+    "A043300"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

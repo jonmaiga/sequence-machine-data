@@ -1,0 +1,23 @@
+{
+  "description": "Triangle (read by rows) in which the n-th row contains first n terms of an arithmetic progression with first term 1 and common difference (n-1).",
+  "id": "A076110",
+  "mentions": [
+    "A002522",
+    "A064808",
+    "A076111",
+    "A079904"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

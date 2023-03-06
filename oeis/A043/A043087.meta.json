@@ -1,0 +1,16 @@
+{
+  "description": "(s(n)+2)/10, where s(n)=n-th base 10 palindrome that starts with 8.",
+  "id": "A043087",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:20:59",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

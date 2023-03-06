@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations of n elements containing a 2-cycle.",
+  "id": "A027616",
+  "mentions": [
+    "A000266",
+    "A088436",
+    "A092605",
+    "A114320",
+    "A293211"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic circulant directed p^2-graphs, indexed by odd primes p.",
+  "id": "A038777",
+  "mentions": [
+    "A049297"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows, of trinomial coefficients arranged so that there are n+1 terms in row n by setting T(n,k) equal to the coefficient of z^k in (1 + z + z^2)^(n-[k/2]), for n>=k>=0, where [k/2] is the integer floor of k/2.",
+  "id": "A099509",
+  "mentions": [
+    "A027907",
+    "A078039",
+    "A099510"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:06:03",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

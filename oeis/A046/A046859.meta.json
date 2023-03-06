@@ -1,0 +1,33 @@
+{
+  "description": "Simplified Ackermann function (main diagonal of Ackermann-Péter function).",
+  "id": "A046859",
+  "mentions": [
+    "A001695",
+    "A014221",
+    "A054871",
+    "A059936",
+    "A074877",
+    "A126333",
+    "A143797",
+    "A189896",
+    "A255176",
+    "A260002",
+    "A260006",
+    "A264929",
+    "A266200",
+    "A266201",
+    "A271553"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "bref",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

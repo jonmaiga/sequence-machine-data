@@ -1,0 +1,24 @@
+{
+  "description": "STIRLING transform of [1,1,2,4,8,16,32,...].",
+  "id": "A035009",
+  "mentions": [
+    "A000110",
+    "A001861",
+    "A011782",
+    "A129340",
+    "A137597",
+    "A222391"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

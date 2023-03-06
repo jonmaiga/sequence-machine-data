@@ -1,0 +1,16 @@
+{
+  "description": "a(n+1) = a(n)^2 + n*(n+3)*a(n).",
+  "id": "A051481",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

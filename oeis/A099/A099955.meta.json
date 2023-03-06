@@ -1,0 +1,25 @@
+{
+  "description": "Atomic numbers in first column in the Mendeleyev periodic table of elements.",
+  "id": "A099955",
+  "mentions": [
+    "A018227",
+    "A097478",
+    "A099956",
+    "A101647",
+    "A101648",
+    "A101649"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

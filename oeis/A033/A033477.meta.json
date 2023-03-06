@@ -1,0 +1,19 @@
+{
+  "description": "Products p^3 or p^2*q, where {p,q} are consecutive primes.",
+  "id": "A033477",
+  "mentions": [
+    "A030078",
+    "A251720"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

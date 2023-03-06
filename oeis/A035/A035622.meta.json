@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into parts 4k and 4k+2 with at least one part of each type.",
+  "id": "A035622",
+  "mentions": [
+    "A000004",
+    "A006477",
+    "A035441",
+    "A035468",
+    "A035618",
+    "A035621",
+    "A035623",
+    "A035699"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:10",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

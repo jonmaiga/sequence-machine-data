@@ -1,0 +1,19 @@
+{
+  "description": "Number of separate \"mountains\" in mountain ranges encoded by A014486, number of bottom branches (trunks) in the corresponding rooted plane trees, i.e., the degree of the root node.",
+  "id": "A057515",
+  "mentions": [
+    "A014486",
+    "A063171",
+    "A071153"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

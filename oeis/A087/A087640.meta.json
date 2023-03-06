@@ -1,0 +1,18 @@
+{
+  "description": "To obtain a(n+1), take the square of the n-th partial sum, minus the sum of the first n squared terms, then divide this difference by a(n); for all n>1, starting with a(0)=1, a(1)=1.",
+  "id": "A087640",
+  "mentions": [
+    "A052973"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:17:00",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = log_2(A046644(n)); also the 2-adic valuation of A046644(n).",
+  "id": "A046645",
+  "mentions": [
+    "A001222",
+    "A005187",
+    "A007814",
+    "A046643",
+    "A046644",
+    "A268375",
+    "A289617",
+    "A289618",
+    "A293442",
+    "A293447"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

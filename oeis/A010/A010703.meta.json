@@ -1,0 +1,22 @@
+{
+  "description": "Period 2: repeat (3,5).",
+  "id": "A010703",
+  "mentions": [
+    "A010701",
+    "A010716",
+    "A084633",
+    "A171497"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:06:31",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

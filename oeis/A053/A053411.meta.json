@@ -1,0 +1,23 @@
+{
+  "description": "Circle numbers (version 1): a(n)= number of points (i,j), i,j integers, contained in a circle of diameter n, centered at the origin.",
+  "id": "A053411",
+  "mentions": [
+    "A000328",
+    "A036704",
+    "A053414",
+    "A053415",
+    "A053416",
+    "A053417"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of non-congruent solutions to x^2*y^2 == 0 (mod n).",
+  "id": "A087122",
+  "mentions": [
+    "A018804",
+    "A078430"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

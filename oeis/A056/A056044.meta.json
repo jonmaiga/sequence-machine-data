@@ -1,0 +1,22 @@
+{
+  "description": "Let k be largest number such that k^2 divides n! and let m be largest number such that m! divides k; a(n) = k/m!.",
+  "id": "A056044",
+  "mentions": [
+    "A000142",
+    "A000188",
+    "A001057",
+    "A001405",
+    "A055772"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:25",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

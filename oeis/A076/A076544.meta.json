@@ -1,0 +1,20 @@
+{
+  "description": "mu(n)+sqf(n): mu(n) is Moebius function; sqf(n)=1 if n is squarefree, sqf(n)=-1 otherwise.",
+  "id": "A076544",
+  "mentions": [
+    "A007423",
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

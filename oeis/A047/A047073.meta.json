@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{j=0..n} A047072(j, n-j).",
+  "id": "A047073",
+  "mentions": [
+    "A047072",
+    "A063886"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

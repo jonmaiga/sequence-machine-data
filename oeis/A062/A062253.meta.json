@@ -1,0 +1,29 @@
+{
+  "description": "2nd level triangle related to Eulerian numbers and binomial transforms (triangle of Eulerian numbers is first level and triangle with Z(0,0)=1 and Z(n,k)=0 otherwise is 0th level).",
+  "id": "A062253",
+  "mentions": [
+    "A000007",
+    "A000225",
+    "A000254",
+    "A007318",
+    "A008275",
+    "A008277",
+    "A008292",
+    "A009056",
+    "A010054",
+    "A062254",
+    "A062255"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

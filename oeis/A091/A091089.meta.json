@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which form a prime by appending a 3-digit odd number and form no primes by appending any 1- or 2-digit odd number not beginning with 0.",
+  "id": "A091089",
+  "mentions": [
+    "A032352",
+    "A068695"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

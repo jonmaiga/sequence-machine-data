@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 4^k*n, for k >= 0, have a unique partition into three distinct positive squares.",
+  "id": "A096017",
+  "mentions": [
+    "A094739",
+    "A094740"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "\"Fibonacci in digits\": start with a(0)=0, a(1)=1; repeatedly adjoin the digits of the sum of the next two terms.",
+  "id": "A093086",
+  "mentions": [
+    "A093087",
+    "A093098",
+    "A102085",
+    "A105967",
+    "A214365"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 34*a(n-1) - a(n-2); a(0)=0, a(1)=6.",
+  "id": "A082405",
+  "mentions": [
+    "A001109",
+    "A001333",
+    "A001652",
+    "A029547",
+    "A046176"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

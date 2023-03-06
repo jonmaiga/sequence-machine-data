@@ -1,0 +1,18 @@
+{
+  "description": "Upper Beatty sequence for e^G, G = Euler's gamma constant.",
+  "id": "A093609",
+  "mentions": [
+    "A093610"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

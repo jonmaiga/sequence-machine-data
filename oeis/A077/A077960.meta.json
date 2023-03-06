@@ -1,0 +1,21 @@
+{
+  "description": "Trajectory of 18 under iteration of the map k -> A087712(k).",
+  "id": "A077960",
+  "mentions": [
+    "A077919",
+    "A087712",
+    "A098282",
+    "A144914"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

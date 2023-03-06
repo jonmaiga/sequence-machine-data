@@ -1,0 +1,17 @@
+{
+  "description": "Katydid sequence: closed under n -> 2n + 2 and 7n + 7.",
+  "id": "A060031",
+  "mentions": [
+    "A007319"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

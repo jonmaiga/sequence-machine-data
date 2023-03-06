@@ -1,0 +1,17 @@
+{
+  "description": "Numbers whose base-12 representation has the same number of 0's and 7's.",
+  "id": "A039216",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

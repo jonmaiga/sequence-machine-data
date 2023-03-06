@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers k such that 2*k-3 is a prime of the form 4*j+3.",
+  "id": "A090670",
+  "mentions": [
+    "A002145",
+    "A050415",
+    "A087915"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

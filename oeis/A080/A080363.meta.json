@@ -1,0 +1,19 @@
+{
+  "description": "Nonprime numbers k such that the largest prime divisor of k is unitary.",
+  "id": "A080363",
+  "mentions": [
+    "A006530",
+    "A034444",
+    "A056169"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

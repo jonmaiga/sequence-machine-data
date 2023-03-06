@@ -1,0 +1,29 @@
+{
+  "description": "q-Fibonacci numbers for q=8.",
+  "id": "A015465",
+  "mentions": [
+    "A000045",
+    "A015459",
+    "A015460",
+    "A015461",
+    "A015462",
+    "A015463",
+    "A015464",
+    "A015467",
+    "A015468",
+    "A015469",
+    "A015470"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

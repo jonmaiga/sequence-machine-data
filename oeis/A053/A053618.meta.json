@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = ceiling(binomial(n,4)/n).",
+  "id": "A053618",
+  "mentions": [
+    "A007997",
+    "A008646",
+    "A032192",
+    "A053643",
+    "A053731",
+    "A053733"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:09:57",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

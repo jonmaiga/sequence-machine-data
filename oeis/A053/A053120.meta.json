@@ -1,0 +1,34 @@
+{
+  "description": "Triangle of coefficients of Chebyshev's T(n,x) polynomials (powers of x in increasing order).",
+  "id": "A053120",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001333",
+    "A001792",
+    "A001793",
+    "A001794",
+    "A006974",
+    "A006975",
+    "A006976",
+    "A011782",
+    "A036909",
+    "A039991",
+    "A049310",
+    "A209404"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:06:25",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

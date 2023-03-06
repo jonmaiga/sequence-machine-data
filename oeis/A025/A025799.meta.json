@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/((1-x^2)(1-x^3)(1-x^10)).",
+  "id": "A025799",
+  "mentions": [
+    "A008672",
+    "A028242"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:45",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

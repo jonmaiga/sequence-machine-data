@@ -1,0 +1,17 @@
+{
+  "description": "Members of A000124 which are multiples of 11.",
+  "id": "A083511",
+  "mentions": [
+    "A000124"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

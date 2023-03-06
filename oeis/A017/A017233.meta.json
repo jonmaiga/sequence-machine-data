@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 9*n + 6.",
+  "id": "A017233",
+  "mentions": [
+    "A008591",
+    "A010888",
+    "A017209",
+    "A017221",
+    "A098502"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:53:23",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

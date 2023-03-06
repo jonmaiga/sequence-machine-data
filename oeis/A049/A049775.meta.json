@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the sum of all integers from 2^(n-2)+1 to 2^(n-1).",
+  "id": "A049775",
+  "mentions": [
+    "A003070",
+    "A004119",
+    "A007051",
+    "A007582",
+    "A029837",
+    "A049773"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:56:49",
+    "offset": 2,
+    "size": 23,
+    "source": "joeis"
+  }
+}

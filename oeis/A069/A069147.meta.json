@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that tau_3(k) (the number of ordered factorizations of k as k = r*s*t) divides k.",
+  "id": "A069147",
+  "mentions": [
+    "A007425",
+    "A033950"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

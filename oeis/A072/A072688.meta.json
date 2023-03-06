@@ -1,0 +1,21 @@
+{
+  "description": "Of the first n integers (inclusive), how many of them have a prime number of letters in their English names?",
+  "id": "A072688",
+  "mentions": [
+    "A072685",
+    "A072687"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

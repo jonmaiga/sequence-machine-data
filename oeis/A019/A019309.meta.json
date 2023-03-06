@@ -1,0 +1,23 @@
+{
+  "description": "Number of \"bifix-free\" words of length n over a four-letter alphabet.",
+  "id": "A019309",
+  "mentions": [
+    "A003000",
+    "A019308",
+    "A094547",
+    "A094559",
+    "A094578"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:54:32",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

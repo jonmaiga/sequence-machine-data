@@ -1,0 +1,19 @@
+{
+  "description": "Least n such that n consecutive values in A080378 equal 0; i.e., exactly n differences between consecutive primes are divisible by 4.",
+  "id": "A080380",
+  "mentions": [
+    "A001223",
+    "A080378",
+    "A080379"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

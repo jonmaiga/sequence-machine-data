@@ -1,0 +1,15 @@
+{
+  "description": "sec(sinh(x)*sin(x)) = 1+12/4!*x^4+7952/8!*x^8+36180672/12!*x^12...",
+  "id": "A012531",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:22:33",
+    "offset": 0,
+    "size": 9,
+    "source": "joeis"
+  }
+}

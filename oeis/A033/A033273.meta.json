@@ -1,0 +1,26 @@
+{
+  "description": "Number of nonprime divisors of n.",
+  "id": "A033273",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001620",
+    "A010051",
+    "A027750",
+    "A055079",
+    "A059992",
+    "A077761",
+    "A180040"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

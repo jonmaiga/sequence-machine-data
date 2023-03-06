@@ -1,0 +1,17 @@
+{
+  "description": "First component x of pairs (x,y) where x <= y and x!+y! is a square, sorted on x.",
+  "id": "A082871",
+  "mentions": [
+    "A151819"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

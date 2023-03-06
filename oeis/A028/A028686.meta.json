@@ -1,0 +1,16 @@
+{
+  "description": "Pseudo Galois numbers for d=24.",
+  "id": "A028686",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Greater of the twin primes raised to their lesser twins.",
+  "id": "A086704",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A086649"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

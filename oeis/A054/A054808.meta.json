@@ -1,0 +1,29 @@
+{
+  "description": "First term of strong prime quintets: p(m+1)-p(m) > p(m+2)-p(m+1) > p(m+3)-p(m+2) > p(m+4)-p(m+3).",
+  "id": "A054808",
+  "mentions": [
+    "A051634",
+    "A051635",
+    "A054800",
+    "A054803",
+    "A054804",
+    "A054805",
+    "A054809",
+    "A054818",
+    "A054819",
+    "A054840",
+    "A151799",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:22:01",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

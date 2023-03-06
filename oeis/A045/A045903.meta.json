@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic systems of catafusenes in an example in Cyvin et al. (1994) with two appendages to the core indexed by the total number of hexagons in the appendages.",
+  "id": "A045903",
+  "mentions": [
+    "A121178"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, a(n) = smallest number such that the n-th partial concatenation has n divisors.",
+  "id": "A087700",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

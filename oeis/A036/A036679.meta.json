@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n^n - n!.",
+  "id": "A036679",
+  "mentions": [
+    "A000169",
+    "A101030",
+    "A126130"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T, read by rows, such that T(n,k) equals the (n-k)-th row sum of T^k, where T^k is the k-th power of T as a lower triangular matrix.",
+  "id": "A091351",
+  "mentions": [
+    "A091352",
+    "A091353",
+    "A091354",
+    "A104445"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

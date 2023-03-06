@@ -1,0 +1,17 @@
+{
+  "description": "OR-convolution of squares A000290 with themselves.",
+  "id": "A033459",
+  "mentions": [
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:06:17",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

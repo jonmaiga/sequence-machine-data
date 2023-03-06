@@ -1,0 +1,20 @@
+{
+  "description": "7th binomial transform of the periodic sequence (1,8,1,1,8,1...).",
+  "id": "A081034",
+  "mentions": [
+    "A081033",
+    "A081035"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

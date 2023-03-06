@@ -1,0 +1,22 @@
+{
+  "description": "Shifts left and divides by 2 under the XOR BINOMIAL transform (A099902).",
+  "id": "A099901",
+  "mentions": [
+    "A047999",
+    "A099884",
+    "A099900",
+    "A099902"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Sum of 5-infinitary divisors of n.",
+  "id": "A097863",
+  "mentions": [
+    "A000351",
+    "A027748",
+    "A031235",
+    "A049417",
+    "A049418",
+    "A074847",
+    "A097464",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

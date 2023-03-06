@@ -1,0 +1,26 @@
+{
+  "description": "Smallest number m larger than prime(n) such that prime(n) = sum of digits of m and prime(n) = largest prime factor of m (or 0 if no such number exists).",
+  "id": "A052022",
+  "mentions": [
+    "A005349",
+    "A006530",
+    "A007953",
+    "A028834",
+    "A052018",
+    "A052019",
+    "A052020",
+    "A052021"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

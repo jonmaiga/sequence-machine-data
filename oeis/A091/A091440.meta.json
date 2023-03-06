@@ -1,0 +1,24 @@
+{
+  "description": "Smallest number m such that m#/phi(m#) >= n, where m# indicates the primorial (A034386) of m and phi is Euler's totient function.",
+  "id": "A091440",
+  "mentions": [
+    "A000010",
+    "A002110",
+    "A034386",
+    "A038110",
+    "A053144",
+    "A060753",
+    "A091439",
+    "A164347"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

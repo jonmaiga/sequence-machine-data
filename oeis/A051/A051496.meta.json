@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of probability that a point of an infinite (rooted) tree is fixed by every automorphism of the tree.",
+  "id": "A051496",
+  "mentions": [
+    "A000055",
+    "A000081",
+    "A005200",
+    "A005201"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of squares > 1 dividing n.",
+  "id": "A071325",
+  "mentions": [
+    "A008966",
+    "A013661",
+    "A046951",
+    "A057427"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:24:39",
+    "offset": 1,
+    "size": 93,
+    "source": "joeis"
+  }
+}

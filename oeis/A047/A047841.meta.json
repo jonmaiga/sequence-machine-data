@@ -1,0 +1,27 @@
+{
+  "description": "Autobiographical numbers: Fixed under operator T (A047842): \"Say what you see\".",
+  "id": "A047841",
+  "mentions": [
+    "A005151",
+    "A047842",
+    "A104785",
+    "A104786",
+    "A104787",
+    "A108810"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "eigen",
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

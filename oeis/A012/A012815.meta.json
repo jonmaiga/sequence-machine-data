@@ -1,0 +1,15 @@
+{
+  "description": "arcsin(sec(x)*sinh(x))=x+5/3!*x^3+85/5!*x^5+3985/7!*x^7+379625/9!*x^9...",
+  "id": "A012815",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:55:57",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Eisenstein series E_14(q) (alternate convention E_7(q)).",
+  "id": "A058550",
+  "mentions": [
+    "A004009",
+    "A006352",
+    "A008410",
+    "A013973",
+    "A013974",
+    "A029828",
+    "A029829",
+    "A029830",
+    "A029831"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

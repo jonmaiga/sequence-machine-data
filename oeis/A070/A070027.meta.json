@@ -1,0 +1,29 @@
+{
+  "description": "Prime numbers whose initial, all intermediate and final iterated sums of digits are primes.",
+  "id": "A070027",
+  "mentions": [
+    "A007953",
+    "A046704",
+    "A062802",
+    "A070026",
+    "A070028",
+    "A070029",
+    "A104213",
+    "A207293",
+    "A207294",
+    "A213354",
+    "A213355"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

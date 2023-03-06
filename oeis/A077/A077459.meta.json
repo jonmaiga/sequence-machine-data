@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k and 3*k have the same digital binary sum.",
+  "id": "A077459",
+  "mentions": [
+    "A000225"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

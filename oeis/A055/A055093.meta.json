@@ -1,0 +1,25 @@
+{
+  "description": "Number of moved (non-fixed) elements in each permutation given in reversed colexicographic ordering A055089, i.e., the sum of their cycle lengths (excluding the 1-cycles, i.e., fixed elements).",
+  "id": "A055093",
+  "mentions": [
+    "A055089",
+    "A055090",
+    "A055091",
+    "A055092",
+    "A060126",
+    "A060129",
+    "A275812",
+    "A290095"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

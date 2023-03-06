@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that there are no primes in a sequence formed from the t digits of n where the latter terms are given by rule b(i)=sum of t previous terms and the primes are counted from initial t digits up to the largest term < n^2; where zeros are located in A098598.",
+  "id": "A097373",
+  "mentions": [
+    "A098598"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

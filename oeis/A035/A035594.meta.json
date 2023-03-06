@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of 2n with equal number of parts congruent to each of 1 and 3 (mod 4).",
+  "id": "A035594",
+  "mentions": [
+    "A035544"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

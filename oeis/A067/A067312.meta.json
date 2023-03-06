@@ -1,0 +1,17 @@
+{
+  "description": "Largest leg in right triangle with relatively prime sides and hypotenuse 5^n.",
+  "id": "A067312",
+  "mentions": [
+    "A036842"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

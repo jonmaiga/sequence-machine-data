@@ -1,0 +1,22 @@
+{
+  "description": "Write 2*n = p+q (p,q prime), p*q minimal; then a(n) = p*q.",
+  "id": "A073046",
+  "mentions": [
+    "A000040",
+    "A061397",
+    "A102084",
+    "A193315",
+    "A288814"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

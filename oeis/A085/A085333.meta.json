@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least n-th power of a prime that is the sum of two positive cubes, or 0 if no solution exists (for n=3k).",
+  "id": "A085333",
+  "mentions": [
+    "A085332"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:25:40",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

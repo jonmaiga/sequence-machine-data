@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number that is n times the product of its digits or 0 if impossible.",
+  "id": "A056770",
+  "mentions": [
+    "A003634",
+    "A007602",
+    "A007954"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

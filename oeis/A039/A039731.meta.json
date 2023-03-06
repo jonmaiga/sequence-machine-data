@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=MAX{p(n) mod q, where prime q < p(n)=n-th prime}.",
+  "id": "A039731",
+  "mentions": [
+    "A207409"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:12:47",
+    "offset": 2,
+    "size": 58,
+    "source": "joeis"
+  }
+}

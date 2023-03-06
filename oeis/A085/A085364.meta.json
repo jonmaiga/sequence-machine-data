@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=1, for n>0: a(n) = 6*13^(n-1) - (1/2)*Sum_{i=1..n-1} a(i)*a(n-i).",
+  "id": "A085364",
+  "mentions": [
+    "A001022",
+    "A085362",
+    "A085363"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

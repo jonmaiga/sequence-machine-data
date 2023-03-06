@@ -1,0 +1,18 @@
+{
+  "description": "Index of smallest triangular number beginning with the n-th triangular number other than itself.",
+  "id": "A072518",
+  "mentions": [
+    "A072517"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

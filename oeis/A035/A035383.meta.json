@@ -1,0 +1,19 @@
+{
+  "description": "Automorphic numbers: n ends with square root of n.",
+  "id": "A035383",
+  "mentions": [
+    "A000290",
+    "A003226"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

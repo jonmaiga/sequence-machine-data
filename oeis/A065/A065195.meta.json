@@ -1,0 +1,23 @@
+{
+  "description": "Record entries in A065194.",
+  "id": "A065195",
+  "mentions": [
+    "A065191",
+    "A065192",
+    "A065193",
+    "A065194",
+    "A065196",
+    "A065197"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

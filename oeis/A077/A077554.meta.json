@@ -1,0 +1,22 @@
+{
+  "description": "Final terms of rows of A077553.",
+  "id": "A077554",
+  "mentions": [
+    "A001358",
+    "A002024",
+    "A005843",
+    "A077553",
+    "A077555",
+    "A087112"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Nonprime solutions to sopfr(n) = S(n), where sopfr(n) = A001414 and S(n) = A002034.",
+  "id": "A073045",
+  "mentions": [
+    "A001414",
+    "A002034",
+    "A074583"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

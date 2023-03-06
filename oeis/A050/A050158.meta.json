@@ -1,0 +1,25 @@
+{
+  "description": "T(n, k) = S(2*n + 1, n, k + 1) for 0<=k<=n and n >= 0, array S as in A050157.",
+  "id": "A050158",
+  "mentions": [
+    "A000108",
+    "A000245",
+    "A001700",
+    "A010763",
+    "A039598",
+    "A050157",
+    "A296770"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:25",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

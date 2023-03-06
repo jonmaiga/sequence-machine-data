@@ -1,0 +1,20 @@
+{
+  "description": "Primes > 3 for which the alternating bit sum (A065359) is not equal to 1 or 2.",
+  "id": "A065079",
+  "mentions": [
+    "A065049",
+    "A065359"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2, a(2) = 3 and a(k+1) is the least prime not already chosen that divides some a(i)*a(j)+1, where 1<=i",
+  "id": "A063904",
+  "mentions": [
+    "A063884"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

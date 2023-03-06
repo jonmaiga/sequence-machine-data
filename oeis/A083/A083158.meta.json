@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes which are the arithmetic mean of two distinct palindromes.",
+  "id": "A083158",
+  "mentions": [
+    "A083157",
+    "A114120"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Clark's triangle with f=6 read by row.",
+  "id": "A090850",
+  "mentions": [
+    "A046902",
+    "A100206"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:29:17",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

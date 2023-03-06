@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes such that at least one divisor is non-palindromic; palindromes not in A062687.",
+  "id": "A084325",
+  "mentions": [
+    "A062687"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

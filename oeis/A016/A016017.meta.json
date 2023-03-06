@@ -1,0 +1,28 @@
+{
+  "description": "Smallest k such that 1/k can be written as a sum of exactly 2 unit fractions in n ways.",
+  "id": "A016017",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A003680",
+    "A005097",
+    "A005179",
+    "A005408",
+    "A037992",
+    "A048691",
+    "A055079",
+    "A061283",
+    "A071571"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Table T(n,k), 0<=k, 0<=n, read by antidiagonals, defined by T(n,k) = (k*n)! / (n!)^k.",
+  "id": "A089759",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A000680",
+    "A000984",
+    "A014606",
+    "A014608",
+    "A014609",
+    "A034841",
+    "A187783",
+    "A210472",
+    "A225094"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Quotient of 'base-12' division described in A032555.",
+  "id": "A032556",
+  "mentions": [
+    "A032555",
+    "A032563"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

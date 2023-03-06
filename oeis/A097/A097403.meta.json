@@ -1,0 +1,19 @@
+{
+  "description": "Minimum wind speed in knots for Beaufort Number n.",
+  "id": "A097403",
+  "mentions": [
+    "A097404"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

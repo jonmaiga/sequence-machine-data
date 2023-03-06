@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 1, a(n+1) = (a(n) + n) mod 10.",
+  "id": "A061501",
+  "mentions": [
+    "A000124",
+    "A008954",
+    "A061352",
+    "A061353",
+    "A062273",
+    "A077577",
+    "A077578"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:34:07",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

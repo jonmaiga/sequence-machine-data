@@ -1,0 +1,26 @@
+{
+  "description": "Total sum of minimum block sizes in all partitions of n-set.",
+  "id": "A097147",
+  "mentions": [
+    "A006128",
+    "A028417",
+    "A028418",
+    "A046746",
+    "A097145",
+    "A097146",
+    "A097148",
+    "A319298"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

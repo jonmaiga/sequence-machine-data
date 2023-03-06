@@ -1,0 +1,22 @@
+{
+  "description": "Let k be largest number such that k^2 divides n!; a(n) = k/floor(n/2)!.",
+  "id": "A056043",
+  "mentions": [
+    "A000142",
+    "A000188",
+    "A001057",
+    "A001405",
+    "A055772"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

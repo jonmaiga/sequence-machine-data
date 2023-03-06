@@ -1,0 +1,18 @@
+{
+  "description": "Numbers belonging to both A077225 and A080797 (in the order in which they appear in A077225).",
+  "id": "A090627",
+  "mentions": [
+    "A077225",
+    "A080797"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

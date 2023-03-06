@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = 3rd elementary symmetric function of {1, p(1), p(2), ..., p(n-1)}, where p(0) = 1.",
+  "id": "A024523",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:03",
+    "offset": 3,
+    "size": 27,
+    "source": "joeis"
+  }
+}

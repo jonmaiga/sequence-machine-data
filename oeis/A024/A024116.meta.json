@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 10^n - n^2.",
+  "id": "A024116",
+  "mentions": [
+    "A000290",
+    "A011557",
+    "A024025"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

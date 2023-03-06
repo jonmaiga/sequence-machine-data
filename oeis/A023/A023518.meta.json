@@ -1,0 +1,15 @@
+{
+  "description": "Greatest exponent in prime-power factorization of prime(n)*prime(n-1) - 1.",
+  "id": "A023518",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

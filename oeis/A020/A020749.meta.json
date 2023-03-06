@@ -1,0 +1,20 @@
+{
+  "description": "Pisot sequence T(5,8), a(n) = floor(a(n-1)^2/a(n-2)).",
+  "id": "A020749",
+  "mentions": [
+    "A008776",
+    "A010925",
+    "A020745"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

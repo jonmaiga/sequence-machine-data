@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct terminal tic-tac-toe positions after n plays, up to rotation and reflection.",
+  "id": "A048245",
+  "mentions": [
+    "A008907"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Super-9 Numbers (9*n^9 contains substring '999999999' in its decimal expansion).",
+  "id": "A032749",
+  "mentions": [
+    "A014569"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

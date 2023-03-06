@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 9; a(n+1) is the least odd composite number not already used such that (a(n+1)+a(n))/2 is prime.",
+  "id": "A086531",
+  "mentions": [
+    "A086532"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

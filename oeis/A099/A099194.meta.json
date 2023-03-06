@@ -1,0 +1,21 @@
+{
+  "description": "Least solution to the Pellian equation x^2 - k*y^2 = 1 (A002349) such that 2^2^n < y <= 2^2^(n+1).",
+  "id": "A099194",
+  "mentions": [
+    "A002349",
+    "A002350",
+    "A069039",
+    "A099193"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": -1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

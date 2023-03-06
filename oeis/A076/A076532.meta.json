@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that sopf(sigma(n)) = sigma(sopf(n)), where sopf(x) = sum of the distinct prime factors of x.",
+  "id": "A076532",
+  "mentions": [
+    "A008472",
+    "A075565",
+    "A075784",
+    "A075846",
+    "A076525",
+    "A076527",
+    "A076531",
+    "A076533"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

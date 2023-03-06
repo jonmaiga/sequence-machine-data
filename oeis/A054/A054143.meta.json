@@ -1,0 +1,24 @@
+{
+  "description": "Triangular array T given by T(n,k) = Sum_{0 <= j <= i-n+k, n-k <= i <= n} C(i,j) for n >= 0 and 0 <= k <= n.",
+  "id": "A054143",
+  "mentions": [
+    "A000346",
+    "A001787",
+    "A005672",
+    "A032443",
+    "A104709",
+    "A193842"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:15:45",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

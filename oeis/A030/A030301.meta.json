@@ -1,0 +1,24 @@
+{
+  "description": "n-th run has length 2^(n-1).",
+  "id": "A030301",
+  "mentions": [
+    "A000523",
+    "A029837",
+    "A030300",
+    "A053754",
+    "A079954"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

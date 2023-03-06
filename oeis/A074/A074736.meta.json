@@ -1,0 +1,19 @@
+{
+  "description": "Goedel encoding of the prime factors of n, in increasing order and repeated according to multiplicity.",
+  "id": "A074736",
+  "mentions": [
+    "A001222",
+    "A027746"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

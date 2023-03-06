@@ -1,0 +1,21 @@
+{
+  "description": "Let r(n,k) = if k=0 then n, else r(A081210(n),k-1), then a(n)=r(n, A081212(n)).",
+  "id": "A081213",
+  "mentions": [
+    "A081210",
+    "A081211",
+    "A081212",
+    "A081214",
+    "A131072"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

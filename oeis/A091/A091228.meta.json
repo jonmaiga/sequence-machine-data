@@ -1,0 +1,20 @@
+{
+  "description": "Smallest m >= n, such that m is irreducible when interpreted as GF(2)[X]-polynomial.",
+  "id": "A091228",
+  "mentions": [
+    "A007918",
+    "A091229",
+    "A091247"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of natural numbers induced by the automorphism df->bf (from the depth-first to breadth-first encoding) acting on the rooted planar binary trees encoded by A014486. (with one-based indexing).",
+  "id": "A070041",
+  "mentions": [
+    "A014486",
+    "A038776",
+    "A057118",
+    "A072620",
+    "A082363"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-27 12:56:37",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

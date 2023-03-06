@@ -1,0 +1,21 @@
+{
+  "description": "10-digit vampire numbers (definition 2).",
+  "id": "A048939",
+  "mentions": [
+    "A014575",
+    "A048933",
+    "A048938"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

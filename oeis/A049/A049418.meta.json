@@ -1,0 +1,28 @@
+{
+  "description": "3-i-sigma(n): sum of 3-infinitary divisors of n: if n=Product p(i)^r(i) and d=Product p(i)^s(i), each s(i) has a digit a<=b in its ternary expansion everywhere that the corresponding r(i) has a digit b, then d is a 3-i-divisor of n.",
+  "id": "A049418",
+  "mentions": [
+    "A000244",
+    "A027748",
+    "A030341",
+    "A049417",
+    "A063990",
+    "A074847",
+    "A097863",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

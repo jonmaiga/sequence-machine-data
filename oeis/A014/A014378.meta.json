@@ -1,0 +1,35 @@
+{
+  "description": "Number of connected regular graphs of degree 8 with n nodes.",
+  "id": "A014378",
+  "mentions": [
+    "A002851",
+    "A005177",
+    "A006820",
+    "A006821",
+    "A006822",
+    "A014377",
+    "A014381",
+    "A014382",
+    "A014384",
+    "A051031",
+    "A068934",
+    "A165878",
+    "A180260",
+    "A181154",
+    "A184980",
+    "A184981",
+    "A184983"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

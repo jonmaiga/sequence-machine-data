@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of (phi(-q^5)^2 - phi(-q)^2) / 4 in powers of q where phi() is a Ramanujan theta function.",
+  "id": "A094247",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A053694",
+    "A121373",
+    "A122190",
+    "A214316"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:45:01",
+    "offset": 1,
+    "size": 104,
+    "source": "joeis"
+  }
+}

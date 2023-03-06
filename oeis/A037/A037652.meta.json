@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 3,0,1.",
+  "id": "A037652",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:20:40",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{ d|n } sigma(n/d)*d^4.",
+  "id": "A027848",
+  "mentions": [
+    "A001001",
+    "A027847",
+    "A288391"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:35",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

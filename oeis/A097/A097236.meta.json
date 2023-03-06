@@ -1,0 +1,20 @@
+{
+  "description": "Number of hierarchical orderings (\"societies\") with at least 2 elements (\"individuals\") on each level for n labeled elements.",
+  "id": "A097236",
+  "mentions": [
+    "A075729",
+    "A097237",
+    "A226572"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

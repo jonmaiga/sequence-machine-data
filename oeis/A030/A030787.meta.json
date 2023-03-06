@@ -1,0 +1,18 @@
+{
+  "description": "The first list after the following procedure: starting with a list [4] and an empty list, repeatedly add the distinct values already in both lists in descending order to the second list and add the corresponding frequencies of those values to the first list.",
+  "id": "A030787",
+  "mentions": [
+    "A030777",
+    "A030788"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:49:55",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

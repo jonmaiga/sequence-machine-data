@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of the n-th prime into integers <= n.",
+  "id": "A092298",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A058698"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

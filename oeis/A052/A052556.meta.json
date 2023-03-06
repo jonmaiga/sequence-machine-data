@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1/(1-x-x^3).",
+  "id": "A052556",
+  "mentions": [
+    "A000930"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

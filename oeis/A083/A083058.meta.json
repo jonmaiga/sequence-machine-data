@@ -1,0 +1,28 @@
+{
+  "description": "Number of eigenvalues equal to 1 of n X n matrix A(i,j)=1 if j=1 or i divides j.",
+  "id": "A083058",
+  "mentions": [
+    "A000079",
+    "A000108",
+    "A000225",
+    "A000295",
+    "A002321",
+    "A070939",
+    "A079944",
+    "A143104",
+    "A182220",
+    "A228086",
+    "A228087"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

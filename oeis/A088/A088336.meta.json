@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations in the symmetric group S_n that have even number of transpositions in their cycle decomposition.",
+  "id": "A088336",
+  "mentions": [
+    "A000142",
+    "A062282",
+    "A088506"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

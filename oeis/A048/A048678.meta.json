@@ -1,0 +1,27 @@
+{
+  "description": "Binary expansion of nonnegative integers expanded to \"Zeckendorffian format\" with rewrite rules 0->0, 1->01.",
+  "id": "A048678",
+  "mentions": [
+    "A003714",
+    "A005203",
+    "A048679",
+    "A048680",
+    "A053644",
+    "A084471",
+    "A088697",
+    "A088698",
+    "A124108"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

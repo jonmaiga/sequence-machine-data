@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into parts 7k and 7k+4 with at least one part of each type.",
+  "id": "A035654",
+  "mentions": [
+    "A035441",
+    "A035468",
+    "A035618",
+    "A035653",
+    "A035655",
+    "A035699"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

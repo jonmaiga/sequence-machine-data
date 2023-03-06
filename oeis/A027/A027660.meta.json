@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = C(n+2, 2) + C(n+2, 3) + C(n+2, 4) + C(n+2, 5).",
+  "id": "A027660",
+  "mentions": [
+    "A000295",
+    "A000332",
+    "A000389",
+    "A051601"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:35:33",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

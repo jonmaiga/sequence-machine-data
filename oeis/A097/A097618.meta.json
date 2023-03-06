@@ -1,0 +1,19 @@
+{
+  "description": "Successive basic U.S. postal rates since \"uniform\" rates (based on weight, not distance) were adopted in 1863.",
+  "id": "A097618",
+  "mentions": [
+    "A125214"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

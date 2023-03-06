@@ -1,0 +1,21 @@
+{
+  "description": "Largest number with exactly n representations as sum of five positive squares (or 0 if no number with exactly n representations exists).",
+  "id": "A080673",
+  "mentions": [
+    "A025429",
+    "A080654"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

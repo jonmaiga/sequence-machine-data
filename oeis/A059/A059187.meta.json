@@ -1,0 +1,20 @@
+{
+  "description": "Engel expansion of sqrt(Pi) = 1.77245... .",
+  "id": "A059187",
+  "mentions": [
+    "A002161",
+    "A006784"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

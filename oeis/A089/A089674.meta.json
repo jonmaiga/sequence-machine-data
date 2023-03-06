@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = number of n X n (0,1) matrices A such that the 2n+2 vectors consisting of the rows and the columns of the matrix A, as well as the main diagonal read in the upward direction and the main antidiagonal, are all distinct.",
+  "id": "A089674",
+  "mentions": [
+    "A059202",
+    "A088309",
+    "A088310",
+    "A088616",
+    "A089673",
+    "A093466",
+    "A094000",
+    "A094223",
+    "A116532",
+    "A116539",
+    "A181230",
+    "A259763"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

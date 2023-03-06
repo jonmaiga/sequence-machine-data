@@ -1,0 +1,26 @@
+{
+  "description": "Number of ordered bicoverings of an unlabeled n-set.",
+  "id": "A060090",
+  "mentions": [
+    "A002718",
+    "A059443",
+    "A060051",
+    "A060052",
+    "A060053",
+    "A060069",
+    "A060070",
+    "A060092",
+    "A331571"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

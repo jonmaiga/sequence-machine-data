@@ -1,0 +1,18 @@
+{
+  "description": "If p(x) is the x-th prime, then the n-th set of 3 consecutive sexy prime pairs starts at p(a(n)).",
+  "id": "A095962",
+  "mentions": [
+    "A023201",
+    "A046117"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

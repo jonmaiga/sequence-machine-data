@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Product_{p prime} (1 - 2/p^2).",
+  "id": "A065474",
+  "mentions": [
+    "A001692",
+    "A007674",
+    "A058026",
+    "A065493",
+    "A074893",
+    "A221712"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

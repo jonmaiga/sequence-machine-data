@@ -1,0 +1,28 @@
+{
+  "description": "Primes of the form 512*k+1.",
+  "id": "A076339",
+  "mentions": [
+    "A000040",
+    "A002144",
+    "A007519",
+    "A065091",
+    "A076338",
+    "A094407",
+    "A133870",
+    "A142925",
+    "A208177",
+    "A208178"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

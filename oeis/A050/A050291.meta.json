@@ -1,0 +1,32 @@
+{
+  "description": "Number of double-free subsets of {1, 2, ..., n}.",
+  "id": "A050291",
+  "mentions": [
+    "A000045",
+    "A007814",
+    "A007865",
+    "A050292",
+    "A050296",
+    "A088808",
+    "A103580",
+    "A120641",
+    "A308546",
+    "A320340",
+    "A323092",
+    "A326083",
+    "A326115"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

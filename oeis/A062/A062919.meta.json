@@ -1,0 +1,21 @@
+{
+  "description": "\"Reverse factorials\": product of the digit reversals of the numbers 1 through n.",
+  "id": "A062919",
+  "mentions": [
+    "A000142",
+    "A004086"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

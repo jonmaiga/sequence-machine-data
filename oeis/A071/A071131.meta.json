@@ -1,0 +1,20 @@
+{
+  "description": "Squares which repeat with at least two full periods when written in base 5.",
+  "id": "A071131",
+  "mentions": [
+    "A069919",
+    "A071128",
+    "A071135"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

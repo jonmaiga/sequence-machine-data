@@ -1,0 +1,17 @@
+{
+  "description": "Number of increasing mobiles (circular rooted trees) with n nodes and 5 leaves.",
+  "id": "A055359",
+  "mentions": [
+    "A055356"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 6,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

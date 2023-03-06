@@ -1,0 +1,20 @@
+{
+  "description": "Primes that can be written in more than one way as 1+p+p^k, p prime and k>0.",
+  "id": "A084443",
+  "mentions": [
+    "A084440",
+    "A084441",
+    "A102070"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

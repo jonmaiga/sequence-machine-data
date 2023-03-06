@@ -1,0 +1,20 @@
+{
+  "description": "Exponents of power of 2 of the largest terms arising in the 3x+1 iterations started with terms of A095381.",
+  "id": "A095382",
+  "mentions": [
+    "A025586",
+    "A087256",
+    "A095381"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

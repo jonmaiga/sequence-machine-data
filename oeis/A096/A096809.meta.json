@@ -1,0 +1,19 @@
+{
+  "description": "Square table of signs, read by antidiagonals, where T(n,k)=(-1)^A096810(n,k); related to products of hypercomplex units.",
+  "id": "A096809",
+  "mentions": [
+    "A096810"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

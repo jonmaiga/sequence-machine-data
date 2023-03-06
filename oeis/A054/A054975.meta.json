@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonnegative integer 3 X 3 matrices with no zero rows or columns and with sum of elements equal to n, up to row and column permutation.",
+  "id": "A054975",
+  "mentions": [
+    "A052365"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:22:53",
+    "offset": 3,
+    "size": 34,
+    "source": "joeis"
+  }
+}

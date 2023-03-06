@@ -1,0 +1,15 @@
+{
+  "description": "The value of the associated Legendre Polynomial of index n and order 1 evaluated at x=2^(-1/2) multiplied by 2^(3*n/2-1).",
+  "id": "A025163",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:19:58",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

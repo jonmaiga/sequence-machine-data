@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes between squares of successive odd numbers.",
+  "id": "A089166",
+  "mentions": [
+    "A014085",
+    "A016754"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

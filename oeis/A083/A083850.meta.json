@@ -1,0 +1,21 @@
+{
+  "description": "Exponent of highest power of 11 dividing the n-th decimal palindrome; a(0) = 1.",
+  "id": "A083850",
+  "mentions": [
+    "A002113",
+    "A008593",
+    "A083851",
+    "A083852"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

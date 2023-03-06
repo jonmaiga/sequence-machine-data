@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A027113(n, 2n-3).",
+  "id": "A027121",
+  "mentions": [
+    "A027113"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:26:24",
+    "offset": 2,
+    "size": 26,
+    "source": "joeis"
+  }
+}

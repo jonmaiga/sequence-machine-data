@@ -1,0 +1,20 @@
+{
+  "description": "Ratio A095109(n)/A095091(n) rounded to nearest integer.",
+  "id": "A095360",
+  "mentions": [
+    "A095091",
+    "A095109",
+    "A095359"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

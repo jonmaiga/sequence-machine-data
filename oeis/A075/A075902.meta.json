@@ -1,0 +1,20 @@
+{
+  "description": "Primes p = prime(k) such that the decimal representation of p contains k as a substring.",
+  "id": "A075902",
+  "mentions": [
+    "A046883",
+    "A067248"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

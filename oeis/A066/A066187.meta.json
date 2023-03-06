@@ -1,0 +1,16 @@
+{
+  "description": "Sum of the second moments of all partitions of n.",
+  "id": "A066187",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "description": "Triangle of coefficients in expansion of (x+1)*(x+3)*...*(x + 2n - 1) in rising powers of x.",
+  "id": "A028338",
+  "mentions": [
+    "A000012",
+    "A000165",
+    "A000290",
+    "A001147",
+    "A002208",
+    "A002209",
+    "A004041",
+    "A024196",
+    "A024197",
+    "A024198",
+    "A028339",
+    "A028340",
+    "A028341",
+    "A039757",
+    "A084938",
+    "A109692",
+    "A161198",
+    "A286718",
+    "A288875",
+    "A293318"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:04:04",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

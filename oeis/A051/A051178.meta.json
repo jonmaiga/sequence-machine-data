@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k divides the number of divisors of k!.",
+  "id": "A051178",
+  "mentions": [
+    "A000005",
+    "A000142",
+    "A027423",
+    "A277166"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 4; for n>1, a(n) is the smallest square > a(n-1) obtained by inserting digits into a(n-1).",
+  "id": "A068178",
+  "mentions": [
+    "A068175",
+    "A068176",
+    "A068177",
+    "A091877"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

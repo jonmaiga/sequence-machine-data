@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that x^3 = 12 has no solution mod p.",
+  "id": "A040064",
+  "mentions": [
+    "A000040",
+    "A040062"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Sum_{k>=0} (2^k*t*(1+t)/(1-t)^3, t=x^2^k).",
+  "id": "A091519",
+  "mentions": [
+    "A000265",
+    "A038712",
+    "A065442"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

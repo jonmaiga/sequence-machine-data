@@ -1,0 +1,23 @@
+{
+  "description": "Difference between leg and hypotenuse in primitive Pythagorean triangles.",
+  "id": "A096033",
+  "mentions": [
+    "A001105",
+    "A004641",
+    "A016754",
+    "A094904",
+    "A245058"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of n(n-1)(n-2)/720.",
+  "id": "A051727",
+  "mentions": [
+    "A051726"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:57:55",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

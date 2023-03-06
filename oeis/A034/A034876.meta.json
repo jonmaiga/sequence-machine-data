@@ -1,0 +1,30 @@
+{
+  "description": "Number of ways to write n! as a product of smaller factorials each greater than 1.",
+  "id": "A034876",
+  "mentions": [
+    "A000040",
+    "A000668",
+    "A001013",
+    "A006530",
+    "A007917",
+    "A034878",
+    "A075082",
+    "A085604",
+    "A102750",
+    "A115627",
+    "A322583"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

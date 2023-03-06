@@ -1,0 +1,26 @@
+{
+  "description": "Left-hand border of triangle A046937.",
+  "id": "A038561",
+  "mentions": [
+    "A000110",
+    "A002186",
+    "A038559",
+    "A038560",
+    "A040027",
+    "A046937",
+    "A286416"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

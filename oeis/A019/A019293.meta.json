@@ -1,0 +1,20 @@
+{
+  "description": "Let sigma_m (n) be result of applying sum-of-divisors function m times to n; call n (m,k)-perfect if sigma_m (n) = k*n; sequence gives the (4,k)-perfect numbers.",
+  "id": "A019293",
+  "mentions": [
+    "A019276",
+    "A019278",
+    "A019292",
+    "A129076"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

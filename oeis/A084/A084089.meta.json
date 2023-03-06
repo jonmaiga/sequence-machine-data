@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k == 1 (mod 3) and the exponent of the highest power of 2 dividing k is even.",
+  "id": "A084089",
+  "mentions": [
+    "A003159",
+    "A016777",
+    "A084091",
+    "A352274"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Least positive m such that n! + m is prime.",
+  "id": "A033932",
+  "mentions": [
+    "A000142",
+    "A002981",
+    "A033933",
+    "A037151",
+    "A037153",
+    "A053714",
+    "A056752",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

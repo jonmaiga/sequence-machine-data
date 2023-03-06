@@ -1,0 +1,33 @@
+{
+  "description": "A triangle of Krawtchouk coefficients.",
+  "id": "A098593",
+  "mentions": [
+    "A000012",
+    "A006318",
+    "A007318",
+    "A008288",
+    "A009545",
+    "A077948",
+    "A081577",
+    "A081578",
+    "A081579",
+    "A081580",
+    "A081581",
+    "A081582",
+    "A123562",
+    "A143683"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest palindromic prime containing the n-th palindrome.",
+  "id": "A085054",
+  "mentions": [
+    "A002113",
+    "A083982"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

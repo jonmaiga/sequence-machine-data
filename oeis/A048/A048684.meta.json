@@ -1,0 +1,22 @@
+{
+  "description": "Multiplicity of maximal squarefree kernel numbers applied to C(n,k) coefficients.",
+  "id": "A048684",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
+    "A007947",
+    "A020233",
+    "A020738"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:21",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

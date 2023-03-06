@@ -1,0 +1,21 @@
+{
+  "description": "Primes that remain prime through 5 iterations of function f(x) = 3x + 10.",
+  "id": "A023338",
+  "mentions": [
+    "A023211",
+    "A023249",
+    "A023280",
+    "A023310"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

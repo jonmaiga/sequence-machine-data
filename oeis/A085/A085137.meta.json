@@ -1,0 +1,20 @@
+{
+  "description": "Binary expansion of largest Stoneham number S(3,2).",
+  "id": "A085137",
+  "mentions": [
+    "A085117"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

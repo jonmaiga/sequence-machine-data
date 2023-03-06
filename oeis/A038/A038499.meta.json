@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into a prime number of parts.",
+  "id": "A038499",
+  "mentions": [
+    "A027187",
+    "A027193"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Consider the binary Champernowne sequence (A030190): number of successive numbers to be concatenated beginning with A083653(n) such that in binary representation n is contained.",
+  "id": "A083654",
+  "mentions": [
+    "A007088",
+    "A030190",
+    "A030304",
+    "A083653",
+    "A083655"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

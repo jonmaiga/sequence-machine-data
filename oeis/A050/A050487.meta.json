@@ -1,0 +1,21 @@
+{
+  "description": "Geometric Connell sequence: start with 1; then next two numbers == 2 mod 3; next four == 3 mod 3; next eight == 1 mod 3; etc.",
+  "id": "A050487",
+  "mentions": [
+    "A049039",
+    "A050488",
+    "A079944"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:45:27",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

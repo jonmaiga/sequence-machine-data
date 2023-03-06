@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form p + (smallest prime >= p+1) + (smallest prime >= p+3) where p is a prime.",
+  "id": "A050207",
+  "mentions": [
+    "A034962"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of 4^n into n-th powers.",
+  "id": "A027601",
+  "mentions": [
+    "A000041",
+    "A027600",
+    "A027609",
+    "A259799"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

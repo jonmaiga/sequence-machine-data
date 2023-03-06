@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k! starts with its largest prime substring.",
+  "id": "A052056",
+  "mentions": [
+    "A000142",
+    "A046277"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

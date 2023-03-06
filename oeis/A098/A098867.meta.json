@@ -1,0 +1,16 @@
+{
+  "description": "Table(n,2) read by rows such that : 2^(k*(T(n,1)-1))+T(n,2))-1 is 0 mod(T(n,1)) for all integer k >= 0.",
+  "id": "A098867",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

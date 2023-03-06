@@ -1,0 +1,22 @@
+{
+  "description": "Number of closed walks of length n at a vertex of the cyclic graph on 9 nodes C_9.",
+  "id": "A094233",
+  "mentions": [
+    "A047849",
+    "A054877",
+    "A078008",
+    "A188048"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:20:46",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

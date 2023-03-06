@@ -1,0 +1,25 @@
+{
+  "description": "Triangle: matchings of 2n people with partners (of either sex) such that exactly k couples are left together.",
+  "id": "A055140",
+  "mentions": [
+    "A001147",
+    "A053871",
+    "A055141",
+    "A055142",
+    "A132382",
+    "A133314",
+    "A231846"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

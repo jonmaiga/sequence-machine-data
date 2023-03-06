@@ -1,0 +1,22 @@
+{
+  "description": "Sum along upward diagonal of Pascal triangle to center.",
+  "id": "A010752",
+  "mentions": [
+    "A000045",
+    "A007318",
+    "A010753",
+    "A010756",
+    "A010757"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

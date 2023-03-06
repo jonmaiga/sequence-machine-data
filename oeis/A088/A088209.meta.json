@@ -1,0 +1,24 @@
+{
+  "description": "Numerators of convergents of the continued fraction with the n+1 partial quotients: [1;1,1,...(n 1's)...,1,n+1], starting with [1], [1;2], [1;1,3], [1;1,1,4], ...",
+  "id": "A088209",
+  "mentions": [
+    "A000045",
+    "A007502",
+    "A045925",
+    "A101220",
+    "A109754",
+    "A354044"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

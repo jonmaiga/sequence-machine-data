@@ -1,0 +1,22 @@
+{
+  "description": "Number of split numbers (A036382) with binary order (A029837) n, i.e., those in interval [ 2^(n-1), 2^n ].",
+  "id": "A036385",
+  "mentions": [
+    "A029827",
+    "A029837",
+    "A036378",
+    "A036382",
+    "A036390"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

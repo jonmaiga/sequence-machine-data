@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2*n^2 + 3*n - 1.",
+  "id": "A091823",
+  "mentions": [
+    "A007318",
+    "A014106",
+    "A060626",
+    "A196265"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:56:19",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

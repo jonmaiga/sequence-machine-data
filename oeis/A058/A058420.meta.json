@@ -1,0 +1,21 @@
+{
+  "description": "Squares composed of digits {0,1,7}, not ending with zero.",
+  "id": "A058420",
+  "mentions": [
+    "A058419"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

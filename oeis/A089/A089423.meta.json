@@ -1,0 +1,24 @@
+{
+  "description": "Least common multiple of all cycle sizes in range [A014137(n-1)..A014138(n-1)] of permutation A082335/A082336 (and also of A082349/A082350, to be proved).",
+  "id": "A089423",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A082335",
+    "A082336",
+    "A082349",
+    "A082350",
+    "A089408",
+    "A089431"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

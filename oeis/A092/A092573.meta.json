@@ -1,0 +1,23 @@
+{
+  "description": "Number of solutions to x^2 + 3y^2 = n in positive integers x and y.",
+  "id": "A092573",
+  "mentions": [
+    "A000007",
+    "A000122",
+    "A002476",
+    "A033716",
+    "A092572",
+    "A092575"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the minimal i such that A000108(i) > n.",
+  "id": "A081288",
+  "mentions": [
+    "A000108",
+    "A000245",
+    "A072643",
+    "A081289",
+    "A081290",
+    "A081291"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

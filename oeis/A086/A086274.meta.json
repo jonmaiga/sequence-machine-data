@@ -1,0 +1,20 @@
+{
+  "description": "Antidiagonal sums of A086272 (and of A086273).",
+  "id": "A086274",
+  "mentions": [
+    "A005582",
+    "A086272",
+    "A086273"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

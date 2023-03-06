@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 1.2. ... .n-1.n - 2 is prime (where dot between numbers means concatenation).",
+  "id": "A099083",
+  "mentions": [
+    "A099081",
+    "A099082"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

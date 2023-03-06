@@ -1,0 +1,20 @@
+{
+  "description": "Initial term of n-th group in A079802.",
+  "id": "A079804",
+  "mentions": [
+    "A079802",
+    "A079803",
+    "A079805"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Initial prime in set of 4 consecutive primes in arithmetic progression with common difference 18.",
+  "id": "A033448",
+  "mentions": [
+    "A033447",
+    "A033450",
+    "A033451",
+    "A052189",
+    "A052242",
+    "A052243",
+    "A058252",
+    "A058323",
+    "A067388",
+    "A210683",
+    "A259224"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

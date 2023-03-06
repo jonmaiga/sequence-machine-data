@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is such that 2 = sqrt(1+sqrt(1+sqrt(1+....sqrt(a(n))....))) where there are n sqrt's.",
+  "id": "A073015",
+  "mentions": [
+    "A003096"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

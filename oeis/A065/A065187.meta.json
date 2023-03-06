@@ -1,0 +1,18 @@
+{
+  "description": "\"Greedy Dragons\" permutation of the natural numbers, inverse of A065186.",
+  "id": "A065187",
+  "mentions": [
+    "A065186"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

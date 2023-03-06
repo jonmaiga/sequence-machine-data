@@ -1,0 +1,18 @@
+{
+  "description": "Concatenation of the 7 prime factors of composite a(n) is a palindrome.",
+  "id": "A046456",
+  "mentions": [
+    "A046447"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

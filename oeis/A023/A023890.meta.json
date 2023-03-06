@@ -1,0 +1,28 @@
+{
+  "description": "Sum of the nonprime divisors of n.",
+  "id": "A023890",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001222",
+    "A008472",
+    "A010051",
+    "A023891",
+    "A027750",
+    "A037282",
+    "A051731"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

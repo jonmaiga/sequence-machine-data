@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 3*n*n!.",
+  "id": "A052673",
+  "mentions": [
+    "A000142",
+    "A008585",
+    "A083746",
+    "A122972"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

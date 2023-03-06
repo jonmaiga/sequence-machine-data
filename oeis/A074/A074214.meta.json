@@ -1,0 +1,18 @@
+{
+  "description": "Integers m such that F(m) and F(2m) have the same largest prime factor where F(k) denotes the k-th Fibonacci number.",
+  "id": "A074214",
+  "mentions": [
+    "A000045",
+    "A060385"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "a(n)= product of all odd composite numbers between n-th prime and (n+1)-st prime.",
+  "id": "A061215",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

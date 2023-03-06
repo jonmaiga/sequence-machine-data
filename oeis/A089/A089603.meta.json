@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: sqrt(1/agm(1, 1-8*x)) = sqrt(o.g.f. for A081085).",
+  "id": "A089603",
+  "mentions": [
+    "A001620",
+    "A081085",
+    "A089602"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

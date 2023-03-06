@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 127*2^k+1 is prime.",
+  "id": "A032413",
+  "mentions": [
+    "A032418"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

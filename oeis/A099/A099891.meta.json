@@ -1,0 +1,25 @@
+{
+  "description": "XOR difference triangle of A003188 (Gray code numbers), read by rows.",
+  "id": "A099891",
+  "mentions": [
+    "A003188",
+    "A006519",
+    "A047999",
+    "A099884",
+    "A099889",
+    "A099892",
+    "A099893"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

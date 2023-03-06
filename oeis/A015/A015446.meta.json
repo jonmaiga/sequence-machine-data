@@ -1,0 +1,21 @@
+{
+  "description": "Generalized Fibonacci numbers: a(n) = a(n-1) + 10*a(n-2).",
+  "id": "A015446",
+  "mentions": [
+    "A015443",
+    "A015447",
+    "A109466"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

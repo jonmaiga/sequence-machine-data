@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 1/252.",
+  "id": "A021256",
+  "mentions": [
+    "A182480"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:11:33",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

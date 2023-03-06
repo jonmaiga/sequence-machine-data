@@ -1,0 +1,20 @@
+{
+  "description": "Coordination sequence for 39-dimensional cubic lattice.",
+  "id": "A035734",
+  "mentions": [
+    "A035776",
+    "A266213"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

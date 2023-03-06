@@ -1,0 +1,22 @@
+{
+  "description": "Number of orientable necklaces with 2n beads and two colors which when turned over produce their own color complement.",
+  "id": "A059078",
+  "mentions": [
+    "A000013",
+    "A000029",
+    "A000079",
+    "A059053",
+    "A059076"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

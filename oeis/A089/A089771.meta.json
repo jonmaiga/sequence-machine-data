@@ -1,0 +1,20 @@
+{
+  "description": "Largest n-digit prime containing no prime substrings, or 0 if no such prime exists.",
+  "id": "A089771",
+  "mentions": [
+    "A033274",
+    "A089768",
+    "A089770"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

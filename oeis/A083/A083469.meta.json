@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k such that n*k is a reverse concatenation of n consecutive natural numbers. a(n) = A083468(n)/n.",
+  "id": "A083469",
+  "mentions": [
+    "A075000",
+    "A075001",
+    "A077306",
+    "A083468"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

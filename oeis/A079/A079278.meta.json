@@ -1,0 +1,22 @@
+{
+  "description": "Define a rational sequence {b(n)} as b(1) = 1, b(n) = b(n-1) + 1/(1 + 1/b(n-1)) for n > 1; a(n) is the denominator of b(n).",
+  "id": "A079278",
+  "mentions": [
+    "A079269",
+    "A080581",
+    "A080582",
+    "A355615"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

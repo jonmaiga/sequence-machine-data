@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that both k+2 and k-2 are prime.",
+  "id": "A087679",
+  "mentions": [
+    "A014574",
+    "A023200",
+    "A029708",
+    "A046132",
+    "A056956",
+    "A087678",
+    "A087683",
+    "A087695",
+    "A087697",
+    "A088762",
+    "A157834"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:08:23",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

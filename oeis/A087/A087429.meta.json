@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if gpf(n) < gpf(n+1), otherwise 0, where gpf = A006530 (greatest prime factor).",
+  "id": "A087429",
+  "mentions": [
+    "A006530",
+    "A057427",
+    "A061395",
+    "A070087",
+    "A070089",
+    "A070221",
+    "A087430"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

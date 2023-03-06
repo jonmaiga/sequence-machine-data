@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways of arranging the numbers 1 ... 5n into a 5 X n array so there is exactly one local maximum.",
+  "id": "A087926",
+  "mentions": [
+    "A007846",
+    "A087783"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1+3x)/(1-3x).",
+  "id": "A099856",
+  "mentions": [
+    "A025192",
+    "A083420",
+    "A093561",
+    "A099858"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:31:53",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

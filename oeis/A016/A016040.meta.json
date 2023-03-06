@@ -1,0 +1,20 @@
+{
+  "description": "Integer part of Chebyshev's theta function: floor( log(Product_{k=1..n} prime(k)) ).",
+  "id": "A016040",
+  "mentions": [
+    "A000195",
+    "A002110",
+    "A035158"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:46:51",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

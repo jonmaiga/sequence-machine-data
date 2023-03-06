@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; for n >= 2, a(n) = (d(n)-1)-th highest positive integer that equals no a(k), 1 <= k < n, where d(n) is the number of positive divisors of n, A000005(n).",
+  "id": "A065561",
+  "mentions": [
+    "A000005",
+    "A065562",
+    "A065578"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Rectangular array read by antidiagonals obtained from A097287 by deleting the zeros.",
+  "id": "A097288",
+  "mentions": [
+    "A066182",
+    "A097287"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

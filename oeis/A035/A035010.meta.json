@@ -1,0 +1,21 @@
+{
+  "description": "Number of prime binary rooted trees with n external nodes.",
+  "id": "A035010",
+  "mentions": [
+    "A000108",
+    "A035102"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

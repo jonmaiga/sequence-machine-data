@@ -1,0 +1,19 @@
+{
+  "description": "(2 + phi)/a(n) is the sum of successive remainders when computing the Euclidean algorithm for (1, A088166(n)/phi) with phi being the golden ratio, where n >= 2.",
+  "id": "A087954",
+  "mentions": [
+    "A088166"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

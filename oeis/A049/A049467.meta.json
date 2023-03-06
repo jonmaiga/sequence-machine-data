@@ -1,0 +1,21 @@
+{
+  "description": "Replace each fraction p/q in Farey tree A007305/A007306 with 4p+q.",
+  "id": "A049467",
+  "mentions": [
+    "A007305",
+    "A007306"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:37:47",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

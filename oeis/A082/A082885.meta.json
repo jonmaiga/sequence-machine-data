@@ -1,0 +1,20 @@
+{
+  "description": "Primes followed by a larger-than-average prime gap.",
+  "id": "A082885",
+  "mentions": [
+    "A002386",
+    "A082862",
+    "A082884"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

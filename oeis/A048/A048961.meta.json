@@ -1,0 +1,18 @@
+{
+  "description": "Positions of 5-digit terms in the continued fraction for Pi (3 is position 0).",
+  "id": "A048961",
+  "mentions": [
+    "A048960"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

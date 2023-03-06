@@ -1,0 +1,19 @@
+{
+  "description": "Multiples of n obtained as the concatenation of terms A075618(n) to A075618(2n-1).",
+  "id": "A083195",
+  "mentions": [
+    "A075618",
+    "A075619"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

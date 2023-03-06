@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers that, when expressed in base 2 and then interpreted in base 10, yield a multiple of the original number.",
+  "id": "A032535",
+  "mentions": [
+    "A032532",
+    "A032533"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = position of n-th 1 in A001285 or A010059 (Thue-Morse sequence).",
+  "id": "A026147",
+  "mentions": [
+    "A001285",
+    "A001969",
+    "A010059",
+    "A181155"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

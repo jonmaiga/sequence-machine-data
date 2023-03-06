@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers in (2,1)-Pascal triangle A029653 that are different from 1.",
+  "id": "A029657",
+  "mentions": [
+    "A029653"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:55:40",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

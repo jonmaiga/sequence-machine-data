@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k that divide s(k), where s(1)=1, s(j)=19*s(j-1)+j.",
+  "id": "A014869",
+  "mentions": [
+    "A014903"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 16:14:29",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

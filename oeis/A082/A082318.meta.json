@@ -1,0 +1,23 @@
+{
+  "description": "Permutation A057502 applied thrice (\"cubed\").",
+  "id": "A082318",
+  "mentions": [
+    "A057502",
+    "A073200",
+    "A082316",
+    "A082317",
+    "A082319",
+    "A082324"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Last position reached by winner of n-th Littlewood Frog Race.",
+  "id": "A038026",
+  "mentions": [
+    "A038025",
+    "A085420"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

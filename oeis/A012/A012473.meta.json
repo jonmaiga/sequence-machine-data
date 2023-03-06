@@ -1,0 +1,15 @@
+{
+  "description": "sech(cos(x)*log(x+1))=1-1/2!*x^2+3/3!*x^3+6/4!*x^4-60/5!*x^5...",
+  "id": "A012473",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:55",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n with no 4k+3 factors such that Pell equation x^2 - n y^2 = -1 insoluble.",
+  "id": "A031399",
+  "mentions": [
+    "A031396",
+    "A031397",
+    "A031398"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

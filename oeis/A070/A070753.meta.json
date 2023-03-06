@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that sin(p) < 0.",
+  "id": "A070753",
+  "mentions": [
+    "A002145",
+    "A049084",
+    "A070747",
+    "A070748",
+    "A070751",
+    "A070754"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Maximal product of any two numbers whose concatenation is n.",
+  "id": "A035930",
+  "mentions": [
+    "A007954",
+    "A035931",
+    "A035935",
+    "A088117",
+    "A171765",
+    "A257297"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

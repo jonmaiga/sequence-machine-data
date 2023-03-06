@@ -1,0 +1,30 @@
+{
+  "description": "6-fold convolution of A000302 (powers of 4); expansion of 1/(1-4*x)^6.",
+  "id": "A045543",
+  "mentions": [
+    "A000302",
+    "A000984",
+    "A002457",
+    "A002697",
+    "A002802",
+    "A020918",
+    "A020920",
+    "A020922",
+    "A038231",
+    "A038845",
+    "A038846",
+    "A040075"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

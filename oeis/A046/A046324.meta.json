@@ -1,0 +1,25 @@
+{
+  "description": "Product of 6 successive primes.",
+  "id": "A046324",
+  "mentions": [
+    "A002110",
+    "A006094",
+    "A046301",
+    "A046302",
+    "A046303",
+    "A046325",
+    "A046326",
+    "A046327"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:31:01",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

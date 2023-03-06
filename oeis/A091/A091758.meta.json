@@ -1,0 +1,20 @@
+{
+  "description": "Alternating row sums of array A092077 ((8,2)-Stirling2).",
+  "id": "A091758",
+  "mentions": [
+    "A091757",
+    "A092077"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

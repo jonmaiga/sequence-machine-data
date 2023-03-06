@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k is a substring of 9^k.",
+  "id": "A049307",
+  "mentions": [
+    "A032740",
+    "A049301",
+    "A049302",
+    "A049303",
+    "A049304",
+    "A049305",
+    "A049306"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number k==3 (mod 4) such that Q(sqrt(-k)) has class number n, or 0 if no such k exists.",
+  "id": "A060649",
+  "mentions": [
+    "A002148",
+    "A038552",
+    "A081319",
+    "A344072"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

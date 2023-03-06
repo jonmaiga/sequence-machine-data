@@ -1,0 +1,20 @@
+{
+  "description": "Order of symmetry groups of n points on 3-dimensional sphere with the volume enclosed by their convex hull maximized.",
+  "id": "A081314",
+  "mentions": [
+    "A080865",
+    "A081366"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 4,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

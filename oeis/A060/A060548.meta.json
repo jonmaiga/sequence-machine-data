@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of D3-symmetric patterns that may be formed with a top-down equilateral triangular arrangement of closely packed black and white cells satisfying the local matching rule of Pascal's triangle modulo 2, where n is the number of cells in each edge of the arrangement. The matching rule is such that any elementary top-down triangle of three neighboring cells in the arrangement contains either one or three white cells.",
+  "id": "A060548",
+  "mentions": [
+    "A008611",
+    "A008615"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:16:03",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

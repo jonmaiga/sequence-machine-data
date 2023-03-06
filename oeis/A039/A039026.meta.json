@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose base-6 representation has the same number of 2's and 5's.",
+  "id": "A039026",
+  "mentions": [
+    "A007092"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

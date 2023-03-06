@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of eta(q)^4/eta(q^4) in powers of q.",
+  "id": "A083703",
+  "mentions": [
+    "A004215",
+    "A005875",
+    "A080965",
+    "A274327",
+    "A285895"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n if n is even, 2*n + 1 if n is odd.",
+  "id": "A059029",
+  "mentions": [
+    "A016945",
+    "A022998",
+    "A032438",
+    "A043547",
+    "A059026",
+    "A059030",
+    "A059031"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

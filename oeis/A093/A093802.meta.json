@@ -1,0 +1,30 @@
+{
+  "description": "Number of distinct factorizations of 105*2^n.",
+  "id": "A093802",
+  "mentions": [
+    "A000079",
+    "A000110",
+    "A000142",
+    "A001055",
+    "A002110",
+    "A002763",
+    "A035098",
+    "A054225",
+    "A076716",
+    "A126442",
+    "A129306",
+    "A346426",
+    "A346823"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

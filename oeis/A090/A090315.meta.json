@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that k and digit reversal of k both have n divisors, or 0 if no such number exists.",
+  "id": "A090315",
+  "mentions": [
+    "A083753"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

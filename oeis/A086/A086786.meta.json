@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: n-th row is the smallest set of n numbers in arithmetic progression with the same prime signature.",
+  "id": "A086786",
+  "mentions": [
+    "A033168",
+    "A087308",
+    "A087309",
+    "A087310",
+    "A113460",
+    "A113470",
+    "A114660",
+    "A114663",
+    "A114670",
+    "A133276",
+    "A133277"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

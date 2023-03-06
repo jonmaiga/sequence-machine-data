@@ -1,0 +1,22 @@
+{
+  "description": "Friedman numbers: can be written in a nontrivial way using their digits and the operations + - * / ^ and concatenation of digits (but not of results).",
+  "id": "A036057",
+  "mentions": [
+    "A046469",
+    "A080035",
+    "A112419",
+    "A156954"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

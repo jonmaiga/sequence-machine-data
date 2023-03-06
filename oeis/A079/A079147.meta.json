@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p+1 has at most 2 prime factors, counted with multiplicity; i.e., primes p such that bigomega(p+1) = A001222(p+1) <= 2.",
+  "id": "A079147",
+  "mentions": [
+    "A001222",
+    "A005383",
+    "A079148",
+    "A079149",
+    "A079150"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

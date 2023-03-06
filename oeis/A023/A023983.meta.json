@@ -1,0 +1,15 @@
+{
+  "description": "Sum of exponents in prime-power factorization of multinomial coefficient M(5n;2n,2n,n).",
+  "id": "A023983",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:02",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

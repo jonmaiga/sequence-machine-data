@@ -1,0 +1,20 @@
+{
+  "description": "Scaled coefficients of (arctanh x)^5.",
+  "id": "A049216",
+  "mentions": [
+    "A049214",
+    "A049215",
+    "A049217"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:44:24",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

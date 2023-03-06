@@ -1,0 +1,27 @@
+{
+  "description": "a(1) = 6; for n > 0, a(n+1) = a(n) * (sum of digits of a(n)).",
+  "id": "A047898",
+  "mentions": [
+    "A047892",
+    "A047897",
+    "A047899",
+    "A047900",
+    "A047901",
+    "A047902",
+    "A047912",
+    "A057147"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

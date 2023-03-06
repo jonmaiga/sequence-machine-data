@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of log(21/2).",
+  "id": "A016587",
+  "mentions": [
+    "A002162",
+    "A016538",
+    "A016644"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

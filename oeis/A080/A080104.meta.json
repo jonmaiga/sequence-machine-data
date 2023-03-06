@@ -1,0 +1,21 @@
+{
+  "description": "Le Corbusier's \"modular\" (or \"modulor\") numbers, based on the proportions of an ideal man.",
+  "id": "A080104",
+  "mentions": [
+    "A080078",
+    "A080105",
+    "A080106"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

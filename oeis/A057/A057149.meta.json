@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) of n X n binary matrices with k ones, with no zero rows or columns, up to row and column permutation.",
+  "id": "A057149",
+  "mentions": [
+    "A049311",
+    "A054976",
+    "A056037",
+    "A056079",
+    "A056080",
+    "A057150",
+    "A057152"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

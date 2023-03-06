@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that x' = n has no integer solution, where x' is the arithmetic derivative of x.",
+  "id": "A098700",
+  "mentions": [
+    "A002620",
+    "A003415",
+    "A098699",
+    "A099302",
+    "A099303",
+    "A189483",
+    "A189554",
+    "A239433"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Self-convolution of row n of array T given by A026022.",
+  "id": "A027294",
+  "mentions": [
+    "A026022"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:35:37",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

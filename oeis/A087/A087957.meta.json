@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the square of the n-th partial sum minus the n-th partial sum of the squares, divided by a(n-1), for all n>=1, starting with a(0)=1, a(1)=4.",
+  "id": "A087957",
+  "mentions": [
+    "A087640",
+    "A087955",
+    "A087956",
+    "A087958"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:43:15",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

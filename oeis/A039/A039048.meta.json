@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose base-7 representation has the same number of 4's and 6's.",
+  "id": "A039048",
+  "mentions": [
+    "A007093"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

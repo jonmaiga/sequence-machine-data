@@ -1,0 +1,24 @@
+{
+  "description": "McKay-Thompson series of class 10c for Monster.",
+  "id": "A058204",
+  "mentions": [
+    "A000521",
+    "A007240",
+    "A007241",
+    "A007242",
+    "A007253",
+    "A007267",
+    "A014708",
+    "A045478"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

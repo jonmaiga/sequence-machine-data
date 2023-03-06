@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the number of distinct primes dividing n = number of anti-divisors of n.",
+  "id": "A073713",
+  "mentions": [
+    "A001221",
+    "A066272"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

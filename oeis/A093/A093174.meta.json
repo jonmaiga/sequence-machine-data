@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 40*R_k + 1, where R_k is the repunit (A002275) of length k.",
+  "id": "A093174",
+  "mentions": [
+    "A002275",
+    "A056681",
+    "A173768"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

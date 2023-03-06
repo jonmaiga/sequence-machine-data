@@ -1,0 +1,23 @@
+{
+  "description": "Positions of the permutations which have the same rank in A055089 and A060117, i.e., the fixed points of permutations A060119 and A060126.",
+  "id": "A060132",
+  "mentions": [
+    "A055089",
+    "A059590",
+    "A060117",
+    "A060119",
+    "A060126",
+    "A060133",
+    "A064637"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

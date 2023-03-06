@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of chess queens that can be placed on a 4-dimensional chessboard of order n so that no two attack each other.",
+  "id": "A068941",
+  "mentions": [
+    "A068940"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

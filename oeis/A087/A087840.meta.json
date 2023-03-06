@@ -1,0 +1,18 @@
+{
+  "description": "Sequence of primes P(i) such that j*P(i)# - P(i+1) and j*P(i)# + P(i+1) are consecutive primes with 0 < j < P(i+1).",
+  "id": "A087840",
+  "mentions": [
+    "A002110",
+    "A087841"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

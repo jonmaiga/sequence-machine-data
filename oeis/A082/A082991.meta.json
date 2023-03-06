@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1 and for n > 1, a(n) = 2 * length of the cycle reached for the map x -> A062401(x), starting at n [where A062401(n) = phi(sigma(n))], or -1 if no finite cycle is ever reached.",
+  "id": "A082991",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A062401",
+    "A095955"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

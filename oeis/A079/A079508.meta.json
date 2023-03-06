@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) (n >= 2, k >= 1) of Raney numbers read by rows.",
+  "id": "A079508",
+  "mentions": [
+    "A000096",
+    "A000108",
+    "A001003",
+    "A033282"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

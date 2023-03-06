@@ -1,0 +1,21 @@
+{
+  "description": "Array T(i,j), i>=1, j >= 1, forming a two-dimensional version of A090822, read by antidiagonals.",
+  "id": "A094781",
+  "mentions": [
+    "A090822",
+    "A091787",
+    "A094782",
+    "A094839"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

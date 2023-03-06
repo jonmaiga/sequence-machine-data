@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the harmonic mean of the divisors of k is the square of a rational number.",
+  "id": "A074266",
+  "mentions": [
+    "A001599",
+    "A099377",
+    "A099378"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

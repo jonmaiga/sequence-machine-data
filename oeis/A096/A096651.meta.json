@@ -1,0 +1,32 @@
+{
+  "description": "Lower triangular matrix T, read by rows, such that the row sums of T^n form the n-dimensional partitions.",
+  "id": "A096651",
+  "mentions": [
+    "A000041",
+    "A000219",
+    "A000293",
+    "A000334",
+    "A000390",
+    "A000416",
+    "A000427",
+    "A096642",
+    "A096645",
+    "A096652",
+    "A096653",
+    "A096751",
+    "A096800"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

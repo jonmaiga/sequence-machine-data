@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest number not already in the sequence such that Sum_{k=1..n} a(k) is divisible by prime(n).",
+  "id": "A075085",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

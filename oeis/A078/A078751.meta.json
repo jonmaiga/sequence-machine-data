@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: ss(m,k) = normalized partial derivative of (t,z)->exp(t g(z)) at (0,0), where 2 g(z)=1+exp(-2 z g(z)).",
+  "id": "A078751",
+  "mentions": [
+    "A038049"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of pairs (x,y) where x is plane partition of n+1 and y is a plane partition of n and x covers y.",
+  "id": "A090984",
+  "mentions": [
+    "A000070",
+    "A090539"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

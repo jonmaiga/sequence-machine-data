@@ -1,0 +1,27 @@
+{
+  "description": "2n-step 3-dimensional closed paths on cubic lattice.",
+  "id": "A010567",
+  "mentions": [
+    "A001412",
+    "A001413",
+    "A002896",
+    "A010566",
+    "A010568",
+    "A010569",
+    "A010570",
+    "A038515",
+    "A039618",
+    "A130706"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

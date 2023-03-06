@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of coefficients of the formal power series a(x) such that a(a(x)) = exp(x) - 1.",
+  "id": "A052104",
+  "mentions": [
+    "A052105",
+    "A052122",
+    "A052123"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

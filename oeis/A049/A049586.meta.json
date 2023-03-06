@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the GCD of the cototients (A051953) of n and n+1.",
+  "id": "A049586",
+  "mentions": [
+    "A000010",
+    "A051953",
+    "A058515"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:39:29",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

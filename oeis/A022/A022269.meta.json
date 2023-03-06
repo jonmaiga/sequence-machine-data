@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n*(11*n+1)/2.",
+  "id": "A022269",
+  "mentions": [
+    "A000217",
+    "A022289",
+    "A026817",
+    "A110449",
+    "A218530"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:12:31",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

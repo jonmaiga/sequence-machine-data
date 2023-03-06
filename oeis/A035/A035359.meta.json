@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions-into-distinct-parts of n (A000009) is a prime.",
+  "id": "A035359",
+  "mentions": [
+    "A000009",
+    "A046063",
+    "A051005",
+    "A056848",
+    "A265835",
+    "A330991",
+    "A331022",
+    "A331201"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

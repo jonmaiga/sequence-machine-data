@@ -1,0 +1,20 @@
+{
+  "description": "Generalized Jacobsthal sequence.",
+  "id": "A087629",
+  "mentions": [
+    "A001045",
+    "A087628"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:09:38",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

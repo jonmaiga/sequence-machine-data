@@ -1,0 +1,24 @@
+{
+  "description": "Number of edge-disjoint paths between opposite corners of n X n grid.",
+  "id": "A013990",
+  "mentions": [
+    "A013991",
+    "A013992",
+    "A013993",
+    "A013994",
+    "A013995",
+    "A013996",
+    "A013997"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

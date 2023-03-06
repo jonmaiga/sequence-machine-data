@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = floor( |n * sin(n)| ), where n is in radians.",
+  "id": "A091542",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:44:19",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

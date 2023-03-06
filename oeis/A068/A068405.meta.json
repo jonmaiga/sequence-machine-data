@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that (k+1) is squarefree and composite and such that there is one more distinct prime factor in k than in (k+1).",
+  "id": "A068405",
+  "mentions": [
+    "A001221",
+    "A120944"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

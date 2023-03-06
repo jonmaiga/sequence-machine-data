@@ -1,0 +1,18 @@
+{
+  "description": "Digitally balanced numbers in base 7: equal numbers of 0's, 1's, ..., 6's.",
+  "id": "A049358",
+  "mentions": [
+    "A031443"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:37:11",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

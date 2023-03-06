@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose digit permutations have GCD > 1.",
+  "id": "A084434",
+  "mentions": [
+    "A008585",
+    "A014181",
+    "A014263",
+    "A071249",
+    "A084433"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

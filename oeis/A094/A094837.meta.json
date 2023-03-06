@@ -1,0 +1,24 @@
+{
+  "description": "Maximal number of longest common subsequences between any two binary strings of length n (Version 1).",
+  "id": "A094837",
+  "mentions": [
+    "A094824",
+    "A094838",
+    "A171001",
+    "A171002",
+    "A171003",
+    "A171006"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

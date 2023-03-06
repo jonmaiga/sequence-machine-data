@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of sine of 69 degrees.",
+  "id": "A019878",
+  "mentions": [
+    "A019812",
+    "A019832",
+    "A019833",
+    "A019853",
+    "A019855",
+    "A019875",
+    "A019876",
+    "A019896"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:04:05",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

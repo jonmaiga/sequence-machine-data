@@ -1,0 +1,20 @@
+{
+  "description": "Smallest \"inconsummate number\" in base n greater than in the previous base.",
+  "id": "A061381",
+  "mentions": [
+    "A052491"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 2,
+    "size": 48,
+    "source": "joeis"
+  }
+}

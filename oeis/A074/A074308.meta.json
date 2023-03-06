@@ -1,0 +1,21 @@
+{
+  "description": "Inverse of permutation in A074307.",
+  "id": "A074308",
+  "mentions": [
+    "A074305",
+    "A074306",
+    "A074307"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

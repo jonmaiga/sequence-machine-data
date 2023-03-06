@@ -1,0 +1,125 @@
+{
+  "oi": 73742,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "de[sinh(1)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "sinh",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-01-31",
+      "ix": "limit[sinh(tanh(n))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "tanh",
+        "sinh",
+        "limit"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[cosh(1)-e]",
+      "mt": 50,
+      "px": [
+        "1",
+        "cosh",
+        "e",
+        "sub",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-09",
+      "ix": "limit[sinh(cos(char[1]))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "char",
+        "cos",
+        "sinh",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-02-09",
+      "ix": "limit[sinh(cosh(char[1]))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "char",
+        "cosh",
+        "sinh",
+        "limit"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[tan(asin(tanh(1)))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "tanh",
+        "asin",
+        "tan",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[cot(acos(tanh(1)))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "tanh",
+        "acos",
+        "cot",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-10-06",
+      "ix": "limit[sinh(char[1]+1)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "char",
+        "1",
+        "+",
+        "sinh",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-10-06",
+      "ix": "limit[char[1]-sinh(1)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "char",
+        "1",
+        "sinh",
+        "sub",
+        "limit"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[cosh(1)*tanh(1)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "cosh",
+        "1",
+        "tanh",
+        "*",
+        "de"
+      ]
+    }
+  ]
+}

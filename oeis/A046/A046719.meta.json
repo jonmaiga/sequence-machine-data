@@ -1,0 +1,18 @@
+{
+  "description": "Total number of digits in all primes with n digits.",
+  "id": "A046719",
+  "mentions": [
+    "A006879"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

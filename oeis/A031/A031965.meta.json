@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with exactly four distinct base-6 digits.",
+  "id": "A031965",
+  "mentions": [
+    "A007092"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:57:45",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

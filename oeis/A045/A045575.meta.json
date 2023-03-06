@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative numbers of the form x^y - y^x, for x,y > 1.",
+  "id": "A045575",
+  "mentions": [
+    "A076980"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

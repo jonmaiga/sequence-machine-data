@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of square root of 13.",
+  "id": "A010470",
+  "mentions": [
+    "A010122",
+    "A020770",
+    "A041018",
+    "A041019",
+    "A171983",
+    "A248242",
+    "A295330",
+    "A344069"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

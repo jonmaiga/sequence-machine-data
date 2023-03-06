@@ -1,0 +1,20 @@
+{
+  "description": "Square of LCM of {1, 2, ..., n}.",
+  "id": "A051418",
+  "mentions": [
+    "A003418"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

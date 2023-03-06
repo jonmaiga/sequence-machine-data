@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction for sqrt(Pi/2).",
+  "id": "A068141",
+  "mentions": [
+    "A069998"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Binomial transform of Fine's sequence A000957: 1, 0, 1, 2, 6, 18, 57, 186, ...",
+  "id": "A033321",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A000957",
+    "A002212",
+    "A007317",
+    "A091965",
+    "A128714",
+    "A214611"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

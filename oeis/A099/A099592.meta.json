@@ -1,0 +1,15 @@
+{
+  "description": "Minimum index i of certain Lucas (or Lehmer) sequences such that every element with index >= i has a primitive divisor.",
+  "id": "A099592",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:16:19",
+    "offset": 2,
+    "size": 65,
+    "source": "joeis"
+  }
+}

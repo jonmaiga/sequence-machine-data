@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A035185.",
+  "id": "A078462",
+  "mentions": [
+    "A035185",
+    "A078428"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:57:37",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

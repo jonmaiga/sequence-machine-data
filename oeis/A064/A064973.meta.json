@@ -1,0 +1,17 @@
+{
+  "description": "Values for which A065358 is larger than any preceding term.",
+  "id": "A064973",
+  "mentions": [
+    "A065358"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

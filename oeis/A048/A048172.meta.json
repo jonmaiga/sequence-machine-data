@@ -1,0 +1,26 @@
+{
+  "description": "Number of labeled series-parallel graphs with n edges.",
+  "id": "A048172",
+  "mentions": [
+    "A000084",
+    "A000112",
+    "A001035",
+    "A003430",
+    "A048174",
+    "A058349",
+    "A058350"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

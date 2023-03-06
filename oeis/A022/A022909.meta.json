@@ -1,0 +1,17 @@
+{
+  "description": "The sequence m(n) in A022906.",
+  "id": "A022909",
+  "mentions": [
+    "A022906"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:14:51",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

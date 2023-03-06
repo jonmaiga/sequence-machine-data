@@ -1,0 +1,26 @@
+{
+  "description": "Difference between smallest square >= n and n.",
+  "id": "A068527",
+  "mentions": [
+    "A002522",
+    "A010000",
+    "A048761",
+    "A053186",
+    "A066857",
+    "A068869",
+    "A348596",
+    "A350962"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:41:45",
+    "offset": 0,
+    "size": 92,
+    "source": "joeis"
+  }
+}

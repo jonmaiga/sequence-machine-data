@@ -1,0 +1,28 @@
+{
+  "description": "a(1) = 1, a(p) = p mod 4 for p prime and a(u * v) = a(u) * a(v) for u, v > 0.",
+  "id": "A065338",
+  "mentions": [
+    "A000040",
+    "A003586",
+    "A004613",
+    "A007814",
+    "A020639",
+    "A039702",
+    "A065331",
+    "A065333",
+    "A065339"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

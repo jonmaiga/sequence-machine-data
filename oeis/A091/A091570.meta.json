@@ -1,0 +1,31 @@
+{
+  "description": "Sum of odd proper divisors of n. Sum of the odd divisors of n that are less than n.",
+  "id": "A091570",
+  "mentions": [
+    "A000035",
+    "A000593",
+    "A066191",
+    "A091954",
+    "A351647",
+    "A352031",
+    "A352032",
+    "A352033",
+    "A352034",
+    "A352035",
+    "A352036",
+    "A352037",
+    "A352038"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

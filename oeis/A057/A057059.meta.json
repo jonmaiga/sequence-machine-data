@@ -1,0 +1,25 @@
+{
+  "description": "Let R(i,j) be the rectangle with antidiagonals 1; 2,3; 4,5,6; ... Define i(m) and j(m) by R(i(m),j(m)) = m. Then a(n) = j(A057027(n)).",
+  "id": "A057059",
+  "mentions": [
+    "A002260",
+    "A004736",
+    "A049310",
+    "A057027",
+    "A057058",
+    "A141419",
+    "A194982"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:35:39",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

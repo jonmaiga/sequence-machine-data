@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that there is some k < n with n*sigma(k) = k*sigma(n).",
+  "id": "A095301",
+  "mentions": [
+    "A000203",
+    "A050973",
+    "A094759",
+    "A214701"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

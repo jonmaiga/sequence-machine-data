@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (n^4 + n)/2 (Row sums of an n X n X n magic cube, when it exists).",
+  "id": "A027441",
+  "mentions": [
+    "A000217",
+    "A002061",
+    "A037270",
+    "A057590",
+    "A139562",
+    "A179268"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:34:13",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

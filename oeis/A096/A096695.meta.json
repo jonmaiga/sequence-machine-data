@@ -1,0 +1,23 @@
+{
+  "description": "Least balanced prime (A090403) of index n (A096693).",
+  "id": "A096695",
+  "mentions": [
+    "A090403",
+    "A096693",
+    "A096705",
+    "A096706",
+    "A096707",
+    "A096708",
+    "A096709"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

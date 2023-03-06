@@ -1,0 +1,21 @@
+{
+  "description": "Final term of n-th group in A075352.",
+  "id": "A075354",
+  "mentions": [
+    "A075352",
+    "A075353",
+    "A075355",
+    "A075356"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

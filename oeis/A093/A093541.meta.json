@@ -1,0 +1,20 @@
+{
+  "description": "Square array, read by antidiagonals, where column (k+1) equals the self-convolution of row k, with row 0 and column 0 consisting of all 1's.",
+  "id": "A093541",
+  "mentions": [
+    "A093542",
+    "A093543"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

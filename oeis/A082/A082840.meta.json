@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 4*a(n-1) - a(n-2) + 3, with a(0) = -1, a(1) = 1.",
+  "id": "A082840",
+  "mentions": [
+    "A001571",
+    "A001834",
+    "A003500",
+    "A071954",
+    "A129803"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

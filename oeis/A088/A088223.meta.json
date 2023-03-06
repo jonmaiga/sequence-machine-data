@@ -1,0 +1,19 @@
+{
+  "description": "Coefficient of x^n in g.f.^n is A048286(n).",
+  "id": "A088223",
+  "mentions": [
+    "A048286",
+    "A240996"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

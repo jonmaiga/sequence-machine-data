@@ -1,0 +1,22 @@
+{
+  "description": "Indices of additive primes - primes with prime sum-of-digits, see A046704.",
+  "id": "A075177",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A010051",
+    "A046704"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

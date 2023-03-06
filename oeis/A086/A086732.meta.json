@@ -1,0 +1,21 @@
+{
+  "description": "Convolution of A000203 with partition function (A000041) of positive integers.",
+  "id": "A086732",
+  "mentions": [
+    "A000041",
+    "A000203",
+    "A066186",
+    "A162329"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

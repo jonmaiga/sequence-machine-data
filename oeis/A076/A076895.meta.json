@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(n) = n - a(ceiling(n/2)).",
+  "id": "A076895",
+  "mentions": [
+    "A030301",
+    "A050292",
+    "A079411"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

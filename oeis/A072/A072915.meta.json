@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the standard gravity acceleration (one \"gee\") in SI units.",
+  "id": "A072915",
+  "mentions": [
+    "A003678",
+    "A019694",
+    "A081799",
+    "A182999",
+    "A213610",
+    "A213611",
+    "A213612",
+    "A213613",
+    "A213614"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

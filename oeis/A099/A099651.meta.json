@@ -1,0 +1,22 @@
+{
+  "description": "For each of the C(10,2) = 45 pairs of decimal digits, record the smallest prime containing only these digits (if one exists); sort.",
+  "id": "A099651",
+  "mentions": [
+    "A020449",
+    "A020472",
+    "A099756"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

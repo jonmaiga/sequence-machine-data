@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree composite numbers whose sum of divisors is also squarefree.",
+  "id": "A065302",
+  "mentions": [
+    "A000203",
+    "A008683",
+    "A065299",
+    "A065303",
+    "A128607",
+    "A128608"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

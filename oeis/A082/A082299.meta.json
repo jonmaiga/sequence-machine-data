@@ -1,0 +1,23 @@
+{
+  "description": "Greatest common divisor of n and its sum of prime factors (with repetition).",
+  "id": "A082299",
+  "mentions": [
+    "A001414",
+    "A082300",
+    "A082343",
+    "A082344",
+    "A099635",
+    "A099636"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

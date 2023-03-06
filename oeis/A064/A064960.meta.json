@@ -1,0 +1,32 @@
+{
+  "description": "The prime then composite recurrence; a(2n) = a(2n-1)-th prime and a(2n+1) = a(2n)-th composite and a(1) = 1.",
+  "id": "A064960",
+  "mentions": [
+    "A006450",
+    "A006508",
+    "A007097",
+    "A049076",
+    "A049077",
+    "A049078",
+    "A049079",
+    "A049080",
+    "A049081",
+    "A057450",
+    "A057451",
+    "A057452",
+    "A057453",
+    "A057456",
+    "A057457",
+    "A064961"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

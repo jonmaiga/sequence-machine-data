@@ -1,0 +1,20 @@
+{
+  "description": "Number of connected outerplanar graphs on n labeled nodes.",
+  "id": "A097998",
+  "mentions": [
+    "A097999",
+    "A098000",
+    "A111563"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

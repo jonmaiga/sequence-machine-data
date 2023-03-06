@@ -1,0 +1,21 @@
+{
+  "description": "\"BHK\" (reversible, identity, unlabeled) transform of 1,0,1,0...(odds).",
+  "id": "A032089",
+  "mentions": [
+    "A000035",
+    "A000045",
+    "A053602"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

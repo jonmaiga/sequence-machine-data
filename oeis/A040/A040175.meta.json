@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n! times probability that an ordered pair of elements of S_n chosen at random (with replacement) generate S_n.",
+  "id": "A040175",
+  "mentions": [
+    "A040173",
+    "A040174",
+    "A071605",
+    "A135474"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 3,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

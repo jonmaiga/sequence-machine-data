@@ -1,0 +1,28 @@
+{
+  "description": "\"Dropping time\" in 3x+1 problem starting at 2n+1 (number of steps to reach a lower number than starting value). Also called glide(2n+1).",
+  "id": "A060445",
+  "mentions": [
+    "A006577",
+    "A060412",
+    "A060415",
+    "A060565",
+    "A070165",
+    "A074473",
+    "A102419",
+    "A122437",
+    "A122442",
+    "A217934"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

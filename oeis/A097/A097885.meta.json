@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Motzkin paths of length n with k valleys (n>=0, 0<=k<=floor(n/2)-1; a valley is a downstep followed by an upstep).",
+  "id": "A097885",
+  "mentions": [
+    "A001006",
+    "A004148",
+    "A097860"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

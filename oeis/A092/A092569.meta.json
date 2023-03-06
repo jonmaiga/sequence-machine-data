@@ -1,0 +1,29 @@
+{
+  "description": "Permutation of integers a(a(n)) = n. In binary representation of n, transformation of inner bits, 1 <-> 0, gives binary representation of a(n).",
+  "id": "A092569",
+  "mentions": [
+    "A020650",
+    "A020651",
+    "A054429",
+    "A065190",
+    "A092570",
+    "A117120",
+    "A245326",
+    "A245327",
+    "A258746",
+    "A258996"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

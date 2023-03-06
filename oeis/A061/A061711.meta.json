@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n!*n^n.",
+  "id": "A061711",
+  "mentions": [
+    "A036679",
+    "A053042",
+    "A055775",
+    "A131182",
+    "A336765"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

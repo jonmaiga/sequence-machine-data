@@ -1,0 +1,29 @@
+{
+  "description": "5-idempotent numbers.",
+  "id": "A050982",
+  "mentions": [
+    "A000389",
+    "A001788",
+    "A036084",
+    "A036216",
+    "A036219",
+    "A040075",
+    "A045543",
+    "A050988",
+    "A050989",
+    "A054849",
+    "A140404"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 5,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

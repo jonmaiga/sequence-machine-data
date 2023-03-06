@@ -1,0 +1,15 @@
+{
+  "description": "Rearrangement of natural numbers disturbing the position of every number such that a(n) is coprime to a(m) if n is coprime to m. ((a(n),a(m)) = 1 if (n,m) = 1.",
+  "id": "A082748",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

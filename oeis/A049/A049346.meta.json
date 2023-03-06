@@ -1,0 +1,18 @@
+{
+  "description": "Coefficient of x^(-n) in expansion of continued fraction 0, x, x^2, x^3, x^4, ... .",
+  "id": "A049346",
+  "mentions": [
+    "A227310"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

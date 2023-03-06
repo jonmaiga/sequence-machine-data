@@ -1,0 +1,20 @@
+{
+  "description": "Pyramidal sequence built with powers of 2.",
+  "id": "A082693",
+  "mentions": [
+    "A004738",
+    "A036563"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

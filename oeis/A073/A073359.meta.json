@@ -1,0 +1,19 @@
+{
+  "description": "Nested floor product of n and fractions (2k+2)/(2k+1) for all k>=0, divided by 2.",
+  "id": "A073359",
+  "mentions": [
+    "A000960"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

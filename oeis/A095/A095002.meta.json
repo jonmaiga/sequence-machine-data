@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 9*a(n-1) - 9*a(n-2) + a(n-3); given a(1) = 1, a(2) = 3, a(3) = 19.",
+  "id": "A095002",
+  "mentions": [
+    "A001090",
+    "A005004",
+    "A076765",
+    "A095003",
+    "A095004"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

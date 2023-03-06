@@ -1,0 +1,23 @@
+{
+  "description": "A simple grammar: sequences of rooted cycles.",
+  "id": "A052830",
+  "mentions": [
+    "A052848",
+    "A066166",
+    "A353880",
+    "A353881",
+    "A353882"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

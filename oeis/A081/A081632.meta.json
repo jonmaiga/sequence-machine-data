@@ -1,0 +1,20 @@
+{
+  "description": "2*3^n-(-1)^n.",
+  "id": "A081632",
+  "mentions": [
+    "A081631",
+    "A081654"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

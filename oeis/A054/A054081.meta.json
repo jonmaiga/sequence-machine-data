@@ -1,0 +1,20 @@
+{
+  "description": "Array T by antidiagonals: for n >= 0 and k >= 1, let p(k)=least positive integer not already in a(i), q(k)=p(k)+k+n-1, a(p(k))=q(k), a(q(k))=p(k); then for h>=1, T(n,h)=a(h).",
+  "id": "A054081",
+  "mentions": [
+    "A002251",
+    "A019444"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "eigen",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:15:41",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

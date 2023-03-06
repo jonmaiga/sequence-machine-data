@@ -1,0 +1,18 @@
+{
+  "description": "Number of balanced numbers <= 2^n.",
+  "id": "A078662",
+  "mentions": [
+    "A020492",
+    "A078555"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

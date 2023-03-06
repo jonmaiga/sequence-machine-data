@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = least k such that Fibonacci(k) ends with n, or -1 if there are none.",
+  "id": "A023183",
+  "mentions": [
+    "A000045",
+    "A020344",
+    "A020345",
+    "A023184"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

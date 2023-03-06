@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^(2^n-n-2).",
+  "id": "A076688",
+  "mentions": [
+    "A000225",
+    "A020491",
+    "A036799",
+    "A058891",
+    "A289585"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

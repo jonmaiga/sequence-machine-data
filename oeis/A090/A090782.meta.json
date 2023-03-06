@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that can be expressed as the difference of the squares of primes in just three distinct ways.",
+  "id": "A090782",
+  "mentions": [
+    "A078667",
+    "A090781",
+    "A090788"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

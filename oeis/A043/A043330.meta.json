@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of Molien series for relative invariants of 8-dimensional complex Clifford group.",
+  "id": "A043330",
+  "mentions": [
+    "A039946"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

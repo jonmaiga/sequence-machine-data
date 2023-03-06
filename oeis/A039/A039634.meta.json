@@ -1,0 +1,24 @@
+{
+  "description": "Fixed point of \"n -> n/2 or (n-1)/2 until result is prime\".",
+  "id": "A039634",
+  "mentions": [
+    "A010051",
+    "A039635",
+    "A039636",
+    "A039638",
+    "A039639",
+    "A039645"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

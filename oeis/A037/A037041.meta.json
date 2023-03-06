@@ -1,0 +1,17 @@
+{
+  "description": "Number of quadratic residues mod n for some n (A000224 sorted and duplicates removed).",
+  "id": "A037041",
+  "mentions": [
+    "A000224"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:33:11",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

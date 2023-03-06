@@ -1,0 +1,20 @@
+{
+  "description": "Size of largest code of length n and constant weight 2 that can correct a single adjacent transposition.",
+  "id": "A085680",
+  "mentions": [
+    "A085684",
+    "A265032"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Near twin primes of order 18: twin primes (p, p+2) such that p+18 and p+20 are primes.",
+  "id": "A079304",
+  "mentions": [
+    "A007530"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

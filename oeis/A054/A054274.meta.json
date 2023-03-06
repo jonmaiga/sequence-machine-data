@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. Product_{n>=1} (1-x^n)*(1-x^(5*n))/(1-x^(3*n))^2.",
+  "id": "A054274",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:17:41",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

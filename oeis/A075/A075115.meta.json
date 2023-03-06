@@ -1,0 +1,21 @@
+{
+  "description": "Binomial transform of A073145: a(n)=Sum(binomial(n,k)*A073145(k),(k=0,..,n)).",
+  "id": "A075115",
+  "mentions": [
+    "A073145",
+    "A073498",
+    "A077943"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:33:34",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

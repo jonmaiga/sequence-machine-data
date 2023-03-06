@@ -1,0 +1,21 @@
+{
+  "description": "Inverse function of A091242: position in A091242 if the n-th GF(2)[X] polynomial is reducible, 0 otherwise.",
+  "id": "A091246",
+  "mentions": [
+    "A066246",
+    "A091242",
+    "A091245",
+    "A091247"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

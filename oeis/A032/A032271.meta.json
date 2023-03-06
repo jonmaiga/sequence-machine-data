@@ -1,0 +1,19 @@
+{
+  "description": "Shifts left under \"DIJ\" (bracelet, indistinct, labeled) transform, with a(1) = 1.",
+  "id": "A032271",
+  "mentions": [
+    "A032272",
+    "A032273"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

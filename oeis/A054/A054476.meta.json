@@ -1,0 +1,21 @@
+{
+  "description": "Numbers not divisible by any of their digits when written in base 5.",
+  "id": "A054476",
+  "mentions": [
+    "A038772",
+    "A055239",
+    "A055240"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

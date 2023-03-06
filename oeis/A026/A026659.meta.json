@@ -1,0 +1,17 @@
+{
+  "description": "Triangular array T read by rows: T(n,0)=T(n,n)=1 for n >= 0; for n >= 2 and 1<=k<=n-1, if n is odd, then T(n,k)=T(n-1,k-1)+T(n-2,k-1)+T(n-1,k) if k is odd and <=[ n/2 ] or if k is even and >[ n/2 ]; in all other cases, T(n,k)=T(n-1,k-1)+T(n-1,k).",
+  "id": "A026659",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:32:55",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

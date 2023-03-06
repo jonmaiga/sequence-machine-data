@@ -1,0 +1,19 @@
+{
+  "description": "5x - 1 sequence starting at 50.",
+  "id": "A090691",
+  "mentions": [
+    "A008880"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:26:25",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

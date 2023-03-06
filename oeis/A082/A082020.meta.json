@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 15/Pi^2.",
+  "id": "A082020",
+  "mentions": [
+    "A001615",
+    "A005117",
+    "A013661",
+    "A013662",
+    "A157290"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:31",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest integer s such that for all i, all primes p and all m the congruence (x_1)^n + ... + (x_s)^n == m (mod p^i) has a primitive solution.",
+  "id": "A040004",
+  "mentions": [
+    "A079611",
+    "A174406",
+    "A287286"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

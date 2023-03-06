@@ -1,0 +1,26 @@
+{
+  "description": "First nonzero digit in expansion of 1/n.",
+  "id": "A052038",
+  "mentions": [
+    "A000030",
+    "A004218",
+    "A011557",
+    "A033330",
+    "A033420",
+    "A052039",
+    "A061861"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:00:19",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Involution of nonnegative integers: column 1 of A089839.",
+  "id": "A089837",
+  "mentions": [
+    "A089838",
+    "A089839",
+    "A089843"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

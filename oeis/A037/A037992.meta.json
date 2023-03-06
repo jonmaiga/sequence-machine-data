@@ -1,0 +1,30 @@
+{
+  "description": "Smallest number with 2^n divisors.",
+  "id": "A037992",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A001221",
+    "A002110",
+    "A002182",
+    "A005179",
+    "A007947",
+    "A037445",
+    "A049417",
+    "A050376",
+    "A052330",
+    "A074239"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

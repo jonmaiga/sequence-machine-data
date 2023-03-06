@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: 1/(1-x) * sum(k>=0, x^2^(k+2)/(1+x^2^k)).",
+  "id": "A083661",
+  "mentions": [
+    "A000120",
+    "A023416",
+    "A079944",
+    "A080791"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

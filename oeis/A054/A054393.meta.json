@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations with certain forbidden subsequences.",
+  "id": "A054393",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A005773",
+    "A054391",
+    "A054392",
+    "A054394"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:43:45",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

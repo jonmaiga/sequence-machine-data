@@ -1,0 +1,22 @@
+{
+  "description": "Total number of doubly-even self-dual binary codes of length 8n.",
+  "id": "A028363",
+  "mentions": [
+    "A003178",
+    "A003179",
+    "A028362"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:22:40",
+    "offset": 0,
+    "size": 6,
+    "source": "joeis"
+  }
+}

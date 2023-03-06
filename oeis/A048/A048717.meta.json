@@ -1,0 +1,22 @@
+{
+  "description": "Binary expansion matches ((0)*00(1*)11)*(0*).",
+  "id": "A048717",
+  "mentions": [
+    "A048719",
+    "A048727",
+    "A048733",
+    "A115872"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:30:25",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

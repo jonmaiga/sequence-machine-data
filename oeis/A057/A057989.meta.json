@@ -1,0 +1,17 @@
+{
+  "description": "Positions of 00 or 11 or 22 in A057985.",
+  "id": "A057989",
+  "mentions": [
+    "A057985"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:38:53",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that 3 does not divide Sum_{k=0..n} binomial(2k,k) = A006134(n).",
+  "id": "A081601",
+  "mentions": [
+    "A005836",
+    "A006134",
+    "A010060",
+    "A079944",
+    "A083096",
+    "A089118",
+    "A131996"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

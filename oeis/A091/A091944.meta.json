@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) equals the maximum number of partial quotients in the simple continued fraction expansion of (1/n + 1/k + 1/m) for m>=1.",
+  "id": "A091944",
+  "mentions": [
+    "A091941",
+    "A091942",
+    "A091943"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

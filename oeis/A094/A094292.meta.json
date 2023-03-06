@@ -1,0 +1,22 @@
+{
+  "description": "Number of (s(0), s(1), ..., s(n)) such that 0 < s(i) < 5 and |s(i) - s(i-1)| <= 1 for i = 1,2,...,n, s(0) = 2, s(n) = 4.",
+  "id": "A094292",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001076",
+    "A049681"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:40:19",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of divisors of n with largest digit = 1 (base 10).",
+  "id": "A083888",
+  "mentions": [
+    "A000005",
+    "A054055",
+    "A083889",
+    "A083890",
+    "A083891",
+    "A083892",
+    "A083893",
+    "A083894",
+    "A083895",
+    "A083896"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

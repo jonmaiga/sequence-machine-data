@@ -1,0 +1,20 @@
+{
+  "description": "Prime signatures pertaining to A083788.",
+  "id": "A083791",
+  "mentions": [
+    "A083788",
+    "A083789",
+    "A083790"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "s(n)=3, where s=A030727.",
+  "id": "A030735",
+  "mentions": [
+    "A030727"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:49:43",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

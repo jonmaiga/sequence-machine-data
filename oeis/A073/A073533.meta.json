@@ -1,0 +1,18 @@
+{
+  "description": "Let x(1)=1, x(n+1) = (4/3)*x(n) - floor((4/3)*x(n)); then a(n)=x(n)*3^n.",
+  "id": "A073533",
+  "mentions": [
+    "A058842"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

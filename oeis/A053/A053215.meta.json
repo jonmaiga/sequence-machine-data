@@ -1,0 +1,20 @@
+{
+  "description": "Sum of divisors of those numbers n such that n and n+1 have the same sum of divisors.",
+  "id": "A053215",
+  "mentions": [
+    "A000203",
+    "A002961",
+    "A053249"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

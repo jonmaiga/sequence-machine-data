@@ -1,0 +1,33 @@
+{
+  "description": "a(n) is the smallest k such that k*2^n + 1 is prime.",
+  "id": "A035050",
+  "mentions": [
+    "A000051",
+    "A000215",
+    "A007522",
+    "A034693",
+    "A057778",
+    "A080076",
+    "A085427",
+    "A087522",
+    "A126717",
+    "A127575",
+    "A127576",
+    "A127577",
+    "A127578",
+    "A127580",
+    "A127581",
+    "A127586"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

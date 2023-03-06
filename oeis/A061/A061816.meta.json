@@ -1,0 +1,24 @@
+{
+  "description": "Obtain m by omitting trailing zeros from n (cf. A004151); a(n) = smallest multiple k*m which is a palindrome.",
+  "id": "A061816",
+  "mentions": [
+    "A004151",
+    "A050782",
+    "A061906",
+    "A061915",
+    "A061916",
+    "A062293"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

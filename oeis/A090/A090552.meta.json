@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1; for n>1, a(n) is the smallest positive integer for which sigma(a(n)) is a multiple of sigma(a(n-1)).",
+  "id": "A090552",
+  "mentions": [
+    "A090553"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

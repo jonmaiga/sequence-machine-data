@@ -1,0 +1,17 @@
+{
+  "description": "Initial member of two consecutive prime sextuples with the smallest possible difference 210 (not considering the first two prime sextuples, whose difference is 90).",
+  "id": "A094910",
+  "mentions": [
+    "A022008"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

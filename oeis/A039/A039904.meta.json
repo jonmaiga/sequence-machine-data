@@ -1,0 +1,15 @@
+{
+  "description": "Number of partitions satisfying 0 < cn(0,5) + cn(1,5) + cn(4,5) + cn(2,5) and 0 < cn(0,5) + cn(1,5) + cn(4,5) + cn(3,5).",
+  "id": "A039904",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

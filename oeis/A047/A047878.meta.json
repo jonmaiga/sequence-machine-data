@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least number of knight's moves from corner (0,0) to n-th diagonal of unbounded chessboard.",
+  "id": "A047878",
+  "mentions": [
+    "A008611",
+    "A049604",
+    "A057078",
+    "A194960",
+    "A330396"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:13:55",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

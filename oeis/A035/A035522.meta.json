@@ -1,0 +1,23 @@
+{
+  "description": "Reverse and add (in binary) - written in base 10.",
+  "id": "A035522",
+  "mentions": [
+    "A035524",
+    "A035526",
+    "A055944"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of increasingly better rational approximations to Pi with increasing denominators (3/1, 13/4, 16/5, 19/6, 22/7, 179/57, ...)",
+  "id": "A063674",
+  "mentions": [
+    "A002485",
+    "A002486",
+    "A057082",
+    "A063673",
+    "A072398",
+    "A072399",
+    "A132049",
+    "A132050"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

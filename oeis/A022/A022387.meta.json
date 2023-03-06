@@ -1,0 +1,19 @@
+{
+  "description": "Fibonacci sequence beginning 4, 30.",
+  "id": "A022387",
+  "mentions": [
+    "A022117"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:29",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

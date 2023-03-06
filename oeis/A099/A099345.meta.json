@@ -1,0 +1,32 @@
+{
+  "description": "Frequency of the hexadecimal C in the first 10^n hexadecimal digits of Pi.",
+  "id": "A099345",
+  "mentions": [
+    "A099333",
+    "A099334",
+    "A099335",
+    "A099336",
+    "A099337",
+    "A099338",
+    "A099339",
+    "A099340",
+    "A099341",
+    "A099342",
+    "A099343",
+    "A099344",
+    "A099346",
+    "A099347",
+    "A099348"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

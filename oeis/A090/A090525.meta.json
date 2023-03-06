@@ -1,0 +1,19 @@
+{
+  "description": "Least number k such that floor[(n^n)/k] is prime, or 0 if no such number exists.",
+  "id": "A090525",
+  "mentions": [
+    "A090526",
+    "A090527",
+    "A090528"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

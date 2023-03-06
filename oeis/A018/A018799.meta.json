@@ -1,0 +1,23 @@
+{
+  "description": "Smallest nonnegative integer m such that m! begins with n in base 10.",
+  "id": "A018799",
+  "mentions": [
+    "A000142",
+    "A008905",
+    "A018854",
+    "A076219",
+    "A279089",
+    "A279090"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "description": "Triangular array T(h,k) for 0 <= k <= h read by rows: T(h,k) = number of binary Lyndon words with k ones and h-k zeros.",
+  "id": "A051168",
+  "mentions": [
+    "A000011",
+    "A000012",
+    "A000108",
+    "A000150",
+    "A001037",
+    "A001840",
+    "A004526",
+    "A006918",
+    "A011795",
+    "A011796",
+    "A011797",
+    "A011845",
+    "A022553",
+    "A031164",
+    "A032168",
+    "A032169",
+    "A047996",
+    "A050181",
+    "A050182",
+    "A050183",
+    "A052307",
+    "A052314",
+    "A054533",
+    "A092964",
+    "A123223",
+    "A124814",
+    "A185158"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:54:15",
+    "offset": 0,
+    "size": 94,
+    "source": "joeis"
+  }
+}

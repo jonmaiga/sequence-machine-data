@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(255).",
+  "id": "A041479",
+  "mentions": [
+    "A002530",
+    "A041478",
+    "A176110"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:52",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

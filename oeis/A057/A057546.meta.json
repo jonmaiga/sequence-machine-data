@@ -1,0 +1,27 @@
+{
+  "description": "Number of Catalan objects of size n fixed by Catalan Automorphism A057511/A057512 (deep rotation of general parenthesizations/plane trees).",
+  "id": "A057546",
+  "mentions": [
+    "A003238",
+    "A034731",
+    "A057511",
+    "A057512",
+    "A057513",
+    "A073202",
+    "A079216",
+    "A079217",
+    "A079223",
+    "A079227"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

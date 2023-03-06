@@ -1,0 +1,21 @@
+{
+  "description": "Shortest representation of -n in 2's-complement format.",
+  "id": "A010078",
+  "mentions": [
+    "A004754",
+    "A008687",
+    "A079944"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:02:57",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

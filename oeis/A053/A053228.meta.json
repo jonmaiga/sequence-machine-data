@@ -1,0 +1,19 @@
+{
+  "description": "n for which second differences of sigma(n) are positive.",
+  "id": "A053228",
+  "mentions": [
+    "A000203",
+    "A053223",
+    "A053229"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

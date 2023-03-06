@@ -1,0 +1,25 @@
+{
+  "description": "Sum of primitive roots of n-th prime.",
+  "id": "A088144",
+  "mentions": [
+    "A005596",
+    "A008330",
+    "A060749",
+    "A076410",
+    "A088145",
+    "A121380",
+    "A123475",
+    "A222009",
+    "A254309"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

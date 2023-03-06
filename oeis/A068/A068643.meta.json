@@ -1,0 +1,25 @@
+{
+  "description": "Largest n-digit palindromic triangular number, or 0 if no such number exists.",
+  "id": "A068643",
+  "mentions": [
+    "A000217",
+    "A003098",
+    "A008509",
+    "A008510",
+    "A054263",
+    "A068641",
+    "A068642",
+    "A068644"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

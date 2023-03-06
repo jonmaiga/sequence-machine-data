@@ -1,0 +1,17 @@
+{
+  "description": "Cos(a(n)) decreases monotonically to -1.",
+  "id": "A046965",
+  "mentions": [
+    "A001203"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

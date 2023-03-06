@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n-th prime modulo 14.",
+  "id": "A039712",
+  "mentions": [
+    "A007652",
+    "A038194",
+    "A039701",
+    "A039706",
+    "A039709",
+    "A039711",
+    "A039713",
+    "A039715"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

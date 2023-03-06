@@ -1,0 +1,21 @@
+{
+  "description": "Number of times the digits are repeated in A045813.",
+  "id": "A045814",
+  "mentions": [
+    "A038564",
+    "A038565",
+    "A045813"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:18",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

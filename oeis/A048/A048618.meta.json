@@ -1,0 +1,21 @@
+{
+  "description": "Even numbers n such that binomial(n,n/2) is divisible by n/2.",
+  "id": "A048618",
+  "mentions": [
+    "A001405",
+    "A014847",
+    "A020475",
+    "A067348"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes arising as successive differences in A093903.",
+  "id": "A094746",
+  "mentions": [
+    "A006509",
+    "A093903",
+    "A113962"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

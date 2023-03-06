@@ -1,0 +1,19 @@
+{
+  "description": "Smallest square k^2 == 1 (mod 10^n) where k > 1.",
+  "id": "A085877",
+  "mentions": [
+    "A085878",
+    "A181539"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Squares of even octagonal numbers.",
+  "id": "A014794",
+  "mentions": [
+    "A000567",
+    "A014641",
+    "A014642",
+    "A014793"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:40:33",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

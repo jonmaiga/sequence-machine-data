@@ -1,0 +1,20 @@
+{
+  "description": "A014486-encodings of the plane binary trees and plane general trees whose left(most) subtree is just a \"stick\": \\.",
+  "id": "A083937",
+  "mentions": [
+    "A014486",
+    "A072795",
+    "A085224"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

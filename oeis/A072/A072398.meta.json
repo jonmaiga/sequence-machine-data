@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of best approximation to Pi with denominator <= 10^n.",
+  "id": "A072398",
+  "mentions": [
+    "A000796",
+    "A002485",
+    "A002486",
+    "A068089",
+    "A072399"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 21^(2*n + 1).",
+  "id": "A013726",
+  "mentions": [
+    "A005408",
+    "A009965",
+    "A013708",
+    "A013725",
+    "A013727",
+    "A013729"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Least square of the form 'sum of n successive terms of a geometric progression + 1', or 0 if no such square exists.",
+  "id": "A092960",
+  "mentions": [
+    "A092959"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

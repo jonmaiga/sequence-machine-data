@@ -1,0 +1,19 @@
+{
+  "description": "Chance of getting a pair (2 to aces), 2 jacks, 2 queens, 2 kings, 2 aces, 2 pair, 3 of a kind, straight, flush, full house in 5-card poker is 1 in a(n), according to M. Barron.",
+  "id": "A014355",
+  "mentions": [
+    "A014353"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

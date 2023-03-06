@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime p == 7 mod 8 (A007521) and p > prime(n+2) such that p is a quadratic residue mod the first n odd primes 3, 5, 7, 11, ..., prime(n+1), and p is a quadratic non-residue mod prime(n+2).",
+  "id": "A096640",
+  "mentions": [
+    "A007521",
+    "A096635",
+    "A096636"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

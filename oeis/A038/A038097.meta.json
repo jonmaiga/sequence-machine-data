@@ -1,0 +1,22 @@
+{
+  "description": "Number of rooted connected graphs on n labeled nodes where the root has degree 3.",
+  "id": "A038097",
+  "mentions": [
+    "A006125",
+    "A038094",
+    "A038095",
+    "A038096"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 4,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "(P(p)-1)/2/p^2 where p runs through the odd primes different from 5 and P(k) is the k-th central pentanomial coefficient (A005191).",
+  "id": "A087189",
+  "mentions": [
+    "A005191"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

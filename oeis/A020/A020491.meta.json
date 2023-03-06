@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that sigma_0(k) divides phi(k).",
+  "id": "A020491",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000225",
+    "A015733",
+    "A056911",
+    "A058891",
+    "A065091",
+    "A076688",
+    "A289585"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:10:05",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

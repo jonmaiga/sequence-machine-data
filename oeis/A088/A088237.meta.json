@@ -1,0 +1,21 @@
+{
+  "description": "Numbers less than the maximum possible determinant A085000(4)=40800 not occurring as determinant of a 4 X 4 matrix with elements 1..16.",
+  "id": "A088237",
+  "mentions": [
+    "A085000",
+    "A088214",
+    "A088216"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

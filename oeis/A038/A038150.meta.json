@@ -1,0 +1,28 @@
+{
+  "description": "Array of numbers used in exotic ternary numeration system, read by antidiagonals.",
+  "id": "A038150",
+  "mentions": [
+    "A001906",
+    "A002878",
+    "A025169",
+    "A026351",
+    "A035506",
+    "A047923",
+    "A047924",
+    "A047925"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:37:41",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

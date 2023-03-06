@@ -1,0 +1,20 @@
+{
+  "description": "Number of spanning trees in S_5 x P_n.",
+  "id": "A092136",
+  "mentions": [
+    "A001906",
+    "A004187",
+    "A049684"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

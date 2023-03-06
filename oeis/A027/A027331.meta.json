@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..m} T(n,k) * T(n,k+2), where m=2 for n=2 and m=n+1 for n >= 3; and T is given by A026148.",
+  "id": "A027331",
+  "mentions": [
+    "A026148"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:45:32",
+    "offset": 2,
+    "size": 21,
+    "source": "joeis"
+  }
+}

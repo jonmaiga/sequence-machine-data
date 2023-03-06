@@ -1,0 +1,19 @@
+{
+  "description": "Product of digits + 1 is a square greater than 1.",
+  "id": "A081989",
+  "mentions": [
+    "A081990"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

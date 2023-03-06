@@ -1,0 +1,29 @@
+{
+  "description": "In prime factorization of n replace all primes of form k*4+1 with k*4+3 and primes of form k*4+3 with k*4+1.",
+  "id": "A072010",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A027746",
+    "A071695",
+    "A071696",
+    "A071697",
+    "A072011",
+    "A072012",
+    "A072014",
+    "A072015"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

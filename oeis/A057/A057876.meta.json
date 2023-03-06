@@ -1,0 +1,22 @@
+{
+  "description": "Primes p with the following property: let d_1, d_2, ... be the distinct digits occurring in the decimal expansion of p. Then for each d_i, dropping all the digits d_i from p produces a prime number. Leading 0's are not allowed.",
+  "id": "A057876",
+  "mentions": [
+    "A034302",
+    "A034305",
+    "A051362",
+    "A057877",
+    "A057883"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

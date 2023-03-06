@@ -1,0 +1,15 @@
+{
+  "description": "a(1)=1; a(n) = 1 + abs(prime(n) - a(n-1)).",
+  "id": "A086910",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

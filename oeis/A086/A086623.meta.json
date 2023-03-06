@@ -1,0 +1,19 @@
+{
+  "description": "Symmetric square table of coefficients, read by antidiagonals, where T(n,k) is the coefficient of x^n*y^k in f(x,y) that satisfies f(x,y) = (1-xy)/[(1-x)(1-y)] + xy*f(x,y)^2.",
+  "id": "A086623",
+  "mentions": [
+    "A086624",
+    "A086625"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "n! times the volume of the polytope x_i >= 0 for 1 <= i <= n and x_i + x_{i+1} + x_{i+2} <= 1 for 1 <= i <= n-2.",
+  "id": "A096402",
+  "mentions": [
+    "A000111"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

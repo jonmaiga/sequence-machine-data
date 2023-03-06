@@ -1,0 +1,24 @@
+{
+  "description": "Pinwheel numbers: a(n) = 2*n^2 + 6*n + 1.",
+  "id": "A059993",
+  "mentions": [
+    "A046092",
+    "A090288",
+    "A139570",
+    "A142463",
+    "A181510",
+    "A222182"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:35:39",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

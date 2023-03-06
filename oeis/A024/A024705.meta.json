@@ -1,0 +1,18 @@
+{
+  "description": "Positions of odd numbers in A024702.",
+  "id": "A024705",
+  "mentions": [
+    "A024702"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

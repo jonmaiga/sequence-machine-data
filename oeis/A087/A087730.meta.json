@@ -1,0 +1,20 @@
+{
+  "description": "Values of j for A087651 and A087732.",
+  "id": "A087730",
+  "mentions": [
+    "A002110",
+    "A086916",
+    "A087651",
+    "A087732"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

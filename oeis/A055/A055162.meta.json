@@ -1,0 +1,22 @@
+{
+  "description": "The number n has digits in ascending order and n=a-b where a has the digits of n in descending order and b has the digits of n in another order (a and b perhaps with extra zeros), ordered by a.",
+  "id": "A055162",
+  "mentions": [
+    "A055159",
+    "A055160",
+    "A055161",
+    "A099009"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

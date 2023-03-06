@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime factor of composite a(n) is a substring of a(n).",
+  "id": "A050692",
+  "mentions": [
+    "A050691",
+    "A050693"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, where e.g.f. A(x,y) satisfies: A(x,y) = exp(x*y*A(x,y+1)) and A(x,y) = Sum_{n>=0} Sum_{k>=0} T(n,k)/n!*x^n*y^k.",
+  "id": "A096542",
+  "mentions": [
+    "A000272",
+    "A057500",
+    "A096537",
+    "A096543",
+    "A096544"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (-1 + 1/(1-8*x)^8)/(64*x); related to A053107.",
+  "id": "A053111",
+  "mentions": [
+    "A053107",
+    "A053110",
+    "A053112",
+    "A053113"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

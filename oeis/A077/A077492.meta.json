@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest k such that 5k has a digit sum = n.",
+  "id": "A077492",
+  "mentions": [
+    "A069532",
+    "A069534"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:07:54",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

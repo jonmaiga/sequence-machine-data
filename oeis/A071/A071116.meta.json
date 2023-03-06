@@ -1,0 +1,18 @@
+{
+  "description": "Least m such that sigma(n + phi(m)) = sigma(phi(m)).",
+  "id": "A071116",
+  "mentions": [
+    "A000010",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

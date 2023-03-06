@@ -1,0 +1,20 @@
+{
+  "description": "Both primitively and imprimitively represented by x^2+y^2.",
+  "id": "A034025",
+  "mentions": [
+    "A001481",
+    "A008784",
+    "A022544",
+    "A034023"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:09:29",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

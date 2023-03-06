@@ -1,0 +1,19 @@
+{
+  "description": "Greatest possible number of right angles that can occur as interior angles in a planar n-gon.",
+  "id": "A049008",
+  "mentions": [
+    "A004396"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 08:32:53",
+    "offset": 3,
+    "size": 72,
+    "source": "joeis"
+  }
+}

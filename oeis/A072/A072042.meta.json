@@ -1,0 +1,19 @@
+{
+  "description": "a(n+2) = a(n+1)*a(n)*(1+1/n), a(1)=a(2)=1.",
+  "id": "A072042",
+  "mentions": [
+    "A235857",
+    "A235858"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

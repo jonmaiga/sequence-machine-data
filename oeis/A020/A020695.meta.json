@@ -1,0 +1,21 @@
+{
+  "description": "Pisot sequence E(2,3).",
+  "id": "A020695",
+  "mentions": [
+    "A000045",
+    "A001175",
+    "A008776"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

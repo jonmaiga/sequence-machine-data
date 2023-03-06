@@ -1,0 +1,22 @@
+{
+  "description": "Sum of related numbers (counted in A073757) belonging to n: a(n) = A000203(n) + A023896(n) - 1; related = {divisor-set, RRS}.",
+  "id": "A083266",
+  "mentions": [
+    "A000203",
+    "A023896",
+    "A073757",
+    "A083267",
+    "A083268"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

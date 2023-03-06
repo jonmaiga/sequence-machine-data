@@ -1,0 +1,25 @@
+{
+  "description": "Smallest k such that n*k + 1 and n*k - 1 are twin primes.",
+  "id": "A071558",
+  "mentions": [
+    "A001097",
+    "A034693",
+    "A071256",
+    "A071407",
+    "A086686",
+    "A200996",
+    "A220143",
+    "A220144"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

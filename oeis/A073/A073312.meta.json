@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonsquarefree numbers in the reduced residue system of n.",
+  "id": "A073312",
+  "mentions": [
+    "A000010",
+    "A013929",
+    "A048864",
+    "A048865",
+    "A073311"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

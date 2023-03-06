@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the sum of 2 nonzero squares in 10 or more ways.",
+  "id": "A025301",
+  "mentions": [
+    "A025293",
+    "A025300",
+    "A025320",
+    "A025338"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

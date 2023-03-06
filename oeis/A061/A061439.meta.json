@@ -1,0 +1,30 @@
+{
+  "description": "Largest number whose cube has n digits.",
+  "id": "A061439",
+  "mentions": [
+    "A002283",
+    "A018005",
+    "A061435",
+    "A130130",
+    "A181375",
+    "A181377",
+    "A181379",
+    "A181381",
+    "A181400",
+    "A181402",
+    "A181404"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle: Number of asymmetric self-converse semigroups of order n with k idempotents.",
+  "id": "A058169",
+  "mentions": [
+    "A058106"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

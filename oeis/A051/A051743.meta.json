@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (1/24)*n*(n + 5)*(n^2 + n + 6).",
+  "id": "A051743",
+  "mentions": [
+    "A005435",
+    "A006027",
+    "A105450"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:58:09",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

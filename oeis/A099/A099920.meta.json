@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (n+1)*F(n), F(n) = Fibonacci numbers A000045.",
+  "id": "A099920",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001629",
+    "A010049",
+    "A023607",
+    "A045925",
+    "A108037"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

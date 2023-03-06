@@ -1,0 +1,24 @@
+{
+  "description": "Square array T(n,k) (n >= 0, k >= 2) read by antidiagonals, where T(n,k) is the number of ways of writing n as Sum_{i>=0} c_i 2^i, c_i in {0,1,...,k-1}.",
+  "id": "A072170",
+  "mentions": [
+    "A000123",
+    "A002487",
+    "A007728",
+    "A007729",
+    "A007730",
+    "A008619"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

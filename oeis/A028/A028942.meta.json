@@ -1,0 +1,22 @@
+{
+  "description": "Negative of numerator of y coordinate of n*P where P is the generator [0,0] for rational points on curve y^2+y = x^3-x.",
+  "id": "A028942",
+  "mentions": [
+    "A028940",
+    "A028941",
+    "A028943",
+    "A278314"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

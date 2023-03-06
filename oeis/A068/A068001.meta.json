@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number whose n-th power (A067457) starts with n.",
+  "id": "A068001",
+  "mentions": [
+    "A051248",
+    "A067457"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

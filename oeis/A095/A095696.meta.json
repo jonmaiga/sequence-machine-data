@@ -1,0 +1,19 @@
+{
+  "description": "T(n,5) diagonal of triangle in A095693.",
+  "id": "A095696",
+  "mentions": [
+    "A095693"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:06:45",
+    "offset": 5,
+    "size": 25,
+    "source": "joeis"
+  }
+}

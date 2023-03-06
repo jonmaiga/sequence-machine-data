@@ -1,0 +1,16 @@
+{
+  "description": "Smallest prime formed by a substring of the decimal digits of 1/n beginning with the first (nonzero) digit after the decimal point, or 0 if no such prime exists.",
+  "id": "A088324",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

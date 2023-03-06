@@ -1,0 +1,23 @@
+{
+  "description": "Triangle: number of distinct prime factors in n-th primorial numbers when n prime factors first appears and in n-1 subsequent integers after.",
+  "id": "A084296",
+  "mentions": [
+    "A000124",
+    "A000217",
+    "A001221",
+    "A002110",
+    "A045983",
+    "A068069"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

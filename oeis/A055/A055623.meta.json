@@ -1,0 +1,19 @@
+{
+  "description": "First occurrence of run of primes congruent to 1 mod 4 of exactly length n.",
+  "id": "A055623",
+  "mentions": [
+    "A055624",
+    "A055626"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

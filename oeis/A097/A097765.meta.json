@@ -1,0 +1,21 @@
+{
+  "description": "Chebyshev U(n,x) polynomial evaluated at x=243=2*11^2+1.",
+  "id": "A097765",
+  "mentions": [
+    "A049310",
+    "A097766",
+    "A097767"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:34:19",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

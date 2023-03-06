@@ -1,0 +1,16 @@
+{
+  "description": "Average of divisors of n (sigma(n)/d(n)) is greater than average of divisors for all k < n.",
+  "id": "A066050",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

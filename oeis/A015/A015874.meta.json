@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that phi(k + 10) | (sigma(k) + 10).",
+  "id": "A015874",
+  "mentions": [
+    "A000010",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

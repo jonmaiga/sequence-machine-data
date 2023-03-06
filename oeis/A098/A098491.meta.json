@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n with parts occurring at most thrice and an even number of parts. Row sums of A098489.",
+  "id": "A098491",
+  "mentions": [
+    "A001935",
+    "A010054",
+    "A098489",
+    "A098492"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:33",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

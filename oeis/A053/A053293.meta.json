@@ -1,0 +1,25 @@
+{
+  "description": "Number of nonsingular n X n matrices over GF(7).",
+  "id": "A053293",
+  "mentions": [
+    "A002884",
+    "A003790",
+    "A027875",
+    "A053290",
+    "A053292",
+    "A109493",
+    "A316622"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

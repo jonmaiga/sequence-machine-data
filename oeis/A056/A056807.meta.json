@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that 3*10^k + 1 is prime.",
+  "id": "A056807",
+  "mentions": [
+    "A004119",
+    "A056797",
+    "A062339",
+    "A101823",
+    "A199683",
+    "A259866"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

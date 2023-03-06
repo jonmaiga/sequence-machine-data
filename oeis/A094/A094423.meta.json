@@ -1,0 +1,19 @@
+{
+  "description": "A045873(n)^2.",
+  "id": "A094423",
+  "mentions": [
+    "A045873",
+    "A250102"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:01:10",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

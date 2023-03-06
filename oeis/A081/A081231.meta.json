@@ -1,0 +1,21 @@
+{
+  "description": "Let p = n-th prime of the form 4k+3, take smallest solution (x,y) to the Pellian equation x^2 - p*y^2 = 1 with x and y >= 1; sequence gives value of x.",
+  "id": "A081231",
+  "mentions": [
+    "A002350",
+    "A082393",
+    "A082394"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

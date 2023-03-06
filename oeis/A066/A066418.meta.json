@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k for which phi(k) + anti-phi(k) = k.",
+  "id": "A066418",
+  "mentions": [
+    "A058838",
+    "A066241",
+    "A066272",
+    "A066416",
+    "A066417",
+    "A066452"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

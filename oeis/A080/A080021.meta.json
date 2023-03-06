@@ -1,0 +1,18 @@
+{
+  "description": "log(n) is closer to an integer than is log(m) for any m with 2<=m",
+  "id": "A080021",
+  "mentions": [
+    "A080022",
+    "A080023"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(j,k) = (j^k) mod (j*k) for 1 <= k <= j, read by rows.",
+  "id": "A096133",
+  "mentions": [
+    "A157351"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:08:55",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

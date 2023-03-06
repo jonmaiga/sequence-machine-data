@@ -1,0 +1,23 @@
+{
+  "description": "Variation of Boustrophedon transform applied to 1,1,1,1,... Fill an array by diagonals, all in the 'up' direction. The first column is 1,1,1,1,.... For the next element of a diagonal, add to the previous element the elements of the row and the column the new element is in. The first row gives a(n).",
+  "id": "A059578",
+  "mentions": [
+    "A000667",
+    "A035002",
+    "A059216",
+    "A059219",
+    "A059502",
+    "A059513"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

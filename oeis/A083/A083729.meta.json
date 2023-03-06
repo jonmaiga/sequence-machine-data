@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of sqrt(2)/(sqrt(2)-1)^2 = 3*sqrt(2)+4.",
+  "id": "A083729",
+  "mentions": [
+    "A010474",
+    "A072449"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

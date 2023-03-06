@@ -1,0 +1,18 @@
+{
+  "description": "Let a(1)=a(2)=1, a(n)=(2^ceiling(a(n-1)/2)+1)/a(n-2).",
+  "id": "A076824",
+  "mentions": [
+    "A076839"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:31:15",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

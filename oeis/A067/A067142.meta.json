@@ -1,0 +1,22 @@
+{
+  "description": "One half of the number of Young tableaux with n cells whose shape is asymmetric.",
+  "id": "A067142",
+  "mentions": [
+    "A000085",
+    "A000700",
+    "A000701",
+    "A067136",
+    "A330645"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

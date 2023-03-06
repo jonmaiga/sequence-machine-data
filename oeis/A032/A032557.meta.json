@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k whose decimal representation, read as a base-13 value and divided by k, yields an integer.",
+  "id": "A032557",
+  "mentions": [
+    "A032558",
+    "A032563"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Nonprime numbers n such that n and n-reversed (<>n and no leading zeros) have the same number of prime factors and these prime factors (palindromes allowed here) are also reversals of each other.",
+  "id": "A050702",
+  "mentions": [
+    "A050699"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Fifth root of n contains n as a string of digits to the immediate right of the decimal point (excluding leading zeros).",
+  "id": "A074762",
+  "mentions": [
+    "A074841",
+    "A232086",
+    "A232110"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

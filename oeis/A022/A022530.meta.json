@@ -1,0 +1,19 @@
+{
+  "description": "Nexus numbers (n+1)^14 - n^14.",
+  "id": "A022530",
+  "mentions": [
+    "A010802",
+    "A047969"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:13:07",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

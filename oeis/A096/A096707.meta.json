@@ -1,0 +1,23 @@
+{
+  "description": "Balanced primes (A090403) of index 3.",
+  "id": "A096707",
+  "mentions": [
+    "A090403",
+    "A096693",
+    "A096695",
+    "A096705",
+    "A096706",
+    "A096708",
+    "A096709"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

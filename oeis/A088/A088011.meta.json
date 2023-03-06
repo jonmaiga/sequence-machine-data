@@ -1,0 +1,23 @@
+{
+  "description": "Even and odd solutions to abs(sigma(x)-2x) <= log(x). Numbers n whose abundance-radius does not exceed log(n).",
+  "id": "A088011",
+  "mentions": [
+    "A000079",
+    "A000396",
+    "A005100",
+    "A005101",
+    "A077374",
+    "A088007",
+    "A088012"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

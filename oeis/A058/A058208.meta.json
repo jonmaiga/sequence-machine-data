@@ -1,0 +1,19 @@
+{
+  "description": "Floor(6*n*sqrt(n)/Pi^2) - sigma(n), where sigma(n) is the sum of the divisors of n (A000203).",
+  "id": "A058208",
+  "mentions": [
+    "A000203",
+    "A055682",
+    "A057641"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

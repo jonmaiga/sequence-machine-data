@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of sum(k>=0, x^2^k/(1+x^2^k+x^2^(k+1))).",
+  "id": "A084091",
+  "mentions": [
+    "A002487",
+    "A057078",
+    "A084087",
+    "A084088",
+    "A084089",
+    "A084090",
+    "A098725"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

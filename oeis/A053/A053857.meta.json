@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n matrices over GF(4) of order dividing 3 (i.e., number of solutions of X^3=I in GL(n,4)).",
+  "id": "A053857",
+  "mentions": [
+    "A053725",
+    "A053856"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:53:50",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

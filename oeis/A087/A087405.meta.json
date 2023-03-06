@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A087404: a(n)=A087404(n)-A087404(n-1), a(0)=A087404(0).",
+  "id": "A087405",
+  "mentions": [
+    "A087404"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:53:41",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest positive number whose digits concatenated with all previous terms forms a perfect square.",
+  "id": "A051671",
+  "mentions": [
+    "A048559",
+    "A048560",
+    "A051670"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:41:17",
+    "offset": 0,
+    "size": 7,
+    "source": "joeis"
+  }
+}

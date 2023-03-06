@@ -1,0 +1,19 @@
+{
+  "description": "Inverse Euler transform of {A001285(0), A001285(1), ...} where A001285(n) is Thue-Morse sequence,",
+  "id": "A029878",
+  "mentions": [
+    "A001285",
+    "A316149"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

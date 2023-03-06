@@ -1,0 +1,22 @@
+{
+  "description": "16n^2+4n+1.",
+  "id": "A082041",
+  "mentions": [
+    "A054569",
+    "A074377",
+    "A082039",
+    "A082040"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:31",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of 1's among the elements of the simple continued fraction for e(n)=sum(k=1,n,1/k!).",
+  "id": "A071528",
+  "mentions": [
+    "A069880"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (Catalan(P_n-1)+1)/P_n where P_n is the n-th prime and Catalan(k) is the Catalan number binomial(2k, k)/(k+1).",
+  "id": "A098796",
+  "mentions": [
+    "A000040",
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

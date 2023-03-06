@@ -1,0 +1,23 @@
+{
+  "description": "Partition numbers (A000041) that are semiprimes (A001358).",
+  "id": "A065728",
+  "mentions": [
+    "A000041",
+    "A001358",
+    "A049575",
+    "A064911",
+    "A065729",
+    "A167392"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:28",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

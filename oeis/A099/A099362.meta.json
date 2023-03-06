@@ -1,0 +1,18 @@
+{
+  "description": "Number of times the n-th prime is crossed off in the sieve of A099361.",
+  "id": "A099362",
+  "mentions": [
+    "A099361"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

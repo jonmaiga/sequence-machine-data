@@ -1,0 +1,18 @@
+{
+  "description": "Smallest integer value of n!/(m_1!*m_2!*...*m_k!), where 1=m_1 < m_2 < ... is the sequence of integers coprime to n.",
+  "id": "A088303",
+  "mentions": [
+    "A074199",
+    "A088302"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

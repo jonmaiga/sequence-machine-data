@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the \"binary\" Copeland-Erdős constant 0.734121515408286120606...: concatenate primes in base two.",
+  "id": "A066747",
+  "mentions": [
+    "A033308",
+    "A066748",
+    "A191232"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:40:13",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

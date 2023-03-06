@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A000193 (round(log(n))).",
+  "id": "A092919",
+  "mentions": [
+    "A000193",
+    "A000195",
+    "A092755"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

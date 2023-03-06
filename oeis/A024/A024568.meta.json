@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = [ n/{n*r} ], where r = (1 + sqrt(5))/2 and {x} := x - [ x ].",
+  "id": "A024568",
+  "mentions": [
+    "A024569"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:23:55",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

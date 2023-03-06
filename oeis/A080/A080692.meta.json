@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=(-1)^(n+1)*det(M(n)) where M(n) is the n X n matrix M(i,j)=min(abs(i-j),i).",
+  "id": "A080692",
+  "mentions": [
+    "A001787",
+    "A054243"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

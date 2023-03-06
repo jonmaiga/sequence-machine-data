@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form n^2*totient(n)+1 (or A053191(n) + 1).",
+  "id": "A076669",
+  "mentions": [
+    "A053191"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

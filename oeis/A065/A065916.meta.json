@@ -1,0 +1,25 @@
+{
+  "description": "Denominator of sigma(8*n^2)/sigma(4*n^2).",
+  "id": "A065916",
+  "mentions": [
+    "A000203",
+    "A007814",
+    "A028982",
+    "A065915",
+    "A079944",
+    "A083420",
+    "A220466"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

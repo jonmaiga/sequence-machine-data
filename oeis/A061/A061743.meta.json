@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k! is divisible by (k+1)^2.",
+  "id": "A061743",
+  "mentions": [
+    "A060462"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:57:41",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Tribonacci numbers that start with first three squares.",
+  "id": "A086192",
+  "mentions": [
+    "A000073",
+    "A000213",
+    "A001597"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:51:59",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

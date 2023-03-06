@@ -1,0 +1,18 @@
+{
+  "description": "Let f(0) = 0, f(1) = 1 and for n > 1 let f(n) = (-1)*sum((-1)^(n+r)*f(r),r=0..n-2)/(n*(n-1)); sequence gives denominator of f(n).",
+  "id": "A090765",
+  "mentions": [
+    "A090295"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

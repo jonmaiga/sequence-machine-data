@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=2, a(n+1) = 2*a(n) - phi(a(n)) where phi is the Euler totient function A000010.",
+  "id": "A072944",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

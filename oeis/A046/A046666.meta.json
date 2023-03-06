@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n - (smallest prime dividing n).",
+  "id": "A046666",
+  "mentions": [
+    "A020639",
+    "A061228"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 2,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

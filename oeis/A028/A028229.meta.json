@@ -1,0 +1,21 @@
+{
+  "description": "Call m Egyptian if we can partition m = x_1+x_2+...+x_k into positive integers x_i such that Sum_{i=1..k} 1/x_i = 1; sequence gives all non-Egyptian numbers.",
+  "id": "A028229",
+  "mentions": [
+    "A051882",
+    "A125726"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

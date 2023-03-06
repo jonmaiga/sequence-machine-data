@@ -1,0 +1,22 @@
+{
+  "description": "Rectangular array T by antidiagonals: row n consists of the positive integers k for which there are exactly n sets of Fibonacci numbers whose sum is k.",
+  "id": "A094607",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A000119",
+    "A013583",
+    "A094608"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

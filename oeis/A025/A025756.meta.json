@@ -1,0 +1,18 @@
+{
+  "description": "3rd order Vatalan numbers (generalization of Catalan numbers).",
+  "id": "A025756",
+  "mentions": [
+    "A048966"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Nonpalindromic cubes remaining cubic which written backwards: take the cube root of n, reverse its digits, cube that and the result is n with its digits reversed.",
+  "id": "A035124",
+  "mentions": [
+    "A035090",
+    "A035125",
+    "A064021",
+    "A319389"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:10",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

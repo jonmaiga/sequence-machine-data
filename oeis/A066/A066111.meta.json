@@ -1,0 +1,20 @@
+{
+  "description": "Prime powers m such that sigma_4(m^2)/sigma_2(m^2) is prime.",
+  "id": "A066111",
+  "mentions": [
+    "A001157",
+    "A001159",
+    "A066109",
+    "A066110"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

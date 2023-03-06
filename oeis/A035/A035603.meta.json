@@ -1,0 +1,21 @@
+{
+  "description": "Number of points of L1 norm 9 in cubic lattice Z^n.",
+  "id": "A035603",
+  "mentions": [
+    "A035596",
+    "A035607",
+    "A099196"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:21:19",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

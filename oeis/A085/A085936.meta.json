@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the digits sorted in ascending order + the sum of the squares of the digits of n is a palindrome. Or, sortdigits(n)+digitsumsquare(n) is a palindrome.",
+  "id": "A085936",
+  "mentions": [
+    "A085937"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:13:01",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

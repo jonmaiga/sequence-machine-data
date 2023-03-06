@@ -1,0 +1,20 @@
+{
+  "description": "List of sizes of conjugacy classes of Mathieu simple group M_24 of order 244823040.",
+  "id": "A028825",
+  "mentions": [
+    "A146073",
+    "A146074"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

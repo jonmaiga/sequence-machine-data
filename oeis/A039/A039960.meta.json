@@ -1,0 +1,23 @@
+{
+  "description": "For n >= 2, a(n) = largest value of k such that n^k is <= n! (a(0) = a(1) = 1 by convention).",
+  "id": "A039960",
+  "mentions": [
+    "A011776",
+    "A060151",
+    "A074181",
+    "A074182",
+    "A074184"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

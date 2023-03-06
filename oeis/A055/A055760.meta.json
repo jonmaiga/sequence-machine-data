@@ -1,0 +1,20 @@
+{
+  "description": "Jacobi form of weight 12 and index 1 for Niemeier lattice of type A_7^2 D_5^2.",
+  "id": "A055760",
+  "mentions": [
+    "A003785",
+    "A008698",
+    "A055747"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

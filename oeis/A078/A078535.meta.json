@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients of power series that satisfies A(x)^6 - 36x*A(x)^7 = 1, A(0)=1.",
+  "id": "A078535",
+  "mentions": [
+    "A000108",
+    "A078531",
+    "A078532",
+    "A078533",
+    "A078534"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

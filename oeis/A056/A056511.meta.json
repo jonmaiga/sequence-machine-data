@@ -1,0 +1,23 @@
+{
+  "description": "Number of periodic palindromic structures of length n using exactly five different symbols.",
+  "id": "A056511",
+  "mentions": [
+    "A056391",
+    "A056474",
+    "A056505",
+    "A056506",
+    "A056522",
+    "A285012"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:08:18",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

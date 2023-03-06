@@ -1,0 +1,134 @@
+{
+  "oi": 49007,
+  "ps": [
+    {
+      "d": "2022-09-04",
+      "ix": "contfrac[exp(asin(-1))]",
+      "mt": 50,
+      "px": [
+        "-1",
+        "asin",
+        "exp",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[exp(-acos(0))]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "neg",
+        "exp",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[sqrt(exp(-π))]",
+      "mt": 50,
+      "px": [
+        "π",
+        "neg",
+        "exp",
+        "sqrt",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2022-06-12",
+      "ix": "or(contfrac[sqrt(C093580)], char[10])",
+      "mt": 50,
+      "px": [
+        "C093580",
+        "sqrt",
+        "contfrac",
+        "10",
+        "char",
+        "or"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "contfrac[ϕ²]*contfrac[C049006]",
+      "mt": 50,
+      "px": [
+        "ϕ",
+        "²",
+        "contfrac",
+        "C049006",
+        "contfrac",
+        "*"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "contfrac[C049006]/contfrac[ϕ²]",
+      "mt": 50,
+      "px": [
+        "C049006",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "/"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "contfrac[C049006]^contfrac[ϕ²]",
+      "mt": 50,
+      "px": [
+        "C049006",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "^"
+      ]
+    },
+    {
+      "d": "2022-06-26",
+      "ix": "-log(1/exp(contfrac[C049006]))",
+      "mt": 50,
+      "px": [
+        "1",
+        "C049006",
+        "contfrac",
+        "exp",
+        "/",
+        "log",
+        "neg"
+      ]
+    },
+    {
+      "d": "2022-06-26",
+      "ix": "2*log(sqrt(exp(contfrac[C049006])))",
+      "mt": 50,
+      "px": [
+        "2",
+        "C049006",
+        "contfrac",
+        "exp",
+        "sqrt",
+        "log",
+        "*"
+      ]
+    },
+    {
+      "d": "2022-06-26",
+      "ix": "log2((sqrt(2)^contfrac[C049006])²)",
+      "mt": 50,
+      "px": [
+        "2",
+        "sqrt",
+        "C049006",
+        "contfrac",
+        "^",
+        "²",
+        "log2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Total number of parts in all partitions of n into distinct prime parts.",
+  "id": "A024938",
+  "mentions": [
+    "A084993"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:03",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

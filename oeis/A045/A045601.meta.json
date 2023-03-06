@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k that divide 8^k + 6^k.",
+  "id": "A045601",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:27:37",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

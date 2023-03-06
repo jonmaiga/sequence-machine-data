@@ -1,0 +1,19 @@
+{
+  "description": "The first (largest) power of 2 arising in the iteration-sequence when A051953 (the cototient function) is repeatedly applied starting with n!.",
+  "id": "A053038",
+  "mentions": [
+    "A051953",
+    "A053039",
+    "A053475"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

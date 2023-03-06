@@ -1,0 +1,17 @@
+{
+  "description": "Number of graphical partitions of simple Eulerian graphs (partitions given by the degrees of vertices of simple (no loops or multiple edges) graphs having only vertices of even degrees) having n edges.",
+  "id": "A069831",
+  "mentions": [
+    "A000569"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

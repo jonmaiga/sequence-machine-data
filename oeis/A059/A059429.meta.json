@@ -1,0 +1,21 @@
+{
+  "description": "Cumulative boustrophedon transform of 1, 0, 0, 0, ...",
+  "id": "A059429",
+  "mentions": [
+    "A059431",
+    "A059432"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

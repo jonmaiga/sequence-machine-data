@@ -1,0 +1,19 @@
+{
+  "description": "Middle q of three consecutive primes p,q,r such that (p^2 + q^2 + r^2)/3 is prime.",
+  "id": "A084952",
+  "mentions": [
+    "A075893",
+    "A084951"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

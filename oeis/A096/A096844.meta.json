@@ -1,0 +1,28 @@
+{
+  "description": "Numbers where 0 is the only even decimal digit.",
+  "id": "A096844",
+  "mentions": [
+    "A098941",
+    "A098942",
+    "A098943",
+    "A098944",
+    "A098945",
+    "A098946",
+    "A098947",
+    "A098948",
+    "A098949",
+    "A276137"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:43:33",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

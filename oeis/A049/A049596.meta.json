@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that x^9 = 2 has a solution mod p.",
+  "id": "A049596",
+  "mentions": [
+    "A000040",
+    "A001132",
+    "A059262"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:21",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

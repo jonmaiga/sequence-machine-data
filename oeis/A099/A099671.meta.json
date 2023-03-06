@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of repdigits of A002278.",
+  "id": "A099671",
+  "mentions": [
+    "A002275",
+    "A002278",
+    "A002283",
+    "A057932"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:23:31",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for sum(k>=1, (2^k-1)^(-2) ).",
+  "id": "A067616",
+  "mentions": [
+    "A065443"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

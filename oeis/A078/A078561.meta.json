@@ -1,0 +1,23 @@
+{
+  "description": "p, p+4 and p+10 are consecutive primes.",
+  "id": "A078561",
+  "mentions": [
+    "A022004",
+    "A022005",
+    "A029710",
+    "A047948",
+    "A049437",
+    "A049438",
+    "A078562"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:58:31",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

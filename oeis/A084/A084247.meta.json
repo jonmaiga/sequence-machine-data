@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = -a(n-1) + 2a(n-2), a(0)=1, a(1)=2.",
+  "id": "A084247",
+  "mentions": [
+    "A001045",
+    "A077925",
+    "A078008",
+    "A084246",
+    "A112555",
+    "A151575"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

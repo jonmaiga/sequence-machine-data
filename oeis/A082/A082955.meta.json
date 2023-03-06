@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that sigma(k*phi(k)) = sigma(k)^2.",
+  "id": "A082955",
+  "mentions": [
+    "A000010",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

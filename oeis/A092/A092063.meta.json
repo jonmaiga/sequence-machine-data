@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that numerator of Sum_{i=1..n} 1/(prime(i)-1) is prime.",
+  "id": "A092063",
+  "mentions": [
+    "A000040",
+    "A092064",
+    "A092065",
+    "A120271"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

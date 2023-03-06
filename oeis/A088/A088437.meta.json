@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X n orthogonal matrices over GF(2) modulo permutations of rows.",
+  "id": "A088437",
+  "mentions": [
+    "A003053",
+    "A053601",
+    "A135488"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

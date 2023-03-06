@@ -1,0 +1,16 @@
+{
+  "description": "Seventh occurrence where (p-q)/(q-7), p and q are primes.",
+  "id": "A089553",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 7,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

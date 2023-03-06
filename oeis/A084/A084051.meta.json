@@ -1,0 +1,20 @@
+{
+  "description": "Smallest palindrome corresponding to A084050(n).",
+  "id": "A084051",
+  "mentions": [
+    "A044959",
+    "A084050"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

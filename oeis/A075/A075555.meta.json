@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime p such that p+n is a square, or 0 if no such p exists.",
+  "id": "A075555",
+  "mentions": [
+    "A047845",
+    "A075556",
+    "A105016"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

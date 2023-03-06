@@ -1,0 +1,22 @@
+{
+  "description": "Exponent of 5 (value of j) in n-th number of form 3^i*5^j.",
+  "id": "A022337",
+  "mentions": [
+    "A003593",
+    "A022336",
+    "A112754",
+    "A112762",
+    "A112765"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:29",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

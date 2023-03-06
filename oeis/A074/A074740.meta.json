@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n!*2^(n-1)/Product_{k=1..n} tau(k) where tau = A000005.",
+  "id": "A074740",
+  "mentions": [
+    "A000005",
+    "A002866",
+    "A066843"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

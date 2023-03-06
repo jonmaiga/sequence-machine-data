@@ -1,0 +1,15 @@
+{
+  "description": "Grundy function of game in which each player has to divide precisely one set of coins into two subsets of different sizes.",
+  "id": "A019591",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:25",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

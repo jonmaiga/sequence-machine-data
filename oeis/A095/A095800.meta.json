@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) = abs( k *( (2*n+1)*(-1)^(n+k)+2*k-1) /4 ) read by rows, 1<=k<=n.",
+  "id": "A095800",
+  "mentions": [
+    "A002717",
+    "A049778"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

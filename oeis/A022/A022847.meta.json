@@ -1,0 +1,18 @@
+{
+  "description": "Integer nearest n*sqrt(3).",
+  "id": "A022847",
+  "mentions": [
+    "A214860"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

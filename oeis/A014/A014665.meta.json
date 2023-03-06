@@ -1,0 +1,18 @@
+{
+  "description": "Number of new fractions m/n < 1, where (m,n)=1 and \"new\" means the value of m*n has not occurred before.",
+  "id": "A014665",
+  "mentions": [
+    "A027435",
+    "A236309"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

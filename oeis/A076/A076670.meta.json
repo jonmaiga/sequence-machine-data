@@ -1,0 +1,18 @@
+{
+  "description": "Prime divisors of (10^9)^(10^9) + 1 = 10^9000000000 + 1.",
+  "id": "A076670",
+  "mentions": [
+    "A055386"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

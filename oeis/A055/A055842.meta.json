@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1-x)^2/(1-5*x).",
+  "id": "A055842",
+  "mentions": [
+    "A000351",
+    "A005054",
+    "A201780"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a()=A037260 and its first [ A037261 ], 2nd [ A037262 ] and 3rd [ A037263 ] differences together include every number at most once and are monotonic and minimal.",
+  "id": "A037260",
+  "mentions": [
+    "A005228",
+    "A030124",
+    "A037257",
+    "A037259",
+    "A037261",
+    "A037262",
+    "A037263"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:35:09",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

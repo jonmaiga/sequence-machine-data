@@ -1,0 +1,21 @@
+{
+  "description": "Number of (k+1)-tuples of integers modulo n (x_1,...,x_k,s) such that at least one subset of the x_i sums to s mod n. In other words, n^k times the expected number of distinct subset sums mod n of k integers mod n chosen uniformly at random. Read by antidiagonals, i.e., with entries in the order (n,k)=(1,1),(1,2),(2,1),(1,3),(2,2),(3,1),...",
+  "id": "A098966",
+  "mentions": [
+    "A000225",
+    "A005408",
+    "A054569"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

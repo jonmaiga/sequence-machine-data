@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A069722(n+1)^2.",
+  "id": "A089156",
+  "mentions": [
+    "A069722"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:28:05",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of upper bound for the r-values supporting stable period-3 orbits in the logistic equation.",
+  "id": "A086179",
+  "mentions": [
+    "A086178"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

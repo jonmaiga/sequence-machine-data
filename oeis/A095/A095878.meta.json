@@ -1,0 +1,19 @@
+{
+  "description": "Value of middle coefficient of the cyclotomic polynomial Phi_n(x) for n in A095877.",
+  "id": "A095878",
+  "mentions": [
+    "A094754",
+    "A095877"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

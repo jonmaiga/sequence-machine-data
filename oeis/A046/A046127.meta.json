@@ -1,0 +1,25 @@
+{
+  "description": "Maximal number of regions into which space can be divided by n spheres.",
+  "id": "A046127",
+  "mentions": [
+    "A000124",
+    "A000125",
+    "A014206",
+    "A059173",
+    "A059174",
+    "A059250"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:29:05",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

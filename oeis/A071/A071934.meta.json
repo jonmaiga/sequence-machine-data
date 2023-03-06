@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{i=1..n} K(i+1,i), where K(x,y) is the Kronecker symbol (x/y).",
+  "id": "A071934",
+  "mentions": [
+    "A071932",
+    "A071933",
+    "A071936"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest member of sociable quadruples.",
+  "id": "A090615",
+  "mentions": [
+    "A003023",
+    "A003416",
+    "A052470"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

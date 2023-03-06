@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with 1 zero in Fibonacci numbers mod m.",
+  "id": "A053031",
+  "mentions": [
+    "A001175",
+    "A001176",
+    "A001177",
+    "A053029",
+    "A053030",
+    "A053032",
+    "A128924"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:06:19",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

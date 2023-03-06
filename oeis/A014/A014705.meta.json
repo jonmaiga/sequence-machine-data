@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of ((theta_2)^4 + (theta_3)^4) / eta(z/2)^4.",
+  "id": "A014705",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A101127",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:56",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

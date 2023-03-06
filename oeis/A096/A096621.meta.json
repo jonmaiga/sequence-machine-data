@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of distinct minimal toss sequences modulo rotation and conjugation.",
+  "id": "A096621",
+  "mentions": [
+    "A001146",
+    "A052944"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

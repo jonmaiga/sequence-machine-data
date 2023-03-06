@@ -1,0 +1,25 @@
+{
+  "description": "5th binomial transform of (0,1,0,1,...), A000035.",
+  "id": "A081199",
+  "mentions": [
+    "A000035",
+    "A003462",
+    "A005059",
+    "A006516",
+    "A016149",
+    "A081200",
+    "A131577"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

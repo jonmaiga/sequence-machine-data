@@ -1,0 +1,36 @@
+{
+  "description": "Trajectory of 318 under the Reverse and Add! operation carried out in base 4, written in base 10.",
+  "id": "A075153",
+  "mentions": [
+    "A058042",
+    "A061561",
+    "A066450",
+    "A075253",
+    "A075299",
+    "A075420",
+    "A075421",
+    "A075466",
+    "A075467",
+    "A076247",
+    "A076248",
+    "A091675",
+    "A166912",
+    "A166913",
+    "A166914",
+    "A166915",
+    "A166916",
+    "A166917"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:20:03",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

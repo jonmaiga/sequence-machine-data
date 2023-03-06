@@ -1,0 +1,34 @@
+{
+  "description": "Decimal expansion of Fibonacci factorial constant.",
+  "id": "A062073",
+  "mentions": [
+    "A003266",
+    "A003267",
+    "A003268",
+    "A056569",
+    "A062072",
+    "A062381",
+    "A135407",
+    "A181926",
+    "A194159",
+    "A194160",
+    "A218490",
+    "A253924",
+    "A256831",
+    "A259314",
+    "A259405"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

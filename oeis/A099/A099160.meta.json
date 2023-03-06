@@ -1,0 +1,20 @@
+{
+  "description": "Primes P(j) such that there is at least one k < P(j+1) such that k*(P(j)#)^2 - 1 and k*(P(j)#)^2 + 1 are twin primes.",
+  "id": "A099160",
+  "mentions": [
+    "A099161",
+    "A099162"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

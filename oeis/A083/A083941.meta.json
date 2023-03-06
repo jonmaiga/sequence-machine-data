@@ -1,0 +1,22 @@
+{
+  "description": "A014486-encoding of symmetric binary trees.",
+  "id": "A083941",
+  "mentions": [
+    "A014486",
+    "A080263",
+    "A080293",
+    "A083940",
+    "A084107"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

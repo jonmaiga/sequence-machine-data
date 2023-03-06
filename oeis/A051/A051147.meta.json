@@ -1,0 +1,22 @@
+{
+  "description": "Smallest m such that A051145(m) = 2^n.",
+  "id": "A051147",
+  "mentions": [
+    "A000079",
+    "A051145",
+    "A244747"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:22",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Smallest cube divisible by n divided by largest cube which divides n.",
+  "id": "A056551",
+  "mentions": [
+    "A000189",
+    "A000578",
+    "A002117",
+    "A008834",
+    "A013670",
+    "A019555",
+    "A048798",
+    "A050985",
+    "A053149",
+    "A053150",
+    "A056552",
+    "A330596"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

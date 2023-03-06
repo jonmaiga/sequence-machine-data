@@ -1,0 +1,26 @@
+{
+  "description": "Queneau numbers: numbers n such that the Queneau-Daniel permutation {1, 2, 3, ..., n} -> {n, 1, n-1, 2, n-2, 3, ...} is of order n.",
+  "id": "A054639",
+  "mentions": [
+    "A003044",
+    "A003558",
+    "A071642",
+    "A163776",
+    "A163777",
+    "A163778",
+    "A163781",
+    "A163782",
+    "A216371"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

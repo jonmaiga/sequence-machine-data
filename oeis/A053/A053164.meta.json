@@ -1,0 +1,26 @@
+{
+  "description": "4th root of largest 4th power dividing n.",
+  "id": "A053164",
+  "mentions": [
+    "A000188",
+    "A000190",
+    "A002265",
+    "A008835",
+    "A020639",
+    "A028234",
+    "A053150",
+    "A067029"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

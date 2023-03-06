@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form 2^x-y^2 >= 0.",
+  "id": "A051213",
+  "mentions": [
+    "A200522",
+    "A201125"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:22",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

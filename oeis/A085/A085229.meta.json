@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number which is coprime to n and to a(n-1), and is not yet in the sequence; a(1)=1.",
+  "id": "A085229",
+  "mentions": [
+    "A079578",
+    "A084937",
+    "A085230",
+    "A093714"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

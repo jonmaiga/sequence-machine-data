@@ -1,0 +1,20 @@
+{
+  "description": "T(n+2,2) with T as in A036355.",
+  "id": "A036681",
+  "mentions": [
+    "A036355",
+    "A212338"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:16:13",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

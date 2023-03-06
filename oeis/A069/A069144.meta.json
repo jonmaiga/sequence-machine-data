@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A068976(k) divides k.",
+  "id": "A069144",
+  "mentions": [
+    "A068976"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

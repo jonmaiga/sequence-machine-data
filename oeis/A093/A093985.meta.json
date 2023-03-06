@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2; a(n+1) = 2n*a(n) - a(n-1). Symmetrically, a(n) = (a(n-1) + a(n+1))/((n-1) + (n+1)).",
+  "id": "A093985",
+  "mentions": [
+    "A058798",
+    "A093986"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

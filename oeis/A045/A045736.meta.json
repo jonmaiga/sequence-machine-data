@@ -1,0 +1,21 @@
+{
+  "description": "Smallest positive integer requiring n syllables to pronounce in American English.",
+  "id": "A045736",
+  "mentions": [
+    "A000027",
+    "A002810",
+    "A075774"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

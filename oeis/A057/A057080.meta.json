@@ -1,0 +1,29 @@
+{
+  "description": "Even-indexed Chebyshev U-polynomials evaluated at sqrt(10)/2.",
+  "id": "A057080",
+  "mentions": [
+    "A001090",
+    "A001834",
+    "A002315",
+    "A002878",
+    "A030221",
+    "A033890",
+    "A049310",
+    "A057081",
+    "A070997",
+    "A100047",
+    "A108299"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

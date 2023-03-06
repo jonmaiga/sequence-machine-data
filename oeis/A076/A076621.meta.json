@@ -1,0 +1,20 @@
+{
+  "description": "Least square greater than the product of two successive primes.",
+  "id": "A076621",
+  "mentions": [
+    "A006094",
+    "A048761",
+    "A074927"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

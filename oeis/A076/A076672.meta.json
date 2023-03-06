@@ -1,0 +1,18 @@
+{
+  "description": "Smallest a(n)>a(n-1) such that a(n)^2+a(n-1)^2 is a perfect square, a(1)=6.",
+  "id": "A076672",
+  "mentions": [
+    "A076600",
+    "A076671"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

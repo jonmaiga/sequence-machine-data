@@ -1,0 +1,18 @@
+{
+  "description": "Card{ k<=n | omega(k)!=omega(n) }, where omega(n) = A001221(n).",
+  "id": "A070962",
+  "mentions": [
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

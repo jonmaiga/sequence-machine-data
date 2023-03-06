@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for cube root of 58.",
+  "id": "A010287",
+  "mentions": [
+    "A010629"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

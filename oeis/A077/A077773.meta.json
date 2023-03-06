@@ -1,0 +1,27 @@
+{
+  "description": "Number of integers between n^2 and (n+1)^2 that are the sum of two squares; multiple representations are counted once.",
+  "id": "A077773",
+  "mentions": [
+    "A000290",
+    "A002828",
+    "A010052",
+    "A077768",
+    "A077770",
+    "A077774",
+    "A229062",
+    "A277192",
+    "A277193",
+    "A277194"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

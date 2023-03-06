@@ -1,0 +1,19 @@
+{
+  "description": "Number of two-dimensional burst patterns of size n, i.e., translation inequivalent subsets of the grid Z^2 which can be covered by a connected subset of n elements (in the sense of von Neumann neighborhoods).",
+  "id": "A093424",
+  "mentions": [
+    "A093426",
+    "A093427"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

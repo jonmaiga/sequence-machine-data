@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k such that (k^2 - 7)/2 is a square.",
+  "id": "A077443",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A006452",
+    "A038761",
+    "A038762",
+    "A077442",
+    "A101386",
+    "A124124",
+    "A156649",
+    "A176981",
+    "A216134",
+    "A253811"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

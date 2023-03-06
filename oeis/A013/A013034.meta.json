@@ -1,0 +1,15 @@
+{
+  "description": "arcsin(sinh(x)+arcsin(x))=2*x+10/3!*x^3+378/5!*x^5+40506/7!*x^7...",
+  "id": "A013034",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:09:58",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

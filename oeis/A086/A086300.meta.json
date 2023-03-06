@@ -1,0 +1,18 @@
+{
+  "description": "Arithmetic derivative of 7-smooth numbers.",
+  "id": "A086300",
+  "mentions": [
+    "A002473",
+    "A003415"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

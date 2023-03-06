@@ -1,0 +1,18 @@
+{
+  "description": "Number of letters in English names for days of week.",
+  "id": "A049005",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "dumb",
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-27 08:31:19",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

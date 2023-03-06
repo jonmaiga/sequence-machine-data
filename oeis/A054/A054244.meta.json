@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into distinct positive parts <= n, with parts combined by IOR (inclusive or).",
+  "id": "A054244",
+  "mentions": [
+    "A000120",
+    "A003465",
+    "A054243",
+    "A087079"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

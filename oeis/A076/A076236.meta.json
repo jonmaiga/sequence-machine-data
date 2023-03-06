@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A050435(n) mod A002808(n).",
+  "id": "A076236",
+  "mentions": [
+    "A002808",
+    "A050435",
+    "A050439",
+    "A065860",
+    "A076237",
+    "A076239"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (x+x^2)/(1-x^6); period 6: repeat [0, 1, 1, 0, 0, 0].",
+  "id": "A095130",
+  "mentions": [
+    "A011658",
+    "A095129"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:04:57",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k*rev(k) is a square different from k^2, where rev=A004086, decimal reversal.",
+  "id": "A070760",
+  "mentions": [
+    "A002113",
+    "A004086",
+    "A010052",
+    "A035090",
+    "A061205",
+    "A062917",
+    "A082994",
+    "A322835",
+    "A323061"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

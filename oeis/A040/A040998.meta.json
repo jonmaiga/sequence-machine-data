@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that x^6 = 5 has a solution mod p.",
+  "id": "A040998",
+  "mentions": [
+    "A000040",
+    "A040999"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

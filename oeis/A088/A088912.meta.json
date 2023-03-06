@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = smallest m such that sigma(m) = (n+1/2)*m.",
+  "id": "A088912",
+  "mentions": [
+    "A000396",
+    "A001620",
+    "A005820",
+    "A007539",
+    "A027687",
+    "A046060",
+    "A046061",
+    "A055153",
+    "A141643",
+    "A141645",
+    "A159271",
+    "A159907",
+    "A160678"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

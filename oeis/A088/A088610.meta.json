@@ -1,0 +1,31 @@
+{
+  "description": "Starting with n = 1, a(n) is the smallest squarefree number not included earlier if n is odd, else n is the smallest nonsquarefree number.",
+  "id": "A088610",
+  "mentions": [
+    "A000035",
+    "A005117",
+    "A008683",
+    "A008966",
+    "A013929",
+    "A072061",
+    "A073846",
+    "A075378",
+    "A088609",
+    "A094077",
+    "A167151",
+    "A237056",
+    "A243344",
+    "A243352"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

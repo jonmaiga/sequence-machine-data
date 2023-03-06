@@ -1,0 +1,21 @@
+{
+  "description": "Table, read by rows, related to Catalan triangle A033184.",
+  "id": "A089209",
+  "mentions": [
+    "A000108",
+    "A033184"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

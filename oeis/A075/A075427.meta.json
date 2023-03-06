@@ -1,0 +1,30 @@
+{
+  "description": "a(0) = 1; a(n) = a(n-1)+1 if n is even, otherwise a(n) = 2*a(n-1).",
+  "id": "A075427",
+  "mentions": [
+    "A000225",
+    "A000918",
+    "A066880",
+    "A075426",
+    "A083416",
+    "A180198",
+    "A180199",
+    "A180200",
+    "A180201",
+    "A180662",
+    "A194005"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

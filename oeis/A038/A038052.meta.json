@@ -1,0 +1,22 @@
+{
+  "description": "Number of labeled trees of nonempty sets with n points. (Each node is a set of 1 or more points.)",
+  "id": "A038052",
+  "mentions": [
+    "A000272",
+    "A036250",
+    "A048802"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

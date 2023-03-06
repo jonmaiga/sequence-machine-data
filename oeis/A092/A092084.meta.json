@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of triangle A092082 (S2(7) Stirling2 generalization).",
+  "id": "A092084",
+  "mentions": [
+    "A049412",
+    "A092082",
+    "A092085"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:27:21",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle a(n,k) of partitions of n objects of 2 colors, k of which are black and each part with at least one black object.",
+  "id": "A091438",
+  "mentions": [
+    "A000041",
+    "A000219",
+    "A054225",
+    "A108457"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

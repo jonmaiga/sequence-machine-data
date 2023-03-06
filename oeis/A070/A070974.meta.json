@@ -1,0 +1,16 @@
+{
+  "description": "Number of steps to reach 1 in `3x+1' (or Collatz) problem starting with n!.",
+  "id": "A070974",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

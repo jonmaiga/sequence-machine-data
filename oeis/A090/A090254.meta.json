@@ -1,0 +1,17 @@
+{
+  "description": "a(1) =1, a(n) the least n-th power greater than the product of all previous terms.",
+  "id": "A090254",
+  "mentions": [
+    "A090255"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

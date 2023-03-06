@@ -1,0 +1,20 @@
+{
+  "description": "Number of iteration that first becomes smaller than the initial value if Collatz-function (A006370) is iterated, starting with numbers of form 4n+3.",
+  "id": "A074474",
+  "mentions": [
+    "A006370",
+    "A074472",
+    "A074473"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

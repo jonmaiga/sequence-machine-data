@@ -1,0 +1,22 @@
+{
+  "description": "Diving index of the n-th 4k+3 prime (A002145(n)).",
+  "id": "A095104",
+  "mentions": [
+    "A002145",
+    "A095062",
+    "A095105",
+    "A095106",
+    "A095108",
+    "A095269"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

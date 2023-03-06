@@ -1,0 +1,20 @@
+{
+  "description": "Happy primes: primes that eventually reach 1 under iteration of \"x -> sum of squares of digits of x\".",
+  "id": "A035497",
+  "mentions": [
+    "A007770",
+    "A046519"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

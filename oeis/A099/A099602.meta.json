@@ -1,0 +1,24 @@
+{
+  "description": "Triangle, read by rows, such that row n equals the inverse binomial transform of column n of the triangle of trinomial coefficients (A027907), omitting leading zeros.",
+  "id": "A099602",
+  "mentions": [
+    "A000108",
+    "A027907",
+    "A082759",
+    "A099603",
+    "A099604",
+    "A104495"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:16:19",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

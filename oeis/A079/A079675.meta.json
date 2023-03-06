@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=1; a(n)=sum(u=1,n-1,sum(v=1,u,sum(w=1,v,sum(x=1, w,sum(y=1,x,a(y)))))).",
+  "id": "A079675",
+  "mentions": [
+    "A001906",
+    "A003520",
+    "A052529",
+    "A055991"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

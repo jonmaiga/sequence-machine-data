@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of 1..n with no five elements in correct or reverse order.",
+  "id": "A095818",
+  "mentions": [
+    "A002464",
+    "A095816",
+    "A095817"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

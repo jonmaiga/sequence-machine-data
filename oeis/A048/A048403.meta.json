@@ -1,0 +1,25 @@
+{
+  "description": "Primes with consecutive digits that differ exactly by 6.",
+  "id": "A048403",
+  "mentions": [
+    "A048398",
+    "A048399",
+    "A048400",
+    "A048401",
+    "A048402",
+    "A048404",
+    "A048405",
+    "A048408"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

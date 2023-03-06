@@ -1,0 +1,18 @@
+{
+  "description": "Square of the sum of the prime factors of n (with repetition).",
+  "id": "A074373",
+  "mentions": [
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

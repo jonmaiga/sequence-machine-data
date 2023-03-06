@@ -1,0 +1,18 @@
+{
+  "description": "Six consecutive integers with increasing values of sigma start at these numbers; i.e., sigma(x) < sigma(x+1) < ... < sigma(x+5).",
+  "id": "A028965",
+  "mentions": [
+    "A000203",
+    "A285893"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

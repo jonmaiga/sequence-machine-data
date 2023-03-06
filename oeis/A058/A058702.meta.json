@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = p(n) if n <= 4 else p(a(n-1)), where p = partition numbers A000041.",
+  "id": "A058702",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

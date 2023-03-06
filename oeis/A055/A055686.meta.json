@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that 3^k == -1 (mod k-1).",
+  "id": "A055686",
+  "mentions": [
+    "A055685",
+    "A055687",
+    "A055688",
+    "A055689",
+    "A055690",
+    "A055691",
+    "A055692",
+    "A055693",
+    "A055694",
+    "A055695"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

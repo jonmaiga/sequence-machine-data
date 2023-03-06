@@ -1,0 +1,22 @@
+{
+  "description": "Number of pairs of integers (x,y) with n^2 <= x^2+y^2 <= (n+1)^2.",
+  "id": "A047077",
+  "mentions": [
+    "A000328",
+    "A051132",
+    "A077770"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

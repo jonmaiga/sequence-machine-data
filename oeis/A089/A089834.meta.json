@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct non-recursive Catalan bijections whose minimum clause-representation requires examination of n nodes in total and which require more than one non-default clause.",
+  "id": "A089834",
+  "mentions": [
+    "A089831",
+    "A089832",
+    "A089833"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

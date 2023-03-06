@@ -1,0 +1,18 @@
+{
+  "description": "\"CIJ\" (necklace, indistinct, labeled) transform of 2,1,1,1...",
+  "id": "A032182",
+  "mentions": [
+    "A226571"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:08",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

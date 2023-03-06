@@ -1,0 +1,20 @@
+{
+  "description": "Number of perfect matchings in triangle graph with n nodes per side as n runs through numbers congruent to 0 or 3 mod 4.",
+  "id": "A071093",
+  "mentions": [
+    "A039907",
+    "A178446",
+    "A269869"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

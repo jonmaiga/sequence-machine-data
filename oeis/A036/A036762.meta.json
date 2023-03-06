@@ -1,0 +1,22 @@
+{
+  "description": "The integer values of x/d(x) in order of magnitude of x in A033950.",
+  "id": "A036762",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A036761",
+    "A036763",
+    "A039819"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

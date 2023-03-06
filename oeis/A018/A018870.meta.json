@@ -1,0 +1,19 @@
+{
+  "description": "9^a(n) is smallest power of 9 beginning with n.",
+  "id": "A018870",
+  "mentions": [
+    "A001019",
+    "A018869"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

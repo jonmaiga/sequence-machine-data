@@ -1,0 +1,21 @@
+{
+  "description": "Palindromes of form k^2 + k + 8.",
+  "id": "A027725",
+  "mentions": [
+    "A027693",
+    "A027723",
+    "A027724",
+    "A027727"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

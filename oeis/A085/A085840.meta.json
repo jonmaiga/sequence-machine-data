@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,m) = 4^m * (2*n+1)! / ( (2*n - 2*m + 1)! * (2*m)! ), row n has n+1 terms.",
+  "id": "A085840",
+  "mentions": [
+    "A085841",
+    "A284044",
+    "A285043",
+    "A285045",
+    "A285046"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:02:22",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of unlabeled connected planar simple graphs with n >= 1 nodes and 0<=k<=3*n-6 edges.",
+  "id": "A049334",
+  "mentions": [
+    "A000055",
+    "A003094",
+    "A039735",
+    "A046091",
+    "A049336",
+    "A049337",
+    "A054924",
+    "A288265",
+    "A343873"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

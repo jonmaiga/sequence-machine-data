@@ -1,0 +1,20 @@
+{
+  "description": "Number of runs in base-3 representation of n.",
+  "id": "A043555",
+  "mentions": [
+    "A297770",
+    "A297771"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:23",
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

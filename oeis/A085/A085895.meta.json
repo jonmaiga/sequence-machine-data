@@ -1,0 +1,20 @@
+{
+  "description": "Group the natural numbers such that the product of the n-th group is divisible by 2^n. (1), (2), (3,4), (5,6,7,8), (9,10,11,12,13,14),(15,16,17,18), ... Sequence contains the product of the terms of the groups.",
+  "id": "A085895",
+  "mentions": [
+    "A085896",
+    "A085897",
+    "A085898"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

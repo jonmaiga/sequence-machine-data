@@ -1,0 +1,27 @@
+{
+  "description": "Primes seen in the decimal expansion of Pi (disregarding the decimal point) that are contiguous, smallest and distinct.",
+  "id": "A047777",
+  "mentions": [
+    "A000796",
+    "A005042",
+    "A053013",
+    "A104841",
+    "A121267",
+    "A198018",
+    "A198019",
+    "A198187",
+    "A229181"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

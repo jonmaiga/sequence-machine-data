@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of self-avoiding rook paths joining opposite corners of n X k board.",
+  "id": "A064297",
+  "mentions": [
+    "A000012",
+    "A000079",
+    "A006192",
+    "A007764",
+    "A007786",
+    "A007787",
+    "A064298",
+    "A145403",
+    "A271465"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

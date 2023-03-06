@@ -1,0 +1,15 @@
+{
+  "description": "10^p + p for prime p.",
+  "id": "A088805",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

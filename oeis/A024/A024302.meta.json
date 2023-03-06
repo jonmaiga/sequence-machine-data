@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of sin(sinh(x))*x/2.",
+  "id": "A024302",
+  "mentions": [
+    "A009493"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:15:34",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

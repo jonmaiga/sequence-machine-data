@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 7 divides the numerator of B(2*k) where B(k) = the k-th Bernoulli number.",
+  "id": "A089644",
+  "mentions": [
+    "A001651",
+    "A027641",
+    "A027642",
+    "A073216"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

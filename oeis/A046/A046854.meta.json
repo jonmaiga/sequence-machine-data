@@ -1,0 +1,29 @@
+{
+  "description": "Triangle T(n, k) = binomial(floor((n+k)/2), k), n>=0, n >= k >= 0.",
+  "id": "A046854",
+  "mentions": [
+    "A016116",
+    "A030111",
+    "A049310",
+    "A055244",
+    "A065941",
+    "A066170",
+    "A097806",
+    "A106180",
+    "A130777",
+    "A187660"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:57",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

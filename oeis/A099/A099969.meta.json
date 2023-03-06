@@ -1,0 +1,23 @@
+{
+  "description": "Write 1/e as a binary fraction; read this from left to right and whenever a 1 appears, note the integer formed by reading leftwards from that 1.",
+  "id": "A099969",
+  "mentions": [
+    "A068985",
+    "A099970",
+    "A099971",
+    "A099972",
+    "A099973",
+    "A099974"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

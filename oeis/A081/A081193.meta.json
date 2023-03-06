@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 6*a(n-1)-8*a(n-2) for n>1, a(0)=1, a(1)=9.",
+  "id": "A081193",
+  "mentions": [
+    "A010687"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

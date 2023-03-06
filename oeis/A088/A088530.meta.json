@@ -1,0 +1,24 @@
+{
+  "description": "Denominator of Bigomega(n)/Omega(n).",
+  "id": "A088530",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A070012",
+    "A070013",
+    "A070014",
+    "A088529"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

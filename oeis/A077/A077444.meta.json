@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that (k^2 + 4)/2 is a square.",
+  "id": "A077444",
+  "mentions": [
+    "A001108",
+    "A001109",
+    "A001541",
+    "A001542",
+    "A002203",
+    "A002315",
+    "A003499",
+    "A075870",
+    "A077445",
+    "A080039"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Union of even squarefree numbers (A001747) and squarefree numbers for which the number of prime factors is even (A030229).",
+  "id": "A080324",
+  "mentions": [
+    "A001747",
+    "A008683",
+    "A030229",
+    "A056912",
+    "A080323"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

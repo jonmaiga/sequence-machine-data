@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: this is a variant of A008280 in which 2 rows go from left to right, 2 from right to left, 2 from left to right, etc.",
+  "id": "A058257",
+  "mentions": [
+    "A000111",
+    "A008280",
+    "A058258"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

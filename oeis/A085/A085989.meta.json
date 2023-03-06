@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that can be expressed as a sum of two squares, each >=2.",
+  "id": "A085989",
+  "mentions": [
+    "A001481"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

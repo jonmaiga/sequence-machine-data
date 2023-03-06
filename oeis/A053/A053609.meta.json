@@ -1,0 +1,21 @@
+{
+  "description": "Primes of form x^2+1 where x=LCM(n) for some n.",
+  "id": "A053609",
+  "mentions": [
+    "A046029",
+    "A049536",
+    "A051451",
+    "A051739",
+    "A053608"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

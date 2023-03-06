@@ -1,0 +1,23 @@
+{
+  "description": "Largest n-digit pseudoprime (to base 2).",
+  "id": "A067845",
+  "mentions": [
+    "A001262",
+    "A001567",
+    "A062568",
+    "A062852",
+    "A068216"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 3,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

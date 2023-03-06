@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n with property that n is a substring of its base 5 representation.",
+  "id": "A038105",
+  "mentions": [
+    "A038102",
+    "A038106",
+    "A227549",
+    "A228050",
+    "A228052"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

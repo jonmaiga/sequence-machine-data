@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of arccsch(2)/log(10).",
+  "id": "A097348",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A068070"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:33",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

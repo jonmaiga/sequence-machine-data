@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number m such that m is prime iff n is not prime and the binary representation of m equals n with appended trailing 1's.",
+  "id": "A093009",
+  "mentions": [
+    "A000120",
+    "A038699",
+    "A070939",
+    "A093007",
+    "A093008"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

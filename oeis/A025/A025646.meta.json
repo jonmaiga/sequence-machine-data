@@ -1,0 +1,18 @@
+{
+  "description": "Exponent of 4 (value of i) in n-th number of form 4^i*5^j.",
+  "id": "A025646",
+  "mentions": [
+    "A025617",
+    "A025661"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:29:41",
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

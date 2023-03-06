@@ -1,0 +1,21 @@
+{
+  "description": "Inverse permutation to A053212.",
+  "id": "A064787",
+  "mentions": [
+    "A000005",
+    "A005179",
+    "A007416",
+    "A053212"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

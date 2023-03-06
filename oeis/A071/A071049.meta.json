@@ -1,0 +1,25 @@
+{
+  "description": "Number of 1's in n-th generation of 1-D CA using Rule 110, started with a single 1.",
+  "id": "A071049",
+  "mentions": [
+    "A070887",
+    "A070950",
+    "A070952",
+    "A070997",
+    "A071029",
+    "A071044",
+    "A151931",
+    "A246027"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

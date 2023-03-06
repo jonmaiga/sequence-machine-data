@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic proper regular linear spaces, PRLIN(n).",
+  "id": "A031438",
+  "mentions": [
+    "A001200",
+    "A031436",
+    "A031437"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

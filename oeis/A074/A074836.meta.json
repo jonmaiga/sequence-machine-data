@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(n) = the largest prime divisor of concatenation of sequence (n,n-1,..,2,1,2,..,n-1,n) A007942.",
+  "id": "A074836",
+  "mentions": [
+    "A007942"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

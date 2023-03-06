@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of lim_{n -> infinity} A001699(n)^(1/2^n).",
+  "id": "A077496",
+  "mentions": [
+    "A001699",
+    "A003095",
+    "A076949"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

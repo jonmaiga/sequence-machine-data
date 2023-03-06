@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n for which there are exactly three k such that n = k + (product of nonzero digits of k).",
+  "id": "A096924",
+  "mentions": [
+    "A063114",
+    "A096347",
+    "A096922",
+    "A096923",
+    "A096925",
+    "A096931"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

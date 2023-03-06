@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that prime(k) == 2 (mod k).",
+  "id": "A023144",
+  "mentions": [
+    "A023143",
+    "A023145",
+    "A023146",
+    "A023147",
+    "A023148",
+    "A023149",
+    "A023150",
+    "A023151",
+    "A023152",
+    "A092044",
+    "A105290"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

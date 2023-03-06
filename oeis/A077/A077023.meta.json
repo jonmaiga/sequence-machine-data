@@ -1,0 +1,21 @@
+{
+  "description": "Integer values of sum of first k primes squared divided by k-th prime, for some k (A077022).",
+  "id": "A077023",
+  "mentions": [
+    "A024450",
+    "A072004",
+    "A077022"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

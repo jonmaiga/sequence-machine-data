@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of convolution triangle A030526.",
+  "id": "A045624",
+  "mentions": [
+    "A030526"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

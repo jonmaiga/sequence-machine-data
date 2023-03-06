@@ -1,0 +1,18 @@
+{
+  "description": "Run length of n-th run of digit 0 in A030567.",
+  "id": "A030575",
+  "mentions": [
+    "A030567"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:21",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

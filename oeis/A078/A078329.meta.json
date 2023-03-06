@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that mu(p+1)=-1, where mu denotes the moebius function.",
+  "id": "A078329",
+  "mentions": [
+    "A007304",
+    "A008683",
+    "A030059",
+    "A046387",
+    "A115343",
+    "A123321"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3-uniform T_0-hypergraphs without multiple edges on n vertices.",
+  "id": "A093853",
+  "mentions": [
+    "A094630",
+    "A094631"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

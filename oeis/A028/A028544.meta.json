@@ -1,0 +1,19 @@
+{
+  "description": "Character of extremal vertex operator algebra of rank 39/2.",
+  "id": "A028544",
+  "mentions": [
+    "A000700"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

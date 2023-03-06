@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sine of 66 degrees.",
+  "id": "A019875",
+  "mentions": [
+    "A019821",
+    "A019842",
+    "A019866",
+    "A019887"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:04:05",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

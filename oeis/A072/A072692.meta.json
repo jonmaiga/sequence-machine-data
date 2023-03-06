@@ -1,0 +1,23 @@
+{
+  "description": "Sum of sigma(j) for 1<=j<=10^n, where sigma(j) is the sum of the divisors of j.",
+  "id": "A072692",
+  "mentions": [
+    "A000203",
+    "A024916",
+    "A025281",
+    "A046915",
+    "A049000",
+    "A072691"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

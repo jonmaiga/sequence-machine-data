@@ -1,0 +1,22 @@
+{
+  "description": "Array used for numerators of g.f.s for column sequences of array A090216 ((5,5)-Stirling2).",
+  "id": "A090222",
+  "mentions": [
+    "A008279",
+    "A090216",
+    "A090223"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 5,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

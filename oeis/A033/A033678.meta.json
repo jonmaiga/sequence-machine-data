@@ -1,0 +1,22 @@
+{
+  "description": "Number of labeled Eulerian graphs with n nodes.",
+  "id": "A033678",
+  "mentions": [
+    "A000009",
+    "A058878",
+    "A228550",
+    "A341743"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

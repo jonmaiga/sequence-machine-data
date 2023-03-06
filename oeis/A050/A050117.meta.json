@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=b(n)-b(n-1), where b=A050116 (ordered products of Lucas numbers).",
+  "id": "A050117",
+  "mentions": [
+    "A050116"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:15",
+    "offset": 2,
+    "size": 62,
+    "source": "joeis"
+  }
+}

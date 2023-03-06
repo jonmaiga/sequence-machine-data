@@ -1,0 +1,17 @@
+{
+  "description": "Ordered differences without repetitions between two successive powers of a prime but not a prime (A025475).",
+  "id": "A077273",
+  "mentions": [
+    "A025475"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

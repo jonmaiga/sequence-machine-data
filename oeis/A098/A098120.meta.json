@@ -1,0 +1,18 @@
+{
+  "description": "Number of times n-th term of A025487 occurs in A073039.",
+  "id": "A098120",
+  "mentions": [
+    "A025487",
+    "A073039"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

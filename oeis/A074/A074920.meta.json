@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that phi(k) = 6k/Pi^2 rounded to nearest integer.",
+  "id": "A074920",
+  "mentions": [
+    "A000010",
+    "A059956",
+    "A072355"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

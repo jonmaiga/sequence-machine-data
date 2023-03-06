@@ -1,0 +1,18 @@
+{
+  "description": "Nonzero coefficients of the polynomials in the denominator of the generating function x/(1-x-x^2) for the Fibonacci sequence and its successive derivatives starting with the highest power of x.",
+  "id": "A078997",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "less",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

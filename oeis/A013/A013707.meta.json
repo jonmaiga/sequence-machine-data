@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k=1..50000} (-1)^(k+1) / k.",
+  "id": "A013707",
+  "mentions": [
+    "A013705",
+    "A013706"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

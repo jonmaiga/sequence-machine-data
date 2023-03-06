@@ -1,0 +1,19 @@
+{
+  "description": "Number of walks of length n on the square lattice that start from (0,0) and do not touch the nonpositive real axis once they have left their starting point.",
+  "id": "A053791",
+  "mentions": [
+    "A000108",
+    "A053792"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

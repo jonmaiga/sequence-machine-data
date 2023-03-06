@@ -1,0 +1,17 @@
+{
+  "description": "Factors in factorizations of composite numbers into at least 2 factors >1.",
+  "id": "A076709",
+  "mentions": [
+    "A037025"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

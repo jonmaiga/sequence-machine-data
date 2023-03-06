@@ -1,0 +1,24 @@
+{
+  "description": "a(n)=Sum((-1)^(i+Floor(n/2))S(2i+e),(i=0,..,Floor(n/2))), where S(n) are generalized Tetranacci numbers (A073817) and e=(1/2)(1-(-1)^n).",
+  "id": "A075112",
+  "mentions": [
+    "A056594",
+    "A073817",
+    "A074662",
+    "A074677",
+    "A074678",
+    "A075111"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:56:01",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

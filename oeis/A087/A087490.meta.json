@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that 4^p - 3^p is composite.",
+  "id": "A087490",
+  "mentions": [
+    "A005061",
+    "A087489",
+    "A087685",
+    "A087749",
+    "A087759",
+    "A087763",
+    "A087894",
+    "A087895"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

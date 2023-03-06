@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows in which row n lists the primitive roots mod n (omitting numbers n without a primitive root).",
+  "id": "A046147",
+  "mentions": [
+    "A001918",
+    "A046144",
+    "A046145",
+    "A046146",
+    "A060749",
+    "A306252",
+    "A306253"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:29:17",
+    "offset": 2,
+    "size": 81,
+    "source": "joeis"
+  }
+}

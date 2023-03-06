@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows in which row n contains the n smallest (greater than zero) numbers such that when they are incremented by n yield a prime.",
+  "id": "A084695",
+  "mentions": [
+    "A013632",
+    "A084747"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

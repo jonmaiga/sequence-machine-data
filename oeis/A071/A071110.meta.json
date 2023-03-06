@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest integer >=0 we cannot obtain from n, n+1, n+2, n+3, n+4 and the operators +, -, *, /, using each number only once.",
+  "id": "A071110",
+  "mentions": [
+    "A060316"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

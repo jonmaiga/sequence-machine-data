@@ -1,0 +1,20 @@
+{
+  "description": "Integer quotient of largest and smallest prime factors of n is greater than one.",
+  "id": "A069900",
+  "mentions": [
+    "A069897",
+    "A081303",
+    "A081306"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Rectangular free polyominoes: number of n-celled polyominoes when the cell is a rectangle.",
+  "id": "A056780",
+  "mentions": [
+    "A000105",
+    "A001168",
+    "A006746",
+    "A006747",
+    "A006748",
+    "A006749",
+    "A056877",
+    "A056878",
+    "A142886",
+    "A144553",
+    "A151522"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Binary expansion of n has form 11**...*0.",
+  "id": "A079946",
+  "mentions": [
+    "A000523",
+    "A004755",
+    "A014486",
+    "A057547",
+    "A079446",
+    "A079944",
+    "A080565"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

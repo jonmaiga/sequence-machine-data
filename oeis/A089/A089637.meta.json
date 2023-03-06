@@ -1,0 +1,22 @@
+{
+  "description": "Smallest member of a pair of consecutive twin prime pairs that have exactly n primes between them.",
+  "id": "A089637",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A006512",
+    "A027833",
+    "A181981"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

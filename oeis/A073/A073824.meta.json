@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of number with continued fraction expansion 0, 1, 4, 9, ... (the squares).",
+  "id": "A073824",
+  "mentions": [
+    "A000290",
+    "A036245",
+    "A036246"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

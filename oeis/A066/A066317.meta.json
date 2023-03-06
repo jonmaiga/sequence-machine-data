@@ -1,0 +1,18 @@
+{
+  "description": "Number of rooted identity (asymmetric) planar trees that can be turned over.",
+  "id": "A066317",
+  "mentions": [
+    "A066316"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

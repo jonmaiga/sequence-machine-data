@@ -1,0 +1,17 @@
+{
+  "description": "Beginning with 3, primes such that a(2n) = {a(2n-1) +a(2n+1)}/2.",
+  "id": "A084696",
+  "mentions": [
+    "A122809"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

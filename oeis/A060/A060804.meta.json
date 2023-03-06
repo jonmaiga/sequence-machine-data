@@ -1,0 +1,22 @@
+{
+  "description": "Continued fraction for 2*zeta(3).",
+  "id": "A060804",
+  "mentions": [
+    "A060805",
+    "A060806",
+    "A060807",
+    "A060808",
+    "A152648"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with a square number of 1's in their binary expansion.",
+  "id": "A084561",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A003099",
+    "A052294",
+    "A084345"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

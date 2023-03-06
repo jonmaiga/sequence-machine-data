@@ -1,0 +1,31 @@
+{
+  "description": "Decimal representation of permutations of lengths 1, 2, 3, ... arranged lexicographically.",
+  "id": "A030299",
+  "mentions": [
+    "A007489",
+    "A030298",
+    "A051845",
+    "A055089",
+    "A060117",
+    "A084556",
+    "A181073",
+    "A217626",
+    "A219664",
+    "A220660",
+    "A220664",
+    "A240763",
+    "A352991"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:47:39",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of permutations with certain forbidden subsequences.",
+  "id": "A054391",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A000110",
+    "A000930",
+    "A001006",
+    "A005773",
+    "A054392",
+    "A058681",
+    "A326212",
+    "A326237",
+    "A326243",
+    "A326244",
+    "A326249",
+    "A326254",
+    "A326255"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

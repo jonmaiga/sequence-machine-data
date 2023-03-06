@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of convergents to the diesis, log_2(5/4).",
+  "id": "A046103",
+  "mentions": [
+    "A046104",
+    "A116985"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:26:09",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

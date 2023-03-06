@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations p of 1,2,...,n such that both numerator and denominator of the continued fraction [p(1); p(2),...,p(n)] are primes.",
+  "id": "A078431",
+  "mentions": [
+    "A078432",
+    "A078433"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

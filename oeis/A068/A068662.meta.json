@@ -1,0 +1,16 @@
+{
+  "description": "Let N = 1357911131517192123252729... the concatenation of odd numbers; partition this number into minimal strings of primes.",
+  "id": "A068662",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Period of continued fraction for sqrt(n) contains exactly nine 1's.",
+  "id": "A020445",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

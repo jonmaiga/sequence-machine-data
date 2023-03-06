@@ -1,0 +1,18 @@
+{
+  "description": "Number of indecomposable groups of order n.",
+  "id": "A090751",
+  "mentions": [
+    "A000001"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

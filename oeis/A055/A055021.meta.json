@@ -1,0 +1,25 @@
+{
+  "description": "Smallest number k such that n iterations of sigma() are required for the result to be >= 2k.",
+  "id": "A055021",
+  "mentions": [
+    "A000203",
+    "A023196",
+    "A055020",
+    "A060800",
+    "A107912",
+    "A107913",
+    "A107914"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

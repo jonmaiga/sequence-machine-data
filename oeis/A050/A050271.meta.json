@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k = floor(sqrt(k)*ceiling(sqrt(k))).",
+  "id": "A050271",
+  "mentions": [
+    "A000290",
+    "A005563",
+    "A008865",
+    "A087278"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

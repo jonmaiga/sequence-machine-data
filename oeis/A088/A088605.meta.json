@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the beginning of the first set of n consecutive primes such that the concatenation of n with each of these primes is also prime.",
+  "id": "A088605",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

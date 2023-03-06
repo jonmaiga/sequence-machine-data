@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = -2*a(n-1) + 4*a(n-2), a(0) = 1, a(1) = 0.",
+  "id": "A086344",
+  "mentions": [
+    "A000045",
+    "A063727",
+    "A103435",
+    "A192232"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:02:42",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest m for which the decimal representation of 2^m contains n consecutive identical digits.",
+  "id": "A045875",
+  "mentions": [
+    "A215732"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose base-9 representation has 2 fewer 0's than 8's.",
+  "id": "A031496",
+  "mentions": [
+    "A007095"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:51:19",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

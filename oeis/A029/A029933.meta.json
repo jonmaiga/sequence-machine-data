@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of n * Product_{d|n} (1 + 1/d).",
+  "id": "A029933",
+  "mentions": [
+    "A029934",
+    "A089241"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

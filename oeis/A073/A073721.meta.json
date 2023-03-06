@@ -1,0 +1,21 @@
+{
+  "description": "Remainder of division Sigma[n]/PrimePi[n] equals zero.",
+  "id": "A073721",
+  "mentions": [
+    "A000203",
+    "A000720",
+    "A073722",
+    "A073724"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

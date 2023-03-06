@@ -1,0 +1,17 @@
+{
+  "description": "(1/2)*(s(n) + 1), where s(n) is the n-th odd number in A026262.",
+  "id": "A026264",
+  "mentions": [
+    "A026262"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:51",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

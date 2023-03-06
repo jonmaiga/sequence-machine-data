@@ -1,0 +1,21 @@
+{
+  "description": "The upper triangular region of A072764.",
+  "id": "A072773",
+  "mentions": [
+    "A002262",
+    "A003056",
+    "A014486",
+    "A072764"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

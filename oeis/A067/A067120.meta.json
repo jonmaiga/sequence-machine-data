@@ -1,0 +1,21 @@
+{
+  "description": "a(n) =floor[X/Y] where X= concatenation of first n ODD numbers in increasing order and Y = n-th triangular number.",
+  "id": "A067120",
+  "mentions": [
+    "A067112",
+    "A067119"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

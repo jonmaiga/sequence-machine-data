@@ -1,0 +1,19 @@
+{
+  "description": "Congruent to 1, 2, 4, 6, 8 or 9 mod 11, but with 2 instead of 1.",
+  "id": "A049625",
+  "mentions": [
+    "A049615"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 11:07:23",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Prime numbers that when multiplied in order yield the sequence of colossally abundant numbers A004490.",
+  "id": "A073751",
+  "mentions": [
+    "A004490"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

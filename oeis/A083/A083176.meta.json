@@ -1,0 +1,20 @@
+{
+  "description": "Arithmetic means of rows of A083173.",
+  "id": "A083176",
+  "mentions": [
+    "A083173",
+    "A083174",
+    "A083175"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

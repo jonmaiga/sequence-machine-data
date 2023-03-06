@@ -1,0 +1,26 @@
+{
+  "description": "Number of planar cata-polyhexes with n cells.",
+  "id": "A038142",
+  "mentions": [
+    "A000228",
+    "A003104",
+    "A018190",
+    "A038143",
+    "A057779",
+    "A323851"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of convergents to sqrt(e).",
+  "id": "A078737",
+  "mentions": [
+    "A058281",
+    "A065919",
+    "A078736"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

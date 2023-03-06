@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that k^2 contains every digit at least once.",
+  "id": "A054038",
+  "mentions": [
+    "A016069",
+    "A050278",
+    "A054031",
+    "A054032",
+    "A054033",
+    "A054034",
+    "A054035",
+    "A054036",
+    "A054037",
+    "A054039",
+    "A190682"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

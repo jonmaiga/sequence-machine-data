@@ -1,0 +1,23 @@
+{
+  "description": "Sub-perfect powers: perfect powers (squares, cubes etc.) minus 1.",
+  "id": "A045542",
+  "mentions": [
+    "A000668",
+    "A001597",
+    "A214390",
+    "A214391"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

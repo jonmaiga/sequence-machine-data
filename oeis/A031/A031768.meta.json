@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 90.",
+  "id": "A031768",
+  "mentions": [
+    "A156856"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes k such that 3k + 1 is also a palindrome.",
+  "id": "A083829",
+  "mentions": [
+    "A002281",
+    "A083830"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

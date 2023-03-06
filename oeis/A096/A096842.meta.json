@@ -1,0 +1,22 @@
+{
+  "description": "Sigma applied to A096841 produces these repdigits: a[n]=A000203[A096841(n)].",
+  "id": "A096842",
+  "mentions": [
+    "A000203",
+    "A096503",
+    "A096508",
+    "A096841",
+    "A096846"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

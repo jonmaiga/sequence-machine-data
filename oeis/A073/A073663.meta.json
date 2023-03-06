@@ -1,0 +1,18 @@
+{
+  "description": "Total number of branches of length k (k>=1) in all ordered trees with n+k edges (it is independent of k).",
+  "id": "A073663",
+  "mentions": [
+    "A076540"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

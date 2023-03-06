@@ -1,0 +1,19 @@
+{
+  "description": "Primes with multiplicative persistence value 3.",
+  "id": "A046503",
+  "mentions": [
+    "A046500",
+    "A046512"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

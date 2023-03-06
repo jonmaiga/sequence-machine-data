@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k such that sopf(n+k) = sopf(k), where sopf = A008472.",
+  "id": "A065925",
+  "mentions": [
+    "A008472",
+    "A065926",
+    "A065927"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

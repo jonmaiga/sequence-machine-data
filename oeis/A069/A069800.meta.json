@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array in which n-th row consists of numbers with digit sum n arranged in increasing numerical order.",
+  "id": "A069800",
+  "mentions": [
+    "A007953",
+    "A069801",
+    "A104144"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct solutions to x + y + z = 0 (mod n), where two solutions are equivalent if one can be obtained from the other by multiplying by units in Z/nZ and permuting x,y,z.",
+  "id": "A048259",
+  "mentions": [
+    "A003050",
+    "A003051",
+    "A007997",
+    "A007998"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

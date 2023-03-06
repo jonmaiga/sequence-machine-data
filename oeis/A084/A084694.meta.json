@@ -1,0 +1,20 @@
+{
+  "description": "Squarefree numbers which are products of three consecutive numbers. I.e., squarefree numbers of the form k^3 - k.",
+  "id": "A084694",
+  "mentions": [
+    "A005117",
+    "A007531",
+    "A007675"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

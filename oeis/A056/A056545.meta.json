@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 4*n*a(n-1) + 1 with a(0)=1.",
+  "id": "A056545",
+  "mentions": [
+    "A000142",
+    "A000302",
+    "A000522",
+    "A001907",
+    "A010844",
+    "A010845",
+    "A056546",
+    "A056547"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

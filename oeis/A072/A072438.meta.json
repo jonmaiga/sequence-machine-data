@@ -1,0 +1,22 @@
+{
+  "description": "Remove prime factors of form 4*k+1.",
+  "id": "A072438",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A004144",
+    "A072436"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

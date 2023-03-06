@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction expansion with iterated 3-fold symmetry.",
+  "id": "A089267",
+  "mentions": [
+    "A007400"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

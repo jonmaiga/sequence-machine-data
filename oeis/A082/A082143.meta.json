@@ -1,0 +1,25 @@
+{
+  "description": "First subdiagonal of number array A082137.",
+  "id": "A082143",
+  "mentions": [
+    "A000079",
+    "A001700",
+    "A069720",
+    "A069723",
+    "A082137",
+    "A082144",
+    "A082145"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

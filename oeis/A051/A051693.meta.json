@@ -1,0 +1,19 @@
+{
+  "description": "Square array read by antidiagonals: a(n,k) = sum of two positive regular n-polytopic numbers (i.e., a(n,k) = binomial(x,n) + binomial(y,n) for some x,y >= n).",
+  "id": "A051693",
+  "mentions": [
+    "A051533"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:22",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

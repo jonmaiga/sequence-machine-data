@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form F(k)-k where F(k) is the k-th Fibonacci number.",
+  "id": "A069109",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A065220",
+    "A270821"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

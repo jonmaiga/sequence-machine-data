@@ -1,0 +1,16 @@
+{
+  "description": "Numbers n with following property: suppose n^2 = d1 d2 d3 ...dk in decimal; then d1! + d2! + ... + dk! is a square.",
+  "id": "A089185",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

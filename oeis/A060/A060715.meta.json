@@ -1,0 +1,35 @@
+{
+  "description": "Number of primes between n and 2n exclusive.",
+  "id": "A060715",
+  "mentions": [
+    "A000720",
+    "A006992",
+    "A010051",
+    "A014085",
+    "A035250",
+    "A051501",
+    "A060756",
+    "A070046",
+    "A101909",
+    "A104272",
+    "A128076",
+    "A143223",
+    "A143224",
+    "A143225",
+    "A143226",
+    "A143227",
+    "A226859"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

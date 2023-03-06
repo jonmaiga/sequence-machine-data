@@ -1,0 +1,23 @@
+{
+  "description": "1 + Sum_{n=1..inf} a_n x^n = 1/Product_{n=1..inf} (1+x^n)^prime(n).",
+  "id": "A061151",
+  "mentions": [
+    "A007441",
+    "A007445",
+    "A030009",
+    "A061150",
+    "A061152"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct prime factors of A095134(n).",
+  "id": "A095136",
+  "mentions": [
+    "A095134"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

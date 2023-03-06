@@ -1,0 +1,19 @@
+{
+  "description": "Integer coefficients of a power series A(x) such that A(x)^3 = A083349(x).",
+  "id": "A083350",
+  "mentions": [
+    "A083349",
+    "A106213",
+    "A106214"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

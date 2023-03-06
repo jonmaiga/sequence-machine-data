@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1; a(n)=least positive integer such that the concatenation of all terms, including a(n), is == 1 (mod n).",
+  "id": "A095231",
+  "mentions": [
+    "A140274"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

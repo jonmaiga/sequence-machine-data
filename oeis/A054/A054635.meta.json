@@ -1,0 +1,38 @@
+{
+  "description": "Champernowne sequence: write n in base 3 and juxtapose.",
+  "id": "A054635",
+  "mentions": [
+    "A003137",
+    "A007089",
+    "A007376",
+    "A030190",
+    "A030302",
+    "A030341",
+    "A030373",
+    "A030548",
+    "A030998",
+    "A031035",
+    "A031076",
+    "A031219",
+    "A033307",
+    "A053735",
+    "A054634",
+    "A054637",
+    "A077771",
+    "A081604"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "cons",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:20:23",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

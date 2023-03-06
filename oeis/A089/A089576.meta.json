@@ -1,0 +1,21 @@
+{
+  "description": "Let p_k = k-th prime, let f((p_k)^n) = m where m is the largest power of p_(k+1) < (p_k)^n. a(n) = number of iterations of f to reach 1, starting from n and starting from k = 1.",
+  "id": "A089576",
+  "mentions": [
+    "A000961",
+    "A024622",
+    "A024623",
+    "A347285"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

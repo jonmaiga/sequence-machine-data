@@ -1,0 +1,17 @@
+{
+  "description": "Integers whose square root is \"well approximated\" by other square roots of integers.",
+  "id": "A045880",
+  "mentions": [
+    "A337211"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:18",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

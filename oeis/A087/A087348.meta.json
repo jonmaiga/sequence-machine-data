@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 10*n^2 - 6*n + 1.",
+  "id": "A087348",
+  "mentions": [
+    "A000326",
+    "A033567",
+    "A033579",
+    "A056220",
+    "A085787",
+    "A153784"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

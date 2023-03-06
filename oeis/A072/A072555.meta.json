@@ -1,0 +1,22 @@
+{
+  "description": "Smallest of four consecutive integers divisible by four consecutive primes respectively.",
+  "id": "A072555",
+  "mentions": [
+    "A072562",
+    "A073606",
+    "A073607",
+    "A073754",
+    "A073755",
+    "A073756"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

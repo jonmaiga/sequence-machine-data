@@ -1,0 +1,22 @@
+{
+  "description": "Number of values of k such that phi(k) = n, where n runs through the values (A002202) taken by phi.",
+  "id": "A058277",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A006511",
+    "A007614",
+    "A014197"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

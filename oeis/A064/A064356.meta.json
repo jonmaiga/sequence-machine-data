@@ -1,0 +1,15 @@
+{
+  "description": "Dimension of J_(12n,n+1), the Jacobi form of weight 12n and index n+1.",
+  "id": "A064356",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

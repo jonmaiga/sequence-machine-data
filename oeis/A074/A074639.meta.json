@@ -1,0 +1,18 @@
+{
+  "description": "a(n)=Sum_h (hh'-1)/n with h and h' in [1,n], (h,n)=1, hh'=1 (mod n).",
+  "id": "A074639",
+  "mentions": [
+    "A074640",
+    "A074644"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (2*n)!*(Integral_{x=0..sqrt(2/3)} 1/(1-x^2)^(n+1/2) dx)/((n!*2^n)*sqrt(2)).",
+  "id": "A089155",
+  "mentions": [
+    "A089252"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

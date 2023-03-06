@@ -1,0 +1,20 @@
+{
+  "description": "Number of numbers <= n with an odd number of prime factors (counted with multiplicity).",
+  "id": "A055038",
+  "mentions": [
+    "A002819",
+    "A008836",
+    "A066829"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

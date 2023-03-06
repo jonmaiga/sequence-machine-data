@@ -1,0 +1,18 @@
+{
+  "description": "When squared gives number composed of digits {2,4,8} with each of these digits appearing at least once.",
+  "id": "A027679",
+  "mentions": [
+    "A027678"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

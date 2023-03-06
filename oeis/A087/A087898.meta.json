@@ -1,0 +1,18 @@
+{
+  "description": "Choose a(n) so that 2*3*5*13*...*a(n) - 1 is prime; a(n) is prime; and a(n) > a(n-1).",
+  "id": "A087898",
+  "mentions": [
+    "A039726",
+    "A087899"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

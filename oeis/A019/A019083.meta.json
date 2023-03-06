@@ -1,0 +1,16 @@
+{
+  "description": "Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BOG = Boggsite Na4Ca7 [ Al18Si78O192 ] . 74 H2O.",
+  "id": "A019083",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 3,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

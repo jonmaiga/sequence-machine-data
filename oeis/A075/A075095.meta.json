@@ -1,0 +1,21 @@
+{
+  "description": "Number of simple graphs g on n nodes with |Aut(g)| = 2.",
+  "id": "A075095",
+  "mentions": [
+    "A003400",
+    "A075096",
+    "A075097",
+    "A075098"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

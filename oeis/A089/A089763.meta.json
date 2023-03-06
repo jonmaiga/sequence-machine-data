@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1, then the least n-digit prime such that the k-th digit from the Most significant side is prime if k is prime else is composite. The most significant digit is always a 1. 0 if no such prime exists.",
+  "id": "A089763",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

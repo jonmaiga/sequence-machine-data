@@ -1,0 +1,23 @@
+{
+  "description": "Index of zero values in A097759; also index of -1 values in A097563 and A097758.",
+  "id": "A097760",
+  "mentions": [
+    "A001422",
+    "A003995",
+    "A033461",
+    "A097563",
+    "A097757",
+    "A097758",
+    "A097759"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

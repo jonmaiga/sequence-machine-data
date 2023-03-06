@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sec (Pi degrees) (of course sec (Pi radians) = -1).",
+  "id": "A073441",
+  "mentions": [
+    "A051553",
+    "A051554",
+    "A051555",
+    "A073440",
+    "A073442"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:03:11",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

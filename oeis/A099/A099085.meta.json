@@ -1,0 +1,17 @@
+{
+  "description": "A bisection of A006966.",
+  "id": "A099085",
+  "mentions": [
+    "A006966"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

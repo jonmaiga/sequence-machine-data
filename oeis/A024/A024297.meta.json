@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. tan(x)*tan(tan(x))/2 (even powers only).",
+  "id": "A024297",
+  "mentions": [
+    "A009750"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:03",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

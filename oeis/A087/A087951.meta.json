@@ -1,0 +1,17 @@
+{
+  "description": "Partial quotients of the continued fraction of sqrt(2), having 8 as the constant numerator: sqrt(2) = a(0) + 8/(a(1) + 8/(a(2) + 8/(a(3) +...))).",
+  "id": "A087951",
+  "mentions": [
+    "A087950"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

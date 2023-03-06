@@ -1,0 +1,15 @@
+{
+  "description": "E.g.f. (in x^2) is arctan(sinh(x)+sin(x))",
+  "id": "A013029",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:07:34",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

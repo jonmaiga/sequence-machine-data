@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of trinomials x^n + x^k + 1 that are irreducible over GF(2) for some k with n > k > 0.",
+  "id": "A057646",
+  "mentions": [
+    "A014580",
+    "A073571",
+    "A344146"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

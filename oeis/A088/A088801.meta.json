@@ -1,0 +1,18 @@
+{
+  "description": "Numerators of coefficients of powers of n^(-1) in the Romanovsky series expansion of the mean of the standard deviation from a normal population.",
+  "id": "A088801",
+  "mentions": [
+    "A088802"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

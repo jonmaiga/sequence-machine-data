@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-bead necklaces with exactly three different colored beads.",
+  "id": "A056283",
+  "mentions": [
+    "A000031",
+    "A001867",
+    "A008277",
+    "A052823",
+    "A056391",
+    "A087854"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

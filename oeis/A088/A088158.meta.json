@@ -1,0 +1,19 @@
+{
+  "description": "Square table T(n,k), read by antidiagonals, that satisfies T(n,0)=1, T(n+1,k+1) = sum(i=0,n, sum(j=0,k, T(n-i,k-j)*T(i,j) )), such that the top row and diagonal are equal: T(0,k)=T(k,k)=A088159(k).",
+  "id": "A088158",
+  "mentions": [
+    "A088159",
+    "A088160"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

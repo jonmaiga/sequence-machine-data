@@ -1,0 +1,28 @@
+{
+  "description": "Number of distinct 5th powers mod n.",
+  "id": "A052274",
+  "mentions": [
+    "A000224",
+    "A046530",
+    "A052273",
+    "A052275",
+    "A085310",
+    "A085311",
+    "A085312",
+    "A085313",
+    "A085314",
+    "A228849"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:02:43",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Form array in which n-th row is obtained by expanding (1+x+x^2)^n and taking the 3rd column from the center.",
+  "id": "A014532",
+  "mentions": [
+    "A001006",
+    "A014531",
+    "A014533",
+    "A025181",
+    "A111808"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Probability of obtaining a run of n consecutive cards of the same color in a deck of 52, normalized by binomial(52,26).",
+  "id": "A086438",
+  "mentions": [
+    "A086439",
+    "A086440"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "[ Sum{(sqrt(j)-sqrt(i))^2} ], 1 <= i < j <= n.",
+  "id": "A025196",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:03",
+    "offset": 2,
+    "size": 52,
+    "source": "joeis"
+  }
+}

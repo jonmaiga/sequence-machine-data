@@ -1,0 +1,22 @@
+{
+  "description": "Total number of parts in all compositions of n into relatively prime parts.",
+  "id": "A085411",
+  "mentions": [
+    "A000740",
+    "A001792",
+    "A007318",
+    "A054525"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

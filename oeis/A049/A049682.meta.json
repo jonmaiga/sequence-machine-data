@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (Lucas(8*n) - 2)/45.",
+  "id": "A049682",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001622",
+    "A004146",
+    "A004187",
+    "A049683",
+    "A049684"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

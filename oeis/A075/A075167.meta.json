@@ -1,0 +1,33 @@
+{
+  "description": "Number of edges in each rooted plane tree produced with the unranking algorithm presented in A075166, which is based on prime factorization.",
+  "id": "A075167",
+  "mentions": [
+    "A000108",
+    "A000120",
+    "A029837",
+    "A051119",
+    "A055642",
+    "A061395",
+    "A071178",
+    "A072643",
+    "A075165",
+    "A075166",
+    "A106442",
+    "A106457",
+    "A106490",
+    "A252464",
+    "A253782",
+    "A253783"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

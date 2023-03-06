@@ -1,0 +1,31 @@
+{
+  "description": "Triangular numbers that are one-third of another triangular number: T(m) such that 3*T(m) = T(k) for some k.",
+  "id": "A076139",
+  "mentions": [
+    "A000217",
+    "A001318",
+    "A001353",
+    "A001571",
+    "A007655",
+    "A014979",
+    "A045899",
+    "A061278",
+    "A076140",
+    "A108281",
+    "A123480",
+    "A212336",
+    "A217855"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

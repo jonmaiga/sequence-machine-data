@@ -1,0 +1,15 @@
+{
+  "description": "Let s(x)=floor(phi*x) where phi is the golden ratio (1+sqrt(5))/2; sequence gives the least k such that n divides s^k(n) where s^k(x) denotes s(s(s..s(x))..) k times, or 0 if no such number exists.",
+  "id": "A081111",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

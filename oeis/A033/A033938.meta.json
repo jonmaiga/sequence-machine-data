@@ -1,0 +1,20 @@
+{
+  "description": "Palindromic primes n such that the period of 1/n is a palindrome.",
+  "id": "A033938",
+  "mentions": [
+    "A002113",
+    "A002385",
+    "A033939"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

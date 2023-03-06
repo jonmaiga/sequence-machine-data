@@ -1,0 +1,17 @@
+{
+  "description": "Position of 3n+2 in A025051 (numbers of form j*k + k*i + i*j, without repetitions, where 1 <= i <= j <= k).",
+  "id": "A025057",
+  "mentions": [
+    "A025051"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:26:41",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

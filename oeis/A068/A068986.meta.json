@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that Sum_{d|k} sigma(d)/d is an integer.",
+  "id": "A068986",
+  "mentions": [
+    "A000203",
+    "A017665",
+    "A017666",
+    "A060640"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Cubes when digits rotated right once remain cubic.",
+  "id": "A035130",
+  "mentions": [
+    "A035126",
+    "A035128",
+    "A035131"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

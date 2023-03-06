@@ -1,0 +1,31 @@
+{
+  "description": "Possible number of units in a finite (commutative or non-commutative) ring.",
+  "id": "A070932",
+  "mentions": [
+    "A000010",
+    "A000252",
+    "A000961",
+    "A002202",
+    "A027623",
+    "A037234",
+    "A037289",
+    "A037291",
+    "A038538",
+    "A181062",
+    "A186116",
+    "A221178",
+    "A282572",
+    "A296241"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n^2 + n + A007918(n+2) is prime.",
+  "id": "A069224",
+  "mentions": [
+    "A007918"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array formed by taking every other term of Pascal's triangle.",
+  "id": "A034850",
+  "mentions": [
+    "A007318",
+    "A034839"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:16:47",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

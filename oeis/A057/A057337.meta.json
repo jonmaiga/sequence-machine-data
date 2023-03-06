@@ -1,0 +1,18 @@
+{
+  "description": "1) Write the Zeckendorf expression of n; 2) Remove initial 1 and append a final 0; 3) Replace numbers in this as follows: 0 -> 1, 010 -> 2, 01010 -> 3, 0101010 -> 4...; 4) Find a binary number with run lengths from step 3 (starting with 1); 5) The term a(n) is the decimal equivalent of this binary number.",
+  "id": "A057337",
+  "mentions": [
+    "A057336"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

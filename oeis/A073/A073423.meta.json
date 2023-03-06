@@ -1,0 +1,22 @@
+{
+  "description": "Sums of two powers of zero: triangle read by rows: T(m,n) = 0^n + 0^m, n >= 0, m = 0..n.",
+  "id": "A073423",
+  "mentions": [
+    "A010054",
+    "A023531",
+    "A054977",
+    "A073424"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:02:45",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

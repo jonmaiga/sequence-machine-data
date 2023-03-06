@@ -1,0 +1,21 @@
+{
+  "description": "Number of solutions to y^2=x^3+x (mod p) as p runs through the primes.",
+  "id": "A095978",
+  "mentions": [
+    "A000040",
+    "A002144",
+    "A002972",
+    "A267859"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

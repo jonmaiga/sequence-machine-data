@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form (Fibonacci(p+1))/p, where p are primes ending in 3 or 7 (i.e., A003631).",
+  "id": "A096028",
+  "mentions": [
+    "A003631",
+    "A094808",
+    "A094809"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

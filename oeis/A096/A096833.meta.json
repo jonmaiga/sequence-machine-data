@@ -1,0 +1,22 @@
+{
+  "description": "Values of n such that in the interval centered at A002110(n) = n-th primorial and of radius ceiling(log(center)) there is a single prime.",
+  "id": "A096833",
+  "mentions": [
+    "A002110",
+    "A096509",
+    "A096523",
+    "A096830",
+    "A096840"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

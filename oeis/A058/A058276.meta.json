@@ -1,0 +1,35 @@
+{
+  "description": "Number of connected 6-regular simple graphs on n vertices with girth at least 4.",
+  "id": "A058276",
+  "mentions": [
+    "A006822",
+    "A014371",
+    "A014377",
+    "A033886",
+    "A054760",
+    "A058275",
+    "A181153",
+    "A181154",
+    "A181170",
+    "A184963",
+    "A184964",
+    "A185114",
+    "A185264",
+    "A185364",
+    "A186714",
+    "A186724"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

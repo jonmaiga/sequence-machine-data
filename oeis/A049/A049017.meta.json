@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of 1/((1-x)^7-x^7).",
+  "id": "A049017",
+  "mentions": [
+    "A000579",
+    "A000750",
+    "A027555",
+    "A049016",
+    "A049018",
+    "A059481",
+    "A213808"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

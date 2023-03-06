@@ -1,0 +1,17 @@
+{
+  "description": "Smallest available number such that the last digit of n and the first digit of n+1 sum to 2.",
+  "id": "A098176",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

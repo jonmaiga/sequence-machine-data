@@ -1,0 +1,23 @@
+{
+  "description": "Number of step cyclic shifted sequence structures using exactly five different symbols.",
+  "id": "A056437",
+  "mentions": [
+    "A056371",
+    "A056391",
+    "A056418",
+    "A056431",
+    "A056432",
+    "A288627"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:50:38",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

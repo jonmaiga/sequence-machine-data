@@ -1,0 +1,21 @@
+{
+  "description": "Number of unlabeled connected graphs up to complementarity.",
+  "id": "A054931",
+  "mentions": [
+    "A000088",
+    "A000171",
+    "A001349"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

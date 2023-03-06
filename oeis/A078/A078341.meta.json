@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) = n*T(n-1,k-1) + k*T(n-1,k) starting with T(0,0)=1.",
+  "id": "A078341",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A007549",
+    "A057427",
+    "A067318",
+    "A095151",
+    "A103768"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:33:49",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

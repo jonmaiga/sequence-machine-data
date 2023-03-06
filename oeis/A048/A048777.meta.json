@@ -1,0 +1,23 @@
+{
+  "description": "First partial sums of A005409; second partial sums of A001333.",
+  "id": "A048777",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A002203",
+    "A005409",
+    "A048776"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

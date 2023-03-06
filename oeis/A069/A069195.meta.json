@@ -1,0 +1,18 @@
+{
+  "description": "Order of first letter of n-th day of the week.",
+  "id": "A069195",
+  "mentions": [
+    "A033986"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:42:03",
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

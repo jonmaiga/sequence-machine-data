@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n and n^2 combined use different digits.",
+  "id": "A059930",
+  "mentions": [
+    "A029783",
+    "A059931",
+    "A112736"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

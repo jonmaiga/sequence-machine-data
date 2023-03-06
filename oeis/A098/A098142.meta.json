@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (p*(q-1)+(p-1)*q)/2 is prime, where p and q are consecutive odd primes, p",
+  "id": "A098142",
+  "mentions": [
+    "A099911"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

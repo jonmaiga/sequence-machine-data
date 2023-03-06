@@ -1,0 +1,21 @@
+{
+  "description": "Discriminants of quadratic number fields Q(sqrt -n) for n squarefree.",
+  "id": "A033197",
+  "mentions": [
+    "A000924",
+    "A005117"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

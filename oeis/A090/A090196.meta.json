@@ -1,0 +1,28 @@
+{
+  "description": "Odd integers with two divisors a, b such that a < b <= 2a.",
+  "id": "A090196",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A071562",
+    "A082663",
+    "A196020",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237590",
+    "A237593",
+    "A244579"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

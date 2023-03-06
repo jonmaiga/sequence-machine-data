@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^3 is palindromic in base 14.",
+  "id": "A046249",
+  "mentions": [
+    "A046250"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

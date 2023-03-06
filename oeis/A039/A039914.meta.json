@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k>1 such that k(p-1)-1 is divisible by p^2, p=n-th prime.",
+  "id": "A039914",
+  "mentions": [
+    "A039678",
+    "A306190"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

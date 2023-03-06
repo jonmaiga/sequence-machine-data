@@ -1,0 +1,25 @@
+{
+  "description": "Binary Fibonacci (or rabbit) sequence.",
+  "id": "A036299",
+  "mentions": [
+    "A000045",
+    "A003849",
+    "A005614",
+    "A055642",
+    "A144287"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

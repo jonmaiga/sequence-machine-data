@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(1,1) = 1; for n>=2, write the first n^2 integers in an n X n array beginning with 1 in the upper left proceeding left to right and top to bottom; then T(n,k) is the last prime in the k-th row.",
+  "id": "A092557",
+  "mentions": [
+    "A083415",
+    "A092556"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

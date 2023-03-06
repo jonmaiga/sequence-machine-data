@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = B(2*n, 2)/B(2*n) (see formula section).",
+  "id": "A096045",
+  "mentions": [
+    "A000302",
+    "A002063",
+    "A096046",
+    "A096047",
+    "A096048"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smaller member of friendly pairs ordered by smallest maximal element.",
+  "id": "A050972",
+  "mentions": [
+    "A005153",
+    "A017666",
+    "A050973",
+    "A074902"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

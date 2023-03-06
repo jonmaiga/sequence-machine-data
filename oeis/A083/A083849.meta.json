@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the largest prime of the form x^2 + 1 <= 2^n.",
+  "id": "A083849",
+  "mentions": [
+    "A002496",
+    "A005574",
+    "A083844",
+    "A083845",
+    "A083846",
+    "A083847",
+    "A083848"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

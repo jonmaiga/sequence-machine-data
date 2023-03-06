@@ -1,0 +1,19 @@
+{
+  "description": "Determinant of the n X n matrix with entries gcd(X,Y)^gcd(X,Y).",
+  "id": "A092416",
+  "mentions": [
+    "A000010",
+    "A000178",
+    "A001088"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

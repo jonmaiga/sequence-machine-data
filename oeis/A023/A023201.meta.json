@@ -1,0 +1,26 @@
+{
+  "description": "Primes p such that p + 6 is also prime. (Lesser of a pair of sexy primes.)",
+  "id": "A023201",
+  "mentions": [
+    "A000040",
+    "A006489",
+    "A007529",
+    "A010051",
+    "A031924",
+    "A046117",
+    "A087695",
+    "A098428"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

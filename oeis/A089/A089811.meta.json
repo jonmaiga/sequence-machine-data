@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of Jacobi theta function (3*theta_4(q^18) - theta_4(q^2))/2.",
+  "id": "A089811",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Difference between Sum_{d|n, d == 1 mod 4} d^2 and Sum_{d|n, d == 3 mod 4} d^2.",
+  "id": "A050458",
+  "mentions": [
+    "A002173"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

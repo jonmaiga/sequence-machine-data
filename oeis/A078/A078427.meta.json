@@ -1,0 +1,21 @@
+{
+  "description": "Sum of all the decimal digits of numbers from 1 to 10^n.",
+  "id": "A078427",
+  "mentions": [
+    "A053541",
+    "A072290"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

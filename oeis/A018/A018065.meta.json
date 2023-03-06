@@ -1,0 +1,17 @@
+{
+  "description": "Powers of fourth root of 7 rounded up.",
+  "id": "A018065",
+  "mentions": [
+    "A054540"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:38:55",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of A095284-primes in range ]2^n,2^(n+1)].",
+  "id": "A095294",
+  "mentions": [
+    "A036378",
+    "A095052",
+    "A095053",
+    "A095062",
+    "A095284",
+    "A095295",
+    "A095327",
+    "A095329"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

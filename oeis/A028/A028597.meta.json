@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of theta_3(z) * theta_3(8*z) + theta_2(z) * theta_2(8*z) in powers of q^(1/4).",
+  "id": "A028597",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:53:06",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

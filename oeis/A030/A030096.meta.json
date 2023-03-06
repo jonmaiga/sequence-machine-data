@@ -1,0 +1,23 @@
+{
+  "description": "Primes whose digits are all odd.",
+  "id": "A030096",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A014261",
+    "A076704",
+    "A091296"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

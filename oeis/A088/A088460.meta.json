@@ -1,0 +1,20 @@
+{
+  "description": "Lower twin primes with lower twin prime index.",
+  "id": "A088460",
+  "mentions": [
+    "A001359",
+    "A007097",
+    "A088463"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

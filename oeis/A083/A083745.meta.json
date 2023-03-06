@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; if a(n-1) + n is composite or 1 then a(n) = a(n-1) + n, else a(n) = a(n-1) - n.",
+  "id": "A083745",
+  "mentions": [
+    "A083743",
+    "A083744"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

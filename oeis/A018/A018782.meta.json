@@ -1,0 +1,27 @@
+{
+  "description": "Smallest k such that circle x^2 + y^2 = k passes through exactly 4n integer points.",
+  "id": "A018782",
+  "mentions": [
+    "A000446",
+    "A002144",
+    "A002654",
+    "A004018",
+    "A004613",
+    "A005179",
+    "A016032",
+    "A054994",
+    "A093195",
+    "A124980"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

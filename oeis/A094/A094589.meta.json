@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; a(n+1) = a(n) + (largest element of {a} <= n).",
+  "id": "A094589",
+  "mentions": [
+    "A094590",
+    "A250983"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

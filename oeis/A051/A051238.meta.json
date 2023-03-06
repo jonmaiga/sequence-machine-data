@@ -1,0 +1,22 @@
+{
+  "description": "First appearance of string n in e.",
+  "id": "A051238",
+  "mentions": [
+    "A001113",
+    "A032445",
+    "A088576"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

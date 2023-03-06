@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = -5*a(n-1)-4*a(n-2) with n>1, a(0)=0, a(1)=1.",
+  "id": "A084241",
+  "mentions": [
+    "A001045",
+    "A002450",
+    "A084240"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:41:26",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

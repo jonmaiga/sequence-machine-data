@@ -1,0 +1,20 @@
+{
+  "description": "Number of flips between the d-dimensional tilings of the unary zonotope Z(D,d). Here d=2 and D varies.",
+  "id": "A060570",
+  "mentions": [
+    "A001286",
+    "A006245",
+    "A060595",
+    "A060638"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that there is no prime q, q < p with q+1 dividing p+1.",
+  "id": "A082539",
+  "mentions": [
+    "A005383",
+    "A049084",
+    "A084196",
+    "A084198",
+    "A084200",
+    "A092307"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Pellonomial triangle P(k,n) read by rows.",
+  "id": "A099927",
+  "mentions": [
+    "A000129",
+    "A010048",
+    "A084158",
+    "A099928",
+    "A099929",
+    "A099930",
+    "A099931"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

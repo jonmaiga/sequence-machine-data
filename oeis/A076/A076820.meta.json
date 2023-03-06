@@ -1,0 +1,22 @@
+{
+  "description": "Second-largest distinct prime dividing n (or 1 if n is a power of a prime).",
+  "id": "A076820",
+  "mentions": [
+    "A006530",
+    "A119288",
+    "A292269"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

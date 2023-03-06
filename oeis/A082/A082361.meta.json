@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of natural numbers induced by the contraction of Catalan bijection signature-permutation A082351.",
+  "id": "A082361",
+  "mentions": [
+    "A081291",
+    "A082351",
+    "A082362",
+    "A082363",
+    "A082364",
+    "A082853"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

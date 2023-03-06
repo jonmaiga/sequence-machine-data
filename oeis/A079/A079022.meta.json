@@ -1,0 +1,26 @@
+{
+  "description": "Suppose p and q = p + 2*n are primes. Define the difference pattern of (p, q) to be the successive differences of the primes in the range p to q. There are a(n) possible difference patterns.",
+  "id": "A079022",
+  "mentions": [
+    "A000230",
+    "A079016",
+    "A079017",
+    "A079018",
+    "A079019",
+    "A079020",
+    "A079021",
+    "A079023",
+    "A079024"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

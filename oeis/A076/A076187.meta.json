@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1/2^(k!).",
+  "id": "A076187",
+  "mentions": [
+    "A050923",
+    "A092874"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

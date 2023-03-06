@@ -1,0 +1,21 @@
+{
+  "description": "n-th term is binary string of length t_n with 1's at positions t_i, where t_n = n-th triangular number.",
+  "id": "A076127",
+  "mentions": [
+    "A000217",
+    "A076131"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

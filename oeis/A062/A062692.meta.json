@@ -1,0 +1,24 @@
+{
+  "description": "Number of irreducible polynomials over F_2 of degree at most n.",
+  "id": "A062692",
+  "mentions": [
+    "A001036",
+    "A001037",
+    "A014580",
+    "A091226",
+    "A091231",
+    "A143328"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

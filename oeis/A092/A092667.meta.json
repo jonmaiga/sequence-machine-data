@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of Egyptian fractions 1 = 1/x_1 + ... + 1/x_k (for any k), with max{x_i}=n.",
+  "id": "A092667",
+  "mentions": [
+    "A000058",
+    "A002967",
+    "A038034",
+    "A092666",
+    "A092669"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

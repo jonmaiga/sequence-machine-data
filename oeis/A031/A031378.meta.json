@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime(4*n - 2).",
+  "id": "A031378",
+  "mentions": [
+    "A000040",
+    "A006450",
+    "A007821",
+    "A031215"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:50:43",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

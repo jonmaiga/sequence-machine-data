@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for sqrt(906).",
+  "id": "A040875",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:19:31",
+    "offset": 0,
+    "size": 63,
+    "source": "joeis"
+  }
+}

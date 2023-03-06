@@ -1,0 +1,21 @@
+{
+  "description": "Values of n corresponding to the terms in sequence A080155. For any k, the concatenation of the a(1) to a(k)-th primes is prime and each value of k is the smallest for which this is true.",
+  "id": "A080156",
+  "mentions": [
+    "A073640",
+    "A080152",
+    "A080155"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

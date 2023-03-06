@@ -1,0 +1,22 @@
+{
+  "description": "Positive numbers n such that n^2 - 2n + 2 is a prime.",
+  "id": "A090693",
+  "mentions": [
+    "A001912",
+    "A002496",
+    "A005574",
+    "A062325"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

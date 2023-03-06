@@ -1,0 +1,19 @@
+{
+  "description": "Largest k such that the sum of sums of decimal digits of the next k numbers > n does not exceed 10.",
+  "id": "A082504",
+  "mentions": [
+    "A002283",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

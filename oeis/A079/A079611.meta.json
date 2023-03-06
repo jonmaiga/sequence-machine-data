@@ -1,0 +1,22 @@
+{
+  "description": "Waring's problem: conjectured values for G(n), the smallest number m such that every sufficiently large number is the sum of at most m n-th powers of positive integers.",
+  "id": "A079611",
+  "mentions": [
+    "A002376",
+    "A002377",
+    "A002804",
+    "A174406"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

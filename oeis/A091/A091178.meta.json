@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k-th prime is of the form 6*m+1.",
+  "id": "A091178",
+  "mentions": [
+    "A000040",
+    "A002476",
+    "A024892",
+    "A024899",
+    "A091177"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:32:31",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Greatest k such that (k-th prime) <= (n times n-th prime).",
+  "id": "A057855",
+  "mentions": [
+    "A020900",
+    "A020901",
+    "A020934",
+    "A020940",
+    "A033286"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

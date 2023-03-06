@@ -1,0 +1,18 @@
+{
+  "description": "Array T read by diagonals; T(i,j) = number of lines passing through (i,j) and at least two other lattice points (h,k) satisfying 0<=h<=i, 0<=k<=j.",
+  "id": "A049639",
+  "mentions": [
+    "A049687"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:40:17",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

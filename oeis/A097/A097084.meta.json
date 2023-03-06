@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows, where the n-th diagonal equals the n-th row transformed by triangle A008459 (squared binomial coefficients).",
+  "id": "A097084",
+  "mentions": [
+    "A008459",
+    "A097085"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

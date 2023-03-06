@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of series related to Liouville's Last Theorem: g.f. Sum_{t>0} (-1)^(t+1) *x^(t*(t+1)/2) / ( (1-x^t)^2 *Product_{i=1..t} (1-x^i) ).",
+  "id": "A059819",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A055507",
+    "A059820",
+    "A059825"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

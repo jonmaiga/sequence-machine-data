@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f: A(x) = f(x*A(x)), where f(x) = (1+2*x)*exp(x).",
+  "id": "A088692",
+  "mentions": [
+    "A088690",
+    "A088693"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

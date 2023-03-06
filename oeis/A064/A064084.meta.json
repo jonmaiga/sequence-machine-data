@@ -1,0 +1,22 @@
+{
+  "description": "A multiplicative version of 2^n - 1 (A000225).",
+  "id": "A064084",
+  "mentions": [
+    "A000225",
+    "A064085",
+    "A064086"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

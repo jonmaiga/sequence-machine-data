@@ -1,0 +1,23 @@
+{
+  "description": "Matrix inverse of partition triangle A008284.",
+  "id": "A038498",
+  "mentions": [
+    "A008284",
+    "A010815",
+    "A038497",
+    "A039800",
+    "A039810"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-07 12:15:52",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

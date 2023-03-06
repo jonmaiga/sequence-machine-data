@@ -1,0 +1,21 @@
+{
+  "description": "Square array read by antidiagonals, alternating upwards and downwards: T(i, j) is the least number that is greater than the previous term and coprime to every number on the same row or column.",
+  "id": "A081998",
+  "mentions": [
+    "A067126",
+    "A081999",
+    "A082000",
+    "A082001"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "p, p+8 and p+12 are primes.",
+  "id": "A046141",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:29:17",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

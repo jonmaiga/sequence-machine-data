@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of power series coefficients of a(x) satisfying a(a(a(x)))= arctan(x).",
+  "id": "A052137",
+  "mentions": [
+    "A048602",
+    "A048603",
+    "A052136"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:49:55",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle of multi-edge stars with n edges by cyclotomic index.",
+  "id": "A010358",
+  "mentions": [
+    "A339160"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

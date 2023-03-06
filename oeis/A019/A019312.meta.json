@@ -1,0 +1,19 @@
+{
+  "description": "Taxman sequence: define T(S) by max{x+T(S \\ {c : c|x})}, where the max is over all x in S for which S also contains a proper divisor of x; if no such x exists, T(S)=0; set T(n)=T({1,...,n}).",
+  "id": "A019312",
+  "mentions": [
+    "A355079"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

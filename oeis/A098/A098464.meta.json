@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that lcm(1,2,3,...,k) equals the denominator of the k-th harmonic number H(k).",
+  "id": "A098464",
+  "mentions": [
+    "A002805",
+    "A003418",
+    "A110566"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

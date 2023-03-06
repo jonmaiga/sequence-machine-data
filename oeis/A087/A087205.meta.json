@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = -2*a(n-1) + 4*a(n-2), a(0)=1, a(1)=2.",
+  "id": "A087205",
+  "mentions": [
+    "A000045",
+    "A063727",
+    "A084222",
+    "A085449",
+    "A087204"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

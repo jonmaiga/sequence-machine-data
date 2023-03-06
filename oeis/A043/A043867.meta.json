@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that number of runs in the base 4 representation of n is congruent to 0 mod 10.",
+  "id": "A043867",
+  "mentions": [
+    "A043601"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:22:05",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

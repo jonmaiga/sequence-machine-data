@@ -1,0 +1,28 @@
+{
+  "description": "Simple rewriting of binary expansion of n resulting A014486-codes for rooted binary trees with height equal to number of internal vertices. (Binary trees where at each internal vertex at least the other child is leaf).",
+  "id": "A071162",
+  "mentions": [
+    "A000079",
+    "A014486",
+    "A036044",
+    "A056539",
+    "A071160",
+    "A071163",
+    "A209636",
+    "A209637",
+    "A209642",
+    "A209859",
+    "A209862"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

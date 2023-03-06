@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of form 4^i*5^j, with i, j >= 0.",
+  "id": "A025617",
+  "mentions": [
+    "A003592"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of powers of 10 mod n.",
+  "id": "A054710",
+  "mentions": [
+    "A121341"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

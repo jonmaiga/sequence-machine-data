@@ -1,0 +1,22 @@
+{
+  "description": "Number of possible positions in an n X n X n Rubik's cube reachable from the starting position.",
+  "id": "A054434",
+  "mentions": [
+    "A007458",
+    "A075152",
+    "A080629",
+    "A080630"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

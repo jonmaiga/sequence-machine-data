@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n mod 2)^(n mod 3).",
+  "id": "A093719",
+  "mentions": [
+    "A000035",
+    "A010872",
+    "A047235",
+    "A047273",
+    "A093718"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

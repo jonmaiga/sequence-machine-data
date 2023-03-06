@@ -1,0 +1,32 @@
+{
+  "description": "Numbers that are congruent to {1, 4} mod 8.",
+  "id": "A047461",
+  "mentions": [
+    "A004526",
+    "A004770",
+    "A010703",
+    "A017077",
+    "A017113",
+    "A047398",
+    "A047452",
+    "A047470",
+    "A047524",
+    "A047535",
+    "A047615",
+    "A047617",
+    "A153125",
+    "A342819"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:02:51",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

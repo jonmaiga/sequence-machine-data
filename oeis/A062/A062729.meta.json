@@ -1,0 +1,18 @@
+{
+  "description": "n not divisible by any prime=p, where either p-2 or p+2 is prime.",
+  "id": "A062729",
+  "mentions": [
+    "A007510",
+    "A062506"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

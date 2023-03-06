@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. (1/2) * tan(x)^2 (even powers only).",
+  "id": "A024283",
+  "mentions": [
+    "A000182",
+    "A009764",
+    "A024255",
+    "A059419",
+    "A102573"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

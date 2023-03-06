@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of record absolute values of partial sums of Sum (mu(n)/n).",
+  "id": "A071760",
+  "mentions": [
+    "A071759"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

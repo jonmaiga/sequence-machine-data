@@ -1,0 +1,20 @@
+{
+  "description": "Least composite number greater than n-th composite number having greater smallest prime factor than that of n-th composite number.",
+  "id": "A082049",
+  "mentions": [
+    "A002808",
+    "A020639",
+    "A056608",
+    "A082048"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n matrices over GF(4) of order dividing 6 (i.e., number of solutions of X^6=I in GL(n,4)).",
+  "id": "A053861",
+  "mentions": [
+    "A053771"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n and prime(n) are both palindromes.",
+  "id": "A046942",
+  "mentions": [
+    "A002113",
+    "A046941",
+    "A075807",
+    "A103357",
+    "A103358",
+    "A103402",
+    "A103403"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

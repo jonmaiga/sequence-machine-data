@@ -1,0 +1,21 @@
+{
+  "description": "Strong pseudoprimes to base 3.",
+  "id": "A020229",
+  "mentions": [
+    "A001262",
+    "A005935",
+    "A056915",
+    "A072276",
+    "A074773"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n in which the k-th digit (counted from the right) is nonzero and either a divisor or a multiple of k, for all 1 <= k <= number of digits of n.",
+  "id": "A069570",
+  "mentions": [
+    "A069571"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k>0 such that at least two primes exist that are not less than n-k and not greater than n+k.",
+  "id": "A093032",
+  "mentions": [
+    "A000720"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

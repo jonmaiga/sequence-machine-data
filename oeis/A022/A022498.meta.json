@@ -1,0 +1,16 @@
+{
+  "description": "Conjectured number of irreducible multiple zeta values of depth 10 and weight 2n+28.",
+  "id": "A022498",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:13:07",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

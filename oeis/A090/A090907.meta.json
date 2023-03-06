@@ -1,0 +1,20 @@
+{
+  "description": "Ratio of products of successive rows of the irregular triangle defined in A090905.",
+  "id": "A090907",
+  "mentions": [
+    "A006992",
+    "A090904",
+    "A090905",
+    "A090906"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

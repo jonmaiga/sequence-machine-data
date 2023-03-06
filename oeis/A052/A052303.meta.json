@@ -1,0 +1,24 @@
+{
+  "description": "Number of asymmetric Greg trees.",
+  "id": "A052303",
+  "mentions": [
+    "A005263",
+    "A005264",
+    "A048159",
+    "A048160",
+    "A052300",
+    "A052301",
+    "A052302"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

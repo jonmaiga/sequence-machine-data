@@ -1,0 +1,43 @@
+{
+  "description": "Number of n-step walks on a line starting from the origin but not returning to it.",
+  "id": "A063886",
+  "mentions": [
+    "A000108",
+    "A000712",
+    "A000984",
+    "A001405",
+    "A001700",
+    "A002420",
+    "A006232",
+    "A007877",
+    "A026010",
+    "A028329",
+    "A045931",
+    "A047073",
+    "A097613",
+    "A106180",
+    "A120617",
+    "A130777",
+    "A130780",
+    "A164584",
+    "A171966",
+    "A182027",
+    "A239241",
+    "A300787",
+    "A300788",
+    "A300789",
+    "A307768"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

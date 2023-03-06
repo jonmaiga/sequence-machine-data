@@ -1,0 +1,21 @@
+{
+  "description": "A073259(n)=3: the length of iteration transient leading to n-th composite number equals 3.",
+  "id": "A073320",
+  "mentions": [
+    "A002808",
+    "A073259"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

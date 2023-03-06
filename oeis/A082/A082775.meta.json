@@ -1,0 +1,25 @@
+{
+  "description": "Convolution of natural numbers >= 2 and the partition numbers (A000041).",
+  "id": "A082775",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A023548",
+    "A126442",
+    "A182738",
+    "A346426",
+    "A346822"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 16:11:10",
+    "offset": 2,
+    "size": 39,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (n-1, n+1) and (n/2-1, n/2+1) are both pairs of twin primes.",
+  "id": "A076504",
+  "mentions": [
+    "A066388"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

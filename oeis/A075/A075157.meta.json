@@ -1,0 +1,34 @@
+{
+  "description": "Run lengths in the binary expansion of n gives the vector of exponents in prime factorization of a(n)+1, with the least significant run corresponding to the exponent of the least prime, 2; with one subtracted from each run length, except for the most significant run of 1's.",
+  "id": "A075157",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000975",
+    "A003961",
+    "A005811",
+    "A006093",
+    "A007088",
+    "A008578",
+    "A030308",
+    "A056539",
+    "A059900",
+    "A075158",
+    "A075159",
+    "A075162",
+    "A278217",
+    "A286468",
+    "A286617"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes that are the sum of two squares and which set a record for the gap to the next prime of that form.",
+  "id": "A084161",
+  "mentions": [
+    "A002313",
+    "A084160",
+    "A084162",
+    "A268963"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

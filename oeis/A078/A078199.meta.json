@@ -1,0 +1,18 @@
+{
+  "description": "Smallest multiple of n (for n >= 100) in which frequency of each occurring digit is the same.",
+  "id": "A078199",
+  "mentions": [
+    "A078200"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 100,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

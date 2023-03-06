@@ -1,0 +1,17 @@
+{
+  "description": "Minimal number of smaller integer-sided squares that tile an n X n square.",
+  "id": "A018835",
+  "mentions": [
+    "A211302"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

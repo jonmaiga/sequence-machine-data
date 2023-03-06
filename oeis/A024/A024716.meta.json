@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{1 <= j <= i <= n} S(i,j), where S(i,j) are Stirling numbers of the second kind.",
+  "id": "A024716",
+  "mentions": [
+    "A000110",
+    "A005001",
+    "A101908",
+    "A137649"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

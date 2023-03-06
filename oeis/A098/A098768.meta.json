@@ -1,0 +1,22 @@
+{
+  "description": "Deficient numbers whose reversal is an abundant number.",
+  "id": "A098768",
+  "mentions": [
+    "A004086",
+    "A005100",
+    "A005101",
+    "A098770"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

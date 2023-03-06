@@ -1,0 +1,21 @@
+{
+  "description": "Number of maximally 2-constrained walks on square lattice trapped after n steps.",
+  "id": "A078527",
+  "mentions": [
+    "A001411",
+    "A076874",
+    "A077482",
+    "A078528"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 7,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

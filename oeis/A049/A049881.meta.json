@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of distinct sums of 3 different primes chosen from the first n primes.",
+  "id": "A049881",
+  "mentions": [
+    "A000040",
+    "A049880",
+    "A049882",
+    "A253250"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:21",
+    "offset": 3,
+    "size": 62,
+    "source": "joeis"
+  }
+}

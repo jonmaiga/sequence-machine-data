@@ -1,0 +1,23 @@
+{
+  "description": "Periodic with period 3: a(3n)=3, a(3n+1)=a(3n+2)=2.",
+  "id": "A052901",
+  "mentions": [
+    "A047390",
+    "A069705",
+    "A144437",
+    "A176979",
+    "A208131"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:05:39",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Deletable primes: primes such that removing some digit leaves either the empty string or another deletable prime (possibly preceded by some zeros).",
+  "id": "A080608",
+  "mentions": [
+    "A080603",
+    "A096235",
+    "A096246",
+    "A179336",
+    "A305352"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

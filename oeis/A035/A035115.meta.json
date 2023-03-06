@@ -1,0 +1,24 @@
+{
+  "description": "Relative class number h- of cyclotomic field Q(zeta_m) where m is n-th term of A035113.",
+  "id": "A035115",
+  "mentions": [
+    "A000010",
+    "A035113",
+    "A035114",
+    "A055513",
+    "A061494",
+    "A061653"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

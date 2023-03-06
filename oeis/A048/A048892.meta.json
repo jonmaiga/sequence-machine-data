@@ -1,0 +1,17 @@
+{
+  "description": "Start of n consecutive integers with distinct number of divisors.",
+  "id": "A048892",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

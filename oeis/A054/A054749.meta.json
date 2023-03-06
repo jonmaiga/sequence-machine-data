@@ -1,0 +1,17 @@
+{
+  "description": "Number of inequivalent connected n-state 1-input n-output automata.",
+  "id": "A054749",
+  "mentions": [
+    "A054748"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

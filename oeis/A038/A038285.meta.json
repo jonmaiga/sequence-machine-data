@@ -1,0 +1,21 @@
+{
+  "description": "Triangle whose (i,j)-th entry is binomial(i,j)*8^(i-j)*7^j.",
+  "id": "A038285",
+  "mentions": [
+    "A038207",
+    "A038233"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:44:53",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

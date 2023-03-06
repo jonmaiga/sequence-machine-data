@@ -1,0 +1,21 @@
+{
+  "description": "Number of 1's in binary expansion of 3n+1.",
+  "id": "A046818",
+  "mentions": [
+    "A000120",
+    "A016777",
+    "A240883"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

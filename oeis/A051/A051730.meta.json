@@ -1,0 +1,27 @@
+{
+  "description": "Distance from A051650(n) to nearest prime.",
+  "id": "A051730",
+  "mentions": [
+    "A023186",
+    "A023188",
+    "A046929",
+    "A046931",
+    "A051650",
+    "A051652",
+    "A051697",
+    "A051702",
+    "A051728"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

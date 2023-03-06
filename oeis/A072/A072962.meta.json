@@ -1,0 +1,18 @@
+{
+  "description": "Unsigned reduced Euler characteristic for the matroid complex of cycle matroid for complete bipartite graph K_{n,n}.",
+  "id": "A072962",
+  "mentions": [
+    "A057817"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

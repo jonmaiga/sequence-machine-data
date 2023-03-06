@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of primes that can be formed by adding 1 to the product of any subset of the divisors of n.",
+  "id": "A084419",
+  "mentions": [
+    "A119607"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

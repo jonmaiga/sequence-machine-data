@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that x^29 = 2 has no solution mod p.",
+  "id": "A059256",
+  "mentions": [
+    "A000040",
+    "A049561"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p having no partition into distinct divisors of p+1.",
+  "id": "A085497",
+  "mentions": [
+    "A085492",
+    "A085496",
+    "A085498"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

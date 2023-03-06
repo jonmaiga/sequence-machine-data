@@ -1,0 +1,30 @@
+{
+  "description": "At these values of n the first, 2nd and 3rd cyclotomic polynomials all give prime numbers.",
+  "id": "A070020",
+  "mentions": [
+    "A000068",
+    "A005574",
+    "A006313",
+    "A006316",
+    "A056993",
+    "A056995",
+    "A057002",
+    "A057465",
+    "A070025",
+    "A070042",
+    "A070155",
+    "A070157"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

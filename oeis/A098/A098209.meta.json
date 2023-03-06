@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A067275(n+1)^2 - 1.",
+  "id": "A098209",
+  "mentions": [
+    "A067275",
+    "A096507"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:12:15",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

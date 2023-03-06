@@ -1,0 +1,18 @@
+{
+  "description": "Records in the numbers of antichains in the divisor lattice D(n) (A096827).",
+  "id": "A097699",
+  "mentions": [
+    "A096827"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

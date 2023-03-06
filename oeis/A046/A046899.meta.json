@@ -1,0 +1,29 @@
+{
+  "description": "Triangle in which n-th row is {binomial(n+k,k), k=0..n}, n >= 0.",
+  "id": "A046899",
+  "mentions": [
+    "A001700",
+    "A007318",
+    "A007680",
+    "A034868",
+    "A046900",
+    "A092392",
+    "A092566",
+    "A178300",
+    "A239103"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of divisors of n that do not exceed the abundance of n.",
+  "id": "A089371",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000396",
+    "A001065",
+    "A005100",
+    "A005101",
+    "A033880"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

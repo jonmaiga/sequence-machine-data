@@ -1,0 +1,18 @@
+{
+  "description": "Palindromic primes with middle digit 6.",
+  "id": "A082442",
+  "mentions": [
+    "A002385"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

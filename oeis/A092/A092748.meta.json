@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Pi^(-8).",
+  "id": "A092748",
+  "mentions": [
+    "A000796",
+    "A049541",
+    "A092736"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

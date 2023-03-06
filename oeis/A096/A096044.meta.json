@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (n+1,k)-th element of (M^10-M)/9, where M is the infinite lower Pascal's triangle matrix, 1<=k<=n.",
+  "id": "A096044",
+  "mentions": [
+    "A000042",
+    "A007318",
+    "A016135",
+    "A096034",
+    "A096035",
+    "A096039",
+    "A096040",
+    "A096041",
+    "A096042",
+    "A096043"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

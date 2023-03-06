@@ -1,0 +1,21 @@
+{
+  "description": "Abjad values of the Arabic letters in the traditional order for abjad calculations.",
+  "id": "A071061",
+  "mentions": [
+    "A037124",
+    "A051596"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

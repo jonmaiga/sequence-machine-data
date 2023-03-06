@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{ d divides n, n/d=1 mod 4} d.",
+  "id": "A050460",
+  "mentions": [
+    "A001826",
+    "A050449"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

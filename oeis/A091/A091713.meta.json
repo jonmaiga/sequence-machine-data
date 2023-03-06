@@ -1,0 +1,24 @@
+{
+  "description": "G.f. satisfies A(x) = x + x*A(A(A(x))).",
+  "id": "A091713",
+  "mentions": [
+    "A002449",
+    "A030266",
+    "A087949",
+    "A088714",
+    "A088717",
+    "A120971",
+    "A141117"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

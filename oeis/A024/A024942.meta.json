@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n into distinct primes of the form 4k + 3.",
+  "id": "A024942",
+  "mentions": [
+    "A024941"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

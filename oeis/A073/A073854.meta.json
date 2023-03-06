@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, a(n) = prime equal to n-th partial sum of A073852.",
+  "id": "A073854",
+  "mentions": [
+    "A073852"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

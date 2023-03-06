@@ -1,0 +1,31 @@
+{
+  "description": "Square array: T(n,k) gives n-th number a such that a^(2^k)+1 is prime (a generalized Fermat).",
+  "id": "A087738",
+  "mentions": [
+    "A000068",
+    "A005574",
+    "A006093",
+    "A006313",
+    "A006314",
+    "A006315",
+    "A006316",
+    "A056993",
+    "A056994",
+    "A056995",
+    "A057002",
+    "A057465",
+    "A088361",
+    "A088362"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

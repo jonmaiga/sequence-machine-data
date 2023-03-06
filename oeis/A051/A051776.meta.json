@@ -1,0 +1,23 @@
+{
+  "description": "Table T(n,m) = Nim-product of n and m, read by antidiagonals, for n >= 1, m >= 1.",
+  "id": "A051776",
+  "mentions": [
+    "A003987",
+    "A051775",
+    "A051910"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:58:19",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

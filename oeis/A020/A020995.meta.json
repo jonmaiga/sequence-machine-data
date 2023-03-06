@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the sum of the digits of Fibonacci(k) is k.",
+  "id": "A020995",
+  "mentions": [
+    "A000045",
+    "A004090",
+    "A067515"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

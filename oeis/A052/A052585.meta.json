@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. 1/(1-x-2*x^2).",
+  "id": "A052585",
+  "mentions": [
+    "A001045",
+    "A005442",
+    "A052563",
+    "A080599"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

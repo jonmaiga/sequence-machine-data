@@ -1,0 +1,23 @@
+{
+  "description": "Stirling numbers of first kind, s(n+5, n).",
+  "id": "A053567",
+  "mentions": [
+    "A001303",
+    "A112002",
+    "A112007",
+    "A112486",
+    "A130534"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:09:39",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "One eighth of 9-factorial numbers.",
+  "id": "A035022",
+  "mentions": [
+    "A007559",
+    "A034000",
+    "A034171",
+    "A035012",
+    "A035013",
+    "A035017",
+    "A035018",
+    "A035020",
+    "A035021",
+    "A035023",
+    "A045756",
+    "A049211"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

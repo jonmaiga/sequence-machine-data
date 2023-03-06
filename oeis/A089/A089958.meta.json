@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of n in which every part occurs 2, 3, or 5 times.",
+  "id": "A089958",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:07:25",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

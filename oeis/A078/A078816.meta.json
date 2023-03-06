@@ -1,0 +1,18 @@
+{
+  "description": "Maximum element in the continued fraction for (1/n)*sum(k>=0,1/2^2^k).",
+  "id": "A078816",
+  "mentions": [
+    "A007400"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

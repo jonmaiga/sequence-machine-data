@@ -1,0 +1,21 @@
+{
+  "description": "Primes for which some rearrangement of the digits (leading zeros not allowed) is the product of two consecutive primes.",
+  "id": "A053652",
+  "mentions": [
+    "A014575",
+    "A053653",
+    "A053736"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:10:15",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

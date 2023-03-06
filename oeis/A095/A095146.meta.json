@@ -1,0 +1,21 @@
+{
+  "description": "Even binomial coefficients: C(n,k), 2 <= k <= n-2, sorted, duplicates removed.",
+  "id": "A095146",
+  "mentions": [
+    "A006987",
+    "A007318",
+    "A047999",
+    "A095147"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

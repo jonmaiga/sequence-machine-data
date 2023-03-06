@@ -1,0 +1,28 @@
+{
+  "description": "If n = Sum c_i 10^i then a(n) = Sum c_i 2^i.",
+  "id": "A028897",
+  "mentions": [
+    "A007088",
+    "A072170",
+    "A081594",
+    "A122618",
+    "A244158",
+    "A249873",
+    "A322000"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

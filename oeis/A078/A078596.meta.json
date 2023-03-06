@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that there is at least one pair (x,y) 1 <= x <= y <= m such that 1/x + 1/y + 1/m = 1/phi(m).",
+  "id": "A078596",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

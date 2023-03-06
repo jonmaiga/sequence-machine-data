@@ -1,0 +1,17 @@
+{
+  "description": "Primes which are the sum of three positive 4th powers.",
+  "id": "A085318",
+  "mentions": [
+    "A003337"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

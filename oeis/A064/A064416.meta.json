@@ -1,0 +1,19 @@
+{
+  "description": "Number of integers q such that phiter(q)=n where phiter(n) = A064415(n).",
+  "id": "A064416",
+  "mentions": [
+    "A000010",
+    "A064415"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

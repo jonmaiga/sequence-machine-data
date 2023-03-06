@@ -1,0 +1,25 @@
+{
+  "description": "Number of integer solutions (x,y,z) to 4/n = 1/x + 1/y + 1/z satisfying 0 < x < y < z.",
+  "id": "A073101",
+  "mentions": [
+    "A075245",
+    "A075246",
+    "A075247",
+    "A075248",
+    "A192787",
+    "A257839",
+    "A257840",
+    "A257841",
+    "A257843"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

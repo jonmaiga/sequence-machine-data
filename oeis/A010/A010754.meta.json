@@ -1,0 +1,19 @@
+{
+  "description": "Sum along upward diagonal of Pascal triangle to halfway point.",
+  "id": "A010754",
+  "mentions": [
+    "A000045",
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

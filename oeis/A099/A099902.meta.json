@@ -1,0 +1,24 @@
+{
+  "description": "Multiplies by 2 and shifts right under the XOR BINOMIAL transform (A099901).",
+  "id": "A099902",
+  "mentions": [
+    "A047999",
+    "A099884",
+    "A099900",
+    "A099901",
+    "A101624",
+    "A106344"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

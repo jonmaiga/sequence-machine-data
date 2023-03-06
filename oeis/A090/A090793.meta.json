@@ -1,0 +1,20 @@
+{
+  "description": "Minimal numbers n such that numerator(Bernoulli(2*n)/(2*n)) is different from numerator(Bernoulli(2*n)/(2*n*(2*n-r))) for some integer r and the first m irregular primes including irregularity index > 1.",
+  "id": "A090793",
+  "mentions": [
+    "A001067",
+    "A090495",
+    "A090496"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

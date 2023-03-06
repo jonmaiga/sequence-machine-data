@@ -1,0 +1,16 @@
+{
+  "description": "Triangular array T read by rows: T(n,k)=number of nonzero remainders when Euclidean algorithm acts on primes p(n) and p(k), k=1,2,...,n-1; n=2,3,4,...",
+  "id": "A049843",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:47",
+    "offset": 2,
+    "size": 86,
+    "source": "joeis"
+  }
+}

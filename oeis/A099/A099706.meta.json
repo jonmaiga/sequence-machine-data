@@ -1,0 +1,24 @@
+{
+  "description": "Consider the family of directed multigraphs enriched by the species of directed graphs. Sequence gives number of those multigraphs with n labeled loops and arcs.",
+  "id": "A099706",
+  "mentions": [
+    "A002416",
+    "A014507",
+    "A038205",
+    "A098622",
+    "A099704",
+    "A099705",
+    "A099707"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

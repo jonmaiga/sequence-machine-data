@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) = (k/n)*Sum_{d|n} A096797(d,k).",
+  "id": "A096798",
+  "mentions": [
+    "A000041",
+    "A008284",
+    "A096797"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "A Fibonacci sequence with \"corrections\" at every third step: -++-++-++-++-++..., i.e., at every 3rd step there is a subtraction instead of an addition.",
+  "id": "A092942",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:20:17",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

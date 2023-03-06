@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Gamma(1/4)^4/(4*Pi^3).",
+  "id": "A091670",
+  "mentions": [
+    "A000796",
+    "A068465",
+    "A091671",
+    "A091672",
+    "A175574",
+    "A277232",
+    "A293238"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

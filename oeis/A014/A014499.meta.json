@@ -1,0 +1,31 @@
+{
+  "description": "Number of 1's in binary representation of n-th prime.",
+  "id": "A014499",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A004676",
+    "A027697",
+    "A027699",
+    "A035100",
+    "A035103",
+    "A049084",
+    "A061712",
+    "A072084",
+    "A090455",
+    "A180024"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Sort the digits of these triangular numbers into descending order and drop zeros to get primes.",
+  "id": "A082923",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

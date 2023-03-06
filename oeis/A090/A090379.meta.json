@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = abs(floor((pi(n)-2)/(2-pi(n)+pi(n-1)))), where pi(n) is A000720(n).",
+  "id": "A090379",
+  "mentions": [
+    "A000720"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

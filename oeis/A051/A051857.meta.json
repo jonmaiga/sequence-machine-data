@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that (n!)^2-n!+1 is prime.",
+  "id": "A051857",
+  "mentions": [
+    "A002981",
+    "A002982",
+    "A046029",
+    "A051856"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

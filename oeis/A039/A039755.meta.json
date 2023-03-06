@@ -1,0 +1,31 @@
+{
+  "description": "Triangle of B-analogs of Stirling numbers of the second kind.",
+  "id": "A039755",
+  "mentions": [
+    "A007405",
+    "A008277",
+    "A035342",
+    "A039756",
+    "A039757",
+    "A048993",
+    "A105794",
+    "A111577",
+    "A122848",
+    "A143494",
+    "A145901",
+    "A154537",
+    "A214406"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

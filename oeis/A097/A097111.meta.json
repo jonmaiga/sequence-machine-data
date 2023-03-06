@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1 + 3x - 2x^2 - 12x^3)/(1 - 9x^2 + 20x^4).",
+  "id": "A097111",
+  "mentions": [
+    "A005053",
+    "A193656"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:50:39",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

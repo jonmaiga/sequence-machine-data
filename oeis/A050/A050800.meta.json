@@ -1,0 +1,17 @@
+{
+  "description": "Values of n^2 + 1 resulting from A050796.",
+  "id": "A050800",
+  "mentions": [
+    "A050796"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:50:27",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

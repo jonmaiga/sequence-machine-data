@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n not palindromic in any base b, 2 <= b <= 10.",
+  "id": "A050813",
+  "mentions": [
+    "A016038",
+    "A047811",
+    "A050812",
+    "A214423",
+    "A214424",
+    "A214425",
+    "A214426"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

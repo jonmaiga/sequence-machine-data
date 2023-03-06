@@ -1,0 +1,19 @@
+{
+  "description": "Squares on infinite chessboard at n moves from center using a {2,3} fairy knight.",
+  "id": "A018839",
+  "mentions": [
+    "A297740"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:54:11",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of unitary prime divisors of central binomial coefficient C(n, floor(n/2)) (A001405).",
+  "id": "A056173",
+  "mentions": [
+    "A001221",
+    "A001405",
+    "A034444",
+    "A034973",
+    "A056175"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

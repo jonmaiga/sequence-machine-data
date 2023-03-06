@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 1, a(1) = 1, a(n+1) = (n+1)*a(n) + n.",
+  "id": "A020543",
+  "mentions": [
+    "A033312",
+    "A052898",
+    "A173316",
+    "A173317",
+    "A173321",
+    "A173323"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

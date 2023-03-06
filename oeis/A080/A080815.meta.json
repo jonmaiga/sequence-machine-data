@@ -1,0 +1,19 @@
+{
+  "description": "Successive strings in the construction of the Thue-Morse sequence A001285.",
+  "id": "A080815",
+  "mentions": [
+    "A001285",
+    "A080814"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

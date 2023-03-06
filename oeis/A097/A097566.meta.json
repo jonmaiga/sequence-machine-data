@@ -1,0 +1,29 @@
+{
+  "description": "Number of partitions p of n for which Odd(p) = Odd(p') (mod 4), where p' is the conjugate of p.",
+  "id": "A097566",
+  "mentions": [
+    "A000041",
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A085261",
+    "A097567",
+    "A112128",
+    "A121373",
+    "A144558",
+    "A190101"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:43:39",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

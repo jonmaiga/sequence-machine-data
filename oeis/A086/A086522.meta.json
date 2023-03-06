@@ -1,0 +1,18 @@
+{
+  "description": "Primes arising as the arithmetic mean of a pair of successive terms of A086519.",
+  "id": "A086522",
+  "mentions": [
+    "A086519"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Which squarefree number is prime? a(n)-th squarefree number equals n-th prime.",
+  "id": "A071403",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A005117",
+    "A013928",
+    "A013929"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

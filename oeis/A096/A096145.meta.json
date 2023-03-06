@@ -1,0 +1,22 @@
+{
+  "description": "Sum of digits in Pascal's triangle (A007318) in decimal representation, triangle read by rows, 0<=k<=n.",
+  "id": "A096145",
+  "mentions": [
+    "A007318",
+    "A007953",
+    "A242311",
+    "A242312"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

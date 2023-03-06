@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the prime power divisors of n (not including 1).",
+  "id": "A023889",
+  "mentions": [
+    "A001221",
+    "A023888"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

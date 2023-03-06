@@ -1,0 +1,20 @@
+{
+  "description": "Numbers equal to exactly twice the sum of the products of each of their digits.",
+  "id": "A085445",
+  "mentions": [
+    "A085444"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Union of primes and numbers that are not prime powers (A000040, A024619).",
+  "id": "A085971",
+  "mentions": [
+    "A000040",
+    "A007916",
+    "A024619",
+    "A025475",
+    "A052485",
+    "A085818",
+    "A085972"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:20:25",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

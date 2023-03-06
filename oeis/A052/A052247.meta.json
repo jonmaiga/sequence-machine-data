@@ -1,0 +1,19 @@
+{
+  "description": "Maximal value of smallest prime divisors of the 5 composite numbers between A031924(n) and A031925(n).",
+  "id": "A052247",
+  "mentions": [
+    "A031924",
+    "A031925",
+    "A052158"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:02:21",
+    "offset": 1,
+    "size": 89,
+    "source": "joeis"
+  }
+}

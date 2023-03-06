@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of triangle A091173, in which the n-th row lists the coefficients of the polynomial that generates the n-th diagonal.",
+  "id": "A091175",
+  "mentions": [
+    "A091173",
+    "A091174"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

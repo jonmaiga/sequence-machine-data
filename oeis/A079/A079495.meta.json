@@ -1,0 +1,21 @@
+{
+  "description": "Let b=3. Sum of squares of digits in base b gives 0 (mod b).",
+  "id": "A079495",
+  "mentions": [
+    "A001969",
+    "A006287",
+    "A075311"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

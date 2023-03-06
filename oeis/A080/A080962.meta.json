@@ -1,0 +1,21 @@
+{
+  "description": "5th binomial transform of the periodic sequence (1,6,1,1,6,1...).",
+  "id": "A080962",
+  "mentions": [
+    "A080960",
+    "A080961",
+    "A081033"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

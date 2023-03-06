@@ -1,0 +1,24 @@
+{
+  "description": "Number of n-dimensional torsion-free crystallographic groups with trivial center.",
+  "id": "A059105",
+  "mentions": [
+    "A004027",
+    "A004028",
+    "A004029",
+    "A006226",
+    "A059104"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

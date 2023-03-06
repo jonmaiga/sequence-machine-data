@@ -1,0 +1,18 @@
+{
+  "description": "A066728(a(n))=3.",
+  "id": "A066774",
+  "mentions": [
+    "A066728"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

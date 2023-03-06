@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Michael Trott's constant: continued fraction expansion (allowing 0's) begins in same way as decimal expansion.",
+  "id": "A039662",
+  "mentions": [
+    "A039663",
+    "A091694",
+    "A113307",
+    "A114376",
+    "A169670"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

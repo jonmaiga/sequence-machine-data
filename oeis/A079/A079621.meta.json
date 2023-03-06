@@ -1,0 +1,24 @@
+{
+  "description": "Matrix square of unsigned Lah triangle abs(A008297(n,k)) or A105278(n,k).",
+  "id": "A079621",
+  "mentions": [
+    "A002866",
+    "A008297",
+    "A025168",
+    "A048993",
+    "A105278",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

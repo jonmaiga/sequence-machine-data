@@ -1,0 +1,26 @@
+{
+  "description": "Number of ordered (i.e., planar) trees on 2n edges with every subtree at the root having an even number of edges.",
+  "id": "A066357",
+  "mentions": [
+    "A000108",
+    "A001448",
+    "A005900",
+    "A078990",
+    "A079489",
+    "A079513",
+    "A274644",
+    "A274763"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

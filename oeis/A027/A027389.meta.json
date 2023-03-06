@@ -1,0 +1,25 @@
+{
+  "description": "Write decimal digits for n, count endpoints (version 4).",
+  "id": "A027389",
+  "mentions": [
+    "A027386",
+    "A027387",
+    "A027388",
+    "A055642",
+    "A100910",
+    "A102683",
+    "A268643"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:33:45",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

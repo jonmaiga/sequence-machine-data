@@ -1,0 +1,23 @@
+{
+  "description": "n is such that partial sum of pi(k) from 1 to n is divisible by n.",
+  "id": "A073162",
+  "mentions": [
+    "A000720",
+    "A046992",
+    "A073163",
+    "A073164",
+    "A073224"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

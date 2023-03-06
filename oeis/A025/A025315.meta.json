@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are the sum of 2 distinct nonzero squares in 5 or more ways.",
+  "id": "A025315",
+  "mentions": [
+    "A025296"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

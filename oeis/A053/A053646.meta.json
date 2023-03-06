@@ -1,0 +1,26 @@
+{
+  "description": "Distance to nearest power of 2.",
+  "id": "A053646",
+  "mentions": [
+    "A002450",
+    "A006165",
+    "A053188",
+    "A060973",
+    "A081134",
+    "A081252",
+    "A081253",
+    "A081254"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

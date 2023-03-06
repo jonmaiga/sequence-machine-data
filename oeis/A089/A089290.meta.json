@@ -1,0 +1,23 @@
+{
+  "description": "Digital root of floor(Pi*10^n), Pi=3.14....",
+  "id": "A089290",
+  "mentions": [
+    "A000796",
+    "A010888",
+    "A011545",
+    "A046974"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

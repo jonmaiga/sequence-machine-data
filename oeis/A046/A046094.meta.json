@@ -1,0 +1,18 @@
+{
+  "description": "Agoh's congruence; a(n) is conjectured to be 1 iff n is prime.",
+  "id": "A046094",
+  "mentions": [
+    "A228037"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:19",
+    "offset": 1,
+    "size": 98,
+    "source": "joeis"
+  }
+}

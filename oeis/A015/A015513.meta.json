@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1, a(n) = sum_{k=1}^{k=n-1} (11^k-1)/10 a(k).",
+  "id": "A015513",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:23:22",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

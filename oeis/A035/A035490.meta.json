@@ -1,0 +1,25 @@
+{
+  "description": "Step at which card n appears on top of deck for first time in Guy's shuffling problem A035485.",
+  "id": "A035490",
+  "mentions": [
+    "A035485",
+    "A035491",
+    "A035494",
+    "A057983",
+    "A057984",
+    "A060750",
+    "A060751",
+    "A060752"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

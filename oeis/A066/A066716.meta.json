@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the binary Champernowne constant 0.862240125868... whose binary expansion is the concatenation of 1, 2, 3, ... written in binary.",
+  "id": "A066716",
+  "mentions": [
+    "A007088",
+    "A030190",
+    "A030302",
+    "A030303",
+    "A033307",
+    "A047778",
+    "A066717",
+    "A100125"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:40:13",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

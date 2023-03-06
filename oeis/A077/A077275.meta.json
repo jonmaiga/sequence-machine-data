@@ -1,0 +1,19 @@
+{
+  "description": "Least number which can be represented by the difference between two successive powers of a prime but not a prime (A077273) in just n ways.",
+  "id": "A077275",
+  "mentions": [
+    "A025475",
+    "A077273"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

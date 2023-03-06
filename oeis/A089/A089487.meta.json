@@ -1,0 +1,19 @@
+{
+  "description": "The third-smallest prime of the form (p-prime(n))/(prime(n)-1), where p is also prime.",
+  "id": "A089487",
+  "mentions": [
+    "A089452",
+    "A089486"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

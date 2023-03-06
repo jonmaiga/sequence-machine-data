@@ -1,0 +1,20 @@
+{
+  "description": "Last term in n-th row of A080504.",
+  "id": "A080505",
+  "mentions": [
+    "A080504",
+    "A080506",
+    "A080507",
+    "A081556"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

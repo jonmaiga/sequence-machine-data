@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that (phi(n) + 1) | sigma(n + 1), where phi is Euler's totient function A000010.",
+  "id": "A015775",
+  "mentions": [
+    "A000010",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

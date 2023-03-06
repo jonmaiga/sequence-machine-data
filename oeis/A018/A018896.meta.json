@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = ( a(n-1)*a(n-7) + a(n-4)^2 ) / a(n-8); a(0) = ... = a(7) = 1.",
+  "id": "A018896",
+  "mentions": [
+    "A006125",
+    "A006720",
+    "A102276"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "F(P(n)), where F(n) = Fibonacci numbers A000045, P(n) = Pell numbers A000129.",
+  "id": "A081322",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A081323"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

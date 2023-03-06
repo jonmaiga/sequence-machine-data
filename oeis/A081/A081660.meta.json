@@ -1,0 +1,20 @@
+{
+  "description": "n+A001045(n+1).",
+  "id": "A081660",
+  "mentions": [
+    "A001045",
+    "A081659"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

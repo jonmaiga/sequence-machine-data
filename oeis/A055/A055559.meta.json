@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 2999...999.",
+  "id": "A055559",
+  "mentions": [
+    "A051200"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

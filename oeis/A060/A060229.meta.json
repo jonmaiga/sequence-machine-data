@@ -1,0 +1,31 @@
+{
+  "description": "Smaller member of a twin prime pair whose mean is a multiple of A002110(3)=30.",
+  "id": "A060229",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A002110",
+    "A060230",
+    "A060231",
+    "A132236",
+    "A132243",
+    "A132247",
+    "A158277",
+    "A158861",
+    "A282321",
+    "A282322",
+    "A282323",
+    "A282324",
+    "A282326"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

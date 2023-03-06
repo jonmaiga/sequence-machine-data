@@ -1,0 +1,48 @@
+{
+  "description": "Irregular triangle read by rows giving coefficients in expansion of Product_{k=1..n} (1 + x^k).",
+  "id": "A053632",
+  "mentions": [
+    "A000009",
+    "A000079",
+    "A000124",
+    "A000980",
+    "A001788",
+    "A002703",
+    "A025591",
+    "A028362",
+    "A029931",
+    "A033999",
+    "A053633",
+    "A063865",
+    "A068009",
+    "A068052",
+    "A068053",
+    "A152947",
+    "A219977",
+    "A231599",
+    "A264034",
+    "A285101",
+    "A285103",
+    "A285105",
+    "A291983",
+    "A291984",
+    "A291985",
+    "A318283",
+    "A358194",
+    "A359042"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

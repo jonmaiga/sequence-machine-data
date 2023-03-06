@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways a river can cross a road 2n times.",
+  "id": "A077054",
+  "mentions": [
+    "A005315",
+    "A005316",
+    "A085873",
+    "A086031"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

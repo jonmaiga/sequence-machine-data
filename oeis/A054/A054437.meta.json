@@ -1,0 +1,15 @@
+{
+  "description": "Maximal subscripts within generalized Fibonacci sequence containing n.",
+  "id": "A054437",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

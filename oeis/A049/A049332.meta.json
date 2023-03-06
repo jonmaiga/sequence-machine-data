@@ -1,0 +1,22 @@
+{
+  "description": "Number of conjugacy classes in Clifford group CL(n).",
+  "id": "A049332",
+  "mentions": [
+    "A000975",
+    "A014551",
+    "A101622"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

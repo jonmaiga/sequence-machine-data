@@ -1,0 +1,20 @@
+{
+  "description": "Sum of digits of n equals the sum of digits of 2n.",
+  "id": "A070279",
+  "mentions": [
+    "A007953",
+    "A010888"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

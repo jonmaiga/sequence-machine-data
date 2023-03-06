@@ -1,0 +1,16 @@
+{
+  "description": "Smallest nontrivial multiple of n with each digit occurring with the same frequency >1. By nontrivial we mean a(n) is not a concatenation of n with itself.",
+  "id": "A087396",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

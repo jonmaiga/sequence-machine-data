@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions in parts not of the form 9k, 9k+1 or 9k-1. Also number of partitions with no part of size 1 and differences between parts at distance 3 are greater than 1.",
+  "id": "A035940",
+  "mentions": [
+    "A035937"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:23:43",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Lower triangular matrix, read by rows: T(i,j) = number of ways i seats can be occupied by any number k (0<=k<=j<=i) of persons.",
+  "id": "A086885",
+  "mentions": [
+    "A000262",
+    "A002061",
+    "A002720",
+    "A052852",
+    "A062147",
+    "A062192",
+    "A062266",
+    "A088699",
+    "A176120",
+    "A247158"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of consecutive prime runs of 9 primes congruent to 1 mod 4 below 10^n.",
+  "id": "A092660",
+  "mentions": [
+    "A092661",
+    "A092662",
+    "A162865"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

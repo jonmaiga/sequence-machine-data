@@ -1,0 +1,26 @@
+{
+  "description": "Minimal sequence such that all triples of consecutive numbers have no common divisor greater than 1, but all three pairs within the triples are not coprime.",
+  "id": "A095678",
+  "mentions": [
+    "A001221",
+    "A003586",
+    "A003592",
+    "A003593",
+    "A006530",
+    "A020639",
+    "A033845",
+    "A033846",
+    "A033849"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

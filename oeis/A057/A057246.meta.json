@@ -1,0 +1,18 @@
+{
+  "description": "s=0; d is divisor of n [here d<= n/d)]; if gcd(d,n/d)=1 or gcd(d,n/d)=d then s=s+d+(n/d); [if d=n/d then s=s+d]: The sequence contains composite n for which s = 2*n.",
+  "id": "A057246",
+  "mentions": [
+    "A060866"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

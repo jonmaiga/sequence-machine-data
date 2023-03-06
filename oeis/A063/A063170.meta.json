@@ -1,0 +1,29 @@
+{
+  "description": "Schenker sums with n-th term.",
+  "id": "A063170",
+  "mentions": [
+    "A000120",
+    "A000169",
+    "A000312",
+    "A003308",
+    "A036505",
+    "A063169",
+    "A090878",
+    "A120266",
+    "A134095",
+    "A214402",
+    "A219546"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

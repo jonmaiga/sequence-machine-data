@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = 1 if n > 0, a(n) = 0 if n = 0; series expansion of x/(1-x).",
+  "id": "A057427",
+  "mentions": [
+    "A000004",
+    "A000007",
+    "A000012",
+    "A000027",
+    "A000040",
+    "A001065",
+    "A048050",
+    "A063524",
+    "A152487",
+    "A261012"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:37:45",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

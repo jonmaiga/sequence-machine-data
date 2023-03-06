@@ -1,0 +1,18 @@
+{
+  "description": "Square spiral sequence: numbers are placed in a square spiral, a(1)=1, a(n) is found as the sum of the row (in the previous direction) a(n-1) is in.",
+  "id": "A062410",
+  "mentions": [
+    "A063177",
+    "A063178"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

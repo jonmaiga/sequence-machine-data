@@ -1,0 +1,25 @@
+{
+  "description": "Next prime associated with A091628.",
+  "id": "A091631",
+  "mentions": [
+    "A007918",
+    "A089823",
+    "A091628",
+    "A091629",
+    "A091630",
+    "A091632"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

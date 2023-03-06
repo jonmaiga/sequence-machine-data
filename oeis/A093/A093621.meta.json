@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k>0 such that n!/k!+1 is prime.",
+  "id": "A093621",
+  "mentions": [
+    "A002981",
+    "A093437",
+    "A093623"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

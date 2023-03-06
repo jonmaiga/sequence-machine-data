@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} binomial(n-k+4, k).",
+  "id": "A099572",
+  "mentions": [
+    "A000045",
+    "A052952",
+    "A054450",
+    "A054451",
+    "A099571"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

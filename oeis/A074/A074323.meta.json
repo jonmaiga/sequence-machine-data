@@ -1,0 +1,24 @@
+{
+  "description": "Coefficient of the highest power of q in the expansion of nu(0)=1, nu(1)=b and for n>=2, nu(n)=b*nu(n-1)+lambda*(n-1)_q*nu(n-2) with (b,lambda)=(1,2), where (n)_q=(1+q+...+q^(n-1)) and q is a root of unity.",
+  "id": "A074323",
+  "mentions": [
+    "A000079",
+    "A001045",
+    "A002620",
+    "A010684",
+    "A016116",
+    "A131577"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:09:28",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

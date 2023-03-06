@@ -1,0 +1,25 @@
+{
+  "description": "Denominator of sigma_3(n)/sigma_2(n).",
+  "id": "A091260",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A001158",
+    "A001844",
+    "A091258",
+    "A091259",
+    "A298754"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

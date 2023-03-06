@@ -1,0 +1,26 @@
+{
+  "description": "Primes p such that B(4*p) has denominator 30 where B(2n) are the Bernoulli numbers.",
+  "id": "A043297",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A005384",
+    "A023212",
+    "A051225",
+    "A053176",
+    "A087634",
+    "A112954",
+    "A210684"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

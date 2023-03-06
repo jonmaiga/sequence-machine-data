@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of (1-x)/(1-x-x^2-2*x^3+2*x^4).",
+  "id": "A052546",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

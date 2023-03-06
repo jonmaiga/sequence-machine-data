@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = smallest prime(k) not equal to prime(n) and not included earlier, such that A001223(k) = A001223(n), i.e., prime(k+1) - prime(k) = prime(n+1) - prime(n).",
+  "id": "A085910",
+  "mentions": [
+    "A001223",
+    "A085909"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

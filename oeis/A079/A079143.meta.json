@@ -1,0 +1,20 @@
+{
+  "description": "Numbers divisible by prime ceilings of their square roots + 1.",
+  "id": "A079143",
+  "mentions": [
+    "A001248",
+    "A036689"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

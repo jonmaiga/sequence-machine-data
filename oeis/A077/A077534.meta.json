@@ -1,0 +1,18 @@
+{
+  "description": "Multiples of 4 using only prime digits (2, 3, 5 and 7).",
+  "id": "A077534",
+  "mentions": [
+    "A077533"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

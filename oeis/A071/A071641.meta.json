@@ -1,0 +1,21 @@
+{
+  "description": "a(n) defined by recursion in the formula section.",
+  "id": "A071641",
+  "mentions": [
+    "A000040",
+    "A072003"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

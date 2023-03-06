@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that every genus of binary quadratic forms of discriminant -4n consists of a single class and the class number h(-4n) = 4.",
+  "id": "A033267",
+  "mentions": [
+    "A000926",
+    "A033266",
+    "A033268",
+    "A033269"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

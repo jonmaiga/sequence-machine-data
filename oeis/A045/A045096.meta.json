@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n with property that in base 4 representation the numbers of 1's and 2's are 2 and 1, respectively.",
+  "id": "A045096",
+  "mentions": [
+    "A007090"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

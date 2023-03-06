@@ -1,0 +1,18 @@
+{
+  "description": "Let S = 12345678901234567890123456..., the cyclic concatenation of digits; partition this string into distinct squarefree numbers. To avoid leading zeros, no member may end with the digit 9.",
+  "id": "A085944",
+  "mentions": [
+    "A085943"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

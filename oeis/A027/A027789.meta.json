@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2*(n+1)*binomial(n+3,4).",
+  "id": "A027789",
+  "mentions": [
+    "A006470",
+    "A289792",
+    "A289793",
+    "A289794"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:29",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Maximal elements of pairs of \"Super Unitary Amicable Numbers\", sorted by their minimal elements.",
+  "id": "A045614",
+  "mentions": [
+    "A034448",
+    "A045613"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

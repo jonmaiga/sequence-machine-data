@@ -1,0 +1,23 @@
+{
+  "description": "Number of digits of A000182(n).",
+  "id": "A047894",
+  "mentions": [
+    "A000182",
+    "A000384",
+    "A034971",
+    "A034972",
+    "A047893"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

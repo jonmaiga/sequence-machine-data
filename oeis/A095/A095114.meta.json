@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1. a(n) = a(n-1) + (number of elements of {a(1),...,a(n-1)} that are <= n-1).",
+  "id": "A095114",
+  "mentions": [
+    "A001462",
+    "A001463",
+    "A109512",
+    "A224731"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

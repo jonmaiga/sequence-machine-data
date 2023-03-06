@@ -1,0 +1,22 @@
+{
+  "description": "11th binomial transform of (0,1,0,0,0,0,0,......).",
+  "id": "A081127",
+  "mentions": [
+    "A003415",
+    "A038315",
+    "A053541",
+    "A081128"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

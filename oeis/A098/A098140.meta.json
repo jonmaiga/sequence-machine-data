@@ -1,0 +1,17 @@
+{
+  "description": "63-gonal numbers: a(n) = n*(61*n - 59)/2.",
+  "id": "A098140",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:20:17",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers where k-th digit from right is either 0 or k.",
+  "id": "A063013",
+  "mentions": [
+    "A030308",
+    "A053541",
+    "A063012"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

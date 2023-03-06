@@ -1,0 +1,20 @@
+{
+  "description": "a(n)^n is the least n-th power containing every digit.",
+  "id": "A020666",
+  "mentions": [
+    "A020667",
+    "A112388",
+    "A137214"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:10:21",
+    "offset": 1,
+    "size": 89,
+    "source": "joeis"
+  }
+}

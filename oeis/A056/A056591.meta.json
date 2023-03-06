@@ -1,0 +1,25 @@
+{
+  "description": "Fifth column sequence of triangle A056588.",
+  "id": "A056591",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000071",
+    "A010048",
+    "A056588",
+    "A056589",
+    "A056590"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

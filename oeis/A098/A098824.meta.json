@@ -1,0 +1,18 @@
+{
+  "description": "Array read by antidiagonals: Minimizing absolutely ordered sequences of m-ary Huffman trees of maximum height; m > 1.",
+  "id": "A098824",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

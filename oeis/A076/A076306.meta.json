@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k^3 is a sum of three successive primes.",
+  "id": "A076306",
+  "mentions": [
+    "A034961",
+    "A070306",
+    "A076304",
+    "A076305",
+    "A158796",
+    "A227475"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

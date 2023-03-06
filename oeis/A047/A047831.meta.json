@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product_{i=1..n} ((i+5)*(i+6)*(i+7)*(i+8)*(i+9))/(i*(i+1)*(i+2)*(i+3)*(i+4)).",
+  "id": "A047831",
+  "mentions": [
+    "A002415",
+    "A103905"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

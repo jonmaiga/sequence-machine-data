@@ -1,0 +1,18 @@
+{
+  "description": "At the n-th step, append the number n and n copies of the list of all preceding terms, starting with an empty list.",
+  "id": "A094293",
+  "mentions": [
+    "A001511",
+    "A094294"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

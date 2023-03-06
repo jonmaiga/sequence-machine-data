@@ -1,0 +1,29 @@
+{
+  "description": "Difference array of Catalan numbers A000108 read by antidiagonals.",
+  "id": "A059346",
+  "mentions": [
+    "A000108",
+    "A000245",
+    "A001006",
+    "A005043",
+    "A005554",
+    "A026012",
+    "A033434",
+    "A106534",
+    "A106640"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

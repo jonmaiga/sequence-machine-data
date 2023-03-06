@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the number of 1's in the binary representation of k equals omega(k), the number of distinct primes in the factorization of k.",
+  "id": "A071594",
+  "mentions": [
+    "A071595",
+    "A071596",
+    "A071814"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

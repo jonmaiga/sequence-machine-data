@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = binomial(2*n, n)^2 / (1-2*n).",
+  "id": "A010370",
+  "mentions": [
+    "A000891",
+    "A000894",
+    "A002420",
+    "A002894"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

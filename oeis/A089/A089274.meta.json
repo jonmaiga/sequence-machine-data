@@ -1,0 +1,26 @@
+{
+  "description": "Fifth column of the Legendre-Stirling triangle A071951.",
+  "id": "A089274",
+  "mentions": [
+    "A000079",
+    "A016129",
+    "A016309",
+    "A071951",
+    "A071952",
+    "A089278",
+    "A089500",
+    "A129467"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

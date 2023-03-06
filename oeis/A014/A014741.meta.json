@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that k divides 2^(k+1) - 2.",
+  "id": "A014741",
+  "mentions": [
+    "A000295",
+    "A006517",
+    "A014945",
+    "A015919",
+    "A036236",
+    "A069051",
+    "A086787"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

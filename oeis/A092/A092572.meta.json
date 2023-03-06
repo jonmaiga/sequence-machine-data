@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form x^2 + 3y^2 where x and y are positive integers.",
+  "id": "A092572",
+  "mentions": [
+    "A002476",
+    "A092573",
+    "A092575",
+    "A158937"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

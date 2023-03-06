@@ -1,0 +1,19 @@
+{
+  "description": "Number of runs of even length in base-10 representation of n.",
+  "id": "A044941",
+  "mentions": [
+    "A153435"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Sum of the terms of the continued fraction for the sum of the reciprocals of the first n primes.",
+  "id": "A058028",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest k whose 'Reverse and Subtract' trajectory has a preperiodic part of length n.",
+  "id": "A072138",
+  "mentions": [
+    "A033665",
+    "A072137",
+    "A072139",
+    "A072140",
+    "A072146"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

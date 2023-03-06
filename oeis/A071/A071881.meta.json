@@ -1,0 +1,20 @@
+{
+  "description": "Number of different primitive polyhedral types of Voronoi regions of n-dimensional point lattices.",
+  "id": "A071881",
+  "mentions": [
+    "A071880",
+    "A071882"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

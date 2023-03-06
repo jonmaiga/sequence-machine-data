@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that binomial(2n,n) does not have two prime factors that add to 2n.",
+  "id": "A070542",
+  "mentions": [
+    "A000984",
+    "A127499"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Lattice animals in the f.c.c. lattice (12 nearest neighbors), connected rhombic dodecahedra, edge-connected cubes.",
+  "id": "A039742",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

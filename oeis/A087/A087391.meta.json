@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 11; a(n+1) is the least prime formed by adding one or more digits to the digit reversal of a(n).",
+  "id": "A087391",
+  "mentions": [
+    "A087388",
+    "A087389",
+    "A087390"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

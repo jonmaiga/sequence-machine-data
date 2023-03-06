@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of area under the curve 1/Gamma(x) from zero to infinity.",
+  "id": "A058655",
+  "mentions": [
+    "A046943"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

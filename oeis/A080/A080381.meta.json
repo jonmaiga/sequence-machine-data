@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: gcd(binomial(n,floor(n/2)), binomial(n,i), i=0..n; greatest common divisor of binomial coefficients and corresponding central binomial coefficient.",
+  "id": "A080381",
+  "mentions": [
+    "A001405",
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

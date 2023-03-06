@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of a(n+1)=sum_{k=1}^n a'(n/k), a(1)=1, where a'(x)=a(x) if x integer and is linearly interpolated otherwise.",
+  "id": "A071795",
+  "mentions": [
+    "A071796"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

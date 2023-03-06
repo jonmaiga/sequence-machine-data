@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of peakless Motzkin paths of length n containing k subwords of the type uh^ju, dH^jd, or dh^ju for some j>0, where u=(1,1), d=(1,-1) and h=(1,0) (can be easily expressed using RNA secondary structure terminology).",
+  "id": "A098056",
+  "mentions": [
+    "A004148",
+    "A041048",
+    "A097777",
+    "A098057",
+    "A098083",
+    "A187259"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

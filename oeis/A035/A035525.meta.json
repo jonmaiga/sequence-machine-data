@@ -1,0 +1,21 @@
+{
+  "description": "24 consecutive primes of form 4k+1.",
+  "id": "A035525",
+  "mentions": [
+    "A035498",
+    "A035518",
+    "A055623"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

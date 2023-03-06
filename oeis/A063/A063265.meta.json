@@ -1,0 +1,32 @@
+{
+  "description": "Septinomial (also called heptanomial) coefficient array.",
+  "id": "A063265",
+  "mentions": [
+    "A000420",
+    "A007318",
+    "A008287",
+    "A008588",
+    "A025012",
+    "A027907",
+    "A035343",
+    "A063260",
+    "A063266",
+    "A063267",
+    "A063417",
+    "A063418",
+    "A171890"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

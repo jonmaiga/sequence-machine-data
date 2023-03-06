@@ -1,0 +1,27 @@
+{
+  "description": "Largest number whose square has n digits.",
+  "id": "A049416",
+  "mentions": [
+    "A002283",
+    "A017936",
+    "A049415",
+    "A061433",
+    "A167615",
+    "A180416",
+    "A180425"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

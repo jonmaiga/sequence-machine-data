@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the digits of the n-th base 7 palindrome.",
+  "id": "A043266",
+  "mentions": [
+    "A029954"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:07",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

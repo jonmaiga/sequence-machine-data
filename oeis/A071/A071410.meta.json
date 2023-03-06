@@ -1,0 +1,16 @@
+{
+  "description": "Determinant of the 2n X 2n matrix m(i,j) = i^j - j^i.",
+  "id": "A071410",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

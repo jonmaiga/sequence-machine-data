@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, where T(n,k) is the coefficient of x^n*y^k in f(x,y) that satisfies f(x,y) = 1/(1-x)^2 + xy*f(x,y)^2.",
+  "id": "A086614",
+  "mentions": [
+    "A000108",
+    "A000292",
+    "A000580",
+    "A000582",
+    "A086615",
+    "A086616",
+    "A086617",
+    "A277935"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

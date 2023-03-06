@@ -1,0 +1,36 @@
+{
+  "description": "Fibonacci numbers interspersed with zeros.",
+  "id": "A079977",
+  "mentions": [
+    "A000045",
+    "A002524",
+    "A002525",
+    "A002526",
+    "A002527",
+    "A002528",
+    "A002529",
+    "A072827",
+    "A072850",
+    "A072851",
+    "A072852",
+    "A072853",
+    "A072854",
+    "A072855",
+    "A072856",
+    "A079955",
+    "A080014",
+    "A099574"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

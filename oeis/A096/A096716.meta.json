@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of terms in series expansion of tan(sin(x)).",
+  "id": "A096716",
+  "mentions": [
+    "A003705",
+    "A096664",
+    "A096671",
+    "A096712"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

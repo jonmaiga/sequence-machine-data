@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows giving number of circular permutations of n letters such that all letters are displaced by no more than k places from their original position.",
+  "id": "A094315",
+  "mentions": [
+    "A000183",
+    "A000211",
+    "A000380",
+    "A000388",
+    "A000440",
+    "A000476",
+    "A061702"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

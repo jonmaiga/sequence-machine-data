@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the number whose simple continued fraction (A081086) has the smallest partial quotients such that the fractional remainders sum to unity.",
+  "id": "A081087",
+  "mentions": [
+    "A081086",
+    "A081088",
+    "A081089",
+    "A081090"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

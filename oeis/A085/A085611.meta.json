@@ -1,0 +1,20 @@
+{
+  "description": "Difference between A007678(2n)/(2n) and (n-1)^2.",
+  "id": "A085611",
+  "mentions": [
+    "A000290",
+    "A006533",
+    "A007678"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

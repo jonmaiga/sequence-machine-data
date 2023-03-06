@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A068340(k)=+/-4.",
+  "id": "A077032",
+  "mentions": [
+    "A068340",
+    "A076542",
+    "A077030",
+    "A077031",
+    "A077033"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

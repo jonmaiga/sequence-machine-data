@@ -1,0 +1,26 @@
+{
+  "description": "Distance to nearest power of 3.",
+  "id": "A081134",
+  "mentions": [
+    "A002452",
+    "A003605",
+    "A006166",
+    "A053646",
+    "A062153",
+    "A081249",
+    "A081250",
+    "A081251"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

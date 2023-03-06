@@ -1,0 +1,18 @@
+{
+  "description": "Palindromic primes whose digital root equals their middle digits.",
+  "id": "A082518",
+  "mentions": [
+    "A002385"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of primes congruent to 5 mod 6.",
+  "id": "A038361",
+  "mentions": [
+    "A007528"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:38:17",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

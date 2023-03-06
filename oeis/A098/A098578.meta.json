@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} C(n-3*k,k+1).",
+  "id": "A098578",
+  "mentions": [
+    "A003269",
+    "A077868"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

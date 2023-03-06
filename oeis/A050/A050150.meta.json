@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers with prime number of divisors.",
+  "id": "A050150",
+  "mentions": [
+    "A010051",
+    "A062090"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:15",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

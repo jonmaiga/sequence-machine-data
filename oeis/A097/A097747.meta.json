@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = a(n mod a(n-1)) + floor(n/a(n-1)), a(0) = 1.",
+  "id": "A097747",
+  "mentions": [
+    "A097748"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

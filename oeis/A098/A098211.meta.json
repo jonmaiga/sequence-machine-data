@@ -1,0 +1,17 @@
+{
+  "description": "Start with the first n, which means: \"Prolong the sequence with n digits, all having their parity opposite to that of n\". Then read and obey the second n, then the third n, etc. The digits produced by the rule are concatenated so to build the slowest increasing sequence.",
+  "id": "A098211",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

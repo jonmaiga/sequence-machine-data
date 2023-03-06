@@ -1,0 +1,19 @@
+{
+  "description": "p such that p^4 + q^4 = r^4 + s^4 = a(n).",
+  "id": "A088728",
+  "mentions": [
+    "A003824",
+    "A088665"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

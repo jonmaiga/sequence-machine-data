@@ -1,0 +1,21 @@
+{
+  "description": "Cubes in which parity of digits alternates.",
+  "id": "A030160",
+  "mentions": [
+    "A030152",
+    "A030159",
+    "A030161",
+    "A030162"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

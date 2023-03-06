@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A000984(k) mod k = 0 and A080383(k) != 7.",
+  "id": "A080392",
+  "mentions": [
+    "A000984",
+    "A001405",
+    "A010551",
+    "A067348",
+    "A080383",
+    "A080385"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

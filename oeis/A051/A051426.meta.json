@@ -1,0 +1,22 @@
+{
+  "description": "Least common multiple of {2, 4, 6, ..., 2n}.",
+  "id": "A051426",
+  "mentions": [
+    "A003418",
+    "A014963",
+    "A025547"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

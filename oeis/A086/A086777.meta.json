@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of sqrt(10) - Pi.",
+  "id": "A086777",
+  "mentions": [
+    "A000796",
+    "A010467"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:48:33",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

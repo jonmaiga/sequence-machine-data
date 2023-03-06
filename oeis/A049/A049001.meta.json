@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = prime(n)^2 - 2.",
+  "id": "A049001",
+  "mentions": [
+    "A001248",
+    "A049002",
+    "A065481",
+    "A084920",
+    "A166010",
+    "A182174",
+    "A182200"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 08:31:15",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

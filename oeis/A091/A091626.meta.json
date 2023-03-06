@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered integer pairs (b,c) with 0 <= b, c <= n such that both roots of x^2+bx+c=0 are integers.",
+  "id": "A091626",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A038548",
+    "A067274",
+    "A091627"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

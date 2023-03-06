@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the least odd prime p such that there are exactly n consecutive quadratic remainders modulo p.",
+  "id": "A025046",
+  "mentions": [
+    "A097159"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 2,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

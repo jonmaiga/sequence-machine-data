@@ -1,0 +1,20 @@
+{
+  "description": "Sum of rank(M) over all n X n matrices over Z with all entries zero or one.",
+  "id": "A086875",
+  "mentions": [
+    "A064230"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

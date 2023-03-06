@@ -1,0 +1,27 @@
+{
+  "description": "Table T(n,k) = Sum_{i=0..2n} (C(2n,i) mod 2)*F(i+k) = Sum_{i=0..n} (C(n,i) mod 2)*F(2i+k).",
+  "id": "A050609",
+  "mentions": [
+    "A002262",
+    "A025581",
+    "A048757",
+    "A050610",
+    "A050611",
+    "A050612",
+    "A050613",
+    "A051656",
+    "A075148"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:47:27",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

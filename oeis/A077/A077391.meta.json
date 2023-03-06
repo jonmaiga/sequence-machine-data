@@ -1,0 +1,18 @@
+{
+  "description": "Smallest n-digit prime which leaves a prime at every step if most significant digit and least significant digit are deleted until a one digit or two digit prime is obtained, or 0 if no such prime exists.",
+  "id": "A077391",
+  "mentions": [
+    "A077390"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

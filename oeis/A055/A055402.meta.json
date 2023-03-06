@@ -1,0 +1,19 @@
+{
+  "description": "Least number represented as the sum of n cubes with greedy algorithm.",
+  "id": "A055402",
+  "mentions": [
+    "A006892",
+    "A055401"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

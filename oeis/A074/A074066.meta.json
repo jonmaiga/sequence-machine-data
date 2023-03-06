@@ -1,0 +1,22 @@
+{
+  "description": "Zigzag modulo 3.",
+  "id": "A074066",
+  "mentions": [
+    "A064429",
+    "A074067",
+    "A074068"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:01",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

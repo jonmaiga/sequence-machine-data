@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 6*10^k + 2*R_k + 5 is prime, where R_k = 11...1 is the repunit (A002275) of length k.",
+  "id": "A097402",
+  "mentions": [
+    "A002275",
+    "A101523"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

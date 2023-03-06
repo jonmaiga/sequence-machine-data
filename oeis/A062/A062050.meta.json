@@ -1,0 +1,26 @@
+{
+  "description": "n-th chunk consists of the numbers 1, ..., 2^n.",
+  "id": "A062050",
+  "mentions": [
+    "A000079",
+    "A005836",
+    "A006257",
+    "A007582",
+    "A053644",
+    "A053645",
+    "A079944",
+    "A092754",
+    "A107681"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

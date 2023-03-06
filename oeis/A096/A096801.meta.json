@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, that transforms the (n+m)-dimensional partitions of n into the (n+m+1)-dimensional partitions of n, for fixed m.",
+  "id": "A096801",
+  "mentions": [
+    "A096751",
+    "A096752",
+    "A096802",
+    "A096803",
+    "A096805"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

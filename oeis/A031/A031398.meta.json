@@ -1,0 +1,20 @@
+{
+  "description": "Squarefree n with no 4k+3 factors such that Pell equation x^2 - n y^2 = -1 is insoluble.",
+  "id": "A031398",
+  "mentions": [
+    "A003654",
+    "A020893",
+    "A031396",
+    "A031397"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

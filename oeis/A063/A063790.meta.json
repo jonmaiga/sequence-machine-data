@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the smallest prime gap between n^2 and (n+1)^2.",
+  "id": "A063790",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

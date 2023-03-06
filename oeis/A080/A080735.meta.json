@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1, then a(n)=2*a(n-1) if a(n-1) is prime, a(n)=a(n-1)+1 otherwise.",
+  "id": "A080735",
+  "mentions": [
+    "A163962"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes of form p^2 - 2, where p is prime.",
+  "id": "A049002",
+  "mentions": [
+    "A010051",
+    "A049001",
+    "A062326"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

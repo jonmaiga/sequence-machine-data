@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} k/prime(k)^3.",
+  "id": "A097879",
+  "mentions": [
+    "A030078"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

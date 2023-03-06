@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted directed trees on n nodes with a green root.",
+  "id": "A097628",
+  "mentions": [
+    "A000169",
+    "A052746",
+    "A097627"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

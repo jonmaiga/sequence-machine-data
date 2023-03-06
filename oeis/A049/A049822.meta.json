@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 - tau(n) + Sum_{d|n} tau(d-1).",
+  "id": "A049822",
+  "mentions": [
+    "A000005",
+    "A003238",
+    "A049816",
+    "A057427",
+    "A069905",
+    "A122934"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:41",
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

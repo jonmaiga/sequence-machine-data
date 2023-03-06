@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of constant appearing in the variance for searching in a digital tree.",
+  "id": "A086311",
+  "mentions": [
+    "A065442",
+    "A065443",
+    "A086312"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

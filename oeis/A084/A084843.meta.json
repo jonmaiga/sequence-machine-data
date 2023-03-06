@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that no palindrome m > 0 exists with n + m also a palindrome.",
+  "id": "A084843",
+  "mentions": [
+    "A002113",
+    "A082272",
+    "A082273",
+    "A104444"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

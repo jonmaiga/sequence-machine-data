@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = the smallest prime divisor of A173426(n) = concatenation of (1, 2, 3,..., n, n-1, ..., 1) for n > 1; a(1) = 1.",
+  "id": "A075023",
+  "mentions": [
+    "A020639",
+    "A075019",
+    "A075020",
+    "A075021",
+    "A075022",
+    "A075024",
+    "A173426"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

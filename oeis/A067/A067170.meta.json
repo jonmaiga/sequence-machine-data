@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sum of the cubes of the distinct prime factors of n equals the sum of the cubes of the digits of n.",
+  "id": "A067170",
+  "mentions": [
+    "A005064",
+    "A006753",
+    "A055012",
+    "A067184"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

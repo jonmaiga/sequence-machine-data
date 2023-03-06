@@ -1,0 +1,17 @@
+{
+  "description": "Continued exponent expansion of the power series 1/(1-x); odd terms being numerators and even terms being denominators of the rational terms of the expansion: 1/(1-x) = e^[(a(1)/a(2))*x*e^[(a(3)/a(4))*x*e^[(a(5)/a(6))*x*e^[...]]]].",
+  "id": "A071787",
+  "mentions": [
+    "A068985"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A001159: Sum_{j=1..n} sigma_4(j).",
+  "id": "A064604",
+  "mentions": [
+    "A001159",
+    "A064607"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with at least three digits such that the absolute differences between successive digits forms a palindrome (when leading zeros are omitted).",
+  "id": "A086918",
+  "mentions": [
+    "A086919"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

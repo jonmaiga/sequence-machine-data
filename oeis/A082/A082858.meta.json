@@ -1,0 +1,27 @@
+{
+  "description": "Array A(x,y): the greatest common subtree (intersect) of the binary trees x and y, (x,y) running as (0,0),(1,0),(0,1),(2,0),(1,1),(0,2) and each index referring to a binary tree encoded by A014486(j).",
+  "id": "A082858",
+  "mentions": [
+    "A002262",
+    "A004198",
+    "A014486",
+    "A025581",
+    "A072764",
+    "A080300",
+    "A082856",
+    "A082857",
+    "A082859",
+    "A082860"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

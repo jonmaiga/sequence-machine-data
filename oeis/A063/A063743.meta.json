@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n and Omega(n) are relatively prime, where Omega(n) is the number of prime divisors of n (with repetition).",
+  "id": "A063743",
+  "mentions": [
+    "A000010",
+    "A001222",
+    "A275616"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

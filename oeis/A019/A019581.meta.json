@@ -1,0 +1,20 @@
+{
+  "description": "Place n distinguishable balls in n boxes (in n^n ways); let f(n,k) = number of ways that max in any box is k, for 1<=k<=n; sequence gives f(n,2).",
+  "id": "A019581",
+  "mentions": [
+    "A019575",
+    "A019576"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

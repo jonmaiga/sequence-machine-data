@@ -1,0 +1,23 @@
+{
+  "description": "Number of numbers with 6 decimal digits and sum of digits = n.",
+  "id": "A090581",
+  "mentions": [
+    "A071817",
+    "A090579",
+    "A090580"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

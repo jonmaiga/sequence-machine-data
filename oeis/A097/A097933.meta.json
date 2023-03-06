@@ -1,0 +1,20 @@
+{
+  "description": "Primes such that p divides 3^((p-1)/2) - 1.",
+  "id": "A097933",
+  "mentions": [
+    "A003630",
+    "A010051",
+    "A038874",
+    "A091998"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

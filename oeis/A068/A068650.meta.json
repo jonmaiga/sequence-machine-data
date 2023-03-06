@@ -1,0 +1,21 @@
+{
+  "description": "Primes in which a string of 1's is sandwiched between two 3's.",
+  "id": "A068650",
+  "mentions": [
+    "A056251",
+    "A068645",
+    "A068651",
+    "A082704"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-bfile"
+  }
+}

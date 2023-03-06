@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Fibonacci(2*n+1) + Fibonacci(2*n-1) + 2.",
+  "id": "A092387",
+  "mentions": [
+    "A002878",
+    "A005248",
+    "A065034"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

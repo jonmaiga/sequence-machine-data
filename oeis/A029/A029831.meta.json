@@ -1,0 +1,32 @@
+{
+  "description": "Eisenstein series E_24(q) (alternate convention E_12(q)), multiplied by 236364091.",
+  "id": "A029831",
+  "mentions": [
+    "A004009",
+    "A006352",
+    "A008410",
+    "A013973",
+    "A013974",
+    "A029828",
+    "A029829",
+    "A029830",
+    "A058550",
+    "A279892",
+    "A279893",
+    "A282330",
+    "A282331",
+    "A282332"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

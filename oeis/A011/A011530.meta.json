@@ -1,0 +1,19 @@
+{
+  "description": "Stirling numbers of first kind S1(20,n).",
+  "id": "A011530",
+  "mentions": [
+    "A011520"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

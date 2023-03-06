@@ -1,0 +1,16 @@
+{
+  "description": "For n prime, a(n) = n+1; for n even and > 2, a(n) = n/2; otherwise a(n) = 3*n.",
+  "id": "A082924",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

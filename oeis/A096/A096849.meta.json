@@ -1,0 +1,26 @@
+{
+  "description": "If f(x) = phi(sigma(x)) is iterated starting from these numbers, then the start-value never returns. These are the transient terms of this iteration. Never occur in terminal cycles.",
+  "id": "A096849",
+  "mentions": [
+    "A095952",
+    "A095953",
+    "A095954",
+    "A095955",
+    "A095956",
+    "A096850",
+    "A096887",
+    "A096888",
+    "A096889",
+    "A096890"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

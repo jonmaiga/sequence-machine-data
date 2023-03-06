@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree part of n!: n! divided by its largest square divisor.",
+  "id": "A055204",
+  "mentions": [
+    "A000142",
+    "A007913",
+    "A055071",
+    "A055772",
+    "A249831"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Sum_{ d divides n } q(d), where q(d) = A000009 = number of partitions of d into distinct parts.",
+  "id": "A047966",
+  "mentions": [
+    "A000009",
+    "A000837",
+    "A024994",
+    "A047968",
+    "A051731",
+    "A063834",
+    "A279788",
+    "A289501",
+    "A300383",
+    "A301462",
+    "A302698"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

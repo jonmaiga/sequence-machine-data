@@ -1,0 +1,22 @@
+{
+  "description": "Number of ZnS polytypes that repeat after n layers.",
+  "id": "A011957",
+  "mentions": [
+    "A000048",
+    "A001037",
+    "A165920",
+    "A165921"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:20:07",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

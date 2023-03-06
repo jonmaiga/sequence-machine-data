@@ -1,0 +1,21 @@
+{
+  "description": "Records in A019294, number of iterations of the sigma function to reach a multiple of the starting value.",
+  "id": "A019277",
+  "mentions": [
+    "A019276",
+    "A019294",
+    "A019295"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

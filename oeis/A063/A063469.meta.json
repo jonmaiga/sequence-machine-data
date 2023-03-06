@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that tau(n)*3 = phi(n).",
+  "id": "A063469",
+  "mentions": [
+    "A020488",
+    "A062516",
+    "A063470",
+    "A112954"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

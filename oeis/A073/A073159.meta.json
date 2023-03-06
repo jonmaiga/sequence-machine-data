@@ -1,0 +1,20 @@
+{
+  "description": "Sums of adjacent terms of A073158. Together, A073158, A073159 and A073160 include all the positive integers uniquely.",
+  "id": "A073159",
+  "mentions": [
+    "A073158",
+    "A073160"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

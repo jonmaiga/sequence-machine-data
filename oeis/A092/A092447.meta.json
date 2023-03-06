@@ -1,0 +1,20 @@
+{
+  "description": "Concatenate odd primes in decreasing order.",
+  "id": "A092447",
+  "mentions": [
+    "A065091",
+    "A092448",
+    "A100003"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

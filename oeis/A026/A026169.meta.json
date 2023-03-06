@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = s(k), where k is the n-th number k such that s(j)",
+  "id": "A026169",
+  "mentions": [
+    "A026166"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:51",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

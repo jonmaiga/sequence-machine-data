@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number whose inverse cototient set has n elements.",
+  "id": "A063741",
+  "mentions": [
+    "A000010",
+    "A051953",
+    "A063507",
+    "A063740"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

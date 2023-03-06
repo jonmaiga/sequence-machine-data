@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of A089839. a(n) = A089839(n,n).",
+  "id": "A089841",
+  "mentions": [
+    "A089839",
+    "A089840"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

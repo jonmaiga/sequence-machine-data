@@ -1,0 +1,18 @@
+{
+  "description": "Denominator in the expression for a(n) in A079759.",
+  "id": "A079760",
+  "mentions": [
+    "A079759"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

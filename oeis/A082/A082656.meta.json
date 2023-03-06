@@ -1,0 +1,17 @@
+{
+  "description": "Trajectory of 39 under map x -> x/2 if x even, 3x+9 if x odd.",
+  "id": "A082656",
+  "mentions": [
+    "A067896"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:15:29",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

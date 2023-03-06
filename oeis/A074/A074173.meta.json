@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n and n+2 are of the form p^2*q where p and q are distinct primes.",
+  "id": "A074173",
+  "mentions": [
+    "A048161",
+    "A054753",
+    "A074172",
+    "A074174",
+    "A308735",
+    "A308736"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

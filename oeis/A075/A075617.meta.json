@@ -1,0 +1,18 @@
+{
+  "description": "Rearrangement of natural numbers so that starting with a(n) the concatenation of n numbers gives a composite number.",
+  "id": "A075617",
+  "mentions": [
+    "A075616"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

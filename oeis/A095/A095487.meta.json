@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 47 written in base 11 - n.",
+  "id": "A095487",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

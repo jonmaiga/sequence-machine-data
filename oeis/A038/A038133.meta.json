@@ -1,0 +1,22 @@
+{
+  "description": "From a subtractive Goldbach conjecture: odd primes that are not cluster primes.",
+  "id": "A038133",
+  "mentions": [
+    "A038134",
+    "A039506",
+    "A039507",
+    "A072325"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

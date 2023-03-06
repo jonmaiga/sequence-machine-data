@@ -1,0 +1,24 @@
+{
+  "description": "Numbers found in denominators of expansion of Airy function Ai(x).",
+  "id": "A014402",
+  "mentions": [
+    "A007494",
+    "A014403",
+    "A060507",
+    "A176730",
+    "A176731",
+    "A203433",
+    "A203434"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:55:41",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

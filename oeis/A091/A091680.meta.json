@@ -1,0 +1,23 @@
+{
+  "description": "Smallest number whose base-4 Reverse and Add! trajectory (presumably) contains exactly n base-4 palindromes, or -1 if there is no such number.",
+  "id": "A091680",
+  "mentions": [
+    "A014192",
+    "A035524",
+    "A075299",
+    "A075420",
+    "A075421",
+    "A077594"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

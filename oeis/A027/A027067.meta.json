@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=n..2*n} T(n,k), T given by A027052.",
+  "id": "A027067",
+  "mentions": [
+    "A027052"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

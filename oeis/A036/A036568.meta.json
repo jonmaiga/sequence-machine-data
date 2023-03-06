@@ -1,0 +1,16 @@
+{
+  "description": "Continued fraction for ratio of small diagonal to side of regular 17-gon.",
+  "id": "A036568",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

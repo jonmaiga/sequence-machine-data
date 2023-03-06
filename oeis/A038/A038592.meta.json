@@ -1,0 +1,19 @@
+{
+  "description": "Number of cubefree self avoiding walks in 2 dimensions of length n.",
+  "id": "A038592",
+  "mentions": [
+    "A028445",
+    "A045534"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

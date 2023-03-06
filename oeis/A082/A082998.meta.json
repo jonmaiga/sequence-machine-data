@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = card{ x <= n : omega(x) = 3 }.",
+  "id": "A082998",
+  "mentions": [
+    "A001221",
+    "A025528",
+    "A033992",
+    "A072000",
+    "A072114",
+    "A082997"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Largest k such that 2^k divides A096421(n).",
+  "id": "A097366",
+  "mentions": [
+    "A096421",
+    "A097365"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

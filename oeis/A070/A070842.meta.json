@@ -1,0 +1,22 @@
+{
+  "description": "Smallest n-digit number with exactly n prime divisors. There are no further terms.",
+  "id": "A070842",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A070843"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

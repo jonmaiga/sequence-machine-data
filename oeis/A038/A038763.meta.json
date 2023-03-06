@@ -1,0 +1,24 @@
+{
+  "description": "Triangular matrix arising in enumeration of catafusenes, read by rows.",
+  "id": "A038763",
+  "mentions": [
+    "A024462",
+    "A081294",
+    "A084938",
+    "A136158",
+    "A193722"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:42:05",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

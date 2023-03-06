@@ -1,0 +1,23 @@
+{
+  "description": "The smallest magic constant for n X n magic square with prime entries (regarding 1 as a prime).",
+  "id": "A073502",
+  "mentions": [
+    "A008578",
+    "A024351",
+    "A073473",
+    "A073520",
+    "A164843",
+    "A173079"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 3,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Records for the length of the preperiodic part of the 'Reverse and Subtract' trajectories.",
+  "id": "A072147",
+  "mentions": [
+    "A065199",
+    "A072137",
+    "A072146"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

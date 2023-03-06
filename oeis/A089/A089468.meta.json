@@ -1,0 +1,20 @@
+{
+  "description": "Hyperbinomial transform of A089467 and also the 2nd hyperbinomial transform of A089466.",
+  "id": "A089468",
+  "mentions": [
+    "A088956",
+    "A089466",
+    "A089467"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

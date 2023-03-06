@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that the decimal expansion of 1/p has a periodic part of even length.",
+  "id": "A028416",
+  "mentions": [
+    "A002371",
+    "A007450",
+    "A040121",
+    "A049084",
+    "A087000",
+    "A186635"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

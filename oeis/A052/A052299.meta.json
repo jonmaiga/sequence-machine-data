@@ -1,0 +1,18 @@
+{
+  "description": "Minimal number of distinct prime factors of any composite number between n-th and (n+1)-st primes.",
+  "id": "A052299",
+  "mentions": [
+    "A052180",
+    "A052248"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:02:43",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

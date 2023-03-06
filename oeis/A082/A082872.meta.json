@@ -1,0 +1,20 @@
+{
+  "description": "a^n + b^n + c^n + ..., where a*b*c* ... is the prime factorization of n.",
+  "id": "A082872",
+  "mentions": [
+    "A051674",
+    "A082813",
+    "A082814"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

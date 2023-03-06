@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest multiple of n such that a(n) mod 100 = n and S(n)=n where S(n) is the sum of the base-ten digits of n, or 0 if no such a(n) exists.",
+  "id": "A075154",
+  "mentions": [
+    "A005349",
+    "A187924"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

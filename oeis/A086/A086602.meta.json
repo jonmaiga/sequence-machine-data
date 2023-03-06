@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A000217(A000217(n))-n^2.",
+  "id": "A086602",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A001295",
+    "A001296",
+    "A005581"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:41:19",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

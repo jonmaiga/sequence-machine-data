@@ -1,0 +1,20 @@
+{
+  "description": "If a Fibonacci sequence is formed with first term = number of digits in n and second term = sum of decimal digits in n, then n itself occurs as a term in the sequence after the first two terms.",
+  "id": "A038868",
+  "mentions": [
+    "A007629",
+    "A042983"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

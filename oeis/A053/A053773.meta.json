@@ -1,0 +1,21 @@
+{
+  "description": "Number of n X n binary matrices of order dividing 8 (i.e., number of solutions of X^8=I in GL(n,2)).",
+  "id": "A053773",
+  "mentions": [
+    "A053718",
+    "A053722",
+    "A053725",
+    "A053763"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:30:43",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

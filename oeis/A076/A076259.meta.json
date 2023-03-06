@@ -1,0 +1,30 @@
+{
+  "description": "Gaps between squarefree numbers: a(n) = A005117(n+1) - A005117(n).",
+  "id": "A076259",
+  "mentions": [
+    "A005117",
+    "A007674",
+    "A007675",
+    "A013661",
+    "A020753",
+    "A020754",
+    "A059956",
+    "A065469",
+    "A065474",
+    "A069977",
+    "A076260",
+    "A206256"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

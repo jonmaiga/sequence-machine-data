@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number such that the exponent of p=2 factor in 6*a(n)+4 equals n.",
+  "id": "A087231",
+  "mentions": [
+    "A085058",
+    "A087229",
+    "A087230"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

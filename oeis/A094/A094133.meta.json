@@ -1,0 +1,21 @@
+{
+  "description": "Leyland primes: 3, together with primes of form x^y + y^x, for x > y > 1.",
+  "id": "A094133",
+  "mentions": [
+    "A061119",
+    "A064539",
+    "A073499",
+    "A076980",
+    "A253471"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

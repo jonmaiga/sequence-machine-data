@@ -1,0 +1,28 @@
+{
+  "description": "Numbers having at least one 2 in their ternary representation.",
+  "id": "A074940",
+  "mentions": [
+    "A002426",
+    "A005836",
+    "A006996",
+    "A007089",
+    "A039966",
+    "A081603",
+    "A081605",
+    "A081606",
+    "A081610",
+    "A092255"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

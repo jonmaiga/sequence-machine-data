@@ -1,0 +1,23 @@
+{
+  "description": "Ordered areas (divided by 6) of primitive Pythagorean triangles (with multiple entries).",
+  "id": "A020885",
+  "mentions": [
+    "A020882",
+    "A020883",
+    "A020884",
+    "A020886",
+    "A024406",
+    "A258150"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

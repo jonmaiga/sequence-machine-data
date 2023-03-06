@@ -1,0 +1,23 @@
+{
+  "description": "Square table, read by antidiagonals, of least distinct positive integers such that the sum of any two consecutive terms in any row is a square number.",
+  "id": "A083362",
+  "mentions": [
+    "A000217",
+    "A080476",
+    "A083363",
+    "A083364"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:34:17",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

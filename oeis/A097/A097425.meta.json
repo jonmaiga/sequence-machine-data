@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 500, then a(n) is the concatenation of the roman numerals (I, V, X, L, C, D, M) visible in a(n-1) written in English.",
+  "id": "A097425",
+  "mentions": [
+    "A002904",
+    "A092302"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "less",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

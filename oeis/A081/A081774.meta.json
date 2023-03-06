@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for sum(k>=0,1/6^(2^k-1)).",
+  "id": "A081774",
+  "mentions": [
+    "A004200"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

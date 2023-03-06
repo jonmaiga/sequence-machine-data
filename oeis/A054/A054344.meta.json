@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways of covering a 2n X 2n lattice with 2n^2 dominoes of which exactly 6 are horizontal (or vertical) dominoes.",
+  "id": "A054344",
+  "mentions": [
+    "A002414",
+    "A004003",
+    "A038758"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:18:37",
+    "offset": 2,
+    "size": 19,
+    "source": "joeis"
+  }
+}

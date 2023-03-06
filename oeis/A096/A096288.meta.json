@@ -1,0 +1,20 @@
+{
+  "description": "Sum of digits of n in bases 2 and 3.",
+  "id": "A096288",
+  "mentions": [
+    "A010059",
+    "A010060",
+    "A095190"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

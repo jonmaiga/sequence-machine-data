@@ -1,0 +1,27 @@
+{
+  "description": "Number of 7's when k is written in base b for all b and k satisfying 2<=b<=n+1, 1<=k<=n.",
+  "id": "A033108",
+  "mentions": [
+    "A033094",
+    "A033096",
+    "A033098",
+    "A033100",
+    "A033102",
+    "A033104",
+    "A033106",
+    "A033107",
+    "A033110",
+    "A033112"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:23",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

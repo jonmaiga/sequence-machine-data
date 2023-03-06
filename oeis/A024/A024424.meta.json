@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = greatest residue of S(n,m) mod C(n-1,m-1), for m = 1,2,...,n; S(n,m) are Stirling numbers of second kind.",
+  "id": "A024424",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:29:22",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

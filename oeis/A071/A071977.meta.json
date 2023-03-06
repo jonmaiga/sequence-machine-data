@@ -1,0 +1,20 @@
+{
+  "description": "Triangle in which first row is {1}; to get n-th row take first n numbers greater than last number in previous row which are relatively prime to n.",
+  "id": "A071977",
+  "mentions": [
+    "A033291",
+    "A071978",
+    "A071979"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

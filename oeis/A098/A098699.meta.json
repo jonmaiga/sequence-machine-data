@@ -1,0 +1,20 @@
+{
+  "description": "Anti-derivative of n: or the first occurrence of n in A003415, or zero if impossible.",
+  "id": "A098699",
+  "mentions": [
+    "A003415",
+    "A051674",
+    "A098700"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

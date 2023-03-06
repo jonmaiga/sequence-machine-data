@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that x^6 = 3 has no solution mod p.",
+  "id": "A040995",
+  "mentions": [
+    "A000040",
+    "A040994"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:15",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

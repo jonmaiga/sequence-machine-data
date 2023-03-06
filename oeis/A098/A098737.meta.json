@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: number of triangles formed by lines from two vertices of a triangle to the opposite side that segment the opposite sides into m and n segments. Since f(m,n) = f(n,m), it suffices to give the results in a triangular table.",
+  "id": "A098737",
+  "mentions": [
+    "A000217",
+    "A000578",
+    "A005563",
+    "A059270",
+    "A067728",
+    "A107985",
+    "A140091",
+    "A140681",
+    "A212331",
+    "A331433"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

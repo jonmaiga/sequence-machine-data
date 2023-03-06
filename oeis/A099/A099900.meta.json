@@ -1,0 +1,23 @@
+{
+  "description": "XOR difference triangle, read by rows, of A099901 (in leftmost column) such that the main diagonal equals A099901 shift left and divided by 2.",
+  "id": "A099900",
+  "mentions": [
+    "A047999",
+    "A099884",
+    "A099901",
+    "A099902"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

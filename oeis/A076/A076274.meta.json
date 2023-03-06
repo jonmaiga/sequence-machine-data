@@ -1,0 +1,25 @@
+{
+  "description": "2p-1 where p is 1 or a prime.",
+  "id": "A076274",
+  "mentions": [
+    "A000010",
+    "A002033",
+    "A005408",
+    "A008578",
+    "A075526",
+    "A076271",
+    "A186621"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

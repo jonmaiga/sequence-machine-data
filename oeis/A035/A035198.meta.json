@@ -1,0 +1,21 @@
+{
+  "description": "From a Dirichlet series.",
+  "id": "A035198",
+  "mentions": [
+    "A004625",
+    "A007519",
+    "A007520",
+    "A007521"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:10",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

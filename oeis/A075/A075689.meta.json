@@ -1,0 +1,17 @@
+{
+  "description": "Even interprimes from A075688.",
+  "id": "A075689",
+  "mentions": [
+    "A075688"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

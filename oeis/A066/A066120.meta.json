@@ -1,0 +1,25 @@
+{
+  "description": "Superduperprimorials: product of first n terms in Chernoff sequence.",
+  "id": "A066120",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A006939",
+    "A025487",
+    "A055462",
+    "A066119",
+    "A166475"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

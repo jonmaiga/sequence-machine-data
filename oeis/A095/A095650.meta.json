@@ -1,0 +1,23 @@
+{
+  "description": "Indices of the primes in A095673: A095673(n) = prime(a(n)).",
+  "id": "A095650",
+  "mentions": [
+    "A095419",
+    "A095420",
+    "A095648",
+    "A095649",
+    "A095651",
+    "A095672",
+    "A095673"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

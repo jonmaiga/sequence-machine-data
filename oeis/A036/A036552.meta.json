@@ -1,0 +1,22 @@
+{
+  "description": "List of pairs (m,2m) where m is the least unused positive number.",
+  "id": "A036552",
+  "mentions": [
+    "A003159",
+    "A036554",
+    "A064736",
+    "A065037"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

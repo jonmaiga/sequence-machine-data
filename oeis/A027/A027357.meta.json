@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into distinct odd parts, the greatest being congruent to 1 mod 4.",
+  "id": "A027357",
+  "mentions": [
+    "A000700",
+    "A027356",
+    "A027358",
+    "A053250"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

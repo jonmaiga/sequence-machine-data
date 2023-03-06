@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime q such that q - prime(n) >= n.",
+  "id": "A071328",
+  "mentions": [
+    "A000040",
+    "A007918",
+    "A061068",
+    "A071329"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

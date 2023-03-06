@@ -1,0 +1,18 @@
+{
+  "description": "For given n, consider all 4-tuples P = (a,b,c,d) with P.P = n; let d = squared distance to the line OP from the closest point of Z^n (excluding the endpoints); sequence gives max_P d*n.",
+  "id": "A047896",
+  "mentions": [
+    "A059774",
+    "A059804"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

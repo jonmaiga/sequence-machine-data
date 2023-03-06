@@ -1,0 +1,27 @@
+{
+  "description": "Primes that do not contain any other prime as a proper substring.",
+  "id": "A033274",
+  "mentions": [
+    "A034844",
+    "A039996",
+    "A079066",
+    "A079397",
+    "A089768",
+    "A089770",
+    "A109066",
+    "A179335",
+    "A179909",
+    "A179919"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

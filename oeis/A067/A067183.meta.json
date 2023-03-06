@@ -1,0 +1,25 @@
+{
+  "description": "Product of the prime factors of n equals the product of the digits of n.",
+  "id": "A067183",
+  "mentions": [
+    "A002473",
+    "A006753",
+    "A052382",
+    "A075048",
+    "A238985",
+    "A357132"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

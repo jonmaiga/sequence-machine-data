@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: matrix square of A047996.",
+  "id": "A052313",
+  "mentions": [
+    "A047996"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:54:21",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

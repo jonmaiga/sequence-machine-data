@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form n^3 + n^2 + 17, for nonnegative values of n.",
+  "id": "A050266",
+  "mentions": [
+    "A331950"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

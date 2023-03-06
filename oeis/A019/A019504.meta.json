@@ -1,0 +1,21 @@
+{
+  "description": "Number of simplices in minimal corner-slicing triangulation of n-cube.",
+  "id": "A019504",
+  "mentions": [
+    "A019502",
+    "A019503"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

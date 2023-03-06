@@ -1,0 +1,25 @@
+{
+  "description": "Number of necklaces with n beads over an n-ary alphabet {a1,a2,...,an} such that #(w,a1) >= #(w,a2) >= ... >= #(w,ak) >= 0, where #(w,x) counts the letters x in word w.",
+  "id": "A072605",
+  "mentions": [
+    "A000011",
+    "A005651",
+    "A052307",
+    "A247551",
+    "A261531",
+    "A261599",
+    "A261600"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

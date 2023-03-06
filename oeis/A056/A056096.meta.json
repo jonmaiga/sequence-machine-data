@@ -1,0 +1,19 @@
+{
+  "description": "Maximum value in the distribution by first value of Prufer code of noncrossing spanning trees on a circle of n+2 points; perhaps the number whose Prufer code starts with 2.",
+  "id": "A056096",
+  "mentions": [
+    "A056098"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

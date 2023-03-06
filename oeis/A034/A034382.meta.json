@@ -1,0 +1,22 @@
+{
+  "description": "Number of labeled Abelian groups of order n.",
+  "id": "A034382",
+  "mentions": [
+    "A000688",
+    "A034381",
+    "A034383",
+    "A058159",
+    "A058162"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

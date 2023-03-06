@@ -1,0 +1,20 @@
+{
+  "description": "Largest number (up to that point) of consecutive rightmost black cells in the rows of Rule 30 (begun from an initial black cell). a(n) = b(2^n), where b(m) is sequence A094603.",
+  "id": "A094604",
+  "mentions": [
+    "A094603",
+    "A094605",
+    "A094606"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

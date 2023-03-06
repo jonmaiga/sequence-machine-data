@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that sigma(k) == 4 (mod k).",
+  "id": "A045769",
+  "mentions": [
+    "A045768",
+    "A045770",
+    "A054024",
+    "A059608",
+    "A076496",
+    "A088834"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

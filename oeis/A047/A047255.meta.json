@@ -1,0 +1,31 @@
+{
+  "description": "Numbers that are congruent to {1, 2, 3, 5} mod 6.",
+  "id": "A047255",
+  "mentions": [
+    "A007310",
+    "A016789",
+    "A047228",
+    "A047233",
+    "A047237",
+    "A047241",
+    "A047251",
+    "A047261",
+    "A047273",
+    "A062062",
+    "A062063"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

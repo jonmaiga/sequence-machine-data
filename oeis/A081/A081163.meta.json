@@ -1,0 +1,24 @@
+{
+  "description": "Number of even cycles in range [A014137(2n)..A014138(2n)] of permutation A057505/A057506, with two fixed-points of A057163.",
+  "id": "A081163",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A014138",
+    "A057163",
+    "A057505",
+    "A057506",
+    "A081156",
+    "A081162"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

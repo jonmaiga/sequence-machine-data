@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2, a(n)= smallest prime of the form k*a(n-1) - 1 where k itself is a multiple of n.",
+  "id": "A085874",
+  "mentions": [
+    "A085873"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

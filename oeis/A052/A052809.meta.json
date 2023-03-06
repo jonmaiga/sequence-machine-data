@@ -1,0 +1,20 @@
+{
+  "description": "A simple grammar: number of cycles of cycles.",
+  "id": "A052809",
+  "mentions": [
+    "A003713",
+    "A185393"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

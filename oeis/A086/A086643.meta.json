@@ -1,0 +1,18 @@
+{
+  "description": "Number of zeros in the character table of the group GL(2,Z_n).",
+  "id": "A086643",
+  "mentions": [
+    "A000252"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = b(n)*(b(n)+1) = b(n) + ... + c(n), where b(n) = A011916(n), c(n) = A011918(n).",
+  "id": "A011920",
+  "mentions": [
+    "A011916",
+    "A011918",
+    "A011922"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

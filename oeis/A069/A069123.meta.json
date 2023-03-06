@@ -1,0 +1,23 @@
+{
+  "description": "Triangle formed as follows: For n-th row, n >= 0, record the A000041(n) partitions of n; for each partition, write down number of ways to arrange the parts.",
+  "id": "A069123",
+  "mentions": [
+    "A000041",
+    "A000142",
+    "A134133",
+    "A333144"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

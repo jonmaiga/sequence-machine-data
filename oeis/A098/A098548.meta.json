@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = n if n <= 3, otherwise the smallest number > a(n-1) having at least one common factor with a(n-2) but none with a(n-1).",
+  "id": "A098548",
+  "mentions": [
+    "A098549",
+    "A098550",
+    "A158478",
+    "A251046",
+    "A251090",
+    "A251104",
+    "A251139",
+    "A251141",
+    "A251535",
+    "A251536",
+    "A251537",
+    "A251538",
+    "A251539",
+    "A251540"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

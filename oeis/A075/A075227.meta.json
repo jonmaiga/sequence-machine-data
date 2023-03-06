@@ -1,0 +1,26 @@
+{
+  "description": "Smallest odd prime not occurring in the numerator of any of the 2^n subset sums generated from the set 1/1, 1/2, 1/3, ..., 1/n.",
+  "id": "A075227",
+  "mentions": [
+    "A001008",
+    "A010051",
+    "A065091",
+    "A075135",
+    "A075188",
+    "A075189",
+    "A075226",
+    "A217712"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

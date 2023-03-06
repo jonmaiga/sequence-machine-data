@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of integral_{x=1..2} (x^2-1)^n dx.",
+  "id": "A077745",
+  "mentions": [
+    "A076729"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:04:19",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

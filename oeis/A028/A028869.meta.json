@@ -1,0 +1,22 @@
+{
+  "description": "Squares of primes with digits in descending order.",
+  "id": "A028869",
+  "mentions": [
+    "A028865",
+    "A028866",
+    "A028868"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Antichains (or order ideals) in the poset 2*2*6*n or size of the distributive lattice J(2*2*6*n)",
+  "id": "A056933",
+  "mentions": [
+    "A000372",
+    "A006356",
+    "A006360",
+    "A006361",
+    "A006362",
+    "A056932",
+    "A056934",
+    "A056935",
+    "A056936",
+    "A056937"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

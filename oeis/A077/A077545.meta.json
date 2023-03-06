@@ -1,0 +1,25 @@
+{
+  "description": "Primes of the form floor(k*e).",
+  "id": "A077545",
+  "mentions": [
+    "A022843",
+    "A022854",
+    "A054385",
+    "A062409",
+    "A184587",
+    "A184855",
+    "A184856",
+    "A184858"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

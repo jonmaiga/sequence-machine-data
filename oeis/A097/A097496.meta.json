@@ -1,0 +1,19 @@
+{
+  "description": "Subsequence of terms of odd index of the Somos-5 sequence.",
+  "id": "A097496",
+  "mentions": [
+    "A006720",
+    "A006721"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

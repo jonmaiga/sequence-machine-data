@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} (p mod 4 - 2)/p^2 where p=prime(k).",
+  "id": "A086240",
+  "mentions": [
+    "A085991",
+    "A086032"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

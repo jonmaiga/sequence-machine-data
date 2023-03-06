@@ -1,0 +1,23 @@
+{
+  "description": "First ten consecutive primes which are emirps.",
+  "id": "A040104",
+  "mentions": [
+    "A006567",
+    "A048051",
+    "A048052",
+    "A103172"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

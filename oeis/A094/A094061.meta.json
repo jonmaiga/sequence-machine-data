@@ -1,0 +1,27 @@
+{
+  "description": "Number of n-moves paths of a king starting and ending at the origin of an infinite chessboard.",
+  "id": "A094061",
+  "mentions": [
+    "A002426",
+    "A054474",
+    "A098070",
+    "A126869",
+    "A253974",
+    "A254129",
+    "A254459",
+    "A327751",
+    "A329024"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

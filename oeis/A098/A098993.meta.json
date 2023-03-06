@@ -1,0 +1,17 @@
+{
+  "description": "Let h be the smallest value for which h, h+1, ..., h+n-1 are all lengths of hypotenuses of Pythagorean triangles. Then a(n)=h.",
+  "id": "A098993",
+  "mentions": [
+    "A099799"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

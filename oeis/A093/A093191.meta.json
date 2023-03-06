@@ -1,0 +1,16 @@
+{
+  "description": "Primes congruent to 4 mod 13.",
+  "id": "A093191",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:31:27",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

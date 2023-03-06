@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: for 1 <= k <= n, a(n, k) = n^k mod k.",
+  "id": "A094263",
+  "mentions": [
+    "A094264",
+    "A094265"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

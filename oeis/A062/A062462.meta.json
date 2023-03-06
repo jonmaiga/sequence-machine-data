@@ -1,0 +1,19 @@
+{
+  "description": "Nearest integer to log(n!)^(n^(-1/n)).",
+  "id": "A062462",
+  "mentions": [
+    "A039217",
+    "A062461"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

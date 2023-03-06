@@ -1,0 +1,32 @@
+{
+  "description": "Continued fraction for sqrt(7).",
+  "id": "A010121",
+  "mentions": [
+    "A010123",
+    "A010127",
+    "A010130",
+    "A010131",
+    "A010132",
+    "A010137",
+    "A010146",
+    "A010465",
+    "A040001",
+    "A089146",
+    "A109008",
+    "A112132"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

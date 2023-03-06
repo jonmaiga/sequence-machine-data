@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest positive integer c such that the equation A049820(x) = c has exactly n solutions.",
+  "id": "A060991",
+  "mentions": [
+    "A000005",
+    "A045765",
+    "A049816",
+    "A049820",
+    "A236565"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

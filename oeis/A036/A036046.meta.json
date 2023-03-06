@@ -1,0 +1,18 @@
+{
+  "description": "Product of the lengths of the cycle types of the permutation created by duality and reversal on the partitions of n.",
+  "id": "A036046",
+  "mentions": [
+    "A036045",
+    "A036056"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:23:27",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

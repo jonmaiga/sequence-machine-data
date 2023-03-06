@@ -1,0 +1,18 @@
+{
+  "description": "For p=prime(n), a(n) = number of points (x,y) on the elliptic curve x^3 + y^3 = 1 (mod p), including the point at infinity.",
+  "id": "A060965",
+  "mentions": [
+    "A003627",
+    "A098514"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

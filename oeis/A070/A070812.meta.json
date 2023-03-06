@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = phi(gpf(n)) - gpf(phi(n)) = A000010(A006530(n)) - A006530(A000010(n)).",
+  "id": "A070812",
+  "mentions": [
+    "A000010",
+    "A006530",
+    "A007283",
+    "A068211",
+    "A070002",
+    "A070003",
+    "A070004",
+    "A070777"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 3,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

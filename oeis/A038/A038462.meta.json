@@ -1,0 +1,30 @@
+{
+  "description": "Sums of 11 distinct powers of 2.",
+  "id": "A038462",
+  "mentions": [
+    "A000079",
+    "A014311",
+    "A014312",
+    "A014313",
+    "A018900",
+    "A023688",
+    "A023689",
+    "A023690",
+    "A023691",
+    "A038453",
+    "A038461"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

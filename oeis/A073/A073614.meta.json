@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that m*(prime(m)+1) is a square.",
+  "id": "A073614",
+  "mentions": [
+    "A083726"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

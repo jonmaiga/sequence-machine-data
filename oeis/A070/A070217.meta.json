@@ -1,0 +1,19 @@
+{
+  "description": "Numbers not represented by a known atomic weight as given in Francis W. Aston's Nobel lecture in 1922.",
+  "id": "A070217",
+  "mentions": [
+    "A007656"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:07:03",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numerators in inverse of a Catalan scaled binomial matrix.",
+  "id": "A098505",
+  "mentions": [
+    "A093527",
+    "A098474",
+    "A098506",
+    "A098507",
+    "A098508"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

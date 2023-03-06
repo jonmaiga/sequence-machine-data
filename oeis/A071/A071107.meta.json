@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the greatest integer that can be obtained from the integers {1, 2, 3, ..., n} using each number at most once and the operators +,-,*,/,^.",
+  "id": "A071107",
+  "mentions": [
+    "A070960"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

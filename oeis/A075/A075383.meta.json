@@ -1,0 +1,31 @@
+{
+  "description": "Rearrangement of natural numbers so that next n numbers are each divisible by n.",
+  "id": "A075383",
+  "mentions": [
+    "A000040",
+    "A072205",
+    "A075384",
+    "A075385",
+    "A075386",
+    "A075387",
+    "A075388",
+    "A075389",
+    "A075390",
+    "A096780",
+    "A096781",
+    "A263896"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

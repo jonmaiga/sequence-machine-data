@@ -1,0 +1,30 @@
+{
+  "description": "Sum of sixth powers of first n Fibonacci numbers.",
+  "id": "A098532",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A001654",
+    "A002878",
+    "A005968",
+    "A005969",
+    "A049629",
+    "A049685",
+    "A098531",
+    "A098533",
+    "A119287",
+    "A128697"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

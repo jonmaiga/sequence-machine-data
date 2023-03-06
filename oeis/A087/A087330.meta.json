@@ -1,0 +1,18 @@
+{
+  "description": "Sum of all digits of all integers less than or equal to 555...55 (with n 5's) in base 10.",
+  "id": "A087330",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:47:53",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

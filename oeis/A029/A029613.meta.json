@@ -1,0 +1,18 @@
+{
+  "description": "Even numbers (not equal to 2) to the left of the central elements of the (2,3)-Pascal triangle A029600.",
+  "id": "A029613",
+  "mentions": [
+    "A029600"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:43:25",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Number of ways prime(n) is a sum of 3 odd nonprimes r,s,t satisfying 1 <= r < s < t.",
+  "id": "A024680",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

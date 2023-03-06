@@ -1,0 +1,22 @@
+{
+  "description": "Let R_{k}(m) = the digit reversal of m in base k (R_{k}(m) is written in base 10). a(n) is the smallest m such that R_{k}(m) = n, where k >= 2.",
+  "id": "A091951",
+  "mentions": [
+    "A004086",
+    "A030101",
+    "A030108",
+    "A056960",
+    "A056963"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

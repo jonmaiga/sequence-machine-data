@@ -1,0 +1,26 @@
+{
+  "description": "Urban numbers: without 'r' or 'u'.",
+  "id": "A072957",
+  "mentions": [
+    "A006933",
+    "A008521",
+    "A008523",
+    "A008537",
+    "A052360",
+    "A072956",
+    "A089589",
+    "A089590"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

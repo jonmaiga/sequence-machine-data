@@ -1,0 +1,23 @@
+{
+  "description": "a(1)=1, a(2)=3, a(3)=5, a(4)=2, a(5)=4; for n > 5, a(n) = a(n-5) + 5.",
+  "id": "A065186",
+  "mentions": [
+    "A065187",
+    "A065188",
+    "A065257",
+    "A277617",
+    "A277618"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:37",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

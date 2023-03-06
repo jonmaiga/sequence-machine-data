@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows in which the n-th row contains the n smallest triangular numbers with the least significant digits of the n-th triangular number.",
+  "id": "A095225",
+  "mentions": [
+    "A000217",
+    "A055642",
+    "A095226"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n!)^n+1.",
+  "id": "A036739",
+  "mentions": [
+    "A019514",
+    "A020549",
+    "A036740",
+    "A038507"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n^(prime(prime(n))).",
+  "id": "A094814",
+  "mentions": [
+    "A006450"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:16:25",
+    "offset": 1,
+    "size": 8,
+    "source": "joeis"
+  }
+}

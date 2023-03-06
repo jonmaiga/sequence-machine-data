@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 6*a(n-1) - a(n-2) + 2, with a(0)=1, a(1)=4.",
+  "id": "A072221",
+  "mentions": [
+    "A000217",
+    "A001108",
+    "A001541",
+    "A016064",
+    "A075848"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

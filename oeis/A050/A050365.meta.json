@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of ways to write n as an identity mterm, where an identity mterm is an unordered sum which is either 2, or 1 + an unordered product of distinct identity mterms.",
+  "id": "A050365",
+  "mentions": [
+    "A045778",
+    "A050318",
+    "A050319",
+    "A050366",
+    "A067765"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

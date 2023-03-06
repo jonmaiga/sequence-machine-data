@@ -1,0 +1,26 @@
+{
+  "description": "Number of n-node rooted trees with nodes of 2 colors.",
+  "id": "A038055",
+  "mentions": [
+    "A000081",
+    "A000151",
+    "A038056",
+    "A038062",
+    "A245870",
+    "A271878"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = least value such that sequence increases and pairwise differences are unique.",
+  "id": "A058335",
+  "mentions": [
+    "A005282",
+    "A051788"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Number of terms in n-th derivative of a function composed with itself 3 times.",
+  "id": "A022811",
+  "mentions": [
+    "A000041",
+    "A008778",
+    "A022812",
+    "A022813",
+    "A022814",
+    "A022815",
+    "A022816",
+    "A022817",
+    "A022818",
+    "A024207",
+    "A024208",
+    "A024209",
+    "A024210",
+    "A039805",
+    "A081718",
+    "A131408"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

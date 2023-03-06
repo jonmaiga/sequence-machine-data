@@ -1,0 +1,19 @@
+{
+  "description": "Dispersion of the complement of the pentagonal numbers.",
+  "id": "A082152",
+  "mentions": [
+    "A000326",
+    "A082153"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

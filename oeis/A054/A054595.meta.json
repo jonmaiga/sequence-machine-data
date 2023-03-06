@@ -1,0 +1,21 @@
+{
+  "description": "Number of labeled 2-connected minimally 2-edge-connected graphs by nodes.",
+  "id": "A054595",
+  "mentions": [
+    "A001072",
+    "A003317",
+    "A054317",
+    "A054596"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 3,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

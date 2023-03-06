@@ -1,0 +1,23 @@
+{
+  "description": "a(n)=2*A085003(n)-n.",
+  "id": "A085004",
+  "mentions": [
+    "A083035",
+    "A083036",
+    "A083037",
+    "A083038",
+    "A085003",
+    "A085005"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:31:43",
+    "offset": 1,
+    "size": 115,
+    "source": "joeis"
+  }
+}

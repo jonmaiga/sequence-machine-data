@@ -1,0 +1,31 @@
+{
+  "description": "Smallest term of a run of at least 9 consecutive integers which are not squarefree.",
+  "id": "A078143",
+  "mentions": [
+    "A013929",
+    "A034386",
+    "A045882",
+    "A049535",
+    "A051681",
+    "A061742",
+    "A068781",
+    "A070258",
+    "A070284",
+    "A077640",
+    "A077647",
+    "A078144",
+    "A268313",
+    "A268314"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

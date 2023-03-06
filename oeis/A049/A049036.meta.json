@@ -1,0 +1,21 @@
+{
+  "description": "Mean gap between successive primes up to n-th prime is an integer.",
+  "id": "A049036",
+  "mentions": [
+    "A049038",
+    "A049066",
+    "A228543"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

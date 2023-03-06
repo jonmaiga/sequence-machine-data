@@ -1,0 +1,20 @@
+{
+  "description": "Self-convolution of A004148 (the RNA secondary structure numbers) with itself.",
+  "id": "A089735",
+  "mentions": [
+    "A001622",
+    "A004148",
+    "A190170"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "3-digit numbers that do not resolve to 495 under the Kaprekar routine.",
+  "id": "A090429",
+  "mentions": [
+    "A069746"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

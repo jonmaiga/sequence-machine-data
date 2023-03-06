@@ -1,0 +1,23 @@
+{
+  "description": "Number of non-commutative closed binary operations on a set of order n.",
+  "id": "A079182",
+  "mentions": [
+    "A002489",
+    "A023813",
+    "A079178",
+    "A079180",
+    "A079184",
+    "A079210"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

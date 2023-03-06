@@ -1,0 +1,24 @@
+{
+  "description": "Possible differences between a cube and the next smaller square.",
+  "id": "A087285",
+  "mentions": [
+    "A065733",
+    "A077116",
+    "A081121",
+    "A087286",
+    "A088017",
+    "A165288",
+    "A181138",
+    "A229618"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

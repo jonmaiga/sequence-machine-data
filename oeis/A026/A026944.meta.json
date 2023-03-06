@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. is inverse function to y -> integral from 0 to y of exp(-s^2).",
+  "id": "A026944",
+  "mentions": [
+    "A002067"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

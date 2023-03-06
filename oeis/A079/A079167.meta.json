@@ -1,0 +1,22 @@
+{
+  "description": "Weighted roundness of n. If n = p_1^e_1...p_k^e_k, then a(n) = e_1 + 2*e_2 + ... + k*e_k. Note that p_i < p_j, i < j is assumed.",
+  "id": "A079167",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A001222",
+    "A056239",
+    "A079168",
+    "A079169"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

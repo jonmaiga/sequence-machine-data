@@ -1,0 +1,40 @@
+{
+  "description": "Number of Catalan paths (nonnegative, starting and ending at 0, step +/-1) of 2*n steps with all values <= 5.",
+  "id": "A080937",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000108",
+    "A001519",
+    "A005021",
+    "A007051",
+    "A011782",
+    "A024175",
+    "A033191",
+    "A038213",
+    "A080934",
+    "A080938",
+    "A094789",
+    "A094790",
+    "A096976",
+    "A116425",
+    "A123183",
+    "A130716",
+    "A160389",
+    "A211216",
+    "A322602",
+    "A332602"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

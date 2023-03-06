@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of numbers {a(n,k), n >= 0, 0 <= k <= n} defined by a(0,0)=1, a(n,0)=A000670(n), a(n,n)=A000629(n), a(n,k) = a(n,k-1) + a(n-1,k-1); a(n+1,0) = Sum_{k=0..n} a(n,k).",
+  "id": "A073146",
+  "mentions": [
+    "A000629",
+    "A000670",
+    "A011971",
+    "A098696"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Sum of digits is greater than or equal to product of digits.",
+  "id": "A062996",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A034710",
+    "A062329",
+    "A062997",
+    "A062998",
+    "A062999"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

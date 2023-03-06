@@ -1,0 +1,29 @@
+{
+  "description": "Numbers whose sum of digits is a prime.",
+  "id": "A028834",
+  "mentions": [
+    "A007953",
+    "A010051",
+    "A028835",
+    "A028842",
+    "A046704",
+    "A052018",
+    "A052019",
+    "A052020",
+    "A052021",
+    "A052022"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:40:31",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

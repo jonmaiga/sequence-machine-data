@@ -1,0 +1,21 @@
+{
+  "description": "A076340(A000961(n)), real part of prime powers mapped as defined in A076340, A076341.",
+  "id": "A076345",
+  "mentions": [
+    "A000961",
+    "A076340",
+    "A076341",
+    "A076342",
+    "A076346"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

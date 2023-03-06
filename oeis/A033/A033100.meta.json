@@ -1,0 +1,27 @@
+{
+  "description": "Number of 3's when k is written in base b for all b and k satisfying 2<=b<=n+1, 1<=k<=n.",
+  "id": "A033100",
+  "mentions": [
+    "A033094",
+    "A033096",
+    "A033098",
+    "A033099",
+    "A033102",
+    "A033104",
+    "A033106",
+    "A033108",
+    "A033110",
+    "A033112"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:21",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = T(2*n+4, n), array T as in A051168 (a count of Lyndon words).",
+  "id": "A050182",
+  "mentions": [
+    "A051168"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:09:05",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

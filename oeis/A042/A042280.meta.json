@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(666).",
+  "id": "A042280",
+  "mentions": [
+    "A042281"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:41:38",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

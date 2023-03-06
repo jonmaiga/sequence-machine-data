@@ -1,0 +1,21 @@
+{
+  "description": "n^2 mod 19.",
+  "id": "A070441",
+  "mentions": [
+    "A070442",
+    "A070443",
+    "A070444"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:25",
+    "offset": 0,
+    "size": 89,
+    "source": "joeis"
+  }
+}

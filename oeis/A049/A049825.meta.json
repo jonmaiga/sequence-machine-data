@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=number of 4's in n-th row of array T given by A049816.",
+  "id": "A049825",
+  "mentions": [
+    "A049816"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:43",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

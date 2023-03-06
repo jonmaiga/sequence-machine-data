@@ -1,0 +1,24 @@
+{
+  "description": "Number of matchings in n-cube.",
+  "id": "A045310",
+  "mentions": [
+    "A005271",
+    "A033516",
+    "A033532",
+    "A033535",
+    "A192437",
+    "A302235"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

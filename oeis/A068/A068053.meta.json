@@ -1,0 +1,19 @@
+{
+  "description": "Start with one 1 in the infinite vector of zeros, shift one right or left and sum mod 2 (bitwise-XOR) to get 11, then shift two steps and XOR to get 1111, then three steps and XOR to get 1110111, then four steps and so on.",
+  "id": "A068053",
+  "mentions": [
+    "A053632",
+    "A068052"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

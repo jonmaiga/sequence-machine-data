@@ -1,0 +1,22 @@
+{
+  "description": "Subsequence of beastly primes (A186086) that are palindromes that begin and end with 7.",
+  "id": "A046720",
+  "mentions": [
+    "A051003",
+    "A131645",
+    "A186086",
+    "A186521"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} floor(k*phi^2)) where phi=(1+sqrt(5))/2.",
+  "id": "A088207",
+  "mentions": [
+    "A000201",
+    "A000217",
+    "A001622",
+    "A001950",
+    "A054347"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:15:21",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

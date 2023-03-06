@@ -1,0 +1,23 @@
+{
+  "description": "Self-conjugate digitized partition numbers.",
+  "id": "A068325",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A000700",
+    "A011782",
+    "A053422",
+    "A068743"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

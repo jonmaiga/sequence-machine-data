@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of arranging the numbers 1 ... 10n into a 10 X n array so there is exactly one local maximum.",
+  "id": "A087931",
+  "mentions": [
+    "A007846",
+    "A087783"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

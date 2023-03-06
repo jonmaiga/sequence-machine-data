@@ -1,0 +1,15 @@
+{
+  "description": "Smallest k such that 10^k + 2n-1 is a prime >10, or 0 if no such k exists. Index of the smallest power of 10 which when increased by the n-th odd number yields a prime.",
+  "id": "A087371",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

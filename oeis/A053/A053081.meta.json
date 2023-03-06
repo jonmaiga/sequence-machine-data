@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways of getting no pair, a pair, 2 pair, 3 of a kind, other straight, other flush, full house, 4 of a kind, straight flush or 5 of a kind in 5-card poker when joker is wild.",
+  "id": "A053081",
+  "mentions": [
+    "A014357",
+    "A014404",
+    "A053080",
+    "A053082"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

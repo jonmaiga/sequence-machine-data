@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least m such that a period of the continued fraction expansion of sqrt(m) is 1,1,1,...,1,1,1,Z and there are n ones in the period (Z is 2*floor(sqrt(m))). If no such m exists, a(n) = 0.",
+  "id": "A071296",
+  "mentions": [
+    "A000045",
+    "A010342",
+    "A060215"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

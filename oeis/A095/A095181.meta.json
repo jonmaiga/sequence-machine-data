@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows in which the j-th row begins with prime(j) and is the arithmetic progression with least common difference such that the remaining j-1 terms are composite and not divisible by prime(j).",
+  "id": "A095181",
+  "mentions": [
+    "A095182",
+    "A160915"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

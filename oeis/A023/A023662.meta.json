@@ -1,0 +1,19 @@
+{
+  "description": "Convolution of odd numbers and primes.",
+  "id": "A023662",
+  "mentions": [
+    "A000040",
+    "A005408"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:19:31",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers which cannot be written as sums of squares of consecutive numbers (even allowing squares of negative numbers).",
+  "id": "A062863",
+  "mentions": [
+    "A062861",
+    "A062862"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

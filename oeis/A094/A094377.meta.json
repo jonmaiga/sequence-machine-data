@@ -1,0 +1,21 @@
+{
+  "description": "Greatest number having exactly n representations as ab+ac+bc with 0 < a < b < c.",
+  "id": "A094377",
+  "mentions": [
+    "A000926",
+    "A025052",
+    "A093669",
+    "A094376",
+    "A094378"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

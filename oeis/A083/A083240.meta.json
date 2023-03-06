@@ -1,0 +1,21 @@
+{
+  "description": "Primes prime(j) such that prime(j)-j is a true power of prime.",
+  "id": "A083240",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A025475",
+    "A109315"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

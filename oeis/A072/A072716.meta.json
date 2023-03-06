@@ -1,0 +1,19 @@
+{
+  "description": "Integers expressible as (x^3 + y^3 + z^3)/(x*y*z) with positive integers x, y and z. (Alternatively, the integers expressible as x/y + y/z + z/x with positive integers x, y and z.)",
+  "id": "A072716",
+  "mentions": [
+    "A085705"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least m such that the average number of divisors of all integers from 1 to m equals n, or 0 if no such number exists.",
+  "id": "A085567",
+  "mentions": [
+    "A050226",
+    "A057494",
+    "A085829"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

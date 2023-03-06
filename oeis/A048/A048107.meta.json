@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that the number of unitary divisors of k (A034444) is larger than the number of non-unitary divisors of k (A048105).",
+  "id": "A048107",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A005117",
+    "A034444",
+    "A048105",
+    "A048108",
+    "A059956",
+    "A060687",
+    "A072357",
+    "A179119",
+    "A271971",
+    "A325973"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:46:03",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

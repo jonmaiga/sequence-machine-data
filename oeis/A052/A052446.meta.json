@@ -1,0 +1,36 @@
+{
+  "description": "Number of unlabeled simple connected bridged graphs on n nodes.",
+  "id": "A052446",
+  "mentions": [
+    "A001349",
+    "A002494",
+    "A007146",
+    "A052447",
+    "A052448",
+    "A241703",
+    "A241704",
+    "A241705",
+    "A263296",
+    "A263914",
+    "A263915",
+    "A327069",
+    "A327071",
+    "A327074",
+    "A327077",
+    "A327109",
+    "A327111",
+    "A327144"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:05:35",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

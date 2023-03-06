@@ -1,0 +1,33 @@
+{
+  "description": "Number of segments lit in a 7-segment display (as on a calculator) to represent the number n, variant 0: '6', '7' and '9' use 5, 3 and 5 segments, respectively.",
+  "id": "A063720",
+  "mentions": [
+    "A000120",
+    "A006942",
+    "A010371",
+    "A018846",
+    "A018847",
+    "A018849",
+    "A038136",
+    "A053701",
+    "A074458",
+    "A102677",
+    "A102679",
+    "A234691",
+    "A234692",
+    "A277116"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

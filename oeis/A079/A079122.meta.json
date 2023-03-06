@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to partition 2*n into distinct positive integers not greater than n.",
+  "id": "A079122",
+  "mentions": [
+    "A000009",
+    "A035294",
+    "A067953",
+    "A079124",
+    "A079125",
+    "A079126",
+    "A111133"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

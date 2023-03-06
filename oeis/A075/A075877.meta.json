@@ -1,0 +1,30 @@
+{
+  "description": "Powering the decimal digits of n (left-associative).",
+  "id": "A075877",
+  "mentions": [
+    "A000030",
+    "A007953",
+    "A007954",
+    "A011540",
+    "A055641",
+    "A133500",
+    "A185969",
+    "A248907",
+    "A256179",
+    "A256229"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "hear",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

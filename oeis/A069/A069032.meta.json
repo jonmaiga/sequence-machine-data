@@ -1,0 +1,22 @@
+{
+  "description": "Powers of 7 with strictly increasing sum of digits.",
+  "id": "A069032",
+  "mentions": [
+    "A069027",
+    "A069028",
+    "A069029",
+    "A069030",
+    "A069031"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

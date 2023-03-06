@@ -1,0 +1,19 @@
+{
+  "description": "Square array T(i,j) = Bernoulli(2i)*Bernoulli(2j) read by antidiagonals: numerators.",
+  "id": "A071020",
+  "mentions": [
+    "A071021"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

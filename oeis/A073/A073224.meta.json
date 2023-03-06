@@ -1,0 +1,20 @@
+{
+  "description": "Partial sum of Pi(k) from 1 to 10^n.",
+  "id": "A073224",
+  "mentions": [
+    "A000720",
+    "A006880",
+    "A046731"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

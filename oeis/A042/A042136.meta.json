@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(593).",
+  "id": "A042136",
+  "mentions": [
+    "A042137"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "frac",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:22:52",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of positive integers <= 2^n of form 5 x^2 + 7 y^2.",
+  "id": "A054177",
+  "mentions": [
+    "A020686"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Distinct numbers appearing as denominators of Bernoulli(2n) for n > 2, divided by 6.",
+  "id": "A090810",
+  "mentions": [
+    "A090801"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

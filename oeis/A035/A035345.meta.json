@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime > prime(1)*prime(2)*...*prime(n)+1.",
+  "id": "A035345",
+  "mentions": [
+    "A002110",
+    "A005235",
+    "A006862",
+    "A038710"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:22:22",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

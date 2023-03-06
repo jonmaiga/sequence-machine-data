@@ -1,0 +1,23 @@
+{
+  "description": "Nonunitary doubly perfect numbers: the sum of the nonunitary divisors of n is 2n; i.e., sigma(n) - usigma(n) = 2n.",
+  "id": "A064592",
+  "mentions": [
+    "A048146",
+    "A064591",
+    "A064593",
+    "A064594",
+    "A064595",
+    "A064596"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of tetrahedra in largest triangulation of polygonal prism with regular polygonal base.",
+  "id": "A036572",
+  "mentions": [
+    "A004116",
+    "A036573"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:27:07",
+    "offset": 3,
+    "size": 52,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Triangle of Stirling numbers of 1st kind, S(n, n-k), n >= 0, 0 <= k <= n.",
+  "id": "A054654",
+  "mentions": [
+    "A008276",
+    "A039810",
+    "A039814",
+    "A048994",
+    "A054655",
+    "A084938",
+    "A106800",
+    "A126350",
+    "A126351",
+    "A126353",
+    "A340556"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

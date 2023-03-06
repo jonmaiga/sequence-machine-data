@@ -1,0 +1,25 @@
+{
+  "description": "Composite numbers k such that k divides F(k-1) where F(j) are the Fibonacci numbers.",
+  "id": "A069106",
+  "mentions": [
+    "A000045",
+    "A002808",
+    "A003631",
+    "A045468",
+    "A064739",
+    "A081264",
+    "A123976"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

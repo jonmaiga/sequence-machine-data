@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that [A070080(k), A070081(k), A070082(k)] is an integer Heronian triangle having triangular area.",
+  "id": "A070148",
+  "mentions": [
+    "A000217",
+    "A070080",
+    "A070081",
+    "A070082",
+    "A070086",
+    "A070142"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

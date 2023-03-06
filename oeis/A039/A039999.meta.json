@@ -1,0 +1,25 @@
+{
+  "description": "Number of permutations of digits of n which yield distinct primes.",
+  "id": "A039999",
+  "mentions": [
+    "A039993",
+    "A046810",
+    "A072857",
+    "A075053",
+    "A076730",
+    "A134596",
+    "A134597"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

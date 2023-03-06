@@ -1,0 +1,19 @@
+{
+  "description": "Satisfies a(1)=1, a(A026835(n+1)) = a(n)+1, with a(m)=0 for all m not found in A026835, where A026835(n+2)=A026835(n+1)+a(n)+1.",
+  "id": "A085246",
+  "mentions": [
+    "A026835",
+    "A085262"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

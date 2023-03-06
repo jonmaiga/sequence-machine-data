@@ -1,0 +1,30 @@
+{
+  "description": "Table T(n,k) = k^n read by upwards antidiagonals (n >= 1, k >= 1).",
+  "id": "A051129",
+  "mentions": [
+    "A000169",
+    "A002024",
+    "A002260",
+    "A003101",
+    "A003320",
+    "A003992",
+    "A004248",
+    "A004736",
+    "A051128",
+    "A247358"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:06:29",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

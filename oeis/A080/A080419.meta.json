@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of generalized Chebyshev coefficients.",
+  "id": "A080419",
+  "mentions": [
+    "A006234",
+    "A080420",
+    "A080421",
+    "A080422",
+    "A080423"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

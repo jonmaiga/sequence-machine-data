@@ -1,0 +1,21 @@
+{
+  "description": "Alternating row sums of array A090216 (generalized Stirling2 array S_{5,5}(n,m)).",
+  "id": "A090218",
+  "mentions": [
+    "A000166",
+    "A008279",
+    "A090216"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

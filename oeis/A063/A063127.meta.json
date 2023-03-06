@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers which in base 2 contain their largest proper factor as a substring.",
+  "id": "A063127",
+  "mentions": [
+    "A062238",
+    "A063131"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

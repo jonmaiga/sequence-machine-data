@@ -1,0 +1,16 @@
+{
+  "description": "a(n)= Gamma(n+2) *Gamma(n+1) *2F2(n+2, n+1; 2, 2; 1)/exp(1), where 2F2(;;) is a generalized hypergeometric series.",
+  "id": "A088718",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number that is sum of 2 positive distinct n-th powers in 2 different ways.",
+  "id": "A046881",
+  "mentions": [
+    "A016078"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "An interleaved sequence of pyramidal and polygonal numbers.",
+  "id": "A081283",
+  "mentions": [
+    "A002415",
+    "A006007",
+    "A081282",
+    "A081284"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:59:39",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of exp(x)*(1+x)/(1-x)^2.",
+  "id": "A082028",
+  "mentions": [
+    "A007680",
+    "A082029"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:31:02",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

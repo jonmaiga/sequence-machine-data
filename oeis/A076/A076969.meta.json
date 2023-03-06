@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, a(n+1)= smallest cube greater than the n-th partial sum.",
+  "id": "A076969",
+  "mentions": [
+    "A076970"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

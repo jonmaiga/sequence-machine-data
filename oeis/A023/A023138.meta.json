@@ -1,0 +1,25 @@
+{
+  "description": "Number of cycles of function f(x) = 6x mod n.",
+  "id": "A023138",
+  "mentions": [
+    "A000374",
+    "A023135",
+    "A023136",
+    "A023137",
+    "A023139",
+    "A023140",
+    "A023141",
+    "A023142"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

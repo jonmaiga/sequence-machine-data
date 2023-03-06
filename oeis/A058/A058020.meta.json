@@ -1,0 +1,28 @@
+{
+  "description": "Difference between lcm(1,..,n) and the smallest prime > lcm(1,...,n) + 1, where n runs over A000961, lcm(n) runs through A051451.",
+  "id": "A058020",
+  "mentions": [
+    "A000961",
+    "A003418",
+    "A005235",
+    "A035346",
+    "A037153",
+    "A037155",
+    "A038710",
+    "A045493",
+    "A051451",
+    "A054272",
+    "A055211",
+    "A057019"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

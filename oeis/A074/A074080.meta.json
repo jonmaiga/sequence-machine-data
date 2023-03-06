@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(n,k) (listed in order T(1,0), T(2,0), T(2,1), T(3,0), T(3,1), T(3,2), T(4,0), etc.) giving the number of 2^k-cycles that occur in the n-th sub-permutation of A069767/A069768 (i.e., in the range [A014137(n-1)..A014138(n-1)] inclusive).",
+  "id": "A074080",
+  "mentions": [
+    "A000108",
+    "A002262",
+    "A003056",
+    "A014137",
+    "A014138",
+    "A069767",
+    "A069768",
+    "A073346",
+    "A073430",
+    "A073431",
+    "A074079"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

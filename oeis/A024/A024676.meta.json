@@ -1,0 +1,17 @@
+{
+  "description": "Prime divisors (not necessarily distinct) of n-th term of sequence A024675 (averages of two consecutive odd primes).",
+  "id": "A024676",
+  "mentions": [
+    "A024675"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:24:25",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

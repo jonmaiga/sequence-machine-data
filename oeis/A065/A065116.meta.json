@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that sigma(k) + tau(k) and sigma(k) - tau(k) are primes.",
+  "id": "A065116",
+  "mentions": [
+    "A064205",
+    "A065061"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

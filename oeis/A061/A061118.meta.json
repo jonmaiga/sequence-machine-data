@@ -1,0 +1,19 @@
+{
+  "description": "Let s(n) be the sequence of squares (A000290). Then this sequence is given by s(1), s(2)s(1)s(3), s(4)s(2)s(1)s(3)s(5), ...",
+  "id": "A061118",
+  "mentions": [
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

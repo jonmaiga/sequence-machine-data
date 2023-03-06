@@ -1,0 +1,23 @@
+{
+  "description": "Number of terms in n-th derivative of a function composed with itself 6 times.",
+  "id": "A022814",
+  "mentions": [
+    "A008778",
+    "A022811",
+    "A022818",
+    "A024207",
+    "A024210",
+    "A050300"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "(prime(n)*(prime(n+1)-1) + (prime(n)-1)*prime(n+1)) / 2.",
+  "id": "A099909",
+  "mentions": [
+    "A001222",
+    "A099910",
+    "A099911"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 2,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

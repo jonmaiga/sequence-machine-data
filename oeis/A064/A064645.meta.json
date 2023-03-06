@@ -1,0 +1,25 @@
+{
+  "description": "Table where the entry (n,k) (n >= 0, k >= 0) gives number of Motzkin paths of the length n with the minimum peak width of k.",
+  "id": "A064645",
+  "mentions": [
+    "A001006",
+    "A001263",
+    "A004148",
+    "A004149",
+    "A023421",
+    "A023422",
+    "A023423",
+    "A054425"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

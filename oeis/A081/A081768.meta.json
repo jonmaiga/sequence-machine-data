@@ -1,0 +1,16 @@
+{
+  "description": "Number of k, 1<=k<=n, such that C(n,k) divides C(2n,2k).",
+  "id": "A081768",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

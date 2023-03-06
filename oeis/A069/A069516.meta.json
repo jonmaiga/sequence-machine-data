@@ -1,0 +1,20 @@
+{
+  "description": "Geometric mean of digits = 3 and digits are in nondecreasing order.",
+  "id": "A069516",
+  "mentions": [
+    "A061427",
+    "A069512",
+    "A069518"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

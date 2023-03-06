@@ -1,0 +1,27 @@
+{
+  "description": "Square array A(row>=1, col>=1) by antidiagonals: A(r,c) contains the c:th prime p for which A037888(p)=(r-1).",
+  "id": "A095749",
+  "mentions": [
+    "A000040",
+    "A016041",
+    "A037888",
+    "A095743",
+    "A095744",
+    "A095745",
+    "A095746",
+    "A095747",
+    "A095748",
+    "A095759"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

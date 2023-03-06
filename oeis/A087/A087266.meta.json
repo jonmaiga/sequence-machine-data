@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = gcd(2^n, pi(2^n)) = gcd(A000079(n), A007053(n)).",
+  "id": "A087266",
+  "mentions": [
+    "A000079",
+    "A000720",
+    "A007053"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

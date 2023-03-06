@@ -1,0 +1,18 @@
+{
+  "description": "Number of prime divisors of the squarefree number A092981(n).",
+  "id": "A092982",
+  "mentions": [
+    "A092981"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

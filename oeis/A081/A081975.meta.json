@@ -1,0 +1,20 @@
+{
+  "description": "Triangular number pertaining to A081974. a(n) = A081974(n)*A081974(n+1).",
+  "id": "A081975",
+  "mentions": [
+    "A000217",
+    "A081974",
+    "A081976",
+    "A081977"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

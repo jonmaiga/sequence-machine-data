@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that A000295(n) = 2^n-n-1 is a semiprime.",
+  "id": "A099441",
+  "mentions": [
+    "A000295",
+    "A099439",
+    "A099440",
+    "A099442"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of congrua: T(n,k) = 4*n*k(n^2-k^2) with n>k>0 and starting at T(2,1) = 24. A055096(n)^2 + a(n) is a square, as is A055096(n)^2 - a(n).",
+  "id": "A057103",
+  "mentions": [
+    "A055096",
+    "A057102",
+    "A256418"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 2,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of 1/49 - 1/n^2.",
+  "id": "A061048",
+  "mentions": [
+    "A061035",
+    "A061047",
+    "A061050"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:01:03",
+    "offset": 7,
+    "size": 35,
+    "source": "joeis"
+  }
+}

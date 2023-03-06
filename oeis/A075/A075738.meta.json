@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree Fibonacci numbers whose indices are also squarefree.",
+  "id": "A075738",
+  "mentions": [
+    "A000045",
+    "A005117",
+    "A061305",
+    "A075739"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

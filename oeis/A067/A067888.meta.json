@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that tau(n+1)=tau(n-1) where tau(k)=A000005(k).",
+  "id": "A067888",
+  "mentions": [
+    "A000005",
+    "A055574",
+    "A062832",
+    "A067889"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

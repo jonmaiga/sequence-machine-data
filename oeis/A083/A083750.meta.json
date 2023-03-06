@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 2111131111...p(n-1)1111p(n) is prime.",
+  "id": "A083750",
+  "mentions": [
+    "A082549",
+    "A083677"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of n X n matrices over GF(5) under row and column permutations.",
+  "id": "A052272",
+  "mentions": [
+    "A002724",
+    "A052269",
+    "A052271",
+    "A091062",
+    "A246106"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

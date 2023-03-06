@@ -1,0 +1,17 @@
+{
+  "description": "Sum of absolute values of terms in n-th row of A065432.",
+  "id": "A065441",
+  "mentions": [
+    "A065432"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

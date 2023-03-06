@@ -1,0 +1,21 @@
+{
+  "description": "A002260 squared, as an infinite lower triangular matrix, read by rows.",
+  "id": "A095729",
+  "mentions": [
+    "A001296",
+    "A002260",
+    "A028552"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

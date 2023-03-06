@@ -1,0 +1,19 @@
+{
+  "description": "A000040(n+1) - A073273(n).",
+  "id": "A073274",
+  "mentions": [
+    "A000040",
+    "A073272",
+    "A073273"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

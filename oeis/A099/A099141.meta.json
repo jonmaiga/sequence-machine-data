@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 5^n * T(n,7/5) where T is the Chebyshev polynomial of the first kind.",
+  "id": "A099141",
+  "mentions": [
+    "A001541",
+    "A081294",
+    "A083884",
+    "A090965",
+    "A099140",
+    "A099142",
+    "A333988"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

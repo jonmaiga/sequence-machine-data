@@ -1,0 +1,18 @@
+{
+  "description": "Number of triangular partitions of n.",
+  "id": "A089647",
+  "mentions": [
+    "A089299"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

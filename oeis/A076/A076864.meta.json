@@ -1,0 +1,33 @@
+{
+  "description": "Number of connected loopless multigraphs with n edges.",
+  "id": "A076864",
+  "mentions": [
+    "A000664",
+    "A007718",
+    "A022562",
+    "A050535",
+    "A054923",
+    "A076865",
+    "A076866",
+    "A076867",
+    "A191646",
+    "A191970",
+    "A275421",
+    "A317672",
+    "A322114",
+    "A322137",
+    "A322148"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

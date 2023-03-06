@@ -1,0 +1,20 @@
+{
+  "description": "Differences between two successive prime powers of prime numbers (A076707) in more than one way.",
+  "id": "A077257",
+  "mentions": [
+    "A053810",
+    "A075308",
+    "A076707",
+    "A077258"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

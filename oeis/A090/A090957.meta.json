@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1/(Integral_{x=0..1} (x^4 - x^5)^n dx).",
+  "id": "A090957",
+  "mentions": [
+    "A002457",
+    "A090816",
+    "A090969"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "description": "This table shows the coefficients of combinatorial formulas needed for generating the sequential sums of p-th powers of binomial coefficients C(n,5). The p-th row (p>=1) contains a(i,p) for i=1 to 5*p-4, where a(i,p) satisfies Sum_{i=1..n} C(i+4,5)^p = 6 * C(n+5,6) * Sum_{i=1..5*p-4} a(i,p) * C(n-1,i-1)/(i+5).",
+  "id": "A087109",
+  "mentions": [
+    "A000292",
+    "A000332",
+    "A000389",
+    "A000579",
+    "A000580",
+    "A007318",
+    "A024166",
+    "A027555",
+    "A085438",
+    "A085439",
+    "A085440",
+    "A085441",
+    "A085442",
+    "A086020",
+    "A086021",
+    "A086022",
+    "A086023",
+    "A086024",
+    "A086025",
+    "A086026",
+    "A086027",
+    "A086028",
+    "A086029",
+    "A086030",
+    "A087107",
+    "A087108",
+    "A087110",
+    "A087111",
+    "A087127",
+    "A237202"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

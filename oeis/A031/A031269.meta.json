@@ -1,0 +1,15 @@
+{
+  "description": "Write the (n+1)st Fibonacci number in base 5 and juxtapose.",
+  "id": "A031269",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:50:41",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

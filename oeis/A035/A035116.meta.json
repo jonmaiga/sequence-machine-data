@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = tau(n)^2, where tau(n) = A000005(n).",
+  "id": "A035116",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A048691",
+    "A061391",
+    "A061502",
+    "A066446",
+    "A184389"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:18:19",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

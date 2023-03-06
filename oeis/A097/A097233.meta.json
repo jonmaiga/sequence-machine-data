@@ -1,0 +1,18 @@
+{
+  "description": "Starting primes for which there is only one solution in A097231.",
+  "id": "A097233",
+  "mentions": [
+    "A097231",
+    "A097232"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

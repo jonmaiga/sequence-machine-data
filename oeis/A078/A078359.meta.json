@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n as sum of a positive square and a positive cube.",
+  "id": "A078359",
+  "mentions": [
+    "A054402",
+    "A055394",
+    "A066650",
+    "A078360"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

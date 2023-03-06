@@ -1,0 +1,18 @@
+{
+  "description": "Primes in A001003.",
+  "id": "A092840",
+  "mentions": [
+    "A001003",
+    "A092839"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

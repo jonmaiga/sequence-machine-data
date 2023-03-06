@@ -1,0 +1,32 @@
+{
+  "description": "Generalized Gaussian Fibonacci integers.",
+  "id": "A088138",
+  "mentions": [
+    "A000244",
+    "A001018",
+    "A010892",
+    "A013731",
+    "A027907",
+    "A045873",
+    "A084102",
+    "A088137",
+    "A088139",
+    "A100067",
+    "A100192",
+    "A128834",
+    "A131577",
+    "A138230"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

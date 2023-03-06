@@ -1,0 +1,25 @@
+{
+  "description": "Construct difference array so that (1) first row begins with 1, (2) every row is monotonic increasing, (3) no number appears more than once, (4) smallest number not yet used begins a new row. Sequence gives numbers not used.",
+  "id": "A057154",
+  "mentions": [
+    "A052474",
+    "A056230",
+    "A056231",
+    "A056232",
+    "A056233",
+    "A056234",
+    "A057153"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:42",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction expansion of abs(C) where C=-0.2959050055752...is the real negative solution to zeta(x)=x.",
+  "id": "A072115",
+  "mentions": [
+    "A069857"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

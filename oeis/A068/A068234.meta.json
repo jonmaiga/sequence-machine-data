@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest prime p such that p and the next n-1 primes are all == 5 (mod 12).",
+  "id": "A068234",
+  "mentions": [
+    "A040117",
+    "A068227",
+    "A068228",
+    "A068229",
+    "A068231",
+    "A068232",
+    "A068233",
+    "A068235"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

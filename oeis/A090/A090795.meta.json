@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = lesser of a pair of twin primes p, q=p+2 such that product of first n primes plus p is a prime and also product of first n primes plus q is a prime.",
+  "id": "A090795",
+  "mentions": [
+    "A001359",
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

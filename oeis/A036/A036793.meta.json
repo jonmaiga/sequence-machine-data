@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (2/Pi)*Integral_{x=0..Pi} sin(x)/x dx.",
+  "id": "A036793",
+  "mentions": [
+    "A019669",
+    "A036791",
+    "A036792",
+    "A061079"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

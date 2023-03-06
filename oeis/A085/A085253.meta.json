@@ -1,0 +1,21 @@
+{
+  "description": "Numbers having no representation as sum of two powerful numbers (A001694).",
+  "id": "A085253",
+  "mentions": [
+    "A001694",
+    "A075434",
+    "A076871",
+    "A085252"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

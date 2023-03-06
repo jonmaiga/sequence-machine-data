@@ -1,0 +1,21 @@
+{
+  "description": "Indices of incrementally largest terms in the continued fraction for Pi.",
+  "id": "A033090",
+  "mentions": [
+    "A001203",
+    "A033089",
+    "A033092",
+    "A224849"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Greatest prime factor of n also contained as binary substring in binary representation of n; a(n)=1, if no such factor exists.",
+  "id": "A078834",
+  "mentions": [
+    "A000040",
+    "A006530",
+    "A007088",
+    "A078822",
+    "A078833",
+    "A100368",
+    "A100484"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

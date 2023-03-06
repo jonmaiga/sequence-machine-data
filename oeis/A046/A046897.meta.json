@@ -1,0 +1,30 @@
+{
+  "description": "Sum of divisors of n that are not divisible by 4.",
+  "id": "A046897",
+  "mentions": [
+    "A000118",
+    "A000122",
+    "A000203",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A027748",
+    "A051731",
+    "A069733",
+    "A121373",
+    "A124010",
+    "A190621"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

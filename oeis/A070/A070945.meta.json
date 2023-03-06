@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations on n letters that have only cycles of length 4 or less.",
+  "id": "A070945",
+  "mentions": [
+    "A057693",
+    "A070947"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

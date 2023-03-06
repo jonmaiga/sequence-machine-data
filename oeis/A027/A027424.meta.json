@@ -1,0 +1,25 @@
+{
+  "description": "Number of distinct products ij with 1 <= i, j <= n (number of distinct terms in n X n multiplication table).",
+  "id": "A027424",
+  "mentions": [
+    "A027384",
+    "A027417",
+    "A027426",
+    "A033677",
+    "A062854",
+    "A108407",
+    "A322967"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

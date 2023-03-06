@@ -1,0 +1,20 @@
+{
+  "description": "Primes p(x) satisfying the following conditions: [1]# A082882(x)=1; [2]# {p(x),p(x+1)} are not twin primes; [3]# values of A075860(j) for j composites between these two non-twin primes are identical. See also A075860, A082880-A082882.",
+  "id": "A082883",
+  "mentions": [
+    "A008472",
+    "A075860",
+    "A082880",
+    "A082882"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

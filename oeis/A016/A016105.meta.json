@@ -1,0 +1,31 @@
+{
+  "description": "Blum integers: numbers of the form p * q where p and q are distinct primes congruent to 3 (mod 4).",
+  "id": "A016105",
+  "mentions": [
+    "A002145",
+    "A005117",
+    "A006881",
+    "A046388",
+    "A084109",
+    "A091113",
+    "A107978",
+    "A167181",
+    "A195758",
+    "A195759",
+    "A339817",
+    "A339870"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

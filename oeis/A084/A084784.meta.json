@@ -1,0 +1,23 @@
+{
+  "description": "Binomial transform = self-convolution: first column of the triangle (A084783).",
+  "id": "A084784",
+  "mentions": [
+    "A000670",
+    "A060223",
+    "A084783",
+    "A084785",
+    "A084786",
+    "A195983"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Run lengths in binary expansion of Pi.",
+  "id": "A051480",
+  "mentions": [
+    "A004601"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:56:29",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

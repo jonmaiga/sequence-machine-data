@@ -1,0 +1,20 @@
+{
+  "description": "Primes p = prime(i) such that p(i)# + p(i+1) is prime.",
+  "id": "A093077",
+  "mentions": [
+    "A035346",
+    "A087714",
+    "A088415",
+    "A093078"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

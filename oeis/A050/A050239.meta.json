@@ -1,0 +1,21 @@
+{
+  "description": "Consecutive square palindromic primes; palindromic primes of the form x^2 + (x+1)^2, where x values are given by A050236.",
+  "id": "A050239",
+  "mentions": [
+    "A002385",
+    "A050236"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest n-digit pseudoprime (to base 2).",
+  "id": "A068216",
+  "mentions": [
+    "A001262",
+    "A001567",
+    "A062568",
+    "A062852",
+    "A067845"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes in the interval [p(n), p(n)^2] minus p(n), where p(n) is the n-th prime.",
+  "id": "A066883",
+  "mentions": [
+    "A000040",
+    "A054272",
+    "A066885",
+    "A066886"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

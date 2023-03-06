@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime == 1 mod L, where L = LCM of 1 to n.",
+  "id": "A070858",
+  "mentions": [
+    "A003418",
+    "A035091",
+    "A060357",
+    "A070844",
+    "A070856",
+    "A075059"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

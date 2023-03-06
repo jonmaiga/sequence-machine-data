@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to lace a shoe that has n pairs of eyelets such that the lace does not cross itself between the eyelet rows.",
+  "id": "A079410",
+  "mentions": [
+    "A000384",
+    "A078602",
+    "A078698"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

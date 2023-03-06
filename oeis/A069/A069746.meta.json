@@ -1,0 +1,20 @@
+{
+  "description": "Four-digit numbers that do not resolve to 6174 under the Kaprekar map (see A151949).",
+  "id": "A069746",
+  "mentions": [
+    "A151949"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

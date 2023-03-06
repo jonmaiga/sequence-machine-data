@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that sigma(k^k)>=n*k^k.",
+  "id": "A073087",
+  "mentions": [
+    "A002110",
+    "A023199",
+    "A091440",
+    "A112873"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

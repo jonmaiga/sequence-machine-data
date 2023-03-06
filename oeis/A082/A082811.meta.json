@@ -1,0 +1,27 @@
+{
+  "description": "Smallest multiple of n beginning with 2.",
+  "id": "A082811",
+  "mentions": [
+    "A000030",
+    "A054850",
+    "A082784",
+    "A082786",
+    "A082787",
+    "A082788",
+    "A082789",
+    "A082791"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

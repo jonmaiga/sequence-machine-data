@@ -1,0 +1,20 @@
+{
+  "description": "Number of subsets of {1,2,...,n} such that every number in the set is no larger than the sum of the other numbers in the set.",
+  "id": "A095941",
+  "mentions": [
+    "A002623",
+    "A095944"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

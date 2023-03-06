@@ -1,0 +1,23 @@
+{
+  "description": "Largest GF2X-Matula number i which encodes a tree of n nodes, i.e., for which A091238(i) = n.",
+  "id": "A091240",
+  "mentions": [
+    "A005518",
+    "A014580",
+    "A091230",
+    "A091238",
+    "A091239",
+    "A091241",
+    "A091247"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

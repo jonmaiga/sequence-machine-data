@@ -1,0 +1,21 @@
+{
+  "description": "Let d(n) = denominator of Sum_{k=1..n} 1/k^2 and consider f(n) = product of primes which appear to odd powers in d(n); sequence lists n such that f(n) is different from f(n-1).",
+  "id": "A035166",
+  "mentions": [
+    "A007407",
+    "A007913",
+    "A075326",
+    "A075327"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

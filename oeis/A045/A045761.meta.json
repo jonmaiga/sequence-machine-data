@@ -1,0 +1,20 @@
+{
+  "description": "Define polynomials Pn by P0 = 0, P1 = x, P2 = P1 + P0, P3 = P2 * P1, P4 = P3 + P2, etc. alternately adding or multiplying. For even n > 2k, then first k coefficients of Pn remain unchanged and their values are the first k terms of the sequence.",
+  "id": "A045761",
+  "mentions": [
+    "A001696",
+    "A039941",
+    "A268107"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Rearrangement of odd primes so that absolute successive differences are the least distinct even numbers. Priority is given to the least successive difference that has not occurred earlier.",
+  "id": "A094747",
+  "mentions": [
+    "A094748"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

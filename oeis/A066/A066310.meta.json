@@ -1,0 +1,25 @@
+{
+  "description": "n < (product of digits of n) * (sum of digits of n).",
+  "id": "A066310",
+  "mentions": [
+    "A034710",
+    "A038369",
+    "A049101",
+    "A049106",
+    "A061672",
+    "A066306",
+    "A066309"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

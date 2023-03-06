@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = sigma_3(n^3)/sigma(n^3).",
+  "id": "A077454",
+  "mentions": [
+    "A000203",
+    "A000578",
+    "A001158",
+    "A013665",
+    "A057660",
+    "A077455",
+    "A077456"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Function f[n]=1+Sum[digit^2 of n] is iterated as in A099646. Values x for which A099646[x]=1 are listed here. These terms are analogous to happy-numbers [=A007770].",
+  "id": "A099647",
+  "mentions": [
+    "A007770",
+    "A031176",
+    "A099645",
+    "A099646"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

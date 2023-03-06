@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 2^r*7^s - 1.",
+  "id": "A077314",
+  "mentions": [
+    "A023509",
+    "A077313"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

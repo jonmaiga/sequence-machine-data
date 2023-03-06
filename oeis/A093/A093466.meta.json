@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T[n,k] = number of n X n binary matrices with k=0...n^2 ones, distinct up to cyclic shifts of rows and columns; reflection through any vertical or horizontal axis; and reflection through the main diagonal. Also, quasi-n-ominoes on a torus divided into a k X k grid.",
+  "id": "A093466",
+  "mentions": [
+    "A059202",
+    "A088309",
+    "A088310",
+    "A088616",
+    "A089673",
+    "A089674",
+    "A094000",
+    "A094223",
+    "A116532",
+    "A116539",
+    "A181230",
+    "A259763"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

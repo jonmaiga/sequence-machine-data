@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into sum of at most three primes.",
+  "id": "A071335",
+  "mentions": [
+    "A002375",
+    "A010051",
+    "A025583",
+    "A061358",
+    "A068307"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

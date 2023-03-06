@@ -1,0 +1,18 @@
+{
+  "description": "Automorphic primes: p such that p^p ends with the digits of p.",
+  "id": "A052228",
+  "mentions": [
+    "A003226"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

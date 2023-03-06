@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of counts of s-clusters in n X n (0,1)-matrices for s=0, 1, ....",
+  "id": "A086266",
+  "mentions": [
+    "A086265"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

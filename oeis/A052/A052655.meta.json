@@ -1,0 +1,24 @@
+{
+  "description": "a(2) = 6, otherwise a(n) = n*n!.",
+  "id": "A052655",
+  "mentions": [
+    "A000255",
+    "A001563",
+    "A003432",
+    "A051752",
+    "A089480",
+    "A089482"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:51:23",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

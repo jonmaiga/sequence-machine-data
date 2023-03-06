@@ -1,0 +1,17 @@
+{
+  "description": "Exponent of 6 (value of j) in n-th number of form 4^i*6^j.",
+  "id": "A025658",
+  "mentions": [
+    "A025673"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:29:41",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

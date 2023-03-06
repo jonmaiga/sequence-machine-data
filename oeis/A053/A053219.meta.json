@@ -1,0 +1,23 @@
+{
+  "description": "Reverse of triangle A053218, read by rows.",
+  "id": "A053219",
+  "mentions": [
+    "A001792",
+    "A045618",
+    "A053218",
+    "A053220",
+    "A053221",
+    "A062111"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:06:59",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

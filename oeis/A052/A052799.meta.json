@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f.: x^4*(log(1-x))^2.",
+  "id": "A052799",
+  "mentions": [
+    "A001620",
+    "A052766"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

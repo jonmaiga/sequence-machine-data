@@ -1,0 +1,19 @@
+{
+  "description": "Highest power of 2 not exceeding n!.",
+  "id": "A067850",
+  "mentions": [
+    "A000142",
+    "A003070"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

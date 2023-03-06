@@ -1,0 +1,27 @@
+{
+  "description": "Number of odd cycles in range [A014137(2n)..A014138(2n)] of permutation A057505/A057506, with fixed-points of both A057163 and A057164.",
+  "id": "A081156",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A014138",
+    "A057163",
+    "A057164",
+    "A057505",
+    "A057506",
+    "A080973",
+    "A081155",
+    "A081163"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

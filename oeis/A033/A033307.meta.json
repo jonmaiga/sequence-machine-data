@@ -1,0 +1,37 @@
+{
+  "description": "Decimal expansion of Champernowne constant (or Mahler's number), formed by concatenating the positive integers.",
+  "id": "A033307",
+  "mentions": [
+    "A000027",
+    "A001191",
+    "A003137",
+    "A007376",
+    "A007908",
+    "A030167",
+    "A030190",
+    "A030302",
+    "A030373",
+    "A030548",
+    "A030998",
+    "A031035",
+    "A031076",
+    "A031219",
+    "A054634",
+    "A054635",
+    "A065648"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

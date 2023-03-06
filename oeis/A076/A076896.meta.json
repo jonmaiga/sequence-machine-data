@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(n) = n-a(floor(2n/3)).",
+  "id": "A076896",
+  "mentions": [
+    "A050292"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

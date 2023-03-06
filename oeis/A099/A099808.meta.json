@@ -1,0 +1,20 @@
+{
+  "description": "If a,b are primes which satisfy the Diophantine equation a^3 + b^3 = c^2, then this sequence consists of the numbers sqrt((a+b)/48), sorted by the magnitude of c.",
+  "id": "A099808",
+  "mentions": [
+    "A098970",
+    "A099806",
+    "A099807",
+    "A099809"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

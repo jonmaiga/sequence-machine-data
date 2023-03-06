@@ -1,0 +1,22 @@
+{
+  "description": "Number of divisors of n such that n and n-1 have the same sum of divisors.",
+  "id": "A054002",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A002961",
+    "A053249",
+    "A054003"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

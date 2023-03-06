@@ -1,0 +1,20 @@
+{
+  "description": "Unimodal analog of binomial coefficient, such that A071921(n,m) = a(n+m-1,n) for all (n,m) different from (0,0), arranged in a Pascal-like triangle.",
+  "id": "A071922",
+  "mentions": [
+    "A071921"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

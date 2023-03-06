@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers that are differences between two positive cubes.",
+  "id": "A038847",
+  "mentions": [
+    "A038848",
+    "A181123"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

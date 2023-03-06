@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 14*a(n-1) - a(n-2) with a(0) = 0, a(1) = 2.",
+  "id": "A011944",
+  "mentions": [
+    "A001075",
+    "A001353",
+    "A007654",
+    "A007655",
+    "A011943"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:49:47",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

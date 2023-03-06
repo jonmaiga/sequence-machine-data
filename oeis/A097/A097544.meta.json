@@ -1,0 +1,18 @@
+{
+  "description": "Sum_{k=1..2n-1} J(4*n,k)*k^2, where J(i,j) is the Jacobi symbol.",
+  "id": "A097544",
+  "mentions": [
+    "A097541",
+    "A097543"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

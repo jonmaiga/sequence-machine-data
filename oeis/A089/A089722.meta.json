@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k), 0<=k<=n, read by rows, defined by: Product{k=1..n, (1+x^k)^(n+1-k)} = Sum{k>=0, T(n,k)*x^k}.",
+  "id": "A089722",
+  "mentions": [
+    "A006125"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Coefficient triangle of polynomials (falling powers) related to Fibonacci convolutions. Companion triangle to A057281.",
+  "id": "A057282",
+  "mentions": [
+    "A000045",
+    "A001628",
+    "A020876",
+    "A037027",
+    "A057280",
+    "A057281",
+    "A057995",
+    "A151615"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

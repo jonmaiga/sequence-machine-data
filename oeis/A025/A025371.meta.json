@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are the sum of 4 nonzero squares in 6 or more ways.",
+  "id": "A025371",
+  "mentions": [
+    "A025334",
+    "A025362",
+    "A025370",
+    "A025372",
+    "A025428",
+    "A344799",
+    "A345148"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

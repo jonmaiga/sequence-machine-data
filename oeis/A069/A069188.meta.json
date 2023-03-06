@@ -1,0 +1,20 @@
+{
+  "description": "Look at all numbers formed by multiplying the parts in a partition of n; a(n) = maximal such number which is divisible by n.",
+  "id": "A069188",
+  "mentions": [
+    "A000792",
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

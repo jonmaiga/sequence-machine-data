@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: (1+x)*Product_{m>0} (1 + x^m).",
+  "id": "A052816",
+  "mentions": [
+    "A000009"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:05:11",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

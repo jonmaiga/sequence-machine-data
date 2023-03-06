@@ -1,0 +1,24 @@
+{
+  "description": "Binary encodings of the Catalan mountain ranges with exactly one sea-level valley, i.e., the rooted plane trees with root degree = 2.",
+  "id": "A057517",
+  "mentions": [
+    "A000108",
+    "A014486",
+    "A057122",
+    "A057501",
+    "A057518",
+    "A057519",
+    "A057547"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Minimum (absolute value of) permanent of a Hadamard matrix of order 4n.",
+  "id": "A096205",
+  "mentions": [
+    "A096201",
+    "A096204",
+    "A096206"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

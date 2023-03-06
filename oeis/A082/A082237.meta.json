@@ -1,0 +1,18 @@
+{
+  "description": "n-th roots of the n-th powers pertaining to A082236.",
+  "id": "A082237",
+  "mentions": [
+    "A082236"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

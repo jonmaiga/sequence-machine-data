@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of eta(q^6) * eta(q^10) / (eta(q) * eta(q^15)) in powers of q.",
+  "id": "A094023",
+  "mentions": [
+    "A058618",
+    "A131797"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

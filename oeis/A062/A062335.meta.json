@@ -1,0 +1,21 @@
+{
+  "description": "Primes starting and ending with 9.",
+  "id": "A062335",
+  "mentions": [
+    "A062332",
+    "A062333",
+    "A062334"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

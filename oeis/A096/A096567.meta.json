@@ -1,0 +1,32 @@
+{
+  "description": "First digit to appear n times in the base-10 expansion of Pi.",
+  "id": "A096567",
+  "mentions": [
+    "A000796",
+    "A014976",
+    "A053745",
+    "A053753",
+    "A096566",
+    "A195138",
+    "A195139",
+    "A195141",
+    "A276686",
+    "A276992",
+    "A276993",
+    "A277171",
+    "A280811",
+    "A291599",
+    "A291600"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

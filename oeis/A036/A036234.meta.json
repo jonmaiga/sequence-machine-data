@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes <= n, if 1 is counted as a prime.",
+  "id": "A036234",
+  "mentions": [
+    "A000720",
+    "A008578",
+    "A061395",
+    "A080339",
+    "A080786",
+    "A147693"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows giving T(n,k) = number of rooted graphs on n + 1 nodes with k edges (n >= 0, 0 <= k <= n(n-1)/2).",
+  "id": "A070166",
+  "mentions": [
+    "A000666",
+    "A054921",
+    "A283755",
+    "A322114"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

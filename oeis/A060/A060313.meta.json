@@ -1,0 +1,30 @@
+{
+  "description": "Number of homeomorphically irreducible rooted trees (also known as series-reduced rooted trees, or rooted trees without nodes of degree 2) on n labeled nodes.",
+  "id": "A060313",
+  "mentions": [
+    "A000014",
+    "A000169",
+    "A000669",
+    "A001678",
+    "A001679",
+    "A005512",
+    "A059123",
+    "A060356",
+    "A108919",
+    "A254382",
+    "A331489",
+    "A331578"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

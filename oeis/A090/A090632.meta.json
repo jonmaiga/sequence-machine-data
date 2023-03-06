@@ -1,0 +1,20 @@
+{
+  "description": "Given n boxes labeled 1..n, such that box i weighs 3i grams and can support a total weight of i grams; a(n) = number of stacks of boxes that can be formed such that no box is squashed.",
+  "id": "A090632",
+  "mentions": [
+    "A064986",
+    "A089054",
+    "A090631"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

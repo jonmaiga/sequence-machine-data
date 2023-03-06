@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that decimal expansion of k^2 contains no palindromic substring except single digits.",
+  "id": "A052061",
+  "mentions": [
+    "A050741",
+    "A052062",
+    "A052063",
+    "A052064"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

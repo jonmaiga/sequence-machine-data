@@ -1,0 +1,21 @@
+{
+  "description": "A091242-indices of primes that are composite GF(2)[X]-polynomials.",
+  "id": "A091211",
+  "mentions": [
+    "A091209",
+    "A091213",
+    "A091242",
+    "A091246",
+    "A091247"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

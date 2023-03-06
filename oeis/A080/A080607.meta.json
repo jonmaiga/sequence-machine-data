@@ -1,0 +1,20 @@
+{
+  "description": "Golomb's sequence using multiples of 3.",
+  "id": "A080607",
+  "mentions": [
+    "A001462",
+    "A080605",
+    "A080606"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

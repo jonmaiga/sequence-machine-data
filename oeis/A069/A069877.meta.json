@@ -1,0 +1,27 @@
+{
+  "description": "Smallest number with a prime signature whose indices are the decimal digits of n.",
+  "id": "A069877",
+  "mentions": [
+    "A007953",
+    "A010888",
+    "A046523",
+    "A051801",
+    "A054842",
+    "A061509",
+    "A278222",
+    "A278226",
+    "A278236"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

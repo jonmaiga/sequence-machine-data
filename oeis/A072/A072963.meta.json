@@ -1,0 +1,20 @@
+{
+  "description": "In prime factorization of n replace all single (i.e., non-twin) primes with 1.",
+  "id": "A072963",
+  "mentions": [
+    "A000040",
+    "A007510"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

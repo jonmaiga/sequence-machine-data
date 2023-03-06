@@ -1,0 +1,15 @@
+{
+  "description": "Numbers n such that n | 11^n + 9^n + 7^n + 5^n + 3^n + 1.",
+  "id": "A057832",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:59:43",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

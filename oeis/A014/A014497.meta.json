@@ -1,0 +1,15 @@
+{
+  "description": "Theta series of hypothetical extremal 3-modular even 48-dimensional lattice with minimal norm 10 and det = 3^24.",
+  "id": "A014497",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

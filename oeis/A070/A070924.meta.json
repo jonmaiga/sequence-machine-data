@@ -1,0 +1,18 @@
+{
+  "description": "Where A070871 sets a new record.",
+  "id": "A070924",
+  "mentions": [
+    "A070871",
+    "A070926"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of walks of length n on the square lattice that start from (0,0) and do not touch the half-line {x=y, x <= 0} once they have left their starting point.",
+  "id": "A053792",
+  "mentions": [
+    "A000108",
+    "A053791"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

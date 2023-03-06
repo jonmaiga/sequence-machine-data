@@ -1,0 +1,19 @@
+{
+  "description": "Number of dissectable polyhedra with symmetry of type K.",
+  "id": "A047751",
+  "mentions": [
+    "A027610",
+    "A047749"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:14:12",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

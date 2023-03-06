@@ -1,0 +1,23 @@
+{
+  "description": "If the rightmost block of zeros in binary representation of n has an even length, then delete one 0, otherwise insert one 0 in this block.",
+  "id": "A084483",
+  "mentions": [
+    "A000120",
+    "A007088",
+    "A023416",
+    "A035263",
+    "A070939",
+    "A084484"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

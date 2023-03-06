@@ -1,0 +1,26 @@
+{
+  "description": "Largest non-unitary prime factor of LCM(1,...,n); that is, the largest prime which occurs to power > 1 in prime factorization of LCM(1,..,n).",
+  "id": "A056813",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A008578",
+    "A045948",
+    "A054041",
+    "A056170",
+    "A069482",
+    "A084920"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the quotient of lcm of first n consecutive prime differences and A001223[n], the n-th term of consecutive p-differences.",
+  "id": "A083273",
+  "mentions": [
+    "A001223",
+    "A080374",
+    "A080376"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

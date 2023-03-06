@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose square can be expressed as the sum of two positive cubes in more than one way.",
+  "id": "A051302",
+  "mentions": [
+    "A001235",
+    "A011541",
+    "A050801",
+    "A145553",
+    "A155961"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

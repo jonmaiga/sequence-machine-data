@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes between 100n and 100n+99.",
+  "id": "A038822",
+  "mentions": [
+    "A028505",
+    "A181098",
+    "A186311",
+    "A186393",
+    "A186408",
+    "A186509"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

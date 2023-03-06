@@ -1,0 +1,28 @@
+{
+  "description": "Squarefree numbers with 8 as their initial (leftmost) digit.",
+  "id": "A077684",
+  "mentions": [
+    "A005117",
+    "A077677",
+    "A077678",
+    "A077679",
+    "A077680",
+    "A077681",
+    "A077682",
+    "A077683",
+    "A077685",
+    "A217401"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

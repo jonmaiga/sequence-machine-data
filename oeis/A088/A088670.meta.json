@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n into distinct decimal repdigit numbers.",
+  "id": "A088670",
+  "mentions": [
+    "A000009",
+    "A010785",
+    "A088669",
+    "A091581",
+    "A109967",
+    "A109968",
+    "A131364"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

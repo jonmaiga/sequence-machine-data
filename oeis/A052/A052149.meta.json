@@ -1,0 +1,25 @@
+{
+  "description": "Number of nonsquare rectangles on an n X n board.",
+  "id": "A052149",
+  "mentions": [
+    "A000330",
+    "A000537",
+    "A000914",
+    "A007290",
+    "A033487",
+    "A035291",
+    "A045991"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:01:37",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A035282.",
+  "id": "A078472",
+  "mentions": [
+    "A035282",
+    "A078471",
+    "A353997"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

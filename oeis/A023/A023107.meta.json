@@ -1,0 +1,20 @@
+{
+  "description": "Largest integer in which every prefix is prime in base n (written in base 10).",
+  "id": "A023107",
+  "mentions": [
+    "A076586",
+    "A094335",
+    "A103443"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 3,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

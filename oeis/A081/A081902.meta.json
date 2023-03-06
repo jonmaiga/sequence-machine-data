@@ -1,0 +1,20 @@
+{
+  "description": "A sequence related to binomial(n+5, 5).",
+  "id": "A081902",
+  "mentions": [
+    "A081901",
+    "A081903"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least triangular number whose digit permutations yield exactly n further triangular numbers.",
+  "id": "A095870",
+  "mentions": [
+    "A069674",
+    "A077671",
+    "A095869"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

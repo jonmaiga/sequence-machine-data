@@ -1,0 +1,20 @@
+{
+  "description": "Least area/6 of primitive Pythagorean triangles with even leg 4n.",
+  "id": "A096898",
+  "mentions": [
+    "A088557",
+    "A088558",
+    "A096891",
+    "A096900"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

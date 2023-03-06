@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers not in A079000.",
+  "id": "A079252",
+  "mentions": [
+    "A079000",
+    "A079250"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

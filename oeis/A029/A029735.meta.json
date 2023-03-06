@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k^3 is palindromic in base 16.",
+  "id": "A029735",
+  "mentions": [
+    "A029736"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

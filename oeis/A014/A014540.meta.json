@@ -1,0 +1,22 @@
+{
+  "description": "Rectilinear crossing number of complete graph on n nodes.",
+  "id": "A014540",
+  "mentions": [
+    "A000241",
+    "A006247",
+    "A030179"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

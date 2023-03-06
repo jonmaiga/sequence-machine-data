@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2*a(n-1)*A002812(n-1), starting a(0)=1.",
+  "id": "A071579",
+  "mentions": [
+    "A001353",
+    "A002812",
+    "A058635",
+    "A230338"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

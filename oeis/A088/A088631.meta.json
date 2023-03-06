@@ -1,0 +1,23 @@
+{
+  "description": "Largest number m < n such that m+n is a prime.",
+  "id": "A088631",
+  "mentions": [
+    "A007917",
+    "A010051",
+    "A060265",
+    "A088633",
+    "A088643"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 2,
+    "size": 75,
+    "source": "joeis"
+  }
+}

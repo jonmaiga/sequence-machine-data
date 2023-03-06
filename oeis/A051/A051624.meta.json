@@ -1,0 +1,26 @@
+{
+  "description": "12-gonal (or dodecagonal) numbers: a(n) = n*(5*n-4).",
+  "id": "A051624",
+  "mentions": [
+    "A000217",
+    "A000384",
+    "A007587",
+    "A010879",
+    "A017281",
+    "A093645",
+    "A131242",
+    "A195162"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:57:21",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

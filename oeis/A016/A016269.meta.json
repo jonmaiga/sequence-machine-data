@@ -1,0 +1,33 @@
+{
+  "description": "Number of monotone Boolean functions of n variables with 2 mincuts. Also number of Sperner systems with 2 blocks.",
+  "id": "A016269",
+  "mentions": [
+    "A000079",
+    "A000392",
+    "A000453",
+    "A001047",
+    "A006516",
+    "A019333",
+    "A027650",
+    "A032263",
+    "A038721",
+    "A047707",
+    "A051112",
+    "A051118",
+    "A099110",
+    "A143494",
+    "A193685"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of 1/Pi.",
+  "id": "A049541",
+  "mentions": [
+    "A000796",
+    "A001025",
+    "A002162",
+    "A002894",
+    "A010503",
+    "A016754",
+    "A063723",
+    "A088538",
+    "A165922",
+    "A165952",
+    "A165953",
+    "A165954"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

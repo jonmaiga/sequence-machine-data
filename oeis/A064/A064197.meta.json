@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 27*(n-1)*(n-2)*(n-3)*(3*n-8)/2.",
+  "id": "A064197",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:21",
+    "offset": 2,
+    "size": 28,
+    "source": "joeis"
+  }
+}

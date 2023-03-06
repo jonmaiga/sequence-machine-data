@@ -1,0 +1,18 @@
+{
+  "description": "n-th partial arithmetic mean is equal to the n-th composite number.",
+  "id": "A092930",
+  "mentions": [
+    "A092929"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

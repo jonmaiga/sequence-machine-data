@@ -1,0 +1,20 @@
+{
+  "description": "List the positive rationals in the order in which they are produced by the Stern sequence A002487 and apply the Sagher map to turn them into integers.",
+  "id": "A071970",
+  "mentions": [
+    "A002487",
+    "A060837"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

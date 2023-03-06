@@ -1,0 +1,21 @@
+{
+  "description": "Palindromic primes using only nonprime digits (0,1,4,6,8,9).",
+  "id": "A083185",
+  "mentions": [
+    "A002385",
+    "A019546",
+    "A034844",
+    "A045336"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

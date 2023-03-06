@@ -1,0 +1,19 @@
+{
+  "description": "Binomial coefficients C(n,83).",
+  "id": "A017747",
+  "mentions": [
+    "A001787",
+    "A242091"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 83,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

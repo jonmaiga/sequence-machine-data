@@ -1,0 +1,19 @@
+{
+  "description": "M(2*n-1), where M(n) is Mertens's function (A002321): Sum_{k=1..n} mu(k), where mu = Moebius function (A008683).",
+  "id": "A063473",
+  "mentions": [
+    "A002321",
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

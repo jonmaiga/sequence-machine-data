@@ -1,0 +1,20 @@
+{
+  "description": "Least number of empty convex quadrilaterals (4-gons) determined by n points in the plane.",
+  "id": "A063542",
+  "mentions": [
+    "A014540",
+    "A063541",
+    "A276096"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 4,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

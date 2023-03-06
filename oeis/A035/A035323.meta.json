@@ -1,0 +1,21 @@
+{
+  "description": "Related to deca-factorial numbers A045757.",
+  "id": "A035323",
+  "mentions": [
+    "A025755",
+    "A035308",
+    "A045757"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

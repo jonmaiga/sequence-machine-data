@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of e.g.f. exp(7*x)/(1-7*x)^(1/7).",
+  "id": "A094911",
+  "mentions": [
+    "A000522",
+    "A046716",
+    "A081367",
+    "A094822",
+    "A094856",
+    "A094869",
+    "A094905"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:51:16",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

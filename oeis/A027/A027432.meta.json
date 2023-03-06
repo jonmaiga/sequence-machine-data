@@ -1,0 +1,20 @@
+{
+  "description": "Related to sorting procedure studied by West: number of permutations that are both sorted (i.e., obtainable as output of the sorting procedure) and one-stack sortable.",
+  "id": "A027432",
+  "mentions": [
+    "A000260",
+    "A027361"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

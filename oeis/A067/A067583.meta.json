@@ -1,0 +1,19 @@
+{
+  "description": "Integers of the form phi(n^n)/phi(n)^n where phi is the Euler totient function A000010(n).",
+  "id": "A067583",
+  "mentions": [
+    "A000010",
+    "A007694"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

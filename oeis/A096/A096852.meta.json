@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the length of terminal cycle of the trajectory of f(x)=phi(sigma(x)) if started at 2^n.",
+  "id": "A096852",
+  "mentions": [
+    "A095955",
+    "A095956",
+    "A096849",
+    "A096850"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

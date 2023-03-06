@@ -1,0 +1,15 @@
+{
+  "description": "Period of continued fraction for sqrt(n) contains more than one 1, but no two consecutive 1's.",
+  "id": "A013657",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:37:31",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

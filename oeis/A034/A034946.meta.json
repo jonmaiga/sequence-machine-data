@@ -1,0 +1,17 @@
+{
+  "description": "Successive approximations to 11-adic integer sqrt(3).",
+  "id": "A034946",
+  "mentions": [
+    "A321072"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

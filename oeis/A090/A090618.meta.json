@@ -1,0 +1,24 @@
+{
+  "description": "Highest power of 9 dividing n!.",
+  "id": "A090618",
+  "mentions": [
+    "A011371",
+    "A027868",
+    "A054861",
+    "A054896",
+    "A090616",
+    "A090617",
+    "A090622"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:20:35",
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

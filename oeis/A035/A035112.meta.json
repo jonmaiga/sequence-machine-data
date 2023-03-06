@@ -1,0 +1,25 @@
+{
+  "description": "Smallest even index 2a such that n-th irregular prime p (A000928(n)) divides Bernoulli_{2a} with 0<=2a<=p-3.",
+  "id": "A035112",
+  "mentions": [
+    "A000367",
+    "A000928",
+    "A046753",
+    "A091887",
+    "A092681",
+    "A092682",
+    "A189683",
+    "A189684",
+    "A189685"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

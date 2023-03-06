@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows giving number of arrangements of k dumbbells on 2 X n grid (n >= 0, k >= 0).",
+  "id": "A046741",
+  "mentions": [
+    "A000045",
+    "A002889",
+    "A002940",
+    "A002941",
+    "A030186"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:24:23",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 2; a(n) = half of the a(n-1)-th even nontotient number.",
+  "id": "A072416",
+  "mentions": [
+    "A005277",
+    "A006508",
+    "A071255",
+    "A072415"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

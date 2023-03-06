@@ -1,0 +1,17 @@
+{
+  "description": "Integer part of denominators of nonzero terms in asymptotic expansion of the Riemann-Seigel Z-function.",
+  "id": "A050277",
+  "mentions": [
+    "A050276"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

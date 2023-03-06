@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = c([ n/2 ]) + c([ n/3 ]) + ... + c([ n/n ]) for n >=3, where a(1) = 1, a(2) = 2 and c(n) = n-th number not in sequence a( ).",
+  "id": "A023419",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:18:39",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

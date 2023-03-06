@@ -1,0 +1,15 @@
+{
+  "description": "Numbers n such that n | 9^n + 8^n + 1.",
+  "id": "A057296",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:25",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

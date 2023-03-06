@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; a(n+1) = sum{k|n} a(k) * mu(k), where the sum is over the positive divisors, k, of n; and mu(k) is the Moebius function.",
+  "id": "A070965",
+  "mentions": [
+    "A027750",
+    "A225817",
+    "A227953",
+    "A227954"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

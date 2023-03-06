@@ -1,0 +1,27 @@
+{
+  "description": "Sum of a square and a nonnegative cube.",
+  "id": "A022549",
+  "mentions": [
+    "A002760",
+    "A022550",
+    "A045634",
+    "A055393",
+    "A055394",
+    "A111925",
+    "A123291",
+    "A123364",
+    "A169618",
+    "A179509"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

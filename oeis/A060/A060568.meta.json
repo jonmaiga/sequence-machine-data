@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes between n and R(n) where R(n) (A004086) is the digit reversal of n.",
+  "id": "A060568",
+  "mentions": [
+    "A004086"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 92,
+    "source": "joeis"
+  }
+}

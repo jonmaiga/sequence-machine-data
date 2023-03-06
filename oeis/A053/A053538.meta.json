@@ -1,0 +1,34 @@
+{
+  "description": "Triangle: a(n,m) = ways to place p balls in n slots with m in the rightmost p slots, 0<=p<=n, 0<=m<=n, summed over p, a(n,m)= Sum_{k=0..n} binomial(k,m)*binomial(n-k,k-m), (see program line).",
+  "id": "A053538",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A001906",
+    "A006053",
+    "A007070",
+    "A076791",
+    "A077957",
+    "A084326",
+    "A084938",
+    "A116415",
+    "A190872",
+    "A190974",
+    "A190978",
+    "A190984",
+    "A190990",
+    "A208342"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

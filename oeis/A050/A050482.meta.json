@@ -1,0 +1,20 @@
+{
+  "description": "Sum of remainders when n-th prime is divided by all preceding integers.",
+  "id": "A050482",
+  "mentions": [
+    "A000040",
+    "A004125",
+    "A034953"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

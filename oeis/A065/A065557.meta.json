@@ -1,0 +1,18 @@
+{
+  "description": "Solutions k of the equation phi(k) = phi(k-1) + phi(k-2). Also known as Phibonacci numbers.",
+  "id": "A065557",
+  "mentions": [
+    "A000010",
+    "A065572"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

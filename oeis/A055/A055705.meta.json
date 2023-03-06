@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n | Sigma_11(n) - Phi(n)^11.",
+  "id": "A055705",
+  "mentions": [
+    "A000010",
+    "A013959"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:28:07",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

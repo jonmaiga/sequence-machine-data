@@ -1,0 +1,43 @@
+{
+  "description": "Exponential convolution of A000670(n), with A000670(0)=0, with the sequence of all ones alternating in sign.",
+  "id": "A089677",
+  "mentions": [
+    "A000670",
+    "A000700",
+    "A005212",
+    "A024429",
+    "A026424",
+    "A027187",
+    "A027193",
+    "A028260",
+    "A052841",
+    "A058695",
+    "A067659",
+    "A078408",
+    "A101707",
+    "A160786",
+    "A166444",
+    "A174725",
+    "A174726",
+    "A236914",
+    "A300063",
+    "A300272",
+    "A332304",
+    "A339890",
+    "A340101",
+    "A340102",
+    "A340692"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

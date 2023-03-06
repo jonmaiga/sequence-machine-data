@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of 3 * H(n,3,2), a generalized harmonic number. See A075135.",
+  "id": "A074597",
+  "mentions": [
+    "A051540",
+    "A075135"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

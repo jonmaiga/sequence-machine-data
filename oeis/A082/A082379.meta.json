@@ -1,0 +1,20 @@
+{
+  "description": "Number of length-n 7/3-power-free words over the alphabet {0,1}.",
+  "id": "A082379",
+  "mentions": [
+    "A007777",
+    "A028445",
+    "A038952",
+    "A082380"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

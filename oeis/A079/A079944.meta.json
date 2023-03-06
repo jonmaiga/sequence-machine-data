@@ -1,0 +1,28 @@
+{
+  "description": "A run of 2^n 0's followed by a run of 2^n 1's, for n=0, 1, 2, ...",
+  "id": "A079944",
+  "mentions": [
+    "A000035",
+    "A001477",
+    "A004526",
+    "A030101",
+    "A079882",
+    "A079945",
+    "A086694",
+    "A173920",
+    "A173922",
+    "A173923"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

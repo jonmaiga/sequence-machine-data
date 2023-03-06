@@ -1,0 +1,19 @@
+{
+  "description": "Integers which cannot be written as k+tau(k) for some k.",
+  "id": "A036434",
+  "mentions": [
+    "A036431",
+    "A036438",
+    "A062249"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

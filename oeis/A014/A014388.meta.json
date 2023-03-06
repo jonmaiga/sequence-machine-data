@@ -1,0 +1,22 @@
+{
+  "description": "a(2n-1) = n+2, a(2n) = smallest number requiring n+2 letters in English.",
+  "id": "A014388",
+  "mentions": [
+    "A000916",
+    "A001166",
+    "A045494",
+    "A045495"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:59:35",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

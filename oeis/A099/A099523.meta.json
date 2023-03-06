@@ -1,0 +1,20 @@
+{
+  "description": "Positions in sequence A099520 at which its records (as given in A099522) appear.",
+  "id": "A099523",
+  "mentions": [
+    "A099520",
+    "A099522"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

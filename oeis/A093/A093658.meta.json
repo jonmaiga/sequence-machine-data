@@ -1,0 +1,25 @@
+{
+  "description": "Lower triangular matrix, read by rows, defined as the convergent of the concatenation of matrices using the iteration: M(n+1) = [[M(n),0*M(n)],[M(n)^2,M(n)]], with M(0) = [1].",
+  "id": "A093658",
+  "mentions": [
+    "A000522",
+    "A010842",
+    "A093655",
+    "A093659",
+    "A093660",
+    "A093661",
+    "A093662"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

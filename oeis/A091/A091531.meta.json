@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that k = 2p is the smallest positive solution to the equation phi(p+k) = phi(p) + phi(k), where phi is Euler's totient function.",
+  "id": "A091531",
+  "mentions": [
+    "A066426"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

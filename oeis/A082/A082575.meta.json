@@ -1,0 +1,21 @@
+{
+  "description": "Nonnegative numbers in (3*A005836) union (3*A005836 - 2) [A005836 lists the numbers with base-3 representation containing no 2].",
+  "id": "A082575",
+  "mentions": [
+    "A001006",
+    "A005836",
+    "A089118",
+    "A089119"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of consecutive runs of 2 odd nonprimes congruent to 3 mod 4 below 10^n.",
+  "id": "A093186",
+  "mentions": [
+    "A091113",
+    "A091236",
+    "A092640",
+    "A093183",
+    "A093184",
+    "A093185",
+    "A093187",
+    "A093188",
+    "A093397",
+    "A093398",
+    "A093399"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

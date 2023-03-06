@@ -1,0 +1,22 @@
+{
+  "description": "a(n)*10^n are the denominators of the greedy alternating Egyptian fraction expansion of Pi - 3 of the form Sum_{n>=0} ((-1)^n / (a(n)*10^n).",
+  "id": "A052385",
+  "mentions": [
+    "A000796",
+    "A001466",
+    "A014013"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

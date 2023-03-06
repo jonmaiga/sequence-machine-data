@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: 1/(1-G001190), where G001190 = x + x^2 + x^3 + 2x^4 + 3x^5 + ... is the g.f. for the Wedderburn-Etherington numbers A001190.",
+  "id": "A085748",
+  "mentions": [
+    "A001190"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

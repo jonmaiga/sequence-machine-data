@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of loopless, regular k X n-matrix matroids of dimension k (or n-matroids of rank k).",
+  "id": "A034328",
+  "mentions": [
+    "A034327",
+    "A034356"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

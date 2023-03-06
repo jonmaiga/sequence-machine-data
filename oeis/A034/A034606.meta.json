@@ -1,0 +1,15 @@
+{
+  "description": "Theta series of (putative) extremal 2-modular even lattice in dimension 48.",
+  "id": "A034606",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

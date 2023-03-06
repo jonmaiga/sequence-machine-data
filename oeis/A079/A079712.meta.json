@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that bigomega(m) = 3*omega(m).",
+  "id": "A079712",
+  "mentions": [
+    "A062838",
+    "A067801"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

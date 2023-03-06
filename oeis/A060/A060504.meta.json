@@ -1,0 +1,18 @@
+{
+  "description": "Let p be a prime that has a primitive root between 0 and p that is not also a primitive root of p^2 (A060503); sequence gives smallest such primitive root.",
+  "id": "A060504",
+  "mentions": [
+    "A055578",
+    "A060503"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Matrix square of inverse triangle A096651; transforms n-dimensional partitions into (n-2)-dimensional partitions.",
+  "id": "A096875",
+  "mentions": [
+    "A096651",
+    "A096874",
+    "A096876"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

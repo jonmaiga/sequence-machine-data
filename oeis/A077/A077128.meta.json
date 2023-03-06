@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number greater than the previous term which is relatively prime to each of the group of the next n numbers.",
+  "id": "A077128",
+  "mentions": [
+    "A000217",
+    "A097050"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

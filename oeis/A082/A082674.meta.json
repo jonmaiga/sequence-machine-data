@@ -1,0 +1,21 @@
+{
+  "description": "Constant term when a polynomial of degree n is fitted to the first n+1 lower members of the twin prime pairs.",
+  "id": "A082674",
+  "mentions": [
+    "A082594",
+    "A082675",
+    "A088460"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

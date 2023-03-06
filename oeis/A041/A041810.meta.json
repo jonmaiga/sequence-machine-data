@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(426).",
+  "id": "A041810",
+  "mentions": [
+    "A040405",
+    "A041811"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:23:29",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

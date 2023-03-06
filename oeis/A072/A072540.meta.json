@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are not differences between successive Ulam numbers (A002858).",
+  "id": "A072540",
+  "mentions": [
+    "A002858",
+    "A072832"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

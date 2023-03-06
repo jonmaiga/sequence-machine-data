@@ -1,0 +1,22 @@
+{
+  "description": "First row in maze arrangement of natural numbers A081344.",
+  "id": "A081345",
+  "mentions": [
+    "A004120",
+    "A053755",
+    "A081344",
+    "A081346"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:01:09",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

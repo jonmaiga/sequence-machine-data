@@ -1,0 +1,16 @@
+{
+  "description": "tan(arcsin(x)*sin(x))=2/2!*x^2+280/6!*x^6+1344/8!*x^8+770848/10!*x^10...",
+  "id": "A012330",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

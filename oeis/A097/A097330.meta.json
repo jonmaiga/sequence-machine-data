@@ -1,0 +1,22 @@
+{
+  "description": "In the sequence of prime numbers replace each term p with floor(p/2) and ceiling(p/2).",
+  "id": "A097330",
+  "mentions": [
+    "A000040",
+    "A005097",
+    "A006254",
+    "A024675",
+    "A180108"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

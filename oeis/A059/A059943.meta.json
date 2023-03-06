@@ -1,0 +1,21 @@
+{
+  "description": "Toss a fair coin and calculate the expected time until the n-th possible finite sequence of Heads and Tails first appears (ordered by length of sequence and alphabetical order so H, T, HH, HT, TH, TT, HHH, etc.).",
+  "id": "A059943",
+  "mentions": [
+    "A007931",
+    "A059941",
+    "A059942"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Table read by rows: row n contains the quadratic residues modulo n which are coprime to n.",
+  "id": "A096103",
+  "mentions": [
+    "A046073"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

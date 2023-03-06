@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of golden angle in degrees, 360*(2-phi).",
+  "id": "A096627",
+  "mentions": [
+    "A001622",
+    "A019685",
+    "A072097",
+    "A131988"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:38:27",
+    "offset": 3,
+    "size": 102,
+    "source": "joeis"
+  }
+}

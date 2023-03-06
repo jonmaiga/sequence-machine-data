@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least x such that the n values x+0, x+6, x+12, ..., x+6*(n-1) are all products of exactly two primes (i.e., semiprimes).",
+  "id": "A091016",
+  "mentions": [
+    "A082919",
+    "A092129",
+    "A124570"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

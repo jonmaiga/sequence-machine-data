@@ -1,0 +1,35 @@
+{
+  "description": "a(0)=1; thereafter a(n+1) = a(n) + number of 1's in binary representation of a(n).",
+  "id": "A010062",
+  "mentions": [
+    "A000120",
+    "A004207",
+    "A007088",
+    "A010061",
+    "A028897",
+    "A092391",
+    "A096303",
+    "A157845",
+    "A228083",
+    "A229167",
+    "A229743",
+    "A229744",
+    "A230088",
+    "A230297",
+    "A230298"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

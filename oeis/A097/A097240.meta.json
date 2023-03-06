@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n+1)*prime(n) + n*prime(n+1).",
+  "id": "A097240",
+  "mentions": [
+    "A000040",
+    "A006094",
+    "A097241",
+    "A258851",
+    "A356155"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

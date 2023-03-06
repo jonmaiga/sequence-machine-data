@@ -1,0 +1,22 @@
+{
+  "description": "Partition numbers rounded to nearest integer given by the Hardy-Ramanujan approximate formula.",
+  "id": "A050811",
+  "mentions": [
+    "A000041",
+    "A035949",
+    "A049575",
+    "A051143"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:56:45",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

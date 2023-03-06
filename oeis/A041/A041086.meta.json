@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(51).",
+  "id": "A041086",
+  "mentions": [
+    "A010504",
+    "A041087"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:39:40",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

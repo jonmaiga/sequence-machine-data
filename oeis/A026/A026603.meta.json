@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A026600(k) = 3.",
+  "id": "A026603",
+  "mentions": [
+    "A026600",
+    "A026601",
+    "A026602"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:32:53",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

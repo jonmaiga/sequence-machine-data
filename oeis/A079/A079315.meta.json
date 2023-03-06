@@ -1,0 +1,29 @@
+{
+  "description": "Number of cells that change from OFF to ON at stage n of the cellular automaton described in A079317.",
+  "id": "A079315",
+  "mentions": [
+    "A000695",
+    "A079314",
+    "A079316",
+    "A079317",
+    "A079319",
+    "A139250",
+    "A147582",
+    "A151914",
+    "A151917",
+    "A151920",
+    "A151921"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

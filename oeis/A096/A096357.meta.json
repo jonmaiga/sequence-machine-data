@@ -1,0 +1,17 @@
+{
+  "description": "Lcm[{ad(n)}], i.e. the least common multiple of the anti-divisors of n.",
+  "id": "A096357",
+  "mentions": [
+    "A066272"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 3,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

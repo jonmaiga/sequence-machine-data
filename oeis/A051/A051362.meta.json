@@ -1,0 +1,22 @@
+{
+  "description": "Primes remaining prime if any digit is deleted (zeros allowed).",
+  "id": "A051362",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A034302",
+    "A034895"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

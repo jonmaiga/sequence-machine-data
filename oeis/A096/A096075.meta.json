@@ -1,0 +1,20 @@
+{
+  "description": "Least common multiple of first n 3-smooth numbers.",
+  "id": "A096075",
+  "mentions": [
+    "A003418",
+    "A003586",
+    "A006899",
+    "A051451"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

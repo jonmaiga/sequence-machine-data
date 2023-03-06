@@ -1,0 +1,19 @@
+{
+  "description": "Size of the automorphism group of the group S_n x S_n (where S_n is the symmetric group).",
+  "id": "A063965",
+  "mentions": [
+    "A048617",
+    "A060249"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

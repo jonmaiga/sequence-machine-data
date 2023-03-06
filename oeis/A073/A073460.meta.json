@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = smallest solution x to n + pi(x) = phi(x), or 0 if no such solution exists.",
+  "id": "A073460",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A037171",
+    "A037228",
+    "A072530",
+    "A072531",
+    "A073453",
+    "A073457",
+    "A073461",
+    "A073462"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": -2,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

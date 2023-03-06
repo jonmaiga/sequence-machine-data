@@ -1,0 +1,21 @@
+{
+  "description": "Exponent of 2 in prime(n)^2 - 1.",
+  "id": "A091282",
+  "mentions": [
+    "A007814",
+    "A023506",
+    "A091283",
+    "A091284",
+    "A233930"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:34:11",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

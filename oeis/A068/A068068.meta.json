@@ -1,0 +1,31 @@
+{
+  "description": "Number of odd unitary divisors of n. d is a unitary divisor of n if d divides n and gcd(d,n/d)=1.",
+  "id": "A068068",
+  "mentions": [
+    "A001221",
+    "A001620",
+    "A008683",
+    "A024361",
+    "A034444",
+    "A056901",
+    "A068067",
+    "A070826",
+    "A077610",
+    "A088860",
+    "A154269",
+    "A206778"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

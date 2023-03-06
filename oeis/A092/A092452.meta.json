@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that either contain the digit 3 or are divisible by 3.",
+  "id": "A092452",
+  "mentions": [
+    "A092433",
+    "A092451",
+    "A092453",
+    "A092454",
+    "A092455",
+    "A092456",
+    "A092457"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

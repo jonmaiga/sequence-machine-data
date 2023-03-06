@@ -1,0 +1,15 @@
+{
+  "description": "Index of 2^n within sequence of numbers of form 2^i*10^j.",
+  "id": "A025695",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:04",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

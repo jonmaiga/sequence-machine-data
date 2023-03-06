@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction expansion of -x, the largest negative root of the equation Fibonacci(x) = 0.",
+  "id": "A089261",
+  "mentions": [
+    "A089260"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

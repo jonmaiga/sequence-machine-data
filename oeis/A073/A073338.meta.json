@@ -1,0 +1,19 @@
+{
+  "description": "Positive values of n for which 4n^2-10n+7 is prime.",
+  "id": "A073338",
+  "mentions": [
+    "A054554",
+    "A073337"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

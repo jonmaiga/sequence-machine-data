@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Fibonacci(n+2)^2 - 1.",
+  "id": "A080097",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001622",
+    "A001654",
+    "A007598",
+    "A027941",
+    "A049997",
+    "A059840",
+    "A064831",
+    "A080144"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

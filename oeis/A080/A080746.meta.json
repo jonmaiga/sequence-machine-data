@@ -1,0 +1,22 @@
+{
+  "description": "Inverse Aronson transform of lower Wythoff sequence A000201.",
+  "id": "A080746",
+  "mentions": [
+    "A000201",
+    "A003622",
+    "A026273",
+    "A035336",
+    "A080760"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Harmonic primes.",
+  "id": "A092101",
+  "mentions": [
+    "A000040",
+    "A001008",
+    "A092102",
+    "A092103",
+    "A177783"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

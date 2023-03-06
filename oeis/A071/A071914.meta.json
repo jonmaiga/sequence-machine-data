@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n of the form k + reverse(k) for exactly three k.",
+  "id": "A071914",
+  "mentions": [
+    "A067030",
+    "A071265",
+    "A072040",
+    "A072041"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

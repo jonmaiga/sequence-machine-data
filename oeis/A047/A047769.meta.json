@@ -1,0 +1,23 @@
+{
+  "description": "Number of dissectable polyhedra with symmetry of type M.",
+  "id": "A047769",
+  "mentions": [
+    "A001764",
+    "A027610",
+    "A047764",
+    "A047765",
+    "A047766",
+    "A047770"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:24:39",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

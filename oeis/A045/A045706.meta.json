@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways n can be written as a sum of a square of a Fibonacci number and a cube of a Fibonacci number; F(1) = F(2) = 1 are considered the same.",
+  "id": "A045706",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:25:31",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

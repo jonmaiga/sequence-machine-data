@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of n-th convergent to e^(2/3).",
+  "id": "A078976",
+  "mentions": [
+    "A001518",
+    "A007676",
+    "A069951",
+    "A078977"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

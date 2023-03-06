@@ -1,0 +1,17 @@
+{
+  "description": "Arises from a social choice theory problem. Sequence is a transformation of the number of non-transitive non-quasitransitive acyclical distinct profiles with 3 alternatives and strict individual preferences.",
+  "id": "A082678",
+  "mentions": [
+    "A082677"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Find smallest pair (x,y) such that x^2 - y^2 = 11...1 (n times) = (10^n-1)/9; sequence gives value of x.",
+  "id": "A048611",
+  "mentions": [
+    "A000042",
+    "A002275",
+    "A033676",
+    "A033677",
+    "A048612"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:49:05",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

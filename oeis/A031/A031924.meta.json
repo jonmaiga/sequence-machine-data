@@ -1,0 +1,21 @@
+{
+  "description": "Primes followed by a gap of 6, i.e., next prime is p + 6.",
+  "id": "A031924",
+  "mentions": [
+    "A001359",
+    "A007529",
+    "A023201",
+    "A031925",
+    "A248855"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

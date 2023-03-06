@@ -1,0 +1,22 @@
+{
+  "description": "5th differences of partition numbers A000041.",
+  "id": "A081095",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A053445",
+    "A072380",
+    "A081094"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

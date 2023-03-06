@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of scaled second column sequences of (k,k)-Stirling2 arrays.",
+  "id": "A091039",
+  "mentions": [
+    "A091040",
+    "A091041"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

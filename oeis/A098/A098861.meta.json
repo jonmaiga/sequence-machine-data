@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = row number in Stolarsky array that contains n. If the first occurrence of a number in the sequence is deleted, the sequence remains unchanged.",
+  "id": "A098861",
+  "mentions": [
+    "A019586",
+    "A035506",
+    "A035614",
+    "A098862"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

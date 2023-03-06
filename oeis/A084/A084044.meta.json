@@ -1,0 +1,19 @@
+{
+  "description": "Smallest palindromic multiple of n in which n is a substring (anywhere), or 0 if n = 10k or no such number exists.",
+  "id": "A084044",
+  "mentions": [
+    "A077741",
+    "A084043"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

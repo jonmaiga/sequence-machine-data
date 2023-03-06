@@ -1,0 +1,22 @@
+{
+  "description": "Sum of digits of n is a square.",
+  "id": "A028839",
+  "mentions": [
+    "A007953",
+    "A028837",
+    "A050626",
+    "A053057"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:40:31",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

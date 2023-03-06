@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n-th partial sum of Golay-Rudin-Shapiro sequence A020985.",
+  "id": "A020986",
+  "mentions": [
+    "A020985",
+    "A020990"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:28",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

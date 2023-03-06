@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest prime q such that in decimal notation the concatenation prime(n)q yields a prime ( = A066064(n)).",
+  "id": "A066065",
+  "mentions": [
+    "A000040",
+    "A023238",
+    "A066064"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

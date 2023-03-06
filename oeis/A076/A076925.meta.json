@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A076924(n) divided by the n-th prime.",
+  "id": "A076925",
+  "mentions": [
+    "A076924"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

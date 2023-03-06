@@ -1,0 +1,17 @@
+{
+  "description": "Binomial transform of A000029.",
+  "id": "A054192",
+  "mentions": [
+    "A000029"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

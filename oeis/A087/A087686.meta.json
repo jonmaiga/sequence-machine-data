@@ -1,0 +1,29 @@
+{
+  "description": "Elements of A004001 that repeat consecutively.",
+  "id": "A087686",
+  "mentions": [
+    "A004001",
+    "A051135",
+    "A080677",
+    "A088359",
+    "A093879",
+    "A188163",
+    "A265901",
+    "A265903",
+    "A266188",
+    "A267110",
+    "A267111",
+    "A267112"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

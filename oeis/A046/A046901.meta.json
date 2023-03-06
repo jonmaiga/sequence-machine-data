@@ -1,0 +1,32 @@
+{
+  "description": "a(n) = a(n-1) - n if a(n-1) > n, else a(n) = a(n-1) + n.",
+  "id": "A046901",
+  "mentions": [
+    "A003462",
+    "A005132",
+    "A008343",
+    "A008344",
+    "A057198",
+    "A076039",
+    "A076041",
+    "A076042",
+    "A085059",
+    "A134931",
+    "A211346",
+    "A238324"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

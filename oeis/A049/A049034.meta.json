@@ -1,0 +1,22 @@
+{
+  "description": "Scaled sums of odd reciprocals.",
+  "id": "A049034",
+  "mentions": [
+    "A000254",
+    "A004041",
+    "A046674",
+    "A081358",
+    "A092692"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

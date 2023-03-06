@@ -1,0 +1,17 @@
+{
+  "description": "The sum of 2 or more consecutive nonzero triangular numbers.",
+  "id": "A050943",
+  "mentions": [
+    "A050942"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:52:31",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

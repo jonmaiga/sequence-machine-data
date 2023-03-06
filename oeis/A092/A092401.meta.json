@@ -1,0 +1,22 @@
+{
+  "description": "List of pairs n, 3n, where n is the least unused number so far.",
+  "id": "A092401",
+  "mentions": [
+    "A007417",
+    "A036552",
+    "A203602"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

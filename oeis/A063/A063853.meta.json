@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) (n >= 3, k = 1..n-2) read by rows giving number of abstract order types of configurations of n points in n-k dimensions.",
+  "id": "A063853",
+  "mentions": [
+    "A063854",
+    "A063855",
+    "A063856",
+    "A063857",
+    "A246990",
+    "A246991"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Largest multiple prime factor of the n-th nonsquarefree number (A013929).",
+  "id": "A046028",
+  "mentions": [
+    "A006530",
+    "A013929",
+    "A027748",
+    "A046027",
+    "A124010",
+    "A212177",
+    "A249740"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

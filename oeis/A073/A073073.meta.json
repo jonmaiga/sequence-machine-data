@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that the minimal value of abs(2^m - 3^x) > 0 is prime (i.e., m such that A064024(m) is prime).",
+  "id": "A073073",
+  "mentions": [
+    "A064024"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

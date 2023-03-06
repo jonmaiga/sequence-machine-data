@@ -1,0 +1,21 @@
+{
+  "description": "Fibonacci numbers that satisfy: Sum_{k>=1} 1/a(k) = tau-1, such that the partial sums are nearest to, but never exceed, tau-1 = (sqrt(5)-1)/2.",
+  "id": "A084910",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A084908",
+    "A084909"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

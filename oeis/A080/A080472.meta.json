@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest triangular number that is obtained by placing digits anywhere in n; a(n) = n if n is a triangular number.",
+  "id": "A080472",
+  "mentions": [
+    "A068164",
+    "A068165",
+    "A080470",
+    "A080471"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

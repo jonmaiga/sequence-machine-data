@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = least number m > 1 such that sigma_n(m) = k*m for some k.",
+  "id": "A066135",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A001158",
+    "A001159",
+    "A002586",
+    "A007691",
+    "A046762",
+    "A046764",
+    "A055709",
+    "A055717",
+    "A218860",
+    "A218861"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

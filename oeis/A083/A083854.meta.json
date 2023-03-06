@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are squares, twice squares, three times squares, or six times squares, i.e., numbers whose squarefree part divides 6.",
+  "id": "A083854",
+  "mentions": [
+    "A000290",
+    "A001105",
+    "A007913",
+    "A028982",
+    "A033428",
+    "A033581",
+    "A083855",
+    "A195055"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

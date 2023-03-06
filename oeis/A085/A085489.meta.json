@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the number of subsets of {1,...,n} containing no solutions to x+y=z with x and y distinct (one version of \"sum-free subsets\").",
+  "id": "A085489",
+  "mentions": [
+    "A007865",
+    "A050291",
+    "A051026",
+    "A088809",
+    "A103580",
+    "A151897",
+    "A308546",
+    "A326080",
+    "A326083",
+    "A326117"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

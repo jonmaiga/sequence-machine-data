@@ -1,0 +1,20 @@
+{
+  "description": "Exponent of p=2 in 12n+4 = 3(4n+1)+1.",
+  "id": "A087229",
+  "mentions": [
+    "A007814",
+    "A017569",
+    "A085058"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

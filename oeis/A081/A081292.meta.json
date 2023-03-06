@@ -1,0 +1,20 @@
+{
+  "description": "Intersection of A014486 and A079946.",
+  "id": "A081292",
+  "mentions": [
+    "A014486",
+    "A079946",
+    "A081291"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

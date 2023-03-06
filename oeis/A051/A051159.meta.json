@@ -1,0 +1,37 @@
+{
+  "description": "Triangular array made of three copies of Pascal's triangle.",
+  "id": "A051159",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A000292",
+    "A000332",
+    "A000389",
+    "A001477",
+    "A007318",
+    "A016116",
+    "A034851",
+    "A036355",
+    "A047999",
+    "A051160",
+    "A056487",
+    "A057077",
+    "A093968",
+    "A136859",
+    "A169623"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:54:13",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

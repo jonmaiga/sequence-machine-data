@@ -1,0 +1,18 @@
+{
+  "description": "Integer part of Gamma(n+3/10)/Gamma(3/10).",
+  "id": "A020062",
+  "mentions": [
+    "A020017",
+    "A020107"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

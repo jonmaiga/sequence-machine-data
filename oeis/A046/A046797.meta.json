@@ -1,0 +1,17 @@
+{
+  "description": "Arithmetic, geometric and harmonic means of a(n) and A046796(n) all integers.",
+  "id": "A046797",
+  "mentions": [
+    "A046796"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:19",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

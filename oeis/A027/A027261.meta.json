@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..2n} (k+1) * A025177(n, k).",
+  "id": "A027261",
+  "mentions": [
+    "A006234",
+    "A014915",
+    "A025177",
+    "A064017",
+    "A079272"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:26:18",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

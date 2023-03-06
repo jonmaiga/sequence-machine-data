@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the probability that a random walk on the 5-d simple cubic (hypercubic) lattice returns to the origin.",
+  "id": "A086233",
+  "mentions": [
+    "A086230",
+    "A086232",
+    "A086234",
+    "A086235",
+    "A086236",
+    "A242813"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

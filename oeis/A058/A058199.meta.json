@@ -1,0 +1,24 @@
+{
+  "description": "Where d(m) (number of divisors, A000005) falls by at least n.",
+  "id": "A058199",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A051950",
+    "A058197",
+    "A058198"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

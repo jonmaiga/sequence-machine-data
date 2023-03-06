@@ -1,0 +1,25 @@
+{
+  "description": "Number of meaningful differential operations of the n-th order on the space R^6.",
+  "id": "A090991",
+  "mentions": [
+    "A006355",
+    "A054886",
+    "A055389",
+    "A068922",
+    "A078642",
+    "A090989",
+    "A090995"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor( concatenation of 9 numbers from n+8 to n in that order divided by 9 ).",
+  "id": "A075010",
+  "mentions": [
+    "A074991",
+    "A075000",
+    "A075003",
+    "A075009"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

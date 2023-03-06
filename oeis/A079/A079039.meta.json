@@ -1,0 +1,17 @@
+{
+  "description": "Fractional part of cosh(n) decreases monotonically to zero.",
+  "id": "A079039",
+  "mentions": [
+    "A046947"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

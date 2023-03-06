@@ -1,0 +1,21 @@
+{
+  "description": "Nonunitary abundant numbers: the sum of the nonunitary divisors of n is larger than n; i.e., sigma(n) - usigma(n) > n.",
+  "id": "A064597",
+  "mentions": [
+    "A048146",
+    "A063846",
+    "A064591",
+    "A064598"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

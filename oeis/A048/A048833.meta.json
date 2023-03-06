@@ -1,0 +1,20 @@
+{
+  "description": "Number of starting positions of Nim with 2n pieces such that 2nd player wins. Partitions of 2n such that xor-sum of partitions is 0.",
+  "id": "A048833",
+  "mentions": [
+    "A003987",
+    "A050314",
+    "A268390"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:02:59",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

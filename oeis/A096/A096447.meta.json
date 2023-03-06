@@ -1,0 +1,21 @@
+{
+  "description": "Odd primes p such that the number of primes less than p equal to 1 mod 4 is equal to the number of primes less than p equal to 3 mod 4.",
+  "id": "A096447",
+  "mentions": [
+    "A007351",
+    "A096448",
+    "A096451",
+    "A096455"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

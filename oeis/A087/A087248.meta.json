@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree abundant numbers.",
+  "id": "A087248",
+  "mentions": [
+    "A005101",
+    "A005117",
+    "A008683",
+    "A087244",
+    "A112643"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

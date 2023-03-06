@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are congruent to {0, 1, 2, 4} mod 5.",
+  "id": "A032769",
+  "mentions": [
+    "A001622",
+    "A032768",
+    "A032770",
+    "A047209",
+    "A047215"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:04:57",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

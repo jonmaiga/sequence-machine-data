@@ -1,0 +1,21 @@
+{
+  "description": "Largest squarefree number dividing central binomial coefficient A000984(n).",
+  "id": "A080397",
+  "mentions": [
+    "A000984",
+    "A001405",
+    "A007947",
+    "A048633"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

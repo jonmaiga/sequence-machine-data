@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 4, for n > 1, a(n) = smallest multiple of a(n-1) such that a(n)-1 and a(n)+1 are twin primes.",
+  "id": "A084709",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

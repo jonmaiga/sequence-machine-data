@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n_0=n_1=n_2, where n_i = (n+i)-th prime - sigma(n+i) - phi(n+i).",
+  "id": "A048791",
+  "mentions": [
+    "A048783"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 15:52:54",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

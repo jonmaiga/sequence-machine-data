@@ -1,0 +1,29 @@
+{
+  "description": "Numbers which occur only once in A004001.",
+  "id": "A088359",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A004001",
+    "A051135",
+    "A087686",
+    "A093879",
+    "A188163",
+    "A265332",
+    "A266399",
+    "A267110",
+    "A267111",
+    "A267112"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

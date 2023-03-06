@@ -1,0 +1,23 @@
+{
+  "description": "Primes p for which the period of 1/p is a power of 2.",
+  "id": "A072982",
+  "mentions": [
+    "A002371",
+    "A007138",
+    "A019434",
+    "A046107",
+    "A054471",
+    "A197224"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

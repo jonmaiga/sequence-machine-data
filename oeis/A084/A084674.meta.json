@@ -1,0 +1,19 @@
+{
+  "description": "Products of the digits of e excluding 0.",
+  "id": "A084674",
+  "mentions": [
+    "A074850"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

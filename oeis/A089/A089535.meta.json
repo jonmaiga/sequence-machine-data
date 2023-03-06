@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes of the form 2^k + k.",
+  "id": "A089535",
+  "mentions": [
+    "A006127",
+    "A085745",
+    "A089536",
+    "A089537"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

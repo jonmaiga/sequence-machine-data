@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{d|n, d=3 mod 4} d.",
+  "id": "A050452",
+  "mentions": [
+    "A000593",
+    "A001842",
+    "A035462",
+    "A050449",
+    "A078182"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

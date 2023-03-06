@@ -1,0 +1,18 @@
+{
+  "description": "Let a(1) = 1; for n>1, let a(n) be smallest positive integer distinct from all earlier terms such that exp(sum(n>=1,a(n)*x^n/n)) has integer coefficients (cf. A084251).",
+  "id": "A084250",
+  "mentions": [
+    "A084251"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

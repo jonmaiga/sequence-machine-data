@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=1; for n>1, a(n)=a(n-1)+3 if n is already in the sequence, a(n)=a(n-1)+4 otherwise.",
+  "id": "A080590",
+  "mentions": [
+    "A003151",
+    "A080036",
+    "A080037",
+    "A080455",
+    "A080458",
+    "A081834"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

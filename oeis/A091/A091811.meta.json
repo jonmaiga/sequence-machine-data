@@ -1,0 +1,24 @@
+{
+  "description": "Array read by rows: T(n,k) = binomial(n+k-2,k-1)*binomial(2*n-1,n-k).",
+  "id": "A091811",
+  "mentions": [
+    "A000984",
+    "A001700",
+    "A002740",
+    "A033876",
+    "A178792"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

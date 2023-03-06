@@ -1,0 +1,20 @@
+{
+  "description": "Number of twin-prime pairs between n and 2n (inclusive).",
+  "id": "A088018",
+  "mentions": [
+    "A035250",
+    "A088019",
+    "A186312"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

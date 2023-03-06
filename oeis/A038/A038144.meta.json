@@ -1,0 +1,20 @@
+{
+  "description": "Number of planar n-hexes, or polyhexes (in the sense of A000228, so rotations and reflections count as the same shape) with at least one hole.",
+  "id": "A038144",
+  "mentions": [
+    "A000228",
+    "A018190",
+    "A038143",
+    "A038147"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

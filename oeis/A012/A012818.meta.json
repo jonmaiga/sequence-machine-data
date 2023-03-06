@@ -1,0 +1,16 @@
+{
+  "description": "arctanh(sec(x)*sinh(x))=x+6/3!*x^3+140/5!*x^5+8456/7!*x^7...",
+  "id": "A012818",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:36:44",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integer which is the harmonic mean of A005279(n) and an integer.",
+  "id": "A053628",
+  "mentions": [
+    "A005279"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:10:05",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Largest n-digit number of the form p^a*q^b... with the maximum value of a+b+.... where p, q etc. are primes.",
+  "id": "A074114",
+  "mentions": [
+    "A074113"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

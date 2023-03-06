@@ -1,0 +1,22 @@
+{
+  "description": "Consider the standard game of Nim with 3 heaps and make a list of the losing positions (x,y,z) with x <= y <= z in reverse lexicographic order; sequence gives z values.",
+  "id": "A080595",
+  "mentions": [
+    "A080593",
+    "A080594",
+    "A119464",
+    "A119465",
+    "A119466"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

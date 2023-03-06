@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of a Schwarzian ({f_{32|8}, tau} / (4*Pi)^2) in powers of q^8.",
+  "id": "A092924",
+  "mentions": [
+    "A062248",
+    "A082303"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

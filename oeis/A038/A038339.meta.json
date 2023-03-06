@@ -1,0 +1,19 @@
+{
+  "description": "Bottom line of 5-wave sequence A038201, also bisection of A006358.",
+  "id": "A038339",
+  "mentions": [
+    "A006358",
+    "A038201"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:47:35",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

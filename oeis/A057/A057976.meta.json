@@ -1,0 +1,19 @@
+{
+  "description": "Number of shuffles where card 1 reaches a record depth (A057975) under the shuffle in A035485.",
+  "id": "A057976",
+  "mentions": [
+    "A035485",
+    "A035492",
+    "A057975"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

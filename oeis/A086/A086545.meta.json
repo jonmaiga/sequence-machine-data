@@ -1,0 +1,15 @@
+{
+  "description": "Smallest k such that n*k+1 is a prime and (n-1)/k is noncomposite, or 0 if no such number exists.",
+  "id": "A086545",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

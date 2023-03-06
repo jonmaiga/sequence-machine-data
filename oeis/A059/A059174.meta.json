@@ -1,0 +1,23 @@
+{
+  "description": "Maximal number of regions into which 5-space can be divided by n hyper-spheres.",
+  "id": "A059174",
+  "mentions": [
+    "A006261",
+    "A014206",
+    "A046127",
+    "A059173",
+    "A059250"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

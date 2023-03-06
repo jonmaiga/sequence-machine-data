@@ -1,0 +1,20 @@
+{
+  "description": "An approximation to A000084(n).",
+  "id": "A058585",
+  "mentions": [
+    "A000084",
+    "A001573",
+    "A093156"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

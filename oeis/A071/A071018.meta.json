@@ -1,0 +1,17 @@
+{
+  "description": "Inverse Moebius transform of A002487.",
+  "id": "A071018",
+  "mentions": [
+    "A002487"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

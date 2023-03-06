@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-row matrices over {0,1,2} with all row and column sums equal to 1 or 2.",
+  "id": "A062155",
+  "mentions": [
+    "A062154",
+    "A062156"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "One eighth of octo-factorial numbers.",
+  "id": "A034976",
+  "mentions": [
+    "A034908",
+    "A034909",
+    "A034910",
+    "A034911",
+    "A034912",
+    "A034975",
+    "A045755",
+    "A051189"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

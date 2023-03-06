@@ -1,0 +1,18 @@
+{
+  "description": "p and p+12 are both prime.",
+  "id": "A046133",
+  "mentions": [
+    "A015917"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:29:13",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

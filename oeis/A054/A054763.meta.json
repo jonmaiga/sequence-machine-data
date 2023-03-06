@@ -1,0 +1,18 @@
+{
+  "description": "Residues of consecutive prime differences modulo 6.",
+  "id": "A054763",
+  "mentions": [
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the cototient of n (A051953) iterated twice.",
+  "id": "A053470",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A010554",
+    "A036454",
+    "A051953",
+    "A053471",
+    "A053472",
+    "A053473"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes between successive Lucas numbers.",
+  "id": "A052012",
+  "mentions": [
+    "A000204",
+    "A010051",
+    "A052011"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

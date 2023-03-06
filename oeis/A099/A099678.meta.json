@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 10n01 is a prime.",
+  "id": "A099678",
+  "mentions": [
+    "A032672",
+    "A100502"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

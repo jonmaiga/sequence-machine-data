@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A003173.",
+  "id": "A038551",
+  "mentions": [
+    "A003173"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

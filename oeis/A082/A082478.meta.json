@@ -1,0 +1,19 @@
+{
+  "description": "Number of divisors d of n such that (d+1) is a divisor of (n+1) and (d+2) a divisor of (n+2).",
+  "id": "A082478",
+  "mentions": [
+    "A001227",
+    "A082477"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

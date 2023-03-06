@@ -1,0 +1,19 @@
+{
+  "description": "Minimum m where (c_n)^m is mutinous (i.e., part of sequence A027854), where c_n is the n-th positive integer not a prime power.",
+  "id": "A063047",
+  "mentions": [
+    "A024619",
+    "A027854"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

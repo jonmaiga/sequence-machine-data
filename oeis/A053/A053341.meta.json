@@ -1,0 +1,19 @@
+{
+  "description": "Euclid-Pocklington primes: primes of the form Product_{i=1..k} prime(i) * prime(k+1)^m + 1 where prime(r) is the r-th prime and Product_{i=1..k} prime(i) < prime(k+1)^m.",
+  "id": "A053341",
+  "mentions": [
+    "A006862"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

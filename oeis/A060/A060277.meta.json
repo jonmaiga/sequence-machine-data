@@ -1,0 +1,24 @@
+{
+  "description": "Number of m for which a+b+c = n; abc = m has at least two distinct solutions (a,b,c) with 1 <= a <= b <= c.",
+  "id": "A060277",
+  "mentions": [
+    "A001399",
+    "A060275",
+    "A069905",
+    "A103277",
+    "A103278",
+    "A317388",
+    "A317578"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

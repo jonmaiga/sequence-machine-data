@@ -1,0 +1,20 @@
+{
+  "description": "Count, repeating 4n three times for n > 0.",
+  "id": "A099479",
+  "mentions": [
+    "A000975",
+    "A099480"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:06:01",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

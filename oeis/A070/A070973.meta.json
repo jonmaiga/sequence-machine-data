@@ -1,0 +1,19 @@
+{
+  "description": "Smallest integer k such that n divides floor((3/2)^k).",
+  "id": "A070973",
+  "mentions": [
+    "A002379"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

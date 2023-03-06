@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1; a(n) = sigma(n) - sigma(n-1)* a(n-1) if n > 1.",
+  "id": "A079897",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

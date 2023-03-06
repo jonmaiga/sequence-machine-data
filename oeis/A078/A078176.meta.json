@@ -1,0 +1,18 @@
+{
+  "description": "Numbers given by the Rule 225 Cellular Automaton.",
+  "id": "A078176",
+  "mentions": [
+    "A267843"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:50:15",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

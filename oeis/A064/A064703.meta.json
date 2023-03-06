@@ -1,0 +1,18 @@
+{
+  "description": "Smallest lucky number that is the product of n lucky numbers.",
+  "id": "A064703",
+  "mentions": [
+    "A000959",
+    "A057616"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

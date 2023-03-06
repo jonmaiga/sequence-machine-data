@@ -1,0 +1,30 @@
+{
+  "description": "a(n) is the smallest number m greater than 1 such that m^(2^k)+1 for k=0,1,...,n are primes.",
+  "id": "A090872",
+  "mentions": [
+    "A000215",
+    "A006093",
+    "A019434",
+    "A070325",
+    "A070655",
+    "A070689",
+    "A070694",
+    "A090873",
+    "A090874",
+    "A090875",
+    "A235390",
+    "A335805",
+    "A337364"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

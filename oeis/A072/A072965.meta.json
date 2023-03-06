@@ -1,0 +1,22 @@
+{
+  "description": "In prime factorization of n replace all matching twin prime pairs with 1, where (3,5)-matches are replaced before (5,7).",
+  "id": "A072965",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A027746",
+    "A037074",
+    "A074480"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

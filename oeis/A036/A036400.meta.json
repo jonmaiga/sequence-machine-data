@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients of cluster series for site percolation problem on f.c.c. lattice with 1st, 2nd and 3rd neighbor bonds.",
+  "id": "A036400",
+  "mentions": [
+    "A003200",
+    "A003203"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Nearest integer square to n^3.",
+  "id": "A077118",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A002821",
+    "A065733",
+    "A070929",
+    "A077110",
+    "A077115",
+    "A077116",
+    "A077119"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number the digits of the decimal expansion of Pi: 3 is the first, 1 is the second, 4 is the third and so on; a(n) gives the starting position of the first occurrence of n.",
+  "id": "A032445",
+  "mentions": [
+    "A000796",
+    "A032510",
+    "A064467",
+    "A080597",
+    "A176341",
+    "A232013"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

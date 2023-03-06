@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows giving T(n,k) = number of inequivalent linear [n,k] binary codes (n >= 1, 1 <= k <= n).",
+  "id": "A034356",
+  "mentions": [
+    "A000027",
+    "A034198",
+    "A034253",
+    "A034254",
+    "A034328",
+    "A034357",
+    "A034358",
+    "A034359",
+    "A034360",
+    "A034361",
+    "A034362",
+    "A076831"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:09",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

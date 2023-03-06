@@ -1,0 +1,19 @@
+{
+  "description": "Central term in powers of the Lo-Shu Magic Square as a matrix.",
+  "id": "A091281",
+  "mentions": [
+    "A033812"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:34:22",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

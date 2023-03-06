@@ -1,0 +1,20 @@
+{
+  "description": "The smaller of a pair of powerful numbers (A001694) that differ by 2.",
+  "id": "A076445",
+  "mentions": [
+    "A001694",
+    "A002350",
+    "A060355",
+    "A118894"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

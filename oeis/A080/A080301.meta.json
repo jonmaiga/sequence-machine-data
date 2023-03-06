@@ -1,0 +1,21 @@
+{
+  "description": "Local ranking function for totally balanced binary sequences: if n's binary expansion is totally balanced (A080116(n)=1), then a(n) is its zero-based position among A000108((A000523(n)+1)/2) lexicographically ordered totally balanced binary sequences of the same width, otherwise -1.",
+  "id": "A080301",
+  "mentions": [
+    "A000108",
+    "A000523",
+    "A009766",
+    "A080116",
+    "A080300"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

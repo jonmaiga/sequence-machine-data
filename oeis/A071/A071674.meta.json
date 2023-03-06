@@ -1,0 +1,22 @@
+{
+  "description": "Sequence A071673 reduced modulo 2.",
+  "id": "A071674",
+  "mentions": [
+    "A000035",
+    "A002260",
+    "A004736",
+    "A071673"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

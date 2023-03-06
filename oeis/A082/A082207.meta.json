@@ -1,0 +1,21 @@
+{
+  "description": "Palindromes whose product of digits is a positive palindrome.",
+  "id": "A082207",
+  "mentions": [
+    "A000042",
+    "A082208",
+    "A117055"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

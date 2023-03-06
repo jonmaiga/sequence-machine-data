@@ -1,0 +1,26 @@
+{
+  "description": "\"BIJ\" (reversible, indistinct, labeled) transform of 1,1,1,1,...",
+  "id": "A032109",
+  "mentions": [
+    "A000629",
+    "A000670",
+    "A001710",
+    "A002050",
+    "A008292",
+    "A052856",
+    "A052875",
+    "A076726",
+    "A091346"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

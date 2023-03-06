@@ -1,0 +1,19 @@
+{
+  "description": "Orders of finite groups G with the property that the sum of the orders of all the proper normal subgroups of G equals the order of G.",
+  "id": "A086792",
+  "mentions": [
+    "A000396",
+    "A060652"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

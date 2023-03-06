@@ -1,0 +1,35 @@
+{
+  "description": "Triangle T(n,m) giving number of m-element intersecting antichains on a labeled n-set or n-variable Boolean functions with m nonzero values in the Post class F(7,2), m=0,.., A037952(n).",
+  "id": "A059090",
+  "mentions": [
+    "A000372",
+    "A001206",
+    "A016269",
+    "A032263",
+    "A036239",
+    "A037952",
+    "A047707",
+    "A051112",
+    "A051118",
+    "A051180",
+    "A051185",
+    "A051303",
+    "A051304",
+    "A051305",
+    "A051306",
+    "A051307"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

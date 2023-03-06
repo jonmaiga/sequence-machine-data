@@ -1,0 +1,21 @@
+{
+  "description": "Smallest sequence of numbers having in their binary representation alternately more (>) or not-more (<=) binary ones than zeros.",
+  "id": "A093327",
+  "mentions": [
+    "A000120",
+    "A007088",
+    "A023416",
+    "A037861",
+    "A072602"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are not Catalan numbers (A000108).",
+  "id": "A092459",
+  "mentions": [
+    "A000108",
+    "A010058"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:11:21",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes that remain prime through 2 iterations of function f(x) = 8x + 3.",
+  "id": "A023261",
+  "mentions": [
+    "A005124",
+    "A023229"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

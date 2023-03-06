@@ -1,0 +1,19 @@
+{
+  "description": "Number of periodic partitions of n: each part occurs more than once and the same number of times.",
+  "id": "A024994",
+  "mentions": [
+    "A000009",
+    "A047966"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

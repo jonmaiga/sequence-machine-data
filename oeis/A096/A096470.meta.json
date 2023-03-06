@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k), read by rows, formed by setting all entries in the zeroth column and in the main diagonal ((n,n) entries) to 1 and defining the rest of the entries by the recursion T(n,k) = T(n-1,k) - T(n,k-1).",
+  "id": "A096470",
+  "mentions": [
+    "A000108",
+    "A000124",
+    "A032357",
+    "A033297",
+    "A168377"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

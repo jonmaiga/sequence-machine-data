@@ -1,0 +1,24 @@
+{
+  "description": "Sum of positive integers k where k <= n/2 and gcd(k,n) = 1.",
+  "id": "A066840",
+  "mentions": [
+    "A002110",
+    "A008683",
+    "A124440",
+    "A124446",
+    "A124447",
+    "A282600",
+    "A282601"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

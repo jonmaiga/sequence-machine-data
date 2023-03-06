@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: (1 - 6*x - sqrt(36*x^2 - 16*x + 1))/(2*x).",
+  "id": "A082305",
+  "mentions": [
+    "A006318",
+    "A047891"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

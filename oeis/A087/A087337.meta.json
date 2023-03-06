@@ -1,0 +1,17 @@
+{
+  "description": "Cubes pertaining to A087336. a(n) = n-th partial product of A087336 + 1.",
+  "id": "A087337",
+  "mentions": [
+    "A087336"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

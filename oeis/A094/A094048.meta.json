@@ -1,0 +1,25 @@
+{
+  "description": "Let p(n) be the n-th prime congruent to 1 mod 4. Then a(n) = the least m for which m^2+1=p(n)*k^2 has a solution.",
+  "id": "A094048",
+  "mentions": [
+    "A000196",
+    "A000290",
+    "A002144",
+    "A037213",
+    "A094049",
+    "A130226",
+    "A137351",
+    "A179073",
+    "A191860"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

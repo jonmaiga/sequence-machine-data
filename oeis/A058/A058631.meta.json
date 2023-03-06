@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction for the Morse-Thue constant .01101001100101101001... formed from A010060.",
+  "id": "A058631",
+  "mentions": [
+    "A010060",
+    "A014571"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:26",
+    "offset": 0,
+    "size": 93,
+    "source": "joeis"
+  }
+}

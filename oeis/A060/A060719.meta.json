@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1; a(n+1) = a(n) + Sum_{i=0..n} binomial(n,i)*(a(i)+1).",
+  "id": "A060719",
+  "mentions": [
+    "A000110",
+    "A186021"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

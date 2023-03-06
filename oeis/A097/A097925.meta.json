@@ -1,0 +1,19 @@
+{
+  "description": "Number of (n,3) Freiman-Wyner sequences.",
+  "id": "A097925",
+  "mentions": [
+    "A006355",
+    "A097926"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 4,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

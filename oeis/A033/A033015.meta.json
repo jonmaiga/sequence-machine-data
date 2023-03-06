@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose base-2 expansion has no run of digits with length < 2.",
+  "id": "A033015",
+  "mentions": [
+    "A000045",
+    "A033001",
+    "A033016",
+    "A043291",
+    "A222813",
+    "A355280"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

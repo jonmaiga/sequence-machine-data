@@ -1,0 +1,17 @@
+{
+  "description": "Conjecturally, number of maximal infinitely-recurring prime patterns of width 2*n-1.",
+  "id": "A023191",
+  "mentions": [
+    "A023190"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

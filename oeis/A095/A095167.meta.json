@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows in which the n-th row contains n numbers noncoprime to n and not occurring in earlier rows.",
+  "id": "A095167",
+  "mentions": [
+    "A081964",
+    "A095168",
+    "A095169",
+    "A095170",
+    "A095171"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

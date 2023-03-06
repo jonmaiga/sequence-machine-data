@@ -1,0 +1,20 @@
+{
+  "description": "Number of fully idempotent systems with n elements with one binary operation satisfying the equation B(AB)=A (idempotent semisymmetric quasigroups).",
+  "id": "A076021",
+  "mentions": [
+    "A076016",
+    "A076020"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

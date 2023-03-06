@@ -1,0 +1,25 @@
+{
+  "description": "Trajectory of 5 under map x->x + (x-with-digits-reversed).",
+  "id": "A033649",
+  "mentions": [
+    "A001127",
+    "A004086",
+    "A006960",
+    "A033648",
+    "A033650",
+    "A033651",
+    "A056964",
+    "A243238"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

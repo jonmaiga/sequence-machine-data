@@ -1,0 +1,19 @@
+{
+  "description": "a(2n) and a(2n+1) are side lengths of a Beentjes sequence of perfect squared rectangles, starting with a 32 X 33 rectangle.",
+  "id": "A067010",
+  "mentions": [
+    "A067011"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

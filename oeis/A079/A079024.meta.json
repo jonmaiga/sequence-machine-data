@@ -1,0 +1,19 @@
+{
+  "description": "Let p and q be two prime numbers, not necessarily consecutive, such that q - p = 2n; a(n) is the number of distinct partitions of 2n into even numbers so that each partition corresponds to a consecutive prime difference pattern (k-tuple) and p<=A000230(n). Multiple occurrences of a partition are not counted.",
+  "id": "A079024",
+  "mentions": [
+    "A000230",
+    "A079015",
+    "A079022"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

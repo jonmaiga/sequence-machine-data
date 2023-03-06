@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are the sum of 6 positive cubes in exactly 3 ways.",
+  "id": "A048931",
+  "mentions": [
+    "A003329",
+    "A048929",
+    "A048930",
+    "A343705",
+    "A345512",
+    "A345766",
+    "A345775",
+    "A345815"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

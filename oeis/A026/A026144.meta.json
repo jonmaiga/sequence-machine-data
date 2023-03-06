@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that s(j) < s(k) for all j < k, where s = A026142.",
+  "id": "A026144",
+  "mentions": [
+    "A026142",
+    "A026145"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:49",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

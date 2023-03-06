@@ -1,0 +1,30 @@
+{
+  "description": "The ternary tribonacci word; also a Rauzy fractal sequence: fixed point of the morphism 1 -> 12, 2 -> 13, 3 -> 1, starting from a(1) = 1.",
+  "id": "A092782",
+  "mentions": [
+    "A003144",
+    "A003145",
+    "A003146",
+    "A058265",
+    "A073058",
+    "A080843",
+    "A100619",
+    "A103269",
+    "A105083",
+    "A245553",
+    "A245554",
+    "A317950"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

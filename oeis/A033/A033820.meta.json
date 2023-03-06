@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(k,j) = ((2*j+1)/(k+1))*binomial(2*j,j)*binomial(2*k-2*j,k-j).",
+  "id": "A033820",
+  "mentions": [
+    "A000108",
+    "A000302",
+    "A000984",
+    "A078817"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:08:17",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

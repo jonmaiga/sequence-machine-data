@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = a(n-1) + sum of digits of n^2.",
+  "id": "A071317",
+  "mentions": [
+    "A000788",
+    "A004159",
+    "A007953",
+    "A037123",
+    "A051351"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

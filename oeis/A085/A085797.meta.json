@@ -1,0 +1,18 @@
+{
+  "description": "Dimensions n such that the (4,n)-cross lattice-tiles R^n.",
+  "id": "A085797",
+  "mentions": [
+    "A085795",
+    "A085798"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Let r+i*s be the sum, with multiplicity, of the first-quadrant Gaussian primes dividing n; sequence gives r values (with a(1) = 0).",
+  "id": "A078908",
+  "mentions": [
+    "A078458",
+    "A078909",
+    "A078910",
+    "A078911",
+    "A080088",
+    "A080089"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Concatenation of first n twin primes.",
+  "id": "A086043",
+  "mentions": [
+    "A001097",
+    "A007908",
+    "A019518",
+    "A059996",
+    "A078795",
+    "A086080",
+    "A086158",
+    "A089933",
+    "A092447"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

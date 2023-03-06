@@ -1,0 +1,22 @@
+{
+  "description": "Number the letters of English alphabet from 1 to 26; sequence specifies capital letters with up-down symmetry.",
+  "id": "A083132",
+  "mentions": [
+    "A083131",
+    "A083133",
+    "A083134"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

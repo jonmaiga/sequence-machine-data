@@ -1,0 +1,21 @@
+{
+  "description": "Increase in maximal number of comparisons for sorting n elements by list merging.",
+  "id": "A061338",
+  "mentions": [
+    "A000120",
+    "A003071",
+    "A006519",
+    "A053645"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

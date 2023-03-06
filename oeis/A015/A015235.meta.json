@@ -1,0 +1,23 @@
+{
+  "description": "Theta series of lattice Kappa_8.",
+  "id": "A015235",
+  "mentions": [
+    "A004010",
+    "A015229",
+    "A015232",
+    "A015233",
+    "A015236",
+    "A029897",
+    "A047628"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

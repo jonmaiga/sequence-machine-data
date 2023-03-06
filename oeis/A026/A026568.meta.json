@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangular array T read by rows: T(i,0) = T(i,2i) = 1 for i >= 0; T(i,1) = T(i,2i-1) = [ (i+1)/2 ] for i >= 1; and for i >= 2 and 2 <=j <= i - 2, T(i,j) = T(i-1,j-2) + T(i-1,j-1) + T(i-1,j) if i + j is even, T(i,j) = T(i-1,j-2) + T(i-1,j) if i + j is odd.",
+  "id": "A026568",
+  "mentions": [
+    "A026519",
+    "A026536",
+    "A026552",
+    "A026569",
+    "A026584",
+    "A027926"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

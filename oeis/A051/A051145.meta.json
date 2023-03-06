@@ -1,0 +1,25 @@
+{
+  "description": "a(0)=0, a(1)=1, a(n) = smallest number such that sequence b(n) = a(n) OR a(n+1) is strictly monotonically increasing.",
+  "id": "A051145",
+  "mentions": [
+    "A051146",
+    "A051147",
+    "A057923",
+    "A057931",
+    "A209229",
+    "A244747"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

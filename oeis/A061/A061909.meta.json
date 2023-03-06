@@ -1,0 +1,36 @@
+{
+  "description": "Skinny numbers: numbers n such that there are no carries when n is squared by \"long multiplication\".",
+  "id": "A061909",
+  "mentions": [
+    "A004159",
+    "A007953",
+    "A061903",
+    "A061910",
+    "A067552",
+    "A085305",
+    "A085306",
+    "A123977",
+    "A129967",
+    "A129968",
+    "A129969",
+    "A129970",
+    "A129971",
+    "A159953",
+    "A169939"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

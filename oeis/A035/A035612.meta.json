@@ -1,0 +1,38 @@
+{
+  "description": "Horizontal para-Fibonacci sequence: says which column of Wythoff array (starting column count at 1) contains n.",
+  "id": "A035612",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000045",
+    "A001045",
+    "A001610",
+    "A003603",
+    "A003622",
+    "A003714",
+    "A007814",
+    "A007895",
+    "A019586",
+    "A022340",
+    "A022342",
+    "A023548",
+    "A026274",
+    "A035513",
+    "A035614",
+    "A255671",
+    "A268034"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

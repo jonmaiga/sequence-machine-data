@@ -1,0 +1,24 @@
+{
+  "description": "Sum of non-unitary prime divisors (A034444, A056169) of central binomial coefficient C(n,floor(n/2)) (A001405). If A001405(n) is squarefree (A046098) then a(n)=0.",
+  "id": "A064146",
+  "mentions": [
+    "A001405",
+    "A008472",
+    "A034444",
+    "A046098",
+    "A048243",
+    "A056169",
+    "A063958"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

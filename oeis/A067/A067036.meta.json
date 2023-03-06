@@ -1,0 +1,23 @@
+{
+  "description": "Records for the number of integers k such that an integer is of the form k + reverse(k).",
+  "id": "A067036",
+  "mentions": [
+    "A067030",
+    "A067031",
+    "A067032",
+    "A067033",
+    "A067034",
+    "A067035"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

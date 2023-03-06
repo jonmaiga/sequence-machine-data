@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) of differences of pairs of consecutive terms of triangle A071919.",
+  "id": "A080232",
+  "mentions": [
+    "A007318",
+    "A037012",
+    "A071919",
+    "A084938",
+    "A112467"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:42:39",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

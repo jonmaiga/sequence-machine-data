@@ -1,0 +1,21 @@
+{
+  "description": "Decimal concatenations of the 38 quintuples (d1,d2,d3,d4,d5) with elements in {2,4,6} for which there exists a prime p >= 7 such that the differences between the 6 consecutive primes starting with p are (d1,d2,d3,d4,d5).",
+  "id": "A078870",
+  "mentions": [
+    "A078868",
+    "A078869"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

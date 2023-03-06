@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = F(n+1) + c(n) where F(k) is k-th Fibonacci number and c(n) is n-th non-Fibonacci number.",
+  "id": "A022799",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:50:10",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

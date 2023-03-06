@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that the differences between the 5 consecutive primes starting with p are (6,4,6,6).",
+  "id": "A078964",
+  "mentions": [
+    "A001223",
+    "A022006",
+    "A022007",
+    "A078856",
+    "A078866",
+    "A078867",
+    "A078946",
+    "A078971"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:30",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "\"Early\" primes: upper ends of prime gaps that are smaller than the prime number theorem predicts.",
+  "id": "A060770",
+  "mentions": [
+    "A060769"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:26",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

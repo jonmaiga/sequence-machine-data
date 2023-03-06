@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the denominator of the 2n-th Bernoulli number is divisible by n but sum_{d|n} sigma(d)/phi(d) is not an integer.",
+  "id": "A099008",
+  "mentions": [
+    "A068991",
+    "A106741"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array read by rows, formed from Zeckendorf expansion of integers: repeatedly subtract the largest Fibonacci number you can until nothing remains. Row n give Z. expansion of n.",
+  "id": "A035517",
+  "mentions": [
+    "A007895",
+    "A014417",
+    "A035514",
+    "A035515",
+    "A035516"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:20:01",
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

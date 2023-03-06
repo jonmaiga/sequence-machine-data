@@ -1,0 +1,26 @@
+{
+  "description": "Squares that are the sum of two consecutive primes.",
+  "id": "A062703",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001043",
+    "A061275",
+    "A064397",
+    "A074924",
+    "A080665",
+    "A226524"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

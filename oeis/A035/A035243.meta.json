@@ -1,0 +1,18 @@
+{
+  "description": "Positive numbers of the form x^2+xy+5y^2 (discriminant -19).",
+  "id": "A035243",
+  "mentions": [
+    "A035171",
+    "A106863"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:18:55",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

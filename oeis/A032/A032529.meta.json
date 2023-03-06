@@ -1,0 +1,17 @@
+{
+  "description": "All the primes inside the record 3 X 3 matrix for the Gordon Lee problem: this is [ 113, 754, 937 ].",
+  "id": "A032529",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

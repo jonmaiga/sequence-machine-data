@@ -1,0 +1,28 @@
+{
+  "description": "Number of ways of factoring n with one level of parentheses.",
+  "id": "A050336",
+  "mentions": [
+    "A000258",
+    "A001055",
+    "A001970",
+    "A002110",
+    "A025487",
+    "A050337",
+    "A050338",
+    "A050339",
+    "A050340",
+    "A050341",
+    "A101296"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

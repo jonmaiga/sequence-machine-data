@@ -1,0 +1,23 @@
+{
+  "description": "Partition function coefficients for square lattice spin 1 Ising model.",
+  "id": "A010107",
+  "mentions": [
+    "A010102",
+    "A010108",
+    "A010109",
+    "A010110",
+    "A010111",
+    "A010115",
+    "A056620"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

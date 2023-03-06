@@ -1,0 +1,19 @@
+{
+  "description": "Concatenation of 'prevprime(n) and n and nextprime(n)' is a prime.",
+  "id": "A034810",
+  "mentions": [
+    "A034808",
+    "A034821"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:16:31",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

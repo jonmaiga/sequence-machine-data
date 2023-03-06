@@ -1,0 +1,20 @@
+{
+  "description": "Higher dimensional figurate numbers based on 12-gonal numbers A051624.",
+  "id": "A093646",
+  "mentions": [
+    "A051624",
+    "A093645"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:17:03",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

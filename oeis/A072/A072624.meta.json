@@ -1,0 +1,21 @@
+{
+  "description": "Mod[Prime[n^2],n^2]",
+  "id": "A072624",
+  "mentions": [
+    "A004648",
+    "A065134",
+    "A065863",
+    "A065875",
+    "A072623"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

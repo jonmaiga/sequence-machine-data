@@ -1,0 +1,19 @@
+{
+  "description": "Value of n such that for any value of n, Pi^n is closer to its nearest integer than any value of Pi^k for 1 <= k < n.",
+  "id": "A080052",
+  "mentions": [
+    "A079490",
+    "A137994",
+    "A137995"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

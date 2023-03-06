@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = nextprime(2^n) - 2^n.",
+  "id": "A013597",
+  "mentions": [
+    "A007918",
+    "A013632",
+    "A014210",
+    "A076336",
+    "A092131",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

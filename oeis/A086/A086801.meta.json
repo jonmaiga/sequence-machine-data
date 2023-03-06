@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = prime(n) - 3.",
+  "id": "A086801",
+  "mentions": [
+    "A006254",
+    "A067076",
+    "A091738",
+    "A116127",
+    "A119981",
+    "A173064"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:48:33",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

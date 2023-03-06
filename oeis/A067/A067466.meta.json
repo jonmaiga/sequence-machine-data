@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p-1 has 2 distinct prime factors.",
+  "id": "A067466",
+  "mentions": [
+    "A006093",
+    "A007774",
+    "A008334"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest nonprime number which if used as initial term for iteration of the A000010[x] function, results in list-to-fixed-point of length=n, or 0 if no such number exists.",
+  "id": "A098196",
+  "mentions": [
+    "A000010",
+    "A007755",
+    "A060611"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

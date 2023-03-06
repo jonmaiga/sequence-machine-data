@@ -1,0 +1,24 @@
+{
+  "description": "Least prime factor of the n-th composite number.",
+  "id": "A056608",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A020639",
+    "A052369",
+    "A118663",
+    "A160180"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

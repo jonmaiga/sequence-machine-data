@@ -1,0 +1,20 @@
+{
+  "description": "Smallest bases the smallest true-prime-power-pseudoprime is belonging to equals a true power of n-th prime.",
+  "id": "A090099",
+  "mentions": [
+    "A007535",
+    "A020142",
+    "A090096",
+    "A090098"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

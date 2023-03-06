@@ -1,0 +1,23 @@
+{
+  "description": "T(n,k) = right- or upward-moving paths connecting opposite corners of an n X n chessboard, visiting the diagonal at k points between start and finish.",
+  "id": "A075435",
+  "mentions": [
+    "A000108",
+    "A039598",
+    "A075436",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

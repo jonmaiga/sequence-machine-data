@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the concatenation of numbers from 1 to k is the product of 4 primes (not necessarily distinct).",
+  "id": "A046463",
+  "mentions": [
+    "A046460"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

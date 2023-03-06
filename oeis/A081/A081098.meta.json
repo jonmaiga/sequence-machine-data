@@ -1,0 +1,22 @@
+{
+  "description": "Atomic numbers of the chemical elements sorted with respect to melting point.",
+  "id": "A081098",
+  "mentions": [
+    "A081099",
+    "A081100",
+    "A081101",
+    "A248026",
+    "A248061",
+    "A249874"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

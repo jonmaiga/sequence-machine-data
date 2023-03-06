@@ -1,0 +1,17 @@
+{
+  "description": "Gaussian binomial coefficients [ n,8 ] for q = 7.",
+  "id": "A022237",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:29",
+    "offset": 8,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

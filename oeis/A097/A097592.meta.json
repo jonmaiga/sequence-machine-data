@@ -1,0 +1,35 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] with exactly k increasing runs of even length.",
+  "id": "A097592",
+  "mentions": [
+    "A000142",
+    "A000364",
+    "A097591",
+    "A097593",
+    "A097597",
+    "A317139",
+    "A317140",
+    "A317281",
+    "A317282",
+    "A317283",
+    "A317284",
+    "A317285",
+    "A317286",
+    "A317287",
+    "A317288",
+    "A317289",
+    "A317290"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

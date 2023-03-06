@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of tan(Pi/10) (angle of 18 degrees).",
+  "id": "A019916",
+  "mentions": [
+    "A001622",
+    "A019827",
+    "A019881",
+    "A019970"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:04:19",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

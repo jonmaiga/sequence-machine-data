@@ -1,0 +1,20 @@
+{
+  "description": "Smallest n-digit number divisible by n!.",
+  "id": "A088644",
+  "mentions": [
+    "A088645"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

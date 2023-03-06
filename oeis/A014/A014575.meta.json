@@ -1,0 +1,28 @@
+{
+  "description": "Vampire numbers (definition 2): numbers n with an even number of digits which have a factorization n = i*j where i and j have the same number of digits and the multiset of the digits of n coincides with the multiset of the digits of i and j.",
+  "id": "A014575",
+  "mentions": [
+    "A020342",
+    "A048933",
+    "A048934",
+    "A048935",
+    "A048936",
+    "A048937",
+    "A048938",
+    "A048939",
+    "A080718",
+    "A144563",
+    "A280928"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

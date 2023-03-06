@@ -1,0 +1,23 @@
+{
+  "description": "Sum of divisors of n, sigma(n) (A000203), is a power of number of divisors of n, d(n) (A000005).",
+  "id": "A051281",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000668",
+    "A046528",
+    "A286628",
+    "A289276"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

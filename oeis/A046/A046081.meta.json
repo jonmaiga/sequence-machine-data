@@ -1,0 +1,26 @@
+{
+  "description": "Number of integer-sided right triangles with n as a hypotenuse or leg.",
+  "id": "A046081",
+  "mentions": [
+    "A006593",
+    "A024361",
+    "A024362",
+    "A024363",
+    "A046079",
+    "A046080",
+    "A328708",
+    "A328712",
+    "A328949"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

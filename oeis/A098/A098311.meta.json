@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number not occurring earlier and coprime to a(ceiling(n/2)); a(1)=1.",
+  "id": "A098311",
+  "mentions": [
+    "A098312",
+    "A098313"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

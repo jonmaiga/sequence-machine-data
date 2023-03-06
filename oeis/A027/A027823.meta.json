@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 77*(n+1)*binomial(n+6,11).",
+  "id": "A027823",
+  "mentions": [
+    "A062190"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:31",
+    "offset": 5,
+    "size": 23,
+    "source": "joeis"
+  }
+}

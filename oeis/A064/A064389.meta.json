@@ -1,0 +1,25 @@
+{
+  "description": "Variation (4) on Recamán's sequence (A005132): to get a(n), we first try to subtract n from a(n-1): a(n) = a(n-1) - n if positive and not already in the sequence; if not then we try to add n: a(n) = a(n-1) + n if not already in the sequence; if this fails we try to subtract n+1 from a(n-1), or to add n+1 to a(n-1), or to subtract n+2, or to add n+2, etc., until one of these produces a positive number not already in the sequence - this is a(n).",
+  "id": "A064389",
+  "mentions": [
+    "A005132",
+    "A046901",
+    "A064387",
+    "A064388",
+    "A078758",
+    "A126712"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

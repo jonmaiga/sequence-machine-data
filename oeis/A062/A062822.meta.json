@@ -1,0 +1,23 @@
+{
+  "description": "Sum of divisors of the squarefree numbers: sigma(A005117(n)).",
+  "id": "A062822",
+  "mentions": [
+    "A000203",
+    "A001221",
+    "A002117",
+    "A005117",
+    "A152649",
+    "A265668"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

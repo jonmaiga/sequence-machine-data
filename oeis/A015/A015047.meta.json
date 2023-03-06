@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that S(k) = S(k-1) + S(k-2) where S is the Kempner function A002034.",
+  "id": "A015047",
+  "mentions": [
+    "A002034",
+    "A015048",
+    "A015049",
+    "A015050",
+    "A015051",
+    "A015052",
+    "A015053"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

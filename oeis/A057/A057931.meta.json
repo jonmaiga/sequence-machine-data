@@ -1,0 +1,19 @@
+{
+  "description": "Positions at which powers of 2 occur in A057929. (Or -1 if it does not occur.)",
+  "id": "A057931",
+  "mentions": [
+    "A057929",
+    "A057930"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

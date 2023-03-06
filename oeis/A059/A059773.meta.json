@@ -1,0 +1,19 @@
+{
+  "description": "Maximum size of Aut(G) where G is a finite group of order n.",
+  "id": "A059773",
+  "mentions": [
+    "A056867",
+    "A061350"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

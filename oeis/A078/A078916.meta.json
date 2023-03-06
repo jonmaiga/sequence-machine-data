@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime(n) + 2*n.",
+  "id": "A078916",
+  "mentions": [
+    "A000040",
+    "A005843",
+    "A014688",
+    "A078917"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:09:43",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

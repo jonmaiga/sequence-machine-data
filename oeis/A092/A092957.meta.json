@@ -1,0 +1,20 @@
+{
+  "description": "In the triangle 1 / 1*2 2*3 / 1*2*3 2*3*4 3*4*5 / ... if every number k is replaced by prime(k) one gets the following triangle 2 / 6 15 / 30 105 385 / 210 1155 5005 17017 / ... Sequence contains the row sums.",
+  "id": "A092957",
+  "mentions": [
+    "A002110",
+    "A060381",
+    "A092956"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

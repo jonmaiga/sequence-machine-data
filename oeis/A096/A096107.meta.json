@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: row n lists cubic residues modulo n.",
+  "id": "A096107",
+  "mentions": [
+    "A087692",
+    "A096087"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

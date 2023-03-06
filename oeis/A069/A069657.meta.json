@@ -1,0 +1,18 @@
+{
+  "description": "Sum( S(n,k) * M(k-1), k=1..n), where S(n,k) = Stirling numbers of the second kind, M(n) = Motzkin numbers, A001006.",
+  "id": "A069657",
+  "mentions": [
+    "A001006",
+    "A006531"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

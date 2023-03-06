@@ -1,0 +1,19 @@
+{
+  "description": "Number of positions in game \"Connect Four\" (played on usual 6-row, 7-column board) after n moves, up to reflection.",
+  "id": "A013582",
+  "mentions": [
+    "A212693"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

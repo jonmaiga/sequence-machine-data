@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that 10^(2n-1)+k is a brilliant number.",
+  "id": "A084476",
+  "mentions": [
+    "A033873",
+    "A078972",
+    "A084475"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

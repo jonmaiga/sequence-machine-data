@@ -1,0 +1,21 @@
+{
+  "description": "Add 1 to leading digit and put in front.",
+  "id": "A018238",
+  "mentions": [
+    "A001511",
+    "A033564",
+    "A082215",
+    "A123121"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

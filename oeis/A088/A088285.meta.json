@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes in which the sum of the internal digits = the sum of the external digits.",
+  "id": "A088285",
+  "mentions": [
+    "A088286"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

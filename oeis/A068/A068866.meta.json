@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A068865(n) = n.",
+  "id": "A068866",
+  "mentions": [
+    "A068855",
+    "A068865"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

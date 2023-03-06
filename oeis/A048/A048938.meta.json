@@ -1,0 +1,22 @@
+{
+  "description": "8-digit vampire numbers (definition 2).",
+  "id": "A048938",
+  "mentions": [
+    "A014575",
+    "A048933",
+    "A048936"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

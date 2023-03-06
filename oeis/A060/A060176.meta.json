@@ -1,0 +1,23 @@
+{
+  "description": "Table T(n,k) by antidiagonals of value of largest power of k-th prime which divides n.",
+  "id": "A060176",
+  "mentions": [
+    "A000040",
+    "A006519",
+    "A038500",
+    "A060175"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

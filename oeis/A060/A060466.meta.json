@@ -1,0 +1,22 @@
+{
+  "description": "Value of y of the solution to x^3 + y^3 + z^3 = A060464(n) (numbers not 4 or 5 mod 9) with smallest |z| and smallest |y|, 0 <= |x| <= |y| <= |z|.",
+  "id": "A060466",
+  "mentions": [
+    "A060464",
+    "A060465",
+    "A060467",
+    "A173515"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

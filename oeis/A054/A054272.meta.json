@@ -1,0 +1,31 @@
+{
+  "description": "Number of primes in the interval [prime(n), prime(n)^2].",
+  "id": "A054272",
+  "mentions": [
+    "A000040",
+    "A000879",
+    "A001248",
+    "A002110",
+    "A005235",
+    "A005867",
+    "A008683",
+    "A008836",
+    "A020639",
+    "A078898",
+    "A249747",
+    "A250473",
+    "A250474",
+    "A251723"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

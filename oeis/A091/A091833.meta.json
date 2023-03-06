@@ -1,0 +1,22 @@
+{
+  "description": "Pierce expansion of 1/zeta(2).",
+  "id": "A091833",
+  "mentions": [
+    "A006275",
+    "A006276",
+    "A006283",
+    "A006784",
+    "A059186"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

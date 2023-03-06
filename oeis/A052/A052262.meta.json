@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of A014824.",
+  "id": "A052262",
+  "mentions": [
+    "A002275",
+    "A011557",
+    "A014824",
+    "A060011",
+    "A262183"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest square containing exactly n 1's.",
+  "id": "A036508",
+  "mentions": [
+    "A048346"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of common decimal digits of n and 2^n.",
+  "id": "A087773",
+  "mentions": [
+    "A000079",
+    "A076493"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

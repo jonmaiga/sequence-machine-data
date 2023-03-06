@@ -1,0 +1,21 @@
+{
+  "description": "For n >= 1, let M_n be the n X n matrix with M_n(i,j) = i^2/(i+j); then a(n) = 1/det(M_n). Also, a(0) = 1 by convention.",
+  "id": "A069651",
+  "mentions": [
+    "A000142",
+    "A005249",
+    "A163085"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

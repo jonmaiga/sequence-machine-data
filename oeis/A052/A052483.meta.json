@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Hausdorff dimension of Apollonian packing of circles.",
+  "id": "A052483",
+  "mentions": [
+    "A187089"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

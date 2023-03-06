@@ -1,0 +1,17 @@
+{
+  "description": "Consider numbers which are denominators of at least one reduced rational sum{k=1 to m} 1/k^n, taken over all positive integers m and n (a sequence not yet in the database). Sequence gives denominators which occur more than once.",
+  "id": "A094515",
+  "mentions": [
+    "A094509"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers n such that sigma(n+24) = sigma(n) + 24.",
+  "id": "A054983",
+  "mentions": [
+    "A015914",
+    "A015917",
+    "A033560",
+    "A054799"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

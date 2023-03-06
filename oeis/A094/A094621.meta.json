@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of x*(11+13*x+20*x^2) / ( (x-1)*(1+x)*(10*x^2-1) ).",
+  "id": "A094621",
+  "mentions": [
+    "A094620",
+    "A094622"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:16:03",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

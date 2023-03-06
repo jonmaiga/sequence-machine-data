@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is 1 if and only if Ramanujan's tau(n) > 0.",
+  "id": "A040053",
+  "mentions": [
+    "A000594"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

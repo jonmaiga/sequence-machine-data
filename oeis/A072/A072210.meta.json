@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=a(2)=1; a(n)=reverse(reverse(a(n-1))+reverse(a(n-2))) for n > 2.",
+  "id": "A072210",
+  "mentions": [
+    "A001129",
+    "A014258"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

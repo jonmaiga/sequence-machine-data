@@ -1,0 +1,15 @@
+{
+  "description": "Least k such that the least common multiple of the numbers 1+n,1+2n,...1+kn is different from the denominator of 1 + 1/(1+n) + 1/(1+2n) +...+1/(1+kn).",
+  "id": "A097276",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

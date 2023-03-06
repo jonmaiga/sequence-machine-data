@@ -1,0 +1,21 @@
+{
+  "description": "Numbers having the same number of digits as letters in their US English spelling.",
+  "id": "A030455",
+  "mentions": [
+    "A005589",
+    "A055642",
+    "A204593"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

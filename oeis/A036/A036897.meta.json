@@ -1,0 +1,19 @@
+{
+  "description": "Square root of odd refactorable numbers.",
+  "id": "A036897",
+  "mentions": [
+    "A033950",
+    "A036896"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

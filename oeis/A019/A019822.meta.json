@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sine of 13 degrees.",
+  "id": "A019822",
+  "mentions": [
+    "A019810",
+    "A019821",
+    "A019887",
+    "A019898"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:45",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

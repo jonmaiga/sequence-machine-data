@@ -1,0 +1,16 @@
+{
+  "description": "Numbers n such that sigma(n) - phi(n) = pi(n).",
+  "id": "A067788",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

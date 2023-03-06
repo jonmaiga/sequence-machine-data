@@ -1,0 +1,20 @@
+{
+  "description": "Numerical values or Gematriot of Hebrew letters {aleph, bet, ..., tav}.",
+  "id": "A051596",
+  "mentions": [
+    "A037124"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

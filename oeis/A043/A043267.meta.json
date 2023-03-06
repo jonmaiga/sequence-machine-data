@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the digits of the n-th base 8 palindrome.",
+  "id": "A043267",
+  "mentions": [
+    "A029803"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:09",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

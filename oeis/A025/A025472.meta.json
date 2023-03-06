@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the position of 7^n among the powers of primes (A000961).",
+  "id": "A025472",
+  "mentions": [
+    "A000420",
+    "A000961",
+    "A065515"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

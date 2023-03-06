@@ -1,0 +1,18 @@
+{
+  "description": "Largest k such that n*k has n divisors, or 0 if there are no possibilities for k or infinitely many.",
+  "id": "A076932",
+  "mentions": [
+    "A073904",
+    "A076931"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

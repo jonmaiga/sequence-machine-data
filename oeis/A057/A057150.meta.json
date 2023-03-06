@@ -1,0 +1,36 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of k X k binary matrices with n ones, with no zero rows or columns, up to row and column permutation.",
+  "id": "A057150",
+  "mentions": [
+    "A007716",
+    "A048291",
+    "A049311",
+    "A054976",
+    "A056037",
+    "A056079",
+    "A056080",
+    "A057149",
+    "A057151",
+    "A057152",
+    "A101370",
+    "A104601",
+    "A104602",
+    "A120732",
+    "A120733",
+    "A135588",
+    "A319616",
+    "A321609",
+    "A321615"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-27 12:56:36",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

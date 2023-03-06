@@ -1,0 +1,25 @@
+{
+  "description": "Primes on axis of Ulam square spiral (with rows ... / 7 8 9 / 6 1 2 / 5 4 3 / ... ) with origin at (1).",
+  "id": "A078784",
+  "mentions": [
+    "A033951",
+    "A054552",
+    "A054556",
+    "A054567",
+    "A168022",
+    "A168023",
+    "A168025",
+    "A168027",
+    "A172979"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways n can be written as the sum of a brilliant number and a prime.",
+  "id": "A082785",
+  "mentions": [
+    "A078972"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

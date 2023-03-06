@@ -1,0 +1,21 @@
+{
+  "description": "Table read by rows where row n consists of all k in the range 0",
+  "id": "A088329",
+  "mentions": [
+    "A001359",
+    "A002110",
+    "A006094",
+    "A088328"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

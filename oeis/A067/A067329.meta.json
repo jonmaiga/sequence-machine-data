@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of coefficients of polynomials used for g.f.s of columns of A067304.",
+  "id": "A067329",
+  "mentions": [
+    "A067304"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

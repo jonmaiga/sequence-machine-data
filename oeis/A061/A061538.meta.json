@@ -1,0 +1,22 @@
+{
+  "description": "Product of all divisors of n, divided by product of unitary divisors; or equivalently product of non-unitary divisors of n.",
+  "id": "A061538",
+  "mentions": [
+    "A000005",
+    "A007955",
+    "A007956",
+    "A034444",
+    "A048105"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

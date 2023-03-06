@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-state, 2-symbol, d+ in {LEFT, RIGHT}, 5-tuple (q, s, q+, s+, d+) (halting or not) Turing machines.",
+  "id": "A052200",
+  "mentions": [
+    "A004147",
+    "A028444",
+    "A060843"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:20:50",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

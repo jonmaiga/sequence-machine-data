@@ -1,0 +1,19 @@
+{
+  "description": "Primes in A088049.",
+  "id": "A088051",
+  "mentions": [
+    "A088049",
+    "A088050"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

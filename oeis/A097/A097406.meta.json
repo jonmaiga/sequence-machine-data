@@ -1,0 +1,23 @@
+{
+  "description": "Largest primitive prime factor of 2^n-1, or a(n) = 1 if no such prime exists.",
+  "id": "A097406",
+  "mentions": [
+    "A006530",
+    "A064078",
+    "A086251",
+    "A097407",
+    "A112927"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

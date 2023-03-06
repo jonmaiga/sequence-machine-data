@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sum of digits in base 7 is a divisor of sum of prime divisors (A008472).",
+  "id": "A076385",
+  "mentions": [
+    "A008472",
+    "A075657",
+    "A076380",
+    "A076387"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

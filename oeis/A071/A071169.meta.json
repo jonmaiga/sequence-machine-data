@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number k such that prime(k) == 2*n-1 (mod phi(k)).",
+  "id": "A071169",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A066936",
+    "A071168"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

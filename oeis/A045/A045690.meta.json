@@ -1,0 +1,43 @@
+{
+  "description": "Number of binary words of length n (beginning with 0) whose autocorrelation function is the indicator of a singleton.",
+  "id": "A045690",
+  "mentions": [
+    "A000045",
+    "A000929",
+    "A002083",
+    "A003000",
+    "A003242",
+    "A005434",
+    "A007148",
+    "A018819",
+    "A038548",
+    "A040039",
+    "A056924",
+    "A093371",
+    "A154402",
+    "A155092",
+    "A167606",
+    "A337135",
+    "A342083",
+    "A342084",
+    "A342085",
+    "A342094",
+    "A342096",
+    "A342097",
+    "A342098",
+    "A342191"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k with the property that in the prime factorization of k all prime exponents are prime, their sum is also prime and equals the sum of distinct prime factors of k.",
+  "id": "A071837",
+  "mentions": [
+    "A001222",
+    "A008472",
+    "A051674",
+    "A054411",
+    "A056166",
+    "A070215",
+    "A240983"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

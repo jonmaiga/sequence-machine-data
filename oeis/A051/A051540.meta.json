@@ -1,0 +1,23 @@
+{
+  "description": "Least common multiple of {2, 5, 8, 11, 14, ..., 3n+2} (A016789).",
+  "id": "A051540",
+  "mentions": [
+    "A016789",
+    "A051536",
+    "A051552",
+    "A074597",
+    "A075135"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

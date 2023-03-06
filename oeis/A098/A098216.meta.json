@@ -1,0 +1,19 @@
+{
+  "description": "Nonprime numbers n for which cototient[n]=n-phi[n] is a decimal repdigit.",
+  "id": "A098216",
+  "mentions": [
+    "A010785",
+    "A096503"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

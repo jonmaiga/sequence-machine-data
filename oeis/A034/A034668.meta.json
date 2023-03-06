@@ -1,0 +1,18 @@
+{
+  "description": "Sum of n-th powers of divisors of 48.",
+  "id": "A034668",
+  "mentions": [
+    "A018261"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

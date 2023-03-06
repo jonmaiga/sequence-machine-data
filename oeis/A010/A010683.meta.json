@@ -1,0 +1,27 @@
+{
+  "description": "Let S(x,y) = number of lattice paths from (0,0) to (x,y) that use the step set { (0,1), (1,0), (2,0), (3,0), ...} and never pass below y = x. Sequence gives S(n-1,n) = number of 'Schröder' trees with n+1 leaves and root of degree 2.",
+  "id": "A010683",
+  "mentions": [
+    "A001003",
+    "A006318",
+    "A011117",
+    "A033877",
+    "A144944",
+    "A177010",
+    "A180662",
+    "A186826"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

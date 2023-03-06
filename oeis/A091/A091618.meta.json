@@ -1,0 +1,17 @@
+{
+  "description": "Number of compositions (ordered partitions) of n such that some part is repeated consecutively 4 times and no part is repeated consecutively more than 4 times.",
+  "id": "A091618",
+  "mentions": [
+    "A091613"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 4,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

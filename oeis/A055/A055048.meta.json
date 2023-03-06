@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form 9^i*(3*j+2).",
+  "id": "A055048",
+  "mentions": [
+    "A007417",
+    "A007913",
+    "A055040",
+    "A055041",
+    "A055047",
+    "A189716"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

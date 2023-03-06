@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows in which the k-th term in row n (n >= 1, k = 1..n) is Product_{i=0..k-1} prime(n-i).",
+  "id": "A098012",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A006094",
+    "A046301",
+    "A046302",
+    "A046303",
+    "A059865",
+    "A060381",
+    "A070826",
+    "A104887",
+    "A248147",
+    "A248164"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

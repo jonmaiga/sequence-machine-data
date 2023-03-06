@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k > a(n-1) such that k^2 has no digit in common with a(n-1)^2.",
+  "id": "A030287",
+  "mentions": [
+    "A030288",
+    "A067581",
+    "A294660"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

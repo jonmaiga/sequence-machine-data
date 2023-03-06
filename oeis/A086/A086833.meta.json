@@ -1,0 +1,25 @@
+{
+  "description": "Minimum number of different addends occurring in any shortest addition chain of Brauer type for a given n.",
+  "id": "A086833",
+  "mentions": [
+    "A003064",
+    "A003065",
+    "A003313",
+    "A005766",
+    "A008057",
+    "A008928",
+    "A008933",
+    "A079300",
+    "A079301"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

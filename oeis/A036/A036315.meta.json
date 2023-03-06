@@ -1,0 +1,23 @@
+{
+  "description": "Composite numbers whose prime factors contain no digits other than 3 and 5.",
+  "id": "A036315",
+  "mentions": [
+    "A003593",
+    "A020462",
+    "A036302",
+    "A036325"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

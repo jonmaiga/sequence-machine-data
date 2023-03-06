@@ -1,0 +1,24 @@
+{
+  "description": "M-sequences from multicomplexes on at most 8 variables with no monomial of degree more than n-1.",
+  "id": "A011805",
+  "mentions": [
+    "A007065",
+    "A007625",
+    "A011804",
+    "A011806",
+    "A011807",
+    "A011808",
+    "A011809"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:58:09",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

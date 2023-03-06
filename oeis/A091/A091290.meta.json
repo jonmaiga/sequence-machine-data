@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that sigma(n) + sigma(n+1) <= sigma(2*n+1).",
+  "id": "A091290",
+  "mentions": [
+    "A000203",
+    "A091287"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

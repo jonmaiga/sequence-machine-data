@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A027349.",
+  "id": "A086372",
+  "mentions": [
+    "A000041",
+    "A027349",
+    "A040051"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:31",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

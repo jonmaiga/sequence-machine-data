@@ -1,0 +1,19 @@
+{
+  "description": "Haupt-exponents of 7 modulo integers relatively prime to 7.",
+  "id": "A050979",
+  "mentions": [
+    "A002326",
+    "A002329",
+    "A050977"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:52:39",
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

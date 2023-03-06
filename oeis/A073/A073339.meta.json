@@ -1,0 +1,17 @@
+{
+  "description": "Define b(k) by the recursion b(1)=n, b(k+1)=b(k)-trunc(k/b(k)), where trunc(x) is floor(x) for x>=0, ceiling(x) for xa(n) then b(k) is undefined.",
+  "id": "A073339",
+  "mentions": [
+    "A074636"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

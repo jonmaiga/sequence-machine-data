@@ -1,0 +1,26 @@
+{
+  "description": "Areas of right triangles with coprime integer sides.",
+  "id": "A024365",
+  "mentions": [
+    "A009111",
+    "A009112",
+    "A024406",
+    "A024407",
+    "A073120",
+    "A147778",
+    "A258150",
+    "A258151"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

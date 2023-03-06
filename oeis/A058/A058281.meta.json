@@ -1,0 +1,24 @@
+{
+  "description": "Continued fraction for square root of e.",
+  "id": "A058281",
+  "mentions": [
+    "A004766",
+    "A016813",
+    "A016825",
+    "A019774"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic sequence for numbers n>=0 that are either squares or have a square > 1 as factor.",
+  "id": "A087049",
+  "mentions": [
+    "A000290",
+    "A008683",
+    "A008966",
+    "A013929",
+    "A080733"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

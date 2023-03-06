@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct non-recursive Catalan Automorphisms whose minimum clause-representation requires examination of n nodes in total. Row sums of A089831.",
+  "id": "A089832",
+  "mentions": [
+    "A089831",
+    "A089839"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

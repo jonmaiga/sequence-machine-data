@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with exactly three distinct base-8 digits.",
+  "id": "A031960",
+  "mentions": [
+    "A007094"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:57:45",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

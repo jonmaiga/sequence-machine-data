@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of Product_{m>=1} (1+m*q^m)^-27.",
+  "id": "A022719",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

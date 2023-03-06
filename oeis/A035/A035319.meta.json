@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted maps of genus n with one vertex and one face; the maps are considered on orientable surfaces and contain 2n edges.",
+  "id": "A035319",
+  "mentions": [
+    "A001147",
+    "A035309",
+    "A035318"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

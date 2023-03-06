@@ -1,0 +1,17 @@
+{
+  "description": "Numbers with exactly 4 1's in ternary expansion.",
+  "id": "A023695",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:19:23",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

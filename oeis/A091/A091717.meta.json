@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: Greatest common divisors of values of the partition function P: T(n,k) = gcd(P(n), P(k)), 0 <= k < n.",
+  "id": "A091717",
+  "mentions": [
+    "A000041",
+    "A091718",
+    "A091719"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(n) = smallest number == 1 mod (a(n-1)) and > 1 such that every concatenation (n>1) is prime.",
+  "id": "A088095",
+  "mentions": [
+    "A088096"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

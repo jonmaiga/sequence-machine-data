@@ -1,0 +1,20 @@
+{
+  "description": "Squares whose product of digits is also a square (allowing zeros).",
+  "id": "A061867",
+  "mentions": [
+    "A053059"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of triangular polyominoes (or polyiamonds) [A000577] with perimeter n.",
+  "id": "A057729",
+  "mentions": [
+    "A000577",
+    "A284869",
+    "A316196"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

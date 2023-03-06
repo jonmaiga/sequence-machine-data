@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = T(2, n), where T is the array given by A047858.",
+  "id": "A047859",
+  "mentions": [
+    "A000120",
+    "A001511",
+    "A001700",
+    "A011782",
+    "A029931",
+    "A045623",
+    "A047858",
+    "A056239",
+    "A070939",
+    "A357708"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

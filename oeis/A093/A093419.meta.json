@@ -1,0 +1,24 @@
+{
+  "description": "Denominators of row sums in triangle described in A093412.",
+  "id": "A093419",
+  "mentions": [
+    "A093412",
+    "A093413",
+    "A093414",
+    "A093415",
+    "A093417",
+    "A093418",
+    "A096620"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

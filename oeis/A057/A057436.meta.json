@@ -1,0 +1,22 @@
+{
+  "description": "Contains digits 1 through 6 only.",
+  "id": "A057436",
+  "mentions": [
+    "A007092",
+    "A214676"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that are palindromic in base 8.",
+  "id": "A029803",
+  "mentions": [
+    "A002113",
+    "A006995",
+    "A014190",
+    "A014192",
+    "A029952",
+    "A029953",
+    "A029954",
+    "A029955"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

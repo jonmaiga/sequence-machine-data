@@ -1,0 +1,26 @@
+{
+  "description": "4th row of number array A083064.",
+  "id": "A083065",
+  "mentions": [
+    "A000004",
+    "A007051",
+    "A007583",
+    "A083064",
+    "A083066",
+    "A090040",
+    "A123412",
+    "A181565"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Indices of zero in A090482.",
+  "id": "A090483",
+  "mentions": [
+    "A090481",
+    "A090482"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

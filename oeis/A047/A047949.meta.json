@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the largest m such that n-m and n+m are both primes, or -1 if no such m exists.",
+  "id": "A047949",
+  "mentions": [
+    "A010051",
+    "A020481",
+    "A020482",
+    "A047160",
+    "A067076",
+    "A098090",
+    "A182138"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:26:39",
+    "offset": 2,
+    "size": 72,
+    "source": "joeis"
+  }
+}

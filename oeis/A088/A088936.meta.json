@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1, a(2)=2 then a(A(k))=a(k) where a(1),a(2),...,a(k) are k consecutive defined terms and A(k)=a(1)+a(2)+...+a(k). Fill in any undefined places with max{a(i)+1 : 1<=i<=k}.",
+  "id": "A088936",
+  "mentions": [
+    "A088937",
+    "A088938",
+    "A088939",
+    "A088940"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

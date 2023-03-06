@@ -1,0 +1,21 @@
+{
+  "description": "Prime exponents of composite Mersenne numbers.",
+  "id": "A054723",
+  "mentions": [
+    "A000040",
+    "A000043",
+    "A002515",
+    "A016027"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:21:19",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

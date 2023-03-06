@@ -1,0 +1,19 @@
+{
+  "description": "Number of lattice congruences of the weak order on the Coxeter group B_n.",
+  "id": "A091688",
+  "mentions": [
+    "A091687"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

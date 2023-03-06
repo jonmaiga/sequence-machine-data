@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 25*a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 25.",
+  "id": "A090733",
+  "mentions": [
+    "A046069",
+    "A049310",
+    "A053120",
+    "A077428",
+    "A078355",
+    "A082974",
+    "A097779",
+    "A097780"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

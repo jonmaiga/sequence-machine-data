@@ -1,0 +1,21 @@
+{
+  "description": "Difference between number of primes not exceeding reversed n and n.",
+  "id": "A085655",
+  "mentions": [
+    "A000720",
+    "A004086",
+    "A074719"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

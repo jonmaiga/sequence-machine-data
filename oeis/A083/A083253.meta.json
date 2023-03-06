@@ -1,0 +1,26 @@
+{
+  "description": "Smallest number k for which abs(A045763(k) - A073757(k)) = n, i.e., signed difference of size of related and unrelated sets to k equals either n or -n.",
+  "id": "A083253",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A045763",
+    "A073757",
+    "A083243",
+    "A083249",
+    "A083250",
+    "A083251",
+    "A083252"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of hyperbolic knots with n crossings (A002863 - A051764 - A051765).",
+  "id": "A052408",
+  "mentions": [
+    "A002863",
+    "A051764",
+    "A051765",
+    "A052407"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

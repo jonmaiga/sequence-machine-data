@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers whose sum of prime factors is palindromic (counted with multiplicity).",
+  "id": "A046352",
+  "mentions": [
+    "A001414",
+    "A002113",
+    "A046353",
+    "A046354"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:31:31",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

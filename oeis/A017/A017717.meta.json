@@ -1,0 +1,22 @@
+{
+  "description": "Binomial coefficients C(n,53).",
+  "id": "A017717",
+  "mentions": [
+    "A001787",
+    "A017713",
+    "A017715",
+    "A017716",
+    "A242091"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:24",
+    "offset": 53,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

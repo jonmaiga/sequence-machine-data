@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose number of divisors equals the sum of their separate prime-power decompositions.",
+  "id": "A087004",
+  "mentions": [
+    "A000005",
+    "A078511"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

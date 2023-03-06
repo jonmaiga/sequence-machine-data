@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of q^(-1/6) * eta(q^2)^3 / eta(q)^2 in powers of q.",
+  "id": "A085140",
+  "mentions": [
+    "A000009",
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A053254",
+    "A121373",
+    "A132970"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Nonunitary multiply perfect numbers: the sum of the nonunitary divisors of n is a multiple of n; i.e., n divides sigma(n) - usigma(n).",
+  "id": "A064594",
+  "mentions": [
+    "A005117",
+    "A048146",
+    "A064591",
+    "A064592",
+    "A064593",
+    "A064595",
+    "A064596"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

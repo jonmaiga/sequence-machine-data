@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2; a(n) = smallest prime > a(n-1) such that the sum of any three nondecreasing terms, chosen from a(1), ..., a(n-1) and a(n), is unique.",
+  "id": "A060276",
+  "mentions": [
+    "A051912"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

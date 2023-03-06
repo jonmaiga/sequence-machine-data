@@ -1,0 +1,18 @@
+{
+  "description": "Positions of ones in A059648.",
+  "id": "A059649",
+  "mentions": [
+    "A059648",
+    "A059650"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:15:19",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

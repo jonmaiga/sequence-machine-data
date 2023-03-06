@@ -1,0 +1,21 @@
+{
+  "description": "Record values in A079551.",
+  "id": "A079552",
+  "mentions": [
+    "A000005",
+    "A006093",
+    "A008328",
+    "A079551"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

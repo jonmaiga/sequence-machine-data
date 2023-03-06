@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that gcd(a,b) is not equal to gcd(a+b,a-b), where a=sigma(n)=A000203(n) and b=phi(n)=A000010(n).",
+  "id": "A077103",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A051612",
+    "A055008",
+    "A065387",
+    "A077099"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

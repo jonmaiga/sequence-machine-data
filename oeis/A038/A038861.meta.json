@@ -1,0 +1,20 @@
+{
+  "description": "Numbers ending with '6' that are the difference of two positive cubes.",
+  "id": "A038861",
+  "mentions": [
+    "A017341",
+    "A017343",
+    "A181123"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:13",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

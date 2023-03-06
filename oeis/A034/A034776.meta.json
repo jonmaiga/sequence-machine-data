@@ -1,0 +1,18 @@
+{
+  "description": "Gozinta numbers: possible number of gozinta chains for some positive integer.",
+  "id": "A034776",
+  "mentions": [
+    "A000670",
+    "A002033"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (theta_3(q) * theta_3(q^7) + theta_2(q) * theta_2(q^7))^2 in powers of q.",
+  "id": "A028594",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A002652",
+    "A004009",
+    "A006352",
+    "A010054",
+    "A010815",
+    "A013973",
+    "A113957",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

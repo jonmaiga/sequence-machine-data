@@ -1,0 +1,29 @@
+{
+  "description": "Exchange 2 and 3 in the prime factorization of n.",
+  "id": "A064614",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A007814",
+    "A007949",
+    "A027746",
+    "A064615",
+    "A065330",
+    "A253046",
+    "A253047"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

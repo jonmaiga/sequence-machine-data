@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (1/2) * (number of n X n 0..10 matrices with MM' mod 11 = I).",
+  "id": "A071309",
+  "mentions": [
+    "A071302",
+    "A071303",
+    "A071304",
+    "A071305",
+    "A071306",
+    "A071307",
+    "A071308",
+    "A071310"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

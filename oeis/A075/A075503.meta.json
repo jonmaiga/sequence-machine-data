@@ -1,0 +1,28 @@
+{
+  "description": "Stirling2 triangle with scaled diagonals (powers of 8).",
+  "id": "A075503",
+  "mentions": [
+    "A001018",
+    "A039692",
+    "A060195",
+    "A075502",
+    "A075504",
+    "A075507",
+    "A075513",
+    "A076003",
+    "A076007"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:28:34",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

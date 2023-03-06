@@ -1,0 +1,21 @@
+{
+  "description": "Squares which are the product of a non-palindrome and its reversal, where leading zeros are not allowed.",
+  "id": "A076750",
+  "mentions": [
+    "A062917",
+    "A325148",
+    "A325149",
+    "A325150"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

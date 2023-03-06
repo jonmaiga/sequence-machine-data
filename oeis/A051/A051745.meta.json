@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n*(n^4 + 10*n^3 + 35*n^2 + 50*n + 144)/120.",
+  "id": "A051745",
+  "mentions": [
+    "A000389"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:58:09",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

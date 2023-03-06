@@ -1,0 +1,18 @@
+{
+  "description": "Six consecutive integers with decreasing values of sigma start at these numbers: sigma(x) > sigma(x+1) > sigma(x+2) > sigma(x+3) > sigma(x+4) > sigma(x+5).",
+  "id": "A050945",
+  "mentions": [
+    "A000203",
+    "A050944"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

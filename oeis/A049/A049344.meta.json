@@ -1,0 +1,23 @@
+{
+  "description": "Prime unoriented alternating links (not necessarily connected knots) with n crossings.",
+  "id": "A049344",
+  "mentions": [
+    "A002863",
+    "A002864",
+    "A059739",
+    "A086771"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

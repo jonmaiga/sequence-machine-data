@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that m = 216n + 108 satisfies sigma(m) != 2*usigma(m).",
+  "id": "A097703",
+  "mentions": [
+    "A063880",
+    "A097702",
+    "A097704"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

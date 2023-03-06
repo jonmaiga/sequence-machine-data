@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k divisible by at least one nontrivial permutation (rearrangement) of the digits of k, excluding all permutations that result in digit loss.",
+  "id": "A090056",
+  "mentions": [
+    "A084687",
+    "A090055",
+    "A090061"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

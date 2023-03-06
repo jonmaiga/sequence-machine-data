@@ -1,0 +1,20 @@
+{
+  "description": "Call m strict-sense Egyptian if we can partition m = x_1+x_2+...+x_k into distinct positive integers x_i such that Sum_{i=1..k} 1/x_i = 1; sequence gives all numbers that are not strict-sense Egyptian.",
+  "id": "A051882",
+  "mentions": [
+    "A028229"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

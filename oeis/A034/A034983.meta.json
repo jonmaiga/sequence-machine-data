@@ -1,0 +1,18 @@
+{
+  "description": "Smallest square starting with a string of n 3's.",
+  "id": "A034983",
+  "mentions": [
+    "A034982"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:08:20",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

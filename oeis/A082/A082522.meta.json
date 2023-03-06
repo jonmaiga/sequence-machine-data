@@ -1,0 +1,24 @@
+{
+  "description": "Numbers of the form p^(2^k) with p prime and k>0.",
+  "id": "A082522",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000961",
+    "A025475",
+    "A050376",
+    "A059897",
+    "A181970"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

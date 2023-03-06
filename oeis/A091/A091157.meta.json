@@ -1,0 +1,20 @@
+{
+  "description": "Primes occurring in the sequence 3, 1, 4, 5, 9, 14, 23, ... (A000285 prefixed with 3).",
+  "id": "A091157",
+  "mentions": [
+    "A000045",
+    "A000062",
+    "A000285",
+    "A091158"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

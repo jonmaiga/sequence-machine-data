@@ -1,0 +1,16 @@
+{
+  "description": "Continued fraction for cube root of 84.",
+  "id": "A010312",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:36",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

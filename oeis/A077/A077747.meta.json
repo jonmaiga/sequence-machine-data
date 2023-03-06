@@ -1,0 +1,18 @@
+{
+  "description": "Partition the digits of the concatenation 123456789101112131415... of natural numbers such that a(n) contains a(n-1) digits with a(1) = 1.",
+  "id": "A077747",
+  "mentions": [
+    "A077748"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

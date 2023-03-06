@@ -1,0 +1,20 @@
+{
+  "description": "Quotient of 'base-5' division described in A032543.",
+  "id": "A032544",
+  "mentions": [
+    "A032532",
+    "A032542",
+    "A032543"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:08",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

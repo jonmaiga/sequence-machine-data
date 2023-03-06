@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations p of [n] such that the n-1 sums p(i)+p(i+1) (i=1,2,...n-1) are all distinct.",
+  "id": "A091217",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

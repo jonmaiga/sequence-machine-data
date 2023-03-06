@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that 2^n+1+k is a prime.",
+  "id": "A037035",
+  "mentions": [
+    "A013597",
+    "A016014"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:12",
+    "offset": 0,
+    "size": 77,
+    "source": "joeis"
+  }
+}

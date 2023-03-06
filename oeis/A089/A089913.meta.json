@@ -1,0 +1,27 @@
+{
+  "description": "Table T(n,k) = lcm(n,k)/gcd(n,k) = n*k/gcd(n,k)^2 read by antidiagonals (n >= 1, k >= 1).",
+  "id": "A089913",
+  "mentions": [
+    "A001222",
+    "A003990",
+    "A003991",
+    "A005117",
+    "A049581",
+    "A050376",
+    "A059897",
+    "A130836"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

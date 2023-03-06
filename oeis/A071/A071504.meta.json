@@ -1,0 +1,15 @@
+{
+  "description": "Sprague-Grundy values for octal games .376 and .3761.",
+  "id": "A071504",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

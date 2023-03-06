@@ -1,0 +1,24 @@
+{
+  "description": "Second column (k=3) of array A091534 ((5,2)-Stirling2) divided by 10.",
+  "id": "A091539",
+  "mentions": [
+    "A007559",
+    "A007661",
+    "A008544",
+    "A032031",
+    "A091534",
+    "A091540"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

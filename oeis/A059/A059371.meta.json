@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n-1)! + ((n+1)/2)*a(n-1), a(1)=0.",
+  "id": "A059371",
+  "mentions": [
+    "A059369"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

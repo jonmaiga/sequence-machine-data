@@ -1,0 +1,19 @@
+{
+  "description": "Number of iterations required for happy number A007770(n) to converge to 1.",
+  "id": "A090425",
+  "mentions": [
+    "A003132",
+    "A007770"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

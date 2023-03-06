@@ -1,0 +1,20 @@
+{
+  "description": "A partial product representation of A006131 and A072265.",
+  "id": "A072270",
+  "mentions": [
+    "A006131",
+    "A072183",
+    "A072265"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

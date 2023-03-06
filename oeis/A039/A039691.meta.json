@@ -1,0 +1,21 @@
+{
+  "description": "If n=x1x2...xm in base 10, n belongs to the sequence iff x1x2..xm*11=y1y2...ym and xm..x2x1*11=ym...y2y1.",
+  "id": "A039691",
+  "mentions": [
+    "A003714",
+    "A059632",
+    "A242407"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

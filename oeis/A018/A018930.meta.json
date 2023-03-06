@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=3; for n>1, a(n) is smallest positive integer such that a(1)^2+...+a(n)^2 = m^2 for some m.",
+  "id": "A018930",
+  "mentions": [
+    "A018928",
+    "A018929",
+    "A127689"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:05:06",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

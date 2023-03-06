@@ -1,0 +1,21 @@
+{
+  "description": "Number of pairs with two different elements which can be obtained by selecting unique elements from two sets with n+1 and n^2 elements respectively and n common elements.",
+  "id": "A085490",
+  "mentions": [
+    "A028387",
+    "A081437",
+    "A270109"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:42:25",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

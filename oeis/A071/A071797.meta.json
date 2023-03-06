@@ -1,0 +1,32 @@
+{
+  "description": "Restart counting after each new odd integer (a fractal sequence).",
+  "id": "A071797",
+  "mentions": [
+    "A000384",
+    "A002260",
+    "A004737",
+    "A005408",
+    "A006590",
+    "A027052",
+    "A048760",
+    "A053186",
+    "A071028",
+    "A073189",
+    "A074294",
+    "A078358",
+    "A078446"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

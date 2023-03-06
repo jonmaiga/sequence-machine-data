@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers with exactly 5 distinct prime factors.",
+  "id": "A046391",
+  "mentions": [
+    "A001221",
+    "A005408",
+    "A046318",
+    "A046407",
+    "A051270"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:32:15",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

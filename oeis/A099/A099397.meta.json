@@ -1,0 +1,22 @@
+{
+  "description": "Chebyshev polynomial of the first kind, T(n,x), evaluated at x=51.",
+  "id": "A099397",
+  "mentions": [
+    "A049310",
+    "A053120",
+    "A099374",
+    "A188645"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

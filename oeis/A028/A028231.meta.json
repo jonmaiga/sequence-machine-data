@@ -1,0 +1,19 @@
+{
+  "description": "From hexagons in a circle problem.",
+  "id": "A028231",
+  "mentions": [
+    "A001570"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

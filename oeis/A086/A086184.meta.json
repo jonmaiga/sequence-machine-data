@@ -1,0 +1,21 @@
+{
+  "description": "In decimal expansion of Pi: smallest position <= n where the greatest number begins which is also contained between positions n and 2*n.",
+  "id": "A086184",
+  "mentions": [
+    "A000796",
+    "A055642",
+    "A086183",
+    "A086185"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

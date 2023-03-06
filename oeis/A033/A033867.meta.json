@@ -1,0 +1,18 @@
+{
+  "description": "Palindrome reached from A033866(n) by Reverse-then-add.",
+  "id": "A033867",
+  "mentions": [
+    "A033866"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:37:07",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes arising in the second row of array in A091734.",
+  "id": "A091738",
+  "mentions": [
+    "A047235",
+    "A091734"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

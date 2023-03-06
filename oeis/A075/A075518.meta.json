@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(prime(n)/4).",
+  "id": "A075518",
+  "mentions": [
+    "A000040",
+    "A039702",
+    "A075519"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

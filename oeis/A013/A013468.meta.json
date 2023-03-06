@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of e.g.f.: exp(cos(x)-exp(x))=1-x-1/2!*x^2+4/3!*x^3+5/4!*x^4-32/5!*x^5...",
+  "id": "A013468",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-07 14:14:14",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Convolution of A023533 with itself.",
+  "id": "A023670",
+  "mentions": [
+    "A023533"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:19:23",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least common multiple of {1, 5, 9, 13, 17, ..., 4n+1} (A016813).",
+  "id": "A051539",
+  "mentions": [
+    "A016813",
+    "A074598",
+    "A075136",
+    "A097328",
+    "A097329"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

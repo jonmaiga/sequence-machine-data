@@ -1,0 +1,19 @@
+{
+  "description": "Number of different cycles computed with the generalized 3x+1 problem using C=2, B=Cn+m, A=C^m.",
+  "id": "A096010",
+  "mentions": [
+    "A000016",
+    "A008965"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:57:30",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

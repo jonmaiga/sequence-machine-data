@@ -1,0 +1,20 @@
+{
+  "description": "Greater of odd twin prime powers (lesser = A064076).",
+  "id": "A064077",
+  "mentions": [
+    "A000961",
+    "A001359",
+    "A006512",
+    "A064076"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

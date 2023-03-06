@@ -1,0 +1,21 @@
+{
+  "description": "Number of steps where the Juggler sequence reaches a new record.",
+  "id": "A094698",
+  "mentions": [
+    "A007320",
+    "A094670",
+    "A094679"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

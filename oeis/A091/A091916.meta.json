@@ -1,0 +1,19 @@
+{
+  "description": "Maximum of odd products of partitions of n.",
+  "id": "A091916",
+  "mentions": [
+    "A000792",
+    "A091915"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:51:44",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

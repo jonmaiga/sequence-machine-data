@@ -1,0 +1,19 @@
+{
+  "description": "The value of index for composite numbers with square subscripts which are also square numbers.",
+  "id": "A073172",
+  "mentions": [
+    "A002808",
+    "A073171"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

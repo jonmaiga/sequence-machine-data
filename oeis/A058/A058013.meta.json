@@ -1,0 +1,29 @@
+{
+  "description": "Smallest prime p such that (n+1)^p - n^p is prime.",
+  "id": "A058013",
+  "mentions": [
+    "A000043",
+    "A057468",
+    "A059801",
+    "A059802",
+    "A062572",
+    "A062666",
+    "A065913",
+    "A103794",
+    "A115596",
+    "A215538",
+    "A247244"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

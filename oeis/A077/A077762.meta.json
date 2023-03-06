@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways of pairing the squares of the numbers 1 to n with the squares of the numbers n+1 to 2n such that each pair sums to a prime. Because an odd square must always be added to an even square to obtain a prime, this sequence is the product of A077763 and A077764.",
+  "id": "A077762",
+  "mentions": [
+    "A000348",
+    "A070897",
+    "A077763",
+    "A077764"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

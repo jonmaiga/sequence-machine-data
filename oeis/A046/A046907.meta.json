@@ -1,0 +1,21 @@
+{
+  "description": "Number of isomorphism classes of irreducible posets with n labeled points.",
+  "id": "A046907",
+  "mentions": [
+    "A000112",
+    "A000798",
+    "A046908"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

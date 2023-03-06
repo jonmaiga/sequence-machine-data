@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of partitions of n wherein the sum of the 1's is no more than the sum of the other parts.",
+  "id": "A083690",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Fibonacci numbers whose external digits as well as internal digits form a Fibonacci number.",
+  "id": "A077373",
+  "mentions": [
+    "A077371",
+    "A077372"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

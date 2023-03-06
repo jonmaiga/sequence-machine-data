@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that 13 is not a square mod p.",
+  "id": "A038884",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:43:31",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/((1-2*x)*(1-6*x)*(1-7*x)*(1-11*x)).",
+  "id": "A026542",
+  "mentions": [
+    "A000079",
+    "A016129",
+    "A016304",
+    "A026543"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that (6n-3)^2 + 2 is prime.",
+  "id": "A091199",
+  "mentions": [
+    "A056899",
+    "A056900"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

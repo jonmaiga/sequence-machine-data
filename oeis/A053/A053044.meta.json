@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of iterations of the Euler totient function to reach 1, starting at n!.",
+  "id": "A053044",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000142",
+    "A003434",
+    "A051953",
+    "A053025",
+    "A053034",
+    "A064415"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

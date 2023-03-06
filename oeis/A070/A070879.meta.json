@@ -1,0 +1,24 @@
+{
+  "description": "Stern's diatomic array read by rows (version 3 - same as version 2, A070878, but with final 0 in each row omitted).",
+  "id": "A070879",
+  "mentions": [
+    "A002487",
+    "A007051",
+    "A049455",
+    "A049456",
+    "A070878"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

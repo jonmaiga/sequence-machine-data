@@ -1,0 +1,28 @@
+{
+  "description": "Number of rooted compound windmills (mobiles) of n nodes.",
+  "id": "A032200",
+  "mentions": [
+    "A000108",
+    "A007853",
+    "A029768",
+    "A032171",
+    "A038037",
+    "A055340",
+    "A254040",
+    "A304173",
+    "A304175",
+    "A317852"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:42:42",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

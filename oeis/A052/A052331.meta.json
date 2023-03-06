@@ -1,0 +1,35 @@
+{
+  "description": "Inverse of A052330; A binary encoding of Fermi-Dirac factorization of n, shown in decimal.",
+  "id": "A052331",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A050376",
+    "A052330",
+    "A064358",
+    "A064547",
+    "A069010",
+    "A156552",
+    "A182979",
+    "A302024",
+    "A302029",
+    "A302776",
+    "A302778",
+    "A302784",
+    "A302785",
+    "A302786",
+    "A302787",
+    "A302790"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

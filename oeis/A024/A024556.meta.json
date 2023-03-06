@@ -1,0 +1,23 @@
+{
+  "description": "Odd squarefree composite numbers.",
+  "id": "A024556",
+  "mentions": [
+    "A010051",
+    "A046388",
+    "A056911",
+    "A061346",
+    "A071904",
+    "A078837"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

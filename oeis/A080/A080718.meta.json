@@ -1,0 +1,22 @@
+{
+  "description": "1, together with numbers n that are the product of two primes p and q such that the multiset of the digits of n coincides with the multiset of the digits of p and q.",
+  "id": "A080718",
+  "mentions": [
+    "A014575",
+    "A020342",
+    "A048936",
+    "A144563",
+    "A280928"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

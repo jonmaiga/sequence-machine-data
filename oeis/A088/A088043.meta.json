@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n into parts which can be arranged to form a geometric progression (possibly with a common ratio of 1). (For every partition there exists a geometric progression in which this partition fits in as successive terms.).",
+  "id": "A088043",
+  "mentions": [
+    "A049988"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

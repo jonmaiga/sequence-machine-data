@@ -1,0 +1,21 @@
+{
+  "description": "Sorted numbers of edges in the Archimedean polyhedra.",
+  "id": "A092536",
+  "mentions": [
+    "A092537",
+    "A092538"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

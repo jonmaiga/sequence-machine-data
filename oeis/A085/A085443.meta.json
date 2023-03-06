@@ -1,0 +1,18 @@
+{
+  "description": "Where records in A070172 occur.",
+  "id": "A085443",
+  "mentions": [
+    "A002093",
+    "A070172"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n in which, if the number of parts is k, the product of the parts is the k-th power of some positive integer.",
+  "id": "A067539",
+  "mentions": [
+    "A000041",
+    "A067538",
+    "A102627",
+    "A320322",
+    "A326027",
+    "A326028",
+    "A326623",
+    "A326625",
+    "A326641"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

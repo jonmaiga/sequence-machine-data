@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. (2-3x)/((1-x)(1-x-x^2)).",
+  "id": "A052661",
+  "mentions": [
+    "A001611"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:31:31",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

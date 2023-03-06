@@ -1,0 +1,19 @@
+{
+  "description": "(Fractional part of 1.1^n) * 10^n.",
+  "id": "A091947",
+  "mentions": [
+    "A001020",
+    "A011557",
+    "A091946"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

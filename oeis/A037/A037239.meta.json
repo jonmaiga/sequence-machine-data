@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of Pi^(2n)/(GAMMA(2n)*(1-2^(-2n))*Zeta(2n)); = 8*(highest power of 2 dividing n).",
+  "id": "A037239",
+  "mentions": [
+    "A002425",
+    "A006519"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Inverse function of A014580: position in A014580 if the n-th GF(2)[X] polynomial is irreducible, 0 otherwise.",
+  "id": "A091227",
+  "mentions": [
+    "A014580",
+    "A049084",
+    "A091203",
+    "A091225",
+    "A091226",
+    "A091247"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 98,
+    "source": "joeis"
+  }
+}

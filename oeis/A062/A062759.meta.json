@@ -1,0 +1,23 @@
+{
+  "description": "Largest power of squarefree kernel of n (= A007947) which divides n.",
+  "id": "A062759",
+  "mentions": [
+    "A001694",
+    "A003557",
+    "A007947",
+    "A051904",
+    "A052485",
+    "A065463"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

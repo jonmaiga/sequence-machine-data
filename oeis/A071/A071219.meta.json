@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that the largest prime factor of prime(m) + prime(m+1) equals m.",
+  "id": "A071219",
+  "mentions": [
+    "A001043",
+    "A006530",
+    "A071216",
+    "A071218"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of sine of 55 degrees.",
+  "id": "A019864",
+  "mentions": [
+    "A019814",
+    "A019820",
+    "A019849",
+    "A019853",
+    "A019855",
+    "A019859",
+    "A019888",
+    "A019894"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:04:01",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

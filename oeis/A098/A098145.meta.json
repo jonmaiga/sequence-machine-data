@@ -1,0 +1,19 @@
+{
+  "description": "p + P(p) where p is the n-th prime and P(p) is the unrestricted partition number of p.",
+  "id": "A098145",
+  "mentions": [
+    "A000040",
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

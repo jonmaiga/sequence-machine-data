@@ -1,0 +1,21 @@
+{
+  "description": "Squares mod 91.",
+  "id": "A010452",
+  "mentions": [
+    "A028804",
+    "A096008"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

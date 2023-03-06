@@ -1,0 +1,20 @@
+{
+  "description": "Triangular numbers whose sum of primes from smallest to largest prime factor is triangular and whose sum of composites from smallest to largest prime factor is triangular.",
+  "id": "A076207",
+  "mentions": [
+    "A000217",
+    "A074036",
+    "A074037"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the sum of divisors of k and the product of divisors of k are both perfect squares.",
+  "id": "A064710",
+  "mentions": [
+    "A000203",
+    "A007955"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Least n-pseudoprime which is a power of a prime number; smallest prime-power pseudoprime to base n.",
+  "id": "A090096",
+  "mentions": [
+    "A007535",
+    "A039951",
+    "A090086",
+    "A090097",
+    "A090098",
+    "A247072"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

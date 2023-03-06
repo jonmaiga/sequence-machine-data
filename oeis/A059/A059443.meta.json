@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(n,k) (n >= 2, k = 3..n+floor(n/2)) giving number of bicoverings of an n-set with k blocks.",
+  "id": "A059443",
+  "mentions": [
+    "A002718",
+    "A003462",
+    "A059945",
+    "A059946",
+    "A059947",
+    "A059948",
+    "A059949",
+    "A059950",
+    "A059951",
+    "A060052",
+    "A275517",
+    "A275521"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

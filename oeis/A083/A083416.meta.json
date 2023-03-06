@@ -1,0 +1,22 @@
+{
+  "description": "Add 1, double, add 1, double, etc.",
+  "id": "A083416",
+  "mentions": [
+    "A033484",
+    "A075427",
+    "A081026",
+    "A153893"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

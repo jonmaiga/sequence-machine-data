@@ -1,0 +1,28 @@
+{
+  "description": "a(n) and floor(a(n)/5) are both squares; i.e., squares which remain squares when written in base 5 and last digit is removed.",
+  "id": "A055812",
+  "mentions": [
+    "A023110",
+    "A055792",
+    "A055793",
+    "A055808",
+    "A055851",
+    "A204503",
+    "A204512",
+    "A204517",
+    "A204520",
+    "A204521"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:14:21",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

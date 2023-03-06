@@ -1,0 +1,20 @@
+{
+  "description": "Size of the smallest subset S of T={0,1,2,...,n} such that each element of T is the sum of two elements of S.",
+  "id": "A066063",
+  "mentions": [
+    "A001212",
+    "A002024",
+    "A066062"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

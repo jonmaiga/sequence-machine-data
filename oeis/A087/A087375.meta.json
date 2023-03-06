@@ -1,0 +1,17 @@
+{
+  "description": "Smallest n-th power > n!.",
+  "id": "A087375",
+  "mentions": [
+    "A087374"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

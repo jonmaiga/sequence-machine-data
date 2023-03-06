@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of constant term in a formal analog of Bernoulli numbers.",
+  "id": "A085092",
+  "mentions": [
+    "A001067"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

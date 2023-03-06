@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..m} T(n,k) * T(n,k+1), where m=0 for n=1; m=n for n >= 2; and T is given by A026120.",
+  "id": "A027323",
+  "mentions": [
+    "A026120"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:12:08",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

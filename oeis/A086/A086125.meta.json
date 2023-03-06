@@ -1,0 +1,22 @@
+{
+  "description": "Values of n such that f(n) is a prime, where f(1) = 1, f(n) = prime(n)*f(n-1) + 2.",
+  "id": "A086125",
+  "mentions": [
+    "A000668",
+    "A076481",
+    "A086122",
+    "A086123",
+    "A086124"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "n-th term of the Kolakoski sequence (A000002) multiplied by the n-th partial sum.",
+  "id": "A074288",
+  "mentions": [
+    "A000002",
+    "A054353",
+    "A074289"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Let f(n) = smallest prime > n; a(n) = f(n+1) - f(n).",
+  "id": "A096500",
+  "mentions": [
+    "A000720",
+    "A001223",
+    "A010051",
+    "A096501",
+    "A109578",
+    "A151800",
+    "A175851"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

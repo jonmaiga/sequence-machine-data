@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of ways prime(n) is a sum of two composite numbers r,s satisfying r < s.",
+  "id": "A024683",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A014076",
+    "A066247",
+    "A224708"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:24:29",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

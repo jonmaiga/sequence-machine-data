@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form p*q^k with distinct primes p and q, k>0.",
+  "id": "A084227",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A001222",
+    "A006881",
+    "A007774",
+    "A051903"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

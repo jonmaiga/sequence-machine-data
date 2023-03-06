@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number k such that k*prime(n) is a concatenation of successive integers starting from 1.",
+  "id": "A077181",
+  "mentions": [
+    "A077180",
+    "A077182"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

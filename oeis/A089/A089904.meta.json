@@ -1,0 +1,27 @@
+{
+  "description": "Sum of digits of numbers between 0 and (2/9)*(10^n-1).",
+  "id": "A089904",
+  "mentions": [
+    "A034967",
+    "A087330",
+    "A089903",
+    "A089905",
+    "A089906",
+    "A089907",
+    "A089908",
+    "A089909"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:46:57",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

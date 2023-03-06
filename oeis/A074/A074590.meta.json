@@ -1,0 +1,21 @@
+{
+  "description": "Number of primitive solutions to n = x^2 + y^2 + z^2 (i.e., with gcd(x,y,z) = 1).",
+  "id": "A074590",
+  "mentions": [
+    "A000378",
+    "A005875"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

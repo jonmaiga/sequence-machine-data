@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (1/24) * binomial(2n,n)*(16^n-binomial(2n,n)^2). Right side of identity involving series A005148.",
+  "id": "A076657",
+  "mentions": [
+    "A005148"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

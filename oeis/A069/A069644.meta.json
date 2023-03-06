@@ -1,0 +1,16 @@
+{
+  "description": "Let M_n be the n X n matrix with M_n(i,j)=1/(i+j+5); then a(n)=1/det(M_n).",
+  "id": "A069644",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

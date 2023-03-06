@@ -1,0 +1,20 @@
+{
+  "description": "Numbers all of whose divisors can be formed using their digits. Divisor digits are a subset of the digits of the number.",
+  "id": "A092911",
+  "mentions": [
+    "A011531",
+    "A062634",
+    "A092912"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

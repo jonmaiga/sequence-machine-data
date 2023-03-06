@@ -1,0 +1,22 @@
+{
+  "description": "A076341(A001358(n)), imaginary part of semiprimes mapped as defined in A076340, A076341.",
+  "id": "A076344",
+  "mentions": [
+    "A001358",
+    "A070750",
+    "A076340",
+    "A076341",
+    "A076343",
+    "A076348"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of integers m, 0 < m <= n, such that n divides m(m+1)/2.",
+  "id": "A068067",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A002110",
+    "A068068"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

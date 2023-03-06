@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is smallest number k such that the n successive values of phi(k+j) (j=0,..,n-1) are all distinct.",
+  "id": "A079008",
+  "mentions": [
+    "A048892",
+    "A079007",
+    "A079009"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

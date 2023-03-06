@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k>2^n such that 2^k == 2^n (mod k).",
+  "id": "A015938",
+  "mentions": [
+    "A015939"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:56",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

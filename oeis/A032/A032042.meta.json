@@ -1,0 +1,16 @@
+{
+  "description": "Shifts left under \"BFJ\" (reversible, size, labeled) transform.",
+  "id": "A032042",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:50:57",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

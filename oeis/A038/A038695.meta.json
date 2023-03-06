@@ -1,0 +1,16 @@
+{
+  "description": "Smallest n-digit prime * smallest (n+1)-digit prime.",
+  "id": "A038695",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:43:18",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

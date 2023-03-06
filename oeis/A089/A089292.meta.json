@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: Product_{m>=1} 1/(1-x^m)^A018819(m).",
+  "id": "A089292",
+  "mentions": [
+    "A000123",
+    "A001970",
+    "A018819"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

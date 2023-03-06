@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = product of first n triangular numbers (A000217) + 1.",
+  "id": "A061213",
+  "mentions": [
+    "A000217",
+    "A006472"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

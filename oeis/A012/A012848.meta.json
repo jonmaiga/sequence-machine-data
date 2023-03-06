@@ -1,0 +1,15 @@
+{
+  "description": "tanh(sec(x)*arctanh(x))=x+3/3!*x^3-15/5!*x^5-1869/7!*x^7-88959/9!*x^9...",
+  "id": "A012848",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:25:22",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

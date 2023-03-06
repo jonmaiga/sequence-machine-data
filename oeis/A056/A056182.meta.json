@@ -1,0 +1,25 @@
+{
+  "description": "First differences of A003063.",
+  "id": "A056182",
+  "mentions": [
+    "A001047",
+    "A002783",
+    "A003063",
+    "A028243",
+    "A056151",
+    "A217764",
+    "A293181"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

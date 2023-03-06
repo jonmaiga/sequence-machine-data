@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of 1..n with no four elements in correct or reverse order.",
+  "id": "A095817",
+  "mentions": [
+    "A002464",
+    "A095816",
+    "A095818"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

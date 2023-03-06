@@ -1,0 +1,22 @@
+{
+  "description": "Positions of zero in the infinite audioactive word, A088205, which shifts left under \"Look and Say\" method A, starting with a(1)=0.",
+  "id": "A088206",
+  "mentions": [
+    "A005150",
+    "A022471",
+    "A087282",
+    "A088203",
+    "A088205"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

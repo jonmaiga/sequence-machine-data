@@ -1,0 +1,23 @@
+{
+  "description": "Number of T_0-tricoverings of an n-set.",
+  "id": "A060070",
+  "mentions": [
+    "A059530",
+    "A060051",
+    "A060053",
+    "A060069",
+    "A060486",
+    "A331039"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

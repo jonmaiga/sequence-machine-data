@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (1/1 - 1/2 + ... + (-1)^(n-1)/n)*lcm{1..n}.",
+  "id": "A025530",
+  "mentions": [
+    "A003418",
+    "A033999",
+    "A058312",
+    "A058313"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

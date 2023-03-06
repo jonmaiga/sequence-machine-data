@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number m>0 having n representations m = x^i + x^j with 1",
+  "id": "A088906",
+  "mentions": [
+    "A088904"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

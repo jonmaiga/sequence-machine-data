@@ -1,0 +1,21 @@
+{
+  "description": "Eigensequence of a power series transformation.",
+  "id": "A049075",
+  "mentions": [
+    "A000081",
+    "A004111",
+    "A045648"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

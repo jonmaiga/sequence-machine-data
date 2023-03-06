@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the number of i in range 1..n-1 for which gcd(n, a(i)) = Max_{k=1..n-1} gcd(n, a(k))}.",
+  "id": "A098371",
+  "mentions": [
+    "A000010",
+    "A096216",
+    "A098372",
+    "A098373",
+    "A098374"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

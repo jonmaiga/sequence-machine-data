@@ -1,0 +1,30 @@
+{
+  "description": "Smallest prime of irregularity index n.",
+  "id": "A061576",
+  "mentions": [
+    "A000928",
+    "A007703",
+    "A060975",
+    "A073276",
+    "A073277",
+    "A091887",
+    "A219332",
+    "A219333",
+    "A219334",
+    "A219335",
+    "A297848"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": -1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

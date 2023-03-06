@@ -1,0 +1,19 @@
+{
+  "description": "Lengths of successive gaps between squarefree numbers.",
+  "id": "A053797",
+  "mentions": [
+    "A005117",
+    "A053806"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

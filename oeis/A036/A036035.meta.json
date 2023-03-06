@@ -1,0 +1,30 @@
+{
+  "description": "Least integer of each prime signature, in graded (reflected or not) colexicographic order of exponents.",
+  "id": "A036035",
+  "mentions": [
+    "A000041",
+    "A000110",
+    "A000670",
+    "A002110",
+    "A025487",
+    "A035098",
+    "A036036",
+    "A036037",
+    "A059901",
+    "A096443"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:24:17",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

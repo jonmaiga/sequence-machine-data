@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the sum of the digits of Lucas(n) in base 12 is n.",
+  "id": "A020998",
+  "mentions": [
+    "A020996"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

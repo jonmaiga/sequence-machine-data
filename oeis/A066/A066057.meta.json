@@ -1,0 +1,26 @@
+{
+  "description": "'Reverse and Add' carried out in base 2 (cf. A062128); number of steps needed to reach a palindrome, or -1 if no palindrome is ever reached.",
+  "id": "A066057",
+  "mentions": [
+    "A006995",
+    "A033665",
+    "A033865",
+    "A057148",
+    "A058042",
+    "A061561",
+    "A062128",
+    "A062130",
+    "A066058"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 112,
+    "source": "oeis-entry"
+  }
+}

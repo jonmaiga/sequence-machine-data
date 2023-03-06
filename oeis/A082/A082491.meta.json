@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * d(n), where n! = factorial numbers (A000142), d(n) = subfactorial numbers (A000166).",
+  "id": "A082491",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A001499"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

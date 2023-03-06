@@ -1,0 +1,21 @@
+{
+  "description": "First coordinate of fundamental unit of real quadratic field with discriminant A003658(n), n >= 2.",
+  "id": "A014000",
+  "mentions": [
+    "A000924",
+    "A003652",
+    "A003658",
+    "A014046",
+    "A014077"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:34:56",
+    "offset": 2,
+    "size": 61,
+    "source": "joeis"
+  }
+}

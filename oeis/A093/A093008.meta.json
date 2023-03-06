@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number of 1's to append to the binary representation of n such that primes become nonprimes and nonprimes become primes.",
+  "id": "A093008",
+  "mentions": [
+    "A040081",
+    "A063377",
+    "A093009"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 2*n*n!.",
+  "id": "A052582",
+  "mentions": [
+    "A000142",
+    "A000290",
+    "A001339",
+    "A001620",
+    "A007808",
+    "A091725",
+    "A099285",
+    "A138770"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

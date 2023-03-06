@@ -1,0 +1,21 @@
+{
+  "description": "Primes that are still primes when turned upsided down.",
+  "id": "A080788",
+  "mentions": [
+    "A007597",
+    "A057770",
+    "A080789"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes arising when building A083664.",
+  "id": "A083666",
+  "mentions": [
+    "A002113",
+    "A083126",
+    "A083664"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

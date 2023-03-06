@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of Pi(k) arising in A073162.",
+  "id": "A073163",
+  "mentions": [
+    "A000720",
+    "A046992",
+    "A073162",
+    "A073164",
+    "A073224"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

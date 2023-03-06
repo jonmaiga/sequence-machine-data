@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k that are the sum of m nonzero squares for all 1 <= m <= k - 14.",
+  "id": "A018820",
+  "mentions": [
+    "A000290",
+    "A000404",
+    "A000408",
+    "A309778",
+    "A341329"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

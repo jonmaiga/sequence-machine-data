@@ -1,0 +1,26 @@
+{
+  "description": "Nearest integer cube to n^2.",
+  "id": "A077110",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A002760",
+    "A070923",
+    "A075847",
+    "A077106",
+    "A077107",
+    "A077111",
+    "A077118"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

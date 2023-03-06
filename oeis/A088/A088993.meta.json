@@ -1,0 +1,15 @@
+{
+  "description": "Primes such that exactly five of them occur between consecutive prime-indexed primes.",
+  "id": "A088993",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

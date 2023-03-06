@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime factor of 3*prime(n) + 1.",
+  "id": "A087273",
+  "mentions": [
+    "A000040",
+    "A006530"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

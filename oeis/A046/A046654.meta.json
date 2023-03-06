@@ -1,0 +1,20 @@
+{
+  "description": "Nearest integer to Sum_{k=1..n} log(k) = log(n!).",
+  "id": "A046654",
+  "mentions": [
+    "A025201",
+    "A139547",
+    "A275341"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

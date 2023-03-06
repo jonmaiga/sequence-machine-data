@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) (1 <= k <= n) giving smallest covering radius of any [n,k] binary linear code.",
+  "id": "A060450",
+  "mentions": [
+    "A060451"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 2/(1-2x+sqrt(1-4x+4x^3)).",
+  "id": "A087626",
+  "mentions": [
+    "A006720",
+    "A051138",
+    "A056010",
+    "A157003"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

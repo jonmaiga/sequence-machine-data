@@ -1,0 +1,19 @@
+{
+  "description": "Monotonic subsequence of A051169.",
+  "id": "A051610",
+  "mentions": [
+    "A002373",
+    "A051169",
+    "A116111"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "If the numbers a(1)...a(n) contain a hole, then a(n+1) is the smallest hole; otherwise a(n+1) = a(n-1) + a(n).",
+  "id": "A060000",
+  "mentions": [
+    "A000045",
+    "A060013",
+    "A060030",
+    "A099424"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

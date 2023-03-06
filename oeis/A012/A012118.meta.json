@@ -1,0 +1,15 @@
+{
+  "description": "tanh(arcsin(arcsinh(x)))=x-2/3!*x^3+24/5!*x^5-664/7!*x^7+36096/9!*x^9...",
+  "id": "A012118",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:55",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

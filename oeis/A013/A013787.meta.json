@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 7^(4*n + 3).",
+  "id": "A013787",
+  "mentions": [
+    "A013786"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Smallest of three consecutive squarefree numbers having equal numbers of prime factors.",
+  "id": "A075039",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A005117",
+    "A039833",
+    "A052214",
+    "A086263"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

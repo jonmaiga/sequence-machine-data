@@ -1,0 +1,17 @@
+{
+  "description": "Values of y in solutions to sigma(x^2)=y^3, where x are given by A008850.",
+  "id": "A048949",
+  "mentions": [
+    "A008850"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

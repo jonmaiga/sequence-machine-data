@@ -1,0 +1,19 @@
+{
+  "description": "Initial members of prime decaplets (p, p+2, p+6, p+8, p+12, p+18, p+20, p+26, p+30, p+32).",
+  "id": "A027569",
+  "mentions": [
+    "A027570",
+    "A202281",
+    "A202282"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

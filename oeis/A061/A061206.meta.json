@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = total number of occurrences of the consecutive pattern 1324 in all permutations of [n+3].",
+  "id": "A061206",
+  "mentions": [
+    "A000142",
+    "A001286",
+    "A001339",
+    "A001563",
+    "A001620",
+    "A005990",
+    "A091725",
+    "A099285",
+    "A264173"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

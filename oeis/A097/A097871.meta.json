@@ -1,0 +1,20 @@
+{
+  "description": "Number of Bernstein squares of order n: n X n squares filled with the numbers 1...n such that in row or column k, for all k = 1...n, the number k appears at least once.",
+  "id": "A097871",
+  "mentions": [
+    "A097993"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

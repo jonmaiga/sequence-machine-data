@@ -1,0 +1,18 @@
+{
+  "description": "Largest number m with A046805(m) = n.",
+  "id": "A046806",
+  "mentions": [
+    "A046805"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = C(n, 4)^(n-5).",
+  "id": "A098723",
+  "mentions": [
+    "A098721",
+    "A098722",
+    "A098724"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 4,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

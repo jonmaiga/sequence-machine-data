@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that phi(sigma(n)) = 2*phi(n).",
+  "id": "A067704",
+  "mentions": [
+    "A137815",
+    "A137816"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

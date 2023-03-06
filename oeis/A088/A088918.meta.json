@@ -1,0 +1,20 @@
+{
+  "description": "Number of representations of n as sum of two squares of distinct primes.",
+  "id": "A088918",
+  "mentions": [
+    "A000161",
+    "A002654",
+    "A088909",
+    "A088919"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

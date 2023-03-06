@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of peakless Motzkin paths in which the k-th step is the leftmost (1,0)-step (can be easily expressed using RNA secondary structure terminology).",
+  "id": "A098086",
+  "mentions": [
+    "A004148"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

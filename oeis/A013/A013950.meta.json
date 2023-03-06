@@ -1,0 +1,17 @@
+{
+  "description": "Start with 1, apply 1->12, 21->21, 22->21, 2->2 (for final 2); a(n) = length of n-th term.",
+  "id": "A013950",
+  "mentions": [
+    "A013949"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:55",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

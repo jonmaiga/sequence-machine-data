@@ -1,0 +1,32 @@
+{
+  "description": "Number of trivalent connected simple graphs with 2n nodes and girth at least 7.",
+  "id": "A014375",
+  "mentions": [
+    "A002851",
+    "A006923",
+    "A006924",
+    "A006925",
+    "A006926",
+    "A006927",
+    "A014371",
+    "A014372",
+    "A014374",
+    "A014376",
+    "A185117",
+    "A185131",
+    "A186717",
+    "A186727",
+    "A198303"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

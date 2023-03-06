@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n^3 + 6*n^2 + 6*n + 1.",
+  "id": "A090197",
+  "mentions": [
+    "A001263",
+    "A016921",
+    "A028387"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:05",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

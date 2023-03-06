@@ -1,0 +1,25 @@
+{
+  "description": "A hierarchical sequence (W2{3} - see A059126).",
+  "id": "A059127",
+  "mentions": [
+    "A001511",
+    "A059126",
+    "A059128",
+    "A059129",
+    "A059130",
+    "A059134",
+    "A059135"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

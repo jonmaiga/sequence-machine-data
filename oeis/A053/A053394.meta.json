@@ -1,0 +1,25 @@
+{
+  "description": "The full list of 3-Kaprekar numbers.",
+  "id": "A053394",
+  "mentions": [
+    "A006886",
+    "A037042",
+    "A053395",
+    "A053396",
+    "A053397",
+    "A333133"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

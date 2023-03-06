@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that do not occur as differences between terms of the Mian-Chowla sequence A005282.",
+  "id": "A080200",
+  "mentions": [
+    "A005282",
+    "A025582"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

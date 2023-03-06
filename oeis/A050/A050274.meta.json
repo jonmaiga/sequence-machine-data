@@ -1,0 +1,18 @@
+{
+  "description": "Middle value b for Diophantine 1-triples (a,b,c) ordered by smallest c,b.",
+  "id": "A050274",
+  "mentions": [
+    "A050273",
+    "A050275"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:43:13",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

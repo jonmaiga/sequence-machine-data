@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 3k does not divide (6k-4)!/((3k-2)!*(3k-1)!).",
+  "id": "A096304",
+  "mentions": [
+    "A005836",
+    "A019469",
+    "A187358",
+    "A340051"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

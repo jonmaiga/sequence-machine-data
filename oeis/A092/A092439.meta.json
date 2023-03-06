@@ -1,0 +1,21 @@
+{
+  "description": "Sequence arising from enumeration of domino tilings of Aztec Pillow-like regions.",
+  "id": "A092439",
+  "mentions": [
+    "A046717",
+    "A092437",
+    "A092443"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:18:43",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is minimal such that prime factorizations of a(n)-n+1, ..., a(n) have same exponents.",
+  "id": "A034174",
+  "mentions": [
+    "A034173",
+    "A083785",
+    "A083787"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

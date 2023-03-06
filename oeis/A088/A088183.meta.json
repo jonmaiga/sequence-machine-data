@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as a sum of two coprime semiprimes.",
+  "id": "A088183",
+  "mentions": [
+    "A001358",
+    "A072931",
+    "A072966",
+    "A088184",
+    "A088185"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sixth column of triangle A067425.",
+  "id": "A067426",
+  "mentions": [
+    "A009968",
+    "A067404",
+    "A067425",
+    "A067427"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

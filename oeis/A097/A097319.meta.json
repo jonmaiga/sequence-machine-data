@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with more than one prime factor and, in the ordered factorization, the exponents are strictly increasing.",
+  "id": "A097319",
+  "mentions": [
+    "A001221",
+    "A097318",
+    "A097320",
+    "A126706"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

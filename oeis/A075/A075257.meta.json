@@ -1,0 +1,19 @@
+{
+  "description": "Smaller terms in the pairs of numbers (a < b) in the sequence {a,b}-> {Max[{a,b}]-Min[{a,b}],k*Min[{a,b}]} with k=3 and the first pair {a=1,b=2}. See A075256.",
+  "id": "A075257",
+  "mentions": [
+    "A075256",
+    "A075258"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

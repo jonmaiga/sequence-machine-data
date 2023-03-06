@@ -1,0 +1,20 @@
+{
+  "description": "First occurrence of n in A084501.",
+  "id": "A084507",
+  "mentions": [
+    "A084501",
+    "A084517",
+    "A084527"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

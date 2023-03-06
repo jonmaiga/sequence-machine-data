@@ -1,0 +1,21 @@
+{
+  "description": "Number of twin prime pairs (p, p+2) with p <= n.",
+  "id": "A071538",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A007508",
+    "A033843",
+    "A114907"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

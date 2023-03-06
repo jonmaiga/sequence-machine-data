@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of the form p^11 + 11^p for p prime.",
+  "id": "A097520",
+  "mentions": [
+    "A097058",
+    "A097059",
+    "A097199",
+    "A097200",
+    "A097317"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

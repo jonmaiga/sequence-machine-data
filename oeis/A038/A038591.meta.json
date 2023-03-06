@@ -1,0 +1,18 @@
+{
+  "description": "Sizes of clusters in hexagonal lattice A_2 with 3-fold symmetry.",
+  "id": "A038591",
+  "mentions": [
+    "A038588",
+    "A038590"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:13",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

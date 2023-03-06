@@ -1,0 +1,23 @@
+{
+  "description": "Coefficient of x^(2*n+1) in arctanh(x)/sqrt(1-x^2), multiplied by (2*n+1)!.",
+  "id": "A028353",
+  "mentions": [
+    "A000041",
+    "A001620",
+    "A036039",
+    "A060338",
+    "A060524"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

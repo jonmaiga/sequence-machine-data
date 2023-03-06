@@ -1,0 +1,18 @@
+{
+  "description": "Smallest triangular number divisible by exactly n triangular numbers.",
+  "id": "A076983",
+  "mentions": [
+    "A076982",
+    "A084260"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

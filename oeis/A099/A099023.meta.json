@@ -1,0 +1,21 @@
+{
+  "description": "Diagonal of Euler-Seidel matrix with start sequence e.g.f. 1-tanh(x).",
+  "id": "A099023",
+  "mentions": [
+    "A000657",
+    "A008280",
+    "A009744",
+    "A029582"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

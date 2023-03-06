@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of log(1+tan(x)*x)/2.",
+  "id": "A024236",
+  "mentions": [
+    "A009379",
+    "A101921"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:03",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

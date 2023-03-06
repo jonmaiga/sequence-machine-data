@@ -1,0 +1,23 @@
+{
+  "description": "First differences of A008364. Also first differences of reduced residue system (RRS) for 4th primorial number, A002110(4)=210.",
+  "id": "A049296",
+  "mentions": [
+    "A000010",
+    "A001223",
+    "A002110",
+    "A005867",
+    "A008364"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:36:37",
+    "offset": 1,
+    "size": 103,
+    "source": "joeis"
+  }
+}

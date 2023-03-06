@@ -1,0 +1,21 @@
+{
+  "description": "Sums of 3 distinct powers of 11.",
+  "id": "A038491",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A038445"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

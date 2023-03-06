@@ -1,0 +1,19 @@
+{
+  "description": "Square pyramorphic numbers: integers m such that the sum of the first m squares (A000330) ends in m.",
+  "id": "A093534",
+  "mentions": [
+    "A000330",
+    "A060204"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Values of gcd(k!+1,2^k+1) not equal to 1 taking k in increasing order.",
+  "id": "A067660",
+  "mentions": [
+    "A068481"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

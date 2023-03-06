@@ -1,0 +1,17 @@
+{
+  "description": "Let f(x,y)=floor((1+1/y)^x); sequence gives least k such that f(k+2,n)/f(k,n)=(1+1/n)^2.",
+  "id": "A081726",
+  "mentions": [
+    "A065560"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

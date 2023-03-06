@@ -1,0 +1,24 @@
+{
+  "description": "The length of each successively larger, indecomposable, 'prime' 3-ball ground-state site swap given in A084521, i.e., the number of digits in each term of A084522.",
+  "id": "A084526",
+  "mentions": [
+    "A084506",
+    "A084507",
+    "A084516",
+    "A084520",
+    "A084521",
+    "A084522",
+    "A084525",
+    "A084528"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

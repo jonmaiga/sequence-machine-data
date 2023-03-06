@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = prime(n)*prime(n+1)*...*prime(2*n-1), where prime(i) is the i-th prime.",
+  "id": "A060381",
+  "mentions": [
+    "A002110",
+    "A003961",
+    "A006516",
+    "A019565",
+    "A059896",
+    "A098012",
+    "A306697"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

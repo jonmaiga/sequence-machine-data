@@ -1,0 +1,17 @@
+{
+  "description": "Triangle whose (i,j)-th entry is binomial(i,j)*7^(i-j)*11^j.",
+  "id": "A038277",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

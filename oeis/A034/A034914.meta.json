@@ -1,0 +1,17 @@
+{
+  "description": "Odd primes p such that q=(k*p+1)/(p-k) is prime for some k.",
+  "id": "A034914",
+  "mentions": [
+    "A034913"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

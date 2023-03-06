@@ -1,0 +1,24 @@
+{
+  "description": "Stops with numerical values for A Train (8 Avenue express) in Manhattan, as of January 2023.",
+  "id": "A011554",
+  "mentions": [
+    "A000053",
+    "A000054",
+    "A001049",
+    "A051419",
+    "A208360"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

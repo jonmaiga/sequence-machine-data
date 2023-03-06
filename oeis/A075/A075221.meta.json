@@ -1,0 +1,28 @@
+{
+  "description": "Number of polyiamonds with n cells that tile the plane by translation or by 180-degree rotation (Conway criterion).",
+  "id": "A075221",
+  "mentions": [
+    "A071332",
+    "A075203",
+    "A075212",
+    "A075216",
+    "A075217",
+    "A075218",
+    "A075219",
+    "A075220",
+    "A075222",
+    "A075223",
+    "A075224"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The member r of a triple of primes (p,q,r) in arithmetic progression which sum to 3*prime(n) = A001748(n) = p + q + r.",
+  "id": "A078497",
+  "mentions": [
+    "A001748",
+    "A071681",
+    "A078496",
+    "A078498",
+    "A078611",
+    "A092940"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 3,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

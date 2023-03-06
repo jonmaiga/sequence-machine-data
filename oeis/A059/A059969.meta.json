@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n times the number of letters in n (in English).",
+  "id": "A059969",
+  "mentions": [
+    "A005589"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:34:35",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Product_{j=1..n} Product_{k=1..n} lcm(j,k).",
+  "id": "A090494",
+  "mentions": [
+    "A018806",
+    "A092143",
+    "A092287",
+    "A129365",
+    "A129454"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

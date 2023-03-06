@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 1, a(n) = smallest multiple of a(n-1) (not equal to 10*a(n-1)) obtained by inserting digits anywhere in a(n-1).",
+  "id": "A080486",
+  "mentions": [
+    "A080487",
+    "A080488",
+    "A080489",
+    "A080490",
+    "A080491",
+    "A080492",
+    "A080493",
+    "A080494"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

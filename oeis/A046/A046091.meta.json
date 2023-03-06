@@ -1,0 +1,27 @@
+{
+  "description": "Number of connected planar graphs with n edges.",
+  "id": "A046091",
+  "mentions": [
+    "A002905",
+    "A003094",
+    "A049334",
+    "A066951",
+    "A291842",
+    "A343869",
+    "A343872",
+    "A343873"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

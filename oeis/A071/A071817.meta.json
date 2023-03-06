@@ -1,0 +1,22 @@
+{
+  "description": "Number of 3-digit numbers whose digits add up to n.",
+  "id": "A071817",
+  "mentions": [
+    "A052218",
+    "A071816"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

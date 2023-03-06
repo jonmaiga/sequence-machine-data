@@ -1,0 +1,17 @@
+{
+  "description": "Let M_k be the k X k matrix, M_(i,j) = 1 if i^2 + j^2 is squarefree, M_(i,j) = 0 otherwise; sequence gives values of k such that det(M_k) = 0.",
+  "id": "A069838",
+  "mentions": [
+    "A005117"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

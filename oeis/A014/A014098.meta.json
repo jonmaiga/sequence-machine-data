@@ -1,0 +1,15 @@
+{
+  "description": "a(n)=a(n-1)+a(n-4).",
+  "id": "A014098",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:15:19",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

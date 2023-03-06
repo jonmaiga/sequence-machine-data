@@ -1,0 +1,19 @@
+{
+  "description": "Number of pairs of complex Golay sequences of length n.",
+  "id": "A072128",
+  "mentions": [
+    "A072127"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

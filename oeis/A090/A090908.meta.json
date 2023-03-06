@@ -1,0 +1,21 @@
+{
+  "description": "Terms a(k) of A073869 for which a(k)=a(k+1).",
+  "id": "A090908",
+  "mentions": [
+    "A000201",
+    "A002251",
+    "A005206",
+    "A073869",
+    "A090909"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:29:19",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

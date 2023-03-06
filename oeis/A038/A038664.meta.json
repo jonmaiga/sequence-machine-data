@@ -1,0 +1,21 @@
+{
+  "description": "a(n)-th and (a(n)+1)-st primes are the first pair of primes that differ by exactly 2n; a(n) = -1 if no such pair of primes exists.",
+  "id": "A038664",
+  "mentions": [
+    "A000230",
+    "A000720",
+    "A001223",
+    "A261525"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

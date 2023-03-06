@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: row n >= 1 is obtained as follows. Start with n, next term is always largest number m with 1 <= m < n which has not yet appeared in that row and such that m + previous term in the row is a prime. Stop when no further m can be found.",
+  "id": "A088643",
+  "mentions": [
+    "A049476",
+    "A049477",
+    "A049478",
+    "A055265",
+    "A088631",
+    "A088861",
+    "A132075",
+    "A255312",
+    "A255313",
+    "A255316",
+    "A346778"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

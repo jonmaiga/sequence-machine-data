@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that sigma(n) = product of the squares of the decimal digits of n.",
+  "id": "A068572",
+  "mentions": [
+    "A058627"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

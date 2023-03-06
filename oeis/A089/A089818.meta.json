@@ -1,0 +1,26 @@
+{
+  "description": "T(n,k) = number of subsets of {1,..., n} containing exactly k primes, triangle read by rows, 0<=k",
+  "id": "A089818",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000720",
+    "A007318",
+    "A089819",
+    "A089820",
+    "A089821",
+    "A089822"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

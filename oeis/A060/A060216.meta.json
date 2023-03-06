@@ -1,0 +1,19 @@
+{
+  "description": "Number of orbits of length n under the full 13-shift (whose periodic points are counted by A001022).",
+  "id": "A060216",
+  "mentions": [
+    "A001022",
+    "A074650"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

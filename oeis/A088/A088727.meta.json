@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the (n-1)st smallest number that is the sum of 2 distinct positive n-th powers.",
+  "id": "A088727",
+  "mentions": [
+    "A004431",
+    "A024670",
+    "A088687"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers k such that sigma(k+1) < sigma(k).",
+  "id": "A067828",
+  "mentions": [
+    "A000203",
+    "A053224",
+    "A067825"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

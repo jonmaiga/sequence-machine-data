@@ -1,0 +1,20 @@
+{
+  "description": "Subset of strict Egyptian numbers - there is a unique representation of 1 as the sum of distinct unit fractions with the sum of denominators being these numbers.",
+  "id": "A051909",
+  "mentions": [
+    "A051882",
+    "A052428"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

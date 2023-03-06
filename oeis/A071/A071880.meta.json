@@ -1,0 +1,22 @@
+{
+  "description": "Number of combinatorial types of n-dimensional parallelohedra.",
+  "id": "A071880",
+  "mentions": [
+    "A071881",
+    "A071882",
+    "A321015"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

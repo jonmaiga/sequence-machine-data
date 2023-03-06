@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Hypergeometric function F(1/12, 5/12; 1; 1728*x) in powers of x.",
+  "id": "A092870",
+  "mentions": [
+    "A001421",
+    "A178529",
+    "A184424",
+    "A184891",
+    "A184894",
+    "A184895",
+    "A184897",
+    "A289307"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

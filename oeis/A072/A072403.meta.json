@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of the Reingold-Tarjan sequence, denominator=A072404.",
+  "id": "A072403",
+  "mentions": [
+    "A000244",
+    "A029837",
+    "A072404"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

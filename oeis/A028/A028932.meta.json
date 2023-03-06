@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array of winning positions in Tchoukaillon (or Mancala) solitaire.",
+  "id": "A028932",
+  "mentions": [
+    "A002491",
+    "A007952",
+    "A028920",
+    "A028931",
+    "A028933"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:40:41",
+    "offset": 0,
+    "size": 88,
+    "source": "joeis"
+  }
+}

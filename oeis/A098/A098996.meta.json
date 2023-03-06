@@ -1,0 +1,17 @@
+{
+  "description": "p(p+1)(2p+1) where p is prime.",
+  "id": "A098996",
+  "mentions": [
+    "A034953"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:34:15",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

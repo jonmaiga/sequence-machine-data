@@ -1,0 +1,23 @@
+{
+  "description": "A repetition-resistant sequence.",
+  "id": "A079336",
+  "mentions": [
+    "A079101",
+    "A079136",
+    "A079335",
+    "A079337",
+    "A079338"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

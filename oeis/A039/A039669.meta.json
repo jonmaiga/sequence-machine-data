@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n > 2 such that n - 2^k is a prime for all k > 0 with 2^k < n.",
+  "id": "A039669",
+  "mentions": [
+    "A002110",
+    "A067526",
+    "A067527",
+    "A067528",
+    "A067529",
+    "A068374",
+    "A100348",
+    "A100349",
+    "A100350",
+    "A100351"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

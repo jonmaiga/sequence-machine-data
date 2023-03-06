@@ -1,0 +1,19 @@
+{
+  "description": "In the decimal expansion of Pi, the string \"0\" is found at position 32 counting from the first digit after the decimal point. The string \"32\" is found at position 15, the string \"15\" at position 3, the string \"3\" at position 9, etc.",
+  "id": "A097614",
+  "mentions": [
+    "A014777"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

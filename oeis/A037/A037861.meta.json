@@ -1,0 +1,39 @@
+{
+  "description": "(Number of 0's) - (number of 1's) in the base-2 representation of n.",
+  "id": "A037861",
+  "mentions": [
+    "A000120",
+    "A023416",
+    "A029837",
+    "A030300",
+    "A031443",
+    "A031444",
+    "A031448",
+    "A053738",
+    "A053754",
+    "A066879",
+    "A072600",
+    "A072601",
+    "A072602",
+    "A072603",
+    "A079944",
+    "A089648",
+    "A094640",
+    "A110625",
+    "A145037",
+    "A268289"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

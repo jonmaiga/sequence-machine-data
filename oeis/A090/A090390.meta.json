@@ -1,0 +1,26 @@
+{
+  "description": "Repeatedly multiply (1,0,0) by ([1,2,2],[2,1,2],[2,2,3]); sequence gives leading entry.",
+  "id": "A090390",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A001541",
+    "A079291",
+    "A086348",
+    "A095344",
+    "A123270",
+    "A302946"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Fourier coefficients of E_{0,4}.",
+  "id": "A035016",
+  "mentions": [
+    "A000122",
+    "A000143",
+    "A000700",
+    "A002448",
+    "A007331",
+    "A010054",
+    "A096727",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

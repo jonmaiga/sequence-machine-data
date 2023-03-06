@@ -1,0 +1,22 @@
+{
+  "description": "Number of points (i,j,k) on the surface of a sphere around (0,0,0) with squared radius A071609(n).",
+  "id": "A071611",
+  "mentions": [
+    "A005875",
+    "A071342",
+    "A071344",
+    "A071609",
+    "A071610"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

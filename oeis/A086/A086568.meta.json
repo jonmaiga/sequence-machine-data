@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number having as many distinct prime factors as n has prime factors, when counted with multiplicity.",
+  "id": "A086568",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A002110",
+    "A130675",
+    "A292586"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

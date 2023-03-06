@@ -1,0 +1,21 @@
+{
+  "description": "Beginning with the natural numbers, swap [ k*sqrt(2) ] and [ k*(2 + sqrt(2)) ], for all k >= 1.",
+  "id": "A026250",
+  "mentions": [
+    "A001951",
+    "A001952",
+    "A026255",
+    "A026262"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:51",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

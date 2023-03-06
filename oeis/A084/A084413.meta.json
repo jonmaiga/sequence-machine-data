@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime with \"n\" as central digit(s), or -1 if no such prime exists.",
+  "id": "A084413",
+  "mentions": [
+    "A032734",
+    "A084414"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

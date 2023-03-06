@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that perfect_power(n)+perfect_power(n+1) is prime.",
+  "id": "A075782",
+  "mentions": [
+    "A001597"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

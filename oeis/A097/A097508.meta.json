@@ -1,0 +1,20 @@
+{
+  "description": "Differences between floor(n*sqrt(2)) and n.",
+  "id": "A097508",
+  "mentions": [
+    "A001951",
+    "A197879"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:56:59",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

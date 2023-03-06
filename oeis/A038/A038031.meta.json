@@ -1,0 +1,19 @@
+{
+  "description": "Position reached by frog in A038029. A038026(A038029(n)).",
+  "id": "A038031",
+  "mentions": [
+    "A038025",
+    "A038026",
+    "A038029"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

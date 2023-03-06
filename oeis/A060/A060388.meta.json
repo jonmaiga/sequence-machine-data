@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of alpha(2) = Sum_{i>0} prime(i)*2^(-i^2).",
+  "id": "A060388",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

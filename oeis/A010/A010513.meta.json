@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of square root of 60.",
+  "id": "A010513",
+  "mentions": [
+    "A040052"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

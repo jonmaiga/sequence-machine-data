@@ -1,0 +1,21 @@
+{
+  "description": "Squares which when written backwards remain square (final 0's excluded).",
+  "id": "A033294",
+  "mentions": [
+    "A007488",
+    "A007500",
+    "A115690",
+    "A354256"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

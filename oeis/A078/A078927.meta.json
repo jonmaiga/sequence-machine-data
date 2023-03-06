@@ -1,0 +1,18 @@
+{
+  "description": "Smallest s for which there are exactly n primitive Pythagorean triangles with perimeter 2s; i.e., smallest s such that A078926(s) = n.",
+  "id": "A078927",
+  "mentions": [
+    "A078926",
+    "A078928"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

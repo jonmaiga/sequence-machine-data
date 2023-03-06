@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p-1 and p+1 are cube- or higher power-free.",
+  "id": "A089194",
+  "mentions": [
+    "A000040",
+    "A004709",
+    "A089189",
+    "A212793"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

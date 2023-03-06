@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = ((2*n)!/n!)*2^(2*n+1).",
+  "id": "A052737",
+  "mentions": [
+    "A052707"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:14:51",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

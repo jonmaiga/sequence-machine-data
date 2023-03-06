@@ -1,0 +1,20 @@
+{
+  "description": "Table of solutions to all possible Chinese Remainder Equations x = a1 mod p1, x = a2 mod p2, ..., x = an mod pn, where p1 - pn are the first n primes and each a1 - an varies between 1 and (its respective) p-1, with the leftmost a varying fastest.",
+  "id": "A051853",
+  "mentions": [
+    "A005867",
+    "A051854"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:07",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

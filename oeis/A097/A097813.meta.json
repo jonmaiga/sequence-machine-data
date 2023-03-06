@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 3*2^n - 2*n - 2.",
+  "id": "A097813",
+  "mentions": [
+    "A000295",
+    "A033484",
+    "A079583",
+    "A175654",
+    "A183153",
+    "A183154"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

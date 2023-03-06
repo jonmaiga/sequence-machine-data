@@ -1,0 +1,19 @@
+{
+  "description": "Least number which is the end of an arithmetic progression of n numbers that are the sums of two nonzero squares.",
+  "id": "A093365",
+  "mentions": [
+    "A000404",
+    "A005115",
+    "A093366"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

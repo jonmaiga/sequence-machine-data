@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m of form 5k+1 such that binomial(m-1,(m-1)/5) == 1 (mod m).",
+  "id": "A090756",
+  "mentions": [
+    "A016861",
+    "A030430"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

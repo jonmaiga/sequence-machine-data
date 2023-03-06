@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions in parts not of the form 25k, 25k+3 or 25k-3. Also number of partitions with at most 2 parts of size 1 and differences between parts at distance 11 are greater than 1.",
+  "id": "A036002",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:47:44",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

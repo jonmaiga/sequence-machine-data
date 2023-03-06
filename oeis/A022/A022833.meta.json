@@ -1,0 +1,18 @@
+{
+  "description": "a(0)=2; thereafter a(n) = a(n-1) + prime(n) if a(n-1) < prime(n), otherwise a(n) = a(n-1) - prime(n). Cf. A008348.",
+  "id": "A022833",
+  "mentions": [
+    "A008348",
+    "A022837"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:14:47",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

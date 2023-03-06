@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form prime(k) + nonprime(k) for some k.",
+  "id": "A097452",
+  "mentions": [
+    "A000040",
+    "A018252",
+    "A111489",
+    "A142348"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

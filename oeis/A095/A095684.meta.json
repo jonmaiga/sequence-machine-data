@@ -1,0 +1,39 @@
+{
+  "description": "Triangle read by rows. There are 2^(m-1) rows of length m, for m = 1, 2, 3, ... The rows are in lexicographic order. The rows have the property that the first entry is 1, the second distinct entry (reading from left to right) is 2, the third distinct entry is 3, etc.",
+  "id": "A095684",
+  "mentions": [
+    "A000120",
+    "A029931",
+    "A034691",
+    "A057335",
+    "A065609",
+    "A066099",
+    "A070939",
+    "A096299",
+    "A233564",
+    "A269134",
+    "A272919",
+    "A275692",
+    "A284001",
+    "A305936",
+    "A318284",
+    "A333764",
+    "A333939",
+    "A333940",
+    "A333942",
+    "A334028",
+    "A334030"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

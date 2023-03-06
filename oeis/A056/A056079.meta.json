@@ -1,0 +1,21 @@
+{
+  "description": "Number of 7 X 7 binary matrices with n ones, with no zero rows or columns, up to row and column permutation.",
+  "id": "A056079",
+  "mentions": [
+    "A053304",
+    "A054976"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 7,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

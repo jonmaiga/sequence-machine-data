@@ -1,0 +1,26 @@
+{
+  "description": "Write n as Product_{i=1..k} prime(i)^e_i, where prime(i) is the i-th prime number and e_i is a nonnegative integer. a(n) = Sum_{i=1..k} e_i*n^(i-1).",
+  "id": "A090883",
+  "mentions": [
+    "A001222",
+    "A048675",
+    "A054841",
+    "A090880",
+    "A090881",
+    "A090882",
+    "A090884",
+    "A104244",
+    "A104245"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

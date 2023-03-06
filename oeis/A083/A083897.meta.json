@@ -1,0 +1,23 @@
+{
+  "description": "Number of divisors of n with largest digit <= 2 (base 10).",
+  "id": "A083897",
+  "mentions": [
+    "A000005",
+    "A054055",
+    "A083888",
+    "A083889",
+    "A083890",
+    "A083898"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

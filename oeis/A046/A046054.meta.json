@@ -1,0 +1,20 @@
+{
+  "description": "Incrementally largest number of nonisomorphic finite Abelian groups as a function of order.",
+  "id": "A046054",
+  "mentions": [
+    "A000688",
+    "A046055",
+    "A046056"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

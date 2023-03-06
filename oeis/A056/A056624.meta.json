@@ -1,0 +1,30 @@
+{
+  "description": "Number of unitary square divisors of n.",
+  "id": "A056624",
+  "mentions": [
+    "A000079",
+    "A000188",
+    "A008833",
+    "A028234",
+    "A034444",
+    "A046951",
+    "A046952",
+    "A055229",
+    "A056626",
+    "A059841",
+    "A067029",
+    "A162641"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

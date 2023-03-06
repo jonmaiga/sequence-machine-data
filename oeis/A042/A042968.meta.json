@@ -1,0 +1,30 @@
+{
+  "description": "Numbers not divisible by 4.",
+  "id": "A042968",
+  "mentions": [
+    "A001651",
+    "A001935",
+    "A004772",
+    "A004773",
+    "A008586",
+    "A028982",
+    "A042965",
+    "A048272",
+    "A064680",
+    "A070048",
+    "A071619",
+    "A214546"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

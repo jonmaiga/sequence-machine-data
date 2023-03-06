@@ -1,0 +1,21 @@
+{
+  "description": "Integers n for which ceiling(n/2)*10^n - ceiling(n/2) is an n-White number.",
+  "id": "A051534",
+  "mentions": [
+    "A037042",
+    "A037043",
+    "A037044",
+    "A037045"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:22",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

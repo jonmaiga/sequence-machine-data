@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers k such that both phi(k+12) = phi(k) + 12 and sigma(k+12) = sigma(k) + 12.",
+  "id": "A056777",
+  "mentions": [
+    "A000010",
+    "A001838",
+    "A007530",
+    "A015917",
+    "A046133",
+    "A054902"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n + floor[sum_k{k",
+  "id": "A079719",
+  "mentions": [
+    "A005428",
+    "A073941"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

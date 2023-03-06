@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into distinct odd parts, the least being congruent to 3 mod 4.",
+  "id": "A027348",
+  "mentions": [
+    "A143063"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

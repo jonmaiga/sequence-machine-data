@@ -1,0 +1,24 @@
+{
+  "description": "Number of n-digit biquanimous numbers in base 10 allowing leading zeros.",
+  "id": "A065024",
+  "mentions": [
+    "A064544",
+    "A065023",
+    "A065025",
+    "A065086",
+    "A288638"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

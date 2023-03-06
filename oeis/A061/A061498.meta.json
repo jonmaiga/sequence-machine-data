@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct terms in the first difference sequence of reduced residue system[=dRRS] for n.",
+  "id": "A061498",
+  "mentions": [
+    "A076362"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of (eta(q^4) / eta(q))^8 in powers of q.",
+  "id": "A092877",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A001935",
+    "A001936",
+    "A005798",
+    "A010054",
+    "A010815",
+    "A014103",
+    "A046897",
+    "A093160",
+    "A121373",
+    "A124972"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

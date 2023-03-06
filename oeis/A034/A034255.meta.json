@@ -1,0 +1,22 @@
+{
+  "description": "Related to quartic factorial numbers A007696.",
+  "id": "A034255",
+  "mentions": [
+    "A007696",
+    "A025749",
+    "A034385",
+    "A048882"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

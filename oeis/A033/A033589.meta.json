@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (2*n-1)*(3*n-1)*(4*n-1).",
+  "id": "A033589",
+  "mentions": [
+    "A033568",
+    "A033590",
+    "A060747"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:06:33",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

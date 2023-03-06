@@ -1,0 +1,18 @@
+{
+  "description": "Multiplicity of irreducible character IRR2 of Monster simple group in n-th head character.",
+  "id": "A055771",
+  "mentions": [
+    "A014810",
+    "A055791"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:25",
+    "offset": -1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

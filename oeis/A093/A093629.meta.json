@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of triangle A093628, in which the diagonals are equal to the Euler transform of the rows.",
+  "id": "A093629",
+  "mentions": [
+    "A093628",
+    "A093630"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

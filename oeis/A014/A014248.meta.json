@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = b(n) - c(n) where b(n) = [ n*(sqrt(2)+sqrt(3)) ] and c(n) is the n-th number not in sequence b( ).",
+  "id": "A014248",
+  "mentions": [
+    "A110117",
+    "A110118"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

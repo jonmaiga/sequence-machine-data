@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are congruent to {0, 2, 3, 4, 5} (mod 6).",
+  "id": "A047248",
+  "mentions": [
+    "A047252"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:01:35",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

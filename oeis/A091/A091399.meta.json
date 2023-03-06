@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{ p | n } (1 + Legendre(7,p) ).",
+  "id": "A091399",
+  "mentions": [
+    "A089509",
+    "A091379",
+    "A091396"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Let F(m,k) be the number of positive integers j <= m such that gcd(j,k) = 1; then a(n) is the number of positive integers k such that F(n,k) = k.",
+  "id": "A077614",
+  "mentions": [
+    "A077615",
+    "A275257"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

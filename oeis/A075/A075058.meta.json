@@ -1,0 +1,21 @@
+{
+  "description": "1 followed by the greatest primes selected to form a complete sequence (see algorithm below).",
+  "id": "A075058",
+  "mentions": [
+    "A007924",
+    "A066352",
+    "A068524",
+    "A200947"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

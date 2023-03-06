@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k), read by rows, where the n-th row is a binary arrangement of the numbers 1 through n.",
+  "id": "A088370",
+  "mentions": [
+    "A003407",
+    "A049773",
+    "A053644",
+    "A088371",
+    "A131966",
+    "A309371"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

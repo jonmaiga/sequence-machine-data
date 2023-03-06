@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k with property that the number of prime factors of k (counted with repetition) exceeds the smallest prime factor of k.",
+  "id": "A091375",
+  "mentions": [
+    "A001222",
+    "A020639",
+    "A091371",
+    "A091372",
+    "A091376",
+    "A091377"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

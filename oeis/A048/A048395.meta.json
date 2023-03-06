@@ -1,0 +1,26 @@
+{
+  "description": "Sum of consecutive nonsquares.",
+  "id": "A048395",
+  "mentions": [
+    "A001844",
+    "A046092",
+    "A048396",
+    "A048397",
+    "A086849",
+    "A199771",
+    "A201279"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

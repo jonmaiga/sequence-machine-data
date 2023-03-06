@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into distinct summands (A000009), plus 1 (apart from the first term).",
+  "id": "A052839",
+  "mentions": [
+    "A000009",
+    "A068049"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:05:21",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

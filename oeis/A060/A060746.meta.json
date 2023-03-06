@@ -1,0 +1,18 @@
+{
+  "description": "Absolute value of numerator of non-Euler-constant term of Laurent expansion of Gamma function at s=-n.",
+  "id": "A060746",
+  "mentions": [
+    "A001008"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:26",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

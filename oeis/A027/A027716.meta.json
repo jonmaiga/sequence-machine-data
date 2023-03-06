@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^2 + k + 4 is a palindrome.",
+  "id": "A027716",
+  "mentions": [
+    "A027689",
+    "A027714",
+    "A027717",
+    "A027718"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

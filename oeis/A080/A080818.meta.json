@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows in which the n-th row contains n distinct numbers whose sum is the smallest square.",
+  "id": "A080818",
+  "mentions": [
+    "A080817",
+    "A080819",
+    "A080820"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

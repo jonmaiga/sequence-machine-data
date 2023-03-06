@@ -1,0 +1,22 @@
+{
+  "description": "Number of unlabeled 2-connected minimally 2-edge-connected graphs with n nodes.",
+  "id": "A054317",
+  "mentions": [
+    "A001072",
+    "A003317",
+    "A054316",
+    "A054595"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 3,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

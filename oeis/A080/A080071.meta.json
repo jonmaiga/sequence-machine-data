@@ -1,0 +1,21 @@
+{
+  "description": "Top-level length of each parenthesization/root degree of general trees encoded in A080070.",
+  "id": "A080071",
+  "mentions": [
+    "A057515",
+    "A080068",
+    "A080070",
+    "A080090"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

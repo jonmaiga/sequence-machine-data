@@ -1,0 +1,23 @@
+{
+  "description": "Write down the numbers 1,2,3,... but omit any number (such as 12 or 23 or 31 ...) which appears in the concatenation of all earlier terms.",
+  "id": "A048991",
+  "mentions": [
+    "A011557",
+    "A048992",
+    "A105390",
+    "A131881"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

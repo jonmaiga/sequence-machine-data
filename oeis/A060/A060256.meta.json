@@ -1,0 +1,22 @@
+{
+  "description": "Smallest multiple a(n) of n-th primorial q(n) such that a(n)*q(n)-1 and a(n)*q(n)+1 are a pair of twin primes.",
+  "id": "A060256",
+  "mentions": [
+    "A001359",
+    "A002110",
+    "A057706",
+    "A060229",
+    "A060232",
+    "A060255"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

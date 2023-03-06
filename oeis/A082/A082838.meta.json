@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Kempner series Sum_{k>=1, k has no digit 9 in base 10} 1/k.",
+  "id": "A082838",
+  "mentions": [
+    "A002387",
+    "A007095",
+    "A011539",
+    "A024101",
+    "A082830",
+    "A082839",
+    "A140502"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

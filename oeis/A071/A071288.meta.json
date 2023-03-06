@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of Peirce sequence of order 6.",
+  "id": "A071288",
+  "mentions": [
+    "A009947",
+    "A071281",
+    "A071287"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:24:37",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

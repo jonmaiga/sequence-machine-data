@@ -1,0 +1,20 @@
+{
+  "description": "Let F(x) = 1 + 1*x + 4*x^2 + 10*x^3 + ..., the g.f. for A000293 (solid partitions), and write F(x) = 1/Product_{n>=1} (1 - x^n)^a(n).",
+  "id": "A037452",
+  "mentions": [
+    "A000293",
+    "A002835",
+    "A080207",
+    "A193718"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k = sigma(phi(k) + pi(k)).",
+  "id": "A097645",
+  "mentions": [
+    "A018784",
+    "A082515",
+    "A097646"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

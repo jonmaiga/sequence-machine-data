@@ -1,0 +1,29 @@
+{
+  "description": "Number of winning length n strings with a 6-symbol alphabet in \"same game\".",
+  "id": "A065239",
+  "mentions": [
+    "A035615",
+    "A035617",
+    "A065237",
+    "A065238",
+    "A065240",
+    "A065241",
+    "A065242",
+    "A065243",
+    "A309874",
+    "A323812",
+    "A323844"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

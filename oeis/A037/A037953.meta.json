@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = binomial(n, floor((n-5)/2)).",
+  "id": "A037953",
+  "mentions": [
+    "A004526",
+    "A035951",
+    "A035952",
+    "A035954",
+    "A035955",
+    "A035956",
+    "A035957",
+    "A089940",
+    "A101491"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

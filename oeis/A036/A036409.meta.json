@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = ceiling(n^2/11).",
+  "id": "A036409",
+  "mentions": [
+    "A036404",
+    "A036405",
+    "A036406",
+    "A036407",
+    "A036408"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:25:35",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

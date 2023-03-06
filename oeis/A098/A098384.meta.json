@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows of coefficients used to generate diagonals of ordered factorizations as displayed in A098348.",
+  "id": "A098384",
+  "mentions": [
+    "A000165",
+    "A052876",
+    "A098348",
+    "A098385",
+    "A194649"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

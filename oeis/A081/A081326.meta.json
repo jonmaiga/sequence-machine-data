@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into two 3-smooth numbers.",
+  "id": "A081326",
+  "mentions": [
+    "A003586",
+    "A081327",
+    "A081328",
+    "A081329",
+    "A081330"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

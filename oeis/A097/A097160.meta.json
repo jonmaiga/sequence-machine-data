@@ -1,0 +1,21 @@
+{
+  "description": "Greatest prime p such that there are n, but not n+1, consecutive quadratic residues mod p, or -1 if no such prime exists.",
+  "id": "A097160",
+  "mentions": [
+    "A000236",
+    "A000445",
+    "A097159",
+    "A097161"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

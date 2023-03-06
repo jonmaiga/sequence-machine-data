@@ -1,0 +1,19 @@
+{
+  "description": "Consider primitive Pythagorean triangles (A^2 + B^2 = C^2, (A, B) = 1, A <= B); sequence gives values of AUB, sorted.",
+  "id": "A024355",
+  "mentions": [
+    "A020883",
+    "A020884",
+    "A024361"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "1/1, 2*3/lcm(2,3), 4*5*6/lcm(4,5,6), 7*8*9*10/lcm(7,8,9,10), ...",
+  "id": "A093453",
+  "mentions": [
+    "A000217",
+    "A057003",
+    "A061431"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

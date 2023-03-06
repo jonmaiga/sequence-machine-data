@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct distances between n electrons in minimal energy configuration on a sphere.",
+  "id": "A033177",
+  "mentions": [
+    "A133491",
+    "A242617"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

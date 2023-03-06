@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that S(n) is a palindromic prime, where S(n) is the Kempner function A002034.",
+  "id": "A073328",
+  "mentions": [
+    "A002034"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

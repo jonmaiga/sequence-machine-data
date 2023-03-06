@@ -1,0 +1,33 @@
+{
+  "description": "List of permutations of 1,2,3,...,n for n=1,2,3,..., in lexicographic order.",
+  "id": "A030298",
+  "mentions": [
+    "A001286",
+    "A001563",
+    "A030299",
+    "A030496",
+    "A055089",
+    "A084555",
+    "A084556",
+    "A084557",
+    "A098280",
+    "A098281",
+    "A130664",
+    "A170942",
+    "A220660",
+    "A220663",
+    "A220696"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

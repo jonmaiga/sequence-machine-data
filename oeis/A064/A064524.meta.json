@@ -1,0 +1,18 @@
+{
+  "description": "Number of noncubes <= n.",
+  "id": "A064524",
+  "mentions": [
+    "A048766"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:39:27",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

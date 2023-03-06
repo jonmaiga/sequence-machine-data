@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (-1+1/(1-6*x)^6)/(36*x); related to A036084.",
+  "id": "A036224",
+  "mentions": [
+    "A036083",
+    "A036084"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:19:29",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

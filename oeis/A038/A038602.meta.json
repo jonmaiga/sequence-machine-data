@@ -1,0 +1,21 @@
+{
+  "description": "One half of convolution of central binomial coefficients A000984(n) with A000984(n+2), n >= 0.",
+  "id": "A038602",
+  "mentions": [
+    "A000108",
+    "A000346",
+    "A000984"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

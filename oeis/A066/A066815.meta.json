@@ -1,0 +1,30 @@
+{
+  "description": "Number of partitions of n into sums of products.",
+  "id": "A066815",
+  "mentions": [
+    "A000041",
+    "A001055",
+    "A001970",
+    "A050336",
+    "A063834",
+    "A065026",
+    "A066739",
+    "A266964",
+    "A281113",
+    "A284639",
+    "A318948",
+    "A318949",
+    "A321460"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

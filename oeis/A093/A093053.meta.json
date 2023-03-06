@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction expansion of a constant x such that the n-th partial quotient equals a(n) = floor(2^n*x), with a(0)=1.",
+  "id": "A093053",
+  "mentions": [
+    "A093054"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

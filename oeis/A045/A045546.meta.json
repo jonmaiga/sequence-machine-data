@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^2 + k - 1 is prime.",
+  "id": "A045546",
+  "mentions": [
+    "A002327",
+    "A002328",
+    "A002384"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "First numerator and then denominator of the elements to the right of the central elements of the 1/5-Pascal triangle.",
+  "id": "A046613",
+  "mentions": [
+    "A046601"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 10:59:15",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

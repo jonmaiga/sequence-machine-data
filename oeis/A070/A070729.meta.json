@@ -1,0 +1,17 @@
+{
+  "description": "Common British Royal Mint coinage (in pence) from smallest physical size to largest, as of May 13 2002.",
+  "id": "A070729",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

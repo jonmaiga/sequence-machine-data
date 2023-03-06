@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct products of subsets of integers in the interval [n^2+1, (n+1)^2-1] which are twice a square.",
+  "id": "A099500",
+  "mentions": [
+    "A099501",
+    "A120253",
+    "A120254"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number from which if odd-positioned digits are deleted then one gets the concatenation of first n even numbers, while if even-positioned digits are deleted then one gets reverse concatenation of first n even numbers. Position of least significant digit is considered to be 1.",
+  "id": "A078275",
+  "mentions": [
+    "A078274",
+    "A078276",
+    "A078277",
+    "A078278"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

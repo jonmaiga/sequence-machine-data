@@ -1,0 +1,28 @@
+{
+  "description": "Numbers having one 2 in base 10.",
+  "id": "A043497",
+  "mentions": [
+    "A011532",
+    "A043489",
+    "A043493",
+    "A043501",
+    "A043505",
+    "A043509",
+    "A043513",
+    "A043517",
+    "A043521",
+    "A043525"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:19",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

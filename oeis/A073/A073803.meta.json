@@ -1,0 +1,23 @@
+{
+  "description": "Number of divisors of n is smaller than that of sigma(n).",
+  "id": "A073803",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A037197",
+    "A062068",
+    "A073802",
+    "A073804"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest m such that number of distinct partitions of m exceeds 10^n.",
+  "id": "A072245",
+  "mentions": [
+    "A000009"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

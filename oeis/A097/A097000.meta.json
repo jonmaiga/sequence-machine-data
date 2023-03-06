@@ -1,0 +1,20 @@
+{
+  "description": "A062401(x)=phi[sigma(x)] function is iterated; initial value=2^n; a(n)=smallest term of trajectory.",
+  "id": "A097000",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A062401",
+    "A096852"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

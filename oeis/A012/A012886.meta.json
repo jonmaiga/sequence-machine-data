@@ -1,0 +1,20 @@
+{
+  "description": "a(n+3) = 5*a(n+2)-4*a(n+1)+a(n).",
+  "id": "A012886",
+  "mentions": [
+    "A012814",
+    "A012855"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:05:12",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

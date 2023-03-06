@@ -1,0 +1,19 @@
+{
+  "description": "Strictly increasing domain of A005185.",
+  "id": "A087721",
+  "mentions": [
+    "A005185",
+    "A087722",
+    "A087723"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

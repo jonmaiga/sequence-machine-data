@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (3^(2*n))*(integral_{x=0 to 1} (1+x^3)^n dx)/(integral_{x=0 to 1} (1-x^3)^n dx).",
+  "id": "A089138",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

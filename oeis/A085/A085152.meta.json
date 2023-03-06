@@ -1,0 +1,27 @@
+{
+  "description": "All prime factors of n and n+1 are <= 5. (Related to the abc conjecture.)",
+  "id": "A085152",
+  "mentions": [
+    "A002071",
+    "A002072",
+    "A085153",
+    "A138180",
+    "A145604",
+    "A145605",
+    "A252492",
+    "A252493",
+    "A252494"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

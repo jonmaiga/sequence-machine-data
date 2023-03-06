@@ -1,0 +1,27 @@
+{
+  "description": "Numbers in (3,2)-Pascal triangle (by row).",
+  "id": "A029618",
+  "mentions": [
+    "A005449",
+    "A006002",
+    "A007318",
+    "A016789",
+    "A029600",
+    "A084938",
+    "A228196",
+    "A228576"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:43:27",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Cyclic token-passing numbers with pattern 121: players 1, 2, ..., n are seated around a table. Each has a penny. Player 1 passes a penny to player 2, who passes two pennies to player 3, who passes a penny to player 4. Player 4 passes a penny to player 5, who passes two pennies to player 6, who passes a penny to player 7 and so on, players passing 1,2,1,1,2,1,... pennies to the next player who still has some pennies. A player who runs out of pennies drops out of the game and leaves the table. Sequence gives number of players remaining when game reaches periodic state.",
+  "id": "A060447",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

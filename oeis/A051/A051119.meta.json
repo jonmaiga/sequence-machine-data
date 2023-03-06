@@ -1,0 +1,20 @@
+{
+  "description": "n/p^k, where p = largest prime dividing n and p^k = highest power of p dividing n.",
+  "id": "A051119",
+  "mentions": [
+    "A053585"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

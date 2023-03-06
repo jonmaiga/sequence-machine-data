@@ -1,0 +1,20 @@
+{
+  "description": "Smallest even number divisible by 2n which is nontotient, i.e., in A005277.",
+  "id": "A071616",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A005277",
+    "A071615"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

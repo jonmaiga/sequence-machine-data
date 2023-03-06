@@ -1,0 +1,29 @@
+{
+  "description": "Dropping time for the 3x+1 problem: for n >= 2, number of iteration that first becomes smaller than the initial value if Collatz-function (A006370) is iterated starting at n; a(1)=1 by convention.",
+  "id": "A074473",
+  "mentions": [
+    "A006370",
+    "A060412",
+    "A060445",
+    "A075476",
+    "A075477",
+    "A075478",
+    "A075479",
+    "A075480",
+    "A075481",
+    "A075482",
+    "A075483",
+    "A102419",
+    "A217934"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

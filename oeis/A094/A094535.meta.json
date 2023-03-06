@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest integer m such that A039995(m)=n.",
+  "id": "A094535",
+  "mentions": [
+    "A039995",
+    "A039997",
+    "A093301",
+    "A205956"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

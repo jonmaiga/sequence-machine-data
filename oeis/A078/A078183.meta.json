@@ -1,0 +1,19 @@
+{
+  "description": "Number of solutions to x^2 + y^2 + z^2 < n^2; number of lattice points inside a sphere of radius n.",
+  "id": "A078183",
+  "mentions": [
+    "A000605",
+    "A016725"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

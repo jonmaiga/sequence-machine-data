@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the product of their digits raised to positive integer powers.",
+  "id": "A059405",
+  "mentions": [
+    "A238985"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

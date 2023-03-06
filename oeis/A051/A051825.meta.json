@@ -1,0 +1,22 @@
+{
+  "description": "Number of numbers below 10^n with nonzero multiplicative digital root 5.",
+  "id": "A051825",
+  "mentions": [
+    "A051802",
+    "A051807",
+    "A051816"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

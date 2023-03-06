@@ -1,0 +1,20 @@
+{
+  "description": "Nonsquarefree elements of A003824, i.e., primitive solutions to a^4 + b^4 = c^4 + d^4 with nonsquarefree value on both sides of the equation.",
+  "id": "A088867",
+  "mentions": [
+    "A003824",
+    "A088848",
+    "A088849"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that m = prime(d_1) * prime(d_2) * ... * prime(d_k), where d_1 d_2 ... d_k is the decimal expansion of m.",
+  "id": "A097227",
+  "mentions": [
+    "A097228",
+    "A329711"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

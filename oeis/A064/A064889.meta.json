@@ -1,0 +1,26 @@
+{
+  "description": "Denominators of partial sums of reciprocals of A051451 (A051451 includes lcm(1,...,x), x=power of prime from A000961 and also contains 1).",
+  "id": "A064889",
+  "mentions": [
+    "A000961",
+    "A003418",
+    "A051451",
+    "A064857",
+    "A064858",
+    "A064859",
+    "A064888",
+    "A064890"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

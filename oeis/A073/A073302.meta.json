@@ -1,0 +1,19 @@
+{
+  "description": "Indices of prime digits (2, 3, 5, 7) in the decimal expansion of e.",
+  "id": "A073302",
+  "mentions": [
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

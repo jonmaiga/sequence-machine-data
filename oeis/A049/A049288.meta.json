@@ -1,0 +1,25 @@
+{
+  "description": "Number of nonisomorphic circulant tournaments, i.e., Cayley tournaments for cyclic group of order 2n-1.",
+  "id": "A049288",
+  "mentions": [
+    "A002086",
+    "A002087",
+    "A038789",
+    "A049287",
+    "A049289",
+    "A049297",
+    "A060966"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

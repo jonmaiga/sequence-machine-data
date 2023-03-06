@@ -1,0 +1,19 @@
+{
+  "description": "Smallest x > 1 such that x^prime(n) == 1 mod(prime(i)) 3<=i<=n.",
+  "id": "A071555",
+  "mentions": [
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 3,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

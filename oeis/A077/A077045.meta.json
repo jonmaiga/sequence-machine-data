@@ -1,0 +1,22 @@
+{
+  "description": "Doubly restricted composition numbers: number of compositions of 1+2+3+...+n = n(n+1)/2 into exactly n positive integers each no more than n.",
+  "id": "A077045",
+  "mentions": [
+    "A077042",
+    "A077046",
+    "A077047",
+    "A077048"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

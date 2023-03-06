@@ -1,0 +1,29 @@
+{
+  "description": "Number of degree-n permutations of order dividing 7.",
+  "id": "A053497",
+  "mentions": [
+    "A000079",
+    "A000085",
+    "A001470",
+    "A001472",
+    "A005388",
+    "A008307",
+    "A052501",
+    "A053495",
+    "A053505",
+    "A118934",
+    "A261427",
+    "A293588"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

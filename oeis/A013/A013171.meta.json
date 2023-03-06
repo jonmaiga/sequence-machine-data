@@ -1,0 +1,15 @@
+{
+  "description": "sin(arctanh(x)+arcsin(x))=2*x-5/3!*x^3-55/5!*x^5-1535/7!*x^7...",
+  "id": "A013171",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:05:01",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

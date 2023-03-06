@@ -1,0 +1,21 @@
+{
+  "description": "T(n,m) = (1/m!)*Sum_{i=0..m} stirling1(m,i)*(2^i)*(2^i+1)*...*(2^i+n-1).",
+  "id": "A059587",
+  "mentions": [
+    "A059084",
+    "A059588"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

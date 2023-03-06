@@ -1,0 +1,23 @@
+{
+  "description": "Chebyshev sequence T(n,12) with Diophantine property.",
+  "id": "A077424",
+  "mentions": [
+    "A049310",
+    "A053120",
+    "A076445",
+    "A077423",
+    "A090732"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

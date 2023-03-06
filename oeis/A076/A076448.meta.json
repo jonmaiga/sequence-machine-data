@@ -1,0 +1,19 @@
+{
+  "description": "Numbers one more than a power of 2 which are the sum of n consecutive numbers one more than a power of 2.",
+  "id": "A076448",
+  "mentions": [
+    "A000051",
+    "A005126"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

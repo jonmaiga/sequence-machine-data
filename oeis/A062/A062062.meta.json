@@ -1,0 +1,19 @@
+{
+  "description": "Smallest increasing sequence where each term is coprime to preceding three terms.",
+  "id": "A062062",
+  "mentions": [
+    "A047255",
+    "A062063"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

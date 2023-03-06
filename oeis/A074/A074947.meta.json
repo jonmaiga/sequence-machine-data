@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of Sum_{k=1..n} 1/lcm(n,k).",
+  "id": "A074947",
+  "mentions": [
+    "A064807",
+    "A074949"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

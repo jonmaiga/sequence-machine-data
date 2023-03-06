@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = cardinality of the (ordered) list L_n defined inductively by: L_1 = {2}; if, reading from left to right, there is a member p of L_n such that prime(n+1) can be appended to the beginning or end of p so that their neighboring digits are equal, then append prime(n+1) to the beginning or end of p to obtain L_(n+1); otherwise, add prime(n+1) to the end of the list L_n to obtain L_(n+1).",
+  "id": "A067854",
+  "mentions": [
+    "A062406"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

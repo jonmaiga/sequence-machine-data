@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime in which the n-th significant digit is a 2.",
+  "id": "A069590",
+  "mentions": [
+    "A069588",
+    "A069589"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

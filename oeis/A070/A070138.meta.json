@@ -1,0 +1,24 @@
+{
+  "description": "Number of integer triangles with an integer area having relatively prime sides a, b and c such that a + b + c = n.",
+  "id": "A070138",
+  "mentions": [
+    "A051493",
+    "A051516",
+    "A070080",
+    "A070088",
+    "A070109",
+    "A070143",
+    "A096468",
+    "A239246"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

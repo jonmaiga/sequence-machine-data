@@ -1,0 +1,22 @@
+{
+  "description": "n sets a new record for the index of the (presumably) last palindrome in the 'Reverse and Add' trajectory of n.",
+  "id": "A070743",
+  "mentions": [
+    "A065001",
+    "A065198",
+    "A070742",
+    "A070744"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

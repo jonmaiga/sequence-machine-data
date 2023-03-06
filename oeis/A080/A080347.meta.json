@@ -1,0 +1,21 @@
+{
+  "description": "Number of shuffles in Guy's shuffle (A035485) corresponding to the terms in A080346.",
+  "id": "A080347",
+  "mentions": [
+    "A035485",
+    "A057976",
+    "A080346"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Palindromes of form k*(k+2); or palindromes 1 less than a square.",
+  "id": "A028504",
+  "mentions": [
+    "A002779",
+    "A005563",
+    "A028503",
+    "A070253",
+    "A070254"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

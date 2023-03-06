@@ -1,0 +1,19 @@
+{
+  "description": "a(n)-th prime is sum of first k primes for some k.",
+  "id": "A020641",
+  "mentions": [
+    "A013916",
+    "A013917",
+    "A013918"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

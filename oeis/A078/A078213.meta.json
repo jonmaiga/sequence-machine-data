@@ -1,0 +1,18 @@
+{
+  "description": "Smallest multiple of n beginning and ending in n and with a digit sum that is divisible by n.",
+  "id": "A078213",
+  "mentions": [
+    "A078214"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

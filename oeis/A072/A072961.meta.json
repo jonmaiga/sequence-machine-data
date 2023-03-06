@@ -1,0 +1,17 @@
+{
+  "description": "Numbers using only the digits 2 and 5, or numbers that are both curved and linear.",
+  "id": "A072961",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

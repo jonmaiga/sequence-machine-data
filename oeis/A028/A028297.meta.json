@@ -1,0 +1,47 @@
+{
+  "description": "Coefficients of Chebyshev polynomials of the first kind: triangle of coefficients in expansion of cos(n*x) in descending powers of cos(x).",
+  "id": "A028297",
+  "mentions": [
+    "A000012",
+    "A001333",
+    "A002457",
+    "A006495",
+    "A007318",
+    "A008310",
+    "A008619",
+    "A011782",
+    "A028298",
+    "A034839",
+    "A039991",
+    "A053120",
+    "A081277",
+    "A084938",
+    "A087455",
+    "A118800",
+    "A124182",
+    "A138229",
+    "A138230",
+    "A146559",
+    "A200139",
+    "A201701",
+    "A287768",
+    "A288188",
+    "A288199",
+    "A288207",
+    "A288211",
+    "A288245"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

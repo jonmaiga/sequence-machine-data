@@ -1,0 +1,20 @@
+{
+  "description": "Squarefree kernel of (prime(n)+1)*(prime(n+1)+1)/4.",
+  "id": "A079093",
+  "mentions": [
+    "A007947",
+    "A079079",
+    "A079095"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

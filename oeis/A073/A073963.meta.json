@@ -1,0 +1,25 @@
+{
+  "description": "Number of strings of length n over Z_5 with trace 0 and subtrace 0.",
+  "id": "A073963",
+  "mentions": [
+    "A073964",
+    "A073965",
+    "A073966",
+    "A073967",
+    "A073968",
+    "A073969",
+    "A073970"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

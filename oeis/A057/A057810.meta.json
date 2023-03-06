@@ -1,0 +1,21 @@
+{
+  "description": "Quotients n/pi(n) for n in A057809.",
+  "id": "A057810",
+  "mentions": [
+    "A000720",
+    "A038627",
+    "A057809",
+    "A256394"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

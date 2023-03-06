@@ -1,0 +1,22 @@
+{
+  "description": "Sum of divisors of prime powers: sigma(p^e).",
+  "id": "A086455",
+  "mentions": [
+    "A000203",
+    "A000961",
+    "A025473",
+    "A025474",
+    "A086454"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

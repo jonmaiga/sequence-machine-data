@@ -1,0 +1,20 @@
+{
+  "description": "Zeisel numbers.",
+  "id": "A051015",
+  "mentions": [
+    "A027746",
+    "A061422",
+    "A252094",
+    "A252095"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Fourth-order composites.",
+  "id": "A050438",
+  "mentions": [
+    "A006450",
+    "A049076",
+    "A049081",
+    "A050435",
+    "A050436",
+    "A050439",
+    "A050440"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:45:23",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

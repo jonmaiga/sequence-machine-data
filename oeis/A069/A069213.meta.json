@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n-th positive integer relatively prime to n.",
+  "id": "A069213",
+  "mentions": [
+    "A077581",
+    "A077582",
+    "A247798",
+    "A247815"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

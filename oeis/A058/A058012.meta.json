@@ -1,0 +1,17 @@
+{
+  "description": "Consider the sequence {b(m)} of composite numbers (excluding 1); sequence gives values of b(m) where gcd(m, b(m)) increases.",
+  "id": "A058012",
+  "mentions": [
+    "A058011"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the least number whose binary representation has the same number of 0's and 1's as n.",
+  "id": "A073137",
+  "mentions": [
+    "A000120",
+    "A000523",
+    "A007088",
+    "A023416",
+    "A072376",
+    "A073138",
+    "A073139",
+    "A073140",
+    "A073141"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

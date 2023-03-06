@@ -1,0 +1,27 @@
+{
+  "description": "Numbers m such that 2m and m^2 have same digit sum.",
+  "id": "A049343",
+  "mentions": [
+    "A000290",
+    "A005843",
+    "A007953",
+    "A010888",
+    "A058369",
+    "A077436"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:37:09",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

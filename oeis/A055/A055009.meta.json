@@ -1,0 +1,25 @@
+{
+  "description": "Smallest composite number x such that sigma(x + prime(n)#) = sigma(x) + prime(n)#, where prime(n)# = A002110(n) and sigma is A000203.",
+  "id": "A055009",
+  "mentions": [
+    "A000203",
+    "A002110",
+    "A015913",
+    "A015917",
+    "A049481",
+    "A049485",
+    "A049902",
+    "A049905"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

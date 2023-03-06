@@ -1,0 +1,29 @@
+{
+  "description": "Triangle giving number of trees with n >= 3 nodes and diameter d >= 2.",
+  "id": "A034853",
+  "mentions": [
+    "A000014",
+    "A000055",
+    "A000094",
+    "A000147",
+    "A000251",
+    "A000306",
+    "A000550",
+    "A007401",
+    "A283826"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:17:05",
+    "offset": 3,
+    "size": 55,
+    "source": "joeis"
+  }
+}

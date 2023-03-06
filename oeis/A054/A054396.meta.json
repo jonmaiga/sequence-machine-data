@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that there are precisely 4 groups of order n.",
+  "id": "A054396",
+  "mentions": [
+    "A000001",
+    "A003277",
+    "A054395",
+    "A054397",
+    "A055561",
+    "A135850"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

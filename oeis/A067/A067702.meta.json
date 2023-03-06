@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that sigma(k) == 0 (mod k+2).",
+  "id": "A067702",
+  "mentions": [
+    "A045768",
+    "A059608",
+    "A156560"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

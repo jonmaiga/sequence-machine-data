@@ -1,0 +1,27 @@
+{
+  "description": "Strong pseudoprimes to base 4.",
+  "id": "A020230",
+  "mentions": [
+    "A001262",
+    "A020136",
+    "A020229",
+    "A020231",
+    "A020232",
+    "A020233",
+    "A020234",
+    "A020235",
+    "A020236",
+    "A020237",
+    "A020238"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(n, k) read by rows. T(n, k) is the number of lists of k unlabeled permutations whose total length is n.",
+  "id": "A090238",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000142",
+    "A003319",
+    "A005843",
+    "A051296",
+    "A054000",
+    "A059369",
+    "A059371",
+    "A084938",
+    "A090753",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

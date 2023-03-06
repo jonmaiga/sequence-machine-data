@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct terms in continued fraction period of square root of n.",
+  "id": "A096492",
+  "mentions": [
+    "A003285",
+    "A013646",
+    "A028832",
+    "A096491",
+    "A096493"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

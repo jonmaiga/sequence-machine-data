@@ -1,0 +1,21 @@
+{
+  "description": "Integers n such that the reciprocal of the largest prime factor of 10^n-1 is not a repeating decimal fraction with a period of n.",
+  "id": "A081318",
+  "mentions": [
+    "A005422",
+    "A061075",
+    "A081317"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

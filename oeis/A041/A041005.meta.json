@@ -1,0 +1,32 @@
+{
+  "description": "Convolution of Catalan numbers A000108(n+1), n >= 0, with A020918.",
+  "id": "A041005",
+  "mentions": [
+    "A000108",
+    "A000302",
+    "A000984",
+    "A001791",
+    "A002457",
+    "A002697",
+    "A002802",
+    "A008549",
+    "A020918",
+    "A029760",
+    "A038806",
+    "A038836",
+    "A038845",
+    "A041001"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:02:35",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

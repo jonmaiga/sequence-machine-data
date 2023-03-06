@@ -1,0 +1,24 @@
+{
+  "description": "Square array read by antidiagonals of T(n,k)=(4k-2)*T(n,k-1)+T(n,k-2) with T(n,0)=1 and T(n,1)=n.",
+  "id": "A079166",
+  "mentions": [
+    "A000012",
+    "A001477",
+    "A001517",
+    "A002119",
+    "A016921",
+    "A079165"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

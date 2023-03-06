@@ -1,0 +1,28 @@
+{
+  "description": "Nonsingular n X n matrices over GF(8).",
+  "id": "A052496",
+  "mentions": [
+    "A002884",
+    "A003791",
+    "A027876",
+    "A052497",
+    "A052498",
+    "A053290",
+    "A053291",
+    "A053292",
+    "A053293",
+    "A109966"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

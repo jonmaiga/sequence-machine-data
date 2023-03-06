@@ -1,0 +1,19 @@
+{
+  "description": "Take pairs (a, b), sorted on a, such that T(a)+T(b)=concatenation of a and b, where T(k) is the k-th triangular number A000217(k). Sequence gives values of a.",
+  "id": "A096031",
+  "mentions": [
+    "A000217",
+    "A096032"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

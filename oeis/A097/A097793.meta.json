@@ -1,0 +1,26 @@
+{
+  "description": "McKay-Thompson series of class 56B for the Monster group.",
+  "id": "A097793",
+  "mentions": [
+    "A000700",
+    "A003105",
+    "A070048",
+    "A096938",
+    "A112193",
+    "A113297",
+    "A261770",
+    "A261771",
+    "A261772"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

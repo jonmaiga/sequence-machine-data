@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = T(n,m) + T(n,m+1) + ... + T(n,n), where m = floor((n+2)/2), T given by A027948.",
+  "id": "A027958",
+  "mentions": [
+    "A000045",
+    "A027948"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

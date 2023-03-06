@@ -1,0 +1,25 @@
+{
+  "description": "Smallest prime starting a sequence of 2n consecutive primes with symmetrical gaps about the center.",
+  "id": "A081235",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A055380",
+    "A055381",
+    "A055382",
+    "A175309",
+    "A359440"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

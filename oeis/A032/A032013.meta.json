@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to partition n labeled elements into sets of different sizes of at least 2 and order the sets.",
+  "id": "A032013",
+  "mentions": [
+    "A032011"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

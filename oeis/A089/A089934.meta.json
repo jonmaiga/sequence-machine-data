@@ -1,0 +1,31 @@
+{
+  "description": "Table T(n,k) of the number of n X k matrices on {0,1} without adjacent 0's in any row or column.",
+  "id": "A089934",
+  "mentions": [
+    "A000045",
+    "A001224",
+    "A001333",
+    "A003714",
+    "A006506",
+    "A051736",
+    "A051737",
+    "A089935",
+    "A089936",
+    "A089937",
+    "A089938",
+    "A089980",
+    "A197054",
+    "A218354"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

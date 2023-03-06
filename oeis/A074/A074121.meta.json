@@ -1,0 +1,21 @@
+{
+  "description": "Group successively larger composite numbers so that the sum of the n-th group is a multiple of n. Sequence gives the first term in each group.",
+  "id": "A074121",
+  "mentions": [
+    "A002808",
+    "A074120",
+    "A074122",
+    "A074123",
+    "A074129"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

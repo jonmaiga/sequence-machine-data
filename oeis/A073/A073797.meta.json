@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2^n mod pi(n).",
+  "id": "A073797",
+  "mentions": [
+    "A000079",
+    "A000720",
+    "A015910",
+    "A062173",
+    "A064367"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 2,
+    "size": 95,
+    "source": "joeis"
+  }
+}

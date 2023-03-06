@@ -1,0 +1,21 @@
+{
+  "description": "Number of steps required to reach 1 for iterated modified juggler map of A095396.",
+  "id": "A095398",
+  "mentions": [
+    "A007320",
+    "A094683",
+    "A094716",
+    "A095396",
+    "A097397"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of even non-cototients not exceeding 2^n.",
+  "id": "A072297",
+  "mentions": [
+    "A063740",
+    "A072077"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

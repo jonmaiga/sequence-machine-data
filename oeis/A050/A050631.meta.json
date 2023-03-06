@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=2; for n>1, a(n)^2 is next smallest nontrivial square containing a(n-1)^2 as a substring.",
+  "id": "A050631",
+  "mentions": [
+    "A048560",
+    "A050630",
+    "A050633",
+    "A050637"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

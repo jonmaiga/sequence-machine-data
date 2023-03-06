@@ -1,0 +1,22 @@
+{
+  "description": "An intermediate sequence for nonisomorphic circulant self-complementary directed p^2-graphs, indexed by odd primes p.",
+  "id": "A038787",
+  "mentions": [
+    "A038785",
+    "A038786",
+    "A038788",
+    "A038791"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:15:03",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

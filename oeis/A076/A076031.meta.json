@@ -1,0 +1,23 @@
+{
+  "description": "Group the natural numbers so that the n-th group contains the smallest still-available set of n numbers whose product is a square.",
+  "id": "A076031",
+  "mentions": [
+    "A076027",
+    "A076028",
+    "A076029",
+    "A076030",
+    "A076596",
+    "A076696"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

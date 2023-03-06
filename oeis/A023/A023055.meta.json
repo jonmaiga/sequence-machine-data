@@ -1,0 +1,20 @@
+{
+  "description": "(Apparently) differences between adjacent perfect powers (integers of form a^b, a >= 1, b >= 2).",
+  "id": "A023055",
+  "mentions": [
+    "A001597",
+    "A023057",
+    "A189117"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

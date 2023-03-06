@@ -1,0 +1,133 @@
+{
+  "oi": 16531,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[log(2/7)]",
+      "mt": 50,
+      "px": [
+        "2",
+        "7",
+        "/",
+        "log",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2022-07-28",
+      "ix": "or(contfrac[C016580], char[1])",
+      "mt": 50,
+      "px": [
+        "C016580",
+        "contfrac",
+        "1",
+        "char",
+        "or"
+      ]
+    },
+    {
+      "d": "2022-07-21",
+      "ix": "and(-65, contfrac[C016580])",
+      "mt": 50,
+      "px": [
+        "65",
+        "neg",
+        "C016580",
+        "contfrac",
+        "and"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "root(contfrac[C016580]^3, 3)",
+      "mt": 50,
+      "px": [
+        "C016580",
+        "contfrac",
+        "3",
+        "^",
+        "3",
+        "root"
+      ]
+    },
+    {
+      "d": "2022-07-21",
+      "ix": "xor(10, xor(10, contfrac[C016580]))",
+      "mt": 50,
+      "px": [
+        "10",
+        "10",
+        "C016580",
+        "contfrac",
+        "xor",
+        "xor"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "contfrac[C016580]^contfrac[ϕ²]",
+      "mt": 50,
+      "px": [
+        "C016580",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "^"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "root(contfrac[C016580], contfrac[ϕ²])",
+      "mt": 50,
+      "px": [
+        "C016580",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "root"
+      ]
+    },
+    {
+      "d": "2022-07-11",
+      "ix": "contfrac[C016580]^ceil(acot(n))",
+      "mt": 50,
+      "px": [
+        "C016580",
+        "contfrac",
+        "n",
+        "acot",
+        "ceil",
+        "^"
+      ]
+    },
+    {
+      "d": "2022-07-18",
+      "ix": "gcd(floor(acot(n)), contfrac[C016580])",
+      "mt": 50,
+      "px": [
+        "n",
+        "acot",
+        "floor",
+        "C016580",
+        "contfrac",
+        "gcd"
+      ]
+    },
+    {
+      "d": "2022-06-26",
+      "ix": "log2(root(2, 1/contfrac[C016580]))",
+      "mt": 50,
+      "px": [
+        "2",
+        "1",
+        "C016580",
+        "contfrac",
+        "/",
+        "root",
+        "log2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n-p_1)(n-p_2)...(n-p_k) where p_k is the k-th prime and is also the largest prime < n.",
+  "id": "A080497",
+  "mentions": [
+    "A072513",
+    "A080498",
+    "A080500"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

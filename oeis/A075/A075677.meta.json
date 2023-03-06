@@ -1,0 +1,36 @@
+{
+  "description": "Reduced Collatz function R applied to the odd integers: a(n) = R(2n-1), where R(k) = (3k+1)/2^r, with r as large as possible.",
+  "id": "A075677",
+  "mentions": [
+    "A000265",
+    "A000302",
+    "A002450",
+    "A007528",
+    "A007583",
+    "A016789",
+    "A016921",
+    "A016969",
+    "A065677",
+    "A067745",
+    "A072197",
+    "A072261",
+    "A075680",
+    "A081294",
+    "A178415",
+    "A191669",
+    "A347834",
+    "A347835"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

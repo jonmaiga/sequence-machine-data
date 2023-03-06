@@ -1,0 +1,22 @@
+{
+  "description": "Smallest Fibonacci number divisible by 2^n.",
+  "id": "A083523",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A007283",
+    "A079613",
+    "A337923"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

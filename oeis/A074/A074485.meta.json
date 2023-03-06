@@ -1,0 +1,19 @@
+{
+  "description": "Bases n for which the smallest (Fermat) pseudoprime greater than n has Moebius function mu = -1.",
+  "id": "A074485",
+  "mentions": [
+    "A007535",
+    "A074228"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

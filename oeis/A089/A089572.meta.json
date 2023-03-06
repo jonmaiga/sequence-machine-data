@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 19. For n > 1, a(n) is the least unused number such that every concatenation a(n)a(n-1)...a(2)a(1) is prime.",
+  "id": "A089572",
+  "mentions": [
+    "A089560",
+    "A089573",
+    "A089710",
+    "A089711"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Records in A005589.",
+  "id": "A089585",
+  "mentions": [
+    "A005589",
+    "A052363"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:59:49",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

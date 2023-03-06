@@ -1,0 +1,22 @@
+{
+  "description": "Number of primitive (aperiodic) palindromic structures of length n using a maximum of two different symbols.",
+  "id": "A056476",
+  "mentions": [
+    "A016116",
+    "A056391",
+    "A056458",
+    "A056481",
+    "A284826"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

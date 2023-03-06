@@ -1,0 +1,21 @@
+{
+  "description": "Inverse permutation to A072766.",
+  "id": "A072767",
+  "mentions": [
+    "A001477",
+    "A072765",
+    "A072766",
+    "A072771",
+    "A072772"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

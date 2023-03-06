@@ -1,0 +1,20 @@
+{
+  "description": "Number of Dyck paths of semilength n with no peak at height 4.",
+  "id": "A059027",
+  "mentions": [
+    "A000108",
+    "A000957",
+    "A059019"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

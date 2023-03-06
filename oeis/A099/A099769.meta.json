@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Sum_{n >= 2} (-1)^n/log(n).",
+  "id": "A099769",
+  "mentions": [
+    "A257812",
+    "A257837",
+    "A257898",
+    "A257960",
+    "A257964",
+    "A257972"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

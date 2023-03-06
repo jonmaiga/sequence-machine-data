@@ -1,0 +1,29 @@
+{
+  "description": "Array read by downward antidiagonals: T(i,j) = bits of binary expansion of i interleaved with that of j.",
+  "id": "A054238",
+  "mentions": [
+    "A000695",
+    "A001196",
+    "A054239",
+    "A059905",
+    "A059906",
+    "A062880",
+    "A163334",
+    "A163357",
+    "A346453"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

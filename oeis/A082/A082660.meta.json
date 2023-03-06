@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways n can be expressed as the sum of a square and a triangular number.",
+  "id": "A082660",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A082657",
+    "A082658",
+    "A082659"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

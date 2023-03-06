@@ -1,0 +1,22 @@
+{
+  "description": "n is a member if and only if it ranks among top n positive integers in centrality (cf. A080997 for fuller description of this concept).",
+  "id": "A081000",
+  "mentions": [
+    "A018804",
+    "A080997",
+    "A080998",
+    "A081001",
+    "A081029"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n with property that (product of digits of n) is divisible by (sum of digits of n).",
+  "id": "A038367",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A011540",
+    "A055931",
+    "A061013"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

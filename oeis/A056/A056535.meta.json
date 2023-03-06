@@ -1,0 +1,25 @@
+{
+  "description": "Mapping from the ordering by sum to the ordering by product of the ordered pairs. Inverse permutation to A056534.",
+  "id": "A056535",
+  "mentions": [
+    "A000005",
+    "A000217",
+    "A006218",
+    "A027750",
+    "A054426",
+    "A054519",
+    "A056534"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:33:19",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

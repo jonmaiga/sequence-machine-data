@@ -1,0 +1,20 @@
+{
+  "description": "Number of perfect matchings in graph P_{6} x P_{6} x P_{n}.",
+  "id": "A049507",
+  "mentions": [
+    "A006253",
+    "A028452",
+    "A028454"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

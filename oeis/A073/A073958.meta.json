@@ -1,0 +1,19 @@
+{
+  "description": "Fibonacci numbers for which the number of prime factors (with multiplicity) is a Fibonacci number.",
+  "id": "A073958",
+  "mentions": [
+    "A000045",
+    "A005478"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

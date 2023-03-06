@@ -1,0 +1,18 @@
+{
+  "description": "Write Pi = Sum_{n>=1} 1/sqrt(a(n)), where each a(n) is minimal, unique and the sum approaches Pi from below.",
+  "id": "A091930",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

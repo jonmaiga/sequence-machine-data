@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes of the form n+p, where p is a prime < n.",
+  "id": "A092953",
+  "mentions": [
+    "A007921",
+    "A030173",
+    "A040976",
+    "A061357",
+    "A092954"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

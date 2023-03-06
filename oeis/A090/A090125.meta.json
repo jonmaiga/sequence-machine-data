@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least positive integer such that nextprime(a(n)^n) - prevprime(a(n)^n) = 4.",
+  "id": "A090125",
+  "mentions": [
+    "A090121",
+    "A090122",
+    "A090123",
+    "A090124"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

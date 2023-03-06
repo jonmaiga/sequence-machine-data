@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest palindrome > a(n-1) such that a(1)*a(2)*...*a(n) - 1 is a prime.",
+  "id": "A051954",
+  "mentions": [
+    "A002113",
+    "A051896",
+    "A051934"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that for any x in 1..k-1 there exists a y in 0..k-2 such that x^2 == 2^y (mod k).",
+  "id": "A050229",
+  "mentions": [
+    "A001122",
+    "A071642",
+    "A082595"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:41",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

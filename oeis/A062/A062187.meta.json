@@ -1,0 +1,21 @@
+{
+  "description": "a(n+1) = a(n) - a(floor(n/2)), with a(0)=0, a(1)=1.",
+  "id": "A062187",
+  "mentions": [
+    "A033485",
+    "A061287",
+    "A062186",
+    "A062188"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

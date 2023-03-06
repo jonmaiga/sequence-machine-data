@@ -1,0 +1,19 @@
+{
+  "description": "Record values for size of sea of composite numbers surrounding primes.",
+  "id": "A098968",
+  "mentions": [
+    "A046930",
+    "A046931",
+    "A098969"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sum of members of n-th group in A076063 divided by n-th composite number.",
+  "id": "A076067",
+  "mentions": [
+    "A076063",
+    "A076064",
+    "A076065",
+    "A076066"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

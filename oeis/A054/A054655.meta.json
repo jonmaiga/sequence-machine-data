@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) giving coefficients in expansion of n!*binomial(x-n,n) in powers of x.",
+  "id": "A054655",
+  "mentions": [
+    "A000407",
+    "A008276",
+    "A054649",
+    "A054651",
+    "A054654"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

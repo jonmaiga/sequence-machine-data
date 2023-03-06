@@ -1,0 +1,20 @@
+{
+  "description": "Group successively larger prime numbers so that the sum of the n-th group is a multiple of n. Sequence gives the sum for each group.",
+  "id": "A074128",
+  "mentions": [
+    "A000040",
+    "A074129",
+    "A074130",
+    "A074131"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

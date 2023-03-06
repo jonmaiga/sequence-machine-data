@@ -1,0 +1,15 @@
+{
+  "description": "tanh(tan(x)+sin(x))=2*x-15/3!*x^3+449/5!*x^5-28721/7!*x^7...",
+  "id": "A012943",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:31:29",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

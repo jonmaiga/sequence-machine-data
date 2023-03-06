@@ -1,0 +1,21 @@
+{
+  "description": "Primes p with same final decimal digit as k, p = prime(k).",
+  "id": "A085598",
+  "mentions": [
+    "A010879",
+    "A049084",
+    "A271043"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

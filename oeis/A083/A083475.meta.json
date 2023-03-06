@@ -1,0 +1,18 @@
+{
+  "description": "Consider the set of all the numbers n*k where 1 <= k <= n. Then a(n) = number of palindromic members of this set.",
+  "id": "A083475",
+  "mentions": [
+    "A083476"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

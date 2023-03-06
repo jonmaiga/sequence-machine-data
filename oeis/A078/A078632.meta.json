@@ -1,0 +1,19 @@
+{
+  "description": "Number of geometric subsequences of [1,...,n] with integral successive-term ratio and length > 1.",
+  "id": "A078632",
+  "mentions": [
+    "A078651"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "For each permutation p of {1,2,...,n} define maxjump(p) = max(p(i) - i); a(n) is sum of maxjumps of all p.",
+  "id": "A018927",
+  "mentions": [
+    "A056151",
+    "A127452",
+    "A130153",
+    "A180190"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

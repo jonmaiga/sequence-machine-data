@@ -1,0 +1,22 @@
+{
+  "description": "Sum of divisors of 10^n.",
+  "id": "A046915",
+  "mentions": [
+    "A000203",
+    "A049000",
+    "A072692",
+    "A160870"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

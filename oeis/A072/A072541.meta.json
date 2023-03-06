@@ -1,0 +1,18 @@
+{
+  "description": "List of pairs of numbers (k, k+4), where k-1 and k+3 are primes.",
+  "id": "A072541",
+  "mentions": [
+    "A023200"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

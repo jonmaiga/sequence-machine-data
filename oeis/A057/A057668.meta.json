@@ -1,0 +1,26 @@
+{
+  "description": "Number of minimal 7-covers of a labeled n-set.",
+  "id": "A057668",
+  "mentions": [
+    "A000392",
+    "A003468",
+    "A005783",
+    "A005786",
+    "A016111",
+    "A046166",
+    "A046169",
+    "A055066"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:03:28",
+    "offset": 7,
+    "size": 13,
+    "source": "joeis"
+  }
+}

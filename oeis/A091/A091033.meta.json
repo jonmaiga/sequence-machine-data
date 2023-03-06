@@ -1,0 +1,30 @@
+{
+  "description": "Third column (k=4) of array A090438 ((4,2)-Stirling2).",
+  "id": "A091033",
+  "mentions": [
+    "A000384",
+    "A001620",
+    "A049469",
+    "A049470",
+    "A073742",
+    "A090438",
+    "A091032",
+    "A091034",
+    "A099281",
+    "A099282",
+    "A099283",
+    "A099284"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:39:45",
+    "offset": 2,
+    "size": 12,
+    "source": "joeis"
+  }
+}

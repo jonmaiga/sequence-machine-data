@@ -1,0 +1,21 @@
+{
+  "description": "Smallest positive integer for which the number of divisors is a product of 2 distinct primes: Min{x; d[x]=pq}.",
+  "id": "A061148",
+  "mentions": [
+    "A000005",
+    "A005117",
+    "A005179",
+    "A006881"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

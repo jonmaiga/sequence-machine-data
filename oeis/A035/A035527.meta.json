@@ -1,0 +1,17 @@
+{
+  "description": "Harmonic seed numbers.",
+  "id": "A035527",
+  "mentions": [
+    "A001599"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

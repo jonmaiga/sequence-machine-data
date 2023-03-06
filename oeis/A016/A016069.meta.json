@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k^2 contains exactly 2 distinct digits.",
+  "id": "A016069",
+  "mentions": [
+    "A016070",
+    "A018884",
+    "A018885",
+    "A057659"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

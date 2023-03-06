@@ -1,0 +1,19 @@
+{
+  "description": "A001003(p-1)/p where p runs through the odd primes.",
+  "id": "A075762",
+  "mentions": [
+    "A001003"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

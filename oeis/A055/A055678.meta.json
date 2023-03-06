@@ -1,0 +1,18 @@
+{
+  "description": "Integers not congruent to 0 (mod 6) that are divisible by the number of their divisors.",
+  "id": "A055678",
+  "mentions": [
+    "A033950",
+    "A047253"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

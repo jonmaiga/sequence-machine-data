@@ -1,0 +1,22 @@
+{
+  "description": "Smallest start of n consecutive numbers with distinct prime signatures.",
+  "id": "A083790",
+  "mentions": [
+    "A034173",
+    "A083788",
+    "A083789",
+    "A083791",
+    "A124058"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

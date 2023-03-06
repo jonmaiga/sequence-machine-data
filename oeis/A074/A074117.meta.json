@@ -1,0 +1,21 @@
+{
+  "description": "Smallest n-digit power of 3.",
+  "id": "A074117",
+  "mentions": [
+    "A067488",
+    "A074116",
+    "A074118"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

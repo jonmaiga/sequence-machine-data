@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Pi*e/2.",
+  "id": "A019610",
+  "mentions": [
+    "A019609",
+    "A241420",
+    "A241421"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:29",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

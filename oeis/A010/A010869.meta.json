@@ -1,0 +1,20 @@
+{
+  "description": "Constant sequence: a(n) = 30.",
+  "id": "A010869",
+  "mentions": [
+    "A007947",
+    "A143207"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:07:15",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

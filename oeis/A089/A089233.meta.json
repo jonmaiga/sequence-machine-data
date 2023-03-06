@@ -1,0 +1,24 @@
+{
+  "description": "Number of coprime pairs of divisors > 1 of n.",
+  "id": "A089233",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A006881",
+    "A018892",
+    "A054753",
+    "A063647",
+    "A065036"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

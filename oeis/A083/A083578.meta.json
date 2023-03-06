@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (6^n + (-4)^n)/2.",
+  "id": "A083578",
+  "mentions": [
+    "A051958",
+    "A083579"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:52:21",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

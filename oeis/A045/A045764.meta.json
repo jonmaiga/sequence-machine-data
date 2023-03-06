@@ -1,0 +1,17 @@
+{
+  "description": "n + 1 - d(n) - phi(n) never takes these values (conjecture).",
+  "id": "A045764",
+  "mentions": [
+    "A045763"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 14:41:45",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

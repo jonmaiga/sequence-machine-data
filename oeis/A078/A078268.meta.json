@@ -1,0 +1,22 @@
+{
+  "description": "Smallest integer which is an integer multiple of the number N obtained by placing the string \"n\" after a decimal point.",
+  "id": "A078268",
+  "mentions": [
+    "A055642",
+    "A068822",
+    "A078267"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

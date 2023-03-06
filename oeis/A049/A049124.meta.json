@@ -1,0 +1,25 @@
+{
+  "description": "Revert transform of (-1 + x + x^2)/((x - 1)*(x + 1)).",
+  "id": "A049124",
+  "mentions": [
+    "A000108",
+    "A003168",
+    "A011973",
+    "A039599",
+    "A269228",
+    "A319120"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

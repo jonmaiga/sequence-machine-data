@@ -1,0 +1,22 @@
+{
+  "description": "Pure numbers in the Collatz (3x+1) iteration. Also called pure hailstone numbers.",
+  "id": "A061641",
+  "mentions": [
+    "A016945",
+    "A070165",
+    "A127633",
+    "A177729",
+    "A336938"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

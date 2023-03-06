@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of running averages of A052409.",
+  "id": "A086196",
+  "mentions": [
+    "A052409",
+    "A086195"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

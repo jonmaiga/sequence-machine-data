@@ -1,0 +1,17 @@
+{
+  "description": "Minimal last term of an n-tuple of pairwise coprime composites in A.P.",
+  "id": "A087795",
+  "mentions": [
+    "A087796"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

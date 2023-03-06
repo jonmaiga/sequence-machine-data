@@ -1,0 +1,20 @@
+{
+  "description": "Smallest palindrome beginning with n and digit sum n, or 0 if no such number exists.",
+  "id": "A082217",
+  "mentions": [
+    "A056544",
+    "A082216"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

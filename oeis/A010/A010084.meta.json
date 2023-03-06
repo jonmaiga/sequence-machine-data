@@ -1,0 +1,22 @@
+{
+  "description": "Weight distribution of extended Hamming code of length 256.",
+  "id": "A010084",
+  "mentions": [
+    "A010080",
+    "A010081",
+    "A010082",
+    "A010083"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "For n>3, a(n) is the number of elements in the Coxeter complex of type D_n (although the sequence starts at n=0. See comments below for precise explanation).",
+  "id": "A080254",
+  "mentions": [
+    "A000670",
+    "A066094",
+    "A080253"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

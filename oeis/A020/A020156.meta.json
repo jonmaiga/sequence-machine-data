@@ -1,0 +1,17 @@
+{
+  "description": "Pseudoprimes to base 28.",
+  "id": "A020156",
+  "mentions": [
+    "A001567"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 15:53:37",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

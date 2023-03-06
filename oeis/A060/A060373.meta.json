@@ -1,0 +1,22 @@
+{
+  "description": "q(n), negative part of n when n=p(n)-q(n) with p(n), q(n), p(n)+q(n) in A005836, integers written without 2 in base 3.",
+  "id": "A060373",
+  "mentions": [
+    "A005836",
+    "A060372",
+    "A060374"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

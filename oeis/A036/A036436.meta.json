@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose number of divisors is a square.",
+  "id": "A036436",
+  "mentions": [
+    "A009087",
+    "A033950",
+    "A036455",
+    "A049439",
+    "A057265"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

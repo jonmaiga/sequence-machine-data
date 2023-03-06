@@ -1,0 +1,22 @@
+{
+  "description": "Look and Say sequence: describe the previous term! (method C - initial term is 2).",
+  "id": "A023989",
+  "mentions": [
+    "A005150",
+    "A005151",
+    "A022481",
+    "A045918",
+    "A118628"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:21:07",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Obtain m by omitting trailing zeros from n; a(n) = smallest multiple k*m which is a palindrome with even digits, or -1 if no such multiple exists.",
+  "id": "A061915",
+  "mentions": [
+    "A050782",
+    "A061816",
+    "A061906",
+    "A061916",
+    "A062293"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = d(d(d(d(d(n))))), the 5th iterate of the number-of-divisors function d = A000005, with initial value n.",
+  "id": "A036453",
+  "mentions": [
+    "A000005",
+    "A007395",
+    "A010553",
+    "A036450",
+    "A036452"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of pairs of polynomials (f,g) in GF(3)[x] satisfying deg(f) <= n, deg(g) <= n and gcd(f,g) = 1.",
+  "id": "A087290",
+  "mentions": [
+    "A087289",
+    "A087291",
+    "A087292"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:18:21",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of non-unitary square divisors of central binomial coefficient.",
+  "id": "A056649",
+  "mentions": [
+    "A000188",
+    "A001221",
+    "A001405",
+    "A008833",
+    "A034444",
+    "A055229",
+    "A056056",
+    "A056057",
+    "A056059",
+    "A056061"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:25",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

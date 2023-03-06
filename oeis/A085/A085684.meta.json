@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k), n >= 0, 0 <= k <= n, is size of maximal 1-transposition-correcting code formed using binary vectors of length n and weight k.",
+  "id": "A085684",
+  "mentions": [
+    "A057608",
+    "A085680",
+    "A265032"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

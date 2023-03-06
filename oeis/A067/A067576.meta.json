@@ -1,0 +1,22 @@
+{
+  "description": "Array T(i,j) read by downward antidiagonals, where T(i,j) is the j-th term whose binary expansion has i 1's.",
+  "id": "A067576",
+  "mentions": [
+    "A000120",
+    "A066884",
+    "A356419"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Bit-masks of A068222 shown in binary.",
+  "id": "A068224",
+  "mentions": [
+    "A068059",
+    "A068222",
+    "A068223",
+    "A068739"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

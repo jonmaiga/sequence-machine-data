@@ -1,0 +1,20 @@
+{
+  "description": "Difference between the sum of odd-indexed primes and even-indexed primes.",
+  "id": "A077133",
+  "mentions": [
+    "A008347",
+    "A077126",
+    "A077131"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:34:53",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

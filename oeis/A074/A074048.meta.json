@@ -1,0 +1,29 @@
+{
+  "description": "Pentanacci numbers with initial conditions a(0)=5, a(1)=1, a(2)=3, a(3)=7, a(4)=15.",
+  "id": "A074048",
+  "mentions": [
+    "A000032",
+    "A000078",
+    "A001630",
+    "A001644",
+    "A023424",
+    "A073817",
+    "A074062",
+    "A106273",
+    "A106297",
+    "A123126",
+    "A123127"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "\"Binary potency\" of n: length of shortest blocks of 0's inserted between the bits of n required to \"dilute\" it into a nonprime.",
+  "id": "A064891",
+  "mentions": [
+    "A000040",
+    "A064892",
+    "A064893"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

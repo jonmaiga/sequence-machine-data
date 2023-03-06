@@ -1,0 +1,15 @@
+{
+  "description": "Primes that remain prime through 2 iterations of function f(x) = 8x + 7.",
+  "id": "A023263",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:17:11",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

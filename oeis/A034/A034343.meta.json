@@ -1,0 +1,24 @@
+{
+  "description": "Number of inequivalent binary linear codes of length n and any dimension k <= n containing no column of zeros.",
+  "id": "A034343",
+  "mentions": [
+    "A034337",
+    "A034338",
+    "A034339",
+    "A034340",
+    "A034341",
+    "A034342",
+    "A076832"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

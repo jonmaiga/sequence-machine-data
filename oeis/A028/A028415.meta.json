@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of Sum_{k=1..n} 1/phi(k).",
+  "id": "A028415",
+  "mentions": [
+    "A000010",
+    "A001620",
+    "A048049",
+    "A082695",
+    "A085609"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

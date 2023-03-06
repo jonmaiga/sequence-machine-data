@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled ordered trees with n nodes such that the root is smaller than all its children.",
+  "id": "A071214",
+  "mentions": [
+    "A000108",
+    "A000312"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

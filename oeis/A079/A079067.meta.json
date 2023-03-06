@@ -1,0 +1,25 @@
+{
+  "description": "Number of primes less than greatest prime factor of n but not dividing n.",
+  "id": "A079067",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A002110",
+    "A006530",
+    "A049084",
+    "A061395",
+    "A079068",
+    "A215366"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

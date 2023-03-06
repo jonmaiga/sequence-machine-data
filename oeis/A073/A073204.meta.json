@@ -1,0 +1,29 @@
+{
+  "description": "Array of LCMs-of-cycle-lengths sequences for the table A073200.",
+  "id": "A073204",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A011782",
+    "A014137",
+    "A014138",
+    "A014486",
+    "A057544",
+    "A060114",
+    "A063171",
+    "A073200",
+    "A073201",
+    "A073203"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

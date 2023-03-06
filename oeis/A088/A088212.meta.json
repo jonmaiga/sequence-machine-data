@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k>1 such that n+k^2 is prime.",
+  "id": "A088212",
+  "mentions": [
+    "A088213"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

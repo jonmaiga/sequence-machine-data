@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest strictly increasing decimal autovarious sequence: a(n) = number of distinct n-digit endings (left-zero-padded) of elements in the sequence.",
+  "id": "A037089",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:34:01",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

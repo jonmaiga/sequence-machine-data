@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A026166(j) < A026166(k) for all j < k.",
+  "id": "A026168",
+  "mentions": [
+    "A026166"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:51",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

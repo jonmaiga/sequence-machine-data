@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 1/93.",
+  "id": "A021097",
+  "mentions": [
+    "A000420",
+    "A010701"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:11:29",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

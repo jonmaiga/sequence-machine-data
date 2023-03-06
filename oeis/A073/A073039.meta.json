@@ -1,0 +1,19 @@
+{
+  "description": "First multiple of n in A025487.",
+  "id": "A073039",
+  "mentions": [
+    "A002110",
+    "A025487"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

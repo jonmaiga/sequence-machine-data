@@ -1,0 +1,19 @@
+{
+  "description": "Row products of A081957.",
+  "id": "A081960",
+  "mentions": [
+    "A081957",
+    "A081958",
+    "A081959"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Define the sequence T(a(0),a(1)) by a(n+2) is the greatest integer such that a(n+2)/a(n+1) < a(n+1)/a(n) for n >= 0. This is T(4,10).",
+  "id": "A019494",
+  "mentions": [
+    "A020748"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

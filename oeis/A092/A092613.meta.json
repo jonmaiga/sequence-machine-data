@@ -1,0 +1,16 @@
+{
+  "description": "Let p_i(n) = n-th prime ending in i; then a(n) = p_1(n) + p_3(n) + p_7(n) + p_9(n).",
+  "id": "A092613",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of iterations of the map A034690 (x -> sum of digits of all divisors of x) required to reach one of the fixed points, 15 or 1.",
+  "id": "A086793",
+  "mentions": [
+    "A034690",
+    "A095347",
+    "A114527",
+    "A118358"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

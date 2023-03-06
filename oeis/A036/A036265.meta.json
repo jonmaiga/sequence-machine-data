@@ -1,0 +1,18 @@
+{
+  "description": "4th differences of primes.",
+  "id": "A036265",
+  "mentions": [
+    "A036264"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

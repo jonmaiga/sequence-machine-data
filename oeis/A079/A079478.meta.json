@@ -1,0 +1,21 @@
+{
+  "description": "Coefficient of x^0 in P(n,x) = (Product_{i=0..n-1} i!^2)/matdet(M(n)) of degree n^2 where M(n) is the n X n matrix m(i,j) = 1/(i+j+x).",
+  "id": "A079478",
+  "mentions": [
+    "A000178",
+    "A000984",
+    "A009963",
+    "A011379"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

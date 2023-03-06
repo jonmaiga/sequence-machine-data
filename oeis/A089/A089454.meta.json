@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-celled polyominoes with exactly 2 holes.",
+  "id": "A089454",
+  "mentions": [
+    "A001419",
+    "A057418",
+    "A089455",
+    "A089456",
+    "A089457",
+    "A089458"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

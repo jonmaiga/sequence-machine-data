@@ -1,0 +1,42 @@
+{
+  "description": "a(n) is both the sum of n+1 consecutive integers and the sum of the n immediately higher consecutive integers.",
+  "id": "A059270",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000326",
+    "A000330",
+    "A000578",
+    "A001318",
+    "A002061",
+    "A002378",
+    "A005408",
+    "A005449",
+    "A005563",
+    "A005843",
+    "A006331",
+    "A008585",
+    "A033428",
+    "A055112",
+    "A059255",
+    "A098737",
+    "A109900",
+    "A110449",
+    "A126890",
+    "A163300",
+    "A222716",
+    "A234319"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:19:57",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

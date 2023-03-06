@@ -1,0 +1,21 @@
+{
+  "description": "Positions of positive coefficients in cyclotomic polynomial Phi_n(x), converted from binary to decimal.",
+  "id": "A063696",
+  "mentions": [
+    "A013594",
+    "A019320",
+    "A063694",
+    "A063697",
+    "A063698"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

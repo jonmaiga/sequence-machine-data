@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(n) = smallest number such that a(n) - a(n-k) is a prime power > 1 for all k.",
+  "id": "A073608",
+  "mentions": [
+    "A073607"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

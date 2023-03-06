@@ -1,0 +1,17 @@
+{
+  "description": "Denominator of coefficient of Pi^n in Ramanujan-like series for Zeta[4n+3].",
+  "id": "A057867",
+  "mentions": [
+    "A057866"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

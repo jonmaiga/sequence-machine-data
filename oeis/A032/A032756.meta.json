@@ -1,0 +1,19 @@
+{
+  "description": "Palindromic Super-8 Numbers.",
+  "id": "A032756",
+  "mentions": [
+    "A014569",
+    "A032748"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

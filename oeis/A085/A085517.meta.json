@@ -1,0 +1,21 @@
+{
+  "description": "Weight enumerator of [16,7,6] extended BCH code.",
+  "id": "A085517",
+  "mentions": [
+    "A085518",
+    "A085519",
+    "A109475"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

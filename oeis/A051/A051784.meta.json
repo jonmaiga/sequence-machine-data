@@ -1,0 +1,17 @@
+{
+  "description": "Apply the \"Stirling-Bernoulli transform\" to A000081 = (1,1,1,2,4,9,20,...), rooted trees.",
+  "id": "A051784",
+  "mentions": [
+    "A000081"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

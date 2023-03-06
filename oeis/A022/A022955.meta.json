@@ -1,0 +1,17 @@
+{
+  "description": "Unique increasing sequence satisfying a(n) = a(n-3) + c(n-3); where c( ) is complement of a( ).",
+  "id": "A022955",
+  "mentions": [
+    "A005228"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

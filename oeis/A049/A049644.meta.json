@@ -1,0 +1,19 @@
+{
+  "description": "T(n,n), array T given by A049639.",
+  "id": "A049644",
+  "mentions": [
+    "A049639",
+    "A049691",
+    "A206297"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

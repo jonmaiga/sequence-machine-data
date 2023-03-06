@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form (n+1)^n - n^n, n >= 1.",
+  "id": "A086877",
+  "mentions": [
+    "A085682",
+    "A098463"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

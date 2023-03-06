@@ -1,0 +1,20 @@
+{
+  "description": "Primes that are the sum of a prime number of consecutive primes.",
+  "id": "A082283",
+  "mentions": [
+    "A034962",
+    "A348790",
+    "A348791"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

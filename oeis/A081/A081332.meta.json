@@ -1,0 +1,21 @@
+{
+  "description": "Numbers having a unique partition into two 3-smooth numbers.",
+  "id": "A081332",
+  "mentions": [
+    "A003586",
+    "A081326",
+    "A081330",
+    "A081333"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

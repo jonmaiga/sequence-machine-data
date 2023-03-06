@@ -1,0 +1,27 @@
+{
+  "description": "Smallest prime that divides sigma(n) = A000203(n) and sigma_2(n) = A001157(n), or 1 if sigma(n) and sigma_2(n) are relatively prime.",
+  "id": "A082072",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A020639",
+    "A082066",
+    "A082067",
+    "A082068",
+    "A082069",
+    "A082070",
+    "A082071",
+    "A179931"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

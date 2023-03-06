@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1-x)^2(1+x)/(1+x+x^2).",
+  "id": "A099838",
+  "mentions": [
+    "A099837"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:21:57",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

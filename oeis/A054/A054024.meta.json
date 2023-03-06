@@ -1,0 +1,27 @@
+{
+  "description": "Sum of the divisors of n reduced modulo n.",
+  "id": "A054024",
+  "mentions": [
+    "A000203",
+    "A005114",
+    "A007691",
+    "A045768",
+    "A045769",
+    "A045770",
+    "A076496",
+    "A088834",
+    "A159907"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of ways of seating n couples around a circular table so that exactly k married couples are adjacent (0 <= k <= n).",
+  "id": "A094314",
+  "mentions": [
+    "A000033",
+    "A000159",
+    "A000166",
+    "A000179",
+    "A000181",
+    "A000425",
+    "A058087"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Mersenne prime exponents (A000043) which are also Sophie Germain primes (A005384).",
+  "id": "A065406",
+  "mentions": [
+    "A000043",
+    "A005384"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

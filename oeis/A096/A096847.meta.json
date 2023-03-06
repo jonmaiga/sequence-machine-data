@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A094471(n) is prime.",
+  "id": "A096847",
+  "mentions": [
+    "A094471",
+    "A096848"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

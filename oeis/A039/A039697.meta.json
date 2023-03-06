@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum(p_j) * Sum(k_j) where n = Product(p_j^k_j).",
+  "id": "A039697",
+  "mentions": [
+    "A001222",
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Concatenation of Fibonacci(1) through Fibonacci(n).",
+  "id": "A019523",
+  "mentions": [
+    "A000045",
+    "A038399",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

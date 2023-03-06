@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by antidiagonals alternately upwards and downwards. A(i, j) is the least positive integer not occurring earlier in the sequence such that (1) if j > 1, then the j-th partial sum of the i-th row is prime; and (2) if i > 1, then the i-th partial sum of the j-th column is composite (with A(1,1) = 1).",
+  "id": "A082224",
+  "mentions": [
+    "A082225",
+    "A082226",
+    "A082227",
+    "A082228"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Maximum number of minimum pseudo-triangulations of n points in the plane.",
+  "id": "A063646",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of primitive (aperiodic) palindromic structures using exactly two different symbols.",
+  "id": "A056481",
+  "mentions": [
+    "A000007",
+    "A056391",
+    "A056463",
+    "A056476",
+    "A284826"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:07:19",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

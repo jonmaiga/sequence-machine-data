@@ -1,0 +1,18 @@
+{
+  "description": "Nearest integer to Gamma(n + 3/11)/Gamma(3/11).",
+  "id": "A020012",
+  "mentions": [
+    "A020057",
+    "A020102"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

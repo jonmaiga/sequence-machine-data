@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k), 0<=k<=n, formed from coefficients when formula for n-th diagonal of triangle in A059718 is written as a sum of binomial coefficients.",
+  "id": "A059720",
+  "mentions": [
+    "A000111",
+    "A059219",
+    "A059718",
+    "A059724",
+    "A059725",
+    "A059726"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

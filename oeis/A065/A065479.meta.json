@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Product_{p prime >= 3} (1 - 1/(p^2-p-1)).",
+  "id": "A065479",
+  "mentions": [
+    "A001692",
+    "A065491",
+    "A078089"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

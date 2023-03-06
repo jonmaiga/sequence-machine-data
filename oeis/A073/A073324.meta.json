@@ -1,0 +1,22 @@
+{
+  "description": "Smallest x such that prime(x) mod c(x) = n, where prime(j) is the j-th prime, c(j) is the j-th composite number.",
+  "id": "A073324",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A065859",
+    "A073325",
+    "A073326"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

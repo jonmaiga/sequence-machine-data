@@ -1,0 +1,25 @@
+{
+  "description": "Intrinsic 7-palindromes: n is an intrinsic k-palindrome if it is a k-digit palindrome in some base.",
+  "id": "A060877",
+  "mentions": [
+    "A060873",
+    "A060874",
+    "A060875",
+    "A060876",
+    "A060878",
+    "A060879",
+    "A060947",
+    "A060949"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of different values of A007947(m_k) when A007947(m_j) = A007947(m_k) and A056239(m_j) = A056239(m_k) = n, where k>1 ( j runs from 1 to k-1 ).",
+  "id": "A088318",
+  "mentions": [
+    "A007947",
+    "A056239"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

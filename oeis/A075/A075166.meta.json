@@ -1,0 +1,28 @@
+{
+  "description": "Natural numbers mapped to Dyck path encodings of the rooted plane trees obtained by recursing on the exponents of the prime factorization of n.",
+  "id": "A075166",
+  "mentions": [
+    "A007088",
+    "A061773",
+    "A063171",
+    "A075165",
+    "A075167",
+    "A075171",
+    "A091247",
+    "A106442",
+    "A106456"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

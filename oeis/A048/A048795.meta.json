@@ -1,0 +1,21 @@
+{
+  "description": "Concatenate p p times, where p runs through the primes.",
+  "id": "A048795",
+  "mentions": [
+    "A000040",
+    "A000461"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:58:39",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

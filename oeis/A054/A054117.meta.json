@@ -1,0 +1,18 @@
+{
+  "description": "T(n,n-2), array T as in A054115.",
+  "id": "A054117",
+  "mentions": [
+    "A054115"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:53:38",
+    "offset": 2,
+    "size": 17,
+    "source": "joeis"
+  }
+}

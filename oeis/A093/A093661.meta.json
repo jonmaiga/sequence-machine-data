@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A093660.",
+  "id": "A093661",
+  "mentions": [
+    "A010842",
+    "A093658",
+    "A093660"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

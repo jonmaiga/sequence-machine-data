@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of partial derangements, that is, the number of permutations of n distinct, ordered items in which exactly k of the items are in their natural ordered positions, for n >= 0, k = n, n-1, ..., 1, 0.",
+  "id": "A098825",
+  "mentions": [
+    "A000166",
+    "A007318",
+    "A008290",
+    "A281262"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

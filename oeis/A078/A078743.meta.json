@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the Fibonacci index of b(n) in the sequence b(1), b(2), ... where b(n) is the smallest Fibonacci number > b(n-1) such that b(1) + ... + b(n) is prime.",
+  "id": "A078743",
+  "mentions": [
+    "A000045",
+    "A078742"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

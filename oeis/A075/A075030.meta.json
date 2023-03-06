@@ -1,0 +1,24 @@
+{
+  "description": "Primes for which the four closest primes are smaller.",
+  "id": "A075030",
+  "mentions": [
+    "A001223",
+    "A074979",
+    "A074982",
+    "A075037",
+    "A075038",
+    "A075043",
+    "A075050",
+    "A075051"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Denominators used in A089505 to compute column sequences of triangle A089504.",
+  "id": "A089506",
+  "mentions": [
+    "A089504",
+    "A089505"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Let S = {1,5,9,13,..., 4n+1, ...} and call p in S an S-prime if p>1 and the only divisors of p in S are 1 and p; sequence gives elements of S that are not S-primes.",
+  "id": "A054520",
+  "mentions": [
+    "A057948",
+    "A057949",
+    "A057950"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

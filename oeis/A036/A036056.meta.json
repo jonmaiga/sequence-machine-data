@@ -1,0 +1,17 @@
+{
+  "description": "Sum of the lengths of the cycle types of the permutation created by length sorting on the partitions of n.",
+  "id": "A036056",
+  "mentions": [
+    "A036045"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:11",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

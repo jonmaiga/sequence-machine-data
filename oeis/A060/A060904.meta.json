@@ -1,0 +1,29 @@
+{
+  "description": "Largest power of 5 that divides n.",
+  "id": "A060904",
+  "mentions": [
+    "A000045",
+    "A000203",
+    "A001620",
+    "A038500",
+    "A060865",
+    "A060901",
+    "A112765",
+    "A132739",
+    "A268354",
+    "A268357"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:47:25",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

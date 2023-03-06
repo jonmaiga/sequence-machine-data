@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: each row represents all possible values for the size of the subset S{n - x} of {2^n...2^(n+1) - 1}, where S{n - x} represents all the members of that set with n - x factors.",
+  "id": "A096352",
+  "mentions": [
+    "A000201",
+    "A036378",
+    "A052130",
+    "A092097"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

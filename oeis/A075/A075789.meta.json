@@ -1,0 +1,20 @@
+{
+  "description": "Value of i, when n is written as r^i - s^j with the smallest possible r^i (with minimal i) and r, s > 0, i, j > 1; or 0 if n is not of this form.",
+  "id": "A075789",
+  "mentions": [
+    "A074981",
+    "A075788",
+    "A075790",
+    "A075791"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

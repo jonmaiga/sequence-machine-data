@@ -1,0 +1,26 @@
+{
+  "description": "Third column of triangle A054450 (partial row sums of unsigned Chebyshev triangle A049310).",
+  "id": "A054451",
+  "mentions": [
+    "A000045",
+    "A007382",
+    "A027941",
+    "A049310",
+    "A052952",
+    "A054450",
+    "A054452",
+    "A173284"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) = prime(n+1) - prime(n-k+1), 1<=k<=n, triangular array read by rows.",
+  "id": "A090321",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A040976",
+    "A086800"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

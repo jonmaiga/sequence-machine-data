@@ -1,0 +1,21 @@
+{
+  "description": "Square spiral of sums of selected preceding terms, starting at 1 (a spiral Fibonacci-like sequence).",
+  "id": "A094768",
+  "mentions": [
+    "A063826",
+    "A094767",
+    "A094769",
+    "A126937",
+    "A141481"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

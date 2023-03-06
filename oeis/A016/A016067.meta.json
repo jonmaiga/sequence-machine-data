@@ -1,0 +1,19 @@
+{
+  "description": "Consider all ways of writing a number as p+2m^2 where p is 1 or a prime and m >= 0; sequence gives numbers that are expressible in at least 2 more ways than any smaller number.",
+  "id": "A016067",
+  "mentions": [
+    "A007697",
+    "A046920"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

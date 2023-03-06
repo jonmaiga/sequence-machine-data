@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(m,s), m >= 0, 0 <= s <= m, arising in the computation of certain integrals.",
+  "id": "A059366",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A000165",
+    "A000984",
+    "A001147",
+    "A001193",
+    "A001194",
+    "A001756",
+    "A001757"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:32:01",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

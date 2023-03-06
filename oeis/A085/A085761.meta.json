@@ -1,0 +1,16 @@
+{
+  "description": "Number of triangular numbers between n and 2n (inclusive).",
+  "id": "A085761",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

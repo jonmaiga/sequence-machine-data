@@ -1,0 +1,21 @@
+{
+  "description": "Start with n and repeatedly apply the map k -> T(k) = A053837(k) + A171765(k); a(n) is the number of steps (at least one) until a prime is reached, or 0 if no prime is ever reached.",
+  "id": "A074871",
+  "mentions": [
+    "A053837",
+    "A171765",
+    "A171772"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

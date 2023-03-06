@@ -1,0 +1,20 @@
+{
+  "description": "Number of 8-antichain covers of a labeled n-set.",
+  "id": "A056101",
+  "mentions": [
+    "A051116",
+    "A056046",
+    "A056049",
+    "A056052"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 5,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

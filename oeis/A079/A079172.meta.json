@@ -1,0 +1,22 @@
+{
+  "description": "Number of non-associative closed binary operations on a set of order n.",
+  "id": "A079172",
+  "mentions": [
+    "A002489",
+    "A023814",
+    "A079173",
+    "A079174",
+    "A079210"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

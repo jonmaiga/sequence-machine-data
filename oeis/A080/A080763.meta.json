@@ -1,0 +1,31 @@
+{
+  "description": "Exchange 1's and 2's in the eta-sequence A006337.",
+  "id": "A080763",
+  "mentions": [
+    "A001951",
+    "A001952",
+    "A003151",
+    "A003152",
+    "A006337",
+    "A022921",
+    "A082844",
+    "A097509",
+    "A115004",
+    "A159684",
+    "A188037",
+    "A245219",
+    "A276862"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

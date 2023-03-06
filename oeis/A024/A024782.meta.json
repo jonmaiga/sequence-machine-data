@@ -1,0 +1,26 @@
+{
+  "description": "Every suffix prime and no 0 digits in base 7 (written in base 7).",
+  "id": "A024782",
+  "mentions": [
+    "A024779",
+    "A024780",
+    "A024781",
+    "A024783",
+    "A024784",
+    "A024785"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

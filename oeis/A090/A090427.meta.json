@@ -1,0 +1,20 @@
+{
+  "description": "Let b(0)=0; b(1)=1; b(n+2)=(e^g-1/e^g)*b(n+1)+b(n). a(n)=floor(b(n)).",
+  "id": "A090427",
+  "mentions": [
+    "A090039",
+    "A090426",
+    "A093607",
+    "A093608"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

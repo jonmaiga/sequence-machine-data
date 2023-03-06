@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of (prime(n)+1)*(prime(n+1)+1)/(4*(prime(n)*prime(n+1)+1).",
+  "id": "A079081",
+  "mentions": [
+    "A023523",
+    "A079079",
+    "A079080",
+    "A079082"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

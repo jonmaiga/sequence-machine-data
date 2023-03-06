@@ -1,0 +1,22 @@
+{
+  "description": "Sum of terms in n-th row of triangle in A073932.",
+  "id": "A073934",
+  "mentions": [
+    "A032742",
+    "A060681",
+    "A073932",
+    "A073933",
+    "A073935"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

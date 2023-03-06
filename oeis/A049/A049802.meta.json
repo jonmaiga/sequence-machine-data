@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n mod 2 + n mod 4 + ... + n mod 2^k, where 2^k <= n < 2^(k+1).",
+  "id": "A049802",
+  "mentions": [
+    "A049803",
+    "A049804",
+    "A070939",
+    "A080277",
+    "A330358"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

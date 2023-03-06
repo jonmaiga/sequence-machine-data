@@ -1,0 +1,20 @@
+{
+  "description": "Numerical equivalents of the words zero, one, two, three, ... on touch-tone telephone.",
+  "id": "A079048",
+  "mentions": [
+    "A055069",
+    "A079001"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:44:39",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

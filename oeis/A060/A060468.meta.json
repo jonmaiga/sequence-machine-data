@@ -1,0 +1,24 @@
+{
+  "description": "Number of fair distributions (equal sum) of the integers {1,..,4n} between A and B = number of solutions to the equation {+-1 +-2 +- 3 ... +-4*n = 0}.",
+  "id": "A060468",
+  "mentions": [
+    "A000980",
+    "A025591",
+    "A060005",
+    "A063074",
+    "A063865",
+    "A063867"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

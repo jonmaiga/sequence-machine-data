@@ -1,0 +1,20 @@
+{
+  "description": "Rearrangement of primes such that every partial product + 1 is a prime.",
+  "id": "A083771",
+  "mentions": [
+    "A005235",
+    "A039726",
+    "A083772",
+    "A158076"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

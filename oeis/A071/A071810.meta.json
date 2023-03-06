@@ -1,0 +1,21 @@
+{
+  "description": "Number of subsets of the first n primes whose sum is a prime.",
+  "id": "A071810",
+  "mentions": [
+    "A000040",
+    "A000341",
+    "A010051",
+    "A108018"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

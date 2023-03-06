@@ -1,0 +1,17 @@
+{
+  "description": "Convolution of odd numbers and A000201.",
+  "id": "A023658",
+  "mentions": [
+    "A000201"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:19:33",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

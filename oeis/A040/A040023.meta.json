@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction expansion of Pi*exp(2*Pi-Pi^2/2).",
+  "id": "A040023",
+  "mentions": [
+    "A037996"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:14",
+    "offset": 2,
+    "size": 76,
+    "source": "joeis"
+  }
+}

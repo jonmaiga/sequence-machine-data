@@ -1,0 +1,18 @@
+{
+  "description": "All possible products in increasing order of two distinct members of the unary sequence 1, 11, 111, 1111, 11111, ...given by A000042.",
+  "id": "A077488",
+  "mentions": [
+    "A000042"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

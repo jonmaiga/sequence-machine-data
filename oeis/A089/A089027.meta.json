@@ -1,0 +1,17 @@
+{
+  "description": "a(n) =1 if the prime gap A001223(n) is <=2, otherwise a(n)=n+1.",
+  "id": "A089027",
+  "mentions": [
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

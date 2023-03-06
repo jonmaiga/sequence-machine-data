@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that n^3 starts with n itself (in base 10).",
+  "id": "A052210",
+  "mentions": [
+    "A052211",
+    "A233451",
+    "A233452",
+    "A233453",
+    "A233454",
+    "A233455",
+    "A233456",
+    "A261751"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

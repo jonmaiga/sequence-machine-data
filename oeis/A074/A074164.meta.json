@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k such that R(k) > n*k, where R(k) is the digit reversal of k (A004086) (the reversal of 10 is taken to be 01 = 1, etc.).",
+  "id": "A074164",
+  "mentions": [
+    "A004086",
+    "A074163"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

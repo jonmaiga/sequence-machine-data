@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k such that k - A000215(j), j=0..n, are all primes.",
+  "id": "A063897",
+  "mentions": [
+    "A000215"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

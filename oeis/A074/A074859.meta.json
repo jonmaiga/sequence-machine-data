@@ -1,0 +1,25 @@
+{
+  "description": "Number of elements of S_n having the maximum possible order g(n), where g(n) is Landau's function (A000793).",
+  "id": "A074859",
+  "mentions": [
+    "A000793",
+    "A057731",
+    "A074064",
+    "A074103",
+    "A074115",
+    "A162682"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

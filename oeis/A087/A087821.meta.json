@@ -1,0 +1,19 @@
+{
+  "description": "Sequence of primes P(i) such that P=(j*P(i)#)/2 - 2 and P+4 are consecutive primes, where j is odd, 0 < j < P(i+1) and P(i) denotes i-th prime.",
+  "id": "A087821",
+  "mentions": [
+    "A087820",
+    "A087822"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

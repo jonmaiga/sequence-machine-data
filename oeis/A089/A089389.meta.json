@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the smallest and the largest nontrivial divisor of n or 0 if n is 1 or a prime.",
+  "id": "A089389",
+  "mentions": [
+    "A010051",
+    "A020639",
+    "A032742"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

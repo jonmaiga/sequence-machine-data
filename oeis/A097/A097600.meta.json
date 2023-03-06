@@ -1,0 +1,20 @@
+{
+  "description": "A Binet like formula using the Akiyama-Thurston tile roots for a Minimal Pisot theta0 sequence.",
+  "id": "A097600",
+  "mentions": [
+    "A001644",
+    "A060006"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "less",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

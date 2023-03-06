@@ -1,0 +1,20 @@
+{
+  "description": "Number of binary codes (not necessarily linear) of length n with 3 words.",
+  "id": "A034198",
+  "mentions": [
+    "A034188",
+    "A034356",
+    "A076831"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:10:41",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

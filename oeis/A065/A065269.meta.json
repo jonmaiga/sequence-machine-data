@@ -1,0 +1,25 @@
+{
+  "description": "Infinite binary tree inspired permutation of N: 1 -> 1, 11ab..yz -> 11ab..yz0, 10ab..y1 -> 10ab..y, 10ab..y0 -> 11AB..Y1 (where 1AB..Y1 is the complement of 0ab..y0).",
+  "id": "A065269",
+  "mentions": [
+    "A057114",
+    "A059893",
+    "A065263",
+    "A065270",
+    "A065271",
+    "A065272",
+    "A065275",
+    "A065281",
+    "A065287"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of e.g.f.: exp(tanh(x)-arctanh(x))=1-4/3!*x^3-8/5!*x^5+160/6!*x^6-992/7!*x^7...",
+  "id": "A013496",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:55",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

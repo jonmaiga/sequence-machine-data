@@ -1,0 +1,19 @@
+{
+  "description": "Concatenation of n in base 2 up to base 10 and n in base 10 down to base 2 is prime, all numbers are interpreted as decimals.",
+  "id": "A054258",
+  "mentions": [
+    "A054256",
+    "A054257"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

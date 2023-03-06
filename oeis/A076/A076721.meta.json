@@ -1,0 +1,18 @@
+{
+  "description": "Difference between product of divisors of n and sum of divisors of n.",
+  "id": "A076721",
+  "mentions": [
+    "A000203",
+    "A007955"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

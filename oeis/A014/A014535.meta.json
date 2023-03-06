@@ -1,0 +1,19 @@
+{
+  "description": "Number of B-trees of order 3 with n leaves.",
+  "id": "A014535",
+  "mentions": [
+    "A125295"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

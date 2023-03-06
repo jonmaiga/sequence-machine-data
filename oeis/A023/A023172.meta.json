@@ -1,0 +1,25 @@
+{
+  "description": "Self-Fibonacci numbers: numbers k that divide Fibonacci(k).",
+  "id": "A023172",
+  "mentions": [
+    "A000045",
+    "A000350",
+    "A001602",
+    "A069104",
+    "A123976",
+    "A127787",
+    "A128974",
+    "A159051",
+    "A263112"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

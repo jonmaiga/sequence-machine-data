@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes having exactly the same digits as appear in first n primes.",
+  "id": "A053095",
+  "mentions": [
+    "A053160",
+    "A053161",
+    "A054260",
+    "A103208"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

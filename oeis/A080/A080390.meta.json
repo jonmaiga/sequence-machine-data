@@ -1,0 +1,20 @@
+{
+  "description": "Least x such that gcd(A001405(x+1), A001405(x)) = n.",
+  "id": "A080390",
+  "mentions": [
+    "A001405",
+    "A057977",
+    "A080389"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

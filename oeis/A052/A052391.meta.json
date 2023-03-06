@@ -1,0 +1,21 @@
+{
+  "description": "Number of 4-element intersecting families (of distinct sets) whose union is an n-element set.",
+  "id": "A052391",
+  "mentions": [
+    "A051181",
+    "A053152",
+    "A053153"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

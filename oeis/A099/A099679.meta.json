@@ -1,0 +1,19 @@
+{
+  "description": "Least m such that repunit R_m is a multiple of A045572(n) (i.e., odd numbers not divisible by 5).",
+  "id": "A099679",
+  "mentions": [
+    "A002275",
+    "A045572"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

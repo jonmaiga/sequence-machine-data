@@ -1,0 +1,16 @@
+{
+  "description": "arcsinh(arctan(x)*tan(x))=2/2!*x^2+40/6!*x^6-2688/8!*x^8+210208/10!*x^10...",
+  "id": "A012450",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:56:04",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

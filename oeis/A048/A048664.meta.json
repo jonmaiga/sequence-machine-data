@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted 2-dimensional polyominoes with n square cells, with no symmetries removed.",
+  "id": "A048664",
+  "mentions": [
+    "A001168",
+    "A048663",
+    "A094166"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

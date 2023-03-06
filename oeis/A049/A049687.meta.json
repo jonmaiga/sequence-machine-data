@@ -1,0 +1,23 @@
+{
+  "description": "Array T read by diagonals: T(i,j)=number of lines passing through (0,0) and at least one other lattice point (h,k) satisfying 0<=h<=i, 0<=k<=j.",
+  "id": "A049687",
+  "mentions": [
+    "A049639",
+    "A049691",
+    "A135646",
+    "A300778"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:40:15",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

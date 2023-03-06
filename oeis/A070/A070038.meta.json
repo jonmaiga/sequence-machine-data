@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sum of divisors of n that are at least sqrt(n).",
+  "id": "A070038",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A038548",
+    "A056924",
+    "A066839",
+    "A070039",
+    "A072500"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least m>n with same smallest odd prime factor as n.",
+  "id": "A079431",
+  "mentions": [
+    "A078701",
+    "A079432"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

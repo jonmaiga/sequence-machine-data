@@ -1,0 +1,20 @@
+{
+  "description": "Smallest digit of n in Roman numeral representation.",
+  "id": "A094635",
+  "mentions": [
+    "A054054",
+    "A094636"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

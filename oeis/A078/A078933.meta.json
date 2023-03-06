@@ -1,0 +1,20 @@
+{
+  "description": "Good examples of Hall's conjecture: integers x such that 0 < |x^3 - y^2| < sqrt(x) for some integer y.",
+  "id": "A078933",
+  "mentions": [
+    "A179108",
+    "A179387",
+    "A200216"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

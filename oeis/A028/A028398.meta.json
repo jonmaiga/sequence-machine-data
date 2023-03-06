@@ -1,0 +1,21 @@
+{
+  "description": "When map in A006368 is iterated, all numbers fall into cycles; order cycles by smallest entry; a(n) is smallest entry in n-th cycle (some cycles are infinite).",
+  "id": "A028398",
+  "mentions": [
+    "A006368",
+    "A028393",
+    "A028395",
+    "A180853",
+    "A182205"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

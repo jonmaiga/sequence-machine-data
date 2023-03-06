@@ -1,0 +1,20 @@
+{
+  "description": "Number of permissible patterns of primes in a fixed interval.",
+  "id": "A094660",
+  "mentions": [
+    "A008407",
+    "A020497",
+    "A023189",
+    "A023192"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

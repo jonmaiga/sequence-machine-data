@@ -1,0 +1,19 @@
+{
+  "description": "First row of Pascal's triangle that has n distinct nonsquarefree entries, or -1 if no such row exists.",
+  "id": "A064461",
+  "mentions": [
+    "A048276",
+    "A064460",
+    "A064462"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Start with n; repeatedly sum prime factors (counted with multiplicity) and add 1, until reach 1, 6 or a prime.",
+  "id": "A029912",
+  "mentions": [
+    "A023200"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

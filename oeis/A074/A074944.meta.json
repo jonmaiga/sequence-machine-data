@@ -1,0 +1,19 @@
+{
+  "description": "Number of k with 1 <= k <= n such that gcd(n,k)=tau(k), where tau is A000005, number of divisors function.",
+  "id": "A074944",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

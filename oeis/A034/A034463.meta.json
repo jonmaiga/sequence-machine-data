@@ -1,0 +1,18 @@
+{
+  "description": "Maximal number of residue classes mod n such that no subset adds to 0.",
+  "id": "A034463",
+  "mentions": [
+    "A117142"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

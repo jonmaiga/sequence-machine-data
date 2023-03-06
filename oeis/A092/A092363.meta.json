@@ -1,0 +1,15 @@
+{
+  "description": "n^(1/a(n)) is the closest to an integer on 2..n with a(n) minimal.",
+  "id": "A092363",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

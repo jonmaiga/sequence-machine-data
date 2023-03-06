@@ -1,0 +1,39 @@
+{
+  "description": "a(n) is the starting position of the first occurrence of a string of at least n '0's in the decimal expansion of Pi.",
+  "id": "A050279",
+  "mentions": [
+    "A000796",
+    "A035117",
+    "A048940",
+    "A050281",
+    "A050282",
+    "A050283",
+    "A050284",
+    "A050286",
+    "A050287",
+    "A068987",
+    "A096755",
+    "A096756",
+    "A096757",
+    "A096758",
+    "A096759",
+    "A096760",
+    "A096761",
+    "A096762",
+    "A096763",
+    "A096764",
+    "A121280"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

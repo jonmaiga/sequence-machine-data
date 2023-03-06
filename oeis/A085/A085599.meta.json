@@ -1,0 +1,20 @@
+{
+  "description": "Number of pairs of coprimes (n-i,n+i), 1",
+  "id": "A085599",
+  "mentions": [
+    "A000010",
+    "A055034",
+    "A102781"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

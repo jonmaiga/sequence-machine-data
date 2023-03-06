@@ -1,0 +1,17 @@
+{
+  "description": "Least prime of the form n*2^m+1 for m>0, or 0 if there is no such prime.",
+  "id": "A078683",
+  "mentions": [
+    "A078680"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

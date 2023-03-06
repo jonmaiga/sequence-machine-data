@@ -1,0 +1,52 @@
+{
+  "description": "Factorization-preserving isomorphism from nonnegative integers to binary codes for polynomials over GF(2).",
+  "id": "A091202",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A001221",
+    "A001222",
+    "A008683",
+    "A010051",
+    "A014580",
+    "A048720",
+    "A049084",
+    "A064989",
+    "A091203",
+    "A091204",
+    "A091219",
+    "A091220",
+    "A091221",
+    "A091222",
+    "A091225",
+    "A091227",
+    "A091242",
+    "A091247",
+    "A106442",
+    "A106444",
+    "A106446",
+    "A156552",
+    "A234741",
+    "A235041",
+    "A243071",
+    "A245703",
+    "A302023",
+    "A302025",
+    "A305417",
+    "A305420",
+    "A305421",
+    "A305427"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

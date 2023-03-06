@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to write n = x^i + x^j with 1",
+  "id": "A088904",
+  "mentions": [
+    "A088905",
+    "A088906"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

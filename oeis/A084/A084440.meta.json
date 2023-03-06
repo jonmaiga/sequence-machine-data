@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write the n-th prime as 1+p+p^k, p prime and k>0.",
+  "id": "A084440",
+  "mentions": [
+    "A084441",
+    "A084442",
+    "A084443"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

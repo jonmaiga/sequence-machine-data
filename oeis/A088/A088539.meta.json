@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of (4K/Pi)^2 where K is the Landau-Ramanujan constant.",
+  "id": "A088539",
+  "mentions": [
+    "A002144",
+    "A064533",
+    "A175647",
+    "A243379",
+    "A243380",
+    "A244659"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

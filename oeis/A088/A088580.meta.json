@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 + sigma(n).",
+  "id": "A088580",
+  "mentions": [
+    "A000203",
+    "A065512",
+    "A258430"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

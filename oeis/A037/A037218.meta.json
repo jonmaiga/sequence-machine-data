@@ -1,0 +1,19 @@
+{
+  "description": "Smallest natural number k such that periodic part of 1/k is the prime p(n), or 0 if no such k exists.",
+  "id": "A037218",
+  "mentions": [
+    "A037207"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

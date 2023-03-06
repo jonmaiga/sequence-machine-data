@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that sopfr(k) = sopf(k+1), where sopf(k) = A008472(k) and sopfr(k) = A001414(k).",
+  "id": "A064675",
+  "mentions": [
+    "A001414",
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

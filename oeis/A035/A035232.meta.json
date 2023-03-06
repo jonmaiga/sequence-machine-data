@@ -1,0 +1,21 @@
+{
+  "description": "Number of substrings of n which are primes (counted with multiplicity).",
+  "id": "A035232",
+  "mentions": [
+    "A039995",
+    "A039997"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of the row (counting from initial row 1) of the array R in A087468 that contains n.",
+  "id": "A087470",
+  "mentions": [
+    "A087468",
+    "A087469"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

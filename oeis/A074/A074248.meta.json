@@ -1,0 +1,18 @@
+{
+  "description": "Triangle of coefficients, read by rows of (2n+1) terms, where the n-th row forms a polynomial in x, P(n,x), of degree 2n and satisfies: P(n,x) = [Sum_{k=1..n} 1/(k + x + x^2)]*[Product_{k=1..n} (k + x + x^2)].",
+  "id": "A074248",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

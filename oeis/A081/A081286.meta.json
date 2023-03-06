@@ -1,0 +1,18 @@
+{
+  "description": "For n<=11, a(n) = n mod 10. For even n>11, a(n) = (2a(n-1)+1) mod 10. For odd n>11, a(n) = (a(n-1)+a(i+1)) mod 10, where i is the largest integer < n-1 such that a(i)=a(n-1).",
+  "id": "A081286",
+  "mentions": [
+    "A080867"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

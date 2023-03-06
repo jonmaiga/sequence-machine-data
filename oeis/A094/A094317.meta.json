@@ -1,0 +1,18 @@
+{
+  "description": "Primes n with property that sum of digits that are primes is prime.",
+  "id": "A094317",
+  "mentions": [
+    "A094318"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the n-th cyclotomic polynomial evaluated at 2 (=A019320(n)) is prime.",
+  "id": "A072226",
+  "mentions": [
+    "A000043",
+    "A000978",
+    "A019320",
+    "A138920",
+    "A138940",
+    "A292015"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

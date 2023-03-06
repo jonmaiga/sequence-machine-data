@@ -1,0 +1,21 @@
+{
+  "description": "Number of terms (including the initial term) needed to reach a palindrome when the Reverse Then Add! map (x -> x + (x-with-digits-reversed)) is repeatedly applied to n, or -1 if a palindrome is never reached.",
+  "id": "A030547",
+  "mentions": [
+    "A006960",
+    "A023108",
+    "A033665",
+    "A063018"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:19",
+    "offset": 1,
+    "size": 98,
+    "source": "joeis"
+  }
+}

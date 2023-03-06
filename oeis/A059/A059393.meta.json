@@ -1,0 +1,22 @@
+{
+  "description": "Smallest possible sum of n positive integers g(1) < g(2) < ... < g(n) such that A001222(g(i)+g(j))=A001222(g(i))+A001222(g(j)) for all 1<=i",
+  "id": "A059393",
+  "mentions": [
+    "A001222",
+    "A059333",
+    "A059363",
+    "A207975"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of squarefree numbers between successive squares (exclusive).",
+  "id": "A077381",
+  "mentions": [
+    "A005117",
+    "A061398"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

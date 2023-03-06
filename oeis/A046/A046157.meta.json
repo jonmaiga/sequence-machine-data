@@ -1,0 +1,21 @@
+{
+  "description": "Number of empty intervals when fractional_part(i*gamma) for i = 1, ..., n is plotted along [ 0, 1 ] subdivided into n equal regions, where gamma is the Euler-Mascheroni constant.",
+  "id": "A046157",
+  "mentions": [
+    "A036412",
+    "A036414",
+    "A036416",
+    "A046158"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

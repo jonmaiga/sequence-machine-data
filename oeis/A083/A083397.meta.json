@@ -1,0 +1,18 @@
+{
+  "description": "Largest prime factor of n! + k where k is the least positive integer such that n! + k is a square.",
+  "id": "A083397",
+  "mentions": [
+    "A068869"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

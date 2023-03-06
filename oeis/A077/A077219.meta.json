@@ -1,0 +1,17 @@
+{
+  "description": "Floor(geometric mean of the reduced residue system modulo n).",
+  "id": "A077219",
+  "mentions": [
+    "A065033"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Indices of primes with primitive root 2.",
+  "id": "A072190",
+  "mentions": [
+    "A001122",
+    "A001123",
+    "A001124",
+    "A001125"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime that is the sum of prime(n) consecutive primes.",
+  "id": "A082277",
+  "mentions": [
+    "A070281"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

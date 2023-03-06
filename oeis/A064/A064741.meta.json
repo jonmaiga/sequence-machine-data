@@ -1,0 +1,24 @@
+{
+  "description": "Length of A064743(n); Index of the largest prime factor of the n-th term of EKG-sequence.",
+  "id": "A064741",
+  "mentions": [
+    "A000720",
+    "A061395",
+    "A064413",
+    "A064743",
+    "A064744",
+    "A304733",
+    "A304734"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

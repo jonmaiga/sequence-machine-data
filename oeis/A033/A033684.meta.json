@@ -1,0 +1,24 @@
+{
+  "description": "1 iff n is a square not divisible by 3.",
+  "id": "A033684",
+  "mentions": [
+    "A000035",
+    "A010052",
+    "A011655",
+    "A033683",
+    "A057780"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:43",
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

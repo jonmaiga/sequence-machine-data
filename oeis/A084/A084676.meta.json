@@ -1,0 +1,19 @@
+{
+  "description": "Position of the first zero in the decimal expansion of the square root of the n-th prime.",
+  "id": "A084676",
+  "mentions": [
+    "A074850"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

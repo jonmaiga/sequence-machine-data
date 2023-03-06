@@ -1,0 +1,21 @@
+{
+  "description": "Top line of 3-wave sequence A038196, also bisection of A006356.",
+  "id": "A038213",
+  "mentions": [
+    "A006356",
+    "A038196",
+    "A080937"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:30:24",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

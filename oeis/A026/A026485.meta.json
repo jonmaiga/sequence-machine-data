@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = least positive integer > a(n-1) and not a(i)*a(j)-a(k) for 1<=i",
+  "id": "A026485",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

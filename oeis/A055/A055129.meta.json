@@ -1,0 +1,39 @@
+{
+  "description": "Repunits in different bases: table by antidiagonals of numbers written in base k as a string of n 1's.",
+  "id": "A055129",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000225",
+    "A002061",
+    "A002275",
+    "A002450",
+    "A003462",
+    "A003463",
+    "A003464",
+    "A016123",
+    "A016125",
+    "A023000",
+    "A023001",
+    "A023037",
+    "A031973",
+    "A053696",
+    "A053698",
+    "A053699",
+    "A053700"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

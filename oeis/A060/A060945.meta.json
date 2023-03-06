@@ -1,0 +1,27 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into 1's, 2's and 4's.",
+  "id": "A060945",
+  "mentions": [
+    "A000045",
+    "A005251",
+    "A005314",
+    "A023359",
+    "A038137",
+    "A077930",
+    "A097472",
+    "A181532",
+    "A238236"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

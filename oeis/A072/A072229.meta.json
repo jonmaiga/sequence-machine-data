@@ -1,0 +1,18 @@
+{
+  "description": "Witt index of the standard bilinear form over the 2-adic rationals.",
+  "id": "A072229",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:36:53",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

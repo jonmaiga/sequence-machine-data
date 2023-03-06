@@ -1,0 +1,19 @@
+{
+  "description": "Define two sequences by A_n = mex{A_i,B_i : 0 <= i < n}, B_n = B_{n-1} + (A_n-A_{n-1})(A_n-A_{n-1}+1), where the mex of a set is the smallest nonnegative integer not in the set. Sequence gives B_n. A_n is in A081692.",
+  "id": "A081693",
+  "mentions": [
+    "A081691",
+    "A081692",
+    "A284683"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

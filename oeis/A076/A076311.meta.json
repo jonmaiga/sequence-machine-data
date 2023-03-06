@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(n/10) - 5*(n mod 10).",
+  "id": "A076311",
+  "mentions": [
+    "A008599",
+    "A076309",
+    "A076310",
+    "A076312"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

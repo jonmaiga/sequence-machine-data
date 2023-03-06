@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(1)*a(n-1) + a(2)*a(n-2) + ...+ a(n-1)*a(1) for n >= 3.",
+  "id": "A025231",
+  "mentions": [
+    "A047891"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

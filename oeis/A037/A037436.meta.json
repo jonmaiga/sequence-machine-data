@@ -1,0 +1,16 @@
+{
+  "description": "Positive numbers having the same set of digits in base 6 and base 9.",
+  "id": "A037436",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:35:37",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes p in the interval prime(n+1) <= p < prime(n+1)^2 such that A002110(n)+p is prime.",
+  "id": "A054273",
+  "mentions": [
+    "A000040",
+    "A000879",
+    "A001248",
+    "A002110",
+    "A005235"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

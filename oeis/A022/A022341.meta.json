@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 4*A003714(n) + 1; the odd Fibbinary numbers.",
+  "id": "A022341",
+  "mentions": [
+    "A000045",
+    "A000846",
+    "A003714",
+    "A022340",
+    "A356875"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:29",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

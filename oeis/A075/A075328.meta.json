@@ -1,0 +1,21 @@
+{
+  "description": "Difference between n-th pair in A075325.",
+  "id": "A075328",
+  "mentions": [
+    "A010693",
+    "A047215",
+    "A075325",
+    "A075326",
+    "A075327"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of natural numbers: composition of permutations A057163 & A074684.",
+  "id": "A082360",
+  "mentions": [
+    "A057163",
+    "A073200",
+    "A074684",
+    "A082357",
+    "A082358",
+    "A082359"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

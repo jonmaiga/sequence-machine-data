@@ -1,0 +1,18 @@
+{
+  "description": "Integers k > 1 such that the decimal expansion of 1/k contains k as a string. (If the decimal expansion terminates, trailing zeros do not count.)",
+  "id": "A056055",
+  "mentions": [
+    "A006883"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

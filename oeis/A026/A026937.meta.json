@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k+1)*T(n,n-k), where T is given by A008288.",
+  "id": "A026937",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A006645",
+    "A008288"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) of number of unilaterally connected digraphs on n labeled nodes and with k arcs, k=0..n*(n-1).",
+  "id": "A057275",
+  "mentions": [
+    "A003029",
+    "A057270",
+    "A057271",
+    "A057272",
+    "A057273",
+    "A057274",
+    "A062735"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

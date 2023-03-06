@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime with memory = n.",
+  "id": "A079397",
+  "mentions": [
+    "A035232",
+    "A035244",
+    "A079066"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

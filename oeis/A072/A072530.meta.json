@@ -1,0 +1,17 @@
+{
+  "description": "Number of primes p such that n divided by p leaves a prime remainder.",
+  "id": "A072530",
+  "mentions": [
+    "A072531"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

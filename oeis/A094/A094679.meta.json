@@ -1,0 +1,22 @@
+{
+  "description": "n sets a new record for number of iterations to reach 1 in the juggler sequence problem.",
+  "id": "A094679",
+  "mentions": [
+    "A007320",
+    "A094670",
+    "A094698",
+    "A095906"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

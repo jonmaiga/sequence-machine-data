@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of number with continued fraction 2 + 3/5 + 7/11 + 13/17 + 19/23 + ...",
+  "id": "A085825",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

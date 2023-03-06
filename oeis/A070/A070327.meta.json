@@ -1,0 +1,21 @@
+{
+  "description": "Smallest nontrivial power of n starting with n and greater than n.",
+  "id": "A070327",
+  "mentions": [
+    "A045537",
+    "A051248",
+    "A104782"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 2,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

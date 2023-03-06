@@ -1,0 +1,30 @@
+{
+  "description": "Square table by antidiagonals where odd rows are partial sums of previous row, even rows are sums of pairs of values in previous row and initial row is 0 and 1 alternating.",
+  "id": "A061926",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000035",
+    "A000217",
+    "A000290",
+    "A000330",
+    "A001477",
+    "A004526",
+    "A005900",
+    "A006325",
+    "A014820",
+    "A061925",
+    "A061927"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

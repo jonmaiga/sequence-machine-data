@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(j,k) read by rows, where T(j,k) = number of non-singleton cycles in the in-situ transposition of a rectangular j X k matrix.",
+  "id": "A093055",
+  "mentions": [
+    "A000217",
+    "A093056",
+    "A093057"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of 4-unbalanced strings of length n (=2^n-A027559(n)).",
+  "id": "A027561",
+  "mentions": [
+    "A027559"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

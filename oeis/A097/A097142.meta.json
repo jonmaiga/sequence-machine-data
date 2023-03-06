@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes p < 10^n for which 2 is a cubic residue (mod p).",
+  "id": "A097142",
+  "mentions": [
+    "A006880",
+    "A040028"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

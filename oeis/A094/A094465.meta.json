@@ -1,0 +1,23 @@
+{
+  "description": "Least initial value for an Euclid/Mullin sequence whose 4th term is prime(n). prime(1)=2 is never a fourth term, so offset=2.",
+  "id": "A094465",
+  "mentions": [
+    "A000945",
+    "A051308",
+    "A051334",
+    "A051614",
+    "A094460",
+    "A094464"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

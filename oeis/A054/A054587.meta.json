@@ -1,0 +1,15 @@
+{
+  "description": "n-th occurrence of gap of n between primes occurs at prime a(n), n even, n >= 2.",
+  "id": "A054587",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 2,
+    "size": 33,
+    "source": "joeis"
+  }
+}

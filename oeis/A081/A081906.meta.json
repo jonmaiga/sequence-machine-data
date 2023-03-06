@@ -1,0 +1,19 @@
+{
+  "description": "A sequence related to binomial(n+6, 6).",
+  "id": "A081906",
+  "mentions": [
+    "A081905"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

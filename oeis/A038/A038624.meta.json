@@ -1,0 +1,21 @@
+{
+  "description": "Values of pi(x) where x exceeds n * pi(x).",
+  "id": "A038624",
+  "mentions": [
+    "A038606",
+    "A038623",
+    "A038625",
+    "A038627",
+    "A062742"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

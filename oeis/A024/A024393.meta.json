@@ -1,0 +1,17 @@
+{
+  "description": "4th elementary symmetric function of the first n+3 positive integers congruent to 2 mod 3.",
+  "id": "A024393",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:23:15",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

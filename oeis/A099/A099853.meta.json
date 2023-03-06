@@ -1,0 +1,22 @@
+{
+  "description": "Values of A099852 divided by the corresponding values in A099851. These are the integer results of dividing the terms of A099850 by their position in that sequence.",
+  "id": "A099853",
+  "mentions": [
+    "A004648",
+    "A099850",
+    "A099851",
+    "A099852"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

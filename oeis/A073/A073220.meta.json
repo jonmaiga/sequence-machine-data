@@ -1,0 +1,19 @@
+{
+  "description": "Terms of A072390 (sums of two powers of 13) divided by 2.",
+  "id": "A073220",
+  "mentions": [
+    "A072390"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

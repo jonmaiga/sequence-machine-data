@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic algebras with a ternary operation (3-d groupoids) with n elements.",
+  "id": "A091510",
+  "mentions": [
+    "A001329",
+    "A001331",
+    "A091511"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

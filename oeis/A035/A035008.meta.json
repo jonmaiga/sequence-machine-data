@@ -1,0 +1,36 @@
+{
+  "description": "Total number of possible knight moves on an (n+2) X (n+2) chessboard, if the knight is placed anywhere.",
+  "id": "A035008",
+  "mentions": [
+    "A000178",
+    "A000217",
+    "A002378",
+    "A002492",
+    "A008586",
+    "A027468",
+    "A033586",
+    "A033996",
+    "A035005",
+    "A035006",
+    "A038231",
+    "A046092",
+    "A049450",
+    "A069129",
+    "A348692",
+    "A349081"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:17:39",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

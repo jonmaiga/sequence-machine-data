@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of numbers T(n,k) = number of permutations of n things with longest increasing subsequence of length <=k (1<=k<=n).",
+  "id": "A047887",
+  "mentions": [
+    "A047874",
+    "A047888"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

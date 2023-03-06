@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sum of the divisors of n equals the sum of the reversals of the divisors of n.",
+  "id": "A080716",
+  "mentions": [
+    "A000203",
+    "A069192",
+    "A069942"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

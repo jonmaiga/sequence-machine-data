@@ -1,0 +1,20 @@
+{
+  "description": "Consider all integer triples (i,j,k), j >= k>0, with i^3=binomial(j+2,3)+binomial(k+2,3), ordered by increasing i; sequence gives k values.",
+  "id": "A054210",
+  "mentions": [
+    "A054208",
+    "A054209"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

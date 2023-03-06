@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that n-th row in Pascal triangle contains an even number, i.e., A048967(n) > 0.",
+  "id": "A062289",
+  "mentions": [
+    "A000225",
+    "A007461",
+    "A036987",
+    "A043569",
+    "A048967",
+    "A057716",
+    "A101082",
+    "A102370",
+    "A105027",
+    "A132782",
+    "A261461",
+    "A261922"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

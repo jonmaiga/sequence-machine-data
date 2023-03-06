@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A027082(n, n+2)",
+  "id": "A027083",
+  "mentions": [
+    "A000213",
+    "A008937",
+    "A027024",
+    "A027082"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:10:53",
+    "offset": 2,
+    "size": 31,
+    "source": "joeis"
+  }
+}

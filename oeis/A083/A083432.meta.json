@@ -1,0 +1,20 @@
+{
+  "description": "Largest k such that n*k is a number that is formed using all the digits of first n numbers. a(n) = A083431(n)/n.",
+  "id": "A083432",
+  "mentions": [
+    "A083429",
+    "A083430",
+    "A083431"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

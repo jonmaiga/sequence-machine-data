@@ -1,0 +1,23 @@
+{
+  "description": "Least value of A075860(j) when j runs through composite numbers between n-th and (n+1)-th primes. That is, the smallest fixed-point[=prime] reached by iteration of function A008472(=sum of prime factors) initiated with composite values between two consecutive primes.",
+  "id": "A082881",
+  "mentions": [
+    "A008472",
+    "A029908",
+    "A075860",
+    "A082087",
+    "A082088",
+    "A082880"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

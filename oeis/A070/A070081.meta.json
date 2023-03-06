@@ -1,0 +1,28 @@
+{
+  "description": "Middle side of integer triangles [A070080(n) <= a(n) <= A070082(n)], sorted by perimeter, sides lexicographically ordered.",
+  "id": "A070081",
+  "mentions": [
+    "A046129",
+    "A055593",
+    "A069594",
+    "A069595",
+    "A069598",
+    "A070080",
+    "A070082",
+    "A070083",
+    "A070084",
+    "A070085",
+    "A070086"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

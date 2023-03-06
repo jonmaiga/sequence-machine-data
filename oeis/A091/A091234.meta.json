@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to partition the set of divisors of n into three subsets such that their sums form an integer triangle.",
+  "id": "A091234",
+  "mentions": [
+    "A005101",
+    "A091235"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

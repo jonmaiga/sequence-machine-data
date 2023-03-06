@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = maximal value of the sum of Mobius function values over a block of n consecutive natural numbers.",
+  "id": "A083544",
+  "mentions": [
+    "A008683",
+    "A063838",
+    "A082967",
+    "A225420"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

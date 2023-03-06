@@ -1,0 +1,32 @@
+{
+  "description": "Number of winning length n strings with a 2-symbol alphabet in \"same game\".",
+  "id": "A035615",
+  "mentions": [
+    "A035617",
+    "A065237",
+    "A065238",
+    "A065239",
+    "A065240",
+    "A065241",
+    "A065242",
+    "A065243",
+    "A309874",
+    "A320487",
+    "A323830",
+    "A323831",
+    "A323844"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:46",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

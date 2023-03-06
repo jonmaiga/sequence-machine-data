@@ -1,0 +1,20 @@
+{
+  "description": "Column 2 of the array m(i,1)=m(1,j)=1 m(i,j)=m(i-1,j-1)+m(i-1,j+1) (a(n)=m(n,2)).",
+  "id": "A072100",
+  "mentions": [
+    "A001405",
+    "A036256"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:42:05",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

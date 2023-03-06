@@ -1,0 +1,24 @@
+{
+  "description": "Number of rooted Greg trees.",
+  "id": "A052300",
+  "mentions": [
+    "A005263",
+    "A005264",
+    "A048159",
+    "A048160",
+    "A052301",
+    "A052303"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Numbers n such that prime(n+2) + prime(n-2) = 2*prime(n).",
+  "id": "A066876",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

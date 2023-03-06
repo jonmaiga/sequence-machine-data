@@ -1,0 +1,17 @@
+{
+  "description": "Number of steps to reach 1 in the process of expanding the interval (i1,i2) successively to right and left, such that i1 and i2 always stay coprime, starting with (n,n).",
+  "id": "A082082",
+  "mentions": [
+    "A084425"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

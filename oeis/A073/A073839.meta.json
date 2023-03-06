@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the composite numbers between n and 2n (both inclusive).",
+  "id": "A073839",
+  "mentions": [
+    "A002808",
+    "A073840",
+    "A075084"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

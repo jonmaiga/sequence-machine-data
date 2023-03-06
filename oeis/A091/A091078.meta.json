@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n which when converted to base 4, reversed and converted back to base 10 yield a number m such that n mod m = 0. Cases which are trivial or result in digit loss are excluded.",
+  "id": "A091078",
+  "mentions": [
+    "A031877",
+    "A091077",
+    "A091079",
+    "A091080",
+    "A091081",
+    "A091082",
+    "A091083"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

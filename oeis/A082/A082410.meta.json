@@ -1,0 +1,25 @@
+{
+  "description": "a(1)=0. Thereafter, the sequence is constructed using the rule: for any k >= 0, if a(1), a(2), ..., a(2^k+1) are known, the next 2^k terms are given as follows: a(2^k+1+i) = 1 - a(2^k+1-i) for 1 <= i <= 2^k.",
+  "id": "A082410",
+  "mentions": [
+    "A014577",
+    "A014707",
+    "A014709",
+    "A014710",
+    "A034947",
+    "A037834",
+    "A038189",
+    "A060833"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

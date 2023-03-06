@@ -1,0 +1,18 @@
+{
+  "description": "Length of period of sequence of Genocchi number of first kind read modulo (2n+1).",
+  "id": "A092305",
+  "mentions": [
+    "A001469"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

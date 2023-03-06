@@ -1,0 +1,20 @@
+{
+  "description": "Denominators in Stirling's asymptotic series.",
+  "id": "A097303",
+  "mentions": [
+    "A001163",
+    "A001164"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

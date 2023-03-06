@@ -1,0 +1,19 @@
+{
+  "description": "Minimum digit out of both prime factors of palindromic brilliant numbers.",
+  "id": "A084352",
+  "mentions": [
+    "A078972",
+    "A084189"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

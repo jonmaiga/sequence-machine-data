@@ -1,0 +1,21 @@
+{
+  "description": "Dot product of (1,2,...,n) and first n distinct Fibonacci numbers.",
+  "id": "A094584",
+  "mentions": [
+    "A000045",
+    "A023607",
+    "A094585"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

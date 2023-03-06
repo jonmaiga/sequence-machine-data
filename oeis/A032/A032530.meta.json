@@ -1,0 +1,18 @@
+{
+  "description": "The 20 primes inside the 4 X 4 matrix with all the rows, columns and major diagonals being reversible non-palindromic and distinct primes (the smallest prime-magical square): [ 1933, 1283, 9551, 3719 ].",
+  "id": "A032530",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

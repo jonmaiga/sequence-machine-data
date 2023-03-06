@@ -1,0 +1,18 @@
+{
+  "description": "In base 11, a(n) = sum of digits of Lucas(a(n)).",
+  "id": "A025491",
+  "mentions": [
+    "A025490"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

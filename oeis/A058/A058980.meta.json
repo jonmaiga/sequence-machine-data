@@ -1,0 +1,18 @@
+{
+  "description": "Positive numbers of form 4k such that card(invphi(4*k)=0) (the nontotients congruent to 0 modulo 4).",
+  "id": "A058980",
+  "mentions": [
+    "A005277",
+    "A008586"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-09 16:15:08",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

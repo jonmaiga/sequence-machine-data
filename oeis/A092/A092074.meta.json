@@ -1,0 +1,18 @@
+{
+  "description": "Primes congruent to 3 mod 17.",
+  "id": "A092074",
+  "mentions": [
+    "A129484"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:26:51",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

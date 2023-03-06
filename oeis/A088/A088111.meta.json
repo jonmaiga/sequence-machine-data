@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways associated with A088959.",
+  "id": "A088111",
+  "mentions": [
+    "A046080",
+    "A088959"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

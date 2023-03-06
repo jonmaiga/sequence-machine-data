@@ -1,0 +1,33 @@
+{
+  "description": "Composite and every divisor (except 1) contains the digit 6.",
+  "id": "A062674",
+  "mentions": [
+    "A062653",
+    "A062664",
+    "A062667",
+    "A062668",
+    "A062669",
+    "A062670",
+    "A062671",
+    "A062672",
+    "A062673",
+    "A062675",
+    "A062676",
+    "A062677",
+    "A062678",
+    "A062679",
+    "A062680"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

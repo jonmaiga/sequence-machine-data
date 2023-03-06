@@ -1,0 +1,20 @@
+{
+  "description": "For n, k > 0, let T(n, k) be given by T(n, 1) = n and T(n, k+1) = k*T(n, k)+1. a(n) is the sum of the n-th antidiagonal.",
+  "id": "A084757",
+  "mentions": [
+    "A000522",
+    "A084756"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

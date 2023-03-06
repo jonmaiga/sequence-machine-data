@@ -1,0 +1,29 @@
+{
+  "description": "Numbers which do not appear prematurely in the binary Champernowne word (A030190).",
+  "id": "A083655",
+  "mentions": [
+    "A000079",
+    "A007088",
+    "A030190",
+    "A030304",
+    "A083653",
+    "A083654",
+    "A131881",
+    "A132131",
+    "A296349",
+    "A296365"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:22:24",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

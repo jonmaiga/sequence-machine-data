@@ -1,0 +1,21 @@
+{
+  "description": "Consecutive internal states of the IMSL pseudo-random number generator RNUN when started with ISEED=1.",
+  "id": "A096550",
+  "mentions": [
+    "A061364",
+    "A096551",
+    "A096561"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

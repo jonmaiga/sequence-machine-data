@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers not divisible by 2, 3 or 5 which contain their largest prime factor as a substring in base 2.",
+  "id": "A063137",
+  "mentions": [
+    "A062238"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

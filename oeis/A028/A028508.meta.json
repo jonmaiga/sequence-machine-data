@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction expansion for log_2(5).",
+  "id": "A028508",
+  "mentions": [
+    "A028232"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

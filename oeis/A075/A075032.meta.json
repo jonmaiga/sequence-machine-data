@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that tau(n) <= tau(n+1) <= tau(n+2) where tau(n) = number of divisors of n.",
+  "id": "A075032",
+  "mentions": [
+    "A000005",
+    "A005238",
+    "A075033",
+    "A075034",
+    "A075035"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

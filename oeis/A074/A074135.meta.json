@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: for 1 <= k < n, a(n, k) is the least positive integer not already used. a(n, n) is the least positive integer not already used that makes the row sum a multiple of n.",
+  "id": "A074135",
+  "mentions": [
+    "A074132",
+    "A074133",
+    "A074134",
+    "A074136",
+    "A082017",
+    "A082018",
+    "A082019",
+    "A082020"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

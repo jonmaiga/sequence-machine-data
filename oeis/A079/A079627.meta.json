@@ -1,0 +1,19 @@
+{
+  "description": "Sum(mu(m) : prime(n) < m < prime(n+1)), where mu is the Moebius function (A008683).",
+  "id": "A079627",
+  "mentions": [
+    "A000040",
+    "A002321",
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

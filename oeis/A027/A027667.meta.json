@@ -1,0 +1,21 @@
+{
+  "description": "Number of independent subsets of nodes of 3^n cube (P_3 X ... X P_3).",
+  "id": "A027667",
+  "mentions": [
+    "A027624",
+    "A027668"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

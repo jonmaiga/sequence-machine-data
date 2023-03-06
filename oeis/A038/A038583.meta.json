@@ -1,0 +1,22 @@
+{
+  "description": "Palindromes that are the sum of consecutive initial primes.",
+  "id": "A038583",
+  "mentions": [
+    "A007504",
+    "A038582",
+    "A038584",
+    "A058847"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

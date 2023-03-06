@@ -1,0 +1,20 @@
+{
+  "description": "Number of digits in all (2n+1)-digit palindromic primes.",
+  "id": "A039657",
+  "mentions": [
+    "A040025"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

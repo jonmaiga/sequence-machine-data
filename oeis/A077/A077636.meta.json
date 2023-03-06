@@ -1,0 +1,21 @@
+{
+  "description": "Length of periodic part of continued fraction expansion of square root of A051451(n), i.e., sqrt(lcm(1..x)) where x is a prime power from A000961.",
+  "id": "A077636",
+  "mentions": [
+    "A000961",
+    "A003285",
+    "A051451"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of minimal covers on n objects with 8 members.",
+  "id": "A046168",
+  "mentions": [
+    "A035348"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:44:18",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

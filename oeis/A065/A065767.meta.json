@@ -1,0 +1,22 @@
+{
+  "description": "Intersection of A065764 and A065765: n such that x and y exist with sigma[x^2] = n = sigma[2*(y^2)].",
+  "id": "A065767",
+  "mentions": [
+    "A000203",
+    "A000290",
+    "A028982",
+    "A065764",
+    "A065765",
+    "A065768"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

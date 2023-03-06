@@ -1,0 +1,21 @@
+{
+  "description": "Number of generations for which prime(n) divides A001008(k) for some k.",
+  "id": "A092193",
+  "mentions": [
+    "A001008",
+    "A072984",
+    "A092101",
+    "A092102"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Palindromes P such that Fibonacci iterations starting with (1, P) lead to a \"nine digits anagram\".",
+  "id": "A034306",
+  "mentions": [
+    "A002113",
+    "A034587",
+    "A034588",
+    "A034589",
+    "A050289"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

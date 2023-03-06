@@ -1,0 +1,28 @@
+{
+  "description": "Number of primes (counted with repetition) that can be formed by rearranging some or all of the digits of n.",
+  "id": "A075053",
+  "mentions": [
+    "A039993",
+    "A039999",
+    "A046810",
+    "A072857",
+    "A076449",
+    "A076730",
+    "A134597",
+    "A239196",
+    "A239197"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

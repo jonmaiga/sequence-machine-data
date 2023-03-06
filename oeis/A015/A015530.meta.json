@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of x/(1 - 4*x - 3*x^2).",
+  "id": "A015530",
+  "mentions": [
+    "A080042",
+    "A086901",
+    "A108851",
+    "A126473",
+    "A179596",
+    "A179597"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

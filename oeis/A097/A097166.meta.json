@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (1+2*x)/((1-x)*(1-10*x)).",
+  "id": "A097166",
+  "mentions": [
+    "A056698",
+    "A070152",
+    "A070153",
+    "A082365",
+    "A097169",
+    "A186074",
+    "A309907",
+    "A350994",
+    "A350995"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

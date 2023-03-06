@@ -1,0 +1,30 @@
+{
+  "description": "Number of n X 4 binary arrays with a path of adjacent 1's from top row to bottom row.",
+  "id": "A069379",
+  "mentions": [
+    "A000225",
+    "A001333",
+    "A005061",
+    "A069361",
+    "A069395",
+    "A069396",
+    "A069416",
+    "A069417",
+    "A069428",
+    "A069429",
+    "A069447",
+    "A069448",
+    "A069452",
+    "A359576"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Primes which cannot be written as sum of squares>1.",
+  "id": "A078139",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A078133",
+    "A078134",
+    "A078135",
+    "A078137",
+    "A078138",
+    "A090677",
+    "A134754",
+    "A134755"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

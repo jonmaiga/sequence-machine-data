@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; for n > 1, n appears omega(n) times, where omega(n)=A001221(n) is the number of distinct prime factors of n, a(1)=1.",
+  "id": "A082287",
+  "mentions": [
+    "A001221",
+    "A013939",
+    "A027748",
+    "A082288"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Length of repunits of which the prime factor-digit-excess computed by A095414 equals 0.",
+  "id": "A095415",
+  "mentions": [
+    "A002275",
+    "A004023",
+    "A046413",
+    "A095370",
+    "A095407",
+    "A095413",
+    "A095414",
+    "A095418"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

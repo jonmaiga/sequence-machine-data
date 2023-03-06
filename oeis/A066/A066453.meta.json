@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3-dimensional polyominoes (or polycubes) with n cells and trivial symmetry group.",
+  "id": "A066453",
+  "mentions": [
+    "A000162",
+    "A066454"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

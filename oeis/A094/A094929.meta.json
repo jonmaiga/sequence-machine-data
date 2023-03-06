@@ -1,0 +1,20 @@
+{
+  "description": "Let p = n-th prime; a(n) = smallest odd prime q such that p is not a square mod q.",
+  "id": "A094929",
+  "mentions": [
+    "A094928",
+    "A096633",
+    "A096634",
+    "A096635"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

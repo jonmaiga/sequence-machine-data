@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Taylor coefficient at x=li(e) of the inverse of the function li(x) (the logarithm integral) multiplied by exp(n).",
+  "id": "A089963",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

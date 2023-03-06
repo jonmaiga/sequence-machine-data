@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 4*a(n-1)*a(n-2)*a(n-3) - a(n-4) with a(1) = a(2) = a(3) = a(4) = 1.",
+  "id": "A072878",
+  "mentions": [
+    "A022405",
+    "A064098",
+    "A072879",
+    "A072880",
+    "A075276"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

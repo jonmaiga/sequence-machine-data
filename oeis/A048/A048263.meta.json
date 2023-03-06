@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that aren't the sum of distinct primes of the form 4n+1.",
+  "id": "A048263",
+  "mentions": [
+    "A048262"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of forests of rooted trees where n dollars are spent and an n-node tree costs 2n-1 dollars.",
+  "id": "A038000",
+  "mentions": [
+    "A000081"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

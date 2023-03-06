@@ -1,0 +1,19 @@
+{
+  "description": "Sum_{i=0..n} Sum_{j=0..i} a(j) * a(i-j) = (-3)^n.",
+  "id": "A085455",
+  "mentions": [
+    "A025565"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

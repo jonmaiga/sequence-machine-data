@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) read by rows, where T(n,k) = number of times the determinant of a real n X n (0,1)-matrix takes the value k, for n >= 1, 0 <= k <= A003432(n).",
+  "id": "A089478",
+  "mentions": [
+    "A003432",
+    "A046747",
+    "A051752",
+    "A086264",
+    "A089472"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

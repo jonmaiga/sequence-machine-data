@@ -1,0 +1,25 @@
+{
+  "description": "Number of 2-chromatic (i.e., chromatic number equals 2) simple graphs on n nodes.",
+  "id": "A076278",
+  "mentions": [
+    "A005142",
+    "A033995",
+    "A076279",
+    "A076280",
+    "A076281",
+    "A076282",
+    "A084268",
+    "A115597"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

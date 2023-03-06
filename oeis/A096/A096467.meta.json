@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that can be the longest side of a primitive Heronian triangle.",
+  "id": "A096467",
+  "mentions": [
+    "A083875",
+    "A096468",
+    "A239246",
+    "A306626"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers occurring only once in A076734.",
+  "id": "A077620",
+  "mentions": [
+    "A000040",
+    "A076734",
+    "A077618",
+    "A077619",
+    "A077621"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonnegative integer 4 X 4 matrices with no zero rows or columns and with sum of elements equal to n.",
+  "id": "A055007",
+  "mentions": [
+    "A052366",
+    "A054688",
+    "A054974",
+    "A054975"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:23:25",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

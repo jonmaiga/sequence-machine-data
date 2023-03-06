@@ -1,0 +1,20 @@
+{
+  "description": "Fennessey-Larcombe-French sequence.",
+  "id": "A065409",
+  "mentions": [
+    "A010370",
+    "A053175"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

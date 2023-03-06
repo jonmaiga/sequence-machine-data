@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (3*Pi)/8.",
+  "id": "A093828",
+  "mentions": [
+    "A161685"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the index k such that F(k)=d(n), where d=A049874 (difference sequence of ordered products of Fibonacci numbers).",
+  "id": "A049996",
+  "mentions": [
+    "A049862",
+    "A049874"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:11",
+    "offset": 1,
+    "size": 83,
+    "source": "joeis"
+  }
+}

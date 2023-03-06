@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1; for n >= 2, choose a(n) so that |Sum_{k=1..n} 1/a(k)^z| < |Sum_{k=1..n-1} 1/a(k)^z|, where z = 1/2 + i*2*Pi.",
+  "id": "A084812",
+  "mentions": [
+    "A084799",
+    "A084809",
+    "A084813",
+    "A084818"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

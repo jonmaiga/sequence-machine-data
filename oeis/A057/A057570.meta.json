@@ -1,0 +1,25 @@
+{
+  "description": "Numbers of the form n*(7n+-1)/2.",
+  "id": "A057570",
+  "mentions": [
+    "A001318",
+    "A047341",
+    "A057569",
+    "A074378",
+    "A154260",
+    "A154292",
+    "A154293"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:37:53",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

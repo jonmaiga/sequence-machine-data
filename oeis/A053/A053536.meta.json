@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/((1+4*x)*(1-12*x)).",
+  "id": "A053536",
+  "mentions": [
+    "A015518",
+    "A053524"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

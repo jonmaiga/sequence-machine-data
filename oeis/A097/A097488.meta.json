@@ -1,0 +1,20 @@
+{
+  "description": "Write the positive multiples of 3 on labels in numerical order, forming an infinite sequence L. Now consider the succession of single digits of L: 3 6 9 1 2 1 5 1 8 2 1 2 4 2 7 3 0 3 3 3 6 3 9 4 2 .... This sequence is a derangement of L that produces the same succession of digits, subject to the constraint that the smallest unused label must be used that does not lead to a contradiction.",
+  "id": "A097488",
+  "mentions": [
+    "A008585",
+    "A097481"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

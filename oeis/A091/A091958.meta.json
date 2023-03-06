@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k)=number of ordered trees with n edges and k branch nodes at odd height.",
+  "id": "A091958",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A001764",
+    "A025174",
+    "A055219",
+    "A243752"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

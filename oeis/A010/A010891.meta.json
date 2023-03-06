@@ -1,0 +1,21 @@
+{
+  "description": "Inverse of 5th cyclotomic polynomial.",
+  "id": "A010891",
+  "mentions": [
+    "A080891",
+    "A156174",
+    "A164116"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:07:15",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n^2 - 1 is expressible as the sum of two nonzero squares in exactly one way.",
+  "id": "A050797",
+  "mentions": [
+    "A000161",
+    "A050795",
+    "A050798"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

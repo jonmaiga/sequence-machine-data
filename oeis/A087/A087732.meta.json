@@ -1,0 +1,23 @@
+{
+  "description": "Smaller of twin primes of the form P=j*P(i)#-1 and P=j*P(i)#+1 with 0 < j < P(i+1), where P(i) denotes i-th prime and P(i)# the i-th primorial number A002110(i).",
+  "id": "A087732",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A060735",
+    "A086916",
+    "A087700",
+    "A087731",
+    "A088676"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

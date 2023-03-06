@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k that divide 3^k + 2^k.",
+  "id": "A045576",
+  "mentions": [
+    "A003598",
+    "A007689"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

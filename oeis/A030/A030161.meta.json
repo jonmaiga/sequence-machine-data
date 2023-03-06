@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that in k and k^3 the parity of digits alternates.",
+  "id": "A030161",
+  "mentions": [
+    "A030162"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

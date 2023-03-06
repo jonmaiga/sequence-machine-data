@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime(n-2)*prime(n-1)^2*prime(n).",
+  "id": "A066116",
+  "mentions": [
+    "A000040",
+    "A006094",
+    "A047928",
+    "A066117"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 3,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

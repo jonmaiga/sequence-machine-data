@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form (3^{mr}-1)/(3^r-1) for positive integers m, r.",
+  "id": "A076270",
+  "mentions": [
+    "A064896",
+    "A076275",
+    "A076284",
+    "A076286",
+    "A076287",
+    "A076288",
+    "A076289"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

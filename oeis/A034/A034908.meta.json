@@ -1,0 +1,25 @@
+{
+  "description": "One half of octo-factorial numbers.",
+  "id": "A034908",
+  "mentions": [
+    "A007696",
+    "A034909",
+    "A039410",
+    "A039411",
+    "A039412",
+    "A045755",
+    "A084948"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

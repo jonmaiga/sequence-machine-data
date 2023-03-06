@@ -1,0 +1,22 @@
+{
+  "description": "a(n)^2 is a square whose decimal expansion digits occur with an exact frequency of 4.",
+  "id": "A052097",
+  "mentions": [
+    "A052049",
+    "A052095",
+    "A052096",
+    "A052098"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:01:15",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

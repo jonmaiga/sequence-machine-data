@@ -1,0 +1,22 @@
+{
+  "description": "Maximal value of Q(n,m) (number of partitions of n into m distinct summands) for given n.",
+  "id": "A030699",
+  "mentions": [
+    "A003056",
+    "A008289",
+    "A257639",
+    "A260061"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

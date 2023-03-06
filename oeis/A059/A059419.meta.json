@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(n,k) (1 <= k <= n) of tangent numbers, read by rows: T(n,k) = coefficient of x^n/n! in expansion of (tan x)^k/k!.",
+  "id": "A059419",
+  "mentions": [
+    "A000182",
+    "A006229",
+    "A007290",
+    "A008308",
+    "A009006",
+    "A024283",
+    "A059420",
+    "A059421",
+    "A111593",
+    "A112007",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:09:40",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

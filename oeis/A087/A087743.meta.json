@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n >= 3 with property that the remainder when n is divided by k (for 3 <= k <= n-2) is not 1.",
+  "id": "A087743",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

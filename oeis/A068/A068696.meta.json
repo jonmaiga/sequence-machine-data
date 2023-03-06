@@ -1,0 +1,17 @@
+{
+  "description": "Number of primes that are a concatenation nk of n and k for values of k from 1 to n.",
+  "id": "A068696",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

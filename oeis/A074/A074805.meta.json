@@ -1,0 +1,23 @@
+{
+  "description": "n mod 19 + 1 (\"Golden Number\").",
+  "id": "A074805",
+  "mentions": [
+    "A064263",
+    "A064264",
+    "A064265",
+    "A064266",
+    "A064267"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:26:35",
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

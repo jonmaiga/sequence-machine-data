@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that appear in A076078.",
+  "id": "A097210",
+  "mentions": [
+    "A076078",
+    "A097211"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Triangle, read by rows, of coefficients of the hyperbinomial transform.",
+  "id": "A088956",
+  "mentions": [
+    "A000169",
+    "A000272",
+    "A007318",
+    "A009998",
+    "A055541",
+    "A059297",
+    "A065440",
+    "A088957",
+    "A095890",
+    "A105599",
+    "A132440",
+    "A137542",
+    "A215534",
+    "A215652",
+    "A219034",
+    "A227325"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

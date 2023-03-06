@@ -1,0 +1,21 @@
+{
+  "description": "Numbers having equal length of longest contiguous block of zeros and ones in binary expansion.",
+  "id": "A090050",
+  "mentions": [
+    "A000975",
+    "A031443",
+    "A038374",
+    "A087117"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

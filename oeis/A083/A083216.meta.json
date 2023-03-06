@@ -1,0 +1,25 @@
+{
+  "description": "Fibonacci-like sequence of composite numbers with a(0) = 20615674205555510, a(1) = 3794765361567513.",
+  "id": "A083216",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A082411",
+    "A083103",
+    "A083104",
+    "A083105",
+    "A221286"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

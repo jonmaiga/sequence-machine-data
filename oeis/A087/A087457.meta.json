@@ -1,0 +1,20 @@
+{
+  "description": "Number of odd length roads between any adjacent nodes in virtual optimal chordal ring of degree 3 (the length of chord < number of nodes/2).",
+  "id": "A087457",
+  "mentions": [
+    "A002893",
+    "A086617",
+    "A086618"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

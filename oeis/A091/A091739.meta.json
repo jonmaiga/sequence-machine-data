@@ -1,0 +1,22 @@
+{
+  "description": "Third column (k=7) sequence of array A090216 ((5,5)-Stirling2) divided by 600.",
+  "id": "A091739",
+  "mentions": [
+    "A007840",
+    "A008279",
+    "A090216",
+    "A091553"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

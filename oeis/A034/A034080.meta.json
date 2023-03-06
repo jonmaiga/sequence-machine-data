@@ -1,0 +1,19 @@
+{
+  "description": "Decimal part of n-th root of a(n) starts with digit 3.",
+  "id": "A034080",
+  "mentions": [
+    "A034060",
+    "A034070"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 2,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

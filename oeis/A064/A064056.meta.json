@@ -1,0 +1,22 @@
+{
+  "description": "Seventh column of quintinomial coefficients.",
+  "id": "A064056",
+  "mentions": [
+    "A027659",
+    "A035343",
+    "A063422",
+    "A213887"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 08:32:55",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

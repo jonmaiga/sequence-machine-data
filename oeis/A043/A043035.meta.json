@@ -1,0 +1,22 @@
+{
+  "description": "Base-9 palindromes that start with 8.",
+  "id": "A043035",
+  "mentions": [
+    "A007095",
+    "A029955",
+    "A043028",
+    "A043043",
+    "A043079"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:20:59",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

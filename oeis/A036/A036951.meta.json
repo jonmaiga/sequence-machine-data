@@ -1,0 +1,20 @@
+{
+  "description": "Smallest n-digit prime containing only the digits 8 and 9, or 0 if no such prime exists.",
+  "id": "A036951",
+  "mentions": [
+    "A020472",
+    "A036229",
+    "A036325"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

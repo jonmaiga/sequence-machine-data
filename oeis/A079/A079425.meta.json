@@ -1,0 +1,19 @@
+{
+  "description": "Marks on lexicographically earliest 9-mark optimal Golomb ruler.",
+  "id": "A079425",
+  "mentions": [
+    "A003022"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Product of the k numbers formed by cyclically permuting digits of n (where k = number of digits of n).",
+  "id": "A062003",
+  "mentions": [
+    "A061147"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

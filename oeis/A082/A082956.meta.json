@@ -1,0 +1,17 @@
+{
+  "description": "Difference between C(n) and the first prime after C(n), where C(n) is A049614, product of composite numbers less than or equal to n.",
+  "id": "A082956",
+  "mentions": [
+    "A049614"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

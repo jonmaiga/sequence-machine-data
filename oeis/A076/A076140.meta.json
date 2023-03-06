@@ -1,0 +1,26 @@
+{
+  "description": "Triangular numbers T(k) that are three times another triangular number: T(k) such that T(k) = 3*T(m) for some m.",
+  "id": "A076140",
+  "mentions": [
+    "A000217",
+    "A001571",
+    "A045899",
+    "A045943",
+    "A061278",
+    "A076139",
+    "A123480",
+    "A217855"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

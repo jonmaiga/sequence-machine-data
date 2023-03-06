@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n-1} 8^k*B(k)*binomial(n,k) where B(k) is the k-th Bernoulli number.",
+  "id": "A083012",
+  "mentions": [
+    "A001469",
+    "A036968",
+    "A083007",
+    "A083008",
+    "A083009",
+    "A083010",
+    "A083011",
+    "A083013",
+    "A083014"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

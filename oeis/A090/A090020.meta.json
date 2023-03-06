@@ -1,0 +1,32 @@
+{
+  "description": "Number of distinct lines through the origin in the n-dimensional lattice of side length 4.",
+  "id": "A090020",
+  "mentions": [
+    "A000225",
+    "A001047",
+    "A049691",
+    "A060867",
+    "A090021",
+    "A090022",
+    "A090023",
+    "A090024",
+    "A090025",
+    "A090026",
+    "A090027",
+    "A090028",
+    "A090029",
+    "A090030"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

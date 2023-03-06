@@ -1,0 +1,22 @@
+{
+  "description": "Maximal number of circles of radius 1 that can be packed in a circle of radius n.",
+  "id": "A023393",
+  "mentions": [
+    "A084617",
+    "A084618",
+    "A084644",
+    "A201993"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

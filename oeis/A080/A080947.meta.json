@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having more than three divisors that are also suffixes in binary representation.",
+  "id": "A080947",
+  "mentions": [
+    "A007088",
+    "A080940",
+    "A080941",
+    "A080942",
+    "A080946"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

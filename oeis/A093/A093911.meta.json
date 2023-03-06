@@ -1,0 +1,22 @@
+{
+  "description": "Left side of irregular triangle of natural numbers in which the n-th row has at least n terms and every row product is a multiple of the previous.",
+  "id": "A093911",
+  "mentions": [
+    "A090905",
+    "A093910",
+    "A093912",
+    "A093913"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

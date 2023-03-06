@@ -1,0 +1,22 @@
+{
+  "description": "mpf(n)^Omega(n), where mpf(n) is the median prime factor of n (A079879).",
+  "id": "A079881",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A033676",
+    "A068794",
+    "A068795",
+    "A079879"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

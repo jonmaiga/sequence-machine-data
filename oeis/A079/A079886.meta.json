@@ -1,0 +1,21 @@
+{
+  "description": "Values of x+y where p runs through the primes of form 4k+1 and p=x^2+y^2, 0<=x<=y.",
+  "id": "A079886",
+  "mentions": [
+    "A002144",
+    "A002313",
+    "A002330",
+    "A002331",
+    "A079887"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

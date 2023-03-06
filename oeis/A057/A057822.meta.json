@@ -1,0 +1,21 @@
+{
+  "description": "Smaller of pair of twin primes whose average is lcm(1,...,m) for some m.",
+  "id": "A057822",
+  "mentions": [
+    "A003418",
+    "A049536",
+    "A051451",
+    "A057706"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of solutions to x^2 + y^2 + z^2 = 1 mod n.",
+  "id": "A087784",
+  "mentions": [
+    "A006752",
+    "A060968",
+    "A087687",
+    "A208895",
+    "A264083"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

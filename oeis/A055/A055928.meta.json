@@ -1,0 +1,22 @@
+{
+  "description": "Sum of square divisors of n! = sum of squares of divisors of the square root of largest square dividing n!.",
+  "id": "A055928",
+  "mentions": [
+    "A000142",
+    "A000188",
+    "A001157",
+    "A035316",
+    "A055772"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

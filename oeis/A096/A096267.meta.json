@@ -1,0 +1,18 @@
+{
+  "description": "Number of fixed polyedges with n edges (number of ways of embedding connected undirected graphs with n edges into the plane square lattice, inequivalent up to translation).",
+  "id": "A096267",
+  "mentions": [
+    "A019988",
+    "A348096"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

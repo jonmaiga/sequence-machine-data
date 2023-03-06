@@ -1,0 +1,18 @@
+{
+  "description": "Least term in period of continued fraction for sqrt(n), as n runs through the nonsquares (A000037).",
+  "id": "A031424",
+  "mentions": [
+    "A000037",
+    "A276689"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

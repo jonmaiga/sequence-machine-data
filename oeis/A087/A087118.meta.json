@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having exactly one maximal group of consecutive zeros in binary representation of n.",
+  "id": "A087118",
+  "mentions": [
+    "A007088",
+    "A023416",
+    "A043687",
+    "A087116",
+    "A087119"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

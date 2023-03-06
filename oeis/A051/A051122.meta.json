@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Fibonacci(n) AND Fibonacci(n+1).",
+  "id": "A051122",
+  "mentions": [
+    "A000045",
+    "A051123",
+    "A051124",
+    "A219660"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

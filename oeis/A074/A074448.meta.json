@@ -1,0 +1,26 @@
+{
+  "description": "Number of 4-ary Lyndon words of length n over GF(4) with trace 1 and subtrace 0.",
+  "id": "A074448",
+  "mentions": [
+    "A054660",
+    "A073995",
+    "A073996",
+    "A073997",
+    "A073998",
+    "A073999",
+    "A074446",
+    "A074447",
+    "A074449",
+    "A074450"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

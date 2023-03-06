@@ -1,0 +1,20 @@
+{
+  "description": "Array read by rows: T(n,k) = number of partitions of n into distinct odd parts in which k is the greatest part, for k=1,2,...,n, n>=1.",
+  "id": "A027356",
+  "mentions": [
+    "A000700",
+    "A069910"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

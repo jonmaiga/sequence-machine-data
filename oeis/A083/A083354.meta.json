@@ -1,0 +1,19 @@
+{
+  "description": "Square root of coefficients of power series: A083352(x)^2 + A083352(x) - 1; term-by-term square root of A083353.",
+  "id": "A083354",
+  "mentions": [
+    "A083352",
+    "A083353"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

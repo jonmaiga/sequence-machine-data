@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of 1/((1-2*x)*(1-x^4)).",
+  "id": "A083593",
+  "mentions": [
+    "A000975",
+    "A001045",
+    "A033138",
+    "A117302",
+    "A133145",
+    "A195904"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

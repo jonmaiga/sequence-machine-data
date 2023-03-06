@@ -1,0 +1,19 @@
+{
+  "description": "Values of n corresponding to the incrementally largest values of the least inverse A046021 of the Kempner function A002034, i.e., A002034(A092233(n)) = n.",
+  "id": "A092232",
+  "mentions": [
+    "A002034",
+    "A046021",
+    "A092233"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

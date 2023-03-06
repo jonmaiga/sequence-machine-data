@@ -1,0 +1,21 @@
+{
+  "description": "Integers of the form (n^2 - 1) / 120.",
+  "id": "A093722",
+  "mentions": [
+    "A002381",
+    "A057538",
+    "A113430"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

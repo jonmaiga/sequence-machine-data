@@ -1,0 +1,27 @@
+{
+  "description": "The table of permutations of N, each row induced by the rotation (to the left) of the n-th node in the infinite binary \"decimal\" fraction tree.",
+  "id": "A065659",
+  "mentions": [
+    "A065658",
+    "A065661",
+    "A065663",
+    "A065665",
+    "A065667",
+    "A065669",
+    "A065671",
+    "A065673",
+    "A065674",
+    "A065676"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

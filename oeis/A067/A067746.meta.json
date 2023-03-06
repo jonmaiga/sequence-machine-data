@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of ((3 * n - 2)/(n^(2 * n - 1) * (2 * n - 1) * 4^(n - 1))).",
+  "id": "A067746",
+  "mentions": [
+    "A067745"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

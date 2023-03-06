@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are the sum of 2 nonzero squares in exactly 10 ways.",
+  "id": "A025293",
+  "mentions": [
+    "A025311"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

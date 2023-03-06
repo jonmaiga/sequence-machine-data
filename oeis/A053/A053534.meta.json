@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k) giving number of pairwise non-isomorphic (i.e., unlabeled) matroids of rank k on n points (n >= 0, 0 <= k <= n).",
+  "id": "A053534",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000041",
+    "A055545",
+    "A058669",
+    "A058682",
+    "A058693"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle in which n-th row contains the first n numbers beginning with n.",
+  "id": "A077339",
+  "mentions": [
+    "A077340",
+    "A077341",
+    "A077343"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

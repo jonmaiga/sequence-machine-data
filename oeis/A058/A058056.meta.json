@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = p is the smallest prime such that p = n + h(n)^2 and p is the first prime following h(n)^2. The smallest immediate post-square primes with distance n = p - h(n)^2.",
+  "id": "A058056",
+  "mentions": [
+    "A058055"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

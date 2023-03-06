@@ -1,0 +1,30 @@
+{
+  "description": "Triangle: T(n,k) = number of compositions (ordered partitions) of n such that some part is repeated consecutively k times and no part is repeated consecutively more than k times.",
+  "id": "A091613",
+  "mentions": [
+    "A000079",
+    "A003242",
+    "A034007",
+    "A091614",
+    "A091615",
+    "A091616",
+    "A091617",
+    "A091618",
+    "A091619",
+    "A091620",
+    "A128695",
+    "A232294"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

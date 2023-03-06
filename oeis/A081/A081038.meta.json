@@ -1,0 +1,29 @@
+{
+  "description": "3rd binomial transform of (1,2,0,0,0,0,0,0,...).",
+  "id": "A081038",
+  "mentions": [
+    "A001787",
+    "A001792",
+    "A027471",
+    "A081039",
+    "A081040",
+    "A086972",
+    "A200139",
+    "A269914",
+    "A269915",
+    "A269916",
+    "A269917"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

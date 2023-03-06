@@ -1,0 +1,17 @@
+{
+  "description": "An improved natural sequence based on two base scales Pi and e and the prime sequence.",
+  "id": "A088589",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

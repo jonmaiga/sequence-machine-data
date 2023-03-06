@@ -1,0 +1,20 @@
+{
+  "description": "n^2 modulo 17.",
+  "id": "A054580",
+  "mentions": [
+    "A070439",
+    "A070440",
+    "A070441"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:19:59",
+    "offset": 0,
+    "size": 89,
+    "source": "joeis"
+  }
+}

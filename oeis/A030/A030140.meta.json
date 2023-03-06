@@ -1,0 +1,27 @@
+{
+  "description": "The nonsquares squared.",
+  "id": "A030140",
+  "mentions": [
+    "A000037",
+    "A000290",
+    "A000583",
+    "A013661",
+    "A013662",
+    "A016945",
+    "A062503",
+    "A225546",
+    "A352080"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

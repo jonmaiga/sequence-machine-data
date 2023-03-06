@@ -1,0 +1,15 @@
+{
+  "description": "tanh(sin(x)+log(x+1))=2*x-1/2!*x^2-15/3!*x^3+42/4!*x^4+397/5!*x^5...",
+  "id": "A012894",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:36",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

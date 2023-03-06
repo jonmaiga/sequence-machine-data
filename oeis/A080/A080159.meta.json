@@ -1,0 +1,26 @@
+{
+  "description": "Triangular array of ways of drawing k non-intersecting chords between n points on a circle; i.e., Motzkin polynomial coefficients.",
+  "id": "A080159",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A000217",
+    "A000910",
+    "A001006",
+    "A007318",
+    "A034827",
+    "A055151"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:41:01",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

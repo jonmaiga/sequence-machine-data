@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of pair of consecutive numbers (k,k+1) with k<=10^n such that k and k+1 are both squarefree.",
+  "id": "A087618",
+  "mentions": [
+    "A065474",
+    "A071172"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

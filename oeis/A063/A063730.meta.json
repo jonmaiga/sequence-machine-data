@@ -1,0 +1,25 @@
+{
+  "description": "Number of solutions to w^2 + x^2 + y^2 + z^2 = n in positive integers.",
+  "id": "A063730",
+  "mentions": [
+    "A000007",
+    "A000118",
+    "A000122",
+    "A004018",
+    "A005875",
+    "A063691",
+    "A063725",
+    "A337165"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

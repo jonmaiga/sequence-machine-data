@@ -1,0 +1,37 @@
+{
+  "description": "Number of disconnected 4-valent (or quartic) graphs with n nodes.",
+  "id": "A033483",
+  "mentions": [
+    "A005195",
+    "A006820",
+    "A033301",
+    "A068932",
+    "A068933",
+    "A165652",
+    "A165653",
+    "A165655",
+    "A165656",
+    "A165877",
+    "A165878",
+    "A185203",
+    "A185213",
+    "A185244",
+    "A185245",
+    "A185246",
+    "A185293"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "changed",
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

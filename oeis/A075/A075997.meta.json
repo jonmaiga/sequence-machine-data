@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = [n/2]-[n/3]+[n/4]-[n/5]+[n/6]-..., where [n/k] = floor(n/k).",
+  "id": "A075997",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A059851",
+    "A060831"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:49:55",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Another of the 32 sequences illustrating the fact that A093382(2) = 199.",
+  "id": "A093386",
+  "mentions": [
+    "A093382"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 199,
+    "source": "oeis-entry"
+  }
+}

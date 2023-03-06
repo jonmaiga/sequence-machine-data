@@ -1,0 +1,19 @@
+{
+  "description": "Primes that remain prime through 3 iterations of function f(x) = 4x + 9.",
+  "id": "A023282",
+  "mentions": [
+    "A023216",
+    "A023251",
+    "A111199"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into parts which are the digits of n.",
+  "id": "A061827",
+  "mentions": [
+    "A061828",
+    "A109950",
+    "A119999",
+    "A125289",
+    "A125290",
+    "A125291",
+    "A136460",
+    "A193513"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

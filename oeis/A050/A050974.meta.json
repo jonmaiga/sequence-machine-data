@@ -1,0 +1,20 @@
+{
+  "description": "Number of binary arrangements on n X n array without three adjacent 1's in a row or column.",
+  "id": "A050974",
+  "mentions": [
+    "A006506",
+    "A067968"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

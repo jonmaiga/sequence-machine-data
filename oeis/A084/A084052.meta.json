@@ -1,0 +1,27 @@
+{
+  "description": "2*n digit-reversed mod 2.",
+  "id": "A084052",
+  "mentions": [
+    "A000035",
+    "A004093",
+    "A084053",
+    "A084054",
+    "A084055",
+    "A084339",
+    "A084340",
+    "A084341"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 5,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

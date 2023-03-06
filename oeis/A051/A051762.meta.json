@@ -1,0 +1,22 @@
+{
+  "description": "Polygon circumscribing constant: decimal expansion of Product_{n=3..infinity} 1/cos(Pi/n).",
+  "id": "A051762",
+  "mentions": [
+    "A085365",
+    "A118253",
+    "A131671",
+    "A211174"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n + sum of squares of digits of n (A258881) is a prime.",
+  "id": "A076161",
+  "mentions": [
+    "A258881",
+    "A259391",
+    "A259567"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

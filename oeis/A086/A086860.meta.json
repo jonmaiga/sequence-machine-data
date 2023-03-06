@@ -1,0 +1,20 @@
+{
+  "description": "Numbers in A086473 corresponding to the unique product of two numbers having the unique sum of A086533.",
+  "id": "A086860",
+  "mentions": [
+    "A014092",
+    "A058080",
+    "A086473",
+    "A086533"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

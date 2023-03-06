@@ -1,0 +1,19 @@
+{
+  "description": "Nonsquares which are the product of two numbers with the same digits (leading zeros are forbidden).",
+  "id": "A072443",
+  "mentions": [
+    "A076750",
+    "A077760"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

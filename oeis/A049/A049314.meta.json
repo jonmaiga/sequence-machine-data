@@ -1,0 +1,21 @@
+{
+  "description": "The number k(GL(n,q)) of conjugacy classes in GL(n,q), q=4.",
+  "id": "A049314",
+  "mentions": [
+    "A006951",
+    "A006952",
+    "A049315",
+    "A049316"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

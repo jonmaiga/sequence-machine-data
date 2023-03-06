@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of sine of 81 degrees.",
+  "id": "A019890",
+  "mentions": [
+    "A019812",
+    "A019818",
+    "A019821",
+    "A019836",
+    "A019845",
+    "A019863",
+    "A019872",
+    "A019881",
+    "A019887",
+    "A019896"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:04:07",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

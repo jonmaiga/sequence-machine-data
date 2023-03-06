@@ -1,0 +1,25 @@
+{
+  "description": "Even partition numbers.",
+  "id": "A052001",
+  "mentions": [
+    "A000041",
+    "A001560",
+    "A005843",
+    "A052002",
+    "A052003",
+    "A059841",
+    "A167392",
+    "A213179"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:16:39",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

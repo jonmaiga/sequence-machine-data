@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1+x^2+x^3+x^5)/((1-x)(1-x^3)(1-x^4)(1-x^6)).",
+  "id": "A028289",
+  "mentions": [
+    "A076118",
+    "A117373"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:47",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

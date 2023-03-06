@@ -1,0 +1,20 @@
+{
+  "description": "Binomial transform of generalized Jacobsthal numbers A084170.",
+  "id": "A084171",
+  "mentions": [
+    "A084170",
+    "A090888"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

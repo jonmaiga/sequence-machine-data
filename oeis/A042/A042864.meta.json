@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(964).",
+  "id": "A042864",
+  "mentions": [
+    "A040932",
+    "A042865"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:02:50",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

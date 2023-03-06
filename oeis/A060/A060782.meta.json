@@ -1,0 +1,17 @@
+{
+  "description": "Degree of the curve C(n) relative to a triangle ABC with side lengths a, b and c, given by (x^n- b^n)(y^n-c^n)(z^n-a^n) = (x^n-c^n)(y^n-a^n)(z^n-b^n) where x, y and z denote the distances from the variable point to vertices A, B and C respectively.",
+  "id": "A060782",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Determinant of n X n matrix whose rows are cyclic permutations of 1..n.",
+  "id": "A052182",
+  "mentions": [
+    "A000169",
+    "A000272",
+    "A000312",
+    "A060281",
+    "A060435",
+    "A070896"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

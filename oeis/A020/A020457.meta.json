@@ -1,0 +1,18 @@
+{
+  "description": "Primes that contain digits 1 and 9 only.",
+  "id": "A020457",
+  "mentions": [
+    "A329761"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Positions in A089959 where 4 occurs.",
+  "id": "A089960",
+  "mentions": [
+    "A089959"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

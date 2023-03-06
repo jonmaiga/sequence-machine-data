@@ -1,0 +1,20 @@
+{
+  "description": "Near-repunit primes that contain the digit 0.",
+  "id": "A065074",
+  "mentions": [
+    "A004022",
+    "A034093",
+    "A065083"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

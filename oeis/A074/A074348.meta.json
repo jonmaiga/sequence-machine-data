@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number requiring n steps to reach 0 or -1 when iterating the function: f(n)=lcd(n)-lpf(n), where lcd(n) is the largest common difference between consecutive divisors of n (ordered by size) and lpf(n) is the largest prime factor of n.",
+  "id": "A074348",
+  "mentions": [
+    "A075661"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

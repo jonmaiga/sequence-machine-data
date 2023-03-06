@@ -1,0 +1,19 @@
+{
+  "description": "Binary entropy: a(n) = n + min { a(k)+a(n-k) : 1 <= k <= n-1 }.",
+  "id": "A054248",
+  "mentions": [
+    "A003314",
+    "A123753"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

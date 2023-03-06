@@ -1,0 +1,28 @@
+{
+  "description": "Numerator of Sum_{k=0..n} (-1)^k/k!.",
+  "id": "A053557",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A053518",
+    "A053520",
+    "A053556",
+    "A103360",
+    "A103361",
+    "A103816"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

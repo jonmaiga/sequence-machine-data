@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are primes when turned upside down.",
+  "id": "A080789",
+  "mentions": [
+    "A054047",
+    "A057770",
+    "A080788"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

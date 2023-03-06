@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime starting with at least n 2s.",
+  "id": "A068103",
+  "mentions": [
+    "A065584",
+    "A065585",
+    "A068104",
+    "A068105"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

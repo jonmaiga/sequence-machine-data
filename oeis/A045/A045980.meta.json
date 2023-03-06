@@ -1,0 +1,25 @@
+{
+  "description": "Numbers of the form x^3 + y^3 or x^3 - y^3.",
+  "id": "A045980",
+  "mentions": [
+    "A003325",
+    "A004999",
+    "A010052",
+    "A027750",
+    "A222304",
+    "A222305",
+    "A222306"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:27:47",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

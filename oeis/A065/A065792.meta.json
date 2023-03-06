@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 9; for n > 1 is a(n) the square root of the smallest square > a(n-1)^2 with a(n-1)^2 forming its final digits.",
+  "id": "A065792",
+  "mentions": [
+    "A050635",
+    "A065690",
+    "A065791",
+    "A065793"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

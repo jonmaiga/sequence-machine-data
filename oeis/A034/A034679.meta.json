@@ -1,0 +1,21 @@
+{
+  "description": "Sum of fifth powers of unitary divisors.",
+  "id": "A034679",
+  "mentions": [
+    "A034444",
+    "A034448",
+    "A286880"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2*a(n-1) + 10*a(n-2).",
+  "id": "A083102",
+  "mentions": [
+    "A038207",
+    "A083101"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

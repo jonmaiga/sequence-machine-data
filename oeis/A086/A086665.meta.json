@@ -1,0 +1,18 @@
+{
+  "description": "Difference between sum of divisors of n and integer log of n, i.e., A000203(n) - A001414(n).",
+  "id": "A086665",
+  "mentions": [
+    "A000203",
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

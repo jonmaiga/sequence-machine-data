@@ -1,0 +1,20 @@
+{
+  "description": "Football league numbers: the possible point series for a league of n teams playing each other twice where for each match 3 points are awarded to the winning team and 1 to each in the case of a tie.",
+  "id": "A064422",
+  "mentions": [
+    "A007747",
+    "A047730",
+    "A064626"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

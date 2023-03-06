@@ -1,0 +1,24 @@
+{
+  "description": "Bisection (odd part) of Chebyshev sequence with Diophantine property.",
+  "id": "A077234",
+  "mentions": [
+    "A001353",
+    "A049310",
+    "A054491",
+    "A077235",
+    "A077236",
+    "A077237"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

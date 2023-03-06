@@ -1,0 +1,18 @@
+{
+  "description": "Row 3 of array in A288580.",
+  "id": "A092397",
+  "mentions": [
+    "A288580"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:04:24",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

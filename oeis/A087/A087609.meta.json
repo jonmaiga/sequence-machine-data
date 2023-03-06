@@ -1,0 +1,24 @@
+{
+  "description": "Primes arising in A087604, or 0 if A087604(n) = 0.",
+  "id": "A087609",
+  "mentions": [
+    "A086920",
+    "A087604",
+    "A087605",
+    "A087606",
+    "A087607",
+    "A087608",
+    "A087610"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Spell English name for n, then interpret as number in base 36.",
+  "id": "A072922",
+  "mentions": [
+    "A000027",
+    "A038842"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

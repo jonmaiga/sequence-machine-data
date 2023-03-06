@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies exp(x*Sum_{n>=0} ceiling(a(n)/n!)*x^n) = Sum_{n>=0} a(n)*x^n/n!.",
+  "id": "A085295",
+  "mentions": [
+    "A085023",
+    "A085294"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of strong elementary edge-subgraphs in Moebius ladder M_n.",
+  "id": "A020880",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 2,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

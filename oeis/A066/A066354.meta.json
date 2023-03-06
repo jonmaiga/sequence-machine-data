@@ -1,0 +1,19 @@
+{
+  "description": "Number of hands that peg n points in the \"show\" phase of 6-card cribbage.",
+  "id": "A066354",
+  "mentions": [
+    "A143133"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

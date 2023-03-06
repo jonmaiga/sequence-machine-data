@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n!*(n+2)!/2.",
+  "id": "A010791",
+  "mentions": [
+    "A005563",
+    "A010792",
+    "A010793",
+    "A010794",
+    "A010795",
+    "A175430",
+    "A229020"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

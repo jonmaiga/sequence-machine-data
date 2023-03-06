@@ -1,0 +1,30 @@
+{
+  "description": "Number of cubefree divisors of n.",
+  "id": "A073184",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A001620",
+    "A004709",
+    "A007948",
+    "A027750",
+    "A034444",
+    "A073180",
+    "A073182",
+    "A073183",
+    "A073185",
+    "A212793"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

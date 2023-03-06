@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (3 * 5^n - 1)/2.",
+  "id": "A057651",
+  "mentions": [
+    "A020989",
+    "A024049",
+    "A061801",
+    "A081655",
+    "A112468",
+    "A112739"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

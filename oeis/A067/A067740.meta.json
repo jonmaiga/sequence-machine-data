@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number k such that sigma(k)/sigma(phi(k)) = n.",
+  "id": "A067740",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A067385",
+    "A190503"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

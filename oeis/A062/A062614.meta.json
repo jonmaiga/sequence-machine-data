@@ -1,0 +1,19 @@
+{
+  "description": "Squarefree parts of products of numbers of faces of Platonic solids.",
+  "id": "A062614",
+  "mentions": [
+    "A007913",
+    "A062554"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

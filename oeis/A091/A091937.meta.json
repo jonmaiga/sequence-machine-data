@@ -1,0 +1,19 @@
+{
+  "description": "Greatest number of 1's in binary representations of primes between 2^n and 2^(n+1).",
+  "id": "A091937",
+  "mentions": [
+    "A000120",
+    "A091935",
+    "A091938"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

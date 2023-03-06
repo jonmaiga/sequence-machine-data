@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of 3's between n-th 1 and (n+1)st 1 in A026600.",
+  "id": "A026609",
+  "mentions": [
+    "A026600"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:32:53",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

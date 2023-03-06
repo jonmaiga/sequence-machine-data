@@ -1,0 +1,18 @@
+{
+  "description": "n for which 6n+1 | 2^n-1.",
+  "id": "A038844",
+  "mentions": [
+    "A045762",
+    "A188130"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:42:53",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

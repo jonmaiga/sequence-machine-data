@@ -1,0 +1,20 @@
+{
+  "description": "Difference between the n-th perfect power and the closest perfect power.",
+  "id": "A075772",
+  "mentions": [
+    "A001597",
+    "A053289",
+    "A075773"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

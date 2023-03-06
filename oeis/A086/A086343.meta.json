@@ -1,0 +1,22 @@
+{
+  "description": "a(n) starts new run of consecutive values in A055938.",
+  "id": "A086343",
+  "mentions": [
+    "A000120",
+    "A001511",
+    "A005187",
+    "A055938"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:35:03",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

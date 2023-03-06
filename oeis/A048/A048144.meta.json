@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k!)^2 * Stirling_2(n,k)^2.",
+  "id": "A048144",
+  "mentions": [
+    "A000670",
+    "A104602",
+    "A120732",
+    "A121936",
+    "A122399",
+    "A122418",
+    "A212084",
+    "A242280"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

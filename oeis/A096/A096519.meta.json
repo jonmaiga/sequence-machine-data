@@ -1,0 +1,19 @@
+{
+  "description": "Solutions to A096509[x]=8, the number of prime-powers [including primes] in neighborhood of x with Ceiling[Log[x]] radius, equals 8.",
+  "id": "A096519",
+  "mentions": [
+    "A096508",
+    "A096509",
+    "A096518"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

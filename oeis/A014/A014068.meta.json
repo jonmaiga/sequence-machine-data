@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = binomial(n*(n+1)/2, n).",
+  "id": "A014068",
+  "mentions": [
+    "A000217",
+    "A022915",
+    "A135860",
+    "A135861",
+    "A135862"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

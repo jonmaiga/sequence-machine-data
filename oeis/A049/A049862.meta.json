@@ -1,0 +1,19 @@
+{
+  "description": "Products of two Fibonacci numbers with distinct indices.",
+  "id": "A049862",
+  "mentions": [
+    "A000045",
+    "A160009",
+    "A272949"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:49",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) giving floor( (2*p mod n-1)/2), where p = period of sequence k^i (i=0,1,2,...) mod n (n >= 2, 2<=k<=n).",
+  "id": "A057594",
+  "mentions": [
+    "A057593",
+    "A057595"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 2,
+    "size": 78,
+    "source": "joeis"
+  }
+}

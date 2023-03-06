@@ -1,0 +1,20 @@
+{
+  "description": "Binomial transform of squares of Catalan numbers.",
+  "id": "A087804",
+  "mentions": [
+    "A001246",
+    "A007317",
+    "A087806"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

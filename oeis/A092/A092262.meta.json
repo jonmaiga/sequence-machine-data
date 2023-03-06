@@ -1,0 +1,20 @@
+{
+  "description": "Primes p which equal prime(2^k) - prime(2^(k-1)) + 1 for some k.",
+  "id": "A092262",
+  "mentions": [
+    "A033844",
+    "A345982"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

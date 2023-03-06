@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of conjectured value of constant C such that, if f(n) is the minimal area of a convex lattice polygon with n vertices, then f(n)/n^3 -> C as n -> infinity.",
+  "id": "A096340",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = (1/4) * (number of n X n 0..11 matrices with MM' mod 12 = I).",
+  "id": "A071310",
+  "mentions": [
+    "A003053",
+    "A071302",
+    "A071303",
+    "A071304",
+    "A071305",
+    "A071306",
+    "A071307",
+    "A071308",
+    "A071309",
+    "A071900"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

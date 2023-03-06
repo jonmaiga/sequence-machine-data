@@ -1,0 +1,33 @@
+{
+  "description": "Smallest prime p having n different cycles in decimal expansions of k/p, k=1..p-1.",
+  "id": "A054471",
+  "mentions": [
+    "A006556",
+    "A006883",
+    "A055628",
+    "A056157",
+    "A056210",
+    "A056211",
+    "A056212",
+    "A056213",
+    "A056214",
+    "A056215",
+    "A056216",
+    "A056217",
+    "A097443",
+    "A098680"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

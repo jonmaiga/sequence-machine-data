@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n*(n-1) + (n-2)*(n-3) + ... + 1*0 + 1 for n odd; otherwise, a(n) = n*(n-1) + (n-2)*(n-3) + ... + 2*1.",
+  "id": "A014112",
+  "mentions": [
+    "A064999",
+    "A178218"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:38:29",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

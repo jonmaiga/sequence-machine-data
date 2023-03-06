@@ -1,0 +1,17 @@
+{
+  "description": "P-n where P = smallest prime > 2n.",
+  "id": "A088633",
+  "mentions": [
+    "A088631"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Inscribe 2 spheres of curvature 2 inside sphere of curvature -1, continue to inscribe spheres where possible; sequence gives list of curvatures.",
+  "id": "A045506",
+  "mentions": [
+    "A042944"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

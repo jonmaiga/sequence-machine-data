@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest integer k such that k is not of the form m + reverse(m) for any m (cf. A067031) and A067030(n) occurs in the 'Reverse and Add' trajectory of k.",
+  "id": "A067285",
+  "mentions": [
+    "A067030",
+    "A067031",
+    "A067033",
+    "A067284",
+    "A067286"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Least non-balanced x (i.e., not in A020492) such that sigma(p(n),x)/phi(x) is an integer, where p(n) = n-th prime.",
+  "id": "A078540",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000040",
+    "A000203",
+    "A015759",
+    "A015771",
+    "A015774",
+    "A020492",
+    "A078538",
+    "A078539"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

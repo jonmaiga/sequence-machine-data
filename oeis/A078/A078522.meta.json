@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that (n+1)*(2*n+1) is a perfect square.",
+  "id": "A078522",
+  "mentions": [
+    "A000217",
+    "A001653",
+    "A002315",
+    "A008844",
+    "A009111",
+    "A029546",
+    "A029549",
+    "A046176",
+    "A278310"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

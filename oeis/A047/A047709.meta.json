@@ -1,0 +1,29 @@
+{
+  "description": "Low-temperature series in u = exp(-4J/kT) for ferromagnetic susceptibility for the spin-1/2 Ising model on hexagonal lattice.",
+  "id": "A047709",
+  "mentions": [
+    "A002912",
+    "A002919",
+    "A002920",
+    "A002924",
+    "A002925",
+    "A002926",
+    "A002927",
+    "A003220",
+    "A003488",
+    "A005399",
+    "A057383",
+    "A057387"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of inequivalent Latin squares (or isotopy classes of Latin squares) of order n.",
+  "id": "A040082",
+  "mentions": [
+    "A000315",
+    "A000528",
+    "A002860",
+    "A003090"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

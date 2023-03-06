@@ -1,0 +1,17 @@
+{
+  "description": "Composite and even n such that phi(n) * sigma(n) is one less than a square.",
+  "id": "A015721",
+  "mentions": [
+    "A015709"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

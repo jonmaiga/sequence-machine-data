@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = |s(n) - n|, where s = A026250. Also a(n) = 2*t(n), where t = A026249.",
+  "id": "A026251",
+  "mentions": [
+    "A026249",
+    "A026250"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:51",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

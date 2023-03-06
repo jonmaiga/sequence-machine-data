@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that k*prime(n)#/2 - 2 and k*prime(n)#/2 + 4 are consecutive primes, where prime(n)# is the n-th primorial.",
+  "id": "A097440",
+  "mentions": [
+    "A002110",
+    "A097439",
+    "A097441",
+    "A097570",
+    "A098064"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

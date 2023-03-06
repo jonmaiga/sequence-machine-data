@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction expansion of tanh(Pi^2).",
+  "id": "A084304",
+  "mentions": [
+    "A083124"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:31",
+    "offset": 0,
+    "size": 93,
+    "source": "joeis"
+  }
+}

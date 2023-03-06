@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers not divisible by 2 which in base 4 contain their largest proper factor as a substring.",
+  "id": "A063145",
+  "mentions": [
+    "A062238"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

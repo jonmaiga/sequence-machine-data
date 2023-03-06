@@ -1,0 +1,16 @@
+{
+  "description": "Discriminants of quartic fields with 2 complex conjugates (negated).",
+  "id": "A023681",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

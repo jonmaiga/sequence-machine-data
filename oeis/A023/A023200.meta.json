@@ -1,0 +1,29 @@
+{
+  "description": "Primes p such that p + 4 is also prime.",
+  "id": "A023200",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A003557",
+    "A007947",
+    "A010051",
+    "A015913",
+    "A029710",
+    "A046132",
+    "A067775",
+    "A087679",
+    "A098429",
+    "A232012"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

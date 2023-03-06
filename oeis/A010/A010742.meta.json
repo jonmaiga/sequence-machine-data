@@ -1,0 +1,18 @@
+{
+  "description": "Shifts 4 places right under binomial transform.",
+  "id": "A010742",
+  "mentions": [
+    "A003633"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:01:30",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

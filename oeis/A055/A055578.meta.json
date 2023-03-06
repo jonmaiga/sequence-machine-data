@@ -1,0 +1,27 @@
+{
+  "description": "\"Non-generous primes\": primes p whose least positive primitive root is not a primitive root of p^2.",
+  "id": "A055578",
+  "mentions": [
+    "A000040",
+    "A001918",
+    "A046145",
+    "A060503",
+    "A060504",
+    "A123692",
+    "A127807"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "bref",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

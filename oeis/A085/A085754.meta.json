@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (digital sum of n)^3 = reversal of n. (Powers of 10 excluded.)",
+  "id": "A085754",
+  "mentions": [
+    "A061209"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

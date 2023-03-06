@@ -1,0 +1,18 @@
+{
+  "description": "Number of topological types of 4-connected n-nodal networks.",
+  "id": "A022607",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of distinct prime factors of n-th least prime signature (A025487); also a(n)-th prime is largest prime factor of n-th least prime signature; also a(n)-th primorial number is largest primorial factor of n-th least product of primorial numbers.",
+  "id": "A061394",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A002110",
+    "A006530",
+    "A025487",
+    "A051903",
+    "A061395",
+    "A181822",
+    "A247451"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a_1, a_2, ..., is a permutation of the positive integers such that the average of each initial segment is an integer, using the greedy algorithm to define a_n.",
+  "id": "A019444",
+  "mentions": [
+    "A001622",
+    "A002251",
+    "A019445",
+    "A019446",
+    "A243700"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:26",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

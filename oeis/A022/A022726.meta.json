@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/Product_{m>=1} (1 - m*q^m)^2.",
+  "id": "A022726",
+  "mentions": [
+    "A006906",
+    "A022662",
+    "A297328"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

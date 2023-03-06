@@ -1,0 +1,15 @@
+{
+  "description": "Primes that can be written as \"a * b + c * d\", where a, b, c and d are also primes.",
+  "id": "A071621",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

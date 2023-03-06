@@ -1,0 +1,17 @@
+{
+  "description": "All differences C(j)-C(i), j>i, of Catalan numbers A000108.",
+  "id": "A047075",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:59:01",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

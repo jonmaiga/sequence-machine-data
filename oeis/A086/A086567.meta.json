@@ -1,0 +1,18 @@
+{
+  "description": "Length of cycle produced by the function f: (x; y; z) ->(x-y-z; y; 2*y + z) if y + = z (y + z -x; x; 2*x -z) if y +z >x when started at (n,1,1).",
+  "id": "A086567",
+  "mentions": [
+    "A087855"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

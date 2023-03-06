@@ -1,0 +1,24 @@
+{
+  "description": "Lengths of Farey-series (A005728) which are not primes.",
+  "id": "A061560",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A005728",
+    "A006842",
+    "A006843",
+    "A055197",
+    "A055201"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

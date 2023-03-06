@@ -1,0 +1,25 @@
+{
+  "description": "Operation count to create all permutations of n distinct elements using the \"streamlined\" version of Knuth's Algorithm L (lexicographic permutation generation).",
+  "id": "A079755",
+  "mentions": [
+    "A079750",
+    "A079751",
+    "A079752",
+    "A079753",
+    "A079754",
+    "A079756",
+    "A079884",
+    "A079885"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 3,
+    "size": 18,
+    "source": "joeis"
+  }
+}

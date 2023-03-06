@@ -1,0 +1,26 @@
+{
+  "description": "The smallest initial prime of 2 non-overlapping d-twin primes if the distance between pairs (D) is minimal (see A052380).",
+  "id": "A052381",
+  "mentions": [
+    "A001223",
+    "A031924",
+    "A031928",
+    "A047948",
+    "A052350",
+    "A052359",
+    "A052380",
+    "A053318",
+    "A053331"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:06:27",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

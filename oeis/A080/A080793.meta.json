@@ -1,0 +1,17 @@
+{
+  "description": "Starting with a(0)=1, smallest number k>a(n-1) such that, for all a(m) with m",
+  "id": "A080793",
+  "mentions": [
+    "A077225"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

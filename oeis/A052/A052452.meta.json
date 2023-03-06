@@ -1,0 +1,24 @@
+{
+  "description": "Number of n-node simple graphs having clique number 4.",
+  "id": "A052452",
+  "mentions": [
+    "A052450",
+    "A052451",
+    "A052453",
+    "A077392",
+    "A077393",
+    "A077394",
+    "A263341"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

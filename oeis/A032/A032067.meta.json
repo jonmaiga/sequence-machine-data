@@ -1,0 +1,15 @@
+{
+  "description": "Shifts left 2 places under \"BGK\" (reversible, element, unlabeled) transform.",
+  "id": "A032067",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:08",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

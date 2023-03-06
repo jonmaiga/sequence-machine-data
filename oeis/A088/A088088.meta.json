@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(n) = smallest multiple of a(n-1) such that every partial concatenation (n >1) is a prime.",
+  "id": "A088088",
+  "mentions": [
+    "A088089"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

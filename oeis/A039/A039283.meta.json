@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose base-5 representation has the same nonzero number of 0's and 1's.",
+  "id": "A039283",
+  "mentions": [
+    "A031443",
+    "A039275",
+    "A039277",
+    "A039293",
+    "A039308",
+    "A039329",
+    "A039357",
+    "A039393",
+    "A039438",
+    "A039493"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:43:49",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

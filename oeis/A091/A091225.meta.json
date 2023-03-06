@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic function of A014580: 1 if the n-th GF(2)[X] polynomial is irreducible, 0 otherwise.",
+  "id": "A091225",
+  "mentions": [
+    "A010051",
+    "A014580",
+    "A091203",
+    "A091205",
+    "A091226",
+    "A091227",
+    "A091247"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

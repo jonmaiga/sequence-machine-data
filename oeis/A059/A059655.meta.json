@@ -1,0 +1,18 @@
+{
+  "description": "Positions of minus ones (-1's) in A059652.",
+  "id": "A059655",
+  "mentions": [
+    "A059652",
+    "A059656"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:15:21",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

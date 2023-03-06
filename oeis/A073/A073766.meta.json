@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = binomial(composite(n+1), composite(n)) = binomial(A002808(n+1), A002808(n)).",
+  "id": "A073766",
+  "mentions": [
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

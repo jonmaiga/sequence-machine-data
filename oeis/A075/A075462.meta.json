@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of solutions to the all-ones lights out problem on an n X n square.",
+  "id": "A075462",
+  "mentions": [
+    "A075463",
+    "A075464",
+    "A076436",
+    "A076437",
+    "A159257"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers with exactly three prime digits.",
+  "id": "A092625",
+  "mentions": [
+    "A019546",
+    "A034844",
+    "A034895",
+    "A046034",
+    "A084984",
+    "A085557",
+    "A092620",
+    "A092624",
+    "A118950",
+    "A193238"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

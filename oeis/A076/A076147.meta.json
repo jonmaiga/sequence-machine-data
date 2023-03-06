@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that the n-th prime + n is a cube.",
+  "id": "A076147",
+  "mentions": [
+    "A064371"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

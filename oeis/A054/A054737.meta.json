@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^2 can be split into two nonzero squares (perhaps with leading zeros) in exactly two different ways.",
+  "id": "A054737",
+  "mentions": [
+    "A048375",
+    "A054738"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

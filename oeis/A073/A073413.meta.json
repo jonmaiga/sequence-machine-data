@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that number of divisors of n divides S(n), the Kempner function A002034.",
+  "id": "A073413",
+  "mentions": [
+    "A000005",
+    "A002034",
+    "A073331",
+    "A073535"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

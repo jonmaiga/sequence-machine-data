@@ -1,0 +1,32 @@
+{
+  "description": "Numbers k such that the odd part of k is less than sqrt(2k).",
+  "id": "A082662",
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A001227",
+    "A003056",
+    "A005153",
+    "A006519",
+    "A038712",
+    "A082647",
+    "A172471",
+    "A237593",
+    "A238443",
+    "A279387",
+    "A281005"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

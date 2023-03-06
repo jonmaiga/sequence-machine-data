@@ -1,0 +1,21 @@
+{
+  "description": "The a(n)-th triangular number is the sum of the n-th triangular number and the smallest triangular number possible.",
+  "id": "A082184",
+  "mentions": [
+    "A000217",
+    "A068194",
+    "A068195",
+    "A080824",
+    "A082183"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 2,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

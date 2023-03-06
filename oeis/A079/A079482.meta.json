@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number k such that k and k+1 have n and n+1 distinct prime divisors.",
+  "id": "A079482",
+  "mentions": [
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

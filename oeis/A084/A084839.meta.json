@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integers that satisfy sum(n>0, mu(a(n))*log(a(n))/a(n))=-1 by requiring that the absolute values of 1 + the successive partial sums are monotonically decreasing in magnitude, where a(1)=1 and a(n+1)>a(n) for n>0.",
+  "id": "A084839",
+  "mentions": [
+    "A084838"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

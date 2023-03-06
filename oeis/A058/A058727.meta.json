@@ -1,0 +1,24 @@
+{
+  "description": "McKay-Thompson series of class 60C for Monster.",
+  "id": "A058727",
+  "mentions": [
+    "A000521",
+    "A007240",
+    "A007241",
+    "A007267",
+    "A014708",
+    "A045478",
+    "A145725"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:17:39",
+    "offset": -1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of Motzkin paths of length n with no peaks at level 1.",
+  "id": "A089372",
+  "mentions": [
+    "A001006"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

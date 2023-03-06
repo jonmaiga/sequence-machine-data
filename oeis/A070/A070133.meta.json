@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that [A070080(n), A070081(n), A070082(n)] is an obtuse isosceles integer triangle.",
+  "id": "A070133",
+  "mentions": [
+    "A070080",
+    "A070081",
+    "A070082",
+    "A070085",
+    "A070106",
+    "A070115",
+    "A070127",
+    "A070134",
+    "A070135"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

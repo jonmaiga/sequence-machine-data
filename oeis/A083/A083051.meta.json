@@ -1,0 +1,20 @@
+{
+  "description": "First column of table A083050.",
+  "id": "A083051",
+  "mentions": [
+    "A083044",
+    "A083047",
+    "A083050"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Modified juggler modified further: a[n]=(1-Mod[n,2])*Floor[n^(3/4)]+Mod[n,2]*Floor[n^(4/3)]; original exponents {1/2,3/2} are replaced with {3/4,4/3}.",
+  "id": "A095399",
+  "mentions": [
+    "A007320",
+    "A094396",
+    "A094401",
+    "A094683",
+    "A094716"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

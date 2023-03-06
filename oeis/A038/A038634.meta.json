@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k-th and (k+1)-st term of A038593 differ by 3.",
+  "id": "A038634",
+  "mentions": [
+    "A038593",
+    "A038645",
+    "A038646"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Prime powers with special exponents: q^(p-1) where p > 2 and q are prime numbers.",
+  "id": "A036454",
+  "mentions": [
+    "A000005",
+    "A002808",
+    "A009087",
+    "A010051",
+    "A010055",
+    "A010553",
+    "A036450",
+    "A036452",
+    "A036459",
+    "A100995",
+    "A283262"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

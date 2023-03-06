@@ -1,0 +1,30 @@
+{
+  "description": "Chebyshev polynomials S(n,11) + S(n-1,11) with Diophantine property.",
+  "id": "A097783",
+  "mentions": [
+    "A000045",
+    "A002315",
+    "A004146",
+    "A004190",
+    "A006190",
+    "A049310",
+    "A053120",
+    "A078922",
+    "A100047",
+    "A108299",
+    "A113224",
+    "A192425"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Characteristic cube divisor of n: cube of g = gcd(K,F), where K is the largest square root divisor of n (A000188) and F = n/(K*K) = A007913(n) is its squarefree part; g^2 divides K^2 = A008833(n) = g^2*L^2 and g divides F = gf.",
+  "id": "A056191",
+  "mentions": [
+    "A000188",
+    "A000578",
+    "A007913",
+    "A008833",
+    "A020639",
+    "A028234",
+    "A055229",
+    "A055231",
+    "A056192",
+    "A067029"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

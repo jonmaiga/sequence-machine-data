@@ -1,0 +1,23 @@
+{
+  "description": "Number of binary strings with n 1's and n 0's avoiding zigzags, that is avoiding the substrings 101 and 010.",
+  "id": "A078678",
+  "mentions": [
+    "A003440",
+    "A078679",
+    "A099172",
+    "A128588",
+    "A268545",
+    "A268555"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:25:38",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Theta series of lattice A_2 tensor A_15+ (dimension 30, det 3^15, min. norm 4).",
+  "id": "A037212",
+  "mentions": [
+    "A004016",
+    "A007332",
+    "A037150"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:12",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

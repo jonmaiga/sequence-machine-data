@@ -1,0 +1,20 @@
+{
+  "description": "Prime powers of the form 4n+1.",
+  "id": "A085759",
+  "mentions": [
+    "A000961",
+    "A002144"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

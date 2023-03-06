@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, such that the convolution of each row with {1,2} produces a triangle which, after the main diagonal is divided by 2 and the triangle is flattened, equals this flattened form of the original triangle.",
+  "id": "A092689",
+  "mentions": [
+    "A002426",
+    "A092683",
+    "A092686",
+    "A092690"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) and floor(a(n)/7) are both squares; i.e., squares which remain squares when written in base 7 and last digit is removed.",
+  "id": "A055859",
+  "mentions": [
+    "A023110",
+    "A204516",
+    "A204517"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

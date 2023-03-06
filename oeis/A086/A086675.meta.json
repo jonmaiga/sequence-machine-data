@@ -1,0 +1,32 @@
+{
+  "description": "Number of n X n (0,1)-matrices modulo cyclic permutations of the rows.",
+  "id": "A086675",
+  "mentions": [
+    "A000031",
+    "A000939",
+    "A008965",
+    "A060690",
+    "A061417",
+    "A184271",
+    "A192332",
+    "A275527",
+    "A323858",
+    "A323870",
+    "A324463",
+    "A324464",
+    "A324513",
+    "A324514"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

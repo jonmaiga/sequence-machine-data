@@ -1,0 +1,25 @@
+{
+  "description": "Primes of the form 6k+5 generated recursively: a(1)=5; a(n) = min{p, prime; p mod 6 = 5; p | 6Q-1}, where Q is the product of all previous terms in the sequence.",
+  "id": "A057206",
+  "mentions": [
+    "A000945",
+    "A000946",
+    "A005265",
+    "A005266",
+    "A007528",
+    "A051308",
+    "A051335",
+    "A057204",
+    "A057208"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|n} rad(d)^(n/d), where rad(d) = A007947(d) is the squarefree kernel of d.",
+  "id": "A095001",
+  "mentions": [
+    "A007947",
+    "A094947"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

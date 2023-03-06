@@ -1,0 +1,21 @@
+{
+  "description": "Length of maximal Dyck path prefix in the Legendre-vector of the n-th 4k+3 prime (A002145(n)).",
+  "id": "A095105",
+  "mentions": [
+    "A002145",
+    "A095062",
+    "A095104",
+    "A095107",
+    "A095270"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sum of digits of k^4 as k runs from 1 to n.",
+  "id": "A099358",
+  "mentions": [
+    "A037123",
+    "A055565",
+    "A071121",
+    "A071317"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:49:57",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

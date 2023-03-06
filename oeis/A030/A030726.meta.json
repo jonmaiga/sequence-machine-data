@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A030717(k) = 4.",
+  "id": "A030726",
+  "mentions": [
+    "A030717",
+    "A030719",
+    "A030723",
+    "A030724",
+    "A030725"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

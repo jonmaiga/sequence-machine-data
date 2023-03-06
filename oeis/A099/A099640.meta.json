@@ -1,0 +1,20 @@
+{
+  "description": "Primes with subscripts described in A098213.",
+  "id": "A099640",
+  "mentions": [
+    "A079007",
+    "A098213"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of nodes in rooted tree with GF2X-Matula number n.",
+  "id": "A091238",
+  "mentions": [
+    "A000081",
+    "A014580",
+    "A048720",
+    "A061773",
+    "A061775",
+    "A091205",
+    "A091230",
+    "A091239",
+    "A091241",
+    "A091247"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

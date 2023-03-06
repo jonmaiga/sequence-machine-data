@@ -1,0 +1,22 @@
+{
+  "description": "Table T(n,k) giving log_b(k), 1<=k<=p, where p = n-th prime and b = smallest primitive root of p (A001918).",
+  "id": "A054503",
+  "mentions": [
+    "A001918",
+    "A054505",
+    "A054513"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:19:25",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

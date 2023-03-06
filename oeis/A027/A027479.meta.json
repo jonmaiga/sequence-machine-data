@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of the fourth power of the normalized, unsigned Stirling matrix of the first kind.",
+  "id": "A027479",
+  "mentions": [
+    "A027477",
+    "A027478"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:44:13",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

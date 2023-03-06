@@ -1,0 +1,21 @@
+{
+  "description": "Concatenation of prime factors of n-th Fibonacci number.",
+  "id": "A038526",
+  "mentions": [
+    "A000045",
+    "A037276",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:25:25",
+    "offset": 3,
+    "size": 35,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime p such that n = (p-1)/(q-1) for some prime q.",
+  "id": "A064632",
+  "mentions": [
+    "A034694",
+    "A064652",
+    "A064673"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 2,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

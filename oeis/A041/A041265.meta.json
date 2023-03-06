@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(145).",
+  "id": "A041265",
+  "mentions": [
+    "A040132",
+    "A041264",
+    "A176910"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:51",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

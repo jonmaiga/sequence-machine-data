@@ -1,0 +1,18 @@
+{
+  "description": "Consecutive repeats in A087831, the triple recursion skip two Hofstadter Q of the second sort.",
+  "id": "A087830",
+  "mentions": [
+    "A005206",
+    "A087831"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

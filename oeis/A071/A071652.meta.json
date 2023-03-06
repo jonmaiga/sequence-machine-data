@@ -1,0 +1,27 @@
+{
+  "description": "Inverse permutation to A071651.",
+  "id": "A071652",
+  "mentions": [
+    "A002262",
+    "A014486",
+    "A025581",
+    "A057163",
+    "A061579",
+    "A063171",
+    "A071651",
+    "A071653",
+    "A071654",
+    "A071671"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

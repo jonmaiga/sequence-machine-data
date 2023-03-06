@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = least k such that k*n^(1/n) differs from an integer by at most 1/n.",
+  "id": "A095186",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

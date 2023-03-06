@@ -1,0 +1,21 @@
+{
+  "description": "Factor n, divide sum of aliquot divisors by number of aliquot divisors; append n to sequence if quotient is integral and not previously seen.",
+  "id": "A048749",
+  "mentions": [
+    "A001065",
+    "A023883",
+    "A032741",
+    "A048747"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

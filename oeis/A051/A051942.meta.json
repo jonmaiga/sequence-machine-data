@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n*(n+1)/2 - 45.",
+  "id": "A051942",
+  "mentions": [
+    "A000096",
+    "A001008",
+    "A001477",
+    "A002805",
+    "A056121",
+    "A056126",
+    "A079664"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:51",
+    "offset": 9,
+    "size": 50,
+    "source": "joeis"
+  }
+}

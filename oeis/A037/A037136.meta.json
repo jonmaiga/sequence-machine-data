@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A037134(k) = A037135(k).",
+  "id": "A037136",
+  "mentions": [
+    "A037134",
+    "A037135"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

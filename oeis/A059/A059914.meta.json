@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that x^3 = 2 has more than one solution mod p and the sum of the (three) solutions is 2*p.",
+  "id": "A059914",
+  "mentions": [
+    "A001133",
+    "A014752",
+    "A040028",
+    "A059899"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

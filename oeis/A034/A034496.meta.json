@@ -1,0 +1,20 @@
+{
+  "description": "Sum of n-th powers of divisors of 8.",
+  "id": "A034496",
+  "mentions": [
+    "A006096",
+    "A022166"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

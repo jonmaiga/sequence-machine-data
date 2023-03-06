@@ -1,0 +1,19 @@
+{
+  "description": "Number of different initial values for 3x+1 trajectories of which the largest term appearing during the iteration equals n.",
+  "id": "A087255",
+  "mentions": [
+    "A025586",
+    "A087251",
+    "A087254"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

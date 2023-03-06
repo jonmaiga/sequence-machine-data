@@ -1,0 +1,27 @@
+{
+  "description": "Disjoint discriminants (one form per genus) of type 2 (doubled).",
+  "id": "A034168",
+  "mentions": [
+    "A000926",
+    "A005843",
+    "A025052",
+    "A034169",
+    "A055745",
+    "A060997",
+    "A139826"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of ternary rooted trees with n nodes and height exactly 5.",
+  "id": "A036420",
+  "mentions": [
+    "A036370",
+    "A036372",
+    "A036373",
+    "A036437"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:25:39",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

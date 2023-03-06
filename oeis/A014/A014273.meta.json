@@ -1,0 +1,16 @@
+{
+  "description": "Number of trees on n nodes with forbidden limbs.",
+  "id": "A014273",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

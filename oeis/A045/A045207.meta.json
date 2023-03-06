@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose base-5 representation contains exactly one 0 and one 4.",
+  "id": "A045207",
+  "mentions": [
+    "A039286"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

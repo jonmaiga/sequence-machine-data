@@ -1,0 +1,22 @@
+{
+  "description": "Number of n X n matrices with entries 0 and 1 and no 2 X 2 submatrix of form [ 1 1; 1 0 ].",
+  "id": "A014235",
+  "mentions": [
+    "A023997",
+    "A048163",
+    "A111420",
+    "A213977",
+    "A334689"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

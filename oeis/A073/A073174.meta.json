@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = a(phi(n-1)) + a(phi(n-2)), a(0)=0, a(1)=1.",
+  "id": "A073174",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

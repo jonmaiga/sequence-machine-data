@@ -1,0 +1,19 @@
+{
+  "description": "A tribonacci triangle in which the top two northeast and southeast diagonals consist of tribonacci numbers.",
+  "id": "A082793",
+  "mentions": [
+    "A000073",
+    "A058071"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

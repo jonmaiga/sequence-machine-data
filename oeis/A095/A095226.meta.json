@@ -1,0 +1,18 @@
+{
+  "description": "Diagonal of the triangle A095225.",
+  "id": "A095226",
+  "mentions": [
+    "A000217",
+    "A095225"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

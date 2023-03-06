@@ -1,0 +1,15 @@
+{
+  "description": "Primes of the form (k+1)^k + k^(k-1), k >= 1.",
+  "id": "A054461",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

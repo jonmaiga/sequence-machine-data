@@ -1,0 +1,25 @@
+{
+  "description": "Product of largest prime <= n and smallest prime >= n.",
+  "id": "A030664",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A006094",
+    "A007917",
+    "A007918",
+    "A013638"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:23",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

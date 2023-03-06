@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are equal to the sum of their anti-divisors.",
+  "id": "A073930",
+  "mentions": [
+    "A066272",
+    "A066417",
+    "A192272"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

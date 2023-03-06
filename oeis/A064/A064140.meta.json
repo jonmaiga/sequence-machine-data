@@ -1,0 +1,19 @@
+{
+  "description": "Sum of unitary divisors of central binomial coefficient C(n, floor(n/2)).",
+  "id": "A064140",
+  "mentions": [
+    "A001405",
+    "A034448"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

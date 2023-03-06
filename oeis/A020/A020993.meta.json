@@ -1,0 +1,17 @@
+{
+  "description": "List of scores that can be achieved with four darts all of which hit a dartboard with regions labeled 1, 5, 10, 25.",
+  "id": "A020993",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

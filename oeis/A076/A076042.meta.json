@@ -1,0 +1,27 @@
+{
+  "description": "a(0) = 0; thereafter a(n) = a(n-1) + n^2 if a(n-1) < n^2, otherwise a(n) = a(n-1) - n^2.",
+  "id": "A076042",
+  "mentions": [
+    "A000290",
+    "A003462",
+    "A008344",
+    "A008345",
+    "A046901",
+    "A053461",
+    "A076039",
+    "A076041",
+    "A324791",
+    "A324792",
+    "A325056"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

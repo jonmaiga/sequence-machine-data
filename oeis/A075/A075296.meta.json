@@ -1,0 +1,19 @@
+{
+  "description": "Interprimes (A024675) which are of the form s*prime, s=21.",
+  "id": "A075296",
+  "mentions": [
+    "A024675",
+    "A075277"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

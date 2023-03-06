@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. tanh(x)*tan(x), coefficients of powers x^(4*n+2).",
+  "id": "A024342",
+  "mentions": [
+    "A000182",
+    "A009837",
+    "A296628"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

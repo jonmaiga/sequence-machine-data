@@ -1,0 +1,25 @@
+{
+  "description": "Triangle of coefficients of Chebyshev's U(n,x) polynomials (exponents in decreasing order).",
+  "id": "A053118",
+  "mentions": [
+    "A000027",
+    "A000129",
+    "A008312",
+    "A049310",
+    "A053117"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:06:25",
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=5; for n>1, a(n)=a(n-1)+1 if n is already in the sequence, a(n)=a(n-1)+2 otherwise.",
+  "id": "A080353",
+  "mentions": [
+    "A080036",
+    "A080037",
+    "A080354"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

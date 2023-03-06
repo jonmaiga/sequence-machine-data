@@ -1,0 +1,20 @@
+{
+  "description": "Values of m corresponding to members of A088966.",
+  "id": "A091697",
+  "mentions": [
+    "A007947",
+    "A088966"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

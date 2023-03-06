@@ -1,0 +1,16 @@
+{
+  "description": "(greatest base 6 digit of n)-(least base 6 digit of n).",
+  "id": "A037900",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:35:47",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

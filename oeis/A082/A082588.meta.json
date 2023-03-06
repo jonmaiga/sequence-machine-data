@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(n) = Sum_{d | n and d < n} a(d)^2 for n > 1.",
+  "id": "A082588",
+  "mentions": [
+    "A002033",
+    "A007018",
+    "A029744"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Primes in the numerator of the continued fraction rational approximation of zeta(3).",
+  "id": "A086805",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

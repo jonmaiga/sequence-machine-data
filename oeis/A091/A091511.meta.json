@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n X n 3-D matrices over symbol set {1,...,n} equivalent under any permutation of rows, columns, stacks or the symbol set.",
+  "id": "A091511",
+  "mentions": [
+    "A091058",
+    "A091510"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

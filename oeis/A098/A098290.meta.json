@@ -1,0 +1,34 @@
+{
+  "description": "Recurrence sequence based on positions of digits in decimal places of Zeta(3) (Apery's constant).",
+  "id": "A098290",
+  "mentions": [
+    "A002117",
+    "A097614",
+    "A098266",
+    "A098289",
+    "A098319",
+    "A098320",
+    "A098321",
+    "A098322",
+    "A098323",
+    "A098324",
+    "A098325",
+    "A098326",
+    "A098327",
+    "A098328",
+    "A120482",
+    "A189893"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:21:27",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Main diagonal of table A088925, which lists coefficients T(n,k) of x^n*y^k in f(x,y) that satisfies f(x,y) = 1/(1-x-y) + xy*f(x,y)^3.",
+  "id": "A088926",
+  "mentions": [
+    "A001764",
+    "A088925",
+    "A088927"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

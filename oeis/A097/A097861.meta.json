@@ -1,0 +1,21 @@
+{
+  "description": "Number of humps in all Motzkin paths of length n. (A hump is an upstep followed by 0 or more flatsteps followed by a downstep.)",
+  "id": "A097861",
+  "mentions": [
+    "A002426",
+    "A097229",
+    "A344559"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

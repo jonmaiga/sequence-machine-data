@@ -1,0 +1,23 @@
+{
+  "description": "Denominator of Sum_{j=1..n} d(j)/n, where d = number of divisors function (A000005).",
+  "id": "A059247",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A035105",
+    "A059246",
+    "A059248"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

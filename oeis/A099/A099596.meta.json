@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that the denominator of the poly-Bernoulli number B(2,n) equals 8p.",
+  "id": "A099596",
+  "mentions": [
+    "A027644"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

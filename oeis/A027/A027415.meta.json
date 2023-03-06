@@ -1,0 +1,21 @@
+{
+  "description": "Number of rooted unlabeled trees on n nodes having a primary branch.",
+  "id": "A027415",
+  "mentions": [
+    "A000055",
+    "A000081",
+    "A027416",
+    "A102911"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:25:40",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

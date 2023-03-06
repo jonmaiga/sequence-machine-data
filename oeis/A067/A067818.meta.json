@@ -1,0 +1,20 @@
+{
+  "description": "Start with 1. To get a(n+1), describe a(n) in terms of the number of 0's, 1's, 2's,...,9's it has. Do not ignore leading 0's in the computation, but ignore them when listing the terms.",
+  "id": "A067818",
+  "mentions": [
+    "A005150",
+    "A005151"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

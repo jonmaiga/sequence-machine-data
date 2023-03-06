@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^2 + k + 11 is prime.",
+  "id": "A048097",
+  "mentions": [
+    "A048058",
+    "A048059"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:45:59",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

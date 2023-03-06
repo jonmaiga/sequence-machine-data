@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 19; thereafter a(n) = the smallest prime of the form d0...0a(n-1), where d is a single digit, or 0 if no such prime exists.",
+  "id": "A077716",
+  "mentions": [
+    "A069612",
+    "A077713",
+    "A077714",
+    "A077715"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (4n+3)^2 + (4n+2)^2 is prime.",
+  "id": "A088759",
+  "mentions": [
+    "A087872"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of prime powers in all composite numbers between n-th prime and next prime.",
+  "id": "A080101",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A025475",
+    "A080102",
+    "A080103"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "A Chebyshev T-sequence with Diophantine property.",
+  "id": "A078363",
+  "mentions": [
+    "A049310",
+    "A053120",
+    "A077428",
+    "A078355",
+    "A078362"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:10:06",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

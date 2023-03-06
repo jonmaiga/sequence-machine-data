@@ -1,0 +1,24 @@
+{
+  "description": "Numbers of the form 2^i*3^j, i+j even.",
+  "id": "A036667",
+  "mentions": [
+    "A003586",
+    "A022328",
+    "A022329",
+    "A025620",
+    "A028260",
+    "A069352",
+    "A257999"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

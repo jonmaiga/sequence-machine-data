@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/((1-x^2)(1-x^5)(1-x^10)) in powers of x.",
+  "id": "A025810",
+  "mentions": [
+    "A000008",
+    "A000217",
+    "A008616"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:45",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

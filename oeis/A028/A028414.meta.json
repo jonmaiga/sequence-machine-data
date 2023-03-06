@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes of form k^2 + k + 1.",
+  "id": "A028414",
+  "mentions": [
+    "A027713",
+    "A028337",
+    "A028413"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the k-th prime is a partition number.",
+  "id": "A051143",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A000720",
+    "A046063",
+    "A049575"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of divisors of n with the largest digit of the divisor <= 7 (base 10).",
+  "id": "A083902",
+  "mentions": [
+    "A000005",
+    "A054055",
+    "A083894",
+    "A083895",
+    "A083901",
+    "A083903"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of values of k, 1 <= k <= n, with A000010(k) = A000010(n).",
+  "id": "A081373",
+  "mentions": [
+    "A000010",
+    "A067004"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

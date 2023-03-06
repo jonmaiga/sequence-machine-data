@@ -1,0 +1,32 @@
+{
+  "description": "Literal reading of the prime factorization of n.",
+  "id": "A080670",
+  "mentions": [
+    "A027748",
+    "A037271",
+    "A037276",
+    "A067599",
+    "A124010",
+    "A195264",
+    "A195330",
+    "A195331",
+    "A230305",
+    "A230625",
+    "A287881",
+    "A287882",
+    "A288818",
+    "A290447"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

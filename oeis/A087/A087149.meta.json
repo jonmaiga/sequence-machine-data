@@ -1,0 +1,18 @@
+{
+  "description": "Least positive multiples of index n that can result from the self-convolution of a monotonically increasing sequence (A087148).",
+  "id": "A087149",
+  "mentions": [
+    "A087148"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

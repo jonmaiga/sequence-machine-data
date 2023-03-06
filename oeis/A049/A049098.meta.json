@@ -1,0 +1,25 @@
+{
+  "description": "Primes p such that p+1 is divisible by a square.",
+  "id": "A049098",
+  "mentions": [
+    "A000040",
+    "A005596",
+    "A008966",
+    "A010051",
+    "A049097",
+    "A160696"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:34:49",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

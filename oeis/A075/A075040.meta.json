@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 0; a(n) = smallest of three consecutive numbers all with 2n divisors.",
+  "id": "A075040",
+  "mentions": [
+    "A306879"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

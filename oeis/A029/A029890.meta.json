@@ -1,0 +1,21 @@
+{
+  "description": "Number of odd graphical partitions.",
+  "id": "A029890",
+  "mentions": [
+    "A000569",
+    "A004250",
+    "A004251",
+    "A029889"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

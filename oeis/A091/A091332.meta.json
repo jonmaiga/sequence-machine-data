@@ -1,0 +1,20 @@
+{
+  "description": "Natural numbers written out with their digits grouped in sets of four (leading zeros omitted).",
+  "id": "A091332",
+  "mentions": [
+    "A059805",
+    "A091331"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

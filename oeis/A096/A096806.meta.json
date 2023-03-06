@@ -1,0 +1,26 @@
+{
+  "description": "Triangle, read by rows, such that the binomial transform of the n-th row lists the m-dimensional partitions of n, for n>=1 and m>=0.",
+  "id": "A096806",
+  "mentions": [
+    "A000041",
+    "A000065",
+    "A008778",
+    "A008779",
+    "A042984",
+    "A096751",
+    "A096807",
+    "A119271"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

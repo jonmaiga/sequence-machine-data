@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/((1-x^5)*(1-x^6)*(1-x^9)).",
+  "id": "A025878",
+  "mentions": [
+    "A025876",
+    "A025877",
+    "A025879",
+    "A025880",
+    "A025881"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:47",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

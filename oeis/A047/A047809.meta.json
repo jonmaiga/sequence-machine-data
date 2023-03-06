@@ -1,0 +1,21 @@
+{
+  "description": "a(n) counts different values of i^2+j^2+k^2 <= n^2 or number of distances from the origin to all integer points inside a sphere of radius n.",
+  "id": "A047809",
+  "mentions": [
+    "A000378",
+    "A047808"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:58:05",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

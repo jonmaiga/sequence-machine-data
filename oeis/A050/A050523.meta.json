@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 7*2^k-1.",
+  "id": "A050523",
+  "mentions": [
+    "A001771",
+    "A158795"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

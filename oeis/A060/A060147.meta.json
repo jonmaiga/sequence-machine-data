@@ -1,0 +1,20 @@
+{
+  "description": "Nim-binomial transform of the Nim-squares sequence {0,1,3,2,6,7,5,4,13,12,14,...}.",
+  "id": "A060147",
+  "mentions": [
+    "A006017",
+    "A048298"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:35:47",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

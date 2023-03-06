@@ -1,0 +1,22 @@
+{
+  "description": "Number of values of k, 1<=k<=n, for which floor(n/k) is prime.",
+  "id": "A068050",
+  "mentions": [
+    "A010051",
+    "A067514",
+    "A179119",
+    "A205745"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Reversion of e.g.f. for squares A000290.",
+  "id": "A033454",
+  "mentions": [
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:58:57",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

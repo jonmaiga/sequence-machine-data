@@ -1,0 +1,22 @@
+{
+  "description": "n-th prime - n-th composite.",
+  "id": "A038529",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A014237",
+    "A067563"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

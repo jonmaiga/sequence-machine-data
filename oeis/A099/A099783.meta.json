@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} C(n-k,2*k)*3^(n-2*k).",
+  "id": "A099783",
+  "mentions": [
+    "A099780",
+    "A099781",
+    "A099782",
+    "A099784",
+    "A099785",
+    "A099786",
+    "A099787"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

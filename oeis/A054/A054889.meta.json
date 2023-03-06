@@ -1,0 +1,22 @@
+{
+  "description": "Layer counting sequence for hyperbolic tessellation by regular pentagons of angle 2*Pi/5.",
+  "id": "A054889",
+  "mentions": [
+    "A054886",
+    "A054887",
+    "A054888",
+    "A054890"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

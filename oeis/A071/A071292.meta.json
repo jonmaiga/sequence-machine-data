@@ -1,0 +1,15 @@
+{
+  "description": "Call f(n) the sum of the first n primes then a(n) is the number of squares between f(n) and f(n+1).",
+  "id": "A071292",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

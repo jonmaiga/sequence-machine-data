@@ -1,0 +1,19 @@
+{
+  "description": "Primes of form p^n + k, where p is prime, n>1 and 0",
+  "id": "A074267",
+  "mentions": [
+    "A049084",
+    "A138363"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Third row of number array A083075.",
+  "id": "A083076",
+  "mentions": [
+    "A001045",
+    "A027907",
+    "A034478",
+    "A066443",
+    "A067411",
+    "A082412",
+    "A082761",
+    "A083075",
+    "A083077"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

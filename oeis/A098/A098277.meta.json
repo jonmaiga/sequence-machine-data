@@ -1,0 +1,24 @@
+{
+  "description": "Coefficients of polynomials D(n,x) related to median Euler numbers.",
+  "id": "A098277",
+  "mentions": [
+    "A000165",
+    "A000657",
+    "A002832",
+    "A098278",
+    "A098279",
+    "A098431"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = numerator(b(n)), where b(1) = b(2) = 1, b(n) = (b(n-1) + b(n-2))/(n-1).",
+  "id": "A069943",
+  "mentions": [
+    "A000085",
+    "A000142",
+    "A013989",
+    "A069944"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

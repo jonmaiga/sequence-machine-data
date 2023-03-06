@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n! for n < 4; else a(n) = floor(P(n-1)/n) where P(n) = a(1) * a(2) * ... * a(n).",
+  "id": "A076041",
+  "mentions": [
+    "A003462",
+    "A046901",
+    "A076039",
+    "A076042"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

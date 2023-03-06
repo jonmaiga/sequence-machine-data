@@ -1,0 +1,21 @@
+{
+  "description": "As n runs through composite numbers, a(n) = number of composite d < n such that gcd(d,n) = 1.",
+  "id": "A048983",
+  "mentions": [
+    "A000010",
+    "A002808",
+    "A048984"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:21",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

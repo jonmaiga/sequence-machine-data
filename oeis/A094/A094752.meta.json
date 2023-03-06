@@ -1,0 +1,18 @@
+{
+  "description": "Largest k such that 2n/k + 1 as well as 2nk+1 are prime, or 0 if no such number exists.",
+  "id": "A094752",
+  "mentions": [
+    "A005574",
+    "A094753"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

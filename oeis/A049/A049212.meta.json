@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = -Product_{k=0..n} (10*k - 1); deca-factorial numbers.",
+  "id": "A049212",
+  "mentions": [
+    "A008543",
+    "A035278",
+    "A048176",
+    "A048994",
+    "A049209",
+    "A049210",
+    "A049211"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

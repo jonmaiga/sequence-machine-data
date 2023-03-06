@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that for any p prime dividing n, p does not divide binomial((n+1)*k, k+1), or -1 if no such k exists.",
+  "id": "A075833",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

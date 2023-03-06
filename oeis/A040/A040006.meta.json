@@ -1,0 +1,22 @@
+{
+  "description": "Continued fraction for sqrt(10).",
+  "id": "A040006",
+  "mentions": [
+    "A005667",
+    "A005668",
+    "A010467"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

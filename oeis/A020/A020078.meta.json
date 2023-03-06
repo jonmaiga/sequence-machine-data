@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor( Gamma(n+2/7)/Gamma(2/7) ).",
+  "id": "A020078",
+  "mentions": [
+    "A020074",
+    "A020075",
+    "A020076",
+    "A020077",
+    "A020079",
+    "A220605"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

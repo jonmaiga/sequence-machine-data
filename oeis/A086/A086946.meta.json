@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that reverse(k+6) = 2.",
+  "id": "A086946",
+  "mentions": [
+    "A004086",
+    "A086949"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

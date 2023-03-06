@@ -1,0 +1,28 @@
+{
+  "description": "Triangular array read by rows: T(n,k) = number of binary vectors of length n whose longest run of consecutive 1's has length k, for n >= 0, 0 <= k <= n.",
+  "id": "A048004",
+  "mentions": [
+    "A000071",
+    "A000100",
+    "A000102",
+    "A006980",
+    "A045623",
+    "A048003",
+    "A048887",
+    "A097805",
+    "A126198"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

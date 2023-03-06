@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor[X/Y] where X = the concatenation of the first n even numbers in increasing order and Y = their sum.",
+  "id": "A067121",
+  "mentions": [
+    "A067112",
+    "A067120"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

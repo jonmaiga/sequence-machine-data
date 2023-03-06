@@ -1,0 +1,22 @@
+{
+  "description": "Base-2 pseudoprimes (see A001567) of the form j*p(i)# - p(k) or j*p(i)# + p(k), p(i) and p(k) primes with p(i) < p(k) < p(i+1)^2 and 0 < j < p(i+1).",
+  "id": "A087716",
+  "mentions": [
+    "A001567",
+    "A002110",
+    "A087714",
+    "A087715",
+    "A087728"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

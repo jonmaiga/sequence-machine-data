@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Pi/16.",
+  "id": "A019683",
+  "mentions": [
+    "A000796",
+    "A003881",
+    "A019669",
+    "A019670",
+    "A019675",
+    "A019679",
+    "A157332",
+    "A244978"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:31",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

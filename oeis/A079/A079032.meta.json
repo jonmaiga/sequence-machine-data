@@ -1,0 +1,17 @@
+{
+  "description": "Smallest nontrivial partition number divisible by the n-th partition number.",
+  "id": "A079032",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

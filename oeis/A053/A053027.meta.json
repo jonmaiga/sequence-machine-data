@@ -1,0 +1,23 @@
+{
+  "description": "Odd primes p with 2 zeros in Fibonacci numbers mod p.",
+  "id": "A053027",
+  "mentions": [
+    "A000204",
+    "A001176",
+    "A001602",
+    "A053028",
+    "A053030",
+    "A053032"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:06:15",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

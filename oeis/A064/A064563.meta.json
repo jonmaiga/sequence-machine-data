@@ -1,0 +1,25 @@
+{
+  "description": "Reciprocal of n terminates with an infinite repetition of digit 4. Multiples of 10 are omitted.",
+  "id": "A064563",
+  "mentions": [
+    "A064560",
+    "A064561",
+    "A064562",
+    "A064564",
+    "A064565",
+    "A064566",
+    "A064567"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

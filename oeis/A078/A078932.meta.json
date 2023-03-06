@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into powers of 3.",
+  "id": "A078932",
+  "mentions": [
+    "A023359",
+    "A087218",
+    "A087219"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

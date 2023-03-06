@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^n*Sum_{k=0..n} (n+k)!/((n-k)!*k!*4^k).",
+  "id": "A043301",
+  "mentions": [
+    "A001498",
+    "A043302",
+    "A144505"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Sum of divisors of n that are perfect powers.",
+  "id": "A091051",
+  "mentions": [
+    "A000203",
+    "A000961",
+    "A001597",
+    "A005117",
+    "A013929",
+    "A025473",
+    "A086455",
+    "A091050",
+    "A183097",
+    "A183104"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest member of Ormiston prime triple.",
+  "id": "A075093",
+  "mentions": [
+    "A066540",
+    "A069567",
+    "A072274",
+    "A161160"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

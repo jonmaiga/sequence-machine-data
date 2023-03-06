@@ -1,0 +1,19 @@
+{
+  "description": "Number of positions in which 2n semi-queens may be placed on an 2n X 2n toroidal board, with only one semi-queen attacking another semi-queen; also, number of interval method wirings for a cryptographic rotor of size 2n.",
+  "id": "A024915",
+  "mentions": [
+    "A006717"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

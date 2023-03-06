@@ -1,0 +1,17 @@
+{
+  "description": "Largest coefficient in expansion of P(0)=x, P(n+1)=P(n)*[1+P(n)].",
+  "id": "A092123",
+  "mentions": [
+    "A016131"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

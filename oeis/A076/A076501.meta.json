@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest (prime) integer such that the sequence {p_1, p_2, ..., p_n = a(n)} consists entirely of primes, where p_i = a(n)^(i/n).",
+  "id": "A076501",
+  "mentions": [
+    "A063636",
+    "A076255",
+    "A076357"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

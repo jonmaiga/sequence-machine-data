@@ -1,0 +1,20 @@
+{
+  "description": "First location of palindrome a(n) in decimal expansion of Pi is palindromic.",
+  "id": "A038101",
+  "mentions": [
+    "A014777",
+    "A038099",
+    "A038100"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

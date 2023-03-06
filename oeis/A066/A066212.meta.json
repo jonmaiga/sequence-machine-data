@@ -1,0 +1,21 @@
+{
+  "description": "A measure of how close the golden ratio is to rational numbers.",
+  "id": "A066212",
+  "mentions": [
+    "A000045",
+    "A000204",
+    "A001906",
+    "A007067"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

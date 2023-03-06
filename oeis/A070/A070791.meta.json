@@ -1,0 +1,22 @@
+{
+  "description": "Integers n such that the 'Reverse and Add!' trajectory of n joins the trajectory of 5.",
+  "id": "A070791",
+  "mentions": [
+    "A063049",
+    "A070788",
+    "A070790",
+    "A070792",
+    "A070798"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

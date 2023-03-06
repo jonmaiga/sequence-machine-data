@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (2*(3 - sqrt(3)))/3.",
+  "id": "A093821",
+  "mentions": [
+    "A010527",
+    "A020832",
+    "A093822"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:19:33",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

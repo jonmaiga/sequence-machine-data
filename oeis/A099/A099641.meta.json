@@ -1,0 +1,20 @@
+{
+  "description": "Number of solutions to x*frac[p(x)/x]<=Log[n] or A004648(n)<=Log[n].",
+  "id": "A099641",
+  "mentions": [
+    "A004648",
+    "A023143",
+    "A023152",
+    "A072610"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

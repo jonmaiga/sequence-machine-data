@@ -1,0 +1,17 @@
+{
+  "description": "Least j such that P(n)#/2 + 2*P(j) is prime with j > 1 except j=1 for n=1.",
+  "id": "A098171",
+  "mentions": [
+    "A098170"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

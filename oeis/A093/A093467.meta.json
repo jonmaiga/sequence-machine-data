@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n >= 2, a(n+1) = a(n) + Sum_{i = 1..n} (a(i) - a(1)).",
+  "id": "A093467",
+  "mentions": [
+    "A001519",
+    "A032908",
+    "A055588",
+    "A093468",
+    "A132343"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

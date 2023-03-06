@@ -1,0 +1,19 @@
+{
+  "description": "Number of ternary Lyndon words whose digits sum to 1 (or 2) mod 3; number of trace 1 (or 2) monic irreducible polynomials over GF(3).",
+  "id": "A046211",
+  "mentions": [
+    "A008683",
+    "A046209"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

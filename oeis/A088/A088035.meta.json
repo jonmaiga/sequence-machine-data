@@ -1,0 +1,18 @@
+{
+  "description": "Cubes k such that k-1 is divisible by a cube >1.",
+  "id": "A088035",
+  "mentions": [
+    "A088036"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

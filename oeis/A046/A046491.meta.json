@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes expressible as the sum of 3 consecutive palindromic primes.",
+  "id": "A046491",
+  "mentions": [
+    "A002113",
+    "A002385",
+    "A046490"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:34:05",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

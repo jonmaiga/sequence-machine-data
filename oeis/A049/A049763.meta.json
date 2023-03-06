@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array T, read by rows: T(n,k) = n^4 mod k, for k = 1..n and n >= 1.",
+  "id": "A049763",
+  "mentions": [
+    "A049759",
+    "A049760",
+    "A049761",
+    "A049762",
+    "A049764"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:17",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

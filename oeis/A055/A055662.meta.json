@@ -1,0 +1,20 @@
+{
+  "description": "Successive positions in Tower of Hanoi (with three pegs {0,1,2}) where xyz means smallest disk is on peg z, second smallest is on peg y, third smallest on peg x, etc. and leading zeros indicate largest disks are all on peg 0.",
+  "id": "A055662",
+  "mentions": [
+    "A001511",
+    "A055661",
+    "A060572"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:27:15",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

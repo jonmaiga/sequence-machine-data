@@ -1,0 +1,25 @@
+{
+  "description": "Both p and p+510510 are primes, where 510510 is the 7th primorial number A002110(7).",
+  "id": "A049485",
+  "mentions": [
+    "A001359",
+    "A002110",
+    "A023201",
+    "A045320",
+    "A049481",
+    "A049482",
+    "A049483",
+    "A049484",
+    "A154114"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

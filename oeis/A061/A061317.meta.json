@@ -1,0 +1,27 @@
+{
+  "description": "Split positive integers into extending even groups and sum: 1+2, 3+4+5+6, 7+8+9+10+11+12, 13+14+15+16+17+18+19+20, ...",
+  "id": "A061317",
+  "mentions": [
+    "A000217",
+    "A000578",
+    "A001477",
+    "A002378",
+    "A005898",
+    "A005900",
+    "A006003",
+    "A034262",
+    "A058331"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:14:35",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

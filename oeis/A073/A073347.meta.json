@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1; a(n+1) is the smallest integer > a(n) such that Sum_{k=a(n)..a(n+1)} 1/sqrt(k) > Pi.",
+  "id": "A073347",
+  "mentions": [
+    "A091476"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

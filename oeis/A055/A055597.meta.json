@@ -1,0 +1,22 @@
+{
+  "description": "Powers of 2 in phi(n!).",
+  "id": "A055597",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A007814",
+    "A011371",
+    "A048855"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:26:47",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

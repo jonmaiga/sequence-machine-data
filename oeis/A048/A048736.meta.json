@@ -1,0 +1,28 @@
+{
+  "description": "Dana Scott's sequence: a(n) = (a(n-2) + a(n-1) * a(n-3)) / a(n-4), a(0) = a(1) = a(2) = a(3) = 1.",
+  "id": "A048736",
+  "mentions": [
+    "A006720",
+    "A006721",
+    "A006722",
+    "A006723",
+    "A072881",
+    "A092420",
+    "A192241",
+    "A192242",
+    "A276531"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

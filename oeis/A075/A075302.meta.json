@@ -1,0 +1,25 @@
+{
+  "description": "Transpose of array A075300.",
+  "id": "A075302",
+  "mentions": [
+    "A002262",
+    "A007814",
+    "A025480",
+    "A025581",
+    "A059884",
+    "A075173",
+    "A075300",
+    "A075303"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

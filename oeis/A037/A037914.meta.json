@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least base b>=2 such that the number of distinct digits in the base b representation of n is maximized.",
+  "id": "A037914",
+  "mentions": [
+    "A037968"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:35:57",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

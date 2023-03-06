@@ -1,0 +1,22 @@
+{
+  "description": "Positive numbers which are one less than a perfect square that is also another power.",
+  "id": "A062965",
+  "mentions": [
+    "A001597",
+    "A037450",
+    "A062757",
+    "A062834",
+    "A131605"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

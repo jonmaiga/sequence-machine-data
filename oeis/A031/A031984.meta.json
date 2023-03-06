@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with exactly five distinct base-7 digits.",
+  "id": "A031984",
+  "mentions": [
+    "A007093"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of peakless Motzkin paths of length n and having a total of k level steps (1,0) to the left of the first (1,1) step and to the right of the last (1,-1) step (i.e., total length of the two tails is k; can be easily expressed in terms of RNA secondary structure terminology).",
+  "id": "A097098",
+  "mentions": [
+    "A004148",
+    "A097779"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

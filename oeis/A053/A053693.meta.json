@@ -1,0 +1,19 @@
+{
+  "description": "Number of self-conjugate 8-core partitions of n.",
+  "id": "A053693",
+  "mentions": [
+    "A053692"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:10:51",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

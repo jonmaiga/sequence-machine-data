@@ -1,0 +1,21 @@
+{
+  "description": "Base-60 (Babylonian or sexagesimal) expansion of 2 Pi.",
+  "id": "A091649",
+  "mentions": [
+    "A000796",
+    "A060707",
+    "A159991"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

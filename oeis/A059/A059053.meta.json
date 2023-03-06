@@ -1,0 +1,26 @@
+{
+  "description": "Number of chiral pairs of necklaces with n beads and two colors (color complements being equivalent); i.e., turning the necklace over neither leaves it unchanged nor simply swaps the colors.",
+  "id": "A059053",
+  "mentions": [
+    "A000011",
+    "A000013",
+    "A008277",
+    "A016116",
+    "A052551",
+    "A056295",
+    "A056357",
+    "A320647",
+    "A320742"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

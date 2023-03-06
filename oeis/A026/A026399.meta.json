@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = s(k), where, at the end of stage n when forming A026400, k is the greatest integer such that s(j) > 0 for all j < k.",
+  "id": "A026399",
+  "mentions": [
+    "A026400"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

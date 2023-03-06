@@ -1,0 +1,19 @@
+{
+  "description": "Possible sizes of the torsion group of an elliptic curve over some quadratic extension of the rationals Q. This is the full sequence.",
+  "id": "A060340",
+  "mentions": [
+    "A059765"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

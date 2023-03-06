@@ -1,0 +1,22 @@
+{
+  "description": "Sparsely totient numbers; numbers n such that m > n implies phi(m) > phi(n).",
+  "id": "A036913",
+  "mentions": [
+    "A002110",
+    "A006511",
+    "A083207",
+    "A097942",
+    "A132154",
+    "A287352"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

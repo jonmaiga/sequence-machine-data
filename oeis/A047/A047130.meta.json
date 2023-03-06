@@ -1,0 +1,29 @@
+{
+  "description": "Array read by descending antidiagonals: T(h,k) is the number of paths consisting of steps from (0,0) to (h,k) such that each step has length 1 directed up or right and no up-step crosses the line y = 3x/4. (Thus a path crosses the line only at lattice points and on right-steps.)",
+  "id": "A047130",
+  "mentions": [
+    "A047110",
+    "A047131",
+    "A047132",
+    "A047133",
+    "A047134",
+    "A047135",
+    "A047136",
+    "A047137",
+    "A047138",
+    "A047139",
+    "A047140",
+    "A047150"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:00:09",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

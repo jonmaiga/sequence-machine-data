@@ -1,0 +1,20 @@
+{
+  "description": "T(2n,n) with T as in A036355.",
+  "id": "A036692",
+  "mentions": [
+    "A000984",
+    "A036355",
+    "A092566"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

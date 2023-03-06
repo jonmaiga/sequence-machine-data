@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the prime factors of the composite numbers (counted with multiplicity).",
+  "id": "A046343",
+  "mentions": [
+    "A000607",
+    "A001414",
+    "A002808",
+    "A046344",
+    "A046345"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

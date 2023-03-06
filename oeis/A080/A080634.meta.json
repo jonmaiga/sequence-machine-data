@@ -1,0 +1,15 @@
+{
+  "description": "Start with a(1)=1. Then, for n>1, choose a(n)=1 or 2 so as to minimize the longest arithmetic progression in either S1(n) or S2(n), where S1(n)={k|a(k)=1,1<=k<=n} and S2(n)={k|a(k)=2,1<=k<=n}.",
+  "id": "A080634",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

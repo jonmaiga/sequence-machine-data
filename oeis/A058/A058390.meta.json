@@ -1,0 +1,24 @@
+{
+  "description": "Number of 4 X 4 matrices with nonnegative integer entries and all row sums equal to n, up to row and column permutation.",
+  "id": "A058390",
+  "mentions": [
+    "A001496",
+    "A002620",
+    "A052280",
+    "A052281",
+    "A058389",
+    "A058391",
+    "A058392",
+    "A318951"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

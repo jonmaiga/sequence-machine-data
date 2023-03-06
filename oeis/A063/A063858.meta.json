@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k) (n >= 2, k = 0..n-2) giving number of abstract dissection types of configurations of n points in n-k dimensions.",
+  "id": "A063858",
+  "mentions": [
+    "A063859",
+    "A063860",
+    "A063861",
+    "A063862",
+    "A246992",
+    "A246993"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "more",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of solutions to x^2 + y^2 <= n, excluding (0,0), divided by 4.",
+  "id": "A014200",
+  "mentions": [
+    "A002654",
+    "A014198",
+    "A059851",
+    "A101455"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

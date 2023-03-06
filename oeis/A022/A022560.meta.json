@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=0, a(2*n) = 2*a(n) + 2*a(n-1) + n^2 + n, a(2*n+1) = 4*a(n) + (n+1)^2.",
+  "id": "A022560",
+  "mentions": [
+    "A006519",
+    "A006520",
+    "A070263",
+    "A079944"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:13:11",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

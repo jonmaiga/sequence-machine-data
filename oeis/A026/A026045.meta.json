@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (d(n)-r(n))/5, where d = A026043 and r is the periodic sequence with fundamental period (0,2,3,0,0).",
+  "id": "A026045",
+  "mentions": [
+    "A026043",
+    "A152857"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:30:47",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

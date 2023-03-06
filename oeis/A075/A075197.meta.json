@@ -1,0 +1,30 @@
+{
+  "description": "Number of partitions of n balls of n colors.",
+  "id": "A075197",
+  "mentions": [
+    "A000110",
+    "A000262",
+    "A000670",
+    "A001700",
+    "A005651",
+    "A066186",
+    "A075196",
+    "A209668",
+    "A252654",
+    "A255906",
+    "A255942",
+    "A255951",
+    "A261783"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k^3 - 2 is prime.",
+  "id": "A038599",
+  "mentions": [
+    "A028870",
+    "A028873",
+    "A038600"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

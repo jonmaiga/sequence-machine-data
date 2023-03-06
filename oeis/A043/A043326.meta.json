@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k is a product of two different primes and k-2 is prime.",
+  "id": "A043326",
+  "mentions": [
+    "A006512",
+    "A006881",
+    "A062721"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Related to Pisano periods: integers k such that the period of Fibonacci numbers mod k equals 2*(k+1).",
+  "id": "A071774",
+  "mentions": [
+    "A001175",
+    "A003631",
+    "A060305",
+    "A071776",
+    "A216067"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

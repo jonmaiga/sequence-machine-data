@@ -1,0 +1,21 @@
+{
+  "description": "Total number of interior nodes in all essentially parallel series-parallel networks with n unlabeled edges, multiple edges allowed.",
+  "id": "A058494",
+  "mentions": [
+    "A058488",
+    "A058495"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

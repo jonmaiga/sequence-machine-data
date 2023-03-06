@@ -1,0 +1,23 @@
+{
+  "description": "Zero-bit dominant primes, i.e., primes whose binary expansion contains more 0's than 1's.",
+  "id": "A095071",
+  "mentions": [
+    "A000040",
+    "A095019",
+    "A095062",
+    "A095072",
+    "A095074"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

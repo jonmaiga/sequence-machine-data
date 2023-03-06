@@ -1,0 +1,22 @@
+{
+  "description": "Length of the n-th term in the Roman numeral Look and Say sequence A098595.",
+  "id": "A098596",
+  "mentions": [
+    "A005150",
+    "A098595"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Initial values for f(x)=sigma(phi(x))=A062402(x) such that iteration of f ends in cycle of length=1.",
+  "id": "A096988",
+  "mentions": [
+    "A018784",
+    "A062402",
+    "A095952"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

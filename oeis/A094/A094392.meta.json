@@ -1,0 +1,26 @@
+{
+  "description": "Antidiagonals of the tables formed from b(m,2,n,n), which is defined in Du 1989.",
+  "id": "A094392",
+  "mentions": [
+    "A006206",
+    "A006207",
+    "A006208",
+    "A006209",
+    "A006210",
+    "A006211",
+    "A130628",
+    "A208092"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

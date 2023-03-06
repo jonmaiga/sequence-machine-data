@@ -1,0 +1,20 @@
+{
+  "description": "Primes consisting only of digits 2 and 3 occurring with equal frequency.",
+  "id": "A087527",
+  "mentions": [
+    "A087510",
+    "A087511",
+    "A087514"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

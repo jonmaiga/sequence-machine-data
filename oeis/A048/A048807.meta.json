@@ -1,0 +1,18 @@
+{
+  "description": "Matrix square of A048804.",
+  "id": "A048807",
+  "mentions": [
+    "A048804"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:25:59",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

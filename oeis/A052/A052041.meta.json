@@ -1,0 +1,33 @@
+{
+  "description": "Squares lacking the digit zero in their decimal expansion.",
+  "id": "A052041",
+  "mentions": [
+    "A000290",
+    "A010052",
+    "A051750",
+    "A051751",
+    "A051832",
+    "A051833",
+    "A052040",
+    "A052042",
+    "A052043",
+    "A052382",
+    "A075415",
+    "A102265",
+    "A102266",
+    "A102807",
+    "A104264",
+    "A168046"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:00:19",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

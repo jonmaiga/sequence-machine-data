@@ -1,0 +1,20 @@
+{
+  "description": "Primes arising in A086496. a(n) = Sum {A086946(k), k = 1 to 2n}= 2n-th partial sum of A086496.",
+  "id": "A086497",
+  "mentions": [
+    "A086496",
+    "A086498",
+    "A086946",
+    "A096499"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

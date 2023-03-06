@@ -1,0 +1,20 @@
+{
+  "description": "If a,b are prime numbers satisfying the Diophantine equation a^3+b^3=c^2, then a is -1 mod 12 and b is 1 mod 12, or vice versa. Choose 'a' to be -1 mod 12. This is the sequence of 'a' values, sorted by the magnitude of c.",
+  "id": "A099806",
+  "mentions": [
+    "A098970",
+    "A099807",
+    "A099808",
+    "A099809"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

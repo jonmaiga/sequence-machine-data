@@ -1,0 +1,23 @@
+{
+  "description": "Convolution of natural numbers n >= 1 with Lucas numbers L(k) for k >= -4.",
+  "id": "A033817",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A023537",
+    "A023548",
+    "A033814"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

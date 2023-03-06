@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = a(2) = a(3) = a(4) = 1 and a(n) = (a(n-1)*a(n-3) + a(n-2)^3)/a(n-4) for n >= 5.",
+  "id": "A072876",
+  "mentions": [
+    "A002390",
+    "A006720",
+    "A072877",
+    "A111459"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

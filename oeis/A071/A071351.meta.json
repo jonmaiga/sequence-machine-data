@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that both n^4 + 2 and n^4 - 2 are prime.",
+  "id": "A071351",
+  "mentions": [
+    "A028870",
+    "A038599",
+    "A154831",
+    "A154832",
+    "A154833",
+    "A154834",
+    "A154933",
+    "A154934",
+    "A154935",
+    "A154936"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

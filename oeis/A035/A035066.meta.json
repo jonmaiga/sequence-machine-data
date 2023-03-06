@@ -1,0 +1,19 @@
+{
+  "description": "Prime lengths of factorials: see A035065.",
+  "id": "A035066",
+  "mentions": [
+    "A000142",
+    "A035065"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

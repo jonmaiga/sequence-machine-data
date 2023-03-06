@@ -1,0 +1,15 @@
+{
+  "description": "Number of 2 X 2 matrices with elements from {0,1,2,...,n} and with Nim-Determinant 1. (The Nim-Determinant of the 2 X 2 matrix [a,b; c,d] is defined to be a*d xor b*c, where * denotes Nim-Multiplication.)",
+  "id": "A059954",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

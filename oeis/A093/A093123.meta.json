@@ -1,0 +1,21 @@
+{
+  "description": "Third binomial transform of Fib(3n-1) (A015448).",
+  "id": "A093123",
+  "mentions": [
+    "A000045",
+    "A015448",
+    "A093129"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:49:55",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

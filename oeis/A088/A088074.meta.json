@@ -1,0 +1,20 @@
+{
+  "description": "Number of times A045572(n) is concatenated with itself in A088073.",
+  "id": "A088074",
+  "mentions": [
+    "A045572",
+    "A088073"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

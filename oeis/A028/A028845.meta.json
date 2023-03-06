@@ -1,0 +1,21 @@
+{
+  "description": "Iterated product of digits of n is a nonzero square.",
+  "id": "A028845",
+  "mentions": [
+    "A028837",
+    "A031347",
+    "A050626"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:40:33",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

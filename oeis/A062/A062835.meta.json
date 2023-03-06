@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 0; for n > 1 a(n) = sum of divisors of n^2-1; or sigma(A005563(n-1)).",
+  "id": "A062835",
+  "mentions": [
+    "A000203",
+    "A005563"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

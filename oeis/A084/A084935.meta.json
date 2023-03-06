@@ -1,0 +1,17 @@
+{
+  "description": "Diagonal sums of the array T in A084934.",
+  "id": "A084935",
+  "mentions": [
+    "A084934"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

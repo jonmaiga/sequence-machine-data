@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 6^k*N(n,k), with a(0)=1, where N(n,k) = C(n,k) * C(n,k+1)/n are the Narayana numbers (A001263).",
+  "id": "A078018",
+  "mentions": [
+    "A001003",
+    "A001263",
+    "A007564",
+    "A059231",
+    "A088617"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

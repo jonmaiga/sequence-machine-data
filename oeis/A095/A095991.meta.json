@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that f(k) * 2^n - 1 is prime, where f(j) = A070826(j) and k is the number of decimal digits of 2^n.",
+  "id": "A095991",
+  "mentions": [
+    "A070826"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

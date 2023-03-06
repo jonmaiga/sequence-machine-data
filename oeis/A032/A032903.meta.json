@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose base-6 representation Sum_{i=0..m} d(i)*6^i has d(0) <= d(1) >= d(2) <= ...",
+  "id": "A032903",
+  "mentions": [
+    "A032877",
+    "A032885",
+    "A032894"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:19",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

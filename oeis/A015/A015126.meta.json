@@ -1,0 +1,23 @@
+{
+  "description": "Least k such that phi(k) = phi(n).",
+  "id": "A015126",
+  "mentions": [
+    "A000010",
+    "A002181",
+    "A028476",
+    "A066412",
+    "A066659",
+    "A143510"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is taken to be the smallest positive integer not already present which is consistent with the condition \"n is a member of the sequence if and only if a(n) is congruent to 1 mod 3\".",
+  "id": "A080030",
+  "mentions": [
+    "A079000",
+    "A079313",
+    "A080029",
+    "A080031"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that there is no prime between 10*k and 10*k+9.",
+  "id": "A032352",
+  "mentions": [
+    "A007811",
+    "A007920",
+    "A010051",
+    "A124665",
+    "A216292",
+    "A216293"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

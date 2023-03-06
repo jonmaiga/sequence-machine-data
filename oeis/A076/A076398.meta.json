@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct prime factors of n-th perfect power.",
+  "id": "A076398",
+  "mentions": [
+    "A001221",
+    "A001597",
+    "A025478",
+    "A076399",
+    "A076400"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

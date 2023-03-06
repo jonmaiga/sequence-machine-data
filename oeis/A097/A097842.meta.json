@@ -1,0 +1,23 @@
+{
+  "description": "Chebyshev polynomials S(n,123) + S(n-1,123) with Diophantine property.",
+  "id": "A097842",
+  "mentions": [
+    "A049310",
+    "A049670",
+    "A053120",
+    "A097843",
+    "A100047"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

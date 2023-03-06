@@ -1,0 +1,18 @@
+{
+  "description": "Fourth column (m=3) of triangle A060063 divided by 9.",
+  "id": "A091744",
+  "mentions": [
+    "A060063"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

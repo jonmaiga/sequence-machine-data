@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of primes q",
+  "id": "A039736",
+  "mentions": [
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:12:47",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

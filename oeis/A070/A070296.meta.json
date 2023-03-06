@@ -1,0 +1,18 @@
+{
+  "description": "Let sphi(k) = number of primes less than k and coprime to it (A048865); then a(n) = number of integers m with sphi(m) = n.",
+  "id": "A070296",
+  "mentions": [
+    "A048865"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(147).",
+  "id": "A041269",
+  "mentions": [
+    "A040132",
+    "A041268",
+    "A176910"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:51",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Initial primes of sets of 5 consecutive primes in arithmetic progression.",
+  "id": "A059044",
+  "mentions": [
+    "A001223",
+    "A006560",
+    "A033447",
+    "A033448",
+    "A033451",
+    "A052239",
+    "A052242",
+    "A052243",
+    "A054800",
+    "A058252",
+    "A058323",
+    "A058362",
+    "A067388",
+    "A151800",
+    "A210727"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

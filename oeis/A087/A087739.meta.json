@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1; a(2)=2; for n>2 a(n) satisfies a(S(n))=n and a(k)=n-1 for S(n-1)< k",
+  "id": "A087739",
+  "mentions": [
+    "A001462"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

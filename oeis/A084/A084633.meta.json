@@ -1,0 +1,19 @@
+{
+  "description": "Inverse binomial transform of repeated odd numbers.",
+  "id": "A084633",
+  "mentions": [
+    "A034008"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:07:22",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Squared radii of the circles around (0,0) that contain record numbers of lattice points.",
+  "id": "A071383",
+  "mentions": [
+    "A000448",
+    "A002654",
+    "A004018",
+    "A048610",
+    "A052199",
+    "A054994",
+    "A071384",
+    "A071385",
+    "A230655",
+    "A279541",
+    "A300162"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

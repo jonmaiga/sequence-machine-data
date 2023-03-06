@@ -1,0 +1,18 @@
+{
+  "description": "LCM of terms in periodic part of continued fraction expansion of square root of -1+2^n.",
+  "id": "A077633",
+  "mentions": [
+    "A077624",
+    "A077635"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

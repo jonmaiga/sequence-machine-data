@@ -1,0 +1,23 @@
+{
+  "description": "Decimal representation of binary palindromes extracted from the Golden String using ever-increasing Lucas-style subdivisions.",
+  "id": "A065354",
+  "mentions": [
+    "A003849",
+    "A005203",
+    "A005614",
+    "A014675",
+    "A036299",
+    "A065353"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Nontrivial binomial coefficients which are perfect powers (A001597).",
+  "id": "A075760",
+  "mentions": [
+    "A001110",
+    "A001597"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

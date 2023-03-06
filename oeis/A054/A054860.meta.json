@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways of writing 2n+1 as p + q + r where p, q, r are primes with p <= q <= r.",
+  "id": "A054860",
+  "mentions": [
+    "A007963",
+    "A288574"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

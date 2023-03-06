@@ -1,0 +1,23 @@
+{
+  "description": "Number of divisors of 11^n + 1 that are relatively prime to 11^m + 1 for all 0 < m < n.",
+  "id": "A064136",
+  "mentions": [
+    "A064131",
+    "A064132",
+    "A064133",
+    "A064134",
+    "A064135",
+    "A064137"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

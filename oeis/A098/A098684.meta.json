@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that pi(n) = P(d_1!!)*P(d_2!!)*...*P(d_k!!) where d_1 d_2 ... d_k is the decimal expansion of n and P(i) is i-th prime.",
+  "id": "A098684",
+  "mentions": [
+    "A000040",
+    "A098683",
+    "A098685",
+    "A098686"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

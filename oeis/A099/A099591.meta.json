@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of no fewer than 17 biquadrates (4th powers).",
+  "id": "A099591",
+  "mentions": [
+    "A002377",
+    "A046048",
+    "A079611"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

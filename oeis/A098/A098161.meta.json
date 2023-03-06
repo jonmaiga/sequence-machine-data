@@ -1,0 +1,17 @@
+{
+  "description": "Slowest increasing sequence where the digits fit the infinite repeating pattern even/even/odd/odd/even/even/odd/odd/...",
+  "id": "A098161",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

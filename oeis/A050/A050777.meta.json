@@ -1,0 +1,20 @@
+{
+  "description": "First occurrence from iterated procedure 'composite k added to sum of its prime factors reaches a prime' yielding n skipped primes.",
+  "id": "A050777",
+  "mentions": [
+    "A050703",
+    "A050765",
+    "A050768",
+    "A050776"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:22",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

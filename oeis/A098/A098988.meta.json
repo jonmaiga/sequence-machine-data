@@ -1,0 +1,20 @@
+{
+  "description": "Denominators in series expansion of log(Product_{m>=1} (1+q^m)).",
+  "id": "A098988",
+  "mentions": [
+    "A098987",
+    "A353688"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

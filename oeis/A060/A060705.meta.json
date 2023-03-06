@@ -1,0 +1,18 @@
+{
+  "description": "Singular n X n matrices over GF(3).",
+  "id": "A060705",
+  "mentions": [
+    "A053290"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

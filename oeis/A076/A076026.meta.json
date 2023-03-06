@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of g.f.: (1-4*x*C)/(1-5*x*C) where C = (1/2-1/2*(1-4*x)^(1/2))/x = g.f. for Catalan numbers A000108.",
+  "id": "A076026",
+  "mentions": [
+    "A000108",
+    "A001700",
+    "A015521",
+    "A039598",
+    "A039599",
+    "A049027",
+    "A076025"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

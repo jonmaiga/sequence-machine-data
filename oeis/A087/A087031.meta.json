@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 2p-n is prime, p is the smallest prime > n.",
+  "id": "A087031",
+  "mentions": [
+    "A087030"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

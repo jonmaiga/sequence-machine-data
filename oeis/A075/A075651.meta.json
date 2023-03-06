@@ -1,0 +1,22 @@
+{
+  "description": "Row average values of A075652.",
+  "id": "A075651",
+  "mentions": [
+    "A000217",
+    "A075648",
+    "A075649",
+    "A075650",
+    "A075652"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

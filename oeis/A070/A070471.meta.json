@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n^3 mod 5.",
+  "id": "A070471",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:29",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

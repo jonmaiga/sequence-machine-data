@@ -1,0 +1,18 @@
+{
+  "description": "Smallest stack size with an unentailed Grundy value of 2^n in Top Entails.",
+  "id": "A081198",
+  "mentions": [
+    "A081176"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

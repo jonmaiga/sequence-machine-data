@@ -1,0 +1,21 @@
+{
+  "description": "Group successively larger prime numbers so that the sum of the n-th group is a multiple of n. Sequence gives the group sum divided by n for the n-th group.",
+  "id": "A074131",
+  "mentions": [
+    "A000040",
+    "A074128",
+    "A074129",
+    "A074130"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

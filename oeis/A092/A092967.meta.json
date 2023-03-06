@@ -1,0 +1,18 @@
+{
+  "description": "Largest prime of the form a squarefree number + 1 where the prime divisors of the squarefree number are < n.",
+  "id": "A092967",
+  "mentions": [
+    "A060957",
+    "A092965"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

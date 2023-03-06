@@ -1,0 +1,17 @@
+{
+  "description": "10000 times the n-th zero of the BesselJ function of zero order, rounded.",
+  "id": "A084691",
+  "mentions": [
+    "A115368"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

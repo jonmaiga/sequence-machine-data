@@ -1,0 +1,19 @@
+{
+  "description": "Compare partial sums of A033881 and A033884; this is the sequence of common terms.",
+  "id": "A033944",
+  "mentions": [
+    "A033881",
+    "A033884"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

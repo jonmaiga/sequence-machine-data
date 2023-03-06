@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of Taylor series expansion of arcsin(x). Also arises from arccos(x), arccsc(x), arcsec(x), arcsinh(x).",
+  "id": "A055786",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A002595",
+    "A052469",
+    "A162443"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

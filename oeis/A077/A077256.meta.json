@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p^k == 1 modulo k, where p=prime(k).",
+  "id": "A077256",
+  "mentions": [
+    "A000040",
+    "A048891",
+    "A049084",
+    "A077254",
+    "A077255"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

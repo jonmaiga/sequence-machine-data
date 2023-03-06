@@ -1,0 +1,19 @@
+{
+  "description": "Number of letters in n (in Italian).",
+  "id": "A026858",
+  "mentions": [
+    "A005589"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

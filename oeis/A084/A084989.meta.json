@@ -1,0 +1,18 @@
+{
+  "description": "Number of 4-year terms served by n-th President of U.S.A.",
+  "id": "A084989",
+  "mentions": [
+    "A008745",
+    "A072550"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

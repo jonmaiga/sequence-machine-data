@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A072594(n) = 0.",
+  "id": "A072595",
+  "mentions": [
+    "A000290",
+    "A072594",
+    "A072596"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

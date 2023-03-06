@@ -1,0 +1,26 @@
+{
+  "description": "Number of nodes of odd outdegree in all ordered rooted (planar) trees with n edges.",
+  "id": "A014300",
+  "mentions": [
+    "A000957",
+    "A000984",
+    "A059481",
+    "A079935",
+    "A119259",
+    "A119307",
+    "A333564"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

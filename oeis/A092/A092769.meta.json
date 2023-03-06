@@ -1,0 +1,18 @@
+{
+  "description": "Squares of A006450: a(n) = prime(prime(n))^2.",
+  "id": "A092769",
+  "mentions": [
+    "A006450"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

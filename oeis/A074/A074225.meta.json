@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n * Sum_{d|n} d*2^(d-1).",
+  "id": "A074225",
+  "mentions": [
+    "A083413"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

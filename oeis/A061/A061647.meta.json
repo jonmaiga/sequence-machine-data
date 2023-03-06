@@ -1,0 +1,22 @@
+{
+  "description": "Beginning at the well for the topograph of a positive definite quadratic form with values 1, 1, 1 at a superbase (i.e., 1, 1 and 1 are the vonorms of the superbase), these numbers indicate the labels of the edges of the topograph on a path of greatest ascent.",
+  "id": "A061647",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001654",
+    "A264080"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

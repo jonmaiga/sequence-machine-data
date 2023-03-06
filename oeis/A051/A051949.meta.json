@@ -1,0 +1,21 @@
+{
+  "description": "Differences of two factorial numbers.",
+  "id": "A051949",
+  "mentions": [
+    "A001563",
+    "A033312",
+    "A185009",
+    "A204930",
+    "A206816"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:04:17",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

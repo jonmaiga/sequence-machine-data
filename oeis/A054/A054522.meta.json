@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k): T(n,k) = phi(k) if k divides n, T(n,k)=0 otherwise (n >= 1, 1<=k<=n). T(n,k) = number of elements of order k in cyclic group of order n.",
+  "id": "A054522",
+  "mentions": [
+    "A000010",
+    "A054521"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:19:47",
+    "offset": 1,
+    "size": 103,
+    "source": "joeis"
+  }
+}

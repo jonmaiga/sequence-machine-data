@@ -1,0 +1,19 @@
+{
+  "description": "Euler's totient of the average of n-th twin prime pair.",
+  "id": "A078578",
+  "mentions": [
+    "A000010",
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Fractions a(n)/n are such that gcd(a(n),n)=1, a(n) > 0 and a(n) is as small as possible so that the partial sums of the fractions have prime numerator. Let a(1)=1.",
+  "id": "A076476",
+  "mentions": [
+    "A002805",
+    "A076477"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

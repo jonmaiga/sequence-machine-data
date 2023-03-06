@@ -1,0 +1,18 @@
+{
+  "description": "First derivative of cyclotomic(n,x) evaluated at x=1.",
+  "id": "A092502",
+  "mentions": [
+    "A020500"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

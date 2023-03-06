@@ -1,0 +1,24 @@
+{
+  "description": "Number of aperiodic necklaces of n beads of 6 colors; dimensions of free Lie algebras.",
+  "id": "A032164",
+  "mentions": [
+    "A000011",
+    "A001037",
+    "A001692",
+    "A054721",
+    "A074650"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows: partitions of n with parts occurring at most thrice, k parts occurring once or twice and an even number of parts.",
+  "id": "A098489",
+  "mentions": [
+    "A098490",
+    "A098491",
+    "A098493"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of [5, 5, ...] = (5 + sqrt(29))/2.",
+  "id": "A098318",
+  "mentions": [
+    "A001622",
+    "A010716",
+    "A014176",
+    "A085551",
+    "A098316",
+    "A098317",
+    "A188640"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

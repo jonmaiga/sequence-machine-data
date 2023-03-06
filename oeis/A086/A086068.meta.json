@@ -1,0 +1,23 @@
+{
+  "description": "Min{k: A086066(k) = n}.",
+  "id": "A086068",
+  "mentions": [
+    "A086066",
+    "A086067",
+    "A086069",
+    "A086070"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "A discrete analog of Li(n): floor ( Sum_{k=2..n} 1/log_10 (k) ).",
+  "id": "A047746",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 2,
+    "size": 65,
+    "source": "joeis"
+  }
+}

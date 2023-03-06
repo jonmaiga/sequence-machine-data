@@ -1,0 +1,29 @@
+{
+  "description": "Multiplicity of Max{gcd(d, n/d)} when d runs over divisors of n.",
+  "id": "A055076",
+  "mentions": [
+    "A000035",
+    "A000188",
+    "A007913",
+    "A028234",
+    "A034444",
+    "A046951",
+    "A067029",
+    "A077610",
+    "A162642",
+    "A268335",
+    "A295316"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

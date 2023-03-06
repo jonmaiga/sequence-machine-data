@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{i=0..2n} (-1)^i * T(i,2n-i), array T as in A048149.",
+  "id": "A049713",
+  "mentions": [
+    "A048149"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 18:50:57",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

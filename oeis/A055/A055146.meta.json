@@ -1,0 +1,19 @@
+{
+  "description": "The first n digits of the juxtaposition of the base-5 numbers converted to decimal.",
+  "id": "A055146",
+  "mentions": [
+    "A055143",
+    "A055150"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:56:47",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k^2 - 2 is prime.",
+  "id": "A028870",
+  "mentions": [
+    "A028871",
+    "A062326"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

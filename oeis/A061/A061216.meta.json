@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = product of all even numbers between n-th prime and (n+1)-st prime.",
+  "id": "A061216",
+  "mentions": [
+    "A061214",
+    "A061215"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

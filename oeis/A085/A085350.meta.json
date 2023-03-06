@@ -1,0 +1,29 @@
+{
+  "description": "Binomial transform of poly-Bernoulli numbers A027649.",
+  "id": "A085350",
+  "mentions": [
+    "A000244",
+    "A000302",
+    "A004171",
+    "A005061",
+    "A027649",
+    "A080643",
+    "A081674",
+    "A085351",
+    "A132400",
+    "A167762",
+    "A167784"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

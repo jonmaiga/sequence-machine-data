@@ -1,0 +1,21 @@
+{
+  "description": "Largest prime factor of n, where n runs through composite numbers.",
+  "id": "A052369",
+  "mentions": [
+    "A002808",
+    "A006530",
+    "A056608"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

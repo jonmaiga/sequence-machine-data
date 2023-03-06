@@ -1,0 +1,18 @@
+{
+  "description": "Coefficient of x^n in A(x)^n is A087457(n) for n>=1.",
+  "id": "A088929",
+  "mentions": [
+    "A087457",
+    "A088930"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

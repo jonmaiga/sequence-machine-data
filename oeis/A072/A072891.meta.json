@@ -1,0 +1,23 @@
+{
+  "description": "The 5-cycle of the n => sigma(n)-n process, where sigma(n) is the sum of divisors of n (A000203).",
+  "id": "A072891",
+  "mentions": [
+    "A000203",
+    "A003416",
+    "A045477",
+    "A072890"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

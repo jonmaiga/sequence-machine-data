@@ -1,0 +1,32 @@
+{
+  "description": "Matrix square of Stirling2 triangle A008277: 2-levels set partitions of [n] into k first-level subsets.",
+  "id": "A039810",
+  "mentions": [
+    "A000110",
+    "A000258",
+    "A000558",
+    "A000559",
+    "A002378",
+    "A008277",
+    "A013609",
+    "A039811",
+    "A039813",
+    "A039814",
+    "A046817",
+    "A130191",
+    "A264428",
+    "A321712"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

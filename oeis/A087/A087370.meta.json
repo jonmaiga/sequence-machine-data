@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that 3n - 1 is a prime.",
+  "id": "A087370",
+  "mentions": [
+    "A003627",
+    "A010051",
+    "A016789",
+    "A024893",
+    "A088879",
+    "A091177",
+    "A259645"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "An example of a d-perfect sequence.",
+  "id": "A039979",
+  "mentions": [
+    "A007440"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:16:31",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

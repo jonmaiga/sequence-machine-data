@@ -1,0 +1,26 @@
+{
+  "description": "Primes of the form x^2 + 27y^2.",
+  "id": "A014752",
+  "mentions": [
+    "A014753",
+    "A016108",
+    "A040028",
+    "A045309",
+    "A059899",
+    "A059914",
+    "A060122",
+    "A060123",
+    "A060124"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

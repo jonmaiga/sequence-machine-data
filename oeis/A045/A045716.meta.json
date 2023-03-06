@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the binary order (A029837) of the n-th primorial number, A002110(n).",
+  "id": "A045716",
+  "mentions": [
+    "A002110",
+    "A029837",
+    "A046971",
+    "A054850",
+    "A070939"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

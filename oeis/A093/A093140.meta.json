@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1-6*x)/((1-x)*(1-10*x)).",
+  "id": "A093140",
+  "mentions": [
+    "A001045",
+    "A002477",
+    "A093141",
+    "A102807"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:21:23",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

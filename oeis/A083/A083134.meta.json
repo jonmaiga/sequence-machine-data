@@ -1,0 +1,22 @@
+{
+  "description": "Number the letters of English alphabet from 1 to 26; sequence specifies capital letters which are indistinguishable after 180-degree rotation.",
+  "id": "A083134",
+  "mentions": [
+    "A083131",
+    "A083132",
+    "A083133"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

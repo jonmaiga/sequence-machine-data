@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with two prime factors: (4*i+1)*(4*j+3).",
+  "id": "A080774",
+  "mentions": [
+    "A001358",
+    "A002144",
+    "A002145",
+    "A006881",
+    "A107978",
+    "A121387"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

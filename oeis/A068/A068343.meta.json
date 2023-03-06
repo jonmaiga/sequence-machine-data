@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is a prime power and sum of all prime powers <= a(n) is A025475.",
+  "id": "A068343",
+  "mentions": [
+    "A000961",
+    "A024918",
+    "A025475"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

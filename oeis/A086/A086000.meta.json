@@ -1,0 +1,22 @@
+{
+  "description": "For p = prime(n), a(n) is the smallest N such that pN is a base-2 pseudoprime (that is, 2^(pN-1) = 1 mod pN).",
+  "id": "A086000",
+  "mentions": [
+    "A001567",
+    "A082654",
+    "A085012",
+    "A085999",
+    "A086001"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 2,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

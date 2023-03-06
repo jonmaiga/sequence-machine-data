@@ -1,0 +1,16 @@
+{
+  "description": "Gaussian binomial coefficient [ n,7 ] for q = -9.",
+  "id": "A015349",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 7,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

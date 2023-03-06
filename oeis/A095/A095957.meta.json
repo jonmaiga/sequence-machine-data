@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest prime of earlier set of n consecutive good primes version 2 (see A028388).",
+  "id": "A095957",
+  "mentions": [
+    "A028388",
+    "A046869",
+    "A095924",
+    "A096473"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

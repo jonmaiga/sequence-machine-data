@@ -1,0 +1,19 @@
+{
+  "description": "Lower prime of a difference of 6 (G-minor-6 primes) between consecutive primes of 6k+1 form.",
+  "id": "A052158",
+  "mentions": [
+    "A031924",
+    "A031925"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:01:39",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

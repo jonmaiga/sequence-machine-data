@@ -1,0 +1,15 @@
+{
+  "description": "Minimum number of possible solutions for all irreducible stick-cutting problems.",
+  "id": "A022542",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

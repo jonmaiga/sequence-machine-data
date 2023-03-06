@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(753).",
+  "id": "A042451",
+  "mentions": [
+    "A040725",
+    "A042450"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:16:36",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

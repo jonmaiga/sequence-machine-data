@@ -1,0 +1,22 @@
+{
+  "description": "Nexus numbers (n+1)^9-n^9.",
+  "id": "A022525",
+  "mentions": [
+    "A008292",
+    "A022524",
+    "A022526",
+    "A047969"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

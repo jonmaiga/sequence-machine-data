@@ -1,0 +1,25 @@
+{
+  "description": "Orbit size of each branch-reduced tree encoded by A080981(n) under Donaghey's \"Map M\" Catalan automorphism.",
+  "id": "A080968",
+  "mentions": [
+    "A057505",
+    "A057506",
+    "A080070",
+    "A080967",
+    "A080969",
+    "A080972",
+    "A080980",
+    "A080981"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of coefficients of Gandhi polynomials.",
+  "id": "A036970",
+  "mentions": [
+    "A001469",
+    "A005440",
+    "A083061",
+    "A084938",
+    "A272378",
+    "A272379",
+    "A272380"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

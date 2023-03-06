@@ -1,0 +1,19 @@
+{
+  "description": "Larger difference (r-q or q-p) associated with A084105.",
+  "id": "A084106",
+  "mentions": [
+    "A002386",
+    "A084105",
+    "A337489"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

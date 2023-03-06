@@ -1,0 +1,17 @@
+{
+  "description": "Least positive integer k for which 11^n divides k!.",
+  "id": "A048841",
+  "mentions": [
+    "A007843"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:06:13",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A076070(n)/n.",
+  "id": "A076071",
+  "mentions": [
+    "A076070",
+    "A076072",
+    "A076073"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

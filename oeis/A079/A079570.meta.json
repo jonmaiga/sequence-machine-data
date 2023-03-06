@@ -1,0 +1,16 @@
+{
+  "description": "Number of unlabeled, connected graphs on n vertices which have no induced subgraph isomorphic to a cricket graph (open bow-tie graph).",
+  "id": "A079570",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

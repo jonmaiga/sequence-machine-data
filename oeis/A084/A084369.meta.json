@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the n-th prime number doesn't contain any even digits.",
+  "id": "A084369",
+  "mentions": [
+    "A030096"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:25:09",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

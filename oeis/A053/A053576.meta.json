@@ -1,0 +1,23 @@
+{
+  "description": "Smallest number whose Euler totient is divisible by 2^n.",
+  "id": "A053576",
+  "mentions": [
+    "A000010",
+    "A001317",
+    "A003401",
+    "A045544",
+    "A058213",
+    "A058214",
+    "A058215"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

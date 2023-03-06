@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are sums of 2 or more consecutive squares in more than 1 way.",
+  "id": "A062681",
+  "mentions": [
+    "A111044",
+    "A174069"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

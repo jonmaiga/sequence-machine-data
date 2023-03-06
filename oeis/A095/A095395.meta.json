@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Floor[n^((n+1)/(n))]-Floor[n^((n)/(n+1))].",
+  "id": "A095395",
+  "mentions": [
+    "A059921",
+    "A095394"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:05:53",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

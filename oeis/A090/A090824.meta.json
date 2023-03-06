@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of partitions of binomial(n,k) into parts greater than k and not greater than n, 0<=k<=n.",
+  "id": "A090824",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

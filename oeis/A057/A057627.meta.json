@@ -1,0 +1,29 @@
+{
+  "description": "Number of nonsquarefree numbers not exceeding n.",
+  "id": "A057627",
+  "mentions": [
+    "A002321",
+    "A005117",
+    "A008683",
+    "A013928",
+    "A013929",
+    "A013940",
+    "A028442",
+    "A056170",
+    "A107078",
+    "A229099",
+    "A294242"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

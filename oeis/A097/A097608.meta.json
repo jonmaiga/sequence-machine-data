@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: number of Dyck paths of semilength n and having abscissa of the leftmost valley equal to k (if no valley, then it is taken to be 2n; 2<=k<=2n).",
+  "id": "A097608",
+  "mentions": [
+    "A000108",
+    "A000245",
+    "A001791",
+    "A002057",
+    "A026013",
+    "A071724",
+    "A071725",
+    "A088218"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

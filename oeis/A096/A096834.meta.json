@@ -1,0 +1,22 @@
+{
+  "description": "Singular primes mentioned in A096833 around the listed primorials.",
+  "id": "A096834",
+  "mentions": [
+    "A002110",
+    "A096509",
+    "A096523",
+    "A096830",
+    "A096833",
+    "A096840"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

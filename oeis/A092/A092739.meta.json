@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n*(n+1)/2 is the juxtaposition of two identical strings in binary representation.",
+  "id": "A092739",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A000217",
+    "A007088",
+    "A020330"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

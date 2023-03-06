@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2*(n^2)!*Product_{k=0..n-1} k!/(n+k)!.",
+  "id": "A067700",
+  "mentions": [
+    "A000178",
+    "A039622",
+    "A079402"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

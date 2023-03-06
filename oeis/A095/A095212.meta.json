@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = arithmetic mean of A095211(1 to n).",
+  "id": "A095212",
+  "mentions": [
+    "A095209",
+    "A095210",
+    "A095211"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

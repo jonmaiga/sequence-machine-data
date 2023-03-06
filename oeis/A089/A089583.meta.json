@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n which are a multiple of A068505(n) (= n read in base m+1 where m = largest digit of n).",
+  "id": "A089583",
+  "mentions": [
+    "A054055",
+    "A068505",
+    "A089584"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

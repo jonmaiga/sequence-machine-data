@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into two parts whose xor-sum is n.",
+  "id": "A088512",
+  "mentions": [
+    "A001316",
+    "A050315"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:29:29",
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

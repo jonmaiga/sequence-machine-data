@@ -1,0 +1,16 @@
+{
+  "description": "Number of unlabeled and connected graphs on n vertices which are semi-P4-sparse (G is semi-P4-sparse iff G has no induced P5, House, or complement of a fork).",
+  "id": "A079469",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

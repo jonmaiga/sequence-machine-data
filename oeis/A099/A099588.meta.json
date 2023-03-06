@@ -1,0 +1,21 @@
+{
+  "description": "Coefficient of x^2 in (1+x)^n mod 1+x^4.",
+  "id": "A099588",
+  "mentions": [
+    "A099586",
+    "A099587",
+    "A099589"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

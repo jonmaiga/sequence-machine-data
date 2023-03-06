@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime p with audioactive \"echo\" of at least n, that is, the finite sequence p_0 = p, p_1 = LookAndSay(p_0), ..., p_n = LookAndSay(p_(n-1)) consists entirely of primes.",
+  "id": "A079637",
+  "mentions": [
+    "A005150",
+    "A045918"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

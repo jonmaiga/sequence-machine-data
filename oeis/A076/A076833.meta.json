@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) read by rows giving number of inequivalent projective binary linear [n,k] codes (n >= 1, 1 <= k <= n).",
+  "id": "A076833",
+  "mentions": [
+    "A076834",
+    "A091008"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

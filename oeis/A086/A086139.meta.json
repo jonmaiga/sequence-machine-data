@@ -1,0 +1,19 @@
+{
+  "description": "Let p = A046133(n), that is, let p run through the list of primes such that p+12 is also prime (A046133); a(n) = number of primes in the interval p + 1 through p + 11 inclusive.",
+  "id": "A086139",
+  "mentions": [
+    "A031930",
+    "A031931",
+    "A046133"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

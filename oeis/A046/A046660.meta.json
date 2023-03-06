@@ -1,0 +1,41 @@
+{
+  "description": "Excess of n = number of prime divisors (with multiplicity) - number of prime divisors (without multiplicity).",
+  "id": "A046660",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A005117",
+    "A025487",
+    "A060687",
+    "A066301",
+    "A124010",
+    "A136141",
+    "A162511",
+    "A195069",
+    "A195086",
+    "A195087",
+    "A195088",
+    "A195089",
+    "A195090",
+    "A195091",
+    "A195092",
+    "A195093",
+    "A257851",
+    "A261256",
+    "A264959",
+    "A275699"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

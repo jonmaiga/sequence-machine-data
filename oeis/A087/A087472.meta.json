@@ -1,0 +1,21 @@
+{
+  "description": "Number of iterations required for the function f(n) to reach a single digit, where f(n) is the product of the two numbers formed from the alternating digits of n.",
+  "id": "A087472",
+  "mentions": [
+    "A031346",
+    "A087471",
+    "A087473",
+    "A087474"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

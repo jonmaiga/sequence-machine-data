@@ -1,0 +1,19 @@
+{
+  "description": "n^7 mod 15.",
+  "id": "A070697",
+  "mentions": [
+    "A008960",
+    "A070477"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:16:29",
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

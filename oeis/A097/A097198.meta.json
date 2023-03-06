@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: q^(2*n)* Product_{m=0..n-1} (1-q^(2*m+1))^2.",
+  "id": "A097198",
+  "mentions": [
+    "A000700"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

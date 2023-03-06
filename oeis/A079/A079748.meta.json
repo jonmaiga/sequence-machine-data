@@ -1,0 +1,21 @@
+{
+  "description": "Largest k such that the greatest prime factors from n to n+k are monotonically increasing.",
+  "id": "A079748",
+  "mentions": [
+    "A006530",
+    "A070087",
+    "A079747",
+    "A358890"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

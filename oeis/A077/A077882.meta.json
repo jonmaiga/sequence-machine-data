@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of x/((1-x)*(1-x^2-2*x^3)).",
+  "id": "A077882",
+  "mentions": [
+    "A052947"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:56:06",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form 50*R_k + 9, where R_k is the repunit (A002275) of length k.",
+  "id": "A093403",
+  "mentions": [
+    "A002275",
+    "A056687",
+    "A099418"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

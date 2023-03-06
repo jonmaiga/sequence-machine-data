@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime equal to n^2 + m^2 with n",
+  "id": "A068487",
+  "mentions": [
+    "A089489"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k where tan(k) decreases monotonically to 0 (or cot(k) increases).",
+  "id": "A046956",
+  "mentions": [
+    "A001203",
+    "A002485",
+    "A004112"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

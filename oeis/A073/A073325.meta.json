@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = least k > 0 such that prime(k) == n (mod k).",
+  "id": "A073325",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A004648",
+    "A073324",
+    "A073326",
+    "A216162"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

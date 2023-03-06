@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the unique odd positive solution y of 2^n = 7x^2 + y^2.",
+  "id": "A077021",
+  "mentions": [
+    "A002249",
+    "A038198",
+    "A060728",
+    "A077020"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 3,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

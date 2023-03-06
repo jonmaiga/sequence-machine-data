@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of 6 positive cubes in exactly 2 ways.",
+  "id": "A048930",
+  "mentions": [
+    "A003329",
+    "A048927",
+    "A048929",
+    "A048931",
+    "A345511",
+    "A345774",
+    "A345814"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

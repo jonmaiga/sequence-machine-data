@@ -1,0 +1,24 @@
+{
+  "description": "Number of 7 X n matrices with entries {0,1} without adjacent 0's in any row or column. 7th row of A089934.",
+  "id": "A089938",
+  "mentions": [
+    "A000045",
+    "A001333",
+    "A051736",
+    "A051737",
+    "A089934",
+    "A089936",
+    "A089937"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

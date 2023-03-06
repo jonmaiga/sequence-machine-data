@@ -1,0 +1,15 @@
+{
+  "description": "Smallest nonnegative value taken on by nx^2 - 15y^2 for an infinite number of integer pairs (x, y).",
+  "id": "A049274",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

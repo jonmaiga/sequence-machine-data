@@ -1,0 +1,125 @@
+{
+  "oi": 73000,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "de[acot(2)]",
+      "mt": 50,
+      "px": [
+        "2",
+        "acot",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[atan(1/2)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "2",
+        "/",
+        "atan",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-03",
+      "ix": "limit[acot(contfrac[sqrt(2)])]",
+      "mt": 50,
+      "px": [
+        "2",
+        "sqrt",
+        "contfrac",
+        "acot",
+        "limit"
+      ]
+    },
+    {
+      "d": "2021-11-15",
+      "ix": "de[asin(cos(atan(2)))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "atan",
+        "cos",
+        "asin",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-15",
+      "ix": "de[acos(sin(atan(2)))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "atan",
+        "sin",
+        "acos",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-15",
+      "ix": "de[asin(tanh(log(ϕ)))]",
+      "mt": 50,
+      "px": [
+        "ϕ",
+        "log",
+        "tanh",
+        "asin",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-06-01",
+      "ix": "limit[acot(ceil(atan(n)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "atan",
+        "ceil",
+        "acot",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-06-01",
+      "ix": "limit[acot(round(atan(n)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "atan",
+        "round",
+        "acot",
+        "limit"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[asin(sqrt(1/5))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "5",
+        "/",
+        "sqrt",
+        "asin",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[acos(2/sqrt(5))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "5",
+        "sqrt",
+        "/",
+        "acos",
+        "de"
+      ]
+    }
+  ]
+}

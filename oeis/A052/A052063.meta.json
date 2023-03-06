@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the decimal expansion of k^3 contains no palindromic substring except single digits.",
+  "id": "A052063",
+  "mentions": [
+    "A050742",
+    "A052061",
+    "A052062",
+    "A052064"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

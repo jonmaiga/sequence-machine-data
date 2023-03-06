@@ -1,0 +1,19 @@
+{
+  "description": "A033466(5n+2). Values of A033466(n) that differ from A058031(n+1)+1.",
+  "id": "A099024",
+  "mentions": [
+    "A033466",
+    "A058031"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

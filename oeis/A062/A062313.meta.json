@@ -1,0 +1,18 @@
+{
+  "description": "Factorials of nonprime numbers.",
+  "id": "A062313",
+  "mentions": [
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

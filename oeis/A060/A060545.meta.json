@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = C(n^2,n)/n.",
+  "id": "A060545",
+  "mentions": [
+    "A005563",
+    "A014062",
+    "A060543"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

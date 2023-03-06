@@ -1,0 +1,20 @@
+{
+  "description": "Length of longest run of consecutive quadratic residues mod prime(n).",
+  "id": "A048280",
+  "mentions": [
+    "A002307",
+    "A002308",
+    "A048281"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

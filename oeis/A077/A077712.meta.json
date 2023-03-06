@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(n) = the smallest squarefree number > a(n-1) which contains all the digits of a(n-1).",
+  "id": "A077712",
+  "mentions": [
+    "A086981",
+    "A086982"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

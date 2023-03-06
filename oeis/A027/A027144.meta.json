@@ -1,0 +1,16 @@
+{
+  "description": "Triangular array T given by rows: T(n,0)=1 for n >= 0, T(1,1)=2; for even n >= 2, T(n,k)=T(n-2,k-1)+T(n-1,k-1)+T(n-1,k) for 1<=(odd k)<=n-1 and T(n,k)=T(n-1,k-1)+T(n-1,k) for 2<=(even k)<=n-2, T(n,n)=T(n-1,n-1); for odd n<=3, T(n,k)=T(n,k-1)+T(n-1,k-1)+T(n-1,k) for 1<=(odd k)<=n-2 and T(n,k)=T(n-1,k-1)+T(n-1,k) for 2<=(even k)<=n-1, T(n,n)=T(n-1,n-1)+T(n,n-1).",
+  "id": "A027144",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:33:23",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

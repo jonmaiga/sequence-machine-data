@@ -1,0 +1,16 @@
+{
+  "description": "Number of 1's in binary expansion of 3n+2.",
+  "id": "A046819",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:01:39",
+    "offset": 0,
+    "size": 93,
+    "source": "joeis"
+  }
+}

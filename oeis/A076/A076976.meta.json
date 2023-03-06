@@ -1,0 +1,23 @@
+{
+  "description": "Product of the smallest prime divisors of composite numbers between successive primes.",
+  "id": "A076976",
+  "mentions": [
+    "A001359",
+    "A007814",
+    "A029707",
+    "A029709",
+    "A029710",
+    "A031924",
+    "A076977"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

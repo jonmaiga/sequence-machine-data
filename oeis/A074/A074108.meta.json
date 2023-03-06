@@ -1,0 +1,16 @@
+{
+  "description": "Smallest number such that the concatenation of first n terms is a proper multiple of the concatenation of first n natural numbers.",
+  "id": "A074108",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

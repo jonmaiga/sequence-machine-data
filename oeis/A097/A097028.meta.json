@@ -1,0 +1,21 @@
+{
+  "description": "Function f(x) = EulerPhi(x) + floor(x/2) is iterated; a(n) is the length of transient part and terminal cycle if the iteration was initiated at n. So a(n) is the number of distinct terms arising during iteration.",
+  "id": "A097028",
+  "mentions": [
+    "A000010",
+    "A097026",
+    "A097027",
+    "A097029"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

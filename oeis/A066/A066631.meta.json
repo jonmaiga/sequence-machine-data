@@ -1,0 +1,17 @@
+{
+  "description": "The sequence f(1), f(2), ... as defined in A068192.",
+  "id": "A066631",
+  "mentions": [
+    "A068192"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

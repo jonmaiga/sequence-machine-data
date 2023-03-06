@@ -1,0 +1,22 @@
+{
+  "description": "Odd m such that there exists an even number k < m with phi(k) = phi(m).",
+  "id": "A036798",
+  "mentions": [
+    "A000010",
+    "A067800",
+    "A083254",
+    "A091495",
+    "A118700",
+    "A119434"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

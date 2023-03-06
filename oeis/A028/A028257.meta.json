@@ -1,0 +1,19 @@
+{
+  "description": "Engel expansion of sqrt(3).",
+  "id": "A028257",
+  "mentions": [
+    "A006784",
+    "A220335"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

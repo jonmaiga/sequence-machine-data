@@ -1,0 +1,17 @@
+{
+  "description": "Index of n-th 2 in A022303.",
+  "id": "A025516",
+  "mentions": [
+    "A022303"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:29:15",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

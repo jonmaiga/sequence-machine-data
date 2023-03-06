@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0; for n > 0, a(n) = (fecundity of n) + 1.",
+  "id": "A070561",
+  "mentions": [
+    "A003001",
+    "A031346",
+    "A070560",
+    "A070562"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

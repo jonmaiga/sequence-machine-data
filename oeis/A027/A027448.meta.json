@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: 4th power of the lower triangular mean matrix (M[i,j] = 1/i for i <= j).",
+  "id": "A027448",
+  "mentions": [
+    "A027446",
+    "A027447"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

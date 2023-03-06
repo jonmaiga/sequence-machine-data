@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the infinite sum: each n-th prime number A000040(n) divided by each n-th Fibonacci number A000045(n), from n=1.",
+  "id": "A098829",
+  "mentions": [
+    "A000040",
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

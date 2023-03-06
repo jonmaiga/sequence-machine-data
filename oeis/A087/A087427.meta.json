@@ -1,0 +1,18 @@
+{
+  "description": "Number of lattice points on or inside the rectangle formed by [1 <= x <= (q-1)/2] and [1 <= y <= (p-1)/2], where p = n-th prime, q = (n-1)-st prime.",
+  "id": "A087427",
+  "mentions": [
+    "A087428"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Exponent of 2 in 3^n - 1.",
+  "id": "A090740",
+  "mentions": [
+    "A001511",
+    "A007814",
+    "A014445",
+    "A059841",
+    "A069895",
+    "A088660",
+    "A090739",
+    "A091512"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

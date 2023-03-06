@@ -1,0 +1,23 @@
+{
+  "description": "Sum of first and last digits of n-th prime.",
+  "id": "A088135",
+  "mentions": [
+    "A007953",
+    "A046704",
+    "A088133",
+    "A088134",
+    "A088136"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:15:19",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n with property that the number of 1's in binary expansion of n (see A000120) divides n.",
+  "id": "A049445",
+  "mentions": [
+    "A000120",
+    "A005349",
+    "A199238"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

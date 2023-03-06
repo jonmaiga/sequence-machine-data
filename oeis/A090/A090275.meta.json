@@ -1,0 +1,18 @@
+{
+  "description": "Beginning with 2, a(n+1) is the smallest palindromic prime obtained by placing identical digits on both sides of a(n).",
+  "id": "A090275",
+  "mentions": [
+    "A090276"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

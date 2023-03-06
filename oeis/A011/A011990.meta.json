@@ -1,0 +1,16 @@
+{
+  "description": "Covering numbers C(n,9,5) (next term is <= 19).",
+  "id": "A011990",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 9,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

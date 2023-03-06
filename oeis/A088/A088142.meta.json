@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n-set with 2 block sizes.",
+  "id": "A088142",
+  "mentions": [
+    "A002133",
+    "A005772",
+    "A038041",
+    "A208437"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 3,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

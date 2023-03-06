@@ -1,0 +1,19 @@
+{
+  "description": "Record lengths of transient part of aliquot sequences corresponding to entries in A098009.",
+  "id": "A098010",
+  "mentions": [
+    "A098008",
+    "A098009"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

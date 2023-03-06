@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which are sums of cubes of some subset of divisors.",
+  "id": "A066215",
+  "mentions": [
+    "A066213",
+    "A066214",
+    "A066216"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

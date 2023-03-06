@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes < 3^prime(n).",
+  "id": "A086692",
+  "mentions": [
+    "A055729"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

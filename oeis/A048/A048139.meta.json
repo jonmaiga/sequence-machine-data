@@ -1,0 +1,22 @@
+{
+  "description": "Number of planar partitions of n, when partitions that are rotations of each other (when regarded as 3-D objects) are counted only once.",
+  "id": "A048139",
+  "mentions": [
+    "A000219",
+    "A000784",
+    "A000785",
+    "A005987",
+    "A048141",
+    "A048142"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

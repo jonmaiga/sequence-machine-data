@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct products ijk with 1 <= i,j,k <= n.",
+  "id": "A027425",
+  "mentions": [
+    "A027424",
+    "A027426",
+    "A027430"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least common multiple of all orbit lengths of the permutation A038776.",
+  "id": "A060113",
+  "mentions": [
+    "A038776",
+    "A060114",
+    "A060115"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

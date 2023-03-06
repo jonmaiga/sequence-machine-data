@@ -1,0 +1,26 @@
+{
+  "description": "Numbers congruent to 0 or 1 (mod 4).",
+  "id": "A042948",
+  "mentions": [
+    "A000290",
+    "A002620",
+    "A030308",
+    "A035608",
+    "A042963",
+    "A042964",
+    "A133872",
+    "A151821"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

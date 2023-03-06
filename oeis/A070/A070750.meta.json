@@ -1,0 +1,34 @@
+{
+  "description": "0 if n-th prime is even, 1 if n-th prime is == 1 mod 4, and -1 if n-th prime is == 3 mod 4.",
+  "id": "A070750",
+  "mentions": [
+    "A000040",
+    "A000108",
+    "A000984",
+    "A002144",
+    "A002145",
+    "A039702",
+    "A060294",
+    "A070748",
+    "A070749",
+    "A076340",
+    "A076341",
+    "A076342",
+    "A088538",
+    "A134323",
+    "A257834"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

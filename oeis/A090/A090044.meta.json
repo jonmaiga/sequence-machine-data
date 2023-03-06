@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = A083093 with 1's and 2's interchanged.",
+  "id": "A090044",
+  "mentions": [
+    "A007318",
+    "A083093"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

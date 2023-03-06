@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k such that k*i^2 + 1 is prime for i = 1 to n.",
+  "id": "A089761",
+  "mentions": [
+    "A124417"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

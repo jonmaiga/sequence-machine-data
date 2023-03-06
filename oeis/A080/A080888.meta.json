@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions into Fibonacci numbers (1 counted as two distinct Fibonacci numbers).",
+  "id": "A080888",
+  "mentions": [
+    "A000045",
+    "A076739"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

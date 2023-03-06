@@ -1,0 +1,23 @@
+{
+  "description": "Let R_{k}(n) = the digit reversal of n in base k (R_{k}(n) is written in base 10). a(n) is the number of distinct values of R_{k}(n) arising if k=2,..,n+1.",
+  "id": "A091974",
+  "mentions": [
+    "A004086",
+    "A030101",
+    "A030108",
+    "A056960",
+    "A056963",
+    "A181385"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

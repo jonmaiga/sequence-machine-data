@@ -1,0 +1,17 @@
+{
+  "description": "Start with 1; add the digits of the previous term and the squares of the digits of the previous term.",
+  "id": "A071440",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:26:45",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

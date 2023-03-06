@@ -1,0 +1,23 @@
+{
+  "description": "Number of chiral polyominoes with n cells.",
+  "id": "A030228",
+  "mentions": [
+    "A000105",
+    "A000988",
+    "A006747",
+    "A006749",
+    "A030227",
+    "A144553"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

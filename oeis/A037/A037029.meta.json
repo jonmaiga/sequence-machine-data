@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 666*n + 1.",
+  "id": "A037029",
+  "mentions": [
+    "A037030"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of primitive (aperiodic) step shifted (decimated) sequence structures using exactly five different symbols.",
+  "id": "A056409",
+  "mentions": [
+    "A056371",
+    "A056389",
+    "A056391",
+    "A056403",
+    "A056404"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:26:11",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

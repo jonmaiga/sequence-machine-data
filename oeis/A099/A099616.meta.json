@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the first n decimal places of Catalan's constant 0.9159655941772... (sequence A006752).",
+  "id": "A099616",
+  "mentions": [
+    "A006752",
+    "A099541"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

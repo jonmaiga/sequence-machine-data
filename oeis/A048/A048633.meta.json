@@ -1,0 +1,21 @@
+{
+  "description": "Largest squarefree number dividing n-th central binomial coefficient C(n,[ n/2 ]).",
+  "id": "A048633",
+  "mentions": [
+    "A000225",
+    "A001405",
+    "A007947",
+    "A034973",
+    "A056058"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

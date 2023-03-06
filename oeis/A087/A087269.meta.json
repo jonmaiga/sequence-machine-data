@@ -1,0 +1,23 @@
+{
+  "description": "Nonprime solutions to gcd(x, pi(x)) = gcd(x, A000720(x)) = 1.",
+  "id": "A087269",
+  "mentions": [
+    "A000720",
+    "A007053",
+    "A057809",
+    "A087266",
+    "A087267",
+    "A087268"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

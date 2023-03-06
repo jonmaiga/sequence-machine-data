@@ -1,0 +1,19 @@
+{
+  "description": "Position of numbers of form 3*n^2 in A025060 (numbers of form j*k + k*i + i*j, where 1 <=i < j < k).",
+  "id": "A025064",
+  "mentions": [
+    "A000926",
+    "A025060"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

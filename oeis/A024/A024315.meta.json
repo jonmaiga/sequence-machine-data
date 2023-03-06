@@ -1,0 +1,35 @@
+{
+  "description": "a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n-k+1), where k = floor(n/2), s = (natural numbers >= 3), t = (Fibonacci numbers).",
+  "id": "A024315",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A024312",
+    "A024313",
+    "A024314",
+    "A024316",
+    "A024317",
+    "A024318",
+    "A024319",
+    "A024320",
+    "A024321",
+    "A024322",
+    "A024323",
+    "A024324",
+    "A024325",
+    "A024326",
+    "A024327"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

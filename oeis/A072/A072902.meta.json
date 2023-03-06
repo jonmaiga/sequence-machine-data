@@ -1,0 +1,22 @@
+{
+  "description": "Nonprime numbers m such that the discriminant of the quadratic field Q(sqrt(m)) equals m.",
+  "id": "A072902",
+  "mentions": [
+    "A002144",
+    "A003658",
+    "A018252",
+    "A037449"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

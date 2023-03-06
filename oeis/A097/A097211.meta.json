@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = the number of sets of distinct positive integers with a least common multiple of A025487(n), i.e., A076078(A025487(n)).",
+  "id": "A097211",
+  "mentions": [
+    "A025487",
+    "A076078",
+    "A097210"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

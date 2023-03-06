@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of 2*zeta_K(-1) where K is the totally real field Q(sqrt(n)), as n runs through the squarefree numbers.",
+  "id": "A097916",
+  "mentions": [
+    "A097917"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

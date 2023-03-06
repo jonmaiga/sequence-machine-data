@@ -1,0 +1,21 @@
+{
+  "description": "Floor[p/24] where p is a prime which is 4 more than a square.",
+  "id": "A056904",
+  "mentions": [
+    "A001318",
+    "A001840",
+    "A005473",
+    "A045943"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 16:11:10",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

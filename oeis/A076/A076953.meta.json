@@ -1,0 +1,21 @@
+{
+  "description": "Array T(m,n) = phi(mn)-phi(m)phi(n) (m,n >= 1), read by antidiagonals.",
+  "id": "A076953",
+  "mentions": [
+    "A000010",
+    "A079548",
+    "A079549",
+    "A079550"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

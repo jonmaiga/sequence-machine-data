@@ -1,0 +1,19 @@
+{
+  "description": "Primes that remain prime through 2 iterations of the function f(x) = 2x + 7.",
+  "id": "A023244",
+  "mentions": [
+    "A023206",
+    "A105760"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

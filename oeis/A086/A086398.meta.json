@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1; a(n)=a(n-1)+2 if n is in the sequence; a(n)=a(n-1)+2 if n and (n-1) are not in the sequence; a(n)=a(n-1)+4 if n is not in the sequence but (n-1) is in the sequence.",
+  "id": "A086398",
+  "mentions": [
+    "A086377",
+    "A285301",
+    "A285302"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

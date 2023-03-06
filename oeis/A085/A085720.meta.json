@@ -1,0 +1,23 @@
+{
+  "description": "Start of a run of 7 successive numbers which when concatenated form a prime.",
+  "id": "A085720",
+  "mentions": [
+    "A030458",
+    "A030471",
+    "A052087",
+    "A052088",
+    "A052089"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

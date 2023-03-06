@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n equals the sum of its digits raised to the consecutive powers (1,2,3,...).",
+  "id": "A032799",
+  "mentions": [
+    "A208130"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

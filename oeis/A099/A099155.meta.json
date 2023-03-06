@@ -1,0 +1,20 @@
+{
+  "description": "Maximum length of a simple path with no chords in the n-dimensional hypercube, also known as snake-in-the-box problem.",
+  "id": "A099155",
+  "mentions": [
+    "A000937",
+    "A357499"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

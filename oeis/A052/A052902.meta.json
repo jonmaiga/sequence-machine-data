@@ -1,0 +1,22 @@
+{
+  "description": "Take n-th prime p, let P = all primes that can be obtained by permuting the digits of p and possibly omitting zeros; a(n) = |p-q| where q in P is the closest to p but different from p (a(n)=0 if no such q exists).",
+  "id": "A052902",
+  "mentions": [
+    "A052495",
+    "A052998",
+    "A052999",
+    "A053544"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:05:43",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

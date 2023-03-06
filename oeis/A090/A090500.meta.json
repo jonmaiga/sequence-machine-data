@@ -1,0 +1,20 @@
+{
+  "description": "Sums described in A090499.",
+  "id": "A090500",
+  "mentions": [
+    "A000005",
+    "A090499",
+    "A090501"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

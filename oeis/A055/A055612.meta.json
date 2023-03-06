@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{m=1..n} (binomial(n,m)+1).",
+  "id": "A055612",
+  "mentions": [
+    "A007318",
+    "A129824",
+    "A217716",
+    "A293954",
+    "A293955"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

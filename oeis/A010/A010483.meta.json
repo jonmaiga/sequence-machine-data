@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of square root of 28.",
+  "id": "A010483",
+  "mentions": [
+    "A010465",
+    "A040022"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

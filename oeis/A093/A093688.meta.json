@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that all divisors of m, excluding the divisor 1, have an even number of 1's in their binary expansions.",
+  "id": "A093688",
+  "mentions": [
+    "A001969",
+    "A093696",
+    "A356018",
+    "A356019",
+    "A356020"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(log_10(2*n^2)) + 1.",
+  "id": "A077430",
+  "mentions": [
+    "A004216",
+    "A077429",
+    "A077431",
+    "A077432",
+    "A077433"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:39:25",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

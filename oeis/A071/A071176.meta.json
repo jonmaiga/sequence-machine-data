@@ -1,0 +1,24 @@
+{
+  "description": "Smallest k such that the concatenation of n and k is a square (decimal notation).",
+  "id": "A071176",
+  "mentions": [
+    "A000196",
+    "A071177",
+    "A245631"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

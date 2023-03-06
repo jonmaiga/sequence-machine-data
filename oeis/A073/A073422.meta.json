@@ -1,0 +1,19 @@
+{
+  "description": "e = 1/a(0)+1/a(1)+1/a(2)+1/a(3)+... with each term a(n) being a positive or negative integer chosen so as to minimize the absolute difference between e and the partial sum.",
+  "id": "A073422",
+  "mentions": [
+    "A001467",
+    "A006525",
+    "A014015"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

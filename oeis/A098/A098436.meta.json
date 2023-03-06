@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of 3rd central factorial numbers T(n,k).",
+  "id": "A098436",
+  "mentions": [
+    "A000537",
+    "A002720",
+    "A008277",
+    "A008957",
+    "A023001",
+    "A098437"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

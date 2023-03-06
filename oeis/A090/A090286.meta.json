@@ -1,0 +1,19 @@
+{
+  "description": "Median term of prime 5-tuples (p, p+2, p+6, p+8, p+12).",
+  "id": "A090286",
+  "mentions": [
+    "A022006"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:31",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Floor-factorial numbers: a(n) = Product_{k=1..n} floor(n/k).",
+  "id": "A010786",
+  "mentions": [
+    "A006218",
+    "A075885",
+    "A085361",
+    "A092143",
+    "A131385",
+    "A131387",
+    "A208448",
+    "A208449",
+    "A208450"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

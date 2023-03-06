@@ -1,0 +1,23 @@
+{
+  "description": "As upper right triangle: ascending wiggly sums to n where first term is k (sums in which terms alternately increase and decrease; zigzag partitions).",
+  "id": "A059882",
+  "mentions": [
+    "A025047",
+    "A025048",
+    "A025049",
+    "A059881",
+    "A059883"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:34:31",
+    "offset": 1,
+    "size": 97,
+    "source": "joeis"
+  }
+}

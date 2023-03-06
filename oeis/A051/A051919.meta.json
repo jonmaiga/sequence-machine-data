@@ -1,0 +1,19 @@
+{
+  "description": "Start with n, apply k->2k+1 until reach new record prime; sequence gives record primes.",
+  "id": "A051919",
+  "mentions": [
+    "A051918",
+    "A052333"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

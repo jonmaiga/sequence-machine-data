@@ -1,0 +1,21 @@
+{
+  "description": "Generalized Euler number c(7,n).",
+  "id": "A064068",
+  "mentions": [
+    "A064072",
+    "A349264",
+    "A349266"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:08:18",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

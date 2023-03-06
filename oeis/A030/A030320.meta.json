@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that the base-2 representation of n begins at s(k), where s=A030317.",
+  "id": "A030320",
+  "mentions": [
+    "A030317"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:47:43",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

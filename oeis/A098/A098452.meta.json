@@ -1,0 +1,21 @@
+{
+  "description": "One of three ordered sets of positive integers that solves the minimal magic die puzzle.",
+  "id": "A098452",
+  "mentions": [
+    "A047837",
+    "A098451",
+    "A110548"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

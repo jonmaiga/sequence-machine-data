@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the truncated square root of k is equal to the rounded square root of k.",
+  "id": "A063656",
+  "mentions": [
+    "A004201",
+    "A004202",
+    "A051340",
+    "A063657",
+    "A128217",
+    "A217575"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

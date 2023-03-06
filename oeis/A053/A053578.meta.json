@@ -1,0 +1,20 @@
+{
+  "description": "Values of cototient function for A053577.",
+  "id": "A053578",
+  "mentions": [
+    "A007283",
+    "A051953",
+    "A053577",
+    "A058764"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 1,
+    "size": 94,
+    "source": "joeis"
+  }
+}

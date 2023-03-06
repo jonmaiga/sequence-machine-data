@@ -1,0 +1,26 @@
+{
+  "description": "Number of primes between phi(n) and n, where n is included in the count if it is a prime, while phi(n) is never included in the count even if it is a prime.",
+  "id": "A085342",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A010051",
+    "A070803",
+    "A070804",
+    "A074398",
+    "A085341",
+    "A085347"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

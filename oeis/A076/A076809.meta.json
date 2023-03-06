@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n^4 + 853n^3 + 2636n^2 + 3536n + 1753.",
+  "id": "A076809",
+  "mentions": [
+    "A076808",
+    "A272325",
+    "A272326"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:31:15",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Digital complement of n (replace each nonzero digit d with 10-d).",
+  "id": "A055120",
+  "mentions": [
+    "A004488",
+    "A048647",
+    "A055115",
+    "A055126",
+    "A061601",
+    "A169894",
+    "A248813"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

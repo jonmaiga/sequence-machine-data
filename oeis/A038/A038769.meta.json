@@ -1,0 +1,22 @@
+{
+  "description": "Number of digits of n which are divisors of n.",
+  "id": "A038769",
+  "mentions": [
+    "A034709",
+    "A034837",
+    "A038770",
+    "A038772"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

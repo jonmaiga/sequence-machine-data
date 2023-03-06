@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that (4*10^(k-1) - 7)/3 is a plateau prime.",
+  "id": "A082697",
+  "mentions": [
+    "A056244",
+    "A068645",
+    "A082698",
+    "A082720"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

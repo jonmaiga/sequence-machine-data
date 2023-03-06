@@ -1,0 +1,22 @@
+{
+  "description": "Number of divisors of 6^n + 1 that are relatively prime to 6^m + 1 for all 0 < m < n.",
+  "id": "A064133",
+  "mentions": [
+    "A064131",
+    "A064132",
+    "A064134",
+    "A064135",
+    "A064136",
+    "A064137"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

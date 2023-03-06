@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are palindromic in bases 2 and 3.",
+  "id": "A060792",
+  "mentions": [
+    "A006995",
+    "A014190",
+    "A048268",
+    "A056749"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:12",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

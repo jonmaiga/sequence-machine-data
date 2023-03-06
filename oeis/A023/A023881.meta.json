@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions in expanding space: sigma(n,q) is the sum of the q-th powers of the divisors of n.",
+  "id": "A023881",
+  "mentions": [
+    "A023882",
+    "A023887",
+    "A158952"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

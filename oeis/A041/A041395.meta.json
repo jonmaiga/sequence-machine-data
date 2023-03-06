@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(212).",
+  "id": "A041395",
+  "mentions": [
+    "A041394"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:25:04",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

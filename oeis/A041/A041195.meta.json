@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(108).",
+  "id": "A041195",
+  "mentions": [
+    "A010174",
+    "A041194"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:36:57",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

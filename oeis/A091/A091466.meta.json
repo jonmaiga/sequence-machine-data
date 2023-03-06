@@ -1,0 +1,20 @@
+{
+  "description": "Table (by antidiagonals) of labeled alternating octupi with n black nodes and k white nodes. Each type of object labeled from its own label set.",
+  "id": "A091466",
+  "mentions": [
+    "A029767",
+    "A091467"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

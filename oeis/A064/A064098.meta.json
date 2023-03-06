@@ -1,0 +1,21 @@
+{
+  "description": "a(n+1) = (a(n)^2 + a(n-1)^2)/a(n-2), with a(1) = a(2) = a(3) = 1.",
+  "id": "A064098",
+  "mentions": [
+    "A002559",
+    "A072878",
+    "A072879",
+    "A072880"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

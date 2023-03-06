@@ -1,0 +1,25 @@
+{
+  "description": "For n > 1: a(n) = p if n = p^e with p prime and e > 1, otherwise a(n) = (n-m)-th prime, where m = number of nonprime prime powers <= n; a(1)=1.",
+  "id": "A085818",
+  "mentions": [
+    "A000040",
+    "A006530",
+    "A008578",
+    "A025473",
+    "A049084",
+    "A085501",
+    "A085819",
+    "A085971",
+    "A085985"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

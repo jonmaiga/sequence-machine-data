@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the k-th prime is of the form 2*j^2 + 1.",
+  "id": "A090612",
+  "mentions": [
+    "A000040",
+    "A089001",
+    "A089008",
+    "A090698"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

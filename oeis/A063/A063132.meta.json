@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers not divisible by 2 or 3 which in base 3 contain their largest proper factor as a substring.",
+  "id": "A063132",
+  "mentions": [
+    "A062238",
+    "A063127"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

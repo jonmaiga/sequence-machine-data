@@ -1,0 +1,18 @@
+{
+  "description": "Shallit sequence S(3,13), a(n)=[ a(n-1)^2/a(n-2)+1 ].",
+  "id": "A010921",
+  "mentions": [
+    "A008776",
+    "A275634"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

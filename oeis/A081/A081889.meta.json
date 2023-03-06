@@ -1,0 +1,21 @@
+{
+  "description": "Least primitive root corresponding to A081888(n).",
+  "id": "A081889",
+  "mentions": [
+    "A002229",
+    "A002230",
+    "A081888"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

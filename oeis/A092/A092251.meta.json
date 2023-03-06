@@ -1,0 +1,17 @@
+{
+  "description": "Lesser of the smallest twin prime pair on or after the 10^n-th prime.",
+  "id": "A092251",
+  "mentions": [
+    "A006988"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

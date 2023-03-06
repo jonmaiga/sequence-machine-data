@@ -1,0 +1,22 @@
+{
+  "description": "Abntu sequence (Bantu alphabetized): list the numbers which have no 2's in their decimal expansion, but sort the digits of each term into alphabetical order.",
+  "id": "A072809",
+  "mentions": [
+    "A057846",
+    "A225805"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

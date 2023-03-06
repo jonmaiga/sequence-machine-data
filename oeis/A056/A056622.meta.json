@@ -1,0 +1,22 @@
+{
+  "description": "Square root of largest unitary square divisor of n.",
+  "id": "A056622",
+  "mentions": [
+    "A000188",
+    "A034444",
+    "A055229",
+    "A056623"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

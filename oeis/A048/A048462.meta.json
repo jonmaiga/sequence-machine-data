@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers in sorted order from generation 2 onwards.",
+  "id": "A048462",
+  "mentions": [
+    "A047844",
+    "A048448",
+    "A048455"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:02:17",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

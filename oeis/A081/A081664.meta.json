@@ -1,0 +1,19 @@
+{
+  "description": "For the smallest q for which there exists a fraction p/q containing n in its decimal expansion, this sequence gives the smallest p.",
+  "id": "A081664",
+  "mentions": [
+    "A081665"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

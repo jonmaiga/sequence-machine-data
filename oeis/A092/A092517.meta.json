@@ -1,0 +1,23 @@
+{
+  "description": "Product of tau values for consecutive integers.",
+  "id": "A092517",
+  "mentions": [
+    "A000005",
+    "A002378",
+    "A063123",
+    "A063440",
+    "A083539",
+    "A123000"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

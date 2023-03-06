@@ -1,0 +1,29 @@
+{
+  "description": "Numbers whose odd part is of the form 4k+1. The bit to the left of the least significant bit of each term is unset.",
+  "id": "A091072",
+  "mentions": [
+    "A000265",
+    "A014577",
+    "A014707",
+    "A016813",
+    "A034947",
+    "A038189",
+    "A055975",
+    "A088742",
+    "A091067",
+    "A106841",
+    "A135764",
+    "A339597"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = one of five triples of directions in n-th triple of moves in the optimal solution of the Tower of Hanoi; it is a squarefree sequence over a five-letter alphabet.",
+  "id": "A045898",
+  "mentions": [
+    "A101608"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:27:05",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

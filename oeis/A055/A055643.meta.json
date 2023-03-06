@@ -1,0 +1,33 @@
+{
+  "description": "Babylonian numbers: integers in base 60 with each sexagesimal digit represented by 2 decimal digits, leading zeros omitted.",
+  "id": "A055643",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A000351",
+    "A011557",
+    "A049872",
+    "A051037",
+    "A131650",
+    "A250073",
+    "A250089",
+    "A254334",
+    "A254335",
+    "A254336",
+    "A281863",
+    "A282622"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

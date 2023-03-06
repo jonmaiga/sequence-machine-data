@@ -1,0 +1,31 @@
+{
+  "description": "Scaled Chebyshev U-polynomials evaluated at sqrt(10)/2.",
+  "id": "A057086",
+  "mentions": [
+    "A001090",
+    "A001787",
+    "A009545",
+    "A010892",
+    "A030191",
+    "A030192",
+    "A030240",
+    "A049310",
+    "A057080",
+    "A057083",
+    "A057084",
+    "A057085",
+    "A109466"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

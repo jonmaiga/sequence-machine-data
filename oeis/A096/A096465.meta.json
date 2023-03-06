@@ -1,0 +1,31 @@
+{
+  "description": "Triangle (read by rows) formed by setting all entries in the first column and in the main diagonal ((i,i) entries) to 1 and the rest of the entries by the recursion T(n, k) = T(n-1, k) + T(n, k-1).",
+  "id": "A096465",
+  "mentions": [
+    "A000108",
+    "A001453",
+    "A006134",
+    "A014137",
+    "A014138",
+    "A024718",
+    "A030237",
+    "A034856",
+    "A078478",
+    "A091491",
+    "A100066",
+    "A105848",
+    "A124642"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

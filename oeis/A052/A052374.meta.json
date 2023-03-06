@@ -1,0 +1,18 @@
+{
+  "description": "Number of occurrences of most frequent digit in decimal expansion of Pi.",
+  "id": "A052374",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:03:41",
+    "offset": 0,
+    "size": 89,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that Sum_{j=1..k} (binomial(2*j,j) mod 3) is even.",
+  "id": "A081868",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

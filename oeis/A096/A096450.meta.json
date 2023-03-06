@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the number of primes q, 7 <= q < p, congruent to 1 or 2 mod 5, is equal to the number of such primes congruent to 3 or 4 mod 5.",
+  "id": "A096450",
+  "mentions": [
+    "A096448",
+    "A096454",
+    "A096455"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

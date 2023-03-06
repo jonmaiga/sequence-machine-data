@@ -1,0 +1,28 @@
+{
+  "description": "Table T(n,k) read by rows which contains in row n and column k the sum of A001055(A036035(n,j)) over all column indices j where A036035(n,j) has k distinct prime factors.",
+  "id": "A093936",
+  "mentions": [
+    "A000041",
+    "A000110",
+    "A001055",
+    "A001221",
+    "A024487",
+    "A025487",
+    "A035098",
+    "A035310",
+    "A036035",
+    "A050322",
+    "A096443"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest multiple of the n-th prime beginning and ending in n with a(1)=a(3)=0.",
+  "id": "A078212",
+  "mentions": [
+    "A077209",
+    "A077210",
+    "A078208",
+    "A078211"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

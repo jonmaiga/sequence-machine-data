@@ -1,0 +1,23 @@
+{
+  "description": "First member of a prime 5-tuple in a 2p-1 progression.",
+  "id": "A057328",
+  "mentions": [
+    "A005382",
+    "A005383",
+    "A005603",
+    "A057326",
+    "A057327",
+    "A057329",
+    "A057330"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

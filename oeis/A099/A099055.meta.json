@@ -1,0 +1,17 @@
+{
+  "description": "A bisection of A054519.",
+  "id": "A099055",
+  "mentions": [
+    "A054519"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:37:33",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

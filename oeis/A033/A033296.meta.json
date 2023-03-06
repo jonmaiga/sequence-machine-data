@@ -1,0 +1,19 @@
+{
+  "description": "Number of paths from (0,0) to (3n,0) that stay in first quadrant (but may touch horizontal axis), where each step is (2,1),(1,2) or (1,-1) and start with (1,2).",
+  "id": "A033296",
+  "mentions": [
+    "A027307",
+    "A032349"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:30:04",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Molien series for 16-D extraspecial group 2^{1+2*4}.",
+  "id": "A030535",
+  "mentions": [
+    "A014095",
+    "A030533",
+    "A030536",
+    "A030537"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:19",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

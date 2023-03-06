@@ -1,0 +1,18 @@
+{
+  "description": "Start with x=n, then iterate the map x -> A322982(x) with A322982(x)=2*x-1 if x is noncomposite, otherwise A322982(x) = A032742(x), the largest proper divisor of x. If this iteration leads to a fixed point then a(n) is the value of that fixed point. If the iteration leads to a cycle, a(n) is the smallest value in the cycle. If the iteration never becomes periodic then a(n)=0.",
+  "id": "A087717",
+  "mentions": [
+    "A032742",
+    "A322982"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

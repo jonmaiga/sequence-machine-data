@@ -1,0 +1,25 @@
+{
+  "description": "Smallest digit of n.",
+  "id": "A054054",
+  "mentions": [
+    "A007954",
+    "A011540",
+    "A052382",
+    "A054055",
+    "A061601",
+    "A262188"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

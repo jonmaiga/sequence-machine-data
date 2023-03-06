@@ -1,0 +1,26 @@
+{
+  "description": "Triangular array of coefficients multiplied by n! of polynomials in e. These give the expected number of trials needed for the sum of uniform random variables from the interval [0,1] to exceed n+1.",
+  "id": "A089087",
+  "mentions": [
+    "A001113",
+    "A089139",
+    "A090137",
+    "A090138",
+    "A090142",
+    "A090143",
+    "A090611"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "In canonical prime factorization of n replace p^e with its index in A000961.",
+  "id": "A097621",
+  "mentions": [
+    "A000961",
+    "A003963",
+    "A018266",
+    "A095874",
+    "A097622",
+    "A097623",
+    "A097624",
+    "A246655",
+    "A322981",
+    "A333235"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

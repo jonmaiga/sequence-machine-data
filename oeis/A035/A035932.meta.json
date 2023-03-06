@@ -1,0 +1,23 @@
+{
+  "description": "Smallest number that takes n steps to reach 0 under \"k->max product of 2 numbers whose concatenation is k\".",
+  "id": "A035932",
+  "mentions": [
+    "A035930",
+    "A035931",
+    "A035933",
+    "A035934",
+    "A035935"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

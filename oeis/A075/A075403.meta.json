@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k such that the difference between the k-th triangular number and the following prime is equal to n.",
+  "id": "A075403",
+  "mentions": [
+    "A075402"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

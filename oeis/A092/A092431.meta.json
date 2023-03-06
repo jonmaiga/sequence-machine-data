@@ -1,0 +1,33 @@
+{
+  "description": "Numbers having in binary representation a leading 1 followed by n zeros and n-1 ones.",
+  "id": "A092431",
+  "mentions": [
+    "A000120",
+    "A001576",
+    "A001700",
+    "A005367",
+    "A007088",
+    "A007582",
+    "A023416",
+    "A028400",
+    "A028403",
+    "A031443",
+    "A032125",
+    "A049775",
+    "A056309",
+    "A056326",
+    "A063376"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

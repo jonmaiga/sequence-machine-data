@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographic ordering of NxNxNxN, where N={1,2,3,...}.",
+  "id": "A057559",
+  "mentions": [
+    "A057554",
+    "A057555",
+    "A057556",
+    "A057557",
+    "A057558",
+    "A186006"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 1,
+    "size": 140,
+    "source": "joeis"
+  }
+}

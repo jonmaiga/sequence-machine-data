@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=1, a(n) = sigma_3(3n).",
+  "id": "A092341",
+  "mentions": [
+    "A001158",
+    "A045823",
+    "A091986",
+    "A092342",
+    "A092343"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

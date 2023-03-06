@@ -1,0 +1,21 @@
+{
+  "description": "Fractal sequence of the dispersion of the primes.",
+  "id": "A022447",
+  "mentions": [
+    "A000720",
+    "A022446",
+    "A114537",
+    "A114538",
+    "A114577"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

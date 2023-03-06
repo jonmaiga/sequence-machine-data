@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers such that all divisors >1 have the same number of 1's in binary representation.",
+  "id": "A089042",
+  "mentions": [
+    "A000120",
+    "A002808",
+    "A007088"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

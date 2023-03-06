@@ -1,0 +1,19 @@
+{
+  "description": "Squares (or 0) from A076114.",
+  "id": "A076115",
+  "mentions": [
+    "A001108",
+    "A001109",
+    "A076114"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

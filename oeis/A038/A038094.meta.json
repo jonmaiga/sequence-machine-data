@@ -1,0 +1,23 @@
+{
+  "description": "Number of rooted graphs on n labeled nodes where the root has degree 2.",
+  "id": "A038094",
+  "mentions": [
+    "A006125",
+    "A038095",
+    "A038096",
+    "A038097",
+    "A103904"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

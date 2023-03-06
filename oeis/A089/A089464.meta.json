@@ -1,0 +1,20 @@
+{
+  "description": "Hyperbinomial transform of A089461. Also the row sums of triangle A089463, which lists the coefficients for the third hyperbinomial transform.",
+  "id": "A089464",
+  "mentions": [
+    "A089461",
+    "A089463",
+    "A144303"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

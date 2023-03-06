@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n!!!!+1 is prime.",
+  "id": "A085146",
+  "mentions": [
+    "A007662",
+    "A085147"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

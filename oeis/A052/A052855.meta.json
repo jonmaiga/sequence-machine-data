@@ -1,0 +1,20 @@
+{
+  "description": "Number of forests of rooted trees of nonempty sets with n points. (Each node is a set of 1 or more points.)",
+  "id": "A052855",
+  "mentions": [
+    "A029856",
+    "A036249"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

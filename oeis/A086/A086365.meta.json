@@ -1,0 +1,20 @@
+{
+  "description": "n-th Bell number of type D: Number of symmetric partitions of {-n,...,n}\\{0} such that none of the subsets is of the form {j,-j}.",
+  "id": "A086365",
+  "mentions": [
+    "A002872",
+    "A086364"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

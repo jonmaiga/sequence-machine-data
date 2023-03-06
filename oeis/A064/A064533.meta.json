@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Landau-Ramanujan constant.",
+  "id": "A064533",
+  "mentions": [
+    "A000692",
+    "A001481",
+    "A009003",
+    "A075880",
+    "A090735",
+    "A090736",
+    "A125776",
+    "A227158"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 232,
+    "source": "oeis-bfile"
+  }
+}

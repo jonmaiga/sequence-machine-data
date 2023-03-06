@@ -1,0 +1,19 @@
+{
+  "description": "Smallest base-2 Fermat pseudoprime x that has ord(2,x) = n, or 0 if one does not exist.",
+  "id": "A086250",
+  "mentions": [
+    "A001567",
+    "A086249"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

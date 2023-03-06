@@ -1,0 +1,29 @@
+{
+  "description": "Array read by ascending antidiagonals: T(n,k) is the number of n-letter words from a k-letter alphabet such that no letter appears more than twice.",
+  "id": "A089975",
+  "mentions": [
+    "A000290",
+    "A000680",
+    "A001477",
+    "A003011",
+    "A003692",
+    "A007531",
+    "A012244",
+    "A036774",
+    "A089976",
+    "A141765"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

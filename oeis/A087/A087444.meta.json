@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are congruent to {1, 4} mod 9.",
+  "id": "A087444",
+  "mentions": [
+    "A001651",
+    "A047241",
+    "A087445",
+    "A087446"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

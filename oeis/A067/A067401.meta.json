@@ -1,0 +1,24 @@
+{
+  "description": "Minimal non-uniquely factorizable OR-numbrals, i.e., numbrals that are not uniquely factorizable but for which all proper divisors are.",
+  "id": "A067401",
+  "mentions": [
+    "A003986",
+    "A007059",
+    "A048888",
+    "A067138",
+    "A067139",
+    "A067398",
+    "A067399",
+    "A067400"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

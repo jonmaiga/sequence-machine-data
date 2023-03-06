@@ -1,0 +1,20 @@
+{
+  "description": "Average of digits of each term in A060495, number of balls in each such siteswap juggling pattern.",
+  "id": "A060501",
+  "mentions": [
+    "A060495",
+    "A060500",
+    "A060502"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Strong pseudoprimes to bases 2, 3 and 5, i.e., intersection of A001262, A020229, and A020231.",
+  "id": "A056915",
+  "mentions": [
+    "A001262",
+    "A020229",
+    "A020231",
+    "A072276",
+    "A074773"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

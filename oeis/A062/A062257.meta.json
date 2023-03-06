@@ -1,0 +1,19 @@
+{
+  "description": "Number of (0,1)-strings of length n with no occurrences of the substrings 10101101 and 1110101.",
+  "id": "A062257",
+  "mentions": [
+    "A062258",
+    "A062259"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:25:07",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

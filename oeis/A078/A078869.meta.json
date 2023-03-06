@@ -1,0 +1,29 @@
+{
+  "description": "Number of n-tuples with elements in {2,4,6} which can occur as the differences between n+1 consecutive primes > n+1. (Values of a(11), ..., a(18) are conjectured to be correct, but are only known to be upper bounds.)",
+  "id": "A078869",
+  "mentions": [
+    "A001359",
+    "A008407",
+    "A020497",
+    "A022004",
+    "A022007",
+    "A029710",
+    "A031924",
+    "A078852",
+    "A078858",
+    "A078868",
+    "A078870",
+    "A078946",
+    "A078969"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:09:25",
+    "offset": 1,
+    "size": 94,
+    "source": "joeis"
+  }
+}

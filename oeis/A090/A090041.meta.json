@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 10*a(n-1) - 20*a(n-2), a(0)=1, a(1)=6.",
+  "id": "A090041",
+  "mentions": [
+    "A090139",
+    "A117317"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:27:58",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

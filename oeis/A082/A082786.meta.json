@@ -1,0 +1,31 @@
+{
+  "description": "Triangle, read by rows, of exponents of primes in canonical prime factorization of n: T(n,k) = greatest number such that prime(k)^T(n,k) divides n, 1 <= k <= n.",
+  "id": "A082786",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A001414",
+    "A007814",
+    "A007949",
+    "A008472",
+    "A049084",
+    "A051903",
+    "A051904",
+    "A055396",
+    "A057427",
+    "A061395",
+    "A067255"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

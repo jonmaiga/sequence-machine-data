@@ -1,0 +1,21 @@
+{
+  "description": "a(n+1) is the smallest prime ending with a(n), where a(1)=7.",
+  "id": "A053584",
+  "mentions": [
+    "A000040",
+    "A053582",
+    "A053583",
+    "A069612"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

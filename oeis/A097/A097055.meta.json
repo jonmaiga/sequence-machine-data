@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the interval n^2 < x < (n+1)^2 contains at least one nonsquare perfect power A097054.",
+  "id": "A097055",
+  "mentions": [
+    "A000290",
+    "A097054",
+    "A097056"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

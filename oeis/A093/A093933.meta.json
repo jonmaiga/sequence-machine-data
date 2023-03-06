@@ -1,0 +1,19 @@
+{
+  "description": "For n > 0, a(n+1) is the least odd prime not already used such that abs(a(n+1)-a(n)) is a multiple of prime(n).",
+  "id": "A093933",
+  "mentions": [
+    "A093932"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

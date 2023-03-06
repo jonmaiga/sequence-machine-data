@@ -1,0 +1,20 @@
+{
+  "description": "Number of iterations needed to reach 1 under the map n -> Omega(n).",
+  "id": "A036430",
+  "mentions": [
+    "A029908",
+    "A073855"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

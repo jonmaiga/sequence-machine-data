@@ -1,0 +1,26 @@
+{
+  "description": "Table by antidiagonals of rows of sequences where each row is binomial transform of preceding row and row 1 is (1,2,1,2,1,2,1,2,...).",
+  "id": "A061298",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000034",
+    "A003462",
+    "A003945",
+    "A010036",
+    "A011782",
+    "A028872"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 79,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Composite numbers whose least prime factor is either 5 or 7.",
+  "id": "A054550",
+  "mentions": [
+    "A002808",
+    "A038509",
+    "A038511",
+    "A047229",
+    "A067793"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:19:47",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

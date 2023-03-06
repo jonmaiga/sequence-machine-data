@@ -1,0 +1,21 @@
+{
+  "description": "Initial n terms of A023532(n) taken as digits.",
+  "id": "A094945",
+  "mentions": [
+    "A023532",
+    "A094946"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

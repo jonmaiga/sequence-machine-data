@@ -1,0 +1,19 @@
+{
+  "description": "Covering numbers C(n,7,6).",
+  "id": "A066009",
+  "mentions": [
+    "A011983",
+    "A066010"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 7,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Self-locating strings within Pi: numbers n such that the string n is at position n in the decimal digits of Pi, where 3 is the first digit.",
+  "id": "A057679",
+  "mentions": [
+    "A000796",
+    "A057680",
+    "A064810",
+    "A109514"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

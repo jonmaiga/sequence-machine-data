@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of all possible distinct numbers obtained as a product of distinct numbers from 1..n.",
+  "id": "A070861",
+  "mentions": [
+    "A000142",
+    "A060957",
+    "A070863",
+    "A283261"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose sum of proper divisors is odd.",
+  "id": "A053868",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A028982",
+    "A053869"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 5*a(n-1) - a(n-2) for n>1, a(0)=1, a(1)=9.",
+  "id": "A099867",
+  "mentions": [
+    "A003501",
+    "A004254",
+    "A099868"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

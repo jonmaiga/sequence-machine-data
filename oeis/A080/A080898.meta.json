@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=2; for n>1, a(n+1) = least prime > a(n) and congruent to a prime modulo prime successor of a(n).",
+  "id": "A080898",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

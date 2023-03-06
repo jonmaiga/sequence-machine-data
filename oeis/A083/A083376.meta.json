@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A053664(n) is prime.",
+  "id": "A083376",
+  "mentions": [
+    "A053664"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Prime-indexed primes (PIPS) whose digits are primes.",
+  "id": "A087368",
+  "mentions": [
+    "A006450",
+    "A046034"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

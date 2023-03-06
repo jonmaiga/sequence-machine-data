@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers n such that N(n) is divisible by a nontrivial square, say m^2 with gcd(n,m) = 1, where N(n) is the numerator of the Bernoulli number B(n). The smallest numbers m are given in A094095.",
+  "id": "A090943",
+  "mentions": [
+    "A092681",
+    "A094095"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

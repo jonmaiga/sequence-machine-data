@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (4*2^n + (-8)^n)/5.",
+  "id": "A083295",
+  "mentions": [
+    "A083294",
+    "A083296"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

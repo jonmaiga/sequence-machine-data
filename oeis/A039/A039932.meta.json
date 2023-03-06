@@ -1,0 +1,25 @@
+{
+  "description": "Smallest number k for which k, 2k, ... nk all contain the digit 1.",
+  "id": "A039932",
+  "mentions": [
+    "A039933",
+    "A039934",
+    "A039935",
+    "A039936",
+    "A039937",
+    "A039938",
+    "A039939",
+    "A039940"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Take the binary number P = 1.01101010001... which has an 1 in each decimal position that is a prime (e.g. 2,3,5,7...) and convert this number to base 10.",
+  "id": "A072812",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A051006"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:09",
+    "offset": 1,
+    "size": 106,
+    "source": "joeis"
+  }
+}

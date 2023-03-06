@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 2*x^2/(1 - 2*x - 2*x^2 + sqrt(1 - 4*x - 4*x^2)).",
+  "id": "A052705",
+  "mentions": [
+    "A000108",
+    "A001263",
+    "A071945"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

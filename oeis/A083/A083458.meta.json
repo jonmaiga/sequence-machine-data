@@ -1,0 +1,16 @@
+{
+  "description": "Numbers n such that n^5 + 1 is a palindrome.",
+  "id": "A083458",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:01",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(10^n/7^n).",
+  "id": "A094992",
+  "mentions": [
+    "A002379",
+    "A094969",
+    "A094999"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

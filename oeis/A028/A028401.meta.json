@@ -1,0 +1,22 @@
+{
+  "description": "The (2^n+1)-th triangular number (cf. A000217).",
+  "id": "A028401",
+  "mentions": [
+    "A000217",
+    "A007581",
+    "A036562",
+    "A060919"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

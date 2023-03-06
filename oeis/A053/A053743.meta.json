@@ -1,0 +1,20 @@
+{
+  "description": "Sum of numbers in range 10*n to 10*n+9.",
+  "id": "A053743",
+  "mentions": [
+    "A053741",
+    "A053742"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:11:07",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

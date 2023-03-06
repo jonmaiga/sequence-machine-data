@@ -1,0 +1,25 @@
+{
+  "description": "Number of n-hedra with 2n-5 vertices or 3n-7 edges (the vertices of these are all of degree 3, except one which is of degree 4). Alternatively, the number of polyhedra with n vertices whose faces are all triangular, except one which is tetragonal.",
+  "id": "A058786",
+  "mentions": [
+    "A000109",
+    "A000944",
+    "A002840",
+    "A002856",
+    "A049337",
+    "A058787",
+    "A058788",
+    "A342053"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 5,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Costé prime expansion of Pi-e.",
+  "id": "A080349",
+  "mentions": [
+    "A079366",
+    "A079367",
+    "A079368",
+    "A079385",
+    "A079386",
+    "A080348"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: 8/(1+sqrt(1-8*x))^3.",
+  "id": "A085687",
+  "mentions": [
+    "A000108",
+    "A002421"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:05:10",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

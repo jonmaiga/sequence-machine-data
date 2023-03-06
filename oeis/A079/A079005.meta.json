@@ -1,0 +1,23 @@
+{
+  "description": "Exponential transform of unsigned Lah-triangle |A008297(n,k)|.",
+  "id": "A079005",
+  "mentions": [
+    "A000110",
+    "A008297",
+    "A055896",
+    "A055924",
+    "A056860"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

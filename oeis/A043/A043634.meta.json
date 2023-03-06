@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose base-9 representation has exactly 5 runs.",
+  "id": "A043634",
+  "mentions": [
+    "A007095"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:45",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

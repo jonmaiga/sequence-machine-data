@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d divides n} d*2^(n-n/d).",
+  "id": "A080267",
+  "mentions": [
+    "A075900",
+    "A359112"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

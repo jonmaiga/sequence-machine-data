@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = (3^n + phi^(n-1) + (-phi)^(1-n)) / 5, where phi denotes the golden ratio A001622.",
+  "id": "A098703",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000244",
+    "A000285",
+    "A001622",
+    "A001654",
+    "A022383",
+    "A052964",
+    "A084178",
+    "A090888",
+    "A094688",
+    "A099159",
+    "A101220"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

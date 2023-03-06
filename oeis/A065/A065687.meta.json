@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes <= prime(n) which begin with an 8.",
+  "id": "A065687",
+  "mentions": [
+    "A000040",
+    "A065680"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

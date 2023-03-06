@@ -1,0 +1,28 @@
+{
+  "description": "(Provable) Sierpiński numbers: odd numbers n such that for all k >= 1 the numbers n*2^k + 1 are composite.",
+  "id": "A076336",
+  "mentions": [
+    "A003261",
+    "A052333",
+    "A076335",
+    "A076337",
+    "A101036",
+    "A137715",
+    "A213353",
+    "A263169",
+    "A305473",
+    "A306151"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

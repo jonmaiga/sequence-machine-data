@@ -1,0 +1,23 @@
+{
+  "description": "Number of normal n X n matrices with entries {0,1}.",
+  "id": "A055547",
+  "mentions": [
+    "A006125",
+    "A007081",
+    "A055548",
+    "A055549"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

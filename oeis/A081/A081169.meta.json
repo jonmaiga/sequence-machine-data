@@ -1,0 +1,19 @@
+{
+  "description": "Triangle in which n-th row gives trajectory of n (including n itself) under the map x -> x/2 if x is even, x -> 3*x-1 if x is odd, stopping when reaching 1, 5 or 17.",
+  "id": "A081169",
+  "mentions": [
+    "A080825"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

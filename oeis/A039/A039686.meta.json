@@ -1,0 +1,23 @@
+{
+  "description": "Squares which are the concatenation of two nonzero squares.",
+  "id": "A039686",
+  "mentions": [
+    "A000290",
+    "A010052",
+    "A048375",
+    "A191933",
+    "A193095"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

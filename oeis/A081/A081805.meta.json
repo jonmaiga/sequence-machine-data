@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n minus (largest prime power in n factorization); a(1) = 0.",
+  "id": "A081805",
+  "mentions": [
+    "A000961",
+    "A034699",
+    "A052128",
+    "A284600"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

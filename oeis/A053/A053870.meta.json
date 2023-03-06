@@ -1,0 +1,17 @@
+{
+  "description": "Acyclic orientations of Hamming graph (K_n) x (K_n).",
+  "id": "A053870",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

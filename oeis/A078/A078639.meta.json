@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic graphic matroids (by rank or number of vertices).",
+  "id": "A078639",
+  "mentions": [
+    "A002632",
+    "A057475"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

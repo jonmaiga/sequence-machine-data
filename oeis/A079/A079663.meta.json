@@ -1,0 +1,18 @@
+{
+  "description": "Sequence of the radicands that give the best radical approach to e.",
+  "id": "A079663",
+  "mentions": [
+    "A004791",
+    "A080021"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

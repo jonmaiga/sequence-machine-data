@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1*(n+1-1) + 2*(n+1-2) + ... + k*(n+1-k), where k = floor((n+1)/2).",
+  "id": "A023856",
+  "mentions": [
+    "A000292",
+    "A023855",
+    "A023857",
+    "A024305",
+    "A024854"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:20:01",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

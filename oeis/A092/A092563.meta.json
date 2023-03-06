@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients in asymptotic expansion of I_0(x)sqrt(2*Pi*x)/e^x in powers of 1/(16x).",
+  "id": "A092563",
+  "mentions": [
+    "A002894"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

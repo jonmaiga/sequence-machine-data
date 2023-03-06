@@ -1,0 +1,18 @@
+{
+  "description": "exp(arcsinh(x)+log(x+1))=1+2*x+3/2!*x^2+3/3!*x^3-3/4!*x^4-15/5!*x^5...",
+  "id": "A013069",
+  "mentions": [
+    "A046126",
+    "A079484"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:55",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

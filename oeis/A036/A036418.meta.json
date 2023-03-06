@@ -1,0 +1,19 @@
+{
+  "description": "Number of self-avoiding polygons with perimeter n on hexagonal [ =triangular ] lattice.",
+  "id": "A036418",
+  "mentions": [
+    "A001334",
+    "A284869"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n)=det(M_n) where M_n is the n X n matrix m(i,j)=i^j*j^i.",
+  "id": "A096732",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

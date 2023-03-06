@@ -1,0 +1,20 @@
+{
+  "description": "Number of 3 X 3 integer matrices with elements in the range [ -n,n ] which represent a four-fold rotation. Also the sequence for the corresponding four-fold rotoinversions.",
+  "id": "A053173",
+  "mentions": [
+    "A053170",
+    "A053171",
+    "A053172",
+    "A053174"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

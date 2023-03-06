@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. 1/(1-x-x^4).",
+  "id": "A052593",
+  "mentions": [
+    "A003269",
+    "A145142"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:27:37",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

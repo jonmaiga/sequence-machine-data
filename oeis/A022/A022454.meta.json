@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/((1-x)*(1-5*x)*(1-7*x)*(1-10*x)).",
+  "id": "A022454",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

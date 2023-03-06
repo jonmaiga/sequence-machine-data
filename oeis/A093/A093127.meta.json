@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: differences of Narayana numbers.",
+  "id": "A093127",
+  "mentions": [
+    "A001263"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

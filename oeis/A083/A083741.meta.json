@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = L(n) + a(L(n)), where L(n) = n - 2^floor(log_2(n)) (A053645).",
+  "id": "A083741",
+  "mentions": [
+    "A000295",
+    "A053645"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

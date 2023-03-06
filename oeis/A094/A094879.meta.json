@@ -1,0 +1,19 @@
+{
+  "description": "Where 1's occur in A094830 (nonprimes that reach a prime in one step under iteration of \"x -> x + sum of squares of digits of x\").",
+  "id": "A094879",
+  "mentions": [
+    "A094830"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

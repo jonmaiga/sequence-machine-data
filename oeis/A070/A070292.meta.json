@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = lcm(12,n)/gcd(12,n).",
+  "id": "A070292",
+  "mentions": [
+    "A070290",
+    "A070291",
+    "A070293",
+    "A109015",
+    "A109053"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:17",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

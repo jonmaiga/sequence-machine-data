@@ -1,0 +1,22 @@
+{
+  "description": "Smallest numbers having in binary representation exactly n maximal groups of consecutive zeros.",
+  "id": "A087120",
+  "mentions": [
+    "A007088",
+    "A020988",
+    "A023416",
+    "A087116",
+    "A087118"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

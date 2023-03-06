@@ -1,0 +1,18 @@
+{
+  "description": "Smallest positive-integer string not explicitly embedded (in a normal left-to-right fashion) in the full decimal expansion of n^(n^n).",
+  "id": "A088876",
+  "mentions": [
+    "A002488"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

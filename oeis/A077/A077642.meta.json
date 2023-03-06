@@ -1,0 +1,20 @@
+{
+  "description": "Number of squarefree integers in the closed interval [10^n, -1 + 2*10^n], i.e., among 10^n consecutive integers beginning with 10^n.",
+  "id": "A077642",
+  "mentions": [
+    "A077641",
+    "A077643"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

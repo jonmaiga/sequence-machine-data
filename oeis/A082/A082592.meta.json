@@ -1,0 +1,19 @@
+{
+  "description": "A077389 sorted and duplicates removed.",
+  "id": "A082592",
+  "mentions": [
+    "A060863",
+    "A077389"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

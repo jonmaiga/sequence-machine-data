@@ -1,0 +1,20 @@
+{
+  "description": "Initial terms of rows of A077168.",
+  "id": "A077169",
+  "mentions": [
+    "A077168",
+    "A077170"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:35:55",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

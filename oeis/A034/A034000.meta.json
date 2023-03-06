@@ -1,0 +1,25 @@
+{
+  "description": "One half of triple factorial numbers.",
+  "id": "A034000",
+  "mentions": [
+    "A007559",
+    "A007661",
+    "A008544",
+    "A016777",
+    "A025748",
+    "A034001",
+    "A034724"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

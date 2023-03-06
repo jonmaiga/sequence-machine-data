@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array T, read by rows: T(n,k) = (n+1) mod floor((k+1)/2), k = 1..n and n >= 1.",
+  "id": "A049800",
+  "mentions": [
+    "A049798",
+    "A049799",
+    "A049801"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:35",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

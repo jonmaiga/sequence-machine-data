@@ -1,0 +1,15 @@
+{
+  "description": "cos(sin(x)-tanh(x))=1-10/6!*x^6+840/8!*x^8-60870/10!*x^10...",
+  "id": "A013383",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:42:00",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

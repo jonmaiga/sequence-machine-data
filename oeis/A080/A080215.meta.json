@@ -1,0 +1,21 @@
+{
+  "description": "Binomial(greatest prime factor of n, smallest odd prime factor of n).",
+  "id": "A080215",
+  "mentions": [
+    "A006530",
+    "A078701",
+    "A080212",
+    "A080214"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that k^5 = a^5 + b^5 + c^5 + d^5 + e^5 has a nontrivial primitive solution in nonnegative integers.",
+  "id": "A063923",
+  "mentions": [
+    "A003072",
+    "A003294",
+    "A003828",
+    "A023041",
+    "A039664",
+    "A063922",
+    "A175610",
+    "A261029"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

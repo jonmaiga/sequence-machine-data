@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(n,k), k>=0 and n>=1, read by rows defined by: T(n,k) = (2k+3)*binomial(2n,n-k-1)/(n+k+2).",
+  "id": "A050155",
+  "mentions": [
+    "A000108",
+    "A000245",
+    "A000344",
+    "A000588",
+    "A000589",
+    "A000590",
+    "A001392",
+    "A001791",
+    "A009766",
+    "A033184",
+    "A039599",
+    "A050144",
+    "A109954"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

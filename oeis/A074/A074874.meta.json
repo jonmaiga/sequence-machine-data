@@ -1,0 +1,15 @@
+{
+  "description": "Numbers n such that phi(n + phi(n)) = sigma(n).",
+  "id": "A074874",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

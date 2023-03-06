@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 12*a(n-1) - a(n-2).",
+  "id": "A023038",
+  "mentions": [
+    "A004191",
+    "A049310",
+    "A053120",
+    "A076445",
+    "A087800"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 1 + 2k + 3k^2 is prime.",
+  "id": "A086285",
+  "mentions": [
+    "A056109"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:33:09",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

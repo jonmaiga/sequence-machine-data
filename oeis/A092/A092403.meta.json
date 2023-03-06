@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma(n) + sigma(n+1).",
+  "id": "A092403",
+  "mentions": [
+    "A000203",
+    "A092405",
+    "A221529",
+    "A237593",
+    "A346533"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Replace each number n in Pascal's triangle with the n-th prime.",
+  "id": "A074589",
+  "mentions": [
+    "A074663"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

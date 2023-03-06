@@ -1,0 +1,22 @@
+{
+  "description": "Start with 1, then alternately double or add 2.",
+  "id": "A099942",
+  "mentions": [
+    "A033484",
+    "A061776",
+    "A075427",
+    "A083416"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

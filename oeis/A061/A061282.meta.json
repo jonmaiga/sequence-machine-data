@@ -1,0 +1,25 @@
+{
+  "description": "Minimal number of steps to get from 0 to n by (a) adding 1 or (b) multiplying by 3. A stopping problem: begin with n and at each stage if a multiple of 3 divide by 3, otherwise subtract 1.",
+  "id": "A061282",
+  "mentions": [
+    "A001590",
+    "A007089",
+    "A053735",
+    "A056792",
+    "A062153",
+    "A260112",
+    "A260316"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

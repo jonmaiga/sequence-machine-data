@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of distinct prime factors of n that occur in partitions into two primes when n is even and into three primes when n is odd.",
+  "id": "A083339",
+  "mentions": [
+    "A001221",
+    "A010051",
+    "A045917",
+    "A054860",
+    "A070826",
+    "A083338",
+    "A100484"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

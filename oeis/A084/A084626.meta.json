@@ -1,0 +1,21 @@
+{
+  "description": "Floor(C(n+6,6)/C(n+2,2)).",
+  "id": "A084626",
+  "mentions": [
+    "A011865",
+    "A084624",
+    "A084627"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

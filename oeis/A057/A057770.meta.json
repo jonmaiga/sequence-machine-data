@@ -1,0 +1,21 @@
+{
+  "description": "The primes in A045574.",
+  "id": "A057770",
+  "mentions": [
+    "A000787",
+    "A045574"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

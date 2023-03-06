@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of b(n) = n * Sum_{k=2^n..2^(n+1)-1} (-1)^k/k.",
+  "id": "A073099",
+  "mentions": [
+    "A001620",
+    "A073100"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = maximal run length in base-2 representation of n.",
+  "id": "A043276",
+  "mentions": [
+    "A000975",
+    "A005811",
+    "A037969",
+    "A037970",
+    "A037971",
+    "A043277",
+    "A043290",
+    "A101211"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:55",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

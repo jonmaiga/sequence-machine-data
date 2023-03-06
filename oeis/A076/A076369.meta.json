@@ -1,0 +1,23 @@
+{
+  "description": "n + mu(n), where mu is the Moebius-function (A008683).",
+  "id": "A076369",
+  "mentions": [
+    "A000027",
+    "A005117",
+    "A008683",
+    "A013929",
+    "A063015",
+    "A076840"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:03:01",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

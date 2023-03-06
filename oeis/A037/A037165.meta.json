@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = prime(n)*prime(n+1) - prime(n) - prime(n+1).",
+  "id": "A037165",
+  "mentions": [
+    "A001043",
+    "A006094",
+    "A138989",
+    "A138990",
+    "A138991",
+    "A138992",
+    "A138993",
+    "A138994"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:34:25",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

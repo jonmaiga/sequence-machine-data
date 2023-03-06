@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of Dyck paths of semilength n having k peaks at odd height.",
+  "id": "A091867",
+  "mentions": [
+    "A000108",
+    "A001405",
+    "A001700",
+    "A005043",
+    "A005573",
+    "A005773",
+    "A007317",
+    "A026378",
+    "A030528",
+    "A064613",
+    "A099323",
+    "A104455",
+    "A104597",
+    "A122898",
+    "A124644",
+    "A126930",
+    "A134264",
+    "A168491",
+    "A210736",
+    "A249548"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

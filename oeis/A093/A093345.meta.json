@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * {1 + Sum[i=1..n, 1/i*Sum(j=0..i-1, 1/j!)]}.",
+  "id": "A093345",
+  "mentions": [
+    "A000522",
+    "A000774",
+    "A093344",
+    "A165675"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

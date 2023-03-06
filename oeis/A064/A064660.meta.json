@@ -1,0 +1,19 @@
+{
+  "description": "The number of distinct parts in the partition sequence lambda(n) formed by the recurrence lambda(1) = 1 and lambda(n+1) is the sum of lambda(n) and its conjugate.",
+  "id": "A064660",
+  "mentions": [
+    "A000045",
+    "A000700",
+    "A000701"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

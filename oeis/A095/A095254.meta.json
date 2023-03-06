@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(concatenation(1,2,3,...,n-1,n)^(1/n)).",
+  "id": "A095254",
+  "mentions": [
+    "A068995",
+    "A095253"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

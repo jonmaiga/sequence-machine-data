@@ -1,0 +1,34 @@
+{
+  "description": "Theta series of hexagonal lattice A_2 with respect to deep hole divided by 3.",
+  "id": "A033687",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A000731",
+    "A002324",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A006938",
+    "A010054",
+    "A010815",
+    "A030206",
+    "A033685",
+    "A045831",
+    "A053723",
+    "A081622",
+    "A121373",
+    "A130539"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest partial quotients of an infinite simple continued fraction such that the fractional remainders sum to unity.",
+  "id": "A081086",
+  "mentions": [
+    "A081087",
+    "A081088",
+    "A081089",
+    "A081090"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of x/B(x) where B(x) is the g.f. for A002487.",
+  "id": "A073469",
+  "mentions": [
+    "A000123",
+    "A002487"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:05:11",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

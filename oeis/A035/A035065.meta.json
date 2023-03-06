@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k! has a prime number of digits.",
+  "id": "A035065",
+  "mentions": [
+    "A000142",
+    "A034886",
+    "A035066",
+    "A067367"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

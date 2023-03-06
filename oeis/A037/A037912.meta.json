@@ -1,0 +1,24 @@
+{
+  "description": "Number of i such that |d(i) - d(i-1)| = 1, where Sum_{i=0..m} d(i)*9^i is the base-9 representation of n.",
+  "id": "A037912",
+  "mentions": [
+    "A037906",
+    "A037907",
+    "A037908",
+    "A037909",
+    "A037910",
+    "A037911",
+    "A037913"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

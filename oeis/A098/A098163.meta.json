@@ -1,0 +1,17 @@
+{
+  "description": "Permutation of the positive integers induced by A098162: a(n) = m iff A098162(n) - A098162(n-1) = A098162(m) - A098162(m-1) for n > 1, a(1)=1.",
+  "id": "A098163",
+  "mentions": [
+    "A098162"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Square array A(x,y) = the number whose factorial expansion A007623 is that of x and y concatenated; zero expanded as empty string; read by ascending antidiagonals: A(0,0), A(1,0), A(0,1), A(2,0), A(1,1), A(0,2), ...",
+  "id": "A085215",
+  "mentions": [
+    "A000142",
+    "A002262",
+    "A007623",
+    "A025581",
+    "A084558",
+    "A085201",
+    "A085216",
+    "A085217",
+    "A085219",
+    "A322001"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

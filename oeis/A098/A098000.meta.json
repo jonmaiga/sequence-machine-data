@@ -1,0 +1,21 @@
+{
+  "description": "Number of outerplanar graphs on n labeled nodes.",
+  "id": "A098000",
+  "mentions": [
+    "A005470",
+    "A097998",
+    "A097999",
+    "A111564"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

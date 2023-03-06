@@ -1,0 +1,37 @@
+{
+  "description": "Antidiagonals of square array in which k-th row (k>0) is an arithmetic progression of difference 2^(k-1).",
+  "id": "A046688",
+  "mentions": [
+    "A000079",
+    "A000169",
+    "A000272",
+    "A000312",
+    "A002064",
+    "A002109",
+    "A005183",
+    "A009998",
+    "A009999",
+    "A036289",
+    "A057156",
+    "A062319",
+    "A094373",
+    "A131056",
+    "A260146",
+    "A303281",
+    "A343656",
+    "A343658"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:11:31",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

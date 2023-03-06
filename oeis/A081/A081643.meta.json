@@ -1,0 +1,16 @@
+{
+  "description": "Integers congruent to 0, 1, 4 or 9 (mod 16) which are not squares.",
+  "id": "A081643",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

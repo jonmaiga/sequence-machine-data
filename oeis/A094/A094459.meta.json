@@ -1,0 +1,20 @@
+{
+  "description": "Prime means of 12 horizontal, vertical and main diagonal sums associated with primes in A094458.",
+  "id": "A094459",
+  "mentions": [
+    "A094455",
+    "A094458"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

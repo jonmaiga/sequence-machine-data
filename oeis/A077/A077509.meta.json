@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n+1)*10^d - A077508(n) where d = n - number of digits in n.",
+  "id": "A077509",
+  "mentions": [
+    "A077504",
+    "A077508"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

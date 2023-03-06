@@ -1,0 +1,18 @@
+{
+  "description": "Number (undirected) Hamiltonian paths in the 5 X n knight graph.",
+  "id": "A083386",
+  "mentions": [
+    "A079137",
+    "A118067"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

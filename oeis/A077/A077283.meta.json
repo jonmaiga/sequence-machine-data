@@ -1,0 +1,19 @@
+{
+  "description": "Last prime in n-th group in A077280.",
+  "id": "A077283",
+  "mentions": [
+    "A077280",
+    "A077281",
+    "A077282"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

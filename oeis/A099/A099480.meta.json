@@ -1,0 +1,20 @@
+{
+  "description": "Count from 1, repeating 2n five times.",
+  "id": "A099480",
+  "mentions": [
+    "A099479",
+    "A287393"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:06:01",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

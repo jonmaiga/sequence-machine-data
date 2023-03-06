@@ -1,0 +1,19 @@
+{
+  "description": "k appears 3k-2 times.",
+  "id": "A083277",
+  "mentions": [
+    "A016777",
+    "A255849"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 92,
+    "source": "joeis"
+  }
+}

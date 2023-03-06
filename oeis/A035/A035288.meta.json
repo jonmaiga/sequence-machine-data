@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to place a non-attacking white and black bishop on n X n chessboard.",
+  "id": "A035288",
+  "mentions": [
+    "A172123"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:18:55",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

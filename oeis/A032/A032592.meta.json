@@ -1,0 +1,17 @@
+{
+  "description": "Initial terms of '4-block' primes as described in A032591.",
+  "id": "A032592",
+  "mentions": [
+    "A032591"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:04:03",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

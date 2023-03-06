@@ -1,0 +1,19 @@
+{
+  "description": "Abundant numbers whose reversal is also an abundant number.",
+  "id": "A098769",
+  "mentions": [
+    "A005101"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

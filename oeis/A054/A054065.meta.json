@@ -1,0 +1,21 @@
+{
+  "description": "Fractal sequence induced by tau: for k >= 1, let p(k) be the permutation of 1,2,...,k obtained by ordering the fractional parts {h*tau} for h=1,2,...,k; then juxtapose p(1),p(2),p(3),...",
+  "id": "A054065",
+  "mentions": [
+    "A019446",
+    "A019587",
+    "A054068",
+    "A054069",
+    "A194832"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:15:33",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Let A denote the sequence; A is equal to the union of the self-convolutions A^2 and A^3, with terms in ascending order by size.",
+  "id": "A090845",
+  "mentions": [
+    "A090846",
+    "A222082",
+    "A222083",
+    "A262990"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

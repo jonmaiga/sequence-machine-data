@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [ (2nd elementary symmetric function of S(n))/(first elementary symmetric function of S(n)) ], where S(n) = {first n+1 positive integers congruent to 1 mod 4}.",
+  "id": "A024385",
+  "mentions": [
+    "A000384",
+    "A024378"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:23:15",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

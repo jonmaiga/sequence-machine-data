@@ -1,0 +1,18 @@
+{
+  "description": "Positions of 2-digit terms in the continued fraction for Pi (3 is at position 0).",
+  "id": "A048955",
+  "mentions": [
+    "A048294"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:53:55",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

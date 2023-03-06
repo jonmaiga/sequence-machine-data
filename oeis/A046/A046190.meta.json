@@ -1,0 +1,20 @@
+{
+  "description": "Indices of octagonal numbers which are also hexagonal numbers.",
+  "id": "A046190",
+  "mentions": [
+    "A046191",
+    "A046192"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:01:00",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

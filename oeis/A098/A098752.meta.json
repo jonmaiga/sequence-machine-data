@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1 and a(n+1) is the least number > a(n) that begins with the last digit of a(n) and doesn't end with 0.",
+  "id": "A098752",
+  "mentions": [
+    "A076654",
+    "A101233"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:57:25",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

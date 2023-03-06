@@ -1,0 +1,19 @@
+{
+  "description": "Abundant numbers having at least one abundant proper divisor.",
+  "id": "A091192",
+  "mentions": [
+    "A005101",
+    "A080224",
+    "A091191"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

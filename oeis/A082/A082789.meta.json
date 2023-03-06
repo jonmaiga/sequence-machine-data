@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonisomorphic configurations of n triples in Steiner triple systems.",
+  "id": "A082789",
+  "mentions": [
+    "A050913",
+    "A058790",
+    "A082790"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to place non-intersecting diagonals in convex n-gon so as to create no triangles.",
+  "id": "A046736",
+  "mentions": [
+    "A000108",
+    "A001003",
+    "A001006",
+    "A052524"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

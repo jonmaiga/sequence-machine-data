@@ -1,0 +1,24 @@
+{
+  "description": "Number of sets of distinct positive integers whose arithmetic mean is an integer, the largest integer of the set being n.",
+  "id": "A082550",
+  "mentions": [
+    "A008965",
+    "A051293",
+    "A063776",
+    "A267632",
+    "A309402"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

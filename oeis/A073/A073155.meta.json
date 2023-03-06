@@ -1,0 +1,21 @@
+{
+  "description": "Leftmost column sequence of triangle A073153.",
+  "id": "A073155",
+  "mentions": [
+    "A073153",
+    "A073156",
+    "A073157"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:34:32",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

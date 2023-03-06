@@ -1,0 +1,22 @@
+{
+  "description": "Maximum path length of a crippled knight on an n X n board.",
+  "id": "A072174",
+  "mentions": [
+    "A003192",
+    "A157416",
+    "A323131"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

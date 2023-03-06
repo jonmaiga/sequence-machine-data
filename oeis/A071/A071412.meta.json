@@ -1,0 +1,17 @@
+{
+  "description": "A002487 mod 3.",
+  "id": "A071412",
+  "mentions": [
+    "A002487"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:26:43",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

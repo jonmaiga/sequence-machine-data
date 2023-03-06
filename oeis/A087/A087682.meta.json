@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n + 8 and n - 8 are both prime.",
+  "id": "A087682",
+  "mentions": [
+    "A014574",
+    "A087678",
+    "A087683",
+    "A087695",
+    "A087697",
+    "A088768"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

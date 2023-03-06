@@ -1,0 +1,20 @@
+{
+  "description": "Primes formed by concatenating n consecutive increasing numbers starting with a palindrome and ending with the next consecutive palindrome.",
+  "id": "A053559",
+  "mentions": [
+    "A000040",
+    "A002113",
+    "A262038"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

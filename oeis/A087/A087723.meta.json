@@ -1,0 +1,17 @@
+{
+  "description": "Values that appear more than once in A087724 (related to the growth of PrimePi).",
+  "id": "A087723",
+  "mentions": [
+    "A087724"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

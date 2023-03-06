@@ -1,0 +1,28 @@
+{
+  "description": "Permutation of natural numbers: rotations of the bottom branches of the rooted plane trees encoded by A014486. (to opposite direction of A057509).",
+  "id": "A057510",
+  "mentions": [
+    "A003239",
+    "A014486",
+    "A057162",
+    "A057163",
+    "A057501",
+    "A057502",
+    "A057508",
+    "A057509",
+    "A057512",
+    "A057513",
+    "A069770",
+    "A069776"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

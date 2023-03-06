@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows: row n lists quadratic nonresidues modulo n.",
+  "id": "A096013",
+  "mentions": [
+    "A095972"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 3,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that can be the larger leg of some integer right triangle and hypotenuse of some other integer right triangle.",
+  "id": "A074236",
+  "mentions": [
+    "A009003",
+    "A009012"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

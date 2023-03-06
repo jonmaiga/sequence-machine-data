@@ -1,0 +1,23 @@
+{
+  "description": "Exponential generating function is exp(2*x/(1-x))/(1-x).",
+  "id": "A087912",
+  "mentions": [
+    "A002720",
+    "A160615",
+    "A160616",
+    "A274246",
+    "A277372",
+    "A289192"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

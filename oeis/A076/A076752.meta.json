@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{d is a square divisor of n} n/d.",
+  "id": "A076752",
+  "mentions": [
+    "A000203",
+    "A008836",
+    "A035316",
+    "A061020"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

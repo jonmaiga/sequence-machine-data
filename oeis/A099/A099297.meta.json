@@ -1,0 +1,26 @@
+{
+  "description": "Number of times the digit 6 appears in the first 10^n digits of Pi.",
+  "id": "A099297",
+  "mentions": [
+    "A099291",
+    "A099292",
+    "A099293",
+    "A099294",
+    "A099295",
+    "A099296",
+    "A099298",
+    "A099299",
+    "A099300"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

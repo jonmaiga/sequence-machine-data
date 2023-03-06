@@ -1,0 +1,29 @@
+{
+  "description": "Incomplete Gamma Function at -3.",
+  "id": "A010843",
+  "mentions": [
+    "A000023",
+    "A000142",
+    "A000166",
+    "A000522",
+    "A008279",
+    "A008290",
+    "A010842",
+    "A053486",
+    "A053487",
+    "A080954",
+    "A080955",
+    "A089258"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:42:48",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

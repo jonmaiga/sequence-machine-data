@@ -1,0 +1,31 @@
+{
+  "description": "Number of 4-ary Lyndon words of length n with trace 0 mod 4.",
+  "id": "A054664",
+  "mentions": [
+    "A000048",
+    "A046209",
+    "A046211",
+    "A051841",
+    "A054660",
+    "A068596",
+    "A074403",
+    "A074404",
+    "A074405",
+    "A074410",
+    "A074411",
+    "A074412",
+    "A074413"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:18:46",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Engel expansion of log(23).",
+  "id": "A067923",
+  "mentions": [
+    "A006784",
+    "A016646"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:28",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

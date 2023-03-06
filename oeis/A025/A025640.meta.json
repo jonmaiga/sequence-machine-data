@@ -1,0 +1,17 @@
+{
+  "description": "Exponent of 3 (value of i) in n-th number of form 3^i*4^j.",
+  "id": "A025640",
+  "mentions": [
+    "A025613"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

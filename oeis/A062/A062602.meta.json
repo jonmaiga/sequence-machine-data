@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways of writing n = p+c with p prime and c nonprime (1 or a composite number).",
+  "id": "A062602",
+  "mentions": [
+    "A004526",
+    "A005171",
+    "A010051",
+    "A014092",
+    "A061358",
+    "A062610",
+    "A224712"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

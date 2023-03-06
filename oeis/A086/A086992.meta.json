@@ -1,0 +1,22 @@
+{
+  "description": "Product of nonzero digits in n-th row of Pascal's triangle.",
+  "id": "A086992",
+  "mentions": [
+    "A007318",
+    "A051801",
+    "A066600",
+    "A086993"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:25:03",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

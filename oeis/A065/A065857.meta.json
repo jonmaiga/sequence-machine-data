@@ -1,0 +1,27 @@
+{
+  "description": "The (10^n)-th composite number.",
+  "id": "A065857",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002808",
+    "A006988",
+    "A011557",
+    "A033844",
+    "A062298",
+    "A065855",
+    "A065856"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

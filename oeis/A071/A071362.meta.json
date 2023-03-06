@@ -1,0 +1,23 @@
+{
+  "description": "Smallest n-digit prime with strictly increasing digits.",
+  "id": "A071362",
+  "mentions": [
+    "A007809",
+    "A071360",
+    "A071361",
+    "A071363"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

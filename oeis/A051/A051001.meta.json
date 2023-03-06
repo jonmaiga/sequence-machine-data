@@ -1,0 +1,27 @@
+{
+  "description": "Sum of 4th powers of odd divisors of n.",
+  "id": "A051001",
+  "mentions": [
+    "A000265",
+    "A000593",
+    "A001159",
+    "A001227",
+    "A050999",
+    "A051000",
+    "A051002",
+    "A060187"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "look",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

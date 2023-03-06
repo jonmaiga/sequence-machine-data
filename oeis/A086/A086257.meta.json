@@ -1,0 +1,22 @@
+{
+  "description": "Number of primitive prime factors of 2^n+1.",
+  "id": "A086257",
+  "mentions": [
+    "A046799",
+    "A054992",
+    "A086251",
+    "A086258"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

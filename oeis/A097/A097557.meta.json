@@ -1,0 +1,15 @@
+{
+  "description": "a(n+1) = a(n) + number of nonprimes so far; a(1) = 1.",
+  "id": "A097557",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

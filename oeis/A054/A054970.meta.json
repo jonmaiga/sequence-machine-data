@@ -1,0 +1,20 @@
+{
+  "description": "Index numbers for palindromic hexagonal numbers.",
+  "id": "A054970",
+  "mentions": [
+    "A000384",
+    "A054969",
+    "A082721"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Perfect powers (index > 1) whose digits can be arranged in ascending order or as a substring of 123456789012345678901234567890123...",
+  "id": "A076966",
+  "mentions": [
+    "A068708"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

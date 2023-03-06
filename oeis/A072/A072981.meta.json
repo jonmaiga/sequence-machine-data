@@ -1,0 +1,18 @@
+{
+  "description": "Partial quotients of the limit of a continued fraction (A071851).",
+  "id": "A072981",
+  "mentions": [
+    "A071851"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

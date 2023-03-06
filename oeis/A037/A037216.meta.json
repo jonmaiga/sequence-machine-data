@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of ( Sum_{k>=0} k*q^(k^2) )^4.",
+  "id": "A037216",
+  "mentions": [
+    "A037214",
+    "A037215",
+    "A037217"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

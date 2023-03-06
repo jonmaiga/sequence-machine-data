@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that abs(A077039(A049084(p))) <= p.",
+  "id": "A077040",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A049084",
+    "A073579",
+    "A077039",
+    "A077041"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

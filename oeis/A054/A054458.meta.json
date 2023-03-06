@@ -1,0 +1,31 @@
+{
+  "description": "Convolution triangle based on A001333(n), n >= 1.",
+  "id": "A054458",
+  "mentions": [
+    "A001333",
+    "A002203",
+    "A040000",
+    "A053121",
+    "A054459",
+    "A054460",
+    "A055099",
+    "A084938",
+    "A126473",
+    "A126501",
+    "A126528",
+    "A209696"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:19:17",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

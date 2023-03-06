@@ -1,0 +1,22 @@
+{
+  "description": "Eighth column (k=7) of sextinomial array A063260.",
+  "id": "A063262",
+  "mentions": [
+    "A062989",
+    "A063260",
+    "A063261",
+    "A213888"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:20:31",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

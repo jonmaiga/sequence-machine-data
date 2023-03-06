@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the denominator of Sum_{k=1..n} 1/gcd(n,k) is not equal to n.",
+  "id": "A070999",
+  "mentions": [
+    "A000010",
+    "A018804",
+    "A057660"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

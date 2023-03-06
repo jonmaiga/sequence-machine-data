@@ -1,0 +1,22 @@
+{
+  "description": "Number of non-invertible functions from {0,1}^n to {0,1}^n.",
+  "id": "A057157",
+  "mentions": [
+    "A000079",
+    "A000722",
+    "A036679",
+    "A057156"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-digit positive integers m for which m/(sum of digits of m) is an integer, sometimes referred to as Niven or Harshad numbers.",
+  "id": "A066008",
+  "mentions": [
+    "A007953",
+    "A034726",
+    "A034727"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

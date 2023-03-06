@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that reverse(sigma(n)) = n - phi(n) = cototient(n).",
+  "id": "A098215",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A069225"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

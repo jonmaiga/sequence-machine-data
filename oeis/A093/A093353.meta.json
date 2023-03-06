@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n + n mod 2)*(n + 1)/2.",
+  "id": "A093353",
+  "mentions": [
+    "A000217",
+    "A001105",
+    "A014105",
+    "A014682",
+    "A242669"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:13",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

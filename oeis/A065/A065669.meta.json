@@ -1,0 +1,19 @@
+{
+  "description": "Permutation of N induced by rotating the node 5 left in the infinite planar binary tree shown at A065658.",
+  "id": "A065669",
+  "mentions": [
+    "A065658",
+    "A065659",
+    "A065668"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

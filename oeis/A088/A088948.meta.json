@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that (A006530(k) + A020639(k))/2 is an integer; that is, arithmetic mean of least and largest prime factor is an integer.",
+  "id": "A088948",
+  "mentions": [
+    "A000079",
+    "A005408",
+    "A006530",
+    "A020639",
+    "A046687",
+    "A088949"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

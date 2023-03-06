@@ -1,0 +1,24 @@
+{
+  "description": "First difference sequence of A002191. Differences between possible values for sum of divisors of n.",
+  "id": "A083531",
+  "mentions": [
+    "A002191",
+    "A007369",
+    "A007609",
+    "A083532",
+    "A083533",
+    "A083534",
+    "A083535",
+    "A083536"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

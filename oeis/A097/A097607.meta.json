@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of Dyck paths of semilength n and having leftmost valley at altitude k (if path has no valleys, then this altitude is considered to be 0).",
+  "id": "A097607",
+  "mentions": [
+    "A000108",
+    "A001453",
+    "A014137"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

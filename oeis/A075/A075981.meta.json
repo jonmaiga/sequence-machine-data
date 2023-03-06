@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that |2^n - n^5| is prime.",
+  "id": "A075981",
+  "mentions": [
+    "A075980"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

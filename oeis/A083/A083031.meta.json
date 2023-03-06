@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that are congruent to {0, 3, 7} mod 12.",
+  "id": "A083031",
+  "mentions": [
+    "A060107",
+    "A082977",
+    "A083026",
+    "A083028",
+    "A083030",
+    "A083032",
+    "A083033",
+    "A083034",
+    "A083089",
+    "A083120"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:03",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n-th term of A080997 is prime; a(n) is ranking of n-th prime number among the positive integers in terms of centrality (cf. A080997 for explanation of this concept).",
+  "id": "A081028",
+  "mentions": [
+    "A018804",
+    "A080997",
+    "A080998"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Least k such that k*P(n)#-P(n+1) and k*P(n)#+P(n+1) are both primes with P(i)=i-th prime and P(i)#=i-th primorial.",
+  "id": "A097525",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

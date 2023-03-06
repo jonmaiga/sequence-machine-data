@@ -1,0 +1,17 @@
+{
+  "description": "Rearrangement of Fibonacci numbers such that the sum of two consecutive terms + 1 is a prime.",
+  "id": "A073580",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

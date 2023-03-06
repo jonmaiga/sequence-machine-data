@@ -1,0 +1,26 @@
+{
+  "description": "Multiples of 6 which are members of A002473. Or multiples of 6 with the largest prime divisor < 10.",
+  "id": "A085129",
+  "mentions": [
+    "A002473",
+    "A080194",
+    "A085125",
+    "A085126",
+    "A085127",
+    "A085128",
+    "A085131",
+    "A085132"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = determinant of n X n matrix m(i,j) = Product_{k=1..i} k+j.",
+  "id": "A096313",
+  "mentions": [
+    "A000142",
+    "A000178",
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

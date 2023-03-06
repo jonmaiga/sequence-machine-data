@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that x^n + x^(n-1) + x^(n-2) + ... + x + 1 is irreducible over GF(5).",
+  "id": "A071522",
+  "mentions": [
+    "A006093",
+    "A019335",
+    "A071642"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

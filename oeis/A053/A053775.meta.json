@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n binary matrices of order dividing 10 (i.e., number of solutions of X^10=I in GL(n,2)).",
+  "id": "A053775",
+  "mentions": [
+    "A053718",
+    "A053722",
+    "A053725"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:18:25",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

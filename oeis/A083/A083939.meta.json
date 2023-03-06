@@ -1,0 +1,19 @@
+{
+  "description": "A014486-encoding of binary trees whose left and right subtree are identical.",
+  "id": "A083939",
+  "mentions": [
+    "A014486",
+    "A083938"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

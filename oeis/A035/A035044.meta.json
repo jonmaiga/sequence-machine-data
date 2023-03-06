@@ -1,0 +1,26 @@
+{
+  "description": "Exchange 2 and 3.",
+  "id": "A035044",
+  "mentions": [
+    "A001477",
+    "A171013",
+    "A171016",
+    "A171018",
+    "A175770",
+    "A222210",
+    "A222227",
+    "A222254"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:17:41",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Gaps between primes p such that 2p+1 is also prime, i.e., Sophie-Germain primes A005384.",
+  "id": "A074259",
+  "mentions": [
+    "A005384"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:15:45",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

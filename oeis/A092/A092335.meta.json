@@ -1,0 +1,19 @@
+{
+  "description": "Let a(1)=1. For n>1, a(n) is the greatest k such that a(1)a(2)...a(n-1) can be written in the form [x][y_1][y_2]...[y_k] where each y_i is of positive and equal length and for any i,j, y_i and y_j agree at every other term starting from the left (see example).",
+  "id": "A092335",
+  "mentions": [
+    "A090822",
+    "A091975",
+    "A091976"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

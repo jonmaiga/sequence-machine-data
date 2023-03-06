@@ -1,0 +1,17 @@
+{
+  "description": "Number of sequences {s(i): i=0..n} such that |s(i)-s(i-1)|=1, i=1..n and s(i)=0 at four values of i, one of which is i=0.",
+  "id": "A052207",
+  "mentions": [
+    "A002054"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

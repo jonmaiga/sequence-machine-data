@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array related to tennis ball problem, read by rows.",
+  "id": "A079520",
+  "mentions": [
+    "A079513",
+    "A079522"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

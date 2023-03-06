@@ -1,0 +1,18 @@
+{
+  "description": "Number of asymmetric semigroups of order n with 1 idempotent.",
+  "id": "A058114",
+  "mentions": [
+    "A058113"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

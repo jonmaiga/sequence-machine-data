@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered factorizations into members of A050376 by prime signature. A050379(A025487).",
+  "id": "A050380",
+  "mentions": [
+    "A025487",
+    "A050376",
+    "A050379"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

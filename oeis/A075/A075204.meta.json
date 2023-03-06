@@ -1,0 +1,28 @@
+{
+  "description": "Number of polyominoes with n cells that tile the plane isohedrally but not by translation or by 180-degree rotation (Conway criterion).",
+  "id": "A075204",
+  "mentions": [
+    "A054359",
+    "A075198",
+    "A075199",
+    "A075200",
+    "A075201",
+    "A075202",
+    "A075203",
+    "A075205",
+    "A075206",
+    "A075213",
+    "A075222"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

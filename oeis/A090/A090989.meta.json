@@ -1,0 +1,24 @@
+{
+  "description": "Number of meaningful differential operations of the n-th order on the space R^4.",
+  "id": "A090989",
+  "mentions": [
+    "A000079",
+    "A029744",
+    "A063759",
+    "A090990",
+    "A090995",
+    "A164090"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

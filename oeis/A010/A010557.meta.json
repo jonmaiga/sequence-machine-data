@@ -1,0 +1,15 @@
+{
+  "description": "Fourth-field derivative of free energy for 4-d cubic lattice.",
+  "id": "A010557",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sum of digits of binomial(2n,n).",
+  "id": "A043294",
+  "mentions": [
+    "A000984",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:21",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

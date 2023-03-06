@@ -1,0 +1,22 @@
+{
+  "description": "Primes that remain prime through 5 iterations of function f(x) = 8x + 7.",
+  "id": "A023350",
+  "mentions": [
+    "A023231",
+    "A023263",
+    "A023294",
+    "A023322",
+    "A139487"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

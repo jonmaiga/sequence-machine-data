@@ -1,0 +1,30 @@
+{
+  "description": "q-Fibonacci numbers for q=3.",
+  "id": "A015474",
+  "mentions": [
+    "A000045",
+    "A015460",
+    "A015473",
+    "A015475",
+    "A015476",
+    "A015477",
+    "A015479",
+    "A015480",
+    "A015481",
+    "A015482",
+    "A015484",
+    "A015485"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

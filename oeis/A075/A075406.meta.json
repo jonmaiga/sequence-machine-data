@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of terms in the sum in A075405 (or 0 if no such square exists).",
+  "id": "A075406",
+  "mentions": [
+    "A000330",
+    "A001032",
+    "A075404",
+    "A075405",
+    "A180422"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

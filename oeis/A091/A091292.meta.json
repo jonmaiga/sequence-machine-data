@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the quotient (sigma(k) + sigma(k+1) + sigma(k+2))/sigma(3*k+3) is an integer.",
+  "id": "A091292",
+  "mentions": [
+    "A000203",
+    "A091287",
+    "A091288",
+    "A091289",
+    "A091290",
+    "A091291",
+    "A091293"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "6^a(n) is smallest positive power of 6 containing the string 'n'.",
+  "id": "A063569",
+  "mentions": [
+    "A062523"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

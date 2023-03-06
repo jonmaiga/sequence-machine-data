@@ -1,0 +1,23 @@
+{
+  "description": "Number of elements in the largest set of divisors of n which are in arithmetic progression.",
+  "id": "A067131",
+  "mentions": [
+    "A061395",
+    "A067132",
+    "A091009",
+    "A160752",
+    "A319354"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

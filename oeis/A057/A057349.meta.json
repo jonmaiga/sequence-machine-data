@@ -1,0 +1,24 @@
+{
+  "description": "Leap years in the Hebrew Calendar starting in year 1 (3761 BCE). The leap year has an extra-month.",
+  "id": "A057349",
+  "mentions": [
+    "A008685",
+    "A057347",
+    "A057350",
+    "A083033",
+    "A083089",
+    "A350458"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:37:43",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "f-vector for 20-dimensional simplicial polytope providing counterexample to unimodality conjecture.",
+  "id": "A013640",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": -1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

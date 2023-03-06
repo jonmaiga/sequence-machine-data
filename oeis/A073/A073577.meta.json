@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 4*n^2 + 4*n - 1.",
+  "id": "A073577",
+  "mentions": [
+    "A008590",
+    "A028871",
+    "A214345"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:08:23",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

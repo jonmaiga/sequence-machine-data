@@ -1,0 +1,20 @@
+{
+  "description": "Recamán's Fibonacci variation : a(1)=a(2)=1 then a(n) = a(n-1)+a(n-2)-F(n) if that number is >0 and not already in the sequence; a(n) = a(n-1)+a(n-2)+F(n) otherwise where F(n) denotes the n-th Fibonacci number.",
+  "id": "A091484",
+  "mentions": [
+    "A005132",
+    "A079053"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

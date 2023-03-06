@@ -1,0 +1,17 @@
+{
+  "description": "Good primes (version 2): prime(n) such that prime(n)^2 > prime(n-i)*prime(n+i) for all 1 <= i <= n-1.",
+  "id": "A028388",
+  "mentions": [
+    "A046869"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

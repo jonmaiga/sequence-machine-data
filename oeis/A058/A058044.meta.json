@@ -1,0 +1,20 @@
+{
+  "description": "Difference between the smallest prime following and largest prime preceding n-th primorial number.",
+  "id": "A058044",
+  "mentions": [
+    "A002110",
+    "A007014",
+    "A038710"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

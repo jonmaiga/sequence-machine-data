@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n if n == 0 (mod 3), a(n) = 1 if n == 2 (mod 3), otherwise a(n) = floor((n-2)/2).",
+  "id": "A088441",
+  "mentions": [
+    "A001651",
+    "A088140"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 2,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

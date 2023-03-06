@@ -1,0 +1,16 @@
+{
+  "description": "Numbers whose base-3 and base-5 expansions have no digits in common.",
+  "id": "A037346",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:12",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of primes dividing the repunit numbers with a prime number of digits [A031974] (with repetition).",
+  "id": "A064768",
+  "mentions": [
+    "A001414",
+    "A031974"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

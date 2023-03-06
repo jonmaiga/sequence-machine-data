@@ -1,0 +1,17 @@
+{
+  "description": "Primes p+2^n arising in A056206.",
+  "id": "A056208",
+  "mentions": [
+    "A056206"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

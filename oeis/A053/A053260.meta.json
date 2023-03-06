@@ -1,0 +1,32 @@
+{
+  "description": "Coefficients of the '5th-order' mock theta function psi_0(q).",
+  "id": "A053260",
+  "mentions": [
+    "A001524",
+    "A001622",
+    "A005169",
+    "A053256",
+    "A053257",
+    "A053258",
+    "A053259",
+    "A053261",
+    "A053262",
+    "A053263",
+    "A053264",
+    "A053265",
+    "A053266",
+    "A053267"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

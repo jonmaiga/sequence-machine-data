@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are simultaneously a sum of distinct factorials and of the form a^b with b >= 3.",
+  "id": "A051760",
+  "mentions": [
+    "A025494",
+    "A051761"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

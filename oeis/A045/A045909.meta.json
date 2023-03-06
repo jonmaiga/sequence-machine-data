@@ -1,0 +1,24 @@
+{
+  "description": "Number of unsymmetrical catafusenes with n hexagons (see reference for precise definition).",
+  "id": "A045909",
+  "mentions": [
+    "A030529",
+    "A045906",
+    "A045907",
+    "A045908",
+    "A055879",
+    "A342554",
+    "A342570"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:18",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

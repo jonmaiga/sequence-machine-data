@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of number of partitions of 2n into powers of 2 where the largest part is 2^k.",
+  "id": "A073463",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000123",
+    "A002620",
+    "A008804"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

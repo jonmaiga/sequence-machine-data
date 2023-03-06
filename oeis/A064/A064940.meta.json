@@ -1,0 +1,19 @@
+{
+  "description": "Values of k for which A065358(k) is 0.",
+  "id": "A064940",
+  "mentions": [
+    "A065357",
+    "A065358",
+    "A299300"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

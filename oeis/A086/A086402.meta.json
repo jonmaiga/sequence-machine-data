@@ -1,0 +1,18 @@
+{
+  "description": "Nontrivial numbers which are prime and yield another prime when their digits are sorted in descending order.",
+  "id": "A086402",
+  "mentions": [
+    "A003459"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

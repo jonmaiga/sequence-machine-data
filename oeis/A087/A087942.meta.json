@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into as many primes as n has prime factors.",
+  "id": "A087942",
+  "mentions": [
+    "A000607",
+    "A001222",
+    "A004526",
+    "A051034",
+    "A089268"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

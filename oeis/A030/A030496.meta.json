@@ -1,0 +1,19 @@
+{
+  "description": "Permutations of 1,2,...,n for n=1,2,3,..., arranged antilexicographically.",
+  "id": "A030496",
+  "mentions": [
+    "A030298"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

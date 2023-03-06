@@ -1,0 +1,21 @@
+{
+  "description": "Number of amphichiral prime knots with n crossings (A051767 + A051768 + A052400).",
+  "id": "A052401",
+  "mentions": [
+    "A051767",
+    "A051768",
+    "A052400"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

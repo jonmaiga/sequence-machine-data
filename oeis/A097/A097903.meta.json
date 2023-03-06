@@ -1,0 +1,22 @@
+{
+  "description": "Multiplication table of the digits of the square root of 3 read by antidiagonals.",
+  "id": "A097903",
+  "mentions": [
+    "A003991",
+    "A098364",
+    "A098366",
+    "A098367"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:10:43",
+    "offset": 0,
+    "size": 89,
+    "source": "joeis"
+  }
+}

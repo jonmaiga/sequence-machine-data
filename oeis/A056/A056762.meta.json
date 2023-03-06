@@ -1,0 +1,25 @@
+{
+  "description": "Number of terms in A056761 (i.e., odd numbers from A056757) between 2^(n-1) and 2^n.",
+  "id": "A056762",
+  "mentions": [
+    "A000005",
+    "A029837",
+    "A034884",
+    "A035033",
+    "A035035",
+    "A056757",
+    "A056761",
+    "A056767"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:06:27",
+    "offset": 1,
+    "size": 83,
+    "source": "joeis"
+  }
+}

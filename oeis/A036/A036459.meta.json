@@ -1,0 +1,27 @@
+{
+  "description": "Number of iterations required to reach stationary value when repeatedly applying d, the number of divisors function (A000005).",
+  "id": "A036459",
+  "mentions": [
+    "A000005",
+    "A007624",
+    "A018194",
+    "A030630",
+    "A036450",
+    "A036452",
+    "A036453",
+    "A036455",
+    "A060937",
+    "A251483"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

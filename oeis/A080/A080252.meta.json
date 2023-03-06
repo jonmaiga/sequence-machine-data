@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n*a(n-1)+4*a(n-2)-4*(n-2)*a(n-3).",
+  "id": "A080252",
+  "mentions": [
+    "A000023",
+    "A010842"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:46:09",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

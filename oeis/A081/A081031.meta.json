@@ -1,0 +1,22 @@
+{
+  "description": "Positions of white keys on piano keyboard, starting with A0 = the 1st key.",
+  "id": "A081031",
+  "mentions": [
+    "A059620",
+    "A060107",
+    "A081032"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

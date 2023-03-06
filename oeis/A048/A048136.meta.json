@@ -1,0 +1,21 @@
+{
+  "description": "Tomahawk-nonconstructible n-gons.",
+  "id": "A048136",
+  "mentions": [
+    "A005109",
+    "A048135",
+    "A122254",
+    "A122255"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:50:09",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

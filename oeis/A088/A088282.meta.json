@@ -1,0 +1,20 @@
+{
+  "description": "Palindromic primes in which a single digit is sandwiched between strings of 3's.",
+  "id": "A088282",
+  "mentions": [
+    "A088281",
+    "A088283",
+    "A088284"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

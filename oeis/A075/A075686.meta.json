@@ -1,0 +1,23 @@
+{
+  "description": "In base 4, n sets a new record for the number of Reverse and Add! steps needed to reach a palindrome starting with n.",
+  "id": "A075686",
+  "mentions": [
+    "A065198",
+    "A066144",
+    "A075420",
+    "A075685",
+    "A075687"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

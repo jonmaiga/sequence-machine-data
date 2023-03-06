@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of nonisomorphic connected graphs with n vertices and k edges (n >= 1, n-1 <= k <= n(n-1)/2).",
+  "id": "A076263",
+  "mentions": [
+    "A000124",
+    "A001349",
+    "A002905",
+    "A008406",
+    "A054924",
+    "A152947"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

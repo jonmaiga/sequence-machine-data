@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = largest prime in the factorization of n-th Franel number (A000172).",
+  "id": "A058854",
+  "mentions": [
+    "A000172"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

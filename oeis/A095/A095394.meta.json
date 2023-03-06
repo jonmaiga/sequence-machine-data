@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Floor[n^((n)/(n+1))], integer part of n^x where x = n/(n+1) < 1.",
+  "id": "A095394",
+  "mentions": [
+    "A059921"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

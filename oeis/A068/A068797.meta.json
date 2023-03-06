@@ -1,0 +1,20 @@
+{
+  "description": "Minimum x such that f(x)=n, where f(x)=A068796(x) is the maximum k such that k consecutive integers starting at x have distinct numbers of prime factors (counted with multiplicity).",
+  "id": "A068797",
+  "mentions": [
+    "A001222",
+    "A067665",
+    "A068796"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

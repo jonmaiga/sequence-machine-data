@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the concatenation of numbers from 1 to k is the product of 9 primes (not necessarily distinct).",
+  "id": "A046468",
+  "mentions": [
+    "A046460"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

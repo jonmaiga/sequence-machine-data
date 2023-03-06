@@ -1,0 +1,22 @@
+{
+  "description": "n-th diagonal sum of right justified array T given by A027960.",
+  "id": "A027976",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A004695",
+    "A027960",
+    "A102283"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

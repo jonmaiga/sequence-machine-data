@@ -1,0 +1,23 @@
+{
+  "description": "Backwards shallow diagonal sums of Catalan triangle A009766.",
+  "id": "A030238",
+  "mentions": [
+    "A000108",
+    "A009766",
+    "A033184",
+    "A056520",
+    "A127158",
+    "A132364"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

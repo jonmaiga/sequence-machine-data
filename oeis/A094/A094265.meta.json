@@ -1,0 +1,19 @@
+{
+  "description": "Largest number in n-th row of triangle A094263.",
+  "id": "A094265",
+  "mentions": [
+    "A094263"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

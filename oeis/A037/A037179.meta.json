@@ -1,0 +1,20 @@
+{
+  "description": "Number of cycles when squaring modulo n-th prime.",
+  "id": "A037179",
+  "mentions": [
+    "A000265",
+    "A037178",
+    "A037180"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:34:43",
+    "offset": 1,
+    "size": 95,
+    "source": "joeis"
+  }
+}

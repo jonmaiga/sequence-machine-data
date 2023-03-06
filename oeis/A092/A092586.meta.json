@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that sigma(phi(n))-phi(sigma(n)) is nonzero and is divisible by (n+1), that is A065395(n)/(n+1) = (phi(sigma(n))-sigma(phi(n)))/(n+1) is a nonzero integer.",
+  "id": "A092586",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A033632",
+    "A065395",
+    "A092584",
+    "A092588"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of 2n whose Ferrers-Young diagram allows more than one different domino tiling.",
+  "id": "A052837",
+  "mentions": [
+    "A000712",
+    "A048574",
+    "A304789"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

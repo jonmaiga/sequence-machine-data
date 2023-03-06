@@ -1,0 +1,15 @@
+{
+  "description": "4th elementary symmetric function of the first n+3 primes.",
+  "id": "A024449",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} floor(sqrt(prime(k))).",
+  "id": "A062048",
+  "mentions": [
+    "A000006",
+    "A062009"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

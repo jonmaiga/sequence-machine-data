@@ -1,0 +1,22 @@
+{
+  "description": "Array read by rows, starting with n=0: row n lists A057077(n+1)*8^(n+1)/2, A057077(n+2)*8^(n+1)/2, A057077(n+1)*8^(n+1).",
+  "id": "A096252",
+  "mentions": [
+    "A048473",
+    "A057077",
+    "A094015",
+    "A138230"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

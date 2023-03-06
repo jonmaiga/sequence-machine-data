@@ -1,0 +1,19 @@
+{
+  "description": "Define dd(n) = the number formed by concatenating the absolute difference of successive digits. Sequence contains primes p such that dd(p) is also prime. (Primes in which the number formed by successive digit difference is also a prime.).",
+  "id": "A087593",
+  "mentions": [
+    "A087594",
+    "A087595"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

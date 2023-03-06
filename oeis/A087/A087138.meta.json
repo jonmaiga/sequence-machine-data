@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (1-sqrt(1-4*log(1+x)))/2.",
+  "id": "A087138",
+  "mentions": [
+    "A000108",
+    "A006531",
+    "A048287",
+    "A052803",
+    "A052851",
+    "A052886",
+    "A052895"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

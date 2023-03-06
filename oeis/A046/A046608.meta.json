@@ -1,0 +1,18 @@
+{
+  "description": "Distinct numbers in writing first numerator and then denominator of each element of the 1/5-Pascal triangle (by row).",
+  "id": "A046608",
+  "mentions": [
+    "A046601"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:34:01",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

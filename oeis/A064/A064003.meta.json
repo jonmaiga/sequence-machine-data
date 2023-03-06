@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that product of decimal digits = sum of binary digits.",
+  "id": "A064003",
+  "mentions": [
+    "A000120",
+    "A007954",
+    "A052382"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

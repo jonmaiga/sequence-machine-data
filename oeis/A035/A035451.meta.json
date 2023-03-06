@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into parts congruent to 1 mod 4.",
+  "id": "A035451",
+  "mentions": [
+    "A000009",
+    "A035382",
+    "A035462",
+    "A050449",
+    "A109697",
+    "A109701",
+    "A109703",
+    "A277090"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

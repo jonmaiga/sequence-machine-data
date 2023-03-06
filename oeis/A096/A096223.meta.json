@@ -1,0 +1,19 @@
+{
+  "description": "Let p(k) be the number of partitions of k (A000041); a(n) = Sum_{1<=k<=n, gcd(k,n)=1} p(k).",
+  "id": "A096223",
+  "mentions": [
+    "A000041",
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

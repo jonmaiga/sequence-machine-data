@@ -1,0 +1,23 @@
+{
+  "description": "[t], 1+[t], [2t], 2+[2t], [3t], 3+[3t], ..., where t=tau = (1+sqrt(5))/2 and []=floor.",
+  "id": "A072061",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A026272",
+    "A072062",
+    "A094077"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

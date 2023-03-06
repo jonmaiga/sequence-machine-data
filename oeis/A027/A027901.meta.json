@@ -1,0 +1,21 @@
+{
+  "description": "Divisors of 10^9 + 1.",
+  "id": "A027901",
+  "mentions": [
+    "A018768",
+    "A133029"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

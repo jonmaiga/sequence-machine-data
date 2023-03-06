@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the power of 2 in denominator of coefficients of Legendre polynomials, where n >= 0 and 0 <= k <= n.",
+  "id": "A077070",
+  "mentions": [
+    "A000120",
+    "A005187",
+    "A007814",
+    "A077071",
+    "A101925",
+    "A144816"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

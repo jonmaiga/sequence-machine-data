@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, 1 <= k <= n: T(n,k) = floor(n/k)*ceiling(n/k).",
+  "id": "A085383",
+  "mentions": [
+    "A000290",
+    "A002620"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:42:01",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

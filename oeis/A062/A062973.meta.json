@@ -1,0 +1,17 @@
+{
+  "description": "Chowla function of n is not divisible by phi(n).",
+  "id": "A062973",
+  "mentions": [
+    "A048050"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

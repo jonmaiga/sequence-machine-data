@@ -1,0 +1,20 @@
+{
+  "description": "n-th partition number (A000041(n)) is a semiprime.",
+  "id": "A065729",
+  "mentions": [
+    "A000041",
+    "A001358",
+    "A049575",
+    "A065728"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:28",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Inverse square of permutation defined by A003188.",
+  "id": "A064707",
+  "mentions": [
+    "A003188",
+    "A064706",
+    "A099896",
+    "A100281",
+    "A180200",
+    "A233279"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

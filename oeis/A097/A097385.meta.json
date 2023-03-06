@@ -1,0 +1,22 @@
+{
+  "description": "(Largest digit of n)^(smallest digit of n) + n.",
+  "id": "A097385",
+  "mentions": [
+    "A054054",
+    "A054055",
+    "A097386",
+    "A097387"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

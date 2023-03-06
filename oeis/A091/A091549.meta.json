@@ -1,0 +1,19 @@
+{
+  "description": "Second column (k=3) sequence of array A078740 ((3,2)-Stirling2) divided by 6.",
+  "id": "A091549",
+  "mentions": [
+    "A078740"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:00:20",
+    "offset": 2,
+    "size": 13,
+    "source": "joeis"
+  }
+}

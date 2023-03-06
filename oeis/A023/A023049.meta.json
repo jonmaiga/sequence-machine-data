@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime > n having primitive root n, or 0 if no such prime exists.",
+  "id": "A023049",
+  "mentions": [
+    "A056619"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

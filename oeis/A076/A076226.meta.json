@@ -1,0 +1,18 @@
+{
+  "description": "Greatest of the most frequent values in a(n)-th row of A076221 is not n-1.",
+  "id": "A076226",
+  "mentions": [
+    "A076221"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Final entry in n-th row of triangle in A080524.",
+  "id": "A080526",
+  "mentions": [
+    "A080524",
+    "A080525"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

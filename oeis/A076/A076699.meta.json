@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) = Table of coefficients of x^k in cyclotomic(n,x).",
+  "id": "A076699",
+  "mentions": [
+    "A013595",
+    "A013596",
+    "A020500"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The start of a record-breaking run of consecutive integers with an even number of prime factors.",
+  "id": "A066793",
+  "mentions": [
+    "A066794",
+    "A175201"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

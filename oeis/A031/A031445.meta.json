@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose base-2 representation has 2 more 0's than 1's.",
+  "id": "A031445",
+  "mentions": [
+    "A007088"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:51:17",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

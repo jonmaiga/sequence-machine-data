@@ -1,0 +1,24 @@
+{
+  "description": "Number of polyhexes of class PF2 with C_{2n} symmetry.",
+  "id": "A030520",
+  "mentions": [
+    "A026106",
+    "A026118",
+    "A026298",
+    "A030519",
+    "A030525",
+    "A030529",
+    "A030532",
+    "A030534"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:30:49",
+    "offset": 2,
+    "size": 26,
+    "source": "joeis"
+  }
+}

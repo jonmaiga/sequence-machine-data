@@ -1,0 +1,21 @@
+{
+  "description": "Sum of factorial numbers dividing n.",
+  "id": "A073575",
+  "mentions": [
+    "A000142",
+    "A007489",
+    "A055770",
+    "A055881"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

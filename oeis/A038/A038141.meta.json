@@ -1,0 +1,20 @@
+{
+  "description": "Number of planar polyhexes with n cells with at least two holes, all holes having size at least two.",
+  "id": "A038141",
+  "mentions": [
+    "A000228",
+    "A018190",
+    "A038140"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the sum of all possible subsequences of the digits in n, excluding n itself, sums to n.",
+  "id": "A065794",
+  "mentions": [
+    "A153980"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

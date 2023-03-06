@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that x^54 = 2 has no solution mod p, but x^18 = 2 has a solution mod p.",
+  "id": "A059666",
+  "mentions": [
+    "A000040",
+    "A040993",
+    "A049550"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

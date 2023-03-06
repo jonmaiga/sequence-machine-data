@@ -1,0 +1,27 @@
+{
+  "description": "Triangle of generalized Stirling numbers.",
+  "id": "A061691",
+  "mentions": [
+    "A000142",
+    "A001809",
+    "A010763",
+    "A023998",
+    "A061689",
+    "A061690",
+    "A061692",
+    "A192721",
+    "A192722"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:13",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

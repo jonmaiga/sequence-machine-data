@@ -1,0 +1,21 @@
+{
+  "description": "Number of essentially different ways in which the squares 1,4,9,...,n^2 can be arranged in a sequence such that all pairs of adjacent squares sum to a prime number. Rotations and reversals are counted only once.",
+  "id": "A073451",
+  "mentions": [
+    "A072129",
+    "A073452"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

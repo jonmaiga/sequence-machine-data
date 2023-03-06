@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k) = M0(n,k,f(n,k)), where M0 is given by A050176 and f(n,k) is the 4th-from-least t for which M0(n,k,t) is not 0.",
+  "id": "A050179",
+  "mentions": [
+    "A050176"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 7,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least Fibonacci number such that a(n) - a(n-1) is prime; a(0)=1.",
+  "id": "A095223",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers having two 0's in base 3.",
+  "id": "A043322",
+  "mentions": [
+    "A007089"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:11",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

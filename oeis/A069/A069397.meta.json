@@ -1,0 +1,28 @@
+{
+  "description": "Half the number of 4 X n binary arrays with a path of adjacent 1's and a path of adjacent 0's from top row to bottom row.",
+  "id": "A069397",
+  "mentions": [
+    "A000225",
+    "A016269",
+    "A069361",
+    "A069395",
+    "A069396",
+    "A069416",
+    "A069417",
+    "A069428",
+    "A069429",
+    "A069447",
+    "A069448",
+    "A069452"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

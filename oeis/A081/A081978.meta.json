@@ -1,0 +1,26 @@
+{
+  "description": "Smallest triangular number with exactly n divisors, or 0 if no such number exists.",
+  "id": "A081978",
+  "mentions": [
+    "A000129",
+    "A001110",
+    "A001653",
+    "A002315",
+    "A063440",
+    "A081979",
+    "A096650",
+    "A242585",
+    "A319037"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

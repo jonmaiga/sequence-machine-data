@@ -1,0 +1,22 @@
+{
+  "description": "Where records in A086068 occur.",
+  "id": "A086070",
+  "mentions": [
+    "A086066",
+    "A086068",
+    "A086069",
+    "A086084"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

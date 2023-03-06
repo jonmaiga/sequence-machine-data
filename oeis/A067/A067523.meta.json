@@ -1,0 +1,23 @@
+{
+  "description": "The smallest prime with a possible given digit sum.",
+  "id": "A067523",
+  "mentions": [
+    "A001651",
+    "A007605",
+    "A067180",
+    "A133223"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

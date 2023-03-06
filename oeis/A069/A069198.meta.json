@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=1 a(2)=6 a(n+2)=(a(n+1)+a(n))/3 if (a(n+1)+a(n)==0 (mod 3)); a(n+2)=(a(n+1)+a(n))/2 if (a(n+1)+a(n)==0 (mod 2)); a(n+2)=a(n+1)+a(n) otherwise.",
+  "id": "A069198",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

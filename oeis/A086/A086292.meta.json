@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of 7-smooth numbers.",
+  "id": "A086292",
+  "mentions": [
+    "A000005",
+    "A002473",
+    "A086288",
+    "A086293"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

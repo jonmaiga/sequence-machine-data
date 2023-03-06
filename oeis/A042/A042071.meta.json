@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(559).",
+  "id": "A042071",
+  "mentions": [
+    "A042070"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:56:47",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

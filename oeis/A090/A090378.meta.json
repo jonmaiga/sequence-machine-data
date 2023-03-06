@@ -1,0 +1,20 @@
+{
+  "description": "Number of configurations that require a minimum of n moves to be reached, starting with the empty square at mid-side of a boundary of an infinitely large extension of Sam Loyd's sliding block 15-puzzle.",
+  "id": "A090378",
+  "mentions": [
+    "A089473",
+    "A089483",
+    "A090165"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

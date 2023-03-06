@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered 2-multiantichains on an n-set.",
+  "id": "A092880",
+  "mentions": [
+    "A092881",
+    "A092882",
+    "A092883",
+    "A092884"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

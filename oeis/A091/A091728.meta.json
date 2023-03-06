@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime ideals of Z[sqrt(-5)] of norm n.",
+  "id": "A091728",
+  "mentions": [
+    "A035170",
+    "A091727"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

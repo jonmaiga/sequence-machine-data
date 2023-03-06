@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of partial row sums of partition triangle A058398.",
+  "id": "A058400",
+  "mentions": [
+    "A000041",
+    "A000065",
+    "A007042",
+    "A008284",
+    "A026820",
+    "A058398"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

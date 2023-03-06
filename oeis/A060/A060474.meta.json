@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = denominator of phi(n)/(n+1), where phi(n) is Euler's phi, A000010.",
+  "id": "A060474",
+  "mentions": [
+    "A000010",
+    "A060473"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

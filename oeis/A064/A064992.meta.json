@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = usigma(n+1) - usigma(n), where usigma(n) is the sum of unitary divisors of n (A034448).",
+  "id": "A064992",
+  "mentions": [
+    "A034448"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

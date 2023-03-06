@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n + floor(sqrt(n)).",
+  "id": "A028392",
+  "mentions": [
+    "A000196",
+    "A028387",
+    "A028391",
+    "A171746"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

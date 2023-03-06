@@ -1,0 +1,22 @@
+{
+  "description": "Array T read by diagonals; T(i,j) is the number of nonnegative slopes of lines determined by 2 lattice points in [ 0,i ] X [ 0,j ] if i > 0; T(0,j)=1 if j > 0; T(0,0)=0.",
+  "id": "A049695",
+  "mentions": [
+    "A005598",
+    "A049703",
+    "A114043"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:40:29",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

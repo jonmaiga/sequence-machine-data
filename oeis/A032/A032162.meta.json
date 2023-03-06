@@ -1,0 +1,15 @@
+{
+  "description": "Shifts left 2 places under \"CGK\" (necklace, element, unlabeled) transform.",
+  "id": "A032162",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "description": "\"9ish numbers\": decimal representation contains at least one nine.",
+  "id": "A011539",
+  "mentions": [
+    "A005836",
+    "A007095",
+    "A020654",
+    "A020657",
+    "A023717",
+    "A037465",
+    "A037474",
+    "A037477",
+    "A043525",
+    "A068505",
+    "A074940",
+    "A087061",
+    "A087062",
+    "A087097",
+    "A088924",
+    "A095778",
+    "A102683",
+    "A171397",
+    "A333656",
+    "A337141",
+    "A337239",
+    "A337250",
+    "A337572",
+    "A338090"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

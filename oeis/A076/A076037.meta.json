@@ -1,0 +1,24 @@
+{
+  "description": "Square array read by antidiagonals in which row n has g.f. (1-(n-1)*x*C)/(1-n*x*C) where C = (1/2-1/2*(1-4*x)^(1/2))/x = g.f. for Catalan numbers A000108.",
+  "id": "A076037",
+  "mentions": [
+    "A000108",
+    "A001700",
+    "A049027",
+    "A067347",
+    "A076025",
+    "A076026",
+    "A076038"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

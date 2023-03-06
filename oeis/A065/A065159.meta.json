@@ -1,0 +1,24 @@
+{
+  "description": "Binary string self-substitutions: a(n) is obtained by substituting the binary expansion of n for each 1-bit in the binary expansion of n.",
+  "id": "A065159",
+  "mentions": [
+    "A007088",
+    "A062383",
+    "A065157",
+    "A065158",
+    "A065160"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

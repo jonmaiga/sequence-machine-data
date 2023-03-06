@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of trace of Gaussian operator.",
+  "id": "A074904",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

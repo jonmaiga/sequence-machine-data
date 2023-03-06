@@ -1,0 +1,29 @@
+{
+  "description": "\"Anomalous\" numbers k such that for even numbers 2k, gcd(2k, lcm(dd(2k)))=2k and not k, where dd(2k) is the first difference set of divisors of 2k.",
+  "id": "A060700",
+  "mentions": [
+    "A000005",
+    "A060680",
+    "A060681",
+    "A060682",
+    "A060683",
+    "A060684",
+    "A060685",
+    "A060741",
+    "A060742",
+    "A060763",
+    "A060764",
+    "A060765",
+    "A060766"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

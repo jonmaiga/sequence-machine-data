@@ -1,0 +1,20 @@
+{
+  "description": "Sum of distinct prime factors of n and n+1, or number of prime factors of n(n+1) or of lcm(n,n+1).",
+  "id": "A059957",
+  "mentions": [
+    "A001221",
+    "A002378",
+    "A006549"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

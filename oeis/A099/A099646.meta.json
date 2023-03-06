@@ -1,0 +1,21 @@
+{
+  "description": "Function f(n) = 1 + Sum(digit^2 of n) is iterated and a(n) is the length of terminal cycle at initial value n.",
+  "id": "A099646",
+  "mentions": [
+    "A007770",
+    "A031176",
+    "A099645",
+    "A099647"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

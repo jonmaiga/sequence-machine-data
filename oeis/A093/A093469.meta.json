@@ -1,0 +1,15 @@
+{
+  "description": "Number of 6 X 6 binary matrices with n ones, distinct up to cyclic shifts of rows and/or columns; reflection through any vertical or horizontal axis; and reflection through the main diagonal. Also number of quasi-n-ominoes on a torus divided into a 6 X 6 grid.",
+  "id": "A093469",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

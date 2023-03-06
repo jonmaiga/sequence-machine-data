@@ -1,0 +1,19 @@
+{
+  "description": "Least integer k such that n!+1-k is prime.",
+  "id": "A090975",
+  "mentions": [
+    "A002981",
+    "A005095",
+    "A090786"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

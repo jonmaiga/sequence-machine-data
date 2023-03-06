@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of flag coefficients [ n k ] (numerators of rational parts).",
+  "id": "A036064",
+  "mentions": [
+    "A036065"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:24:23",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

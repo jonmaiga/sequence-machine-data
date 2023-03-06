@@ -1,0 +1,19 @@
+{
+  "description": "Primes with exactly three nonprime digits.",
+  "id": "A092628",
+  "mentions": [
+    "A019546",
+    "A034844"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

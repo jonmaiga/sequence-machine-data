@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = smallest positive number that occurs exactly n times as a difference between two positive squares.",
+  "id": "A094191",
+  "mentions": [
+    "A005179",
+    "A068314"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positions of the terms of A090845^3 in A090845, where A090845 is equal to the union of the self-convolutions A090845^2 and A090845^3, in ascending order by size, starting with A090845(0)=1.",
+  "id": "A090846",
+  "mentions": [
+    "A090845",
+    "A222082",
+    "A222083"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

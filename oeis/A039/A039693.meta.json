@@ -1,0 +1,17 @@
+{
+  "description": "Twin Fibonacci-lucky numbers (lower terms).",
+  "id": "A039693",
+  "mentions": [
+    "A039673"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:12:59",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of divisors of 3-smooth numbers.",
+  "id": "A086416",
+  "mentions": [
+    "A000005",
+    "A003586",
+    "A022328",
+    "A022329",
+    "A086414",
+    "A086415",
+    "A086417"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

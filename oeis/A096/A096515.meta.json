@@ -1,0 +1,17 @@
+{
+  "description": "Solutions to A096509[x]=4; number of prime-powers [including primes] in the neighborhood of x with Ceiling[Log[x]] radius equals 4.",
+  "id": "A096515",
+  "mentions": [
+    "A096509"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

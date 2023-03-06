@@ -1,0 +1,25 @@
+{
+  "description": "Smallest n-digit triangular number - smallest n-digit number.",
+  "id": "A095865",
+  "mentions": [
+    "A068092",
+    "A068093",
+    "A068094",
+    "A095863",
+    "A095864",
+    "A095866"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

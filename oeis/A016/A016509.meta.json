@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for log(81).",
+  "id": "A016509",
+  "mentions": [
+    "A016704"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:23",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

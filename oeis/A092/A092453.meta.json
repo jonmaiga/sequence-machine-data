@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that either contain the digit 4 or are divisible by 4.",
+  "id": "A092453",
+  "mentions": [
+    "A092433",
+    "A092451",
+    "A092457"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

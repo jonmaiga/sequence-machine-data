@@ -1,0 +1,20 @@
+{
+  "description": "Differences between successive 8-digit distinct digit primes.",
+  "id": "A074666",
+  "mentions": [
+    "A074665"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

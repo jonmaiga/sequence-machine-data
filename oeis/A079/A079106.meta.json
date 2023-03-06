@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of length n containing the minimum number of monotone subsequences of length 5.",
+  "id": "A079106",
+  "mentions": [
+    "A079102",
+    "A079103",
+    "A079104",
+    "A079105"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

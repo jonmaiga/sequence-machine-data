@@ -1,0 +1,22 @@
+{
+  "description": "Table of reduced binary string substitutions: a(i,j) is obtained by substituting i for each 1-bit in j, then dividing by i.",
+  "id": "A065158",
+  "mentions": [
+    "A065157",
+    "A065159",
+    "A065160"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

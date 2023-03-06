@@ -1,0 +1,21 @@
+{
+  "description": "On a (2n+1) X (2n+1) board, let m(i) be the number of squares that are i knight's moves from center; sequence gives max m(i) for i >= 0.",
+  "id": "A038522",
+  "mentions": [
+    "A018842"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:38:47",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

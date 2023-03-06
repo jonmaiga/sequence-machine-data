@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(n,k) = number of partitions of n into k distinct parts, 1 <= k <= n.",
+  "id": "A060016",
+  "mentions": [
+    "A000009",
+    "A001399",
+    "A001400",
+    "A001401",
+    "A004526",
+    "A008284",
+    "A008289",
+    "A025147",
+    "A030699",
+    "A057427",
+    "A072574"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

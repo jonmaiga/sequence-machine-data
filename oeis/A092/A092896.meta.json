@@ -1,0 +1,26 @@
+{
+  "description": "Related to random walks on the 4-cube.",
+  "id": "A092896",
+  "mentions": [
+    "A002450",
+    "A052539",
+    "A066443",
+    "A074515",
+    "A087289",
+    "A091775",
+    "A092897",
+    "A092898"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

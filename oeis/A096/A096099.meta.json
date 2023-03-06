@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 1, a(n) = least number such that the concatenation of all terms through a(n) is divisible by prime(n).",
+  "id": "A096099",
+  "mentions": [
+    "A073893"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

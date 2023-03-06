@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n, k) = abs(n^k-k^n), 1<=k<=n.",
+  "id": "A082754",
+  "mentions": [
+    "A055651"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

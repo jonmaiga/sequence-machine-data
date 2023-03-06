@@ -1,0 +1,20 @@
+{
+  "description": "Number of asymmetric connected graphs where every block is a complete graph.",
+  "id": "A035080",
+  "mentions": [
+    "A007561",
+    "A035079",
+    "A035081"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

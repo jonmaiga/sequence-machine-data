@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows in which the n-th row contains n numbers not occurring earlier such that every entry is coprime to all the members of the row and column it belongs.",
+  "id": "A081994",
+  "mentions": [
+    "A081995",
+    "A081996",
+    "A081997"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 4*p + (p mod 4) is also a prime.",
+  "id": "A075521",
+  "mentions": [
+    "A010051",
+    "A049084",
+    "A075520",
+    "A075522"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Composite number such that when sum of its prime factors is added or subtracted becomes prime.",
+  "id": "A050705",
+  "mentions": [
+    "A050703",
+    "A050704",
+    "A050706",
+    "A050707",
+    "A050708",
+    "A050709",
+    "A050710"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:48:47",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

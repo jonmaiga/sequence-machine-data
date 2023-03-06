@@ -1,0 +1,19 @@
+{
+  "description": "Consider the Diophantine equation x^3 + y^3 = z^3 - 1 (x < y < z) or 'Fermat near misses'. Arrange solutions by increasing values of z. Sequence gives values of x^3 + y^3 = z^3 - 1.",
+  "id": "A050790",
+  "mentions": [
+    "A050787",
+    "A050788",
+    "A050789"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

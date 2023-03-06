@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2, a(n+1) = a(n)*{tau(a(n))}.",
+  "id": "A085864",
+  "mentions": [
+    "A064491"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

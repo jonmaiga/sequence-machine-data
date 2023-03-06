@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n - squarefree kernel of n, A007947.",
+  "id": "A066503",
+  "mentions": [
+    "A005117",
+    "A007947"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:18",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

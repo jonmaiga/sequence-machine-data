@@ -1,0 +1,15 @@
+{
+  "description": "Optimal Hamming complexity of normal basis for GF(2^n) over GF(2).",
+  "id": "A071643",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least number having exactly n representations as ab+ac+bc with 1 <= a <= b <= c.",
+  "id": "A094379",
+  "mentions": [
+    "A025052",
+    "A066955",
+    "A093670",
+    "A094380",
+    "A094381"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

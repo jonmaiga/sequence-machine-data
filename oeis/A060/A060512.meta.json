@@ -1,0 +1,20 @@
+{
+  "description": "Number of units of time making up the next larger unit: seconds, minutes, hours, days, weeks, years, centuries, millennia.",
+  "id": "A060512",
+  "mentions": [
+    "A060513"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

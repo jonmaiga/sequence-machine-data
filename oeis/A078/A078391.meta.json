@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Catalan(k)*Catalan(n-k).",
+  "id": "A078391",
+  "mentions": [
+    "A000108",
+    "A001246",
+    "A067804",
+    "A118921"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

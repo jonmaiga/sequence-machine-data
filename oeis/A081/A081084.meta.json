@@ -1,0 +1,19 @@
+{
+  "description": "Nonsquarefree numbers m such that rad(m+1)=rad(m)+1, where rad(m)=A007947(m) is the squarefree kernel of m.",
+  "id": "A081084",
+  "mentions": [
+    "A007947",
+    "A062503",
+    "A081083"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

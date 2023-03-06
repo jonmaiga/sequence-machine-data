@@ -1,0 +1,23 @@
+{
+  "description": "Limit set for operation of repeatedly replacing a number with the sum of the cubes of its digits.",
+  "id": "A046156",
+  "mentions": [
+    "A046197",
+    "A113708",
+    "A165330",
+    "A165331"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of nonempty subsets of {1,2,3,...,n} whose elements have an integer average.",
+  "id": "A051293",
+  "mentions": [
+    "A000629",
+    "A000670",
+    "A061865",
+    "A063776",
+    "A082550",
+    "A114976",
+    "A327481"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "changed",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

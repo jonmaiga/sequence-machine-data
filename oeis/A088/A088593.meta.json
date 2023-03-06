@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=18; a(n+1) = largest odd factor of 3*a(n)+1; stop when a(n)=1.",
+  "id": "A088593",
+  "mentions": [
+    "A000265"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

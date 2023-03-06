@@ -1,0 +1,23 @@
+{
+  "description": "Number of connected bipartite graphs with n edges, no isolated vertices and a distinguished bipartite block, up to isomorphism.",
+  "id": "A056156",
+  "mentions": [
+    "A007716",
+    "A007718",
+    "A022562",
+    "A049311",
+    "A319557",
+    "A319565",
+    "A319566"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

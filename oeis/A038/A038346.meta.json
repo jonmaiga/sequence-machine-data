@@ -1,0 +1,23 @@
+{
+  "description": "Sum of first n primes of form 4k+1.",
+  "id": "A038346",
+  "mentions": [
+    "A002144",
+    "A002313",
+    "A006278",
+    "A038347",
+    "A078586"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

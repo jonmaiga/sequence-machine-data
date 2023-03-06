@@ -1,0 +1,24 @@
+{
+  "description": "Inradii of integer triangles [A070080(n), A070081(n), A070082(n)], rounded values.",
+  "id": "A070200",
+  "mentions": [
+    "A070080",
+    "A070081",
+    "A070082",
+    "A070083",
+    "A070086",
+    "A070209",
+    "A070210"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

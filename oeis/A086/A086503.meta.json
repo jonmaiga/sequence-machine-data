@@ -1,0 +1,15 @@
+{
+  "description": "(Fibonacci(p^2)-1 )/p where p runs through the primes (except p=5).",
+  "id": "A086503",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

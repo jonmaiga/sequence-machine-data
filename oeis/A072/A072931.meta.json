@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to write n as a sum of 2 semiprimes.",
+  "id": "A072931",
+  "mentions": [
+    "A001222",
+    "A001358",
+    "A072966",
+    "A100592",
+    "A101048",
+    "A171963",
+    "A344447"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

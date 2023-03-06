@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1, then nonzero digits ( 1 to 9) such that every n-th concatenation is prime if n is prime else it is composite. The previous digits are so chosen that a single digit with prime index gives a prime.",
+  "id": "A089762",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

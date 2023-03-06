@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^2 + 3k + 1 is a prime.",
+  "id": "A094210",
+  "mentions": [
+    "A002327",
+    "A002328",
+    "A028387"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

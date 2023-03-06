@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic regular linear spaces RLIN(n).",
+  "id": "A031437",
+  "mentions": [
+    "A001200",
+    "A031436"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

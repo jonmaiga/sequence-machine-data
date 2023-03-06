@@ -1,0 +1,20 @@
+{
+  "description": "Positions in the Kolakoski sequence (A000002) where there are an even number of 1's and the current term is 1.",
+  "id": "A074273",
+  "mentions": [
+    "A000002",
+    "A074274",
+    "A074278"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

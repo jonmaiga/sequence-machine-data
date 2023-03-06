@@ -1,0 +1,23 @@
+{
+  "description": "Rounded up staircase on natural numbers.",
+  "id": "A080827",
+  "mentions": [
+    "A000027",
+    "A000982",
+    "A007590",
+    "A099392",
+    "A131055"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:51:19",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(m,k) read by rows, where T(m,k) is the number of ways in which 1<=k<=m positions can be picked in an m X m square array such that all positions are mutually isolated. Two positions (s,t),(u,v) are considered as isolated from each other if min(abs(s-u),abs(t-v))>1.",
+  "id": "A098487",
+  "mentions": [
+    "A090642",
+    "A098485",
+    "A201513",
+    "A291716",
+    "A291717",
+    "A291718",
+    "A292152",
+    "A292153",
+    "A292154",
+    "A292155",
+    "A292156"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

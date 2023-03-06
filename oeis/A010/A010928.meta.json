@@ -1,0 +1,25 @@
+{
+  "description": "Binomial coefficient C(12,n).",
+  "id": "A010928",
+  "mentions": [
+    "A007318",
+    "A010926",
+    "A010965",
+    "A011001",
+    "A080560",
+    "A080564"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

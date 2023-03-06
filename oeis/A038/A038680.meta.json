@@ -1,0 +1,21 @@
+{
+  "description": "Primes ending in a (different) prime.",
+  "id": "A038680",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A033664"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

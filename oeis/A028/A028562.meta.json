@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes of form k*(k+6).",
+  "id": "A028562",
+  "mentions": [
+    "A028560",
+    "A028561"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

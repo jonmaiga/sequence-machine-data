@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the product of the first n primes of the form 4k+3.",
+  "id": "A078586",
+  "mentions": [
+    "A002110",
+    "A006278",
+    "A038347"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

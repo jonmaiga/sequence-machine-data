@@ -1,0 +1,20 @@
+{
+  "description": "Smallest x such that the number of nonprimes (i.e., 1 and composites) in the reduced residue set (RSS(x)) of x equals n, or 0 if there are no such x.",
+  "id": "A072022",
+  "mentions": [
+    "A048864",
+    "A072023",
+    "A074915"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

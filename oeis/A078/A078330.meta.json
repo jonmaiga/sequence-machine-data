@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that mu(p-1) = -1, where mu is the Moebius function; that is, p-1 is squarefree and has an odd number of prime factors.",
+  "id": "A078330",
+  "mentions": [
+    "A008683",
+    "A049092",
+    "A088179",
+    "A089451"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

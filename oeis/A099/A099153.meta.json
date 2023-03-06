@@ -1,0 +1,21 @@
+{
+  "description": "Iterated heptagonal numbers (A000566), starting at 7.",
+  "id": "A099153",
+  "mentions": [
+    "A000566",
+    "A007501"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

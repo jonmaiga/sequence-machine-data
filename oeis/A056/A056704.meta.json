@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 3*10^k + 1*R_k is prime, where R_k = 11...1 is the repunit (A002275) of length k.",
+  "id": "A056704",
+  "mentions": [
+    "A002275",
+    "A068813"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of Barker codes (or Barker sequences) of length n up to reversals and negations.",
+  "id": "A091704",
+  "mentions": [
+    "A011758",
+    "A011759",
+    "A276690"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Nearest integer to log(n!)^log(n).",
+  "id": "A062422",
+  "mentions": [
+    "A062421"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

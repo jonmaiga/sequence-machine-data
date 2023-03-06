@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: there is a row for each value of n for which the aliquot sequence starting at n eventually reaches 1, giving the part of the sequence from n to 1.",
+  "id": "A032451",
+  "mentions": [
+    "A008885",
+    "A143090",
+    "A143645",
+    "A143721",
+    "A143733",
+    "A143759"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:02:07",
+    "offset": 1,
+    "size": 83,
+    "source": "joeis"
+  }
+}

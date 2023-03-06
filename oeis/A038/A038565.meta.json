@@ -1,0 +1,19 @@
+{
+  "description": "Number of times digits are repeated in A038564.",
+  "id": "A038565",
+  "mentions": [
+    "A038564"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

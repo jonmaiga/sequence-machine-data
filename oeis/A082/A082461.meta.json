@@ -1,0 +1,16 @@
+{
+  "description": "Non-palindromic numbers whose decimal expansion is a concatenation of the form a_1 a_2 a_3 ... a_{k-1} a_k a_k a_{k-1} ... a_2 a_1 (k >= 1) or a_1 a_2 a_3 ... a_{k-1} a_k a_{k-1} ... a_2 a_1 (k >= 2) for positive integers a_1, ..., a_k. For i>1, a_i may have leading zeros.",
+  "id": "A082461",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

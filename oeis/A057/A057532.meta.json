@@ -1,0 +1,22 @@
+{
+  "description": "n is odd and sum of digits of n equals the numbers of divisors of n.",
+  "id": "A057532",
+  "mentions": [
+    "A000005",
+    "A007953",
+    "A033950",
+    "A057531"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

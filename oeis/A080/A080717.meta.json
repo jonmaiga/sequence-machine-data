@@ -1,0 +1,18 @@
+{
+  "description": "Let S(0) = 1; obtain S(k) from S(k-1) by applying 1 -> 2, 2 -> 31, 3 -> 332; sequence is S(0), S(1), S(2), ...",
+  "id": "A080717",
+  "mentions": [
+    "A080704"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

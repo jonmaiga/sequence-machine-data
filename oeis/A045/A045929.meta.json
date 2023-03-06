@@ -1,0 +1,19 @@
+{
+  "description": "Generalized Connell sequence C_{5,3}.",
+  "id": "A045929",
+  "mentions": [
+    "A045928"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:27:11",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of odd composites 1 mod 4 less than 10^n.",
+  "id": "A093151",
+  "mentions": [
+    "A091098",
+    "A091099",
+    "A091295",
+    "A093152",
+    "A093153"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

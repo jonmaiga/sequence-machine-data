@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A000040(A096477(n)), i.e., prime(a(n)) and prime(1 + a(n)) are twin primes.",
+  "id": "A096478",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A006450",
+    "A029707",
+    "A072677",
+    "A073124",
+    "A096477"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

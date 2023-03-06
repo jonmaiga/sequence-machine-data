@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to partition n into distinct positive integers <= phi(n), where phi is Euler's totient function (A000010).",
+  "id": "A079124",
+  "mentions": [
+    "A000009",
+    "A000010",
+    "A036998",
+    "A067953",
+    "A079122",
+    "A079125",
+    "A079126",
+    "A227296"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

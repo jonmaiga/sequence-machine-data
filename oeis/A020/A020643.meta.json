@@ -1,0 +1,20 @@
+{
+  "description": "a(n)-th squarefree is sum of first k squarefrees for some k.",
+  "id": "A020643",
+  "mentions": [
+    "A005117",
+    "A013930",
+    "A013931",
+    "A013932"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

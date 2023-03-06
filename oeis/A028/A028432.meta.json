@@ -1,0 +1,17 @@
+{
+  "description": "Golc sequence in base 2. Left to right concatenation of n,int(log_2(n)),int(log_2(int(log_2(n)))),... in base 2.",
+  "id": "A028432",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:37:15",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

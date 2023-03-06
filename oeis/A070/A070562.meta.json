@@ -1,0 +1,24 @@
+{
+  "description": "Fecundity of n.",
+  "id": "A070562",
+  "mentions": [
+    "A003001",
+    "A031346",
+    "A070061",
+    "A070257",
+    "A070560",
+    "A070561"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

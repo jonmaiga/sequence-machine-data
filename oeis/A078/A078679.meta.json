@@ -1,0 +1,19 @@
+{
+  "description": "Number of Grand Motzkin paths of length n with no zigzags, that is with no factors UDU and DUD.",
+  "id": "A078679",
+  "mentions": [
+    "A078678"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:37:55",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

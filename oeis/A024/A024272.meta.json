@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. tan(x)*sinh(x)/2 (even powers only).",
+  "id": "A024272",
+  "mentions": [
+    "A009747"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that F(p-(p/5)) is the first Fibonacci number that p divides.",
+  "id": "A079346",
+  "mentions": [
+    "A000057",
+    "A001602",
+    "A079347",
+    "A079348",
+    "A079349",
+    "A106535"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

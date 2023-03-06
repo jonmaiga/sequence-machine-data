@@ -1,0 +1,22 @@
+{
+  "description": "Number of 8k+-1 primes (A001132) in range [2^n,2^(n+1)].",
+  "id": "A095013",
+  "mentions": [
+    "A001132",
+    "A036378",
+    "A095009",
+    "A095012",
+    "A095014",
+    "A095062"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

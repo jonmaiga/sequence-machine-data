@@ -1,0 +1,17 @@
+{
+  "description": "(Prime(prime(n))^2-1)/24.",
+  "id": "A092772",
+  "mentions": [
+    "A092771"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "For n > 1, a(n) is the least composite number not already used such that the n-th partial sum is prime.",
+  "id": "A089390",
+  "mentions": [
+    "A089391"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

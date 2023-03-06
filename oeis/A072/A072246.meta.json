@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which are simultaneously the number of partitions of some k and the number of distinct partitions of some m.",
+  "id": "A072246",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A167392",
+    "A167393"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

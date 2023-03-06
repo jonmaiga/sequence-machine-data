@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose number of decimal digits and number of divisors are equal.",
+  "id": "A095862",
+  "mentions": [
+    "A096489",
+    "A135772",
+    "A135779"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

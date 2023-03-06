@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = minimal number of terms needed to write k/n (for 1 <= k <= n) as a sum of unit fractions.",
+  "id": "A097847",
+  "mentions": [
+    "A097848",
+    "A097849",
+    "A270429",
+    "A330808"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

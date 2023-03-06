@@ -1,0 +1,19 @@
+{
+  "description": "Number of Sort then Add steps needed to reach a sorted number, or -1 if never reach sorted number.",
+  "id": "A033909",
+  "mentions": [
+    "A033863",
+    "A033908"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:08:49",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

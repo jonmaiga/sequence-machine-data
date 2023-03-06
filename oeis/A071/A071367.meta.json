@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n+0, n+1, n+2, n+3 and n+4 are, in some order, 1 * a prime, 2 * a prime, 3 * a prime, 4 * a prime and 5 * a prime.",
+  "id": "A071367",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A010051",
+    "A071373"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

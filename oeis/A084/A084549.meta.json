@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that have primitive roots less than k that are nonnegative perfect seventh powers.",
+  "id": "A084549",
+  "mentions": [
+    "A001015",
+    "A084547",
+    "A084548",
+    "A084550"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

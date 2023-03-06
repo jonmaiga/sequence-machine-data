@@ -1,0 +1,21 @@
+{
+  "description": "Chebyshev U(n,x) polynomial evaluated at x=73 = 2*6^2+1.",
+  "id": "A097728",
+  "mentions": [
+    "A049310",
+    "A097729",
+    "A097730"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

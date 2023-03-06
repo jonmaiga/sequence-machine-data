@@ -1,0 +1,21 @@
+{
+  "description": "Maximum mean distance between cards during perfect faro shuffles, with cut, to return to original order in A024222.",
+  "id": "A049206",
+  "mentions": [
+    "A004525",
+    "A024222",
+    "A024542"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:35:31",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

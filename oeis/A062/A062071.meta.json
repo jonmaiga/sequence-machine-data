@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = [n/1] + [n/(2^2)] + [n/(3^3)] + [n/(4^4)] + ... + [n/(k^k)] + ..., up to infinity, where [ ] is the floor function.",
+  "id": "A062071",
+  "mentions": [
+    "A006218",
+    "A011371",
+    "A060832",
+    "A073009",
+    "A347397"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "description": "Triangle read by rows in which row n lists all the parts of all the partitions of n, sorted first by length and then colexicographically.",
+  "id": "A036037",
+  "mentions": [
+    "A000041",
+    "A026791",
+    "A036036",
+    "A036038",
+    "A036039",
+    "A036040",
+    "A036043",
+    "A080576",
+    "A080577",
+    "A103921",
+    "A124734",
+    "A185974",
+    "A193073",
+    "A211992",
+    "A228100",
+    "A228531",
+    "A296150",
+    "A296774",
+    "A334301",
+    "A334433",
+    "A334436",
+    "A334437",
+    "A334439",
+    "A334442"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:24:17",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

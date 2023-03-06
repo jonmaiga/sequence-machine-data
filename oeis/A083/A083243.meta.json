@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n for which there are more divisors and coprimes than other numbers less than n: A045763(n) < A073757(n) or A045763(n)n/2.",
+  "id": "A083243",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A020488",
+    "A045763",
+    "A073757",
+    "A083244",
+    "A083245"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Let prime(i) = i-th prime (A000040), let d(i) = prime(i+1)-prime(i) (A001223); a(n) = number of distinct numbers among d(n), d(n+1), d(n+2), ... before first duplicate is encountered.",
+  "id": "A053597",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A078515",
+    "A079007"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

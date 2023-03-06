@@ -1,0 +1,19 @@
+{
+  "description": "Triangle: a(n,k) = A055135(n,k)/C(n,k).",
+  "id": "A055136",
+  "mentions": [
+    "A055135"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:15:59",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

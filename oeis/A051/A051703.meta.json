@@ -1,0 +1,22 @@
+{
+  "description": "Maximal value of products of partitions of n into powers of distinct primes (1 not considered a power).",
+  "id": "A051703",
+  "mentions": [
+    "A000793",
+    "A008475",
+    "A051613",
+    "A051704",
+    "A080743",
+    "A080744"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:12:48",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

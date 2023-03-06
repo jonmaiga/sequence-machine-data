@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers not going to 1 under iterations of the map in A001281: n->3n-1 if n odd, n->n/2 if n even.",
+  "id": "A037084",
+  "mentions": [
+    "A001281",
+    "A006370",
+    "A006577",
+    "A039500",
+    "A039501",
+    "A039502",
+    "A039505"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

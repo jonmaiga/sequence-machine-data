@@ -1,0 +1,19 @@
+{
+  "description": "Smallest nonempty set S containing prime divisors of 6k+8 for each k in S.",
+  "id": "A020605",
+  "mentions": [
+    "A020582"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

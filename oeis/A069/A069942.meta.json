@@ -1,0 +1,21 @@
+{
+  "description": "Reversal of n equals the sum of the reversals of the proper divisors of n.",
+  "id": "A069942",
+  "mentions": [
+    "A003601",
+    "A005117"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "changed",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

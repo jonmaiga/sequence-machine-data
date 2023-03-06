@@ -1,0 +1,25 @@
+{
+  "description": "Coefficients arising in combinatorial field theory.",
+  "id": "A094074",
+  "mentions": [
+    "A000085",
+    "A001147",
+    "A005425",
+    "A093620",
+    "A094071",
+    "A094072",
+    "A094073",
+    "A099174"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

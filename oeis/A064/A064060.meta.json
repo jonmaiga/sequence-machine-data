@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected, homeomorphically irreducible (also called series-reduced) trees with n >= 2 labeled leaves (numbers in nondecreasing order).",
+  "id": "A064060",
+  "mentions": [
+    "A000311",
+    "A007827"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1; then for n even, a(n)=(sum of previous terms times n) plus 1, for n odd, a(n)=(sum of previous terms times n) minus 1.",
+  "id": "A095237",
+  "mentions": [
+    "A002467",
+    "A095236"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

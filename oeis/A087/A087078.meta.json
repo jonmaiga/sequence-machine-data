@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the elements in the primitive subsets of the integers 1 to n.",
+  "id": "A087078",
+  "mentions": [
+    "A051026",
+    "A087077",
+    "A087081"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

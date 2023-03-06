@@ -1,0 +1,18 @@
+{
+  "description": "Values of n for which A072491(n)=3.",
+  "id": "A072492",
+  "mentions": [
+    "A072491"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

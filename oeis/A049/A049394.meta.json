@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1-25*x)^(-6/5).",
+  "id": "A049394",
+  "mentions": [
+    "A034688"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:42:13",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

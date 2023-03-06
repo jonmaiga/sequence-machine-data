@@ -1,0 +1,22 @@
+{
+  "description": "There are a unique number of primes between a(n) and 2a(n). This is a list of all such integers > zero in numerical order.",
+  "id": "A084142",
+  "mentions": [
+    "A060715",
+    "A060756",
+    "A084138",
+    "A084139",
+    "A084140",
+    "A084141"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Let f(k, n) be the product of n consecutive numbers beginning with k. Then a(n) is the least k > 1+n*(n-1)/2 such that f(k, n) is a multiple of f(1+n*(n-1)/2, n).",
+  "id": "A093908",
+  "mentions": [
+    "A000124",
+    "A008279",
+    "A057003",
+    "A093909"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

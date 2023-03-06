@@ -1,0 +1,28 @@
+{
+  "description": "Numbers in base -10.",
+  "id": "A039723",
+  "mentions": [
+    "A007608",
+    "A039724",
+    "A051022",
+    "A073785",
+    "A073786",
+    "A073787",
+    "A073788",
+    "A073789",
+    "A073790",
+    "A305238"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

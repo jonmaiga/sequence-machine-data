@@ -1,0 +1,26 @@
+{
+  "description": "Binary expansion of Thue constant (or Roth's constant).",
+  "id": "A014578",
+  "mentions": [
+    "A007417",
+    "A007949",
+    "A010060",
+    "A014983",
+    "A015518",
+    "A145204",
+    "A154271"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:39:57",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

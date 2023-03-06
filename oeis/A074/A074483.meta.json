@@ -1,0 +1,19 @@
+{
+  "description": "Consider the recursion b(1,n) = 1, b(k+1,n) = b(k,n) + (b(k,n) reduced mod(k+n)); then there is a number y such that b(k,n)-b(k-1,n) is a constant (= A074482(n)) for k > y. Sequence gives values of y.",
+  "id": "A074483",
+  "mentions": [
+    "A073117",
+    "A074482",
+    "A074484"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

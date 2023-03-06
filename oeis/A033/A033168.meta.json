@@ -1,0 +1,24 @@
+{
+  "description": "Longest arithmetic progression of primes with difference 210 and minimal initial term.",
+  "id": "A033168",
+  "mentions": [
+    "A086786",
+    "A094220",
+    "A113470",
+    "A133276",
+    "A133277"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

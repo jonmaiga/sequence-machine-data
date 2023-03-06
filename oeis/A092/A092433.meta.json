@@ -1,0 +1,23 @@
+{
+  "description": "Positive numbers from the children's game \"Buzz\" or \"Sevens\": positive integers which are divisible by seven, or which contain a seven as a digit.",
+  "id": "A092433",
+  "mentions": [
+    "A008589",
+    "A011537",
+    "A092451",
+    "A092457"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of coefficients of odd powers of 1/q in the solution series for Tan[x]/x=1.",
+  "id": "A088989",
+  "mentions": [
+    "A079330",
+    "A224196"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that k*prime(n)#/6 - 6 and k*prime(n)#/6 + 6 are consecutive primes with gap of 12 for n > 2.",
+  "id": "A098064",
+  "mentions": [
+    "A002110",
+    "A097439",
+    "A097440",
+    "A097441",
+    "A097570"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

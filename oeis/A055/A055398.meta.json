@@ -1,0 +1,23 @@
+{
+  "description": "Result of fourth stage of sieve of Eratosthenes (after eliminating multiples of 2, 3, 5, 7).",
+  "id": "A055398",
+  "mentions": [
+    "A000040",
+    "A004280",
+    "A038179",
+    "A052424",
+    "A055396",
+    "A055399"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:25:25",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

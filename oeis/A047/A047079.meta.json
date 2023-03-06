@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{i=0..floor(n/2)} A047072(i, n-2*i).",
+  "id": "A047079",
+  "mentions": [
+    "A047072",
+    "A047073",
+    "A047074"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

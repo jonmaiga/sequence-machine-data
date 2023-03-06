@@ -1,0 +1,19 @@
+{
+  "description": "Least number of Sort-then-add persistence n.",
+  "id": "A033908",
+  "mentions": [
+    "A033863",
+    "A033909"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

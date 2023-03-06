@@ -1,0 +1,20 @@
+{
+  "description": "a(n) defines the first brilliant number, b_n, greater than 10^n. If n is odd or zero, then b_n is 10^n+a(n); and if n is a positive even number, then b_n is {10^(n/2)+a(n)}^2.",
+  "id": "A084475",
+  "mentions": [
+    "A033873",
+    "A078972",
+    "A084476"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

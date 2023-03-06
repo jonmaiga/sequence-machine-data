@@ -1,0 +1,19 @@
+{
+  "description": "Smallest solution to x+n*phi(x) = sigma(x) = x+n*A000010(x) = A000203(x).",
+  "id": "A076374",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A076373"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

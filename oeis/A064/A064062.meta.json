@@ -1,0 +1,29 @@
+{
+  "description": "Generalized Catalan numbers C(2; n).",
+  "id": "A064062",
+  "mentions": [
+    "A000108",
+    "A000257",
+    "A002416",
+    "A022558",
+    "A059365",
+    "A062992",
+    "A064094",
+    "A064311",
+    "A064334",
+    "A119259",
+    "A119529"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

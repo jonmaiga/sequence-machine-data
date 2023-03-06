@@ -1,0 +1,18 @@
+{
+  "description": "Resultant of the polynomial x^n-1 and the Chebyshev polynomial of the second kind U_2(x).",
+  "id": "A085435",
+  "mentions": [
+    "A085903"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

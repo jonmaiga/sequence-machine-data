@@ -1,0 +1,25 @@
+{
+  "description": "Stirling transform of (n!)^2.",
+  "id": "A064618",
+  "mentions": [
+    "A000010",
+    "A001044",
+    "A001339",
+    "A019774",
+    "A242282",
+    "A242283",
+    "A320502"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

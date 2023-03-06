@@ -1,0 +1,23 @@
+{
+  "description": "Q(sqrt(n)) has class number 3.",
+  "id": "A029703",
+  "mentions": [
+    "A003172",
+    "A007947",
+    "A029702",
+    "A029704",
+    "A029705",
+    "A218038",
+    "A218042"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

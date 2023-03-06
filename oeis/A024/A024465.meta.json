@@ -1,0 +1,17 @@
+{
+  "description": "s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n+1-k), where k = [ (n+1)/2 ], s = (Fibonacci numbers), t = A001950 (upper Wythoff sequence).",
+  "id": "A024465",
+  "mentions": [
+    "A001950"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:49:35",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest Fibonacci number beginning with the n-th Fibonacci number other than itself.",
+  "id": "A072519",
+  "mentions": [
+    "A072520"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

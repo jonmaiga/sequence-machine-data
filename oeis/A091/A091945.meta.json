@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that there is no k, 0 <= k < n, satisfying A002487(k) = A002487(n).",
+  "id": "A091945",
+  "mentions": [
+    "A002487",
+    "A091926"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

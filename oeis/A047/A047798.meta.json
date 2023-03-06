@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} C(n,k)*Stirling2(n,k)^2.",
+  "id": "A047798",
+  "mentions": [
+    "A008277",
+    "A047799",
+    "A211210",
+    "A317274"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

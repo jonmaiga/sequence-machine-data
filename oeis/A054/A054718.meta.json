@@ -1,0 +1,24 @@
+{
+  "description": "Number of ternary sequences with primitive period n.",
+  "id": "A054718",
+  "mentions": [
+    "A027375",
+    "A027376",
+    "A034741",
+    "A054719",
+    "A054720",
+    "A054721",
+    "A143324"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{1",
+  "id": "A098798",
+  "mentions": [
+    "A000203",
+    "A006218",
+    "A010766",
+    "A024816",
+    "A049820",
+    "A051731"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

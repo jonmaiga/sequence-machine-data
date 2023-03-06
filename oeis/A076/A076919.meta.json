@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, a(2) = 2, then a(n+1) is the smallest number such that the highest common factor of a(n) and a(n+1) is different from that of a(n) and a(n-1) and is more than 1.",
+  "id": "A076919",
+  "mentions": [
+    "A076920"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

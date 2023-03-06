@@ -1,0 +1,28 @@
+{
+  "description": "a(0)=0; for n>0, a(n) = number of primes not exceeding n-th composite number.",
+  "id": "A073425",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002808",
+    "A002828",
+    "A008578",
+    "A014689",
+    "A018252",
+    "A065890",
+    "A073169",
+    "A073426",
+    "A158611"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Least of the least frequent values in rows of A076221.",
+  "id": "A076235",
+  "mentions": [
+    "A076221"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

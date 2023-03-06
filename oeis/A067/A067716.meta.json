@@ -1,0 +1,18 @@
+{
+  "description": "The least number k whose standard deviation of its prime factors (rounded up if necessary), with each factor counted according to its frequency of occurrence in the prime factorization of k (A067631) is n.",
+  "id": "A067716",
+  "mentions": [
+    "A067631"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

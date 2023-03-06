@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are expressible as the sum of 2 distinct positive squares in more ways than any smaller number.",
+  "id": "A052199",
+  "mentions": [
+    "A001983",
+    "A007511",
+    "A025441",
+    "A048610",
+    "A054994",
+    "A060306",
+    "A071383"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

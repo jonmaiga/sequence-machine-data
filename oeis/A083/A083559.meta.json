@@ -1,0 +1,19 @@
+{
+  "description": "Nearest integer to 1/(Sum_{k>=n} 1/k^4).",
+  "id": "A083559",
+  "mentions": [
+    "A001844"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:38:19",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

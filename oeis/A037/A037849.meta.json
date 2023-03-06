@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d(i) < d(i-1), i=1..m} (d(i-1) - d(i)), where Sum{d(i)*8^i: i=0,1,...,m} is the base-8 representation of n.",
+  "id": "A037849",
+  "mentions": [
+    "A007094",
+    "A037858",
+    "A297330"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

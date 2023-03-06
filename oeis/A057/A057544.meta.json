@@ -1,0 +1,25 @@
+{
+  "description": "Maximum cycle length (orbit size) in the rotation permutation of n+2 side polygon triangularizations.",
+  "id": "A057544",
+  "mentions": [
+    "A014138",
+    "A057161",
+    "A057162",
+    "A057503",
+    "A057504",
+    "A057542",
+    "A057543",
+    "A057545"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

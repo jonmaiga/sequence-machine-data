@@ -1,0 +1,21 @@
+{
+  "description": "Number of dissectable polyhedra with symmetry of type P.",
+  "id": "A047765",
+  "mentions": [
+    "A027610",
+    "A047749",
+    "A047764",
+    "A047767"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:22:43",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

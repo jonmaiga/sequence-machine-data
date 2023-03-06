@@ -1,0 +1,21 @@
+{
+  "description": "Ratios of consecutive row products of triangle A094275.",
+  "id": "A094279",
+  "mentions": [
+    "A094275",
+    "A094278"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

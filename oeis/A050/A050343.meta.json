@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into distinct parts with 2 levels of parentheses.",
+  "id": "A050343",
+  "mentions": [
+    "A050342",
+    "A050350"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Inverse permutation to A066248.",
+  "id": "A066249",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A066248",
+    "A066251",
+    "A066253"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

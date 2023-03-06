@@ -1,0 +1,18 @@
+{
+  "description": "Primes p with no zero digits such that (the digit product of p) plus p is also prime.",
+  "id": "A092518",
+  "mentions": [
+    "A053666"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

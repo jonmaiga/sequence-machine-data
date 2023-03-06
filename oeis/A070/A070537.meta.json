@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the k-th cyclotomic polynomial has more terms than the largest prime factor of k.",
+  "id": "A070537",
+  "mentions": [
+    "A006530",
+    "A051664",
+    "A070536",
+    "A070776",
+    "A324110",
+    "A324111"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

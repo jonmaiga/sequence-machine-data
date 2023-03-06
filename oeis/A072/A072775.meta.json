@@ -1,0 +1,20 @@
+{
+  "description": "Squarefree kernels of powers of squarefree numbers.",
+  "id": "A072775",
+  "mentions": [
+    "A007947",
+    "A052410",
+    "A072774",
+    "A072776"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

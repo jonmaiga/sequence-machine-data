@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2*ceiling(n*tau) - ceiling(n*sqrt(5)) where tau=(1+sqrt(5))/2 is the Golden ratio.",
+  "id": "A078796",
+  "mentions": [
+    "A001950",
+    "A005652",
+    "A078588"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:07:13",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

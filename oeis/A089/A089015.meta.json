@@ -1,0 +1,19 @@
+{
+  "description": "Least odd short leg of n primitive Pythagorean triangles.",
+  "id": "A089015",
+  "mentions": [
+    "A083883"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

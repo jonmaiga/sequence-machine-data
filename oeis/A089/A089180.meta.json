@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number m such that d(m) = d(m+1) = ... = d(m+n), where d(k) = prime(k+1) - prime(k) (A001223).",
+  "id": "A089180",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001223",
+    "A006560",
+    "A090403"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

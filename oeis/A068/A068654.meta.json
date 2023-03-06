@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers such that every cyclic permutation (other than the number itself) is composite.",
+  "id": "A068654",
+  "mentions": [
+    "A003459",
+    "A068652",
+    "A068653"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

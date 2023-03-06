@@ -1,0 +1,25 @@
+{
+  "description": "In a triangle of numbers (such as that in A059032, A059033, A059034) how many entries lie above position (n,k)? Answer: T(n,k) = (n+1)*(k+1)-1 (n >= 0, k >= 0).",
+  "id": "A059036",
+  "mentions": [
+    "A000005",
+    "A003991",
+    "A005581",
+    "A059032",
+    "A059033",
+    "A059034"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:34:55",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

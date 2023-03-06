@@ -1,0 +1,22 @@
+{
+  "description": "Least positive integer k for which the Jacobi symbol (k|2*n-1) is less than 1, where 2*n-1 is a nonsquare; a(n)=0 if 2*n-1 is a square.",
+  "id": "A053761",
+  "mentions": [
+    "A010052",
+    "A053760",
+    "A112046",
+    "A112049",
+    "A268829"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

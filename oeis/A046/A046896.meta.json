@@ -1,0 +1,19 @@
+{
+  "description": "Square elements of A046895.",
+  "id": "A046896",
+  "mentions": [
+    "A046895"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

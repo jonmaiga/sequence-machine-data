@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1/sqrt(1-6*x+x^2)-1/(1-x))/2.",
+  "id": "A047665",
+  "mentions": [
+    "A001850",
+    "A002002",
+    "A008288",
+    "A047662"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

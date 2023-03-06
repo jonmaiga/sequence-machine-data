@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive integer that can be expressed as the sum of consecutive primes in exactly n ways.",
+  "id": "A054859",
+  "mentions": [
+    "A054845",
+    "A067381"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 3^n has the form 2p-+1 where p is prime.",
+  "id": "A096723",
+  "mentions": [
+    "A028491",
+    "A075081",
+    "A088553"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of ways to partition n elements into pie slices of different odd sizes.",
+  "id": "A032154",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

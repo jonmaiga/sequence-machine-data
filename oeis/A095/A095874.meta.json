@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = k if n = A000961(k) (powers of primes), a(n) = 0 if n is not in A000961.",
+  "id": "A095874",
+  "mentions": [
+    "A000961",
+    "A010055",
+    "A049084",
+    "A065515",
+    "A069513",
+    "A097621",
+    "A246655",
+    "A344826"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that the Fibonacci number F(n) is divisible by a square.",
+  "id": "A037917",
+  "mentions": [
+    "A000045",
+    "A001177",
+    "A008588",
+    "A030426",
+    "A037918",
+    "A065069",
+    "A134492"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:12",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

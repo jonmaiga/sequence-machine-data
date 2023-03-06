@@ -1,0 +1,21 @@
+{
+  "description": "Least integer \"mod 2 prime signatures\" k ordered by number of primitive Pythagorean triples with leg = k.",
+  "id": "A097275",
+  "mentions": [
+    "A006899",
+    "A097272",
+    "A097273",
+    "A097274"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

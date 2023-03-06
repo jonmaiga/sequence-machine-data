@@ -1,0 +1,46 @@
+{
+  "description": "T(n, k) = Sum_{j=k..n} binomial(n, j)*E1(j, j-k), where E1 are the Eulerian numbers A173018. Triangle read by rows, T(n, k) for 0 <= k <= n.",
+  "id": "A046802",
+  "mentions": [
+    "A000225",
+    "A000522",
+    "A001263",
+    "A001586",
+    "A002627",
+    "A007047",
+    "A007318",
+    "A008292",
+    "A019538",
+    "A026898",
+    "A028246",
+    "A036919",
+    "A066810",
+    "A074909",
+    "A090582",
+    "A097805",
+    "A097808",
+    "A119879",
+    "A122045",
+    "A123125",
+    "A130595",
+    "A130850",
+    "A133314",
+    "A134264",
+    "A173018",
+    "A248727"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

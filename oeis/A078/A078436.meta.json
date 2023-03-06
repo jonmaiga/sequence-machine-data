@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows in which n-th row counts multisets associated with hook partitions.",
+  "id": "A078436",
+  "mentions": [
+    "A074139",
+    "A074141",
+    "A077802"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

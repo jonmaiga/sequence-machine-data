@@ -1,0 +1,20 @@
+{
+  "description": "If we start the Collatz-iteration at these values, each divisible by 4, all subsequent terms in trajectory are smaller than the initial value.",
+  "id": "A087254",
+  "mentions": [
+    "A025586",
+    "A087251",
+    "A087253",
+    "A222562"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/((1-x)^3 - 18*x^4)^(1/3).",
+  "id": "A098538",
+  "mentions": [
+    "A098536",
+    "A098537"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "First column of A082822.",
+  "id": "A082824",
+  "mentions": [
+    "A082822",
+    "A082823",
+    "A082825",
+    "A082826"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

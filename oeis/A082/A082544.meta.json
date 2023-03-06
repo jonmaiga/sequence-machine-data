@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered quintuples (a,b,c,d,e) with gcd(a,b,c,d,e)=1 (1<= {a,b,c,d,e} <= n).",
+  "id": "A082544",
+  "mentions": [
+    "A013663",
+    "A018805",
+    "A071778",
+    "A082540",
+    "A343308"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

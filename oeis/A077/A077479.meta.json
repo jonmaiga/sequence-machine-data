@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct prime factors of numbers m with BigOmega(m) == 0 modulo omega(m).",
+  "id": "A077479",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A067340",
+    "A077480",
+    "A077481"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

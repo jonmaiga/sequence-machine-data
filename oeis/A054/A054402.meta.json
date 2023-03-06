@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the sum of a positive square and a positive cube in more than one way.",
+  "id": "A054402",
+  "mentions": [
+    "A055393",
+    "A055394"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

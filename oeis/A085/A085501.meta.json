@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime powers p^k <= n that are not prime (k = 0 or k > 1).",
+  "id": "A085501",
+  "mentions": [
+    "A000720",
+    "A025475",
+    "A065515",
+    "A069623",
+    "A069637"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

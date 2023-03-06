@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: matrix cube of the Stirling2 triangle A008277.",
+  "id": "A039811",
+  "mentions": [
+    "A000258",
+    "A008277",
+    "A039810",
+    "A039812",
+    "A039813"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

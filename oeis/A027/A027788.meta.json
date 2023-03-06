@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 15*(n+1)*binomial(n+2,15)/2.",
+  "id": "A027788",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:29",
+    "offset": 13,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Value of phi in arithmetic progression of at least 5 terms having the same value of phi in A050515.",
+  "id": "A050517",
+  "mentions": [
+    "A000010",
+    "A050495",
+    "A050496",
+    "A050497",
+    "A050515",
+    "A050520"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "A list of all finite permutations in \"PermUnrank3R\" ordering. (Inverses of the permutations of A060118.)",
+  "id": "A060117",
+  "mentions": [
+    "A001563",
+    "A055089",
+    "A060118",
+    "A060119",
+    "A060125",
+    "A060128",
+    "A060129",
+    "A060130",
+    "A060131",
+    "A060132",
+    "A060495",
+    "A064039",
+    "A065183"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

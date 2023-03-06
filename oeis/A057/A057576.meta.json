@@ -1,0 +1,20 @@
+{
+  "description": "Maximal numbers of codewords in mixed code with n binary coordinates and 3 ternary coordinates with Hamming distance 3.",
+  "id": "A057576",
+  "mentions": [
+    "A050142",
+    "A057574",
+    "A057584"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

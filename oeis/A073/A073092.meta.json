@@ -1,0 +1,21 @@
+{
+  "description": "Number of numbers of the form x^2 + y^2 (0 <= x <= y) less than or equal to n.",
+  "id": "A073092",
+  "mentions": [
+    "A000161",
+    "A001481",
+    "A057655"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

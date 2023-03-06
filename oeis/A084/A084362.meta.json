@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum{j_1 + ... + j_n = n} Sum_{k=1..n} k*C(n-1,k-1), where the outer sum is over all partitions of n.",
+  "id": "A084362",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

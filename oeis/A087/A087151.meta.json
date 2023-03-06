@@ -1,0 +1,18 @@
+{
+  "description": "Positive square-root of terms of the self-convolution of A087150.",
+  "id": "A087151",
+  "mentions": [
+    "A087150"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

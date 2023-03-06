@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that Kronecker(3,n) = 1.",
+  "id": "A074226",
+  "mentions": [
+    "A047209",
+    "A074227",
+    "A074229"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

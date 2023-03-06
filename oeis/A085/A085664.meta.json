@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of cos(cos(cos(1))).",
+  "id": "A085664",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:53:15",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

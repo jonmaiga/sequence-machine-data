@@ -1,0 +1,20 @@
+{
+  "description": "Main diagonal of number array A086404.",
+  "id": "A086406",
+  "mentions": [
+    "A086352",
+    "A086404"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

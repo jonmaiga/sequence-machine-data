@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways of arranging the numbers 1..n in a circle so that adjacent numbers do not differ by 1 mod n.",
+  "id": "A078603",
+  "mentions": [
+    "A002816",
+    "A078628",
+    "A089222"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array such that partial sums define A008284.",
+  "id": "A083731",
+  "mentions": [
+    "A008284"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

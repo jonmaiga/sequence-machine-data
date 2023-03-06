@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the GCD of n and the product of the anti-divisors of n.",
+  "id": "A093394",
+  "mentions": [
+    "A066272",
+    "A066417",
+    "A091507",
+    "A093395",
+    "A093396"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

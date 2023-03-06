@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of e.g.f. x*exp(3*x)*cosh(x).",
+  "id": "A082134",
+  "mentions": [
+    "A002697",
+    "A057711",
+    "A082133",
+    "A082135",
+    "A082136",
+    "A133224"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n + round(sqrt(2*n)) + 1.",
+  "id": "A080036",
+  "mentions": [
+    "A000124",
+    "A003057",
+    "A014132",
+    "A080037",
+    "A105206"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:36:21",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

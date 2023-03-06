@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients in expansion of theta_3(q) * theta_3(q^6) in powers of q.",
+  "id": "A046113",
+  "mentions": [
+    "A000377",
+    "A002480",
+    "A002481",
+    "A115660"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

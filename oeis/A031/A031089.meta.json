@@ -1,0 +1,17 @@
+{
+  "description": "Position of n-th 1 in A031087.",
+  "id": "A031089",
+  "mentions": [
+    "A031087"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:50:05",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n)*primorial(2749)+1 is prime.",
+  "id": "A087837",
+  "mentions": [
+    "A002110",
+    "A087730",
+    "A087832"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

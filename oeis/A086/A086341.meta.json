@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2*2^floor(n/2) - (-1)^n.",
+  "id": "A086341",
+  "mentions": [
+    "A016116",
+    "A065442",
+    "A248721",
+    "A323482"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

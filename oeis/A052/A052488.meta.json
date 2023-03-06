@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor(n*H(n)) where H(n) is the n-th harmonic number, Sum_{k=1..n} 1/k (A001008/A002805).",
+  "id": "A052488",
+  "mentions": [
+    "A001008",
+    "A001620",
+    "A002805",
+    "A006218",
+    "A060293",
+    "A073004"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

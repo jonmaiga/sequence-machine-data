@@ -1,0 +1,36 @@
+{
+  "description": "Triangle of coefficients of certain polynomials (exponents in increasing order), equivalent to A033842.",
+  "id": "A049323",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A000217",
+    "A000272",
+    "A001764",
+    "A001792",
+    "A023531",
+    "A030528",
+    "A033842",
+    "A036068",
+    "A036070",
+    "A036083",
+    "A046757",
+    "A049324",
+    "A049325",
+    "A049326",
+    "A049327"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:37:09",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

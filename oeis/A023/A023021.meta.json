@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into parts of 23 kinds.",
+  "id": "A023021",
+  "mentions": [
+    "A000041",
+    "A000203",
+    "A006922",
+    "A010862",
+    "A144064"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "(Concatenation of 9n-8, 9n-7, 9n-6, 9n-5, 9n-4, 9n-3, 9n-2, 9n-1 and 9n) divided by 9.",
+  "id": "A082256",
+  "mentions": [
+    "A082251",
+    "A082252",
+    "A082253",
+    "A082254",
+    "A082255"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

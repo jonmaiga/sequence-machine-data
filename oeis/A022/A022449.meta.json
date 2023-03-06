@@ -1,0 +1,23 @@
+{
+  "description": "c(p(n)) where p(k) is k-th prime including p(1)=1 and c(k) is k-th composite number.",
+  "id": "A022449",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A008578",
+    "A050435",
+    "A065858",
+    "A175251"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Start with a(1)=2, a(2)=3, then apply the rule of A093094.",
+  "id": "A093095",
+  "mentions": [
+    "A093094"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

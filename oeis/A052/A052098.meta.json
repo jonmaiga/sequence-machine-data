@@ -1,0 +1,22 @@
+{
+  "description": "Squares whose decimal expansion digits occur with an exact frequency of 4.",
+  "id": "A052098",
+  "mentions": [
+    "A052050",
+    "A052095",
+    "A052096",
+    "A052097"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:01:15",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

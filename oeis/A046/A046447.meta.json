@@ -1,0 +1,25 @@
+{
+  "description": "Apart from initial term, composite numbers with property that concatenation of prime factors is a palindrome.",
+  "id": "A046447",
+  "mentions": [
+    "A002113",
+    "A018252",
+    "A027746",
+    "A046448",
+    "A046449",
+    "A046450",
+    "A136522"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

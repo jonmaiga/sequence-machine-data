@@ -1,0 +1,23 @@
+{
+  "description": "Number of perfect powers < n.",
+  "id": "A076411",
+  "mentions": [
+    "A000196",
+    "A001597",
+    "A069623",
+    "A075802",
+    "A076412",
+    "A096623"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:21",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

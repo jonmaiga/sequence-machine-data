@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k such that prime(k) contains the digits of k in their order.",
+  "id": "A082058",
+  "mentions": [
+    "A030000",
+    "A062584"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

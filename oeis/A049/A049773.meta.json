@@ -1,0 +1,27 @@
+{
+  "description": "Triangular array T read by rows: if row n is r(1),...,r(m), then row n+1 is 2r(1)-1,...,2r(m)-1,2r(1),...,2r(m).",
+  "id": "A049773",
+  "mentions": [
+    "A003407",
+    "A007582",
+    "A030109",
+    "A049775",
+    "A088208",
+    "A088370",
+    "A131271",
+    "A208569"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:31",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

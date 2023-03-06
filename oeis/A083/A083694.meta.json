@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2*A002532(n).",
+  "id": "A083694",
+  "mentions": [
+    "A002532",
+    "A002533"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:48:36",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

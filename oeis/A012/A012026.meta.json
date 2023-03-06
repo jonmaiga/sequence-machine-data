@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. tanh(sin(arctan(x))) = tanh(x/sqrt(1+x^2)) (odd powers only).",
+  "id": "A012026",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:35:09",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

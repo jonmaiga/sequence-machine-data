@@ -1,0 +1,15 @@
+{
+  "description": "E.g.f.: arcsin(arcsinh(x)+arctan(x)) = 2*x + 5/3!*x^3 + 201/5!*x^5 + 16767/7!*x^7 +...",
+  "id": "A013105",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:41:55",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

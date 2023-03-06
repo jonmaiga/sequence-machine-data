@@ -1,0 +1,20 @@
+{
+  "description": "Convolution of natural numbers with A023532.",
+  "id": "A023536",
+  "mentions": [
+    "A005230",
+    "A023532",
+    "A279681"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:18:49",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

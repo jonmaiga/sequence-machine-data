@@ -1,0 +1,30 @@
+{
+  "description": "Smaller of a pair of consecutive lucky numbers with a gap of 2n.",
+  "id": "A031884",
+  "mentions": [
+    "A000959",
+    "A031158",
+    "A031883",
+    "A031885",
+    "A031886",
+    "A031888",
+    "A031890",
+    "A031892",
+    "A031894",
+    "A031896",
+    "A031898",
+    "A031900",
+    "A031902"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

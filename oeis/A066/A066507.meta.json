@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that there is a solution to x^2 == 2^k (mod k).",
+  "id": "A066507",
+  "mentions": [
+    "A001132",
+    "A057126",
+    "A058529"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

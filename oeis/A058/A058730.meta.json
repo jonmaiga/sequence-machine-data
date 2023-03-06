@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k) giving number of nonisomorphic simple matroids of rank k on n labeled points (n >= 2, 2 <= k <= n).",
+  "id": "A058730",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A002773",
+    "A058720",
+    "A058731",
+    "A058733"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

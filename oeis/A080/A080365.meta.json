@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers k whose smallest and largest prime factors are unitary prime factors.",
+  "id": "A080365",
+  "mentions": [
+    "A006530",
+    "A020639",
+    "A034444",
+    "A056169",
+    "A080363",
+    "A080364"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes whose next higher prime is 100 greater.",
+  "id": "A050434",
+  "mentions": [
+    "A289908"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

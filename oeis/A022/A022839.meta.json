@@ -1,0 +1,20 @@
+{
+  "description": "Beatty sequence for sqrt(5).",
+  "id": "A022839",
+  "mentions": [
+    "A026262",
+    "A108598"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

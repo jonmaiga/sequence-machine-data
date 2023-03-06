@@ -1,0 +1,18 @@
+{
+  "description": "Numerators in Stirling expansion of middle binomial coefficient.",
+  "id": "A039821",
+  "mentions": [
+    "A000984"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

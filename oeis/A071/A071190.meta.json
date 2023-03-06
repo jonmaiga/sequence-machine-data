@@ -1,0 +1,22 @@
+{
+  "description": "Greatest prime factor of sum of divisors of n, for n >= 2; a(1) = 1.",
+  "id": "A071190",
+  "mentions": [
+    "A000203",
+    "A006530",
+    "A008578",
+    "A071188",
+    "A071189"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

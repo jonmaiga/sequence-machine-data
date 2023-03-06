@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k with the property that reading from right to left in the binary expansion of k, the number of 1's always stays ahead of the number of 0's.",
+  "id": "A036994",
+  "mentions": [
+    "A030308",
+    "A036990",
+    "A036991",
+    "A036992",
+    "A036993"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

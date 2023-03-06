@@ -1,0 +1,21 @@
+{
+  "description": "Let f(n) be smallest number k which is a sum of n distinct numbers whose LCM is a multiple of k. Sequence gives triangle read by rows in which n-th row consists of those n numbers (row 2 is 0, 0 by convention).",
+  "id": "A081536",
+  "mentions": [
+    "A081535",
+    "A081537",
+    "A081538"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

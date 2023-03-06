@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that every sum of two or more divisors is composite.",
+  "id": "A093893",
+  "mentions": [
+    "A093890",
+    "A093891",
+    "A093892",
+    "A093894"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

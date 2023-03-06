@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are sums (of a nonempty sequence) of consecutive primes.",
+  "id": "A034707",
+  "mentions": [
+    "A050936",
+    "A050940",
+    "A054845",
+    "A067377"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p = product(A073692(n), A073692(n)+2,..., A073692(n+1)-2) plus 2.",
+  "id": "A073691",
+  "mentions": [
+    "A073692",
+    "A073693"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

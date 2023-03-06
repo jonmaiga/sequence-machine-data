@@ -1,0 +1,25 @@
+{
+  "description": "Concatenated in binary representation: largest proper divisor of n and smallest prime factor of n.",
+  "id": "A096068",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000225",
+    "A000523",
+    "A005408",
+    "A005843",
+    "A020639",
+    "A052548"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

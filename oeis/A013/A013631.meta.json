@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction for zeta(3).",
+  "id": "A013631",
+  "mentions": [
+    "A002117"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

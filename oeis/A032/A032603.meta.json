@@ -1,0 +1,21 @@
+{
+  "description": "Concatenation of n-th prime number and n-th lucky number.",
+  "id": "A032603",
+  "mentions": [
+    "A000040",
+    "A000959",
+    "A032604"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:04:05",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

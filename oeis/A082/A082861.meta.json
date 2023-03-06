@@ -1,0 +1,23 @@
+{
+  "description": "Lower triangular region of A082860.",
+  "id": "A082861",
+  "mentions": [
+    "A002262",
+    "A003056",
+    "A014486",
+    "A080300",
+    "A082859",
+    "A082860"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k*[ (n/k)*[ (n/k)*[ n/k ] ] ].",
+  "id": "A024933",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:25:55",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor((product of first n triangular numbers)/(sum of first n factorials)).",
+  "id": "A090902",
+  "mentions": [
+    "A000178",
+    "A090901"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k^2+k+8 is a palindrome.",
+  "id": "A027724",
+  "mentions": [
+    "A027693",
+    "A027722",
+    "A027725",
+    "A027726"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

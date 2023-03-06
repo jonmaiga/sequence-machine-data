@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of paths of n upsteps U and n downsteps D that contain k UUDs.",
+  "id": "A051288",
+  "mentions": [
+    "A000984",
+    "A091894"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:13:51",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

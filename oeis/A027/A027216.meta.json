@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n-1} T(n,k)*T(n,k+1), T given by A026736.",
+  "id": "A027216",
+  "mentions": [
+    "A001622",
+    "A026736"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

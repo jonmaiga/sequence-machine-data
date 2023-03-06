@@ -1,0 +1,33 @@
+{
+  "description": "Number of binary Lyndon words containing n letters of each type; periodic binary sequences of period 2n with n zeros and n ones in each period.",
+  "id": "A022553",
+  "mentions": [
+    "A000108",
+    "A000740",
+    "A001037",
+    "A003239",
+    "A005354",
+    "A006177",
+    "A007727",
+    "A045630",
+    "A051168",
+    "A060165",
+    "A074655",
+    "A074656",
+    "A086655",
+    "A268592",
+    "A268619",
+    "A289978"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

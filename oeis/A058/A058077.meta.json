@@ -1,0 +1,23 @@
+{
+  "description": "Binomial coefficients formed from consecutive primes: a(n) = binomial( prime(n+1), prime(n) ).",
+  "id": "A058077",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A037293",
+    "A066526",
+    "A080911",
+    "A277341"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

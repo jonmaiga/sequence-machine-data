@@ -1,0 +1,29 @@
+{
+  "description": "Write cosec x = 1/x + Sum e_n x^(2n-1)/(2n-1)!; sequence gives denominators of e_n.",
+  "id": "A036283",
+  "mentions": [
+    "A000292",
+    "A006953",
+    "A036280",
+    "A036282",
+    "A107963",
+    "A160487",
+    "A161739",
+    "A161740",
+    "A161741",
+    "A202318"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

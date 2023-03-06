@@ -1,0 +1,27 @@
+{
+  "description": "Initial values for f(x) = phi(sigma(x)) such that iteration of f ends in a cycle of length 3.",
+  "id": "A095953",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A095952",
+    "A095954",
+    "A095955",
+    "A095956",
+    "A096526",
+    "A096887",
+    "A096888",
+    "A096889",
+    "A096890"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

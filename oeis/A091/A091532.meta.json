@@ -1,0 +1,19 @@
+{
+  "description": "Where the number of terms in simple continued fraction for H(j) exceeds all H(i), j>i and H(k) is the k-th harmonic number.",
+  "id": "A091532",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A055573"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

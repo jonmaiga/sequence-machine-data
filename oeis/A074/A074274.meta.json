@@ -1,0 +1,19 @@
+{
+  "description": "Gaps between even number of 1's in the Kolakoski sequence A000002.",
+  "id": "A074274",
+  "mentions": [
+    "A000002",
+    "A074273"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

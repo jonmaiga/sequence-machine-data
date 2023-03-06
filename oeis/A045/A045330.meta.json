@@ -1,0 +1,18 @@
+{
+  "description": "Lesser of the smallest pair of consecutive numbers divisible by an n-th power, but not both divisible by an (n+1)-st power.",
+  "id": "A045330",
+  "mentions": [
+    "A059737",
+    "A063528"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

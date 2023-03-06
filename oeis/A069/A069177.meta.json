@@ -1,0 +1,24 @@
+{
+  "description": "Maximal power of 2 that divides Phi(n), or the size of the Sylow 2-subgroup of the group of units mod n.",
+  "id": "A069177",
+  "mentions": [
+    "A000010",
+    "A006519",
+    "A020639",
+    "A023506",
+    "A028234",
+    "A053574"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

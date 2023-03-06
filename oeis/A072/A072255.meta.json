@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to partition {1,2,...,n} into arithmetic progressions, where in each partition all the progressions have the same common difference and have lengths >= 2.",
+  "id": "A072255",
+  "mentions": [
+    "A000045",
+    "A053732"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 2,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

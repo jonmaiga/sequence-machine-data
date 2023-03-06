@@ -1,0 +1,17 @@
+{
+  "description": "Deficient numbers n such that n-s(n)-s(n-s(n)) = s(s(n))-s(n) or s(n-s(n))-n+s(n) = s(n)-s(s(n)).",
+  "id": "A037139",
+  "mentions": [
+    "A001065"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "description": "Square array read by falling antidiagonals of central polynomial coefficients: largest coefficient in expansion of (1 + x + x^2 + ... + x^(n-1))^k = ((1-x^n)/(1-x))^k, i.e., the coefficient of x^floor(k*(n-1)/2) and of x^ceiling(k*(n-1)/2); also number of compositions of floor(k*(n+1)/2) into exactly k positive integers each no more than n.",
+  "id": "A077042",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001405",
+    "A001477",
+    "A002426",
+    "A005190",
+    "A005191",
+    "A005900",
+    "A018901",
+    "A025012",
+    "A025013",
+    "A025014",
+    "A025015",
+    "A067059",
+    "A071816",
+    "A077043",
+    "A077044",
+    "A077045",
+    "A077046",
+    "A077047",
+    "A133458",
+    "A201549",
+    "A201550",
+    "A201552",
+    "A225779",
+    "A270918",
+    "A273975"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

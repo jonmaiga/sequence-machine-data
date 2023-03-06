@@ -1,0 +1,22 @@
+{
+  "description": "Thickened cube numbers: a(n) = n*(n^2 + (n-1)^2) + (n-1)*2*n*(n-1).",
+  "id": "A050492",
+  "mentions": [
+    "A001844",
+    "A046092",
+    "A050533"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

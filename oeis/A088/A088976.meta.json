@@ -1,0 +1,18 @@
+{
+  "description": "Breadth-first traversal of the Collatz tree, with the even child of each node traversed prior to its odd child. If the Collatz 3n+1 conjecture is true, this is a permutation of all positive integers.",
+  "id": "A088976",
+  "mentions": [
+    "A127824"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

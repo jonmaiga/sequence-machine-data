@@ -1,0 +1,20 @@
+{
+  "description": "Smallest triangular number that contains the string n in its exact center.",
+  "id": "A062690",
+  "mentions": [
+    "A018855",
+    "A062829"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

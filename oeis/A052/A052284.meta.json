@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions of n into nonprime numbers.",
+  "id": "A052284",
+  "mentions": [
+    "A000041",
+    "A002095",
+    "A023360",
+    "A157424",
+    "A224344"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

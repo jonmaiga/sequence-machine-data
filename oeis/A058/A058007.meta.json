@@ -1,0 +1,19 @@
+{
+  "description": "Freestyle perfect numbers n = Product_{i=1,..,k} f_i^e_i where 1 < f_1 < ... < f_k, e_i > 0, such that 2n = Product_{i=1,..,k} (f_i^(e_i+1)-1)/(f_i-1).",
+  "id": "A058007",
+  "mentions": [
+    "A000396",
+    "A174292"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

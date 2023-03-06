@@ -1,0 +1,17 @@
+{
+  "description": "Largest k such that A005132(n+2*i) = A005132(n) - i for any 0<=i<=k.",
+  "id": "A076266",
+  "mentions": [
+    "A005132"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

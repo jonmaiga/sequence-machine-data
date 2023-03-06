@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(511).",
+  "id": "A041977",
+  "mentions": [
+    "A041976"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:07:04",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

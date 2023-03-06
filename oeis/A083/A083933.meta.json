@@ -1,0 +1,22 @@
+{
+  "description": "A063171-encoding of A083923-trees.",
+  "id": "A083933",
+  "mentions": [
+    "A007088",
+    "A063171",
+    "A080317",
+    "A083923",
+    "A083932"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

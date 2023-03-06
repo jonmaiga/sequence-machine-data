@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n which in decimal have the form imj, where m is the middle digit, with property that j is the reversal of i, and i = m*j.",
+  "id": "A082945",
+  "mentions": [
+    "A002113",
+    "A008919",
+    "A031877"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

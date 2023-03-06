@@ -1,0 +1,17 @@
+{
+  "description": "Special connected numbers: minimal and maximal connected numbers (cf. A029827) of a given binary order, i.e., between two consecutive powers of 2.",
+  "id": "A036379",
+  "mentions": [
+    "A029827"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

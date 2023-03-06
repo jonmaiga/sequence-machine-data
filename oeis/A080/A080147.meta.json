@@ -1,0 +1,21 @@
+{
+  "description": "Positions of primes of the form 4*k+1 (A002144) among all primes (A000040).",
+  "id": "A080147",
+  "mentions": [
+    "A000040",
+    "A002144",
+    "A080148"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

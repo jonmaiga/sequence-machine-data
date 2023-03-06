@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of square root of 40.",
+  "id": "A010494",
+  "mentions": [
+    "A000045",
+    "A010467",
+    "A040033"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct (modulo rotation and reflection) n X n panmagic = pandiagonal = diabolic = Nasik squares.",
+  "id": "A027567",
+  "mentions": [
+    "A006052"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

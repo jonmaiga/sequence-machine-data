@@ -1,0 +1,21 @@
+{
+  "description": "Hankel transform of the sequence A001469 (unsigned), Genocchi numbers of first kind.",
+  "id": "A091810",
+  "mentions": [
+    "A000178",
+    "A001469",
+    "A001906",
+    "A055209"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

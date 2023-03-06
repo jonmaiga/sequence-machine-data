@@ -1,0 +1,33 @@
+{
+  "description": "Number of set partitions up to rotations and reflections.",
+  "id": "A084708",
+  "mentions": [
+    "A000013",
+    "A002872",
+    "A002874",
+    "A036075",
+    "A036077",
+    "A056357",
+    "A056358",
+    "A056359",
+    "A056360",
+    "A056361",
+    "A080107",
+    "A080510",
+    "A084423",
+    "A141003",
+    "A141004",
+    "A152176"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "24-gonal numbers: a(n) = n*(11*n-10).",
+  "id": "A051876",
+  "mentions": [
+    "A000217",
+    "A051624"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:19",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

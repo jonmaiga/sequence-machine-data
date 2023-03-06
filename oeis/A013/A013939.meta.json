@@ -1,0 +1,32 @@
+{
+  "description": "Partial sums of sequence A001221 (number of distinct primes dividing n).",
+  "id": "A013939",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A005187",
+    "A006218",
+    "A011371",
+    "A013936",
+    "A022559",
+    "A027748",
+    "A048865",
+    "A077761",
+    "A082287",
+    "A093614",
+    "A346617"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "For a prime p, let k(p) be the least k such that 2kp+1 is prime. Sequence gives primes for which k(p) exceeds k(q) for all primes q < p.",
+  "id": "A074884",
+  "mentions": [
+    "A117673"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

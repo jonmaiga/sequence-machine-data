@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways of placing n nonattacking superqueens on n X n board (symmetric solutions count only once).",
+  "id": "A051224",
+  "mentions": [
+    "A002562",
+    "A051223",
+    "A352661",
+    "A352662",
+    "A352663"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

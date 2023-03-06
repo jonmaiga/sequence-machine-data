@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = phi(2n)/2^omega(n).",
+  "id": "A089692",
+  "mentions": [
+    "A000010",
+    "A001221",
+    "A034444",
+    "A062570"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

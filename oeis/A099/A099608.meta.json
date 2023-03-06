@@ -1,0 +1,32 @@
+{
+  "description": "Table of crystal ball sequences for A_n lattices read by antidiagonals.",
+  "id": "A099608",
+  "mentions": [
+    "A000012",
+    "A003215",
+    "A005258",
+    "A005408",
+    "A005902",
+    "A008384",
+    "A008386",
+    "A008388",
+    "A008390",
+    "A008392",
+    "A008394",
+    "A008396",
+    "A099601",
+    "A108625"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

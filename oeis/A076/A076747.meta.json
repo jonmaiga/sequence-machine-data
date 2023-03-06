@@ -1,0 +1,17 @@
+{
+  "description": "List giving pairs of primes of the form 10k+3 and 10k+13.",
+  "id": "A076747",
+  "mentions": [
+    "A076746"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

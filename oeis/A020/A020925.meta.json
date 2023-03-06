@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (1-4*x)^(13/2).",
+  "id": "A020925",
+  "mentions": [
+    "A001622",
+    "A002420",
+    "A002421",
+    "A002422",
+    "A002423",
+    "A002424",
+    "A020923"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

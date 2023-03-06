@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 2*k-1 and 2*k+1 are semiprimes.",
+  "id": "A082130",
+  "mentions": [
+    "A001358",
+    "A082131"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

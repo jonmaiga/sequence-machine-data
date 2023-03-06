@@ -1,0 +1,27 @@
+{
+  "description": "Never reaches a prime under \"Sum of digits raised to its digits' powers\" procedure.",
+  "id": "A046441",
+  "mentions": [
+    "A046431",
+    "A046432",
+    "A046433",
+    "A046434",
+    "A046435",
+    "A046436",
+    "A046437",
+    "A046438",
+    "A046439",
+    "A046440"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:32:59",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

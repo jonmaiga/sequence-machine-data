@@ -1,0 +1,18 @@
+{
+  "description": "Distinct odd numbers in the numerators of the 1/5-Pascal triangle (by row).",
+  "id": "A046624",
+  "mentions": [
+    "A046601"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:58:38",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

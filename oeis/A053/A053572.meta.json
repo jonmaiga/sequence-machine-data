@@ -1,0 +1,17 @@
+{
+  "description": "Maximal number of spanning trees in a planar graph with n nodes.",
+  "id": "A053572",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

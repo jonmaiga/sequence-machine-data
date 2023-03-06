@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that Mertens's function M(k) (A002321) is zero.",
+  "id": "A028442",
+  "mentions": [
+    "A002321",
+    "A118684",
+    "A171096"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

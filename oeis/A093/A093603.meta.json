@@ -1,0 +1,21 @@
+{
+  "description": "Bisecting a triangular cake using a curved cut of minimal length: decimal expansion of sqrt(Pi/sqrt(3))/2 = d/2, where d^2 = Pi/sqrt(3).",
+  "id": "A093603",
+  "mentions": [
+    "A093602",
+    "A093604"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:13:13",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

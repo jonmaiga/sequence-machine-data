@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose square has its digits in nondecreasing order.",
+  "id": "A028819",
+  "mentions": [
+    "A000290",
+    "A028820"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

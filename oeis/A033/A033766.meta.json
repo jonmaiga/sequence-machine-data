@@ -1,0 +1,21 @@
+{
+  "description": "Number of prime divisors (counted without multiplicity) of A138613(n).",
+  "id": "A033766",
+  "mentions": [
+    "A001221",
+    "A035162",
+    "A079488",
+    "A138613"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

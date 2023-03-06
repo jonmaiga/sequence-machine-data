@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of coefficients in Taylor series for exp(sin(x)).",
+  "id": "A047688",
+  "mentions": [
+    "A002017",
+    "A047687"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

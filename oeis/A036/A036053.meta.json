@@ -1,0 +1,18 @@
+{
+  "description": "Product of order of cycles of the permutation created by length sorting on the partitions of n.",
+  "id": "A036053",
+  "mentions": [
+    "A036045",
+    "A036056"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:42:32",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

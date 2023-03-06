@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 2^k mod k = 2^k mod k^2.",
+  "id": "A068535",
+  "mentions": [
+    "A000079",
+    "A001220",
+    "A125773",
+    "A125774",
+    "A125775"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

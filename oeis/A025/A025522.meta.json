@@ -1,0 +1,17 @@
+{
+  "description": "Least k>1 such that reverse complement of first n terms of A022303 repeats beginning at k-th term.",
+  "id": "A025522",
+  "mentions": [
+    "A022303"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

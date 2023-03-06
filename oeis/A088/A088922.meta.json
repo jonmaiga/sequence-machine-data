@@ -1,0 +1,23 @@
+{
+  "description": "Consider the n X n matrix with entries (i*j mod n), where i,j=0..n-1; a(n) = rank of this matrix over the real numbers.",
+  "id": "A088922",
+  "mentions": [
+    "A000005",
+    "A000927",
+    "A055513",
+    "A110654",
+    "A203411",
+    "A218322"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

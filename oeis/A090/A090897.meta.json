@@ -1,0 +1,23 @@
+{
+  "description": "Next n digits of Pi.",
+  "id": "A090897",
+  "mentions": [
+    "A000796",
+    "A016062",
+    "A081368",
+    "A086639"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

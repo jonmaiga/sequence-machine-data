@@ -1,0 +1,19 @@
+{
+  "description": "Table (by antidiagonals) of permutations of two types of objects such that each cycle contains at least one object of each type. Each type of object is labeled from its own label set.",
+  "id": "A091441",
+  "mentions": [
+    "A008292"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

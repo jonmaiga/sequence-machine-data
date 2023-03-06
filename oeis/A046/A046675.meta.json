@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{i>0} (1-x^{p_i}), where p_i are the primes.",
+  "id": "A046675",
+  "mentions": [
+    "A000586",
+    "A000607",
+    "A184171",
+    "A184172"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

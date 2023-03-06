@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = j if n = [ j*sqrt(3) ], else a(n) = k if n = [ (k/2)*(3 + sqrt(3)) ].",
+  "id": "A026254",
+  "mentions": [
+    "A022838",
+    "A054406",
+    "A178528"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

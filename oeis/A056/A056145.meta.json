@@ -1,0 +1,19 @@
+{
+  "description": "Palindromic primes in bases 2 and 8.",
+  "id": "A056145",
+  "mentions": [
+    "A016041",
+    "A029976"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:31:03",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 1; a(n+1) = product of numerator and denominator in Sum_{k=1..n} 1/a(k).",
+  "id": "A064170",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A001906",
+    "A005248",
+    "A033890",
+    "A049684",
+    "A058038",
+    "A059929"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

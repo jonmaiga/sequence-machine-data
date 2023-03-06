@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that phi(x) = p - 1 has more than 2 solutions.",
+  "id": "A058341",
+  "mentions": [
+    "A000010",
+    "A005277",
+    "A006093",
+    "A014197",
+    "A058277"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:20",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

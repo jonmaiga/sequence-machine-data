@@ -1,0 +1,28 @@
+{
+  "description": "Order of general affine group over GF(2), AGL(n,2).",
+  "id": "A028365",
+  "mentions": [
+    "A000217",
+    "A002884",
+    "A005329",
+    "A020522",
+    "A048651",
+    "A053601",
+    "A171499",
+    "A203303",
+    "A203305"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:37",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

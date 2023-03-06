@@ -1,0 +1,20 @@
+{
+  "description": "Positions of 0's in the decimal expansion of the Golden Ratio (sqrt(5)+1)/2.",
+  "id": "A054286",
+  "mentions": [
+    "A054276",
+    "A054296",
+    "A054306"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:17:59",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

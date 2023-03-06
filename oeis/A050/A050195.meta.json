@@ -1,0 +1,15 @@
+{
+  "description": "a(n)=a(n-1)+a(n-2)-d, where d=a(n/5) if 5 divides n, else d=0; 2 initial terms.",
+  "id": "A050195",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:01:42",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

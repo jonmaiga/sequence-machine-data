@@ -1,0 +1,20 @@
+{
+  "description": "Coordination sequence for AlPO_4-11 structure with respect to node (Y) where decagon, hexagon and square meet and is adjacent to node of type (X).",
+  "id": "A072150",
+  "mentions": [
+    "A072149",
+    "A072154"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

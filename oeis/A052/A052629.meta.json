@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. (1-x)/(1-5x+3x^2).",
+  "id": "A052629",
+  "mentions": [
+    "A018902"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:50:43",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

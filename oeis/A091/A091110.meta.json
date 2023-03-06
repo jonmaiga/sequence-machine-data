@@ -1,0 +1,19 @@
+{
+  "description": "Number of editing steps (deletion, insertion, or substitution) to transform the binary representation of n into the ternary representation of n.",
+  "id": "A091110",
+  "mentions": [
+    "A007088",
+    "A091111"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

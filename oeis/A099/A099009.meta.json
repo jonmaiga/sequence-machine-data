@@ -1,0 +1,40 @@
+{
+  "description": "Fixed points of the Kaprekar mapping f(n) = n' - n'', where in n' the digits of n are arranged in descending, in n'' in ascending order.",
+  "id": "A099009",
+  "mentions": [
+    "A004185",
+    "A004186",
+    "A055160",
+    "A055162",
+    "A069746",
+    "A090429",
+    "A099010",
+    "A132155",
+    "A151949",
+    "A151959",
+    "A163205",
+    "A164997",
+    "A165016",
+    "A165036",
+    "A165055",
+    "A165075",
+    "A165094",
+    "A165114",
+    "A214555",
+    "A214556",
+    "A214557",
+    "A214558",
+    "A214559"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

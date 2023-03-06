@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = 12^n - n^6.",
+  "id": "A024146",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

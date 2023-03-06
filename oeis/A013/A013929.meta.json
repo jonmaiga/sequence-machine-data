@@ -1,0 +1,51 @@
+{
+  "description": "Numbers that are not squarefree. Numbers that are divisible by a square greater than 1. The complement of A005117.",
+  "id": "A013929",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A000688",
+    "A001221",
+    "A001222",
+    "A001694",
+    "A003958",
+    "A005117",
+    "A007913",
+    "A008477",
+    "A008683",
+    "A008966",
+    "A023900",
+    "A034444",
+    "A034448",
+    "A038109",
+    "A045882",
+    "A051731",
+    "A054525",
+    "A056170",
+    "A057918",
+    "A070237",
+    "A114374",
+    "A130897",
+    "A190641",
+    "A192005",
+    "A192280",
+    "A193166",
+    "A229099",
+    "A256012",
+    "A332785",
+    "A351381",
+    "A353282"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:20",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numerators in an asymptotic expansion of Ramanujan.",
+  "id": "A090804",
+  "mentions": [
+    "A005446",
+    "A005447",
+    "A007318",
+    "A065973",
+    "A264148"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

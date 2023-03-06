@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonnegative integer pairs (i,j) with binomial(i+r,r) + binomial(j+r,r) <= binomial(n+r,r), r=5.",
+  "id": "A052118",
+  "mentions": [
+    "A052115",
+    "A052116",
+    "A052117"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:23",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Palindromic and divisible by 8.",
+  "id": "A045643",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:25:29",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

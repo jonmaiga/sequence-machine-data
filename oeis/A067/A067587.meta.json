@@ -1,0 +1,23 @@
+{
+  "description": "Inverse of A066884 considered as a permutation of the positive integers.",
+  "id": "A067587",
+  "mentions": [
+    "A000120",
+    "A066884",
+    "A068076",
+    "A263017",
+    "A356419"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

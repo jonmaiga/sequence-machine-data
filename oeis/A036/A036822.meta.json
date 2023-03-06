@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions satisfying cn(1,5) = cn(4,5) = 0.",
+  "id": "A036822",
+  "mentions": [
+    "A036820",
+    "A113428"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

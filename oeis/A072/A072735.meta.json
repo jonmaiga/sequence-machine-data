@@ -1,0 +1,24 @@
+{
+  "description": "Simple triangle-stretching N X N -> N bijection: Inverse of A072734, variant of A072733.",
+  "id": "A072735",
+  "mentions": [
+    "A001477",
+    "A002262",
+    "A025581",
+    "A072733",
+    "A072734",
+    "A072781",
+    "A072782"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

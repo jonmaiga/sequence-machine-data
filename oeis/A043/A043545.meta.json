@@ -1,0 +1,24 @@
+{
+  "description": "(Maximal base-2 digit of n) - (minimal base-2 digit of n).",
+  "id": "A043545",
+  "mentions": [
+    "A000225",
+    "A000777",
+    "A006530",
+    "A036987",
+    "A062289",
+    "A347519"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

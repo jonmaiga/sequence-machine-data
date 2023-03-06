@@ -1,0 +1,24 @@
+{
+  "description": "Table by antidiagonals used in calculating integer solutions to b^c=c^d with b,c,d>0.",
+  "id": "A072651",
+  "mentions": [
+    "A051285",
+    "A052409",
+    "A052410",
+    "A070023",
+    "A072652",
+    "A072653"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

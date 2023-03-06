@@ -1,0 +1,21 @@
+{
+  "description": "Dimension of space of invariants of n-th tensor power of 7-dimensional irreducible representation of G_2. Also the number of n-leaf, otherwise trivalent graphs in a disk such that all faces have at least 6 sides.",
+  "id": "A059710",
+  "mentions": [
+    "A000108",
+    "A060049",
+    "A227849"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

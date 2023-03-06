@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of q-series 1 / (q^2, q^3, q^9, q^10; q^12)_infinity.",
+  "id": "A097242",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A053993",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:52:03",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

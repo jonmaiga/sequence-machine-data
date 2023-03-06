@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime divisor of sum of three successive terms pertaining to A075571.",
+  "id": "A075572",
+  "mentions": [
+    "A075571"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

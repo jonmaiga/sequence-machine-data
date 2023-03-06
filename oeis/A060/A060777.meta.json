@@ -1,0 +1,23 @@
+{
+  "description": "Larger central (or median) divisor of n!.",
+  "id": "A060777",
+  "mentions": [
+    "A000005",
+    "A000142",
+    "A000196",
+    "A027423",
+    "A055226",
+    "A060776",
+    "A061057"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

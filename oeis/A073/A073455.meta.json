@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that to phi(n) = pi(n)-1.",
+  "id": "A073455",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A037171",
+    "A037228"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

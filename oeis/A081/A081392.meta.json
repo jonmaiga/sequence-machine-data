@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that the central binomial coefficient C(k, floor(k/2)) has only one prime divisor whose exponent is greater than one.",
+  "id": "A081392",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A001405",
+    "A046098",
+    "A080664",
+    "A081386",
+    "A081391",
+    "A190641"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

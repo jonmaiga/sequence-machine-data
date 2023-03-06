@@ -1,0 +1,22 @@
+{
+  "description": "Rectangular array T(n,k) read by antidiagonals; generating function of row n is 1/F(n,x), where F(n,x) is the polynomial 1 - x - x^2 - 2*x^3 -...- F(n+1)*x^n and F(n+1) is the (n+1)st Fibonacci number, for n=0,1,2,...",
+  "id": "A096669",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000129",
+    "A077947",
+    "A096670"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

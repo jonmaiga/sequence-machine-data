@@ -1,0 +1,22 @@
+{
+  "description": "Largest possible z-value of an integer solution (x,y,z) to 4/n = 1/x + 1/y + 1/z satisfying 0 < x < y < z. The x and y components are in A075245 and A075246.",
+  "id": "A075247",
+  "mentions": [
+    "A073101",
+    "A075245",
+    "A075246",
+    "A192787"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 3,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Primes of form pq + 2 where p and q are twin primes.",
+  "id": "A051779",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A005384",
+    "A006512",
+    "A037074",
+    "A048880",
+    "A054735",
+    "A125251"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

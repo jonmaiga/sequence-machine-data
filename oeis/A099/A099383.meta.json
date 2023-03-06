@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into minimal numbers.",
+  "id": "A099383",
+  "mentions": [
+    "A000041",
+    "A005179",
+    "A007416",
+    "A099384",
+    "A099385"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:50:03",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

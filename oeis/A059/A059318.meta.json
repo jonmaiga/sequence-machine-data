@@ -1,0 +1,24 @@
+{
+  "description": "Pascal's \"rhombus\" (actually a triangle) mod 2, read by rows: each entry is sum modulo 2 of 3 terms above it in previous row and one term above it two rows back.",
+  "id": "A059318",
+  "mentions": [
+    "A007318",
+    "A059317",
+    "A059319",
+    "A059320",
+    "A284208",
+    "A284209"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:29:49",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

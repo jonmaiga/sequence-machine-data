@@ -1,0 +1,37 @@
+{
+  "description": "a(n) is the n-th term of sequence A_n, ignoring the offset, or -1 if A_n has fewer than n terms.",
+  "id": "A091967",
+  "mentions": [
+    "A000001",
+    "A000002",
+    "A000003",
+    "A000004",
+    "A000005",
+    "A000006",
+    "A000007",
+    "A000008",
+    "A000009",
+    "A000010",
+    "A000011",
+    "A000012",
+    "A000013",
+    "A000014",
+    "A000015",
+    "A000026",
+    "A000053",
+    "A000058",
+    "A051070",
+    "A102288",
+    "A107357"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

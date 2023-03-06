@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are 2-persistent but not 3-persistent.",
+  "id": "A051018",
+  "mentions": [
+    "A051019",
+    "A051020",
+    "A051264",
+    "A171102",
+    "A204047",
+    "A204096",
+    "A204097"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:52:49",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

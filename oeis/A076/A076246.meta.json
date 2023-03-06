@@ -1,0 +1,21 @@
+{
+  "description": "Totients of those numbers at which values of A051547 increase: in these consecutive terms new prime powers arise, i.e., which did not occur in neither of preceding terms.",
+  "id": "A076246",
+  "mentions": [
+    "A003418",
+    "A051451",
+    "A051547",
+    "A076244",
+    "A076245"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

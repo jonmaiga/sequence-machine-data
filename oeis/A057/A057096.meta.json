@@ -1,0 +1,26 @@
+{
+  "description": "Saint-Exupéry numbers: ordered products of the three sides of Pythagorean triangles.",
+  "id": "A057096",
+  "mentions": [
+    "A009004",
+    "A009012",
+    "A009111",
+    "A020886",
+    "A057097",
+    "A057098",
+    "A057099",
+    "A057100"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

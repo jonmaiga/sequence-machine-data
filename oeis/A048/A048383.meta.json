@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that replacing each nonzero digit d with the d-th prime (replacing each 0 digit with a 1) yields a square.",
+  "id": "A048383",
+  "mentions": [
+    "A000290",
+    "A048380",
+    "A048384"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:20",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Order of recurrence generating row (or column) n of A089934.",
+  "id": "A089935",
+  "mentions": [
+    "A000045",
+    "A001224",
+    "A001333",
+    "A051736",
+    "A051737",
+    "A089934",
+    "A089936",
+    "A089937",
+    "A089938"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

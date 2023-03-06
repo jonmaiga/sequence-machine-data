@@ -1,0 +1,22 @@
+{
+  "description": "Let S(0) = {}, S(n) = {S(n-1), S(n-1), n}; sequence gives S(infinity).",
+  "id": "A082850",
+  "mentions": [
+    "A001511",
+    "A082851",
+    "A101925",
+    "A182105"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hear",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:49",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

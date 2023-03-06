@@ -1,0 +1,25 @@
+{
+  "description": "Primes of the form 2^r*p^s - 1, where p is an odd prime.",
+  "id": "A086983",
+  "mentions": [
+    "A005105",
+    "A005109",
+    "A077313",
+    "A077314",
+    "A077315",
+    "A077497",
+    "A077498",
+    "A077499",
+    "A077500"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

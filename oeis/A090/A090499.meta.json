@@ -1,0 +1,18 @@
+{
+  "description": "Group the natural numbers so that the sum of the numbers of divisors of the members of the (n+1)th group exceeds that for the n-th group. Sequence contains the first term of each group.",
+  "id": "A090499",
+  "mentions": [
+    "A090500",
+    "A090501"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

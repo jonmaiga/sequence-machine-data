@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having at least two representations as a sum of two powerful numbers (A001694).",
+  "id": "A085255",
+  "mentions": [
+    "A001694",
+    "A076871",
+    "A085252",
+    "A085253",
+    "A085254"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

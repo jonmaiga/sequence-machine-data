@@ -1,0 +1,30 @@
+{
+  "description": "Array T read by antidiagonals: T(n,k) is the number of involutions avoiding 132 and 12...k.",
+  "id": "A094718",
+  "mentions": [
+    "A000004",
+    "A000007",
+    "A000045",
+    "A001405",
+    "A014495",
+    "A016116",
+    "A028495",
+    "A030436",
+    "A038754",
+    "A061551",
+    "A080934",
+    "A094719"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

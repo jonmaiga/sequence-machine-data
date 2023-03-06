@@ -1,0 +1,20 @@
+{
+  "description": "Consider primes p with least positive primitive root g such that q=p+g is next prime after p; sequence gives values of g.",
+  "id": "A047935",
+  "mentions": [
+    "A001918",
+    "A047933",
+    "A047934"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:26:39",
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

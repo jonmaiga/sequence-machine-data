@@ -1,0 +1,18 @@
+{
+  "description": "Least perfect power b^e such that b^e-n is also a perfect power, or 0 if no such perfect power exists.",
+  "id": "A074954",
+  "mentions": [
+    "A001597",
+    "A074981"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

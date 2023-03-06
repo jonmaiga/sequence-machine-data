@@ -1,0 +1,20 @@
+{
+  "description": "Indices of Fibonacci numbers that satisfy: Sum_{k>=1} 1/F(a(k))) = 1, where F(k) gives the k-th Fibonacci number with F(0)=1, such that the partial sums are nearest to, but never exceed, unity.",
+  "id": "A084907",
+  "mentions": [
+    "A000045",
+    "A084908",
+    "A084909",
+    "A244847"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

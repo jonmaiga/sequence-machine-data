@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of claw-free simple graphs (not necessarily connected) on n nodes.",
+  "id": "A086991",
+  "mentions": [
+    "A022562"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

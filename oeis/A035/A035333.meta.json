@@ -1,0 +1,26 @@
+{
+  "description": "Concatenation of two or more consecutive positive integers.",
+  "id": "A035333",
+  "mentions": [
+    "A000027",
+    "A001703",
+    "A007908",
+    "A052087",
+    "A053067",
+    "A127421",
+    "A279204",
+    "A279610"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

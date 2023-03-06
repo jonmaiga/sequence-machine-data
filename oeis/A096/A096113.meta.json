@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(2) = 2; then all new products of subsets of pre-existing terms, then the first integer not present, and so on.",
+  "id": "A096113",
+  "mentions": [
+    "A052330",
+    "A096111"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "k is the first integer such that phi(k + n) | sigma(k).",
+  "id": "A015971",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:01:54",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

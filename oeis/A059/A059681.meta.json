@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) giving number of fixed 5 X k polyominoes with n cells (n >= 5, 1<=k<=n-4).",
+  "id": "A059681",
+  "mentions": [
+    "A059678",
+    "A059679",
+    "A059680",
+    "A292357"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 5,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

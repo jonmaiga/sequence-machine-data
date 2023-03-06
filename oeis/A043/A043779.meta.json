@@ -1,0 +1,16 @@
+{
+  "description": "Numbers n such that number of runs in the base 3 representation of n is congruent to 3 mod 4.",
+  "id": "A043779",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:59",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

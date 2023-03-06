@@ -1,0 +1,26 @@
+{
+  "description": "Number of binary bit strings of length n with no block of 8 or more 0's. Nonzero heptanacci numbers, A122189.",
+  "id": "A066178",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A000078",
+    "A001591",
+    "A001592",
+    "A048887",
+    "A092921",
+    "A122189"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:50:35",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

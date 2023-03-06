@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers not ending in zero that yield a prime when turned upside down.",
+  "id": "A048889",
+  "mentions": [
+    "A002808",
+    "A010051"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

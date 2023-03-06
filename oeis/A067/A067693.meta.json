@@ -1,0 +1,19 @@
+{
+  "description": "Minimum length of the self-conjugates partitions of n (0 if n=2; length of a partition is the number of parts).",
+  "id": "A067693",
+  "mentions": [
+    "A000700",
+    "A047993"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

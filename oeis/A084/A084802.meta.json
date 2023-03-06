@@ -1,0 +1,21 @@
+{
+  "description": "Least positive integers, all distinct, that satisfy sum(n>0,1/a(n)^z)=0, where z=(24+i*7)/25.",
+  "id": "A084802",
+  "mentions": [
+    "A084589",
+    "A084799",
+    "A084801",
+    "A084803",
+    "A084810"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

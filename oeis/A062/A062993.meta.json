@@ -1,0 +1,30 @@
+{
+  "description": "A triangle (lower triangular matrix) composed of Pfaff-Fuss (or Raney) sequences.",
+  "id": "A062993",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A002293",
+    "A002294",
+    "A002295",
+    "A002296",
+    "A007556",
+    "A059968",
+    "A062994",
+    "A070914",
+    "A230388"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Replace 3^k with (-2)^k in balanced ternary expansion of n.",
+  "id": "A065366",
+  "mentions": [
+    "A065364",
+    "A065365"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

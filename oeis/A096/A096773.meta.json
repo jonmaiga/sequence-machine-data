@@ -1,0 +1,24 @@
+{
+  "description": "a(n+2) = 4*a(n) + 1; a(1) = 0, a(2) = 3.",
+  "id": "A096773",
+  "mentions": [
+    "A001045",
+    "A002450",
+    "A004171",
+    "A072197",
+    "A086893",
+    "A266753"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

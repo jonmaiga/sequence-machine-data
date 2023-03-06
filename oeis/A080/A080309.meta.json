@@ -1,0 +1,18 @@
+{
+  "description": "n-th even number equals n-th multiple of a Fermat number.",
+  "id": "A080309",
+  "mentions": [
+    "A000215",
+    "A080307"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

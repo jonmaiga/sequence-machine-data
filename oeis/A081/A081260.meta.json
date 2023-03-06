@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=4; for n>1, a(n) is taken to be the third-smallest integer greater than a(n-1) such that the condition \"n is a member of the sequence if and only if a(n) is odd\" is satisfied.",
+  "id": "A081260",
+  "mentions": [
+    "A079000",
+    "A080753"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

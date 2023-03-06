@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-crossing links with alternating braids of 3 strands.",
+  "id": "A094029",
+  "mentions": [
+    "A094030",
+    "A094031",
+    "A094032"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 4,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Smallest positive integer that is equal to the sum of the n-th powers of its prime factors (counted with multiplicity).",
+  "id": "A068916",
+  "mentions": [
+    "A000325",
+    "A024024",
+    "A024050",
+    "A067688",
+    "A081177",
+    "A268036"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

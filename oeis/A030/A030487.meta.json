@@ -1,0 +1,18 @@
+{
+  "description": "When squared gives number composed of digits {2, 5, 7}.",
+  "id": "A030487",
+  "mentions": [
+    "A030485"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

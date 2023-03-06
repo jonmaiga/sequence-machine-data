@@ -1,0 +1,17 @@
+{
+  "description": "p^q + q^p for twin primes p and q.",
+  "id": "A097501",
+  "mentions": [
+    "A051442"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

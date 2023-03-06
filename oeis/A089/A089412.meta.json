@@ -1,0 +1,21 @@
+{
+  "description": "Least common multiple of all cycle sizes in range [A014137(n-1)..A014138(n-1)] of permutation A074683/A074684.",
+  "id": "A089412",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A074683",
+    "A074684",
+    "A089408"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

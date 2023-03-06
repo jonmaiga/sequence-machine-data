@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (8^n + 2^n)/2.",
+  "id": "A081342",
+  "mentions": [
+    "A025551",
+    "A034494",
+    "A074603",
+    "A081343"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

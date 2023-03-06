@@ -1,0 +1,23 @@
+{
+  "description": "Triangle in which the n-th row contains the n smallest numbers containing the string of digits of n in increasing order.",
+  "id": "A072484",
+  "mentions": [
+    "A072483",
+    "A072485",
+    "A293869",
+    "A337918"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

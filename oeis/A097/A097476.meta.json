@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Product_{i=0..n-1} ((2i)!)^2.",
+  "id": "A097476",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:55:30",
+    "offset": 1,
+    "size": 7,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = T(2n,n-2), where T is the array in A026120.",
+  "id": "A026131",
+  "mentions": [
+    "A026120",
+    "A026128",
+    "A026132"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:29:10",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

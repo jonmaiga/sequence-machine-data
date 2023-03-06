@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = least common multiple of {1, 4, 7, 10, 13 ..., 3n+1} (A016777).",
+  "id": "A051536",
+  "mentions": [
+    "A016777",
+    "A051540",
+    "A059457",
+    "A074596",
+    "A075135"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are the products of distinct substrings (>1) of themselves and do not end in 0.",
+  "id": "A059470",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

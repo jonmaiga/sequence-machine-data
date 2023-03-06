@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) giving number of 4 X k polyominoes with n cells (n >= 4, 1<=k<=n-3).",
+  "id": "A059684",
+  "mentions": [
+    "A059680"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 4,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

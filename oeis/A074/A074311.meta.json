@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; a(2) = 2; a(n) = smallest number greater than the previous term such that the average of three successive terms is a prime.",
+  "id": "A074311",
+  "mentions": [
+    "A073627",
+    "A073628",
+    "A075551",
+    "A075552"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

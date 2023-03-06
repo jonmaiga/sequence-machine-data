@@ -1,0 +1,19 @@
+{
+  "description": "Quotient of 'base-3' division described in A032537.",
+  "id": "A032538",
+  "mentions": [
+    "A032532",
+    "A032536",
+    "A032537"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:42",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

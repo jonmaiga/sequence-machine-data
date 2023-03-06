@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = gcd(n!, n^n, lcm(1, 2, ..., n)), or gcd(n^n, lcm(1, 2, ..., n)).",
+  "id": "A064446",
+  "mentions": [
+    "A000142",
+    "A000312",
+    "A003418",
+    "A038610",
+    "A051696"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

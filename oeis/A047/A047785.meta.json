@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = ceiling(Li(n)).",
+  "id": "A047785",
+  "mentions": [
+    "A047783",
+    "A047784"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:50:47",
+    "offset": 2,
+    "size": 68,
+    "source": "joeis"
+  }
+}

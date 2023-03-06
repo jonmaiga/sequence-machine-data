@@ -1,0 +1,24 @@
+{
+  "description": "Number of Bottleneck-Monge matrices with 2 rows. In the formula below, P = 2.",
+  "id": "A070050",
+  "mentions": [
+    "A070051",
+    "A070052",
+    "A070053",
+    "A070054",
+    "A070055",
+    "A070057"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

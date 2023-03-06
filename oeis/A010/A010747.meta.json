@@ -1,0 +1,23 @@
+{
+  "description": "Shifts 6 places left under inverse binomial transform.",
+  "id": "A010747",
+  "mentions": [
+    "A003633",
+    "A010739",
+    "A010741",
+    "A010743",
+    "A010745"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

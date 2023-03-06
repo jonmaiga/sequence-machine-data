@@ -1,0 +1,33 @@
+{
+  "description": "Main diagonal of the array in which first column and row are filled alternatively with 1's or 0's and then T(i,j) = T(i-1,j) + T(i,j-1).",
+  "id": "A072547",
+  "mentions": [
+    "A000108",
+    "A000957",
+    "A014300",
+    "A026641",
+    "A078008",
+    "A088138",
+    "A092785",
+    "A108561",
+    "A112465",
+    "A172025",
+    "A172061",
+    "A172062",
+    "A172063",
+    "A172064",
+    "A172065",
+    "A172066"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=2; a(n) is the smallest k > a(n-1) such that the fractional part of k^(1/11) starts with n.",
+  "id": "A034076",
+  "mentions": [
+    "A034066",
+    "A034086"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:09",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

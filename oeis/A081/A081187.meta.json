@@ -1,0 +1,21 @@
+{
+  "description": "5th binomial transform of (1,0,1,0,1,...), A059841.",
+  "id": "A081187",
+  "mentions": [
+    "A007582",
+    "A059841",
+    "A081189"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

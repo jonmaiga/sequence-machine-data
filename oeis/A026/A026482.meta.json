@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = least positive integer > a(n-1) and not equal to a(i)*a(j)*a(k) for 1<=i<=j<=k",
+  "id": "A026482",
+  "mentions": [
+    "A026477",
+    "A026478",
+    "A026479",
+    "A026480",
+    "A026481"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

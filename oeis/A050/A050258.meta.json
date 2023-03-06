@@ -1,0 +1,20 @@
+{
+  "description": "Number of \"prime quadruplets\" with largest member < 10^n.",
+  "id": "A050258",
+  "mentions": [
+    "A007530",
+    "A090258"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

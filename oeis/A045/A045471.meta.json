@@ -1,0 +1,20 @@
+{
+  "description": "Primes congruent to 4 mod 7.",
+  "id": "A045471",
+  "mentions": [
+    "A042990",
+    "A045458",
+    "A045473"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:23:21",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

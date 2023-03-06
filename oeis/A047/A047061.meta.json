@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{i=0..n} A047060(i,n-i).",
+  "id": "A047061",
+  "mentions": [
+    "A047060"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:02:10",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

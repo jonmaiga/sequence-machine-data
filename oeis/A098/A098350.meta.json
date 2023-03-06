@@ -1,0 +1,23 @@
+{
+  "description": "Multiplication table of the primes read by antidiagonals.",
+  "id": "A098350",
+  "mentions": [
+    "A001358",
+    "A003991",
+    "A006881",
+    "A087112",
+    "A098351"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:21:31",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

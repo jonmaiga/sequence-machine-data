@@ -1,0 +1,19 @@
+{
+  "description": "Exponent of 7 (value of j) in n-th number of form 4^i*7^j.",
+  "id": "A025666",
+  "mentions": [
+    "A025619",
+    "A025648"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:34",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

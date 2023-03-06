@@ -1,0 +1,21 @@
+{
+  "description": "Leading entries in triangle in A090548 and A113470.",
+  "id": "A090547",
+  "mentions": [
+    "A087308",
+    "A090548",
+    "A090549",
+    "A113470"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

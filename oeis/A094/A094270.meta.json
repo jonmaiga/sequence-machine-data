@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: row n contains the least set of n successive numbers whose product is a multiple of the product of the previous row. The first term of each row must be larger than the last term of the previous row.",
+  "id": "A094270",
+  "mentions": [
+    "A094271",
+    "A094272",
+    "A094273",
+    "A094274"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

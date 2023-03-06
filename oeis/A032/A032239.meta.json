@@ -1,0 +1,23 @@
+{
+  "description": "Number of identity bracelets of n beads of 2 colors.",
+  "id": "A032239",
+  "mentions": [
+    "A000011",
+    "A032337",
+    "A203399",
+    "A308583",
+    "A309528",
+    "A309651"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

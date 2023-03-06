@@ -1,0 +1,20 @@
+{
+  "description": "Product of first n terms of the binomial transform of the Catalan numbers (A007317).",
+  "id": "A086619",
+  "mentions": [
+    "A003046",
+    "A007317",
+    "A086620"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

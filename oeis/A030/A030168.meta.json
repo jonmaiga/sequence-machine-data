@@ -1,0 +1,21 @@
+{
+  "description": "Continued fraction for Copeland-Erdős constant 0.235711... (concatenate primes).",
+  "id": "A030168",
+  "mentions": [
+    "A033308",
+    "A072754",
+    "A072755"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

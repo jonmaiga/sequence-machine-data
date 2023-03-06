@@ -1,0 +1,28 @@
+{
+  "description": "Permutation of natural numbers: rotations of non-crossing handshakes encoded by A014486 (to opposite direction of A057501).",
+  "id": "A057502",
+  "mentions": [
+    "A000108",
+    "A002995",
+    "A014138",
+    "A014486",
+    "A057163",
+    "A057501",
+    "A057507",
+    "A057510",
+    "A057513",
+    "A069771",
+    "A069772",
+    "A069774"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Let P(m) = m/2 if m is even, m + rev(m) if m is odd, where rev(m) is m's base 10 representation reversed. It is conjectured that any number k eventually cycles when P is repeatedly applied to it. Sequence gives number of steps before the cycle is reached.",
+  "id": "A089605",
+  "mentions": [
+    "A089381"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

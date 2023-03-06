@@ -1,0 +1,30 @@
+{
+  "description": "The Roman numerals, with \"i\" replaced by \"1\", \"v\" replaced by \"5\", \"x\" replaced by 10, etc.",
+  "id": "A093788",
+  "mentions": [
+    "A002963",
+    "A003587",
+    "A006968",
+    "A036746",
+    "A036786",
+    "A036787",
+    "A036788",
+    "A057226",
+    "A061493",
+    "A160676",
+    "A160677",
+    "A199921"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

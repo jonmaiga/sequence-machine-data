@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that Fibonacci(k) == -55 (mod k).",
+  "id": "A023170",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

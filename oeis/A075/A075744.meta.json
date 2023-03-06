@@ -1,0 +1,20 @@
+{
+  "description": "Hierarchies of hierarchies.",
+  "id": "A075744",
+  "mentions": [
+    "A075729",
+    "A075756",
+    "A084357"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

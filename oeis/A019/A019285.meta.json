@@ -1,0 +1,31 @@
+{
+  "description": "Let sigma_m (n) be result of applying sum-of-divisors function m times to n; call n (m,k)-perfect if sigma_m (n) = k*n; sequence gives the (2,8)-perfect numbers.",
+  "id": "A019285",
+  "mentions": [
+    "A000668",
+    "A019276",
+    "A019278",
+    "A019279",
+    "A019281",
+    "A019282",
+    "A019283",
+    "A019284",
+    "A019286",
+    "A019287",
+    "A019288",
+    "A019289",
+    "A019290",
+    "A019291"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

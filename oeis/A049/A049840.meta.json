@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array T read by rows: T(n,k) = sum of numbers c in the form c = bq + r when Euclidean algorithm acts on n, k, for 1 <= k <= n, n >= 1.",
+  "id": "A049840",
+  "mentions": [
+    "A049841",
+    "A049842"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:41:47",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

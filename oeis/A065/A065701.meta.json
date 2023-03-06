@@ -1,0 +1,28 @@
+{
+  "description": "Numbers m such that N = (am+1)(bm+1)(cm+1) is a 3-Carmichael number (A087788), where a,b,c = 1,2,67.",
+  "id": "A065701",
+  "mentions": [
+    "A064238",
+    "A064262",
+    "A065695",
+    "A065696",
+    "A065697",
+    "A065698",
+    "A065699",
+    "A065700",
+    "A065702",
+    "A065703",
+    "A087788"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

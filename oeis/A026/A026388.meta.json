@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of integer strings s(0),...,s(n) counted by array T in A026386 that have s(n)=2; also a(n) = T(2n,n-1).",
+  "id": "A026388",
+  "mentions": [
+    "A026386"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:52:24",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

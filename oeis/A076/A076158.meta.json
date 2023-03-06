@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the least positive integer k such that Omega(n+k) = Omega(k)+n, where Omega(m) (A001222) denotes the number of prime factors of m, counting multiplicity.",
+  "id": "A076158",
+  "mentions": [
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

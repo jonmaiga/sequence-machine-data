@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that k is a term of A014778, but k-1 and k+1 are not.",
+  "id": "A094801",
+  "mentions": [
+    "A014778",
+    "A094798",
+    "A094799",
+    "A094800"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "A065264 conjugated with A059893, inverse of A065265.",
+  "id": "A065266",
+  "mentions": [
+    "A059893",
+    "A065264",
+    "A065265",
+    "A065267"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

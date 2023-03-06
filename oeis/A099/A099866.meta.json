@@ -1,0 +1,18 @@
+{
+  "description": "Denominator of sum of all elements M(i,j,k) = i*j/k, (i,j,k = 1..n). a(n) = Denominator[Sum[Sum[Sum[i*j/k,{i,1,n}],{j,1,n}],{k,1,n}]].",
+  "id": "A099866",
+  "mentions": [
+    "A099865"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

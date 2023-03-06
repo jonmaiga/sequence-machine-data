@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k), n >= 0, 0 <= k <= n, read by rows. Let A(n,k) be the triangle in A097474. Then T(n,k) is defined by the orthogonality relations Sum_{j=i..r} T(r,j)*A(j,i)*2^-floor((j+3)/2) = 0 if i != r, = (2r+1)!/(r!*2^r) if i = r.",
+  "id": "A097749",
+  "mentions": [
+    "A001147",
+    "A004193",
+    "A097474",
+    "A097801"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:47:39",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

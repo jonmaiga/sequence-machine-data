@@ -1,0 +1,47 @@
+{
+  "description": "Triangle of partial row sums of triangle A007318(n,m) (Pascal's triangle). Triangle A008949 read backwards. Riordan (1/(1-2x), x/(1-x)).",
+  "id": "A055248",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A000295",
+    "A001792",
+    "A002662",
+    "A002663",
+    "A002664",
+    "A004070",
+    "A005493",
+    "A007318",
+    "A008949",
+    "A011782",
+    "A011971",
+    "A027934",
+    "A029653",
+    "A032443",
+    "A035038",
+    "A035039",
+    "A035040",
+    "A035041",
+    "A035042",
+    "A053121",
+    "A055249",
+    "A106516",
+    "A112626",
+    "A143494",
+    "A159573",
+    "A260492"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:24:49",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

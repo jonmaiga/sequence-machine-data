@@ -1,0 +1,30 @@
+{
+  "description": "Number of palindromes using a maximum of five different symbols.",
+  "id": "A056451",
+  "mentions": [
+    "A000007",
+    "A000351",
+    "A016116",
+    "A032088",
+    "A032122",
+    "A056391",
+    "A056453",
+    "A056454",
+    "A056455",
+    "A056456",
+    "A057427",
+    "A321391"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

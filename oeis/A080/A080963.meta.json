@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of theta_3(q)*theta_3(q^2)*theta_4(q^8) in powers of q.",
+  "id": "A080963",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A034950",
+    "A080917",
+    "A080918",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:53:57",
+    "offset": 0,
+    "size": 97,
+    "source": "joeis"
+  }
+}

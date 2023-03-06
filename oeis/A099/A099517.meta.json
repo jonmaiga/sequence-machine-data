@@ -1,0 +1,26 @@
+{
+  "description": "A transform of (1-x)/(1-2x).",
+  "id": "A099517",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A010694",
+    "A011782",
+    "A057079",
+    "A099505",
+    "A099508",
+    "A099516"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:50:38",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of coefficients of certain polynomials (exponents in decreasing order).",
+  "id": "A033842",
+  "mentions": [
+    "A000012",
+    "A000272",
+    "A001792",
+    "A036068",
+    "A036070",
+    "A036083",
+    "A049323"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:53:30",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

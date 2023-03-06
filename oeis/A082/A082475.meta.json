@@ -1,0 +1,17 @@
+{
+  "description": "Prime index i for consecutive primes p(i),p(i+1),p(i+2),p(i+3) that do not have a solution for the congruences p(i)^x+p(i+1)^x = p(i+2) mod p(i+3) and p(i+1)^x-p(i)^x = p(i+2) mod p(i+3).",
+  "id": "A082475",
+  "mentions": [
+    "A082371"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

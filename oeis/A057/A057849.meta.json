@@ -1,0 +1,28 @@
+{
+  "description": "Primes p such that order of primeness A049076(p) is > 7.",
+  "id": "A057849",
+  "mentions": [
+    "A000040",
+    "A006450",
+    "A038580",
+    "A049076",
+    "A049090",
+    "A049202",
+    "A049203",
+    "A057847",
+    "A057850",
+    "A057851",
+    "A058332",
+    "A093047"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

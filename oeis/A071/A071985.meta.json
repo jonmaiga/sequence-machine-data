@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest positive integer that cannot be obtained using at most n-1 of the integers {1, 2, ..., n} using each number at most once and the operators +, -, *, /.",
+  "id": "A071985",
+  "mentions": [
+    "A060315"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

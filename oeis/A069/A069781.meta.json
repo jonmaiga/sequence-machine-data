@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that gcd(d(k^3), d(k)) is not a power of 2.",
+  "id": "A069781",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A037992",
+    "A061701",
+    "A069780",
+    "A069782"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

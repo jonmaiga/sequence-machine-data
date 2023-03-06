@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^2 and k^3 have the same set of digits.",
+  "id": "A029797",
+  "mentions": [
+    "A029793",
+    "A029795"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

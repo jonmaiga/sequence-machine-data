@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime of the form n!/k!-1.",
+  "id": "A093622",
+  "mentions": [
+    "A055490",
+    "A093437",
+    "A093623"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

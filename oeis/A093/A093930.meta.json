@@ -1,0 +1,18 @@
+{
+  "description": "Primes arising as A093929(n)*A093929(n+1)+2.",
+  "id": "A093930",
+  "mentions": [
+    "A093929"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

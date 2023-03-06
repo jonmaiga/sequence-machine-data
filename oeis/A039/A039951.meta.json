@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest prime p such that p^2 divides n^(p-1) - 1.",
+  "id": "A039951",
+  "mentions": [
+    "A001220",
+    "A014127",
+    "A045616",
+    "A096082",
+    "A123692",
+    "A123693",
+    "A174422"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

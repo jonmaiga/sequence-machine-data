@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n, n+1 and n+2 are highly composite numbers (2), i.e., all prime divisors <= 7 (A002473).",
+  "id": "A085904",
+  "mentions": [
+    "A002072",
+    "A002473",
+    "A003032"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

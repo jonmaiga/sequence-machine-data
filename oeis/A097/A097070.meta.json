@@ -1,0 +1,32 @@
+{
+  "description": "Consider all compositions (ordered partitions) of n into n parts, allowing zeros. E.g., for n = 3 we get 300, 030, 003, 210, 120, 201, 102, 021, 012, 111. Then a(n) is the total number of 1's.",
+  "id": "A097070",
+  "mentions": [
+    "A000108",
+    "A000917",
+    "A000984",
+    "A001622",
+    "A001700",
+    "A001791",
+    "A002457",
+    "A002740",
+    "A005430",
+    "A014107",
+    "A037965",
+    "A088218",
+    "A097613",
+    "A110609"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

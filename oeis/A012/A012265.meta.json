@@ -1,0 +1,19 @@
+{
+  "description": "x - x^3/3! + x^5/5! - ... + (-1)^n*x^(2n+1)/(2n+1)! has 2a(n)+1 real roots.",
+  "id": "A012265",
+  "mentions": [
+    "A012264"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

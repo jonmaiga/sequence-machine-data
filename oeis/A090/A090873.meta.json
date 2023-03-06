@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number m such that n^2^k + m^2^k is prime for k=0,1,2,3 and 4.",
+  "id": "A090873",
+  "mentions": [
+    "A000215",
+    "A019434",
+    "A090872"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

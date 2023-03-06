@@ -1,0 +1,26 @@
+{
+  "description": "Sum of orders of all permutations of n letters.",
+  "id": "A060014",
+  "mentions": [
+    "A000041",
+    "A000793",
+    "A028418",
+    "A057731",
+    "A060015",
+    "A074859",
+    "A290932"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

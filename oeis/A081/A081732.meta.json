@@ -1,0 +1,20 @@
+{
+  "description": "Number of numbers that differ from n in ternary representation by exactly one edit-operation: deletion, insertion, or substitution.",
+  "id": "A081732",
+  "mentions": [
+    "A007089",
+    "A080910",
+    "A080950"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

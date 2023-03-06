@@ -1,0 +1,21 @@
+{
+  "description": "Unitary abundant numbers: numbers k such that usigma(k) > 2*k.",
+  "id": "A034683",
+  "mentions": [
+    "A005101",
+    "A034444",
+    "A034448",
+    "A129487",
+    "A302993"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

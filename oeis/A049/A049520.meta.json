@@ -1,0 +1,19 @@
+{
+  "description": "Starting index of a string of exactly 4 consecutive equal digits in decimal expansion of Pi.",
+  "id": "A049520",
+  "mentions": [
+    "A049514",
+    "A049523"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:38:45",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

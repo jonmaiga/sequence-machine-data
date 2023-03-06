@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k^2 contains only digits {4,8,9}.",
+  "id": "A053966",
+  "mentions": [
+    "A053967"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:14:47",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

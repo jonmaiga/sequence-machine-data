@@ -1,0 +1,40 @@
+{
+  "description": "Brier numbers: numbers that are both Riesel and Sierpiński [Sierpinski], or odd n such that for all k >= 1 the numbers n*2^k + 1 and n*2^k - 1 are composite.",
+  "id": "A076335",
+  "mentions": [
+    "A003261",
+    "A038699",
+    "A040076",
+    "A040081",
+    "A050921",
+    "A052333",
+    "A064699",
+    "A076336",
+    "A076337",
+    "A103963",
+    "A103964",
+    "A180247",
+    "A194591",
+    "A194600",
+    "A194603",
+    "A194606",
+    "A194607",
+    "A194608",
+    "A194635",
+    "A194636",
+    "A194637",
+    "A194638",
+    "A194639",
+    "A234594"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

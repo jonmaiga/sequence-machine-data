@@ -1,0 +1,20 @@
+{
+  "description": "Unreduced denominator of volume of best symplectic packing of n balls in 4-dimensional ball.",
+  "id": "A030043",
+  "mentions": [
+    "A030042",
+    "A125846",
+    "A125847"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

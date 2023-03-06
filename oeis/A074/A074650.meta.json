@@ -1,0 +1,49 @@
+{
+  "description": "Table T(n,k) read by downward antidiagonals: number of Lyndon words (aperiodic necklaces) with n beads of k colors, n >= 1, k >= 1.",
+  "id": "A074650",
+  "mentions": [
+    "A000010",
+    "A000027",
+    "A000217",
+    "A001037",
+    "A001692",
+    "A001693",
+    "A006011",
+    "A007290",
+    "A008683",
+    "A027376",
+    "A027377",
+    "A027380",
+    "A027381",
+    "A032164",
+    "A032165",
+    "A032166",
+    "A032167",
+    "A060216",
+    "A060217",
+    "A060218",
+    "A060219",
+    "A060220",
+    "A060221",
+    "A060222",
+    "A075147",
+    "A102659",
+    "A208536",
+    "A208537",
+    "A215474",
+    "A292350",
+    "A294438"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = abs(prime(n)-a(n-1)) + abs(prime(n)-a(n-2)).",
+  "id": "A086911",
+  "mentions": [
+    "A005185"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

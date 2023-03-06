@@ -1,0 +1,26 @@
+{
+  "description": "Number of nonisomorphic semigroups of order n.",
+  "id": "A027851",
+  "mentions": [
+    "A001329",
+    "A001423",
+    "A001426",
+    "A023814",
+    "A029851",
+    "A058108",
+    "A079173"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

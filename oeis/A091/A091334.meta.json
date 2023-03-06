@@ -1,0 +1,19 @@
+{
+  "description": "Number of 1's required to build n using +, -, *, ^ and parentheses.",
+  "id": "A091334",
+  "mentions": [
+    "A005245",
+    "A025280",
+    "A091333"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "a(1) = 1, a(prime(i)) = prime(i) - i for i > 0 and a(u * v) = a(u) * a(v) for u, v > 0.",
+  "id": "A065371",
+  "mentions": [
+    "A000040",
+    "A014689",
+    "A020639",
+    "A027746",
+    "A032742",
+    "A049084",
+    "A055396",
+    "A065372",
+    "A065373",
+    "A065374"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Alternating bit sum for n: replace 2^k with (-1)^k in binary expansion of n.",
+  "id": "A065359",
+  "mentions": [
+    "A000069",
+    "A000120",
+    "A000975",
+    "A001969",
+    "A004718",
+    "A005536",
+    "A010060",
+    "A030300",
+    "A030308",
+    "A036556",
+    "A039004",
+    "A056832",
+    "A065081",
+    "A065360",
+    "A065368",
+    "A079944",
+    "A083905",
+    "A139351",
+    "A139352"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:10",
+    "offset": 0,
+    "size": 107,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of reversible strings with n beads using exactly six different colors.",
+  "id": "A056313",
+  "mentions": [
+    "A000920",
+    "A005418",
+    "A032120",
+    "A032121",
+    "A032122",
+    "A056308",
+    "A056322",
+    "A056391",
+    "A056457",
+    "A305621",
+    "A305626"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:34:21",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

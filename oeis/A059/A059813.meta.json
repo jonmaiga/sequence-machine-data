@@ -1,0 +1,19 @@
+{
+  "description": "Let s_n be the simplex packing n-width for the manifold torus X interval; sequence gives numerator of s_n/Pi.",
+  "id": "A059813",
+  "mentions": [
+    "A059811",
+    "A059818"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

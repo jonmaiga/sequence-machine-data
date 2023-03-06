@@ -1,0 +1,25 @@
+{
+  "description": "Number of subsets of proper divisors of n that sum to n.",
+  "id": "A065205",
+  "mentions": [
+    "A005835",
+    "A027751",
+    "A033630",
+    "A064771",
+    "A065218",
+    "A136447",
+    "A210442",
+    "A211110"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

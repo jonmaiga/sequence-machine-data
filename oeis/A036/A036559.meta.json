@@ -1,0 +1,18 @@
+{
+  "description": "Squared distances that cannot arise in any Barlow packing of spheres of diameter sqrt(3) (the scale being the simplest one that makes this an integer sequence).",
+  "id": "A036559",
+  "mentions": [
+    "A036558"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:27:07",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

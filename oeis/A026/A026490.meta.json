@@ -1,0 +1,21 @@
+{
+  "description": "Length of n-th run of identical symbols in A026465.",
+  "id": "A026490",
+  "mentions": [
+    "A010060",
+    "A026465",
+    "A080426",
+    "A318921"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:35",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

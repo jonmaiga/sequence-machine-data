@@ -1,0 +1,20 @@
+{
+  "description": "Number of iterations of A000005 required to reach 2 when started at n!.",
+  "id": "A053025",
+  "mentions": [
+    "A000005",
+    "A000142",
+    "A036459"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

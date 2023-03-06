@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic cyclic subgroups of alternating group A_n (or number of distinct orders of even permutations of n objects); number of different LCM's of partitions of n which have even number of even parts.",
+  "id": "A020902",
+  "mentions": [
+    "A009490",
+    "A034891",
+    "A035942"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:00",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum {k=1 to n} H(k) k! (n-k)! (mod {n+1}), where H(k) is the k-th harmonic number.",
+  "id": "A091528",
+  "mentions": [
+    "A091529",
+    "A091530"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

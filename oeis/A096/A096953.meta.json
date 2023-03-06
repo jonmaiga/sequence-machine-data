@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of upper bounds for Lagrange-remainder in Taylor's expansion of log((1+x)/(1-x)) multiplied by 6/5.",
+  "id": "A096953",
+  "mentions": [
+    "A096951",
+    "A096952"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

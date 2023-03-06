@@ -1,0 +1,28 @@
+{
+  "description": "Matrix product of Stirling2-triangle A008277(n,k) and unsigned Stirling1-triangle |A008275(n,k)|.",
+  "id": "A079641",
+  "mentions": [
+    "A000629",
+    "A000670",
+    "A008275",
+    "A008277",
+    "A084938",
+    "A129062",
+    "A195204",
+    "A195205",
+    "A209849",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

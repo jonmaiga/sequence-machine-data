@@ -1,0 +1,19 @@
+{
+  "description": "Integers n such that A047988(n)=4.",
+  "id": "A047987",
+  "mentions": [
+    "A047836",
+    "A047984",
+    "A047988"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

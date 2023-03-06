@@ -1,0 +1,18 @@
+{
+  "description": "Maximal number of chess queens that can be placed on a 3-dimensional chessboard of order n so that no two queens attack each other.",
+  "id": "A068940",
+  "mentions": [
+    "A068941",
+    "A115992"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

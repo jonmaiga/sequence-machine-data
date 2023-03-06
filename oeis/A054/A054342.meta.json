@@ -1,0 +1,22 @@
+{
+  "description": "First occurrence of distances of equidistant lonely primes. Each equidistant prime is at the same distance (or has the same gap) from the preceding prime and the next prime.",
+  "id": "A054342",
+  "mentions": [
+    "A006562",
+    "A052187",
+    "A058867",
+    "A058868",
+    "A103709"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

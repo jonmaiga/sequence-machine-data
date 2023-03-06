@@ -1,0 +1,17 @@
+{
+  "description": "Let f(n) = n - pi(n). Then a(n) = least number of steps such that f(f(...(n)))=1.",
+  "id": "A090532",
+  "mentions": [
+    "A025003"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

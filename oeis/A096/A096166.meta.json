@@ -1,0 +1,17 @@
+{
+  "description": "Engel expansion of the Champernowne number .1234567891011121314151617181920212223... (see A033307).",
+  "id": "A096166",
+  "mentions": [
+    "A033307"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

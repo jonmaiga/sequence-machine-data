@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients of 4-point function in dimension 4.",
+  "id": "A076909",
+  "mentions": [
+    "A300194",
+    "A300196",
+    "A300199"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

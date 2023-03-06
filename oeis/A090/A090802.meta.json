@@ -1,0 +1,44 @@
+{
+  "description": "Triangle read by rows: a(n,k) = number of k-length walks in the Hasse diagram of a Boolean algebra of order n.",
+  "id": "A090802",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A000522",
+    "A001710",
+    "A001715",
+    "A001720",
+    "A001787",
+    "A001788",
+    "A001789",
+    "A001815",
+    "A003472",
+    "A003506",
+    "A007318",
+    "A010842",
+    "A034910",
+    "A038207",
+    "A052714",
+    "A052771",
+    "A052796",
+    "A052849",
+    "A054849",
+    "A057711",
+    "A066534",
+    "A068424",
+    "A082569"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=0; for n >= 2, a(n) = smallest value of k such that the concatenation 1,n,n^2,..., n^(k-1), n^k,n^(k-1),...n^2,n,1 is a prime.",
+  "id": "A069566",
+  "mentions": [
+    "A239908"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

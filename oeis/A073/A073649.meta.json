@@ -1,0 +1,21 @@
+{
+  "description": "Define the composite field of a prime q to be f(q) = (t,s) if p, q, r are three consecutive primes and q-p = t and r-q = s. This is a sequence of primes q with field (4,2).",
+  "id": "A073649",
+  "mentions": [
+    "A022005",
+    "A073648",
+    "A073650",
+    "A098413",
+    "A098414"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

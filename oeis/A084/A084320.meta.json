@@ -1,0 +1,22 @@
+{
+  "description": "Number of powers of two between 2 consecutive factorials (2! including).",
+  "id": "A084320",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A000523",
+    "A058033",
+    "A067850"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

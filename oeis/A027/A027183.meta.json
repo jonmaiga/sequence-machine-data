@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n-th largest even number in array T given by A027170.",
+  "id": "A027183",
+  "mentions": [
+    "A027170"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

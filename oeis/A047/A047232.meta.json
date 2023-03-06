@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k > n where n is a 4th power modulo k.",
+  "id": "A047232",
+  "mentions": [
+    "A192453"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

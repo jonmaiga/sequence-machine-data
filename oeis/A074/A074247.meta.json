@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that harmonic mean of the divisors of n is a prime.",
+  "id": "A074247",
+  "mentions": [
+    "A001599"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

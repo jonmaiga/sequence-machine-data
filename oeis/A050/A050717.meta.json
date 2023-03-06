@@ -1,0 +1,25 @@
+{
+  "description": "Inserting a digit '7' between adjacent digits of n makes a prime.",
+  "id": "A050717",
+  "mentions": [
+    "A050674",
+    "A050711",
+    "A050712",
+    "A050713",
+    "A050714",
+    "A050716",
+    "A050718",
+    "A050719"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:48:49",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

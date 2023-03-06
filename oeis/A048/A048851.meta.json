@@ -1,0 +1,20 @@
+{
+  "description": "Length of hypotenuse squared in right triangle formed by a prime spiral plotted in Cartesian coordinates.",
+  "id": "A048851",
+  "mentions": [
+    "A000040",
+    "A006094"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:09:07",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

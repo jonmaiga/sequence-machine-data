@@ -1,0 +1,21 @@
+{
+  "description": "T_10(n) in the notation of Bergeron et al., u_10(n) in the notation of Gessel: Related to Young tableaux of bounded height.",
+  "id": "A072167",
+  "mentions": [
+    "A047889",
+    "A047890",
+    "A052399",
+    "A214015"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

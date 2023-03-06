@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of A027941(n-1) with a(-1) = 0.",
+  "id": "A054452",
+  "mentions": [
+    "A001906",
+    "A027941",
+    "A052952",
+    "A054450",
+    "A054451"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

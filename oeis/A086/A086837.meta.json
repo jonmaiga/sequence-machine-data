@@ -1,0 +1,20 @@
+{
+  "description": "Brilliant Sarrus numbers.",
+  "id": "A086837",
+  "mentions": [
+    "A001567",
+    "A078972",
+    "A084653"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

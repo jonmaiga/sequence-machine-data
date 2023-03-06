@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: row n >= 1 contains the sequence p(n), s(p(n)), p(s(p(n))), p(p(s(p(n)))), s(p(p(s(p(n))))), ..., repeatedly applying (p,s,p) to n, where p = phi (A000010), s = sigma = (A000203), stopping after the first 1 is reached. If 1 is never reached, row n contains -1.",
+  "id": "A032452",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A334523",
+    "A334685",
+    "A334686",
+    "A334725"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

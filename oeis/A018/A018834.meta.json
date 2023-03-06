@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that decimal expansion of k^2 contains k as a substring.",
+  "id": "A018834",
+  "mentions": [
+    "A000290",
+    "A003226",
+    "A029942",
+    "A029943",
+    "A045953",
+    "A046831",
+    "A046851"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

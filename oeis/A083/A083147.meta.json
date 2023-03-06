@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1, a(n) = smallest nontrivial palindromic multiple of a(n-1). a(n) is not equal to a(n-1) or a concatenation of a(n-1) with itself.",
+  "id": "A083147",
+  "mentions": [
+    "A068664",
+    "A083148",
+    "A083149",
+    "A083151",
+    "A083153",
+    "A083155"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

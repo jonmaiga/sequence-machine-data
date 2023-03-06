@@ -1,0 +1,19 @@
+{
+  "description": "Product of nonzero digits of A066549(n).",
+  "id": "A066582",
+  "mentions": [
+    "A066549"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

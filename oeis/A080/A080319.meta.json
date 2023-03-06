@@ -1,0 +1,23 @@
+{
+  "description": "Breadth-first-wise A063171-like-encoding of the branch-reduced binomial-mod-2 binary trees (A080294).",
+  "id": "A080319",
+  "mentions": [
+    "A007088",
+    "A063171",
+    "A080269",
+    "A080294",
+    "A080318"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

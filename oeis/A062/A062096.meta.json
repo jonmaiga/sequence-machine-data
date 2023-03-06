@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 2; for n > 1, a(n) is smallest number, greater than a(n-1), which is relatively prime to the sum of all previous terms.",
+  "id": "A062096",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

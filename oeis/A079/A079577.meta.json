@@ -1,0 +1,18 @@
+{
+  "description": "Number of unlabeled, connected graphs on n vertices that have no induced subgraph isomorphic to a bull, a P5 or a P5-bar.",
+  "id": "A079577",
+  "mentions": [
+    "A267602"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes in A038397 (concatenate first n squares in reverse order).",
+  "id": "A091314",
+  "mentions": [
+    "A038397"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "bref",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

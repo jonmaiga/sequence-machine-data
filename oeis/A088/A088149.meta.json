@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime which when rotated through all its binary places produces n primes, not counting any repeats.",
+  "id": "A088149",
+  "mentions": [
+    "A088148"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

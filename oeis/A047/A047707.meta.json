@@ -1,0 +1,21 @@
+{
+  "description": "Number of monotone Boolean functions of n variables with 3 mincuts. Also Sperner systems with 3 blocks.",
+  "id": "A047707",
+  "mentions": [
+    "A016269",
+    "A051112",
+    "A051118"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

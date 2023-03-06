@@ -1,0 +1,19 @@
+{
+  "description": "6 + 33 n + 6 binomial(n, 2) - 28 binomial(n, 3) + 20 binomial(n, 4) - 47 binomial(n, 5).",
+  "id": "A058985",
+  "mentions": [
+    "A058897"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:33:57",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

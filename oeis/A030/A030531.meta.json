@@ -1,0 +1,17 @@
+{
+  "description": "Value of 3^x - 2^x - 5 for the solutions of 3^x - 2^x == 5 (mod 7).",
+  "id": "A030531",
+  "mentions": [
+    "A047243"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:31:10",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

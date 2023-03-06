@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the decimal concatenation of n and n^2.",
+  "id": "A053061",
+  "mentions": [
+    "A020338",
+    "A055436",
+    "A061086",
+    "A175605",
+    "A253445"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

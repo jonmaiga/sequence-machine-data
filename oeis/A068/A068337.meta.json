@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n!*Sum_{k=1..n} mu(k)/k, where mu(k) is the Möbius function.",
+  "id": "A068337",
+  "mentions": [
+    "A000142",
+    "A008683",
+    "A070888",
+    "A070889"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

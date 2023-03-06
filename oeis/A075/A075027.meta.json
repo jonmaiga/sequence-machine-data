@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that d(k-1) < d(k) > d(k+1), d = A000005.",
+  "id": "A075027",
+  "mentions": [
+    "A000005",
+    "A014574",
+    "A075025",
+    "A075026",
+    "A323379"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

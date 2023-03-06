@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes with number of 1-bits <= number of 0-bits (A095075) in range ]2^n,2^(n+1)].",
+  "id": "A095055",
+  "mentions": [
+    "A095018",
+    "A095019",
+    "A095062",
+    "A095075"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

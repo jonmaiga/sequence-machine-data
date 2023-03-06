@@ -1,0 +1,16 @@
+{
+  "description": "arcsinh(arctanh(x)*cos(x))=x-2/3!*x^3+28/5!*x^5-520/7!*x^7+59728/9!*x^9...",
+  "id": "A012745",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

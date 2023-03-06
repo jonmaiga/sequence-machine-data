@@ -1,0 +1,18 @@
+{
+  "description": "Primes arising as the partial sums of the successive differences in A094744.",
+  "id": "A094745",
+  "mentions": [
+    "A094743",
+    "A094744"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Size of smallest directed 1-covering code of length n with banded structure.",
+  "id": "A019436",
+  "mentions": [
+    "A066000"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

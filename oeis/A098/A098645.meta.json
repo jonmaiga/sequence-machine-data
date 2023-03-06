@@ -1,0 +1,23 @@
+{
+  "description": "List the positions of all digits '1' in the sequence. This is the lexicographically earliest increasing sequence with this property.",
+  "id": "A098645",
+  "mentions": [
+    "A098670",
+    "A114134",
+    "A210414",
+    "A210415",
+    "A210423"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

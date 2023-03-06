@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1/(1-x)^2/(1-x^2)/(1-x^3)/(1-x^5)/(1-x^8).",
+  "id": "A034379",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:12:39",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of digits of prime(n)# + 1.",
+  "id": "A048856",
+  "mentions": [
+    "A002110",
+    "A067175"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

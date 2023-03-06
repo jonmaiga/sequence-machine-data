@@ -1,0 +1,18 @@
+{
+  "description": "Greatest prime p such that prime(n)+p <= prime(n+1); a(1)=1.",
+  "id": "A087458",
+  "mentions": [
+    "A001223",
+    "A007917"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

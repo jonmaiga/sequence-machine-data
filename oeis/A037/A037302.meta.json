@@ -1,0 +1,23 @@
+{
+  "description": "Normalized volume of Birkhoff polytope of n X n doubly-stochastic square matrices. If the volume is v(n), then a(n) = ((n-1)^2)! * v(n) / n^(n-1).",
+  "id": "A037302",
+  "mentions": [
+    "A078524",
+    "A078525",
+    "A257493",
+    "A259473"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

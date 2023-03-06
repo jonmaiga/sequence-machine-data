@@ -1,0 +1,21 @@
+{
+  "description": "Interleave n and 1-n.",
+  "id": "A097140",
+  "mentions": [
+    "A001477",
+    "A003945",
+    "A097141"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:49:55",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

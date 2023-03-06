@@ -1,0 +1,22 @@
+{
+  "description": "Multiply perfect numbers whose average divisor is (a) not an integer and (b) does not divide the number itself.",
+  "id": "A046987",
+  "mentions": [
+    "A001599",
+    "A003601",
+    "A007691",
+    "A046985",
+    "A046986"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "a(n) is the smallest m > 1 such that m divides Sum_{k=1..m} prime(k)^n.",
+  "id": "A085450",
+  "mentions": [
+    "A045345",
+    "A111441",
+    "A122140",
+    "A122142",
+    "A125825",
+    "A125826",
+    "A125827",
+    "A125828",
+    "A125907",
+    "A131263",
+    "A131264",
+    "A131272",
+    "A131273",
+    "A131274",
+    "A131275",
+    "A131276",
+    "A131277",
+    "A131278",
+    "A131279"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

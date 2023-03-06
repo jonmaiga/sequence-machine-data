@@ -1,0 +1,25 @@
+{
+  "description": "Composites whose sum of digits equals number of its prime factors, with multiplicity.",
+  "id": "A050689",
+  "mentions": [
+    "A050690",
+    "A057531",
+    "A057532",
+    "A063737",
+    "A067077",
+    "A070274",
+    "A070275",
+    "A119450"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

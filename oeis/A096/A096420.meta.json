@@ -1,0 +1,17 @@
+{
+  "description": "Engel expansion of Renyi's Parking constant.",
+  "id": "A096420",
+  "mentions": [
+    "A050996"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

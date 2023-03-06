@@ -1,0 +1,36 @@
+{
+  "description": "Characteristic function of multiples of six.",
+  "id": "A079979",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A002524",
+    "A002529",
+    "A010875",
+    "A059841",
+    "A072827",
+    "A072850",
+    "A072856",
+    "A079955",
+    "A079978",
+    "A079998",
+    "A080014",
+    "A082784",
+    "A097325",
+    "A121262",
+    "A122841",
+    "A185016"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

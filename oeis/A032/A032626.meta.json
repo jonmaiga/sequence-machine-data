@@ -1,0 +1,19 @@
+{
+  "description": "Primes that are concatenations of n with n + 3.",
+  "id": "A032626",
+  "mentions": [
+    "A032608",
+    "A032618"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:04:09",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

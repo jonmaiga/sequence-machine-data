@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2a(n-1) + 35a(n-2), a(0)=0, a(1)=1.",
+  "id": "A080920",
+  "mentions": [
+    "A015441",
+    "A051958",
+    "A079773",
+    "A238801"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

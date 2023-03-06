@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that gpf(k) > gpf(k+1) > gpf(k+2) where gpf(k) denotes the largest prime factor of k.",
+  "id": "A071870",
+  "mentions": [
+    "A006530",
+    "A070087",
+    "A071869",
+    "A082417",
+    "A082418",
+    "A082419",
+    "A082420",
+    "A082421",
+    "A082422"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

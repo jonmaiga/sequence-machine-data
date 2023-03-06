@@ -1,0 +1,27 @@
+{
+  "description": "Number of possible permutations of a Rubik cube of size n X n X n.",
+  "id": "A075152",
+  "mentions": [
+    "A007458",
+    "A054434",
+    "A074914",
+    "A079761",
+    "A079762",
+    "A080601",
+    "A080602",
+    "A080656",
+    "A080662",
+    "A152169"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = M(n) + m(n) for n >= 2, where M(n) = max{ a(i) + a(n-i): i = 1..n-1 }, m(n) = min{ a(i) + a(n-i): i = 1..n-1 }.",
+  "id": "A022905",
+  "mentions": [
+    "A022907",
+    "A022908",
+    "A033485"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:14:49",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

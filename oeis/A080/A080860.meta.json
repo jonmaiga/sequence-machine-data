@@ -1,0 +1,20 @@
+{
+  "description": "10*n^2 + 5*n + 1.",
+  "id": "A080860",
+  "mentions": [
+    "A080853",
+    "A085787"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:52:35",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

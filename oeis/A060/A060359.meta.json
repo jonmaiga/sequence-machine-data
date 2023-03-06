@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (smallest prime > k) - (largest prime < k), where k = lcm(1..n).",
+  "id": "A060359",
+  "mentions": [
+    "A003418",
+    "A013633",
+    "A060357",
+    "A060358"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 3,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

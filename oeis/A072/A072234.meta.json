@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that reverse(k) = sum of the proper divisors of k.",
+  "id": "A072234",
+  "mentions": [
+    "A001065",
+    "A004086",
+    "A069942"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

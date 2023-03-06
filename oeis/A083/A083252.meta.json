@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n for which abs(A045763(n) - A073757(n)) = 5, i.e., signed difference of size of related and unrelated sets to n equals either 5 or -5.",
+  "id": "A083252",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A045763",
+    "A073757",
+    "A083243",
+    "A083249",
+    "A083250",
+    "A083251"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

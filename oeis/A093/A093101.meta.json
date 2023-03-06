@@ -1,0 +1,25 @@
+{
+  "description": "Cancellation factor in reducing Sum_{k=0...n} 1/k! to lowest terms.",
+  "id": "A093101",
+  "mentions": [
+    "A000522",
+    "A061354",
+    "A061355",
+    "A093647",
+    "A093651",
+    "A123899",
+    "A123900",
+    "A123901"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

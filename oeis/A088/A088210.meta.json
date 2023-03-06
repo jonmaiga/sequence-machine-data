@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of convergents of the continued fraction with the n+1 partial quotients: [2;2,2,...(n 2's)...,2,n+1], starting with [1], [2;2], [2;2,3], [2;2,2,4], ...",
+  "id": "A088210",
+  "mentions": [
+    "A000129",
+    "A026937",
+    "A054459",
+    "A088211"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:25:51",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

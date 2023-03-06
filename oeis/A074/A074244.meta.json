@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that phi(k) is a harmonic number.",
+  "id": "A074244",
+  "mentions": [
+    "A000010",
+    "A001599"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

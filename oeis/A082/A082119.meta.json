@@ -1,0 +1,19 @@
+{
+  "description": "Smallest positive difference between d and n/d for any divisor d of n.",
+  "id": "A082119",
+  "mentions": [
+    "A056737",
+    "A082120"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "sec(sinh(x)+tan(x))=1+4/2!*x^2+104/4!*x^4+6598/6!*x^6+778200/8!*x^8...",
+  "id": "A013054",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:34:39",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

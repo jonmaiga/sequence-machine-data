@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest even number 2m such that value of odd harmonic series Sum_{j=0..m} 1/(2j) is > n.",
+  "id": "A056054",
+  "mentions": [
+    "A002387",
+    "A056053",
+    "A091463",
+    "A091464",
+    "A091465"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

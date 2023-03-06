@@ -1,0 +1,19 @@
+{
+  "description": "Conjectured greatest k such that S(k) = S(k-n), or 0 if no k is known, where S is the Kempner function A002034.",
+  "id": "A099119",
+  "mentions": [
+    "A002034",
+    "A099118",
+    "A099120"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

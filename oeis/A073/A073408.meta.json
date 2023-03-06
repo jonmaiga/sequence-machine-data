@@ -1,0 +1,20 @@
+{
+  "description": "Let cophi_m(x) denotes the cototient function applied m times to x (cophi(x)=x-phi(x)). Sequence gives the minimum number of iterations m such that cophi_m(n) divides n.",
+  "id": "A073408",
+  "mentions": [
+    "A019294",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

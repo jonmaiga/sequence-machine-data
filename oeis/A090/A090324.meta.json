@@ -1,0 +1,19 @@
+{
+  "description": "Second in a series of triangular arrays generating the natural numbers (cf. A079946).",
+  "id": "A090324",
+  "mentions": [
+    "A079946"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

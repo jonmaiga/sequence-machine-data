@@ -1,0 +1,21 @@
+{
+  "description": "Triangle in which row n has the first n digits of sqrt(n) (rounded).",
+  "id": "A037023",
+  "mentions": [
+    "A037022"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:32:59",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "description": "Square array T(m,n) with m (row) >= 1 and n (column) >= 0 read by antidiagonals: number of subsets of {1,2,3,...n} that sum to 0 mod m (including the empty set whose sum is 0).",
+  "id": "A068009",
+  "mentions": [
+    "A000009",
+    "A000016",
+    "A000079",
+    "A002024",
+    "A011782",
+    "A063776",
+    "A068010",
+    "A068011",
+    "A068012",
+    "A068013",
+    "A068030",
+    "A068031",
+    "A068032",
+    "A068033",
+    "A068034",
+    "A068035",
+    "A068036",
+    "A068037",
+    "A068038",
+    "A068039",
+    "A068040",
+    "A068041",
+    "A068042",
+    "A068043",
+    "A068044",
+    "A068045",
+    "A068049"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

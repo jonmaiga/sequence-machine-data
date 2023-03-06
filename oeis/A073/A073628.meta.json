@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 0; a(1) = 1; a(2) = 2; a(n) = smallest number greater than the previous term such that the sum of three successive terms is a prime.",
+  "id": "A073628",
+  "mentions": [
+    "A073627"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

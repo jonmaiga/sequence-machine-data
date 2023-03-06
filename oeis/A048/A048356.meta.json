@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the index of the smallest triangular number containing exactly n 1's.",
+  "id": "A048356",
+  "mentions": [
+    "A036518",
+    "A048355",
+    "A049364"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

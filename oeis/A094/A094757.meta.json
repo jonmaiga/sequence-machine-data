@@ -1,0 +1,21 @@
+{
+  "description": "Least positive k <= n such that n*pi(k) = k*pi(n), where pi(n) is the number of primes <= n (A000720).",
+  "id": "A094757",
+  "mentions": [
+    "A000720",
+    "A094758",
+    "A094759",
+    "A095299"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

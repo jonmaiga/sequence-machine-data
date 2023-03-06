@@ -1,0 +1,19 @@
+{
+  "description": "Greatest prime arising as the product of numbers chosen from among the first n numbers + 1.",
+  "id": "A092965",
+  "mentions": [
+    "A060957",
+    "A089136",
+    "A092967"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

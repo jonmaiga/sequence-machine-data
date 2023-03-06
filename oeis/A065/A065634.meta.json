@@ -1,0 +1,18 @@
+{
+  "description": "Permutation of N induced by rotating the node 5 left in the infinite planar binary tree. The fifth row of A065626. Inverse of A065633.",
+  "id": "A065634",
+  "mentions": [
+    "A065626",
+    "A065633"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest palindrome k such that k - n is a distinct power of 2, i.e., a power of 2 that has not arisen earlier.",
+  "id": "A083462",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

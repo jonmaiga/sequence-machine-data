@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number whose digits sum to n-th prime.",
+  "id": "A046864",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:27:09",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

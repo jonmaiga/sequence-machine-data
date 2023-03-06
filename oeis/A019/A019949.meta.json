@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of tangent of 51 degrees.",
+  "id": "A019949",
+  "mentions": [
+    "A019860"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:04:35",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

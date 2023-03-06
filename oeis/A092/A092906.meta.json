@@ -1,0 +1,16 @@
+{
+  "description": "Number of iterations of the sine function to be less than 1/n with an initial argument of Pi/2 radians.",
+  "id": "A092906",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

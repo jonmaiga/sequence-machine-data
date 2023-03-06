@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that between p and 2p, for all primes > 3, there is always a number that is twice a square, i.e.; a k such that p < 2k^2 < 2p.",
+  "id": "A066927",
+  "mentions": [
+    "A006255"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

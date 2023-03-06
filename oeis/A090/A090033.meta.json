@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(j,k) read by rows, where T(j,k) is the number of single tile moves in the longest optimal solution of the j X k generalization of the sliding block 15-puzzle, starting with the empty square in a corner.",
+  "id": "A090033",
+  "mentions": [
+    "A087725",
+    "A089473",
+    "A089484",
+    "A090034",
+    "A090035",
+    "A090036",
+    "A090163",
+    "A090166",
+    "A151944"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

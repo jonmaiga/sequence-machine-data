@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (k!)^2 + 1 is prime.",
+  "id": "A046029",
+  "mentions": [
+    "A020549",
+    "A051739"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

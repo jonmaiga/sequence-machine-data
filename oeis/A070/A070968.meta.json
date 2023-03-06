@@ -1,0 +1,23 @@
+{
+  "description": "Number of cycles in the complete bipartite graph K(n,n).",
+  "id": "A070968",
+  "mentions": [
+    "A002807",
+    "A068087",
+    "A288035",
+    "A291909",
+    "A360849"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of planar partitions of n with exactly 2 rows.",
+  "id": "A091356",
+  "mentions": [
+    "A000041",
+    "A000219",
+    "A000990",
+    "A091355",
+    "A091357",
+    "A091358",
+    "A091359",
+    "A091360"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 2,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

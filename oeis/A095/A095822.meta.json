@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of certain upper bounds for Euler's number e.",
+  "id": "A095822",
+  "mentions": [
+    "A001339",
+    "A001563",
+    "A095823"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

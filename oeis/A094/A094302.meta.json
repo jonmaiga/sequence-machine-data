@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; if n > a(n-1) then a(n) = n*a(n-1) else a(n) = least integer multiple of a(n-1)/n.",
+  "id": "A094302",
+  "mentions": [
+    "A055773",
+    "A094299"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

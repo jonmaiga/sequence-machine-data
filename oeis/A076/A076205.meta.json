@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 30*n+{1,7,11,13,17,19,23,29} are all composite.",
+  "id": "A076205",
+  "mentions": [
+    "A005776",
+    "A007775",
+    "A100418",
+    "A100423"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

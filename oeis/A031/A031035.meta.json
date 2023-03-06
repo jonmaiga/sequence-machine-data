@@ -1,0 +1,33 @@
+{
+  "description": "Write n in base 8 and juxtapose.",
+  "id": "A031035",
+  "mentions": [
+    "A003137",
+    "A007094",
+    "A007376",
+    "A030190",
+    "A030302",
+    "A030373",
+    "A030548",
+    "A030998",
+    "A031076",
+    "A031219",
+    "A033307",
+    "A054634",
+    "A054635"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "cons",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:50:05",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

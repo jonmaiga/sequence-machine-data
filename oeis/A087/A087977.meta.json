@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the first term in the first chain of at least n consecutive numbers each having exactly four distinct prime factors.",
+  "id": "A087977",
+  "mentions": [
+    "A064708",
+    "A080569",
+    "A087978",
+    "A138206",
+    "A138207",
+    "A154573"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

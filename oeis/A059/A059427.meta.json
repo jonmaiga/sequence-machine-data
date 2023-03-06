@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] with k alternating runs (n>=2, k>=1).",
+  "id": "A059427",
+  "mentions": [
+    "A000111",
+    "A001250",
+    "A001758",
+    "A008303",
+    "A008970",
+    "A028399",
+    "A360426"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 2,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers all of whose base 8 digits are odd.",
+  "id": "A033034",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:21",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

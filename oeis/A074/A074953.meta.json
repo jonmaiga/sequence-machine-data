@@ -1,0 +1,19 @@
+{
+  "description": "Numbers equidistant from consecutive twin prime pairs.",
+  "id": "A074953",
+  "mentions": [
+    "A001359",
+    "A006512"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

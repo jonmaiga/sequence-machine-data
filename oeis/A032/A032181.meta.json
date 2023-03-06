@@ -1,0 +1,16 @@
+{
+  "description": "Number of ways to partition n labeled elements into pie slices each of at least 2 elements.",
+  "id": "A032181",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:08",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

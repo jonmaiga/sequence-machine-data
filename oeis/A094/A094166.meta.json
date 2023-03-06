@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = number of rooted 2-dimensional polyominoes with k cells, the cells being regular n-gons, with no symmetries removed.",
+  "id": "A094166",
+  "mentions": [
+    "A048664",
+    "A051738",
+    "A094164",
+    "A094165",
+    "A094168",
+    "A094169"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

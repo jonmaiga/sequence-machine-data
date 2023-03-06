@@ -1,0 +1,25 @@
+{
+  "description": "Table T(n,k) by antidiagonals of floor[n^k/k] [n,k >= 1].",
+  "id": "A060155",
+  "mentions": [
+    "A000007",
+    "A000027",
+    "A000169",
+    "A000799",
+    "A007590",
+    "A051129",
+    "A060154"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

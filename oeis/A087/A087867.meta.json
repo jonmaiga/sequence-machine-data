@@ -1,0 +1,18 @@
+{
+  "description": "n^2-79*n+1601 as n runs through the lucky numbers.",
+  "id": "A087867",
+  "mentions": [
+    "A000959"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

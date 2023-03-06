@@ -1,0 +1,19 @@
+{
+  "description": "Primes arising in A064205.",
+  "id": "A055813",
+  "mentions": [
+    "A007503",
+    "A064205"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:05",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

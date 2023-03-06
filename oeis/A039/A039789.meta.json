@@ -1,0 +1,19 @@
+{
+  "description": "Integers k such that phi(k) is equal to the product of (the sum of prime factors and the sum of exponents) of k+1.",
+  "id": "A039789",
+  "mentions": [
+    "A000010",
+    "A039697"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

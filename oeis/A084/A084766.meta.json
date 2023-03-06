@@ -1,0 +1,20 @@
+{
+  "description": "Sum of numbers of prime-factors {2*n-p: 2",
+  "id": "A084766",
+  "mentions": [
+    "A001222",
+    "A065091",
+    "A084767"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

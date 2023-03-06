@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of Sum_{m>=1} z^(m^2)/(1-z^((m+1)^2)).",
+  "id": "A031123",
+  "mentions": [
+    "A031124"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

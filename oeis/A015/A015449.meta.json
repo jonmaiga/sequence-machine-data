@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of (1-4*x)/(1-5*x-x^2).",
+  "id": "A015449",
+  "mentions": [
+    "A049310",
+    "A055830",
+    "A084057",
+    "A108306",
+    "A135597",
+    "A152187",
+    "A164549"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:22",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

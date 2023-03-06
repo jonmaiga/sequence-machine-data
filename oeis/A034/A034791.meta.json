@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is square mod a(i), i < n.",
+  "id": "A034791",
+  "mentions": [
+    "A034698",
+    "A034793",
+    "A034903"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

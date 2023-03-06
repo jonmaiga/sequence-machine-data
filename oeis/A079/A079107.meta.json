@@ -1,0 +1,18 @@
+{
+  "description": "Number of digits of A077722(n) written in base 8.",
+  "id": "A079107",
+  "mentions": [
+    "A077722"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

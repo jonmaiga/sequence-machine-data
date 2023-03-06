@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of 1/104.",
+  "id": "A021108",
+  "mentions": [
+    "A020761",
+    "A020773",
+    "A020821",
+    "A021017",
+    "A021030",
+    "A021056",
+    "A021069",
+    "A021420",
+    "A021654"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:11:29",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

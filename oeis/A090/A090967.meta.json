@@ -1,0 +1,18 @@
+{
+  "description": "Given the sequence of the sums of the divisors of the semiprimes, this is the subsequence where each sum is an even number.",
+  "id": "A090967",
+  "mentions": [
+    "A001358",
+    "A068318"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

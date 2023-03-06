@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of atomic mass constant energy equivalent in MeV.",
+  "id": "A081813",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 3,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

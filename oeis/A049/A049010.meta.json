@@ -1,0 +1,20 @@
+{
+  "description": "Mean divisor of n differs by <= 1 from mean divisor of all numbers from 1 to n-1.",
+  "id": "A049010",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A048978"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

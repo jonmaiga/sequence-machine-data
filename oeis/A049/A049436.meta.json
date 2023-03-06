@@ -1,0 +1,23 @@
+{
+  "description": "p, p+8 and either p+2 or p+6 or both are all primes.",
+  "id": "A049436",
+  "mentions": [
+    "A007530",
+    "A023202",
+    "A031926",
+    "A046134",
+    "A046138",
+    "A049437",
+    "A049438"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:37:47",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

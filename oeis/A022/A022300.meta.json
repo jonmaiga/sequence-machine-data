@@ -1,0 +1,20 @@
+{
+  "description": "The sequence a of 1's and 2's starting with (1,1,2,1) such that a(n) is the length of the (n+2)nd run of a.",
+  "id": "A022300",
+  "mentions": [
+    "A000002",
+    "A006928",
+    "A022303"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:29",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

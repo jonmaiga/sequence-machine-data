@@ -1,0 +1,21 @@
+{
+  "description": "Triangle in which n-th row contains n smallest primes beginning with n.",
+  "id": "A077344",
+  "mentions": [
+    "A077345",
+    "A262369"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

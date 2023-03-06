@@ -1,0 +1,19 @@
+{
+  "description": "Least prime p such that there exists a prime q with p-2n = q.",
+  "id": "A020484",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A020483"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

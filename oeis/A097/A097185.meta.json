@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of triangle A097181, in which the n-th row polynomial R_n(y) is formed from the initial (n+1) terms of g.f. A097182(y)^(n+1), where R_n(1/2) = 8^n for all n>=0.",
+  "id": "A097185",
+  "mentions": [
+    "A097181",
+    "A097182"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

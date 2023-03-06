@@ -1,0 +1,19 @@
+{
+  "description": "Hankel transform of sequence (b(n)) where b(n) = Sum_{i=0..n} binomial(2*i,i).",
+  "id": "A098106",
+  "mentions": [
+    "A006134"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

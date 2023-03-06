@@ -1,0 +1,25 @@
+{
+  "description": "Let phi_m(x) = phi(phi(...(phi(x))...)) m times; sequence gives values of k such that phi_2(k) = tau(k).",
+  "id": "A068580",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A010554",
+    "A068579",
+    "A068581",
+    "A068582"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

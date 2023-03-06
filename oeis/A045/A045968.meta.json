@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=5; for n >= 2, if n = Product p_i^e_i, then a(n) = Product p_{i+3}^e_i.",
+  "id": "A045968",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:27:33",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

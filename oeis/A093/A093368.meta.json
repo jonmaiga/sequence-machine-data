@@ -1,0 +1,18 @@
+{
+  "description": "Number of asymmetric periodic cycles of iterative map described by Ma and Wainwright.",
+  "id": "A093368",
+  "mentions": [
+    "A093367"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

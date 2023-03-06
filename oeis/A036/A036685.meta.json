@@ -1,0 +1,18 @@
+{
+  "description": "List of single-heap P-positions in Grundy's game.",
+  "id": "A036685",
+  "mentions": [
+    "A002188"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

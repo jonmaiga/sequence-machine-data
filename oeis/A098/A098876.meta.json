@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that 3*((6*n)^k) - 1 is prime.",
+  "id": "A098876",
+  "mentions": [
+    "A098877",
+    "A138918"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

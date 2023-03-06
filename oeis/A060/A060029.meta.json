@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (1-x-x^N)/((1-x)(1-x^2)(1-x^3)...(1-x^N)) for N = 10.",
+  "id": "A060029",
+  "mentions": [
+    "A026815",
+    "A026816",
+    "A060022",
+    "A060023",
+    "A060024",
+    "A060025",
+    "A060026",
+    "A060027",
+    "A060028"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

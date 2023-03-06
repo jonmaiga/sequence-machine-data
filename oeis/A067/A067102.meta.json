@@ -1,0 +1,31 @@
+{
+  "description": "Floor[ X/Y] where X = concatenation of the squares and Y = concatenation of natural numbers.",
+  "id": "A067102",
+  "mentions": [
+    "A007908",
+    "A019521",
+    "A067091",
+    "A067092",
+    "A067093",
+    "A067094",
+    "A067095",
+    "A067096",
+    "A067097",
+    "A067098",
+    "A067099",
+    "A067100",
+    "A067101"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

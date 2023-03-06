@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 1; for n>0, if gcd(a(n-1),n) = 1 then a(n) = n*a(n-1) else a(n) = least integer multiple of a(n-1)/n.",
+  "id": "A094299",
+  "mentions": [
+    "A055773"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

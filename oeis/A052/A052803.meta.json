@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. (-1 + sqrt(1 + 4*log(1-x)))/(2*log(1-x)).",
+  "id": "A052803",
+  "mentions": [
+    "A006531",
+    "A086662",
+    "A087152"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

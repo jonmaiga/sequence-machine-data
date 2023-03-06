@@ -1,0 +1,28 @@
+{
+  "description": "Number of prime factors of concatenation of numbers from 1 up to n, with multiplicity.",
+  "id": "A046460",
+  "mentions": [
+    "A007908",
+    "A046461",
+    "A046462",
+    "A046463",
+    "A046464",
+    "A046465",
+    "A046466",
+    "A046467",
+    "A046468",
+    "A048288"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:39:56",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

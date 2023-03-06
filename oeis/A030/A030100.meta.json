@@ -1,0 +1,22 @@
+{
+  "description": "Cubes whose digits are all odd.",
+  "id": "A030100",
+  "mentions": [
+    "A030099",
+    "A034376",
+    "A052004"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

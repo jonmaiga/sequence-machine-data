@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 9 written in base n.",
+  "id": "A094327",
+  "mentions": [
+    "A001731",
+    "A035613",
+    "A063432",
+    "A094232",
+    "A094324",
+    "A094326"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:45:03",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

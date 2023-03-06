@@ -1,0 +1,16 @@
+{
+  "description": "Theta series of lattice D_4 tensor D_4 (dimension 16, det. 65536, min. norm 4).",
+  "id": "A033692",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

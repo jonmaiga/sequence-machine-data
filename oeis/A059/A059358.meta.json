@@ -1,0 +1,24 @@
+{
+  "description": "Coefficients in expansion of Sum_{n >= 1} x^n/(1-x^n)^4.",
+  "id": "A059358",
+  "mentions": [
+    "A000203",
+    "A000292",
+    "A002129",
+    "A007437",
+    "A048272",
+    "A073570",
+    "A101289"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

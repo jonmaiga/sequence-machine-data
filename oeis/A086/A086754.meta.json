@@ -1,0 +1,22 @@
+{
+  "description": "Pascal's square pyramid read by slices, each slice being read by rows. Each entry in slice n is the sum of the 4 entries above it in slice n-1.",
+  "id": "A086754",
+  "mentions": [
+    "A000537",
+    "A004282",
+    "A004320",
+    "A006002",
+    "A046816"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

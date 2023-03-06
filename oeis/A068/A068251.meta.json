@@ -1,0 +1,22 @@
+{
+  "description": "1/24 the number of colorings of a 4 X 4 octagonal array with n colors.",
+  "id": "A068251",
+  "mentions": [
+    "A000332",
+    "A002417",
+    "A027441",
+    "A068239",
+    "A068305"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:41:27",
+    "offset": 4,
+    "size": 17,
+    "source": "joeis"
+  }
+}

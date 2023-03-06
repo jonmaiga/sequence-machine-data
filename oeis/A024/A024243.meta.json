@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of tanh(sin(x)*x)/2.",
+  "id": "A024243",
+  "mentions": [
+    "A009800"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:20:56",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

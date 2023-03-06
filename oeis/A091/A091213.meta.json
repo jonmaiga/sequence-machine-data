@@ -1,0 +1,21 @@
+{
+  "description": "A091242-indices of composite GF(2)[X]-polynomials that are also composite integers.",
+  "id": "A091213",
+  "mentions": [
+    "A091211",
+    "A091212",
+    "A091242",
+    "A091246",
+    "A091247"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Index of the smallest triangular number with digit sum = n-th triangular number.",
+  "id": "A068134",
+  "mentions": [
+    "A068133"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Binomial convolution of A069321(n), where A069321(0)=0, with the sequence of all 1's alternating in sign.",
+  "id": "A091346",
+  "mentions": [
+    "A000670",
+    "A069321",
+    "A083410"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

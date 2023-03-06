@@ -1,0 +1,19 @@
+{
+  "description": "Square roots of numbers that are both lucky and square.",
+  "id": "A031163",
+  "mentions": [
+    "A000959",
+    "A031162"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

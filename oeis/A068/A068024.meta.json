@@ -1,0 +1,27 @@
+{
+  "description": "Z(S_m; sigma[1](n), sigma[2](n),..., sigma[m](n)) where Z(S_m; x_1,x_2,...,x_m) is the cycle index of the symmetric group S_m and sigma[k](n) is the sum of k-th powers of divisors of n; m=7.",
+  "id": "A068024",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A001160",
+    "A013954",
+    "A013955",
+    "A067692",
+    "A068020",
+    "A068023",
+    "A068025",
+    "A068027"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

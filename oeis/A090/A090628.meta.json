@@ -1,0 +1,23 @@
+{
+  "description": "Square array T(n,k) (row n, column k) read by antidiagonals defined by: T(n,k) is the permanent of the n X n matrix with 1 on the diagonal and k elsewhere; T(0,k)=1.",
+  "id": "A090628",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A000354",
+    "A008290"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

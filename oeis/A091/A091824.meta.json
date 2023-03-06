@@ -1,0 +1,19 @@
+{
+  "description": "Numbers p such that ((p-1)!*2^(p-1) + 1)/p is a prime.",
+  "id": "A091824",
+  "mentions": [
+    "A091825"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

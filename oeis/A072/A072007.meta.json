@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 0; for n>=1, a(n)=least nonnegative integer x such that |x-a(n-1)|>=n and x is not a(k) for any k",
+  "id": "A072007",
+  "mentions": [
+    "A072008",
+    "A072009"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

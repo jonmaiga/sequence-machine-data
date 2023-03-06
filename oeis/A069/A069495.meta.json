@@ -1,0 +1,21 @@
+{
+  "description": "Squares which are the arithmetic mean of two consecutive primes.",
+  "id": "A069495",
+  "mentions": [
+    "A000290",
+    "A024675",
+    "A062703",
+    "A075190"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

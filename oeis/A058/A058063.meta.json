@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime factors (when counted with multiplicity) of sigma(n), the sum of divisors of n.",
+  "id": "A058063",
+  "mentions": [
+    "A000120",
+    "A000203",
+    "A001222",
+    "A331750",
+    "A332221"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

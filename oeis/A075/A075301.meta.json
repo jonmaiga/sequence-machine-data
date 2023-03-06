@@ -1,0 +1,20 @@
+{
+  "description": "Inverse permutation to A075300.",
+  "id": "A075301",
+  "mentions": [
+    "A001477",
+    "A007814",
+    "A025480",
+    "A075300"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

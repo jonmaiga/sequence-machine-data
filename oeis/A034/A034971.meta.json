@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(E_(n+1)/E_(n)) where E_n is n-th Euler number (see A028296 and A000364).",
+  "id": "A034971",
+  "mentions": [
+    "A000364",
+    "A025740",
+    "A028296"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

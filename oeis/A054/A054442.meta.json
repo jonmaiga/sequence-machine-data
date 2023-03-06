@@ -1,0 +1,22 @@
+{
+  "description": "Second convolution of A001405 (central binomial numbers).",
+  "id": "A054442",
+  "mentions": [
+    "A000108",
+    "A001405",
+    "A045621",
+    "A054336"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

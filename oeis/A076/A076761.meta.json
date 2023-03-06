@@ -1,0 +1,17 @@
+{
+  "description": "3-apexes of omega: numbers k such that omega(k-3) < omega(k-2) < omega(k-1) < omega(k) > omega(k+1) > omega(k+2) > omega(k+3), where omega(m) = the number of distinct prime factors of m.",
+  "id": "A076761",
+  "mentions": [
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

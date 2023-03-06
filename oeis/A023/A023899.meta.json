@@ -1,0 +1,21 @@
+{
+  "description": "Integer values of divisor balance: Sum_{d divides k} {d / phi(d)} for numbers k in A023898.",
+  "id": "A023899",
+  "mentions": [
+    "A000010",
+    "A023898",
+    "A239886",
+    "A239887"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

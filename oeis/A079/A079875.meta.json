@@ -1,0 +1,19 @@
+{
+  "description": "Number of positions that are exactly n moves from the starting position in the Lights Out 2000 puzzle.",
+  "id": "A079875",
+  "mentions": [
+    "A079873"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

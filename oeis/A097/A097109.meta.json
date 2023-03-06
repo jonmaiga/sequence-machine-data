@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: s(2)^2*s(3)^3/(s(1)*s(6)^2), where s(k) := subs(q=q^k, eta(q)) and eta(q) is Dedekind's function, cf. A010815.",
+  "id": "A097109",
+  "mentions": [
+    "A010815",
+    "A115978",
+    "A122861"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:49:55",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

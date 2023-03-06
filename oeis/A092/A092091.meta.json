@@ -1,0 +1,19 @@
+{
+  "description": "Molien series for 9-dimensional group of structure Z_2 X Z_2 and order 4, corresponding to complete weight enumerators of Hermitian self-dual GF(3)-linear codes over GF(9).",
+  "id": "A092091",
+  "mentions": [
+    "A052365"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:29:47",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

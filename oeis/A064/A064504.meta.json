@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that prime(k) + prime(k+1)*2 is a square.",
+  "id": "A064504",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

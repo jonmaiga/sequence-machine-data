@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = F(n)^F(n+1), where F is the Fibonacci sequence A000045.",
+  "id": "A090241",
+  "mentions": [
+    "A000045",
+    "A090242"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

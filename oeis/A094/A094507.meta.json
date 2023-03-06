@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of Dyck paths of semilength n and having k UDUD's (here U=(1,1), D=(1,-1)).",
+  "id": "A094507",
+  "mentions": [
+    "A000108",
+    "A078481",
+    "A102405",
+    "A243752",
+    "A243753",
+    "A244236",
+    "A304361"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

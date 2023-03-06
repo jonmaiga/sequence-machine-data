@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (theta_3(z)*theta_3(5z)*theta_3(25z)+theta_2(z)*theta_2(5z)*theta_2(25z)).",
+  "id": "A028710",
+  "mentions": [
+    "A028711",
+    "A028712",
+    "A028713"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

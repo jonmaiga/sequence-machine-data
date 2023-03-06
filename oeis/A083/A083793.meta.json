@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n and n-1 have the same prime signature. Numbers not included in A083792.",
+  "id": "A083793",
+  "mentions": [
+    "A083792"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

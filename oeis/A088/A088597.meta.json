@@ -1,0 +1,19 @@
+{
+  "description": "First (most significant) number in the concatenation of A077293(n).",
+  "id": "A088597",
+  "mentions": [
+    "A077293",
+    "A088598"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

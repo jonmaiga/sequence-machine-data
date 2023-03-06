@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to express n as p+2a^2; p prime, a >= 0.",
+  "id": "A046922",
+  "mentions": [
+    "A001105",
+    "A010051",
+    "A042978",
+    "A046920",
+    "A046921",
+    "A046923",
+    "A060003",
+    "A143539"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

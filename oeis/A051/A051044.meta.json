@@ -1,0 +1,22 @@
+{
+  "description": "Odd values of the PartitionsQ function A000009.",
+  "id": "A051044",
+  "mentions": [
+    "A000009",
+    "A001318",
+    "A035359",
+    "A051005",
+    "A118303"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

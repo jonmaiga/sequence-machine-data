@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n + 10 and n - 10 are both prime.",
+  "id": "A087683",
+  "mentions": [
+    "A014574",
+    "A087678",
+    "A087682",
+    "A087695",
+    "A087697",
+    "A088770"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

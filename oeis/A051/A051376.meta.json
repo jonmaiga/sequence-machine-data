@@ -1,0 +1,21 @@
+{
+  "description": "Number of Boolean functions of n variables and rank 4 from Post class F(5,inf).",
+  "id": "A051376",
+  "mentions": [
+    "A000918",
+    "A036239",
+    "A036240"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

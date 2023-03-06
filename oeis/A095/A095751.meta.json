@@ -1,0 +1,21 @@
+{
+  "description": "Integers known to be friendly but are not known to be primitive friendly.",
+  "id": "A095751",
+  "mentions": [
+    "A014567",
+    "A074902",
+    "A095738",
+    "A095739",
+    "A096366"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(293).",
+  "id": "A041550",
+  "mentions": [
+    "A040275",
+    "A041018",
+    "A041046",
+    "A041090",
+    "A041150",
+    "A041226",
+    "A041318",
+    "A041426",
+    "A041551",
+    "A090306"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:52",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

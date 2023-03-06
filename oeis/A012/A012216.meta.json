@@ -1,0 +1,17 @@
+{
+  "description": "sinh(arctan(arcsinh(x)))=x-2/3!*x^3+24/5!*x^5-664/7!*x^7+28416/9!*x^9...",
+  "id": "A012216",
+  "mentions": [
+    "A012213"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:31:00",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

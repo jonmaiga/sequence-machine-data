@@ -1,0 +1,17 @@
+{
+  "description": "Denominator of n * Product_{d|n} (1 + 1/d).",
+  "id": "A029934",
+  "mentions": [
+    "A029933"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

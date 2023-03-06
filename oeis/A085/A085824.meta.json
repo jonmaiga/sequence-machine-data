@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the smallest prime containing exactly n 0's (A037053) requires only two nonzero digits.",
+  "id": "A085824",
+  "mentions": [
+    "A037053"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

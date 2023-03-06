@@ -1,0 +1,19 @@
+{
+  "description": "p and 2p-1 are both Pythagorean primes, i.e., congruent to 1 (mod 4).",
+  "id": "A098025",
+  "mentions": [
+    "A001567",
+    "A002144",
+    "A005382"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

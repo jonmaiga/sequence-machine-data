@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that in the list of divisors of k (in base 5), each digit 0-4 appears equally often.",
+  "id": "A045869",
+  "mentions": [
+    "A038564",
+    "A038565"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:18",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of permutations in the symmetric group S_n that contain an odd cycle.",
+  "id": "A087137",
+  "mentions": [
+    "A001818",
+    "A059838"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "10^n - (largest n-digit multiple of the n-th prime).",
+  "id": "A091802",
+  "mentions": [
+    "A091801",
+    "A091803",
+    "A091804"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

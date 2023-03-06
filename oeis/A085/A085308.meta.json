@@ -1,0 +1,21 @@
+{
+  "description": "Iterate function described in A085308 (= reverse concatenation of prime factors); a(n) is either 1# the fixed point[=prime] if it exists at all: 2# a(2k)=1 labels that no convergence with most even initial values, in contrary mostly rapid divergence is the case; 3# a(n)=0 if n=1 or if the iteration results in nontrivial attractor with cycle length larger than one.",
+  "id": "A085308",
+  "mentions": [
+    "A084317",
+    "A084319",
+    "A085309"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

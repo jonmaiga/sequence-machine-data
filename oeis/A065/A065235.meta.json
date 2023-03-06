@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers which can be written in precisely one way as sum of a subset of their proper divisors.",
+  "id": "A065235",
+  "mentions": [
+    "A064771",
+    "A136446"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

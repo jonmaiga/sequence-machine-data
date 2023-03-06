@@ -1,0 +1,17 @@
+{
+  "description": "Least nontrivial omnipower mod A048184(n).",
+  "id": "A048185",
+  "mentions": [
+    "A048184"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

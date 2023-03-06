@@ -1,0 +1,17 @@
+{
+  "description": "Odd short leg of more than one primitive Pythagorean triangle.",
+  "id": "A083883",
+  "mentions": [
+    "A081874"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

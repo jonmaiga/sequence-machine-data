@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways of arranging n straight lines in general position in the (affine) plane.",
+  "id": "A090338",
+  "mentions": [
+    "A000124",
+    "A000125",
+    "A090339",
+    "A241600",
+    "A250001"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

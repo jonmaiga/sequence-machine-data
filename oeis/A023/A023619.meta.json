@@ -1,0 +1,19 @@
+{
+  "description": "Convolution of Lucas numbers and (F(2), F(3), F(4), ...).",
+  "id": "A023619",
+  "mentions": [
+    "A000045",
+    "A001629"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:56:47",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

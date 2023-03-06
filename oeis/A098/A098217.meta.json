@@ -1,0 +1,20 @@
+{
+  "description": "Cototients of terms from A098216. By definitions these cototient values are decimal repdigits.",
+  "id": "A098217",
+  "mentions": [
+    "A010785",
+    "A096503",
+    "A098216"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n*(2*n+5)*(n-1)/6.",
+  "id": "A051925",
+  "mentions": [
+    "A000330",
+    "A005563",
+    "A033487",
+    "A060351",
+    "A213750"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:47",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

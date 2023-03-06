@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = phi(sigma(n) + phi(n)) = A000010(A000203(n) + A000010(n)) = A000010(A065387(n)).",
+  "id": "A077080",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A065387",
+    "A077081",
+    "A077085"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

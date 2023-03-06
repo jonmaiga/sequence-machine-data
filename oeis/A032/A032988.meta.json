@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that if d,e are consecutive digits of k in base 6, then |d-e| >= 4.",
+  "id": "A032988",
+  "mentions": [
+    "A007092"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:05:19",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

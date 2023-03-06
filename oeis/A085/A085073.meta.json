@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that n+k and n*k have the same prime signature, or 0 if no such number exists.",
+  "id": "A085073",
+  "mentions": [
+    "A052213",
+    "A085072"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Binomial transform of reflected pentanacci numbers A074062: a(n) = Sum_{k=0..n}(-1)^k*binomial(n, k)*A074062(k).",
+  "id": "A074826",
+  "mentions": [
+    "A074062",
+    "A074825",
+    "A168823"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest composite number coprime to n.",
+  "id": "A089090",
+  "mentions": [
+    "A007978",
+    "A053669",
+    "A053670",
+    "A053674",
+    "A090091",
+    "A090093"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

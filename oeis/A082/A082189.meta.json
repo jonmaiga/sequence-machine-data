@@ -1,0 +1,20 @@
+{
+  "description": "Main diagonal of square array A082025.",
+  "id": "A082189",
+  "mentions": [
+    "A082025",
+    "A082187",
+    "A082188",
+    "A082190"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

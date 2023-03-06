@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that abs(A092673(k)) = 1.",
+  "id": "A091428",
+  "mentions": [
+    "A020486",
+    "A056911",
+    "A081770",
+    "A092673",
+    "A359592"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

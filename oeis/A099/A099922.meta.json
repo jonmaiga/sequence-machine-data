@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = F(4n) - 2n, where F(n) = Fibonacci numbers A000045.",
+  "id": "A099922",
+  "mentions": [
+    "A000045",
+    "A033888",
+    "A054452",
+    "A081071"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

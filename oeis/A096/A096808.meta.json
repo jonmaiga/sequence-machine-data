@@ -1,0 +1,20 @@
+{
+  "description": "Sum of squares of antidiagonals in table A096810.",
+  "id": "A096808",
+  "mentions": [
+    "A004526",
+    "A007494",
+    "A096810"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

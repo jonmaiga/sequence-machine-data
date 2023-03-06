@@ -1,0 +1,21 @@
+{
+  "description": "Number of 1's in binary representation of n equals bigomega(n), the number of prime divisors of n (counted with multiplicity).",
+  "id": "A071814",
+  "mentions": [
+    "A000120",
+    "A001222",
+    "A071594",
+    "A115156"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

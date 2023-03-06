@@ -1,0 +1,25 @@
+{
+  "description": "Number of permutations satisfying -k<=p(i)-i<=r and p(i)-i not in I, i=1..n, with k=1, r=5, I={0,4}.",
+  "id": "A079964",
+  "mentions": [
+    "A002524",
+    "A002529",
+    "A072827",
+    "A072850",
+    "A072856",
+    "A079955",
+    "A080014"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:13:25",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

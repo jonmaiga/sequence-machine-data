@@ -1,0 +1,17 @@
+{
+  "description": "For k >= a(n), there are A048284(n) numbers expressible as a sum of exactly k-n k-gonal numbers.",
+  "id": "A048283",
+  "mentions": [
+    "A048284"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

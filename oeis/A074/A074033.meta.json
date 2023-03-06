@@ -1,0 +1,21 @@
+{
+  "description": "Number of degree-n irreducible polynomials over GF(4) with trace 1 and subtrace 0.",
+  "id": "A074033",
+  "mentions": [
+    "A074031",
+    "A074032",
+    "A074034",
+    "A074035"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least positive integer > a(n-1) and not a(i)*a(j)-a(k) for 1 <= i <= j <= k <= n, where a(1) = 1.",
+  "id": "A026488",
+  "mentions": [
+    "A026477"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:04",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

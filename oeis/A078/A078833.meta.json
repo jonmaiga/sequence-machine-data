@@ -1,0 +1,24 @@
+{
+  "description": "Greatest prime contained as binary substring in binary representation of n>1, a(1)=1.",
+  "id": "A078833",
+  "mentions": [
+    "A006530",
+    "A007088",
+    "A039634",
+    "A078822",
+    "A078826",
+    "A078832",
+    "A225243"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

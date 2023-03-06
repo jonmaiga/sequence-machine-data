@@ -1,0 +1,28 @@
+{
+  "description": "Number of integer-sided triangles with sides a,b,c, a",
+  "id": "A024164",
+  "mentions": [
+    "A004526",
+    "A005044",
+    "A307136",
+    "A336750",
+    "A336751",
+    "A336753",
+    "A336754",
+    "A336755",
+    "A336756",
+    "A336757"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:02",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

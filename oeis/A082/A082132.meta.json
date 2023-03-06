@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 5; for n > 0, a(n) is the greatest prime factor of PP(a(n-1))*a(n-1)-2 where PP(n) is an abbreviation for PreviousPrime(n).",
+  "id": "A082132",
+  "mentions": [
+    "A031441",
+    "A031442",
+    "A082021"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

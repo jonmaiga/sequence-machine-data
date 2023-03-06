@@ -1,0 +1,33 @@
+{
+  "description": "Number of nondecreasing arithmetic progressions of positive integers with sum n.",
+  "id": "A049988",
+  "mentions": [
+    "A000005",
+    "A000217",
+    "A007862",
+    "A047966",
+    "A049980",
+    "A049982",
+    "A049983",
+    "A049986",
+    "A049987",
+    "A129654",
+    "A240026",
+    "A240027",
+    "A307824",
+    "A320466",
+    "A325325",
+    "A325328"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

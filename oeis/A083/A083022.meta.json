@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 4*n^2 - 3 is prime.",
+  "id": "A083022",
+  "mentions": [
+    "A028873",
+    "A028874"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:01",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

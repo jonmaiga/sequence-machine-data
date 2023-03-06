@@ -1,0 +1,19 @@
+{
+  "description": "Non-record differences among consecutive primes.",
+  "id": "A063096",
+  "mentions": [
+    "A001223",
+    "A005250",
+    "A063095"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

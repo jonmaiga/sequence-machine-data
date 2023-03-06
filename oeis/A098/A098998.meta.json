@@ -1,0 +1,15 @@
+{
+  "description": "p(11p-7) where p is prime.",
+  "id": "A098998",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:34:15",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

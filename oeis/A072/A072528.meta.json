@@ -1,0 +1,22 @@
+{
+  "description": "Table T(n,k) read by rows, giving number of occurrences of the remainder k when n is divided by i=1,2,3,...,n.",
+  "id": "A072528",
+  "mentions": [
+    "A023645",
+    "A072527",
+    "A230374",
+    "A230399"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n for which Lucas(n) and Fibonacci(n) are both prime.",
+  "id": "A080327",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000204",
+    "A001605",
+    "A001606",
+    "A005478",
+    "A005479",
+    "A121533",
+    "A121534"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

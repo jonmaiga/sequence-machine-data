@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the k-th prime has an even number of 1's in its binary expansion and the (k+1)st prime has an odd number of 1's.",
+  "id": "A027704",
+  "mentions": [
+    "A027701",
+    "A027702",
+    "A027703",
+    "A027705",
+    "A027706"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

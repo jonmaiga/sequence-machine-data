@@ -1,0 +1,24 @@
+{
+  "description": "McKay-Thompson series of class 24d for Monster.",
+  "id": "A058587",
+  "mentions": [
+    "A000521",
+    "A007240",
+    "A007241",
+    "A007267",
+    "A014708",
+    "A045478",
+    "A112163"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:49:19",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

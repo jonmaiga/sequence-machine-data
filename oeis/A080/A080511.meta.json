@@ -1,0 +1,21 @@
+{
+  "description": "Triangle whose n-th row contains the least set (ordered lexicographically) of n distinct positive integers whose arithmetic mean is an integer.",
+  "id": "A080511",
+  "mentions": [
+    "A008619",
+    "A080504",
+    "A080508",
+    "A080512"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

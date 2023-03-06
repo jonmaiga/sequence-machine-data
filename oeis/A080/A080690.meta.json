@@ -1,0 +1,18 @@
+{
+  "description": "Number of acyclic orientations of n X n grid graph.",
+  "id": "A080690",
+  "mentions": [
+    "A007341",
+    "A080691"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

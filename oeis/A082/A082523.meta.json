@@ -1,0 +1,17 @@
+{
+  "description": "Number of times k^2 + (n-k)^2 is a square for 1 <= k <= n-1.",
+  "id": "A082523",
+  "mentions": [
+    "A118905"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

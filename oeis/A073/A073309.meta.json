@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form n! + n + 1.",
+  "id": "A073309",
+  "mentions": [
+    "A073308"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

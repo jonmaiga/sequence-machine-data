@@ -1,0 +1,22 @@
+{
+  "description": "One of two (v,k,lambda)=(31,15,7) cyclic difference sets. The other one is A095042.",
+  "id": "A095041",
+  "mentions": [
+    "A095025",
+    "A095029",
+    "A095042",
+    "A095047"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

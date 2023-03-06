@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(n,k) read by rows: difference between A098489 and A098490 at triangular rows.",
+  "id": "A098493",
+  "mentions": [
+    "A000096",
+    "A007318",
+    "A010892",
+    "A033999",
+    "A038608",
+    "A057077",
+    "A061554",
+    "A076118",
+    "A094954",
+    "A098489",
+    "A098490",
+    "A098494",
+    "A098495"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:24:35",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

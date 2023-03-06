@@ -1,0 +1,22 @@
+{
+  "description": "Numbers divisible by the sum of their ternary digits.",
+  "id": "A064150",
+  "mentions": [
+    "A005349",
+    "A049445",
+    "A053735"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

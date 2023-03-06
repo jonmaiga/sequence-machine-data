@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form k(k+1)/2+2 (i.e., two more than a triangular number).",
+  "id": "A055472",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A022856",
+    "A152948"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:25:53",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "k-values associated with A091321.",
+  "id": "A091322",
+  "mentions": [
+    "A091321",
+    "A107749"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Size of largest conjugacy class in the group GL(2,Z_n).",
+  "id": "A070732",
+  "mentions": [
+    "A000010",
+    "A000056",
+    "A000082",
+    "A062354",
+    "A098198",
+    "A099892",
+    "A330523"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

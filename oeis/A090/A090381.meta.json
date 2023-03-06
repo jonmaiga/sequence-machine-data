@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of (1+4x+7x^2)/((1-x)^2*(1-x^2)).",
+  "id": "A090381",
+  "mentions": [
+    "A090382",
+    "A090383",
+    "A090384",
+    "A090385",
+    "A245556",
+    "A245557",
+    "A245869",
+    "A245870"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:14:51",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of symmetric 4 X 4 matrices of nonnegative integers with every row and column adding to n.",
+  "id": "A053493",
+  "mentions": [
+    "A019298",
+    "A053494"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:09:15",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

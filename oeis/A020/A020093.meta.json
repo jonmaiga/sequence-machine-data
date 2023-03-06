@@ -1,0 +1,15 @@
+{
+  "description": "Ceiling of GAMMA(n+5/12)/GAMMA(5/12).",
+  "id": "A020093",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:27:37",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Scan decimal expansion of log(2) until all n-digit strings have been seen; a(n) is last string seen.",
+  "id": "A036901",
+  "mentions": [
+    "A002162",
+    "A032510",
+    "A036900",
+    "A036905",
+    "A036906"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

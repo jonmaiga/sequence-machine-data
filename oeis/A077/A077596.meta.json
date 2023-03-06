@@ -1,0 +1,23 @@
+{
+  "description": "Central coefficients of Moebius polynomials (A074586): coefficient of x^(n/2-1/2) if n is odd; coefficient of x^(n/2-1) if n is even and >4. The n-th Moebius polynomial, M(n,x), satisfies M(n,-1)=mu(n) the Moebius function of n.",
+  "id": "A077596",
+  "mentions": [
+    "A074586",
+    "A074587",
+    "A077597",
+    "A077598",
+    "A077599",
+    "A077600",
+    "A077601"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

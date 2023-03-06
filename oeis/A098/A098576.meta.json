@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} C(n-2*k,2*k) * 3^k.",
+  "id": "A098576",
+  "mentions": [
+    "A097116",
+    "A098575"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

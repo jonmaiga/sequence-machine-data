@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Z(n) - L(n), where Z=A072649 and L=A095791 are lengths of Zeckendorf and lazy Fibonacci representations in binary notation.",
+  "id": "A095792",
+  "mentions": [
+    "A000045",
+    "A072649",
+    "A095791"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Difference between (1+2^n)-th and (2^n)-th primes. Also number of terms in blocks of A073798.",
+  "id": "A074325",
+  "mentions": [
+    "A000079",
+    "A033844",
+    "A051439",
+    "A073798"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

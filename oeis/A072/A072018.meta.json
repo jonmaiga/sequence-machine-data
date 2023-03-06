@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which gcd(k, reverse(k)) = 243 = 3^5.",
+  "id": "A072018",
+  "mentions": [
+    "A004086",
+    "A055483",
+    "A069554",
+    "A071016",
+    "A071686",
+    "A072005",
+    "A072016"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

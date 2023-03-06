@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n=P(d_1*d_2*...*d_k) + P(d_1+d_2+...+d_k) where d_1 d_2 ... d_k is the decimal expansion of n and P(i) is the i-th prime.",
+  "id": "A099067",
+  "mentions": [
+    "A099068",
+    "A099069"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

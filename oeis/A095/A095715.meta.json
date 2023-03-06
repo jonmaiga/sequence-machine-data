@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of numbers obtained by reversing the first n digits of 1/phi and juxtaposing (phi denotes the golden ratio: A001622).",
+  "id": "A095715",
+  "mentions": [
+    "A001622",
+    "A094214",
+    "A095713"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

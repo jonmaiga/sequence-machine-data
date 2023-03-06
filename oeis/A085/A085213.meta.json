@@ -1,0 +1,20 @@
+{
+  "description": "Array A085211 in binary.",
+  "id": "A085213",
+  "mentions": [
+    "A085211",
+    "A085214"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Convolution of natural numbers n >= 1 with Fibonacci numbers F(k), for k >= 5.",
+  "id": "A037140",
+  "mentions": [
+    "A000045",
+    "A001891",
+    "A001924",
+    "A033937",
+    "A033960"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

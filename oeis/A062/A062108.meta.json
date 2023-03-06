@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(n^(3/4)).",
+  "id": "A062108",
+  "mentions": [
+    "A000196",
+    "A061054",
+    "A100196"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:25:57",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

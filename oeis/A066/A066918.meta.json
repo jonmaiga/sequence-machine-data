@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least natural number k such that f(k) begins a maximal zigzag of length n in the prime gaps function f(x) = p(x+1)-p(x), where p(x) denotes the x-th prime. (Cf. A066485.)",
+  "id": "A066918",
+  "mentions": [
+    "A066485"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

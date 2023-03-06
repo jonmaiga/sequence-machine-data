@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) read by rows, where T(n,k) = number of times the permanent of a real nonsingular n X n (0,1)-matrix takes the value k, for n >= 1, 1 <= k <= A000255(n).",
+  "id": "A089480",
+  "mentions": [
+    "A000255",
+    "A052655",
+    "A089475",
+    "A089479",
+    "A089481"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

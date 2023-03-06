@@ -1,0 +1,24 @@
+{
+  "description": "Ratio A095106(n)/A095093(n) rounded down.",
+  "id": "A095355",
+  "mentions": [
+    "A095091",
+    "A095093",
+    "A095103",
+    "A095106",
+    "A095109",
+    "A095356",
+    "A095359"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

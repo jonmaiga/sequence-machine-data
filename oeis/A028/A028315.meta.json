@@ -1,0 +1,18 @@
+{
+  "description": "Odd elements in the 5-Pascal triangle A028313.",
+  "id": "A028315",
+  "mentions": [
+    "A028313"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:49",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

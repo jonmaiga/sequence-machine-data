@@ -1,0 +1,20 @@
+{
+  "description": "Prime numerators of the sums of the ratios of consecutive primes.",
+  "id": "A094662",
+  "mentions": [
+    "A000040",
+    "A094661"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

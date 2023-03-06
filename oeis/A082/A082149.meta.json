@@ -1,0 +1,22 @@
+{
+  "description": "A transform of C(n,2).",
+  "id": "A082149",
+  "mentions": [
+    "A000217",
+    "A027472",
+    "A080929",
+    "A082150"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

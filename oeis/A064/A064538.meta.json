@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the smallest positive integer such that a(n)*(1^n + 2^n + ... + x^n) is a polynomial in x with integer coefficients.",
+  "id": "A064538",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A195441",
+    "A256581",
+    "A286516",
+    "A286762",
+    "A286763"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:16",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

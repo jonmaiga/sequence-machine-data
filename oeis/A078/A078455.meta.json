@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 2. For n>1, a(n) = smallest m such that m == 0 (mod prime(n)), m + 1 == 0 (mod prime(n+1)) and m-1 == 0 (mod prime(n-1)).",
+  "id": "A078455",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

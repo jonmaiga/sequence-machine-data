@@ -1,0 +1,20 @@
+{
+  "description": "Values of Moebius function of the products of two (not necessarily distinct) primes (semiprimes or 2-almost primes, A001358).",
+  "id": "A072165",
+  "mentions": [
+    "A001358",
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:36:51",
+    "offset": 1,
+    "size": 115,
+    "source": "joeis"
+  }
+}

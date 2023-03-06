@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that k and k + n have the same prime signature.",
+  "id": "A086489",
+  "mentions": [
+    "A085072",
+    "A085876"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

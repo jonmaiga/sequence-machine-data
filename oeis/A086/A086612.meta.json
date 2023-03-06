@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of coefficients, read by rows, where T(n,k) is the coefficient of x^n*y^k in f(x,y) that satisfies f(x,y) = (1+x) - x^2*(1+x)^2 + xy*f(x,y)^2.",
+  "id": "A086612",
+  "mentions": [
+    "A000108",
+    "A086613",
+    "A086634"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

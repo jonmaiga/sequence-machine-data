@@ -1,0 +1,16 @@
+{
+  "description": "E.g.f.: A(x) = f(x*A(x)^2), where f(x) = exp(arctan(x)).",
+  "id": "A088691",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

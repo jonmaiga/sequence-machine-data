@@ -1,0 +1,15 @@
+{
+  "description": "Prime numbers occurring at integer Pythagorean distance (radius) from 1 in Ulam square prime-spiral. Primes on axes are excluded.",
+  "id": "A078765",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

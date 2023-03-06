@@ -1,0 +1,23 @@
+{
+  "description": "Perfect powers for which the exponent is a prime number: solutions to {A051409(x) is prime}.",
+  "id": "A093771",
+  "mentions": [
+    "A001157",
+    "A001597",
+    "A010051",
+    "A025479",
+    "A051409",
+    "A052409"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

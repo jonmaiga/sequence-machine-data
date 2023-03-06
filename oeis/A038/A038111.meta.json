@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of density of integers with smallest prime factor prime(n).",
+  "id": "A038111",
+  "mentions": [
+    "A038110",
+    "A060753",
+    "A112037"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

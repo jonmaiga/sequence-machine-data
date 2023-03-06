@@ -1,0 +1,19 @@
+{
+  "description": "-3591*zeta_K(-5), where K runs through the simplest cubic fields.",
+  "id": "A084734",
+  "mentions": [
+    "A005471",
+    "A084711",
+    "A084719"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

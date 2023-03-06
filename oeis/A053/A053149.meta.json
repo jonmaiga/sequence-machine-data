@@ -1,0 +1,29 @@
+{
+  "description": "Smallest cube divisible by n.",
+  "id": "A053149",
+  "mentions": [
+    "A000188",
+    "A000189",
+    "A002117",
+    "A007913",
+    "A008834",
+    "A013667",
+    "A019554",
+    "A048798",
+    "A050985",
+    "A330596"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

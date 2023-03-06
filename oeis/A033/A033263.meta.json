@@ -1,0 +1,22 @@
+{
+  "description": "Positions of the incrementally largest terms in the continued fraction for Laplace's limit constant.",
+  "id": "A033263",
+  "mentions": [
+    "A033259",
+    "A033260",
+    "A033261",
+    "A033262"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "cofr",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

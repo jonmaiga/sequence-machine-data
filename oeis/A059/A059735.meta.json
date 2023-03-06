@@ -1,0 +1,20 @@
+{
+  "description": "Number of complementary pairs of tournaments on n nodes.",
+  "id": "A059735",
+  "mentions": [
+    "A000568",
+    "A002785"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

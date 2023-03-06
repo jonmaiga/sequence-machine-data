@@ -1,0 +1,23 @@
+{
+  "description": "Greatest prime divisor of prime(n) - 1.",
+  "id": "A023503",
+  "mentions": [
+    "A005384",
+    "A006093",
+    "A006530",
+    "A035095",
+    "A159611",
+    "A174099"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:18:39",
+    "offset": 2,
+    "size": 75,
+    "source": "joeis"
+  }
+}

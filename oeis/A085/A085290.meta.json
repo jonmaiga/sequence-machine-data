@@ -1,0 +1,20 @@
+{
+  "description": "Max[p1^b1] over all sorted multiplicative partitions of n! of length n.",
+  "id": "A085290",
+  "mentions": [
+    "A085288",
+    "A085289",
+    "A085291",
+    "A103332"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 4,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Beginning with n, add the next number, subtract the previous number, and so on; then a(n) is the largest prime arising in this process, or 0 if no prime is reached in 2n-1 steps: a(n) is the largest occurring prime in the sum n + (n+1) - (n-1) + (n+2) - (n-2) + (n+3) - (n-3) + ... +- 1 occurring at any stage.",
+  "id": "A092951",
+  "mentions": [
+    "A092950"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

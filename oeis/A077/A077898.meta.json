@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1 - x)^(-1)/(1 + x - 2*x^2).",
+  "id": "A077898",
+  "mentions": [
+    "A000931",
+    "A053088",
+    "A077925"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

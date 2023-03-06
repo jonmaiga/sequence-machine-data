@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A062799(k) = 4.",
+  "id": "A068993",
+  "mentions": [
+    "A006881",
+    "A030514",
+    "A048272",
+    "A062799",
+    "A113901"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

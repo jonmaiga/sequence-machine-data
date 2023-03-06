@@ -1,0 +1,20 @@
+{
+  "description": "Denominators used in A090219 to compute formula for column sequences of array A078741.",
+  "id": "A090220",
+  "mentions": [
+    "A078741",
+    "A090219"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

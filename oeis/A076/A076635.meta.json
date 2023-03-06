@@ -1,0 +1,16 @@
+{
+  "description": "Let b(1)=1/n, b(2)=1, b(k+1)=abs(b(k))-b(k-1)^2; then b(k) is >0 for k>a(n).",
+  "id": "A076635",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

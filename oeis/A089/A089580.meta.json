@@ -1,0 +1,21 @@
+{
+  "description": "Total number of exact powers below 10^n (counting duplicates).",
+  "id": "A089580",
+  "mentions": [
+    "A001597",
+    "A072103",
+    "A089579",
+    "A117453",
+    "A275358"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

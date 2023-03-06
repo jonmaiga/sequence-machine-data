@@ -1,0 +1,28 @@
+{
+  "description": "Write the numbers from 1 to n^2 consecutively in n rows of length n; a(n) = minimal number of primes in a row.",
+  "id": "A083382",
+  "mentions": [
+    "A000720",
+    "A010051",
+    "A014085",
+    "A066888",
+    "A083383",
+    "A083414",
+    "A083415",
+    "A084927",
+    "A092556",
+    "A092557",
+    "A139326"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

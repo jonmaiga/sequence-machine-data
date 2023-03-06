@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of ((1-x)/(1-2*x))^4.",
+  "id": "A062109",
+  "mentions": [
+    "A002623",
+    "A006918",
+    "A055809",
+    "A058396",
+    "A062110",
+    "A291000"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:56:44",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

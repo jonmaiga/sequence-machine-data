@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f. sqrt(V(x)), where V(x) = Sum_{n >= 0} A065409(n)*x^n.",
+  "id": "A026301",
+  "mentions": [
+    "A046105",
+    "A060042",
+    "A065409"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:03:24",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

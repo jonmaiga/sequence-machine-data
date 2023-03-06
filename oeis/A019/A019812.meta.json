@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of sine of 3 degrees.",
+  "id": "A019812",
+  "mentions": [
+    "A019810",
+    "A019811",
+    "A019896",
+    "A019897",
+    "A019898",
+    "A019901",
+    "A019985"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:03:41",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

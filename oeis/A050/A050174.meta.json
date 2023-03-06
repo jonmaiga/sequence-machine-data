@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) = S(n,k,k-2), 1<=k<=n-2, n >= 3, array S as in A050157.",
+  "id": "A050174",
+  "mentions": [
+    "A007318",
+    "A014430",
+    "A050157"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:42:27",
+    "offset": 3,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Min{x : sigma(x) = n*phi(x), x is not a prime}, the least nonprime solutions to sigma(x) = n*phi(x); special balanced numbers.",
+  "id": "A088830",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A020492",
+    "A055234",
+    "A074891",
+    "A087979"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

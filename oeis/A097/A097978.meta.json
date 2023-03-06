@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = least m such that m and m+n are both products of exactly n distinct primes.",
+  "id": "A097978",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A006881",
+    "A007304",
+    "A046386",
+    "A098515",
+    "A135058"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

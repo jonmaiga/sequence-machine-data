@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are sums of consecutive squares.",
+  "id": "A034705",
+  "mentions": [
+    "A000290",
+    "A000330",
+    "A034706",
+    "A217843",
+    "A217850"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:44",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

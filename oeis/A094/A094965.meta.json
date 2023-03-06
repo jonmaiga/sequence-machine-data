@@ -1,0 +1,20 @@
+{
+  "description": "A continued fraction transformation of e.",
+  "id": "A094965",
+  "mentions": [
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

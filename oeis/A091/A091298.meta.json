@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of plane partitions of n containing exactly k parts.",
+  "id": "A091298",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A000219",
+    "A052928",
+    "A089924",
+    "A090539",
+    "A092288"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

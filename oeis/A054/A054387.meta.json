@@ -1,0 +1,18 @@
+{
+  "description": "Numerators of coefficients of 1/2^(2n+1) in Newton's series for Pi.",
+  "id": "A054387",
+  "mentions": [
+    "A054388"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:24:35",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

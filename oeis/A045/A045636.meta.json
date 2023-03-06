@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of the form p^2 + q^2, with p and q primes.",
+  "id": "A045636",
+  "mentions": [
+    "A045698",
+    "A047617",
+    "A214511",
+    "A214723",
+    "A214879"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

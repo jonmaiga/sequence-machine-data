@@ -1,0 +1,17 @@
+{
+  "description": "Positions of primes in A024975 (sums of three distinct cubes).",
+  "id": "A024976",
+  "mentions": [
+    "A024975"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 18:30:50",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

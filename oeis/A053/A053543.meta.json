@@ -1,0 +1,17 @@
+{
+  "description": "Distance to closest prime in sequence of composites.",
+  "id": "A053543",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:09:37",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

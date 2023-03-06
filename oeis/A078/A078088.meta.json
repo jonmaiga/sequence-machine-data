@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction expansion of 5 * Pi^2 * A065476 / 48.",
+  "id": "A078088",
+  "mentions": [
+    "A065476",
+    "A065477"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = lcm_{k=1..n} (prime(k) + 1).",
+  "id": "A085272",
+  "mentions": [
+    "A002110",
+    "A003418",
+    "A008864",
+    "A058254"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

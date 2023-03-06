@@ -1,0 +1,20 @@
+{
+  "description": "Triangle A072768 computed modulo 2.",
+  "id": "A072770",
+  "mentions": [
+    "A071674",
+    "A072768",
+    "A072769"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

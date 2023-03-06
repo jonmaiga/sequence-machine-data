@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct most-perfect pandiagonal magic squares of order 4n in the Frenicle standard form.",
+  "id": "A051235",
+  "mentions": [
+    "A308951"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Go on adding the divisors of n starting from n in decreasing order until one gets a prime. a(n) = this prime, or 0 if no prime is obtained.",
+  "id": "A085102",
+  "mentions": [
+    "A085103"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = diagonal sum of right justified array T given by A027082.",
+  "id": "A027101",
+  "mentions": [
+    "A027082"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:16:18",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

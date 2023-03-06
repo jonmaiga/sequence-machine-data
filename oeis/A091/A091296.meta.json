@@ -1,0 +1,20 @@
+{
+  "description": "Semiprimes with odd digits.",
+  "id": "A091296",
+  "mentions": [
+    "A001358",
+    "A108636"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

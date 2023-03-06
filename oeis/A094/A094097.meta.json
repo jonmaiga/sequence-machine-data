@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisor chains of length n which begin with n (\"anchored\" divisor chains).",
+  "id": "A094097",
+  "mentions": [
+    "A067957",
+    "A093323",
+    "A094098",
+    "A094099"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

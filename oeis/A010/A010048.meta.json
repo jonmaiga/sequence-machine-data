@@ -1,0 +1,38 @@
+{
+  "description": "Triangle of Fibonomial coefficients.",
+  "id": "A010048",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A001654",
+    "A001655",
+    "A001656",
+    "A001657",
+    "A001658",
+    "A003150",
+    "A003267",
+    "A003268",
+    "A055870",
+    "A056565",
+    "A056566",
+    "A056567",
+    "A056569",
+    "A144712",
+    "A181926",
+    "A181927"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

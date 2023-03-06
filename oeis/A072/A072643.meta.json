@@ -1,0 +1,26 @@
+{
+  "description": "Half of the binary width of the terms of A014486, the number of digits in A063171(n)/2.",
+  "id": "A072643",
+  "mentions": [
+    "A000108",
+    "A002024",
+    "A014138",
+    "A014486",
+    "A063171",
+    "A071673",
+    "A072644",
+    "A072645",
+    "A072649",
+    "A072660"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

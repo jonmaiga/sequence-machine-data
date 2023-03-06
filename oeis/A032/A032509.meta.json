@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = round(tan(Pi*(1-1/n)/2)).",
+  "id": "A032509",
+  "mentions": [
+    "A024811"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:03:05",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n and n+10 are both prime but are non-consecutive; which means that at least one prime is between n and n+10; it is not identical with A023303 because here the terms of A031928 are missing.",
+  "id": "A086135",
+  "mentions": [
+    "A023303",
+    "A031928"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Fill a triangular array by rows by writing numbers 1 up to b(0), 1 up to b(1), etc., where b(n) are the octagonal numbers. The first elements of the rows form a(n).",
+  "id": "A065232",
+  "mentions": [
+    "A064766",
+    "A064865",
+    "A065221",
+    "A065231",
+    "A065233",
+    "A065234"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

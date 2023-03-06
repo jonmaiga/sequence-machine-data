@@ -1,0 +1,23 @@
+{
+  "description": "Replace each digit of n with the floor of its square root.",
+  "id": "A064770",
+  "mentions": [
+    "A007088",
+    "A136399",
+    "A136400",
+    "A136428"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

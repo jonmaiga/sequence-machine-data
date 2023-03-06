@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is smallest natural number satisfying Pell equation a^2 - d(n)*b^2= +1 or = -1, with d(n)=A000037(n) (a nonsquare). Corresponding smallest b(n)=A077233(n).",
+  "id": "A077232",
+  "mentions": [
+    "A000037",
+    "A003654",
+    "A003814",
+    "A006702",
+    "A033313",
+    "A049310",
+    "A053120",
+    "A077233"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

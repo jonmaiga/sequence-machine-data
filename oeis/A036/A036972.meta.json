@@ -1,0 +1,20 @@
+{
+  "description": "n-th prime is a Fibonacci number reversed.",
+  "id": "A036972",
+  "mentions": [
+    "A036797",
+    "A036971"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

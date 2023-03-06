@@ -1,0 +1,27 @@
+{
+  "description": "Triangular array (a Riordan array) related to tennis ball problem, read by rows.",
+  "id": "A079513",
+  "mentions": [
+    "A000108",
+    "A066357",
+    "A079514",
+    "A079515",
+    "A079516",
+    "A079517",
+    "A079518",
+    "A079519",
+    "A079520",
+    "A079521"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

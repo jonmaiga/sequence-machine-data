@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = number of partitions of n in which the least part occurs exactly k times, k=1..n.",
+  "id": "A096144",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A096373",
+    "A232697"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

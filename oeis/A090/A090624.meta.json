@@ -1,0 +1,18 @@
+{
+  "description": "If n = Product(pj^ej), i.e., written in its prime factorization, then a(n) = max_j{(pj-1)*ej}.",
+  "id": "A090624",
+  "mentions": [
+    "A090622"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:42",
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

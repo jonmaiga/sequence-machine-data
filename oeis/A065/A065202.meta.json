@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic function of A065201: a(n) = if A065201(k) = n for some k then 1 else 0.",
+  "id": "A065202",
+  "mentions": [
+    "A051119",
+    "A053585",
+    "A065200",
+    "A065201",
+    "A070003",
+    "A107078"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:17",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Semiprimes whose reversal is also a semiprime.",
+  "id": "A085751",
+  "mentions": [
+    "A001358",
+    "A097393"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

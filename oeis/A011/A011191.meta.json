@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients in expansion of Pi as Sum_{n>=1} a(n)/(n*n!*(n+1)!), as found by greedy algorithm.",
+  "id": "A011191",
+  "mentions": [
+    "A000796",
+    "A011189",
+    "A011193"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 18:14:16",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

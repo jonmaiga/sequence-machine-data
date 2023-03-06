@@ -1,0 +1,18 @@
+{
+  "description": "Compute S, the number of different quadratic residues modulo B for every base B. If the density S/B is smaller for B than for every B' less than B, then B is added to the sequence.",
+  "id": "A085635",
+  "mentions": [
+    "A000224",
+    "A084848"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of factorizations into composite numbers indexed by prime signatures. A050370(A025487).",
+  "id": "A050371",
+  "mentions": [
+    "A025487",
+    "A050370"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

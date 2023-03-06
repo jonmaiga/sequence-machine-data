@@ -1,0 +1,21 @@
+{
+  "description": "The smallest difference of an increasing arithmetic progression of n primes with the minimal possible first term (A007918(n)).",
+  "id": "A061558",
+  "mentions": [
+    "A007918",
+    "A113461",
+    "A120302",
+    "A130791"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = binomial(n-1,2)*n^(n-3).",
+  "id": "A053507",
+  "mentions": [
+    "A000169",
+    "A053506",
+    "A053508",
+    "A053509",
+    "A065513",
+    "A081130",
+    "A081132",
+    "A081133"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

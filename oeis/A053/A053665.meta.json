@@ -1,0 +1,16 @@
+{
+  "description": "Smallest number m such that m = j^2 (mod prime(j)) for 1 <= j <= n.",
+  "id": "A053665",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:46:27",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

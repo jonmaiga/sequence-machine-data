@@ -1,0 +1,16 @@
+{
+  "description": "a(n+1) = a(n) converted to base 5 from base 4 (written in base 10).",
+  "id": "A023373",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

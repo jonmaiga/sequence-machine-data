@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) read by rows, related to Faà di Bruno's formula (n >= 0 and 0 <= k <= n).",
+  "id": "A081719",
+  "mentions": [
+    "A007042",
+    "A008284",
+    "A039809",
+    "A047812"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

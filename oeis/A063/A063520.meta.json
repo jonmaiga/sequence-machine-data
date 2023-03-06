@@ -1,0 +1,20 @@
+{
+  "description": "Sum divides product: number of solutions (r,s,t), r>=s>=t>0, to the equation rst = n(r+s+t).",
+  "id": "A063520",
+  "mentions": [
+    "A004194",
+    "A018892",
+    "A048691",
+    "A063525"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

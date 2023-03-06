@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of active cells after a solid n X n square has reached a static state or constant population, closed and infinite loop in Conway's Game of Life.",
+  "id": "A099733",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of (binary) heaps on n elements.",
+  "id": "A056971",
+  "mentions": [
+    "A053644",
+    "A056972",
+    "A132862",
+    "A273693",
+    "A306343",
+    "A306393"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:07",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

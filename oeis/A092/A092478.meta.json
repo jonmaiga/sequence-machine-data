@@ -1,0 +1,16 @@
+{
+  "description": "Sequence of numbers graphed in stones at different floors of the windmill \"Weltevreden\" in Domburg (the Netherlands).",
+  "id": "A092478",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

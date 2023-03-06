@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1, a(n) = number obtained by multiplying each digit of a(n-1) by n. May be called digitfactorial of n.",
+  "id": "A089718",
+  "mentions": [
+    "A000142",
+    "A110728"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

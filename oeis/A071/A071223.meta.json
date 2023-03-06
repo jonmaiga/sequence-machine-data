@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) (n >= 2, 1 <= k <= n) read by rows: number of linearly inducible orderings of n points in k-dimensional Euclidean space.",
+  "id": "A071223",
+  "mentions": [
+    "A002378",
+    "A087644",
+    "A087645",
+    "A198889"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of 8's in decimal expansion of n^2.",
+  "id": "A086016",
+  "mentions": [
+    "A086008",
+    "A086009",
+    "A086010",
+    "A086011",
+    "A086012",
+    "A086013",
+    "A086014",
+    "A086015",
+    "A086017",
+    "A269248"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:21:29",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

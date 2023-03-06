@@ -1,0 +1,22 @@
+{
+  "description": "6th row of number array A083064.",
+  "id": "A083067",
+  "mentions": [
+    "A052934",
+    "A083064",
+    "A083066",
+    "A083068"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

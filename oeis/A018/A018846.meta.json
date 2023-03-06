@@ -1,0 +1,22 @@
+{
+  "description": "Strobogrammatic numbers: numbers that are the same upside down (using calculator-style numerals).",
+  "id": "A018846",
+  "mentions": [
+    "A018847",
+    "A048708",
+    "A053701"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:25",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

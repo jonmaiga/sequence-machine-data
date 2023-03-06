@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with 12 divisors.",
+  "id": "A030630",
+  "mentions": [
+    "A079395",
+    "A085987",
+    "A143610",
+    "A178740"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:21",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

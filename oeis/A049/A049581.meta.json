@@ -1,0 +1,32 @@
+{
+  "description": "Table T(n,k) = |n-k| read by antidiagonals (n >= 0, k >= 0).",
+  "id": "A049581",
+  "mentions": [
+    "A002260",
+    "A003056",
+    "A003989",
+    "A003990",
+    "A003991",
+    "A004247",
+    "A004736",
+    "A046092",
+    "A085750",
+    "A089913",
+    "A114327",
+    "A203993"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:39:25",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

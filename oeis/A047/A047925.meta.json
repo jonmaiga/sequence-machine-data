@@ -1,0 +1,19 @@
+{
+  "description": "3rd column of array in A038150.",
+  "id": "A047925",
+  "mentions": [
+    "A038150"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:26:33",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

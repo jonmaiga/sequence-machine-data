@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that Sum_{j} p_j = Sum_{j} e_j where Product_{j} p_j^(e_j) is the prime factorization of k.",
+  "id": "A054411",
+  "mentions": [
+    "A001222",
+    "A008472",
+    "A054412",
+    "A068935",
+    "A068936",
+    "A068937",
+    "A068938"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

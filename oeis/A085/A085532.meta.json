@@ -1,0 +1,15 @@
+{
+  "description": "(2n)^(n+1).",
+  "id": "A085532",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:54:46",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

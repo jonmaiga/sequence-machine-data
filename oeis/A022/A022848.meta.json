@@ -1,0 +1,19 @@
+{
+  "description": "Integer nearest nx, where x = sqrt(5).",
+  "id": "A022848",
+  "mentions": [
+    "A214861"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:30",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

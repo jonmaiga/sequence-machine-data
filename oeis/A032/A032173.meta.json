@@ -1,0 +1,19 @@
+{
+  "description": "Sequence (a(n): n >= 1) that shifts left 2 places under the \"CHK\" (necklace, identity, unlabeled) transform and has initial terms a(1) = a(2) = 1.",
+  "id": "A032173",
+  "mentions": [
+    "A032171",
+    "A032174",
+    "A322913"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:41",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

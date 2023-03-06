@@ -1,0 +1,19 @@
+{
+  "description": "Index of zeros in A083116 and A083117.",
+  "id": "A083118",
+  "mentions": [
+    "A083116",
+    "A083117"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

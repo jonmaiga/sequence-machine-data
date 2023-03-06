@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(n,k) read by rows, where e.g.f. for T(n,k) is exp((1+y)*x)/(1-x) (with n >= 0 and 0 <= k <= n).",
+  "id": "A073107",
+  "mentions": [
+    "A000522",
+    "A007318",
+    "A007526",
+    "A008290",
+    "A008291",
+    "A010842",
+    "A038155",
+    "A046802",
+    "A093375",
+    "A094587",
+    "A357479",
+    "A357480"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

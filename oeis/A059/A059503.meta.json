@@ -1,0 +1,29 @@
+{
+  "description": "The array in A059502 read by antidiagonals in 'up' direction.",
+  "id": "A059503",
+  "mentions": [
+    "A000667",
+    "A059216",
+    "A059219",
+    "A059502",
+    "A059505",
+    "A059506",
+    "A059507",
+    "A059508",
+    "A059509"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:43",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

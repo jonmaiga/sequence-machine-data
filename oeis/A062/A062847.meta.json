@@ -1,0 +1,24 @@
+{
+  "description": "When expressed in base 2 and then interpreted in base 6, is a multiple of the original number.",
+  "id": "A062847",
+  "mentions": [
+    "A032533",
+    "A062845",
+    "A062846",
+    "A062848",
+    "A062849",
+    "A062850",
+    "A331841"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

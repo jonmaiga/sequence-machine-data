@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number k such that k and k+n are of the form p^2*q where p and q are primes.",
+  "id": "A074174",
+  "mentions": [
+    "A054753",
+    "A074172",
+    "A074173"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

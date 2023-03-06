@@ -1,0 +1,32 @@
+{
+  "description": "Numerator of sigma(2*n)/sigma(n). Denominator see in A038712.",
+  "id": "A088837",
+  "mentions": [
+    "A000203",
+    "A001620",
+    "A006519",
+    "A007814",
+    "A038712",
+    "A059159",
+    "A062731",
+    "A065442",
+    "A080278",
+    "A088838",
+    "A088839",
+    "A088840",
+    "A220466"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

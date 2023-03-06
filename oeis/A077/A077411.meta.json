@@ -1,0 +1,21 @@
+{
+  "description": "Combined Diophantine Chebyshev sequences A077409 and A077250.",
+  "id": "A077411",
+  "mentions": [
+    "A077250",
+    "A077409",
+    "A077410"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

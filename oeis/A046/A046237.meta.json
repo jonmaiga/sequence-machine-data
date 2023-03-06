@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose cube is palindromic in base 7.",
+  "id": "A046237",
+  "mentions": [
+    "A046238"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

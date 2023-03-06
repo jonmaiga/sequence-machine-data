@@ -1,0 +1,20 @@
+{
+  "description": "Matrix cube of inverse partition triangle A038498.",
+  "id": "A050306",
+  "mentions": [
+    "A038498",
+    "A050305",
+    "A050313"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

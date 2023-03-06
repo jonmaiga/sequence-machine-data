@@ -1,0 +1,28 @@
+{
+  "description": "Numerator of the n-th alternating harmonic number, Sum_{k=1..n} (-1)^(k+1)/k.",
+  "id": "A058313",
+  "mentions": [
+    "A001008",
+    "A002162",
+    "A025530",
+    "A049281",
+    "A058312",
+    "A075830",
+    "A082687",
+    "A181983"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

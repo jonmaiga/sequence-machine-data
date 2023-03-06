@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the sum of the squares of the divisors of n which are <= sqrt(n).",
+  "id": "A095118",
+  "mentions": [
+    "A066839",
+    "A095119"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

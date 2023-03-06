@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: row n contains n terms in increasing order, relatively prime to n, whose sum is a multiple of n and such that the row contains the smallest possible subset of consecutive numbers starting with 1.",
+  "id": "A081521",
+  "mentions": [
+    "A081522",
+    "A081523",
+    "A081524"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

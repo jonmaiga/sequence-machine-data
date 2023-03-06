@@ -1,0 +1,33 @@
+{
+  "description": "Write n and 2n in binary and add them mod 2.",
+  "id": "A048724",
+  "mentions": [
+    "A001969",
+    "A003188",
+    "A048720",
+    "A048725",
+    "A048726",
+    "A048728",
+    "A065620",
+    "A065621",
+    "A079944",
+    "A106409",
+    "A142149",
+    "A242399"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:33:15",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

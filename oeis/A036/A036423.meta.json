@@ -1,0 +1,23 @@
+{
+  "description": "Number of ternary rooted trees with n nodes and height exactly 8.",
+  "id": "A036423",
+  "mentions": [
+    "A036370",
+    "A036375",
+    "A036376",
+    "A036437"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:47",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

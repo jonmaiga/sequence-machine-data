@@ -1,0 +1,25 @@
+{
+  "description": "Triangle of numbers S(x,y) = number of lattice paths from (0,0) to (x,y) that use step set { (0,1), (1,0), (2,0), (3,0), ....} and never pass below y = x.",
+  "id": "A011117",
+  "mentions": [
+    "A001003",
+    "A006318",
+    "A010683",
+    "A010736",
+    "A010849",
+    "A084938",
+    "A104219"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:33:35",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

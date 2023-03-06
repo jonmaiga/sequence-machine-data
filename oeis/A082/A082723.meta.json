@@ -1,0 +1,19 @@
+{
+  "description": "Palindromic nonagonal (or 9-gonal or enneagonal) numbers.",
+  "id": "A082723",
+  "mentions": [
+    "A001106",
+    "A055560"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Array T read by diagonals: T(i,j)=least number of knight's moves on a chessboard (infinite in all directions) needed to move from (0,0) to (i,j).",
+  "id": "A065775",
+  "mentions": [
+    "A018837",
+    "A049604",
+    "A183041",
+    "A183042",
+    "A183053"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

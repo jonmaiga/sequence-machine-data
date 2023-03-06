@@ -1,0 +1,33 @@
+{
+  "description": "Number of prime factors of n-th triangular number (with multiplicity).",
+  "id": "A069904",
+  "mentions": [
+    "A000217",
+    "A001222",
+    "A069901",
+    "A069902",
+    "A069903",
+    "A092405",
+    "A101745",
+    "A108815",
+    "A114435",
+    "A114436",
+    "A114437",
+    "A164977",
+    "A240527",
+    "A240528",
+    "A240529",
+    "A278253"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:22",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

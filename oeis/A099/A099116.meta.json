@@ -1,0 +1,22 @@
+{
+  "description": "Number of rhombus tilings of a hexagon with side lengths 2n+2,2n,2n+2,2n+2,2n,2n+2 which contain the rhombus above and next to the center of the hexagon.",
+  "id": "A099116",
+  "mentions": [
+    "A008793",
+    "A099112",
+    "A099113",
+    "A099114",
+    "A099115",
+    "A099117"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

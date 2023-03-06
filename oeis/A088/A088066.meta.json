@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 2*p(n)+3, 2*p(n+1)+3, 2*p(n+2)+3 are consecutive primes, where p(i) denotes the i-th prime.",
+  "id": "A088066",
+  "mentions": [
+    "A088119",
+    "A089450",
+    "A089525",
+    "A089526"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

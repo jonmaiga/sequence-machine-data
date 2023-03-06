@@ -1,0 +1,21 @@
+{
+  "description": "Solutions to Mod[sigma(x),x]=12 of the form p*(p+13)/2 where p is a prime of form=2^j-13, of which j exponents are listed in A096818.",
+  "id": "A096821",
+  "mentions": [
+    "A000203",
+    "A076496",
+    "A084306",
+    "A096518",
+    "A096818"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number which is relatively prime to all the numbers between n^2 and (n+1)^2, inclusive.",
+  "id": "A077130",
+  "mentions": [
+    "A077128",
+    "A077129"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

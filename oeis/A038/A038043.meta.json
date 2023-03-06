@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to partition a labeled set into 2-colored subsets of equal size.",
+  "id": "A038043",
+  "mentions": [
+    "A038041"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:19:46",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with exactly 2 1's in ternary expansion.",
+  "id": "A023693",
+  "mentions": [
+    "A007089"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

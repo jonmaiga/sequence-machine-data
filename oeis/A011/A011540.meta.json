@@ -1,0 +1,35 @@
+{
+  "description": "Numbers that contain a digit 0.",
+  "id": "A011540",
+  "mentions": [
+    "A007954",
+    "A038618",
+    "A043489",
+    "A052382",
+    "A054054",
+    "A055640",
+    "A055641",
+    "A067898",
+    "A168046",
+    "A188643",
+    "A192825",
+    "A217094",
+    "A217096",
+    "A229127",
+    "A324160"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:19",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

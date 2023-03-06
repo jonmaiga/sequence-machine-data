@@ -1,0 +1,23 @@
+{
+  "description": "Squares with nonzero digits such that (1) each digit is a square and (2) the sum of the digits is a square.",
+  "id": "A061269",
+  "mentions": [
+    "A006716",
+    "A053057",
+    "A053059",
+    "A061267",
+    "A061268",
+    "A061270"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

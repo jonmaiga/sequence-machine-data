@@ -1,0 +1,19 @@
+{
+  "description": "Successive words in the formal D0L language that produces the Thue-Morse sequence A001285 (start with 1, map 1 -> 12, 2 -> 21).",
+  "id": "A080814",
+  "mentions": [
+    "A001285",
+    "A010060",
+    "A080815"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

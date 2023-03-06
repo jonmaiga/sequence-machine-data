@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that sigma_3(k) is divisible by the square of phi(k).",
+  "id": "A091285",
+  "mentions": [
+    "A000010",
+    "A001158",
+    "A015773",
+    "A015774"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

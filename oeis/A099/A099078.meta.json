@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that pi(k).pi(k-1) ... pi(3).pi(2) is prime (dot between numbers means concatenation).",
+  "id": "A099078",
+  "mentions": [
+    "A046035",
+    "A099077",
+    "A099079",
+    "A099080"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

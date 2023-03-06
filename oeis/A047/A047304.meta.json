@@ -1,0 +1,22 @@
+{
+  "description": "Numbers not divisible by 7.",
+  "id": "A047304",
+  "mentions": [
+    "A008589",
+    "A020658",
+    "A082784",
+    "A109720"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:02:43",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

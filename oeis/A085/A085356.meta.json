@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = polygorial(n,3)/polygorial(3,n), n >= 3.",
+  "id": "A085356",
+  "mentions": [
+    "A067550",
+    "A084939",
+    "A084940",
+    "A084941",
+    "A084942",
+    "A084943",
+    "A084944"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

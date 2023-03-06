@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A000340, second partial sums of A003462.",
+  "id": "A052150",
+  "mentions": [
+    "A000340",
+    "A003462"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:25:44",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

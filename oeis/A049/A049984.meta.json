@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form n! - (n-1)! + 1.",
+  "id": "A049984",
+  "mentions": [
+    "A049432",
+    "A188914"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

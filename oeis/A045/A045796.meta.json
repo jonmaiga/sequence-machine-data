@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m = usigma(sigma(k))/k such that usigma(sigma(k)) is divisible by k.",
+  "id": "A045796",
+  "mentions": [
+    "A000203",
+    "A034448",
+    "A045795",
+    "A061765"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

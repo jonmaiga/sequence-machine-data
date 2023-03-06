@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 7, a(n) = smallest palindromic prime obtained by inserting digit anywhere in a(n-1).",
+  "id": "A082624",
+  "mentions": [
+    "A002385",
+    "A082620",
+    "A082621",
+    "A082622",
+    "A082623"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

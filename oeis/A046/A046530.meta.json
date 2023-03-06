@@ -1,0 +1,38 @@
+{
+  "description": "Number of distinct cubic residues mod n.",
+  "id": "A046530",
+  "mentions": [
+    "A000224",
+    "A000578",
+    "A046630",
+    "A046631",
+    "A046633",
+    "A046635",
+    "A052273",
+    "A052274",
+    "A052275",
+    "A074243",
+    "A085310",
+    "A085311",
+    "A085312",
+    "A085313",
+    "A085314",
+    "A087786",
+    "A228849",
+    "A257301"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:33:57",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

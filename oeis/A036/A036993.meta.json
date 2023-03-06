@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n with property that reading from right to left in the binary expansion of n, the number of 0's always stays ahead of the number of 1's.",
+  "id": "A036993",
+  "mentions": [
+    "A030308",
+    "A036990",
+    "A036991",
+    "A036992",
+    "A036994"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:32:27",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

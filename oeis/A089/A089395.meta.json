@@ -1,0 +1,22 @@
+{
+  "description": "Prime productive numbers n: Let the digits of n be abcd. Then the numbers bcd*a+1, cd*ab+1, d*abc+1, abcd+1 etc. are all primes. If n is a k-digit number it produces k such primes.",
+  "id": "A089395",
+  "mentions": [
+    "A089392",
+    "A089393",
+    "A089394",
+    "A089396",
+    "A089397"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

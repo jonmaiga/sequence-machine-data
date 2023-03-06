@@ -1,0 +1,21 @@
+{
+  "description": "Primes at which difference pattern X4242Y (X and Y >= 6) occurs in A001223.",
+  "id": "A052168",
+  "mentions": [
+    "A001223",
+    "A022008",
+    "A047078",
+    "A052160",
+    "A052162"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

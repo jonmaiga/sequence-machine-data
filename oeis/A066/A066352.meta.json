@@ -1,0 +1,22 @@
+{
+  "description": "Pillai sequence: a(n) is the smallest term in A007924 requiring n primes.",
+  "id": "A066352",
+  "mentions": [
+    "A000101",
+    "A007924",
+    "A008578",
+    "A072491"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

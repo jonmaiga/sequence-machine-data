@@ -1,0 +1,19 @@
+{
+  "description": "Starting positions of strings of three 5's in the decimal expansion of Pi.",
+  "id": "A083620",
+  "mentions": [
+    "A050238",
+    "A083621"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:51",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

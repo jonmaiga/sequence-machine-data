@@ -1,0 +1,18 @@
+{
+  "description": "Number of \"sorted permutations\": permutations that can occur as the output of the sorting procedure described by Knuth.",
+  "id": "A027361",
+  "mentions": [
+    "A027432"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

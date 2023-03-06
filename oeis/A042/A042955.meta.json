@@ -1,0 +1,18 @@
+{
+  "description": "The sequence e when b=[ 1,1,0,1,1,... ].",
+  "id": "A042955",
+  "mentions": [
+    "A042951",
+    "A042954"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:20:47",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime p such that n is a palindrome in base p representation.",
+  "id": "A086757",
+  "mentions": [
+    "A007918",
+    "A016026"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

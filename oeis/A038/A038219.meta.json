@@ -1,0 +1,25 @@
+{
+  "description": "The Ehrenfeucht-Mycielski sequence (0,1-version): a maximally unpredictable sequence.",
+  "id": "A038219",
+  "mentions": [
+    "A007061",
+    "A201881",
+    "A253059",
+    "A253060",
+    "A253061",
+    "A308173",
+    "A308174",
+    "A308175"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

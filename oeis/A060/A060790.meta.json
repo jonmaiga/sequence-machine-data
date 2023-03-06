@@ -1,0 +1,22 @@
+{
+  "description": "Inscribe two circles of curvature 2 inside a circle of curvature -1. Sequence gives curvatures of the smallest circles that can be sequentially inscribed in such a diagram.",
+  "id": "A060790",
+  "mentions": [
+    "A042944",
+    "A189226",
+    "A189227",
+    "A318605"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:24:04",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

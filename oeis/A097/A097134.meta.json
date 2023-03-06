@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 3*Fibonacci(2*n) + 0^n.",
+  "id": "A097134",
+  "mentions": [
+    "A000045",
+    "A097133",
+    "A097135"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:35:04",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that numerator of Sum_{k=1..n} 1/(prime(k)-k) is prime.",
+  "id": "A092065",
+  "mentions": [
+    "A092063",
+    "A092066"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

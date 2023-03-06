@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: T(n,k) = n!*k.",
+  "id": "A051683",
+  "mentions": [
+    "A000142",
+    "A001286",
+    "A001563",
+    "A002024",
+    "A002260",
+    "A007623",
+    "A034968",
+    "A055089",
+    "A099563",
+    "A162608",
+    "A200748",
+    "A211370"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

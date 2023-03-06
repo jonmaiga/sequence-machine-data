@@ -1,0 +1,16 @@
+{
+  "description": "T(n,k)= count of differences between standard sort and 'modular sort' over all subsets of k integers chosen from n. Modular Sort considers the integers 1..n to lie on a circle and rotates them to exclude the largest interval.",
+  "id": "A074734",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of multisets S of positive integers satisfying E(S)=n, where E = 2nd elementary symmetric function.",
+  "id": "A026903",
+  "mentions": [
+    "A026904"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

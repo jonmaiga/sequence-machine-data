@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with 20 divisors.",
+  "id": "A030638",
+  "mentions": [
+    "A030636",
+    "A030637",
+    "A137484",
+    "A179644",
+    "A179666"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:48:23",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Left diagonal of A071977.",
+  "id": "A071979",
+  "mentions": [
+    "A071977"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

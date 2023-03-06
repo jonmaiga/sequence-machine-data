@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n * Pell(n).",
+  "id": "A093967",
+  "mentions": [
+    "A000129",
+    "A006645",
+    "A023607",
+    "A093835",
+    "A093968"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

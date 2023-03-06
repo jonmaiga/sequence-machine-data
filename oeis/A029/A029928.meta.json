@@ -1,0 +1,15 @@
+{
+  "description": "Convert n from statute miles to nautical miles.",
+  "id": "A029928",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:44:49",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of reversible strings with n labeled beads of 5 colors, no palindromes of more than 1 bead.",
+  "id": "A032072",
+  "mentions": [
+    "A032088"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:17:48",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

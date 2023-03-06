@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of pairwise coprime triangular numbers.",
+  "id": "A034792",
+  "mentions": [
+    "A000217",
+    "A076818"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

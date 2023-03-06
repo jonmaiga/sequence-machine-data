@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T read by rows: T(n, 1) = 2*n + 1. For 1 < k <= n, T(n, k) = 2*T(n,k-1) + 1.",
+  "id": "A087322",
+  "mentions": [
+    "A087323",
+    "A099035",
+    "A190730"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:55:01",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

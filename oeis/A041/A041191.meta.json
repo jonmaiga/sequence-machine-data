@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(106).",
+  "id": "A041191",
+  "mentions": [
+    "A010172",
+    "A041190"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:48:23",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

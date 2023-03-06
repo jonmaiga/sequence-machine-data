@@ -1,0 +1,40 @@
+{
+  "description": "Representation of n in base of Fibonacci numbers (the Zeckendorf representation of n). Also, binary words starting with 1 not containing 11, with the word 0 added.",
+  "id": "A014417",
+  "mentions": [
+    "A000045",
+    "A001950",
+    "A003714",
+    "A003794",
+    "A005614",
+    "A007895",
+    "A035517",
+    "A104324",
+    "A104326",
+    "A130234",
+    "A189920",
+    "A213911",
+    "A215022",
+    "A215023",
+    "A215024",
+    "A215025",
+    "A228277",
+    "A228285",
+    "A228390",
+    "A228476",
+    "A228506"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest m such that prime(n) mod m > 1.",
+  "id": "A095925",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

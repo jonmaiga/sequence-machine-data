@@ -1,0 +1,17 @@
+{
+  "description": "n-th term of A034897 is an a(n)-hyperperfect number.",
+  "id": "A034898",
+  "mentions": [
+    "A034897"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

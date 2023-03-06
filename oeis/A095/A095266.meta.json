@@ -1,0 +1,23 @@
+{
+  "description": "A sequence generated from the Narayana triangle considered as a matrix, or from Pascal's triangle.",
+  "id": "A095266",
+  "mentions": [
+    "A000326",
+    "A001263",
+    "A005915",
+    "A056939",
+    "A095267"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:05:07",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

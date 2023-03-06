@@ -1,0 +1,36 @@
+{
+  "description": "Triangle T(n,k) = denominator of fraction in k-th term of n-th row of variant of Farey series. This is also Stern's diatomic array read by rows (version 1).",
+  "id": "A049456",
+  "mentions": [
+    "A000045",
+    "A000051",
+    "A002487",
+    "A006842",
+    "A006843",
+    "A007305",
+    "A007306",
+    "A034472",
+    "A049455",
+    "A064881",
+    "A064886",
+    "A070878",
+    "A070879",
+    "A293160"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:37:47",
+    "offset": 1,
+    "size": 92,
+    "source": "joeis"
+  }
+}

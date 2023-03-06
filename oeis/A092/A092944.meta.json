@@ -1,0 +1,20 @@
+{
+  "description": "Group the natural numbers so that the n-th group contains n numbers whose sum as well as the group product + 1 is prime. Sequence contains the first member of the groups.",
+  "id": "A092944",
+  "mentions": [
+    "A092945",
+    "A092946",
+    "A092947"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

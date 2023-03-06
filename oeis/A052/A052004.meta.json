@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that k^3 has only even digits.",
+  "id": "A052004",
+  "mentions": [
+    "A000578",
+    "A030099",
+    "A030100",
+    "A030479",
+    "A030483",
+    "A031997",
+    "A034376",
+    "A076165",
+    "A076166",
+    "A076171",
+    "A137468"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

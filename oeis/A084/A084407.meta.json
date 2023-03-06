@@ -1,0 +1,25 @@
+{
+  "description": "Number of decimal places to which the n-th convergent of continued fraction expansion of Pi matches with the correct value.",
+  "id": "A084407",
+  "mentions": [
+    "A000796",
+    "A002485",
+    "A002486",
+    "A086702",
+    "A100199",
+    "A114526",
+    "A240995"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:36",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

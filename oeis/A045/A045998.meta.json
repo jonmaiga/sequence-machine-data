@@ -1,0 +1,21 @@
+{
+  "description": "Binary Gleichniszahlen-Reihe (BGR) sequence: describe previous term (cf. A005150), reduce number of digits seen mod 2 (then for the purposes of this data-base, discard leading zeros).",
+  "id": "A045998",
+  "mentions": [
+    "A005150",
+    "A045999",
+    "A048522"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:49:06",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

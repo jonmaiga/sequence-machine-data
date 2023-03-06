@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that uphi(sigma(n)) = n, where the uphi is the unitary phi function A047994.",
+  "id": "A030164",
+  "mentions": [
+    "A030165",
+    "A047994"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

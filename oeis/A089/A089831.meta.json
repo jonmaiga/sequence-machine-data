@@ -1,0 +1,43 @@
+{
+  "description": "Triangle T(n,m) (read as T(1,1); T(2,1), T(2,2); T(3,1), T(3,2), T(3,3);) Number of distinct non-recursive Catalan Automorphisms whose minimum clause-representation requires examination of n nodes in total, divided into m non-default clauses.",
+  "id": "A089831",
+  "mentions": [
+    "A069770",
+    "A072796",
+    "A072797",
+    "A073269",
+    "A073270",
+    "A074679",
+    "A074680",
+    "A089832",
+    "A089833",
+    "A089834",
+    "A089839",
+    "A089840",
+    "A089850",
+    "A089851",
+    "A089852",
+    "A089853",
+    "A089854",
+    "A089855",
+    "A089856",
+    "A089857",
+    "A089858",
+    "A089859",
+    "A089860",
+    "A089861",
+    "A089862",
+    "A089863"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

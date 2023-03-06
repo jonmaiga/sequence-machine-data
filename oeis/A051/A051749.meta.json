@@ -1,0 +1,21 @@
+{
+  "description": "Number of character table entries of the symmetric group S_n which are > 0.",
+  "id": "A051749",
+  "mentions": [
+    "A001255",
+    "A006907",
+    "A051748"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0; a(n) = (2*n)^(n-1), n > 0.",
+  "id": "A052746",
+  "mentions": [
+    "A038057",
+    "A097627"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Pell(n)*Pell(n-1)*Pell(n-2) / 10.",
+  "id": "A099930",
+  "mentions": [
+    "A000129",
+    "A001656",
+    "A014445",
+    "A084175",
+    "A099927",
+    "A110272"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:01:55",
+    "offset": 3,
+    "size": 17,
+    "source": "joeis"
+  }
+}

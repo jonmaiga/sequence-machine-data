@@ -1,0 +1,18 @@
+{
+  "description": "Left-hand edge of triangle in A097474.",
+  "id": "A097716",
+  "mentions": [
+    "A097474"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

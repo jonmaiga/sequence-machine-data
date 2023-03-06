@@ -1,0 +1,21 @@
+{
+  "description": "Consider the sequence of 4-tuples {0,a,b,c} (c>=a+b; a,b,c>0)) which have the smallest integer 'c' required to reach {k,k,k,k} in n steps under map {r,s,t,u}->{|r-s|,|s-t|,|t-u|,|u-r|}. This sequence gives the third term 'b' of these quadruples.",
+  "id": "A034804",
+  "mentions": [
+    "A000073",
+    "A034803",
+    "A045794",
+    "A065678"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:48:37",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

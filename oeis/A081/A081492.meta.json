@@ -1,0 +1,23 @@
+{
+  "description": "Sum of terms in n-th row of A081491.",
+  "id": "A081492",
+  "mentions": [
+    "A002522",
+    "A005408",
+    "A081489",
+    "A081490",
+    "A081491"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:07:07",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

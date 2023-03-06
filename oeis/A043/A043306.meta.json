@@ -1,0 +1,26 @@
+{
+  "description": "Sum of all digits in all base-b representations for n, for 2 <= b <= n.",
+  "id": "A043306",
+  "mentions": [
+    "A014837",
+    "A043000",
+    "A068953",
+    "A191251",
+    "A191322",
+    "A191350",
+    "A240236",
+    "A309531"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:21:09",
+    "offset": 2,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (prime(n) mod (prime(n+1)-prime(n))).",
+  "id": "A060234",
+  "mentions": [
+    "A000040",
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 103,
+    "source": "joeis"
+  }
+}

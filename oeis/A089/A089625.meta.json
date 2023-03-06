@@ -1,0 +1,30 @@
+{
+  "description": "Replace 2^k in binary expansion of n with (k+1)-st prime.",
+  "id": "A089625",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A000079",
+    "A000225",
+    "A000586",
+    "A007088",
+    "A007504",
+    "A022290",
+    "A029931",
+    "A030308",
+    "A059590",
+    "A070939"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

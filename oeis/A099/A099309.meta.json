@@ -1,0 +1,32 @@
+{
+  "description": "Numbers n whose k-th arithmetic derivative is nonzero for all k. Complement of A099308.",
+  "id": "A099309",
+  "mentions": [
+    "A003415",
+    "A048103",
+    "A051674",
+    "A099307",
+    "A099308",
+    "A100716",
+    "A256750",
+    "A327929",
+    "A327934",
+    "A328251",
+    "A328308",
+    "A328312",
+    "A341999",
+    "A351078",
+    "A351079",
+    "A359547"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:49",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

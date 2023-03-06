@@ -1,0 +1,36 @@
+{
+  "description": "Array of numbers related to certain generalized Catalan sequences.",
+  "id": "A068763",
+  "mentions": [
+    "A000007",
+    "A000108",
+    "A000984",
+    "A002457",
+    "A002802",
+    "A008619",
+    "A020918",
+    "A020920",
+    "A020922",
+    "A025227",
+    "A025228",
+    "A025229",
+    "A025230",
+    "A068764",
+    "A068772",
+    "A091894"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

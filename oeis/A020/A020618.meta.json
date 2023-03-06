@@ -1,0 +1,17 @@
+{
+  "description": "Smallest nonempty set S containing prime divisors of 8k+5 for each k in S.",
+  "id": "A020618",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

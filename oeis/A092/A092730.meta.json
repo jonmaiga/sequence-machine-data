@@ -1,0 +1,18 @@
+{
+  "description": "Denominators in an expansion for sqrt(2).",
+  "id": "A092730",
+  "mentions": [
+    "A002193"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

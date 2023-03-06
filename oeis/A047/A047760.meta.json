@@ -1,0 +1,22 @@
+{
+  "description": "Number of dissectable polyhedra with symmetry of type F.",
+  "id": "A047760",
+  "mentions": [
+    "A027610",
+    "A047750",
+    "A047751",
+    "A047753",
+    "A047761"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:08:31",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

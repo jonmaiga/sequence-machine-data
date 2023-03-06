@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A000422(k) is squarefree.",
+  "id": "A050687",
+  "mentions": [
+    "A000422",
+    "A048288",
+    "A048342",
+    "A050675",
+    "A050688"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:58:57",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

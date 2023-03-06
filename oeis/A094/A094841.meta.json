@@ -1,0 +1,29 @@
+{
+  "description": "Let p = n-th odd prime. Then a(n) = least positive integer congruent to 3 modulo 8 such that Legendre(-a(n), q) = -1 for all odd primes q <= p.",
+  "id": "A094841",
+  "mentions": [
+    "A001986",
+    "A001987",
+    "A094842",
+    "A094843",
+    "A094844",
+    "A094845",
+    "A094846",
+    "A094847",
+    "A094848",
+    "A094849",
+    "A094850",
+    "A181667"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Numbers of the form k*(5*k+1)/2 or k*(5*k-1)/2.",
+  "id": "A057569",
+  "mentions": [
+    "A001318",
+    "A001622",
+    "A005475",
+    "A005476",
+    "A057570",
+    "A074378",
+    "A090771",
+    "A113428",
+    "A132356",
+    "A154260"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:37:53",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

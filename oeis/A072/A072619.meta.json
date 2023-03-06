@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of natural numbers obtained from the permutation A072088 (zero-based).",
+  "id": "A072619",
+  "mentions": [
+    "A038776",
+    "A072088",
+    "A072620",
+    "A072621"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest starting value in a Collatz '3x+1' sequence such that the sequence contains exactly n tripling steps.",
+  "id": "A092893",
+  "mentions": [
+    "A006667",
+    "A087228",
+    "A092892",
+    "A129304",
+    "A354236"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

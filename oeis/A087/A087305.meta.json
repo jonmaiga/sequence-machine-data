@@ -1,0 +1,19 @@
+{
+  "description": "Smallest n-digit non-palindromic number such that it and its digit reversal have the same prime signature.",
+  "id": "A087305",
+  "mentions": [
+    "A068893",
+    "A085869"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Total number of self-intersections of all walks on the triangular lattice starting at the origin.",
+  "id": "A098982",
+  "mentions": [
+    "A098981"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

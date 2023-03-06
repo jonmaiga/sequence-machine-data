@@ -1,0 +1,17 @@
+{
+  "description": "Consider all composite numbers between prime(n) and prime(n+1); take those with greatest number of divisors; a(n) is the smallest of them.",
+  "id": "A076082",
+  "mentions": [
+    "A076083"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

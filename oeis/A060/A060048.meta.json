@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1 and for n>1 a(n) = Max { q prime | q# < prime(n)# / q# } where prime(i) = A000040(i) and p(i)# = A002110(i), primorial.",
+  "id": "A060048",
+  "mentions": [
+    "A000040",
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:42",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

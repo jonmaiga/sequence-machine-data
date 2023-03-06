@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k that divide the (right) concatenation of all numbers <= k written in base 22 (most significant digit on left).",
+  "id": "A029467",
+  "mentions": [
+    "A029447",
+    "A029470",
+    "A029471",
+    "A029494",
+    "A029495",
+    "A029518",
+    "A029519",
+    "A029542",
+    "A061931",
+    "A061954",
+    "A061955",
+    "A061978"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:06",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

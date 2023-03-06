@@ -1,0 +1,17 @@
+{
+  "description": "Antidiagonal sums of array A094416.",
+  "id": "A094422",
+  "mentions": [
+    "A094416"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

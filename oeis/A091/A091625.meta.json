@@ -1,0 +1,18 @@
+{
+  "description": "Number of consecutive primes less than 10^n such that their sum is a perfect power (A091624).",
+  "id": "A091625",
+  "mentions": [
+    "A001597",
+    "A091624"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

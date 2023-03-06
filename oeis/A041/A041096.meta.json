@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(56).",
+  "id": "A041096",
+  "mentions": [
+    "A010509",
+    "A041097"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:57:54",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

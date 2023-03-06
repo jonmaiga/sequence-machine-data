@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that phi(n)/phi(phi(n)) = 3.",
+  "id": "A051913",
+  "mentions": [
+    "A000010",
+    "A003401",
+    "A003586",
+    "A005109",
+    "A058383"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:59:55",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

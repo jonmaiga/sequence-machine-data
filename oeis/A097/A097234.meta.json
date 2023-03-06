@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of coefficients in cosh(x) / sin(x) power series.",
+  "id": "A097234",
+  "mentions": [
+    "A007418",
+    "A069853",
+    "A097235"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": -1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

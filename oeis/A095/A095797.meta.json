@@ -1,0 +1,25 @@
+{
+  "description": "Four-column array read by rows: T(n,k) for k=0..3 is the k-th component of the vector obtained by multiplying the n-th power of the 4 X 4 matrix (1,1,1,1; 7,3,1,0; 12,2,0,0; 6,0,0,0) and the vector (1,1,1,1).",
+  "id": "A095797",
+  "mentions": [
+    "A028246",
+    "A053698",
+    "A091140",
+    "A091141",
+    "A091142",
+    "A095795"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:26:14",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

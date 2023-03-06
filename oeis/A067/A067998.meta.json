@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n^2 - 2*n.",
+  "id": "A067998",
+  "mentions": [
+    "A000290",
+    "A005563",
+    "A060747",
+    "A122774"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:41:15",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

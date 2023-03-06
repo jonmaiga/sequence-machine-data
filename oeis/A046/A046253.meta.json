@@ -1,0 +1,21 @@
+{
+  "description": "Equal to the sum of its nonzero digits raised to its own power.",
+  "id": "A046253",
+  "mentions": [
+    "A032799",
+    "A166623"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

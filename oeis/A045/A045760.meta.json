@@ -1,0 +1,20 @@
+{
+  "description": "Smallest Maris-McGwire k-tuple (k>1) for each k: f(n) = f(n+1) = ... = f(n+k-1), where f is defined in comments.",
+  "id": "A045760",
+  "mentions": [
+    "A006145",
+    "A045759"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

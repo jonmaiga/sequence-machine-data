@@ -1,0 +1,26 @@
+{
+  "description": "Multipliers resulting from A068665.",
+  "id": "A068972",
+  "mentions": [
+    "A068664",
+    "A068665",
+    "A068666",
+    "A068667",
+    "A068971",
+    "A068973",
+    "A068974"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

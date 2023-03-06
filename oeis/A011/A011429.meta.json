@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 10th root of 20.",
+  "id": "A011429",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:55",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

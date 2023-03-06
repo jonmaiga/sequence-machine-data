@@ -1,0 +1,22 @@
+{
+  "description": "Breadth-first-wise A014486-like encoding of A080299-trees.",
+  "id": "A080313",
+  "mentions": [
+    "A014486",
+    "A080299",
+    "A080312",
+    "A080314",
+    "A080315",
+    "A080316"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

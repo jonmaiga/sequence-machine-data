@@ -1,0 +1,19 @@
+{
+  "description": "Cube roots pertaining to A082211.",
+  "id": "A082212",
+  "mentions": [
+    "A082211"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

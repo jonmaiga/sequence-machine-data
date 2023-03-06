@@ -1,0 +1,19 @@
+{
+  "description": "Concatenation of 'nextprime(a(n)) and a(n)' and 'a(n) and nextprime(a(n))' are both prime.",
+  "id": "A034595",
+  "mentions": [
+    "A034591",
+    "A034596"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:16:25",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

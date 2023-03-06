@@ -1,0 +1,21 @@
+{
+  "description": "For n >= 1 a(n) is the size of the conjugacy class in the symmetric group S_(4n) consisting of permutations whose cycle decomposition is a product of n disjoint 4-cycles.",
+  "id": "A060706",
+  "mentions": [
+    "A000142",
+    "A001147",
+    "A052502",
+    "A052504"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

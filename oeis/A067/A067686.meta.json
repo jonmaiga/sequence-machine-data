@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = a(n-1) * a(n-1) - B * a(n-1) + B, a(0) = 1 + B for B = 7.",
+  "id": "A067686",
+  "mentions": [
+    "A000058",
+    "A000215",
+    "A000289",
+    "A000324",
+    "A001543",
+    "A001544",
+    "A177888"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:19",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

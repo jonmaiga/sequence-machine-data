@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form 4*k^2 - 10*k + 7 with k positive.",
+  "id": "A073337",
+  "mentions": [
+    "A000217",
+    "A002383",
+    "A054554",
+    "A073338",
+    "A168026"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

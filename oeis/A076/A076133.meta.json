@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that 2*k! - 1 is prime.",
+  "id": "A076133",
+  "mentions": [
+    "A002982",
+    "A051915",
+    "A076134",
+    "A099350",
+    "A099351",
+    "A180627",
+    "A180628",
+    "A180629",
+    "A180630",
+    "A180631"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of increasing subsequences that can be made from the sequence of successive numbers.",
+  "id": "A091955",
+  "mentions": [
+    "A000041",
+    "A055642",
+    "A091956"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 13:43:19",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Square array of generalized polygonal numbers, read by antidiagonals.",
+  "id": "A080853",
+  "mentions": [
+    "A000124",
+    "A000290",
+    "A003215",
+    "A058331",
+    "A080855",
+    "A080856",
+    "A080857",
+    "A080859",
+    "A080860",
+    "A080861",
+    "A080919",
+    "A116701"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Sum_{j=0..k-1} T(n,j) + Sum_{j=1..n-k} T(n-j,k), with T(0,0)=1 and T(n,k) = 0 for k > n.",
+  "id": "A059450",
+  "mentions": [
+    "A000079",
+    "A001792",
+    "A059231",
+    "A086866",
+    "A086871"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

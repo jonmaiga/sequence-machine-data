@@ -1,0 +1,18 @@
+{
+  "description": "Ceiling of mean distance between successive distinct prime divisors of n.",
+  "id": "A049087",
+  "mentions": [
+    "A178921"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

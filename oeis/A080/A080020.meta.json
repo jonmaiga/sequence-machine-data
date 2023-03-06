@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 9k^2 + 3k + 367, where k can be negative.",
+  "id": "A080020",
+  "mentions": [
+    "A005846"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

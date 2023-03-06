@@ -1,0 +1,27 @@
+{
+  "description": "a(1)=1, a(2)=2; thereafter, a(n) is the smallest number m not yet in the sequence such that every prime that divides a(n-1) also divides m.",
+  "id": "A060735",
+  "mentions": [
+    "A000010",
+    "A002110",
+    "A007947",
+    "A049345",
+    "A053589",
+    "A055719",
+    "A101301",
+    "A260188",
+    "A267263",
+    "A276157"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Primes of form repdigit - 1. Primes whose sum of divisors is a decimal repdigit.",
+  "id": "A096843",
+  "mentions": [
+    "A000203",
+    "A028987",
+    "A091189",
+    "A093163",
+    "A093171",
+    "A096503",
+    "A096508",
+    "A096841",
+    "A096846"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Index of 6^n within sequence of numbers of form 6^i*10^j.",
+  "id": "A025719",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:38",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of sum of all matrix elements of N X N matrix M(i,j) = i^3+j^3, (i,j = 1..n) divided by n!.",
+  "id": "A099904",
+  "mentions": [
+    "A002411",
+    "A006002",
+    "A019584",
+    "A098077",
+    "A099903"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

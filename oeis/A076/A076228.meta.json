@@ -1,0 +1,20 @@
+{
+  "description": "Number of terms k in the trajectory of the Collatz function applied to n such that k < n.",
+  "id": "A076228",
+  "mentions": [
+    "A006370",
+    "A070165",
+    "A074473",
+    "A159999"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

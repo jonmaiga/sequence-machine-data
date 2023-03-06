@@ -1,0 +1,20 @@
+{
+  "description": "4-magic series constant.",
+  "id": "A052461",
+  "mentions": [
+    "A052459",
+    "A052460"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:04:21",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

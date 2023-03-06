@@ -1,0 +1,18 @@
+{
+  "description": "Smaller member of a twin prime pair with a triangular sum.",
+  "id": "A086816",
+  "mentions": [
+    "A000217",
+    "A001359"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:38",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

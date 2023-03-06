@@ -1,0 +1,39 @@
+{
+  "description": "Number of ways n is a product of squarefree numbers > 1.",
+  "id": "A050320",
+  "mentions": [
+    "A000110",
+    "A001055",
+    "A002110",
+    "A005117",
+    "A006939",
+    "A008480",
+    "A025487",
+    "A045778",
+    "A050325",
+    "A050326",
+    "A089259",
+    "A101296",
+    "A103774",
+    "A116540",
+    "A124010",
+    "A206778",
+    "A259936",
+    "A317829",
+    "A318360",
+    "A337072"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

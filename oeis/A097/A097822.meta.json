@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n^2+n+41 (Euler's \"prime generating polynomial\") has more than 2 prime factors.",
+  "id": "A097822",
+  "mentions": [
+    "A002837",
+    "A005846",
+    "A007634",
+    "A097823",
+    "A145293"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

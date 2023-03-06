@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(819).",
+  "id": "A042580",
+  "mentions": [
+    "A040790",
+    "A042581"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 07:04:08",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

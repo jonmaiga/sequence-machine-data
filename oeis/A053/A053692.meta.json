@@ -1,0 +1,26 @@
+{
+  "description": "Number of self-conjugate 4-core partitions of n.",
+  "id": "A053692",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A008441",
+    "A010054",
+    "A010815",
+    "A053693",
+    "A121373",
+    "A246950"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

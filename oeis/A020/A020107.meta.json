@@ -1,0 +1,15 @@
+{
+  "description": "Ceiling of GAMMA(n+3/10)/GAMMA(3/10).",
+  "id": "A020107",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:24:40",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

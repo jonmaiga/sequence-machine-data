@@ -1,0 +1,19 @@
+{
+  "description": "Number of projections of rational knots and links with n crossings.",
+  "id": "A089790",
+  "mentions": [
+    "A002863",
+    "A005418"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

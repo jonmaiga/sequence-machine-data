@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number such that A067003[a(n)] = n.",
+  "id": "A081376",
+  "mentions": [
+    "A001221",
+    "A067003",
+    "A081373",
+    "A081375"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Waring's problem: historical upper bounds on A079611, as stated in a web page in 1996.",
+  "id": "A018887",
+  "mentions": [
+    "A079611"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

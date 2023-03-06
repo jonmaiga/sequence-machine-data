@@ -1,0 +1,36 @@
+{
+  "description": "The characteristic function of the multiples of five.",
+  "id": "A079998",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A002524",
+    "A002529",
+    "A008587",
+    "A011558",
+    "A047201",
+    "A059841",
+    "A072827",
+    "A072850",
+    "A072856",
+    "A079955",
+    "A079978",
+    "A079979",
+    "A080014",
+    "A082784",
+    "A121262",
+    "A185015"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

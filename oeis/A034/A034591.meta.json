@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose concatenation with the next prime yields a prime.",
+  "id": "A034591",
+  "mentions": [
+    "A030459",
+    "A034592",
+    "A034593",
+    "A034594",
+    "A034596"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:16:03",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

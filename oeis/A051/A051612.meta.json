@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = sigma(n) - phi(n).",
+  "id": "A051612",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A110085",
+    "A110086",
+    "A110087",
+    "A240960",
+    "A292769"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

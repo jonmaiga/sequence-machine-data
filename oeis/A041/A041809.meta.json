@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(425).",
+  "id": "A041809",
+  "mentions": [
+    "A040404",
+    "A041808"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:11:34",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

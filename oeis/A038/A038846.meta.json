@@ -1,0 +1,29 @@
+{
+  "description": "4-fold convolution of A000302 (powers of 4); expansion of g.f. 1/(1-4*x)^4.",
+  "id": "A038846",
+  "mentions": [
+    "A000302",
+    "A000984",
+    "A002457",
+    "A002697",
+    "A002802",
+    "A006044",
+    "A020918",
+    "A038231",
+    "A038845",
+    "A057524",
+    "A152818"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

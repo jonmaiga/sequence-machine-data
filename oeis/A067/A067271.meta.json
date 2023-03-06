@@ -1,0 +1,16 @@
+{
+  "description": "Numbers n such that the digits of P_7(n), the n-th heptagonal number, end in n.",
+  "id": "A067271",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

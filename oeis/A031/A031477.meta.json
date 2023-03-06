@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose base-6 representation has the same number of 0's as 5's.",
+  "id": "A031477",
+  "mentions": [
+    "A007092"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:51:19",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

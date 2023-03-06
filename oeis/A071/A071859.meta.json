@@ -1,0 +1,18 @@
+{
+  "description": "Determinant of M_n where M_n is the n X n matrix m_(i,j) = A030300(i+j).",
+  "id": "A071859",
+  "mentions": [
+    "A030300"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of area of Mandelbrot set.",
+  "id": "A098403",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

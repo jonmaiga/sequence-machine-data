@@ -1,0 +1,20 @@
+{
+  "description": "Positions in decimal expansion of Pi where next prime begins.",
+  "id": "A053013",
+  "mentions": [
+    "A047777",
+    "A229181"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

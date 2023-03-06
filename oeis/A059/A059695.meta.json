@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p^2 reversed is also prime.",
+  "id": "A059695",
+  "mentions": [
+    "A059007",
+    "A059696",
+    "A059705"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:15:27",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

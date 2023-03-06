@@ -1,0 +1,24 @@
+{
+  "description": "Positions of check bits in code in A075931.",
+  "id": "A075933",
+  "mentions": [
+    "A057716",
+    "A075928",
+    "A075929",
+    "A075930",
+    "A075931",
+    "A075932",
+    "A075936",
+    "A075939"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

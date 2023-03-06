@@ -1,0 +1,22 @@
+{
+  "description": "Fifth column of Lanczos triangle A053125 (decreasing powers).",
+  "id": "A054323",
+  "mentions": [
+    "A053125",
+    "A053126",
+    "A054322",
+    "A080951"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

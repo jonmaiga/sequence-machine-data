@@ -1,0 +1,27 @@
+{
+  "description": "Denominator of rational number i/j such that Sagher map sends i/j to n.",
+  "id": "A071975",
+  "mentions": [
+    "A000290",
+    "A002117",
+    "A027748",
+    "A071974",
+    "A077591",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

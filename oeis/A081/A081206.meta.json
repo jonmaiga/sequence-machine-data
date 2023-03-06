@@ -1,0 +1,21 @@
+{
+  "description": "Correlation matrix of triangle A046854.",
+  "id": "A081206",
+  "mentions": [
+    "A046854",
+    "A081207"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

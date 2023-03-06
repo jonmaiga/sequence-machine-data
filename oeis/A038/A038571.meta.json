@@ -1,0 +1,19 @@
+{
+  "description": "Number of times n must be differentiated to reach 0.",
+  "id": "A038571",
+  "mentions": [
+    "A038554"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

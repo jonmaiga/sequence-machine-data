@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of triangle of coefficients (A086610) where T(n,k) is the coefficient of x^n*y^k in f(x,y) that satisfies f(x,y) = (1-x-x^2)/(1-x)^2 + xy*f(x,y)^2.",
+  "id": "A086611",
+  "mentions": [
+    "A086610",
+    "A086632"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

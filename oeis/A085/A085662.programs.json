@@ -1,0 +1,137 @@
+{
+  "oi": 85662,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "de[sin(sin(1))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "sin",
+        "sin",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-16",
+      "ix": "limit[sin(sin(tanh(n)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "tanh",
+        "sin",
+        "sin",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-07-08",
+      "ix": "limit[sin(sin(floor(atan(n))))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "atan",
+        "floor",
+        "sin",
+        "sin",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-07-08",
+      "ix": "limit[sin(sin(ceil(acot(n))))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "acot",
+        "ceil",
+        "sin",
+        "sin",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-07-24",
+      "ix": "limit[sin(a(4%n))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "4",
+        "n",
+        "%",
+        "a",
+        "sin",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-04-11",
+      "ix": "limit[sin(sin(1-char[1]))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "1",
+        "char",
+        "sub",
+        "sin",
+        "sin",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-06-26",
+      "ix": "de[cos(asin(cos(cos(asin(cos(1))))))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "cos",
+        "asin",
+        "cos",
+        "cos",
+        "asin",
+        "cos",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "limit[sin(sin(1)+∏[sin(n+1)])]",
+      "mt": 50,
+      "px": [
+        "1",
+        "sin",
+        "n",
+        "1",
+        "+",
+        "sin",
+        "∏",
+        "+",
+        "sin",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-06-03",
+      "ix": "de[sin(C049469)]",
+      "mt": 50,
+      "px": [
+        "C049469",
+        "sin",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-06-01",
+      "ix": "limit[sin(-sin(A023532(n)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "A023532",
+        "sin",
+        "neg",
+        "sin",
+        "limit"
+      ]
+    }
+  ]
+}

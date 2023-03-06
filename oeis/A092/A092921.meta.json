@@ -1,0 +1,31 @@
+{
+  "description": "Array F(k, n) read by descending antidiagonals: k-generalized Fibonacci numbers in row k >= 1, starting (0, 1, 1, ...), for column n >= 0.",
+  "id": "A092921",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A000078",
+    "A001591",
+    "A001592",
+    "A048004",
+    "A048887",
+    "A057427",
+    "A066099",
+    "A066178",
+    "A079262",
+    "A126198",
+    "A166444"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

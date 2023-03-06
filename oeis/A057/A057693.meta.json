@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations on n letters that have only cycles of length 3 or less.",
+  "id": "A057693",
+  "mentions": [
+    "A000085",
+    "A070945",
+    "A070947"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

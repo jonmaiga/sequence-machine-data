@@ -1,0 +1,20 @@
+{
+  "description": "Extension of Beatty sequence; complement of A045775.",
+  "id": "A045774",
+  "mentions": [
+    "A045749",
+    "A045750",
+    "A045775"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:25:53",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

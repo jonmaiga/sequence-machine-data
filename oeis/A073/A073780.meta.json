@@ -1,0 +1,23 @@
+{
+  "description": "Number of 1's in base 3 representation of n-th prime.",
+  "id": "A073780",
+  "mentions": [
+    "A000040",
+    "A062756",
+    "A073779",
+    "A073781"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:27",
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

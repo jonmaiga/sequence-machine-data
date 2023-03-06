@@ -1,0 +1,19 @@
+{
+  "description": "Number of isomorphism classes of non-commutative closed binary operations (groupoids) on a set of order n.",
+  "id": "A079183",
+  "mentions": [
+    "A001329",
+    "A001425",
+    "A079184"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = prime(3*n+2) - prime(3*n).",
+  "id": "A088683",
+  "mentions": [
+    "A078584",
+    "A088680",
+    "A088682",
+    "A088684"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Smallest k>n such that n^2+n+1 divides k^2+k+1.",
+  "id": "A071567",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

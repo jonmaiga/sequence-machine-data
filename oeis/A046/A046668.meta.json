@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that partition function p(n) divides n!.",
+  "id": "A046668",
+  "mentions": [
+    "A000041",
+    "A000142",
+    "A316530"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

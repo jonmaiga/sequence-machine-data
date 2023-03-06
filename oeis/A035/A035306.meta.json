@@ -1,0 +1,23 @@
+{
+  "description": "List prime factors of each number in order (each prime factor is followed by its power). Start with 1 = {1,1}.",
+  "id": "A035306",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A008474",
+    "A027748",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:18:59",
+    "offset": 1,
+    "size": 97,
+    "source": "joeis"
+  }
+}

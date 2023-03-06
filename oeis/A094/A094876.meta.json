@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = a(2) = a(3) = a(4) = a(5) = a(6) = 1; then a(n) = sum( a(2*i)*a(3*j)) where 1< = i< = n, 1< = j< = n and 2*i+3*j = n.",
+  "id": "A094876",
+  "mentions": [
+    "A000108",
+    "A000245"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

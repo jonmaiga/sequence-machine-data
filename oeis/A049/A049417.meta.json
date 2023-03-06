@@ -1,0 +1,35 @@
+{
+  "description": "a(n) = isigma(n): sum of infinitary divisors of n.",
+  "id": "A049417",
+  "mentions": [
+    "A000079",
+    "A001615",
+    "A004607",
+    "A007947",
+    "A027748",
+    "A030308",
+    "A037445",
+    "A049418",
+    "A050376",
+    "A063990",
+    "A074847",
+    "A077609",
+    "A097863",
+    "A124010",
+    "A126168",
+    "A127661",
+    "A293355"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

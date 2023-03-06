@@ -1,0 +1,16 @@
+{
+  "description": "Minimum sum of n distinct positive numbers, any n-1 of which sum to a square.",
+  "id": "A035305",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:39",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

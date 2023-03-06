@@ -1,0 +1,19 @@
+{
+  "description": "Palindromic terms from A019546.",
+  "id": "A045336",
+  "mentions": [
+    "A002385",
+    "A019546"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:56",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

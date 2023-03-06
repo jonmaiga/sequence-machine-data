@@ -1,0 +1,17 @@
+{
+  "description": "omega(n) = omega(n-1) + omega(n-2) + omega(n-3), where omega(n) is the number of distinct prime factors of n.",
+  "id": "A076252",
+  "mentions": [
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

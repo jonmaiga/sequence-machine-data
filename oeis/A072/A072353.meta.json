@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the index of the largest Fibonacci number containing n digits.",
+  "id": "A072353",
+  "mentions": [
+    "A000045",
+    "A050815",
+    "A060384",
+    "A072351",
+    "A072352",
+    "A105564",
+    "A105566"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:43",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

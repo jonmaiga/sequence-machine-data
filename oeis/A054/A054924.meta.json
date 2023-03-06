@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of nonisomorphic unlabeled connected graphs with n nodes and k edges (n >= 1, 0 <= k <= n(n-1)/2).",
+  "id": "A054924",
+  "mentions": [
+    "A000055",
+    "A001349",
+    "A001429",
+    "A001437",
+    "A002905",
+    "A008406",
+    "A046742",
+    "A046751",
+    "A054923",
+    "A054925",
+    "A076263"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:24",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

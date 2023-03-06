@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that 2*m - sigma(m) is a divisor of m and greater than one, where sigma = A000203 is the sum of divisors.",
+  "id": "A060326",
+  "mentions": [
+    "A000079",
+    "A000203",
+    "A005100",
+    "A033879",
+    "A214408"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:11",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

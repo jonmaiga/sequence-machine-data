@@ -1,0 +1,17 @@
+{
+  "description": "Let T = Sum_{k >= 1} k^(k-1)*x^k be the g.f. for rooted labeled trees (A000169); sequence has g.f. T/(1-T).",
+  "id": "A088342",
+  "mentions": [
+    "A000169"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

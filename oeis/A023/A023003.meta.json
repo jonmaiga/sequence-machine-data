@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into parts of 4 kinds.",
+  "id": "A023003",
+  "mentions": [
+    "A000594",
+    "A010709",
+    "A144064"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

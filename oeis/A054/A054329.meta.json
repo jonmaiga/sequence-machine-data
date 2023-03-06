@@ -1,0 +1,20 @@
+{
+  "description": "One quarter of fourth unsigned column of Lanczos' triangle A053125.",
+  "id": "A054329",
+  "mentions": [
+    "A053125",
+    "A054322"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Indices n such that A307672(2*n) = 4.",
+  "id": "A019991",
+  "mentions": [
+    "A019989",
+    "A019990",
+    "A307672"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:04:37",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

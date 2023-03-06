@@ -1,0 +1,24 @@
+{
+  "description": "List of codewords in binary lexicode with Hamming distance 20 written as decimal numbers.",
+  "id": "A075976",
+  "mentions": [
+    "A075928",
+    "A075929",
+    "A075930",
+    "A075970",
+    "A075973",
+    "A075977",
+    "A075978"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "(Presumed) last palindrome in the Reverse and Add! trajectory of 10^n.",
+  "id": "A090074",
+  "mentions": [
+    "A065001",
+    "A070742",
+    "A077594",
+    "A090069",
+    "A090070",
+    "A090071",
+    "A090072",
+    "A090075"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

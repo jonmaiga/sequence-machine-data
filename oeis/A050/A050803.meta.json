@@ -1,0 +1,22 @@
+{
+  "description": "Cubes expressible as the sum of two nonzero squares in at least one way.",
+  "id": "A050803",
+  "mentions": [
+    "A000404",
+    "A050802",
+    "A050804",
+    "A135786",
+    "A135787",
+    "A135788"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:22",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

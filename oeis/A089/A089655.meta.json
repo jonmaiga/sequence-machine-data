@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1 and for n>=2 a(n) is the denominator of A(n) (see comment for A(n) definition).",
+  "id": "A089655",
+  "mentions": [
+    "A000043",
+    "A000978",
+    "A003557",
+    "A007947"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

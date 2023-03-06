@@ -1,0 +1,23 @@
+{
+  "description": "Let p = n-th prime == 1 mod 8 (A007519); a(n) = smallest prime q such that p is not a square mod q.",
+  "id": "A094928",
+  "mentions": [
+    "A002224",
+    "A007519",
+    "A094929",
+    "A144294",
+    "A269704"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

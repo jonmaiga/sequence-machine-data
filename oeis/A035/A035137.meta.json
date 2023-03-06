@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that are not the sum of 2 palindromes (where 0 is considered a palindrome).",
+  "id": "A035137",
+  "mentions": [
+    "A002113",
+    "A014091",
+    "A014092",
+    "A104444",
+    "A260254",
+    "A260255",
+    "A261423",
+    "A261675",
+    "A261906",
+    "A261907",
+    "A319477"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:45",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

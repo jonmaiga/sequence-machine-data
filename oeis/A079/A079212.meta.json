@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n in which the last k digits of n form an integer divisible by the k-th prime, for k = 1, 2, ..., m, where m is the number of digits in n.",
+  "id": "A079212",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "(8^n-1)/7 mod n.",
+  "id": "A094923",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

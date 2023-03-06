@@ -1,0 +1,20 @@
+{
+  "description": "Where the modified Juggler sequence reaches a new record.",
+  "id": "A095910",
+  "mentions": [
+    "A007321",
+    "A094697",
+    "A095909",
+    "A095911"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

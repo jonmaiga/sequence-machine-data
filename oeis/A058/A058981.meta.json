@@ -1,0 +1,17 @@
+{
+  "description": "Improperly Reduced Fibonacci Sequence: begin with a(0) = 0, a(1) = 1 and a(n) = [ a(n-1) + a(n-2) ] / a(k). a(k) is the first (not necessarily the greatest) term including 1 which divides a(n-1) + a(n-2) not previously used.",
+  "id": "A058981",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-09 16:15:08",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

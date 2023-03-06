@@ -1,0 +1,17 @@
+{
+  "description": "Products of integers whose digits are permutations of 1, 2, 3, ..., n.",
+  "id": "A088851",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

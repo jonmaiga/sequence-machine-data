@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A061015(k) is prime.",
+  "id": "A092062",
+  "mentions": [
+    "A061015"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

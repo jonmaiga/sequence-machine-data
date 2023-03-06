@@ -1,0 +1,17 @@
+{
+  "description": "First differences of A031924.",
+  "id": "A053321",
+  "mentions": [
+    "A031924"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:02",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

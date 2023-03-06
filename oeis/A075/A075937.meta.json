@@ -1,0 +1,25 @@
+{
+  "description": "List of codewords in binary lexicode with Hamming distance 7 written as decimal numbers.",
+  "id": "A075937",
+  "mentions": [
+    "A075928",
+    "A075929",
+    "A075930",
+    "A075931",
+    "A075938",
+    "A075939",
+    "A075940",
+    "A075943"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

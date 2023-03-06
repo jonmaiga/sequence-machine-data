@@ -1,0 +1,20 @@
+{
+  "description": "Number of unlabeled acyclic preferences/voting outcomes, indifference and undecidedness/incompleteness permitted (Social Choice Theory).",
+  "id": "A087614",
+  "mentions": [
+    "A003087",
+    "A087613",
+    "A087616"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

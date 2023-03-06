@@ -1,0 +1,18 @@
+{
+  "description": "Smallest possible maximum denominator in an expression for 1 as a sum of n distinct unit (Egyptian) fractions.",
+  "id": "A030659",
+  "mentions": [
+    "A213062"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 3,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

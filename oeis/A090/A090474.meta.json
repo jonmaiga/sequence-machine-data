@@ -1,0 +1,15 @@
+{
+  "description": "Beginning with 2, a(n+1) is the least prime == 1 (mod (Sum_{i=1..n} a(i))).",
+  "id": "A090474",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

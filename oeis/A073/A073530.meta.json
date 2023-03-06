@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (1/n)*Sum_{k=0..n} binomial(n, k)*binomial(n+k, k+1)*binomial(n+k, k) with a(0) = 1.",
+  "id": "A073530",
+  "mentions": [
+    "A074635",
+    "A074649"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:25",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

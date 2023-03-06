@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that F(k) and C(2k,k) are relatively prime, where F(k) is the k-th Fibonacci number (A000045(k)).",
+  "id": "A074725",
+  "mentions": [
+    "A000045",
+    "A000984"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

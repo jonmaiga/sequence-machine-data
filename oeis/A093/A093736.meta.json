@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of Newton-Cotes formulas.",
+  "id": "A093736",
+  "mentions": [
+    "A093735"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that the next prime after p can be obtained from p by adding the product of the digits of p.",
+  "id": "A089823",
+  "mentions": [
+    "A091628",
+    "A091629",
+    "A091630",
+    "A091631",
+    "A091632"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

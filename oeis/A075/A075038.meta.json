@@ -1,0 +1,24 @@
+{
+  "description": "Primes for which the six closest primes are smaller.",
+  "id": "A075038",
+  "mentions": [
+    "A001223",
+    "A074979",
+    "A074982",
+    "A075030",
+    "A075037",
+    "A075043",
+    "A075050",
+    "A075051"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:27",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

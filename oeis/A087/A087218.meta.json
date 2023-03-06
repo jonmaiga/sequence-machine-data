@@ -1,0 +1,20 @@
+{
+  "description": "Satisfies A(x) = 1 + x*A(x)*f(x)^2, where f(x) = Sum_{k>=0} x^((3^n-1)/2) and f(x)^2 = 2 - f(x^2) + 2*Sum_{n>0} x^A023745(n).",
+  "id": "A087218",
+  "mentions": [
+    "A023745",
+    "A078932",
+    "A087219"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

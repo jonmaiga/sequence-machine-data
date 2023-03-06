@@ -1,0 +1,18 @@
+{
+  "description": "Symmetric primes: an odd prime p is symmetric if there exists an odd prime q such that |p-q| = gcd(p-1,q-1).",
+  "id": "A090190",
+  "mentions": [
+    "A000040",
+    "A090191"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:41",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

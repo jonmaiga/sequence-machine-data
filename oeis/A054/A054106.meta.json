@@ -1,0 +1,20 @@
+{
+  "description": "Alternating sums of vertically aligned numbers in Pascal's triangle: T(n,k) = C(n,k) - C(n-2,k-1) + C(n-4,k-2) - ... +- C(n-2[n/2],m).",
+  "id": "A054106",
+  "mentions": [
+    "A007910",
+    "A013580"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:15:43",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

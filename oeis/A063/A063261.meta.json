@@ -1,0 +1,20 @@
+{
+  "description": "Coefficient array for certain numerator polynomials N6(n,x), n >= 0 (rising powers of x).",
+  "id": "A063261",
+  "mentions": [
+    "A063260"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

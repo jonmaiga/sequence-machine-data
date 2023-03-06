@@ -1,0 +1,19 @@
+{
+  "description": "Integers i > 1 for which there is no prime p such that i is a solution mod p of x^3 = 2.",
+  "id": "A060591",
+  "mentions": [
+    "A040028",
+    "A059940"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

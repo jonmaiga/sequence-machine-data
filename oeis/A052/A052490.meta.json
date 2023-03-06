@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with only one nonzero solution to \"numbers that are n times sum of their digits\".",
+  "id": "A052490",
+  "mentions": [
+    "A003634",
+    "A003635",
+    "A052489"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:41",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

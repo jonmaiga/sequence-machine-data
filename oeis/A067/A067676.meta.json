@@ -1,0 +1,20 @@
+{
+  "description": "Number of fixed directed convex polyominoes with n cells.",
+  "id": "A067676",
+  "mentions": [
+    "A006958",
+    "A067675",
+    "A191148"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

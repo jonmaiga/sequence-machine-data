@@ -1,0 +1,24 @@
+{
+  "description": "E.g.f.: (1/(1-x^4))*exp( 4*Sum_{i>=0} x^(4*i+1)/(4*i+1) ) for an order-4 linear recurrence with varying coefficients.",
+  "id": "A097679",
+  "mentions": [
+    "A001620",
+    "A097665",
+    "A097677",
+    "A097678",
+    "A097680",
+    "A097681",
+    "A097682"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:30:46",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

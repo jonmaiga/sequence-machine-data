@@ -1,0 +1,22 @@
+{
+  "description": "Acyclic orientations of the Hamming graph (K_2) x (K_n).",
+  "id": "A054652",
+  "mentions": [
+    "A002720",
+    "A053870",
+    "A054583",
+    "A054653"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

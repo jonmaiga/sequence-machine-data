@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of generating function A_{QT}^(1)(4n;3).",
+  "id": "A059491",
+  "mentions": [
+    "A000975",
+    "A005130",
+    "A097188"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:10",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

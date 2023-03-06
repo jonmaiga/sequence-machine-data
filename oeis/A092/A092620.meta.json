@@ -1,0 +1,25 @@
+{
+  "description": "Numbers with exactly one prime digit.",
+  "id": "A092620",
+  "mentions": [
+    "A046034",
+    "A084984",
+    "A092624",
+    "A092625",
+    "A118950",
+    "A193238"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

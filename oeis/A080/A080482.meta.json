@@ -1,0 +1,21 @@
+{
+  "description": "A080481(n)/3.",
+  "id": "A080482",
+  "mentions": [
+    "A080481",
+    "A080483",
+    "A080484"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of dominoes with n spots (in standard set).",
+  "id": "A045430",
+  "mentions": [
+    "A008967"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

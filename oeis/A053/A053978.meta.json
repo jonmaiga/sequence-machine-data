@@ -1,0 +1,17 @@
+{
+  "description": "Continued fraction expansion of limit_{m->infinity} [r_m], where r_1=1, r_{m+1}= r_1 + 1/(r_2 + 1/(r_3 +...1/(r_{m-1} + 1/r_m)...)).",
+  "id": "A053978",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "cofr",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

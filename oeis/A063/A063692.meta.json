@@ -1,0 +1,20 @@
+{
+  "description": "Number of 2-trees rooted at a triangle with two similar edges.",
+  "id": "A063692",
+  "mentions": [
+    "A005750",
+    "A054581",
+    "A058866",
+    "A058870"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

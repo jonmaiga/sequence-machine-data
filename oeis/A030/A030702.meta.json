@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 6^n contains no zeros (probably finite).",
+  "id": "A030702",
+  "mentions": [
+    "A007377",
+    "A007496",
+    "A008839",
+    "A030700",
+    "A305926"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

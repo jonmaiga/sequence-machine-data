@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2*a(n-1) + 12*a(n-2).",
+  "id": "A091914",
+  "mentions": [
+    "A000079",
+    "A003683",
+    "A006130",
+    "A063727"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Squarefree palindromes.",
+  "id": "A071251",
+  "mentions": [
+    "A002113",
+    "A002385",
+    "A005117",
+    "A032350",
+    "A035132",
+    "A069217"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

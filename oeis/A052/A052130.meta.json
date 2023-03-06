@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of numbers between 1 and 2^m with m-n prime factors (counted with multiplicity), for m sufficiently large.",
+  "id": "A052130",
+  "mentions": [
+    "A117630",
+    "A126279",
+    "A126281"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

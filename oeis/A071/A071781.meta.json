@@ -1,0 +1,20 @@
+{
+  "description": "Primes p with p-2^e and p+2^e prime for some exponent e.",
+  "id": "A071781",
+  "mentions": [
+    "A056206",
+    "A056208",
+    "A057732"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

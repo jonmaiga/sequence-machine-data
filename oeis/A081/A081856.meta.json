@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that 2n-1 divides 2^n-1.",
+  "id": "A081856",
+  "mentions": [
+    "A233415"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

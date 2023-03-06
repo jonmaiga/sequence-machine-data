@@ -1,0 +1,25 @@
+{
+  "description": "Decimal concatenations of the 6-tuples (d1,d2,d3,d4,d5,d6) with elements in {2,4,6} for which there exists a prime p >= 7 such that the differences between the 7 consecutive primes starting with p are (d1,d2,d3,d4,d5,d6).",
+  "id": "A078871",
+  "mentions": [
+    "A001223",
+    "A078868",
+    "A078869",
+    "A078870",
+    "A078874",
+    "A078875"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

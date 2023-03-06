@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = smallest odd number 2m+1 such that the partial sum of the odd harmonic series Sum_{j=0..m} 1/(2j+1) is > n.",
+  "id": "A056053",
+  "mentions": [
+    "A001620",
+    "A002387",
+    "A025547",
+    "A056054",
+    "A074599",
+    "A091463",
+    "A091464",
+    "A091465",
+    "A092315",
+    "A092317",
+    "A092318",
+    "A281355",
+    "A350763"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:11:02",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

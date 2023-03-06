@@ -1,0 +1,20 @@
+{
+  "description": "Domain of A049044.",
+  "id": "A049045",
+  "mentions": [
+    "A003422",
+    "A013584",
+    "A049044",
+    "A275608"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

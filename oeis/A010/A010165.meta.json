@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction for sqrt(94).",
+  "id": "A010165",
+  "mentions": [
+    "A010545"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:17",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of length 2n satisfying -k<=p(i)-i<=r and p(i)-i not in I, i=1..2n, with k=3, r=3, I={-2,0,1,2}. There is no one such permutation of length 2n+1.",
+  "id": "A079980",
+  "mentions": [
+    "A079981"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:30:04",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

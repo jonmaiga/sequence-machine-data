@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = tau(n)*(n-tau(n)), where tau(n) = number of divisors of n (A000005).",
+  "id": "A076627",
+  "mentions": [
+    "A000005",
+    "A049820"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

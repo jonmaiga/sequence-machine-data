@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 8*9^n +1 is prime.",
+  "id": "A056799",
+  "mentions": [
+    "A005538"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

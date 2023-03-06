@@ -1,0 +1,38 @@
+{
+  "description": "Numbers which are the product of a prime and the square of a different prime (p^2 * q).",
+  "id": "A054753",
+  "mentions": [
+    "A000001",
+    "A001221",
+    "A001222",
+    "A001358",
+    "A014612",
+    "A030515",
+    "A050997",
+    "A056595",
+    "A089233",
+    "A095990",
+    "A096156",
+    "A143928",
+    "A178254",
+    "A325241",
+    "A349495",
+    "A350115",
+    "A350245",
+    "A350332",
+    "A350421",
+    "A350422",
+    "A350638"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:21:33",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

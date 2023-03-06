@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-celled solid polyominoes (or free polycubes, allowing mirror-image identification).",
+  "id": "A038119",
+  "mentions": [
+    "A000162",
+    "A007743",
+    "A007818"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

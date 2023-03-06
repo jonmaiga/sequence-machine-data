@@ -1,0 +1,18 @@
+{
+  "description": "Number of different rectangles when a piece of paper is folded n times in alternate directions.",
+  "id": "A096222",
+  "mentions": [
+    "A000537"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

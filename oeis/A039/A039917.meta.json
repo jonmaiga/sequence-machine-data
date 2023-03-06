@@ -1,0 +1,18 @@
+{
+  "description": "Number of orderings of 1,2,...,n^2 in an n X n matrix such that each row, each column and both diagonals are increasing.",
+  "id": "A039917",
+  "mentions": [
+    "A039622",
+    "A181191"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:50",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of Pythagorean quadruples mod n; i.e., number of solutions to w^2 + x^2 + y^2 = z^2 mod n.",
+  "id": "A096018",
+  "mentions": [
+    "A062775",
+    "A240547"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

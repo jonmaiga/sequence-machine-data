@@ -1,0 +1,19 @@
+{
+  "description": "a(n+2) = 7*a(n+1) - 7*a(n) - 9*n; a(n+4) = 9*a(n+3) - 22*a(n+2) + 21*a(n+1) - 7*a(n).",
+  "id": "A030429",
+  "mentions": [
+    "A006373",
+    "A030240"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:13:13",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

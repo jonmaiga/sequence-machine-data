@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-1) + R[a(n-2)] + R[a(n-3)] + R[a(n-4)] where a(1) = a(2) = a(3) = a(4) = 1 and R(n) (A004086) is the reverse of n.",
+  "id": "A074865",
+  "mentions": [
+    "A000288",
+    "A004086"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

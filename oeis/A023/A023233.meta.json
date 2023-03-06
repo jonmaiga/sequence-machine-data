@@ -1,0 +1,15 @@
+{
+  "description": "Primes p such that 9*p + 2 is also prime.",
+  "id": "A023233",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

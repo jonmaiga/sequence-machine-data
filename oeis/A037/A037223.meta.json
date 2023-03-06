@@ -1,0 +1,23 @@
+{
+  "description": "Number of solutions to non-attacking rooks problem on n X n board that are invariant under 180-degree rotation.",
+  "id": "A037223",
+  "mentions": [
+    "A000165",
+    "A000903",
+    "A032522",
+    "A033148",
+    "A037224"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:48",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

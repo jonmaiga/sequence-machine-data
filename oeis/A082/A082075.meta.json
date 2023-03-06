@@ -1,0 +1,22 @@
+{
+  "description": "First differences of primes of the form 4*k+3 (A002145).",
+  "id": "A082075",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A082073",
+    "A082074",
+    "A082076"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

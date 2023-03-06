@@ -1,0 +1,20 @@
+{
+  "description": "Integers whose decimal expansion satisfies the condition that if we read each term from the left to right (the most significant to the least significant digit) then each nonzero digit gives a distance to the next nonzero digit to right (with a cyclic wrap-over from the least-significant to the most significant nonzero digit).",
+  "id": "A071161",
+  "mentions": [
+    "A054429",
+    "A071154",
+    "A071160"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

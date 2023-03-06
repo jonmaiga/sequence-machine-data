@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of integers whose sum of divisors is 6^n.",
+  "id": "A048253",
+  "mentions": [
+    "A006532",
+    "A018427",
+    "A019422",
+    "A019423",
+    "A020477",
+    "A048251",
+    "A048256"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

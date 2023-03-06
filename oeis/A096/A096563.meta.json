@@ -1,0 +1,19 @@
+{
+  "description": "McKay-Thompson series of class 25a for the Monster group.",
+  "id": "A096563",
+  "mentions": [
+    "A092885",
+    "A096562"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:35:37",
+    "offset": -1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

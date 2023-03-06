@@ -1,0 +1,18 @@
+{
+  "description": "Minimum area rectangle into which squares of sizes 1, 2, 3, ... n can be packed.",
+  "id": "A038666",
+  "mentions": [
+    "A081287"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Integer averages of first k primes for some k.",
+  "id": "A050248",
+  "mentions": [
+    "A007504",
+    "A024450",
+    "A045345",
+    "A050247",
+    "A085450",
+    "A111441",
+    "A128165",
+    "A128166",
+    "A171399",
+    "A217599",
+    "A217600",
+    "A217601",
+    "A233523",
+    "A233862"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

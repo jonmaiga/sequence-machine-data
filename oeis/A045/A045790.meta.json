@@ -1,0 +1,18 @@
+{
+  "description": "Three-dimensional simplices of determinant n.",
+  "id": "A045790",
+  "mentions": [
+    "A159842"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

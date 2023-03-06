@@ -1,0 +1,32 @@
+{
+  "description": "Positive numbers of the form x^2 + xy - y^2; or, of the form 5x^2 - y^2.",
+  "id": "A031363",
+  "mentions": [
+    "A000290",
+    "A001481",
+    "A003136",
+    "A035187",
+    "A038872",
+    "A084916",
+    "A141158",
+    "A242663",
+    "A243172",
+    "A243174",
+    "A243188",
+    "A263849",
+    "A316621"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:40",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

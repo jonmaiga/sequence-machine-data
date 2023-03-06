@@ -1,0 +1,19 @@
+{
+  "description": "3-smooth numbers k with decimal digits <= 3.",
+  "id": "A072440",
+  "mentions": [
+    "A003586"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

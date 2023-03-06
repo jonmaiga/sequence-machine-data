@@ -1,0 +1,20 @@
+{
+  "description": "Primes formed by concatenating k with k-1.",
+  "id": "A052089",
+  "mentions": [
+    "A030458",
+    "A052087",
+    "A052088"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

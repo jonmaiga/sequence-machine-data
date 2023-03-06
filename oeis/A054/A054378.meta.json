@@ -1,0 +1,20 @@
+{
+  "description": "Sums of prime factors of A039752, including multiplicities.",
+  "id": "A054378",
+  "mentions": [
+    "A006145",
+    "A006146",
+    "A039752",
+    "A039753"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:03",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

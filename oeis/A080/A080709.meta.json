@@ -1,0 +1,33 @@
+{
+  "description": "Take sum of squares of digits of previous term, starting with 4.",
+  "id": "A080709",
+  "mentions": [
+    "A000216",
+    "A000218",
+    "A000221",
+    "A003132",
+    "A003621",
+    "A007770",
+    "A008460",
+    "A008462",
+    "A008463",
+    "A031176",
+    "A039943",
+    "A099645",
+    "A122065",
+    "A139566"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:47:07",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers found in denominators of expansion of Airy function Bi(x).",
+  "id": "A014403",
+  "mentions": [
+    "A014402"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:15:48",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Odd elements in the 5-Pascal triangle A028313 that are not 1.",
+  "id": "A028316",
+  "mentions": [
+    "A028313"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:36:51",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

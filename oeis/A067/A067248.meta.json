@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the digits of prime(k) end in k.",
+  "id": "A067248",
+  "mentions": [
+    "A046883",
+    "A068575",
+    "A075902"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

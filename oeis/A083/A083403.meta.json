@@ -1,0 +1,19 @@
+{
+  "description": "Write the numbers 1, 2, ... in a triangle with n terms in the n-th row; a(n) = number of squarefree integers in n-th row.",
+  "id": "A083403",
+  "mentions": [
+    "A005117",
+    "A066888"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

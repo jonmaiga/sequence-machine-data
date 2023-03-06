@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = lcm(d(n^3), d(n)), where d(n) = A000005, the number of divisors of n.",
+  "id": "A072696",
+  "mentions": [
+    "A000005",
+    "A072695"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:24",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

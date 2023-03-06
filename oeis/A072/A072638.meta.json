@@ -1,0 +1,26 @@
+{
+  "description": "Number of unary-binary rooted trees of height at most n.",
+  "id": "A072638",
+  "mentions": [
+    "A000124",
+    "A000217",
+    "A006894",
+    "A071673",
+    "A072639",
+    "A072640",
+    "A072641",
+    "A072654",
+    "A204009"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

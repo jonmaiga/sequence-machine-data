@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, related to Pascal's triangle read mod 2.",
+  "id": "A090172",
+  "mentions": [
+    "A007318",
+    "A083093",
+    "A090171",
+    "A090174",
+    "A091562",
+    "A091563"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:03",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

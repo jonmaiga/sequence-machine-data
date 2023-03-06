@@ -1,0 +1,17 @@
+{
+  "description": "n*nextprime((n-1)!)-nextprime(n!).",
+  "id": "A089014",
+  "mentions": [
+    "A090660"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

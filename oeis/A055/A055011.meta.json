@@ -1,0 +1,23 @@
+{
+  "description": "a(n+1) = next smallest prime beginning with a(n) when written in binary, starting with 2.",
+  "id": "A055011",
+  "mentions": [
+    "A048549",
+    "A208241",
+    "A261200",
+    "A261201"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:41:55",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

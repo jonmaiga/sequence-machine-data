@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor(sqrt(3)*2^(n-1)).",
+  "id": "A094386",
+  "mentions": [
+    "A022838"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:45",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

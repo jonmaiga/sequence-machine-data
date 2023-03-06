@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of triangle K(m, n), inverse to triangle T(m,n) in A020921.",
+  "id": "A038200",
+  "mentions": [
+    "A000005",
+    "A020921",
+    "A126713"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:15:40",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

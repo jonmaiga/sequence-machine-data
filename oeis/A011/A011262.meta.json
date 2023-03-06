@@ -1,0 +1,24 @@
+{
+  "description": "In the prime factorization of n, increment odd powers and decrement even powers (multiplicative and self-inverse).",
+  "id": "A011262",
+  "mentions": [
+    "A001221",
+    "A011264",
+    "A027748",
+    "A103889",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:18",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

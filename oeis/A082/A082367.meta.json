@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: (1-8*x-sqrt(64*x^2-20*x+1))/(2*x).",
+  "id": "A082367",
+  "mentions": [
+    "A006318",
+    "A047891"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers having more than one partition into two 3-smooth numbers.",
+  "id": "A081333",
+  "mentions": [
+    "A003586",
+    "A081326",
+    "A081330",
+    "A081332"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

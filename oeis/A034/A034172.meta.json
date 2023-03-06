@@ -1,0 +1,17 @@
+{
+  "description": "Nearest integer to n!/(2*log(2)^(n+1)).",
+  "id": "A034172",
+  "mentions": [
+    "A000670"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:27:30",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

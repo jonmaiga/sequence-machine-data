@@ -1,0 +1,21 @@
+{
+  "description": "Table of coefficients of polynomials f_n(q) defined by 1/Product_{i>=1} (1-a q^i)^i = Sum_{n>=0} a^n q^n f_n(q) / ((q)_n)^2, where (x)_n is the q-Pochhammer symbol, defined to be Product_{i=0..n-1} (1-x q^i).",
+  "id": "A081285",
+  "mentions": [
+    "A000142",
+    "A052847"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

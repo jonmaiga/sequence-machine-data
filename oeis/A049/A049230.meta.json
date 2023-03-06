@@ -1,0 +1,21 @@
+{
+  "description": "Configurations of linear chains in a cubic lattice.",
+  "id": "A049230",
+  "mentions": [
+    "A033155",
+    "A033323",
+    "A034006",
+    "A038729"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

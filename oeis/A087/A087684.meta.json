@@ -1,0 +1,18 @@
+{
+  "description": "Consecutive repeating elements in sequence A006158.",
+  "id": "A087684",
+  "mentions": [
+    "A006158"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

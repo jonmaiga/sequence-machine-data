@@ -1,0 +1,18 @@
+{
+  "description": "n! divided by product of factorials of all proper divisors of n, as n runs through the values for which the result is an integer.",
+  "id": "A075071",
+  "mentions": [
+    "A075422"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 9, a(n+1) = smallest multiple of a(n) using only composite digits (4,6,8,9,0) and is not divisible by 10.",
+  "id": "A078238",
+  "mentions": [
+    "A078236",
+    "A078237"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

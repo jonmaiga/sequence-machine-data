@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n with A045763(n) = n + 1 - d(n) - phi(n) < d(n) < phi(n).",
+  "id": "A083249",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A020490",
+    "A045763",
+    "A051953",
+    "A073757"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

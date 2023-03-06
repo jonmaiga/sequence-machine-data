@@ -1,0 +1,17 @@
+{
+  "description": "Product of distinct (smallest) prime signature divisors. In case of two or more divisors with the same prime signature the smallest is considered to evaluate the product.",
+  "id": "A086471",
+  "mentions": [
+    "A086469"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

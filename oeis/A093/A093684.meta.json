@@ -1,0 +1,22 @@
+{
+  "description": "In binary representation: number of occurrences of n in n!.",
+  "id": "A093684",
+  "mentions": [
+    "A000142",
+    "A007088",
+    "A036603",
+    "A092601",
+    "A093685",
+    "A093686"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

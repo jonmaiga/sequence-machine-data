@@ -1,0 +1,19 @@
+{
+  "description": "Let f(x) = phi(x) + sigma(x); a(n) = least k such that at k begins a maximal run of length n of consecutive strict local extrema of f, or 0 if no such k exists.",
+  "id": "A066923",
+  "mentions": [
+    "A066485",
+    "A066918",
+    "A084622"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

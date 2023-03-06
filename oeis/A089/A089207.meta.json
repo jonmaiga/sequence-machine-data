@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 4n^3 + 2n^2.",
+  "id": "A089207",
+  "mentions": [
+    "A014105",
+    "A085409",
+    "A087887",
+    "A099721"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:56:39",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

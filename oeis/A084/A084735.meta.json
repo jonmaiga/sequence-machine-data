@@ -1,0 +1,18 @@
+{
+  "description": "Let p = n-th prime, let q = smallest prime having p as its least prime primitive root; sequence gives least (not necessarily prime) primitive root of q.",
+  "id": "A084735",
+  "mentions": [
+    "A084739"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

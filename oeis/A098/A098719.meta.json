@@ -1,0 +1,18 @@
+{
+  "description": "Position of prime(n)# in A025487.",
+  "id": "A098719",
+  "mentions": [
+    "A002110",
+    "A025487"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

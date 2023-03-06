@@ -1,0 +1,21 @@
+{
+  "description": "Differences between A008587 (multiples of 5) and A048725",
+  "id": "A048729",
+  "mentions": [
+    "A008587",
+    "A048716",
+    "A048725",
+    "A061858"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:33:15",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

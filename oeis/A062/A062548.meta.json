@@ -1,0 +1,18 @@
+{
+  "description": "Even integers that are not partial sums of A062547.",
+  "id": "A062548",
+  "mentions": [
+    "A055246",
+    "A062547"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

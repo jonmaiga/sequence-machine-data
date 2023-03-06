@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form floor( exp(n) ).",
+  "id": "A050809",
+  "mentions": [
+    "A000149",
+    "A000227",
+    "A004791",
+    "A037028",
+    "A040016",
+    "A050808"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

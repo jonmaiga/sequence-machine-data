@@ -1,0 +1,25 @@
+{
+  "description": "Number of Catalan objects fixed by six-fold application of the Catalan bijections A057511/A057512 (Deep rotation of general parenthesizations/plane trees).",
+  "id": "A079227",
+  "mentions": [
+    "A057511",
+    "A057512",
+    "A057546",
+    "A073202",
+    "A079216",
+    "A079222",
+    "A079223",
+    "A079226"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

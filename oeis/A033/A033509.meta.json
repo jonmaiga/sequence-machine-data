@@ -1,0 +1,19 @@
+{
+  "description": "Number of matchings in graph P_{6} X P_{n}.",
+  "id": "A033509",
+  "mentions": [
+    "A210662",
+    "A260035"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:28:43",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

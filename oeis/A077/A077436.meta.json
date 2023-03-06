@@ -1,0 +1,28 @@
+{
+  "description": "Let B(n) be the sum of binary digits of n. This sequence contains n such that B(n) = B(n^2).",
+  "id": "A077436",
+  "mentions": [
+    "A000120",
+    "A000290",
+    "A023758",
+    "A058369",
+    "A083567",
+    "A159918",
+    "A211676",
+    "A261586",
+    "A352084"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

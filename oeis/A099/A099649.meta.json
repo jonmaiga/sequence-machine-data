@@ -1,0 +1,21 @@
+{
+  "description": "Solutions to A099648(k) > k, i.e., numbers such that the largest term in the iteration of the A003132() function strictly exceeds the initial value.",
+  "id": "A099649",
+  "mentions": [
+    "A003132",
+    "A031176",
+    "A099646",
+    "A099648"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

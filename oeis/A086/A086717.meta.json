@@ -1,0 +1,18 @@
+{
+  "description": "Convolution of primes with partition numbers.",
+  "id": "A086717",
+  "mentions": [
+    "A000040",
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

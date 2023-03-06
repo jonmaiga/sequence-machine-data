@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; thereafter a(n) is smallest number not occurring earlier such that a(n-1)+a(n) is a triangular number.",
+  "id": "A077220",
+  "mentions": [
+    "A000217",
+    "A099130",
+    "A125595",
+    "A125630"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

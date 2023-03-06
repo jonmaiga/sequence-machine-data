@@ -1,0 +1,28 @@
+{
+  "description": "Sum of smallest parts of all partitions of n into distinct parts.",
+  "id": "A092265",
+  "mentions": [
+    "A005895",
+    "A006128",
+    "A026832",
+    "A034296",
+    "A046746",
+    "A092316",
+    "A092319",
+    "A237665",
+    "A336902",
+    "A336903"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:43",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of isomorphism classes of non-associative non-commutative anti-associative anti-commutative closed binary operations on a set of order n.",
+  "id": "A079237",
+  "mentions": [
+    "A002489",
+    "A063524",
+    "A079196",
+    "A079205",
+    "A079231",
+    "A079233",
+    "A079235",
+    "A079236",
+    "A079241",
+    "A079243",
+    "A079245"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

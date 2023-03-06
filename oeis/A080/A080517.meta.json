@@ -1,0 +1,21 @@
+{
+  "description": "T is the first, third, eighth, ninth, fifteenth, nineteenth, ... consonant in this sentence.",
+  "id": "A080517",
+  "mentions": [
+    "A005224",
+    "A080518",
+    "A080520"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

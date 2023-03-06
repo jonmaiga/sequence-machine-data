@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; thereafter, a(n) is the smallest nonnegative number such that the number Sum_{i=1..n} a(i)*10^(n-i) is divisible by n.",
+  "id": "A082399",
+  "mentions": [
+    "A051883",
+    "A080825",
+    "A144688"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:34",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

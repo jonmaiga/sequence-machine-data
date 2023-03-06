@@ -1,0 +1,29 @@
+{
+  "description": "Number of lattice points (x,y) on the circumference of a circle of radius n with center at (0,0).",
+  "id": "A046109",
+  "mentions": [
+    "A000328",
+    "A004018",
+    "A046080",
+    "A046110",
+    "A046111",
+    "A046112",
+    "A051132",
+    "A084647",
+    "A084648",
+    "A084649"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:28:57",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

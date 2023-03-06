@@ -1,0 +1,24 @@
+{
+  "description": "Greater member p of a twin prime pair such that p-1 is 3-smooth.",
+  "id": "A078884",
+  "mentions": [
+    "A000040",
+    "A003586",
+    "A006512",
+    "A014574",
+    "A027856",
+    "A060211",
+    "A078883"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

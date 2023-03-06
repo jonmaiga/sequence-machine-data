@@ -1,0 +1,23 @@
+{
+  "description": "Product of first n single (i.e., non-twin) primes.",
+  "id": "A074041",
+  "mentions": [
+    "A002110",
+    "A006512",
+    "A007510",
+    "A049084",
+    "A074038",
+    "A074040"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:44:56",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

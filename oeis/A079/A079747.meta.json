@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that gpf(k-1) < gpf(k) < gpf(k+1), where gpf(k) is the greatest prime factor of k (A006530).",
+  "id": "A079747",
+  "mentions": [
+    "A006530",
+    "A071869",
+    "A071870",
+    "A079748",
+    "A082417",
+    "A082422"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:31",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

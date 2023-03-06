@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = T([n/2],[(n+1)/2]), where T = Delannoy triangle (A008288).",
+  "id": "A026003",
+  "mentions": [
+    "A001405",
+    "A001850",
+    "A002002",
+    "A008288",
+    "A033877",
+    "A049310",
+    "A180662"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:48:44",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

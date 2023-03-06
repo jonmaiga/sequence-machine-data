@@ -1,0 +1,24 @@
+{
+  "description": "First differences of A069475, successive differences of (n+1)^6-n^6.",
+  "id": "A069476",
+  "mentions": [
+    "A001014",
+    "A020735",
+    "A022522",
+    "A069473",
+    "A069474",
+    "A069475"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:42:27",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

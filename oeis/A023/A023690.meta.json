@@ -1,0 +1,28 @@
+{
+  "description": "Numbers with exactly 8 ones in binary expansion.",
+  "id": "A023690",
+  "mentions": [
+    "A000079",
+    "A014311",
+    "A014312",
+    "A014313",
+    "A018900",
+    "A023688",
+    "A023689",
+    "A023691",
+    "A057168"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:33",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

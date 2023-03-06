@@ -1,0 +1,17 @@
+{
+  "description": "Start of the first occurrence of n consecutive numbers divisible by a square greater than 1.",
+  "id": "A069021",
+  "mentions": [
+    "A045882"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

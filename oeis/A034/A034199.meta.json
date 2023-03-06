@@ -1,0 +1,28 @@
+{
+  "description": "Number of binary codes (not necessarily linear) of length n with 4 words.",
+  "id": "A034199",
+  "mentions": [
+    "A034188",
+    "A034189",
+    "A034190",
+    "A034191",
+    "A034192",
+    "A034193",
+    "A034194",
+    "A034195",
+    "A034196",
+    "A034197",
+    "A034198"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

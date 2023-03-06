@@ -1,0 +1,34 @@
+{
+  "description": "Numbers k such that k-th Catalan number C(2k,k)/(k+1) is divisible by k.",
+  "id": "A014847",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A004782",
+    "A059288",
+    "A120622",
+    "A120623",
+    "A120624",
+    "A120625",
+    "A120626",
+    "A121943",
+    "A260636",
+    "A260640",
+    "A282163",
+    "A282346",
+    "A282672",
+    "A283073",
+    "A283074"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

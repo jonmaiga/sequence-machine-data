@@ -1,0 +1,27 @@
+{
+  "description": "Maximal orbit size in the symmetric group partitioned by the upper records version of the Foata transform (i.e., a(n) is the maximum cycle length found in the corresponding permutations A065181-A065184 in range [0, n!-1]).",
+  "id": "A065163",
+  "mentions": [
+    "A000045",
+    "A057502",
+    "A057542",
+    "A060112",
+    "A060117",
+    "A060125",
+    "A065161",
+    "A065162",
+    "A065181",
+    "A065184"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

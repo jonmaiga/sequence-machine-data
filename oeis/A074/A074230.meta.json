@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that A089509(n)=1.",
+  "id": "A074230",
+  "mentions": [
+    "A089509"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:26",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

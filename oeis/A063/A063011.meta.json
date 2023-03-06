@@ -1,0 +1,23 @@
+{
+  "description": "Ordered products of the sides of primitive Pythagorean triangles.",
+  "id": "A063011",
+  "mentions": [
+    "A020882",
+    "A020883",
+    "A020884",
+    "A020885",
+    "A020886",
+    "A057096"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

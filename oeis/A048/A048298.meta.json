@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n if n=2^i for i >= 0, otherwise a(n) = 0.",
+  "id": "A048298",
+  "mentions": [
+    "A010060",
+    "A048272",
+    "A060147",
+    "A135416",
+    "A209229"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:57",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

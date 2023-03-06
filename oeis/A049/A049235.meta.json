@@ -1,0 +1,29 @@
+{
+  "description": "Sum of balls on the lawn for the s=3 tennis ball problem.",
+  "id": "A049235",
+  "mentions": [
+    "A000108",
+    "A000302",
+    "A000346",
+    "A001764",
+    "A002293",
+    "A006256",
+    "A031970",
+    "A075045",
+    "A078516",
+    "A078995",
+    "A078999",
+    "A079486"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

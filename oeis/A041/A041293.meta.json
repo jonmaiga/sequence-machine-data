@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(159).",
+  "id": "A041293",
+  "mentions": [
+    "A010208",
+    "A041292"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:04:43",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

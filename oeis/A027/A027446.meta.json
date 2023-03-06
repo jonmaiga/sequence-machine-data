@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: square of the lower triangular mean matrix.",
+  "id": "A027446",
+  "mentions": [
+    "A002024",
+    "A002944",
+    "A025529",
+    "A027447",
+    "A027448",
+    "A027449",
+    "A027450",
+    "A027457",
+    "A027458",
+    "A081528",
+    "A119947",
+    "A119948"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:05",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

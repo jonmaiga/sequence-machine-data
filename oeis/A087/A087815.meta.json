@@ -1,0 +1,18 @@
+{
+  "description": "Terms in A087816 that occur in a run of length more than 1.",
+  "id": "A087815",
+  "mentions": [
+    "A055748",
+    "A087816"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

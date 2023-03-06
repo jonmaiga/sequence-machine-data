@@ -1,0 +1,24 @@
+{
+  "description": "Number of 4th powers dividing n.",
+  "id": "A063775",
+  "mentions": [
+    "A000005",
+    "A000188",
+    "A046951",
+    "A053164",
+    "A061704"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:15",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(3n) = 3n, otherwise a(n) = 1.",
+  "id": "A088439",
+  "mentions": [
+    "A011655",
+    "A079978",
+    "A088440",
+    "A124625",
+    "A175676"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:28:13",
+    "offset": 0,
+    "size": 93,
+    "source": "joeis"
+  }
+}

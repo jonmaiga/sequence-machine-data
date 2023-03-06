@@ -1,0 +1,16 @@
+{
+  "description": "Primes p with property that if p = prime(k), if the product of all composite numbers between prime(k) and prime(k+1) is one less than a prime.",
+  "id": "A088254",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

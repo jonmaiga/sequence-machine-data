@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the sum n^(-2n) for n=1 through infinity.",
+  "id": "A086648",
+  "mentions": [
+    "A062206",
+    "A073009"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

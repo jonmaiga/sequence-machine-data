@@ -1,0 +1,19 @@
+{
+  "description": "Cubes that are concatenations of primes.",
+  "id": "A038840",
+  "mentions": [
+    "A038692",
+    "A152242"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 15:42:51",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

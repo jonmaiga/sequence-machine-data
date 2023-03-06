@@ -1,0 +1,22 @@
+{
+  "description": "Central Delannoy numbers that are primes.",
+  "id": "A092830",
+  "mentions": [
+    "A001850",
+    "A008288",
+    "A092820",
+    "A101167"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

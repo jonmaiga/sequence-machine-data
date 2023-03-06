@@ -1,0 +1,17 @@
+{
+  "description": "Number of polygons of length 2n with 3 (self-avoiding polygon) holes on square lattice (not allowing rotations).",
+  "id": "A056639",
+  "mentions": [
+    "A002931"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:06",
+    "offset": 16,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

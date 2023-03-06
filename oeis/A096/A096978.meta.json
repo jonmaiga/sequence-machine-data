@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the areas of the first n Jacobsthal rectangles.",
+  "id": "A096978",
+  "mentions": [
+    "A001045",
+    "A064831",
+    "A096977"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest semiprime divisor of n-th composite number.",
+  "id": "A088739",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A002808",
+    "A052369",
+    "A088740"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:40",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

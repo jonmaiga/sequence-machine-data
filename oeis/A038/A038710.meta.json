@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest prime > product of the first n primes (A002110(n)).",
+  "id": "A038710",
+  "mentions": [
+    "A002110",
+    "A005235",
+    "A018239",
+    "A035345",
+    "A038711"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:49",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

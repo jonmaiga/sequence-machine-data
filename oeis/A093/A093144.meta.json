@@ -1,0 +1,20 @@
+{
+  "description": "Third binomial transform of Pell(3*n)/Pell(3).",
+  "id": "A093144",
+  "mentions": [
+    "A000129",
+    "A041085"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:14:57",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

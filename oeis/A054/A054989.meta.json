@@ -1,0 +1,23 @@
+{
+  "description": "Number of prime divisors of -1 + (product of first n primes).",
+  "id": "A054989",
+  "mentions": [
+    "A038507",
+    "A054988",
+    "A054990",
+    "A054991",
+    "A054992",
+    "A057588"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:04",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

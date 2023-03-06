@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n*(mu(n)+2), where mu is the Moebius function (A008683).",
+  "id": "A080848",
+  "mentions": [
+    "A008683",
+    "A080847",
+    "A080849"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = a(n-1) XOR (a(n-1) + a(n-2)), with a(1)=1, a(2)=3, where XOR is the binary exclusive OR operation.",
+  "id": "A099810",
+  "mentions": [
+    "A099811"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

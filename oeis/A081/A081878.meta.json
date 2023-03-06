@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows in which row n begins with n (n=1,2,3,...) and iterates the process of dividing n by 2 if n is even, adding 3 if n is an odd prime, otherwise adding 1; stopping when either 1 or 3 is reached.",
+  "id": "A081878",
+  "mentions": [
+    "A081879"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

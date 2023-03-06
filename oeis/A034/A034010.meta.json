@@ -1,0 +1,22 @@
+{
+  "description": "Number of 2n-step self avoiding closed walks on square grid, restricted to a quadrant and passing through origin.",
+  "id": "A034010",
+  "mentions": [
+    "A000105",
+    "A002931",
+    "A006725",
+    "A038373"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "hard",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

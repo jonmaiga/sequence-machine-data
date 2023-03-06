@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n*(n+1)*(n+2)*(n^2+7*n+32)/120.",
+  "id": "A051747",
+  "mentions": [
+    "A000217",
+    "A000389",
+    "A005583"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:58:09",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

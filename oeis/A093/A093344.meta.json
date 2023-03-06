@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n! * Sum_{i=1..n} (1/i)*Sum_{j=0..i-1} 1/j!.",
+  "id": "A093344",
+  "mentions": [
+    "A000254",
+    "A000774",
+    "A001620",
+    "A093905",
+    "A099285",
+    "A165674"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

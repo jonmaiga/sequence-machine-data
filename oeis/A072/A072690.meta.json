@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n - A048760(n)) * (A048761(n) - n).",
+  "id": "A072690",
+  "mentions": [
+    "A048760",
+    "A048761",
+    "A053186",
+    "A068527",
+    "A072689"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:51",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

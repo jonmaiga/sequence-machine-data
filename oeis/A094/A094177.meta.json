@@ -1,0 +1,22 @@
+{
+  "description": "Sequence from an aptitude test that I cannot work out!",
+  "id": "A094177",
+  "mentions": [
+    "A091855",
+    "A128543",
+    "A249453"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "bref",
+    "formulas",
+    "nonn",
+    "unkn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

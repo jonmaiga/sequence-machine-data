@@ -1,0 +1,23 @@
+{
+  "description": "Continued fraction for sqrt(22).",
+  "id": "A010126",
+  "mentions": [
+    "A010478",
+    "A041034",
+    "A041035",
+    "A248250"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Largest n-digit number with maximal number of distinct prime divisors.",
+  "id": "A091800",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A002183",
+    "A066151",
+    "A074111"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

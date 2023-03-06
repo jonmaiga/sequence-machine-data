@@ -1,0 +1,23 @@
+{
+  "description": "Number of nucleons in longest known radioactive decay series ending with Lead 207 (\"actinium series\"), reversed.",
+  "id": "A080530",
+  "mentions": [
+    "A080529",
+    "A080531",
+    "A080532",
+    "A080534",
+    "A080538"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of coefficients in Taylor series for exp(cos(x)-1).",
+  "id": "A047689",
+  "mentions": [
+    "A005046",
+    "A047690"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:26:29",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

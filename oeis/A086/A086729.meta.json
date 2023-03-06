@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of Pi^2/72.",
+  "id": "A086729",
+  "mentions": [
+    "A086722",
+    "A086723",
+    "A086724",
+    "A086725",
+    "A086726",
+    "A086727",
+    "A086728",
+    "A086730",
+    "A086731",
+    "A111003",
+    "A353908"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:47:31",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

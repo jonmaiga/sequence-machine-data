@@ -1,0 +1,21 @@
+{
+  "description": "24*a(n) counts the solid partitions of n that have no symmetry under any single or combined operations built from mirroring (F), rotation (T) or 4-D rotation (L).",
+  "id": "A097507",
+  "mentions": [
+    "A000219",
+    "A096573",
+    "A096575",
+    "A096577"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:47",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

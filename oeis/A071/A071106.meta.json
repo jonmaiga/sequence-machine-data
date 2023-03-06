@@ -1,0 +1,18 @@
+{
+  "description": "Number of perfect matchings in variant of right triangle graph with n edges where n runs through numbers congruent to 0 or 3 mod 4.",
+  "id": "A071106",
+  "mentions": [
+    "A071105"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

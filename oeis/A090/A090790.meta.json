@@ -1,0 +1,22 @@
+{
+  "description": "Numbers r arising in A090791.",
+  "id": "A090790",
+  "mentions": [
+    "A001067",
+    "A090495",
+    "A090496",
+    "A090791"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

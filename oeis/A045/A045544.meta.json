@@ -1,0 +1,22 @@
+{
+  "description": "Odd values of n for which a regular n-gon can be constructed by compass and straightedge.",
+  "id": "A045544",
+  "mentions": [
+    "A001317",
+    "A004729",
+    "A019434"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:19",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

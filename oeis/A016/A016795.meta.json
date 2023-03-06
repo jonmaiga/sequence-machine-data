@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (3n+2)^7.",
+  "id": "A016795",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:53:17",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of triangle A092689, which is related to the central trinomial coefficients (A002426).",
+  "id": "A092690",
+  "mentions": [
+    "A002426",
+    "A092683",
+    "A092686",
+    "A092689"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:44",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

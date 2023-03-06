@@ -1,0 +1,19 @@
+{
+  "description": "A first order iteration: n-th term is obtained from (n-1)-th by adding n-th prime and then multiplying by the n-th prime; initial value is 1.",
+  "id": "A098206",
+  "mentions": [
+    "A019461",
+    "A070826"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:48",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

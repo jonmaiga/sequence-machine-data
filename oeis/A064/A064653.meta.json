@@ -1,0 +1,18 @@
+{
+  "description": "Integers not expressible as p + q*a^2, a>1 and p, q are primes.",
+  "id": "A064653",
+  "mentions": [
+    "A064915"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

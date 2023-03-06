@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that H(k) > 2^n, where H(k) is the harmonic number Sum_{i=1..k} 1/i.",
+  "id": "A082913",
+  "mentions": [
+    "A001620",
+    "A002387"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

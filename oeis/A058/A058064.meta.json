@@ -1,0 +1,18 @@
+{
+  "description": "Find least k such that (n+1)^k + n^k is a prime (A057856); then k=2^m and sequence gives values of m.",
+  "id": "A058064",
+  "mentions": [
+    "A057856"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

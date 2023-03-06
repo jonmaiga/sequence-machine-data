@@ -1,0 +1,20 @@
+{
+  "description": "Maximal consecutive determinant of n X n persymmetric matrix with entries {-1,0,+1}.",
+  "id": "A034920",
+  "mentions": [
+    "A034917",
+    "A034918",
+    "A034919",
+    "A034921"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:18",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

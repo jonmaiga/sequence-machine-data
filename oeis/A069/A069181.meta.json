@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of 1/1024.",
+  "id": "A069181",
+  "mentions": [
+    "A020761",
+    "A020773",
+    "A020821",
+    "A021020",
+    "A021036",
+    "A021068",
+    "A021132",
+    "A021260",
+    "A021516"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:42:03",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

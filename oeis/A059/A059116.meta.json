@@ -1,0 +1,21 @@
+{
+  "description": "The sequence lambda(4,n), where lambda is defined in A055203. Number of ways of placing n identifiable positive intervals with a total of exactly four starting and/or finishing points.",
+  "id": "A059116",
+  "mentions": [
+    "A055203",
+    "A058809",
+    "A059117"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:09",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

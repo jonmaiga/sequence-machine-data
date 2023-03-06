@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of Sum_{k=1..inf} 1/(10^k-1).",
+  "id": "A073668",
+  "mentions": [
+    "A000005",
+    "A065442",
+    "A065444",
+    "A214369",
+    "A248721",
+    "A248722",
+    "A248723",
+    "A248724",
+    "A248725",
+    "A248726"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

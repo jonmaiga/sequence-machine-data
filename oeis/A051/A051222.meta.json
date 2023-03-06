@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that Bernoulli number B_{k} has denominator 6.",
+  "id": "A051222",
+  "mentions": [
+    "A000005",
+    "A002202",
+    "A005277",
+    "A014117",
+    "A045979",
+    "A051225",
+    "A051230",
+    "A067513",
+    "A112772"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:59",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

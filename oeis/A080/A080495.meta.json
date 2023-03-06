@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 12, a(n) = smallest multiple of a(n-1) beginning with the least significant digit of a(n-1).",
+  "id": "A080495",
+  "mentions": [
+    "A080496"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

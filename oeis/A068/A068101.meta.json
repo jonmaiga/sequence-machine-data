@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k|n, k<=sqrt(n)} mu(k) where mu(k) is the Moebius function and the sum is over the positive divisors k of n with k <= sqrt(n).",
+  "id": "A068101",
+  "mentions": [
+    "A008683",
+    "A038548",
+    "A086956",
+    "A161906"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:20",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

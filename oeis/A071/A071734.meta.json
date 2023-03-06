@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = p(5n+4)/5 where p(k) denotes the k-th partition number.",
+  "id": "A071734",
+  "mentions": [
+    "A000041",
+    "A016897",
+    "A071746",
+    "A076394",
+    "A213256",
+    "A213260"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:53:37",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

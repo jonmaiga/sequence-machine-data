@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that k*Mersenne_prime(n)^2 -1 (or k*A000668(n)^2 -1) is prime.",
+  "id": "A098818",
+  "mentions": [
+    "A000668"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

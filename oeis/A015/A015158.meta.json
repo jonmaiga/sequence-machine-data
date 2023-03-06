@@ -1,0 +1,23 @@
+{
+  "description": "Theta series of 17-dimensional lattice Q_17(6).",
+  "id": "A015158",
+  "mentions": [
+    "A015159",
+    "A015160",
+    "A015161",
+    "A015162",
+    "A015163",
+    "A015164",
+    "A015165"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of symmetric primes between n^2 and (n+2)^2. Two primes are termed symmetric in n^2 to (n+2)^2 if there is a k < 2n such that mid-k and mid+k are both prime, where mid =n(n+2).",
+  "id": "A069163",
+  "mentions": [
+    "A014085"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:21",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

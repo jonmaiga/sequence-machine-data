@@ -1,0 +1,16 @@
+{
+  "description": "The number defined by the decimal string \"a(2n) 1's followed by a(2n+1)\" is prime.",
+  "id": "A099749",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

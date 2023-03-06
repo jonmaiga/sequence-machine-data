@@ -1,0 +1,25 @@
+{
+  "description": "Smallest multiple of 6 beginning with n.",
+  "id": "A082801",
+  "mentions": [
+    "A079979",
+    "A082799",
+    "A082800",
+    "A082802",
+    "A082803",
+    "A082804"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:47",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

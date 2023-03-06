@@ -1,0 +1,23 @@
+{
+  "description": "Describe n: give frequency of each digit, by increasing size; mention also missing digits between the smallest and largest one.",
+  "id": "A047843",
+  "mentions": [
+    "A005151",
+    "A047841",
+    "A047842",
+    "A244112"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:06:01",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

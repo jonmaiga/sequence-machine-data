@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic circulant self-complementary undirected p^2-graphs, indexed by odd primes p.",
+  "id": "A061846",
+  "mentions": [
+    "A038785",
+    "A049289"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 3,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

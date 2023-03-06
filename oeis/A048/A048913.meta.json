@@ -1,0 +1,20 @@
+{
+  "description": "Indices of 9-gonal numbers which are also pentagonal.",
+  "id": "A048913",
+  "mentions": [
+    "A048914",
+    "A048915"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:58",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

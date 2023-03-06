@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that sigma(k+1) = 5*phi(k).",
+  "id": "A067263",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A067260",
+    "A067261",
+    "A067262"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

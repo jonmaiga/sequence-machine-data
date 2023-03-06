@@ -1,0 +1,29 @@
+{
+  "description": "Numerators of ratio of sides of n-th triple of rectangles of unit area sum around a triangle.",
+  "id": "A094083",
+  "mentions": [
+    "A001790",
+    "A001803",
+    "A005386",
+    "A038533",
+    "A038534",
+    "A046161",
+    "A056982",
+    "A072691",
+    "A092936",
+    "A094084"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

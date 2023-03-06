@@ -1,0 +1,21 @@
+{
+  "description": "Kim-sums: \"Kimberling sums\" K_n + K_4.",
+  "id": "A022415",
+  "mentions": [
+    "A022413",
+    "A022414",
+    "A022416",
+    "A022423",
+    "A269725"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 14:13:09",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

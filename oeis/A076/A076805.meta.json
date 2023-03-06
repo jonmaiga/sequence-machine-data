@@ -1,0 +1,23 @@
+{
+  "description": "Triskaidekaphobic or 13-free primes: primes that do not contain the number 13.",
+  "id": "A076805",
+  "mentions": [
+    "A000040",
+    "A011760",
+    "A038603",
+    "A038615",
+    "A166573"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:28",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

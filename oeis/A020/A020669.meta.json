@@ -1,0 +1,26 @@
+{
+  "description": "Numbers of form x^2 + 5 y^2.",
+  "id": "A020669",
+  "mentions": [
+    "A028586",
+    "A033205",
+    "A035170",
+    "A106865",
+    "A154778",
+    "A216815",
+    "A216816",
+    "A344231"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:27",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

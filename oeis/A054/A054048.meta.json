@@ -1,0 +1,19 @@
+{
+  "description": "Earliest sequence with a(a(n)) = n*(n+1)/2 (Triangular numbers).",
+  "id": "A054048",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:15:31",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

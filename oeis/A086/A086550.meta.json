@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k such that tau(k) - tau(k-1) = n, where tau(k) = number of divisors of k, or 0 if no such number exists.",
+  "id": "A086550",
+  "mentions": [
+    "A285457"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:37",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

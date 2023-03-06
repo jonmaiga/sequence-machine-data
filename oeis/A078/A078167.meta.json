@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that phi(k) is a perfect 7th power.",
+  "id": "A078167",
+  "mentions": [
+    "A000010",
+    "A001317",
+    "A039770",
+    "A039771",
+    "A045544",
+    "A053576",
+    "A078164",
+    "A078165",
+    "A078166",
+    "A078168",
+    "A078169",
+    "A078170"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:29",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Theta series of A*_19 lattice.",
+  "id": "A023931",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:37",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Take m sheets of paper, arrange them into piles, write on each sheet the cardinality (number of sheets) of its pile. Do this again, so each sheet is labeled by an ordered pair of positive integers. An integer m is in this sequence if there is a way to do this such that every sheet has a unique label, i.e., if A093578(m) > 0.",
+  "id": "A093579",
+  "mentions": [
+    "A000217",
+    "A093578"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

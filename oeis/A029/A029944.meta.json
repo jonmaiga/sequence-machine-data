@@ -1,0 +1,19 @@
+{
+  "description": "a(n)^2 contains n-th prime as a substring.",
+  "id": "A029944",
+  "mentions": [
+    "A038690",
+    "A068165"
+  ],
+  "modified": "2023-02-27 14:38:18",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:39",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

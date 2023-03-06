@@ -1,0 +1,20 @@
+{
+  "description": "Let r_1 = 1; r_{n+1} = [r_1; r_2, r_3,..., r_n]; n-th term is denominator of r_n.",
+  "id": "A064846",
+  "mentions": [
+    "A053978",
+    "A064845"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest difference > 1 between d and n/d for any divisor d of n.",
+  "id": "A082120",
+  "mentions": [
+    "A003681",
+    "A056737",
+    "A082119",
+    "A082121"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:33",
+    "offset": 3,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

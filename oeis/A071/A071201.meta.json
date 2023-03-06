@@ -1,0 +1,22 @@
+{
+  "description": "Array A(n,k) read by antidiagonals giving number of paths up and right from (0,0) to (n,k) where x/y<=n/k.",
+  "id": "A071201",
+  "mentions": [
+    "A000108",
+    "A071202",
+    "A260419",
+    "A298072"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:23",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

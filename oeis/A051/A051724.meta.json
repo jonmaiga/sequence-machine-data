@@ -1,0 +1,32 @@
+{
+  "description": "Numerator of n/12.",
+  "id": "A051724",
+  "mentions": [
+    "A000010",
+    "A026741",
+    "A051176",
+    "A060789",
+    "A060791",
+    "A060819",
+    "A106608",
+    "A106612",
+    "A106614",
+    "A106621",
+    "A109053",
+    "A306367"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:00",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

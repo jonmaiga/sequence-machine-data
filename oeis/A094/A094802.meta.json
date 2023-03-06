@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest k such that all of 1 through n divides k!.",
+  "id": "A094802",
+  "mentions": [
+    "A002034",
+    "A003418",
+    "A007917"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

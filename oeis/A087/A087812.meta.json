@@ -1,0 +1,15 @@
+{
+  "description": "Sum of MoebiusMu for numbers between n and 2n inclusive.",
+  "id": "A087812",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

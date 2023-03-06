@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form 2^j (mod 10^k), where j >= 0 and k >= 1, with leading zeros suppressed.",
+  "id": "A095810",
+  "mentions": [
+    "A097574",
+    "A113022",
+    "A113023"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:46",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

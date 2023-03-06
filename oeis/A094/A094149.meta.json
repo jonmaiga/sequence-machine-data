@@ -1,0 +1,19 @@
+{
+  "description": "The 2k-th moments of the random graph G(n, 1/n) (odd moments are zero). The number of walks of length 2k on _all_ bushes (rooted plane trees) that start and end at the root and visit new vertices from left-to-right (but may return).",
+  "id": "A094149",
+  "mentions": [
+    "A000108",
+    "A000110"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

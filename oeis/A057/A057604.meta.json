@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 4*k^2 + 163.",
+  "id": "A057604",
+  "mentions": [
+    "A005846",
+    "A007635",
+    "A007641",
+    "A057605"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:08",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

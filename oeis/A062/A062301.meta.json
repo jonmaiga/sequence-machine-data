@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways writing n-th prime as a sum of two primes.",
+  "id": "A062301",
+  "mentions": [
+    "A000040",
+    "A006512",
+    "A014092",
+    "A025584",
+    "A061358"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

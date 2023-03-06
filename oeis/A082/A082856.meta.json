@@ -1,0 +1,27 @@
+{
+  "description": "Recursive binary interleaving code for rooted plane binary trees, as ordered by A014486.",
+  "id": "A082856",
+  "mentions": [
+    "A000695",
+    "A003986",
+    "A004198",
+    "A014486",
+    "A072634",
+    "A072637",
+    "A075173",
+    "A075174",
+    "A082857",
+    "A082858",
+    "A082860"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

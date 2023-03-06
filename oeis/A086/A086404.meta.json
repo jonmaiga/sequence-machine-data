@@ -1,0 +1,23 @@
+{
+  "description": "Square array of numbers T(n,k) = ((1+sqrt(3))*(k+sqrt(3))^n-(1-sqrt(3))*(k-sqrt(3))^n)/(2*sqrt(3)), read by antidiagonals.",
+  "id": "A086404",
+  "mentions": [
+    "A002605",
+    "A079935",
+    "A086350",
+    "A086405",
+    "A086406"
+  ],
+  "modified": "2023-02-27 14:38:21",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:21",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

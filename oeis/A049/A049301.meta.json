@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that k is a substring of 3^k.",
+  "id": "A049301",
+  "mentions": [
+    "A000244",
+    "A032740",
+    "A049302",
+    "A049303",
+    "A049304",
+    "A049305",
+    "A049306",
+    "A049307"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:40",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

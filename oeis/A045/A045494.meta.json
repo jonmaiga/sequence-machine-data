@@ -1,0 +1,22 @@
+{
+  "description": "Smallest positive integer requiring at least n letters (not including hyphens) when spelled out in English.",
+  "id": "A045494",
+  "mentions": [
+    "A000916",
+    "A001166",
+    "A014388",
+    "A045495",
+    "A167509"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:23:37",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

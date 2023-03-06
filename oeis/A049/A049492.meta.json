@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p+4 and p+16 are also primes.",
+  "id": "A049492",
+  "mentions": [
+    "A023200",
+    "A049488",
+    "A049493"
+  ],
+  "modified": "2023-02-27 14:38:19",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 14:37:51",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

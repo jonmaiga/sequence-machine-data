@@ -1,0 +1,18 @@
+{
+  "description": "Number of sums prime(i) + prime(j) that occur more than once for 1<=i<=j<=n, prime(k) = k-th prime.",
+  "id": "A061784",
+  "mentions": [
+    "A000217",
+    "A061781"
+  ],
+  "modified": "2023-02-27 14:38:20",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}
