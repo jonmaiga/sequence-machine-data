@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. exp(tan(x) + sec(x) - 1).",
+  "id": "A000772",
+  "mentions": [
+    "A000110",
+    "A094198",
+    "A147315",
+    "A185422"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

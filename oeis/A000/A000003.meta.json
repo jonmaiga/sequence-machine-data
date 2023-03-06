@@ -1,0 +1,20 @@
+{
+  "description": "Number of classes of primitive positive definite binary quadratic forms of discriminant D = -4n; or equivalently the class number of the quadratic order of discriminant D = -4n.",
+  "id": "A000003",
+  "mentions": [
+    "A006643",
+    "A014599"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

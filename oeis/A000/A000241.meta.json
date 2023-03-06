@@ -1,0 +1,25 @@
+{
+  "description": "Crossing number of complete graph with n nodes.",
+  "id": "A000241",
+  "mentions": [
+    "A007333",
+    "A014540",
+    "A028723",
+    "A030179",
+    "A121021",
+    "A191928"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

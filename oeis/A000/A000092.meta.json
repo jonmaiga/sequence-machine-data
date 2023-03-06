@@ -1,0 +1,24 @@
+{
+  "description": "Let A(n) = #{(i,j,k): i^2 + j^2 + k^2 <= n}, V(n) = (4/3)Pi*n^(3/2), P(n) = A(n) - V(n); sequence gives values of n where |P(n)| sets a new record.",
+  "id": "A000092",
+  "mentions": [
+    "A000036",
+    "A000099",
+    "A000223",
+    "A000323",
+    "A000413",
+    "A117609",
+    "A210639",
+    "A210641"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

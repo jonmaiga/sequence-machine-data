@@ -1,0 +1,22 @@
+{
+  "description": "3-adic valuation of binomial(2*n, n): largest k such that 3^k divides binomial(2*n, n).",
+  "id": "A000989",
+  "mentions": [
+    "A000984",
+    "A005836",
+    "A007949",
+    "A053735"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:17:39",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

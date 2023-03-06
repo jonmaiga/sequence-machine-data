@@ -1,0 +1,26 @@
+{
+  "description": "Number of self-complementary graphs with n nodes.",
+  "id": "A000171",
+  "mentions": [
+    "A003086",
+    "A007869",
+    "A008406",
+    "A047660",
+    "A047832",
+    "A051251",
+    "A054960"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of inequivalent ways to color vertices of a cube using at most n colors.",
+  "id": "A000543",
+  "mentions": [
+    "A000545",
+    "A006008",
+    "A047780",
+    "A054472",
+    "A060530",
+    "A128766",
+    "A325012",
+    "A337891",
+    "A337896",
+    "A337897"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:16:23",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

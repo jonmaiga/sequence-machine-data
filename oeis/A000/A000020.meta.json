@@ -1,0 +1,18 @@
+{
+  "description": "Number of primitive polynomials of degree n over GF(2).",
+  "id": "A000020",
+  "mentions": [
+    "A011260",
+    "A058947"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

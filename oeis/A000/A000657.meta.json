@@ -1,0 +1,27 @@
+{
+  "description": "Median Euler numbers (the middle numbers of Arnold's shuttle triangle).",
+  "id": "A000657",
+  "mentions": [
+    "A000111",
+    "A002832",
+    "A005799",
+    "A008280",
+    "A084938",
+    "A098277",
+    "A099023",
+    "A323834"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

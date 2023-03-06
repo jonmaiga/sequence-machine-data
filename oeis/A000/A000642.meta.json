@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=0; for n>1, a(n) = number of isomeric hydrocarbons of the acetylene series with carbon content n.",
+  "id": "A000642",
+  "mentions": [
+    "A000598",
+    "A002094",
+    "A261340"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:22:14",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

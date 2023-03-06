@@ -1,0 +1,21 @@
+{
+  "description": "Number of inequivalent Boolean functions of n variables under action of complementing group.",
+  "id": "A000231",
+  "mentions": [
+    "A051502",
+    "A054724"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

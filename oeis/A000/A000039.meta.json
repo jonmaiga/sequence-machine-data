@@ -1,0 +1,19 @@
+{
+  "description": "Coefficient of q^(2n) in the series expansion of Ramanujan's mock theta function f(q).",
+  "id": "A000039",
+  "mentions": [
+    "A000025",
+    "A000199"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of triangular polyominoes (or triangular polyforms, or polyiamonds) with n cells (turning over is allowed, holes are allowed, must be connected along edges).",
+  "id": "A000577",
+  "mentions": [
+    "A000105",
+    "A000207",
+    "A000228",
+    "A001420",
+    "A006534",
+    "A030223",
+    "A030224",
+    "A070765",
+    "A096361",
+    "A103465"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

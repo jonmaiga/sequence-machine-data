@@ -1,0 +1,20 @@
+{
+  "description": "Construct a triangle as in A036262. Sequence is one less than the position of the first number larger than 2 in the n-th row (n-th difference).",
+  "id": "A000232",
+  "mentions": [
+    "A001549",
+    "A036262",
+    "A036277"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

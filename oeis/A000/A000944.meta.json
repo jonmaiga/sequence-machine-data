@@ -1,0 +1,28 @@
+{
+  "description": "Number of polyhedra (or 3-connected simple planar graphs) with n nodes.",
+  "id": "A000944",
+  "mentions": [
+    "A000103",
+    "A003094",
+    "A005470",
+    "A005841",
+    "A021103",
+    "A049334",
+    "A049336",
+    "A049337",
+    "A212438"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

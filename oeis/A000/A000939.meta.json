@@ -1,0 +1,35 @@
+{
+  "description": "Number of inequivalent n-gons.",
+  "id": "A000939",
+  "mentions": [
+    "A000031",
+    "A000940",
+    "A002619",
+    "A002866",
+    "A006125",
+    "A008965",
+    "A059966",
+    "A060223",
+    "A094154",
+    "A094155",
+    "A192332",
+    "A231091",
+    "A275527",
+    "A323858",
+    "A323870",
+    "A324461"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

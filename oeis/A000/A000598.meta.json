@@ -1,0 +1,49 @@
+{
+  "description": "Number of rooted ternary trees with n nodes; number of n-carbon alkyl radicals C(n)H(2n+1) ignoring stereoisomers.",
+  "id": "A000598",
+  "mentions": [
+    "A000022",
+    "A000081",
+    "A000200",
+    "A000599",
+    "A000600",
+    "A000602",
+    "A000625",
+    "A000628",
+    "A000678",
+    "A001190",
+    "A002094",
+    "A010372",
+    "A010373",
+    "A014591",
+    "A032305",
+    "A086194",
+    "A086200",
+    "A261340",
+    "A292553",
+    "A292554",
+    "A292555",
+    "A292556",
+    "A295461",
+    "A298118",
+    "A298120",
+    "A298204",
+    "A298422",
+    "A298426",
+    "A299038"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

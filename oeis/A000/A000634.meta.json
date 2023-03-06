@@ -1,0 +1,21 @@
+{
+  "description": "Number of glycols with n carbon atoms.",
+  "id": "A000634",
+  "mentions": [
+    "A000598",
+    "A000632",
+    "A000636",
+    "A000642"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:11:42",
+    "offset": 2,
+    "size": 29,
+    "source": "joeis"
+  }
+}

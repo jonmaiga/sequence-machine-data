@@ -1,0 +1,29 @@
+{
+  "description": "Number of inequivalent planar partitions of n, when considering them as 3D objects.",
+  "id": "A000786",
+  "mentions": [
+    "A000219",
+    "A000784",
+    "A000785",
+    "A005987",
+    "A048140",
+    "A048141",
+    "A048142",
+    "A051056",
+    "A051061",
+    "A096419"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

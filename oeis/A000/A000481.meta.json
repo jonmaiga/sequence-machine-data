@@ -1,0 +1,20 @@
+{
+  "description": "Stirling numbers of the second kind, S(n,5).",
+  "id": "A000481",
+  "mentions": [
+    "A000051",
+    "A008277"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 5,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{n>=1} (1-x^n)^5.",
+  "id": "A000728",
+  "mentions": [
+    "A000203",
+    "A000727",
+    "A258405"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of equivalence classes of n X n matrices over {0,1} with rows and columns summing to 3, where equivalence is defined by row and column permutations.",
+  "id": "A000512",
+  "mentions": [
+    "A000186",
+    "A000513",
+    "A000840",
+    "A001501",
+    "A008325",
+    "A079815",
+    "A133687",
+    "A232215"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

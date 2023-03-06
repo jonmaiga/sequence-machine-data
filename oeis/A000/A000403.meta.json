@@ -1,0 +1,17 @@
+{
+  "description": "Number of simple equifacetted 3-manifolds with n faces.",
+  "id": "A000403",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 4,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

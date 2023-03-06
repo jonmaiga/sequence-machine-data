@@ -1,0 +1,18 @@
+{
+  "description": "Number of free planar polyenoids with 2n nodes and symmetry point group C_{2h}.",
+  "id": "A000935",
+  "mentions": [
+    "A002057"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

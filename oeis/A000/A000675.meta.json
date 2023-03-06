@@ -1,0 +1,24 @@
+{
+  "description": "Number of centered 3-valent (or boron, or binary) trees with n nodes.",
+  "id": "A000675",
+  "mentions": [
+    "A000022",
+    "A000200",
+    "A000602",
+    "A000672",
+    "A000673",
+    "A000684"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:49",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

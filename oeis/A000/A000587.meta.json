@@ -1,0 +1,35 @@
+{
+  "description": "Rao Uppuluri-Carpenter numbers (or complementary Bell numbers): e.g.f. = exp(1 - exp(x)).",
+  "id": "A000587",
+  "mentions": [
+    "A000110",
+    "A000178",
+    "A005165",
+    "A007318",
+    "A008277",
+    "A011971",
+    "A033999",
+    "A048993",
+    "A078937",
+    "A109747",
+    "A118433",
+    "A129062",
+    "A130191",
+    "A144185",
+    "A153229",
+    "A213170"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

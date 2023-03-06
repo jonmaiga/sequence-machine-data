@@ -1,0 +1,22 @@
+{
+  "description": "Associated Stirling numbers: second order reciprocal Stirling numbers (Fekete) [[n, 3]]. The number of 3-orbit permutations of an n-set with at least 2 elements in each orbit.",
+  "id": "A000483",
+  "mentions": [
+    "A000276",
+    "A000907",
+    "A001784",
+    "A001785",
+    "A008306"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 6,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

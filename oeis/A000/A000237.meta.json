@@ -1,0 +1,25 @@
+{
+  "description": "Number of mixed Husimi trees with n nodes; or rooted polygonal cacti with bridges.",
+  "id": "A000237",
+  "mentions": [
+    "A000083",
+    "A000314",
+    "A035082",
+    "A035349",
+    "A035357"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

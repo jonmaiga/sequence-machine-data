@@ -1,0 +1,41 @@
+{
+  "description": "Number of partially ordered sets (\"posets\") with n unlabeled elements.",
+  "id": "A000112",
+  "mentions": [
+    "A000055",
+    "A000088",
+    "A000608",
+    "A000664",
+    "A000798",
+    "A001035",
+    "A001930",
+    "A006057",
+    "A006870",
+    "A008406",
+    "A065066",
+    "A079263",
+    "A079265",
+    "A263859",
+    "A316978",
+    "A319559",
+    "A326939",
+    "A326943",
+    "A326944",
+    "A326947",
+    "A342447"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

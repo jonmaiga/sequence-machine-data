@@ -1,0 +1,21 @@
+{
+  "description": "Final two digits of 2^n.",
+  "id": "A000855",
+  "mentions": [
+    "A000689",
+    "A126605"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:17:09",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

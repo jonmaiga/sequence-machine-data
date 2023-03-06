@@ -1,0 +1,22 @@
+{
+  "description": "a(8i+j) = 13i + a(j), where 1<=j<=8.",
+  "id": "A000202",
+  "mentions": [
+    "A000045",
+    "A000201",
+    "A066096",
+    "A090908"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

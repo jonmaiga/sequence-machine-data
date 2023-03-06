@@ -1,0 +1,25 @@
+{
+  "description": "5th power of rooted tree enumerator; number of linear forests of 5 rooted trees.",
+  "id": "A000343",
+  "mentions": [
+    "A000081",
+    "A000106",
+    "A000242",
+    "A000300",
+    "A000395",
+    "A051491",
+    "A187770",
+    "A339067"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 5,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

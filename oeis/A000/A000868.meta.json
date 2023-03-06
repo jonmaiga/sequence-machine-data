@@ -1,0 +1,16 @@
+{
+  "description": "Number of switching networks with C(2,n) acting on domain and GL(2,Z2) acting on range.",
+  "id": "A000868",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

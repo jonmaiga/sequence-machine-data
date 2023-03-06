@@ -1,0 +1,26 @@
+{
+  "description": "Generalized Euler numbers, c(5,n).",
+  "id": "A000187",
+  "mentions": [
+    "A000003",
+    "A000192",
+    "A000320",
+    "A000490",
+    "A060096",
+    "A235605",
+    "A349264",
+    "A349265"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

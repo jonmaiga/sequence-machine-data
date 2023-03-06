@@ -1,0 +1,19 @@
+{
+  "description": "1-digit numbers arranged in alphabetical order, then the 2-digit numbers arranged in alphabetical order, then the 3-digit numbers, etc.",
+  "id": "A000052",
+  "mentions": [
+    "A001058"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

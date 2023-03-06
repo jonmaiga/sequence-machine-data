@@ -1,0 +1,16 @@
+{
+  "description": "Sum of odd Fermat coefficients rounded to nearest integer.",
+  "id": "A000968",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

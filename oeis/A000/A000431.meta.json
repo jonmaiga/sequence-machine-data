@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of 2*x^3/((1-2*x)^2*(1-4*x)).",
+  "id": "A000431",
+  "mentions": [
+    "A000051",
+    "A000487",
+    "A000517",
+    "A001787",
+    "A006516",
+    "A007814",
+    "A008303",
+    "A027624",
+    "A100575"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

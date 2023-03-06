@@ -1,0 +1,21 @@
+{
+  "description": "Boustrophedon transform of 1,1,2,4,8,16,32,...",
+  "id": "A000734",
+  "mentions": [
+    "A000079",
+    "A000752",
+    "A062272",
+    "A109449"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

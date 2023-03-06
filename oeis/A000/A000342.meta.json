@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-node rooted trees of height 5.",
+  "id": "A000342",
+  "mentions": [
+    "A000235",
+    "A001384",
+    "A001385",
+    "A007401",
+    "A034781"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:48",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

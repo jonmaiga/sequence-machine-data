@@ -1,0 +1,34 @@
+{
+  "description": "Number of n-node steric rooted ternary trees; number of n carbon alkyl radicals C(n)H(2n+1) taking stereoisomers into account.",
+  "id": "A000625",
+  "mentions": [
+    "A000081",
+    "A000598",
+    "A000602",
+    "A000620",
+    "A000621",
+    "A000622",
+    "A000623",
+    "A000624",
+    "A000628",
+    "A010732",
+    "A010733",
+    "A086194",
+    "A086200",
+    "A239803",
+    "A239810"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

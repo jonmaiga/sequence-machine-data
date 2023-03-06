@@ -1,0 +1,27 @@
+{
+  "description": "Number of outcomes of unlabeled n-team round-robin tournaments.",
+  "id": "A000568",
+  "mentions": [
+    "A000055",
+    "A000088",
+    "A000664",
+    "A003505",
+    "A006125",
+    "A008406",
+    "A051337",
+    "A334335"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

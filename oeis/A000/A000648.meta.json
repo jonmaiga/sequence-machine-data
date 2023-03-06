@@ -1,0 +1,20 @@
+{
+  "description": "Number of alkyls C_{n+15} H_{2n+10} (Anthr.) with n carbon atoms.",
+  "id": "A000648",
+  "mentions": [
+    "A000598",
+    "A000649"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:30:24",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

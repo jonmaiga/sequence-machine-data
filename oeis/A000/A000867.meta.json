@@ -1,0 +1,23 @@
+{
+  "description": "Numbers beginning with letter 'f' in English.",
+  "id": "A000867",
+  "mentions": [
+    "A000865",
+    "A000870",
+    "A000873",
+    "A000981",
+    "A006092",
+    "A125299"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

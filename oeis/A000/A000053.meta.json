@@ -1,0 +1,25 @@
+{
+  "description": "Local stops on New York City 1 Train (Broadway-7 Avenue Local) subway.",
+  "id": "A000053",
+  "mentions": [
+    "A000054",
+    "A001049",
+    "A007826",
+    "A011554",
+    "A051415",
+    "A208359",
+    "A208360"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

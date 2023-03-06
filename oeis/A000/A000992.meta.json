@@ -1,0 +1,26 @@
+{
+  "description": "\"Half-Catalan numbers\": a(n) = Sum_{k=1..floor(n/2)} a(k)*a(n-k) with a(1) = 1.",
+  "id": "A000992",
+  "mentions": [
+    "A000108",
+    "A001190",
+    "A006447",
+    "A093637",
+    "A124973",
+    "A158616",
+    "A201204",
+    "A248748"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

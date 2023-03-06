@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 13*binomial(2n,n-6)/(n+7).",
+  "id": "A000590",
+  "mentions": [
+    "A000108",
+    "A001622",
+    "A214292"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 6,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

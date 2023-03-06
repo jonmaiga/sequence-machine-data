@@ -1,0 +1,20 @@
+{
+  "description": "Number of 7-dimensional partitions of n.",
+  "id": "A000427",
+  "mentions": [
+    "A000219",
+    "A000416",
+    "A179855"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

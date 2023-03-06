@@ -1,0 +1,40 @@
+{
+  "description": "Number of necklaces of partitions of n+1 labeled beads.",
+  "id": "A000629",
+  "mentions": [
+    "A000142",
+    "A000670",
+    "A002050",
+    "A007047",
+    "A008277",
+    "A008292",
+    "A008965",
+    "A024167",
+    "A028246",
+    "A052849",
+    "A052856",
+    "A052861",
+    "A076726",
+    "A127671",
+    "A131758",
+    "A154921",
+    "A162509",
+    "A241168",
+    "A263634"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

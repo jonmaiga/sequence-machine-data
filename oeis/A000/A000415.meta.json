@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are the sum of 2 but no fewer nonzero squares.",
+  "id": "A000415",
+  "mentions": [
+    "A000037",
+    "A000404",
+    "A000419",
+    "A001481",
+    "A002828",
+    "A009003",
+    "A022544",
+    "A134422"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular primes: primes p such that at least one of the numerators of the Bernoulli numbers B_2, B_4, ..., B_{p-3} (A000367) is divisible by p.",
+  "id": "A000928",
+  "mentions": [
+    "A000367",
+    "A007703",
+    "A055513",
+    "A061576",
+    "A091887"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

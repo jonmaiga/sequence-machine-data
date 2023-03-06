@@ -1,0 +1,25 @@
+{
+  "description": "Sum of 6th powers: 0^6 + 1^6 + 2^6 + ... + n^6.",
+  "id": "A000540",
+  "mentions": [
+    "A000051",
+    "A000539",
+    "A001014",
+    "A002309",
+    "A069091",
+    "A101093",
+    "A103438"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:16:21",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

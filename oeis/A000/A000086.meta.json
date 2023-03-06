@@ -1,0 +1,34 @@
+{
+  "description": "Number of solutions to x^2 - x + 1 == 0 (mod n).",
+  "id": "A000086",
+  "mentions": [
+    "A000089",
+    "A000091",
+    "A001615",
+    "A001616",
+    "A002061",
+    "A007949",
+    "A014683",
+    "A027748",
+    "A034017",
+    "A038502",
+    "A079978",
+    "A165952",
+    "A226946",
+    "A341422"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:15:05",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

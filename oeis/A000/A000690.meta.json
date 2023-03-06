@@ -1,0 +1,19 @@
+{
+  "description": "Landau's approximation to population of x^2 + y^2 <= 2^n.",
+  "id": "A000690",
+  "mentions": [
+    "A000050",
+    "A064533"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "description": "Flavius Josephus's sieve: Start with the natural numbers; at the k-th sieving step, remove every (k+1)-st term of the sequence remaining after the (k-1)-st sieving step; iterate.",
+  "id": "A000960",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000959",
+    "A002491",
+    "A003309",
+    "A003881",
+    "A005408",
+    "A056526",
+    "A056530",
+    "A056531",
+    "A073359",
+    "A099259",
+    "A100002",
+    "A100617",
+    "A100618",
+    "A112557",
+    "A112558",
+    "A113742",
+    "A113743",
+    "A113744",
+    "A113745",
+    "A113746",
+    "A113747",
+    "A113748",
+    "A113749",
+    "A119446",
+    "A119447",
+    "A190732",
+    "A278169",
+    "A278484",
+    "A278492",
+    "A278505",
+    "A278528",
+    "A278529"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of multiset permutations of {1, 1, 2, 2, ..., n, n} with no fixed points.",
+  "id": "A000459",
+  "mentions": [
+    "A000166",
+    "A000316",
+    "A003471",
+    "A008290",
+    "A033581",
+    "A059056",
+    "A059071",
+    "A059073"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

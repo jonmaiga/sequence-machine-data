@@ -1,0 +1,19 @@
+{
+  "description": "Stirling numbers of the second kind, S(n,6).",
+  "id": "A000770",
+  "mentions": [
+    "A000051",
+    "A008277"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 6,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

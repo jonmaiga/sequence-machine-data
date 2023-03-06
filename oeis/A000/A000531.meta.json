@@ -1,0 +1,26 @@
+{
+  "description": "From area of cyclic polygon of 2n + 1 sides.",
+  "id": "A000531",
+  "mentions": [
+    "A000108",
+    "A001788",
+    "A002457",
+    "A039599",
+    "A106566",
+    "A135404",
+    "A258431"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:40:05",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

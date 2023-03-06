@@ -1,0 +1,30 @@
+{
+  "description": "1 together with products of 2 or more distinct primes.",
+  "id": "A000469",
+  "mentions": [
+    "A000010",
+    "A001221",
+    "A001222",
+    "A005117",
+    "A005171",
+    "A007913",
+    "A008966",
+    "A010051",
+    "A120944",
+    "A239508",
+    "A239509"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

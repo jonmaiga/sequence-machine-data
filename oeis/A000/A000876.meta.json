@@ -1,0 +1,18 @@
+{
+  "description": "From a self-replicating tiling.",
+  "id": "A000876",
+  "mentions": [
+    "A000360",
+    "A000361"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

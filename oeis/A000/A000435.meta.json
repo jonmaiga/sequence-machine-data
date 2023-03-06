@@ -1,0 +1,43 @@
+{
+  "description": "Normalized total height of all nodes in all rooted trees with n labeled nodes.",
+  "id": "A000435",
+  "mentions": [
+    "A000027",
+    "A000058",
+    "A000110",
+    "A000111",
+    "A000142",
+    "A000169",
+    "A000215",
+    "A000217",
+    "A000272",
+    "A000289",
+    "A000292",
+    "A000312",
+    "A000324",
+    "A000332",
+    "A000389",
+    "A000579",
+    "A001854",
+    "A001863",
+    "A001864",
+    "A001865",
+    "A007318",
+    "A234953",
+    "A259334",
+    "A350452"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

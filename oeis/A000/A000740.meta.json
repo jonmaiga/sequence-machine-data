@@ -1,0 +1,45 @@
+{
+  "description": "Number of 2n-bead balanced binary necklaces of fundamental period 2n, equivalent to reversed complement; also Dirichlet convolution of b_n=2^(n-1) with mu(n); also number of components of Mandelbrot set corresponding to Julia sets with an attractive n-cycle.",
+  "id": "A000740",
+  "mentions": [
+    "A000837",
+    "A002949",
+    "A003239",
+    "A008683",
+    "A008965",
+    "A011782",
+    "A022553",
+    "A027375",
+    "A034738",
+    "A035928",
+    "A038199",
+    "A051168",
+    "A054525",
+    "A056267",
+    "A056278",
+    "A059966",
+    "A085945",
+    "A118141",
+    "A143325",
+    "A143424",
+    "A167606",
+    "A178472",
+    "A216954",
+    "A228369",
+    "A294859",
+    "A296302"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

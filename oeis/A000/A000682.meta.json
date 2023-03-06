@@ -1,0 +1,28 @@
+{
+  "description": "Semi-meanders: number of ways a semi-infinite directed curve can cross a straight line n times.",
+  "id": "A000682",
+  "mentions": [
+    "A000108",
+    "A000136",
+    "A000560",
+    "A001011",
+    "A001263",
+    "A001997",
+    "A086441",
+    "A244312",
+    "A259689",
+    "A301620"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

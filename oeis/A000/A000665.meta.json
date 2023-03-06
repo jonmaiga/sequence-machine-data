@@ -1,0 +1,30 @@
+{
+  "description": "Number of 3-uniform hypergraphs on n unlabeled nodes, or equivalently number of relations with 3 arguments on n nodes.",
+  "id": "A000665",
+  "mentions": [
+    "A000088",
+    "A006129",
+    "A038041",
+    "A092337",
+    "A299471",
+    "A301922",
+    "A302374",
+    "A302394",
+    "A306017",
+    "A306021",
+    "A309858",
+    "A320395",
+    "A322451"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

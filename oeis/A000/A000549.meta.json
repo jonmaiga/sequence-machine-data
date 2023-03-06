@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the sum of 2 squares but not sum of 3 nonzero squares.",
+  "id": "A000549",
+  "mentions": [
+    "A001481",
+    "A004214"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

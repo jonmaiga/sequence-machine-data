@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of exp(-x) / (1 - exp(x) + exp(-x)).",
+  "id": "A000556",
+  "mentions": [
+    "A000557",
+    "A005923",
+    "A216794"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

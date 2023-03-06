@@ -1,0 +1,22 @@
+{
+  "description": "Boustrophedon transform (first version) of Fibonacci numbers 0,1,1,2,3,...",
+  "id": "A000738",
+  "mentions": [
+    "A000045",
+    "A000687",
+    "A000744",
+    "A092073",
+    "A109449"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

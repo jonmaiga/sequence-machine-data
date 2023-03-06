@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions into non-integral powers.",
+  "id": "A000339",
+  "mentions": [
+    "A000093"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:48",
+    "offset": 2,
+    "size": 38,
+    "source": "joeis"
+  }
+}

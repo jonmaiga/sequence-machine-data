@@ -1,0 +1,23 @@
+{
+  "description": "A nonlinear recurrence: a(0) = 1, a(1) = 5, a(n) = a(n-1)^2 - 4*a(n-1) + 4 for n>1.",
+  "id": "A000324",
+  "mentions": [
+    "A000032",
+    "A000058",
+    "A000215",
+    "A000289",
+    "A001566"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

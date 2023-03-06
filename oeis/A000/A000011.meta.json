@@ -1,0 +1,31 @@
+{
+  "description": "Number of n-bead necklaces (turning over is allowed) where complements are equivalent.",
+  "id": "A000011",
+  "mentions": [
+    "A000013",
+    "A000117",
+    "A005513",
+    "A053656",
+    "A092668",
+    "A123045",
+    "A256216",
+    "A256217",
+    "A283846",
+    "A283847",
+    "A283848",
+    "A320748"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

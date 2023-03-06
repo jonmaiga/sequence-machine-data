@@ -1,0 +1,35 @@
+{
+  "description": "Number of hexagonal polyominoes (or hexagonal polyforms, or planar polyhexes) with n cells.",
+  "id": "A000228",
+  "mentions": [
+    "A000105",
+    "A000577",
+    "A001207",
+    "A001998",
+    "A002216",
+    "A005963",
+    "A006535",
+    "A018190",
+    "A030225",
+    "A036359",
+    "A038147",
+    "A057779",
+    "A057973",
+    "A103465",
+    "A258019",
+    "A258206"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

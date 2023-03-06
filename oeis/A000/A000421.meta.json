@@ -1,0 +1,28 @@
+{
+  "description": "Number of isomorphism classes of connected 3-regular (trivalent, cubic) loopless multigraphs of order 2n.",
+  "id": "A000421",
+  "mentions": [
+    "A002851",
+    "A005967",
+    "A129416",
+    "A129417",
+    "A129419",
+    "A129421",
+    "A129423",
+    "A129425",
+    "A328682"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of partitions of n into relatively prime parts. Also aperiodic partitions.",
+  "id": "A000837",
+  "mentions": [
+    "A000041",
+    "A000740",
+    "A007916",
+    "A018783",
+    "A047968",
+    "A055892",
+    "A100953",
+    "A137585",
+    "A168532",
+    "A215366",
+    "A281116"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

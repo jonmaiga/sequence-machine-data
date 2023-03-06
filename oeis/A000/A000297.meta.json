@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n+1)*(n+3)*(n+8)/6.",
+  "id": "A000297",
+  "mentions": [
+    "A000051",
+    "A000292",
+    "A267633"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:15:41",
+    "offset": -1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

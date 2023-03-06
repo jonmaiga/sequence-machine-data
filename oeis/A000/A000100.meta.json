@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of compositions of n in which the maximal part is 3.",
+  "id": "A000100",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A006980"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:05:41",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime power >= n.",
+  "id": "A000015",
+  "mentions": [
+    "A000961",
+    "A031218",
+    "A110654",
+    "A188666"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

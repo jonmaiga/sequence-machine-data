@@ -1,0 +1,23 @@
+{
+  "description": "Number of fixed points of GAMMA_0 (n) of type i.",
+  "id": "A000095",
+  "mentions": [
+    "A000089",
+    "A027748",
+    "A060294",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

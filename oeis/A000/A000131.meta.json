@@ -1,0 +1,20 @@
+{
+  "description": "Number of asymmetrical dissections of n-gon.",
+  "id": "A000131",
+  "mentions": [
+    "A000063",
+    "A000108",
+    "A002057"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 7,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

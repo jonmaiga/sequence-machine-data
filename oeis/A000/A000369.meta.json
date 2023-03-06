@@ -1,0 +1,29 @@
+{
+  "description": "Triangle of numbers related to triangle A049213; generalization of Stirling numbers of second kind A008277, Bessel triangle A001497.",
+  "id": "A000369",
+  "mentions": [
+    "A001497",
+    "A001498",
+    "A004747",
+    "A008277",
+    "A008545",
+    "A016036",
+    "A049213",
+    "A132163",
+    "A264428",
+    "A265606"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:34:52",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

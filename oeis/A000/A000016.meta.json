@@ -1,0 +1,38 @@
+{
+  "description": "a(n) is the number of distinct (infinite) output sequences from binary n-stage shift register which feeds back the complement of the last stage.",
+  "id": "A000016",
+  "mentions": [
+    "A000013",
+    "A000031",
+    "A000048",
+    "A051293",
+    "A053633",
+    "A053634",
+    "A063776",
+    "A065795",
+    "A068009",
+    "A082550",
+    "A135342",
+    "A182469",
+    "A237984",
+    "A240850",
+    "A265032",
+    "A327471",
+    "A327477",
+    "A327478"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

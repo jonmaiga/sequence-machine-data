@@ -1,0 +1,15 @@
+{
+  "description": "Number of partitions of n into 6 squares.",
+  "id": "A000177",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

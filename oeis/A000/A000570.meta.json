@@ -1,0 +1,18 @@
+{
+  "description": "Number of tournaments on n nodes determined by their score vectors.",
+  "id": "A000570",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "2^n written in base 5.",
+  "id": "A000866",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A004642",
+    "A004655",
+    "A004656",
+    "A004658",
+    "A004659"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

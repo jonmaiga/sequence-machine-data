@@ -1,0 +1,17 @@
+{
+  "description": "Number of odd integers <= 2^n of form x^2 + y^2.",
+  "id": "A000074",
+  "mentions": [
+    "A000050"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

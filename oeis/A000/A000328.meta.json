@@ -1,0 +1,31 @@
+{
+  "description": "Number of points of norm <= n^2 in square lattice.",
+  "id": "A000328",
+  "mentions": [
+    "A000603",
+    "A046109",
+    "A051132",
+    "A057655",
+    "A093832",
+    "A093836",
+    "A093837",
+    "A247588",
+    "A255238",
+    "A302997",
+    "A305575",
+    "A305576"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes dividing all Fibonacci sequences.",
+  "id": "A000057",
+  "mentions": [
+    "A001175",
+    "A001602",
+    "A064414",
+    "A079346",
+    "A106535",
+    "A115004",
+    "A213648"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

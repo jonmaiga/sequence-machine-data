@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways of folding a strip of n labeled stamps.",
+  "id": "A000136",
+  "mentions": [
+    "A000170",
+    "A000560",
+    "A000682",
+    "A001011",
+    "A002560"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

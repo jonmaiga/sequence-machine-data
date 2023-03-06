@@ -1,0 +1,20 @@
+{
+  "description": "Number of complemented types of Boolean functions of n variables under action of AG(n,2).",
+  "id": "A000614",
+  "mentions": [
+    "A000214",
+    "A000370"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

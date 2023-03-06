@@ -1,0 +1,46 @@
+{
+  "description": "Dedekind numbers or Dedekind's problem: number of monotone Boolean functions of n variables, number of antichains of subsets of an n-set, number of elements in a free distributive lattice on n generators, number of Sperner families.",
+  "id": "A000372",
+  "mentions": [
+    "A000788",
+    "A002079",
+    "A003075",
+    "A003182",
+    "A006126",
+    "A006356",
+    "A006602",
+    "A007153",
+    "A007501",
+    "A014466",
+    "A048143",
+    "A059119",
+    "A132581",
+    "A132582",
+    "A261005",
+    "A293606",
+    "A293993",
+    "A304996",
+    "A305000",
+    "A305844",
+    "A306505",
+    "A317674",
+    "A319721",
+    "A320449",
+    "A321679"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Dying rabbits: a(0) = 1; for 1 <= n <= 12, a(n) = Fibonacci(n); for n >= 13, a(n) = a(n-1) + a(n-2) - a(n-13).",
+  "id": "A000044",
+  "mentions": [
+    "A000045",
+    "A107358"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

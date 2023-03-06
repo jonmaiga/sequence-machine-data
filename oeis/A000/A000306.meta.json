@@ -1,0 +1,18 @@
+{
+  "description": "Number of trees of diameter 8.",
+  "id": "A000306",
+  "mentions": [
+    "A034853"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:48",
+    "offset": 9,
+    "size": 21,
+    "source": "joeis"
+  }
+}

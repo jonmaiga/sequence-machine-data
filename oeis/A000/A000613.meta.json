@@ -1,0 +1,21 @@
+{
+  "description": "Number of Boolean functions of n variables.",
+  "id": "A000613",
+  "mentions": [
+    "A000370",
+    "A000585"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

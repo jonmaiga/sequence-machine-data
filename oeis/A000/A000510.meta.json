@@ -1,0 +1,19 @@
+{
+  "description": "Maximal number of points in PG(2,q) with at most 3 on a line (next term is 21 or 22).",
+  "id": "A000510",
+  "mentions": [
+    "A000509"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

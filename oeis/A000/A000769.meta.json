@@ -1,0 +1,33 @@
+{
+  "description": "No-3-in-line problem: number of inequivalent ways of placing 2n points on an n X n grid so that no 3 are in a line.",
+  "id": "A000769",
+  "mentions": [
+    "A000755",
+    "A000938",
+    "A037185",
+    "A037186",
+    "A037187",
+    "A037188",
+    "A037189",
+    "A047840",
+    "A194136",
+    "A212807",
+    "A235453",
+    "A272651",
+    "A277433",
+    "A280537"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

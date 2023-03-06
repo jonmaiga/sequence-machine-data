@@ -1,0 +1,23 @@
+{
+  "description": "Boustrophedon transform of primes.",
+  "id": "A000747",
+  "mentions": [
+    "A000040",
+    "A109449",
+    "A230953",
+    "A230954",
+    "A230955",
+    "A230956"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sum of Fermat coefficients.",
+  "id": "A000967",
+  "mentions": [
+    "A000969",
+    "A143858",
+    "A258708",
+    "A258993"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

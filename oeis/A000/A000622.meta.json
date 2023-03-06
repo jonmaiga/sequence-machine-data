@@ -1,0 +1,24 @@
+{
+  "description": "Number of monosubstituted alkanes C(n)H(2n+1)-X of the form shown in the Comments lines that are stereoisomers.",
+  "id": "A000622",
+  "mentions": [
+    "A000620",
+    "A000621",
+    "A000623",
+    "A000624",
+    "A000625",
+    "A239803",
+    "A239807"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

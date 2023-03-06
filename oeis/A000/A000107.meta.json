@@ -1,0 +1,32 @@
+{
+  "description": "Number of rooted trees with n nodes and a single labeled node; pointed rooted trees; vertebrates.",
+  "id": "A000107",
+  "mentions": [
+    "A000081",
+    "A000243",
+    "A000269",
+    "A000312",
+    "A000444",
+    "A000485",
+    "A000524",
+    "A000525",
+    "A000526",
+    "A005347",
+    "A051491",
+    "A339067",
+    "A340310"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of rooted trees with n nodes, 2 of which are labeled.",
+  "id": "A000524",
+  "mentions": [
+    "A000081",
+    "A000107",
+    "A000243",
+    "A000269",
+    "A000444",
+    "A000485",
+    "A000525",
+    "A000526"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:45:09",
+    "offset": 2,
+    "size": 24,
+    "source": "joeis"
+  }
+}

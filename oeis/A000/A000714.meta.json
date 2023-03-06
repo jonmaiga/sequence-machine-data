@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n, with three kinds of 1 and 2 and two kinds of 3,4,5,....",
+  "id": "A000714",
+  "mentions": [
+    "A000712",
+    "A008619"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

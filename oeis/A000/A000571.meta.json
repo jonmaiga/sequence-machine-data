@@ -1,0 +1,23 @@
+{
+  "description": "Number of different score sequences that are possible in an n-team round-robin tournament.",
+  "id": "A000571",
+  "mentions": [
+    "A007747",
+    "A046919",
+    "A145855",
+    "A210726",
+    "A274098"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

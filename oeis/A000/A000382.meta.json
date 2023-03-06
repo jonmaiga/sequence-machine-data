@@ -1,0 +1,22 @@
+{
+  "description": "Restricted permutations.",
+  "id": "A000382",
+  "mentions": [
+    "A000051",
+    "A000496",
+    "A008305",
+    "A020992"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 4,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of solutions to the rook problem on an n X n board having a certain symmetry group (see Robinson for details).",
+  "id": "A000899",
+  "mentions": [
+    "A000085",
+    "A000142",
+    "A000898",
+    "A000900",
+    "A000903",
+    "A037223"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

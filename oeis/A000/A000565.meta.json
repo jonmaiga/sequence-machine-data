@@ -1,0 +1,20 @@
+{
+  "description": "Number of discordant permutations.",
+  "id": "A000565",
+  "mentions": [
+    "A000051",
+    "A000211"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:16:27",
+    "offset": 7,
+    "size": 24,
+    "source": "joeis"
+  }
+}

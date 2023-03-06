@@ -1,0 +1,23 @@
+{
+  "description": "Number of nondegenerate Boolean functions of n variables: For n > 0, a(n) = A000616(n) - A000616(n-1).",
+  "id": "A000618",
+  "mentions": [
+    "A000371",
+    "A000616",
+    "A002077",
+    "A211705",
+    "A211706"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

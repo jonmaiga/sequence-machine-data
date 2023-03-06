@@ -1,0 +1,29 @@
+{
+  "description": "Number of symmetric relations on n nodes.",
+  "id": "A000666",
+  "mentions": [
+    "A000088",
+    "A000142",
+    "A000250",
+    "A000568",
+    "A000595",
+    "A000662",
+    "A001172",
+    "A001174",
+    "A004102",
+    "A006905",
+    "A054921"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

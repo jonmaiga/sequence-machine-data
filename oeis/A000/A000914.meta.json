@@ -1,0 +1,31 @@
+{
+  "description": "Stirling numbers of the first kind: s(n+2, n).",
+  "id": "A000914",
+  "mentions": [
+    "A000051",
+    "A000217",
+    "A000290",
+    "A001296",
+    "A001701",
+    "A006002",
+    "A008275",
+    "A033428",
+    "A033581",
+    "A033583",
+    "A052149",
+    "A241765"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:49",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of singular n X n rational (0,1)-matrices.",
+  "id": "A000410",
+  "mentions": [
+    "A000409",
+    "A046747",
+    "A064230",
+    "A064231",
+    "A088389",
+    "A116506",
+    "A116507",
+    "A116527",
+    "A116532"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

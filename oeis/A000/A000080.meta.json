@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic minimal triangle graphs.",
+  "id": "A000080",
+  "mentions": [
+    "A048781"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

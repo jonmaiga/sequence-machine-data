@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways of making change for n cents using coins of 1, 2, 5, 10 cents.",
+  "id": "A000008",
+  "mentions": [
+    "A000115",
+    "A001299",
+    "A001300",
+    "A001301",
+    "A001302",
+    "A001312",
+    "A001313",
+    "A025810",
+    "A169718",
+    "A187243"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

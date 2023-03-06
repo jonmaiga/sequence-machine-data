@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of bracket function.",
+  "id": "A000748",
+  "mentions": [
+    "A000051",
+    "A000749",
+    "A000750",
+    "A001659",
+    "A007653",
+    "A057682"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

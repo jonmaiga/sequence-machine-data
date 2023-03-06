@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = n^2*Product_{p|n} (1 + 1/p).",
+  "id": "A000082",
+  "mentions": [
+    "A001615",
+    "A003557",
+    "A006530",
+    "A027748",
+    "A033196",
+    "A076566",
+    "A124010",
+    "A181797",
+    "A335762"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:15:07",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of trees of diameter 5.",
+  "id": "A000147",
+  "mentions": [
+    "A000065",
+    "A000251",
+    "A034853"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:42:31",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] with exactly 2 increasing runs of length at least 2.",
+  "id": "A000363",
+  "mentions": [
+    "A008971",
+    "A160486"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 4,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

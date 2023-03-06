@@ -1,0 +1,22 @@
+{
+  "description": "EULER transform of 3, 2, 2, 2, 2, 2, 2, 2, ...",
+  "id": "A000713",
+  "mentions": [
+    "A000041",
+    "A000712",
+    "A000716",
+    "A093010",
+    "A146023"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:49",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

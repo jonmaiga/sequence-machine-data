@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f. (1 + tan(x))/(1 - tan(x)).",
+  "id": "A000831",
+  "mentions": [
+    "A000111",
+    "A000182",
+    "A002436",
+    "A012393",
+    "A155100",
+    "A258880",
+    "A258901",
+    "A258994"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "One half of the number of permutations of [n] such that the differences have three runs with the same signs.",
+  "id": "A000352",
+  "mentions": [
+    "A000051",
+    "A000486",
+    "A000506",
+    "A008970"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 4,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

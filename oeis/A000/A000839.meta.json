@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-input 3-output switching networks under action of complementing group on the inputs and outputs.",
+  "id": "A000839",
+  "mentions": [
+    "A000133",
+    "A000838"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

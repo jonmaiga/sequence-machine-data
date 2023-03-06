@@ -1,0 +1,25 @@
+{
+  "description": "Euler transform of A000389.",
+  "id": "A000417",
+  "mentions": [
+    "A000041",
+    "A000219",
+    "A000294",
+    "A000335",
+    "A000389",
+    "A000391",
+    "A000428",
+    "A255965"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

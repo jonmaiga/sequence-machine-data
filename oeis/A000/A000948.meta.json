@@ -1,0 +1,21 @@
+{
+  "description": "Number of free nonplanar polyenoids with n nodes and symmetry point group C_s.",
+  "id": "A000948",
+  "mentions": [
+    "A000131",
+    "A000941",
+    "A002057"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 7,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

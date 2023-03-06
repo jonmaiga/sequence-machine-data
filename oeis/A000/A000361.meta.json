@@ -1,0 +1,21 @@
+{
+  "description": "From a fractal set of positive Lebesgue measure, a self-replicating tiling with holes, the 4-reptile following the 2-reptile of Paul Levy.",
+  "id": "A000361",
+  "mentions": [
+    "A000360",
+    "A000876"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "eigen",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

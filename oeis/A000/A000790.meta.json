@@ -1,0 +1,21 @@
+{
+  "description": "Primary pretenders: least composite c such that n^c == n (mod c).",
+  "id": "A000790",
+  "mentions": [
+    "A002808",
+    "A090086",
+    "A108574",
+    "A295997"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

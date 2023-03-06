@@ -1,0 +1,22 @@
+{
+  "description": "Twice A000007.",
+  "id": "A000038",
+  "mentions": [
+    "A000007",
+    "A000040",
+    "A007395"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

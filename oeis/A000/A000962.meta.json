@@ -1,0 +1,21 @@
+{
+  "description": "The convergent sequence A_n for the ternary continued fraction (3,1;2,2) of period 2.",
+  "id": "A000962",
+  "mentions": [
+    "A000051",
+    "A000963",
+    "A000964"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

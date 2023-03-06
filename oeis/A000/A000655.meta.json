@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = number of letters in a(n-1), a(1) = 1 (in English).",
+  "id": "A000655",
+  "mentions": [
+    "A005589",
+    "A061504",
+    "A101432",
+    "A328263"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:16:49",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

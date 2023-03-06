@@ -1,0 +1,21 @@
+{
+  "description": "Number of secondary alcohols (alkanols or alkyl alcohols C_n H_{2n+1} OH) with n carbon atoms.",
+  "id": "A000599",
+  "mentions": [
+    "A000598",
+    "A000600",
+    "A000602"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:23:12",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

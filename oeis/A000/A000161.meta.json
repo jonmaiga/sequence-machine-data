@@ -1,0 +1,38 @@
+{
+  "description": "Number of partitions of n into 2 squares.",
+  "id": "A000161",
+  "mentions": [
+    "A000093",
+    "A000164",
+    "A000174",
+    "A000290",
+    "A000925",
+    "A001481",
+    "A002635",
+    "A002654",
+    "A010052",
+    "A022544",
+    "A025426",
+    "A025427",
+    "A025428",
+    "A063725",
+    "A118882",
+    "A125022",
+    "A133388",
+    "A247367"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

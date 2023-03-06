@@ -1,0 +1,28 @@
+{
+  "description": "Number of representations of n as a sum of distinct Fibonacci numbers.",
+  "id": "A000119",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A000121",
+    "A003107",
+    "A007000",
+    "A013583",
+    "A065033",
+    "A080097",
+    "A096748"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:15:17",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

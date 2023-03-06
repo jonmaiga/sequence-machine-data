@@ -1,0 +1,20 @@
+{
+  "description": "Number of alkyls S C_{n+4} H_{2n+4} with n carbon atoms.",
+  "id": "A000650",
+  "mentions": [
+    "A000598"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:37:50",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

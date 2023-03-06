@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-node rooted trees of height 4.",
+  "id": "A000299",
+  "mentions": [
+    "A000108",
+    "A000235",
+    "A001383",
+    "A001384",
+    "A007401",
+    "A034781"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of representations of n as a sum of Fibonacci numbers (1 is allowed twice as a part).",
+  "id": "A000121",
+  "mentions": [
+    "A000119",
+    "A083853",
+    "A274262",
+    "A356874"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

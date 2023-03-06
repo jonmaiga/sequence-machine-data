@@ -1,0 +1,31 @@
+{
+  "description": "Number of invertible 2 X 2 matrices mod n.",
+  "id": "A000252",
+  "mentions": [
+    "A000010",
+    "A000056",
+    "A011785",
+    "A011786",
+    "A059238",
+    "A064767",
+    "A227499",
+    "A305186",
+    "A316566",
+    "A316622",
+    "A330523"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:15:39",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

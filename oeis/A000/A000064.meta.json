@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of (unordered) ways of making change for n cents using coins of 1, 2, 5, 10 cents.",
+  "id": "A000064",
+  "mentions": [
+    "A000008"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:15:01",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

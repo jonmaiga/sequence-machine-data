@@ -1,0 +1,28 @@
+{
+  "description": "Coefficients of the 3rd order mock theta function f(q).",
+  "id": "A000025",
+  "mentions": [
+    "A000039",
+    "A000199",
+    "A013953",
+    "A053250",
+    "A053251",
+    "A053252",
+    "A053253",
+    "A053254",
+    "A053255"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Boustrophedon transform of all-1's sequence.",
+  "id": "A000667",
+  "mentions": [
+    "A000111",
+    "A000795",
+    "A002084",
+    "A003719",
+    "A009337",
+    "A009747",
+    "A109449",
+    "A227862",
+    "A292975"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

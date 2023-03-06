@@ -1,0 +1,41 @@
+{
+  "description": "Number of n-bead necklaces with 2 colors when turning over is not allowed; also number of output sequences from a simple n-stage cycling shift register; also number of binary irreducible polynomials whose degree divides n.",
+  "id": "A000031",
+  "mentions": [
+    "A000010",
+    "A000011",
+    "A000013",
+    "A000016",
+    "A000029",
+    "A000048",
+    "A000079",
+    "A001037",
+    "A001371",
+    "A001867",
+    "A008965",
+    "A014580",
+    "A027375",
+    "A047996",
+    "A051841",
+    "A052823",
+    "A053634",
+    "A053635",
+    "A058766",
+    "A075195",
+    "A100447"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

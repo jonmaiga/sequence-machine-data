@@ -1,0 +1,24 @@
+{
+  "description": "Number of 6-level labeled rooted trees with n leaves.",
+  "id": "A000405",
+  "mentions": [
+    "A000110",
+    "A000258",
+    "A000307",
+    "A000357",
+    "A001669",
+    "A144150"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

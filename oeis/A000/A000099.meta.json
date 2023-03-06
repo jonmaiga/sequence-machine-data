@@ -1,0 +1,21 @@
+{
+  "description": "Let A(n) = #{(i,j): i^2 + j^2 <= n}, V(n) = Pi*n, P(n) = A(n) - V(n); sequence gives values of n where |P(n)| sets a new record.",
+  "id": "A000099",
+  "mentions": [
+    "A000036",
+    "A000092",
+    "A000223",
+    "A000323",
+    "A000413"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of symmetric reflexive relations on n nodes: (1/2)*A000666.",
+  "id": "A000250",
+  "mentions": [
+    "A000088",
+    "A000595",
+    "A000666",
+    "A001173",
+    "A001174"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are the sum of three nonzero squares.",
+  "id": "A000408",
+  "mentions": [
+    "A000378",
+    "A000404",
+    "A000414",
+    "A003072",
+    "A004214",
+    "A024795",
+    "A024796",
+    "A025321",
+    "A025427"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

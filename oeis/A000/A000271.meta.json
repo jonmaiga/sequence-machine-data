@@ -1,0 +1,26 @@
+{
+  "description": "Sums of ménage numbers.",
+  "id": "A000271",
+  "mentions": [
+    "A000179",
+    "A000904",
+    "A001883",
+    "A002775",
+    "A058057",
+    "A137886",
+    "A292574"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

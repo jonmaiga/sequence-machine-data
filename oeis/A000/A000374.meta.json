@@ -1,0 +1,22 @@
+{
+  "description": "Number of cycles (mod n) under doubling map.",
+  "id": "A000374",
+  "mentions": [
+    "A000005",
+    "A023135",
+    "A023142",
+    "A037226",
+    "A081844"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

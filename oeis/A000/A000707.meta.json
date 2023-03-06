@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations of [1,2,...,n] with n-1 inversions.",
+  "id": "A000707",
+  "mentions": [
+    "A008302",
+    "A048651",
+    "A129481"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

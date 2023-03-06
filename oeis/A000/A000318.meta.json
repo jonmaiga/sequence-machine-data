@@ -1,0 +1,23 @@
+{
+  "description": "Generalized tangent numbers d(4,n).",
+  "id": "A000318",
+  "mentions": [
+    "A000003",
+    "A000182",
+    "A000191",
+    "A000490",
+    "A349264"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

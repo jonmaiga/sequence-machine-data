@@ -1,0 +1,40 @@
+{
+  "description": "Ménage numbers: a(0) = 1, a(1) = -1, and for n >= 2, a(n) = number of permutations s of [0, ..., n-1] such that s(i) != i and s(i) != i+1 (mod n) for all i.",
+  "id": "A000179",
+  "mentions": [
+    "A000023",
+    "A000166",
+    "A000186",
+    "A000904",
+    "A001569",
+    "A008305",
+    "A033999",
+    "A058087",
+    "A059375",
+    "A067998",
+    "A094047",
+    "A102761",
+    "A186638",
+    "A213234",
+    "A258664",
+    "A258665",
+    "A258666",
+    "A258667",
+    "A258673",
+    "A259212",
+    "A335700"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

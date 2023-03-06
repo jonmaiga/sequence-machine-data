@@ -1,0 +1,45 @@
+{
+  "description": "Coefficients of modular function j as power series in q = e^(2 Pi i t). Another name is the elliptic modular invariant J(tau).",
+  "id": "A000521",
+  "mentions": [
+    "A001158",
+    "A001160",
+    "A004016",
+    "A005798",
+    "A007240",
+    "A007242",
+    "A007245",
+    "A014708",
+    "A027652",
+    "A028520",
+    "A035230",
+    "A066395",
+    "A066396",
+    "A078906",
+    "A091406",
+    "A106205",
+    "A115977",
+    "A161361",
+    "A161362",
+    "A161395",
+    "A178451",
+    "A290403",
+    "A290404",
+    "A339429"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": -1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

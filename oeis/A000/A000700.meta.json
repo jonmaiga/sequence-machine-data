@@ -1,0 +1,44 @@
+{
+  "description": "Expansion of Product_{k>=0} (1 + x^(2k+1)); number of partitions of n into distinct odd parts; number of self-conjugate partitions; number of symmetric Ferrers graphs with n nodes.",
+  "id": "A000700",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000122",
+    "A000593",
+    "A000701",
+    "A008284",
+    "A010054",
+    "A010815",
+    "A046682",
+    "A052002",
+    "A053250",
+    "A069910",
+    "A069911",
+    "A081360",
+    "A081362",
+    "A085547",
+    "A115198",
+    "A115200",
+    "A121373",
+    "A146061",
+    "A169987",
+    "A169995",
+    "A218907",
+    "A295291",
+    "A304044"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

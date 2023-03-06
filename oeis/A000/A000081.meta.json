@@ -1,0 +1,47 @@
+{
+  "description": "Number of unlabeled rooted trees with n nodes (or connected functions with a fixed point).",
+  "id": "A000081",
+  "mentions": [
+    "A000041",
+    "A000055",
+    "A000088",
+    "A000106",
+    "A000108",
+    "A000169",
+    "A000664",
+    "A001190",
+    "A001699",
+    "A001858",
+    "A002988",
+    "A003018",
+    "A005200",
+    "A008406",
+    "A027750",
+    "A033185",
+    "A051491",
+    "A051492",
+    "A087803",
+    "A093637",
+    "A123467",
+    "A144963",
+    "A187770",
+    "A199812",
+    "A209397",
+    "A255170"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

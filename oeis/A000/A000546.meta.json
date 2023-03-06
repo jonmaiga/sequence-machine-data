@@ -1,0 +1,17 @@
+{
+  "description": "First occurrence of n consecutive numbers that take same number of steps to reach 1 in 3x+1 problem.",
+  "id": "A000546",
+  "mentions": [
+    "A000547"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

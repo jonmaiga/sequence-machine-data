@@ -1,0 +1,43 @@
+{
+  "description": "Set partitions without singletons: number of partitions of an n-set into blocks of size > 1. Also number of cyclically spaced (or feasible) partitions.",
+  "id": "A000296",
+  "mentions": [
+    "A000110",
+    "A000126",
+    "A000295",
+    "A001610",
+    "A001683",
+    "A005000",
+    "A005493",
+    "A006505",
+    "A008299",
+    "A057814",
+    "A057837",
+    "A066982",
+    "A087650",
+    "A105794",
+    "A106436",
+    "A124323",
+    "A169985",
+    "A178866",
+    "A216963",
+    "A240936",
+    "A261137",
+    "A261139",
+    "A278984"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

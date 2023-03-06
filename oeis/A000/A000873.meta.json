@@ -1,0 +1,23 @@
+{
+  "description": "Numbers beginning with letter 'e' in English.",
+  "id": "A000873",
+  "mentions": [
+    "A000852",
+    "A000865",
+    "A000867",
+    "A000870",
+    "A000981",
+    "A006092"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

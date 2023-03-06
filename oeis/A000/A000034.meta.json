@@ -1,0 +1,31 @@
+{
+  "description": "Period 2: repeat [1, 2]; a(n) = 1 + (n mod 2).",
+  "id": "A000034",
+  "mentions": [
+    "A000035",
+    "A003945",
+    "A007089",
+    "A010693",
+    "A010704",
+    "A010888",
+    "A032766",
+    "A040001",
+    "A123344",
+    "A134451",
+    "A283393",
+    "A300002"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

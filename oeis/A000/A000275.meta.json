@@ -1,0 +1,24 @@
+{
+  "description": "Coefficients of a Bessel function (reciprocal of J_0(z)); also pairs of permutations with rise/rise forbidden.",
+  "id": "A000275",
+  "mentions": [
+    "A055133",
+    "A115368",
+    "A192721",
+    "A212855",
+    "A259465",
+    "A340986"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

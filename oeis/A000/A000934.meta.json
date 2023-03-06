@@ -1,0 +1,22 @@
+{
+  "description": "Chromatic number (or Heawood number) Chi(n) of surface of genus n.",
+  "id": "A000934",
+  "mentions": [
+    "A000703",
+    "A002186",
+    "A006343"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

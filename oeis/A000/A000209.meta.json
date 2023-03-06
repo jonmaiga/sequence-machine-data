@@ -1,0 +1,15 @@
+{
+  "description": "Nearest integer to tan n.",
+  "id": "A000209",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

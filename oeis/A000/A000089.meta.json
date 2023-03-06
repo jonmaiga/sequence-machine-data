@@ -1,0 +1,29 @@
+{
+  "description": "Number of solutions to x^2 + 1 == 0 (mod n).",
+  "id": "A000089",
+  "mentions": [
+    "A000095",
+    "A002522",
+    "A002654",
+    "A006278",
+    "A008784",
+    "A027748",
+    "A031358",
+    "A091400",
+    "A093582",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

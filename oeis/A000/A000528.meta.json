@@ -1,0 +1,24 @@
+{
+  "description": "Number of types of Latin squares of order n. Equivalently, number of nonisomorphic 1-factorizations of K_{n,n}.",
+  "id": "A000528",
+  "mentions": [
+    "A000315",
+    "A000479",
+    "A002860",
+    "A003090",
+    "A040082"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

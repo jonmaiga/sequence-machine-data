@@ -1,0 +1,38 @@
+{
+  "description": "Landau's function g(n): largest order of permutation of n elements. Equivalently, largest LCM of partitions of n.",
+  "id": "A000793",
+  "mentions": [
+    "A000792",
+    "A002110",
+    "A007504",
+    "A008475",
+    "A009490",
+    "A034891",
+    "A057511",
+    "A057731",
+    "A074859",
+    "A128305",
+    "A129759",
+    "A225558",
+    "A225630",
+    "A225636",
+    "A225648",
+    "A225650",
+    "A225651",
+    "A225655"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

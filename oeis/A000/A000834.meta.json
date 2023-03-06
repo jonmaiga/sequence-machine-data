@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of exp(x)*(1 + tan(x))/(1 - tan(x)).",
+  "id": "A000834",
+  "mentions": [
+    "A000831"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

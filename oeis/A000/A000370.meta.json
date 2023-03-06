@@ -1,0 +1,21 @@
+{
+  "description": "Number of NPN-equivalence classes of Boolean functions of n or fewer variables.",
+  "id": "A000370",
+  "mentions": [
+    "A000371",
+    "A002077"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

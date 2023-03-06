@@ -1,0 +1,24 @@
+{
+  "description": "Number of unlabeled simple digraphs with n nodes.",
+  "id": "A000273",
+  "mentions": [
+    "A000088",
+    "A000666",
+    "A052283",
+    "A217654"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "core",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

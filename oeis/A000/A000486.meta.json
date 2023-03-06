@@ -1,0 +1,20 @@
+{
+  "description": "One half of the number of permutations of [n] such that the differences have 4 runs with the same signs.",
+  "id": "A000486",
+  "mentions": [
+    "A008970",
+    "A060158"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 5,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

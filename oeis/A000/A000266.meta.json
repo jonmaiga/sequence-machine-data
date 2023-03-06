@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. exp(-x^2/2) / (1-x).",
+  "id": "A000266",
+  "mentions": [
+    "A000090",
+    "A000138",
+    "A027616",
+    "A130905",
+    "A193385"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

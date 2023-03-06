@@ -1,0 +1,22 @@
+{
+  "description": "Size of minimal binary covering code of length n and covering radius 1.",
+  "id": "A000983",
+  "mentions": [
+    "A029866",
+    "A053637",
+    "A060438"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

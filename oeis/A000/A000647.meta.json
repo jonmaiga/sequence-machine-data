@@ -1,0 +1,19 @@
+{
+  "description": "Alkyl naphthalenes C_{n+10} H_{2n+8} with n+10 carbon atoms.",
+  "id": "A000647",
+  "mentions": [
+    "A000598"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:39:54",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is smallest number > a(n-1) of form a(i)*a(j), i < j < n.",
+  "id": "A000423",
+  "mentions": [
+    "A003586",
+    "A007335",
+    "A033845"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:34",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

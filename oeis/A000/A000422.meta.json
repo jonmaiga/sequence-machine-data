@@ -1,0 +1,29 @@
+{
+  "description": "Concatenation of numbers from n down to 1.",
+  "id": "A000422",
+  "mentions": [
+    "A000217",
+    "A007908",
+    "A058183",
+    "A104759",
+    "A116504",
+    "A116505",
+    "A138789",
+    "A138790",
+    "A138793",
+    "A176024"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

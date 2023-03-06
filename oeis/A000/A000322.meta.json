@@ -1,0 +1,24 @@
+{
+  "description": "Pentanacci numbers: a(n) = a(n-1) + a(n-2) + a(n-3) + a(n-4) + a(n-5) with a(0) = a(1) = a(2) = a(3) = a(4) = 1.",
+  "id": "A000322",
+  "mentions": [
+    "A000045",
+    "A000051",
+    "A000288",
+    "A000383",
+    "A001591",
+    "A060455",
+    "A186192"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

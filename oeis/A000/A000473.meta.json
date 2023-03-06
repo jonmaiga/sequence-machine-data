@@ -1,0 +1,20 @@
+{
+  "description": "Number of genus 0 rooted maps with 5 faces and n vertices.",
+  "id": "A000473",
+  "mentions": [
+    "A007401",
+    "A269920",
+    "A270409"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 4,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

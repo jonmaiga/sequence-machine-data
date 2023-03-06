@@ -1,0 +1,25 @@
+{
+  "description": "Number of nonnegative solutions to x^2 + y^2 <= n^2.",
+  "id": "A000603",
+  "mentions": [
+    "A000328",
+    "A001182",
+    "A026702",
+    "A036695",
+    "A036702",
+    "A255195",
+    "A255238",
+    "A302998"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:49",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

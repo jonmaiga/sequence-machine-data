@@ -1,0 +1,17 @@
+{
+  "description": "Number of switching networks with C(2,n) acting on the domain and AG(2,2) acting on the range.",
+  "id": "A000883",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

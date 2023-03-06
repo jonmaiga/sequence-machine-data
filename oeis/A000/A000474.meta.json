@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonisomorphic 1-factorizations of complete graph K_{2n}.",
+  "id": "A000474",
+  "mentions": [
+    "A000438",
+    "A350017"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

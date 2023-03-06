@@ -1,0 +1,29 @@
+{
+  "description": "Unsigned Stirling numbers of first kind s(n,4).",
+  "id": "A000454",
+  "mentions": [
+    "A000254",
+    "A000399",
+    "A000482",
+    "A001233",
+    "A001234",
+    "A001620",
+    "A008275",
+    "A103719",
+    "A163931",
+    "A163932",
+    "A243569",
+    "A243570"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 4,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

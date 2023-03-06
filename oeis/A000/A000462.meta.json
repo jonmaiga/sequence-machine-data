@@ -1,0 +1,20 @@
+{
+  "description": "Numbers written in base of triangular numbers.",
+  "id": "A000462",
+  "mentions": [
+    "A003056",
+    "A057945"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

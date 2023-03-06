@@ -1,0 +1,18 @@
+{
+  "description": "Number of certain rooted planar maps.",
+  "id": "A000305",
+  "mentions": [
+    "A000087",
+    "A046652"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

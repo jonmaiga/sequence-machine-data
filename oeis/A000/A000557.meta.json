@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of e.g.f.: 1/(1-2*sinh(x)).",
+  "id": "A000557",
+  "mentions": [
+    "A000045",
+    "A000556",
+    "A005923",
+    "A320352",
+    "A358031",
+    "A358032"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

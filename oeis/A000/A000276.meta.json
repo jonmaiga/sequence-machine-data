@@ -1,0 +1,22 @@
+{
+  "description": "Associated Stirling numbers.",
+  "id": "A000276",
+  "mentions": [
+    "A000254",
+    "A008306",
+    "A052518",
+    "A052881",
+    "A259456"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 4,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

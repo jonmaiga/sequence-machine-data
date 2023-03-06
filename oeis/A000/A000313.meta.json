@@ -1,0 +1,26 @@
+{
+  "description": "Number of permutations of length n with 3 consecutive ascending pairs.",
+  "id": "A000313",
+  "mentions": [
+    "A000166",
+    "A000255",
+    "A000274",
+    "A000292",
+    "A001260",
+    "A001261",
+    "A010027",
+    "A065087"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

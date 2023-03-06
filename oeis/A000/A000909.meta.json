@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (2n)!(2n+1)! / n!^2.",
+  "id": "A000909",
+  "mentions": [
+    "A079484"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

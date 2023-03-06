@@ -1,0 +1,22 @@
+{
+  "description": "Squares that are not the sum of 2 nonzero squares.",
+  "id": "A000548",
+  "mentions": [
+    "A000290",
+    "A004144",
+    "A134422",
+    "A143574",
+    "A143575"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:34",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

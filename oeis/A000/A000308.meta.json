@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = a(n-1)*a(n-2)*a(n-3) with a(1)=1, a(2)=2 and a(3)=3.",
+  "id": "A000308",
+  "mentions": [
+    "A000073",
+    "A000304",
+    "A000336",
+    "A001590",
+    "A063401"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

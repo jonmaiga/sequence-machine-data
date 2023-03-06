@@ -1,0 +1,25 @@
+{
+  "description": "Number of primitive permutation groups of degree n.",
+  "id": "A000019",
+  "mentions": [
+    "A000001",
+    "A000637",
+    "A000638",
+    "A002106",
+    "A005432",
+    "A023675",
+    "A023676"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

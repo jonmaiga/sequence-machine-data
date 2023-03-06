@@ -1,0 +1,29 @@
+{
+  "description": "Shifts left two terms under the binomial transform.",
+  "id": "A000995",
+  "mentions": [
+    "A000108",
+    "A000110",
+    "A000994",
+    "A007318",
+    "A051139",
+    "A051140",
+    "A051148",
+    "A051149",
+    "A137854"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:39:56",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "description": "Number of free polyominoes (or square animals) with n cells.",
+  "id": "A000105",
+  "mentions": [
+    "A000104",
+    "A000228",
+    "A000577",
+    "A000988",
+    "A001168",
+    "A001419",
+    "A006746",
+    "A006747",
+    "A006748",
+    "A006749",
+    "A006765",
+    "A030228",
+    "A054359",
+    "A054360",
+    "A056877",
+    "A056878",
+    "A103465",
+    "A142886",
+    "A144553",
+    "A144554",
+    "A210996",
+    "A259087",
+    "A259088"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = a(n-1)^2 + (a(n-2) + 1)*(a(n-1) - a(n-2)^2).",
+  "id": "A000472",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

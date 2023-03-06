@@ -1,0 +1,26 @@
+{
+  "description": "Genocchi numbers of second kind (A005439) divided by 2^(n-1).",
+  "id": "A000366",
+  "mentions": [
+    "A001469",
+    "A005439",
+    "A014784",
+    "A130168",
+    "A130169",
+    "A211183",
+    "A239894"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

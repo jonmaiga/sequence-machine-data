@@ -1,0 +1,20 @@
+{
+  "description": "Number of even sequences with period 2n (bisection of A000011).",
+  "id": "A000117",
+  "mentions": [
+    "A000011"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

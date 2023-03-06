@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-step self-avoiding walks on f.c.c. lattice ending at point with x = 1.",
+  "id": "A000766",
+  "mentions": [
+    "A000765",
+    "A000767",
+    "A000768",
+    "A001336",
+    "A227511"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

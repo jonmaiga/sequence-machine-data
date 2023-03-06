@@ -1,0 +1,27 @@
+{
+  "description": "Number of permutations of [n] in which the longest increasing run has length 3.",
+  "id": "A000402",
+  "mentions": [
+    "A000303",
+    "A000434",
+    "A000456",
+    "A000467",
+    "A001250",
+    "A001251",
+    "A001252",
+    "A001253",
+    "A008304",
+    "A010026",
+    "A211318"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Hexanacci numbers with a(0) = ... = a(5) = 1.",
+  "id": "A000383",
+  "mentions": [
+    "A000051",
+    "A001592",
+    "A060455",
+    "A247192",
+    "A249413"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

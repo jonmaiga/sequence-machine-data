@@ -1,0 +1,28 @@
+{
+  "description": "Number of monosubstituted alkanes C(n-1)H(2n-1)-X with n-1 carbon atoms that are not stereoisomers.",
+  "id": "A000621",
+  "mentions": [
+    "A000598",
+    "A000620",
+    "A000622",
+    "A000623",
+    "A000624",
+    "A000625",
+    "A239804",
+    "A239806",
+    "A253190"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

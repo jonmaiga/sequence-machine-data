@@ -1,0 +1,29 @@
+{
+  "description": "n appears 2n times, for n >= 1; also nearest integer to square root of n.",
+  "id": "A000194",
+  "mentions": [
+    "A000037",
+    "A002024",
+    "A002061",
+    "A002378",
+    "A005369",
+    "A027434",
+    "A053187",
+    "A073189",
+    "A105209",
+    "A259351"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:15:33",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

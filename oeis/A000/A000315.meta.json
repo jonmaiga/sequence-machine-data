@@ -1,0 +1,27 @@
+{
+  "description": "Number of reduced Latin squares of order n; also number of labeled loops (quasigroups with an identity element) with a fixed identity element.",
+  "id": "A000315",
+  "mentions": [
+    "A000170",
+    "A000479",
+    "A002860",
+    "A003090",
+    "A040082",
+    "A057771",
+    "A057997"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

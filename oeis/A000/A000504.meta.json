@@ -1,0 +1,19 @@
+{
+  "description": "S2(j,2j+3) where S2(n,k) is a 2-associated Stirling number of the second kind.",
+  "id": "A000504",
+  "mentions": [
+    "A000497",
+    "A008299"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:07:05",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

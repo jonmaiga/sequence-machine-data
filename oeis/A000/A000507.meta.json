@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of [n] with exactly 3 increasing runs of length at least 2.",
+  "id": "A000507",
+  "mentions": [
+    "A008971",
+    "A160486"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:17:24",
+    "offset": 6,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of discordant permutations of length n.",
+  "id": "A000183",
+  "mentions": [
+    "A000045",
+    "A000211",
+    "A000338",
+    "A000561",
+    "A000565",
+    "A008305",
+    "A061702",
+    "A061703",
+    "A264801"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

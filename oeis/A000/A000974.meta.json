@@ -1,0 +1,19 @@
+{
+  "description": "Conjecturally the number of even integers the sum of two primes in exactly n ways.",
+  "id": "A000974",
+  "mentions": [
+    "A000954",
+    "A001172",
+    "A002375"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

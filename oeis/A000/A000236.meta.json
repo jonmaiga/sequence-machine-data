@@ -1,0 +1,20 @@
+{
+  "description": "Maximum m such that there are no two adjacent elements belonging to the same n-th power residue class modulo some prime p in the sequence 1,2,...,m (equivalently, there is no n-th power residue modulo p in the sequence 1/2,2/3,...,(m-1)/m).",
+  "id": "A000236",
+  "mentions": [
+    "A000445",
+    "A111931"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

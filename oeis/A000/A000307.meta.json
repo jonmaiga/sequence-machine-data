@@ -1,0 +1,26 @@
+{
+  "description": "Number of 4-level labeled rooted trees with n leaves.",
+  "id": "A000307",
+  "mentions": [
+    "A000110",
+    "A000258",
+    "A000357",
+    "A000405",
+    "A001669",
+    "A002720",
+    "A039812",
+    "A144150"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

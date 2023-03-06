@@ -1,0 +1,24 @@
+{
+  "description": "Number of bicentered 3-valent (or boron, or binary) trees with n nodes.",
+  "id": "A000673",
+  "mentions": [
+    "A000022",
+    "A000200",
+    "A000602",
+    "A000672",
+    "A000675",
+    "A000684"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:34",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Maximal number of states in the minimal deterministic finite automaton accepting a language over a binary alphabet consisting of some words of length n.",
+  "id": "A000802",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

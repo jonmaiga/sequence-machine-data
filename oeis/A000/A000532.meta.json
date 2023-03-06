@@ -1,0 +1,31 @@
+{
+  "description": "Number of Hamiltonian paths from NW to SW corners in an n X n grid.",
+  "id": "A000532",
+  "mentions": [
+    "A001184",
+    "A003763",
+    "A007764",
+    "A014524",
+    "A014585",
+    "A120443",
+    "A121785",
+    "A121789",
+    "A145157",
+    "A181688",
+    "A181689",
+    "A271507",
+    "A271592",
+    "A350148"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

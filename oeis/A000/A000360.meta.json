@@ -1,0 +1,32 @@
+{
+  "description": "Distribution of nonempty triangles inside a fractal rep-4-tile.",
+  "id": "A000360",
+  "mentions": [
+    "A000361",
+    "A000876",
+    "A001222",
+    "A002487",
+    "A057078",
+    "A125184",
+    "A284553",
+    "A284556",
+    "A284565",
+    "A287729",
+    "A287730"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

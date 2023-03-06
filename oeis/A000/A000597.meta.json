@@ -1,0 +1,24 @@
+{
+  "description": "Central factorial numbers.",
+  "id": "A000597",
+  "mentions": [
+    "A000290",
+    "A000330",
+    "A000596",
+    "A001303",
+    "A008955",
+    "A048994"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:16:33",
+    "offset": 4,
+    "size": 25,
+    "source": "joeis"
+  }
+}

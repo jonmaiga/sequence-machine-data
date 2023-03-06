@@ -1,0 +1,18 @@
+{
+  "description": "Series-parallel numbers.",
+  "id": "A000432",
+  "mentions": [
+    "A000084"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:40:40",
+    "offset": 3,
+    "size": 38,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of ethylene derivatives with n carbon atoms.",
+  "id": "A000631",
+  "mentions": [
+    "A000598",
+    "A000642",
+    "A002094",
+    "A002986",
+    "A027852",
+    "A217781"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

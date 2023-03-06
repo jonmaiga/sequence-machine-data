@@ -1,0 +1,40 @@
+{
+  "description": "Number of rooted simplicial 3-polytopes with n+3 nodes; or rooted 3-connected triangulations with 2n+2 faces; or rooted 3-connected trivalent maps with 2n+2 vertices.",
+  "id": "A000260",
+  "mentions": [
+    "A000108",
+    "A000168",
+    "A000256",
+    "A000309",
+    "A000698",
+    "A000699",
+    "A002005",
+    "A002293",
+    "A005500",
+    "A006013",
+    "A027836",
+    "A062980",
+    "A069271",
+    "A146305",
+    "A255918",
+    "A263191",
+    "A267827",
+    "A290326",
+    "A341856",
+    "A342981"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

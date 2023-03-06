@@ -1,0 +1,32 @@
+{
+  "description": "Number of plane partitions of n with at most two rows.",
+  "id": "A000990",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000712",
+    "A000991",
+    "A001452",
+    "A002799",
+    "A008619",
+    "A093010",
+    "A147767",
+    "A225196",
+    "A225197",
+    "A225198",
+    "A225199",
+    "A242641"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

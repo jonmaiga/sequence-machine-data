@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(sin(n)).",
+  "id": "A000493",
+  "mentions": [
+    "A000480",
+    "A032615",
+    "A126564"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

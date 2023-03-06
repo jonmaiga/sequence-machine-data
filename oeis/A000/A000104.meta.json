@@ -1,0 +1,40 @@
+{
+  "description": "Number of n-celled free polyominoes without holes.",
+  "id": "A000104",
+  "mentions": [
+    "A000105",
+    "A001419",
+    "A006724",
+    "A006746",
+    "A006747",
+    "A006748",
+    "A006749",
+    "A018190",
+    "A054361",
+    "A056877",
+    "A056878",
+    "A056879",
+    "A056880",
+    "A056881",
+    "A056882",
+    "A056883",
+    "A070765",
+    "A266549",
+    "A308300",
+    "A357647",
+    "A357648"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

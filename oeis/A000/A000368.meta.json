@@ -1,0 +1,26 @@
+{
+  "description": "Number of connected graphs with one cycle of length 4.",
+  "id": "A000368",
+  "mentions": [
+    "A000081",
+    "A000226",
+    "A001429",
+    "A005703",
+    "A051491",
+    "A058879",
+    "A187770",
+    "A217781",
+    "A339986"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 4,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

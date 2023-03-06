@@ -1,0 +1,21 @@
+{
+  "description": "Number of n X n symmetric matrices with nonnegative entries and all row sums 2.",
+  "id": "A000985",
+  "mentions": [
+    "A000085",
+    "A000986"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

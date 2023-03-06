@@ -1,0 +1,23 @@
+{
+  "description": "Concatenate n n times.",
+  "id": "A000461",
+  "mentions": [
+    "A004216",
+    "A048376",
+    "A053422",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

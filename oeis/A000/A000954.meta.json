@@ -1,0 +1,22 @@
+{
+  "description": "Conjecturally largest even integer which is an unordered sum of two primes in exactly n ways.",
+  "id": "A000954",
+  "mentions": [
+    "A000974",
+    "A001172",
+    "A002375",
+    "A023036",
+    "A045917"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

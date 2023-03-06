@@ -1,0 +1,30 @@
+{
+  "description": "Atom-rooted polyenoids with n edges with symmetry class C_s.",
+  "id": "A000908",
+  "mentions": [
+    "A000912",
+    "A000913",
+    "A000935",
+    "A000936",
+    "A000941",
+    "A000942",
+    "A000947",
+    "A000948",
+    "A000953",
+    "A002057",
+    "A003446",
+    "A063786"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:31:44",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

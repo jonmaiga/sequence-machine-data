@@ -1,0 +1,32 @@
+{
+  "description": "Number of series-parallel networks with n unlabeled edges. Also called yoke-chains by Cayley and MacMahon.",
+  "id": "A000084",
+  "mentions": [
+    "A000311",
+    "A000669",
+    "A001572",
+    "A006351",
+    "A048211",
+    "A058351",
+    "A058352",
+    "A058353",
+    "A058964",
+    "A058965",
+    "A144962",
+    "A176500",
+    "A176502"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

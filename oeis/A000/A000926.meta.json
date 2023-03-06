@@ -1,0 +1,31 @@
+{
+  "description": "Euler's \"numerus idoneus\" (or \"numeri idonei\", or idoneal, or suitable, or convenient numbers).",
+  "id": "A000926",
+  "mentions": [
+    "A014556",
+    "A025052",
+    "A026501",
+    "A033266",
+    "A033267",
+    "A033268",
+    "A033269",
+    "A093669",
+    "A094376",
+    "A094377",
+    "A094378",
+    "A139642"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

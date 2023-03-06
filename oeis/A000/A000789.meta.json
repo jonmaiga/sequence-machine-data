@@ -1,0 +1,19 @@
+{
+  "description": "Maximal order of a triangle-free cyclic graph with no independent set of size n.",
+  "id": "A000789",
+  "mentions": [
+    "A000791"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

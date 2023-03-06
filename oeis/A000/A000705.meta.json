@@ -1,0 +1,21 @@
+{
+  "description": "n-th superior highly composite number A002201(n) is product of first n terms of this sequence.",
+  "id": "A000705",
+  "mentions": [
+    "A002201",
+    "A004490",
+    "A073751"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

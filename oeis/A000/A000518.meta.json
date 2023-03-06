@@ -1,0 +1,19 @@
+{
+  "description": "Generalized tangent numbers d_(n,4).",
+  "id": "A000518",
+  "mentions": [
+    "A000061",
+    "A000176",
+    "A000488"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:16:45",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of distinct quadratic residues mod 10^n; also number of distinct n-digit endings of base-10 squares.",
+  "id": "A000993",
+  "mentions": [
+    "A023105",
+    "A036688",
+    "A039300",
+    "A039306",
+    "A075821",
+    "A075823",
+    "A122986"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

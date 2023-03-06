@@ -1,0 +1,19 @@
+{
+  "description": "Generalized tangent numbers d_(n,2).",
+  "id": "A000176",
+  "mentions": [
+    "A000061",
+    "A000488",
+    "A000518"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

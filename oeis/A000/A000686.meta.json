@@ -1,0 +1,24 @@
+{
+  "description": "Number of 4-colored labeled graphs on n nodes, divided by 4.",
+  "id": "A000686",
+  "mentions": [
+    "A000683",
+    "A000684",
+    "A000685",
+    "A191371",
+    "A223887"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:28:40",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

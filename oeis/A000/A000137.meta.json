@@ -1,0 +1,22 @@
+{
+  "description": "Series-parallel numbers.",
+  "id": "A000137",
+  "mentions": [
+    "A000084",
+    "A036654",
+    "A036655",
+    "A058756"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

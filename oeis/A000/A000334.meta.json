@@ -1,0 +1,24 @@
+{
+  "description": "Number of 4-dimensional partitions of n.",
+  "id": "A000334",
+  "mentions": [
+    "A000219",
+    "A000293",
+    "A000390",
+    "A002974",
+    "A007714",
+    "A050340",
+    "A096751"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

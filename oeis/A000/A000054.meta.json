@@ -1,0 +1,24 @@
+{
+  "description": "Local stops on New York City A line subway.",
+  "id": "A000054",
+  "mentions": [
+    "A000053",
+    "A001049",
+    "A007826",
+    "A011554",
+    "A208359",
+    "A208360"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

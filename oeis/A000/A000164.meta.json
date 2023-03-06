@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into 3 squares (allowing part zero).",
+  "id": "A000164",
+  "mentions": [
+    "A000161",
+    "A000174",
+    "A002635",
+    "A004215",
+    "A005875",
+    "A016727",
+    "A094942",
+    "A124966"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

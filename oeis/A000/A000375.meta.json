@@ -1,0 +1,22 @@
+{
+  "description": "Topswops (1): start by shuffling n cards labeled 1..n. If top card is m, reverse order of top m cards, then repeat. a(n) is the maximal number of steps before top card is 1.",
+  "id": "A000375",
+  "mentions": [
+    "A000376",
+    "A123398",
+    "A156390"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

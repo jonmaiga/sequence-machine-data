@@ -1,0 +1,39 @@
+{
+  "description": "Fine's sequence (or Fine numbers): number of relations of valence >= 1 on an n-set; also number of ordered rooted trees with n nodes having root of even degree.",
+  "id": "A000957",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000108",
+    "A005043",
+    "A007317",
+    "A009766",
+    "A039598",
+    "A055395",
+    "A057078",
+    "A064306",
+    "A064310",
+    "A065600",
+    "A068875",
+    "A072547",
+    "A091867",
+    "A100754",
+    "A104597",
+    "A126093",
+    "A138413",
+    "A138414"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

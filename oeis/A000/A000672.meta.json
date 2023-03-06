@@ -1,0 +1,30 @@
+{
+  "description": "Number of 3-valent trees (= boron trees or binary trees) with n nodes.",
+  "id": "A000672",
+  "mentions": [
+    "A000022",
+    "A000200",
+    "A000602",
+    "A000673",
+    "A000675",
+    "A000684",
+    "A001190",
+    "A052120",
+    "A086317",
+    "A129860",
+    "A144528"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:01:58",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

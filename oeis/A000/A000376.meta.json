@@ -1,0 +1,21 @@
+{
+  "description": "Topswops (2): start by shuffling n cards labeled 1..n. If top card is m, reverse order of top m cards. Repeat until 1 gets to top, then stop. Suppose the whole deck is now sorted (if not, discard this case). a(n) is the maximal number of steps before 1 got to the top.",
+  "id": "A000376",
+  "mentions": [
+    "A000375",
+    "A174498"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

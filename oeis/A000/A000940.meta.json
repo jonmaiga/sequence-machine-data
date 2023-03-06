@@ -1,0 +1,28 @@
+{
+  "description": "Number of n-gons with n vertices.",
+  "id": "A000940",
+  "mentions": [
+    "A000939",
+    "A002619",
+    "A002831",
+    "A002832",
+    "A007619",
+    "A089066",
+    "A094156",
+    "A094157",
+    "A262480"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

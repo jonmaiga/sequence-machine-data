@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of e.g.f. exp(-x)/(1-2*x).",
+  "id": "A000354",
+  "mentions": [
+    "A000165",
+    "A000166",
+    "A000899",
+    "A006318",
+    "A008290",
+    "A061714",
+    "A113012",
+    "A157142",
+    "A263895",
+    "A320032"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

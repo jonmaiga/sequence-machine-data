@@ -1,0 +1,34 @@
+{
+  "description": "Primes and squares of primes.",
+  "id": "A000430",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A007422",
+    "A010051",
+    "A010055",
+    "A032741",
+    "A046951",
+    "A050216",
+    "A056595",
+    "A058080",
+    "A064911",
+    "A084110",
+    "A084114",
+    "A109810",
+    "A293575"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:16:15",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

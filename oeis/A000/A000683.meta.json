@@ -1,0 +1,22 @@
+{
+  "description": "Number of colorings of labeled graphs on n nodes using exactly 2 colors, divided by 4.",
+  "id": "A000683",
+  "mentions": [
+    "A047863",
+    "A058843",
+    "A213441"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

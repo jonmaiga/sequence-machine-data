@@ -1,0 +1,26 @@
+{
+  "description": "Partially labeled trees with n nodes (5 of which are labeled).",
+  "id": "A000526",
+  "mentions": [
+    "A000055",
+    "A000081",
+    "A000107",
+    "A000243",
+    "A000269",
+    "A000444",
+    "A000485",
+    "A000524",
+    "A000525"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:12:47",
+    "offset": 5,
+    "size": 19,
+    "source": "joeis"
+  }
+}

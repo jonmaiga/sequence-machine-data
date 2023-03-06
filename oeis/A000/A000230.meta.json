@@ -1,0 +1,36 @@
+{
+  "description": "a(0)=2; for n>=1, a(n) = smallest prime p such that there is a gap of exactly 2n between p and next prime, or -1 if no such prime exists.",
+  "id": "A000230",
+  "mentions": [
+    "A000040",
+    "A000101",
+    "A001223",
+    "A001632",
+    "A002386",
+    "A005250",
+    "A038664",
+    "A045881",
+    "A100180",
+    "A100964",
+    "A133429",
+    "A133430",
+    "A226657",
+    "A229021",
+    "A229028",
+    "A229030",
+    "A229033",
+    "A229034"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

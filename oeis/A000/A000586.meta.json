@@ -1,0 +1,31 @@
+{
+  "description": "Number of partitions of n into distinct primes.",
+  "id": "A000586",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000607",
+    "A024936",
+    "A046675",
+    "A070215",
+    "A112022",
+    "A184171",
+    "A184172",
+    "A219180",
+    "A319264",
+    "A319267"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = E(n+1) - 2*E(n), where E(i) is the Euler number A000111(i).",
+  "id": "A000708",
+  "mentions": [
+    "A000111",
+    "A001250",
+    "A001758",
+    "A008303",
+    "A008970",
+    "A059427"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

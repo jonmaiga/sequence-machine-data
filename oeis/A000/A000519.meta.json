@@ -1,0 +1,19 @@
+{
+  "description": "Number of equivalence classes of nonzero regular 0-1 matrices of order n.",
+  "id": "A000519",
+  "mentions": [
+    "A133687",
+    "A333681"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

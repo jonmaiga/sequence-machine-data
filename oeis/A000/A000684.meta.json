@@ -1,0 +1,26 @@
+{
+  "description": "Number of colored labeled n-node graphs with 2 interchangeable colors.",
+  "id": "A000684",
+  "mentions": [
+    "A000683",
+    "A000798",
+    "A001832",
+    "A058872",
+    "A111636",
+    "A134531",
+    "A191371"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

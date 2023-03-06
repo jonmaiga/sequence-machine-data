@@ -1,0 +1,47 @@
+{
+  "description": "Ramanujan's tau function (or Ramanujan numbers, or tau numbers).",
+  "id": "A000594",
+  "mentions": [
+    "A000203",
+    "A000521",
+    "A004009",
+    "A006352",
+    "A008408",
+    "A010816",
+    "A013973",
+    "A027364",
+    "A030203",
+    "A037945",
+    "A037946",
+    "A037947",
+    "A037955",
+    "A046694",
+    "A049310",
+    "A076847",
+    "A098108",
+    "A099059",
+    "A099060",
+    "A106867",
+    "A126812",
+    "A126832",
+    "A262339",
+    "A278577",
+    "A292781"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "sign",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

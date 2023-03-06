@@ -1,0 +1,44 @@
+{
+  "description": "One half of number of non-self-conjugate partitions; also half of number of asymmetric Ferrers graphs with n nodes.",
+  "id": "A000701",
+  "mentions": [
+    "A000041",
+    "A000700",
+    "A027187",
+    "A027193",
+    "A046682",
+    "A088902",
+    "A114088",
+    "A115994",
+    "A118302",
+    "A122111",
+    "A171966",
+    "A236559",
+    "A236914",
+    "A238352",
+    "A258116",
+    "A296150",
+    "A321649",
+    "A325039",
+    "A330644",
+    "A352486",
+    "A352487",
+    "A352488",
+    "A352489",
+    "A352490",
+    "A352491"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

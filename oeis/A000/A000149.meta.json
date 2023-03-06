@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = floor(e^n).",
+  "id": "A000149",
+  "mentions": [
+    "A000079",
+    "A000227",
+    "A000244",
+    "A001113",
+    "A001671",
+    "A003619",
+    "A005180",
+    "A064780",
+    "A116472"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "n! never ends in this many 0's.",
+  "id": "A000966",
+  "mentions": [
+    "A000051",
+    "A000142",
+    "A027868",
+    "A055938",
+    "A080066",
+    "A096346",
+    "A112765",
+    "A136767",
+    "A136774",
+    "A191610"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

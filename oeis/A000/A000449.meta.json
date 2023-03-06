@@ -1,0 +1,26 @@
+{
+  "description": "Rencontres numbers: number of permutations of [n] with exactly 3 fixed points.",
+  "id": "A000449",
+  "mentions": [
+    "A000166",
+    "A000240",
+    "A000387",
+    "A000475",
+    "A008290",
+    "A008291",
+    "A129135",
+    "A170942"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 3,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

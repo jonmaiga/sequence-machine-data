@@ -1,0 +1,29 @@
+{
+  "description": "Number of rooted cubic maps with 2n nodes and a distinguished Hamiltonian cycle: (2n)!(2n+1)! / (n!^2*(n+1)!(n+2)!).",
+  "id": "A000356",
+  "mentions": [
+    "A000264",
+    "A000309",
+    "A000891",
+    "A001700",
+    "A003645",
+    "A005568",
+    "A056220",
+    "A073165",
+    "A102539"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

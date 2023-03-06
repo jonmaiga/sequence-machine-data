@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of e.g.f. exp(exp(exp(x)-1)-1).",
+  "id": "A000258",
+  "mentions": [
+    "A000110",
+    "A000307",
+    "A000357",
+    "A000405",
+    "A001669",
+    "A002720",
+    "A039811",
+    "A055896",
+    "A130191",
+    "A144150"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

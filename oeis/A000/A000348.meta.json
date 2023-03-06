@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to pair up {1^2, 2^2, ..., (2n)^2 } so sum of each pair is prime.",
+  "id": "A000348",
+  "mentions": [
+    "A000093",
+    "A000341"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

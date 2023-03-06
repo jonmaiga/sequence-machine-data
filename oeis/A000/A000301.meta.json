@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = a(n-1)*a(n-2) with a(0) = 1, a(1) = 2; also a(n) = 2^Fibonacci(n).",
+  "id": "A000301",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A000304",
+    "A010098",
+    "A010099",
+    "A010100",
+    "A014565",
+    "A124091",
+    "A244003"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

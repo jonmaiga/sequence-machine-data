@@ -1,0 +1,40 @@
+{
+  "description": "Expansion of Jacobi theta function theta_3(x) = Sum_{m =-oo..oo} x^(m^2) (number of integer solutions to k^2 = n).",
+  "id": "A000122",
+  "mentions": [
+    "A000007",
+    "A000132",
+    "A000700",
+    "A001650",
+    "A002448",
+    "A004015",
+    "A004016",
+    "A008444",
+    "A008445",
+    "A008446",
+    "A008447",
+    "A008448",
+    "A008449",
+    "A010052",
+    "A010054",
+    "A010815",
+    "A089801",
+    "A121373",
+    "A122141",
+    "A186690",
+    "A286815"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

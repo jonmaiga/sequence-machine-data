@@ -1,0 +1,21 @@
+{
+  "description": "Unitary-sociable numbers (smallest member of each cycle).",
+  "id": "A000173",
+  "mentions": [
+    "A003416",
+    "A034444",
+    "A063990",
+    "A097323"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

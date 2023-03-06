@@ -1,0 +1,25 @@
+{
+  "description": "6th power of rooted tree enumerator; number of linear forests of 6 rooted trees.",
+  "id": "A000395",
+  "mentions": [
+    "A000081",
+    "A000106",
+    "A000242",
+    "A000300",
+    "A000343",
+    "A051491",
+    "A187770",
+    "A339067"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 6,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

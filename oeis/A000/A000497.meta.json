@@ -1,0 +1,21 @@
+{
+  "description": "S2(j,2j+2) where S2(n,k) is a 2-associated Stirling number of the second kind.",
+  "id": "A000497",
+  "mentions": [
+    "A000504",
+    "A008299"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

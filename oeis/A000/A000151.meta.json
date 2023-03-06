@@ -1,0 +1,26 @@
+{
+  "description": "Number of oriented rooted trees with n nodes. Also rooted trees with n nodes and 2-colored non-root nodes.",
+  "id": "A000151",
+  "mentions": [
+    "A000081",
+    "A000238",
+    "A005750",
+    "A005751",
+    "A038055",
+    "A242249",
+    "A245870"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

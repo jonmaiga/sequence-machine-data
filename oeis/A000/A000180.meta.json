@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of E.g.f. exp(-x)/(1-3x).",
+  "id": "A000180",
+  "mentions": [
+    "A320032"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

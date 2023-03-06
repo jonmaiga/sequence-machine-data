@@ -1,0 +1,31 @@
+{
+  "description": "Order of the group SL(2,Z_n).",
+  "id": "A000056",
+  "mentions": [
+    "A000010",
+    "A000043",
+    "A000252",
+    "A001766",
+    "A007434",
+    "A011785",
+    "A011786",
+    "A046970",
+    "A064767",
+    "A305186",
+    "A316564",
+    "A316623"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:15:05",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

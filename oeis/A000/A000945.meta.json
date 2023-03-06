@@ -1,0 +1,27 @@
+{
+  "description": "Euclid-Mullin sequence: a(1) = 2, a(n+1) is smallest prime factor of 1 + Product_{k=1..n} a(k).",
+  "id": "A000945",
+  "mentions": [
+    "A000946",
+    "A005265",
+    "A005266",
+    "A051309",
+    "A051334",
+    "A051614",
+    "A051615",
+    "A051616",
+    "A056756"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

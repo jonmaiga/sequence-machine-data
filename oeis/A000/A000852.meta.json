@@ -1,0 +1,20 @@
+{
+  "description": "Numbers beginning with a vowel in English.",
+  "id": "A000852",
+  "mentions": [
+    "A000865",
+    "A000873"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

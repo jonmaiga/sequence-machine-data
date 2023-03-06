@@ -1,0 +1,28 @@
+{
+  "description": "Coefficient of x^5 in expansion of (1 + x + x^2)^n.",
+  "id": "A000574",
+  "mentions": [
+    "A000051",
+    "A000217",
+    "A000389",
+    "A005581",
+    "A005712",
+    "A005714",
+    "A005716",
+    "A055998",
+    "A095660",
+    "A111808"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:16:29",
+    "offset": 3,
+    "size": 36,
+    "source": "joeis"
+  }
+}

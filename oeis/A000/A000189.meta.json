@@ -1,0 +1,21 @@
+{
+  "description": "Number of solutions to x^3 == 0 (mod n).",
+  "id": "A000189",
+  "mentions": [
+    "A000578",
+    "A019555"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

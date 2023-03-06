@@ -1,0 +1,30 @@
+{
+  "description": "Number of P-equivalence classes of switching functions of n or fewer variables, divided by 2.",
+  "id": "A000612",
+  "mentions": [
+    "A000370",
+    "A003180",
+    "A007716",
+    "A055621",
+    "A058891",
+    "A283877",
+    "A300913",
+    "A306005",
+    "A317533",
+    "A317757"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

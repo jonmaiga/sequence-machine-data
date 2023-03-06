@@ -1,0 +1,20 @@
+{
+  "description": "NP-equivalence classes of threshold functions of exactly n variables.",
+  "id": "A000619",
+  "mentions": [
+    "A000371",
+    "A002077",
+    "A002079"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

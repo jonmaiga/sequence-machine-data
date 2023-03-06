@@ -1,0 +1,31 @@
+{
+  "description": "Number of rooted planar bridgeless cubic maps with 2n nodes.",
+  "id": "A000309",
+  "mentions": [
+    "A000139",
+    "A000168",
+    "A000260",
+    "A000264",
+    "A000356",
+    "A000698",
+    "A000699",
+    "A002005",
+    "A005500",
+    "A006335",
+    "A062980",
+    "A267827",
+    "A358091"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

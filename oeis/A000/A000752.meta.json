@@ -1,0 +1,21 @@
+{
+  "description": "Boustrophedon transform of powers of 2.",
+  "id": "A000752",
+  "mentions": [
+    "A000079",
+    "A000734",
+    "A109449",
+    "A292975"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

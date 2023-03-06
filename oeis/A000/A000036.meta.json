@@ -1,0 +1,23 @@
+{
+  "description": "Let A(n) = #{(i,j): i^2 + j^2 <= n}, V(n) = Pi*n, P(n) = A(n) - V(n); A000099 gives values of n where |P(n)| sets a new record; sequence gives closest integer to P(A000099(n)).",
+  "id": "A000036",
+  "mentions": [
+    "A000092",
+    "A000099",
+    "A000223",
+    "A000323",
+    "A000413",
+    "A057655"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of bipartite partitions of n white objects and 4 black ones.",
+  "id": "A000465",
+  "mentions": [
+    "A002755",
+    "A002774",
+    "A005380",
+    "A054225"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

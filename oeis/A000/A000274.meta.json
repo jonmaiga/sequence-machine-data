@@ -1,0 +1,28 @@
+{
+  "description": "Number of permutations of length n with 2 consecutive ascending pairs.",
+  "id": "A000274",
+  "mentions": [
+    "A000166",
+    "A000255",
+    "A000313",
+    "A001260",
+    "A001261",
+    "A001286",
+    "A010027",
+    "A046739",
+    "A145886",
+    "A145887"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways of writing 0 as Sum_{k=-n..n} e(k)*k, where e(k) is 0 or 1.",
+  "id": "A000980",
+  "mentions": [
+    "A004171",
+    "A047653",
+    "A047997",
+    "A063865",
+    "A067059",
+    "A084239",
+    "A141000",
+    "A181765"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of ways of writing n as a sum of 8 squares.",
+  "id": "A000143",
+  "mentions": [
+    "A000118",
+    "A000122",
+    "A000141",
+    "A000700",
+    "A004018",
+    "A008457",
+    "A010054",
+    "A010815",
+    "A035016",
+    "A121373",
+    "A122141",
+    "A186690",
+    "A286815"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

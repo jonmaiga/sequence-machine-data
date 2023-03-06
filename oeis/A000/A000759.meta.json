@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-step self-avoiding walks on cubic lattice ending at point with x=0.",
+  "id": "A000759",
+  "mentions": [
+    "A000760",
+    "A000761",
+    "A000762",
+    "A001412",
+    "A227338"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

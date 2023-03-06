@@ -1,0 +1,17 @@
+{
+  "description": "Number of n-input 3-output switching networks under action of GL(n,2) on the inputs and complementing group C(3,2) on the outputs.",
+  "id": "A000848",
+  "mentions": [
+    "A000847"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Multiplicative with a(2^e) = 2 for k >= 1; a(3) = 2, a(3^e) = 0 for k >= 2; a(p^e) = 0 if p > 3 and p == -1 (mod 3); a(p^e) = 2 if p > 3 and p == 1 (mod 3).",
+  "id": "A000091",
+  "mentions": [
+    "A000086"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:15:05",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

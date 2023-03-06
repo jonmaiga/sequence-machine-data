@@ -1,0 +1,25 @@
+{
+  "description": "Rencontres numbers: number of permutations of [n] with exactly 4 fixed points.",
+  "id": "A000475",
+  "mentions": [
+    "A000166",
+    "A000240",
+    "A000387",
+    "A000449",
+    "A008290",
+    "A008291",
+    "A129135",
+    "A170942"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 4,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

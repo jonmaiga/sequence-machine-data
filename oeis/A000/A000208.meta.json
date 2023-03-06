@@ -1,0 +1,22 @@
+{
+  "description": "Number of even sequences with period 2n.",
+  "id": "A000208",
+  "mentions": [
+    "A000013",
+    "A000116",
+    "A000206"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numerators of Bernoulli numbers B_2n.",
+  "id": "A000367",
+  "mentions": [
+    "A001896",
+    "A002445",
+    "A002882",
+    "A003245",
+    "A027641",
+    "A027642",
+    "A127187",
+    "A127188"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "frac",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

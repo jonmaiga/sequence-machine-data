@@ -1,0 +1,17 @@
+{
+  "description": "Number of n-input 2-output switching networks under action of GL(n,2) on the inputs and complementing group C(2,2) on the outputs.",
+  "id": "A000847",
+  "mentions": [
+    "A000848"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

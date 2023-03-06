@@ -1,0 +1,23 @@
+{
+  "description": "Generalized tangent numbers d(5,n).",
+  "id": "A000320",
+  "mentions": [
+    "A000003",
+    "A000187",
+    "A000318",
+    "A000326",
+    "A349264",
+    "A349265"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

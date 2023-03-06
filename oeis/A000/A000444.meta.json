@@ -1,0 +1,26 @@
+{
+  "description": "Partially labeled rooted trees with n nodes (3 of which are labeled).",
+  "id": "A000444",
+  "mentions": [
+    "A000081",
+    "A000107",
+    "A000243",
+    "A000269",
+    "A000485",
+    "A000524",
+    "A000526",
+    "A042977",
+    "A051491"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

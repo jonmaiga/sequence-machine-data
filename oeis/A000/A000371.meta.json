@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^(n-k)*binomial(n,k)*2^(2^k).",
+  "id": "A000371",
+  "mentions": [
+    "A001146",
+    "A002110",
+    "A003320",
+    "A003465",
+    "A055154",
+    "A076078"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

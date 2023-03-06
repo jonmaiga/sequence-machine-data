@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. (1/2)*(exp(2*x + x^2) + 1).",
+  "id": "A000902",
+  "mentions": [
+    "A000898",
+    "A000899",
+    "A000900",
+    "A000903"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

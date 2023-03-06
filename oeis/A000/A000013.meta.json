@@ -1,0 +1,26 @@
+{
+  "description": "Definition (1): Number of n-bead binary necklaces with beads of 2 colors where the colors may be swapped but turning over is not allowed.",
+  "id": "A000013",
+  "mentions": [
+    "A000010",
+    "A000011",
+    "A000016",
+    "A000031",
+    "A000116",
+    "A027750",
+    "A128976"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

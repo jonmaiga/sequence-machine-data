@@ -1,0 +1,28 @@
+{
+  "description": "Rencontres numbers: number of permutations of [n] with exactly two fixed points.",
+  "id": "A000387",
+  "mentions": [
+    "A000166",
+    "A000240",
+    "A000449",
+    "A000475",
+    "A003221",
+    "A008290",
+    "A008291",
+    "A129135",
+    "A145221",
+    "A170942"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

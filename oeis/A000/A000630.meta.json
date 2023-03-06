@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to represent n using the binary operator a * b = 2^a + b.",
+  "id": "A000630",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:02:17",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

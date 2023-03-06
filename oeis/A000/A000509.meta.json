@@ -1,0 +1,21 @@
+{
+  "description": "Size of second largest n-arc in PG(2,q), where q runs through the primes and prime powers >= 7.",
+  "id": "A000509",
+  "mentions": [
+    "A000510",
+    "A000961"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

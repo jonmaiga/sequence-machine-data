@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients of ménage hit polynomials.",
+  "id": "A000426",
+  "mentions": [
+    "A000033",
+    "A000179",
+    "A000271",
+    "A000684",
+    "A058057"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

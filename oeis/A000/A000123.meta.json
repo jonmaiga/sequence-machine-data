@@ -1,0 +1,41 @@
+{
+  "description": "Number of binary partitions: number of partitions of 2n into powers of 2.",
+  "id": "A000123",
+  "mentions": [
+    "A000041",
+    "A000079",
+    "A000265",
+    "A001511",
+    "A002033",
+    "A002487",
+    "A002577",
+    "A005704",
+    "A005706",
+    "A016627",
+    "A018819",
+    "A023359",
+    "A033485",
+    "A038712",
+    "A040039",
+    "A072170",
+    "A089177",
+    "A100529",
+    "A101566",
+    "A145515",
+    "A171370"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

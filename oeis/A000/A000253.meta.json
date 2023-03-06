@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2*a(n-1) - a(n-2) + a(n-3) + 2^(n-1).",
+  "id": "A000253",
+  "mentions": [
+    "A000079",
+    "A005251",
+    "A077941"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

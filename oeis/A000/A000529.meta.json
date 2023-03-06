@@ -1,0 +1,18 @@
+{
+  "description": "Powers of rooted tree enumerator.",
+  "id": "A000529",
+  "mentions": [
+    "A000051"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:16:21",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

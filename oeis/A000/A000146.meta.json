@@ -1,0 +1,23 @@
+{
+  "description": "From von Staudt-Clausen representation of Bernoulli numbers: a(n) = Bernoulli(2n) + Sum_{(p-1)|2n} 1/p.",
+  "id": "A000146",
+  "mentions": [
+    "A000182",
+    "A002882",
+    "A003245",
+    "A127187",
+    "A127188"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:02",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

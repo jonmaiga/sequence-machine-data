@@ -1,0 +1,18 @@
+{
+  "description": "One-half of number of permutations of [n] with exactly one run of adjacent symbols differing by 1.",
+  "id": "A000239",
+  "mentions": [
+    "A000130",
+    "A010030"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:20:51",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

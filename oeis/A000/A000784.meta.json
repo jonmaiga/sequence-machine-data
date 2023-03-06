@@ -1,0 +1,24 @@
+{
+  "description": "Number of symmetrical planar partitions of n (planar partitions (A000219) that when regarded as 3-D objects have just one symmetry plane).",
+  "id": "A000784",
+  "mentions": [
+    "A000219",
+    "A000785",
+    "A000786",
+    "A005987",
+    "A048140",
+    "A048141",
+    "A048142"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

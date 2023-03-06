@@ -1,0 +1,18 @@
+{
+  "description": "Number of switching networks (see Harrison reference for precise definition).",
+  "id": "A000823",
+  "mentions": [
+    "A000231"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

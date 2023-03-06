@@ -1,0 +1,24 @@
+{
+  "description": "Number of boron trees with n nodes = n-node rooted trees with deg <= 3 at root and out-degree <= 2 elsewhere.",
+  "id": "A000671",
+  "mentions": [
+    "A000684",
+    "A001190",
+    "A036656",
+    "A036657",
+    "A036658"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:44:01",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

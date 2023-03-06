@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = floor(2^n / n).",
+  "id": "A000799",
+  "mentions": [
+    "A000801",
+    "A053638",
+    "A065482",
+    "A071354",
+    "A082482",
+    "A193359"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:25:53",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of groups of order 2^n.",
+  "id": "A000679",
+  "mentions": [
+    "A000001",
+    "A005347",
+    "A046058"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

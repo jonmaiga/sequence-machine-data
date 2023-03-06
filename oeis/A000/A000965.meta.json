@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of expansion of e.g.f. sinh(x) / sin(x) (even powers only).",
+  "id": "A000965",
+  "mentions": [
+    "A006656",
+    "A069853"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

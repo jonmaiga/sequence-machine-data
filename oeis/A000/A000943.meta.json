@@ -1,0 +1,19 @@
+{
+  "description": "Number of combinatorial types of simplicial n-dimensional polytopes with n+3 nodes.",
+  "id": "A000943",
+  "mentions": [
+    "A000944",
+    "A049337"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:54:41",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}
