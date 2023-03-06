@@ -1,3 +1,3 @@
 # Sequence Machine Data
 
-Repository with terms, meta and programs.
+Repository with terms (lfs), meta and programs.
