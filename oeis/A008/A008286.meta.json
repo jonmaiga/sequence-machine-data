@@ -1,0 +1,18 @@
+{
+  "description": "Number of different parameter sets for orthogonal arrays with 2^n runs.",
+  "id": "A008286",
+  "mentions": [
+    "A049082"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

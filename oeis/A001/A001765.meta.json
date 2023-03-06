@@ -1,0 +1,24 @@
+{
+  "description": "Coefficients of iterated exponentials.",
+  "id": "A001765",
+  "mentions": [
+    "A000258",
+    "A000268",
+    "A000310",
+    "A000359",
+    "A000406",
+    "A003713"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

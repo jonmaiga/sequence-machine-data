@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-step polygons on f.c.c. lattice.",
+  "id": "A002899",
+  "mentions": [
+    "A002895",
+    "A002898"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

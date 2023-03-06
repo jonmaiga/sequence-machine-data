@@ -1,0 +1,25 @@
+{
+  "description": "Shifts one place left under 4th-order binomial transform.",
+  "id": "A004213",
+  "mentions": [
+    "A000110",
+    "A003633",
+    "A004211",
+    "A004212",
+    "A005011",
+    "A075499"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:50:18",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

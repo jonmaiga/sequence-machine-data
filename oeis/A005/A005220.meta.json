@@ -1,0 +1,21 @@
+{
+  "description": "Number of Dyck paths of knight moves.",
+  "id": "A005220",
+  "mentions": [
+    "A285174"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

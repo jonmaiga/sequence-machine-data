@@ -1,0 +1,21 @@
+{
+  "description": "A generalized continued fraction for Euler's number e.",
+  "id": "A005131",
+  "mentions": [
+    "A003417",
+    "A016825",
+    "A100261"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:32:09",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

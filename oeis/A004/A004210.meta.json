@@ -1,0 +1,25 @@
+{
+  "description": "\"Magic\" integers: a(n+1) is the smallest integer m such that there is no overlap between the sets {m, m-a(i), m+a(i): 1 <= i <= n} and {a(i), a(i)-a(j), a(i)+a(j): 1 <= j < i <= n}.",
+  "id": "A004210",
+  "mentions": [
+    "A000969",
+    "A005228",
+    "A126428",
+    "A206522",
+    "A206523",
+    "A206524"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:35",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

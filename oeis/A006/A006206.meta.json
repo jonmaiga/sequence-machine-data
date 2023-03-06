@@ -1,0 +1,36 @@
+{
+  "description": "Number of aperiodic binary necklaces of length n with no subsequence 00, excluding the necklace \"0\".",
+  "id": "A006206",
+  "mentions": [
+    "A000045",
+    "A001461",
+    "A001610",
+    "A006207",
+    "A006208",
+    "A006209",
+    "A006210",
+    "A006211",
+    "A008683",
+    "A027750",
+    "A031367",
+    "A060280",
+    "A094392",
+    "A113788",
+    "A125951",
+    "A130628",
+    "A208092"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

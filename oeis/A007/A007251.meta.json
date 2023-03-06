@@ -1,0 +1,21 @@
+{
+  "description": "McKay-Thompson series of class 5A for the Monster group.",
+  "id": "A007251",
+  "mentions": [
+    "A045482",
+    "A106248",
+    "A121591",
+    "A244745"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": -1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

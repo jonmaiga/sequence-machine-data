@@ -1,0 +1,19 @@
+{
+  "description": "Magnetization series for face-centered cubic lattice.",
+  "id": "A003196",
+  "mentions": [
+    "A003193",
+    "A007239"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of n-node connected unicyclic graphs.",
+  "id": "A001429",
+  "mentions": [
+    "A000055",
+    "A000081",
+    "A005347",
+    "A027852",
+    "A054924",
+    "A068051",
+    "A236570"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 3,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

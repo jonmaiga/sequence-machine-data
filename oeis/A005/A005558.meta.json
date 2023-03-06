@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the number of n-step walks on square lattice such that 0 <= y <= x at each step.",
+  "id": "A005558",
+  "mentions": [
+    "A000108",
+    "A000888",
+    "A000891",
+    "A005555",
+    "A005559",
+    "A005560",
+    "A005561",
+    "A005562",
+    "A005817",
+    "A093768",
+    "A138350"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

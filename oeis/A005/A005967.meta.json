@@ -1,0 +1,25 @@
+{
+  "description": "Number of isomorphism classes of connected 3-regular multigraphs of order 2n, loops allowed.",
+  "id": "A005967",
+  "mentions": [
+    "A000421",
+    "A085549",
+    "A129427",
+    "A129430",
+    "A129432",
+    "A129434",
+    "A129436",
+    "A333397"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

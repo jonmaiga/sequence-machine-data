@@ -1,0 +1,21 @@
+{
+  "description": "Weight distribution of binary Golay code of length 24.",
+  "id": "A001380",
+  "mentions": [
+    "A002289",
+    "A034414",
+    "A034415"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

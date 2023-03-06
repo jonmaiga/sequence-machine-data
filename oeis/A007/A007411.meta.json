@@ -1,0 +1,23 @@
+{
+  "description": "Number of matrices with n columns whose rows do not cover each other. Also antichain covers of an unlabeled n-set.",
+  "id": "A007411",
+  "mentions": [
+    "A003182",
+    "A006126",
+    "A006602",
+    "A037843"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

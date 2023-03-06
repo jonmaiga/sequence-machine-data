@@ -1,0 +1,20 @@
+{
+  "description": "Order of simple Chevalley group E_8(2).",
+  "id": "A003133",
+  "mentions": [
+    "A008868"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:26:51",
+    "offset": 75,
+    "size": 75,
+    "source": "joeis"
+  }
+}

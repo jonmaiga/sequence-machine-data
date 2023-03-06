@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of the expansion of -W_{-1}(-e^(-1 - x^2/2)) where x > 0 and W_{-1} is the Lambert W function.",
+  "id": "A005447",
+  "mentions": [
+    "A005446",
+    "A065973",
+    "A090804",
+    "A299430",
+    "A299431",
+    "A299432",
+    "A299433"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

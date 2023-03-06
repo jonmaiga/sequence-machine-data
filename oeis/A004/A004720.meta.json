@@ -1,0 +1,22 @@
+{
+  "description": "Delete all digits '1' from the sequence of nonnegative integers.",
+  "id": "A004720",
+  "mentions": [
+    "A004176",
+    "A004719",
+    "A004721"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:25",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

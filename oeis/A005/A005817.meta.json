@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = C(floor(n/2 + 1/2))*C(floor(n/2 + 1)) where C(i) = Catalan numbers A000108.",
+  "id": "A005817",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A001246",
+    "A001405",
+    "A005568",
+    "A005700",
+    "A007578",
+    "A007579",
+    "A049401",
+    "A182172"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

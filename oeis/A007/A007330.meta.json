@@ -1,0 +1,24 @@
+{
+  "description": "Unexplained difference between two partition g.f.s.",
+  "id": "A007330",
+  "mentions": [
+    "A000427",
+    "A000428",
+    "A007326",
+    "A007327",
+    "A007328",
+    "A007329"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

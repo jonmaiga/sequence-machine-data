@@ -1,0 +1,27 @@
+{
+  "description": "Number of oriented graphs (i.e., digraphs with no bidirected edges) on n unlabeled nodes. Also number of complete digraphs on n unlabeled nodes. Number of antisymmetric relations (i.e., oriented graphs with loops) on n unlabeled nodes is A083670.",
+  "id": "A001174",
+  "mentions": [
+    "A000088",
+    "A000595",
+    "A001173",
+    "A047656",
+    "A054941",
+    "A083670",
+    "A086345",
+    "A281446"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 5^n - 2^n.",
+  "id": "A005057",
+  "mentions": [
+    "A000079",
+    "A000351",
+    "A016127",
+    "A024036"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

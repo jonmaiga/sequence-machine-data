@@ -1,0 +1,20 @@
+{
+  "description": "Sum a(n) x^n / n = log (1 + Sum g(n) x^n ), where g(n) is # graphs on n nodes (A000088).",
+  "id": "A003083",
+  "mentions": [
+    "A000088",
+    "A001349"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:47:41",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

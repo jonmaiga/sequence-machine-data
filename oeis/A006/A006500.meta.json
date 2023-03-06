@@ -1,0 +1,27 @@
+{
+  "description": "Restricted combinations.",
+  "id": "A006500",
+  "mentions": [
+    "A000045",
+    "A000051",
+    "A002524",
+    "A002529",
+    "A072827",
+    "A072850",
+    "A072856",
+    "A079955",
+    "A080014"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

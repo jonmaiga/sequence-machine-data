@@ -1,0 +1,18 @@
+{
+  "description": "Coordination sequence T4 for Zeolite Code DAC.",
+  "id": "A008070",
+  "mentions": [
+    "A005897",
+    "A008000"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:47:31",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

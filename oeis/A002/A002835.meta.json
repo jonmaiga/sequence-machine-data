@@ -1,0 +1,17 @@
+{
+  "description": "Solid partitions of n which are restricted to two planes.",
+  "id": "A002835",
+  "mentions": [
+    "A000293"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:25:03",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "3-Bell numbers: E.g.f.: exp(3*z + exp(z) - 1).",
+  "id": "A005494",
+  "mentions": [
+    "A000110",
+    "A001861",
+    "A005493",
+    "A045379",
+    "A108087",
+    "A124323",
+    "A143495",
+    "A196834"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

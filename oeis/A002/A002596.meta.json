@@ -1,0 +1,30 @@
+{
+  "description": "Numerators in expansion of sqrt(1+x). Absolute values give numerators in expansion of sqrt(1-x).",
+  "id": "A002596",
+  "mentions": [
+    "A000108",
+    "A000265",
+    "A001795",
+    "A001803",
+    "A046161",
+    "A048881",
+    "A098597",
+    "A161198",
+    "A161200",
+    "A161202"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

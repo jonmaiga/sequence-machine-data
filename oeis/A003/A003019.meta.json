@@ -1,0 +1,27 @@
+{
+  "description": "Number of distinct values taken by 4^4^...^4 (with n 4's and parentheses inserted in all possible ways).",
+  "id": "A003019",
+  "mentions": [
+    "A000081",
+    "A002845",
+    "A003018",
+    "A145545",
+    "A145546",
+    "A145547",
+    "A145548",
+    "A145549",
+    "A145550"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

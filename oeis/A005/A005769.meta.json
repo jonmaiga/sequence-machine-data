@@ -1,0 +1,21 @@
+{
+  "description": "Number of convex polygons of length 2n on square lattice whose leftmost bottom vertex is strictly to the right of the rightmost top vertex.",
+  "id": "A005769",
+  "mentions": [
+    "A005436",
+    "A005768",
+    "A005770"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:56:07",
+    "offset": 6,
+    "size": 23,
+    "source": "joeis"
+  }
+}

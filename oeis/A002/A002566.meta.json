@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to attack all squares on an n X n chessboard using the smallest possible number of queens with each queen attacking at least one other.",
+  "id": "A002566",
+  "mentions": [
+    "A002560",
+    "A002564",
+    "A002565",
+    "A002568"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

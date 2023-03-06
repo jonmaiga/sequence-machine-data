@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of {1, 2, ..., 2n} into pairs whose differences are primes.",
+  "id": "A009692",
+  "mentions": [
+    "A000341"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

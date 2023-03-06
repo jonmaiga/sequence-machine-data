@@ -1,0 +1,18 @@
+{
+  "description": "n-th digit after decimal point of square root of n.",
+  "id": "A003076",
+  "mentions": [
+    "A071901"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

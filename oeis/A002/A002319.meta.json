@@ -1,0 +1,21 @@
+{
+  "description": "Order of largest (finite) group with n conjugacy classes.",
+  "id": "A002319",
+  "mentions": [
+    "A003061",
+    "A006379",
+    "A073043"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

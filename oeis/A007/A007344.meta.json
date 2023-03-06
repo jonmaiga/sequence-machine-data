@@ -1,0 +1,15 @@
+{
+  "description": "Number of homogeneous primitive partition identities of degree 6 with largest part n.",
+  "id": "A007344",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 4,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

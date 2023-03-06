@@ -1,0 +1,40 @@
+{
+  "description": "a(n) is the number of partitions of 2n that can be obtained by adding together two (not necessarily distinct) partitions of n.",
+  "id": "A002219",
+  "mentions": [
+    "A000041",
+    "A002220",
+    "A002221",
+    "A002222",
+    "A006827",
+    "A046663",
+    "A064914",
+    "A108917",
+    "A122768",
+    "A213074",
+    "A213086",
+    "A235130",
+    "A237194",
+    "A237258",
+    "A276024",
+    "A276107",
+    "A284640",
+    "A300061",
+    "A304792",
+    "A357854",
+    "A357879",
+    "A357976"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

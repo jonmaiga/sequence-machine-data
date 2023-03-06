@@ -1,0 +1,32 @@
+{
+  "description": "Squares of tetrahedral numbers: a(n) = binomial(n+3,n)^2.",
+  "id": "A001249",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000292",
+    "A000330",
+    "A000579",
+    "A001303",
+    "A006542",
+    "A008459",
+    "A033455",
+    "A040977",
+    "A060187",
+    "A086020",
+    "A087107",
+    "A108674"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:18:13",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

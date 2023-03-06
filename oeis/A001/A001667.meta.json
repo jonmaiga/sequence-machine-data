@@ -1,0 +1,23 @@
+{
+  "description": "2n-step polygons on b.c.c. lattice.",
+  "id": "A001667",
+  "mentions": [
+    "A001337",
+    "A001413",
+    "A001666",
+    "A038515"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

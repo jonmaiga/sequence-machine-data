@@ -1,0 +1,16 @@
+{
+  "description": "Numbers that are the sum of 12 positive 10th powers.",
+  "id": "A004812",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

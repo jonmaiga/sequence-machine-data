@@ -1,0 +1,26 @@
+{
+  "description": "Binomial coefficient C(4n,n-4).",
+  "id": "A004334",
+  "mentions": [
+    "A000027",
+    "A002694",
+    "A004321",
+    "A004347",
+    "A004361",
+    "A004375",
+    "A004389",
+    "A281580"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 4,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

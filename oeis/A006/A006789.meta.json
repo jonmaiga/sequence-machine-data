@@ -1,0 +1,21 @@
+{
+  "description": "Bessel numbers: the number of nonoverlapping partitions of an n-set into equivalence classes.",
+  "id": "A006789",
+  "mentions": [
+    "A000110",
+    "A086880",
+    "A153197",
+    "A153206"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

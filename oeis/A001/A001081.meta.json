@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 16*a(n-1) - a(n-2).",
+  "id": "A001081",
+  "mentions": [
+    "A000051",
+    "A001080",
+    "A010727",
+    "A049310",
+    "A053120",
+    "A076445",
+    "A077412",
+    "A090727"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Molien series for 4-dimensional complex reflection group of order 7680 (in powers of x^4).",
+  "id": "A008669",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

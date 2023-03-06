@@ -1,0 +1,18 @@
+{
+  "description": "Ordered legs of Pythagorean triangles.",
+  "id": "A009041",
+  "mentions": [
+    "A009004",
+    "A009012"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:50:35",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

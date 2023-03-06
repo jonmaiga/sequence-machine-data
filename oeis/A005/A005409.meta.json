@@ -1,0 +1,29 @@
+{
+  "description": "Number of polynomials of height n: a(1)=1, a(2)=1, a(3)=4, a(n) = 2*a(n-1) + a(n-2) + 2 for n >= 4.",
+  "id": "A005409",
+  "mentions": [
+    "A000051",
+    "A000129",
+    "A001333",
+    "A002002",
+    "A006189",
+    "A048654",
+    "A048655",
+    "A048745",
+    "A214931",
+    "A216211"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

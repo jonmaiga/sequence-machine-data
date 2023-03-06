@@ -1,0 +1,27 @@
+{
+  "description": "Natural numbers, pairs reversed: a(n) = n + (-1)^n; also Nimsum n + 1.",
+  "id": "A004442",
+  "mentions": [
+    "A003987",
+    "A004443",
+    "A004444",
+    "A005408",
+    "A005843",
+    "A014681",
+    "A059841",
+    "A180176"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

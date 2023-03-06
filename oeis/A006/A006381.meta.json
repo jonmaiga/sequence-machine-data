@@ -1,0 +1,25 @@
+{
+  "description": "Number of n X 3 binary matrices under row and column permutations and column complementations.",
+  "id": "A006381",
+  "mentions": [
+    "A000601",
+    "A002727",
+    "A005232",
+    "A006148",
+    "A006380",
+    "A006382"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:52",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

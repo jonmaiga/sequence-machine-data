@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^k.",
+  "id": "A001923",
+  "mentions": [
+    "A000312",
+    "A060946",
+    "A062815",
+    "A062970",
+    "A073825",
+    "A117887"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

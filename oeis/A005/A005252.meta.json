@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} binomial(n-2k,2k).",
+  "id": "A005252",
+  "mentions": [
+    "A000051",
+    "A005251",
+    "A005676",
+    "A007318",
+    "A010892",
+    "A024490",
+    "A106511",
+    "A111734",
+    "A173021"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

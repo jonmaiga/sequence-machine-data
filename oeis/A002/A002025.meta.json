@@ -1,0 +1,32 @@
+{
+  "description": "Smaller of an amicable pair: (a,b) such that sigma(a)=sigma(b)=a+b, a",
+  "id": "A002025",
+  "mentions": [
+    "A000203",
+    "A002046",
+    "A005101",
+    "A036471",
+    "A036474",
+    "A063990",
+    "A066873",
+    "A116148",
+    "A125490",
+    "A125492",
+    "A137231",
+    "A180164",
+    "A233553",
+    "A259180"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

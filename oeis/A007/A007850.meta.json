@@ -1,0 +1,35 @@
+{
+  "description": "Giuga numbers: composite numbers n such that p divides n/p - 1 for every prime divisor p of n.",
+  "id": "A007850",
+  "mentions": [
+    "A000010",
+    "A002322",
+    "A027641",
+    "A027642",
+    "A027759",
+    "A027760",
+    "A054377",
+    "A216823",
+    "A216824",
+    "A235137",
+    "A235138",
+    "A235140",
+    "A235363",
+    "A236434",
+    "A326690"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

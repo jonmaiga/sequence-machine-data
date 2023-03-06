@@ -1,0 +1,19 @@
+{
+  "description": "Blocks of increasing length using 1,2,3,...,9,10; omit leading 0's.",
+  "id": "A001369",
+  "mentions": [
+    "A007923",
+    "A066547"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

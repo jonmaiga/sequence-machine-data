@@ -1,0 +1,29 @@
+{
+  "description": "a(1)=2; thereafter, convert a(n-1) from base 10 to base 2 but regard the result as a base 10 number.",
+  "id": "A008559",
+  "mentions": [
+    "A006937",
+    "A006938",
+    "A020862",
+    "A242347",
+    "A260024",
+    "A260025",
+    "A260026",
+    "A260027",
+    "A260028",
+    "A260029",
+    "A260030"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-bfile"
+  }
+}

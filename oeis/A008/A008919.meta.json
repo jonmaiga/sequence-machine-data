@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that k written backwards is a nontrivial multiple of k.",
+  "id": "A008919",
+  "mentions": [
+    "A001232",
+    "A004086",
+    "A008918",
+    "A031877",
+    "A061852",
+    "A103609",
+    "A214927"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

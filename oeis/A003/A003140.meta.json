@@ -1,0 +1,18 @@
+{
+  "description": "Number of coprime chains with largest member prime(n).",
+  "id": "A003140",
+  "mentions": [
+    "A003139"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

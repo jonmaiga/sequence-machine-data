@@ -1,0 +1,24 @@
+{
+  "description": "High temperature expansion of -u/J in odd powers of v = tanh(J/kT), where u is energy per site of the spin-1/2 Ising model on square lattice with nearest-neighbor interaction J at temperature T.",
+  "id": "A002908",
+  "mentions": [
+    "A002906",
+    "A002930",
+    "A007239",
+    "A010571",
+    "A010572",
+    "A010573",
+    "A010574"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:50",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

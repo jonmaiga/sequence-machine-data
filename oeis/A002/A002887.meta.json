@@ -1,0 +1,19 @@
+{
+  "description": "The minimum number of nodes of a tree with a cutting center of n nodes.",
+  "id": "A002887",
+  "mentions": [
+    "A002888",
+    "A331237"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

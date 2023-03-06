@@ -1,0 +1,18 @@
+{
+  "description": "At each step, record how many 1's, 2's, etc. have been seen so far in the sequence.",
+  "id": "A006920",
+  "mentions": [
+    "A333867"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:06:18",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

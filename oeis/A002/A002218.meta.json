@@ -1,0 +1,30 @@
+{
+  "description": "Number of unlabeled nonseparable (or 2-connected) graphs (or blocks) with n nodes.",
+  "id": "A002218",
+  "mentions": [
+    "A000088",
+    "A001349",
+    "A004115",
+    "A006289",
+    "A006290",
+    "A010355",
+    "A013922",
+    "A241767",
+    "A325111",
+    "A339070",
+    "A339071",
+    "A339645"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

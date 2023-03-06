@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of forests with n (unlabeled) nodes in which each component tree is planted, that is, is a rooted tree in which the root has degree 1.",
+  "id": "A005198",
+  "mentions": [
+    "A000081"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

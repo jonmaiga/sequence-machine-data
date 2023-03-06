@@ -1,0 +1,18 @@
+{
+  "description": "Numbers not of form p + 2^x + 2^y.",
+  "id": "A006286",
+  "mentions": [
+    "A006285",
+    "A156695"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:37:23",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

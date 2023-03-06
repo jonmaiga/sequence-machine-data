@@ -1,0 +1,29 @@
+{
+  "description": "Sum of fourth powers of Fibonacci numbers.",
+  "id": "A005969",
+  "mentions": [
+    "A000045",
+    "A000051",
+    "A000071",
+    "A001654",
+    "A005968",
+    "A056571",
+    "A098531",
+    "A098532",
+    "A098533",
+    "A119285",
+    "A128697"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

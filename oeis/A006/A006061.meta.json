@@ -1,0 +1,22 @@
+{
+  "description": "Star numbers (A003154) that are squares.",
+  "id": "A006061",
+  "mentions": [
+    "A000051",
+    "A003154",
+    "A007667",
+    "A054320"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

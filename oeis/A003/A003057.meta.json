@@ -1,0 +1,25 @@
+{
+  "description": "n appears n - 1 times.",
+  "id": "A003057",
+  "mentions": [
+    "A002024",
+    "A002260",
+    "A004736",
+    "A063929",
+    "A073189",
+    "A080036",
+    "A161680"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:26:15",
+    "offset": 2,
+    "size": 82,
+    "source": "joeis"
+  }
+}

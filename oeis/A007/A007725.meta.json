@@ -1,0 +1,23 @@
+{
+  "description": "Number of spanning trees of Aztec diamonds of order n.",
+  "id": "A007725",
+  "mentions": [
+    "A006752",
+    "A007726",
+    "A340166",
+    "A340176",
+    "A340185",
+    "A340352"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:58:34",
+    "offset": 0,
+    "size": 9,
+    "source": "joeis"
+  }
+}

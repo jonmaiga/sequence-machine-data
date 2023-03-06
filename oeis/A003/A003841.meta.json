@@ -1,0 +1,22 @@
+{
+  "description": "Order of universal Chevalley group D_2(q), q = prime power.",
+  "id": "A003841",
+  "mentions": [
+    "A000961",
+    "A003830",
+    "A007531",
+    "A014796"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:29:31",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

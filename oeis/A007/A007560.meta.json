@@ -1,0 +1,22 @@
+{
+  "description": "Number of planted identity trees where non-root, non-leaf nodes an even distance from root are of degree 2.",
+  "id": "A007560",
+  "mentions": [
+    "A003633",
+    "A007562",
+    "A316074"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

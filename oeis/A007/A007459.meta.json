@@ -1,0 +1,22 @@
+{
+  "description": "Higgs's primes: a(n+1) = smallest prime > a(n) such that a(n+1)-1 divides the product (a(1)...a(n))^2.",
+  "id": "A007459",
+  "mentions": [
+    "A007376",
+    "A057447",
+    "A057448",
+    "A057459",
+    "A282027"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:44:45",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

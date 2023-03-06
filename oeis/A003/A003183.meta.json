@@ -1,0 +1,21 @@
+{
+  "description": "Number of NPN-equivalence classes of unate Boolean functions of n or fewer variables.",
+  "id": "A003183",
+  "mentions": [
+    "A000371",
+    "A006602",
+    "A120587",
+    "A120608"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

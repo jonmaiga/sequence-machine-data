@@ -1,0 +1,18 @@
+{
+  "description": "Invertible Boolean functions with AG(n,2) acting on the domain and range.",
+  "id": "A001537",
+  "mentions": [
+    "A000722",
+    "A128904"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of cosh(x)*cos(tan(x)).",
+  "id": "A009176",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:53:49",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

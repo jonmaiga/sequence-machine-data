@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers that are not of the form x^2 + y^2 + 10*z^2.",
+  "id": "A003585",
+  "mentions": [
+    "A002145"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

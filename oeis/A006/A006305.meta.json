@@ -1,0 +1,21 @@
+{
+  "description": "Taylor series related to one in Ramanujan's Lost Notebook.",
+  "id": "A006305",
+  "mentions": [
+    "A006304",
+    "A006306"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

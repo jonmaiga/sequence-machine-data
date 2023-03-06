@@ -1,0 +1,29 @@
+{
+  "description": "Number of partitions of {1..2n} that are invariant under a permutation consisting of n 2-cycles.",
+  "id": "A002872",
+  "mentions": [
+    "A000262",
+    "A002868",
+    "A002873",
+    "A002874",
+    "A005425",
+    "A080107",
+    "A085483",
+    "A162663",
+    "A293181",
+    "A306024"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

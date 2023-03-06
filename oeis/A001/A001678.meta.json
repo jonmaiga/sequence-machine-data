@@ -1,0 +1,37 @@
+{
+  "description": "Number of series-reduced planted trees with n nodes.",
+  "id": "A001678",
+  "mentions": [
+    "A000014",
+    "A000081",
+    "A000669",
+    "A001679",
+    "A004111",
+    "A005202",
+    "A007827",
+    "A059123",
+    "A060356",
+    "A106179",
+    "A108919",
+    "A198518",
+    "A246403",
+    "A254382",
+    "A291636",
+    "A330951",
+    "A331488",
+    "A331578"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2-diregular connected digraphs with n nodes.",
+  "id": "A005642",
+  "mentions": [
+    "A005641",
+    "A123544",
+    "A306892"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

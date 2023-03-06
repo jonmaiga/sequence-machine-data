@@ -1,0 +1,19 @@
+{
+  "description": "Coordination sequence for 4-dimensional face-centered cubic orthogonal lattice.",
+  "id": "A008529",
+  "mentions": [
+    "A008527"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:48:25",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of average distance traveled by n-dimensional fly.",
+  "id": "A004734",
+  "mentions": [
+    "A004735"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:24:35",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of bipartite polyhedral graphs with n nodes.",
+  "id": "A007028",
+  "mentions": [
+    "A000103"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 8,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of partially achiral planted trees with n nodes.",
+  "id": "A003237",
+  "mentions": [
+    "A000051",
+    "A000081"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

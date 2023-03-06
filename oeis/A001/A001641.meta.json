@@ -1,0 +1,27 @@
+{
+  "description": "A Fielder sequence: a(n) = a(n-1) + a(n-2) + a(n-4).",
+  "id": "A001641",
+  "mentions": [
+    "A000051",
+    "A001609",
+    "A001634",
+    "A001636",
+    "A001638",
+    "A001645",
+    "A001648",
+    "A001649",
+    "A060945"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

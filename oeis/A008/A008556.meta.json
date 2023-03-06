@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of coefficients of Legendre polynomials 2^n P_n (x).",
+  "id": "A008556",
+  "mentions": [
+    "A115951"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

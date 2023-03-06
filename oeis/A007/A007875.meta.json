@@ -1,0 +1,31 @@
+{
+  "description": "Number of ways of writing n as p*q, with p <= q, gcd(p, q) = 1.",
+  "id": "A007875",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000079",
+    "A001221",
+    "A001620",
+    "A002110",
+    "A007955",
+    "A018892",
+    "A034444",
+    "A048105",
+    "A074962",
+    "A225817"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:46:59",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

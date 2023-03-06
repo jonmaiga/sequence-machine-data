@@ -1,0 +1,39 @@
+{
+  "description": "Sorting numbers: maximal number of comparisons for sorting n elements by list merging.",
+  "id": "A003071",
+  "mentions": [
+    "A000120",
+    "A000337",
+    "A000523",
+    "A001855",
+    "A002064",
+    "A006519",
+    "A029886",
+    "A061297",
+    "A061338",
+    "A092246",
+    "A092524",
+    "A093431",
+    "A102393",
+    "A104258",
+    "A122248",
+    "A128975",
+    "A133457",
+    "A230709",
+    "A230720",
+    "A230721"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

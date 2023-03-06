@@ -1,0 +1,25 @@
+{
+  "description": "Number of walks on cubic lattice.",
+  "id": "A005570",
+  "mentions": [
+    "A000051",
+    "A000217",
+    "A001620",
+    "A005555",
+    "A158057",
+    "A250129"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:34:15",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

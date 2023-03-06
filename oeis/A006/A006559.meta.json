@@ -1,0 +1,21 @@
+{
+  "description": "Short period primes: the decimal expansion of 1/p has period less than p-1, but greater than zero.",
+  "id": "A006559",
+  "mentions": [
+    "A006556",
+    "A006883"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:52",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of loopless rooted planar maps with 3 faces and n vertices and no isthmuses. Also a(n)=T(4,n-3), array T as in A049600.",
+  "id": "A006416",
+  "mentions": [
+    "A000051",
+    "A049600",
+    "A342980"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:38:13",
+    "offset": 2,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Multiples of 9: a(n) = 9*n.",
+  "id": "A008591",
+  "mentions": [
+    "A002283",
+    "A007953",
+    "A008588",
+    "A008589",
+    "A008590",
+    "A060544",
+    "A168182",
+    "A168183"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:48:27",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

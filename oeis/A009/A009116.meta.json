@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of e.g.f. cos(x) / exp(x).",
+  "id": "A009116",
+  "mentions": [
+    "A009545",
+    "A016116",
+    "A066321",
+    "A075553",
+    "A090132",
+    "A098158",
+    "A099087",
+    "A104597",
+    "A146559",
+    "A271472"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

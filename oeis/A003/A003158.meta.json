@@ -1,0 +1,22 @@
+{
+  "description": "A self-generating sequence (see Comments in A003156 for the definition).",
+  "id": "A003158",
+  "mentions": [
+    "A001045",
+    "A003156",
+    "A003157",
+    "A079523",
+    "A092606"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:26:57",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

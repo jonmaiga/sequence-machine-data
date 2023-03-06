@@ -1,0 +1,20 @@
+{
+  "description": "Number of 2n-bead black-white reversible complementable necklaces with n black beads.",
+  "id": "A006840",
+  "mentions": [
+    "A005513",
+    "A045629",
+    "A259341"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

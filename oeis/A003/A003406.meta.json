@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of Ramanujan's function R(x) = 1 + Sum_{n >= 1} { x^(n*(n+1)/2) / ((1+x)(1+x^2)(1+x^3)...(1+x^n)) }.",
+  "id": "A003406",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000025",
+    "A003475",
+    "A005895",
+    "A005896",
+    "A117192",
+    "A117193",
+    "A158690"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

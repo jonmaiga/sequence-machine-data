@@ -1,0 +1,36 @@
+{
+  "description": "Triangle of coefficients from fractional iteration of e^x - 1.",
+  "id": "A008826",
+  "mentions": [
+    "A000110",
+    "A000111",
+    "A000258",
+    "A002846",
+    "A005121",
+    "A006472",
+    "A008277",
+    "A008827",
+    "A059355",
+    "A306186",
+    "A317176",
+    "A318813",
+    "A320154",
+    "A330667",
+    "A330679",
+    "A330727",
+    "A330784"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:20:42",
+    "offset": 2,
+    "size": 38,
+    "source": "joeis"
+  }
+}

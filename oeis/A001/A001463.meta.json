@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of A001462; also a(n) is the last occurrence of n in A001462.",
+  "id": "A001463",
+  "mentions": [
+    "A000051",
+    "A001149",
+    "A001462",
+    "A005282"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

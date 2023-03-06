@@ -1,0 +1,38 @@
+{
+  "description": "Hypotenuse numbers (squares are sums of 2 nonzero squares).",
+  "id": "A009003",
+  "mentions": [
+    "A002144",
+    "A004144",
+    "A004431",
+    "A004613",
+    "A005089",
+    "A006339",
+    "A008846",
+    "A009000",
+    "A024507",
+    "A072592",
+    "A083025",
+    "A084645",
+    "A084646",
+    "A084647",
+    "A084648",
+    "A084649",
+    "A120817",
+    "A146984",
+    "A187811",
+    "A210850",
+    "A331548"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

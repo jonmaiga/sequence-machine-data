@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that the NSW number A002315((p-1)/2) is prime.",
+  "id": "A005850",
+  "mentions": [
+    "A002315",
+    "A088165",
+    "A099088"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

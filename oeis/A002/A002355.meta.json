@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of convergents to cube root of 4.",
+  "id": "A002355",
+  "mentions": [
+    "A002356",
+    "A005480"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

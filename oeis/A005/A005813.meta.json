@@ -1,0 +1,18 @@
+{
+  "description": "Molien series for 6-dimensional complex representation of double cover of J2.",
+  "id": "A005813",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:35",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

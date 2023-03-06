@@ -1,0 +1,20 @@
+{
+  "description": "Number of noncommutative SL(2,C)-invariants of degree n in 5 variables.",
+  "id": "A007043",
+  "mentions": [
+    "A000108",
+    "A007042",
+    "A348210"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

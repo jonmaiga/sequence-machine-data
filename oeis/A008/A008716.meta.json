@@ -1,0 +1,18 @@
+{
+  "description": "19 in base 19-n.",
+  "id": "A008716",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

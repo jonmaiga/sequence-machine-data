@@ -1,0 +1,28 @@
+{
+  "description": "Skip 1, take 1, skip 2, take 2, skip 3, take 3, etc.",
+  "id": "A004202",
+  "mentions": [
+    "A000217",
+    "A002024",
+    "A002378",
+    "A004201",
+    "A007606",
+    "A014132",
+    "A064801",
+    "A127739",
+    "A184117",
+    "A256188"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3 X 3 symmetric stochastic matrices under row and column permutations.",
+  "id": "A008764",
+  "mentions": [
+    "A008762",
+    "A019298"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:49:03",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

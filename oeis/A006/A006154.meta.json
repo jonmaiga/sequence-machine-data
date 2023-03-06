@@ -1,0 +1,25 @@
+{
+  "description": "Number of labeled ordered partitions of an n-set into odd parts.",
+  "id": "A006154",
+  "mentions": [
+    "A000045",
+    "A000111",
+    "A000670",
+    "A003724",
+    "A193474",
+    "A196776"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

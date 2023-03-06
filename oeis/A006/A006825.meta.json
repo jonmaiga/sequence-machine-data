@@ -1,0 +1,22 @@
+{
+  "description": "Number of connected regular bipartite graphs of degree 5 with 2n nodes.",
+  "id": "A006825",
+  "mentions": [
+    "A006823",
+    "A006824",
+    "A008326",
+    "A333731"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 5,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

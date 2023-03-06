@@ -1,0 +1,16 @@
+{
+  "description": "Number of connected labeled 2-regular oriented graphs with n nodes.",
+  "id": "A007110",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

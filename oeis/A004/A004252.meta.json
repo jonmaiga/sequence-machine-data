@@ -1,0 +1,17 @@
+{
+  "description": "Path sums of n-point graphs.",
+  "id": "A004252",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

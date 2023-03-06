@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected unlabeled graphs with n nodes and degree >= 3.",
+  "id": "A007112",
+  "mentions": [
+    "A123545"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

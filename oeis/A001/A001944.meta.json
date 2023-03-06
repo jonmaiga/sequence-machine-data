@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of 4 distinct squares: of form w^2 + x^2 + y^2 + z^2 with 0 <= w < x < y < z.",
+  "id": "A001944",
+  "mentions": [
+    "A001948",
+    "A001974",
+    "A001983",
+    "A001995"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:20:05",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

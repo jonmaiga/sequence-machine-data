@@ -1,0 +1,28 @@
+{
+  "description": "Number of divisors of n-th highly composite number.",
+  "id": "A002183",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A002201",
+    "A006218",
+    "A061799",
+    "A070319",
+    "A243220",
+    "A261100",
+    "A329605",
+    "A329902"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

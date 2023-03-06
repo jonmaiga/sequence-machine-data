@@ -1,0 +1,21 @@
+{
+  "description": "a(n+1) = a(n)*(a(n)+1).",
+  "id": "A004168",
+  "mentions": [
+    "A000058",
+    "A007018",
+    "A082732"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Crystal ball sequence for A_4 lattice.",
+  "id": "A008384",
+  "mentions": [
+    "A008383"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:47:49",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Read n backwards (referred to as R(n) in many sequences).",
+  "id": "A004086",
+  "mentions": [
+    "A004185",
+    "A004186",
+    "A009996",
+    "A030101",
+    "A030102",
+    "A030103",
+    "A030104",
+    "A030105",
+    "A030107",
+    "A030108",
+    "A073138",
+    "A188649",
+    "A221714"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

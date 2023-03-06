@@ -1,0 +1,21 @@
+{
+  "description": "Values taken by the half-totient function phi(m)/2.",
+  "id": "A002180",
+  "mentions": [
+    "A002202",
+    "A079695"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:21:49",
+    "offset": 2,
+    "size": 66,
+    "source": "joeis"
+  }
+}

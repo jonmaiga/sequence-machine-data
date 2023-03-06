@@ -1,0 +1,32 @@
+{
+  "description": "Numbers whose digits contain no loops (version 2).",
+  "id": "A001742",
+  "mentions": [
+    "A001729",
+    "A001743",
+    "A001744",
+    "A014261",
+    "A014263",
+    "A029581",
+    "A046034",
+    "A084545",
+    "A084984",
+    "A190222",
+    "A190223",
+    "A202267",
+    "A202268"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

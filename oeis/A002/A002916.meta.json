@@ -1,0 +1,25 @@
+{
+  "description": "High temperature series for spin-1/2 Ising specific heat on 3-dimensional simple cubic lattice.",
+  "id": "A002916",
+  "mentions": [
+    "A001393",
+    "A001408",
+    "A002169",
+    "A002913",
+    "A002917",
+    "A002918",
+    "A010571",
+    "A029872"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

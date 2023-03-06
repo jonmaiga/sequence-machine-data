@@ -1,0 +1,23 @@
+{
+  "description": "Let P(n) of a sequence s(1),s(2),s(3),... be obtained by leaving s(1),...,s(n) fixed and reversing every n consecutive terms thereafter; apply P(2) to 1,2,3,... to get PS(2), then apply P(3) to PS(2) to get PS(3), then apply P(4) to PS(3), etc. This sequence is the limit of PS(n).",
+  "id": "A007062",
+  "mentions": [
+    "A057030",
+    "A057032",
+    "A057033",
+    "A057063",
+    "A057064"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:52",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

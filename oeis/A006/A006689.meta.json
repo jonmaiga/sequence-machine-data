@@ -1,0 +1,22 @@
+{
+  "description": "Number of deterministic, completely-defined, initially-connected finite automata with 2 inputs and n unlabeled states.",
+  "id": "A006689",
+  "mentions": [
+    "A006690",
+    "A082166",
+    "A107667",
+    "A107670"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:30:05",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "The nim-square of n.",
+  "id": "A006042",
+  "mentions": [
+    "A006017",
+    "A051775",
+    "A051776",
+    "A051917",
+    "A160679",
+    "A212200",
+    "A335162",
+    "A335170",
+    "A335171",
+    "A335172",
+    "A335173",
+    "A335535",
+    "A335536"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

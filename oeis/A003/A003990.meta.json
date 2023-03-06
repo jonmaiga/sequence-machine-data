@@ -1,0 +1,30 @@
+{
+  "description": "Table of lcm(x,y), read along antidiagonals.",
+  "id": "A003990",
+  "mentions": [
+    "A002260",
+    "A003986",
+    "A003989",
+    "A003991",
+    "A006580",
+    "A051173",
+    "A075173",
+    "A075174",
+    "A075175",
+    "A075176"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "look",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:29:35",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

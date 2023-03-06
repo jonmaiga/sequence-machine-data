@@ -1,0 +1,25 @@
+{
+  "description": "Number of permutations of (1,...,n) having n-5 inversions (n>=5).",
+  "id": "A005283",
+  "mentions": [
+    "A000707",
+    "A001892",
+    "A001893",
+    "A001894",
+    "A005284",
+    "A005285",
+    "A008302",
+    "A048651"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 5,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

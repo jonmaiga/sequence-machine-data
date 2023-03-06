@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-node trees of height at most 4.",
+  "id": "A001384",
+  "mentions": [
+    "A000041",
+    "A000235",
+    "A001383",
+    "A123467"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:04:50",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

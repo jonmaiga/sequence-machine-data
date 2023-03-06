@@ -1,0 +1,20 @@
+{
+  "description": "Let F(x) = 1 + x + 4x^2 + 10x^3 + ... = g.f. for A000293 (solid partitions) and expand (1-x)(1-x^2)(1-x^3)...*F(x) in powers of x.",
+  "id": "A002836",
+  "mentions": [
+    "A000041",
+    "A000293",
+    "A005980",
+    "A161564"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

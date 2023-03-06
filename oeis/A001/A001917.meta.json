@@ -1,0 +1,27 @@
+{
+  "description": "(p-1)/x, where p = prime(n) and x = ord(2,p), the smallest positive integer such that 2^x == 1 mod p.",
+  "id": "A001917",
+  "mentions": [
+    "A001122",
+    "A001133",
+    "A001134",
+    "A001135",
+    "A001136",
+    "A002323",
+    "A006694",
+    "A101208",
+    "A115591"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:08:49",
+    "offset": 2,
+    "size": 103,
+    "source": "joeis"
+  }
+}

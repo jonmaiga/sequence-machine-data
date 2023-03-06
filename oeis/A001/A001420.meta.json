@@ -1,0 +1,24 @@
+{
+  "description": "Number of fixed 2-dimensional triangular-celled animals with n cells (n-iamonds, polyiamonds) in the 2-dimensional hexagonal lattice.",
+  "id": "A001420",
+  "mentions": [
+    "A000577",
+    "A001168",
+    "A006534",
+    "A006770",
+    "A030223",
+    "A030224"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

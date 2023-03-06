@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that contain primes to odd powers only.",
+  "id": "A002035",
+  "mentions": [
+    "A000203",
+    "A036537",
+    "A065463",
+    "A072586",
+    "A072587",
+    "A124010",
+    "A162644",
+    "A188999",
+    "A295316"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:20:43",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of minimally 2-edge-connected non-isomorphic graphs with n nodes.",
+  "id": "A001072",
+  "mentions": [
+    "A324088",
+    "A324410"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 3,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

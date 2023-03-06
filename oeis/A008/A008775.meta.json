@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 2/(1 + cos x * cosh x) in powers of x^4.",
+  "id": "A008775",
+  "mentions": [
+    "A076417",
+    "A101921"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

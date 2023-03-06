@@ -1,0 +1,23 @@
+{
+  "description": "Sums of successive Motzkin numbers.",
+  "id": "A005554",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A014138",
+    "A059346",
+    "A080981",
+    "A102071"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

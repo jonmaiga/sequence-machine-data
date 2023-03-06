@@ -1,0 +1,23 @@
+{
+  "description": "Product of Fibonacci and Pell numbers.",
+  "id": "A001582",
+  "mentions": [
+    "A000045",
+    "A000051",
+    "A000129",
+    "A166989"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

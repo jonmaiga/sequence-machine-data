@@ -1,0 +1,26 @@
+{
+  "description": "Number of blobs with 2n+1 edges.",
+  "id": "A003168",
+  "mentions": [
+    "A003169",
+    "A007318",
+    "A049124",
+    "A100327",
+    "A102537",
+    "A114496",
+    "A243662"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

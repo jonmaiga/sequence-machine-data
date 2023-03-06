@@ -1,0 +1,22 @@
+{
+  "description": "Number of species (or \"main classes\" or \"paratopy classes\") of Latin squares of order n.",
+  "id": "A003090",
+  "mentions": [
+    "A000170",
+    "A000315",
+    "A002860",
+    "A040082"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

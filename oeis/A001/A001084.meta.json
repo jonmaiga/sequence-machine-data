@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 20*a(n-1) - a(n-2) with a(0) = 0, a(1) = 3.",
+  "id": "A001084",
+  "mentions": [
+    "A000051",
+    "A001085",
+    "A075843",
+    "A221762"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

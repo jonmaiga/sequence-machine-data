@@ -1,0 +1,19 @@
+{
+  "description": "Weight distribution of [ 128,99,8 ] 4th order Reed-Muller code RM(4,7).",
+  "id": "A006028",
+  "mentions": [
+    "A006006",
+    "A010083"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:36:33",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into at most 12 parts.",
+  "id": "A008641",
+  "mentions": [
+    "A008284",
+    "A026810",
+    "A026811",
+    "A026812",
+    "A026813",
+    "A026814",
+    "A026815",
+    "A026816",
+    "A026820"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:53",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

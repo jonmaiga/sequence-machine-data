@@ -1,0 +1,19 @@
+{
+  "description": "Sum of Gaussian binomial coefficients [ n,k ] for q=3.",
+  "id": "A006117",
+  "mentions": [
+    "A006095"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle a(n,k) of number of M-sequences read by antidiagonals.",
+  "id": "A007723",
+  "mentions": [
+    "A003659",
+    "A007065",
+    "A007625",
+    "A011819",
+    "A011820"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are the sum of 10 positive 7th powers.",
+  "id": "A003377",
+  "mentions": [
+    "A001015"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

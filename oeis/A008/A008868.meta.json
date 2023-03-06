@@ -1,0 +1,21 @@
+{
+  "description": "Order of simple Chevalley group E_8 (q), q = prime power.",
+  "id": "A008868",
+  "mentions": [
+    "A004231",
+    "A178795"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "bref",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

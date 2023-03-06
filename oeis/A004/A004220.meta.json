@@ -1,0 +1,15 @@
+{
+  "description": "10*log_10 (n) rounded to nearest integer.",
+  "id": "A004220",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:30:37",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

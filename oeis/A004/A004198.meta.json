@@ -1,0 +1,23 @@
+{
+  "description": "Table of x AND y, where (x,y) = (0,0),(0,1),(1,0),(0,2),(1,1),(2,0),...",
+  "id": "A004198",
+  "mentions": [
+    "A003986",
+    "A003987",
+    "A075173",
+    "A075175",
+    "A221146"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:30:35",
+    "offset": 0,
+    "size": 108,
+    "source": "joeis"
+  }
+}

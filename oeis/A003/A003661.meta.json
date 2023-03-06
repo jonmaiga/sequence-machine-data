@@ -1,0 +1,16 @@
+{
+  "description": "Number of bipartite Steinhaus graphs on n nodes.",
+  "id": "A003661",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:28:51",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

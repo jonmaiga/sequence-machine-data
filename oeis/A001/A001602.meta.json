@@ -1,0 +1,23 @@
+{
+  "description": "Fibonacci entry points: a(n) = smallest m > 0 such that the n-th prime divides Fibonacci(m).",
+  "id": "A001602",
+  "mentions": [
+    "A001177",
+    "A005347",
+    "A051694",
+    "A086597",
+    "A236479"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

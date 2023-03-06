@@ -1,0 +1,20 @@
+{
+  "description": "An infinite coprime sequence defined by recursion.",
+  "id": "A002715",
+  "mentions": [
+    "A001685",
+    "A003686",
+    "A064526"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

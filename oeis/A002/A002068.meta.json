@@ -1,0 +1,26 @@
+{
+  "description": "Wilson remainders: a(n) = ((p-1)!+1)/p mod p, where p = prime(n).",
+  "id": "A002068",
+  "mentions": [
+    "A000040",
+    "A007540",
+    "A007619",
+    "A027641",
+    "A027642",
+    "A197631",
+    "A275741"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 17:59:42",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

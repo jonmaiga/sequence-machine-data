@@ -1,0 +1,25 @@
+{
+  "description": "Earliest sequence with a(a(n)) = 2n.",
+  "id": "A002516",
+  "mentions": [
+    "A002517",
+    "A004767",
+    "A006519",
+    "A007379",
+    "A017089",
+    "A079944",
+    "A091067"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:23:33",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of equivalence classes with primitive period n of base 3 necklaces, where necklaces are equivalent under rotation and permutation of symbols.",
+  "id": "A002075",
+  "mentions": [
+    "A000013",
+    "A000048",
+    "A002076"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:52:30",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

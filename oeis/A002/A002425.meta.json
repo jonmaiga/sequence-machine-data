@@ -1,0 +1,31 @@
+{
+  "description": "Denominator of Pi^(2n)/(Gamma(2n)*(1-2^(-2n))*zeta(2n)).",
+  "id": "A002425",
+  "mentions": [
+    "A000182",
+    "A001511",
+    "A001896",
+    "A006519",
+    "A037239",
+    "A048896",
+    "A089170",
+    "A089171",
+    "A101921",
+    "A160469",
+    "A275994",
+    "A335956"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

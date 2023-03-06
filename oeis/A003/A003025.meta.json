@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-node labeled acyclic digraphs with 1 out-point.",
+  "id": "A003025",
+  "mentions": [
+    "A003026",
+    "A003028",
+    "A058876",
+    "A345258",
+    "A350415",
+    "A350487"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Type of happy factorization of n.",
+  "id": "A007968",
+  "mentions": [
+    "A000290",
+    "A007969",
+    "A007970"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

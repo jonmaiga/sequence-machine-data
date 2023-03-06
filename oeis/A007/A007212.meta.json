@@ -1,0 +1,22 @@
+{
+  "description": "Oscillates under partition transform.",
+  "id": "A007212",
+  "mentions": [
+    "A003633",
+    "A007213",
+    "A027595",
+    "A027596",
+    "A320487"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

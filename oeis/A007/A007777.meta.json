@@ -1,0 +1,22 @@
+{
+  "description": "Number of overlap-free binary words of length n.",
+  "id": "A007777",
+  "mentions": [
+    "A028445",
+    "A038952",
+    "A082379",
+    "A082380"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:46:33",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

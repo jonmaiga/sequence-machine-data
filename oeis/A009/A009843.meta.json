@@ -1,0 +1,28 @@
+{
+  "description": "E.g.f. x/cos(x) (odd powers only).",
+  "id": "A009843",
+  "mentions": [
+    "A000364",
+    "A002111",
+    "A005439",
+    "A009391",
+    "A009392",
+    "A065619",
+    "A069852",
+    "A069994",
+    "A083008",
+    "A099028"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:17:59",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

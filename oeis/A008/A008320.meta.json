@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number that is not the sum of squares of two distinct earlier terms.",
+  "id": "A008320",
+  "mentions": [
+    "A026468"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

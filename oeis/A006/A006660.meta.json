@@ -1,0 +1,18 @@
+{
+  "description": "Number of meanders in which first bridge is 3.",
+  "id": "A006660",
+  "mentions": [
+    "A005316",
+    "A259974"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 3,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = psi_c(n), where Product_{k>1} 1/(1-1/k^s)^A007897(k) = Sum_{k>0} psi_c(k)/k^s.",
+  "id": "A007898",
+  "mentions": [
+    "A007896",
+    "A007897"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 18:10:42",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

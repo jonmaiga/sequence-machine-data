@@ -1,0 +1,23 @@
+{
+  "description": "Numbers congruent to {2, 4, 8, 16} (mod 20).",
+  "id": "A002081",
+  "mentions": [
+    "A000051",
+    "A000689",
+    "A002082",
+    "A008587"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

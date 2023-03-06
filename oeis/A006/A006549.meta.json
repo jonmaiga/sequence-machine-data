@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k such that k and k+1 are prime powers.",
+  "id": "A006549",
+  "mentions": [
+    "A000040",
+    "A000668",
+    "A000961",
+    "A003418",
+    "A010055",
+    "A014963",
+    "A019434",
+    "A120431",
+    "A164571",
+    "A164572",
+    "A164573",
+    "A164574"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

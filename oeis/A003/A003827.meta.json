@@ -1,0 +1,20 @@
+{
+  "description": "'Core' alternating sign n X n matrices, i.e., those that are not 'blown up' from a smaller matrix by inserting row i, column j with a_ij = 1 and all other entries in that row and column equal to 0.",
+  "id": "A003827",
+  "mentions": [
+    "A005130",
+    "A051055",
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 3,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

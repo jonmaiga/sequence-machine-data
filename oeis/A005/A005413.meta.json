@@ -1,0 +1,21 @@
+{
+  "description": "Number of non-vanishing Feynman diagrams of order 2n+1 for the electron-electron-photon proper vertex function in quantum electrodynamics (QED).",
+  "id": "A005413",
+  "mentions": [
+    "A000698",
+    "A005411",
+    "A005412"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

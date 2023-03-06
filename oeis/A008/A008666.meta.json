@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f.: 1/((1-x^2)*(1-x^3)*(1-x^5)*(1-x^6)*(1-x^9)).",
+  "id": "A008666",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:48:47",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

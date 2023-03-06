@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct degree sequences among all connected graphs with n nodes.",
+  "id": "A007721",
+  "mentions": [
+    "A000569",
+    "A004250",
+    "A004251",
+    "A007722",
+    "A029889",
+    "A095268"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

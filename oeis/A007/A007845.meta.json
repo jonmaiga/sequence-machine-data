@@ -1,0 +1,21 @@
+{
+  "description": "Least positive integer k for which 5^n divides k!.",
+  "id": "A007845",
+  "mentions": [
+    "A007843",
+    "A007844",
+    "A027868",
+    "A228297"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:46:49",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

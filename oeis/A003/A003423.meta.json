@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = a(n-1)^2 - 2.",
+  "id": "A003423",
+  "mentions": [
+    "A001566",
+    "A001601",
+    "A002949",
+    "A003010",
+    "A003487",
+    "A005248",
+    "A145505"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "High temperature series for spherical model susceptibility on 3-dimensional simple cubic lattice.",
+  "id": "A003279",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

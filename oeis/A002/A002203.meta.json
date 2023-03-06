@@ -1,0 +1,26 @@
+{
+  "description": "Companion Pell numbers: a(n) = 2*a(n-1) + a(n-2), a(0) = a(1) = 2.",
+  "id": "A002203",
+  "mentions": [
+    "A000051",
+    "A000129",
+    "A001333",
+    "A003499",
+    "A077444",
+    "A099425",
+    "A100227",
+    "A271222"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "v-pile counts for the 4-Wythoff game with i=2.",
+  "id": "A001966",
+  "mentions": [
+    "A001950",
+    "A001965",
+    "A115004"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

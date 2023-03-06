@@ -1,0 +1,37 @@
+{
+  "description": "Abundant numbers (sum of divisors of m exceeds 2m).",
+  "id": "A005101",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001055",
+    "A001065",
+    "A005100",
+    "A005231",
+    "A005835",
+    "A006038",
+    "A033880",
+    "A080224",
+    "A091191",
+    "A091194",
+    "A091196",
+    "A094268",
+    "A101113",
+    "A173490",
+    "A302991"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

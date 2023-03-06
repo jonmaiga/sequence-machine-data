@@ -1,0 +1,29 @@
+{
+  "description": "Full reptend primes: primes with primitive root 10.",
+  "id": "A001913",
+  "mentions": [
+    "A001122",
+    "A001914",
+    "A002371",
+    "A003277",
+    "A005596",
+    "A006883",
+    "A048296",
+    "A051626",
+    "A086018",
+    "A180340"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

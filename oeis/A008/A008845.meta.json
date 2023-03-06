@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k+1 and k/2+1 are squares.",
+  "id": "A008845",
+  "mentions": [
+    "A008844",
+    "A029546",
+    "A075528"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

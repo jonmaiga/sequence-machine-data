@@ -1,0 +1,27 @@
+{
+  "description": "Number of letters in the US English name of n, excluding spaces and hyphens.",
+  "id": "A005589",
+  "mentions": [
+    "A000027",
+    "A006944",
+    "A016037",
+    "A052360",
+    "A052362",
+    "A052363",
+    "A133418",
+    "A134629"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

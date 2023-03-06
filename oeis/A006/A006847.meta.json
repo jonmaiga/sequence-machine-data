@@ -1,0 +1,20 @@
+{
+  "description": "Number of extreme points of the set of n X n symmetric doubly-stochastic matrices.",
+  "id": "A006847",
+  "mentions": [
+    "A053553"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

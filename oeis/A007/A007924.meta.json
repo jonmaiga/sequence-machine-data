@@ -1,0 +1,24 @@
+{
+  "description": "The number n written using the greedy algorithm in the base where the values of the places are 1 and primes.",
+  "id": "A007924",
+  "mentions": [
+    "A000720",
+    "A007088",
+    "A008578",
+    "A011772",
+    "A066352",
+    "A200947"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

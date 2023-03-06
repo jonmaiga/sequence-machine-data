@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to place n nonattacking bishops on an n X n board.",
+  "id": "A002465",
+  "mentions": [
+    "A187235",
+    "A238258",
+    "A238260"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

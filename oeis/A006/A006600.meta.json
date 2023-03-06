@@ -1,0 +1,29 @@
+{
+  "description": "Total number of triangles visible in regular n-gon with all diagonals drawn.",
+  "id": "A006600",
+  "mentions": [
+    "A001006",
+    "A005732",
+    "A006533",
+    "A006556",
+    "A006561",
+    "A007569",
+    "A007678",
+    "A054726",
+    "A203016",
+    "A260417"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:39:03",
+    "offset": 3,
+    "size": 37,
+    "source": "joeis"
+  }
+}

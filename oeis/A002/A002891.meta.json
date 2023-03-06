@@ -1,0 +1,23 @@
+{
+  "description": "Low temperature series for spin-1/2 Ising partition function on 3-dimensional simple cubic lattice.",
+  "id": "A002891",
+  "mentions": [
+    "A001393",
+    "A002890",
+    "A002892",
+    "A002915",
+    "A002926",
+    "A030045",
+    "A030047"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

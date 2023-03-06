@@ -1,0 +1,17 @@
+{
+  "description": "Orders of vertex-transitive graphs which are not Cayley graphs.",
+  "id": "A006793",
+  "mentions": [
+    "A006791"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

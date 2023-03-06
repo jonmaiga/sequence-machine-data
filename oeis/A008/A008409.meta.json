@@ -1,0 +1,22 @@
+{
+  "description": "Theta series of 16-dimensional Barnes-Wall lattice.",
+  "id": "A008409",
+  "mentions": [
+    "A004009",
+    "A008774",
+    "A319307"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

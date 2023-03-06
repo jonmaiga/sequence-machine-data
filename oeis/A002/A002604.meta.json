@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n^6 + 1.",
+  "id": "A002604",
+  "mentions": [
+    "A001014",
+    "A002522",
+    "A024004"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:23:51",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of cyclically-5-connected planar trivalent graphs with 2n nodes.",
+  "id": "A006791",
+  "mentions": [
+    "A111358"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 10,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

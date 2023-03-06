@@ -1,0 +1,21 @@
+{
+  "description": "Minimal span of set of n elements with no 5-term arithmetic progression.",
+  "id": "A005049",
+  "mentions": [
+    "A003004",
+    "A005047",
+    "A005048",
+    "A005050"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 5,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

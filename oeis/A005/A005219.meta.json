@@ -1,0 +1,18 @@
+{
+  "description": "Number of unlabeled identity unit interval graphs.",
+  "id": "A005219",
+  "mentions": [
+    "A007122"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

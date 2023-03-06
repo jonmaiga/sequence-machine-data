@@ -1,0 +1,18 @@
+{
+  "description": "A binomial coefficient summation.",
+  "id": "A003162",
+  "mentions": [
+    "A003161"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:57:31",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

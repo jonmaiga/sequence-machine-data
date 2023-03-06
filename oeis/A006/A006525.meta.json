@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of greedy Egyptian fraction for e - 2.",
+  "id": "A006525",
+  "mentions": [
+    "A001466",
+    "A006526",
+    "A269993"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of planar embedded labeled trees with n nodes: (2n-3)!/(n-1)! for n >= 2, a(1) = 1.",
+  "id": "A006963",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A001761",
+    "A001813",
+    "A093883",
+    "A173333"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

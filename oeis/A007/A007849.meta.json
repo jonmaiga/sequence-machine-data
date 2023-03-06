@@ -1,0 +1,17 @@
+{
+  "description": "Number of hyperplanes spanned by the vertices of an n-cube that cover exactly n vertices.",
+  "id": "A007849",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

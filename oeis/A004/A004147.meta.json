@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-state Turing machines which halt.",
+  "id": "A004147",
+  "mentions": [
+    "A028444",
+    "A052200"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "bref",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

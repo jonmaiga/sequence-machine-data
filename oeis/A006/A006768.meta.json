@@ -1,0 +1,19 @@
+{
+  "description": "Number of 5-dimensional polyominoes with n cells.",
+  "id": "A006768",
+  "mentions": [
+    "A049429",
+    "A049430"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

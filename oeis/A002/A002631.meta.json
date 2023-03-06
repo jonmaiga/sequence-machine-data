@@ -1,0 +1,19 @@
+{
+  "description": "Number of circuits of nullity n.",
+  "id": "A002631",
+  "mentions": [
+    "A002632"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

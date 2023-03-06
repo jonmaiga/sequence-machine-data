@@ -1,0 +1,32 @@
+{
+  "description": "Pseudoperfect (or semiperfect) numbers n: some subset of the proper divisors of n sums to n.",
+  "id": "A005835",
+  "mentions": [
+    "A000396",
+    "A005100",
+    "A005101",
+    "A005231",
+    "A006036",
+    "A006037",
+    "A023196",
+    "A033630",
+    "A065205",
+    "A109761",
+    "A122036",
+    "A136446",
+    "A136447",
+    "A210455"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

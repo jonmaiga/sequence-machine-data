@@ -1,0 +1,18 @@
+{
+  "description": "Number of non-cyclic hydrocarbons with n carbon atoms (excluding stereoisomers).",
+  "id": "A002986",
+  "mentions": [
+    "A000602"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

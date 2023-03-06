@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that the sum of the squares of n consecutive positive odd numbers x^2 + (x+2)^2 + ... + (x+2n-2)^2 = k^2 for some integer k. The least values of x and k for each n are in A056131 and A056132, respectively.",
+  "id": "A001033",
+  "mentions": [
+    "A001032",
+    "A056131",
+    "A056132",
+    "A134419",
+    "A274470"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

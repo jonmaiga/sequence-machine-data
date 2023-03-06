@@ -1,0 +1,28 @@
+{
+  "description": "Tricapped prism numbers.",
+  "id": "A005920",
+  "mentions": [
+    "A000051",
+    "A000217",
+    "A000326",
+    "A001477",
+    "A005945",
+    "A006003",
+    "A081436",
+    "A093445",
+    "A125860"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Horizontally symmetric numbers.",
+  "id": "A007284",
+  "mentions": [
+    "A046031"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

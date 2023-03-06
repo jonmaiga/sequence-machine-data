@@ -1,0 +1,30 @@
+{
+  "description": "Record gaps between primes.",
+  "id": "A005250",
+  "mentions": [
+    "A000040",
+    "A000101",
+    "A000978",
+    "A001223",
+    "A002386",
+    "A005667",
+    "A005669",
+    "A007053",
+    "A008996",
+    "A053695",
+    "A058320",
+    "A107578"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

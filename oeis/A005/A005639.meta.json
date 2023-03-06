@@ -1,0 +1,19 @@
+{
+  "description": "Number of self-converse oriented graphs with n nodes.",
+  "id": "A005639",
+  "mentions": [
+    "A002785"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

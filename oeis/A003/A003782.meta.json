@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients of Jacobi Eisenstein series of index 1 and weight 6.",
+  "id": "A003782",
+  "mentions": [
+    "A003783"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:35",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

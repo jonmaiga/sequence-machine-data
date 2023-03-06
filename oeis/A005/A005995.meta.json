@@ -1,0 +1,27 @@
+{
+  "description": "Alkane (or paraffin) numbers l(8,n).",
+  "id": "A005995",
+  "mentions": [
+    "A000217",
+    "A000389",
+    "A000602",
+    "A018210",
+    "A038163",
+    "A053132",
+    "A159916",
+    "A160770",
+    "A271870"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:36:29",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

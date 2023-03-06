@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: row n gives denominators of Farey series of order n.",
+  "id": "A006843",
+  "mentions": [
+    "A005165",
+    "A005728",
+    "A006842",
+    "A007305",
+    "A007306",
+    "A049455",
+    "A049456",
+    "A177405",
+    "A177407",
+    "A240877"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "frac",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that the congruence 2^x = 5 (mod p) is solvable.",
+  "id": "A001916",
+  "mentions": [
+    "A001915"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:49",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

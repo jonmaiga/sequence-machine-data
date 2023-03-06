@@ -1,0 +1,25 @@
+{
+  "description": "Increasing length runs of consecutive composite numbers (records).",
+  "id": "A008996",
+  "mentions": [
+    "A000101",
+    "A005250",
+    "A008950",
+    "A008995",
+    "A010051",
+    "A046933",
+    "A058320"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

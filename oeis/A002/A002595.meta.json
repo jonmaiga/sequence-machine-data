@@ -1,0 +1,25 @@
+{
+  "description": "Denominators of Taylor series expansion of arcsin(x). Also arises from arccos(x), arccsc(x), arcsec(x), arcsinh(x).",
+  "id": "A002595",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A055786",
+    "A143582",
+    "A162443"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

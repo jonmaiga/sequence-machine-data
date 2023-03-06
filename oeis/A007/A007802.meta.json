@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that game of n X n Button Madness need have no solution; this lists only the primitive elements of the set.",
+  "id": "A007802",
+  "mentions": [
+    "A000668",
+    "A019434",
+    "A165740"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

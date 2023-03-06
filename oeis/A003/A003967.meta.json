@@ -1,0 +1,20 @@
+{
+  "description": "Inverse Möbius transform of A003958.",
+  "id": "A003967",
+  "mentions": [
+    "A003958",
+    "A341635"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

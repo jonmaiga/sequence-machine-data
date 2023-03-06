@@ -1,0 +1,20 @@
+{
+  "description": "Primes with 5 as smallest primitive root.",
+  "id": "A001124",
+  "mentions": [
+    "A001122",
+    "A001123",
+    "A001125"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:17:57",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

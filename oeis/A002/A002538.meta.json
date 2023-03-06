@@ -1,0 +1,24 @@
+{
+  "description": "Second-order Eulerian numbers <>.",
+  "id": "A002538",
+  "mentions": [
+    "A000460",
+    "A001333",
+    "A002720",
+    "A008517",
+    "A112007",
+    "A121579"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "A self-generating sequence (see Comments in A003156 for the definition).",
+  "id": "A003157",
+  "mentions": [
+    "A003156",
+    "A003158",
+    "A003159",
+    "A010060",
+    "A036554",
+    "A092606",
+    "A286044",
+    "A286045"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

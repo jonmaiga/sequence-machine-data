@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. tan(x*exp(x)).",
+  "id": "A009635",
+  "mentions": [
+    "A009017",
+    "A009448",
+    "A009768",
+    "A191719"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

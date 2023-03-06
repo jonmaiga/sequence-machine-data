@@ -1,0 +1,26 @@
+{
+  "description": "Sum of divisors of superabundant numbers (A004394).",
+  "id": "A007626",
+  "mentions": [
+    "A000203",
+    "A002093",
+    "A002192",
+    "A004394",
+    "A034885",
+    "A051444",
+    "A063072"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

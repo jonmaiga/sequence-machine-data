@@ -1,0 +1,20 @@
+{
+  "description": "Orchard problem with 5 trees in a row (may not have all been proved optimal).",
+  "id": "A008997",
+  "mentions": [
+    "A003035",
+    "A006065"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

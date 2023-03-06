@@ -1,0 +1,20 @@
+{
+  "description": "Generalized Stirling numbers.",
+  "id": "A001709",
+  "mentions": [
+    "A001701",
+    "A163931",
+    "A163932"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of tree-rooted toroidal maps with 2 faces and n vertices and without separating loops.",
+  "id": "A006439",
+  "mentions": [
+    "A006440"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

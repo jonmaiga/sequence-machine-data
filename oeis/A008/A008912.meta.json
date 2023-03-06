@@ -1,0 +1,18 @@
+{
+  "description": "Truncated triangular numbers (of form n*(n-3)/2 - k^2+k*n+1 for 1<=k",
+  "id": "A008912",
+  "mentions": [
+    "A008867"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:49:23",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

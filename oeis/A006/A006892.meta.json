@@ -1,0 +1,20 @@
+{
+  "description": "Representation as a sum of squares requires n squares with greedy algorithm.",
+  "id": "A006892",
+  "mentions": [
+    "A004215",
+    "A053610",
+    "A053630"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

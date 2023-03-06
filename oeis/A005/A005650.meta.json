@@ -1,0 +1,20 @@
+{
+  "description": "Number of \"magic squares\" of order n (see comment line for exact definition).",
+  "id": "A005650",
+  "mentions": [
+    "A000681"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Lexicographically earliest increasing sequence of positive numbers that contains no arithmetic progression of length 6.",
+  "id": "A005838",
+  "mentions": [
+    "A003278",
+    "A005836",
+    "A005837",
+    "A005839",
+    "A020654",
+    "A020655",
+    "A020656",
+    "A020657",
+    "A020658",
+    "A020659",
+    "A020660",
+    "A020661",
+    "A020662",
+    "A020663",
+    "A020664"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "description": "Binary palindromes: numbers whose binary expansion is palindromic.",
+  "id": "A006995",
+  "mentions": [
+    "A000051",
+    "A002113",
+    "A005408",
+    "A006993",
+    "A016041",
+    "A044051",
+    "A048700",
+    "A048701",
+    "A057148",
+    "A070939",
+    "A117697",
+    "A145799",
+    "A154809",
+    "A164126",
+    "A178225",
+    "A206913",
+    "A206914",
+    "A241491",
+    "A244162",
+    "A261678",
+    "A262556"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "hear",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

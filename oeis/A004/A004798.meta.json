@@ -1,0 +1,24 @@
+{
+  "description": "Convolution of Fibonacci numbers 1,2,3,5,... with themselves.",
+  "id": "A004798",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001629",
+    "A030528",
+    "A045925",
+    "A171855"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

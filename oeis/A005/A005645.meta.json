@@ -1,0 +1,20 @@
+{
+  "description": "Number of sensed 3-connected planar maps with n edges.",
+  "id": "A005645",
+  "mentions": [
+    "A002840",
+    "A007401",
+    "A239893"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 6,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

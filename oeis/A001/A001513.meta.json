@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (6*n+1)*(6*n+5).",
+  "id": "A001513",
+  "mentions": [
+    "A016921",
+    "A016969"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:19:19",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Denominators of a continued fraction for (1 + sqrt(5))/2.",
+  "id": "A006270",
+  "mentions": [
+    "A002814"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

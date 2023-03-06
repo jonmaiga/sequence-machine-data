@@ -1,0 +1,29 @@
+{
+  "description": "Number of unlabeled Euler graphs with n nodes; number of unlabeled two-graphs with n nodes; number of unlabeled switching classes of graphs with n nodes; number of switching classes of unlabeled signed complete graphs on n nodes; number of Seidel matrices of order n.",
+  "id": "A002854",
+  "mentions": [
+    "A003049",
+    "A005273",
+    "A007127",
+    "A085618",
+    "A085619",
+    "A085620",
+    "A133736",
+    "A182012",
+    "A182055",
+    "A341941"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

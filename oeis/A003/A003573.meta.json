@@ -1,0 +1,22 @@
+{
+  "description": "Order of 4 mod 4n+1.",
+  "id": "A003573",
+  "mentions": [
+    "A002326",
+    "A003571",
+    "A003574",
+    "A053447",
+    "A217469"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

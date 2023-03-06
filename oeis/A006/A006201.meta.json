@@ -1,0 +1,23 @@
+{
+  "description": "Number of colorings of labeled graphs on n nodes using exactly 3 colors, divided by 48.",
+  "id": "A006201",
+  "mentions": [
+    "A000683",
+    "A000684",
+    "A058843",
+    "A213442"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

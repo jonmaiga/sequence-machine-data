@@ -1,0 +1,20 @@
+{
+  "description": "6 X 6 stochastic matrices of integers.",
+  "id": "A005467",
+  "mentions": [
+    "A001496",
+    "A005466"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "v-pile numbers of the 3-Wythoff game with i=1.",
+  "id": "A001958",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

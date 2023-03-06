@@ -1,0 +1,18 @@
+{
+  "description": "Number of self-dual threshold functions of n variables.",
+  "id": "A002077",
+  "mentions": [
+    "A000371"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

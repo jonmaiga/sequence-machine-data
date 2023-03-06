@@ -1,0 +1,21 @@
+{
+  "description": "An upper bound on the biplanar crossing number of the complete graph on n nodes.",
+  "id": "A007333",
+  "mentions": [
+    "A000241",
+    "A028723"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:44:13",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

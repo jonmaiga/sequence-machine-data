@@ -1,0 +1,36 @@
+{
+  "description": "Triangle, read by rows, formed by reading Pascal's triangle (A007318) mod 10.",
+  "id": "A008975",
+  "mentions": [
+    "A007318",
+    "A034930",
+    "A034931",
+    "A034932",
+    "A047999",
+    "A083093",
+    "A095140",
+    "A095141",
+    "A095142",
+    "A095143",
+    "A095144",
+    "A095145",
+    "A208134",
+    "A208278",
+    "A208279",
+    "A208280",
+    "A275198"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

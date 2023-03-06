@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of fine-structure constant alpha.",
+  "id": "A003673",
+  "mentions": [
+    "A003678",
+    "A005600",
+    "A081799",
+    "A081800",
+    "A081823",
+    "A082726",
+    "A254181"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

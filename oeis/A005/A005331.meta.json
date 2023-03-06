@@ -1,0 +1,18 @@
+{
+  "description": "Certain subgraphs of a directed graph (binomial transform of A005321).",
+  "id": "A005331",
+  "mentions": [
+    "A005321"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

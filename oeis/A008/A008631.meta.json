@@ -1,0 +1,19 @@
+{
+  "description": "Molien series for alternating group Alt_8 (or A_8).",
+  "id": "A008631",
+  "mentions": [
+    "A008637"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:48:27",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

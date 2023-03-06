@@ -1,0 +1,33 @@
+{
+  "description": "Kaprekar numbers: positive numbers n such that n = q+r and n^2 = q*10^m+r, for some m >= 1, q >= 0 and 0 <= r < 10^m, with n != 10^a, a >= 1.",
+  "id": "A006886",
+  "mentions": [
+    "A003052",
+    "A037042",
+    "A045913",
+    "A053394",
+    "A053395",
+    "A053396",
+    "A053397",
+    "A053816",
+    "A193992",
+    "A194218",
+    "A194219",
+    "A194232",
+    "A248353"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

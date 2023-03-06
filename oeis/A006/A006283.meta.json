@@ -1,0 +1,17 @@
+{
+  "description": "Pierce expansion for 1 / Pi.",
+  "id": "A006283",
+  "mentions": [
+    "A154956"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

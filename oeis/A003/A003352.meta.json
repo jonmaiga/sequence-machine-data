@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of 7 positive 5th powers.",
+  "id": "A003352",
+  "mentions": [
+    "A000584",
+    "A003341",
+    "A003351",
+    "A003353",
+    "A345605",
+    "A346278"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

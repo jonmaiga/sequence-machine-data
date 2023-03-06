@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of the n-th harmonic number H(n) divided by (n+1); a(n) = A001008(n) / ((n+1)*A002805(n)).",
+  "id": "A002547",
+  "mentions": [
+    "A001008",
+    "A002545",
+    "A002548",
+    "A002551",
+    "A002805"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

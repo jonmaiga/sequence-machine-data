@@ -1,0 +1,27 @@
+{
+  "description": "Solutions of a fifth-order probability difference equation.",
+  "id": "A001949",
+  "mentions": [
+    "A000051",
+    "A000071",
+    "A000322",
+    "A008937",
+    "A107066",
+    "A141020",
+    "A141021",
+    "A172119",
+    "A172316"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

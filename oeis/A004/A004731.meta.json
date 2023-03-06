@@ -1,0 +1,27 @@
+{
+  "description": "Denominator of n!!/(n+1)!! (cf. A006882).",
+  "id": "A004731",
+  "mentions": [
+    "A001790",
+    "A001803",
+    "A004730",
+    "A006882",
+    "A036039",
+    "A036069",
+    "A046161",
+    "A101926"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:20:04",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

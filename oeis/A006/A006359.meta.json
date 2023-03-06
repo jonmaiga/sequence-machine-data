@@ -1,0 +1,29 @@
+{
+  "description": "Number of distributive lattices; also number of paths with n turns when light is reflected from 6 glass plates.",
+  "id": "A006359",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A006356",
+    "A006357",
+    "A006358",
+    "A019538",
+    "A025030",
+    "A030112",
+    "A030116",
+    "A050446",
+    "A050447"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

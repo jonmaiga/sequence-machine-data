@@ -1,0 +1,25 @@
+{
+  "description": "Number of 5 X 5 matrices with nonnegative integer entries and row and column sums equal to n.",
+  "id": "A003438",
+  "mentions": [
+    "A001496",
+    "A002817",
+    "A005466",
+    "A019298",
+    "A058391",
+    "A257493"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:28:09",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

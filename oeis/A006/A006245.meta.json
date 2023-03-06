@@ -1,0 +1,23 @@
+{
+  "description": "Number of primitive sorting networks on n elements; also number of rhombic tilings of a 2n-gon.",
+  "id": "A006245",
+  "mentions": [
+    "A005118",
+    "A006246",
+    "A060596",
+    "A060601"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

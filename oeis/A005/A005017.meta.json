@@ -1,0 +1,18 @@
+{
+  "description": "Denominator of (binomial(2*n-2,n-1)/n!)^2.",
+  "id": "A005017",
+  "mentions": [
+    "A004936"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:55:05",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

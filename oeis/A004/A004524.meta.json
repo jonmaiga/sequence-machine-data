@@ -1,0 +1,32 @@
+{
+  "description": "Three even followed by one odd.",
+  "id": "A004524",
+  "mentions": [
+    "A001477",
+    "A002162",
+    "A004525",
+    "A004526",
+    "A010892",
+    "A011848",
+    "A021913",
+    "A052928",
+    "A092038",
+    "A093390",
+    "A093391",
+    "A093392",
+    "A093393",
+    "A292301"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:15",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

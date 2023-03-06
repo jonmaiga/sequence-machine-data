@@ -1,0 +1,35 @@
+{
+  "description": "The game of Mousetrap with n cards (given n letters and n envelopes, how many ways are there to fill the envelopes so that at least one letter goes into its right envelope?).",
+  "id": "A002467",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A002468",
+    "A002469",
+    "A002627",
+    "A028306",
+    "A047920",
+    "A052169",
+    "A068106",
+    "A127899",
+    "A170942",
+    "A276975",
+    "A293211",
+    "A299789",
+    "A306234",
+    "A324362"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

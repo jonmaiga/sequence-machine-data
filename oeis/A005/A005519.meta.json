@@ -1,0 +1,21 @@
+{
+  "description": "Let T(n,d) = number of distinct d-dimensional polyominoes (or polycubes) with n cells (A049429, A049430); sequence gives Sum_{d} T(n,d).",
+  "id": "A005519",
+  "mentions": [
+    "A049429",
+    "A049430"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

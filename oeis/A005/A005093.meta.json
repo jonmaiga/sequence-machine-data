@@ -1,0 +1,19 @@
+{
+  "description": "Sum of squares of Fibonacci numbers 1,2,3,5,... that divide n.",
+  "id": "A005093",
+  "mentions": [
+    "A000045",
+    "A005092"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

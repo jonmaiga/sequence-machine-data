@@ -1,0 +1,20 @@
+{
+  "description": "Gaussian binomial coefficient [ 2n,n ] for q=2.",
+  "id": "A006098",
+  "mentions": [
+    "A006095",
+    "A022166",
+    "A065446"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

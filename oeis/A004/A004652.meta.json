@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of x*(1+x^2+x^4)/((1-x)*(1-x^2)*(1-x^3)).",
+  "id": "A004652",
+  "mentions": [
+    "A000290",
+    "A002061",
+    "A008619",
+    "A028242",
+    "A035104",
+    "A035106",
+    "A054772",
+    "A135840",
+    "A195040"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

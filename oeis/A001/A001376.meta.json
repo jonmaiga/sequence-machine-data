@@ -1,0 +1,18 @@
+{
+  "description": "Relational systems on n nodes.",
+  "id": "A001376",
+  "mentions": [
+    "A000662"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of elements of a free idempotent monoid on n letters.",
+  "id": "A005345",
+  "mentions": [
+    "A030449",
+    "A030450"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

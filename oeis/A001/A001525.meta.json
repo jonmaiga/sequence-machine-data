@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (3n)!/(3!n!).",
+  "id": "A001525",
+  "mentions": [
+    "A064350",
+    "A157704",
+    "A157705"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

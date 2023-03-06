@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Product_{k=0..n-1} (2^(2^k - 1) + 1)^C(n,k).",
+  "id": "A007184",
+  "mentions": [
+    "A007153"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

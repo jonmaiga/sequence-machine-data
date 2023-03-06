@@ -1,0 +1,25 @@
+{
+  "description": "Where the prime race among 5k+1, ..., 5k+4 changes leader.",
+  "id": "A007353",
+  "mentions": [
+    "A005596",
+    "A007350",
+    "A007352",
+    "A007354",
+    "A297406",
+    "A297407",
+    "A297408",
+    "A297410",
+    "A297411"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:44:47",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

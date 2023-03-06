@@ -1,0 +1,33 @@
+{
+  "description": "Number of permutations of length n within distance 3 of a fixed permutation.",
+  "id": "A002526",
+  "mentions": [
+    "A002524",
+    "A002527",
+    "A002528",
+    "A002529",
+    "A188379",
+    "A188491",
+    "A188492",
+    "A188493",
+    "A188494",
+    "A188495",
+    "A188496",
+    "A188497",
+    "A188498",
+    "A306209"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

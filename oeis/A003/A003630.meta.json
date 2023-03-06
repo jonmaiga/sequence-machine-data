@@ -1,0 +1,19 @@
+{
+  "description": "Inert rational primes in Q[sqrt(3)].",
+  "id": "A003630",
+  "mentions": [
+    "A010527",
+    "A097933"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:28:47",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

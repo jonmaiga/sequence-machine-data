@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form (p^2 - 49)/120 where p is prime.",
+  "id": "A002382",
+  "mentions": [
+    "A002381",
+    "A002855",
+    "A003631",
+    "A042993",
+    "A097957"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

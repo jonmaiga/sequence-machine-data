@@ -1,0 +1,21 @@
+{
+  "description": "Number of unlabeled bicolored graphs, with no isolated nodes, on 2n nodes having n nodes of each color and allowing the color classes to be interchanged.",
+  "id": "A007140",
+  "mentions": [
+    "A007139",
+    "A054976",
+    "A123547",
+    "A319155"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:39:01",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

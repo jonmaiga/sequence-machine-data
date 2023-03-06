@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = L(L(n)), where L(n) are Lucas numbers A000032.",
+  "id": "A005371",
+  "mentions": [
+    "A000032",
+    "A005372",
+    "A007570",
+    "A068096",
+    "A068098"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

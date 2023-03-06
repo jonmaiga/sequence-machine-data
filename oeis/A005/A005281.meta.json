@@ -1,0 +1,21 @@
+{
+  "description": "Davenport-Schinzel numbers of degree 6 on n symbols.",
+  "id": "A005281",
+  "mentions": [
+    "A002004",
+    "A005280",
+    "A259874"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

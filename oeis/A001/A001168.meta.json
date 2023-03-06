@@ -1,0 +1,32 @@
+{
+  "description": "Number of fixed polyominoes with n cells.",
+  "id": "A001168",
+  "mentions": [
+    "A000105",
+    "A000988",
+    "A006746",
+    "A006747",
+    "A006748",
+    "A006749",
+    "A006762",
+    "A056877",
+    "A056878",
+    "A142886",
+    "A144553",
+    "A210986",
+    "A210987",
+    "A308359"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

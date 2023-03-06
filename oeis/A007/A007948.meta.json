@@ -1,0 +1,34 @@
+{
+  "description": "Largest cubefree number dividing n.",
+  "id": "A007948",
+  "mentions": [
+    "A000005",
+    "A003557",
+    "A004709",
+    "A007947",
+    "A020639",
+    "A027748",
+    "A027750",
+    "A028234",
+    "A058035",
+    "A062378",
+    "A065465",
+    "A067029",
+    "A071773",
+    "A124010",
+    "A197863",
+    "A212793"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

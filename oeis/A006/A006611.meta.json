@@ -1,0 +1,17 @@
+{
+  "description": "Number of n-node forests not determined by their spectra.",
+  "id": "A006611",
+  "mentions": [
+    "A005195"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

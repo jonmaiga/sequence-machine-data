@@ -1,0 +1,26 @@
+{
+  "description": "Delete all 2's from the sequence of nonnegative integers.",
+  "id": "A004721",
+  "mentions": [
+    "A004719",
+    "A004720",
+    "A004722",
+    "A004723",
+    "A004724",
+    "A004725",
+    "A004726",
+    "A004727",
+    "A004728"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:25",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

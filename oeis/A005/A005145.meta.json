@@ -1,0 +1,29 @@
+{
+  "description": "n copies of n-th prime.",
+  "id": "A005145",
+  "mentions": [
+    "A000040",
+    "A002024",
+    "A003961",
+    "A031368",
+    "A033286",
+    "A097906",
+    "A175944",
+    "A297845",
+    "A306697",
+    "A329329"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:32:17",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

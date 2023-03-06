@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = gcd(d(n), sigma(n)).",
+  "id": "A009205",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A009191",
+    "A009194",
+    "A087801",
+    "A286360"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

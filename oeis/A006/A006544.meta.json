@@ -1,0 +1,22 @@
+{
+  "description": "Number of stable forests with n nodes.",
+  "id": "A006544",
+  "mentions": [
+    "A003426",
+    "A003427",
+    "A003428",
+    "A003429",
+    "A006545"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

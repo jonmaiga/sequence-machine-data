@@ -1,0 +1,17 @@
+{
+  "description": "Number of n-step polygons on Kagome lattice.",
+  "id": "A005397",
+  "mentions": [
+    "A001665"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 3,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

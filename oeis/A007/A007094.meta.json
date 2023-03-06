@@ -1,0 +1,28 @@
+{
+  "description": "Numbers in base 8.",
+  "id": "A007094",
+  "mentions": [
+    "A000042",
+    "A007088",
+    "A007089",
+    "A007090",
+    "A007091",
+    "A007092",
+    "A007093",
+    "A007095",
+    "A057104"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

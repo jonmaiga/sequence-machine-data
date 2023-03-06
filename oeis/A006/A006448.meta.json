@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-element algebras with 1 binary operator and 1 constant (pointed groupoids).",
+  "id": "A006448",
+  "mentions": [
+    "A001329"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:31:18",
+    "offset": 1,
+    "size": 8,
+    "source": "joeis"
+  }
+}

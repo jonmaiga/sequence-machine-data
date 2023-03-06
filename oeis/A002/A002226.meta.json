@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime p such that first n primes (p_1=2, ..., p_n) are quintic residues mod p.",
+  "id": "A002226",
+  "mentions": [
+    "A002223",
+    "A002225",
+    "A002227"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

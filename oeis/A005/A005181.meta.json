@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = ceiling(exp((n-1)/2)).",
+  "id": "A005181",
+  "mentions": [
+    "A000045",
+    "A005180",
+    "A005347",
+    "A019774"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

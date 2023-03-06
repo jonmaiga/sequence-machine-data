@@ -1,0 +1,23 @@
+{
+  "description": "Numbers N in A002809 such that there is rho > 0 such that for all A > 0, A008475(A)-A008475(N) >= rho*log(A/N).",
+  "id": "A002497",
+  "mentions": [
+    "A000793",
+    "A002201",
+    "A002498",
+    "A002809",
+    "A008475"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

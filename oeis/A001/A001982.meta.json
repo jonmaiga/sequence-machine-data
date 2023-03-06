@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of 4n-1 into n nonnegative integers each no greater than 8.",
+  "id": "A001982",
+  "mentions": [
+    "A001971",
+    "A001981"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

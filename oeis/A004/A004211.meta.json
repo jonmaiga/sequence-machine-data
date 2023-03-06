@@ -1,0 +1,34 @@
+{
+  "description": "Shifts one place left under 2nd-order binomial transform.",
+  "id": "A004211",
+  "mentions": [
+    "A000085",
+    "A000110",
+    "A004212",
+    "A004213",
+    "A005011",
+    "A009235",
+    "A034691",
+    "A038207",
+    "A055882",
+    "A075497",
+    "A075729",
+    "A109457",
+    "A166922",
+    "A261275"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

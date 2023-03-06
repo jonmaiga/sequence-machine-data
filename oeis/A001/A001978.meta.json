@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of 3n-1 into n nonnegative integers each no more than 6.",
+  "id": "A001978",
+  "mentions": [
+    "A001971",
+    "A001977"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of cyclic binary n-bit strings with no alternating substring of length > 2.",
+  "id": "A007039",
+  "mentions": [
+    "A000032",
+    "A007040",
+    "A057079",
+    "A111734"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

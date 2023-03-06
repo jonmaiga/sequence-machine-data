@@ -1,0 +1,44 @@
+{
+  "description": "Number of compositions of n such that no two adjacent parts are equal (Carlitz compositions).",
+  "id": "A003242",
+  "mentions": [
+    "A000108",
+    "A000740",
+    "A005251",
+    "A011782",
+    "A032020",
+    "A048272",
+    "A091616",
+    "A096568",
+    "A106351",
+    "A106356",
+    "A114900",
+    "A114901",
+    "A114902",
+    "A128695",
+    "A129922",
+    "A167606",
+    "A178470",
+    "A232396",
+    "A241701",
+    "A241902",
+    "A261041",
+    "A261960",
+    "A261983",
+    "A274174",
+    "A329738",
+    "A329863"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Number of rooted identity trees with n nodes (rooted trees whose automorphism group is the identity group).",
+  "id": "A004111",
+  "mentions": [
+    "A000009",
+    "A000081",
+    "A000220",
+    "A006082",
+    "A027750",
+    "A035056",
+    "A196118",
+    "A196154",
+    "A196161",
+    "A227819",
+    "A246169",
+    "A255517",
+    "A316074",
+    "A316101",
+    "A318757"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

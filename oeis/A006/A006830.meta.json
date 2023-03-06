@@ -1,0 +1,20 @@
+{
+  "description": "From fundamental unit of Z[ (-n)^1/4 ].",
+  "id": "A006830",
+  "mentions": [
+    "A006828",
+    "A006829",
+    "A006831"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

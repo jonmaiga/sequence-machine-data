@@ -1,0 +1,18 @@
+{
+  "description": "Number of equivalence classes of n-valued Post functions of 2 variables under action of semi-direct product of symmetric group S_2 and complementing group C(2,n).",
+  "id": "A001324",
+  "mentions": [
+    "A000616",
+    "A001323"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:19:57",
+    "offset": 2,
+    "size": 7,
+    "source": "joeis"
+  }
+}

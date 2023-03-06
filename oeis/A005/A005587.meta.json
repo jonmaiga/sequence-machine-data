@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n*(n+5)*(n+6)*(n+7)/24.",
+  "id": "A005587",
+  "mentions": [
+    "A000051",
+    "A005581",
+    "A009766",
+    "A033184",
+    "A062991",
+    "A214292"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:34:27",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

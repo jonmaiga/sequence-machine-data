@@ -1,0 +1,20 @@
+{
+  "description": "Shifts left under GCD-convolution with itself.",
+  "id": "A007464",
+  "mentions": [
+    "A003633",
+    "A178063"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

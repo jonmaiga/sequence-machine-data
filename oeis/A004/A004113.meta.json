@@ -1,0 +1,21 @@
+{
+  "description": "Number of rooted trees with n nodes and 2-colored non-leaf nodes.",
+  "id": "A004113",
+  "mentions": [
+    "A004114",
+    "A052316",
+    "A052317"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

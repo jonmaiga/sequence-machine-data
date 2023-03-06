@@ -1,0 +1,20 @@
+{
+  "description": "Number of restricted hexagonal polyominoes with n cells.",
+  "id": "A005963",
+  "mentions": [
+    "A000228",
+    "A001998",
+    "A002216",
+    "A036359"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:35",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

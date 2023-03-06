@@ -1,0 +1,20 @@
+{
+  "description": "These numbers when multiplied by all powers of 4 give the numbers that are not the sums of 4 distinct squares.",
+  "id": "A001948",
+  "mentions": [
+    "A001944",
+    "A004437"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

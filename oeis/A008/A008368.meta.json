@@ -1,0 +1,19 @@
+{
+  "description": "Number of orbits on points that are at n steps from the origin in the f.c.c. lattice.",
+  "id": "A008368",
+  "mentions": [
+    "A023054"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

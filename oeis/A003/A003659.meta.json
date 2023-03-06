@@ -1,0 +1,24 @@
+{
+  "description": "Shifts left under Stirling2 transform.",
+  "id": "A003659",
+  "mentions": [
+    "A003633",
+    "A008277",
+    "A048801",
+    "A153277",
+    "A153278"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

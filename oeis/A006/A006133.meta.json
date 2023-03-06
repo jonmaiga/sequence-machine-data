@@ -1,0 +1,21 @@
+{
+  "description": "Related to representations as sums of Fibonacci numbers.",
+  "id": "A006133",
+  "mentions": [
+    "A001950",
+    "A003231",
+    "A003234",
+    "A006132"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:37:15",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

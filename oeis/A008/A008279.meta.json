@@ -1,0 +1,42 @@
+{
+  "description": "Triangle T(n,k) = n!/(n-k)! (0 <= k <= n) read by rows, giving number of permutations of n things k at a time.",
+  "id": "A008279",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000142",
+    "A000262",
+    "A000522",
+    "A001497",
+    "A001498",
+    "A002378",
+    "A007318",
+    "A007531",
+    "A008277",
+    "A019538",
+    "A052762",
+    "A068424",
+    "A090582",
+    "A094587",
+    "A130534",
+    "A136572",
+    "A163931",
+    "A181511",
+    "A248727"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:13",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

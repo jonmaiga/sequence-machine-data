@@ -1,0 +1,18 @@
+{
+  "description": "Least number which is side of n Pythagorean triples.",
+  "id": "A006593",
+  "mentions": [
+    "A006532",
+    "A046081"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = binomial(n,2)!/n!.",
+  "id": "A006473",
+  "mentions": [
+    "A006472"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 3,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

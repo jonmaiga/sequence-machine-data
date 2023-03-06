@@ -1,0 +1,26 @@
+{
+  "description": "Area of n-th triple of squares around a triangle.",
+  "id": "A005386",
+  "mentions": [
+    "A000051",
+    "A003501",
+    "A003690",
+    "A003769",
+    "A004253",
+    "A092184",
+    "A099025",
+    "A100047"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

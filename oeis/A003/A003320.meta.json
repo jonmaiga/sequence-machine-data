@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = max_{k=0..n} k^(n-k).",
+  "id": "A003320",
+  "mentions": [
+    "A003992",
+    "A031435",
+    "A051129",
+    "A056155",
+    "A247358"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

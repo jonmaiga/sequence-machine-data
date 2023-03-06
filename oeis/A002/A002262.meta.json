@@ -1,0 +1,43 @@
+{
+  "description": "Triangle read by rows: T(n,k), 0 <= k <= n, in which row n lists the first n+1 nonnegative integers.",
+  "id": "A002262",
+  "mentions": [
+    "A000040",
+    "A000096",
+    "A000217",
+    "A001477",
+    "A002024",
+    "A002260",
+    "A003056",
+    "A004736",
+    "A023758",
+    "A025581",
+    "A025675",
+    "A025682",
+    "A025691",
+    "A048151",
+    "A048645",
+    "A053186",
+    "A053645",
+    "A056558",
+    "A057944",
+    "A073189",
+    "A127324",
+    "A140129",
+    "A195678"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:22:25",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

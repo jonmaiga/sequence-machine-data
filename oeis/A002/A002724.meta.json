@@ -1,0 +1,29 @@
+{
+  "description": "Number of inequivalent n X n binary matrices, where equivalence means permutations of rows or columns.",
+  "id": "A002724",
+  "mentions": [
+    "A002623",
+    "A002725",
+    "A002727",
+    "A002728",
+    "A006148",
+    "A028657",
+    "A052269",
+    "A052271",
+    "A052272",
+    "A091059",
+    "A246106"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

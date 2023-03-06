@@ -1,0 +1,21 @@
+{
+  "description": "Number of positions that the 3 X 3 X 3 Rubik cube puzzle can be in after exactly n moves, up to equivalence under the full group of order 48 of the cube.",
+  "id": "A005452",
+  "mentions": [
+    "A080583",
+    "A080601",
+    "A080602",
+    "A080638"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

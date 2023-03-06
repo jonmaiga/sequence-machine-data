@@ -1,0 +1,21 @@
+{
+  "description": "Orders of Weyl groups of type E_n.",
+  "id": "A003134",
+  "mentions": [
+    "A001217",
+    "A113907"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "bref",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 6,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

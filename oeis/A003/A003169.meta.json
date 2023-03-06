@@ -1,0 +1,22 @@
+{
+  "description": "Number of 2-line arrays; or number of P-graphs with 2n edges.",
+  "id": "A003169",
+  "mentions": [
+    "A003168",
+    "A100324",
+    "A100326",
+    "A156894"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

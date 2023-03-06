@@ -1,0 +1,23 @@
+{
+  "description": "Successive numerators of Wallis's approximation to Pi/2 (reduced).",
+  "id": "A001901",
+  "mentions": [
+    "A000079",
+    "A000246",
+    "A001900",
+    "A001902"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:06:25",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

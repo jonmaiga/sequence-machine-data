@@ -1,0 +1,18 @@
+{
+  "description": "A variation on Euclid: a(n)=g(n)-1, where g(0)=0, g(1)=1, g(n+1)=g(n)(g(n-1)+1).",
+  "id": "A007807",
+  "mentions": [
+    "A005831"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:01:47",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

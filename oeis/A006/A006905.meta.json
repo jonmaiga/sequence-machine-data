@@ -1,0 +1,24 @@
+{
+  "description": "Number of transitive relations on n labeled nodes.",
+  "id": "A006905",
+  "mentions": [
+    "A000595",
+    "A000798",
+    "A001035",
+    "A001173",
+    "A091073"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

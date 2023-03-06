@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-node animals on f.c.c. lattice.",
+  "id": "A007198",
+  "mentions": [
+    "A006193",
+    "A007193",
+    "A007199"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

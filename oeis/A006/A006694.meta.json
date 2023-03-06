@@ -1,0 +1,30 @@
+{
+  "description": "Number of cyclotomic cosets of 2 mod 2n+1.",
+  "id": "A006694",
+  "mentions": [
+    "A000010",
+    "A000374",
+    "A001917",
+    "A002326",
+    "A037226",
+    "A064286",
+    "A064287",
+    "A081844",
+    "A139767",
+    "A321298",
+    "A357217"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

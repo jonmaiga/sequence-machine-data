@@ -1,0 +1,20 @@
+{
+  "description": "Shifts left under OR-convolution with itself.",
+  "id": "A007460",
+  "mentions": [
+    "A003633"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Balancing weights on the integer line.",
+  "id": "A002838",
+  "mentions": [
+    "A047997",
+    "A067059",
+    "A076822",
+    "A188181"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

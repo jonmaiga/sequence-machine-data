@@ -1,0 +1,23 @@
+{
+  "description": "The game of Mousetrap with n cards: the number of permutations of n cards having at least one hit after 2.",
+  "id": "A002468",
+  "mentions": [
+    "A001563",
+    "A002467",
+    "A002469",
+    "A028306"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

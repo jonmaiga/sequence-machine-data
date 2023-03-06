@@ -1,0 +1,18 @@
+{
+  "description": "Maximal number of edges in n-node graph of girth at least 5.",
+  "id": "A006856",
+  "mentions": [
+    "A159847"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

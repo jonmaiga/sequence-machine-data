@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of log(1+tanh(x)*x).",
+  "id": "A009399",
+  "mentions": [
+    "A009379",
+    "A069855",
+    "A085984"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:15:05",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

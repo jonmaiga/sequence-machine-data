@@ -1,0 +1,36 @@
+{
+  "description": "Primes (lower end) with record gaps to the next consecutive prime: primes p(k) where p(k+1) - p(k) exceeds p(j+1) - p(j) for all j < k.",
+  "id": "A002386",
+  "mentions": [
+    "A000040",
+    "A000101",
+    "A000230",
+    "A000720",
+    "A000978",
+    "A001223",
+    "A005250",
+    "A005667",
+    "A005669",
+    "A008950",
+    "A070866",
+    "A111870",
+    "A111943",
+    "A134266",
+    "A182514",
+    "A205827",
+    "A214935",
+    "A241540"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

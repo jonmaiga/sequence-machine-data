@@ -1,0 +1,30 @@
+{
+  "description": "Double factorials n!!: a(n) = n*a(n-2) for n > 1, a(0) = a(1) = 1.",
+  "id": "A006882",
+  "mentions": [
+    "A000085",
+    "A000165",
+    "A001147",
+    "A001813",
+    "A006877",
+    "A052319",
+    "A135401",
+    "A143280",
+    "A202212",
+    "A297708"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

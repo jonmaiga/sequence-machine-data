@@ -1,0 +1,26 @@
+{
+  "description": "Sum of Gaussian binomial coefficients [n,k] for q=2 and k=0..n.",
+  "id": "A006116",
+  "mentions": [
+    "A005329",
+    "A006095",
+    "A006516",
+    "A022166",
+    "A033638",
+    "A083906",
+    "A135922"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

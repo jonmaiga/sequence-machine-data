@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1^n + 2^n + ... + 9^n.",
+  "id": "A001556",
+  "mentions": [
+    "A001019",
+    "A001552",
+    "A001555",
+    "A103438",
+    "A196837"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "2(2n-3)!/n!(n-1)! is an integer.",
+  "id": "A004782",
+  "mentions": [
+    "A000108",
+    "A014847",
+    "A081767",
+    "A260642"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:35",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "N-equivalence classes of threshold functions of n or fewer variables.",
+  "id": "A002078",
+  "mentions": [
+    "A000371",
+    "A000609",
+    "A002077",
+    "A002079",
+    "A075271"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Susceptibility series for f.c.c. lattice.",
+  "id": "A002921",
+  "mentions": [
+    "A002165",
+    "A002166",
+    "A002168",
+    "A002170",
+    "A002913",
+    "A002914",
+    "A002918",
+    "A007239"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

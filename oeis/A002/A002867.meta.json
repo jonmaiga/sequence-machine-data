@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = binomial(n,floor(n/2))*(n+1)!.",
+  "id": "A002867",
+  "mentions": [
+    "A000246",
+    "A000262",
+    "A002868"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

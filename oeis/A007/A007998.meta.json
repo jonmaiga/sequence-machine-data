@@ -1,0 +1,20 @@
+{
+  "description": "Number of primitive solutions to x + y + z = 0 (mod n).",
+  "id": "A007998",
+  "mentions": [
+    "A003050",
+    "A007997",
+    "A048259"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn",
+    "obsc"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

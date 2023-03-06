@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = C(n)*C(n+2) - C(n+1)^2 where C() are the Catalan numbers A000108.",
+  "id": "A005700",
+  "mentions": [
+    "A000108",
+    "A006149",
+    "A006150",
+    "A007054",
+    "A138349",
+    "A179898",
+    "A185249",
+    "A193691",
+    "A193692",
+    "A248152"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

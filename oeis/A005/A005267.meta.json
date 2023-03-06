@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = -1 + a(0)a(1)...a(n-1) if n>0. a(0)=3.",
+  "id": "A005267",
+  "mentions": [
+    "A000058",
+    "A000289",
+    "A000945",
+    "A117805"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

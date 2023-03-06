@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = largest prime factor of n^n + 1.",
+  "id": "A007571",
+  "mentions": [
+    "A006486",
+    "A006530",
+    "A014566",
+    "A056790"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

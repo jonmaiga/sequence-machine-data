@@ -1,0 +1,17 @@
+{
+  "description": "A Beatty sequence: [ n(1 + 1/e) ].",
+  "id": "A006594",
+  "mentions": [
+    "A000572"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:39:01",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

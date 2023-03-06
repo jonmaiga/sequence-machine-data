@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n concatenated with n + 1.",
+  "id": "A001704",
+  "mentions": [
+    "A030457",
+    "A127421",
+    "A215027",
+    "A248378"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

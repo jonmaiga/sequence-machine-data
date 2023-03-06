@@ -1,0 +1,26 @@
+{
+  "description": "Number of polygons that can be formed from n points on a circle, no two adjacent.",
+  "id": "A002816",
+  "mentions": [
+    "A000179",
+    "A006184",
+    "A078603",
+    "A078630",
+    "A078631",
+    "A242522",
+    "A326411"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

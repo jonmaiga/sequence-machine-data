@@ -1,0 +1,18 @@
+{
+  "description": "Number of 4 up, 4 down, 4 up, ... permutations of length 4n+1.",
+  "id": "A005983",
+  "mentions": [
+    "A005981",
+    "A229885"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

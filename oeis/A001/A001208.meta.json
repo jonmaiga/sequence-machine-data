@@ -1,0 +1,36 @@
+{
+  "description": "a(n) = solution to the postage stamp problem with 3 denominations and n stamps.",
+  "id": "A001208",
+  "mentions": [
+    "A001209",
+    "A001210",
+    "A001211",
+    "A001212",
+    "A001213",
+    "A001214",
+    "A001215",
+    "A001216",
+    "A005342",
+    "A005343",
+    "A005344",
+    "A014616",
+    "A053346",
+    "A053348",
+    "A075060",
+    "A084192",
+    "A084193",
+    "A195618",
+    "A196416"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:18:09",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

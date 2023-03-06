@@ -1,0 +1,20 @@
+{
+  "description": "Coding Fibonacci numbers.",
+  "id": "A005205",
+  "mentions": [
+    "A005203",
+    "A036299",
+    "A144287"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

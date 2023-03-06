@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor((n + 1/2) * sqrt(2)).",
+  "id": "A001953",
+  "mentions": [
+    "A000217",
+    "A001108",
+    "A001954",
+    "A049473",
+    "A115004",
+    "A136119"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

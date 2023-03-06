@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-celled mirror-symmetric solid polyominoes (or polycubes).",
+  "id": "A007743",
+  "mentions": [
+    "A000162",
+    "A007741",
+    "A038119"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

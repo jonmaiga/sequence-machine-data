@@ -1,0 +1,29 @@
+{
+  "description": "Stirling's formula: numerators of asymptotic series for Gamma function.",
+  "id": "A001163",
+  "mentions": [
+    "A001164",
+    "A006882",
+    "A007318",
+    "A097303",
+    "A143475",
+    "A143476",
+    "A317747",
+    "A317796",
+    "A318713",
+    "A318714"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "frac",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

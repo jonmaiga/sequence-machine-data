@@ -1,0 +1,15 @@
+{
+  "description": "Spiral sieve using Fibonacci numbers.",
+  "id": "A005625",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:32:32",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

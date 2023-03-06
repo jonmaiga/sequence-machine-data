@@ -1,0 +1,21 @@
+{
+  "description": "Sociable numbers: smallest member of each cycle (conjectured).",
+  "id": "A003416",
+  "mentions": [
+    "A052470",
+    "A063990",
+    "A072890",
+    "A072891",
+    "A122726"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

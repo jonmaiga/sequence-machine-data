@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of cube root of 4.",
+  "id": "A005480",
+  "mentions": [
+    "A002580",
+    "A002947",
+    "A197008"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

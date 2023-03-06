@@ -1,0 +1,21 @@
+{
+  "description": "6th binary partition function.",
+  "id": "A007729",
+  "mentions": [
+    "A002487",
+    "A007051",
+    "A072170",
+    "A174868"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

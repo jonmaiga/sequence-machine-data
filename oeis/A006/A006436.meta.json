@@ -1,0 +1,18 @@
+{
+  "description": "Number of tree-rooted toroidal maps with 2 faces and n vertices and without isthmuses.",
+  "id": "A006436",
+  "mentions": [
+    "A006437"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

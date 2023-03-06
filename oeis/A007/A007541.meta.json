@@ -1,0 +1,20 @@
+{
+  "description": "Incrementally largest terms in the continued fraction for Pi-2 (cf. A001203).",
+  "id": "A007541",
+  "mentions": [
+    "A000796",
+    "A001203",
+    "A033089",
+    "A033090"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

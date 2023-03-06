@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of proton mass (mass units).",
+  "id": "A003677",
+  "mentions": [
+    "A005601"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cons",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

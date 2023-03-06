@@ -1,0 +1,21 @@
+{
+  "description": "Number of Costas arrays of order n, counting rotations and flips as distinct.",
+  "id": "A008404",
+  "mentions": [
+    "A001441"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

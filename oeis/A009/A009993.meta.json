@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose decimal digits are in strictly increasing order.",
+  "id": "A009993",
+  "mentions": [
+    "A009995",
+    "A178788"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

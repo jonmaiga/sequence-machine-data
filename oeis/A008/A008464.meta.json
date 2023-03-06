@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 2^(2n+3) - 2^n*(n+3).",
+  "id": "A008464",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:53:53",
+    "offset": -1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

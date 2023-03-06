@@ -1,0 +1,17 @@
+{
+  "description": "Theta series of extremal even unimodular lattice in dimension 72.",
+  "id": "A004675",
+  "mentions": [
+    "A018236"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

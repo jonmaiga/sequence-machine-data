@@ -1,0 +1,33 @@
+{
+  "description": "The minimal numbers: sequence A005179 arranged in increasing order.",
+  "id": "A007416",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A005179",
+    "A007415",
+    "A025487",
+    "A047983",
+    "A053212",
+    "A064787",
+    "A099312",
+    "A099314",
+    "A099316",
+    "A099317",
+    "A099318",
+    "A166721",
+    "A283980"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

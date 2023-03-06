@@ -1,0 +1,29 @@
+{
+  "description": "Primes congruent to {5, 7} mod 8.",
+  "id": "A003628",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A033200",
+    "A033203",
+    "A039706",
+    "A047566",
+    "A055034",
+    "A186302",
+    "A230076"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

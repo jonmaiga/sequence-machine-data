@@ -1,0 +1,26 @@
+{
+  "description": "Sum of primes = 2 mod 3 dividing n.",
+  "id": "A005074",
+  "mentions": [
+    "A005070",
+    "A005075",
+    "A005076",
+    "A005077",
+    "A005090",
+    "A008472",
+    "A020639",
+    "A028234",
+    "A079978"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

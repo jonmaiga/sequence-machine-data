@@ -1,0 +1,21 @@
+{
+  "description": "Number of symmetric Costas arrays of order n that are inequivalent under dihedral group.",
+  "id": "A001440",
+  "mentions": [
+    "A001441",
+    "A001442",
+    "A008404"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

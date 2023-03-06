@@ -1,0 +1,25 @@
+{
+  "description": "Number of simplices in barycentric subdivision of n-simplex.",
+  "id": "A005463",
+  "mentions": [
+    "A000629",
+    "A005460",
+    "A005461",
+    "A005462",
+    "A005464",
+    "A005465",
+    "A028246",
+    "A112494"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 4,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Number of inequivalent sublattices of index n in hexagonal lattice, where two sublattices are equivalent if they are related by a rotation or reflection preserving the hexagonal lattice.",
+  "id": "A003051",
+  "mentions": [
+    "A000203",
+    "A001615",
+    "A002324",
+    "A003050",
+    "A006984",
+    "A054345",
+    "A054346",
+    "A054384",
+    "A069734",
+    "A112689",
+    "A145390",
+    "A145391",
+    "A145392",
+    "A145393",
+    "A145394",
+    "A159842",
+    "A300651"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:26:15",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

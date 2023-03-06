@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of Jacobi theta function theta_4(x).",
+  "id": "A002448",
+  "mentions": [
+    "A000122",
+    "A000203",
+    "A000700",
+    "A002131",
+    "A010054",
+    "A010815",
+    "A089802",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

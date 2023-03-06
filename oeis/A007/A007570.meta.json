@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = F(F(n)), where F is a Fibonacci number.",
+  "id": "A007570",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A005371",
+    "A058051",
+    "A094214"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

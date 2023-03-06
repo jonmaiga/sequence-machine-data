@@ -1,0 +1,23 @@
+{
+  "description": "Number of signed graphs with n nodes. Also number of 2-multigraphs on n nodes.",
+  "id": "A004102",
+  "mentions": [
+    "A000666",
+    "A053465",
+    "A063841",
+    "A063843"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

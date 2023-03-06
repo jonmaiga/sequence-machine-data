@@ -1,0 +1,20 @@
+{
+  "description": "Reversion of Jacobi theta_3.",
+  "id": "A006195",
+  "mentions": [
+    "A000122",
+    "A006193",
+    "A357588"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:35:20",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

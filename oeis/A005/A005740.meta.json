@@ -1,0 +1,19 @@
+{
+  "description": "Number of fanout-free Boolean functions of n variables.",
+  "id": "A005740",
+  "mentions": [
+    "A005617",
+    "A005736"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "2-part of number of tournaments on n nodes.",
+  "id": "A007150",
+  "mentions": [
+    "A000568",
+    "A007149",
+    "A007814"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Reversion of g.f. for Euler numbers A000111(n-1).",
+  "id": "A007316",
+  "mentions": [
+    "A000111",
+    "A357588"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:06:23",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

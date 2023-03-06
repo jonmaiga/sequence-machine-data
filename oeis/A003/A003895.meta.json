@@ -1,0 +1,17 @@
+{
+  "description": "Degrees of irreducible representations of group L3(4).",
+  "id": "A003895",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

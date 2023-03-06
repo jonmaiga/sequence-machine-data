@@ -1,0 +1,33 @@
+{
+  "description": "Number of binary vectors of length n containing no singletons.",
+  "id": "A006355",
+  "mentions": [
+    "A000045",
+    "A006356",
+    "A047992",
+    "A054886",
+    "A055389",
+    "A068922",
+    "A072405",
+    "A090991",
+    "A094570",
+    "A097925",
+    "A097926",
+    "A118658",
+    "A119457",
+    "A265584"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

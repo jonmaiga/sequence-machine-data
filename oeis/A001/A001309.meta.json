@@ -1,0 +1,22 @@
+{
+  "description": "Order of real Clifford group L_n connected with Barnes-Wall lattices in dimension 2^n.",
+  "id": "A001309",
+  "mentions": [
+    "A001308",
+    "A003956",
+    "A014115",
+    "A014116"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:54:17",
+    "offset": 0,
+    "size": 9,
+    "source": "joeis"
+  }
+}

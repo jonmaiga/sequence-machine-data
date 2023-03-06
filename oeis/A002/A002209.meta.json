@@ -1,0 +1,27 @@
+{
+  "description": "Denominators of coefficients for numerical integration.",
+  "id": "A002209",
+  "mentions": [
+    "A002206",
+    "A002207",
+    "A002208",
+    "A002657",
+    "A002790",
+    "A006232",
+    "A006233"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

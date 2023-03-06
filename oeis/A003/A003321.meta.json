@@ -1,0 +1,35 @@
+{
+  "description": "Smallest n-th order perfect digital invariant or PDI: smallest number > 1 equal to sum of n-th powers of its digits, or 0 if no such number exists.",
+  "id": "A003321",
+  "mentions": [
+    "A001694",
+    "A005188",
+    "A005934",
+    "A007532",
+    "A014576",
+    "A023052",
+    "A033835",
+    "A033836",
+    "A033837",
+    "A033838",
+    "A033839",
+    "A033840",
+    "A033841",
+    "A046074",
+    "A046761",
+    "A252648",
+    "A262094"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Numbers n such that the average of the divisors of n is an integer: sigma_0(n) divides sigma_1(n). Alternatively, tau(n) (A000005(n)) divides sigma(n) (A000203(n)).",
+  "id": "A003601",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001599",
+    "A007340",
+    "A023883",
+    "A049642",
+    "A054025",
+    "A065091",
+    "A069928",
+    "A102187",
+    "A140480",
+    "A175678",
+    "A175679",
+    "A245644",
+    "A245656"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

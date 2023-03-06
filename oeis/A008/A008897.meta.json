@@ -1,0 +1,15 @@
+{
+  "description": "x->x/2 if x even, x->3x-1 if x odd.",
+  "id": "A008897",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:49:21",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

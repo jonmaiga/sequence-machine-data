@@ -1,0 +1,20 @@
+{
+  "description": "Cluster series for bond percolation problem on f.c.c. lattice.",
+  "id": "A003205",
+  "mentions": [
+    "A003206",
+    "A003207",
+    "A003209"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

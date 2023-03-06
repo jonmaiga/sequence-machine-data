@@ -1,0 +1,20 @@
+{
+  "description": "Shifts 2 places left when binomial transform is applied twice.",
+  "id": "A007472",
+  "mentions": [
+    "A003633"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

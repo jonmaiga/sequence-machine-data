@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into parts of sizes {a( )} is a(n).",
+  "id": "A007209",
+  "mentions": [
+    "A003633"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

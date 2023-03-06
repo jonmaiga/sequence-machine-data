@@ -1,0 +1,25 @@
+{
+  "description": "Number of parabolic vertices of Gamma_0(n).",
+  "id": "A001616",
+  "mentions": [
+    "A000010",
+    "A000521",
+    "A027748",
+    "A027750",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:19:25",
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

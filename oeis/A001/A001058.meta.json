@@ -1,0 +1,19 @@
+{
+  "description": "1-digit numbers in reverse alphabetical order, then 2-digit numbers, etc.",
+  "id": "A001058",
+  "mentions": [
+    "A000052"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:17:45",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "E.g.f. exp(sin(x)^2) (even powers only).",
+  "id": "A009217",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:19",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

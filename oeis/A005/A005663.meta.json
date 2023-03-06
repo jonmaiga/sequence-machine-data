@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of convergents to log_2(3) = log(3)/log(2).",
+  "id": "A005663",
+  "mentions": [
+    "A005664",
+    "A020857",
+    "A028507"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:05:54",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

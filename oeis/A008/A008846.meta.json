@@ -1,0 +1,31 @@
+{
+  "description": "Hypotenuses of primitive Pythagorean triangles.",
+  "id": "A008846",
+  "mentions": [
+    "A000404",
+    "A002144",
+    "A004431",
+    "A004613",
+    "A020882",
+    "A024362",
+    "A024409",
+    "A073101",
+    "A120960",
+    "A137409",
+    "A339952"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

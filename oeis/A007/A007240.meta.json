@@ -1,0 +1,24 @@
+{
+  "description": "McKay-Thompson series of class 1A for the Monster group with a(0) = 24.",
+  "id": "A007240",
+  "mentions": [
+    "A000521",
+    "A007191",
+    "A007242",
+    "A008408",
+    "A014708"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": -1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

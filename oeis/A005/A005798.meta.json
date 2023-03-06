@@ -1,0 +1,30 @@
+{
+  "description": "Expansion of (theta_2(q)/theta_3(q))^4/16 in powers of q.",
+  "id": "A005798",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A001938",
+    "A005797",
+    "A007248",
+    "A010054",
+    "A010815",
+    "A029845",
+    "A115977",
+    "A121373",
+    "A128692"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

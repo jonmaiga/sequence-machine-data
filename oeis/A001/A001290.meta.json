@@ -1,0 +1,19 @@
+{
+  "description": "Order of \"Restricted Affine Group\" on n variables.",
+  "id": "A001290",
+  "mentions": [
+    "A143037"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 2,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

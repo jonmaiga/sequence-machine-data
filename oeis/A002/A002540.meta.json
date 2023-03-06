@@ -1,0 +1,23 @@
+{
+  "description": "Increasing gaps between prime-powers.",
+  "id": "A002540",
+  "mentions": [
+    "A000961",
+    "A002386",
+    "A057820",
+    "A094158",
+    "A121492",
+    "A121493"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

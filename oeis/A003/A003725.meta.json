@@ -1,0 +1,25 @@
+{
+  "description": "E.g.f.: exp( x * exp(-x) ).",
+  "id": "A003725",
+  "mentions": [
+    "A000248",
+    "A069856",
+    "A072034",
+    "A215652",
+    "A292909",
+    "A292910",
+    "A292912"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of [n] where the first k elements are marked (0 <= k <= n-1) and at least k blocks contain their own index.",
+  "id": "A005490",
+  "mentions": [
+    "A000035",
+    "A000110",
+    "A108087",
+    "A259691",
+    "A347420"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:41:20",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

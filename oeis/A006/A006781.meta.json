@@ -1,0 +1,17 @@
+{
+  "description": "Number of polygons of length 4n on Manhattan lattice.",
+  "id": "A006781",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

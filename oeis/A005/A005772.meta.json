@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations of length n with 2 cycle lengths.",
+  "id": "A005772",
+  "mentions": [
+    "A218868"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 3,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

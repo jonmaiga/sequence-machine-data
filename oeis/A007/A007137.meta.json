@@ -1,0 +1,21 @@
+{
+  "description": "Number of rooted maps with n edges on the projective plane.",
+  "id": "A007137",
+  "mentions": [
+    "A002426",
+    "A006300",
+    "A267180"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

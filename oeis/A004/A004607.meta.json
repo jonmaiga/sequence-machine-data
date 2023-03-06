@@ -1,0 +1,19 @@
+{
+  "description": "Infinitary sociable numbers (smallest member of cycle).",
+  "id": "A004607",
+  "mentions": [
+    "A003416",
+    "A063990"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

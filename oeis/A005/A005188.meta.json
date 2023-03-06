@@ -1,0 +1,32 @@
+{
+  "description": "Armstrong (or pluperfect, or Plus Perfect, or narcissistic) numbers: m-digit positive numbers equal to sum of the m-th powers of their digits.",
+  "id": "A005188",
+  "mentions": [
+    "A001694",
+    "A003154",
+    "A003321",
+    "A005934",
+    "A007532",
+    "A010343",
+    "A010354",
+    "A014576",
+    "A023052",
+    "A046074",
+    "A151543",
+    "A229381"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

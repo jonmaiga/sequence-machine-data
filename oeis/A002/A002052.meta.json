@@ -1,0 +1,18 @@
+{
+  "description": "Prime determinants of forms with class number 2.",
+  "id": "A002052",
+  "mentions": [
+    "A002145",
+    "A260335"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Period of decimal representation of 1/n.",
+  "id": "A007732",
+  "mentions": [
+    "A000010",
+    "A001913",
+    "A003592",
+    "A007733",
+    "A007736",
+    "A051626",
+    "A066799",
+    "A084680",
+    "A121090",
+    "A121341",
+    "A132740",
+    "A132741"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

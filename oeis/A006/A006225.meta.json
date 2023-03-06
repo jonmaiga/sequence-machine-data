@@ -1,0 +1,19 @@
+{
+  "description": "Rabbytes: group eight successive Fibonacci numbers in reversed binary and translate to decimal.",
+  "id": "A006225",
+  "mentions": [
+    "A006224"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:42:32",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

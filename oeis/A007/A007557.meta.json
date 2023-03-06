@@ -1,0 +1,27 @@
+{
+  "description": "Shifts left when inverse Moebius transform applied twice.",
+  "id": "A007557",
+  "mentions": [
+    "A000005",
+    "A003238",
+    "A003633",
+    "A007554",
+    "A038045",
+    "A038046",
+    "A070965",
+    "A127170"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:45:17",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

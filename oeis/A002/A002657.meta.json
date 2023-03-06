@@ -1,0 +1,35 @@
+{
+  "description": "Numerators of Cauchy numbers of second type (= Bernoulli numbers B_n^{(n)}).",
+  "id": "A002657",
+  "mentions": [
+    "A001896",
+    "A002206",
+    "A002207",
+    "A002208",
+    "A002209",
+    "A002790",
+    "A006232",
+    "A006233",
+    "A007318",
+    "A008275",
+    "A008277",
+    "A048993",
+    "A075266",
+    "A075267",
+    "A262235"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

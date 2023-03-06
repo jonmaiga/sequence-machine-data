@@ -1,0 +1,23 @@
+{
+  "description": "Weight of balanced ternary representation of n.",
+  "id": "A005812",
+  "mentions": [
+    "A134021",
+    "A134022",
+    "A134023",
+    "A134024"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

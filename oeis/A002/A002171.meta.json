@@ -1,0 +1,33 @@
+{
+  "description": "Glaisher's chi numbers. a(n) = chi(4*n + 1).",
+  "id": "A002171",
+  "mentions": [
+    "A000122",
+    "A000203",
+    "A000700",
+    "A000729",
+    "A002172",
+    "A008441",
+    "A010054",
+    "A010815",
+    "A030203",
+    "A121373",
+    "A215472",
+    "A215601",
+    "A278720",
+    "A279955"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

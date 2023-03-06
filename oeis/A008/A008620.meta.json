@@ -1,0 +1,30 @@
+{
+  "description": "Positive integers repeated three times.",
+  "id": "A008620",
+  "mentions": [
+    "A000027",
+    "A001840",
+    "A002264",
+    "A004016",
+    "A004396",
+    "A005882",
+    "A005928",
+    "A008621",
+    "A010766",
+    "A049347",
+    "A235791"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

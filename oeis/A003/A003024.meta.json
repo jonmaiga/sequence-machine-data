@@ -1,0 +1,33 @@
+{
+  "description": "Number of acyclic digraphs (or DAGs) with n labeled nodes.",
+  "id": "A003024",
+  "mentions": [
+    "A000009",
+    "A003087",
+    "A046860",
+    "A055165",
+    "A058843",
+    "A081064",
+    "A085656",
+    "A086510",
+    "A089482",
+    "A135079",
+    "A137435",
+    "A188457",
+    "A188490",
+    "A307049"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

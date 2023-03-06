@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that do not contain the letter 't'.",
+  "id": "A008523",
+  "mentions": [
+    "A006933",
+    "A008521",
+    "A089589",
+    "A089590"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:53",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

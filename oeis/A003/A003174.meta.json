@@ -1,0 +1,26 @@
+{
+  "description": "Positive integers D such that Q[sqrt(D)] is a quadratic field which is norm-Euclidean.",
+  "id": "A003174",
+  "mentions": [
+    "A000924",
+    "A003173",
+    "A003246",
+    "A048981",
+    "A187776",
+    "A263465"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

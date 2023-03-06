@@ -1,0 +1,20 @@
+{
+  "description": "Molien series of 3-dimensional representation of group GL(3,2) (= L(2,7)); a simple group of order 168.",
+  "id": "A008614",
+  "mentions": [
+    "A008671"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:48:27",
+    "offset": 0,
+    "size": 89,
+    "source": "joeis"
+  }
+}

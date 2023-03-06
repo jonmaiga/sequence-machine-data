@@ -1,0 +1,17 @@
+{
+  "description": "Number of rooted toroidal maps with 3 vertices and n faces and no isthmuses.",
+  "id": "A006426",
+  "mentions": [
+    "A343092"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:38:43",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

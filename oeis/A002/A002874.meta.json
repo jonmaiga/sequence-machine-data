@@ -1,0 +1,29 @@
+{
+  "description": "The number of partitions of {1..3n} that are invariant under a permutation consisting of n 3-cycles.",
+  "id": "A002874",
+  "mentions": [
+    "A000110",
+    "A000262",
+    "A002868",
+    "A002872",
+    "A036075",
+    "A036077",
+    "A141003",
+    "A141004",
+    "A162663",
+    "A294201"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Generalized Stirling numbers.",
+  "id": "A001701",
+  "mentions": [
+    "A000051",
+    "A005564",
+    "A059302",
+    "A145324",
+    "A308305"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:19:27",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

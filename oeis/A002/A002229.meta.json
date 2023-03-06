@@ -1,0 +1,21 @@
+{
+  "description": "Primitive roots that go with the primes in A002230.",
+  "id": "A002229",
+  "mentions": [
+    "A002223",
+    "A002230",
+    "A005180"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

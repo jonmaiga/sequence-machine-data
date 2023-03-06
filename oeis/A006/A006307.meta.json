@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways writing 2^n as unordered sums of 2 primes.",
+  "id": "A006307",
+  "mentions": [
+    "A061358",
+    "A062602",
+    "A062610"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers not congruent to 5 (mod 8).",
+  "id": "A004776",
+  "mentions": [
+    "A004770",
+    "A045323"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

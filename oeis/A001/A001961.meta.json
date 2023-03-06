@@ -1,0 +1,22 @@
+{
+  "description": "A Beatty sequence: floor(n * (sqrt(5) - 1)).",
+  "id": "A001961",
+  "mentions": [
+    "A001962",
+    "A001965",
+    "A005206",
+    "A115004"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

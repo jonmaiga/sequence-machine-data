@@ -1,0 +1,21 @@
+{
+  "description": "Number of unrooted achiral trees with n nodes.",
+  "id": "A003244",
+  "mentions": [
+    "A002995",
+    "A003238",
+    "A003241"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:35",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

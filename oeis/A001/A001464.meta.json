@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f. exp( -x -(1/2)*x^2 ).",
+  "id": "A001464",
+  "mentions": [
+    "A000085",
+    "A000178",
+    "A001147",
+    "A066325",
+    "A069834",
+    "A099174",
+    "A200675"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

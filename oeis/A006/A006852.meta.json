@@ -1,0 +1,21 @@
+{
+  "description": "Step at which n is expelled in Kimberling's puzzle (A035486).",
+  "id": "A006852",
+  "mentions": [
+    "A007063",
+    "A035486",
+    "A175312"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

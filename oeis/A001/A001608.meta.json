@@ -1,0 +1,31 @@
+{
+  "description": "Perrin sequence (or Ondrej Such sequence): a(n) = a(n-2) + a(n-3) with a(0) = 3, a(1) = 0, a(2) = 2.",
+  "id": "A001608",
+  "mentions": [
+    "A000051",
+    "A000931",
+    "A001602",
+    "A007380",
+    "A013998",
+    "A014981",
+    "A018187",
+    "A060006",
+    "A078712",
+    "A104217",
+    "A109377",
+    "A182097"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

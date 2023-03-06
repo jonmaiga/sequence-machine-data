@@ -1,0 +1,24 @@
+{
+  "description": "Number of intransitive (or alternating, or Stanley) trees: vertices are [0,n] and for no i",
+  "id": "A007889",
+  "mentions": [
+    "A029847",
+    "A038049",
+    "A088789",
+    "A138860",
+    "A323841"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

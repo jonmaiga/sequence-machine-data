@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of sin(sin(sinh(x))).",
+  "id": "A009471",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:31:24",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

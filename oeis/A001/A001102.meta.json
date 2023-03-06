@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k / (sum of digits of k) is a square.",
+  "id": "A001102",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A010052",
+    "A028839"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Duffinian numbers: composite numbers k relatively prime to sigma(k).",
+  "id": "A003624",
+  "mentions": [
+    "A000203",
+    "A002808",
+    "A005153",
+    "A009194",
+    "A010051",
+    "A014567",
+    "A025475",
+    "A088827"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Theta series of P_{12a} packing.",
+  "id": "A005952",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

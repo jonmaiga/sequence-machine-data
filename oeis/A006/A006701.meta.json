@@ -1,0 +1,20 @@
+{
+  "description": "Exponentiation of g.f. for Fibonacci numbers.",
+  "id": "A006701",
+  "mentions": [
+    "A000045",
+    "A007552",
+    "A256180"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

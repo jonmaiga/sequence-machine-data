@@ -1,0 +1,18 @@
+{
+  "description": "Number of diagonal dissections of a convex n-gon into n-5 regions.",
+  "id": "A002056",
+  "mentions": [
+    "A001004"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:34:29",
+    "offset": 6,
+    "size": 23,
+    "source": "joeis"
+  }
+}

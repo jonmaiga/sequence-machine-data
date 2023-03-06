@@ -1,0 +1,16 @@
+{
+  "description": "Number of unrooted hexagonal polyominoes with n cells and no reflections allowed.",
+  "id": "A002214",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

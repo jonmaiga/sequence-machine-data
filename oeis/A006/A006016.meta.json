@@ -1,0 +1,16 @@
+{
+  "description": "The nim value for the game of Sym with n tails and 1 head.",
+  "id": "A006016",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

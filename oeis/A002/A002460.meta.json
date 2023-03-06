@@ -1,0 +1,17 @@
+{
+  "description": "Nearest integer to exponential integral of n.",
+  "id": "A002460",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

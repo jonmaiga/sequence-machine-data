@@ -1,0 +1,22 @@
+{
+  "description": "Vertex diagrams of order 2n.",
+  "id": "A005416",
+  "mentions": [
+    "A000698",
+    "A001147",
+    "A049464"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

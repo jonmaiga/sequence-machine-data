@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic solutions to minimal independent dominating set on queens' graph Q(n).",
+  "id": "A002567",
+  "mentions": [
+    "A002560",
+    "A002568",
+    "A075324"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

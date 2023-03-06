@@ -1,0 +1,20 @@
+{
+  "description": "Order of group of n X n X n Rubik cube.",
+  "id": "A007458",
+  "mentions": [
+    "A054434",
+    "A074914",
+    "A075152"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn",
+    "unkn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

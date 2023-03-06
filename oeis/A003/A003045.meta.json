@@ -1,0 +1,15 @@
+{
+  "description": "a(n) (n>6) is least integer > a(n-1) with precisely three representations a(n) = a(i) + a(j), 1<=i",
+  "id": "A003045",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:26:13",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

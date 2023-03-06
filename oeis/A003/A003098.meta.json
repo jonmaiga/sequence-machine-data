@@ -1,0 +1,22 @@
+{
+  "description": "Palindromic triangular numbers.",
+  "id": "A003098",
+  "mentions": [
+    "A000217",
+    "A002113",
+    "A008509"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

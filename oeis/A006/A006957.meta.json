@@ -1,0 +1,21 @@
+{
+  "description": "Self-convolution of numbers of preferential arrangements.",
+  "id": "A006957",
+  "mentions": [
+    "A000670",
+    "A217388",
+    "A217389"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

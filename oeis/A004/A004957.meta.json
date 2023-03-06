@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = ceiling(n*phi^2), where phi is the golden ratio, A001622.",
+  "id": "A004957",
+  "mentions": [
+    "A001622",
+    "A026352",
+    "A060142"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Arrays of dumbbells.",
+  "id": "A002940",
+  "mentions": [
+    "A000045",
+    "A001925",
+    "A002889",
+    "A002941",
+    "A006478",
+    "A023610",
+    "A046741",
+    "A054454",
+    "A055608",
+    "A062123",
+    "A062127",
+    "A067331",
+    "A178523"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

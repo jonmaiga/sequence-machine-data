@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = binomial(4*n+1, 2*n).",
+  "id": "A002458",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A001448",
+    "A001700",
+    "A024492",
+    "A067001"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

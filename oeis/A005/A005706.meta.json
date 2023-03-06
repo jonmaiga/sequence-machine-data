@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of 5n into powers of 5.",
+  "id": "A005706",
+  "mentions": [
+    "A000041",
+    "A000123",
+    "A005704",
+    "A005705",
+    "A292477"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

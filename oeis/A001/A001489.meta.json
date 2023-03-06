@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = -n.",
+  "id": "A001489",
+  "mentions": [
+    "A001477",
+    "A057428"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:19:13",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Binary expansion starts 100.",
+  "id": "A004756",
+  "mentions": [
+    "A004754",
+    "A004755",
+    "A004757",
+    "A004758",
+    "A004759",
+    "A004760",
+    "A053644",
+    "A062050",
+    "A076877",
+    "A079944"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:25",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

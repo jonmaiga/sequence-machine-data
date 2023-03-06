@@ -1,0 +1,32 @@
+{
+  "description": "Odd numbers not of form p + 2^k (de Polignac numbers).",
+  "id": "A006285",
+  "mentions": [
+    "A058517",
+    "A065381",
+    "A098237",
+    "A109925",
+    "A118954",
+    "A133122",
+    "A156695",
+    "A232460",
+    "A254248",
+    "A276417",
+    "A350957",
+    "A350959",
+    "A350960"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

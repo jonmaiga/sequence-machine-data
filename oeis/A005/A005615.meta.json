@@ -1,0 +1,19 @@
+{
+  "description": "Number of fanout-free Boolean functions of n variables using And, Or, Not and Majority gates.",
+  "id": "A005615",
+  "mentions": [
+    "A005607",
+    "A005612",
+    "A005736"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:51",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

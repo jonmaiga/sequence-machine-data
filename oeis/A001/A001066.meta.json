@@ -1,0 +1,25 @@
+{
+  "description": "Dimensions (sorted, with duplicates removed) of real simple Lie algebras.",
+  "id": "A001066",
+  "mentions": [
+    "A000217",
+    "A000384",
+    "A002378",
+    "A003038",
+    "A005563",
+    "A014105"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

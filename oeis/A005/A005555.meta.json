@@ -1,0 +1,19 @@
+{
+  "description": "A finite sequence associated with the Lie algebra E_8.",
+  "id": "A005555",
+  "mentions": [
+    "A000051"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

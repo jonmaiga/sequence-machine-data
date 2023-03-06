@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of coefficients in asymptotic expansion of (2/Pi)*Integral_{0..inf} (sin x / x)^n dx.",
+  "id": "A002305",
+  "mentions": [
+    "A002297",
+    "A002298",
+    "A002304"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

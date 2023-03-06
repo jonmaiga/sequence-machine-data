@@ -1,0 +1,28 @@
+{
+  "description": "Start of first run of n consecutive integers with same number of divisors.",
+  "id": "A006558",
+  "mentions": [
+    "A000005",
+    "A005237",
+    "A005238",
+    "A006601",
+    "A019273",
+    "A034173",
+    "A039665",
+    "A049051",
+    "A115158",
+    "A119479"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

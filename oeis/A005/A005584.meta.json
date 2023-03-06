@@ -1,0 +1,25 @@
+{
+  "description": "Coefficients of Chebyshev polynomials.",
+  "id": "A005584",
+  "mentions": [
+    "A000051",
+    "A005581",
+    "A005582",
+    "A005583",
+    "A101096",
+    "A127672"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:34:27",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

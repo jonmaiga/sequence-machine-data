@@ -1,0 +1,27 @@
+{
+  "description": "Number of complete mappings of the cyclic group Z_{2n+1}.",
+  "id": "A003111",
+  "mentions": [
+    "A003109",
+    "A003110",
+    "A006204",
+    "A006609",
+    "A006717",
+    "A071607",
+    "A071608",
+    "A071706"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

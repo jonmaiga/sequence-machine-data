@@ -1,0 +1,21 @@
+{
+  "description": "Permanent of Schur's matrix of order 2n+1.",
+  "id": "A003112",
+  "mentions": [
+    "A003109",
+    "A003110"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

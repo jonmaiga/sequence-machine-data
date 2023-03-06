@@ -1,0 +1,18 @@
+{
+  "description": "Number of increasing sequences of star chain type with maximal element n.",
+  "id": "A008927",
+  "mentions": [
+    "A008928",
+    "A079301"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

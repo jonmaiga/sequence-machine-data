@@ -1,0 +1,30 @@
+{
+  "description": "Number of fractions in Farey series of order n.",
+  "id": "A005728",
+  "mentions": [
+    "A002088",
+    "A005165",
+    "A005727",
+    "A006368",
+    "A006842",
+    "A006843",
+    "A018805",
+    "A049643",
+    "A055197",
+    "A055201",
+    "A115004"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

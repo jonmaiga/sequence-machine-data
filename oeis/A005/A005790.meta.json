@@ -1,0 +1,23 @@
+{
+  "description": "4-dimensional Catalan numbers.",
+  "id": "A005790",
+  "mentions": [
+    "A000108",
+    "A005789",
+    "A005791",
+    "A060854",
+    "A268538"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

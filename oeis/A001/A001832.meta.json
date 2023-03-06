@@ -1,0 +1,26 @@
+{
+  "description": "Number of labeled connected bipartite graphs on n nodes.",
+  "id": "A001832",
+  "mentions": [
+    "A000684",
+    "A000798",
+    "A002031",
+    "A005142",
+    "A047863",
+    "A047864",
+    "A228861"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

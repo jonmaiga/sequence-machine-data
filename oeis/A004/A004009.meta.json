@@ -1,0 +1,44 @@
+{
+  "description": "Expansion of Eisenstein series E_4(q) (alternate convention E_2(q)); theta series of E_8 lattice.",
+  "id": "A004009",
+  "mentions": [
+    "A000122",
+    "A000143",
+    "A000700",
+    "A001158",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A006352",
+    "A007331",
+    "A008410",
+    "A008411",
+    "A008430",
+    "A010054",
+    "A010815",
+    "A013973",
+    "A013974",
+    "A029828",
+    "A029829",
+    "A029830",
+    "A029831",
+    "A035016",
+    "A046948",
+    "A058550",
+    "A108091",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

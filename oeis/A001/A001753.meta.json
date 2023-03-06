@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of 1/((1+x)*(1-x)^6).",
+  "id": "A001753",
+  "mentions": [
+    "A000217",
+    "A000389",
+    "A001752",
+    "A001769",
+    "A002620",
+    "A008804",
+    "A038163",
+    "A054343",
+    "A108561"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

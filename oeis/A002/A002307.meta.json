@@ -1,0 +1,22 @@
+{
+  "description": "Consecutive quadratic residues mod p: a(n) is the maximal number of positive reduced quadratic residues which appear consecutively for n-th prime.",
+  "id": "A002307",
+  "mentions": [
+    "A002308",
+    "A048280",
+    "A097159"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

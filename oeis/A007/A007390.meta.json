@@ -1,0 +1,19 @@
+{
+  "description": "Number of strict (-1)st-order maximal independent sets in cycle graph.",
+  "id": "A007390",
+  "mentions": [
+    "A000204",
+    "A007380"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:13:50",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

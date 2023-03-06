@@ -1,0 +1,30 @@
+{
+  "description": "4-dimensional analog of centered polygonal numbers: a(n) = n(n+1)*(n^2+n+4)/12.",
+  "id": "A006007",
+  "mentions": [
+    "A000217",
+    "A000537",
+    "A000578",
+    "A000602",
+    "A003215",
+    "A005898",
+    "A012249",
+    "A027602",
+    "A061315",
+    "A061316",
+    "A061318"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:36:31",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

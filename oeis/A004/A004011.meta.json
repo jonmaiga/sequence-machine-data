@@ -1,0 +1,33 @@
+{
+  "description": "Theta series of D_4 lattice; Fourier coefficients of Eisenstein series E_{gamma,2}.",
+  "id": "A004011",
+  "mentions": [
+    "A000118",
+    "A000593",
+    "A004009",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A006352",
+    "A008658",
+    "A013973",
+    "A046949",
+    "A096727",
+    "A108092",
+    "A108096"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

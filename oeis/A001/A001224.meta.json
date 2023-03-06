@@ -1,0 +1,25 @@
+{
+  "description": "If F(n) is the n-th Fibonacci number, then a(2n) = (F(2n+1) + F(n+2))/2 and a(2n+1) = (F(2n+2) + F(n+1))/2.",
+  "id": "A001224",
+  "mentions": [
+    "A000051",
+    "A005207",
+    "A051450",
+    "A060312",
+    "A068928",
+    "A102526"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

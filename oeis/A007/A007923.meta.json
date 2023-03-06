@@ -1,0 +1,23 @@
+{
+  "description": "Lengths increase by 1, digits cycle through positive digits.",
+  "id": "A007923",
+  "mentions": [
+    "A001369",
+    "A007924",
+    "A050234",
+    "A066547"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

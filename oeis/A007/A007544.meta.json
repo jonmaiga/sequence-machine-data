@@ -1,0 +1,17 @@
+{
+  "description": "Frequency of n-th largest distance in N times N times N grid, N > n.",
+  "id": "A007544",
+  "mentions": [
+    "A007543"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of ternary squarefree words of length n.",
+  "id": "A006156",
+  "mentions": [
+    "A060688",
+    "A215075",
+    "A282212"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

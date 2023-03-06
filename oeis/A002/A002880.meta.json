@@ -1,0 +1,25 @@
+{
+  "description": "Number of 3-connected nets with n edges.",
+  "id": "A002880",
+  "mentions": [
+    "A000103",
+    "A000162",
+    "A002840",
+    "A002841",
+    "A007022",
+    "A078666",
+    "A113201",
+    "A113205"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 6,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

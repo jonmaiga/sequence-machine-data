@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonisomorphic simple matroids (or geometries) with n points.",
+  "id": "A002773",
+  "mentions": [
+    "A055545",
+    "A056642",
+    "A058730"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

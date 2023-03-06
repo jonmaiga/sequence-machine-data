@@ -1,0 +1,25 @@
+{
+  "description": "Hexagonal numbers (A000384) which are also centered hexagonal numbers (A003215).",
+  "id": "A006244",
+  "mentions": [
+    "A000051",
+    "A000384",
+    "A001570",
+    "A001921",
+    "A003215",
+    "A007667",
+    "A253175"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

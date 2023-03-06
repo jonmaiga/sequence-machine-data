@@ -1,0 +1,21 @@
+{
+  "description": "Numbers containing an even digit.",
+  "id": "A007928",
+  "mentions": [
+    "A014261",
+    "A196563"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of n-step self-avoiding walks on f.c.c. lattice from (0,0,0) to (0,1,1).",
+  "id": "A003287",
+  "mentions": [
+    "A001337",
+    "A003288",
+    "A005398",
+    "A005543",
+    "A005544",
+    "A005545",
+    "A005546",
+    "A005547",
+    "A005548"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of Young tableaux of height <= 6.",
+  "id": "A007579",
+  "mentions": [
+    "A007578",
+    "A182172"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

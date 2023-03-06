@@ -1,0 +1,26 @@
+{
+  "description": "Aliquot sequence starting at 276.",
+  "id": "A008892",
+  "mentions": [
+    "A000010",
+    "A001065",
+    "A008885",
+    "A008891",
+    "A081705",
+    "A098007",
+    "A290447",
+    "A359132"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

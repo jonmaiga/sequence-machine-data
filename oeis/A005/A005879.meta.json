@@ -1,0 +1,28 @@
+{
+  "description": "Theta series of D_4 lattice with respect to deep hole.",
+  "id": "A005879",
+  "mentions": [
+    "A000118",
+    "A000122",
+    "A000700",
+    "A005880",
+    "A008438",
+    "A010054",
+    "A010815",
+    "A096727",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

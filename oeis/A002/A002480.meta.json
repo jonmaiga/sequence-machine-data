@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of form 2x^2 + 3y^2.",
+  "id": "A002480",
+  "mentions": [
+    "A000075",
+    "A084865"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:23:15",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "description": "Number of connected permutations of [1..n] (those not fixing [1..j] for 0 < j < n). Also called indecomposable permutations, or irreducible permutations.",
+  "id": "A003319",
+  "mentions": [
+    "A000142",
+    "A000698",
+    "A003116",
+    "A003320",
+    "A051296",
+    "A059332",
+    "A059438",
+    "A059439",
+    "A074664",
+    "A084938",
+    "A089949",
+    "A090238",
+    "A111184",
+    "A113869",
+    "A128175",
+    "A137704",
+    "A144107",
+    "A167894",
+    "A233824",
+    "A259472",
+    "A260503",
+    "A261214",
+    "A261239",
+    "A261253",
+    "A261254",
+    "A263484",
+    "A272656",
+    "A272657",
+    "A356291"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

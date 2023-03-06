@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of (Sum_{n=-inf..inf} x^(n^2))^(-19).",
+  "id": "A004420",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

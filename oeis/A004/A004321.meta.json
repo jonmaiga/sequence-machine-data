@@ -1,0 +1,26 @@
+{
+  "description": "Binomial coefficient C(3n, n-3).",
+  "id": "A004321",
+  "mentions": [
+    "A000027",
+    "A002694",
+    "A004334",
+    "A004347",
+    "A004361",
+    "A004375",
+    "A004389",
+    "A281580"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:15:46",
+    "offset": 3,
+    "size": 19,
+    "source": "joeis"
+  }
+}

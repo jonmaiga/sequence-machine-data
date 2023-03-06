@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to halve an n X n chessboard.",
+  "id": "A003155",
+  "mentions": [
+    "A003213",
+    "A006067",
+    "A113900",
+    "A257952",
+    "A271741"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

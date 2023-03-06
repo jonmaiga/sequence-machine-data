@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-step mappings with 5 inputs.",
+  "id": "A005946",
+  "mentions": [
+    "A000258",
+    "A005945",
+    "A144150"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are the sum of 5 positive 6th powers.",
+  "id": "A003361",
+  "mentions": [
+    "A001014"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:28:07",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

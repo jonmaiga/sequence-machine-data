@@ -1,0 +1,22 @@
+{
+  "description": "Sprague-Grundy values for the game of Kayles (octal games .77 and .771).",
+  "id": "A002186",
+  "mentions": [
+    "A005251",
+    "A071074",
+    "A071434"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:21:49",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the decimal expansions of 2^n and 5^n contain no 0's (probably 33 is last term).",
+  "id": "A007496",
+  "mentions": [
+    "A007377",
+    "A008839"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

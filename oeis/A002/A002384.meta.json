@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n^2 + n + 1 is prime.",
+  "id": "A002384",
+  "mentions": [
+    "A001912",
+    "A002383",
+    "A049407",
+    "A049408",
+    "A075723",
+    "A088503",
+    "A110284"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

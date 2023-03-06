@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of square root of 2.",
+  "id": "A002193",
+  "mentions": [
+    "A001790",
+    "A004539",
+    "A005187",
+    "A010503",
+    "A020807",
+    "A040000",
+    "A056594",
+    "A127672",
+    "A167199",
+    "A179807"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

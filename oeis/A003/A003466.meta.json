@@ -1,0 +1,22 @@
+{
+  "description": "Number of minimal covers of an n-set that have exactly one point which appears in more than one set in the cover.",
+  "id": "A003466",
+  "mentions": [
+    "A000110",
+    "A001861",
+    "A005493",
+    "A046165",
+    "A282575"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

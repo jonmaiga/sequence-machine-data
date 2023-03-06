@@ -1,0 +1,27 @@
+{
+  "description": "Number of simple pseudoline arrangements with a marked cell. Number of Euclidean pseudo-order types: nondegenerate abstract order types of configurations of n points in the plane.",
+  "id": "A006247",
+  "mentions": [
+    "A006248",
+    "A014540",
+    "A063666",
+    "A063852",
+    "A325595",
+    "A325628"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

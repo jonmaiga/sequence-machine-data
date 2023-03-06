@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are the sum of 2 distinct squares: of form x^2 + y^2 with 0 <= x < y.",
+  "id": "A001983",
+  "mentions": [
+    "A000290",
+    "A000404",
+    "A001481",
+    "A004431",
+    "A004435",
+    "A025435"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:20:41",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

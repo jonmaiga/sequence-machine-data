@@ -1,0 +1,28 @@
+{
+  "description": "Table read by rows: 1 if x = y, 0 otherwise, where (x,y) = (0,0),(0,1),(1,0),(0,2),(1,1),(2,0),...",
+  "id": "A003982",
+  "mentions": [
+    "A000012",
+    "A001844",
+    "A003783",
+    "A046092",
+    "A115262",
+    "A144112",
+    "A185957",
+    "A286100"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

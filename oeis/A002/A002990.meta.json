@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-node trees with a forbidden limb of length 4.",
+  "id": "A002990",
+  "mentions": [
+    "A002955",
+    "A002988",
+    "A002992",
+    "A052318",
+    "A052327",
+    "A052329"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

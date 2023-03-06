@@ -1,0 +1,25 @@
+{
+  "description": "Bertrand primes: a(n) is largest prime < 2*a(n-1) for n > 1, with a(1) = 2.",
+  "id": "A006992",
+  "mentions": [
+    "A007917",
+    "A055496",
+    "A106108",
+    "A163961",
+    "A185231",
+    "A229607",
+    "A295262"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

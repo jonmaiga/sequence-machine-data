@@ -1,0 +1,18 @@
+{
+  "description": "Next term is uniquely the sum of 3 earlier terms.",
+  "id": "A007086",
+  "mentions": [
+    "A002858"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 18:10:05",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

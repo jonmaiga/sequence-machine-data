@@ -1,0 +1,18 @@
+{
+  "description": "Egyptian fraction for 1/ Pi.",
+  "id": "A006524",
+  "mentions": [
+    "A001466"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

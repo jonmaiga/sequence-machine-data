@@ -1,0 +1,21 @@
+{
+  "description": "High-temperature series for susceptibility for the spin-1/2 Ising model on hexagonal lattice.",
+  "id": "A002919",
+  "mentions": [
+    "A002910",
+    "A002920",
+    "A047709"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

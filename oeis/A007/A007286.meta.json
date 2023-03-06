@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: (sin x + cos 2x) / cos 3x.",
+  "id": "A007286",
+  "mentions": [
+    "A002438",
+    "A006873",
+    "A007289",
+    "A225109"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

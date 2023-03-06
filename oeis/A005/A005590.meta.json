@@ -1,0 +1,26 @@
+{
+  "description": "a(0) = 0, a(1) = 1, a(2n) = a(n), a(2n+1) = a(n+1) - a(n).",
+  "id": "A005590",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A002487",
+    "A003714",
+    "A010060",
+    "A182093"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

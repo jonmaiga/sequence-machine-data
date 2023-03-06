@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of e.g.f. x*cos(tanh(x)), odd powers only.",
+  "id": "A009088",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

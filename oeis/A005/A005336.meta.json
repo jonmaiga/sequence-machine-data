@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled nonseparable (or 2-connected) bipartite graphs with 2n nodes.",
+  "id": "A005336",
+  "mentions": [
+    "A004100",
+    "A005334",
+    "A005335"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

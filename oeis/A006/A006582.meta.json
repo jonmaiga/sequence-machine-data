@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n-1} k XOR n-k.",
+  "id": "A006582",
+  "mentions": [
+    "A003987",
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:39:03",
+    "offset": 2,
+    "size": 52,
+    "source": "joeis"
+  }
+}

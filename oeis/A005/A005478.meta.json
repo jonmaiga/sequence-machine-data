@@ -1,0 +1,32 @@
+{
+  "description": "Prime Fibonacci numbers.",
+  "id": "A005478",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A001605",
+    "A030426",
+    "A075736",
+    "A079343",
+    "A099000",
+    "A155011",
+    "A161553",
+    "A178762",
+    "A190949",
+    "A263880",
+    "A303216"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

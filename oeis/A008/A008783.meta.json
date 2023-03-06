@@ -1,0 +1,16 @@
+{
+  "description": "Period of continued fraction representation of (sqrt(4n+1)+1)/2=sqrt(n+sqrt(n+sqrt(n+...))).",
+  "id": "A008783",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:53",
+    "offset": 1,
+    "size": 93,
+    "source": "joeis"
+  }
+}

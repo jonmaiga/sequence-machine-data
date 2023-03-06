@@ -1,0 +1,23 @@
+{
+  "description": "Inverse Moebius transform applied twice to squares.",
+  "id": "A007433",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A000290",
+    "A001157",
+    "A134577"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

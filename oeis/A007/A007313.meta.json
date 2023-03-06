@@ -1,0 +1,17 @@
+{
+  "description": "Reversion of g.f. for Euler (secant) numbers A000364.",
+  "id": "A007313",
+  "mentions": [
+    "A000364"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:32:05",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

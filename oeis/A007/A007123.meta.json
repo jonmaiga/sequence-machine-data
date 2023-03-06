@@ -1,0 +1,27 @@
+{
+  "description": "Number of connected unit interval graphs with n nodes; also number of bracelets (turnover necklaces) with n black beads and n-1 white beads.",
+  "id": "A007123",
+  "mentions": [
+    "A000011",
+    "A000108",
+    "A001405",
+    "A002420",
+    "A006079",
+    "A007595",
+    "A052307",
+    "A063886",
+    "A073201"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

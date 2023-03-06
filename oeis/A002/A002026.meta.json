@@ -1,0 +1,31 @@
+{
+  "description": "Generalized ballot numbers (first differences of Motzkin numbers).",
+  "id": "A002026",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A005043",
+    "A020474",
+    "A026105",
+    "A026107",
+    "A026300",
+    "A103772",
+    "A130716",
+    "A244884",
+    "A348840",
+    "A348869"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

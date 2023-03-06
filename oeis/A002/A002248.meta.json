@@ -1,0 +1,19 @@
+{
+  "description": "Number of points on y^2 + xy = x^3 + x^2 + x over GF(2^n).",
+  "id": "A002248",
+  "mentions": [
+    "A002249"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

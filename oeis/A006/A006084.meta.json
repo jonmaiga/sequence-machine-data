@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction for e/3.",
+  "id": "A006084",
+  "mentions": [
+    "A019740"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

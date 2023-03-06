@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n, n+1 and n+2 all have same number of distinct prime divisors.",
+  "id": "A006073",
+  "mentions": [
+    "A006049",
+    "A045932"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

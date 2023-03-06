@@ -1,0 +1,23 @@
+{
+  "description": "Theta series of extremal 3-modular even 24-dimensional lattice with minimal norm 6 and det = 3^12.",
+  "id": "A004046",
+  "mentions": [
+    "A004010",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A033762",
+    "A107657"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

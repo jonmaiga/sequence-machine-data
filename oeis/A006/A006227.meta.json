@@ -1,0 +1,24 @@
+{
+  "description": "Number of n-dimensional space groups (including enantiomorphs).",
+  "id": "A006227",
+  "mentions": [
+    "A004027",
+    "A004028",
+    "A004029",
+    "A006226",
+    "A293061"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n^2*(n+1)^2*(n+2)/12.",
+  "id": "A004302",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A096948",
+    "A103371"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:30:45",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

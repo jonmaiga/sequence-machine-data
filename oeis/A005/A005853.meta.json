@@ -1,0 +1,17 @@
+{
+  "description": "The coding-theoretic function A(n,8,7).",
+  "id": "A005853",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 7,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

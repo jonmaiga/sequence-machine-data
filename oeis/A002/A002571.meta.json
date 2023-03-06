@@ -1,0 +1,26 @@
+{
+  "description": "From a definite integral.",
+  "id": "A002571",
+  "mentions": [
+    "A000045",
+    "A000051",
+    "A000204",
+    "A001654",
+    "A002570",
+    "A006206",
+    "A064831",
+    "A077916",
+    "A180662"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:58:49",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

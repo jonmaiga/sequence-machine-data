@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected graphs with n nodes and ceiling(n(n-1)/4) edges.",
+  "id": "A001437",
+  "mentions": [
+    "A054924"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

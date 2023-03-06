@@ -1,0 +1,21 @@
+{
+  "description": "Loxton-van der Poorten sequence: base-4 representation contains only -1, 0, +1.",
+  "id": "A006288",
+  "mentions": [
+    "A023713",
+    "A023717",
+    "A344892",
+    "A344893"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:37:23",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

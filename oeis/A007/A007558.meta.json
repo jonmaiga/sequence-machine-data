@@ -1,0 +1,20 @@
+{
+  "description": "Shifts 2 places left when e.g.f. is squared.",
+  "id": "A007558",
+  "mentions": [
+    "A003633"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients of modular function denoted G_6(tau) by Atkin.",
+  "id": "A005764",
+  "mentions": [
+    "A005760",
+    "A005762"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": -6,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

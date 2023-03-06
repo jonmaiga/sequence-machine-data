@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n^4 is a primitive sum of 3 positive fourth powers.",
+  "id": "A003828",
+  "mentions": [
+    "A078518",
+    "A078519",
+    "A078520",
+    "A134341",
+    "A175610"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

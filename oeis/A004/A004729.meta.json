@@ -1,0 +1,30 @@
+{
+  "description": "Divisors of 2^32 - 1 (for a(1) to a(31), the 31 regular polygons with an odd number of sides constructible with ruler and compass).",
+  "id": "A004729",
+  "mentions": [
+    "A000010",
+    "A000215",
+    "A001317",
+    "A003401",
+    "A003527",
+    "A004169",
+    "A019434",
+    "A045544",
+    "A047999",
+    "A053576",
+    "A054432"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

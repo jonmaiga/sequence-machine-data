@@ -1,0 +1,19 @@
+{
+  "description": "Multiplicative encoding of Stirling numbers of 2nd kind.",
+  "id": "A007190",
+  "mentions": [
+    "A000040",
+    "A008277"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

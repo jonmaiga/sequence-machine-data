@@ -1,0 +1,22 @@
+{
+  "description": "Number of geometric n-dimensional crystal classes.",
+  "id": "A004028",
+  "mentions": [
+    "A004027",
+    "A004029",
+    "A006226"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

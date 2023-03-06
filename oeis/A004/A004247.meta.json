@@ -1,0 +1,30 @@
+{
+  "description": "Multiplication table read by antidiagonals: T(i,j) = i*j (i>=0, j>=0). Alternatively, multiplication triangle read by rows: P(i,j) = j*(i-j) (i>=0, 0<=j<=i).",
+  "id": "A004247",
+  "mentions": [
+    "A000292",
+    "A002262",
+    "A002620",
+    "A003056",
+    "A003984",
+    "A003991",
+    "A004197",
+    "A025581",
+    "A048720",
+    "A325820"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:30:37",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

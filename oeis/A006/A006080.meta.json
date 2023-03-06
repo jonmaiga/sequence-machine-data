@@ -1,0 +1,23 @@
+{
+  "description": "Number of rooted projective plane trees with n nodes.",
+  "id": "A006080",
+  "mentions": [
+    "A003239",
+    "A006078",
+    "A006079",
+    "A006081",
+    "A006082"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

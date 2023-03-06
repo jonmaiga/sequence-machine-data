@@ -1,0 +1,19 @@
+{
+  "description": "Number of polygons of length 4n on L-lattice.",
+  "id": "A006782",
+  "mentions": [
+    "A002931",
+    "A006781"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

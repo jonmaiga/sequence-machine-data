@@ -1,0 +1,22 @@
+{
+  "description": "Number of 2 up, 2 down, 2 up, ... permutations of length 2n + 1.",
+  "id": "A005981",
+  "mentions": [
+    "A058258",
+    "A076417",
+    "A131453",
+    "A131454",
+    "A131455"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

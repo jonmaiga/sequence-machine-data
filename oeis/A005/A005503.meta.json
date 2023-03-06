@@ -1,0 +1,18 @@
+{
+  "description": "Number of unrooted triangulations of a disk with one internal node and n+3 nodes on the boundary.",
+  "id": "A005503",
+  "mentions": [
+    "A005500",
+    "A169808"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

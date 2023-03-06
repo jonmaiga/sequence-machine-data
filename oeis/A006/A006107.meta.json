@@ -1,0 +1,19 @@
+{
+  "description": "Gaussian binomial coefficient [ n,4 ] for q = 4.",
+  "id": "A006107",
+  "mentions": [
+    "A006095"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 4,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

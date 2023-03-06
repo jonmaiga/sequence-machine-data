@@ -1,0 +1,20 @@
+{
+  "description": "Location of 0's when natural numbers are listed in binary.",
+  "id": "A003607",
+  "mentions": [
+    "A030190",
+    "A030303",
+    "A030306",
+    "A056062"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

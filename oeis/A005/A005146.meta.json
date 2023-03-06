@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of numbers occurring in continued fraction connected with expansion of gamma function.",
+  "id": "A005146",
+  "mentions": [
+    "A005147"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

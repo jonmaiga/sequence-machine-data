@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the sum of at most 2 nonzero 6th powers.",
+  "id": "A004853",
+  "mentions": [
+    "A001014",
+    "A003358"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

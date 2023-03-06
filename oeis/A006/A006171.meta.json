@@ -1,0 +1,36 @@
+{
+  "description": "Number of factorization patterns of polynomials of degree n over integers.",
+  "id": "A006171",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A000219",
+    "A001620",
+    "A001970",
+    "A006167",
+    "A006170",
+    "A060640",
+    "A061255",
+    "A061256",
+    "A061257",
+    "A073002",
+    "A115621",
+    "A215905",
+    "A215909",
+    "A215914",
+    "A215925",
+    "A288098"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

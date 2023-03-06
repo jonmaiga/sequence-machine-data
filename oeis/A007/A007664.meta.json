@@ -1,0 +1,23 @@
+{
+  "description": "Reve's puzzle: number of moves needed to solve the Towers of Hanoi puzzle with 4 pegs and n disks, according to the Frame-Stewart algorithm.",
+  "id": "A007664",
+  "mentions": [
+    "A000225",
+    "A003056",
+    "A007665",
+    "A137688",
+    "A182058"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

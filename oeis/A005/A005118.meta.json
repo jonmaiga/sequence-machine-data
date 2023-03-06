@@ -1,0 +1,33 @@
+{
+  "description": "Number of simple allowable sequences on 1..n containing the permutation 12...n.",
+  "id": "A005118",
+  "mentions": [
+    "A000217",
+    "A002110",
+    "A003121",
+    "A018241",
+    "A057863",
+    "A074962",
+    "A153452",
+    "A193536",
+    "A193629",
+    "A219272",
+    "A219274",
+    "A219311",
+    "A246865",
+    "A289778"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

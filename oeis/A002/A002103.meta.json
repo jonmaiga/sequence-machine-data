@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients of expansion of Jacobi nome q in certain powers of (1/2)*(1 - sqrt(k')) / (1 + sqrt(k')).",
+  "id": "A002103",
+  "mentions": [
+    "A001936",
+    "A002639",
+    "A079006"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

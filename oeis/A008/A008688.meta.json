@@ -1,0 +1,18 @@
+{
+  "description": "Theta series of Niemeier lattice of type D_24.",
+  "id": "A008688",
+  "mentions": [
+    "A008689",
+    "A008704"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:35",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

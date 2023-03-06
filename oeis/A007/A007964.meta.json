@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that product of proper divisors of k is <= k; i.e., product of divisors of k is <= k^2.",
+  "id": "A007964",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A006881",
+    "A007955",
+    "A030078",
+    "A030513",
+    "A058080"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

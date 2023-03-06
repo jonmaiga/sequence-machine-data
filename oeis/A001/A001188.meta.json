@@ -1,0 +1,18 @@
+{
+  "description": "Number of even graphs with n edges.",
+  "id": "A001188",
+  "mentions": [
+    "A001187",
+    "A060639"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:19",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

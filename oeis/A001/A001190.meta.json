@@ -1,0 +1,41 @@
+{
+  "description": "Wedderburn-Etherington numbers: unlabeled binary rooted trees (every node has outdegree 0 or 2) with n endpoints (and 2n-1 nodes in all).",
+  "id": "A001190",
+  "mentions": [
+    "A000108",
+    "A000262",
+    "A000684",
+    "A001699",
+    "A002658",
+    "A003214",
+    "A006894",
+    "A006961",
+    "A086317",
+    "A086318",
+    "A088325",
+    "A240943",
+    "A292085",
+    "A292553",
+    "A292554",
+    "A292555",
+    "A292556",
+    "A299038",
+    "A319539",
+    "A319541"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

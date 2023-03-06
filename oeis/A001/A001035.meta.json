@@ -1,0 +1,39 @@
+{
+  "description": "Number of partially ordered sets (\"posets\") with n labeled elements (or labeled acyclic transitive digraphs).",
+  "id": "A001035",
+  "mentions": [
+    "A000110",
+    "A000112",
+    "A000798",
+    "A001927",
+    "A001929",
+    "A001930",
+    "A002824",
+    "A006056",
+    "A006057",
+    "A006058",
+    "A006059",
+    "A006870",
+    "A316978",
+    "A319564",
+    "A326876",
+    "A326906",
+    "A326939",
+    "A326943",
+    "A326944",
+    "A326947"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

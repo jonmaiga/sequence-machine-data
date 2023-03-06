@@ -1,0 +1,35 @@
+{
+  "description": "Primeth recurrence: a(n+1) = a(n)-th prime.",
+  "id": "A007097",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A006450",
+    "A049076",
+    "A049081",
+    "A049084",
+    "A057450",
+    "A078442",
+    "A109082",
+    "A109301",
+    "A114537",
+    "A131842",
+    "A227413",
+    "A245823",
+    "A246378",
+    "A292667"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Harmonic means of divisors of harmonic numbers.",
+  "id": "A001600",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001599",
+    "A007340",
+    "A090240"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

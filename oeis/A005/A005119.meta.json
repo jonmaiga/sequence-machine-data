@@ -1,0 +1,19 @@
+{
+  "description": "Infinitesimal generator of x*(x + 1).",
+  "id": "A005119",
+  "mentions": [
+    "A030528"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

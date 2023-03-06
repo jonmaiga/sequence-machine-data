@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 3*k^2 - 3*k + 23 is composite.",
+  "id": "A007638",
+  "mentions": [
+    "A005849"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:45:43",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

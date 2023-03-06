@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n, d <= 3} d^2 + 3*Sum_{d|n, d>3} d.",
+  "id": "A002660",
+  "mentions": [
+    "A000203",
+    "A002659",
+    "A002791",
+    "A242639"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:24:13",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

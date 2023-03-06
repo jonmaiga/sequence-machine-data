@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = round(sqrt( 2*Pi )^n).",
+  "id": "A001675",
+  "mentions": [
+    "A000227",
+    "A001674",
+    "A001698",
+    "A002160",
+    "A017911"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

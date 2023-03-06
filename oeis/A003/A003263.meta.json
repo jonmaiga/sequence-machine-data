@@ -1,0 +1,20 @@
+{
+  "description": "Number of representations of n as a sum of distinct Lucas numbers 1,3,4,7,11 ... (A000204).",
+  "id": "A003263",
+  "mentions": [
+    "A000204",
+    "A054770"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:27:29",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of antichains (or order ideals) in the poset B_4 X [n]; or size of the distributive lattice J(B_4 X [n]).",
+  "id": "A006363",
+  "mentions": [
+    "A002415",
+    "A006356",
+    "A056932"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

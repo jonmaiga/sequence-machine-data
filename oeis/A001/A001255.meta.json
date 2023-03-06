@@ -1,0 +1,26 @@
+{
+  "description": "Squares of partition numbers.",
+  "id": "A001255",
+  "mentions": [
+    "A000041",
+    "A006907",
+    "A051748",
+    "A051749",
+    "A054440",
+    "A133042",
+    "A200089",
+    "A304990"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:35:54",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

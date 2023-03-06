@@ -1,0 +1,28 @@
+{
+  "description": "Number of forests with n unlabeled nodes.",
+  "id": "A005195",
+  "mentions": [
+    "A000055",
+    "A000088",
+    "A000664",
+    "A008406",
+    "A051491",
+    "A095133",
+    "A136605",
+    "A144215",
+    "A144958"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

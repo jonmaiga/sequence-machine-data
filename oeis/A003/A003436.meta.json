@@ -1,0 +1,39 @@
+{
+  "description": "Number of inequivalent labeled Hamiltonian circuits on n-octahedron. Interlacing chords joining 2n points on circle.",
+  "id": "A003436",
+  "mentions": [
+    "A000179",
+    "A000296",
+    "A000699",
+    "A000806",
+    "A001147",
+    "A003435",
+    "A003437",
+    "A005493",
+    "A006343",
+    "A129348",
+    "A170941",
+    "A190823",
+    "A278990",
+    "A306386",
+    "A306419",
+    "A322402",
+    "A324011",
+    "A324172",
+    "A324173",
+    "A324428"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

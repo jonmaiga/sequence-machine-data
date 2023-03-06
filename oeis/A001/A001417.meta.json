@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways of folding a 2 X 2 X ... X 2 n-dimensional map.",
+  "id": "A001417",
+  "mentions": [
+    "A000136",
+    "A000560",
+    "A001418",
+    "A195646"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

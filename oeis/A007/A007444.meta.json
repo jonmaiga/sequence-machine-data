@@ -1,0 +1,19 @@
+{
+  "description": "Moebius transform of primes.",
+  "id": "A007444",
+  "mentions": [
+    "A000040",
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Numbers whose ternary expansion contains no 1's.",
+  "id": "A005823",
+  "mentions": [
+    "A001196",
+    "A001850",
+    "A005258",
+    "A005836",
+    "A007089",
+    "A007814",
+    "A014263",
+    "A032924",
+    "A061392",
+    "A062756",
+    "A081606",
+    "A088917",
+    "A097252",
+    "A097262",
+    "A125291",
+    "A125292",
+    "A306556"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

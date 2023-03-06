@@ -1,0 +1,26 @@
+{
+  "description": "Seventh powers: a(n) = n^7.",
+  "id": "A001015",
+  "mentions": [
+    "A000051",
+    "A000584",
+    "A001106",
+    "A013665",
+    "A256581",
+    "A275710",
+    "A300785"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:17:43",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

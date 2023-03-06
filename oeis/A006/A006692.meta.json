@@ -1,0 +1,20 @@
+{
+  "description": "Number of connected n-state finite automata with 3 inputs.",
+  "id": "A006692",
+  "mentions": [
+    "A006689",
+    "A006691",
+    "A027834",
+    "A304313"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

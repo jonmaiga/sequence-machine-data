@@ -1,0 +1,24 @@
+{
+  "description": "Number of distinct primes of the form 4k+1 dividing n minus number of distinct primes of the form 4k+3 dividing n.",
+  "id": "A005094",
+  "mentions": [
+    "A005089",
+    "A005091",
+    "A078613",
+    "A079635",
+    "A221264",
+    "A221265",
+    "A267099"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Indices of prime Fibonacci numbers.",
+  "id": "A001605",
+  "mentions": [
+    "A000045",
+    "A001578",
+    "A001602",
+    "A005478",
+    "A010051",
+    "A046022",
+    "A080345",
+    "A086597",
+    "A117595",
+    "A279795",
+    "A303215"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

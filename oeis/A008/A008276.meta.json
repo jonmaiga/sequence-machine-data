@@ -1,0 +1,40 @@
+{
+  "description": "Triangle of Stirling numbers of first kind, s(n, n-k+1), n >= 1, 1 <= k <= n. Also triangle T(n,k) giving coefficients in expansion of n!*binomial(x,n)/x in powers of x.",
+  "id": "A008276",
+  "mentions": [
+    "A000045",
+    "A000108",
+    "A000110",
+    "A000142",
+    "A000166",
+    "A000204",
+    "A000312",
+    "A003422",
+    "A008275",
+    "A008277",
+    "A008517",
+    "A048994",
+    "A054654",
+    "A054655",
+    "A084938",
+    "A094216",
+    "A094638",
+    "A112486",
+    "A145324",
+    "A163931",
+    "A274181"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:13",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

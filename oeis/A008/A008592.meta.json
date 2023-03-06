@@ -1,0 +1,24 @@
+{
+  "description": "Multiples of 10: a(n) = 10 * n.",
+  "id": "A008592",
+  "mentions": [
+    "A008590",
+    "A008591",
+    "A067251",
+    "A168184",
+    "A179051",
+    "A179052"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:48:27",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

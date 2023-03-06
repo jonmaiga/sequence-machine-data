@@ -1,0 +1,26 @@
+{
+  "description": "Number of one-sided triangulations of the disk; or flexagons of order n; or unlabeled plane trivalent trees (n-2 internal vertices, all of degree 3 and hence n leaves).",
+  "id": "A001683",
+  "mentions": [
+    "A000108",
+    "A001004",
+    "A002709",
+    "A007282",
+    "A057162",
+    "A262586",
+    "A295224"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

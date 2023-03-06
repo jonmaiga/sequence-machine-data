@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of terms in expressions for coefficients of Euler-Lagrange tensors in terms of Riemann-Christoffel curvature tensor and two of its contractions (viz., the Ricci curvature tensor and the Riemann curvature scalar) for n-dimensional differentiable manifolds having a general linear connection.",
+  "id": "A006373",
+  "mentions": [
+    "A006368",
+    "A006372",
+    "A030429",
+    "A167551"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: one half of the coefficients of the expansion of (2*x)^n in terms of Chebyshev T-polynomials.",
+  "id": "A008314",
+  "mentions": [
+    "A004526",
+    "A007318",
+    "A008311",
+    "A036040",
+    "A122366",
+    "A127673"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

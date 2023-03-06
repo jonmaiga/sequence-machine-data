@@ -1,0 +1,18 @@
+{
+  "description": "Number of Hamiltonian paths in P_5 X P_n.",
+  "id": "A003778",
+  "mentions": [
+    "A332307"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

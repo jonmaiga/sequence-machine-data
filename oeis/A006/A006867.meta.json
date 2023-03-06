@@ -1,0 +1,15 @@
+{
+  "description": "Number of irreducible polyhedral graphs with n faces.",
+  "id": "A006867",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 4,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Table of [ x/y ], where (x,y) = (1,1),(1,2),(2,1),(1,3),(2,2),(3,1),...",
+  "id": "A004199",
+  "mentions": [
+    "A002541",
+    "A010766"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:30:35",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

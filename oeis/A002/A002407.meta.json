@@ -1,0 +1,31 @@
+{
+  "description": "Cuban primes: primes which are the difference of two consecutive cubes.",
+  "id": "A002407",
+  "mentions": [
+    "A000217",
+    "A001912",
+    "A002504",
+    "A002648",
+    "A003215",
+    "A003627",
+    "A005728",
+    "A007645",
+    "A111251",
+    "A113478",
+    "A201477",
+    "A334520"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients of elliptic function cn.",
+  "id": "A006089",
+  "mentions": [
+    "A002753"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 2,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 3; a(2) = 11; to get a(n), n >= 3, convert a(n-1) from base 3 to base 2.",
+  "id": "A008561",
+  "mentions": [
+    "A008560"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:56:56",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

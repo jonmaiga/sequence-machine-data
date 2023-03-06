@@ -1,0 +1,31 @@
+{
+  "description": "Self numbers or Colombian numbers (numbers that are not of the form m + sum of digits of m for any m).",
+  "id": "A003052",
+  "mentions": [
+    "A003154",
+    "A006378",
+    "A006886",
+    "A007953",
+    "A010061",
+    "A055642",
+    "A062028",
+    "A176995",
+    "A230093",
+    "A232229",
+    "A247104",
+    "A282711",
+    "A283002"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of central factorial numbers 4^k T(2n+1, 2n+1-2k).",
+  "id": "A008958",
+  "mentions": [
+    "A000447",
+    "A002452",
+    "A002453",
+    "A008955",
+    "A008957",
+    "A036969"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:14:51",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

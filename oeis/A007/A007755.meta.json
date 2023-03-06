@@ -1,0 +1,26 @@
+{
+  "description": "Smallest number m such that the trajectory of m under iteration of Euler's totient function phi(n) [A000010] contains exactly n distinct numbers, including m and the fixed point.",
+  "id": "A007755",
+  "mentions": [
+    "A000010",
+    "A003434",
+    "A049108",
+    "A060611",
+    "A092873",
+    "A098196",
+    "A136040",
+    "A227946"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

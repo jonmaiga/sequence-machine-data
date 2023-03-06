@@ -1,0 +1,31 @@
+{
+  "description": "Base -2 representation for n regarded as base 2, then evaluated.",
+  "id": "A005351",
+  "mentions": [
+    "A000120",
+    "A005352",
+    "A029931",
+    "A035327",
+    "A039724",
+    "A053985",
+    "A065359",
+    "A070939",
+    "A185269",
+    "A326032"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:33:27",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

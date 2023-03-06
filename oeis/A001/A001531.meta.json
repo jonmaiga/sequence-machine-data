@@ -1,0 +1,21 @@
+{
+  "description": "Number of self-dual Boolean functions of n variables that are distinct under complementation/permutation.",
+  "id": "A001531",
+  "mentions": [
+    "A000371",
+    "A000610",
+    "A000616",
+    "A002077"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

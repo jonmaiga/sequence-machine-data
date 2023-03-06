@@ -1,0 +1,25 @@
+{
+  "description": "Number of n-covers of a 4-set.",
+  "id": "A005746",
+  "mentions": [
+    "A002727",
+    "A005744",
+    "A005745",
+    "A005747",
+    "A005748",
+    "A005771",
+    "A006148"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Least positive integer k for which 2^n divides k!.",
+  "id": "A007843",
+  "mentions": [
+    "A001511",
+    "A002034",
+    "A005187",
+    "A007814",
+    "A007844",
+    "A007845",
+    "A020646",
+    "A046699",
+    "A048841",
+    "A048846"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:46:49",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

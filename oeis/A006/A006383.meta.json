@@ -1,0 +1,25 @@
+{
+  "description": "Number of equivalence classes of n X n binary matrices when one can permute rows, permute columns and complement columns.",
+  "id": "A006383",
+  "mentions": [
+    "A000711",
+    "A002724",
+    "A005232",
+    "A006381",
+    "A006382",
+    "A056204",
+    "A056205"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

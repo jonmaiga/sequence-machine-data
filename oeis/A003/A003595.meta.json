@@ -1,0 +1,25 @@
+{
+  "description": "Numbers of the form 5^i*7^j with i, j >= 0.",
+  "id": "A003595",
+  "mentions": [
+    "A003586",
+    "A003592",
+    "A003593",
+    "A003594",
+    "A033851",
+    "A143207",
+    "A147571",
+    "A147580"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

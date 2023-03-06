@@ -1,0 +1,30 @@
+{
+  "description": "Number of n-bead bracelets (turnover necklaces) with 8 red beads and n-8 black beads.",
+  "id": "A005514",
+  "mentions": [
+    "A000011",
+    "A005513",
+    "A008805",
+    "A032193",
+    "A032279",
+    "A032280",
+    "A032281",
+    "A032282",
+    "A052307",
+    "A119963",
+    "A292906"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:33:53",
+    "offset": 8,
+    "size": 35,
+    "source": "joeis"
+  }
+}

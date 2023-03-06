@@ -1,0 +1,30 @@
+{
+  "description": "a(n+1) = n*a(n) + a(n-1) with a(0)=0, a(1)=1.",
+  "id": "A001040",
+  "mentions": [
+    "A001053",
+    "A002186",
+    "A021009",
+    "A058279",
+    "A058294",
+    "A058307",
+    "A070910",
+    "A102472",
+    "A102473",
+    "A127701"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

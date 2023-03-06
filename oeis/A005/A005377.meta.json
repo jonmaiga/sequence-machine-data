@@ -1,0 +1,28 @@
+{
+  "description": "Number of low discrepancy sequences in base 4.",
+  "id": "A005377",
+  "mentions": [
+    "A001037",
+    "A005356",
+    "A005357",
+    "A005358",
+    "A027376",
+    "A027377",
+    "A062692",
+    "A114945",
+    "A114946",
+    "A274039"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:33:31",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

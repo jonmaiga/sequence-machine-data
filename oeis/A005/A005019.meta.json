@@ -1,0 +1,19 @@
+{
+  "description": "The number of n X n (0,1)-matrices with a 1-width of 1.",
+  "id": "A005019",
+  "mentions": [
+    "A005020",
+    "A055601"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:11:03",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

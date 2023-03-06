@@ -1,0 +1,25 @@
+{
+  "description": "Elliptic divisibility sequence associated with elliptic curve \"37a1\": y^2 + y = x^3 - x and multiples of the point (0,0).",
+  "id": "A006769",
+  "mentions": [
+    "A006720",
+    "A028941",
+    "A050512",
+    "A051138",
+    "A178072",
+    "A278314"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

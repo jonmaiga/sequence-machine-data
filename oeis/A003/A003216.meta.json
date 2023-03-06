@@ -1,0 +1,35 @@
+{
+  "description": "Number of Hamiltonian graphs with n nodes.",
+  "id": "A003216",
+  "mentions": [
+    "A000055",
+    "A000088",
+    "A000664",
+    "A001349",
+    "A006125",
+    "A008406",
+    "A057864",
+    "A246446",
+    "A283420",
+    "A325447",
+    "A325455",
+    "A326208",
+    "A326215",
+    "A326225",
+    "A326226"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

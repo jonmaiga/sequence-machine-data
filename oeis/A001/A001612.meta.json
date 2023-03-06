@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) - 1 for n > 1, a(0)=3, a(1)=2.",
+  "id": "A001612",
+  "mentions": [
+    "A000032",
+    "A000051",
+    "A000071",
+    "A000201",
+    "A001602",
+    "A001950",
+    "A135817",
+    "A274017"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "hear",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

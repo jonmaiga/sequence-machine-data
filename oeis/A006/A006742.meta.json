@@ -1,0 +1,15 @@
+{
+  "description": "Series for second perpendicular moment of hexagonal lattice.",
+  "id": "A006742",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

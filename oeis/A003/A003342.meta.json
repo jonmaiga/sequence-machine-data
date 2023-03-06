@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are the sum of 8 positive 4th powers.",
+  "id": "A003342",
+  "mentions": [
+    "A000583",
+    "A003331",
+    "A003341",
+    "A003343",
+    "A003353",
+    "A345577",
+    "A345833"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Primes of the form (10^k - 1)/9. Also called repunit primes or repdigit primes.",
+  "id": "A004022",
+  "mentions": [
+    "A002275",
+    "A004023",
+    "A020449",
+    "A020457",
+    "A036953",
+    "A046413",
+    "A085104",
+    "A116692",
+    "A285017"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "bref",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-bfile"
+  }
+}

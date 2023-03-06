@@ -1,0 +1,21 @@
+{
+  "description": "Number of domino tilings of a certain region.",
+  "id": "A007762",
+  "mentions": [
+    "A006318",
+    "A104550"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "unkn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:26",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

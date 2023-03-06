@@ -1,0 +1,23 @@
+{
+  "description": "Crystal ball sequence for 9-dimensional cubic lattice.",
+  "id": "A008419",
+  "mentions": [
+    "A001847",
+    "A001848",
+    "A001849",
+    "A008288",
+    "A240876"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:47:49",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

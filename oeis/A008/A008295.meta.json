@@ -1,0 +1,25 @@
+{
+  "description": "Triangle of numbers of point labeled rooted trees.",
+  "id": "A008295",
+  "mentions": [
+    "A000081",
+    "A000107",
+    "A000169",
+    "A000444",
+    "A000524",
+    "A000525"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:53",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

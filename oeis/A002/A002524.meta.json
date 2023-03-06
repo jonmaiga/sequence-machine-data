@@ -1,0 +1,29 @@
+{
+  "description": "Number of permutations of length n within distance 2 of a fixed permutation.",
+  "id": "A002524",
+  "mentions": [
+    "A000045",
+    "A000051",
+    "A002526",
+    "A072856",
+    "A154654",
+    "A154655",
+    "A154656",
+    "A154657",
+    "A154658",
+    "A154659",
+    "A306209"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

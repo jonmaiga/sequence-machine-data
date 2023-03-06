@@ -1,0 +1,18 @@
+{
+  "description": "Number of strong starters in cyclic group of order 2n+1.",
+  "id": "A001443",
+  "mentions": [
+    "A006205"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

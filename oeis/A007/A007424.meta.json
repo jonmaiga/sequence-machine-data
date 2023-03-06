@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n is squarefree, otherwise 2.",
+  "id": "A007424",
+  "mentions": [
+    "A005117",
+    "A008966",
+    "A107078",
+    "A229099"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

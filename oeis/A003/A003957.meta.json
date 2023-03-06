@@ -1,0 +1,25 @@
+{
+  "description": "The Dottie number: decimal expansion of root of cos(x) = x.",
+  "id": "A003957",
+  "mentions": [
+    "A009442",
+    "A177413",
+    "A182503",
+    "A200309",
+    "A212112",
+    "A212113",
+    "A217066",
+    "A330119"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

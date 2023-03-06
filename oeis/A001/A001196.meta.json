@@ -1,0 +1,29 @@
+{
+  "description": "Double-bitters: only even length runs in binary expansion.",
+  "id": "A001196",
+  "mentions": [
+    "A000695",
+    "A005823",
+    "A054238",
+    "A079944",
+    "A097252",
+    "A097262",
+    "A191108",
+    "A298644",
+    "A338086",
+    "A338754"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

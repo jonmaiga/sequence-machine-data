@@ -1,0 +1,28 @@
+{
+  "description": "4-dimensional analog of centered polygonal numbers.",
+  "id": "A006322",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A000332",
+    "A000537",
+    "A002721",
+    "A004068",
+    "A006414",
+    "A050446",
+    "A050447",
+    "A211795"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:37:39",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

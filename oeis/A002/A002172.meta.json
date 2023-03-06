@@ -1,0 +1,18 @@
+{
+  "description": "Glaisher's chi numbers chi(p) for p a prime of the form 4m+1.",
+  "id": "A002172",
+  "mentions": [
+    "A002171"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

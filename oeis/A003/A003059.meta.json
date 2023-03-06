@@ -1,0 +1,25 @@
+{
+  "description": "k appears 2k-1 times. Also, square root of n, rounded up.",
+  "id": "A003059",
+  "mentions": [
+    "A000196",
+    "A000290",
+    "A002162",
+    "A002522",
+    "A010052",
+    "A073189",
+    "A157466"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:26:15",
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

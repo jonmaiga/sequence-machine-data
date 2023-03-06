@@ -1,0 +1,30 @@
+{
+  "description": "Maximal self-dual antichains on n points.",
+  "id": "A007363",
+  "mentions": [
+    "A000372",
+    "A001206",
+    "A305844",
+    "A305857",
+    "A306007",
+    "A326358",
+    "A326359",
+    "A326361",
+    "A326362",
+    "A326363",
+    "A326366",
+    "A326372"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

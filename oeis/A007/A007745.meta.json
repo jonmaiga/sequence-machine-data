@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n OR n^2 (applied to binary expansions).",
+  "id": "A007745",
+  "mentions": [
+    "A002378",
+    "A169810",
+    "A213541"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

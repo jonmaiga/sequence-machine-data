@@ -1,0 +1,18 @@
+{
+  "description": "A nonrepetitive sequence.",
+  "id": "A003270",
+  "mentions": [
+    "A001285",
+    "A099054"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:27:31",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = largest prime factor of n^n - 1.",
+  "id": "A006486",
+  "mentions": [
+    "A002050",
+    "A006530",
+    "A007571",
+    "A048861",
+    "A125135"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

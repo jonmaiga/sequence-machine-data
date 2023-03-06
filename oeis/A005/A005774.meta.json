@@ -1,0 +1,33 @@
+{
+  "description": "Number of directed animals of size n (k=1 column of A038622); number of (s(0), s(1), ..., s(n)) such that s(i) is a nonnegative integer and |s(i) - s(i-1)| <= 1 for i = 1,2,...,n, where s(0) = 2; also sum of row n+1 of array T in A026323.",
+  "id": "A005774",
+  "mentions": [
+    "A001006",
+    "A001477",
+    "A002054",
+    "A005773",
+    "A005775",
+    "A026010",
+    "A026323",
+    "A037952",
+    "A038622",
+    "A066822",
+    "A079978",
+    "A098494",
+    "A107131",
+    "A122896"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

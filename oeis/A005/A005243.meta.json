@@ -1,0 +1,23 @@
+{
+  "description": "A self-generating sequence: start with 1 and 2, take all sums of any number of successive previous elements and adjoin them to the sequence. Repeat!",
+  "id": "A005243",
+  "mentions": [
+    "A006336",
+    "A048973",
+    "A118065",
+    "A118164",
+    "A118166"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:26:01",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

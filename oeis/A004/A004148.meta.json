@@ -1,0 +1,28 @@
+{
+  "description": "Generalized Catalan numbers: a(n+1) = a(n) + Sum_{k=1..n-1} a(k)*a(n-1-k).",
+  "id": "A004148",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A001263",
+    "A004149",
+    "A046980",
+    "A051292",
+    "A064645",
+    "A088518",
+    "A131198"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

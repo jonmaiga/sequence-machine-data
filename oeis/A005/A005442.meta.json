@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n!*Fibonacci(n+1).",
+  "id": "A005442",
+  "mentions": [
+    "A000045",
+    "A000142",
+    "A039692",
+    "A039948",
+    "A052585",
+    "A080599"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

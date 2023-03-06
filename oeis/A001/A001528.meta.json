@@ -1,0 +1,19 @@
+{
+  "description": "NPN-equivalence classes of switching functions of exactly n variables.",
+  "id": "A001528",
+  "mentions": [
+    "A000371",
+    "A002077"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected labeled chordal graphs (or triangulated graphs) with n nodes.",
+  "id": "A007134",
+  "mentions": [
+    "A058862"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

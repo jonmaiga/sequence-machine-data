@@ -1,0 +1,28 @@
+{
+  "description": "Let S denote the palindromes in the language {0,1}*; a(n) = number of words of length n in the language SS.",
+  "id": "A007055",
+  "mentions": [
+    "A006995",
+    "A007056",
+    "A007057",
+    "A007058",
+    "A023900",
+    "A057148",
+    "A187272",
+    "A187273",
+    "A187274",
+    "A187275",
+    "A284873"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:16:27",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

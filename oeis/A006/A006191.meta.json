@@ -1,0 +1,20 @@
+{
+  "description": "Number of paths on square lattice.",
+  "id": "A006191",
+  "mentions": [
+    "A006189"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

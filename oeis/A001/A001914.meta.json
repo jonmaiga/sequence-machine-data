@@ -1,0 +1,20 @@
+{
+  "description": "Cyclic numbers: 10 is a quadratic residue modulo p and class of mantissa is 2.",
+  "id": "A001914",
+  "mentions": [
+    "A000040",
+    "A002275",
+    "A003277",
+    "A071126"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:49",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

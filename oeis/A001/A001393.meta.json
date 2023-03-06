@@ -1,0 +1,21 @@
+{
+  "description": "High temperature series for spin-1/2 Ising free energy on 3-dimensional simple cubic lattice.",
+  "id": "A001393",
+  "mentions": [
+    "A001406",
+    "A001407",
+    "A002891",
+    "A010571"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

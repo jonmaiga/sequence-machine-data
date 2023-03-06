@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2^n + 2) a(n-1) (kissing number of Barnes-Wall lattice in dimension 2^n).",
+  "id": "A006088",
+  "mentions": [
+    "A028362",
+    "A081845"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:26:29",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

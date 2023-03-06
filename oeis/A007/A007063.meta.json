@@ -1,0 +1,35 @@
+{
+  "description": "Main diagonal of Kimberling's expulsion array (A035486).",
+  "id": "A007063",
+  "mentions": [
+    "A006852",
+    "A007053",
+    "A035486",
+    "A038807",
+    "A175312",
+    "A282348",
+    "A356026",
+    "A356376",
+    "A356377",
+    "A356378",
+    "A356379",
+    "A356380",
+    "A356777",
+    "A356778",
+    "A356779",
+    "A356780"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Magnetization for cubic lattice.",
+  "id": "A002929",
+  "mentions": [
+    "A007239"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

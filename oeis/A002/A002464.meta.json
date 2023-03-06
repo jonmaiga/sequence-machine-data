@@ -1,0 +1,36 @@
+{
+  "description": "Hertzsprung's problem: ways to arrange n non-attacking kings on an n X n board, with 1 in each row and column. Also number of permutations of length n without rising or falling successions.",
+  "id": "A002464",
+  "mentions": [
+    "A000130",
+    "A000349",
+    "A001100",
+    "A001266",
+    "A001267",
+    "A001268",
+    "A002493",
+    "A010028",
+    "A035607",
+    "A080246",
+    "A086852",
+    "A086853",
+    "A086854",
+    "A086855",
+    "A089222",
+    "A326411",
+    "A333706"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

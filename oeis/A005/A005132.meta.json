@@ -1,0 +1,53 @@
+{
+  "description": "Recamán's sequence (or Recaman's sequence): a(0) = 0; for n > 0, a(n) = a(n-1) - n if nonnegative and not already in the sequence, otherwise a(n) = a(n-1) + n.",
+  "id": "A005132",
+  "mentions": [
+    "A000004",
+    "A000217",
+    "A001057",
+    "A008336",
+    "A046901",
+    "A057165",
+    "A057166",
+    "A057167",
+    "A063733",
+    "A064227",
+    "A064228",
+    "A064284",
+    "A064288",
+    "A064289",
+    "A064290",
+    "A064291",
+    "A064387",
+    "A064388",
+    "A064389",
+    "A065056",
+    "A066201",
+    "A079053",
+    "A119632",
+    "A160356",
+    "A171884",
+    "A210606",
+    "A228474",
+    "A324784",
+    "A324785",
+    "A324786",
+    "A330791",
+    "A331659",
+    "A331670"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hear",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

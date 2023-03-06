@@ -1,0 +1,23 @@
+{
+  "description": "Bruckman-Lucas pseudoprimes: n | (L_n - 1), where n is composite and L_n = Lucas numbers A000032.",
+  "id": "A005845",
+  "mentions": [
+    "A000032",
+    "A002808",
+    "A094394",
+    "A094395",
+    "A213060",
+    "A217120"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

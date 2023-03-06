@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of 16 * (1 + k^2)^4 /(k * k'^2)^2 in powers of q where k is the Jacobian elliptic modulus, k' the complementary modulus and q is the nome.",
+  "id": "A007267",
+  "mentions": [
+    "A004016",
+    "A007191",
+    "A007241",
+    "A007247",
+    "A045478",
+    "A101558",
+    "A106207"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": -1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

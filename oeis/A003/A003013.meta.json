@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. 1+x*exp(x)+x^2*exp(2*x).",
+  "id": "A003013",
+  "mentions": [
+    "A001787",
+    "A001815",
+    "A002999",
+    "A005183",
+    "A048482"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

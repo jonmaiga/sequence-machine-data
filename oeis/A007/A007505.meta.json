@@ -1,0 +1,22 @@
+{
+  "description": "Primes of form 3*2^n - 1.",
+  "id": "A007505",
+  "mentions": [
+    "A002235",
+    "A010051",
+    "A039687",
+    "A083329"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

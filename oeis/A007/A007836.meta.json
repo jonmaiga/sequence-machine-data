@@ -1,0 +1,22 @@
+{
+  "description": "Springer numbers associated with symplectic group.",
+  "id": "A007836",
+  "mentions": [
+    "A001586",
+    "A104035",
+    "A155100",
+    "A156142"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

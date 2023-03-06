@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic 2-graphs with n nodes with first and second cohomology invariants both 0.",
+  "id": "A006627",
+  "mentions": [
+    "A002854",
+    "A085617"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of 2n-step polygons on cubic lattice.",
+  "id": "A002896",
+  "mentions": [
+    "A002893",
+    "A049020",
+    "A049037",
+    "A084261",
+    "A138540",
+    "A174516",
+    "A268545",
+    "A268555",
+    "A287318"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

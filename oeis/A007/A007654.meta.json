@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the standard deviation of 1,...,k is an integer.",
+  "id": "A007654",
+  "mentions": [
+    "A001075",
+    "A001353",
+    "A007655",
+    "A011944",
+    "A055793",
+    "A098301"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Primes with unique period length (the periods are given in A007498).",
+  "id": "A007615",
+  "mentions": [
+    "A002371",
+    "A006530",
+    "A006883",
+    "A007498",
+    "A007732",
+    "A019328",
+    "A040017",
+    "A048595",
+    "A051626",
+    "A061075"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

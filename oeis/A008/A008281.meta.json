@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of Euler-Bernoulli or Entringer numbers read by rows.",
+  "id": "A008281",
+  "mentions": [
+    "A000007",
+    "A000111",
+    "A008280",
+    "A108040",
+    "A132049",
+    "A132050"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:13",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

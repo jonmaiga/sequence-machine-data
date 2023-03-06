@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{k>0} (-1)^(k+1) q^(k^2) / ((1-q)(1-q^3)(1-q^5)...(1-q^(2k-1))).",
+  "id": "A003475",
+  "mentions": [
+    "A003406",
+    "A053251",
+    "A158690"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:50",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of (1-4*x)^(7/2).",
+  "id": "A002423",
+  "mentions": [
+    "A000984",
+    "A001622",
+    "A002420",
+    "A002421",
+    "A002422",
+    "A002424",
+    "A004001",
+    "A007054",
+    "A007272"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A059366(n,n-2) = A059366(n,2) for n >= 2, where the triangle A059366 arises in the expansion of a trigonometric integral.",
+  "id": "A001194",
+  "mentions": [
+    "A059366"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:38:09",
+    "offset": 2,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct prime divisors of the numbers in row n of Pascal's triangle.",
+  "id": "A004788",
+  "mentions": [
+    "A001142",
+    "A001221",
+    "A002944",
+    "A004789",
+    "A256113"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

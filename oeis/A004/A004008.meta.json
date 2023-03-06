@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of theta series of E_7 lattice in powers of q^2.",
+  "id": "A004008",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A003781",
+    "A005875",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A228746"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 18:09:46",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

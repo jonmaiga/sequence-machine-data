@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2*a(n-1)^2 - 1.",
+  "id": "A005828",
+  "mentions": [
+    "A001091",
+    "A001601",
+    "A002812",
+    "A084764"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

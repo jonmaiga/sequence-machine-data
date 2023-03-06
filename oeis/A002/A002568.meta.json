@@ -1,0 +1,23 @@
+{
+  "description": "Number of different ways one can attack all squares on an n X n chessboard with the smallest number of non-attacking queens needed.",
+  "id": "A002568",
+  "mentions": [
+    "A002560",
+    "A002564",
+    "A002567",
+    "A103315",
+    "A122749"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

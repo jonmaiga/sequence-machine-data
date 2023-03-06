@@ -1,0 +1,20 @@
+{
+  "description": "Number of closed meanders with 2 components and 2n bridges.",
+  "id": "A006657",
+  "mentions": [
+    "A005315",
+    "A005316",
+    "A008828"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

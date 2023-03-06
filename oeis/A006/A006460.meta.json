@@ -1,0 +1,21 @@
+{
+  "description": "Image of n after 3k iterates of '3x+1' map (k large).",
+  "id": "A006460",
+  "mentions": [
+    "A006370",
+    "A076052",
+    "A139399"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

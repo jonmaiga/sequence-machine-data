@@ -1,0 +1,19 @@
+{
+  "description": "Shifts left when Moebius transformation applied twice.",
+  "id": "A007551",
+  "mentions": [
+    "A003633"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

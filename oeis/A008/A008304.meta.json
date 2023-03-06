@@ -1,0 +1,43 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=1; 1<=k<=n) is the number of permutations of [n] in which the longest increasing run has length k.",
+  "id": "A008304",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A000303",
+    "A000402",
+    "A000434",
+    "A000456",
+    "A000467",
+    "A064314",
+    "A064315",
+    "A122843",
+    "A230055",
+    "A230234",
+    "A230235",
+    "A230236",
+    "A230251",
+    "A230341",
+    "A230342",
+    "A230343",
+    "A230344",
+    "A230345",
+    "A230346",
+    "A230347",
+    "A230348",
+    "A230349",
+    "A230350"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:13",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

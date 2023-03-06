@@ -1,0 +1,19 @@
+{
+  "description": "0, 2, 4 and the odd numbers.",
+  "id": "A004276",
+  "mentions": [
+    "A004281"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:30:41",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

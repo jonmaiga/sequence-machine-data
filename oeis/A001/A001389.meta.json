@@ -1,0 +1,18 @@
+{
+  "description": "To get the 6th term, for example, note that 5th term has three (10 in ternary!) 1's, one (1) 0, etc., giving 10 1 1 0 1 2 2 1 1 2.",
+  "id": "A001389",
+  "mentions": [
+    "A001388"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

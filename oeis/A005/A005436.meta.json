@@ -1,0 +1,21 @@
+{
+  "description": "Number of convex polygons of perimeter 2n on square lattice.",
+  "id": "A005436",
+  "mentions": [
+    "A005768",
+    "A005769",
+    "A005770",
+    "A260346"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 2,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

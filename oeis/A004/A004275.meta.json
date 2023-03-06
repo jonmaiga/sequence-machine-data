@@ -1,0 +1,22 @@
+{
+  "description": "1 together with nonnegative even numbers.",
+  "id": "A004275",
+  "mentions": [
+    "A004277",
+    "A007457",
+    "A031149",
+    "A091090"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

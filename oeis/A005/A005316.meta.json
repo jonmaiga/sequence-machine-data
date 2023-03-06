@@ -1,0 +1,27 @@
+{
+  "description": "Meandric numbers: number of ways a river can cross a road n times.",
+  "id": "A005316",
+  "mentions": [
+    "A005315",
+    "A076875",
+    "A076906",
+    "A076907",
+    "A077014",
+    "A077054",
+    "A077055",
+    "A077056",
+    "A078591",
+    "A078592"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

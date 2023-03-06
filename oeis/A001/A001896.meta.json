@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of cosecant numbers -2*(2^(2*n - 1) - 1)*Bernoulli(2*n); also of Bernoulli(2*n, 1/2) and Bernoulli(2*n, 1/4).",
+  "id": "A001896",
+  "mentions": [
+    "A001897",
+    "A033469",
+    "A036280",
+    "A062715",
+    "A132092",
+    "A132106",
+    "A145901"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:41:09",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

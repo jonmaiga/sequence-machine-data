@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of convergents to cube root of 3.",
+  "id": "A002353",
+  "mentions": [
+    "A002354",
+    "A002581"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

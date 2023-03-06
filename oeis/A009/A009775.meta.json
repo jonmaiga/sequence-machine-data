@@ -1,0 +1,26 @@
+{
+  "description": "Exponential generating function is tanh(log(1+x)).",
+  "id": "A009775",
+  "mentions": [
+    "A000111",
+    "A007019",
+    "A007415",
+    "A007452",
+    "A046979",
+    "A052277",
+    "A092820",
+    "A217260"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:53",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

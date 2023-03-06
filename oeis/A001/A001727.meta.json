@@ -1,0 +1,19 @@
+{
+  "description": "Weight distribution of [64,42,8] 3rd-order Reed-Muller code of length 64.",
+  "id": "A001727",
+  "mentions": [
+    "A001726"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

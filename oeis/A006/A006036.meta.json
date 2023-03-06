@@ -1,0 +1,22 @@
+{
+  "description": "Primitive pseudoperfect numbers.",
+  "id": "A006036",
+  "mentions": [
+    "A001599",
+    "A005835",
+    "A006038",
+    "A027751",
+    "A210455"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

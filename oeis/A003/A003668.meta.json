@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is smallest number which is uniquely a(j)+a(k), j",
+  "id": "A003668",
+  "mentions": [
+    "A002858",
+    "A007300",
+    "A100729"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:29:01",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

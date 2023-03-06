@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (5n+1)*(5n+4).",
+  "id": "A001545",
+  "mentions": [
+    "A000217",
+    "A001622",
+    "A177059",
+    "A200135",
+    "A200138"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:19:21",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

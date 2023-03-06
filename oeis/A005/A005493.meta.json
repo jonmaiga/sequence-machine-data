@@ -1,0 +1,43 @@
+{
+  "description": "2-Bell numbers: a(n) = number of partitions of [n+1] with a distinguished block.",
+  "id": "A005493",
+  "mentions": [
+    "A000110",
+    "A000296",
+    "A001861",
+    "A003128",
+    "A005494",
+    "A006013",
+    "A008277",
+    "A009737",
+    "A011965",
+    "A011968",
+    "A011971",
+    "A049020",
+    "A052852",
+    "A106436",
+    "A108087",
+    "A123158",
+    "A124323",
+    "A137650",
+    "A143494",
+    "A152433",
+    "A159573",
+    "A232472",
+    "A235214"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

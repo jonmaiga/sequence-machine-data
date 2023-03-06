@@ -1,0 +1,22 @@
+{
+  "description": "Number of strongly connected digraphs with n labeled nodes.",
+  "id": "A003030",
+  "mentions": [
+    "A000009",
+    "A035512",
+    "A054946",
+    "A054947"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

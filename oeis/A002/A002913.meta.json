@@ -1,0 +1,40 @@
+{
+  "description": "High temperature series for spin-1/2 Ising magnetic susceptibility on 3-dimensional simple cubic lattice.",
+  "id": "A002913",
+  "mentions": [
+    "A001393",
+    "A002170",
+    "A002906",
+    "A002910",
+    "A002914",
+    "A002915",
+    "A002916",
+    "A002920",
+    "A002921",
+    "A002926",
+    "A003119",
+    "A003279",
+    "A003490",
+    "A007239",
+    "A007287",
+    "A010040",
+    "A010043",
+    "A010046",
+    "A010556",
+    "A010571",
+    "A010579",
+    "A010580",
+    "A030008"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

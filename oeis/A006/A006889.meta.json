@@ -1,0 +1,28 @@
+{
+  "description": "Exponent of least power of 2 having n consecutive 0's in its decimal representation.",
+  "id": "A006889",
+  "mentions": [
+    "A031146",
+    "A063565",
+    "A094776",
+    "A131535",
+    "A131536",
+    "A224782",
+    "A259089",
+    "A259091",
+    "A259092"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

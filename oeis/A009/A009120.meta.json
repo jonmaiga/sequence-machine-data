@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (4n)!/(2n)!.",
+  "id": "A009120",
+  "mentions": [
+    "A001813",
+    "A101485"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/((1-x^2)*(1-x^4)^2*(1-x^6)*(1-x^8)*(1-x^10)) (even powers only).",
+  "id": "A001994",
+  "mentions": [
+    "A001993",
+    "A001996"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:49",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

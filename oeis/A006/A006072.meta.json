@@ -1,0 +1,25 @@
+{
+  "description": "Numbers with mirror symmetry about middle.",
+  "id": "A006072",
+  "mentions": [
+    "A000578",
+    "A000787",
+    "A045574",
+    "A111065",
+    "A118594",
+    "A225367"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Coefficient of H_2 when expressing x^{2n} in terms of Hermite polynomials H_m.",
+  "id": "A001814",
+  "mentions": [
+    "A001879",
+    "A005430",
+    "A048854",
+    "A067147",
+    "A126804"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

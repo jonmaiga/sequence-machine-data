@@ -1,0 +1,42 @@
+{
+  "description": "Catalan triangle read by rows. Also triangle of expansions of powers of x in terms of Chebyshev polynomials U_n(x).",
+  "id": "A008315",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A001405",
+    "A003480",
+    "A003517",
+    "A008313",
+    "A008482",
+    "A009766",
+    "A028364",
+    "A053121",
+    "A055151",
+    "A056536",
+    "A084938",
+    "A120730",
+    "A121724",
+    "A121725",
+    "A126087",
+    "A128386",
+    "A128387",
+    "A132373",
+    "A132374",
+    "A132375"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:47:39",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

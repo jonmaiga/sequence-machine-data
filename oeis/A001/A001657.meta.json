@@ -1,0 +1,28 @@
+{
+  "description": "Fibonomial coefficients: column 5 of A010048.",
+  "id": "A001657",
+  "mentions": [
+    "A000045",
+    "A000051",
+    "A001076",
+    "A001654",
+    "A001655",
+    "A001658",
+    "A010048",
+    "A049666",
+    "A055870",
+    "A065563"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

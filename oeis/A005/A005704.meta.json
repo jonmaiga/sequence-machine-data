@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of 3n into powers of 3.",
+  "id": "A005704",
+  "mentions": [
+    "A000041",
+    "A000123",
+    "A000244",
+    "A005705",
+    "A005706",
+    "A006996",
+    "A018819"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

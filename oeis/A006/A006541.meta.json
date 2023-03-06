@@ -1,0 +1,21 @@
+{
+  "description": "Number of dissimilarity relations on an n-set.",
+  "id": "A006541",
+  "mentions": [
+    "A000670",
+    "A005121"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

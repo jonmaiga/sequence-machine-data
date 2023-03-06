@@ -1,0 +1,29 @@
+{
+  "description": "Jordan-Polya numbers: products of factorial numbers A000142.",
+  "id": "A001013",
+  "mentions": [
+    "A000142",
+    "A025487",
+    "A034878",
+    "A064783",
+    "A093373",
+    "A246663",
+    "A344179",
+    "A344181",
+    "A344438",
+    "A359636",
+    "A359751"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

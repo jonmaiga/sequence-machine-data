@@ -1,0 +1,29 @@
+{
+  "description": "Hofstadter H-sequence: a(n) = n - a(a(a(n-1))).",
+  "id": "A005374",
+  "mentions": [
+    "A000012",
+    "A000930",
+    "A001477",
+    "A006336",
+    "A020942",
+    "A064105",
+    "A064106",
+    "A136495",
+    "A202340",
+    "A202341",
+    "A202342"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

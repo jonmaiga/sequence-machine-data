@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that 9*k = (k written backwards), k > 0.",
+  "id": "A001232",
+  "mentions": [
+    "A002275",
+    "A002283",
+    "A004086",
+    "A008918",
+    "A008919",
+    "A031877",
+    "A061851",
+    "A094707",
+    "A124074",
+    "A193434",
+    "A222814",
+    "A222815"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

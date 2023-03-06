@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonequivalent dissections of a polygon into n triangles by nonintersecting diagonals rooted at a cell up to rotation.",
+  "id": "A003441",
+  "mentions": [
+    "A000108",
+    "A001004",
+    "A050181",
+    "A295222"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

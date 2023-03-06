@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 22/7 - Pi.",
+  "id": "A003077",
+  "mentions": [
+    "A000796",
+    "A068028"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

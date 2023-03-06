@@ -1,0 +1,35 @@
+{
+  "description": "Triangle read by rows: a(n,k) = number of permutations of [n] allowing i->i+j (mod n), j=0..k-1.",
+  "id": "A008305",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A000179",
+    "A000183",
+    "A000211",
+    "A000382",
+    "A000803",
+    "A000804",
+    "A000805",
+    "A002467",
+    "A004306",
+    "A004307",
+    "A048162",
+    "A184965",
+    "A189389",
+    "A306714",
+    "A306738"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:13",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

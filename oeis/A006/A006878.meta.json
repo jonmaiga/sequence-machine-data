@@ -1,0 +1,23 @@
+{
+  "description": "Record number of steps to reach 1 in '3x+1' problem, corresponding to starting values in A006877.",
+  "id": "A006878",
+  "mentions": [
+    "A006877",
+    "A006884",
+    "A006885",
+    "A033492",
+    "A033958",
+    "A033959"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic connected functions with no fixed points, or proper rings with n edges.",
+  "id": "A002862",
+  "mentions": [
+    "A000081",
+    "A002861"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

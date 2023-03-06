@@ -1,0 +1,24 @@
+{
+  "description": "Stirling numbers of first kind, s(n+3, n), negated.",
+  "id": "A001303",
+  "mentions": [
+    "A000051",
+    "A000217",
+    "A001297",
+    "A001701",
+    "A008275",
+    "A112486"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:49",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

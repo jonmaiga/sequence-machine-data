@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways of folding an n X n sheet of stamps.",
+  "id": "A001418",
+  "mentions": [
+    "A000136",
+    "A000560",
+    "A001417",
+    "A195646"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

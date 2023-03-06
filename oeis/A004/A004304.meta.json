@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonseparable planar tree-rooted maps with n edges.",
+  "id": "A004304",
+  "mentions": [
+    "A000264",
+    "A005568",
+    "A168450",
+    "A168451",
+    "A168452"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

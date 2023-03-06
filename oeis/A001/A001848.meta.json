@@ -1,0 +1,23 @@
+{
+  "description": "Crystal ball sequence for 6-dimensional cubic lattice.",
+  "id": "A001848",
+  "mentions": [
+    "A000051",
+    "A001847",
+    "A008288",
+    "A013609",
+    "A240876"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:19:51",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

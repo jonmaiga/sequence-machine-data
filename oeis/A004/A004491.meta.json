@@ -1,0 +1,21 @@
+{
+  "description": "Number of bent functions of 2n variables.",
+  "id": "A004491",
+  "mentions": [
+    "A004483",
+    "A099090"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

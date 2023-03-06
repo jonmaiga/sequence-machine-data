@@ -1,0 +1,29 @@
+{
+  "description": "Number of 8-ary trees with n vertices.",
+  "id": "A007556",
+  "mentions": [
+    "A003633",
+    "A007318",
+    "A062993",
+    "A234461",
+    "A234462",
+    "A234463",
+    "A234464",
+    "A234465",
+    "A234466",
+    "A234467"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

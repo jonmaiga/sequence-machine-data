@@ -1,0 +1,21 @@
+{
+  "description": "Cubes, not ending in 0, formed by concatenating other cubes.",
+  "id": "A009421",
+  "mentions": [
+    "A000578",
+    "A019548",
+    "A061341"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

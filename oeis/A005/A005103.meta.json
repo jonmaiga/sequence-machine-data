@@ -1,0 +1,19 @@
+{
+  "description": "Minimal determinant of n-dimensional norm 3 lattice.",
+  "id": "A005103",
+  "mentions": [
+    "A000051"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

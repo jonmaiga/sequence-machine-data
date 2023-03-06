@@ -1,0 +1,24 @@
+{
+  "description": "Number of self-dual equivalence classes of threshold functions of n or fewer variables, number of majority (i.e., decisive and weighted) games with n players.",
+  "id": "A001532",
+  "mentions": [
+    "A000371",
+    "A000617",
+    "A002077",
+    "A109456",
+    "A132183",
+    "A189359"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

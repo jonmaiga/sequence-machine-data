@@ -1,0 +1,25 @@
+{
+  "description": "A nonrepetitive sequence.",
+  "id": "A003324",
+  "mentions": [
+    "A001285",
+    "A004767",
+    "A016813",
+    "A292077",
+    "A343500",
+    "A343501"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

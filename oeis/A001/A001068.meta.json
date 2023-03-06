@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = floor(5*n/4), numbers that are congruent to {0, 1, 2, 3} mod 5.",
+  "id": "A001068",
+  "mentions": [
+    "A001622",
+    "A002265",
+    "A030308",
+    "A047203",
+    "A110255",
+    "A110256",
+    "A110257",
+    "A110258",
+    "A110259",
+    "A110260",
+    "A177704",
+    "A249547"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

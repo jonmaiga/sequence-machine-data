@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Fibonacci(n) + n.",
+  "id": "A002062",
+  "mentions": [
+    "A000045",
+    "A000051",
+    "A001611",
+    "A006355",
+    "A066982",
+    "A160536",
+    "A212272"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

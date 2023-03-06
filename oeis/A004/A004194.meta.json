@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of 1/n into 3 reciprocals of positive integers.",
+  "id": "A004194",
+  "mentions": [
+    "A073101",
+    "A192787",
+    "A226641",
+    "A226642",
+    "A226644",
+    "A226645",
+    "A226646",
+    "A227610"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:50",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

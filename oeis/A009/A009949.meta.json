@@ -1,0 +1,21 @@
+{
+  "description": "Factorial expansion of sqrt(2) = Sum_{n>=1} a(n)/n!, using greedy algorithm.",
+  "id": "A009949",
+  "mentions": [
+    "A002193",
+    "A040000",
+    "A067881",
+    "A068446",
+    "A320839"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

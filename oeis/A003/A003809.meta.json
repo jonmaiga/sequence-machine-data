@@ -1,0 +1,21 @@
+{
+  "description": "Order of simple Chevalley group A_4(q), q = prime power.",
+  "id": "A003809",
+  "mentions": [
+    "A000961",
+    "A003793",
+    "A003802"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:23:57",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

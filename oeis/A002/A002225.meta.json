@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the smallest prime p such that each of the first n primes has three cube roots mod p.",
+  "id": "A002225",
+  "mentions": [
+    "A002223",
+    "A002224",
+    "A002226",
+    "A002227",
+    "A002228",
+    "A014752",
+    "A014753",
+    "A040044",
+    "A060363",
+    "A060364",
+    "A147972"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

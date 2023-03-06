@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of Pi/4.",
+  "id": "A003881",
+  "mentions": [
+    "A000182",
+    "A000364",
+    "A000796",
+    "A001586",
+    "A019669",
+    "A024235",
+    "A071904",
+    "A101455",
+    "A197723",
+    "A258414",
+    "A278080",
+    "A278195",
+    "A347152"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:29:31",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

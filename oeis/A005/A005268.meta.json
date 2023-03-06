@@ -1,0 +1,22 @@
+{
+  "description": "Number of elementary sequences of length n.",
+  "id": "A005268",
+  "mentions": [
+    "A003513",
+    "A005269",
+    "A005272",
+    "A008926",
+    "A234595"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

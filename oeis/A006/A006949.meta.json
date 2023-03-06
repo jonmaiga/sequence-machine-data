@@ -1,0 +1,24 @@
+{
+  "description": "A well-behaved cousin of the Hofstadter sequence: a(n) = a(n - 1 - a(n-1)) + a(n - 2 - a(n-2)) for n > 2 with a(0) = a(1) = a(2) = 1.",
+  "id": "A006949",
+  "mentions": [
+    "A120511",
+    "A240807",
+    "A240808",
+    "A241235",
+    "A244478",
+    "A244479",
+    "A244483"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

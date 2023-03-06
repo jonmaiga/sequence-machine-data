@@ -1,0 +1,47 @@
+{
+  "description": "Numbers of edges of regular polygons constructible with ruler (or, more precisely, an unmarked straightedge) and compass.",
+  "id": "A003401",
+  "mentions": [
+    "A000010",
+    "A000079",
+    "A000215",
+    "A002193",
+    "A002194",
+    "A004169",
+    "A004729",
+    "A005180",
+    "A005347",
+    "A007117",
+    "A019434",
+    "A046528",
+    "A051916",
+    "A092506",
+    "A094214",
+    "A099884",
+    "A101263",
+    "A101464",
+    "A182007",
+    "A209229",
+    "A228787",
+    "A272534",
+    "A272535",
+    "A272536",
+    "A293516",
+    "A295298",
+    "A295660",
+    "A336469",
+    "A336477"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

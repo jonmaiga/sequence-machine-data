@@ -1,0 +1,30 @@
+{
+  "description": "0 together with odd numbers.",
+  "id": "A004273",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A005408",
+    "A016777",
+    "A040001",
+    "A057427",
+    "A073744",
+    "A110185",
+    "A145051",
+    "A146535",
+    "A204877",
+    "A214546"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

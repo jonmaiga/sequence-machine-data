@@ -1,0 +1,23 @@
+{
+  "description": "Number of connected topologies with n unlabeled nodes.",
+  "id": "A001928",
+  "mentions": [
+    "A000112",
+    "A000798",
+    "A001929",
+    "A001930",
+    "A022562"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

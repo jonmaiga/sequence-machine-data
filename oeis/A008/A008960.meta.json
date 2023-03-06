@@ -1,0 +1,23 @@
+{
+  "description": "Final digit of cubes: n^3 mod 10.",
+  "id": "A008960",
+  "mentions": [
+    "A008959",
+    "A010879",
+    "A070514",
+    "A167176"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:49:33",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

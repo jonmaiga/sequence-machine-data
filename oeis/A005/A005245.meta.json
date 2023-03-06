@@ -1,0 +1,33 @@
+{
+  "description": "The (Mahler-Popken) complexity of n: minimal number of 1's required to build n using + and *.",
+  "id": "A005245",
+  "mentions": [
+    "A000792",
+    "A003037",
+    "A003313",
+    "A005421",
+    "A005520",
+    "A007600",
+    "A025280",
+    "A061373",
+    "A064097",
+    "A076091",
+    "A076142",
+    "A161906",
+    "A161908",
+    "A348262"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

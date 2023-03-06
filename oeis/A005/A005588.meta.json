@@ -1,0 +1,22 @@
+{
+  "description": "Number of free binary trees admitting height n.",
+  "id": "A005588",
+  "mentions": [
+    "A002658",
+    "A006894"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Davenport-Schinzel numbers of degree n on 3 symbols.",
+  "id": "A005004",
+  "mentions": [
+    "A000051",
+    "A002004",
+    "A259874"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:51",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

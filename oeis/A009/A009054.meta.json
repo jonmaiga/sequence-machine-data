@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of e.g.f. cos(sinh(sin(x))), even terms only.",
+  "id": "A009054",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

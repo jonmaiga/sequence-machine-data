@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that the product of q/(q-1) over the primes from prime(n) to prime(n+k-1) is greater than 2.",
+  "id": "A001276",
+  "mentions": [
+    "A001275",
+    "A005101",
+    "A108227"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

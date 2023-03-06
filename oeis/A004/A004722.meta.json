@@ -1,0 +1,29 @@
+{
+  "description": "Delete all digits 3 from the terms of the sequence of nonnegative integers.",
+  "id": "A004722",
+  "mentions": [
+    "A002277",
+    "A004178",
+    "A004719",
+    "A004720",
+    "A004721",
+    "A004723",
+    "A004724",
+    "A004725",
+    "A004726",
+    "A004727",
+    "A004728"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

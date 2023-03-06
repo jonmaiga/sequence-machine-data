@@ -1,0 +1,19 @@
+{
+  "description": "From expansion of exp(sin x).",
+  "id": "A007301",
+  "mentions": [
+    "A002017"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:52",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

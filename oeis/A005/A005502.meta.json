@@ -1,0 +1,22 @@
+{
+  "description": "Number of unrooted triangulations of a hexagon with n internal nodes.",
+  "id": "A005502",
+  "mentions": [
+    "A005495",
+    "A005500",
+    "A005501",
+    "A005507",
+    "A169808"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

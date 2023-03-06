@@ -1,0 +1,23 @@
+{
+  "description": "Smallest k such that phi(x) = k has exactly n solutions.",
+  "id": "A007374",
+  "mentions": [
+    "A000010",
+    "A014573",
+    "A097942",
+    "A105207",
+    "A105208"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 2,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

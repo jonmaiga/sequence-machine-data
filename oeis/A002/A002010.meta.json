@@ -1,0 +1,21 @@
+{
+  "description": "Almost trivalent maps.",
+  "id": "A002010",
+  "mentions": [
+    "A002006",
+    "A002007",
+    "A002008",
+    "A002009"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

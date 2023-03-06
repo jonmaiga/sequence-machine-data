@@ -1,0 +1,23 @@
+{
+  "description": "Largest prime with n distinct decimal digits.",
+  "id": "A007810",
+  "mentions": [
+    "A071360",
+    "A071361",
+    "A071362",
+    "A071363"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

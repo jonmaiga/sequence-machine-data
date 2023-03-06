@@ -1,0 +1,18 @@
+{
+  "description": "Partial quotients in continued fraction expansion of Cahen's constant.",
+  "id": "A006280",
+  "mentions": [
+    "A006279",
+    "A006281"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

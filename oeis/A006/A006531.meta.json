@@ -1,0 +1,23 @@
+{
+  "description": "Semiorders on n elements.",
+  "id": "A006531",
+  "mentions": [
+    "A000010",
+    "A000108",
+    "A001006",
+    "A052895"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

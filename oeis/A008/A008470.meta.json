@@ -1,0 +1,18 @@
+{
+  "description": "At least 3 out of 10m+1, 10m+3, 10m+7, 10m+9 are primes.",
+  "id": "A008470",
+  "mentions": [
+    "A238713"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

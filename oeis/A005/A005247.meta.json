@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 3*a(n-2) - a(n-4), a(0)=2, a(1)=1, a(2)=3, a(3)=2. Alternates Lucas (A000032) and Fibonacci (A000045) sequences for even and odd n.",
+  "id": "A005247",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000051",
+    "A005013",
+    "A005246",
+    "A005248"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

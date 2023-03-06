@@ -1,0 +1,21 @@
+{
+  "description": "Self-convolution 4th power of A001764, which enumerates ternary trees.",
+  "id": "A006629",
+  "mentions": [
+    "A001764",
+    "A092276"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

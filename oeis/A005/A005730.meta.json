@@ -1,0 +1,20 @@
+{
+  "description": "Related to n-th powers of polynomials.",
+  "id": "A005730",
+  "mentions": [
+    "A005729",
+    "A005731",
+    "A007913"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:34:51",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of equivalence classes of binary sequences of period n.",
+  "id": "A002729",
+  "mentions": [
+    "A000029",
+    "A002730",
+    "A285548"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:50",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

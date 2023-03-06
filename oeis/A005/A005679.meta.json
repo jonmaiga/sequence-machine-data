@@ -1,0 +1,20 @@
+{
+  "description": "A squarefree (or Thue-Morse) ternary sequence: closed under a->abc, b->ac, c->b.",
+  "id": "A005679",
+  "mentions": [
+    "A001285",
+    "A005681"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:34:45",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "4-dimensional figurate numbers: a(n) = (5*n-1)*binomial(n+2,3)/4.",
+  "id": "A002418",
+  "mentions": [
+    "A000027",
+    "A000051",
+    "A000326",
+    "A000332",
+    "A000566",
+    "A001622",
+    "A002412",
+    "A002413",
+    "A010879",
+    "A080852",
+    "A093562",
+    "A103450",
+    "A128064",
+    "A213550",
+    "A220212"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:23:03",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

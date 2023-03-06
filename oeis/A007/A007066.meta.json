@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = 1 + ceiling((n-1)*phi^2), phi = (1+sqrt(5))/2.",
+  "id": "A007066",
+  "mentions": [
+    "A001950",
+    "A004956",
+    "A004957",
+    "A026355",
+    "A026356",
+    "A064437",
+    "A076662",
+    "A099267",
+    "A189479",
+    "A193214",
+    "A283310"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

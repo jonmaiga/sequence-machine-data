@@ -1,0 +1,29 @@
+{
+  "description": "Numbers that are the sum of 12 positive 6th powers.",
+  "id": "A003368",
+  "mentions": [
+    "A001014",
+    "A003333",
+    "A003335",
+    "A003346",
+    "A003357",
+    "A003358",
+    "A003367",
+    "A003379",
+    "A003390",
+    "A004801",
+    "A004812",
+    "A004823"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of circulant tournaments on 2n+1 nodes up to Cayley isomorphism.",
+  "id": "A002086",
+  "mentions": [
+    "A002087",
+    "A049288"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:54:02",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

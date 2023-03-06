@@ -1,0 +1,15 @@
+{
+  "description": "Related to Hamilton numbers.",
+  "id": "A002090",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

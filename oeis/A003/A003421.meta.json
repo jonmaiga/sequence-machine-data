@@ -1,0 +1,19 @@
+{
+  "description": "Nonsquare values of m in the discriminant D = 4*m leading to a new maximum of the L-function of the Dirichlet series L(1) = Sum_{k>0} Kronecker(D,k)/k.",
+  "id": "A003421",
+  "mentions": [
+    "A003419",
+    "A003420",
+    "A003521"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

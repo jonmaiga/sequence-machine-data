@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: { ( Product_{j=1..infinity} (1-x^j) - 1 )/x }^24.",
+  "id": "A006665",
+  "mentions": [
+    "A001482"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:52",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

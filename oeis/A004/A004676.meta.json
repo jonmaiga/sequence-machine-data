@@ -1,0 +1,26 @@
+{
+  "description": "Primes written in base 2.",
+  "id": "A004676",
+  "mentions": [
+    "A000040",
+    "A000668",
+    "A007088",
+    "A019434",
+    "A174332",
+    "A208238",
+    "A208241"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:23",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

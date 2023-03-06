@@ -1,0 +1,26 @@
+{
+  "description": "Unique period lengths of primes mentioned in A007615.",
+  "id": "A007498",
+  "mentions": [
+    "A002371",
+    "A006883",
+    "A007615",
+    "A007732",
+    "A046108",
+    "A048595",
+    "A051626",
+    "A161508"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

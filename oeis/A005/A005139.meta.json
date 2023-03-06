@@ -1,0 +1,15 @@
+{
+  "description": "Number of n-dimensional determinant 3 lattices.",
+  "id": "A005139",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Apart from two leading terms (which are present by convention), denominators of convergents to Pi (A002485 and A046947 give numerators).",
+  "id": "A002486",
+  "mentions": [
+    "A002485",
+    "A046947",
+    "A063673",
+    "A063674",
+    "A072398",
+    "A072399",
+    "A132049",
+    "A132050"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

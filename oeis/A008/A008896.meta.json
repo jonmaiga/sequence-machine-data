@@ -1,0 +1,19 @@
+{
+  "description": "3x - 1 sequence starting at 66.",
+  "id": "A008896",
+  "mentions": [
+    "A008880"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:49:21",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

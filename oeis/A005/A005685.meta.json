@@ -1,0 +1,22 @@
+{
+  "description": "Number of Twopins positions.",
+  "id": "A005685",
+  "mentions": [
+    "A000045",
+    "A000051",
+    "A005251",
+    "A010892",
+    "A102541"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:34:14",
+    "offset": 4,
+    "size": 35,
+    "source": "joeis"
+  }
+}

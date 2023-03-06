@@ -1,0 +1,20 @@
+{
+  "description": "Minimal absolute value of discriminants of number fields of degree n with exactly 2 (1 pair of) complex embeddings.",
+  "id": "A006555",
+  "mentions": [
+    "A006554",
+    "A343290"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Expansion of k/(4*q^(1/2)) in powers of q, where k defined by sqrt(k) = theta_2(0, q)/theta_3(0, q).",
+  "id": "A001938",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A001934",
+    "A001936",
+    "A010054",
+    "A010815",
+    "A079006",
+    "A093160",
+    "A121373",
+    "A127393",
+    "A127931",
+    "A127932",
+    "A139820"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

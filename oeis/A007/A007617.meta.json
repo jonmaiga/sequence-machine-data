@@ -1,0 +1,23 @@
+{
+  "description": "Values not in range of Euler phi function.",
+  "id": "A007617",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A005277",
+    "A083534",
+    "A180639",
+    "A264739"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Generalized Fibonacci numbers A_{n,3}.",
+  "id": "A006208",
+  "mentions": [
+    "A006206",
+    "A006207",
+    "A006209",
+    "A006210",
+    "A006211",
+    "A094392",
+    "A130628",
+    "A208092"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:58:55",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

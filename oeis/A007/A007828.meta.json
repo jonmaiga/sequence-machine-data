@@ -1,0 +1,19 @@
+{
+  "description": "Largest t such that a spherical t-design with n points exists in 3 dimensions.",
+  "id": "A007828",
+  "mentions": [
+    "A076868",
+    "A076870"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

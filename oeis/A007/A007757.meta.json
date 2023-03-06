@@ -1,0 +1,19 @@
+{
+  "description": "Dwork-Kontsevich sequence evaluated at 2*n.",
+  "id": "A007757",
+  "mentions": [
+    "A056612",
+    "A131657",
+    "A131658"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:56:26",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

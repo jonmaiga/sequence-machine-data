@@ -1,0 +1,23 @@
+{
+  "description": "Number of sensed 2-connected (nonseparable) planar maps with n edges.",
+  "id": "A006402",
+  "mentions": [
+    "A000087",
+    "A000139",
+    "A005645",
+    "A006403",
+    "A006406",
+    "A007401",
+    "A342061"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:43:50",
+    "offset": 2,
+    "size": 27,
+    "source": "joeis"
+  }
+}

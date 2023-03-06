@@ -1,0 +1,18 @@
+{
+  "description": "Number of unlabeled identity connected unit interval graphs with n nodes.",
+  "id": "A007122",
+  "mentions": [
+    "A005219"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:58:40",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

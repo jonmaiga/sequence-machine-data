@@ -1,0 +1,21 @@
+{
+  "description": "Number of strongly self-dual planar maps with 2n edges.",
+  "id": "A006849",
+  "mentions": [
+    "A000108",
+    "A005159",
+    "A005470"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

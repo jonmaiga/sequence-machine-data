@@ -1,0 +1,23 @@
+{
+  "description": "Positive integers k such that k-th triangular number is palindromic.",
+  "id": "A008509",
+  "mentions": [
+    "A000217",
+    "A002113",
+    "A003098",
+    "A050721",
+    "A050722",
+    "A083571"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

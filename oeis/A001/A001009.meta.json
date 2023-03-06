@@ -1,0 +1,21 @@
+{
+  "description": "Triangle giving number L(n,k) of normalized k X n Latin rectangles.",
+  "id": "A001009",
+  "mentions": [
+    "A000573",
+    "A000576",
+    "A001623"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "9-gonal (or enneagonal or nonagonal) numbers: a(n) = n*(7*n-5)/2.",
+  "id": "A001106",
+  "mentions": [
+    "A000051",
+    "A000217",
+    "A007584",
+    "A016993",
+    "A057655",
+    "A069099",
+    "A093564",
+    "A118277",
+    "A131875",
+    "A174738",
+    "A195019",
+    "A195020",
+    "A244646"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

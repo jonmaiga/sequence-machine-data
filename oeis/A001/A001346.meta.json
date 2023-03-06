@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k = 0..4} (n+k)! C(4,k).",
+  "id": "A001346",
+  "mentions": [
+    "A001345",
+    "A001347"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": -1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "description": "Niven (or Harshad, or harshad) numbers: numbers that are divisible by the sum of their digits.",
+  "id": "A005349",
+  "mentions": [
+    "A001101",
+    "A001102",
+    "A005347",
+    "A007602",
+    "A007953",
+    "A028834",
+    "A038186",
+    "A049445",
+    "A052018",
+    "A052019",
+    "A052020",
+    "A052021",
+    "A052022",
+    "A065877",
+    "A070635",
+    "A113315",
+    "A118363",
+    "A140866",
+    "A141769",
+    "A154701",
+    "A188641",
+    "A330927",
+    "A330928",
+    "A330929",
+    "A330930"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

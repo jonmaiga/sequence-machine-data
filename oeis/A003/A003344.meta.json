@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are the sum of 10 positive 4th powers.",
+  "id": "A003344",
+  "mentions": [
+    "A000583",
+    "A003333",
+    "A003343",
+    "A003355",
+    "A047721",
+    "A345595",
+    "A345853"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

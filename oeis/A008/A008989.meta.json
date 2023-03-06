@@ -1,0 +1,21 @@
+{
+  "description": "Number of immersions of unoriented circle into unoriented sphere with n double points.",
+  "id": "A008989",
+  "mentions": [
+    "A008986",
+    "A008987",
+    "A008988",
+    "A260914"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

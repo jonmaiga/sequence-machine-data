@@ -1,0 +1,26 @@
+{
+  "description": "Number of unilateral digraphs with n unlabeled nodes.",
+  "id": "A003088",
+  "mentions": [
+    "A003029",
+    "A003085",
+    "A035512",
+    "A049512",
+    "A049531",
+    "A051421",
+    "A057270"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

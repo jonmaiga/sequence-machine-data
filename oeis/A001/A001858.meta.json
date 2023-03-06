@@ -1,0 +1,29 @@
+{
+  "description": "Number of forests of trees on n labeled nodes.",
+  "id": "A001858",
+  "mentions": [
+    "A000009",
+    "A000169",
+    "A000262",
+    "A001514",
+    "A001861",
+    "A003471",
+    "A006572",
+    "A006573",
+    "A088956",
+    "A138464"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

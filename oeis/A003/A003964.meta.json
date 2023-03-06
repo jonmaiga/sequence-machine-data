@@ -1,0 +1,22 @@
+{
+  "description": "Fully multiplicative with a(prime(k)) = partition(k+1).",
+  "id": "A003964",
+  "mentions": [
+    "A000041",
+    "A000720",
+    "A299200"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "look",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

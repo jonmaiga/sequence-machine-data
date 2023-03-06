@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n+3)*2^n - 1.",
+  "id": "A006589",
+  "mentions": [
+    "A001792",
+    "A006577",
+    "A045623",
+    "A087156",
+    "A173786"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": -1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

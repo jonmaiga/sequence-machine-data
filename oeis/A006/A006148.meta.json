@@ -1,0 +1,25 @@
+{
+  "description": "Number of 4 X n binary matrices up to row and column permutations.",
+  "id": "A006148",
+  "mentions": [
+    "A000711",
+    "A002623",
+    "A002727",
+    "A005748",
+    "A006380",
+    "A028657"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:37:05",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

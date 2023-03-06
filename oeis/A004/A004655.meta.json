@@ -1,0 +1,26 @@
+{
+  "description": "Powers of 2 written in base 16.",
+  "id": "A004655",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A004643",
+    "A004654",
+    "A004656",
+    "A004658",
+    "A004659"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

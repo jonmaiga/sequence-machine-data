@@ -1,0 +1,23 @@
+{
+  "description": "Number of isomorphism classes of connected irreducible posets with n labeled points.",
+  "id": "A003431",
+  "mentions": [
+    "A000084",
+    "A000798",
+    "A003277",
+    "A003430",
+    "A046906"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

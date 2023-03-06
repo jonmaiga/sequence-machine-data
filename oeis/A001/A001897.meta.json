@@ -1,0 +1,28 @@
+{
+  "description": "Denominators of cosecant numbers: -2*(2^(2*n-1)-1)*Bernoulli(2*n).",
+  "id": "A001897",
+  "mentions": [
+    "A001896",
+    "A002445",
+    "A027642",
+    "A033469",
+    "A132092",
+    "A132106",
+    "A160014",
+    "A241171",
+    "A277087",
+    "A340556"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:49",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

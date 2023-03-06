@@ -1,0 +1,33 @@
+{
+  "description": "Numbers k such that phi(k) = phi(k+1).",
+  "id": "A001274",
+  "mentions": [
+    "A000010",
+    "A001494",
+    "A001602",
+    "A003275",
+    "A003276",
+    "A007015",
+    "A051179",
+    "A051953",
+    "A179186",
+    "A179187",
+    "A179188",
+    "A179189",
+    "A179202",
+    "A217139"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

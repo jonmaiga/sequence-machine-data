@@ -1,0 +1,20 @@
+{
+  "description": "Number of proper covers of an n-set.",
+  "id": "A007537",
+  "mentions": [
+    "A003465"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of connected functions on n labeled nodes.",
+  "id": "A001865",
+  "mentions": [
+    "A000435",
+    "A001863",
+    "A060281",
+    "A063169"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

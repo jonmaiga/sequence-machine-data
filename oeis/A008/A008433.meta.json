@@ -1,0 +1,21 @@
+{
+  "description": "Theta series of {D_5}^{+} packing.",
+  "id": "A008433",
+  "mentions": [
+    "A000122",
+    "A002448",
+    "A005930"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

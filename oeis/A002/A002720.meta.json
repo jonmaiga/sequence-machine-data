@@ -1,0 +1,41 @@
+{
+  "description": "Number of partial permutations of an n-set; number of n X n binary matrices with at most one 1 in each row and column.",
+  "id": "A002720",
+  "mentions": [
+    "A000110",
+    "A000142",
+    "A000262",
+    "A000712",
+    "A001048",
+    "A001563",
+    "A001809",
+    "A001810",
+    "A001811",
+    "A001812",
+    "A002793",
+    "A020556",
+    "A021009",
+    "A069223",
+    "A073003",
+    "A088699",
+    "A090210",
+    "A144084",
+    "A160617",
+    "A160618",
+    "A283500",
+    "A289192"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

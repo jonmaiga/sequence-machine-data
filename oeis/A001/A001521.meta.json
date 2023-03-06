@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 1; thereafter a(n+1) = floor(sqrt(2*a(n)*(a(n)+1))).",
+  "id": "A001521",
+  "mentions": [
+    "A000196",
+    "A004539",
+    "A005165",
+    "A017911",
+    "A174968",
+    "A190660",
+    "A241576"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of n-step self-avoiding walks on hexagonal lattice from (0,0) to (0,3).",
+  "id": "A005549",
+  "mentions": [
+    "A001335",
+    "A003289",
+    "A003290",
+    "A003291",
+    "A005550",
+    "A005551",
+    "A005552",
+    "A005553"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

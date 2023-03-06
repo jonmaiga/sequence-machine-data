@@ -1,0 +1,26 @@
+{
+  "description": "Accept one, reject one, accept two, reject two, ...",
+  "id": "A004201",
+  "mentions": [
+    "A000217",
+    "A002024",
+    "A003056",
+    "A004202",
+    "A007606",
+    "A061885",
+    "A130296",
+    "A184117"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

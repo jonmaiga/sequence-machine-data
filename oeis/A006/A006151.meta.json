@@ -1,0 +1,26 @@
+{
+  "description": "Number of 5-tuples (p_1, p_2, ..., p_5) of Dyck paths of semilength n, such that each p_i is never below p_{i-1}.",
+  "id": "A006151",
+  "mentions": [
+    "A000108",
+    "A005700",
+    "A006149",
+    "A006150",
+    "A078920",
+    "A123352",
+    "A185249"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

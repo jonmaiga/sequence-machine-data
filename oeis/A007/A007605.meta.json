@@ -1,0 +1,26 @@
+{
+  "description": "Sum of digits of n-th prime.",
+  "id": "A007605",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A038194",
+    "A065073",
+    "A067180",
+    "A067523",
+    "A068395",
+    "A133223"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

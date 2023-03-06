@@ -1,0 +1,40 @@
+{
+  "description": "Total number of odd entries in first n rows of Pascal's triangle: a(0) = 0, a(1) = 1, a(2k) = 3*a(k), a(2k+1) = 2*a(k) + a(k+1). For n>0, a(n) = Sum_{i=0..n-1} 2^wt(i).",
+  "id": "A006046",
+  "mentions": [
+    "A000027",
+    "A000120",
+    "A001316",
+    "A038183",
+    "A047999",
+    "A048896",
+    "A064194",
+    "A073121",
+    "A074330",
+    "A080263",
+    "A080978",
+    "A116520",
+    "A130665",
+    "A130667",
+    "A159912",
+    "A166556",
+    "A268524",
+    "A268525",
+    "A268526",
+    "A268527"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

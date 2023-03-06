@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = 2 * Sum_{k=0..n-1} binomial(n-1, k)*binomial(n+k, k).",
+  "id": "A002003",
+  "mentions": [
+    "A001850",
+    "A002002",
+    "A006318",
+    "A008288",
+    "A027307",
+    "A047781",
+    "A049600",
+    "A064861",
+    "A103885",
+    "A108424",
+    "A110110"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

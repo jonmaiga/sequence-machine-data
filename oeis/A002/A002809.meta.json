@@ -1,0 +1,19 @@
+{
+  "description": "Increasing values of A000793 (largest order of permutation of n elements).",
+  "id": "A002809",
+  "mentions": [
+    "A000793",
+    "A006644"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

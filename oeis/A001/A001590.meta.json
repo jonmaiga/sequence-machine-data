@@ -1,0 +1,30 @@
+{
+  "description": "Tribonacci numbers: a(n) = a(n-1) + a(n-2) + a(n-3) with a(0)=0, a(1)=1, a(2)=0.",
+  "id": "A001590",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A000213",
+    "A027053",
+    "A027907",
+    "A058255",
+    "A058265",
+    "A078042",
+    "A078046",
+    "A145579",
+    "A231574",
+    "A278038"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:58:55",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

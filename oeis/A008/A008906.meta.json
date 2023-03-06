@@ -1,0 +1,21 @@
+{
+  "description": "Number of digits in n! excluding final zeros.",
+  "id": "A008906",
+  "mentions": [
+    "A027868",
+    "A034886"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:53",
+    "offset": 0,
+    "size": 77,
+    "source": "joeis"
+  }
+}

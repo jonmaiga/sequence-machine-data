@@ -1,0 +1,24 @@
+{
+  "description": "Exponents m_i associated with Weyl group W(E_8).",
+  "id": "A005776",
+  "mentions": [
+    "A005556",
+    "A005763",
+    "A048597",
+    "A106373",
+    "A106374",
+    "A106403"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

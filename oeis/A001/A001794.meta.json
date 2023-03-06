@@ -1,0 +1,28 @@
+{
+  "description": "Negated coefficients of Chebyshev T polynomials: [x^n](-T(n+6, x)), n >= 0.",
+  "id": "A001794",
+  "mentions": [
+    "A000051",
+    "A000330",
+    "A001789",
+    "A005900",
+    "A008310",
+    "A028297",
+    "A039991",
+    "A053120",
+    "A065097",
+    "A081279"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1+2*x+x^2)/(1-66*x+x^2).",
+  "id": "A004298",
+  "mentions": [
+    "A078989",
+    "A097316"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

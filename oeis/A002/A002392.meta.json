@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of natural logarithm of 10.",
+  "id": "A002392",
+  "mentions": [
+    "A016738"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

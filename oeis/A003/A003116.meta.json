@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of the reciprocal of the g.f. defining A039924.",
+  "id": "A003116",
+  "mentions": [
+    "A003114",
+    "A034297",
+    "A039924",
+    "A168396",
+    "A168443",
+    "A224959",
+    "A347901"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

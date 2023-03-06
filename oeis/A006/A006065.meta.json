@@ -1,0 +1,23 @@
+{
+  "description": "Maximal number of 4-tree rows in n-tree orchard problem.",
+  "id": "A006065",
+  "mentions": [
+    "A003035",
+    "A008997",
+    "A172992"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of sqrt(5) in base 6.",
+  "id": "A004559",
+  "mentions": [
+    "A002163",
+    "A004540",
+    "A004549",
+    "A004555",
+    "A004556",
+    "A004557",
+    "A004558",
+    "A004575"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:19",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

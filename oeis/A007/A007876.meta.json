@@ -1,0 +1,16 @@
+{
+  "description": "a(2n-1) = n*a(2n-2), a(2n) = n*a(2n-1) + 1.",
+  "id": "A007876",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:13:14",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

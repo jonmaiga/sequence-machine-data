@@ -1,0 +1,21 @@
+{
+  "description": "Binomial coefficients: C(n,k), 2 <= k <= n-2, sorted, duplicates removed.",
+  "id": "A006987",
+  "mentions": [
+    "A002808",
+    "A007318",
+    "A058084",
+    "A126333",
+    "A137905"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

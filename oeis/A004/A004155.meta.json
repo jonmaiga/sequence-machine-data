@@ -1,0 +1,20 @@
+{
+  "description": "Sum of digits of n-th odd number.",
+  "id": "A004155",
+  "mentions": [
+    "A004092"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

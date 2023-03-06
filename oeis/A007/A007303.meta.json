@@ -1,0 +1,20 @@
+{
+  "description": "Earliest monotonic sequence fixed (apart from signs) under reversion.",
+  "id": "A007303",
+  "mentions": [
+    "A003633"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of (unordered) ways of writing 2n+1 as a sum of 3 odd primes.",
+  "id": "A007963",
+  "mentions": [
+    "A068307",
+    "A087916",
+    "A294294",
+    "A294357",
+    "A294358"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

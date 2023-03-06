@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of the Planck constant h (Joule * second).",
+  "id": "A003676",
+  "mentions": [
+    "A003678",
+    "A070063",
+    "A078300",
+    "A078301",
+    "A078302",
+    "A081823",
+    "A210491",
+    "A230458",
+    "A246505",
+    "A254181",
+    "A322415"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:28:53",
+    "offset": -33,
+    "size": 9,
+    "source": "joeis"
+  }
+}

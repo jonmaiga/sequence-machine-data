@@ -1,0 +1,20 @@
+{
+  "description": "Multiples of 18.",
+  "id": "A008600",
+  "mentions": [
+    "A008598",
+    "A154612"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:48:27",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

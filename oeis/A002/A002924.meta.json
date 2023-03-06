@@ -1,0 +1,22 @@
+{
+  "description": "Ferromagnetic susceptibility series for f.c.c. lattice.",
+  "id": "A002924",
+  "mentions": [
+    "A002892",
+    "A002921",
+    "A002925",
+    "A002926",
+    "A003196",
+    "A007239"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

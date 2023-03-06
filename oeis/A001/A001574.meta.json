@@ -1,0 +1,16 @@
+{
+  "description": "Colored series-parallel networks.",
+  "id": "A001574",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

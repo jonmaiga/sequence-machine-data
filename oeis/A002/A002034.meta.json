@@ -1,0 +1,41 @@
+{
+  "description": "Kempner numbers: smallest positive integer m such that n divides m!.",
+  "id": "A002034",
+  "mentions": [
+    "A000110",
+    "A000142",
+    "A001113",
+    "A005420",
+    "A006530",
+    "A007672",
+    "A046022",
+    "A050376",
+    "A057109",
+    "A064759",
+    "A084945",
+    "A092495",
+    "A094371",
+    "A094372",
+    "A094404",
+    "A122378",
+    "A122379",
+    "A122416",
+    "A122417",
+    "A248937",
+    "A339594",
+    "A339596"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

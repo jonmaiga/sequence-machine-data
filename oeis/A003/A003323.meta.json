@@ -1,0 +1,21 @@
+{
+  "description": "Multicolor Ramsey numbers R(3,3,...,3), where there are n 3's.",
+  "id": "A003323",
+  "mentions": [
+    "A002998",
+    "A045652",
+    "A073591",
+    "A343607"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

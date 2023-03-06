@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. sin(x/cos(x)) (odd powers only).",
+  "id": "A009562",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

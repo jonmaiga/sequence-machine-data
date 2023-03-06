@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of 3 nonnegative cubes in more than 1 way.",
+  "id": "A001239",
+  "mentions": [
+    "A001235",
+    "A003998",
+    "A008917",
+    "A025396",
+    "A025447",
+    "A025456"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

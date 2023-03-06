@@ -1,0 +1,23 @@
+{
+  "description": "Inverse binomial transform of primes.",
+  "id": "A007442",
+  "mentions": [
+    "A007443",
+    "A082594",
+    "A095195",
+    "A122803",
+    "A331573"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Powers of 3 written in base 26. (Next term contains a non-decimal digit.)",
+  "id": "A004668",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A004643",
+    "A004655",
+    "A004656",
+    "A004658",
+    "A004659",
+    "A004667"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

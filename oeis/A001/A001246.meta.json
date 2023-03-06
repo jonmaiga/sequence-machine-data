@@ -1,0 +1,26 @@
+{
+  "description": "Squares of Catalan numbers.",
+  "id": "A001246",
+  "mentions": [
+    "A000108",
+    "A000356",
+    "A000891",
+    "A008828",
+    "A151342",
+    "A186264",
+    "A209805"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

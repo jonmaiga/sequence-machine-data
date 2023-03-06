@@ -1,0 +1,20 @@
+{
+  "description": "Primes multiplied by 4.",
+  "id": "A001749",
+  "mentions": [
+    "A000040",
+    "A003415",
+    "A048272"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

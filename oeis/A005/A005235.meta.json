@@ -1,0 +1,31 @@
+{
+  "description": "Fortunate numbers: least m > 1 such that m + prime(n)# is prime, where p# denotes the product of all primes <= p.",
+  "id": "A005235",
+  "mentions": [
+    "A002110",
+    "A005165",
+    "A005408",
+    "A005728",
+    "A006862",
+    "A010051",
+    "A035345",
+    "A035346",
+    "A038711",
+    "A038771",
+    "A046066",
+    "A055211",
+    "A129912"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

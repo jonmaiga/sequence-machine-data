@@ -1,0 +1,18 @@
+{
+  "description": "Smallest natural number requiring n words in English (as spoken in England).",
+  "id": "A001167",
+  "mentions": [
+    "A000027"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

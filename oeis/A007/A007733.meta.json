@@ -1,0 +1,25 @@
+{
+  "description": "Period of binary representation of 1/n. Also, multiplicative order of 2 modulo the odd part of n (= A000265(n)).",
+  "id": "A007733",
+  "mentions": [
+    "A000265",
+    "A002326",
+    "A068563",
+    "A136042",
+    "A139099",
+    "A256607",
+    "A256757"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:46:23",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

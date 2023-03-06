@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are divisible only by primes congruent to 2 mod 3.",
+  "id": "A004612",
+  "mentions": [
+    "A003627",
+    "A004611",
+    "A010815",
+    "A135412"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

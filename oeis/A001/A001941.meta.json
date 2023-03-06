@@ -1,0 +1,25 @@
+{
+  "description": "Absolute values of coefficients of an elliptic function.",
+  "id": "A001941",
+  "mentions": [
+    "A001934",
+    "A001935",
+    "A001936",
+    "A001937",
+    "A001939",
+    "A001940",
+    "A092877",
+    "A093160"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

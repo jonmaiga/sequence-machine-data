@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose sum of divisors is a square.",
+  "id": "A006532",
+  "mentions": [
+    "A000203",
+    "A010052",
+    "A020477",
+    "A074385"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

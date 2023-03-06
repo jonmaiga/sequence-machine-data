@@ -1,0 +1,15 @@
+{
+  "description": "Number of lattice points inside circle of radius n is 4(a(n)+n)-3.",
+  "id": "A007882",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:47:01",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

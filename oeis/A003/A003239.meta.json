@@ -1,0 +1,29 @@
+{
+  "description": "Number of rooted planar trees with n non-root nodes: circularly cycling the subtrees at the root gives equivalent trees.",
+  "id": "A003239",
+  "mentions": [
+    "A000108",
+    "A002995",
+    "A022553",
+    "A037306",
+    "A047996",
+    "A057510",
+    "A082936",
+    "A084575",
+    "A208183",
+    "A261494"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

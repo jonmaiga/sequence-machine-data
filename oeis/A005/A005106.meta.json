@@ -1,0 +1,20 @@
+{
+  "description": "Class 2+ primes (for definition see A005105).",
+  "id": "A005106",
+  "mentions": [
+    "A005105",
+    "A005107",
+    "A005108",
+    "A005113"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

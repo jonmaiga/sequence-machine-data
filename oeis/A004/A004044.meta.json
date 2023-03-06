@@ -1,0 +1,20 @@
+{
+  "description": "The classic football pool problem: size of minimal covering code in {0,1,2}^n with covering radius 1.",
+  "id": "A004044",
+  "mentions": [
+    "A060439"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

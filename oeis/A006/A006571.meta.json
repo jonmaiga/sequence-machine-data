@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of q*Product_{k>=1} (1-q^k)^2*(1-q^(11*k))^2.",
+  "id": "A006571",
+  "mentions": [
+    "A000594",
+    "A002070",
+    "A030200",
+    "A030203",
+    "A032442",
+    "A272196"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

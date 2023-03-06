@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime p such that first n primes (p_1=2, ..., p_n) are 7th power residues mod p.",
+  "id": "A002227",
+  "mentions": [
+    "A002223",
+    "A002226",
+    "A002228"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

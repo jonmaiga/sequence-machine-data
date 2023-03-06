@@ -1,0 +1,28 @@
+{
+  "description": "Order of Monster simple group.",
+  "id": "A003131",
+  "mentions": [
+    "A001228",
+    "A001379",
+    "A002267",
+    "A049084",
+    "A051161",
+    "A174670",
+    "A174817"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cons",
+    "fini",
+    "formulas",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:26:51",
+    "offset": 54,
+    "size": 54,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Molien series for 3-dimensional group [2,n ] = *22n.",
+  "id": "A008728",
+  "mentions": [
+    "A001840",
+    "A001972",
+    "A008724",
+    "A008725",
+    "A008726",
+    "A008727",
+    "A008732",
+    "A179052"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:49:01",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

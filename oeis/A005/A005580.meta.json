@@ -1,0 +1,20 @@
+{
+  "description": "Least number of distinct prime factors in odd numbers having an abundancy index > n.",
+  "id": "A005580",
+  "mentions": [
+    "A000081",
+    "A005579"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Coordination sequence for body-centered tetragonal lattice.",
+  "id": "A008527",
+  "mentions": [
+    "A000217",
+    "A010021",
+    "A016754",
+    "A033951",
+    "A053755",
+    "A054552",
+    "A054554",
+    "A054556",
+    "A054567",
+    "A054569",
+    "A108100",
+    "A143838",
+    "A143839",
+    "A143854",
+    "A143855",
+    "A143856",
+    "A143859",
+    "A143860",
+    "A143861",
+    "A206399"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

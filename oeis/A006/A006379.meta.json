@@ -1,0 +1,21 @@
+{
+  "description": "Number of noncyclic (finite) simple groups with n conjugacy classes.",
+  "id": "A006379",
+  "mentions": [
+    "A002319",
+    "A003061",
+    "A073043"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

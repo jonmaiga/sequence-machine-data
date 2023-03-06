@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled Eulerian 3-regular digraphs with n nodes.",
+  "id": "A007105",
+  "mentions": [
+    "A001500",
+    "A284990"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

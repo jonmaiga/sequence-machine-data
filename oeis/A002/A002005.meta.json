@@ -1,0 +1,27 @@
+{
+  "description": "Number of rooted planar cubic maps with 2n vertices.",
+  "id": "A002005",
+  "mentions": [
+    "A000168",
+    "A000217",
+    "A000260",
+    "A000309",
+    "A000698",
+    "A000699",
+    "A062980",
+    "A266240",
+    "A267827",
+    "A358367"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

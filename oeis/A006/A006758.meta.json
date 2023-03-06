@@ -1,0 +1,18 @@
+{
+  "description": "Number of strictly 2-dimensional one-sided polyominoes with n cells.",
+  "id": "A006758",
+  "mentions": [
+    "A000988",
+    "A195738"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

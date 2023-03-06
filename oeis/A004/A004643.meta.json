@@ -1,0 +1,18 @@
+{
+  "description": "Powers of 2 written in base 4.",
+  "id": "A004643",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

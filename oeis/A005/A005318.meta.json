@@ -1,0 +1,29 @@
+{
+  "description": "Conway-Guy sequence: a(n + 1) = 2a(n) - a(n - floor( 1/2 + sqrt(2n) )).",
+  "id": "A005318",
+  "mentions": [
+    "A002024",
+    "A003056",
+    "A003271",
+    "A037254",
+    "A083920",
+    "A096796",
+    "A096824",
+    "A096858",
+    "A205744",
+    "A206239"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

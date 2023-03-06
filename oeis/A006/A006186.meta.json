@@ -1,0 +1,20 @@
+{
+  "description": "Number of pair-coverings with largest block size 4.",
+  "id": "A006186",
+  "mentions": [
+    "A000051",
+    "A006185"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 4,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

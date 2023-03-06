@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct perforation patterns for deriving (v,b) = (n+4,n) punctured convolutional codes from (2,1).",
+  "id": "A007225",
+  "mentions": [
+    "A007223",
+    "A007224",
+    "A007229"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:33:09",
+    "offset": 5,
+    "size": 23,
+    "source": "joeis"
+  }
+}

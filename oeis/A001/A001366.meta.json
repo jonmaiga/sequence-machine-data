@@ -1,0 +1,20 @@
+{
+  "description": "Maximal number of unattacked squares with n queens on n X n board (answers for n >= 17 only probable).",
+  "id": "A001366",
+  "mentions": [
+    "A019317",
+    "A039752",
+    "A274947"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

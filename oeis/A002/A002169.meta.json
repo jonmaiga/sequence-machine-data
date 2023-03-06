@@ -1,0 +1,23 @@
+{
+  "description": "High temperature series for spin-1/2 Heisenberg specific heat on 3-dimensional simple cubic lattice.",
+  "id": "A002169",
+  "mentions": [
+    "A002165",
+    "A002167",
+    "A002170",
+    "A002916",
+    "A002922",
+    "A005402"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

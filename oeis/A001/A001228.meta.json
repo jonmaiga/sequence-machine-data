@@ -1,0 +1,25 @@
+{
+  "description": "Orders of sporadic simple groups.",
+  "id": "A001228",
+  "mentions": [
+    "A000005",
+    "A001034",
+    "A005180",
+    "A007947",
+    "A174601",
+    "A174848"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

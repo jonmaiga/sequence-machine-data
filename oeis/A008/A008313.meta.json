@@ -1,0 +1,27 @@
+{
+  "description": "Triangle of expansions of powers of x in terms of Chebyshev polynomials U_n(x).",
+  "id": "A008313",
+  "mentions": [
+    "A000108",
+    "A001405",
+    "A008315",
+    "A009766",
+    "A039598",
+    "A039599",
+    "A053121"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:47:37",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

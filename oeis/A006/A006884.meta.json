@@ -1,0 +1,28 @@
+{
+  "description": "In the '3x+1' problem, these values for the starting value set new records for highest point of trajectory before reaching 1.",
+  "id": "A006884",
+  "mentions": [
+    "A006877",
+    "A006878",
+    "A006885",
+    "A025586",
+    "A033492",
+    "A060409",
+    "A060410",
+    "A060411",
+    "A060412",
+    "A060415",
+    "A132348"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

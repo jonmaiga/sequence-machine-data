@@ -1,0 +1,26 @@
+{
+  "description": "Diagonals of Pascal's triangle mod 2 interpreted as binary numbers.",
+  "id": "A006921",
+  "mentions": [
+    "A000079",
+    "A007318",
+    "A011973",
+    "A047999",
+    "A101624",
+    "A168081",
+    "A257971",
+    "A260022"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

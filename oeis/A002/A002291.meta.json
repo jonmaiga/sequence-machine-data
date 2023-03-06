@@ -1,0 +1,18 @@
+{
+  "description": "Absolute value of Glaisher's beta'(2n+1).",
+  "id": "A002291",
+  "mentions": [
+    "A225872",
+    "A322032"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:49",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

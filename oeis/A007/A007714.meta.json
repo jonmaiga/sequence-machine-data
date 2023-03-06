@@ -1,0 +1,19 @@
+{
+  "description": "Number of 5-level rooted trees with n leaves.",
+  "id": "A007714",
+  "mentions": [
+    "A290353"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "4-dimensional figurate numbers: a(n) = n*binomial(n+2, 3).",
+  "id": "A002417",
+  "mentions": [
+    "A000027",
+    "A000051",
+    "A000332",
+    "A000384",
+    "A002412",
+    "A002624",
+    "A062196",
+    "A080852",
+    "A093561",
+    "A151974",
+    "A213750",
+    "A220212",
+    "A290939",
+    "A290940"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:23:03",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of immersions of oriented circle into oriented sphere with n double points.",
+  "id": "A008986",
+  "mentions": [
+    "A008987",
+    "A008988",
+    "A008989",
+    "A260285"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

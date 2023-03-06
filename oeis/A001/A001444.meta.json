@@ -1,0 +1,22 @@
+{
+  "description": "Bending a piece of wire of length n+1 (configurations that can only be brought into coincidence by turning the figure over are counted as different).",
+  "id": "A001444",
+  "mentions": [
+    "A000244",
+    "A001997",
+    "A001998"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

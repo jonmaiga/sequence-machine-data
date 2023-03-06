@@ -1,0 +1,28 @@
+{
+  "description": "Nearest integer to n*tau.",
+  "id": "A007067",
+  "mentions": [
+    "A000045",
+    "A000201",
+    "A001622",
+    "A004956",
+    "A007064",
+    "A022342",
+    "A026355",
+    "A066096",
+    "A166946",
+    "A295282"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

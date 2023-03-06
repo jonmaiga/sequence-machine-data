@@ -1,0 +1,16 @@
+{
+  "description": "From the expansion of sin(sin(x)*x).",
+  "id": "A009484",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:27:15",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

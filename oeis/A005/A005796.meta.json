@@ -1,0 +1,20 @@
+{
+  "description": "Degrees of fundamental invariants of Weyl group W(E_8).",
+  "id": "A005796",
+  "mentions": [
+    "A005793"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

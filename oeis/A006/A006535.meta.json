@@ -1,0 +1,23 @@
+{
+  "description": "Number of one-sided hexagonal polyominoes with n cells.",
+  "id": "A006535",
+  "mentions": [
+    "A000228",
+    "A006532",
+    "A030225"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

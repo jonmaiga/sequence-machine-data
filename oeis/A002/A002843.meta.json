@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into parts 1/2, 3/4, 7/8, 15/16, etc.",
+  "id": "A002843",
+  "mentions": [
+    "A000051",
+    "A002572",
+    "A047913",
+    "A049286"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

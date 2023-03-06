@@ -1,0 +1,22 @@
+{
+  "description": "Positive numbers that are the sum of 2 squares or 3 times a square.",
+  "id": "A005792",
+  "mentions": [
+    "A000290",
+    "A000404",
+    "A005789",
+    "A033428",
+    "A074764"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

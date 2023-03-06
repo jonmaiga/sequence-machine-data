@@ -1,0 +1,30 @@
+{
+  "description": "Squares of Lucas numbers.",
+  "id": "A001254",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000204",
+    "A001638",
+    "A005970",
+    "A006499",
+    "A007598",
+    "A075150",
+    "A079291",
+    "A103324",
+    "A105394",
+    "A106729"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "The game of Mousetrap with n cards: the number of permutations of n cards in which 2 is the only hit.",
+  "id": "A002469",
+  "mentions": [
+    "A000166",
+    "A000255",
+    "A002467",
+    "A002468",
+    "A028306",
+    "A159610"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

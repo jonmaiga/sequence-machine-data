@@ -1,0 +1,24 @@
+{
+  "description": "Hexanacci numbers: a(n+1) = a(n)+...+a(n-5) with a(0)=...=a(4)=0, a(5)=1.",
+  "id": "A001592",
+  "mentions": [
+    "A000051",
+    "A001402",
+    "A048887",
+    "A061676",
+    "A063260",
+    "A092921"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

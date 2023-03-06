@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (4^n + 4^[ n/2 ] )/2.",
+  "id": "A001446",
+  "mentions": [
+    "A001445",
+    "A056450"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

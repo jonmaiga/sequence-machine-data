@@ -1,0 +1,21 @@
+{
+  "description": "Sequence A006075 gives minimal number of knights needed to cover an n X n board. This sequence gives number of inequivalent solutions using A006075(n) knights.",
+  "id": "A006076",
+  "mentions": [
+    "A006075",
+    "A098604",
+    "A103315"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

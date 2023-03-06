@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that n and n+1 have the same number of divisors.",
+  "id": "A005237",
+  "mentions": [
+    "A000005",
+    "A005238",
+    "A006558",
+    "A006601",
+    "A019273",
+    "A030513",
+    "A030626",
+    "A039665",
+    "A049051",
+    "A073915",
+    "A083795"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

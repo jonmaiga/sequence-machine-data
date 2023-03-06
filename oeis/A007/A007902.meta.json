@@ -1,0 +1,20 @@
+{
+  "description": "Number of pebbling configurations with n pebbles.",
+  "id": "A007902",
+  "mentions": [
+    "A007901"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

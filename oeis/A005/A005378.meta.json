@@ -1,0 +1,24 @@
+{
+  "description": "The female of a pair of recurrences.",
+  "id": "A005378",
+  "mentions": [
+    "A000045",
+    "A005379",
+    "A006336",
+    "A098294",
+    "A192687"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

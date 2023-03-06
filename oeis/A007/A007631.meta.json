@@ -1,0 +1,23 @@
+{
+  "description": "Number of solutions to non-attacking reflecting queens problem.",
+  "id": "A007631",
+  "mentions": [
+    "A000170",
+    "A002968",
+    "A051223",
+    "A051224",
+    "A272363"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

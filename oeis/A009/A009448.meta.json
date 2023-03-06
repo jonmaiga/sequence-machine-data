@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. sin(x*exp(x)).",
+  "id": "A009448",
+  "mentions": [
+    "A009017",
+    "A009565",
+    "A009635",
+    "A297009"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

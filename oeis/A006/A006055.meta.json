@@ -1,0 +1,22 @@
+{
+  "description": "Primes with consecutive (ascending) digits.",
+  "id": "A006055",
+  "mentions": [
+    "A048398",
+    "A052016",
+    "A052017",
+    "A120804",
+    "A120805"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

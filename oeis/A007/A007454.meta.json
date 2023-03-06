@@ -1,0 +1,19 @@
+{
+  "description": "Number of unlabeled disconnected series-parallel posets with n nodes.",
+  "id": "A007454",
+  "mentions": [
+    "A003430",
+    "A007453"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

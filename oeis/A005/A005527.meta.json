@@ -1,0 +1,16 @@
+{
+  "description": "Rational points on curves of genus n over GF(2).",
+  "id": "A005527",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

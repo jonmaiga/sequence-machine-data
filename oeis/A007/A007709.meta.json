@@ -1,0 +1,22 @@
+{
+  "description": "Number of winning (or reformed) decks at Mousetrap.",
+  "id": "A007709",
+  "mentions": [
+    "A002467",
+    "A007710",
+    "A007711",
+    "A007712",
+    "A055459",
+    "A067950"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

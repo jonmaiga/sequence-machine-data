@@ -1,0 +1,17 @@
+{
+  "description": "Class number of real quadratic forms with discriminant 4n+1.",
+  "id": "A003647",
+  "mentions": [
+    "A003648"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

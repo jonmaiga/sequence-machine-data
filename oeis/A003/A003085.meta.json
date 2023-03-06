@@ -1,0 +1,25 @@
+{
+  "description": "Number of weakly connected digraphs with n unlabeled nodes.",
+  "id": "A003085",
+  "mentions": [
+    "A000273",
+    "A003027",
+    "A003084",
+    "A035512",
+    "A054733",
+    "A350789",
+    "A358451"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

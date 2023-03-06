@@ -1,0 +1,25 @@
+{
+  "description": "Denominator of B_{2n}/(-4n), where B_m are the Bernoulli numbers.",
+  "id": "A006863",
+  "mentions": [
+    "A000367",
+    "A001067",
+    "A002322",
+    "A002445",
+    "A079612"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

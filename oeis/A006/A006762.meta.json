@@ -1,0 +1,19 @@
+{
+  "description": "Number of strictly 2-dimensional fixed polyominoes with n cells.",
+  "id": "A006762",
+  "mentions": [
+    "A001168",
+    "A195739"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

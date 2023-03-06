@@ -1,0 +1,16 @@
+{
+  "description": "Denominators of expansion of Fresnel integral S(z).",
+  "id": "A003031",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

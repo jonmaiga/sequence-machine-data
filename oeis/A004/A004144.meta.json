@@ -1,0 +1,26 @@
+{
+  "description": "Nonhypotenuse numbers (indices of positive squares that are not the sums of 2 distinct nonzero squares).",
+  "id": "A004144",
+  "mentions": [
+    "A000290",
+    "A002145",
+    "A005089",
+    "A009003",
+    "A045326",
+    "A072437",
+    "A072438",
+    "A244659",
+    "A244662"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

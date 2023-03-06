@@ -1,0 +1,17 @@
+{
+  "description": "Primes written in base 11. (Next term contains a nondecimal character.)",
+  "id": "A004684",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

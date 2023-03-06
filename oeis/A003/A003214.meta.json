@@ -1,0 +1,21 @@
+{
+  "description": "Number of binary forests with n nodes.",
+  "id": "A003214",
+  "mentions": [
+    "A001190",
+    "A086317"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

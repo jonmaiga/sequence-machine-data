@@ -1,0 +1,25 @@
+{
+  "description": "Number of integer solutions to x^2 + 4 * y^2 = n.",
+  "id": "A004531",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004018",
+    "A004020",
+    "A010054",
+    "A010815",
+    "A019669",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

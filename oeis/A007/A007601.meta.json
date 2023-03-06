@@ -1,0 +1,19 @@
+{
+  "description": "Positions where A007600 increases.",
+  "id": "A007601",
+  "mentions": [
+    "A000792",
+    "A007600"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

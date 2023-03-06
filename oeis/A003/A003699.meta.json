@@ -1,0 +1,22 @@
+{
+  "description": "Number of Hamiltonian cycles in C_4 X P_n.",
+  "id": "A003699",
+  "mentions": [
+    "A001353",
+    "A001835",
+    "A052530",
+    "A071954"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

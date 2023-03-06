@@ -1,0 +1,25 @@
+{
+  "description": "Number of unilaterally connected digraphs with n labeled nodes.",
+  "id": "A003029",
+  "mentions": [
+    "A003027",
+    "A003028",
+    "A003030",
+    "A003088",
+    "A049414",
+    "A049524",
+    "A057275"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

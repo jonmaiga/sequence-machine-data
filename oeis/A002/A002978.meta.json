@@ -1,0 +1,26 @@
+{
+  "description": "Low-temperature series in y = exp(2J/kT) for antiferromagnetic susceptibility for the Ising model on honeycomb structure.",
+  "id": "A002978",
+  "mentions": [
+    "A002910",
+    "A002912",
+    "A007214",
+    "A007218",
+    "A047709",
+    "A057391",
+    "A057395",
+    "A128834"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

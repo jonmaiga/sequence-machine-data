@@ -1,0 +1,25 @@
+{
+  "description": "a(n+6) = -a(n+5) + a(n+4) + 3a(n+3) + a(n+2) - a(n+1) - a(n). a(n) = sign(n) if abs(n)<=3.",
+  "id": "A001945",
+  "mentions": [
+    "A000051",
+    "A001351",
+    "A001608",
+    "A078712",
+    "A104499",
+    "A204138"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "If k appears, 3k does not.",
+  "id": "A007417",
+  "mentions": [
+    "A007949",
+    "A014578",
+    "A042948",
+    "A051064",
+    "A052330",
+    "A092400",
+    "A092401",
+    "A145204"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

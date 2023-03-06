@@ -1,0 +1,27 @@
+{
+  "description": "Number of nonintersecting (or self-avoiding) rook paths joining opposite corners of 3 X n board.",
+  "id": "A006192",
+  "mentions": [
+    "A006189",
+    "A007764",
+    "A007765",
+    "A007786",
+    "A007787",
+    "A064297",
+    "A064298"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:41:28",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers that are not the sum of 2 distinct square integers.",
+  "id": "A004435",
+  "mentions": [
+    "A001983",
+    "A025435"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:11",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

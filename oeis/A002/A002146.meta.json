@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime == 7 (mod 8) where Q(sqrt(-p)) has class number 2n+1.",
+  "id": "A002146",
+  "mentions": [
+    "A002143",
+    "A002147",
+    "A002148",
+    "A060651"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

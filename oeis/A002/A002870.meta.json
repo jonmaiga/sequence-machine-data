@@ -1,0 +1,22 @@
+{
+  "description": "Largest Stirling numbers of second kind: a(n) = max_{k=1..n} S2(n,k).",
+  "id": "A002870",
+  "mentions": [
+    "A000262",
+    "A002868",
+    "A008277",
+    "A024417"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Largest number divisible by all numbers < its n-th root.",
+  "id": "A003102",
+  "mentions": [
+    "A003099"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

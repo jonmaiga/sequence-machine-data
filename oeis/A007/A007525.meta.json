@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of log_2 e.",
+  "id": "A007525",
+  "mentions": [
+    "A000670",
+    "A002206",
+    "A002207",
+    "A052882",
+    "A091137",
+    "A141417",
+    "A165313"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:52",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

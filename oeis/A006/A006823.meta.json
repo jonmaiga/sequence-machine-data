@@ -1,0 +1,21 @@
+{
+  "description": "Number of connected trivalent bipartite graphs with 2n nodes.",
+  "id": "A006823",
+  "mentions": [
+    "A006824",
+    "A008325",
+    "A008326"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 3,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

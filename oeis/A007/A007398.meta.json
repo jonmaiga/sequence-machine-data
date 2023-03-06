@@ -1,0 +1,19 @@
+{
+  "description": "Add 7, then reverse digits.",
+  "id": "A007398",
+  "mentions": [
+    "A117828"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:44:33",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

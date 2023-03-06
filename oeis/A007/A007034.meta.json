@@ -1,0 +1,15 @@
+{
+  "description": "Noncircumscribable simplicial polyhedra with n nodes.",
+  "id": "A007034",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

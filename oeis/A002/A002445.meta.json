@@ -1,0 +1,37 @@
+{
+  "description": "Denominators of Bernoulli numbers B_{2n}.",
+  "id": "A002445",
+  "mentions": [
+    "A000364",
+    "A000367",
+    "A001896",
+    "A001897",
+    "A002882",
+    "A003245",
+    "A027641",
+    "A027642",
+    "A027762",
+    "A028246",
+    "A080092",
+    "A090801",
+    "A127187",
+    "A127188",
+    "A138239",
+    "A143343",
+    "A160014",
+    "A277087"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

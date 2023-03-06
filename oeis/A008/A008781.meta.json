@@ -1,0 +1,18 @@
+{
+  "description": "For any circular arrangement of 0..n-1, let S be the sum of cubes of every sum of two contiguous numbers; then a(n) is the number of distinct values of S.",
+  "id": "A008781",
+  "mentions": [
+    "A007773",
+    "A008782"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

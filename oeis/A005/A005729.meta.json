@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest positive integer a for which there is an identity of the form a*x = Sum_{i=1..m} ai*gi(x)^n where a1, ..., am are in Z and g1(x), ..., gm(x) are in Z[x].",
+  "id": "A005729",
+  "mentions": [
+    "A005730",
+    "A005731"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:35:03",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

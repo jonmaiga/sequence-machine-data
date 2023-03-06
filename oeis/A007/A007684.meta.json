@@ -1,0 +1,28 @@
+{
+  "description": "Prime(n)*...*prime(a(n)) is the least product of consecutive primes that is non-deficient.",
+  "id": "A007684",
+  "mentions": [
+    "A002110",
+    "A005100",
+    "A005101",
+    "A005231",
+    "A007680",
+    "A007686",
+    "A007702",
+    "A007707",
+    "A046900",
+    "A064001",
+    "A112640"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

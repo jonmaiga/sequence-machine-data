@@ -1,0 +1,30 @@
+{
+  "description": "Deficient numbers: numbers k such that sigma(k) < 2k.",
+  "id": "A005100",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001065",
+    "A005101",
+    "A006037",
+    "A023196",
+    "A033630",
+    "A125499",
+    "A247328",
+    "A318172"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

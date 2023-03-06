@@ -1,0 +1,25 @@
+{
+  "description": "Number of (unordered, unlabeled) rooted trimmed trees with n nodes.",
+  "id": "A002955",
+  "mentions": [
+    "A002988",
+    "A002992",
+    "A003018",
+    "A052318",
+    "A052329",
+    "A255636"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

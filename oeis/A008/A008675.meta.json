@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/( Product_{j=0..5} (1-x^(2*j+1)) ).",
+  "id": "A008675",
+  "mentions": [
+    "A008674",
+    "A259094"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of an asymptotic expansion for the number of forests on n nodes (A001858).",
+  "id": "A006573",
+  "mentions": [
+    "A001858",
+    "A006572",
+    "A111999"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:56:06",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

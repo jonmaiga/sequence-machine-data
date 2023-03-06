@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Fibonacci(n) mod 10.",
+  "id": "A003893",
+  "mentions": [
+    "A000045",
+    "A000201",
+    "A001175",
+    "A010879",
+    "A089911",
+    "A105471",
+    "A105472",
+    "A261606"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

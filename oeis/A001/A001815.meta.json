@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = binomial(n,2) * 2^(n-1).",
+  "id": "A001815",
+  "mentions": [
+    "A000051",
+    "A001788",
+    "A089264",
+    "A090802"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

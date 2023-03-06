@@ -1,0 +1,46 @@
+{
+  "description": "Cyclic numbers: k such that k and phi(k) are relatively prime; also k such that there is just one group of order k, i.e., A000001(n) = 1.",
+  "id": "A003277",
+  "mentions": [
+    "A000001",
+    "A000005",
+    "A000010",
+    "A000040",
+    "A002997",
+    "A006094",
+    "A008966",
+    "A009195",
+    "A036537",
+    "A050384",
+    "A051532",
+    "A051953",
+    "A054395",
+    "A054396",
+    "A054397",
+    "A055561",
+    "A056867",
+    "A073004",
+    "A074792",
+    "A135850",
+    "A249550",
+    "A249551",
+    "A249552",
+    "A249553",
+    "A249554",
+    "A249555",
+    "A253595"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

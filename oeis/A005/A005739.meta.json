@@ -1,0 +1,22 @@
+{
+  "description": "Number of disjunctively-realizable functions of n variables.",
+  "id": "A005739",
+  "mentions": [
+    "A005613",
+    "A005616",
+    "A005736",
+    "A005738",
+    "A006447"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:12:56",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

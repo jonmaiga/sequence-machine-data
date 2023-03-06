@@ -1,0 +1,26 @@
+{
+  "description": "Reversion of g.f. for Fibonacci numbers 1, 1, 2, 3, 5, ....",
+  "id": "A007440",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000108",
+    "A001006",
+    "A104565",
+    "A214649",
+    "A291535",
+    "A343773",
+    "A357588"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

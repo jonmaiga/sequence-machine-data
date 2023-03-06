@@ -1,0 +1,24 @@
+{
+  "description": "Number of spanning trees in P_4 X P_n.",
+  "id": "A003696",
+  "mentions": [
+    "A001353",
+    "A028469",
+    "A116469",
+    "A159764",
+    "A161158",
+    "A189004"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

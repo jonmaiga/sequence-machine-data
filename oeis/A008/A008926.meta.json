@@ -1,0 +1,22 @@
+{
+  "description": "Number of uniquely agreeing sequences.",
+  "id": "A008926",
+  "mentions": [
+    "A003513",
+    "A005268",
+    "A005269",
+    "A005272",
+    "A234595"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

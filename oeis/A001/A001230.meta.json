@@ -1,0 +1,20 @@
+{
+  "description": "Number of undirected closed knight's tours on a 2n X 2n chessboard.",
+  "id": "A001230",
+  "mentions": [
+    "A165134"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

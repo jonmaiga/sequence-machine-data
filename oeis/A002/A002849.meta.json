@@ -1,0 +1,21 @@
+{
+  "description": "Maximal number of disjoint subsets {X,Y,Z} of {1, 2, ..., n}, each satisfying X + Y = Z.",
+  "id": "A002849",
+  "mentions": [
+    "A002572",
+    "A002848",
+    "A104429",
+    "A108235",
+    "A161826"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

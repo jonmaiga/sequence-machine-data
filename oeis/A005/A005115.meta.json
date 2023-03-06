@@ -1,0 +1,31 @@
+{
+  "description": "Let i, i+d, i+2d, ..., i+(n-1)d be an n-term arithmetic progression of primes; choose the one which minimizes the last term; then a(n) = last term i+(n-1)d.",
+  "id": "A005115",
+  "mentions": [
+    "A006560",
+    "A033188",
+    "A033189",
+    "A088430",
+    "A093364",
+    "A096003",
+    "A113827",
+    "A113830",
+    "A113834",
+    "A113872",
+    "A133277"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

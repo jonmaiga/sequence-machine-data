@@ -1,0 +1,20 @@
+{
+  "description": "Primitive parts of Pell numbers.",
+  "id": "A008555",
+  "mentions": [
+    "A000129",
+    "A061446",
+    "A105606"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

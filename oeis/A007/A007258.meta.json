@@ -1,0 +1,19 @@
+{
+  "description": "McKay-Thompson series of class 6E for Monster (and, apart from signs, of class 12B).",
+  "id": "A007258",
+  "mentions": [
+    "A002507",
+    "A045488"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:44:03",
+    "offset": -1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

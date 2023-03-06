@@ -1,0 +1,26 @@
+{
+  "description": "Optimal cost function between two processors at distance n.",
+  "id": "A007302",
+  "mentions": [
+    "A000120",
+    "A005578",
+    "A057526",
+    "A136412",
+    "A213629",
+    "A280737"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

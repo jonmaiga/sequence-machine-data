@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{j=0..n} (n+j)*binomial(n+j,j).",
+  "id": "A002737",
+  "mentions": [
+    "A000108",
+    "A002720",
+    "A331432"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

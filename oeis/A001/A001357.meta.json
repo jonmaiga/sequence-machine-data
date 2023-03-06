@@ -1,0 +1,17 @@
+{
+  "description": "Powers of 2 written in base 9.",
+  "id": "A001357",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

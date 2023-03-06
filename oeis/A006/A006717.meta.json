@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways of arranging 2n+1 nonattacking semi-queens on a (2n+1) X (2n+1) toroidal board.",
+  "id": "A006717",
+  "mentions": [
+    "A003111",
+    "A007705"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

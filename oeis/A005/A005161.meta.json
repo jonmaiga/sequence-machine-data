@@ -1,0 +1,20 @@
+{
+  "description": "Number of alternating sign 2n+1 X 2n+1 matrices symmetric with respect to both horizontal and vertical axes.",
+  "id": "A005161",
+  "mentions": [
+    "A005130"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:15:07",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

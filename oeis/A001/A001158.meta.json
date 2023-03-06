@@ -1,0 +1,35 @@
+{
+  "description": "sigma_3(n): sum of cubes of divisors of n.",
+  "id": "A001158",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001157",
+    "A001160",
+    "A004009",
+    "A007427",
+    "A013954",
+    "A013972",
+    "A017665",
+    "A017712",
+    "A027748",
+    "A051731",
+    "A059376",
+    "A124010",
+    "A127093"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

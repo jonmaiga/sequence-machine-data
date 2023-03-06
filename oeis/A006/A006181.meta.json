@@ -1,0 +1,16 @@
+{
+  "description": "Maximal partial Steiner triple systems of order n.",
+  "id": "A006181",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 3,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

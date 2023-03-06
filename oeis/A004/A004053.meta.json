@@ -1,0 +1,25 @@
+{
+  "description": "For m=2,3,..., write m in bases 2,3,..,m.",
+  "id": "A004053",
+  "mentions": [
+    "A007088",
+    "A007090",
+    "A007091",
+    "A007092",
+    "A007093",
+    "A007094",
+    "A007095"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:29:55",
+    "offset": 2,
+    "size": 66,
+    "source": "joeis"
+  }
+}

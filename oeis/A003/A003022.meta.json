@@ -1,0 +1,41 @@
+{
+  "description": "Length of shortest (or optimal) Golomb ruler with n marks.",
+  "id": "A003022",
+  "mentions": [
+    "A004116",
+    "A008404",
+    "A030873",
+    "A036501",
+    "A039953",
+    "A078106",
+    "A103295",
+    "A106683",
+    "A108917",
+    "A143823",
+    "A143824",
+    "A169942",
+    "A227590",
+    "A234943",
+    "A270813",
+    "A325466",
+    "A325545",
+    "A325676",
+    "A325677",
+    "A325678",
+    "A325683"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

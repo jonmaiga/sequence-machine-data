@@ -1,0 +1,30 @@
+{
+  "description": "Smallest prime in class n (sometimes written n+) according to the Erdős-Selfridge classification of primes.",
+  "id": "A005113",
+  "mentions": [
+    "A005105",
+    "A005106",
+    "A005107",
+    "A005108",
+    "A019268",
+    "A056637",
+    "A081633",
+    "A081639",
+    "A084071",
+    "A090468",
+    "A129469",
+    "A129474",
+    "A129475"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

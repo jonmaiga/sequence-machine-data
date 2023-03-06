@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of tanh(sin(x))*exp(x).",
+  "id": "A009794",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:36",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

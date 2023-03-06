@@ -1,0 +1,24 @@
+{
+  "description": "Low temperature series for spin-1/2 Ising antiferromagnetic susceptibility for 3-dimensional simple cubic lattice.",
+  "id": "A002915",
+  "mentions": [
+    "A002926",
+    "A002979",
+    "A007216",
+    "A007217",
+    "A007218"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

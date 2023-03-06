@@ -1,0 +1,20 @@
+{
+  "description": "Witt vector *5!.",
+  "id": "A006176",
+  "mentions": [
+    "A006173",
+    "A074650",
+    "A074653"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:20:05",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Product of the proper divisors of n.",
+  "id": "A007956",
+  "mentions": [
+    "A000005",
+    "A000720",
+    "A001065",
+    "A007422",
+    "A007955",
+    "A027751",
+    "A030513",
+    "A048671",
+    "A066729",
+    "A182936",
+    "A240694"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

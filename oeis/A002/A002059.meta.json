@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of an n-gon into (n-4) parts.",
+  "id": "A002059",
+  "mentions": [
+    "A002058",
+    "A002060"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:26:33",
+    "offset": 6,
+    "size": 21,
+    "source": "joeis"
+  }
+}

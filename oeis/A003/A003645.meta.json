@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = 2^n * C(n+1), where C(n) = A000108(n) Catalan numbers.",
+  "id": "A003645",
+  "mentions": [
+    "A000108",
+    "A001700",
+    "A052701",
+    "A069724",
+    "A069725",
+    "A073165",
+    "A090375",
+    "A102539",
+    "A195699",
+    "A245894"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:04:58",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

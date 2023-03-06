@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that do not contain the letter 'n'.",
+  "id": "A008537",
+  "mentions": [
+    "A006933",
+    "A008521",
+    "A008523",
+    "A052360",
+    "A072956",
+    "A072957",
+    "A089589",
+    "A089590"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^(n-k) C(n,k)*C(k^2,n).",
+  "id": "A003235",
+  "mentions": [
+    "A003099",
+    "A003236",
+    "A226775",
+    "A346184"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

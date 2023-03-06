@@ -1,0 +1,19 @@
+{
+  "description": "Number of perfect matchings (or domino tilings) in P_5 X P_2n.",
+  "id": "A003775",
+  "mentions": [
+    "A099390",
+    "A189003"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

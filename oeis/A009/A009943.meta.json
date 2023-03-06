@@ -1,0 +1,18 @@
+{
+  "description": "Coordination sequence for NiAs(1), As position.",
+  "id": "A009943",
+  "mentions": [
+    "A005897",
+    "A008000"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:02:55",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

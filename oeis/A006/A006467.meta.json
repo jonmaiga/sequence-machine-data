@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction for Sum_{n>=0} (-1)^n/3^(2^n).",
+  "id": "A006467",
+  "mentions": [
+    "A006463",
+    "A160386"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

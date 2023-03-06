@@ -1,0 +1,47 @@
+{
+  "description": "Squarefree part of n: a(n) is the smallest positive number m such that n/m is a square.",
+  "id": "A007913",
+  "mentions": [
+    "A000188",
+    "A000290",
+    "A002734",
+    "A003159",
+    "A005117",
+    "A006519",
+    "A007947",
+    "A008833",
+    "A008836",
+    "A010052",
+    "A019554",
+    "A027746",
+    "A027748",
+    "A035263",
+    "A036554",
+    "A050985",
+    "A053165",
+    "A055231",
+    "A055615",
+    "A059897",
+    "A063659",
+    "A065882",
+    "A069891",
+    "A090699",
+    "A117811",
+    "A124010",
+    "A225546"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

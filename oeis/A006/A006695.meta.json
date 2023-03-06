@@ -1,0 +1,23 @@
+{
+  "description": "a(2n)=2*a(2n-2)^2-1, a(2n+1)=2a(2n)-1, a(0)=2.",
+  "id": "A006695",
+  "mentions": [
+    "A001075",
+    "A001685",
+    "A002715",
+    "A003686",
+    "A064526"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

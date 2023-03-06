@@ -1,0 +1,24 @@
+{
+  "description": "Number of asymmetric rooted connected graphs where every block is a complete graph.",
+  "id": "A007561",
+  "mentions": [
+    "A003633",
+    "A007563",
+    "A035079",
+    "A035081",
+    "A316101"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

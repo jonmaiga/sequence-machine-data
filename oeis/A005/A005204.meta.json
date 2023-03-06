@@ -1,0 +1,18 @@
+{
+  "description": "Coding a recurrence.",
+  "id": "A005204",
+  "mentions": [
+    "A000930",
+    "A005203"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

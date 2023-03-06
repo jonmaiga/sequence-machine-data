@@ -1,0 +1,16 @@
+{
+  "description": "Number of circular chord diagrams with n chords, up to rotational symmetry.",
+  "id": "A007474",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Sprague-Grundy (or Nim) values for the game of Maundy cake on an n X 1 sheet.",
+  "id": "A006022",
+  "mentions": [
+    "A001065",
+    "A001348",
+    "A002182",
+    "A008864",
+    "A020639",
+    "A027746",
+    "A032742",
+    "A306264",
+    "A306363",
+    "A322034",
+    "A322035",
+    "A322036",
+    "A322382",
+    "A328898",
+    "A328969",
+    "A332993",
+    "A333783",
+    "A333791"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Complexity of tensor sum of n graphs; or spanning trees on n-cube.",
+  "id": "A006237",
+  "mentions": [
+    "A006235"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

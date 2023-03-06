@@ -1,0 +1,39 @@
+{
+  "description": "Golomb's sequence: a(n) is the number of times n occurs, starting with a(1) = 1.",
+  "id": "A001462",
+  "mentions": [
+    "A000002",
+    "A001149",
+    "A001463",
+    "A005130",
+    "A005282",
+    "A013189",
+    "A013322",
+    "A014644",
+    "A080605",
+    "A080606",
+    "A080607",
+    "A095114",
+    "A109167",
+    "A113676",
+    "A169682",
+    "A250983",
+    "A262986",
+    "A319434",
+    "A320487"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

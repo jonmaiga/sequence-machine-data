@@ -1,0 +1,28 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(10).",
+  "id": "A005667",
+  "mentions": [
+    "A000051",
+    "A005668",
+    "A010467",
+    "A040006",
+    "A049310",
+    "A053120",
+    "A078986",
+    "A084132",
+    "A084134"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

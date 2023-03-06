@@ -1,0 +1,19 @@
+{
+  "description": "Coordination sequence for FeS2-Marcasite, Fe position.",
+  "id": "A009955",
+  "mentions": [
+    "A005897",
+    "A008000"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:02:55",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

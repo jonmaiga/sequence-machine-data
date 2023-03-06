@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions into one kind of 1's, two kinds of 2's, and three kinds of 3's.",
+  "id": "A002597",
+  "mentions": [
+    "A064349"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:50",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

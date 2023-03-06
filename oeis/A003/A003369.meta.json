@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are the sum of 2 positive 7th powers.",
+  "id": "A003369",
+  "mentions": [
+    "A000404",
+    "A001015",
+    "A003325",
+    "A003336",
+    "A003347",
+    "A003358",
+    "A003380",
+    "A088719"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

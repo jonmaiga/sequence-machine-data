@@ -1,0 +1,18 @@
+{
+  "description": "Prime(A052928(n+1)) + (-1)^n* prime(A109613(n)).",
+  "id": "A008866",
+  "mentions": [
+    "A052928",
+    "A109613"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:49:19",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

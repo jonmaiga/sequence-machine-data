@@ -1,0 +1,22 @@
+{
+  "description": "Number of subgroups of dihedral group: sigma(n) + d(n).",
+  "id": "A007503",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A027750",
+    "A037852",
+    "A257644"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:44:51",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Apéry numbers: n*C(2*n,n).",
+  "id": "A005430",
+  "mentions": [
+    "A001803",
+    "A002011",
+    "A002457",
+    "A002736",
+    "A003506",
+    "A005258",
+    "A005259",
+    "A005429",
+    "A061928",
+    "A086466",
+    "A132894"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

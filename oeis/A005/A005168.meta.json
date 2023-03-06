@@ -1,0 +1,22 @@
+{
+  "description": "n-th derivative of x^x at 1, divided by n.",
+  "id": "A005168",
+  "mentions": [
+    "A005165",
+    "A005727",
+    "A295027",
+    "A295028"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

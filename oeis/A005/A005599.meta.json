@@ -1,0 +1,23 @@
+{
+  "description": "Running sum of every third term in the {+1,-1}-version of Thue-Morse sequence A010060.",
+  "id": "A005599",
+  "mentions": [
+    "A000051",
+    "A000120",
+    "A010060",
+    "A106400"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

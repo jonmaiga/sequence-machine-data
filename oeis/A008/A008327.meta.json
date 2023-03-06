@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of simple regular bipartite graphs with 2n nodes and degree k, (0 <= k <= n).",
+  "id": "A008327",
+  "mentions": [
+    "A000012",
+    "A002865",
+    "A008324",
+    "A008325",
+    "A008326",
+    "A051031",
+    "A087114",
+    "A133687",
+    "A333159",
+    "A333730",
+    "A333731"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

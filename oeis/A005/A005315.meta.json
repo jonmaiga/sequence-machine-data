@@ -1,0 +1,23 @@
+{
+  "description": "Closed meandric numbers (or meanders): number of ways a loop can cross a road 2n times.",
+  "id": "A005315",
+  "mentions": [
+    "A005316",
+    "A008828",
+    "A077054",
+    "A077460"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

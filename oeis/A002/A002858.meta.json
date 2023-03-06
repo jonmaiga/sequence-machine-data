@@ -1,0 +1,39 @@
+{
+  "description": "Ulam numbers: a(1) = 1; a(2) = 2; for n>2, a(n) = least number > a(n-1) which is a unique sum of two distinct earlier terms.",
+  "id": "A002858",
+  "mentions": [
+    "A001149",
+    "A001857",
+    "A002859",
+    "A003046",
+    "A003309",
+    "A003667",
+    "A004280",
+    "A005282",
+    "A007300",
+    "A033629",
+    "A054540",
+    "A072540",
+    "A072832",
+    "A080287",
+    "A080288",
+    "A080573",
+    "A117140",
+    "A199016",
+    "A199017",
+    "A214603",
+    "A274522",
+    "A285884"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

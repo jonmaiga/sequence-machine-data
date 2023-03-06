@@ -1,0 +1,23 @@
+{
+  "description": "Number of labeled 2-regular digraphs with n nodes.",
+  "id": "A007107",
+  "mentions": [
+    "A001499",
+    "A007108",
+    "A197458",
+    "A219889",
+    "A284989"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

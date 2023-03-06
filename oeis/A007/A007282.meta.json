@@ -1,0 +1,20 @@
+{
+  "description": "Number of hexaflexagons with 3n triangles that can be folded from a straight strip of paper.",
+  "id": "A007282",
+  "mentions": [
+    "A000207",
+    "A001683"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

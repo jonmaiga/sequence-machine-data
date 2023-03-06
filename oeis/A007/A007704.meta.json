@@ -1,0 +1,19 @@
+{
+  "description": "a(n+2) = (a(n) - 1)*a(n+1) + 1.",
+  "id": "A007704",
+  "mentions": [
+    "A006277"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:00:28",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

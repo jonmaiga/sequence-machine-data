@@ -1,0 +1,20 @@
+{
+  "description": "Number of terms in discriminant of generic polynomial of degree n.",
+  "id": "A007878",
+  "mentions": [
+    "A039744"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

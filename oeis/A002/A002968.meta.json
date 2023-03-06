@@ -1,0 +1,18 @@
+{
+  "description": "Number of pairings {(b[1],c[1]),(b[2],c[2]),...,(b[n],c[n])} of the first 2n positive integers satisfying b[i] < c[i] and such that the 2n numbers c[i]+b[i] and c[i]-b[i] are all distinct.",
+  "id": "A002968",
+  "mentions": [
+    "A007631"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

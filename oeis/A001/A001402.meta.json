@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into at most 6 parts.",
+  "id": "A001402",
+  "mentions": [
+    "A001401",
+    "A001993",
+    "A005347",
+    "A008284",
+    "A026812",
+    "A026820",
+    "A037145",
+    "A194197",
+    "A288341"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Fibonacci tower: a(n) = F(a(n-1)+2) (there is no room for next term).",
+  "id": "A006985",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

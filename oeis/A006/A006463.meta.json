@@ -1,0 +1,28 @@
+{
+  "description": "Convolve natural numbers with characteristic function of triangular numbers.",
+  "id": "A006463",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A003056",
+    "A010054",
+    "A010815",
+    "A060432",
+    "A074909",
+    "A076269",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of cells of square lattice of edge 1/n inside quadrant of unit circle centered at 0.",
+  "id": "A001182",
+  "mentions": [
+    "A242118",
+    "A261849",
+    "A281795"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

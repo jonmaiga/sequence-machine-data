@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. sin(x^2)/2, coefficients of x^(4*n + 2).",
+  "id": "A009564",
+  "mentions": [
+    "A001813",
+    "A024343",
+    "A075069",
+    "A103639"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

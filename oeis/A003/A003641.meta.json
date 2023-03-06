@@ -1,0 +1,21 @@
+{
+  "description": "Number of genera of imaginary quadratic field with discriminant -k, k = A039957(n).",
+  "id": "A003641",
+  "mentions": [
+    "A001221",
+    "A003640",
+    "A003642",
+    "A039957"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:28:51",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

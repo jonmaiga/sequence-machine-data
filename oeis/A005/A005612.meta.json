@@ -1,0 +1,21 @@
+{
+  "description": "Number of Boolean functions of n variables that are variously called \"unate cascades\" or \"1-decision list functions\" or \"read-once threshold functions\".",
+  "id": "A005612",
+  "mentions": [
+    "A000670",
+    "A005607",
+    "A005840"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

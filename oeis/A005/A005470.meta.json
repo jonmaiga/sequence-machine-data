@@ -1,0 +1,27 @@
+{
+  "description": "Number of unlabeled planar simple graphs with n nodes.",
+  "id": "A005470",
+  "mentions": [
+    "A000088",
+    "A000103",
+    "A003094",
+    "A005195",
+    "A034889",
+    "A039735",
+    "A126201"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

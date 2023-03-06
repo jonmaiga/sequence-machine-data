@@ -1,0 +1,32 @@
+{
+  "description": "Associated Mersenne numbers.",
+  "id": "A001350",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000051",
+    "A002186",
+    "A004146",
+    "A014217",
+    "A031367",
+    "A050140",
+    "A052952",
+    "A060280",
+    "A074331",
+    "A098554",
+    "A129744",
+    "A152152"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

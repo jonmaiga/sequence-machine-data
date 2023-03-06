@@ -1,0 +1,27 @@
+{
+  "description": "Fibonacci numbers written in base 2.",
+  "id": "A004685",
+  "mentions": [
+    "A000045",
+    "A004643",
+    "A004668",
+    "A004676",
+    "A004684",
+    "A004686",
+    "A004694",
+    "A007088"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

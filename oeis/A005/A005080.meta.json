@@ -1,0 +1,26 @@
+{
+  "description": "Sum of cubes of primes = 1 mod 4 dividing n.",
+  "id": "A005080",
+  "mentions": [
+    "A000578",
+    "A005064",
+    "A005078",
+    "A005079",
+    "A005081",
+    "A005084",
+    "A020639",
+    "A028234",
+    "A059841"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

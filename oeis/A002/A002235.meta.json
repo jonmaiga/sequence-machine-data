@@ -1,0 +1,28 @@
+{
+  "description": "Numbers m such that 3*2^m - 1 is prime.",
+  "id": "A002235",
+  "mentions": [
+    "A000043",
+    "A001771",
+    "A003307",
+    "A005541",
+    "A007505",
+    "A046865",
+    "A046866",
+    "A046867",
+    "A056725",
+    "A079906",
+    "A079907"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

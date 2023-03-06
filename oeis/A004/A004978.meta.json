@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = least integer m > a(n-1) such that m - a(n-1) != a(j) - a(k) for all j, k less than n; a(1) = 1, a(2) = 2.",
+  "id": "A004978",
+  "mentions": [
+    "A001856",
+    "A002048",
+    "A002049",
+    "A048201",
+    "A048204"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:51",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

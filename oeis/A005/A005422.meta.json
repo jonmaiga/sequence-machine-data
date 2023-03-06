@@ -1,0 +1,26 @@
+{
+  "description": "Largest prime factor of 10^n - 1.",
+  "id": "A005422",
+  "mentions": [
+    "A002275",
+    "A002283",
+    "A003020",
+    "A004023",
+    "A006530",
+    "A067063",
+    "A075024",
+    "A102380",
+    "A274906"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

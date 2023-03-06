@@ -1,0 +1,27 @@
+{
+  "description": "Coefficient of x^4 in expansion of (1+x+x^2)^n.",
+  "id": "A005712",
+  "mentions": [
+    "A000051",
+    "A000574",
+    "A005581",
+    "A005714",
+    "A005716",
+    "A026729",
+    "A027907",
+    "A111808",
+    "A213781"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:34:49",
+    "offset": 2,
+    "size": 40,
+    "source": "joeis"
+  }
+}

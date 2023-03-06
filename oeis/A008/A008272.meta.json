@@ -1,0 +1,18 @@
+{
+  "description": "Total length of performances of n fragments in Stockhausen problem.",
+  "id": "A008272",
+  "mentions": [
+    "A008271"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:42:07",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

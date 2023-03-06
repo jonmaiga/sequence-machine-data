@@ -1,0 +1,25 @@
+{
+  "description": "Number of alternating sign 2n+1 X 2n+1 matrices symmetric about the vertical axis (VSASM's); also 2n X 2n off-diagonally symmetric alternating sign matrices (OSASM's).",
+  "id": "A005156",
+  "mentions": [
+    "A005130",
+    "A006013",
+    "A025174",
+    "A074962",
+    "A109074",
+    "A134357"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Triangular numbers plus quarter-squares: n*(n+1)/2 + floor((n+1)^2/4) (i.e., A000217(n) + A002620(n+1)).",
+  "id": "A001859",
+  "mentions": [
+    "A000051",
+    "A000217",
+    "A000262",
+    "A002378",
+    "A002620",
+    "A003984",
+    "A004526",
+    "A006578",
+    "A045944",
+    "A045947",
+    "A049450",
+    "A077043",
+    "A107661",
+    "A185212"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:19:51",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

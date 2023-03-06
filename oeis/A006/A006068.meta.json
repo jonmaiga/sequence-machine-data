@@ -1,0 +1,34 @@
+{
+  "description": "a(n) is Gray-coded into n.",
+  "id": "A006068",
+  "mentions": [
+    "A000079",
+    "A003100",
+    "A003188",
+    "A003987",
+    "A005811",
+    "A010060",
+    "A014550",
+    "A038554",
+    "A054429",
+    "A055975",
+    "A066194",
+    "A180200",
+    "A209281"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "hear",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:36:47",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

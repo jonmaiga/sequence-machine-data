@@ -1,0 +1,33 @@
+{
+  "description": "Triangle of Lehmer-Comtet numbers of the first kind.",
+  "id": "A008296",
+  "mentions": [
+    "A000142",
+    "A000217",
+    "A005727",
+    "A039621",
+    "A045406",
+    "A059302",
+    "A176118",
+    "A185164",
+    "A264428",
+    "A298511",
+    "A345651",
+    "A347276",
+    "A354795"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:13",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

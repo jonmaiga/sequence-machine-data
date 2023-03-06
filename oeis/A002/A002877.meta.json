@@ -1,0 +1,22 @@
+{
+  "description": "Number of connected weighted linear spaces of total weight n.",
+  "id": "A002877",
+  "mentions": [
+    "A001200",
+    "A001548",
+    "A002876"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

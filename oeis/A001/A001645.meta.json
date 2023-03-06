@@ -1,0 +1,25 @@
+{
+  "description": "A Fielder sequence.",
+  "id": "A001645",
+  "mentions": [
+    "A000051",
+    "A001609",
+    "A001634",
+    "A001636",
+    "A001638",
+    "A001648",
+    "A001649"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Related to self-avoiding walks on square lattice.",
+  "id": "A006815",
+  "mentions": [
+    "A006814",
+    "A006816"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

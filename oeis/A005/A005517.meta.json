@@ -1,0 +1,23 @@
+{
+  "description": "Smallest label f(T) given to a rooted tree T with n nodes in Matula-Goebel labeling.",
+  "id": "A005517",
+  "mentions": [
+    "A000051",
+    "A005518",
+    "A061773",
+    "A091233"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:54:51",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

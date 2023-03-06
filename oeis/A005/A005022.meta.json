@@ -1,0 +1,22 @@
+{
+  "description": "Number of walks of length 2n+6 in the path graph P_7 from one end to the other.",
+  "id": "A005022",
+  "mentions": [
+    "A000051",
+    "A005021",
+    "A094811"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

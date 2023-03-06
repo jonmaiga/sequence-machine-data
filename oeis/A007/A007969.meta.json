@@ -1,0 +1,30 @@
+{
+  "description": "Rectangular numbers.",
+  "id": "A007969",
+  "mentions": [
+    "A000037",
+    "A000290",
+    "A002144",
+    "A007966",
+    "A007967",
+    "A007968",
+    "A007970",
+    "A191854",
+    "A191855",
+    "A261249",
+    "A261250",
+    "A263006",
+    "A263007"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

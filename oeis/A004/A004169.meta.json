@@ -1,0 +1,30 @@
+{
+  "description": "Values of m for which a regular polygon with m sides cannot be constructed with ruler and compass.",
+  "id": "A004169",
+  "mentions": [
+    "A000010",
+    "A003401",
+    "A130880",
+    "A209229",
+    "A255241",
+    "A272487",
+    "A272488",
+    "A272489",
+    "A272490",
+    "A272491",
+    "A295660"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:30:31",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

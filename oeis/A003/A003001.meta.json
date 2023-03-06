@@ -1,0 +1,31 @@
+{
+  "description": "Smallest number of multiplicative persistence n.",
+  "id": "A003001",
+  "mentions": [
+    "A006050",
+    "A007954",
+    "A031286",
+    "A031346",
+    "A031347",
+    "A033908",
+    "A046511",
+    "A121105",
+    "A121111",
+    "A133048",
+    "A133500"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

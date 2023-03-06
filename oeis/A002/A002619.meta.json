@@ -1,0 +1,30 @@
+{
+  "description": "Number of 2-colored patterns on an n X n board.",
+  "id": "A002619",
+  "mentions": [
+    "A000010",
+    "A000939",
+    "A000940",
+    "A002618",
+    "A047916",
+    "A047918",
+    "A064649",
+    "A064852",
+    "A089066",
+    "A262480",
+    "A275527"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

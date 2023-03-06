@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = ceiling(log(n)).",
+  "id": "A004233",
+  "mentions": [
+    "A000193",
+    "A000195",
+    "A000523"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

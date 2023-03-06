@@ -1,0 +1,20 @@
+{
+  "description": "Definition (1): Number of unlabeled strength-2 Eulerian graphs with n nodes.",
+  "id": "A007127",
+  "mentions": [
+    "A002854",
+    "A004102",
+    "A084565"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

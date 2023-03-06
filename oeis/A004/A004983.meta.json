@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (2^n/n!) * Product_{k=0..n-1} (4*k - 3).",
+  "id": "A004983",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

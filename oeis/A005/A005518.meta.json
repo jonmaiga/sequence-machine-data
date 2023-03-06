@@ -1,0 +1,21 @@
+{
+  "description": "Largest label f(T) given to a rooted tree T with n nodes in Matula-Goebel labeling.",
+  "id": "A005518",
+  "mentions": [
+    "A005517",
+    "A057452",
+    "A061773",
+    "A091233"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

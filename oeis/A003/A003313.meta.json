@@ -1,0 +1,25 @@
+{
+  "description": "Length of shortest addition chain for n.",
+  "id": "A003313",
+  "mentions": [
+    "A003063",
+    "A003064",
+    "A003065",
+    "A005766",
+    "A014701",
+    "A230528"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

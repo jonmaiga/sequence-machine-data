@@ -1,0 +1,20 @@
+{
+  "description": "From a Goldbach conjecture: the location of records in A185091.",
+  "id": "A002091",
+  "mentions": [
+    "A002092",
+    "A185091",
+    "A194828",
+    "A194829"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

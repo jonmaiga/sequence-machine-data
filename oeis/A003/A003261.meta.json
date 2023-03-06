@@ -1,0 +1,27 @@
+{
+  "description": "Woodall (or Riesel) numbers: n*2^n - 1.",
+  "id": "A003261",
+  "mentions": [
+    "A000051",
+    "A002064",
+    "A002234",
+    "A005849",
+    "A006127",
+    "A036289",
+    "A050918",
+    "A133653"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

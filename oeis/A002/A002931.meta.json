@@ -1,0 +1,26 @@
+{
+  "description": "Number of self-avoiding polygons of length 2n on square lattice (not allowing rotations).",
+  "id": "A002931",
+  "mentions": [
+    "A002906",
+    "A010566",
+    "A036638",
+    "A036639",
+    "A056634",
+    "A057730",
+    "A302335",
+    "A302336"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

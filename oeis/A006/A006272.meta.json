@@ -1,0 +1,17 @@
+{
+  "description": "Denominators of a continued fraction for 1 + sqrt(2).",
+  "id": "A006272",
+  "mentions": [
+    "A006271"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:21:59",
+    "offset": 0,
+    "size": 4,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Theta series of 28-dimensional unimodular lattice with no roots and a parity vector of norm 4.",
+  "id": "A002519",
+  "mentions": [
+    "A002520"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

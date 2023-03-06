@@ -1,0 +1,20 @@
+{
+  "description": "Sum of n consecutive primes starting at a(n) is prime (or 0 if impossible).",
+  "id": "A007610",
+  "mentions": [
+    "A013916",
+    "A071149"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

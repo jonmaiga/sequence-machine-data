@@ -1,0 +1,24 @@
+{
+  "description": "Sums of prime divisors of Ruth-Aaron numbers (A006145).",
+  "id": "A006146",
+  "mentions": [
+    "A000806",
+    "A006145",
+    "A008472",
+    "A039703",
+    "A039752",
+    "A039753",
+    "A054378"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

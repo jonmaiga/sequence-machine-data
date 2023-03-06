@@ -1,0 +1,23 @@
+{
+  "description": "Pseudoprimes to base 7.",
+  "id": "A005938",
+  "mentions": [
+    "A001567",
+    "A005382",
+    "A005935",
+    "A005936",
+    "A005937",
+    "A005939",
+    "A122784"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

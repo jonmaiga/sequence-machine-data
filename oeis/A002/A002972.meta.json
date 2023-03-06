@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the odd member of {x,y}, where x^2 + y^2 is the n-th prime of the form 4i+1.",
+  "id": "A002972",
+  "mentions": [
+    "A002144",
+    "A002330",
+    "A002331",
+    "A002970",
+    "A002973",
+    "A005098",
+    "A046730",
+    "A173330",
+    "A208295",
+    "A261858",
+    "A267858"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

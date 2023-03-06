@@ -1,0 +1,22 @@
+{
+  "description": "Largest cube dividing n.",
+  "id": "A008834",
+  "mentions": [
+    "A000203",
+    "A050985",
+    "A053150"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:49:11",
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

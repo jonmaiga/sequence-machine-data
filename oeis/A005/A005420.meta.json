@@ -1,0 +1,27 @@
+{
+  "description": "Largest prime factor of 2^n - 1.",
+  "id": "A005420",
+  "mentions": [
+    "A000043",
+    "A000225",
+    "A002326",
+    "A002587",
+    "A002968",
+    "A006530",
+    "A274906",
+    "A337431",
+    "A359063",
+    "A359088"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 2,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

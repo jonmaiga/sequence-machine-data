@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A259095(2n,n).",
+  "id": "A005575",
+  "mentions": [
+    "A005576",
+    "A005577",
+    "A259095"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

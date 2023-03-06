@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1+2*x^7+x^12)/((1-x^2)^2*(1-x^12)).",
+  "id": "A008820",
+  "mentions": [
+    "A008818",
+    "A008819",
+    "A008821"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:49:09",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

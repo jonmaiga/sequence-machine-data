@@ -1,0 +1,22 @@
+{
+  "description": "Sum of distinct nonzero 4th powers.",
+  "id": "A003999",
+  "mentions": [
+    "A003997",
+    "A046039",
+    "A194768",
+    "A194769"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

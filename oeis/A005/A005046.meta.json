@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of a 2n-set into even blocks.",
+  "id": "A005046",
+  "mentions": [
+    "A000110",
+    "A000296",
+    "A001850",
+    "A003724",
+    "A136630",
+    "A156289",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

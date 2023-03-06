@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonequivalent dissections of an n-gon by nonintersecting diagonals up to rotation.",
+  "id": "A003455",
+  "mentions": [
+    "A001004",
+    "A003454",
+    "A003456",
+    "A005034",
+    "A295224",
+    "A295495"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 3,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of rooted maps with n edges on Klein bottle.",
+  "id": "A006344",
+  "mentions": [
+    "A267180"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 16:06:29",
+    "offset": 2,
+    "size": 16,
+    "source": "joeis"
+  }
+}

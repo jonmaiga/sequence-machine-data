@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n of the form a_1*b_1^2 + a_2*b_2^2 + ...; number of semi-simple rings with n elements.",
+  "id": "A004101",
+  "mentions": [
+    "A000688",
+    "A006171",
+    "A038538",
+    "A046951",
+    "A280451",
+    "A280661",
+    "A280662"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Number of connected graphs on n labeled nodes on a circle with straight-line edges that don't cross.",
+  "id": "A007297",
+  "mentions": [
+    "A000108",
+    "A000290",
+    "A001006",
+    "A001187",
+    "A006343",
+    "A054726",
+    "A054921",
+    "A078531",
+    "A085614",
+    "A089434",
+    "A099947",
+    "A107111",
+    "A162395",
+    "A194560",
+    "A263843",
+    "A293510",
+    "A323818",
+    "A324167",
+    "A324169",
+    "A324173"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

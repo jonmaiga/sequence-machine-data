@@ -1,0 +1,29 @@
+{
+  "description": "Sorting numbers: maximal number of comparisons for sorting n elements by binary insertion.",
+  "id": "A001855",
+  "mentions": [
+    "A000337",
+    "A003063",
+    "A003071",
+    "A003314",
+    "A029837",
+    "A030190",
+    "A030308",
+    "A061168",
+    "A079944",
+    "A123753"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:19:51",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

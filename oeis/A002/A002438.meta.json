@@ -1,0 +1,23 @@
+{
+  "description": "Multiples of Euler numbers.",
+  "id": "A002438",
+  "mentions": [
+    "A000364",
+    "A002439",
+    "A086646",
+    "A255884"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

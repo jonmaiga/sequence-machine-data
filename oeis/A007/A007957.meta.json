@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that contain an odd digit.",
+  "id": "A007957",
+  "mentions": [
+    "A014263",
+    "A103181",
+    "A153268"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

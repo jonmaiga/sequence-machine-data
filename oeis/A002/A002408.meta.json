@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of 8-dimensional cusp form.",
+  "id": "A002408",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A007331",
+    "A010054",
+    "A010815",
+    "A045823",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of irreducible words of length 2n in the free group with generators x,y such that the total degree of x and the total degree of y both equal zero.",
+  "id": "A007987",
+  "mentions": [
+    "A002426",
+    "A168597"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Molien series for 3-dimensional group [2,9] = *229.",
+  "id": "A008722",
+  "mentions": [
+    "A165071",
+    "A165075"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:49:01",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

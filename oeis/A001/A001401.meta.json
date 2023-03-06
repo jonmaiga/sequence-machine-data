@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n into at most 5 parts.",
+  "id": "A001401",
+  "mentions": [
+    "A001399",
+    "A001400",
+    "A002622",
+    "A008284",
+    "A008619",
+    "A008667",
+    "A026811",
+    "A026820",
+    "A033485"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:18:45",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

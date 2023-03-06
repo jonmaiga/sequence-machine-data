@@ -1,0 +1,32 @@
+{
+  "description": "Theta series of Kleinian lattice Z[(1 + sqrt(-7))/ 2] in 1 complex (or 2 real) dimensions.",
+  "id": "A002652",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A004018",
+    "A010054",
+    "A010815",
+    "A028609",
+    "A028641",
+    "A028951",
+    "A033715",
+    "A035182",
+    "A121373",
+    "A133827",
+    "A138811"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:24:13",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

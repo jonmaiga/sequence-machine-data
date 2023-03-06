@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are not the sum of 5 distinct squares.",
+  "id": "A004438",
+  "mentions": [
+    "A120951"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

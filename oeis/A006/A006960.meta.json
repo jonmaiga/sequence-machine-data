@@ -1,0 +1,27 @@
+{
+  "description": "Reverse and Add! sequence starting with 196.",
+  "id": "A006960",
+  "mentions": [
+    "A004086",
+    "A016016",
+    "A023108",
+    "A023109",
+    "A033665",
+    "A056964",
+    "A063048"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

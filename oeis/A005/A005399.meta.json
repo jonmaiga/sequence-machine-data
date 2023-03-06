@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: high-temperature series in J/2kT for ferromagnetic susceptibility for the spin-1/2 Heisenberg model on hexagonal lattice.",
+  "id": "A005399",
+  "mentions": [
+    "A002920",
+    "A005400",
+    "A005401",
+    "A005402",
+    "A047709"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

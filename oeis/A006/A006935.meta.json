@@ -1,0 +1,21 @@
+{
+  "description": "Even pseudoprimes (or primes) to base 2: even n that divide 2^n - 2.",
+  "id": "A006935",
+  "mentions": [
+    "A015919",
+    "A130421",
+    "A295740",
+    "A296104"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Largest prime factor of 1 + (product of first n primes).",
+  "id": "A002585",
+  "mentions": [
+    "A002110",
+    "A002582",
+    "A002584",
+    "A006530",
+    "A006862",
+    "A038507",
+    "A051342"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

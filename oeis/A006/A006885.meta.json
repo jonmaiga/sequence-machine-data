@@ -1,0 +1,22 @@
+{
+  "description": "Record highest point of trajectory before reaching 1 in '3x+1' problem, corresponding to starting values in A006884.",
+  "id": "A006885",
+  "mentions": [
+    "A006877",
+    "A006878",
+    "A006884",
+    "A025586",
+    "A033492"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

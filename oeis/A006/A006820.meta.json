@@ -1,0 +1,40 @@
+{
+  "description": "Number of connected regular simple graphs of degree 4 (or quartic graphs) with n nodes.",
+  "id": "A006820",
+  "mentions": [
+    "A002851",
+    "A005177",
+    "A006821",
+    "A006822",
+    "A014377",
+    "A014378",
+    "A014381",
+    "A014382",
+    "A014384",
+    "A033301",
+    "A033483",
+    "A033886",
+    "A058343",
+    "A058348",
+    "A068934",
+    "A085549",
+    "A129417",
+    "A184940",
+    "A184943",
+    "A184944",
+    "A184945"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

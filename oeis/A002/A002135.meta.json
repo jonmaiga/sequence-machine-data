@@ -1,0 +1,35 @@
+{
+  "description": "Number of terms in a symmetrical determinant: a(n) = n*a(n-1) - (n-1)*(n-2)*a(n-3)/2.",
+  "id": "A002135",
+  "mentions": [
+    "A001147",
+    "A001710",
+    "A002137",
+    "A007717",
+    "A037143",
+    "A059422",
+    "A059423",
+    "A059424",
+    "A215771",
+    "A257463",
+    "A260338",
+    "A319225",
+    "A319226",
+    "A320655",
+    "A320656",
+    "A333467"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

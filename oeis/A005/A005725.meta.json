@@ -1,0 +1,22 @@
+{
+  "description": "Quadrinomial coefficients.",
+  "id": "A005725",
+  "mentions": [
+    "A005712",
+    "A008287",
+    "A305161"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

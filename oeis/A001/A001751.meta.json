@@ -1,0 +1,25 @@
+{
+  "description": "Primes together with primes multiplied by 2.",
+  "id": "A001751",
+  "mentions": [
+    "A000040",
+    "A001747",
+    "A026741",
+    "A033948",
+    "A039698",
+    "A046079",
+    "A178156",
+    "A251561"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

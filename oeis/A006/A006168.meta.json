@@ -1,0 +1,20 @@
+{
+  "description": "Number of factorization patterns of polynomials of degree n over F_3.",
+  "id": "A006168",
+  "mentions": [
+    "A006167",
+    "A006171",
+    "A027376"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:52",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Restricted partitions.",
+  "id": "A001981",
+  "mentions": [
+    "A001971",
+    "A067059"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

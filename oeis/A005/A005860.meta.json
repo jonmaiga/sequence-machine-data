@@ -1,0 +1,16 @@
+{
+  "description": "The coding-theoretic function A(n,12,10).",
+  "id": "A005860",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 10,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

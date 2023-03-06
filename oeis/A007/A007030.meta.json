@@ -1,0 +1,21 @@
+{
+  "description": "Non-Hamiltonian simplicial polyhedra with n nodes.",
+  "id": "A007030",
+  "mentions": [
+    "A000109",
+    "A115340"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

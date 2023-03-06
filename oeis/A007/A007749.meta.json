@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k!! - 1 is prime.",
+  "id": "A007749",
+  "mentions": [
+    "A006882",
+    "A091415",
+    "A117141"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

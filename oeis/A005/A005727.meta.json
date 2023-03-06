@@ -1,0 +1,28 @@
+{
+  "description": "n-th derivative of x^x at x=1. Also called Lehmer-Comtet numbers.",
+  "id": "A005727",
+  "mentions": [
+    "A000248",
+    "A005165",
+    "A005168",
+    "A008296",
+    "A176118",
+    "A203852",
+    "A215703",
+    "A277537",
+    "A293297"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

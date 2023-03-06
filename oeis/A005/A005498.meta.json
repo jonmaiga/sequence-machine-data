@@ -1,0 +1,19 @@
+{
+  "description": "Triangulations of the disk G_{2,n}.",
+  "id": "A005498",
+  "mentions": [
+    "A002709",
+    "A210696",
+    "A262586"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:57:21",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

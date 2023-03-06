@@ -1,0 +1,24 @@
+{
+  "description": "Primes p == +- 3 (mod 8), or, primes p such that 2 is not a square mod p.",
+  "id": "A003629",
+  "mentions": [
+    "A000040",
+    "A001132",
+    "A007521",
+    "A038873",
+    "A187360",
+    "A226523",
+    "A230075"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

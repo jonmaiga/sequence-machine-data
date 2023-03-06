@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonseparable tree-rooted planar maps with n + 4 edges and 5 vertices.",
+  "id": "A006413",
+  "mentions": [
+    "A006411",
+    "A006412",
+    "A342984"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:38:13",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

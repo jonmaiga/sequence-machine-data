@@ -1,0 +1,25 @@
+{
+  "description": "Theta series of D_6 lattice.",
+  "id": "A008428",
+  "mentions": [
+    "A000122",
+    "A000141",
+    "A000700",
+    "A008425",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:47:53",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

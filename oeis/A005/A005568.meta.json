@@ -1,0 +1,29 @@
+{
+  "description": "Product of two successive Catalan numbers C(n)*C(n+1).",
+  "id": "A005568",
+  "mentions": [
+    "A000108",
+    "A000356",
+    "A001599",
+    "A004304",
+    "A005555",
+    "A005700",
+    "A005817",
+    "A168450",
+    "A168451",
+    "A168452",
+    "A260039"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

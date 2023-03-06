@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. exp(sin(x)).",
+  "id": "A002017",
+  "mentions": [
+    "A003722",
+    "A003724",
+    "A007301"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

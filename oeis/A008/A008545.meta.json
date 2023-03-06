@@ -1,0 +1,32 @@
+{
+  "description": "Quadruple factorial numbers: Product_{k=0..n-1} (4*k + 3).",
+  "id": "A008545",
+  "mentions": [
+    "A000369",
+    "A001498",
+    "A001813",
+    "A004767",
+    "A004982",
+    "A007696",
+    "A014601",
+    "A034176",
+    "A047053",
+    "A048994",
+    "A051142",
+    "A225471",
+    "A254286"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

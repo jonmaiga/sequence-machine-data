@@ -1,0 +1,30 @@
+{
+  "description": "2-hyperperfect numbers: n = 2*(sigma(n) - n - 1) + 1.",
+  "id": "A007593",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A014224",
+    "A014682",
+    "A028499",
+    "A028500",
+    "A028501",
+    "A028502",
+    "A034916",
+    "A064989",
+    "A220290",
+    "A337342"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

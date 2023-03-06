@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of arranging 2n+1 nonattacking queens on a 2n+1 X 2n+1 toroidal board.",
+  "id": "A007705",
+  "mentions": [
+    "A051906"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

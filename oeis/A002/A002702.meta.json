@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients for numerical differentiation.",
+  "id": "A002702",
+  "mentions": [
+    "A002455",
+    "A002457",
+    "A002701"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:31:13",
+    "offset": 2,
+    "size": 17,
+    "source": "joeis"
+  }
+}

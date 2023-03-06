@@ -1,0 +1,33 @@
+{
+  "description": "Hofstadter G-sequence: a(0) = 0; a(n) = n - a(a(n-1)) for n > 0.",
+  "id": "A005206",
+  "mentions": [
+    "A000045",
+    "A000201",
+    "A001468",
+    "A005614",
+    "A006336",
+    "A019446",
+    "A035513",
+    "A060143",
+    "A060144",
+    "A072649",
+    "A123070",
+    "A213676",
+    "A287870",
+    "A293688"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

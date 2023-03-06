@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1+2*x^3+x^5)/((1-x)^2*(1-x^5)).",
+  "id": "A008823",
+  "mentions": [
+    "A008822",
+    "A008824",
+    "A008825"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:49:09",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

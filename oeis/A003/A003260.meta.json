@@ -1,0 +1,22 @@
+{
+  "description": "Largest prime factor of n-th Mersenne number (A001348(n)).",
+  "id": "A003260",
+  "mentions": [
+    "A000668",
+    "A001348",
+    "A016047",
+    "A046800"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

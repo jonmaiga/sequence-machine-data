@@ -1,0 +1,20 @@
+{
+  "description": "Benford numbers: a(n)=e^e^...^e (n times) rounded to nearest integer.",
+  "id": "A004002",
+  "mentions": [
+    "A056072",
+    "A073236",
+    "A225053"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

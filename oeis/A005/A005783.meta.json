@@ -1,0 +1,26 @@
+{
+  "description": "Number of 3-covers of an n-set.",
+  "id": "A005783",
+  "mentions": [
+    "A002620",
+    "A002727",
+    "A005748",
+    "A005784",
+    "A005785",
+    "A005786",
+    "A055066"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

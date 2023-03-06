@@ -1,0 +1,19 @@
+{
+  "description": "T(n+3,3) from table A045912 of characteristic polynomial of negative Pascal matrix.",
+  "id": "A006136",
+  "mentions": [
+    "A006134",
+    "A006135",
+    "A045912"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

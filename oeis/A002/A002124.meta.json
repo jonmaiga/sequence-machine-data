@@ -1,0 +1,24 @@
+{
+  "description": "Number of compositions of n into a sum of odd primes.",
+  "id": "A002124",
+  "mentions": [
+    "A000040",
+    "A000051",
+    "A002125",
+    "A023360",
+    "A024939",
+    "A065091",
+    "A077608"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

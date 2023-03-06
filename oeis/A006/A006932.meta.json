@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations of [n] with at least one strong fixed point (a permutation p of {1,2,...,n} is said to have j as a strong fixed point if p(k) < j for k < j and p(k) > j for k > j).",
+  "id": "A006932",
+  "mentions": [
+    "A003149",
+    "A052186",
+    "A145878"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

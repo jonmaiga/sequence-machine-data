@@ -1,0 +1,18 @@
+{
+  "description": "Number of perfect matchings (or domino tilings) in D_4 X P_(n-1).",
+  "id": "A003757",
+  "mentions": [
+    "A100047"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:10:59",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

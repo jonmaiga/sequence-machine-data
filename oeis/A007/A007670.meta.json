@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 2^n - 2^((n + 1)/2) + 1 is prime.",
+  "id": "A007670",
+  "mentions": [
+    "A006598",
+    "A057429"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

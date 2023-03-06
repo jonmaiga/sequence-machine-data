@@ -1,0 +1,22 @@
+{
+  "description": "Number of Post functions of n variables.",
+  "id": "A002857",
+  "mentions": [
+    "A000612",
+    "A002543",
+    "A003180",
+    "A055152",
+    "A055621"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "The Danish composer Per Nørgård's \"infinity sequence\", invented in an attempt to unify in a perfect way repetition and variation: a(2n) = -a(n), a(2n+1) = a(n) + 1, a(0) = 0.",
+  "id": "A004718",
+  "mentions": [
+    "A000120",
+    "A007814",
+    "A010060",
+    "A060142",
+    "A083866",
+    "A255723",
+    "A256184",
+    "A256185",
+    "A256187",
+    "A323886",
+    "A323887",
+    "A323907",
+    "A323908",
+    "A323909",
+    "A343029",
+    "A343030"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "hear",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

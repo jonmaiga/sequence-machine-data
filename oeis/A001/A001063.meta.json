@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. satisfies A'(x) = A(x/(1-x)).",
+  "id": "A001063",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

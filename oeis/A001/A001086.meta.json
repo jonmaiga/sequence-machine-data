@@ -1,0 +1,16 @@
+{
+  "description": "Continued fraction associated with y(y+1) = x(x^2 -1).",
+  "id": "A001086",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

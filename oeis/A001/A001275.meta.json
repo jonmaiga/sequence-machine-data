@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime p such that the product of q/(q-1) over the primes from prime(n) to p is greater than 2.",
+  "id": "A001275",
+  "mentions": [
+    "A001276"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

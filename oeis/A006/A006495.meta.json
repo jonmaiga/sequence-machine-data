@@ -1,0 +1,25 @@
+{
+  "description": "Real part of (1 + 2*i)^n, where i is sqrt(-1).",
+  "id": "A006495",
+  "mentions": [
+    "A000351",
+    "A006496",
+    "A045873",
+    "A098122",
+    "A098158",
+    "A117411",
+    "A124182"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:04:51",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

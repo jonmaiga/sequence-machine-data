@@ -1,0 +1,20 @@
+{
+  "description": "Least number for which Solovay-Strassen primality test on bases < prime(n) fails.",
+  "id": "A007324",
+  "mentions": [
+    "A083876",
+    "A271221",
+    "A329726"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Greatest minimal norm of sublattice of index n in hexagonal lattice.",
+  "id": "A006984",
+  "mentions": [
+    "A001615",
+    "A003050",
+    "A003051"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

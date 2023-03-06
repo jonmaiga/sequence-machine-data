@@ -1,0 +1,26 @@
+{
+  "description": "Low temperature series for spin-1/2 Ising magnetic susceptibility on 2D square lattice.",
+  "id": "A002927",
+  "mentions": [
+    "A002890",
+    "A002906",
+    "A002912",
+    "A002926",
+    "A002928",
+    "A002979",
+    "A007239",
+    "A010115",
+    "A029872",
+    "A047709"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

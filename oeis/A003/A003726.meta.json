@@ -1,0 +1,34 @@
+{
+  "description": "Numbers with no 3 adjacent 1's in binary expansion.",
+  "id": "A003726",
+  "mentions": [
+    "A000073",
+    "A003714",
+    "A003754",
+    "A003796",
+    "A004742",
+    "A004743",
+    "A004744",
+    "A004745",
+    "A004746",
+    "A004781",
+    "A007088",
+    "A014082",
+    "A063037",
+    "A278038",
+    "A356823"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of labeled connected digraphs where every node has indegree 0 or outdegree 0 and no isolated nodes.",
+  "id": "A002031",
+  "mentions": [
+    "A001831",
+    "A001832",
+    "A002027",
+    "A002032",
+    "A047863",
+    "A052332"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of walks on square lattice.",
+  "id": "A005567",
+  "mentions": [
+    "A000051",
+    "A005555"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:47:44",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

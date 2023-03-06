@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonintersecting rook paths joining opposite corners of 5 X n board.",
+  "id": "A007787",
+  "mentions": [
+    "A007764",
+    "A007765",
+    "A007786",
+    "A064298"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

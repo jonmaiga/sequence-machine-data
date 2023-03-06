@@ -1,0 +1,17 @@
+{
+  "description": "Numerators of convergents to fifth root of 5.",
+  "id": "A002364",
+  "mentions": [
+    "A005165"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:28:28",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

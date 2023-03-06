@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n^2*(n+1)*(n+2)^2/6.",
+  "id": "A004256",
+  "mentions": [
+    "A002417"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:30:37",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

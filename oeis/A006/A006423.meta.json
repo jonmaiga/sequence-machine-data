@@ -1,0 +1,18 @@
+{
+  "description": "Number of rooted toroidal maps with 3 faces and n vertices and without separating cycles or isthmuses.",
+  "id": "A006423",
+  "mentions": [
+    "A343090"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:38:17",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

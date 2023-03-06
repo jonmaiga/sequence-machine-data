@@ -1,0 +1,28 @@
+{
+  "description": "Number of dissections of a convex (n+2)-gon into triangles and quadrilaterals by nonintersecting diagonals.",
+  "id": "A001002",
+  "mentions": [
+    "A000045",
+    "A000108",
+    "A038112",
+    "A104978",
+    "A181997",
+    "A181998",
+    "A209441",
+    "A209442",
+    "A213684"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of decompositions of 2n into sum of 2 lucky numbers.",
+  "id": "A002850",
+  "mentions": [
+    "A000959"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

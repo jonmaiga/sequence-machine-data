@@ -1,0 +1,19 @@
+{
+  "description": "Walks on hexagonal lattice using each point at most twice.",
+  "id": "A007274",
+  "mentions": [
+    "A001334",
+    "A007275"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

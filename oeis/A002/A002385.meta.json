@@ -1,0 +1,36 @@
+{
+  "description": "Palindromic primes: prime numbers whose decimal expansion is a palindrome.",
+  "id": "A002385",
+  "mentions": [
+    "A000040",
+    "A002113",
+    "A006093",
+    "A006567",
+    "A007500",
+    "A010051",
+    "A016041",
+    "A029732",
+    "A032350",
+    "A033620",
+    "A046942",
+    "A069469",
+    "A117697",
+    "A136522",
+    "A188649",
+    "A188650"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

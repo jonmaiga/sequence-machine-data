@@ -1,0 +1,21 @@
+{
+  "description": "Terms in certain determinants.",
+  "id": "A002776",
+  "mentions": [
+    "A002775",
+    "A047922"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

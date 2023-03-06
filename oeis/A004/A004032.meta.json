@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-dimensional crystal families.",
+  "id": "A004032",
+  "mentions": [
+    "A004027",
+    "A004031",
+    "A006226",
+    "A006227"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

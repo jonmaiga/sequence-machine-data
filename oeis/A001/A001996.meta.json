@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n into parts 2, 3, 4, 5, 6, 7.",
+  "id": "A001996",
+  "mentions": [
+    "A001993",
+    "A008667",
+    "A037145",
+    "A059841",
+    "A103221",
+    "A266755",
+    "A266776",
+    "A266781"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:49",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

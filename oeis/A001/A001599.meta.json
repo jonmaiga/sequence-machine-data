@@ -1,0 +1,37 @@
+{
+  "description": "Harmonic or Ore numbers: numbers n such that the harmonic mean of the divisors of n is an integer.",
+  "id": "A001599",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000290",
+    "A000396",
+    "A001600",
+    "A003601",
+    "A005153",
+    "A007340",
+    "A007691",
+    "A027750",
+    "A035527",
+    "A053783",
+    "A074247",
+    "A083207",
+    "A090240",
+    "A090945",
+    "A106315",
+    "A140480"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

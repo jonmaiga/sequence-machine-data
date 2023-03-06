@@ -1,0 +1,26 @@
+{
+  "description": "Take solution to Pellian equation x^2 - n*y^2 = 1 with smallest positive y and x >= 0; sequence gives a(n) = y, or 0 if n is a square. A002350 gives values of x.",
+  "id": "A002349",
+  "mentions": [
+    "A002350",
+    "A006702",
+    "A006703",
+    "A006704",
+    "A006705",
+    "A033315",
+    "A033316",
+    "A033319"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

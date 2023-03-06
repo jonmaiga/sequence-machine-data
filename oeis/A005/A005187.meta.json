@@ -1,0 +1,39 @@
+{
+  "description": "a(n) = a(floor(n/2)) + n; also denominators in expansion of 1/sqrt(1-x) are 2^a(n); also 2n - number of 1's in binary expansion of 2n.",
+  "id": "A005187",
+  "mentions": [
+    "A000120",
+    "A000165",
+    "A000225",
+    "A001511",
+    "A001790",
+    "A004128",
+    "A004134",
+    "A010050",
+    "A011371",
+    "A030308",
+    "A046161",
+    "A054899",
+    "A055938",
+    "A067080",
+    "A079559",
+    "A079944",
+    "A085354",
+    "A098844",
+    "A122247",
+    "A132027"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

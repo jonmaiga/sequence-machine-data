@@ -1,0 +1,15 @@
+{
+  "description": "Number of 2-connected maps without faces of degree 2.",
+  "id": "A006404",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

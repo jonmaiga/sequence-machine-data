@@ -1,0 +1,21 @@
+{
+  "description": "Number of self-avoiding n-step walks on honeycomb lattice.",
+  "id": "A001668",
+  "mentions": [
+    "A006851",
+    "A179260"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

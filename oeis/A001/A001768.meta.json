@@ -1,0 +1,21 @@
+{
+  "description": "Sorting numbers: number of comparisons for merge insertion sort of n elements.",
+  "id": "A001768",
+  "mentions": [
+    "A000523",
+    "A085423"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

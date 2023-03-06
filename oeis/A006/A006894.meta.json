@@ -1,0 +1,26 @@
+{
+  "description": "Number of planted 3-trees of height < n.",
+  "id": "A006894",
+  "mentions": [
+    "A000217",
+    "A002658",
+    "A005588",
+    "A036602",
+    "A072638"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

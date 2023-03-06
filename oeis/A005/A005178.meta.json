@@ -1,0 +1,31 @@
+{
+  "description": "Number of domino tilings of 4 X (n-1) board.",
+  "id": "A005178",
+  "mentions": [
+    "A000051",
+    "A003692",
+    "A003757",
+    "A003775",
+    "A028468",
+    "A028469",
+    "A028470",
+    "A033507",
+    "A099390",
+    "A100047",
+    "A129113",
+    "A188899",
+    "A250662"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:11:03",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

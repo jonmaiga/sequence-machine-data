@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients of asymptotic expansion of Ramanujan false theta series.",
+  "id": "A007779",
+  "mentions": [
+    "A000111",
+    "A115455"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

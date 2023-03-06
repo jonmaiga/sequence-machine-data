@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = floor(n/5)*floor((n+1)/5)*floor((n+2)/5)*floor((n+3)/5)*floor((n+4)/5).",
+  "id": "A008382",
+  "mentions": [
+    "A000584",
+    "A002620",
+    "A006501",
+    "A008233",
+    "A008881",
+    "A009641",
+    "A009694",
+    "A009714",
+    "A013663",
+    "A354600"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:47:49",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

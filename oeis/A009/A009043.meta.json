@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of cos(sin(x))/cos(x), even terms only.",
+  "id": "A009043",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

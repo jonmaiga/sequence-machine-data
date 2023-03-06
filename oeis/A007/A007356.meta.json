@@ -1,0 +1,16 @@
+{
+  "description": "Apocalyptic powers: 2^n contains 666.",
+  "id": "A007356",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:44:43",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

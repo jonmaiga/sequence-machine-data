@@ -1,0 +1,26 @@
+{
+  "description": "A self-generating sequence: every positive integer occurs as a(i)-a(j) for a unique pair i,j.",
+  "id": "A001856",
+  "mentions": [
+    "A001149",
+    "A004978",
+    "A005180",
+    "A005282",
+    "A005347",
+    "A054540",
+    "A247556"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

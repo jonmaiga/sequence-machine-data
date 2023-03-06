@@ -1,0 +1,20 @@
+{
+  "description": "Number of spanning trees in K_4 X P_n.",
+  "id": "A003773",
+  "mentions": [
+    "A001109",
+    "A001110",
+    "A097731"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:17:56",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

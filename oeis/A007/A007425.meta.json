@@ -1,0 +1,42 @@
+{
+  "description": "d_3(n), or tau_3(n), the number of ordered factorizations of n as n = r s t.",
+  "id": "A007425",
+  "mentions": [
+    "A000005",
+    "A000217",
+    "A001221",
+    "A005117",
+    "A007426",
+    "A007428",
+    "A007947",
+    "A008836",
+    "A027750",
+    "A034836",
+    "A038548",
+    "A061201",
+    "A077592",
+    "A085782",
+    "A127170",
+    "A127270",
+    "A134577",
+    "A140733",
+    "A140773",
+    "A143354",
+    "A175596",
+    "A195050"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

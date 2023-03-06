@@ -1,0 +1,27 @@
+{
+  "description": "Where the prime race 3k-1 vs. 3k+1 changes leader.",
+  "id": "A007352",
+  "mentions": [
+    "A005596",
+    "A007350",
+    "A007353",
+    "A007354",
+    "A098044",
+    "A185703",
+    "A297406",
+    "A297407",
+    "A297408",
+    "A297410",
+    "A297411"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Numbers n whose binary expansion starts 10.",
+  "id": "A004754",
+  "mentions": [
+    "A000120",
+    "A004755",
+    "A004756",
+    "A004757",
+    "A004758",
+    "A004759",
+    "A004760",
+    "A004761",
+    "A008687",
+    "A023416",
+    "A053644",
+    "A062050",
+    "A076877",
+    "A079944",
+    "A123001"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:25",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

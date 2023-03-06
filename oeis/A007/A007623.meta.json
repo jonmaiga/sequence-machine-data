@@ -1,0 +1,30 @@
+{
+  "description": "Integers written in factorial base.",
+  "id": "A007623",
+  "mentions": [
+    "A000142",
+    "A034968",
+    "A049345",
+    "A055089",
+    "A055881",
+    "A060112",
+    "A060130",
+    "A060495",
+    "A064039",
+    "A099563",
+    "A108731"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

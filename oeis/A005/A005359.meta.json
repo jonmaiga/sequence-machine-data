@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n! if n is even, otherwise 0 (from Taylor series for cos x).",
+  "id": "A005359",
+  "mentions": [
+    "A000670",
+    "A010050",
+    "A052811",
+    "A052841",
+    "A052875",
+    "A167565",
+    "A167568",
+    "A177145"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

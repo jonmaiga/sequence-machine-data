@@ -1,0 +1,15 @@
+{
+  "description": "Least number m such that 12^m = +- 1 mod 12n + 1.",
+  "id": "A003568",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:28:35",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of simple perfect squared rectangles of order n up to symmetry.",
+  "id": "A002839",
+  "mentions": [
+    "A000162",
+    "A002881",
+    "A002962",
+    "A006983",
+    "A181735",
+    "A217153",
+    "A217154",
+    "A217156",
+    "A219766"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

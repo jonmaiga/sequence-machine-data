@@ -1,0 +1,23 @@
+{
+  "description": "Somos-6 sequence: a(n) = (a(n-1) * a(n-5) + a(n-2) * a(n-4) + a(n-3)^2) / a(n-6), a(0) = ... = a(5) = 1.",
+  "id": "A006722",
+  "mentions": [
+    "A006720",
+    "A006721",
+    "A006723",
+    "A048736"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

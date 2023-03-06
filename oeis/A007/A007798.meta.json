@@ -1,0 +1,21 @@
+{
+  "description": "Expected number of random moves in Tower of Hanoi problem with n disks starting with a randomly chosen position and ending at a position with all disks on the same peg.",
+  "id": "A007798",
+  "mentions": [
+    "A005058",
+    "A016209",
+    "A134939"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

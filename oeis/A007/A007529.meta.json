@@ -1,0 +1,26 @@
+{
+  "description": "Prime triples: p; p+2 or p+4; p+6 all prime.",
+  "id": "A007529",
+  "mentions": [
+    "A022004",
+    "A022005",
+    "A023201",
+    "A031924",
+    "A098414",
+    "A098415",
+    "A098416",
+    "A098417",
+    "A098424"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

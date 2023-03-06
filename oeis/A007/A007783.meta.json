@@ -1,0 +1,18 @@
+{
+  "description": "Mixed Van der Waerden numbers w(n, 3; 2).",
+  "id": "A007783",
+  "mentions": [
+    "A002886"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

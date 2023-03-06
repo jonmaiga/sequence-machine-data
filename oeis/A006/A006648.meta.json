@@ -1,0 +1,19 @@
+{
+  "description": "Number of graphs with n nodes, n-1 edges and no isolated vertices.",
+  "id": "A006648",
+  "mentions": [
+    "A001433",
+    "A001434"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of 3-edge-colored trivalent graphs with 2n labeled nodes.",
+  "id": "A006712",
+  "mentions": [
+    "A002830",
+    "A002831",
+    "A005638",
+    "A006713",
+    "A248361"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

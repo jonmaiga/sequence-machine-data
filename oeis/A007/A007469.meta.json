@@ -1,0 +1,19 @@
+{
+  "description": "Shifts left 2 places under Stirling2 transform.",
+  "id": "A007469",
+  "mentions": [
+    "A003633"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

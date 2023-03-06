@@ -1,0 +1,17 @@
+{
+  "description": "Dates at weekly intervals from Jan 01 of leap year.",
+  "id": "A003786",
+  "mentions": [
+    "A008686"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

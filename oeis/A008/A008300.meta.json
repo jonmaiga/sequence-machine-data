@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n >= 0, 0 <= k <= n) gives number of {0,1} n X n matrices with all row and column sums equal to k.",
+  "id": "A008300",
+  "mentions": [
+    "A000142",
+    "A001499",
+    "A001501",
+    "A058527",
+    "A058528",
+    "A067209",
+    "A075754",
+    "A133687",
+    "A172541",
+    "A172544",
+    "A333157"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:13",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

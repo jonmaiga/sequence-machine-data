@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of partitions of n into semiprimes (more precisely, number of ways of writing n as a sum of products of 2 distinct primes).",
+  "id": "A002100",
+  "mentions": [
+    "A006881",
+    "A073576",
+    "A101048"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:49",
+    "offset": 1,
+    "size": 83,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Number of unsensed planar maps with n edges and without loops.",
+  "id": "A006391",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

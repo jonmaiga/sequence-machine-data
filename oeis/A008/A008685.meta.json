@@ -1,0 +1,19 @@
+{
+  "description": "Lengths of months in the Gregorian calendar.",
+  "id": "A008685",
+  "mentions": [
+    "A061251"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

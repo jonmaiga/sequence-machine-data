@@ -1,0 +1,18 @@
+{
+  "description": "Consider Leibniz's harmonic triangle (A003506) and look at the non-boundary terms. Sequence gives numbers appearing in denominators, sorted.",
+  "id": "A007622",
+  "mentions": [
+    "A002943",
+    "A003506"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 18:10:32",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

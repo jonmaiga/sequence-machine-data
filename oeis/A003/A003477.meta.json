@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1/((1-2x)(1+x^2)(1-x-2x^3)).",
+  "id": "A003477",
+  "mentions": [
+    "A000051",
+    "A003229",
+    "A003230",
+    "A077854",
+    "A077949"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

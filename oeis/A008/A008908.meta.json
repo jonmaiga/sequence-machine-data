@@ -1,0 +1,29 @@
+{
+  "description": "(1 + number of halving and tripling steps to reach 1 in the Collatz (3x+1) problem), or -1 if 1 is never reached.",
+  "id": "A008908",
+  "mentions": [
+    "A006370",
+    "A006577",
+    "A006666",
+    "A006667",
+    "A033496",
+    "A064433",
+    "A070165",
+    "A075677",
+    "A078719",
+    "A159999"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

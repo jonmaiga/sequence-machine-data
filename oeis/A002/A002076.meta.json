@@ -1,0 +1,26 @@
+{
+  "description": "Number of equivalence classes of base-3 necklaces of length n, where necklaces are considered equivalent under both rotations and permutations of the symbols.",
+  "id": "A002076",
+  "mentions": [
+    "A000013",
+    "A000048",
+    "A002075",
+    "A008277",
+    "A056353",
+    "A182522",
+    "A320743"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

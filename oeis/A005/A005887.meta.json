@@ -1,0 +1,23 @@
+{
+  "description": "Theta series of f.c.c. lattice with respect to octahedral hole.",
+  "id": "A005887",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A005875",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

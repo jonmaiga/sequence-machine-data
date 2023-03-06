@@ -1,0 +1,29 @@
+{
+  "description": "Number of partitions of n in which no part occurs just once.",
+  "id": "A007690",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A055922",
+    "A055923",
+    "A100405",
+    "A114917",
+    "A114918",
+    "A137566",
+    "A160974",
+    "A160990",
+    "A183558",
+    "A183568"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

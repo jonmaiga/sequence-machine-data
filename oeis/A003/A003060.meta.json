@@ -1,0 +1,31 @@
+{
+  "description": "Smallest number with reciprocal of period length n in decimal (base 10).",
+  "id": "A003060",
+  "mentions": [
+    "A005422",
+    "A007138",
+    "A057951",
+    "A176973",
+    "A212953",
+    "A218356",
+    "A218357",
+    "A218358",
+    "A218359",
+    "A218360",
+    "A218361",
+    "A218362",
+    "A218363",
+    "A218364"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

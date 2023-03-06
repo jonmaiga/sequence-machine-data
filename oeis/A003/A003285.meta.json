@@ -1,0 +1,37 @@
+{
+  "description": "Period of continued fraction for square root of n (or 0 if n is a square).",
+  "id": "A003285",
+  "mentions": [
+    "A006702",
+    "A007400",
+    "A010337",
+    "A010338",
+    "A010339",
+    "A013642",
+    "A013643",
+    "A013644",
+    "A013943",
+    "A020347",
+    "A020348",
+    "A020349",
+    "A020439",
+    "A035015",
+    "A054269",
+    "A061490",
+    "A065938",
+    "A067280",
+    "A069987",
+    "A097853"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

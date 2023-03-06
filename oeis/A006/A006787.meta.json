@@ -1,0 +1,27 @@
+{
+  "description": "Number of n-node graphs with no cycles of length less than 5.",
+  "id": "A006787",
+  "mentions": [
+    "A000066",
+    "A000088",
+    "A006785",
+    "A054760",
+    "A126757",
+    "A128236",
+    "A128237",
+    "A159847",
+    "A300705"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Highly powerful numbers: numbers with record value of the product of the exponents in prime factorization (A005361).",
+  "id": "A005934",
+  "mentions": [
+    "A001599",
+    "A001694",
+    "A003321",
+    "A005188",
+    "A005361",
+    "A007532",
+    "A014576",
+    "A023052",
+    "A036965",
+    "A046074",
+    "A085629"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

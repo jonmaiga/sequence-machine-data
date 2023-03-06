@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that 3*k^2 - 3*k + 1 is both a square (A000290) and a centered hexagonal number (A003215).",
+  "id": "A001922",
+  "mentions": [
+    "A000051",
+    "A000290",
+    "A001075",
+    "A001353",
+    "A001570",
+    "A001844",
+    "A001921",
+    "A003215",
+    "A005448",
+    "A006051",
+    "A016754",
+    "A076139",
+    "A156712"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

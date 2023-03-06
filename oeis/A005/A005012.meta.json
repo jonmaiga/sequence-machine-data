@@ -1,0 +1,22 @@
+{
+  "description": "Shifts one place left under 6th-order binomial transform.",
+  "id": "A005012",
+  "mentions": [
+    "A003633",
+    "A004211",
+    "A008277"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

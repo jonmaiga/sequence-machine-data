@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number that requires n iterations of the unitary totient function (A047994) to reach 1.",
+  "id": "A003271",
+  "mentions": [
+    "A047994",
+    "A049865",
+    "A225172",
+    "A225173"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

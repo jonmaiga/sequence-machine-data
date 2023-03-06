@@ -1,0 +1,20 @@
+{
+  "description": "Ackermann's sequence: n^^n := n^n^n^...^n (with n n's).",
+  "id": "A004231",
+  "mentions": [
+    "A008868",
+    "A027747",
+    "A266200",
+    "A321312"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

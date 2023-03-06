@@ -1,0 +1,32 @@
+{
+  "description": "Radon function, also called Hurwitz-Radon numbers.",
+  "id": "A003484",
+  "mentions": [
+    "A003485",
+    "A005408",
+    "A006519",
+    "A007814",
+    "A016825",
+    "A017113",
+    "A029837",
+    "A051062",
+    "A053381",
+    "A101119",
+    "A209675"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

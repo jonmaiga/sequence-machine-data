@@ -1,0 +1,22 @@
+{
+  "description": "Total height of all rooted trees on n labeled nodes.",
+  "id": "A001854",
+  "mentions": [
+    "A000435",
+    "A007401",
+    "A034855",
+    "A234953",
+    "A236396"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

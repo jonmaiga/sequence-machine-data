@@ -1,0 +1,17 @@
+{
+  "description": "A finite sequence associated with the Lie algebra D_4.",
+  "id": "A005456",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

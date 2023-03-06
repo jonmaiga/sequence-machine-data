@@ -1,0 +1,18 @@
+{
+  "description": "Theta series of E_8 lattice with respect to deep hole.",
+  "id": "A004017",
+  "mentions": [
+    "A007331"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:29:45",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

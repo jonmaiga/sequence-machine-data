@@ -1,0 +1,25 @@
+{
+  "description": "Number of one-sided chessboard polyominoes with n cells.",
+  "id": "A001071",
+  "mentions": [
+    "A000988",
+    "A001933",
+    "A121198",
+    "A234006",
+    "A234007",
+    "A234008"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

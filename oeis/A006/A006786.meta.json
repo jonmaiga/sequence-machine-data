@@ -1,0 +1,23 @@
+{
+  "description": "Number of squarefree graphs on n vertices.",
+  "id": "A006786",
+  "mentions": [
+    "A000088",
+    "A006785",
+    "A039751",
+    "A077269",
+    "A300756",
+    "A345249"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

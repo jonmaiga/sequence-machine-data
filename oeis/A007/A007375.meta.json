@@ -1,0 +1,17 @@
+{
+  "description": "Number of translation planes of order q, q = prime power.",
+  "id": "A007375",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

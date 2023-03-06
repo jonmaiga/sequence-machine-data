@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 2*det(M(n; -1))/det(M(n; 0)), where M(n; m) is the n X n matrix with (i,j)-th element equal to 1/binomial(n + i + j + m, n).",
+  "id": "A007226",
+  "mentions": [
+    "A006013",
+    "A007223",
+    "A007224",
+    "A007225",
+    "A007227",
+    "A007228",
+    "A007229",
+    "A124724"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of bicoverings of an n-set.",
+  "id": "A002718",
+  "mentions": [
+    "A001147",
+    "A002719",
+    "A003462",
+    "A020554",
+    "A059443",
+    "A059945",
+    "A059951",
+    "A060053"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

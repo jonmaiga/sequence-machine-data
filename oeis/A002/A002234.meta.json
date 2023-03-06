@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the Woodall number k*2^k - 1 is prime.",
+  "id": "A002234",
+  "mentions": [
+    "A003261",
+    "A005849",
+    "A050918"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

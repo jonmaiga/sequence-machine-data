@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct primes dividing p-1, where p = n-th prime.",
+  "id": "A008334",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A006093",
+    "A023508"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

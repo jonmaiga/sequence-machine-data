@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways of writing n as a sum of 11 squares.",
+  "id": "A008453",
+  "mentions": [
+    "A022042",
+    "A122141",
+    "A186690",
+    "A286815",
+    "A319574"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

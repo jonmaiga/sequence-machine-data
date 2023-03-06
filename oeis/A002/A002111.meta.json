@@ -1,0 +1,28 @@
+{
+  "description": "Glaisher's G numbers.",
+  "id": "A002111",
+  "mentions": [
+    "A002439",
+    "A009843",
+    "A033470",
+    "A047788",
+    "A047789",
+    "A069852",
+    "A069994",
+    "A083007"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

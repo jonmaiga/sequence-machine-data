@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sigma(x) = n has exactly 2 solutions.",
+  "id": "A007371",
+  "mentions": [
+    "A007015",
+    "A007369",
+    "A007370",
+    "A007372"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:44:31",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

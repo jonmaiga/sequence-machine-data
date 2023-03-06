@@ -1,0 +1,23 @@
+{
+  "description": "Larger of amicable pair.",
+  "id": "A002046",
+  "mentions": [
+    "A002025",
+    "A005100",
+    "A063990",
+    "A180164",
+    "A259180"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

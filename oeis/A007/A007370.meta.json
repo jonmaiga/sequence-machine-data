@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that sigma(x) = k has a unique solution.",
+  "id": "A007370",
+  "mentions": [
+    "A007015",
+    "A007369",
+    "A007371",
+    "A007372"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

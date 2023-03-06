@@ -1,0 +1,40 @@
+{
+  "description": "Smallest number of stones in Tchoukaillon (or Mancala, or Kalahari) solitaire that make use of n-th hole.",
+  "id": "A002491",
+  "mentions": [
+    "A000012",
+    "A000960",
+    "A007952",
+    "A028920",
+    "A028931",
+    "A028932",
+    "A028933",
+    "A104738",
+    "A108696",
+    "A112557",
+    "A112558",
+    "A113742",
+    "A113743",
+    "A113744",
+    "A113745",
+    "A113746",
+    "A113747",
+    "A113748",
+    "A113749",
+    "A130747",
+    "A344009"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

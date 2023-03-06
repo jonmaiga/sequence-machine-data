@@ -1,0 +1,18 @@
+{
+  "description": "For n > 4, a(n) is the least integer > a(n-1) with precisely two representations a(n) = a(i) + a(j), 1 <= i < j < n; and a(n) = n for n=1..4.",
+  "id": "A003044",
+  "mentions": [
+    "A060470"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:26:13",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

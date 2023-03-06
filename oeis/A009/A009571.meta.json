@@ -1,0 +1,15 @@
+{
+  "description": "Least m such that if a/b < c/d are Farey fractions of order n then there exists k such that a/b < k/m < c/d, k/m reduced.",
+  "id": "A009571",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

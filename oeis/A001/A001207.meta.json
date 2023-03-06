@@ -1,0 +1,18 @@
+{
+  "description": "Number of fixed hexagonal polyominoes with n cells.",
+  "id": "A001207",
+  "mentions": [
+    "A006770"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

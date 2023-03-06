@@ -1,0 +1,18 @@
+{
+  "description": "Theta series of 20-dimensional lattice R_20 with det 1024 and minimal norm 4.",
+  "id": "A007038",
+  "mentions": [
+    "A034599"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

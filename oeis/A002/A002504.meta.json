@@ -1,0 +1,18 @@
+{
+  "description": "Numbers x such that 1 + 3x*(x-1) is a (\"cuban\") prime (cf. A002407).",
+  "id": "A002504",
+  "mentions": [
+    "A002407",
+    "A133431"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:23:31",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

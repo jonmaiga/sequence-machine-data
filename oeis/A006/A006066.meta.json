@@ -1,0 +1,23 @@
+{
+  "description": "Kobon triangles: maximal number of nonoverlapping triangles that can be formed from n lines drawn in the plane.",
+  "id": "A006066",
+  "mentions": [
+    "A005130",
+    "A032765",
+    "A048872",
+    "A084935"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

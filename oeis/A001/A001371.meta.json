@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-bead necklaces with beads of 2 colors and primitive period n, when turning over is allowed.",
+  "id": "A001371",
+  "mentions": [
+    "A000011",
+    "A000029",
+    "A276550"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

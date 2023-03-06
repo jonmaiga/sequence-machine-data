@@ -1,0 +1,20 @@
+{
+  "description": "Order of 3 mod 3n+2.",
+  "id": "A003572",
+  "mentions": [
+    "A002326",
+    "A003571",
+    "A003574",
+    "A217852"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

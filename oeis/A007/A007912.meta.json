@@ -1,0 +1,21 @@
+{
+  "description": "Quantum factorials: (n-1)!! - (n-2)!! (mod n).",
+  "id": "A007912",
+  "mentions": [
+    "A006882",
+    "A007911"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:47:05",
+    "offset": 3,
+    "size": 89,
+    "source": "joeis"
+  }
+}

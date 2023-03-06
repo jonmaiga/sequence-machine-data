@@ -1,0 +1,24 @@
+{
+  "description": "Powers of 3 written in base 2.",
+  "id": "A004656",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A004643",
+    "A004655",
+    "A004658",
+    "A004659"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

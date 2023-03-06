@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form m^2 + 3m + 9, where m can be positive or negative.",
+  "id": "A005471",
+  "mentions": [
+    "A027692",
+    "A175282",
+    "A227622",
+    "A349461"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:33:41",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

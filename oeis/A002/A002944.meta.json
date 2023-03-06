@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = LCM(1,2,...,n) / n.",
+  "id": "A002944",
+  "mentions": [
+    "A001142",
+    "A001405",
+    "A003418",
+    "A025527",
+    "A025537",
+    "A034386",
+    "A056606",
+    "A100561"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

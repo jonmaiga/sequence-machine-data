@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of length-n sequences s with s[1]=1, s[2]=1, s[k-1] <=s[k] <= s[k-2]+s[k-1] (s is called a sub-Fibonacci sequence of length n).",
+  "id": "A005269",
+  "mentions": [
+    "A003513",
+    "A005268",
+    "A005272",
+    "A008926",
+    "A234595"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

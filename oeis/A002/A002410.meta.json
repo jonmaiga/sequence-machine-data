@@ -1,0 +1,43 @@
+{
+  "description": "Nearest integer to imaginary part of n-th zero of Riemann zeta function.",
+  "id": "A002410",
+  "mentions": [
+    "A013629",
+    "A057640",
+    "A057641",
+    "A058209",
+    "A058210",
+    "A058303",
+    "A065434",
+    "A065452",
+    "A065453",
+    "A072080",
+    "A092783",
+    "A120401",
+    "A122526",
+    "A124288",
+    "A124289",
+    "A177885",
+    "A192492",
+    "A208436",
+    "A236212",
+    "A305741",
+    "A305742",
+    "A305743",
+    "A305744",
+    "A306004"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numerators of convergents to Pi.",
+  "id": "A002485",
+  "mentions": [
+    "A002486",
+    "A004112",
+    "A046947",
+    "A072398",
+    "A072399",
+    "A096456",
+    "A332095"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

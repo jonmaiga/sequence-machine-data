@@ -1,0 +1,40 @@
+{
+  "description": "Number of topologies, or transitive digraphs with n unlabeled nodes.",
+  "id": "A001930",
+  "mentions": [
+    "A000055",
+    "A000088",
+    "A000112",
+    "A000612",
+    "A000664",
+    "A000666",
+    "A000798",
+    "A001035",
+    "A001928",
+    "A001929",
+    "A003180",
+    "A006057",
+    "A008406",
+    "A108798",
+    "A108800",
+    "A193674",
+    "A306445",
+    "A326876",
+    "A326878",
+    "A326882",
+    "A326898"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "description": "Number of hierarchical models on n labeled factors or variables with linear terms forced. Also number of antichain covers of a labeled n-set.",
+  "id": "A006126",
+  "mentions": [
+    "A000372",
+    "A006123",
+    "A006602",
+    "A014466",
+    "A048143",
+    "A051112",
+    "A051118",
+    "A056046",
+    "A056049",
+    "A056052",
+    "A056101",
+    "A056104",
+    "A261005",
+    "A293606",
+    "A293993",
+    "A305000",
+    "A305844",
+    "A306550",
+    "A307249",
+    "A317674",
+    "A319721",
+    "A320449"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

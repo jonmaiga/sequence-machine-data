@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of Fibonacci-Pascal triangle in A045995.",
+  "id": "A006449",
+  "mentions": [
+    "A045995"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

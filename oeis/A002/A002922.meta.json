@@ -1,0 +1,21 @@
+{
+  "description": "Specific heat for diamond.",
+  "id": "A002922",
+  "mentions": [
+    "A002165",
+    "A002167",
+    "A002169",
+    "A002923"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

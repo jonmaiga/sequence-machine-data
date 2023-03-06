@@ -1,0 +1,20 @@
+{
+  "description": "Reduced totient function (divided by 2).",
+  "id": "A002616",
+  "mentions": [
+    "A002322",
+    "A046073"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:24:09",
+    "offset": 3,
+    "size": 89,
+    "source": "joeis"
+  }
+}

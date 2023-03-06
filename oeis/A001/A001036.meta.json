@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A001037, omitting A001037(1).",
+  "id": "A001036",
+  "mentions": [
+    "A001037",
+    "A062692"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:08:30",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

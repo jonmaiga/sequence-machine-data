@@ -1,0 +1,25 @@
+{
+  "description": "Number of n-covers of a 3-set.",
+  "id": "A005745",
+  "mentions": [
+    "A002623",
+    "A002727",
+    "A005744",
+    "A005746",
+    "A005747",
+    "A005748",
+    "A005771"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:34:53",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

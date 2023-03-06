@@ -1,0 +1,34 @@
+{
+  "description": "Decimal expansion of the twin prime constant C_2 = Product_{ p prime >= 3 } (1-1/(p-1)^2).",
+  "id": "A005597",
+  "mentions": [
+    "A000010",
+    "A001692",
+    "A008683",
+    "A062270",
+    "A062271",
+    "A065418",
+    "A065421",
+    "A065645",
+    "A065646",
+    "A065647",
+    "A082695",
+    "A114907",
+    "A156874",
+    "A167864",
+    "A221712"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cons",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

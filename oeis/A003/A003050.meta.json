@@ -1,0 +1,26 @@
+{
+  "description": "Number of primitive sublattices of index n in hexagonal lattice: triples x,y,z from Z/nZ with x+y+z = 0, discarding any triple that can be obtained from another by multiplying by a unit and permuting.",
+  "id": "A003050",
+  "mentions": [
+    "A001615",
+    "A003051",
+    "A006984",
+    "A007997",
+    "A048259",
+    "A054345",
+    "A154272",
+    "A157235"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:26:15",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

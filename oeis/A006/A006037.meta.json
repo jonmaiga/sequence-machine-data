@@ -1,0 +1,30 @@
+{
+  "description": "Weird numbers: abundant (A005101) but not pseudoperfect (A005835).",
+  "id": "A006037",
+  "mentions": [
+    "A001599",
+    "A002975",
+    "A005100",
+    "A005101",
+    "A005835",
+    "A007376",
+    "A065235",
+    "A083209",
+    "A087167",
+    "A122036",
+    "A136446",
+    "A138850",
+    "A210455"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

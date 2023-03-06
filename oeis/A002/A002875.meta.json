@@ -1,0 +1,28 @@
+{
+  "description": "Sorting numbers (see Motzkin article for details).",
+  "id": "A002875",
+  "mentions": [
+    "A000262",
+    "A001861",
+    "A002868",
+    "A002872",
+    "A002873",
+    "A002874",
+    "A036073",
+    "A294201",
+    "A294202"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn",
+    "unkn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

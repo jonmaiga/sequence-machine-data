@@ -1,0 +1,26 @@
+{
+  "description": "Numerators of the Taylor coefficients of (e^x-1)^2.",
+  "id": "A002678",
+  "mentions": [
+    "A000142",
+    "A002679",
+    "A065974",
+    "A065975",
+    "A324003",
+    "A324004",
+    "A324005",
+    "A324006"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:35:37",
+    "offset": 2,
+    "size": 35,
+    "source": "joeis"
+  }
+}

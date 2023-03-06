@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A005579.",
+  "id": "A005347",
+  "mentions": [
+    "A000045",
+    "A000081",
+    "A005579"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

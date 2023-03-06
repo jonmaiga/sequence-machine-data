@@ -1,0 +1,20 @@
+{
+  "description": "Order of universal Chevalley group D_6(q), q = prime power.",
+  "id": "A003845",
+  "mentions": [
+    "A000961",
+    "A003830"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:18:21",
+    "offset": 1,
+    "size": 4,
+    "source": "joeis"
+  }
+}

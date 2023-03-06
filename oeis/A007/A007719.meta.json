@@ -1,0 +1,29 @@
+{
+  "description": "Number of independent polynomial invariants of symmetric matrix of order n.",
+  "id": "A007719",
+  "mentions": [
+    "A002905",
+    "A007716",
+    "A007717",
+    "A020555",
+    "A050535",
+    "A053419",
+    "A076864",
+    "A191970",
+    "A316972",
+    "A316974",
+    "A322115"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

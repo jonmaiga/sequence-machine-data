@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = floor(10000*log_2(n)).",
+  "id": "A004268",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:30:41",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of asymmetric planar trees with n nodes.",
+  "id": "A005354",
+  "mentions": [
+    "A000108",
+    "A002995",
+    "A007727",
+    "A022553"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

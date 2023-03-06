@@ -1,0 +1,27 @@
+{
+  "description": "Primes of the form k^2 - k - 1.",
+  "id": "A002327",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A002328",
+    "A002378",
+    "A003601",
+    "A010051",
+    "A028387",
+    "A088502",
+    "A110013"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

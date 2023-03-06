@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (1+x)/(1-4*x).",
+  "id": "A003947",
+  "mentions": [
+    "A000302",
+    "A003463",
+    "A003948",
+    "A003949",
+    "A011782",
+    "A029653",
+    "A060925",
+    "A146523",
+    "A265583"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

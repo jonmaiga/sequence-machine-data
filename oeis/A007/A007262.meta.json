@@ -1,0 +1,18 @@
+{
+  "description": "McKay-Thompson series of class 6c for Monster.",
+  "id": "A007262",
+  "mentions": [
+    "A132107"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:37:16",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

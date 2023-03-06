@@ -1,0 +1,21 @@
+{
+  "description": "Number of irreducible positions of size n in Montreal solitaire.",
+  "id": "A007049",
+  "mentions": [
+    "A007046",
+    "A007048",
+    "A007050",
+    "A007075",
+    "A007076"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:37:40",
+    "offset": 3,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of homeomorphically irreducible (or series-reduced) trees with n pendant nodes, or continua with n non-cut points, or leaves.",
+  "id": "A007827",
+  "mentions": [
+    "A000014",
+    "A000055",
+    "A000311",
+    "A000669",
+    "A059123",
+    "A064060",
+    "A271205"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:36:27",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

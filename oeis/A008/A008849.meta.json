@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the sum of divisors of n^3 is a square.",
+  "id": "A008849",
+  "mentions": [
+    "A008850",
+    "A046872",
+    "A048948"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

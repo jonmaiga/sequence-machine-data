@@ -1,0 +1,21 @@
+{
+  "description": "Maximal Eulerian numbers.",
+  "id": "A006551",
+  "mentions": [
+    "A007347",
+    "A008292",
+    "A025585",
+    "A180056"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

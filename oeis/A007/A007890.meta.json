@@ -1,0 +1,23 @@
+{
+  "description": "Summarize the previous term! (in decreasing order).",
+  "id": "A007890",
+  "mentions": [
+    "A005150",
+    "A034003",
+    "A036058",
+    "A244112"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:47:01",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

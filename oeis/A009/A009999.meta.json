@@ -1,0 +1,22 @@
+{
+  "description": "Triangle in which j-th entry in i-th row is (i+1-j)^j, 0<=j<=i.",
+  "id": "A009999",
+  "mentions": [
+    "A009998",
+    "A051128",
+    "A095884"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n)=a(a(n-5))+a(n-a(n-5)).",
+  "id": "A006160",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:37:05",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

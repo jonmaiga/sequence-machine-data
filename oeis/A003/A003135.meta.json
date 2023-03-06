@@ -1,0 +1,27 @@
+{
+  "description": "n! is a nontrivial product of factorials. It is conjectured that the list is complete.",
+  "id": "A003135",
+  "mentions": [
+    "A001013",
+    "A034878",
+    "A058295",
+    "A075082",
+    "A109095",
+    "A109096",
+    "A109097",
+    "A109098"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of 4-valent labeled graphs with n nodes where multiple edges and loops are allowed.",
+  "id": "A005816",
+  "mentions": [
+    "A005815",
+    "A033301",
+    "A129429",
+    "A333467"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

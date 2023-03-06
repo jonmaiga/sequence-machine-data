@@ -1,0 +1,29 @@
+{
+  "description": "Number of primes < 10^n.",
+  "id": "A006880",
+  "mentions": [
+    "A000720",
+    "A002050",
+    "A002982",
+    "A006877",
+    "A006879",
+    "A006988",
+    "A007053",
+    "A011557",
+    "A025201",
+    "A040014"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

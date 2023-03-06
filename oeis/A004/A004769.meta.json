@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose binary expansion ends in 011.",
+  "id": "A004769",
+  "mentions": [
+    "A017101"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Minimal discriminant of totally real number field of degree n.",
+  "id": "A006554",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

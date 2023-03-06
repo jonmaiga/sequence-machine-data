@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of 9 positive 4th powers.",
+  "id": "A003343",
+  "mentions": [
+    "A003332",
+    "A003342",
+    "A003344",
+    "A003354",
+    "A345586",
+    "A345843"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number containing n syllables in UK English.",
+  "id": "A002810",
+  "mentions": [
+    "A000027",
+    "A001167",
+    "A045736",
+    "A075774"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

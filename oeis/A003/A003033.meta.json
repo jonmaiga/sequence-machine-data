@@ -1,0 +1,15 @@
+{
+  "description": "Smallest integer m such that the product of every 4 consecutive integers > m has a prime factor > prime(n).",
+  "id": "A003033",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 3,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

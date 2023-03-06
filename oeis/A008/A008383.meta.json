@@ -1,0 +1,21 @@
+{
+  "description": "Coordination sequence for A_4 lattice.",
+  "id": "A008383",
+  "mentions": [
+    "A005901",
+    "A008384",
+    "A008385"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:47:49",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "3 up, 3 down, 3 up, ... permutations of length 3n+1.",
+  "id": "A005982",
+  "mentions": [
+    "A005981",
+    "A229884"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Expansion of 1/eta(q)^24; Fourier coefficients of T_{14}.",
+  "id": "A006922",
+  "mentions": [
+    "A000041",
+    "A000203",
+    "A000594",
+    "A005758",
+    "A023021",
+    "A048057",
+    "A048100",
+    "A048101",
+    "A048110",
+    "A048145",
+    "A144064"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": -1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

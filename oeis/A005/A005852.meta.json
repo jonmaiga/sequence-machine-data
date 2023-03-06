@@ -1,0 +1,21 @@
+{
+  "description": "The coding-theoretic function A(n,8,6).",
+  "id": "A005852",
+  "mentions": [
+    "A004043",
+    "A005851",
+    "A005853",
+    "A005866"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 6,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

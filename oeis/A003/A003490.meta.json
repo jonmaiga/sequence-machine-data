@@ -1,0 +1,15 @@
+{
+  "description": "High temperature series for spin-1/2 Ising surface susceptibility on 3-dimensional simple cubic lattice.",
+  "id": "A003490",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

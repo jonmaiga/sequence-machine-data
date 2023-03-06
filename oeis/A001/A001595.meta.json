@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) + 1, with a(0) = a(1) = 1.",
+  "id": "A001595",
+  "mentions": [
+    "A000045",
+    "A000051",
+    "A000071",
+    "A006355",
+    "A033538",
+    "A049112",
+    "A049114",
+    "A101220",
+    "A109754",
+    "A128587"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

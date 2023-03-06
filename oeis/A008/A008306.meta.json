@@ -1,0 +1,30 @@
+{
+  "description": "Triangle T(n,k) read by rows: associated Stirling numbers of first kind (n >= 2, 1 <= k <= floor(n/2)).",
+  "id": "A008306",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A000276",
+    "A000483",
+    "A008275",
+    "A008517",
+    "A079510",
+    "A106828",
+    "A111999",
+    "A235706"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

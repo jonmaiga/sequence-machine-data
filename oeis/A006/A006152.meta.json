@@ -1,0 +1,20 @@
+{
+  "description": "Exponential generating function x*exp(x/(1-x)).",
+  "id": "A006152",
+  "mentions": [
+    "A000262",
+    "A320264"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

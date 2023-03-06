@@ -1,0 +1,43 @@
+{
+  "description": "Sum of multinomial coefficients (n_1+n_2+...)!/(n_1!*n_2!*...) where (n_1, n_2, ...) runs over all integer partitions of n.",
+  "id": "A005651",
+  "mentions": [
+    "A000041",
+    "A000110",
+    "A000120",
+    "A000258",
+    "A000670",
+    "A006368",
+    "A007837",
+    "A008277",
+    "A008480",
+    "A036038",
+    "A140585",
+    "A178682",
+    "A212855",
+    "A226873",
+    "A226874",
+    "A247551",
+    "A261719",
+    "A262071",
+    "A300335",
+    "A309951",
+    "A309973",
+    "A318762",
+    "A327801",
+    "A327803"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "3x+1 sequence starting at 63.",
+  "id": "A008874",
+  "mentions": [
+    "A006370",
+    "A008875",
+    "A347270"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:49:19",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

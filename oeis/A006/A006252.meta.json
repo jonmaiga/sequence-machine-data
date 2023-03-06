@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - log(1+x)).",
+  "id": "A006252",
+  "mentions": [
+    "A000142",
+    "A000255",
+    "A000522",
+    "A001620",
+    "A007526",
+    "A007840",
+    "A048594",
+    "A052849",
+    "A320080"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2*A004001(n) - n, where A004001 is the Hofstadter-Conway $10000 sequence.",
+  "id": "A004074",
+  "mentions": [
+    "A004001",
+    "A072100",
+    "A082590",
+    "A213057",
+    "A233270",
+    "A249071"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

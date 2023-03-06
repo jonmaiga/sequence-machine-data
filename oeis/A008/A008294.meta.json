@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of coefficients in expansion of D^n (sec x) / sec x in powers of tan x.",
+  "id": "A008294",
+  "mentions": [
+    "A006157",
+    "A008293",
+    "A104035"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:38:19",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of 4 X n Latin rectangles in which the first row is in order.",
+  "id": "A003170",
+  "mentions": [
+    "A000573"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 4,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

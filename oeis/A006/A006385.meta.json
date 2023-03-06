@@ -1,0 +1,22 @@
+{
+  "description": "Number of connected planar maps with n edges.",
+  "id": "A006385",
+  "mentions": [
+    "A006387",
+    "A090376",
+    "A214814",
+    "A214815",
+    "A214816"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

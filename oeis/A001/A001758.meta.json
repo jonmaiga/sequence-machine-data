@@ -1,0 +1,25 @@
+{
+  "description": "Number of quasi-alternating permutations of length n.",
+  "id": "A001758",
+  "mentions": [
+    "A000708",
+    "A001250",
+    "A001759",
+    "A001760",
+    "A008970",
+    "A059427"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

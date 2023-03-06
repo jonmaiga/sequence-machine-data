@@ -1,0 +1,18 @@
+{
+  "description": "Positions of ones in binary expansion of the reciprocal of the golden ratio (0.618...).",
+  "id": "A004714",
+  "mentions": [
+    "A068432",
+    "A169868"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:25",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

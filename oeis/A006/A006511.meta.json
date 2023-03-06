@@ -1,0 +1,25 @@
+{
+  "description": "Largest inverse of totient function (A000010): a(n) is the largest x such that phi(x)=m, where m=A002202(n) is the n-th number in the range of phi.",
+  "id": "A006511",
+  "mentions": [
+    "A000010",
+    "A002181",
+    "A002202",
+    "A036912",
+    "A036913",
+    "A057635",
+    "A057826",
+    "A132154"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that 3*2^k+1 is prime.",
+  "id": "A002253",
+  "mentions": [
+    "A000043",
+    "A001770",
+    "A001775",
+    "A002235",
+    "A002240",
+    "A002254",
+    "A002274",
+    "A002982",
+    "A004119",
+    "A007117",
+    "A039687",
+    "A181565"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

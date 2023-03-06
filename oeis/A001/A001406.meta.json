@@ -1,0 +1,19 @@
+{
+  "description": "High temperature series for partition function for spin-1/2 Ising model on b.c.c. lattice.",
+  "id": "A001406",
+  "mentions": [
+    "A001393",
+    "A001407"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

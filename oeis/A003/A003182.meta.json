@@ -1,0 +1,47 @@
+{
+  "description": "Dedekind numbers: inequivalent monotone Boolean functions of n or fewer variables, or antichains of subsets of an n-set.",
+  "id": "A003182",
+  "mentions": [
+    "A000371",
+    "A000372",
+    "A001206",
+    "A006126",
+    "A006602",
+    "A007153",
+    "A007363",
+    "A007411",
+    "A014466",
+    "A046165",
+    "A048143",
+    "A261005",
+    "A293606",
+    "A293993",
+    "A304996",
+    "A305000",
+    "A305857",
+    "A306007",
+    "A306505",
+    "A307249",
+    "A319721",
+    "A320449",
+    "A321679",
+    "A326358",
+    "A326363",
+    "A348260"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

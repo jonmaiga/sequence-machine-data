@@ -1,0 +1,15 @@
+{
+  "description": "1000*log_10 (n) rounded down.",
+  "id": "A004225",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:30:37",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

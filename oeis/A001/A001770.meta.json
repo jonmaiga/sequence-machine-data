@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that 5*2^k - 1 is prime.",
+  "id": "A001770",
+  "mentions": [
+    "A002254",
+    "A050522",
+    "A084213",
+    "A136539"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

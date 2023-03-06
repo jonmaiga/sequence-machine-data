@@ -1,0 +1,33 @@
+{
+  "description": "Final digit of squares: a(n) = n^2 mod 10.",
+  "id": "A008959",
+  "mentions": [
+    "A000290",
+    "A002015",
+    "A002266",
+    "A008960",
+    "A010879",
+    "A033569",
+    "A070431",
+    "A070435",
+    "A070438",
+    "A070442",
+    "A070452",
+    "A070514",
+    "A159852",
+    "A174452"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:49:33",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

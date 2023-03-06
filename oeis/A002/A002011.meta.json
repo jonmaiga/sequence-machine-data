@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 4*(2n+1)!/n!^2.",
+  "id": "A002011",
+  "mentions": [
+    "A001803",
+    "A002457",
+    "A005430"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

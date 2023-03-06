@@ -1,0 +1,27 @@
+{
+  "description": "Coefficients of Airey's converging factor.",
+  "id": "A001662",
+  "mentions": [
+    "A003633",
+    "A008517",
+    "A013703",
+    "A032188",
+    "A051711",
+    "A274447",
+    "A274448",
+    "A340556"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

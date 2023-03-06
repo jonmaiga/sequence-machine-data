@@ -1,0 +1,20 @@
+{
+  "description": "Order of (usually) simple Chevalley group D_2(q), q = prime power.",
+  "id": "A003848",
+  "mentions": [
+    "A000961",
+    "A003837"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:29:31",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

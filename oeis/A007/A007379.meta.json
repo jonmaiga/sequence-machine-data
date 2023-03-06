@@ -1,0 +1,20 @@
+{
+  "description": "Earliest sequence with a(a(n)) = 4n.",
+  "id": "A007379",
+  "mentions": [
+    "A002516",
+    "A002517"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:44:31",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

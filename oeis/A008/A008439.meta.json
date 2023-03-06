@@ -1,0 +1,30 @@
+{
+  "description": "Expansion of Jacobi theta constant theta_2^5 /32.",
+  "id": "A008439",
+  "mentions": [
+    "A002129",
+    "A007331",
+    "A008438",
+    "A008440",
+    "A008441",
+    "A008443",
+    "A010054",
+    "A014787",
+    "A014809",
+    "A226252",
+    "A226253",
+    "A226254",
+    "A226255"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

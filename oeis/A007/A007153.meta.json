@@ -1,0 +1,21 @@
+{
+  "description": "Dedekind numbers: number of monotone Boolean functions or antichains of subsets of an n-set containing at least one nonempty set.",
+  "id": "A007153",
+  "mentions": [
+    "A000372",
+    "A003182",
+    "A014466"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

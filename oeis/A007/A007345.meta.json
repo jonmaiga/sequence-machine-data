@@ -1,0 +1,18 @@
+{
+  "description": "Number of Havender tableaux of height 2 with n columns.",
+  "id": "A007345",
+  "mentions": [
+    "A259992"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

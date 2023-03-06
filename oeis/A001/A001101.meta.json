@@ -1,0 +1,25 @@
+{
+  "description": "Moran numbers: k such that k/(sum of digits of k) is prime.",
+  "id": "A001101",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A010051",
+    "A062339",
+    "A085775",
+    "A108780",
+    "A130338"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

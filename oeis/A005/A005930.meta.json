@@ -1,0 +1,25 @@
+{
+  "description": "Theta series of D_5 lattice.",
+  "id": "A005930",
+  "mentions": [
+    "A000122",
+    "A000132",
+    "A000700",
+    "A008422",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

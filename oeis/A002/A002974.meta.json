@@ -1,0 +1,25 @@
+{
+  "description": "Number of restricted solid partitions of n.",
+  "id": "A002974",
+  "mentions": [
+    "A000219",
+    "A000293",
+    "A000334",
+    "A001970",
+    "A114736",
+    "A117433",
+    "A321662",
+    "A323657"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

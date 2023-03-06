@@ -1,0 +1,28 @@
+{
+  "description": "Number of dissections of a polygon: binomial(6n,n)/(5n+1).",
+  "id": "A002295",
+  "mentions": [
+    "A000108",
+    "A000332",
+    "A000969",
+    "A001764",
+    "A002293",
+    "A002294",
+    "A002296",
+    "A005676",
+    "A062993"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

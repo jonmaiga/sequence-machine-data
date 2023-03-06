@@ -1,0 +1,19 @@
+{
+  "description": "Distinct perimeter lengths of polygons with regularly spaced vertices.",
+  "id": "A007874",
+  "mentions": [
+    "A030077",
+    "A052558",
+    "A127040"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

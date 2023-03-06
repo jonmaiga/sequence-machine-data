@@ -1,0 +1,19 @@
+{
+  "description": "Number of points on surface of truncated cube: 46n^2 + 2.",
+  "id": "A005911",
+  "mentions": [
+    "A000051"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:35:57",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

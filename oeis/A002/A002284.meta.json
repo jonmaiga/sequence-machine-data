@@ -1,0 +1,17 @@
+{
+  "description": "q-expansion of modular form of weight 13/2: eta(8 tau)^12 * theta(tau).",
+  "id": "A002284",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

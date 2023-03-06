@@ -1,0 +1,20 @@
+{
+  "description": "Order of universal Chevalley group A_3 (q) (or D_3 (q)), q = prime power.",
+  "id": "A003801",
+  "mentions": [
+    "A000961",
+    "A003787"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:29:25",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

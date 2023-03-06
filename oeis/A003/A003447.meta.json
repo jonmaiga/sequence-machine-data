@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonequivalent dissections of an n-gon into n-3 polygons by nonintersecting diagonals rooted at a cell up to rotation and reflection.",
+  "id": "A003447",
+  "mentions": [
+    "A003448",
+    "A003452",
+    "A003456"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 4,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

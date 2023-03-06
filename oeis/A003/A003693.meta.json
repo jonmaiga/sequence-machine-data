@@ -1,0 +1,24 @@
+{
+  "description": "Number of 2-factors in P_4 X P_n.",
+  "id": "A003693",
+  "mentions": [
+    "A003776",
+    "A145400",
+    "A145415",
+    "A145417",
+    "A222202",
+    "A222203"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

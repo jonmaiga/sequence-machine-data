@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is 9 written in base 10-n.",
+  "id": "A001731",
+  "mentions": [
+    "A001732",
+    "A001733",
+    "A001734",
+    "A001735",
+    "A001736"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

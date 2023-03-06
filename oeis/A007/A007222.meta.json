@@ -1,0 +1,15 @@
+{
+  "description": "Almost-convex polygons of perimeter 2n on square lattice.",
+  "id": "A007222",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 10,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

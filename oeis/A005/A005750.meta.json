@@ -1,0 +1,22 @@
+{
+  "description": "Number of planted matched trees with n nodes.",
+  "id": "A005750",
+  "mentions": [
+    "A000151",
+    "A054581",
+    "A058866",
+    "A058870",
+    "A245870"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

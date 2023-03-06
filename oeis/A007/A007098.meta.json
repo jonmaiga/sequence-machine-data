@@ -1,0 +1,18 @@
+{
+  "description": "Number of unlabeled bisectable trees with 2n+1 nodes.",
+  "id": "A007098",
+  "mentions": [
+    "A228601"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Differences of 0; labeled ordered partitions into 5 parts.",
+  "id": "A001118",
+  "mentions": [
+    "A000051",
+    "A000918",
+    "A000919",
+    "A000920",
+    "A001117",
+    "A019538"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

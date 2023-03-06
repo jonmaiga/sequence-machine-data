@@ -1,0 +1,30 @@
+{
+  "description": "Orders of noncyclic simple groups (without repetition).",
+  "id": "A001034",
+  "mentions": [
+    "A000001",
+    "A000679",
+    "A001228",
+    "A005180",
+    "A056866",
+    "A056868",
+    "A060793",
+    "A083207",
+    "A109379",
+    "A119630",
+    "A119648",
+    "A257146"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Beginnings of periodic unitary aliquot sequences.",
+  "id": "A003062",
+  "mentions": [
+    "A002827",
+    "A034460",
+    "A063991",
+    "A097010",
+    "A097024",
+    "A097030",
+    "A097034",
+    "A097035",
+    "A097036",
+    "A097037",
+    "A318880"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

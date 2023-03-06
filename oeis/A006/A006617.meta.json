@@ -1,0 +1,18 @@
+{
+  "description": "Zarankiewicz's problem.",
+  "id": "A006617",
+  "mentions": [
+    "A001197"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

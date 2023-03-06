@@ -1,0 +1,23 @@
+{
+  "description": "Rows of Sierpiński's triangle (Pascal's triangle mod 2).",
+  "id": "A006943",
+  "mentions": [
+    "A000120",
+    "A001317",
+    "A080176",
+    "A249183"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

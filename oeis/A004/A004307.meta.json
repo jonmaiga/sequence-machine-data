@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations p of [n] such that n-p(i)+i >= 4 (mod n) for all i.",
+  "id": "A004307",
+  "mentions": [
+    "A008305"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 4,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

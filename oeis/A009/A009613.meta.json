@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. sinh(tan(x)*tan(x)) (even powers only).",
+  "id": "A009613",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:40:12",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

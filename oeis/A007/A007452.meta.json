@@ -1,0 +1,24 @@
+{
+  "description": "Expand cos x / exp x and invert nonzero coefficients.",
+  "id": "A007452",
+  "mentions": [
+    "A007019",
+    "A007415",
+    "A009775",
+    "A046979",
+    "A046981",
+    "A052277",
+    "A092820"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:08:49",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of distinct orders of permutations of n objects; number of nonisomorphic cyclic subgroups of symmetric group S_n.",
+  "id": "A009490",
+  "mentions": [
+    "A000792",
+    "A000793",
+    "A023893",
+    "A034891",
+    "A051613",
+    "A051625",
+    "A256067"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

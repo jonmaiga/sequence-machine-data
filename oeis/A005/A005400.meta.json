@@ -1,0 +1,19 @@
+{
+  "description": "High temperature series for spin-1/2 Heisenberg specific heat on 2D hexagonal lattice.",
+  "id": "A005400",
+  "mentions": [
+    "A005399",
+    "A005402"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

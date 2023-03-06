@@ -1,0 +1,27 @@
+{
+  "description": "Number of simple imperfect squared rectangles of order n up to symmetry.",
+  "id": "A002881",
+  "mentions": [
+    "A000162",
+    "A002839",
+    "A002962",
+    "A006983",
+    "A181735",
+    "A217153",
+    "A217154",
+    "A217156",
+    "A220165"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

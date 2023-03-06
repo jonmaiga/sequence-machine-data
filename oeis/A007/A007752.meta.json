@@ -1,0 +1,19 @@
+{
+  "description": "Odd bisection of A007750.",
+  "id": "A007752",
+  "mentions": [
+    "A007750",
+    "A007751"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2^(n^2).",
+  "id": "A002416",
+  "mentions": [
+    "A053763",
+    "A060656",
+    "A064062",
+    "A064231",
+    "A319015"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

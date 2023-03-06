@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n for which rank of the elliptic curve y^2=x^3-n is 0.",
+  "id": "A002150",
+  "mentions": [
+    "A002152",
+    "A002154",
+    "A060951",
+    "A179136",
+    "A179137"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

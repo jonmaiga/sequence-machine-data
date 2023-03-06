@@ -1,0 +1,22 @@
+{
+  "description": "Number of trivalent bipartite labeled graphs with 2n labeled nodes.",
+  "id": "A006714",
+  "mentions": [
+    "A001501",
+    "A002829",
+    "A002831",
+    "A004109",
+    "A246599"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

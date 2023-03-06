@@ -1,0 +1,20 @@
+{
+  "description": "If n appears so do 2n, 3n+2, 6n+3.",
+  "id": "A005658",
+  "mentions": [
+    "A002977",
+    "A185661"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

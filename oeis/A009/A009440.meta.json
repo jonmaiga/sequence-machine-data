@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the concatenation of n and 6n.",
+  "id": "A009440",
+  "mentions": [
+    "A009441",
+    "A009470",
+    "A009474",
+    "A019550",
+    "A019551",
+    "A019552",
+    "A019553",
+    "A020338"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:56:33",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

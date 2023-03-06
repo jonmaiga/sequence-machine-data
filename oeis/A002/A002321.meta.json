@@ -1,0 +1,31 @@
+{
+  "description": "Mertens's function: Sum_{k=1..n} mu(k), where mu is the Moebius function A008683.",
+  "id": "A002321",
+  "mentions": [
+    "A002088",
+    "A007427",
+    "A008683",
+    "A038566",
+    "A038567",
+    "A059571",
+    "A134541",
+    "A156709",
+    "A156749",
+    "A179287",
+    "A192763",
+    "A209802"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

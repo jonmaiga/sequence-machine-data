@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are the sum of 2 nonzero squares in 2 or more ways.",
+  "id": "A007692",
+  "mentions": [
+    "A000404",
+    "A001481",
+    "A004431",
+    "A009177",
+    "A018825",
+    "A025284",
+    "A025285",
+    "A025426",
+    "A118882"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

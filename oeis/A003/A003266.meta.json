@@ -1,0 +1,36 @@
+{
+  "description": "Product of first n nonzero Fibonacci numbers F(1), ..., F(n).",
+  "id": "A003266",
+  "mentions": [
+    "A000045",
+    "A002110",
+    "A003046",
+    "A062073",
+    "A069777",
+    "A070825",
+    "A101689",
+    "A123029",
+    "A123741",
+    "A126772",
+    "A135598",
+    "A158472",
+    "A176343",
+    "A194157",
+    "A194158",
+    "A238243",
+    "A238244"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

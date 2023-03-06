@@ -1,0 +1,26 @@
+{
+  "description": "Hoggatt sequence with parameter d=5.",
+  "id": "A005363",
+  "mentions": [
+    "A000079",
+    "A000108",
+    "A001181",
+    "A005362",
+    "A005364",
+    "A005365",
+    "A005366",
+    "A056941",
+    "A116925"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

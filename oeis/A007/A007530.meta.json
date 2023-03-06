@@ -1,0 +1,23 @@
+{
+  "description": "Prime quadruples: numbers k such that k, k+2, k+6, k+8 are all prime.",
+  "id": "A007530",
+  "mentions": [
+    "A007811",
+    "A014561",
+    "A022004",
+    "A120120",
+    "A136162",
+    "A159910"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

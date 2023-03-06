@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n^2 + prime(n).",
+  "id": "A004232",
+  "mentions": [
+    "A184935"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:30:37",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

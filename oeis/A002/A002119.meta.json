@@ -1,0 +1,35 @@
+{
+  "description": "Bessel polynomial y_n(-2).",
+  "id": "A002119",
+  "mentions": [
+    "A000806",
+    "A001498",
+    "A001514",
+    "A001517",
+    "A005363",
+    "A006199",
+    "A033815",
+    "A053556",
+    "A053557",
+    "A065707",
+    "A065920",
+    "A065921",
+    "A065922",
+    "A065923",
+    "A273013"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

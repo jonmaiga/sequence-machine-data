@@ -1,0 +1,27 @@
+{
+  "description": "Sum of primes = 3 mod 4 dividing n.",
+  "id": "A005082",
+  "mentions": [
+    "A005069",
+    "A005078",
+    "A005083",
+    "A005084",
+    "A005085",
+    "A008472",
+    "A020639",
+    "A028234",
+    "A059841",
+    "A079978"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

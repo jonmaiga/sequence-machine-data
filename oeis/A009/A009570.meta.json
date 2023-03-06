@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. sinh(log(1+tanh(x))).",
+  "id": "A009570",
+  "mentions": [
+    "A009126"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

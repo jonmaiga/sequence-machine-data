@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{j=1..n} binomial(n^2, j).",
+  "id": "A007819",
+  "mentions": [
+    "A066382"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

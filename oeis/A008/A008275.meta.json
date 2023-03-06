@@ -1,0 +1,46 @@
+{
+  "description": "Triangle read by rows of Stirling numbers of first kind, s(n,k), n >= 1, 1 <= k <= n.",
+  "id": "A008275",
+  "mentions": [
+    "A000142",
+    "A000217",
+    "A000914",
+    "A000915",
+    "A001303",
+    "A008276",
+    "A008277",
+    "A008278",
+    "A008517",
+    "A036039",
+    "A039814",
+    "A039815",
+    "A039816",
+    "A039817",
+    "A048993",
+    "A048994",
+    "A049029",
+    "A053567",
+    "A084938",
+    "A087748",
+    "A087755",
+    "A094216",
+    "A094262",
+    "A121632",
+    "A130534"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "core",
+    "formulas",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:13",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

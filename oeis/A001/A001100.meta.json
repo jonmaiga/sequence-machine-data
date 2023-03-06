@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of permutations of length n with exactly k rising or falling successions, for n >= 1, 0 <= k <= n-1.",
+  "id": "A001100",
+  "mentions": [
+    "A002464",
+    "A010028",
+    "A086852",
+    "A086853",
+    "A086854",
+    "A086856",
+    "A086955",
+    "A322294",
+    "A322295",
+    "A322296"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

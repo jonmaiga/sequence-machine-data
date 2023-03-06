@@ -1,0 +1,18 @@
+{
+  "description": "Number of non-neighborly combinatorial 3-manifolds.",
+  "id": "A005026",
+  "mentions": [
+    "A108239"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 6,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

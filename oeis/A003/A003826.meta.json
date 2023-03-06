@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of two cubes in at least four ways (primitive solutions).",
+  "id": "A003826",
+  "mentions": [
+    "A001235",
+    "A003825",
+    "A011541",
+    "A023050",
+    "A023051"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Certain subgraphs of a directed graph.",
+  "id": "A005328",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:38:04",
+    "offset": 2,
+    "size": 14,
+    "source": "joeis"
+  }
+}

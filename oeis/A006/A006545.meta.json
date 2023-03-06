@@ -1,0 +1,20 @@
+{
+  "description": "Number of stable unicyclic graphs with n nodes.",
+  "id": "A006545",
+  "mentions": [
+    "A003426",
+    "A003429",
+    "A006544"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

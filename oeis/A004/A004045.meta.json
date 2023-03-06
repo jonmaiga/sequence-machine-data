@@ -1,0 +1,17 @@
+{
+  "description": "Minimal size of binary code of length n such that every vector is within distance 1 of at least 2 codewords.",
+  "id": "A004045",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

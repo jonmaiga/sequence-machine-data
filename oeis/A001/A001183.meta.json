@@ -1,0 +1,20 @@
+{
+  "description": "Number of nontrivial Baxter permutations of length 2n-1.",
+  "id": "A001183",
+  "mentions": [
+    "A001181",
+    "A001185",
+    "A046996"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

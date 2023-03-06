@@ -1,0 +1,19 @@
+{
+  "description": "Minimal span of set of n elements with no 3-term arithmetic progression.",
+  "id": "A005047",
+  "mentions": [
+    "A065825"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

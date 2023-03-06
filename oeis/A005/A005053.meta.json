@@ -1,0 +1,20 @@
+{
+  "description": "Expand (1-2*x)/(1-5*x).",
+  "id": "A005053",
+  "mentions": [
+    "A122117",
+    "A180034"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

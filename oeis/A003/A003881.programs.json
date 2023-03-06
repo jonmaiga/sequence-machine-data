@@ -1,0 +1,117 @@
+{
+  "oi": 3881,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "9-A210958(n)",
+      "mt": 10000,
+      "px": [
+        "9",
+        "n",
+        "A210958",
+        "sub"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[atan(1)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "atan",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[acot(1)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "acot",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[π/4]",
+      "mt": 50,
+      "px": [
+        "π",
+        "4",
+        "/",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-01-31",
+      "ix": "limit[atan(tanh(n))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "tanh",
+        "atan",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-01-31",
+      "ix": "limit[acot(tanh(n))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "tanh",
+        "acot",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-10-07",
+      "ix": "limit[acot(cosh(char[1]))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "char",
+        "cosh",
+        "acot",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-06-01",
+      "ix": "limit[atan(floor(atan(n)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "atan",
+        "floor",
+        "atan",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-10-06",
+      "ix": "limit[atan(ceil(acot(n)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "acot",
+        "ceil",
+        "atan",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-10-05",
+      "ix": "limit[acot(ceil(acot(n)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "acot",
+        "ceil",
+        "acot",
+        "limit"
+      ]
+    }
+  ]
+}

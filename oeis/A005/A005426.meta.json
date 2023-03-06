@@ -1,0 +1,17 @@
+{
+  "description": "Number of linear geometries on n points with <=3 points per line.",
+  "id": "A005426",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

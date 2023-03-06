@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are the sum of at most 11 positive 11th powers.",
+  "id": "A004917",
+  "mentions": [
+    "A008455",
+    "A336820"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

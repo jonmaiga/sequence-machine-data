@@ -1,0 +1,20 @@
+{
+  "description": "Low-temperature series for partition function for spin-1/2 Ising model on f.c.c. lattice.",
+  "id": "A002892",
+  "mentions": [
+    "A001407",
+    "A002891",
+    "A002924",
+    "A003196"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

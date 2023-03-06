@@ -1,0 +1,29 @@
+{
+  "description": "Denominators of coefficients of odd powers of x of the expansion of Bessel function J_1(x).",
+  "id": "A002474",
+  "mentions": [
+    "A002454",
+    "A002506",
+    "A010790",
+    "A014401",
+    "A033999",
+    "A061403",
+    "A061404",
+    "A061405",
+    "A061407",
+    "A061440",
+    "A061441"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of unreformed permutations of {1,...,n}.",
+  "id": "A007711",
+  "mentions": [
+    "A002467",
+    "A007709",
+    "A007712",
+    "A055459",
+    "A067950"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

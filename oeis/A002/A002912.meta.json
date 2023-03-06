@@ -1,0 +1,18 @@
+{
+  "description": "Low-temperature series in z = exp(-2J/kT) for ferromagnetic susceptibility for the Ising model on honeycomb structure.",
+  "id": "A002912",
+  "mentions": [
+    "A002978",
+    "A007239"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

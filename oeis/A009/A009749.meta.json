@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. tan(x)*tan(sinh(x)), even powers only.",
+  "id": "A009749",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of 5-line partitions of n.",
+  "id": "A001452",
+  "mentions": [
+    "A000041",
+    "A000990",
+    "A000991",
+    "A002799",
+    "A225196",
+    "A225197",
+    "A225198",
+    "A225199",
+    "A242641"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

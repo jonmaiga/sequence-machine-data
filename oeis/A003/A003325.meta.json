@@ -1,0 +1,33 @@
+{
+  "description": "Numbers that are the sum of 2 positive cubes.",
+  "id": "A003325",
+  "mentions": [
+    "A000578",
+    "A001235",
+    "A003072",
+    "A003826",
+    "A004999",
+    "A010052",
+    "A010057",
+    "A011541",
+    "A024670",
+    "A027750",
+    "A045980",
+    "A052276",
+    "A085323",
+    "A113958",
+    "A202679"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of partitions of n into cubes.",
+  "id": "A003108",
+  "mentions": [
+    "A000051",
+    "A000578",
+    "A001156",
+    "A003105",
+    "A037444",
+    "A046042",
+    "A068980",
+    "A131799",
+    "A218495",
+    "A226748",
+    "A259792",
+    "A259793",
+    "A279329",
+    "A280263"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Inverse Moebius transform of triangular numbers.",
+  "id": "A007437",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A003633",
+    "A134544",
+    "A134545",
+    "A134839",
+    "A135539",
+    "A301873",
+    "A301874"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

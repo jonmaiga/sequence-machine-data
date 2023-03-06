@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of coefficients of log(1+x)/sqrt(1+x).",
+  "id": "A002550",
+  "mentions": [
+    "A002549",
+    "A002551"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

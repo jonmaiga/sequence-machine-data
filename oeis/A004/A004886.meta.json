@@ -1,0 +1,15 @@
+{
+  "description": "Numbers that are the sum of at most 2 positive 9th powers.",
+  "id": "A004886",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:49",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

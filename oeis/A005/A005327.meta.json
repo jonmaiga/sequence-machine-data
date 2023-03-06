@@ -1,0 +1,21 @@
+{
+  "description": "Certain subgraphs of a directed graph (inverse binomial transform of A005321).",
+  "id": "A005327",
+  "mentions": [
+    "A002820",
+    "A005321",
+    "A005329",
+    "A048651"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

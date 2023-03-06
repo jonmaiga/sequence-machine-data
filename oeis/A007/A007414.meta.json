@@ -1,0 +1,17 @@
+{
+  "description": "Largest number not a sum of distinct primes >= prime(n).",
+  "id": "A007414",
+  "mentions": [
+    "A180306"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

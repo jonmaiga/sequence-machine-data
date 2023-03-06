@@ -1,0 +1,35 @@
+{
+  "description": "a(n) is the number of hierarchical models on n unlabeled factors or variables with linear terms forced.",
+  "id": "A006602",
+  "mentions": [
+    "A000372",
+    "A003182",
+    "A006126",
+    "A007411",
+    "A014466",
+    "A048143",
+    "A261005",
+    "A293993",
+    "A304997",
+    "A304998",
+    "A304999",
+    "A305001",
+    "A305855",
+    "A306505",
+    "A320449",
+    "A321679"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

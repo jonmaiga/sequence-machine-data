@@ -1,0 +1,23 @@
+{
+  "description": "Smallest number of complexity n: smallest number requiring n 1's to build using +, * and ^.",
+  "id": "A003037",
+  "mentions": [
+    "A005208",
+    "A005245",
+    "A005421",
+    "A005520",
+    "A025280",
+    "A117618"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

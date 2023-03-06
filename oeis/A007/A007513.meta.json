@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = initial prime of n consecutive primes such that first and last have same digit sum.",
+  "id": "A007513",
+  "mentions": [
+    "A007605",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

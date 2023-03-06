@@ -1,0 +1,21 @@
+{
+  "description": "Series for first parallel moment of square lattice.",
+  "id": "A006728",
+  "mentions": [
+    "A006727",
+    "A006729",
+    "A006730",
+    "A260330"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

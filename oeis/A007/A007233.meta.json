@@ -1,0 +1,17 @@
+{
+  "description": "Number of free subsets of multiplicative group of GF(7^n).",
+  "id": "A007233",
+  "mentions": [
+    "A007232"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

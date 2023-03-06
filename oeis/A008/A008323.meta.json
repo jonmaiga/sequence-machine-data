@@ -1,0 +1,21 @@
+{
+  "description": "Number of simple connected regular bipartite graphs with 2n nodes.",
+  "id": "A008323",
+  "mentions": [
+    "A005142",
+    "A008324",
+    "A008326"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

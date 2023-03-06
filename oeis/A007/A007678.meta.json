@@ -1,0 +1,36 @@
+{
+  "description": "Number of regions in regular n-gon with all diagonals drawn.",
+  "id": "A007678",
+  "mentions": [
+    "A001006",
+    "A006522",
+    "A006532",
+    "A006533",
+    "A006561",
+    "A006600",
+    "A007569",
+    "A054726",
+    "A062361",
+    "A135565",
+    "A331450",
+    "A331451",
+    "A331452",
+    "A333654",
+    "A335614",
+    "A335646",
+    "A337330",
+    "A350000"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:45:55",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

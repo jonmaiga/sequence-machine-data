@@ -1,0 +1,23 @@
+{
+  "description": "Number of labeled odd degree trees with 2n nodes.",
+  "id": "A007106",
+  "mentions": [
+    "A002454",
+    "A036778",
+    "A058014",
+    "A060279",
+    "A143601",
+    "A156289"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

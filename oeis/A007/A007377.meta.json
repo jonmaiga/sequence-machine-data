@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that the decimal expansion of 2^k contains no 0.",
+  "id": "A007377",
+  "mentions": [
+    "A007376",
+    "A007496",
+    "A027870",
+    "A030700",
+    "A031142",
+    "A034293",
+    "A035064",
+    "A102483",
+    "A224782"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

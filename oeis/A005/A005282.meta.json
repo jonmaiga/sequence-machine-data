@@ -1,0 +1,28 @@
+{
+  "description": "Mian-Chowla sequence (a B_2 sequence): a(1) = 1; for n>1, a(n) = smallest number > a(n-1) such that the pairwise sums of elements are all distinct.",
+  "id": "A005282",
+  "mentions": [
+    "A001149",
+    "A003022",
+    "A011185",
+    "A025582",
+    "A034757",
+    "A046185",
+    "A051788",
+    "A080200",
+    "A227590",
+    "A259964"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

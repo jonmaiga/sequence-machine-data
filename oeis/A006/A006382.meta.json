@@ -1,0 +1,22 @@
+{
+  "description": "Number of n X 4 binary matrices under row and column permutations and column complementations.",
+  "id": "A006382",
+  "mentions": [
+    "A002727",
+    "A005232",
+    "A006148",
+    "A006380",
+    "A006381"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:52",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

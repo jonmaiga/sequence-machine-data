@@ -1,0 +1,19 @@
+{
+  "description": "One-half the number of permutations of length n without rising or falling successions.",
+  "id": "A001266",
+  "mentions": [
+    "A002464",
+    "A010028"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

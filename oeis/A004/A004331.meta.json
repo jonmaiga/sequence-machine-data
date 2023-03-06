@@ -1,0 +1,24 @@
+{
+  "description": "Binomial coefficient C(4n,n-1).",
+  "id": "A004331",
+  "mentions": [
+    "A002293",
+    "A005810",
+    "A052203",
+    "A224274",
+    "A257633",
+    "A262977"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:10:19",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

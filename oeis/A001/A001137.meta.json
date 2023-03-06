@@ -1,0 +1,18 @@
+{
+  "description": "Number of black-rooted red-black trees with n internal nodes.",
+  "id": "A001137",
+  "mentions": [
+    "A001131"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

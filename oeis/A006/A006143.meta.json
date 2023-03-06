@@ -1,0 +1,19 @@
+{
+  "description": "Number of certain self-avoiding walks with n steps on square lattice (see reference for precise definition).",
+  "id": "A006143",
+  "mentions": [
+    "A002976"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 4,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

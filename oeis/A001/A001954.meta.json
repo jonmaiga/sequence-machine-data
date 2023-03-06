@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor((n+1/2)*(2+sqrt(2))); winning positions in the 2-Wythoff game.",
+  "id": "A001954",
+  "mentions": [
+    "A001953",
+    "A003152",
+    "A049473",
+    "A115004"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Sum of 4th powers of primes = 3 mod 4 dividing n.",
+  "id": "A005085",
+  "mentions": [
+    "A000583",
+    "A005065",
+    "A005081",
+    "A005082",
+    "A005083",
+    "A005084",
+    "A020639",
+    "A028234",
+    "A059841"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

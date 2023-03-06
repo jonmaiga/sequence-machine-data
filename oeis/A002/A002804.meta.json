@@ -1,0 +1,23 @@
+{
+  "description": "(Presumed) solution to Waring's problem: g(n) = 2^n + floor((3/2)^n) - 2.",
+  "id": "A002804",
+  "mentions": [
+    "A002376",
+    "A002377",
+    "A079611",
+    "A174406",
+    "A174420",
+    "A297446"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:17:46",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

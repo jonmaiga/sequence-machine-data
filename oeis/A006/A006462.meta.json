@@ -1,0 +1,17 @@
+{
+  "description": "Percolation series for directed square lattice.",
+  "id": "A006462",
+  "mentions": [
+    "A006461"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

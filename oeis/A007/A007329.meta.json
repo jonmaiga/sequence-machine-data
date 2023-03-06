@@ -1,0 +1,25 @@
+{
+  "description": "Unexplained difference between two partition generating functions.",
+  "id": "A007329",
+  "mentions": [
+    "A000219",
+    "A000416",
+    "A000417",
+    "A007326",
+    "A007327",
+    "A007328",
+    "A007330"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

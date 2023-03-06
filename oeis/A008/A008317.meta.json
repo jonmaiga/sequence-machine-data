@@ -1,0 +1,18 @@
+{
+  "description": "Triangle of coefficients of expansions of powers of x in terms of Legendre polynomials P_n(x) over common denominator.",
+  "id": "A008317",
+  "mentions": [
+    "A001790"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:47:18",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

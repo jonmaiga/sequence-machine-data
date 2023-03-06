@@ -1,0 +1,29 @@
+{
+  "description": "McKay-Thompson series of class 11A for the Monster group with a(0) = -5.",
+  "id": "A003295",
+  "mentions": [
+    "A000521",
+    "A007240",
+    "A007241",
+    "A007267",
+    "A014708",
+    "A045478",
+    "A058205",
+    "A128525",
+    "A128663",
+    "A134784"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:28:03",
+    "offset": -1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

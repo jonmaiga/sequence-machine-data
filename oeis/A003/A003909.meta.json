@@ -1,0 +1,17 @@
+{
+  "description": "Degrees of irreducible representations of McLaughlin group McL.",
+  "id": "A003909",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

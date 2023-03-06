@@ -1,0 +1,33 @@
+{
+  "description": "2 together with primes multiplied by 2.",
+  "id": "A001747",
+  "mentions": [
+    "A001043",
+    "A001223",
+    "A006093",
+    "A008578",
+    "A009530",
+    "A060679",
+    "A073582",
+    "A074845",
+    "A077017",
+    "A092673",
+    "A098764",
+    "A100484",
+    "A116366",
+    "A143201"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:19:29",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

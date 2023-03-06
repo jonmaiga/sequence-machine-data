@@ -1,0 +1,20 @@
+{
+  "description": "Number of equilateral triangles formed by triples of points taken from a hexagonal chunk of side n in the hexagonal lattice.",
+  "id": "A008893",
+  "mentions": [
+    "A045949",
+    "A152041"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

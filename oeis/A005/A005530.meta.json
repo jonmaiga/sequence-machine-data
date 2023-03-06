@@ -1,0 +1,23 @@
+{
+  "description": "Number of Boolean functions of n variables from Post class F(8,inf); number of degenerate Boolean functions of n variables.",
+  "id": "A005530",
+  "mentions": [
+    "A000371",
+    "A003320",
+    "A036239",
+    "A036240"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

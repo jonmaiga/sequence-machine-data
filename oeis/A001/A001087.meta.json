@@ -1,0 +1,18 @@
+{
+  "description": "Related to S(n), the number of self-dual monotone Boolean functions of n variables (A001206): 2^n-th term is S(n).",
+  "id": "A001087",
+  "mentions": [
+    "A001206"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

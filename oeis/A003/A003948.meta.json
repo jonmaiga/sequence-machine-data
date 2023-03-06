@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (1+x)/(1-5*x).",
+  "id": "A003948",
+  "mentions": [
+    "A003946",
+    "A003947",
+    "A003949",
+    "A003950",
+    "A003952",
+    "A003954",
+    "A029653"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

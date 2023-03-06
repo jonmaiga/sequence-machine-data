@@ -1,0 +1,23 @@
+{
+  "description": "Number of planted trees: all sub-rooted trees from any node are identical; non-root, non-leaf nodes an even distance from the root are of degree 2.",
+  "id": "A007439",
+  "mentions": [
+    "A003238",
+    "A007562",
+    "A027750"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:44:37",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Minimal integer square root of -1 modulo p, where p is the n-th prime of the form 4k+1.",
+  "id": "A002314",
+  "mentions": [
+    "A002144",
+    "A002313",
+    "A005528",
+    "A047818",
+    "A057756",
+    "A152676",
+    "A152680"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

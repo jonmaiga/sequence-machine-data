@@ -1,0 +1,27 @@
+{
+  "description": "Determinant of inverse Hilbert matrix.",
+  "id": "A005249",
+  "mentions": [
+    "A000178",
+    "A000515",
+    "A056040",
+    "A060739",
+    "A067689",
+    "A069945",
+    "A074962",
+    "A163085"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

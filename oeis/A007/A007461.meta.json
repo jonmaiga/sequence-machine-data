@@ -1,0 +1,23 @@
+{
+  "description": "Shifts left under AND-convolution with itself.",
+  "id": "A007461",
+  "mentions": [
+    "A000225",
+    "A003633",
+    "A007460",
+    "A062289",
+    "A199770"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

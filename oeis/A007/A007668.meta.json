@@ -1,0 +1,18 @@
+{
+  "description": "phi(n) divides sigma(n) and sigma(n)/n > sigma(m)/m for all m < n.",
+  "id": "A007668",
+  "mentions": [
+    "A004394",
+    "A020492"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

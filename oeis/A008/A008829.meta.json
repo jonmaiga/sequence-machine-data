@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number a(n) formed from consecutive sequences of digits of Pi and satisfying a(n) > a(n-1); first 3 is omitted.",
+  "id": "A008829",
+  "mentions": [
+    "A000796",
+    "A016062"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are divisible by each nonzero digit.",
+  "id": "A002796",
+  "mentions": [
+    "A007602",
+    "A034838",
+    "A067458",
+    "A171492",
+    "A237851"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:24:53",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

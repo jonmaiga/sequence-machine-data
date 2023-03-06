@@ -1,0 +1,28 @@
+{
+  "description": "Aliquot sequence starting at 30.",
+  "id": "A008885",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A008886",
+    "A008887",
+    "A008888",
+    "A008889",
+    "A008890",
+    "A008891",
+    "A008892"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

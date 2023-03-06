@@ -1,0 +1,21 @@
+{
+  "description": "Half the number of binary relations on n unlabeled points.",
+  "id": "A001173",
+  "mentions": [
+    "A000088",
+    "A000595",
+    "A001174"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:32:40",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

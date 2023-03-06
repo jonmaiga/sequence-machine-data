@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of (1-x)^(-3) * (1-x^2)^(-2).",
+  "id": "A002624",
+  "mentions": [
+    "A000051",
+    "A000601",
+    "A001752",
+    "A006918",
+    "A007009",
+    "A047659",
+    "A139600",
+    "A180662"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

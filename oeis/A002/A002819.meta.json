@@ -1,0 +1,23 @@
+{
+  "description": "Liouville's function L(n) = partial sums of A008836.",
+  "id": "A002819",
+  "mentions": [
+    "A002053",
+    "A008836",
+    "A028488",
+    "A174856",
+    "A239122"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

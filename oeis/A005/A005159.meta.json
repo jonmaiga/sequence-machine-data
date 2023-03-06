@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 3^n*Catalan(n).",
+  "id": "A005159",
+  "mentions": [
+    "A000108",
+    "A000244",
+    "A025226",
+    "A053764",
+    "A085880",
+    "A102994"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

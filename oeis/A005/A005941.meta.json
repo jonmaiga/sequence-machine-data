@@ -1,0 +1,21 @@
+{
+  "description": "Inverse of the Doudna sequence A005940.",
+  "id": "A005941",
+  "mentions": [
+    "A005940",
+    "A029747",
+    "A103969",
+    "A156552"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

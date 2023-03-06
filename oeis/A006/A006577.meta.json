@@ -1,0 +1,39 @@
+{
+  "description": "Number of halving and tripling steps to reach 1 in '3x+1' problem, or -1 if 1 is never reached.",
+  "id": "A006577",
+  "mentions": [
+    "A006370",
+    "A006666",
+    "A006667",
+    "A008884",
+    "A008908",
+    "A060445",
+    "A070165",
+    "A112695",
+    "A125731",
+    "A127824",
+    "A127885",
+    "A127886",
+    "A135282",
+    "A161021",
+    "A161022",
+    "A161023",
+    "A208981"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "hear",
+    "look",
+    "nice",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

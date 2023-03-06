@@ -1,0 +1,20 @@
+{
+  "description": "From a slowly converging series.",
+  "id": "A001510",
+  "mentions": [
+    "A001622",
+    "A002715"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

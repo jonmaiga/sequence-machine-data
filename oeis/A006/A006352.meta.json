@@ -1,0 +1,32 @@
+{
+  "description": "Coefficients in expansion of Eisenstein series E_2 (also called E_1 or G_2).",
+  "id": "A006352",
+  "mentions": [
+    "A000203",
+    "A000594",
+    "A004009",
+    "A008410",
+    "A013973",
+    "A013974",
+    "A029828",
+    "A029829",
+    "A029830",
+    "A029831",
+    "A058550",
+    "A076835",
+    "A145155"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:37:45",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

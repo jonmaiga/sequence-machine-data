@@ -1,0 +1,27 @@
+{
+  "description": "Number of labeled graded partially ordered sets with n elements of height at most 1.",
+  "id": "A001831",
+  "mentions": [
+    "A000798",
+    "A001833",
+    "A002031",
+    "A047863",
+    "A048194",
+    "A052296",
+    "A052332",
+    "A135753",
+    "A135754"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

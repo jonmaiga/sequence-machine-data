@@ -1,0 +1,28 @@
+{
+  "description": "Nontotients: even n such that phi(m) = n has no solution.",
+  "id": "A005277",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A005384",
+    "A006093",
+    "A007015",
+    "A007617",
+    "A014197",
+    "A057192",
+    "A076336",
+    "A079695",
+    "A106571"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

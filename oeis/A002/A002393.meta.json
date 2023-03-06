@@ -1,0 +1,21 @@
+{
+  "description": "Weight distribution of [8,4,4] Hamming code.",
+  "id": "A002393",
+  "mentions": [
+    "A002337",
+    "A108095"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "bref",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

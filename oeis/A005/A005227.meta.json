@@ -1,0 +1,21 @@
+{
+  "description": "Number of atomic species of degree n which are not nontrivial substitutions.",
+  "id": "A005227",
+  "mentions": [
+    "A000638",
+    "A005226"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

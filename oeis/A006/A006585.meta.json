@@ -1,0 +1,26 @@
+{
+  "description": "Egyptian fractions: number of solutions to 1 = 1/x_1 + ... + 1/x_n in positive integers x_1 < ... < x_n.",
+  "id": "A006585",
+  "mentions": [
+    "A000058",
+    "A002966",
+    "A002967",
+    "A006577",
+    "A280518",
+    "A280520"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 8k + 5.",
+  "id": "A007521",
+  "mentions": [
+    "A004770",
+    "A010051",
+    "A045323"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

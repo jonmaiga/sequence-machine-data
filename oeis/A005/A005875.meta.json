@@ -1,0 +1,48 @@
+{
+  "description": "Theta series of simple cubic lattice; also number of ways of writing a nonnegative integer n as a sum of 3 squares (zero being allowed).",
+  "id": "A005875",
+  "mentions": [
+    "A000118",
+    "A000122",
+    "A000164",
+    "A000378",
+    "A000700",
+    "A004013",
+    "A004015",
+    "A004018",
+    "A004215",
+    "A008443",
+    "A010054",
+    "A010815",
+    "A014455",
+    "A034933",
+    "A045828",
+    "A045831",
+    "A045834",
+    "A074590",
+    "A085469",
+    "A117609",
+    "A117726",
+    "A121373",
+    "A122141",
+    "A169783",
+    "A169784",
+    "A186690",
+    "A213384",
+    "A286815",
+    "A319574"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

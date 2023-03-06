@@ -1,0 +1,32 @@
+{
+  "description": "Interleave denominators (A000129) and numerators (A001333) of convergents to sqrt(2).",
+  "id": "A002965",
+  "mentions": [
+    "A000051",
+    "A000129",
+    "A001109",
+    "A001333",
+    "A082766",
+    "A097545",
+    "A097546",
+    "A119014",
+    "A119015",
+    "A119016",
+    "A143607",
+    "A155046"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:16:03",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

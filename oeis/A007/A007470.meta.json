@@ -1,0 +1,19 @@
+{
+  "description": "Shifts left when Stirling2 transform is applied twice.",
+  "id": "A007470",
+  "mentions": [
+    "A003633"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

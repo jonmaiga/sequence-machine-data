@@ -1,0 +1,20 @@
+{
+  "description": "Number of stable trees with n nodes.",
+  "id": "A003426",
+  "mentions": [
+    "A000055",
+    "A002988",
+    "A006544"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

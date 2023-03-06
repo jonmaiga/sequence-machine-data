@@ -1,0 +1,19 @@
+{
+  "description": "Some permutation of digits is a square.",
+  "id": "A007936",
+  "mentions": [
+    "A235993"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:47:09",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

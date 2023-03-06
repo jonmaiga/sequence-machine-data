@@ -1,0 +1,17 @@
+{
+  "description": "Restricted postage stamp problem with n denominations and 2 stamps.",
+  "id": "A006638",
+  "mentions": [
+    "A001212"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

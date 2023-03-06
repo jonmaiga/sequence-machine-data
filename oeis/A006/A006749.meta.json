@@ -1,0 +1,30 @@
+{
+  "description": "Number of asymmetric polyominoes with n cells.",
+  "id": "A006749",
+  "mentions": [
+    "A000104",
+    "A000105",
+    "A001168",
+    "A006746",
+    "A006747",
+    "A006748",
+    "A056877",
+    "A056878",
+    "A142886",
+    "A144553",
+    "A144554",
+    "A259090"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

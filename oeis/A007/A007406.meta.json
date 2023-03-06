@@ -1,0 +1,30 @@
+{
+  "description": "Wolstenholme numbers: numerator of Sum_{k=1..n} 1/k^2.",
+  "id": "A007406",
+  "mentions": [
+    "A000290",
+    "A001008",
+    "A007407",
+    "A013661",
+    "A082687",
+    "A089026",
+    "A103345",
+    "A111354",
+    "A120778",
+    "A123751"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. sin(sin(x)) (odd powers only).",
+  "id": "A003712",
+  "mentions": [
+    "A359553",
+    "A359554"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

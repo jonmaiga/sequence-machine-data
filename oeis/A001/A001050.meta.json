@@ -1,0 +1,18 @@
+{
+  "description": "Number of letters in n (in Finnish).",
+  "id": "A001050",
+  "mentions": [
+    "A002186"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

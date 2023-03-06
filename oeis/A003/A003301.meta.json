@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of coefficients of Green function for cubic lattice.",
+  "id": "A003301",
+  "mentions": [
+    "A003302"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:35:22",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

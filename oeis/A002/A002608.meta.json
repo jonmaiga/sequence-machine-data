@@ -1,0 +1,18 @@
+{
+  "description": "Glaisher's function T(2n+1).",
+  "id": "A002608",
+  "mentions": [
+    "A002607"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:24:07",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sum of digits of tetrahedral numbers.",
+  "id": "A004160",
+  "mentions": [
+    "A000292",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:30:29",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

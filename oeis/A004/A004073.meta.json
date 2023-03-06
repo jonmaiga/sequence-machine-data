@@ -1,0 +1,18 @@
+{
+  "description": "Start with a(1)=1; to get a(n) replace each i in a(n-1) with 12...i, then append n.",
+  "id": "A004073",
+  "mentions": [
+    "A000225"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "From higher-order Bernoulli numbers: absolute value of numerator of D-number D2n(2n-1).",
+  "id": "A001905",
+  "mentions": [
+    "A001904",
+    "A261272",
+    "A261274"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

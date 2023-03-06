@@ -1,0 +1,24 @@
+{
+  "description": "Number of 4 X 4 matrices with nonnegative integer entries and row and column sums equal to n.",
+  "id": "A001496",
+  "mentions": [
+    "A002721",
+    "A002817",
+    "A003438",
+    "A019298",
+    "A257493"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:19:17",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

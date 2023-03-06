@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; a(n) = -Sum_{k = 1..n-1} (n+k)!a(k)/(2k)!.",
+  "id": "A007683",
+  "mentions": [
+    "A007680",
+    "A067000"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:11:48",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

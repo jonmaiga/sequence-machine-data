@@ -1,0 +1,18 @@
+{
+  "description": "Generalized Euler phi function (for p=3).",
+  "id": "A003474",
+  "mentions": [
+    "A003473",
+    "A192037"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:09:20",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

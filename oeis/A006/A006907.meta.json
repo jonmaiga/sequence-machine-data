@@ -1,0 +1,22 @@
+{
+  "description": "Number of zeros in character table of symmetric group S_n.",
+  "id": "A006907",
+  "mentions": [
+    "A001255",
+    "A006908",
+    "A051748",
+    "A051749"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

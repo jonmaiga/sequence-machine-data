@@ -1,0 +1,29 @@
+{
+  "description": "Number of combinatorial configurations of type (n_3).",
+  "id": "A001403",
+  "mentions": [
+    "A023994",
+    "A098702",
+    "A098804",
+    "A098822",
+    "A098841",
+    "A098851",
+    "A098852",
+    "A098854",
+    "A099999",
+    "A100001"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

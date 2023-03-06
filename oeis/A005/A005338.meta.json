@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways in which n identical balls can be distributed among 5 boxes in a row such that each pair of adjacent boxes contains at least 4 balls.",
+  "id": "A005338",
+  "mentions": [
+    "A004120",
+    "A005337",
+    "A005339",
+    "A005340"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:33:11",
+    "offset": 8,
+    "size": 37,
+    "source": "joeis"
+  }
+}

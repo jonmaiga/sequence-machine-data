@@ -1,0 +1,20 @@
+{
+  "description": "Number of n step self-avoiding walks on 3 X infinity grid starting from (0,1).",
+  "id": "A007825",
+  "mentions": [
+    "A001411",
+    "A038577",
+    "A302408"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

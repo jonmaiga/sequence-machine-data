@@ -1,0 +1,18 @@
+{
+  "description": "Egyptian fraction for 1/e.",
+  "id": "A006526",
+  "mentions": [
+    "A001466",
+    "A068985"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

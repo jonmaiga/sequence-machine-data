@@ -1,0 +1,21 @@
+{
+  "description": "Number of odd primes less than n-th odd composite number.",
+  "id": "A008508",
+  "mentions": [
+    "A000720",
+    "A053726",
+    "A071904",
+    "A111333"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

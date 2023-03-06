@@ -1,0 +1,51 @@
+{
+  "description": "Number of partitions with no even part repeated; partitions of n in which no parts are multiples of 4.",
+  "id": "A001935",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000122",
+    "A000700",
+    "A000726",
+    "A001318",
+    "A001934",
+    "A001936",
+    "A010054",
+    "A035457",
+    "A035959",
+    "A035985",
+    "A042968",
+    "A046897",
+    "A061198",
+    "A061199",
+    "A062717",
+    "A070048",
+    "A081055",
+    "A081056",
+    "A082303",
+    "A083365",
+    "A098491",
+    "A098492",
+    "A104502",
+    "A121373",
+    "A174715",
+    "A219601",
+    "A261775",
+    "A261776",
+    "A328545",
+    "A328546"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

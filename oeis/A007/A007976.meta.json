@@ -1,0 +1,18 @@
+{
+  "description": "Generalized Euler numbers O_n^+(2).",
+  "id": "A007976",
+  "mentions": [
+    "A000111"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

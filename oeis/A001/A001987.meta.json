@@ -1,0 +1,21 @@
+{
+  "description": "Class numbers associated with entries of A001986.",
+  "id": "A001987",
+  "mentions": [
+    "A001986",
+    "A002189",
+    "A094842",
+    "A094846",
+    "A094851"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

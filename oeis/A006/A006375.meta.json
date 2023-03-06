@@ -1,0 +1,19 @@
+{
+  "description": "Number of reduced indefinite binary forms of determinant -n.",
+  "id": "A006375",
+  "mentions": [
+    "A006371",
+    "A006374"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

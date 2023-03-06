@@ -1,0 +1,20 @@
+{
+  "description": "Number of Q-graphs with 2n edges.",
+  "id": "A007171",
+  "mentions": [
+    "A003169",
+    "A007165",
+    "A007170"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:52",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of points on surface of hexagonal prism: 12*n^2 + 2 for n > 0 (coordination sequence for W(2)).",
+  "id": "A005914",
+  "mentions": [
+    "A000051",
+    "A000408",
+    "A001082",
+    "A003154",
+    "A005897",
+    "A005917",
+    "A005918",
+    "A206399"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

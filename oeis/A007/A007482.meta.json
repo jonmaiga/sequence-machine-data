@@ -1,0 +1,33 @@
+{
+  "description": "a(n) is the number of subsequences of [ 1, ..., 2n ] in which each odd number has an even neighbor.",
+  "id": "A007482",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A001045",
+    "A002605",
+    "A007455",
+    "A007481",
+    "A007483",
+    "A007484",
+    "A026597",
+    "A052913",
+    "A073387",
+    "A112906",
+    "A201000",
+    "A206776"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Quadrinomial coefficients.",
+  "id": "A005723",
+  "mentions": [
+    "A005190",
+    "A005712"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:51:05",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

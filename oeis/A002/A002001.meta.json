@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 3*4^(n-1), n>0; a(0)=1.",
+  "id": "A002001",
+  "mentions": [
+    "A000302",
+    "A003945",
+    "A006342",
+    "A011782",
+    "A033428",
+    "A134316",
+    "A178789"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Narayana-Zidek-Capell numbers: a(n) = 1 for n <= 2. Otherwise a(2n) = 2a(2n-1), a(2n+1) = 2a(2n) - a(n).",
+  "id": "A002083",
+  "mentions": [
+    "A001045",
+    "A002487",
+    "A003471",
+    "A037254",
+    "A045690",
+    "A058222",
+    "A101688",
+    "A155092",
+    "A167948",
+    "A242729",
+    "A245094",
+    "A259858"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

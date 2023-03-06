@@ -1,0 +1,19 @@
+{
+  "description": "Maximal size of equidistant permutation array R(n,1).",
+  "id": "A005677",
+  "mentions": [
+    "A013578"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

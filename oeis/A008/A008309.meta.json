@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n,k) of arctangent numbers: expansion of arctan(x)^n/n!.",
+  "id": "A008309",
+  "mentions": [
+    "A007290",
+    "A010050",
+    "A049034",
+    "A049214",
+    "A049215",
+    "A049216",
+    "A049217",
+    "A049218"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:30:03",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

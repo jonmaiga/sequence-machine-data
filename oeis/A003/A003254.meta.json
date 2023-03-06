@@ -1,0 +1,19 @@
+{
+  "description": "The number m such that A003233(m) = A005206(A003234(n)).",
+  "id": "A003254",
+  "mentions": [
+    "A003233",
+    "A003234",
+    "A005206"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:50",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

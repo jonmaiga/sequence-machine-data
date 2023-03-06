@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor(sqrt( 2*Pi )^n).",
+  "id": "A001674",
+  "mentions": [
+    "A000149",
+    "A001672",
+    "A014217",
+    "A017910",
+    "A032739",
+    "A062541",
+    "A121831"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

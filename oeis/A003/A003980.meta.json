@@ -1,0 +1,21 @@
+{
+  "description": "Möbius transform of A003965.",
+  "id": "A003980",
+  "mentions": [
+    "A000045",
+    "A000720",
+    "A003965"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:22:50",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = a(a(n-3)) + a(n-a(n-3)).",
+  "id": "A006158",
+  "mentions": [
+    "A005185"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

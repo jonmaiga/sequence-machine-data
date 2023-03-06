@@ -1,0 +1,17 @@
+{
+  "description": "Class numbers of quadratic fields.",
+  "id": "A002141",
+  "mentions": [
+    "A002189"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 3,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

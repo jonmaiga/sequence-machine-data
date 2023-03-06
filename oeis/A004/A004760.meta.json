@@ -1,0 +1,32 @@
+{
+  "description": "List of numbers whose binary expansion does not begin 10.",
+  "id": "A004760",
+  "mentions": [
+    "A004759",
+    "A004761",
+    "A006257",
+    "A007814",
+    "A010060",
+    "A053645",
+    "A159559",
+    "A159560",
+    "A159615",
+    "A159619",
+    "A159629",
+    "A159698"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

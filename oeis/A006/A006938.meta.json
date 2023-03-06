@@ -1,0 +1,26 @@
+{
+  "description": "Convert the last term from decimal to binary!",
+  "id": "A006938",
+  "mentions": [
+    "A008559",
+    "A020862",
+    "A260024",
+    "A260025",
+    "A260026",
+    "A260027",
+    "A260028",
+    "A260029",
+    "A260030"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:30:27",
+    "offset": 1,
+    "size": 5,
+    "source": "joeis"
+  }
+}

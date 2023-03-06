@@ -1,0 +1,22 @@
+{
+  "description": "Number of tree-rooted bridgeless planar maps with two vertices and n faces.",
+  "id": "A002740",
+  "mentions": [
+    "A001622",
+    "A002720",
+    "A129175",
+    "A253180"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Emirps (primes whose reversal is a different prime).",
+  "id": "A006567",
+  "mentions": [
+    "A002385",
+    "A003684",
+    "A004086",
+    "A007500",
+    "A007628",
+    "A046732",
+    "A048051",
+    "A048052",
+    "A048053",
+    "A048054",
+    "A048895"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

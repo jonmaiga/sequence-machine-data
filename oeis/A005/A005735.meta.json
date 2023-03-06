@@ -1,0 +1,18 @@
+{
+  "description": "Greatest k such that binomial(k,n) has fewer than n distinct prime factors.",
+  "id": "A005735",
+  "mentions": [
+    "A005733",
+    "A129233"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

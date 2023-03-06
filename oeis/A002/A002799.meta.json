@@ -1,0 +1,27 @@
+{
+  "description": "Number of 4-line partitions of n (i.e., planar partitions of n with at most 4 lines).",
+  "id": "A002799",
+  "mentions": [
+    "A000041",
+    "A000219",
+    "A000990",
+    "A000991",
+    "A001452",
+    "A225196",
+    "A225197",
+    "A225198",
+    "A225199",
+    "A242641"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

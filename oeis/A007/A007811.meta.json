@@ -1,0 +1,31 @@
+{
+  "description": "Numbers n for which 10n+1, 10n+3, 10n+7 and 10n+9 are primes.",
+  "id": "A007811",
+  "mentions": [
+    "A007530",
+    "A008471",
+    "A010051",
+    "A014561",
+    "A024912",
+    "A032352",
+    "A102338",
+    "A102342",
+    "A102700",
+    "A125855",
+    "A216292",
+    "A216293",
+    "A245304",
+    "A245305"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

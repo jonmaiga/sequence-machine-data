@@ -1,0 +1,19 @@
+{
+  "description": "Primes not of form | 3^x - 2^y |.",
+  "id": "A007643",
+  "mentions": [
+    "A004051",
+    "A007644",
+    "A103146"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:52",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

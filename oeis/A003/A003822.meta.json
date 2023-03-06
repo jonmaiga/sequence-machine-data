@@ -1,0 +1,18 @@
+{
+  "description": "Number of commutative elements in Coxeter group E_n.",
+  "id": "A003822",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:20:02",
+    "offset": 3,
+    "size": 23,
+    "source": "joeis"
+  }
+}

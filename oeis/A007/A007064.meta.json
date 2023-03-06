@@ -1,0 +1,23 @@
+{
+  "description": "Numbers not of form \"nearest integer to n*tau\", tau = (1+sqrt(5))/2.",
+  "id": "A007064",
+  "mentions": [
+    "A001622",
+    "A007067",
+    "A035506",
+    "A057843"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:42:41",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

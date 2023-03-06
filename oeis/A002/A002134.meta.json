@@ -1,0 +1,20 @@
+{
+  "description": "Generalized divisor function. Partitions of n using only 3 types of piles.",
+  "id": "A002134",
+  "mentions": [
+    "A060177",
+    "A116608"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 6,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

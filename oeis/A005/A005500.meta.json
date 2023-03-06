@@ -1,0 +1,20 @@
+{
+  "description": "Number of unrooted triangulations of a quadrilateral with n internal nodes.",
+  "id": "A005500",
+  "mentions": [
+    "A002710",
+    "A005505",
+    "A169808"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

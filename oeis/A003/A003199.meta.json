@@ -1,0 +1,20 @@
+{
+  "description": "Cluster series for bond percolation problem on honeycomb.",
+  "id": "A003199",
+  "mentions": [
+    "A003197",
+    "A003198",
+    "A003204"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

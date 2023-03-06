@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients for numerical integration.",
+  "id": "A002686",
+  "mentions": [
+    "A002685",
+    "A324124",
+    "A328866",
+    "A328884",
+    "A328885"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

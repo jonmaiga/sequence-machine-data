@@ -1,0 +1,19 @@
+{
+  "description": "Pseudo-bricks with n nodes.",
+  "id": "A006293",
+  "mentions": [
+    "A006291",
+    "A006292"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 4,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

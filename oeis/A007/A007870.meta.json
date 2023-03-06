@@ -1,0 +1,32 @@
+{
+  "description": "Determinant of character table of symmetric group S_n.",
+  "id": "A007870",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A001222",
+    "A003963",
+    "A006128",
+    "A006906",
+    "A066186",
+    "A066633",
+    "A086644",
+    "A302246",
+    "A302247",
+    "A325501",
+    "A325504",
+    "A325507",
+    "A325536"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

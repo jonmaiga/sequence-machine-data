@@ -1,0 +1,19 @@
+{
+  "description": "a(2n) = a(2n-1) + 2a(2n-2), a(2n+1) = a(2n) + a(2n-1), with a(1) = 2 and a(2) = 3.",
+  "id": "A001882",
+  "mentions": [
+    "A000051",
+    "A161941"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

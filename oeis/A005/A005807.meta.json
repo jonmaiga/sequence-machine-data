@@ -1,0 +1,25 @@
+{
+  "description": "Sum of adjacent Catalan numbers.",
+  "id": "A005807",
+  "mentions": [
+    "A000108",
+    "A000778",
+    "A001654",
+    "A060941",
+    "A071716",
+    "A196265",
+    "A274052",
+    "A274244"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Let p = n-th odd prime. Then a(n) = least prime congruent to 5 modulo 8 such that Legendre(a(n), q) = -1 for all odd primes q <= p.",
+  "id": "A001992",
+  "mentions": [
+    "A001986",
+    "A001987",
+    "A002189",
+    "A094845",
+    "A094846",
+    "A094847",
+    "A094848",
+    "A094849",
+    "A094850",
+    "A094851",
+    "A094852",
+    "A094853"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 14:23:38",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

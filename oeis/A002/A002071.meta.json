@@ -1,0 +1,28 @@
+{
+  "description": "Number of pairs of consecutive integers x, x+1 such that all prime factors of both x and x+1 are at most the n-th prime.",
+  "id": "A002071",
+  "mentions": [
+    "A002072",
+    "A085152",
+    "A085153",
+    "A138180",
+    "A145604",
+    "A145605",
+    "A145606",
+    "A285283"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

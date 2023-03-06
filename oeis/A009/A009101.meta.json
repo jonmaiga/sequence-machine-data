@@ -1,0 +1,19 @@
+{
+  "description": "Fixed point when iterating the function f on n, where f(x) = x + product of digits of x.",
+  "id": "A009101",
+  "mentions": [
+    "A007954",
+    "A230099"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

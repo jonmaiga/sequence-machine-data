@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = H_n(2,n) where H_n is the n-th hyperoperator.",
+  "id": "A001695",
+  "mentions": [
+    "A006987",
+    "A014221",
+    "A046859",
+    "A054871"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

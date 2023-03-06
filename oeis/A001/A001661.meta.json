@@ -1,0 +1,24 @@
+{
+  "description": "Largest number not the sum of distinct positive n-th powers.",
+  "id": "A001661",
+  "mentions": [
+    "A030052",
+    "A121571",
+    "A173563",
+    "A279529"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

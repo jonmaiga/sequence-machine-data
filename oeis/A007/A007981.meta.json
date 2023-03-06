@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonsplit type 2 metacyclic 2-groups of order 2^n.",
+  "id": "A007981",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:47:21",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

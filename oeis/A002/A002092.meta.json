@@ -1,0 +1,27 @@
+{
+  "description": "From a Goldbach conjecture: records in A185091.",
+  "id": "A002092",
+  "mentions": [
+    "A002091",
+    "A002372",
+    "A002373",
+    "A002374",
+    "A002375",
+    "A006307",
+    "A045917",
+    "A185091",
+    "A194828",
+    "A194829"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

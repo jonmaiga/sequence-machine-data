@@ -1,0 +1,29 @@
+{
+  "description": "Numbers that are the sum of 12 positive 5th powers.",
+  "id": "A003357",
+  "mentions": [
+    "A000584",
+    "A003333",
+    "A003335",
+    "A003346",
+    "A003347",
+    "A003356",
+    "A003368",
+    "A003379",
+    "A003390",
+    "A004801",
+    "A004812",
+    "A004823"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

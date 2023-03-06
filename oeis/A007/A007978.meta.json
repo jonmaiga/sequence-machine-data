@@ -1,0 +1,27 @@
+{
+  "description": "Least non-divisor of n.",
+  "id": "A007978",
+  "mentions": [
+    "A000203",
+    "A003418",
+    "A027750",
+    "A051451",
+    "A053669",
+    "A055874",
+    "A061853",
+    "A064859",
+    "A266620"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

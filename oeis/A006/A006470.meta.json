@@ -1,0 +1,21 @@
+{
+  "description": "Number of tree-rooted planar maps with 3 faces and n vertices and no isthmuses.",
+  "id": "A006470",
+  "mentions": [
+    "A027789",
+    "A108838",
+    "A342987"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:38:25",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

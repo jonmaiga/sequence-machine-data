@@ -1,0 +1,18 @@
+{
+  "description": "Sum of digits of pentagonal numbers.",
+  "id": "A004162",
+  "mentions": [
+    "A000326"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:30:29",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

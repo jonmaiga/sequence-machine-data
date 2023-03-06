@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that contain the letter 'e'.",
+  "id": "A008520",
+  "mentions": [
+    "A006933",
+    "A085513"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

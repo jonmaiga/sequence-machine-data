@@ -1,0 +1,30 @@
+{
+  "description": "A self-generating sequence.",
+  "id": "A005041",
+  "mentions": [
+    "A001462",
+    "A005038",
+    "A005039",
+    "A005040",
+    "A005043",
+    "A005044",
+    "A008620",
+    "A024417",
+    "A055086",
+    "A082462",
+    "A084500"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

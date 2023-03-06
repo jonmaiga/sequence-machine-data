@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of coefficients for numerical differentiation.",
+  "id": "A002555",
+  "mentions": [
+    "A001824",
+    "A002551",
+    "A002554"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

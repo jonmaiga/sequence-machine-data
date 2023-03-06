@@ -1,0 +1,20 @@
+{
+  "description": "Related to a highly composite sequence (A002497).",
+  "id": "A002498",
+  "mentions": [
+    "A002497",
+    "A008475"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

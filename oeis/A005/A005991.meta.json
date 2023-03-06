@@ -1,0 +1,20 @@
+{
+  "description": "Let k(m) denote the least integer such that every m X m (0,1)-matrix with exactly k(m) ones in each row and in each column contains a 2 X 2 submatrix without zeros. The sequence gives the index n of the last term in each string of equal entries in the {k(m)} sequence (see A155934).",
+  "id": "A005991",
+  "mentions": [
+    "A003509",
+    "A155934"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

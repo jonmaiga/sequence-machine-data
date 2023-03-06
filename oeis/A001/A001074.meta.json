@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that Sum_{k=0..m-1} exp(2*Pi*i*k^3/m) != 0.",
+  "id": "A001074",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:34",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

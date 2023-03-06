@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n! + n.",
+  "id": "A005095",
+  "mentions": [
+    "A010051",
+    "A038507",
+    "A090786",
+    "A135723"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

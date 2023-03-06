@@ -1,0 +1,28 @@
+{
+  "description": "Define strings S(0)=0, S(1)=11, S(n) = S(n-1)S(n-2); iterate.",
+  "id": "A005713",
+  "mentions": [
+    "A001468",
+    "A003849",
+    "A005614",
+    "A005712",
+    "A014675",
+    "A014677",
+    "A035336",
+    "A123740",
+    "A270788"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

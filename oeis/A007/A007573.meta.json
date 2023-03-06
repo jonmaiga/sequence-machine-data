@@ -1,0 +1,19 @@
+{
+  "description": "Number of asymmetric families of palindromic squares.",
+  "id": "A007573",
+  "mentions": [
+    "A002778",
+    "A002779"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 7,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

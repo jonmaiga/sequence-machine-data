@@ -1,0 +1,29 @@
+{
+  "description": "Smallest k such that sigma(x) = k has exactly n solutions.",
+  "id": "A007368",
+  "mentions": [
+    "A000203",
+    "A002191",
+    "A007015",
+    "A007369",
+    "A007370",
+    "A007371",
+    "A007372",
+    "A007609",
+    "A054973",
+    "A115374",
+    "A184393",
+    "A184394",
+    "A201915"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

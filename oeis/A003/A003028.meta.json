@@ -1,0 +1,26 @@
+{
+  "description": "Number of digraphs on n labeled nodes with a source.",
+  "id": "A003028",
+  "mentions": [
+    "A003027",
+    "A003029",
+    "A003030",
+    "A049414",
+    "A049524",
+    "A051421",
+    "A057274",
+    "A350792"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

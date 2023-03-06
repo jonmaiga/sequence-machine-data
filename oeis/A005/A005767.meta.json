@@ -1,0 +1,24 @@
+{
+  "description": "Solutions n to n^2 = a^2 + b^2 + c^2 (a,b,c > 0).",
+  "id": "A005767",
+  "mentions": [
+    "A000378",
+    "A000408",
+    "A000419",
+    "A005818",
+    "A094958",
+    "A169580"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:35:03",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

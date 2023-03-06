@@ -1,0 +1,24 @@
+{
+  "description": "Number of occurrences of n as an entry in rows <= n of Pascal's triangle (A007318).",
+  "id": "A003016",
+  "mentions": [
+    "A003015",
+    "A007318",
+    "A059233",
+    "A138496",
+    "A180058"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

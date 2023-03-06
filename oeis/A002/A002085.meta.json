@@ -1,0 +1,20 @@
+{
+  "description": "From the expansion of sinh x / cos x: a(n) = odd part of A002084(n).",
+  "id": "A002085",
+  "mentions": [
+    "A001950",
+    "A002084"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

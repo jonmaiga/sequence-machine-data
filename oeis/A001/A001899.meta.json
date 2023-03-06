@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors of n of form 5k+4; a(0) = 0.",
+  "id": "A001899",
+  "mentions": [
+    "A001876",
+    "A001877",
+    "A001878"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

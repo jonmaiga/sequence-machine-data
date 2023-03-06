@@ -1,0 +1,21 @@
+{
+  "description": "Normalized number of connected (n+1)-state finite automata with 2 inputs.",
+  "id": "A006691",
+  "mentions": [
+    "A006689",
+    "A027834",
+    "A027835",
+    "A304312"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:39:55",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

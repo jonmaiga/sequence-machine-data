@@ -1,0 +1,44 @@
+{
+  "description": "Triangle T from the array A(x, y) = gcd(x,y), for x >= 1, y >= 1, read by antidiagonals.",
+  "id": "A003989",
+  "mentions": [
+    "A001088",
+    "A003990",
+    "A003991",
+    "A004198",
+    "A006579",
+    "A050873",
+    "A054431",
+    "A075173",
+    "A075174",
+    "A075175",
+    "A075176",
+    "A089128",
+    "A091255",
+    "A109004",
+    "A109007",
+    "A109008",
+    "A109009",
+    "A109010",
+    "A109011",
+    "A109012",
+    "A109013",
+    "A109014",
+    "A109015"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:29:37",
+    "offset": 1,
+    "size": 108,
+    "source": "joeis"
+  }
+}

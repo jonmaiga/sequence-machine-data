@@ -1,0 +1,20 @@
+{
+  "description": "Class number of quadratic field with discriminant -4n as n runs through A089269: squarefree numbers congruent to 1 or 2 mod 4.",
+  "id": "A006643",
+  "mentions": [
+    "A000003",
+    "A006642",
+    "A014599",
+    "A089269"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

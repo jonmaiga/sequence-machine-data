@@ -1,0 +1,19 @@
+{
+  "description": "Binary sieve: delete every 2nd number, then every 4th, 8th, etc.",
+  "id": "A007950",
+  "mentions": [
+    "A000959",
+    "A007951",
+    "A048651"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

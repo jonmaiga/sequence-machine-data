@@ -1,0 +1,22 @@
+{
+  "description": "Degrees of irreducible representations of Monster group M.",
+  "id": "A001379",
+  "mentions": [
+    "A002267",
+    "A003131",
+    "A051161"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

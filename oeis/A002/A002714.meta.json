@@ -1,0 +1,19 @@
+{
+  "description": "Number of different keys with n cuts, depths between 1 and 7 and depth difference at most 1 between adjacent cut depths.",
+  "id": "A002714",
+  "mentions": [
+    "A000051",
+    "A126361"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

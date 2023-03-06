@@ -1,0 +1,17 @@
+{
+  "description": "Class number of real quadratic field with discriminant 4n, n == 2,3 ( mod 4).",
+  "id": "A003651",
+  "mentions": [
+    "A003650"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:50",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

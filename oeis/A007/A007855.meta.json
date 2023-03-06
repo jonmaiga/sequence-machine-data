@@ -1,0 +1,16 @@
+{
+  "description": "Infima closed sets in rooted plane trees on n nodes.",
+  "id": "A007855",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:52",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

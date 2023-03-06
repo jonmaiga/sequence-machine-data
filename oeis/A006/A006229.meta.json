@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of exp( tan x ).",
+  "id": "A006229",
+  "mentions": [
+    "A000182",
+    "A003711",
+    "A003717",
+    "A047691",
+    "A047692",
+    "A059419",
+    "A111593"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

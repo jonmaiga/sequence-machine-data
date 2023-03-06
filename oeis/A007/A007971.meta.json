@@ -1,0 +1,21 @@
+{
+  "description": "INVERTi transform of central trinomial coefficients (A002426).",
+  "id": "A007971",
+  "mentions": [
+    "A001006",
+    "A002426",
+    "A005043",
+    "A025227"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

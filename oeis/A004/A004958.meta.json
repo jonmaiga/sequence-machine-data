@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = ceiling(n*phi^3), where phi is the golden ratio, A001622.",
+  "id": "A004958",
+  "mentions": [
+    "A001622",
+    "A004956",
+    "A188014",
+    "A188187",
+    "A188188"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:51",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "description": "Number of terms in the Zeckendorf representation of n (write n as a sum of non-consecutive distinct Fibonacci numbers).",
+  "id": "A007895",
+  "mentions": [
+    "A000045",
+    "A000120",
+    "A001950",
+    "A003714",
+    "A003849",
+    "A007015",
+    "A007016",
+    "A014417",
+    "A027941",
+    "A035514",
+    "A035515",
+    "A035516",
+    "A035517",
+    "A104324",
+    "A105446",
+    "A107015",
+    "A107016",
+    "A135817",
+    "A135818",
+    "A143299",
+    "A182535",
+    "A189920",
+    "A213676",
+    "A213911"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

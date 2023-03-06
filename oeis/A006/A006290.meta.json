@@ -1,0 +1,25 @@
+{
+  "description": "Number of 3-connected graphs with n nodes.",
+  "id": "A006290",
+  "mentions": [
+    "A000088",
+    "A001349",
+    "A002218",
+    "A006289",
+    "A007112",
+    "A338511",
+    "A339072"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 4,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

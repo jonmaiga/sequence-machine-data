@@ -1,0 +1,17 @@
+{
+  "description": "Molien series for A_5.",
+  "id": "A008628",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:48:27",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

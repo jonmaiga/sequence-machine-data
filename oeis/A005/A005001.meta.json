@@ -1,0 +1,33 @@
+{
+  "description": "a(0) = 0; for n>0, a(n) = Sum_k={0..n-1} Bell(k), where the Bell numbers Bell(k) are given in A000110.",
+  "id": "A005001",
+  "mentions": [
+    "A000045",
+    "A000108",
+    "A000110",
+    "A000166",
+    "A000204",
+    "A003422",
+    "A005000",
+    "A008277",
+    "A024716",
+    "A029761",
+    "A094262",
+    "A102639",
+    "A102735",
+    "A137596",
+    "A171859"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

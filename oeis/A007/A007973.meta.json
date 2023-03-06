@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations that are n-2 \"block reversals\" away from 12...n.",
+  "id": "A007973",
+  "mentions": [
+    "A007972",
+    "A007974",
+    "A007975",
+    "A300003"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

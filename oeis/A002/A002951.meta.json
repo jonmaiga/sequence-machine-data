@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction for fifth root of 5.",
+  "id": "A002951",
+  "mentions": [
+    "A002949",
+    "A003116",
+    "A005534"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

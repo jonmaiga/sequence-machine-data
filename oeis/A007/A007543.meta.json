@@ -1,0 +1,18 @@
+{
+  "description": "Frequency of n-th largest distance in N times N grid, N > n.",
+  "id": "A007543",
+  "mentions": [
+    "A007544"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:45:09",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

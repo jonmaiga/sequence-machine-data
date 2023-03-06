@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of (psi(-x) / phi(-x))^5 in powers of x where phi(), psi() are Ramanujan theta functions.",
+  "id": "A001939",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A001934",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A195861"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

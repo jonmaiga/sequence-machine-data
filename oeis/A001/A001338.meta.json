@@ -1,0 +1,19 @@
+{
+  "description": "-1 + Sum (k-1)! C(n,k), k = 1..n for n > 0, a(0) = 1.",
+  "id": "A001338",
+  "mentions": [
+    "A000522",
+    "A002104"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

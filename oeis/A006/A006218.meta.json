@@ -1,0 +1,47 @@
+{
+  "description": "a(n) = Sum_{k=1..n} floor(n/k); also Sum_{k=1..n} d(k), where d = number of divisors (A000005); also number of solutions to x*y = z with 1 <= x,y,z <= n.",
+  "id": "A006218",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000196",
+    "A001620",
+    "A001659",
+    "A003988",
+    "A004125",
+    "A005408",
+    "A006590",
+    "A007814",
+    "A010766",
+    "A027750",
+    "A049820",
+    "A051731",
+    "A052511",
+    "A055507",
+    "A056535",
+    "A061017",
+    "A078567",
+    "A116477",
+    "A143236",
+    "A143356",
+    "A143724",
+    "A161700",
+    "A161886",
+    "A211264",
+    "A212120",
+    "A341062"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

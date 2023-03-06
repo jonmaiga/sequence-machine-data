@@ -1,0 +1,20 @@
+{
+  "description": "Primitive prime factors of the sequence k^2 + 1 (A002522) in the order that they are found.",
+  "id": "A005529",
+  "mentions": [
+    "A002312",
+    "A002313",
+    "A002522",
+    "A005528"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:33:55",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

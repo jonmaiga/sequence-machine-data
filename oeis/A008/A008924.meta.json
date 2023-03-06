@@ -1,0 +1,18 @@
+{
+  "description": "Harmonic Molien series for Conway group Con.0.",
+  "id": "A008924",
+  "mentions": [
+    "A008925"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

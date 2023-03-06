@@ -1,0 +1,18 @@
+{
+  "description": "Let p be the n-th odd prime. a(n) is the least prime congruent to 7 modulo 8 such that Legendre(-a(n), q) = -Legendre(-1, q) for all odd primes q <= p.",
+  "id": "A001988",
+  "mentions": [
+    "A001990",
+    "A002189"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

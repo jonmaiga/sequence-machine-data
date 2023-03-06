@@ -1,0 +1,30 @@
+{
+  "description": "Numerators in expansion of (1-x)^{-1/4}.",
+  "id": "A004130",
+  "mentions": [
+    "A000265",
+    "A004134",
+    "A004981",
+    "A005187",
+    "A007696",
+    "A007814",
+    "A034255",
+    "A034385",
+    "A048882",
+    "A049606",
+    "A088802",
+    "A094638"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of elements (a b, c d) in GL(2,Z) with det = -1, trace n and 0 <= a <= {b, c} <= d.",
+  "id": "A007104",
+  "mentions": [
+    "A006546",
+    "A007203"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

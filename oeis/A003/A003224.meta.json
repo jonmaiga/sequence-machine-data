@@ -1,0 +1,20 @@
+{
+  "description": "The number of superpositions of cycles of order n of the groups E_3 and D_n.",
+  "id": "A003224",
+  "mentions": [
+    "A000940",
+    "A003225",
+    "A006841"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:13:36",
+    "offset": 3,
+    "size": 16,
+    "source": "joeis"
+  }
+}

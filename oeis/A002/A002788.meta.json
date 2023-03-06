@@ -1,0 +1,20 @@
+{
+  "description": "Idempotent semigroups of order n, considered to be equivalent when they are isomorphic or anti-isomorphic (by reversal of the operator).",
+  "id": "A002788",
+  "mentions": [
+    "A001423",
+    "A058123"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Primorial -1 primes: primes p such that -1 + product of primes up to p is prime.",
+  "id": "A006794",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A005234",
+    "A014545",
+    "A018239",
+    "A057704",
+    "A057705"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

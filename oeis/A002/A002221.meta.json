@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of partitions of 4n that can be obtained by adding together four (not necessarily distinct) partitions of n.",
+  "id": "A002221",
+  "mentions": [
+    "A002219",
+    "A002220",
+    "A002222",
+    "A213074",
+    "A213086"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

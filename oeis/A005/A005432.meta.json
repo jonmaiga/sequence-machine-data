@@ -1,0 +1,25 @@
+{
+  "description": "Number of permutation groups of degree n (or, number of distinct subgroups of symmetric group S_n, counting conjugates as distinct).",
+  "id": "A005432",
+  "mentions": [
+    "A000001",
+    "A000019",
+    "A000638",
+    "A116655",
+    "A116693"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Primes p == 1 (mod 4) where class number of Q(sqrt p) increases.",
+  "id": "A002142",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

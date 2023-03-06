@@ -1,0 +1,29 @@
+{
+  "description": "Numbers that are the sum of at most 7 positive cubes.",
+  "id": "A004829",
+  "mentions": [
+    "A003330",
+    "A010057",
+    "A018888",
+    "A018889",
+    "A051343",
+    "A173676",
+    "A173677",
+    "A173678",
+    "A173679",
+    "A173680",
+    "A173681",
+    "A173682"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:49",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

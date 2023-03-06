@@ -1,0 +1,19 @@
+{
+  "description": "Self numbers divisible by sum of their digits (or, self numbers which are also Harshad numbers).",
+  "id": "A003219",
+  "mentions": [
+    "A003052",
+    "A005349"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

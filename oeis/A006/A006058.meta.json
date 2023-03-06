@@ -1,0 +1,33 @@
+{
+  "description": "Number of connected labeled T_4-topologies with n points.",
+  "id": "A006058",
+  "mentions": [
+    "A000110",
+    "A000798",
+    "A001035",
+    "A001927",
+    "A001929",
+    "A001930",
+    "A003465",
+    "A006056",
+    "A006057",
+    "A006059",
+    "A108798",
+    "A306445",
+    "A326878",
+    "A326906",
+    "A326909"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

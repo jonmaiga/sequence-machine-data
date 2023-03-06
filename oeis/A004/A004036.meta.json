@@ -1,0 +1,16 @@
+{
+  "description": "The coding-theoretic function A(n,4,6) (the next term is at least 166).",
+  "id": "A004036",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 6,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

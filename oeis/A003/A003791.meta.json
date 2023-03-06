@@ -1,0 +1,20 @@
+{
+  "description": "Order of universal Chevalley group A_n (8).",
+  "id": "A003791",
+  "mentions": [
+    "A003787",
+    "A052496"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:37:06",
+    "offset": 0,
+    "size": 7,
+    "source": "joeis"
+  }
+}

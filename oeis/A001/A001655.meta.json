@@ -1,0 +1,32 @@
+{
+  "description": "Fibonomial coefficients: a(n) = F(n+1)*F(n+2)*F(n+3)/2, where F() = Fibonacci numbers A000045.",
+  "id": "A001655",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000051",
+    "A000129",
+    "A010048",
+    "A055870",
+    "A056570",
+    "A065563",
+    "A066258",
+    "A079586",
+    "A114525",
+    "A215037",
+    "A256178"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

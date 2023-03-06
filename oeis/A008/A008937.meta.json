@@ -1,0 +1,33 @@
+{
+  "description": "a(n) = Sum_{k=0..n} T(k) where T(n) are the tribonacci numbers A000073.",
+  "id": "A008937",
+  "mentions": [
+    "A000071",
+    "A000073",
+    "A000213",
+    "A001949",
+    "A018921",
+    "A027084",
+    "A055216",
+    "A077908",
+    "A104698",
+    "A107066",
+    "A140994",
+    "A140997",
+    "A172119",
+    "A172316",
+    "A209972"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:06:51",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

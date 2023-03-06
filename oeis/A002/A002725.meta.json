@@ -1,0 +1,24 @@
+{
+  "description": "Number of incidence matrices: n X (n+1) binary matrices under row and column permutations.",
+  "id": "A002725",
+  "mentions": [
+    "A002623",
+    "A002724",
+    "A002727",
+    "A002728",
+    "A006148",
+    "A028657"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

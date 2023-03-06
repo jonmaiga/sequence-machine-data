@@ -1,0 +1,23 @@
+{
+  "description": "Number of iterations of phi(x) at n needed to reach 1.",
+  "id": "A003434",
+  "mentions": [
+    "A000010",
+    "A007755",
+    "A049108"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Self-contained numbers: odd numbers k whose Collatz sequence contains a higher multiple of k.",
+  "id": "A005184",
+  "mentions": [
+    "A008884",
+    "A059198"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

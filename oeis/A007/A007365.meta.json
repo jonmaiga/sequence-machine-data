@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that sigma(n+k) = sigma(k).",
+  "id": "A007365",
+  "mentions": [
+    "A000203",
+    "A007015",
+    "A065932",
+    "A065933"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

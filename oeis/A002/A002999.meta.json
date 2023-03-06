@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (1+x*exp(x))^2.",
+  "id": "A002999",
+  "mentions": [
+    "A001787",
+    "A001815",
+    "A003013",
+    "A005183",
+    "A048482"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways n couples can sit in a row without any spouses next to each other.",
+  "id": "A007060",
+  "mentions": [
+    "A000166",
+    "A000806",
+    "A007043",
+    "A053983",
+    "A053984",
+    "A114938",
+    "A177840"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

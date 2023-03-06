@@ -1,0 +1,37 @@
+{
+  "description": "a(n) = ceiling((1 + sum of preceding terms) / 2) starting with a(0) = 1.",
+  "id": "A005428",
+  "mentions": [
+    "A000079",
+    "A005427",
+    "A006999",
+    "A024629",
+    "A061418",
+    "A061419",
+    "A072493",
+    "A073941",
+    "A081614",
+    "A081615",
+    "A082125",
+    "A082416",
+    "A120160",
+    "A120170",
+    "A120178",
+    "A120186",
+    "A120194",
+    "A120202"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:45:02",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

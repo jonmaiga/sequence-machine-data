@@ -1,0 +1,19 @@
+{
+  "description": "Augmented amicable pairs (smaller member of each pair).",
+  "id": "A007992",
+  "mentions": [
+    "A015630",
+    "A063990"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

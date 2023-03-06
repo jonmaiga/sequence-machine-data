@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = 2^n*C(n+6,6). Number of 6D hypercubes in an (n+6)-dimensional hypercube.",
+  "id": "A002409",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A001787",
+    "A001788",
+    "A001789",
+    "A003472",
+    "A006976",
+    "A038207",
+    "A054849",
+    "A054851",
+    "A082140"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

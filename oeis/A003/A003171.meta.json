@@ -1,0 +1,20 @@
+{
+  "description": "Negated discriminants of orders of imaginary quadratic fields with 1 class per genus (a finite sequence).",
+  "id": "A003171",
+  "mentions": [
+    "A000926",
+    "A003644",
+    "A133288"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

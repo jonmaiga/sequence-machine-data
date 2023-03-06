@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of form m*k with m+1 <= k <= 2m-1.",
+  "id": "A001284",
+  "mentions": [
+    "A005279"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Primes congruent to 1 or 2 modulo 4; or, primes of form x^2 + y^2; or, -1 is a square mod p.",
+  "id": "A002313",
+  "mentions": [
+    "A000404",
+    "A001481",
+    "A002144",
+    "A002330",
+    "A002331",
+    "A005408",
+    "A008784",
+    "A033203",
+    "A038873",
+    "A038874",
+    "A045331",
+    "A057129",
+    "A084163",
+    "A084165",
+    "A137351",
+    "A140633"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

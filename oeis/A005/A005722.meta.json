@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = (prime(n) - 1)^2.",
+  "id": "A005722",
+  "mentions": [
+    "A001248",
+    "A005597",
+    "A005712",
+    "A006093",
+    "A065485",
+    "A086242",
+    "A095874",
+    "A192134"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:34:49",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

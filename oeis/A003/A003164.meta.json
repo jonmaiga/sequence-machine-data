@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of Van der Pol numbers.",
+  "id": "A003164",
+  "mentions": [
+    "A003163"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "frac",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

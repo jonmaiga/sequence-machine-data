@@ -1,0 +1,21 @@
+{
+  "description": "Embeddings of n-bouquet in sphere.",
+  "id": "A005431",
+  "mentions": [
+    "A123828",
+    "A128850"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

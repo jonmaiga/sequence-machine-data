@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 1 if n is of the form m(m+1), else 0.",
+  "id": "A005369",
+  "mentions": [
+    "A000194",
+    "A000729",
+    "A002378",
+    "A010052",
+    "A010054",
+    "A016813",
+    "A078358",
+    "A098108",
+    "A240025"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

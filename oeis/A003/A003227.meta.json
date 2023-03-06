@@ -1,0 +1,23 @@
+{
+  "description": "Endpoints (leaves) in rooted trees with n nodes.",
+  "id": "A003227",
+  "mentions": [
+    "A000081",
+    "A003228",
+    "A004111",
+    "A038046",
+    "A055277",
+    "A317580"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:50",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

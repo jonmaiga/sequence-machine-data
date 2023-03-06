@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of Sum_{k=1..4} k^(-4).",
+  "id": "A007410",
+  "mentions": [
+    "A001008",
+    "A007406",
+    "A007408",
+    "A007480",
+    "A013662",
+    "A103345"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

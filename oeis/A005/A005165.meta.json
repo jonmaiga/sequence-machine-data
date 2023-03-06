@@ -1,0 +1,27 @@
+{
+  "description": "Alternating factorials: n! - (n-1)! + (n-2)! - ... 1!.",
+  "id": "A005165",
+  "mentions": [
+    "A000142",
+    "A001272",
+    "A003422",
+    "A005169",
+    "A005728",
+    "A071828",
+    "A303697",
+    "A359808"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

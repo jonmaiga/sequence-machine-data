@@ -1,0 +1,37 @@
+{
+  "description": "Integer log of n: sum of primes dividing n (with repetition). Also called sopfr(n).",
+  "id": "A001414",
+  "mentions": [
+    "A000607",
+    "A000792",
+    "A001222",
+    "A002217",
+    "A008472",
+    "A027746",
+    "A036288",
+    "A046343",
+    "A056240",
+    "A059975",
+    "A065387",
+    "A067666",
+    "A104244",
+    "A120007",
+    "A224787",
+    "A276085",
+    "A337310",
+    "A341885"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

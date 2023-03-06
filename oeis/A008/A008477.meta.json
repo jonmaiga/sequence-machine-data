@@ -1,0 +1,28 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = Product (k_j^p_j).",
+  "id": "A008477",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A008478",
+    "A010052",
+    "A013929",
+    "A027748",
+    "A062307",
+    "A122132",
+    "A124010",
+    "A342551"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

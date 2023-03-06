@@ -1,0 +1,32 @@
+{
+  "description": "Canonical enumeration of integers: interleaved positive and negative integers with zero prepended.",
+  "id": "A001057",
+  "mentions": [
+    "A000217",
+    "A000271",
+    "A004526",
+    "A005132",
+    "A008619",
+    "A010551",
+    "A104578",
+    "A130472",
+    "A142150",
+    "A153641",
+    "A166711",
+    "A166871"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:17:45",
+    "offset": 0,
+    "size": 63,
+    "source": "joeis"
+  }
+}

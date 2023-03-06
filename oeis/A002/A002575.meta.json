@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients of Bell's formula for making change.",
+  "id": "A002575",
+  "mentions": [
+    "A002576",
+    "A002577",
+    "A125792",
+    "A262554"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:24:03",
+    "offset": 2,
+    "size": 6,
+    "source": "joeis"
+  }
+}

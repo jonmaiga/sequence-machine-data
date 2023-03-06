@@ -1,0 +1,22 @@
+{
+  "description": "Number of sets with a congruence property.",
+  "id": "A002704",
+  "mentions": [
+    "A002703",
+    "A002705",
+    "A262570",
+    "A262583",
+    "A262584"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:50",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

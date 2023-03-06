@@ -1,0 +1,21 @@
+{
+  "description": "Divisors of 20: a finite sequence associated with the Lie algebra A_4.",
+  "id": "A005018",
+  "mentions": [
+    "A161706"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

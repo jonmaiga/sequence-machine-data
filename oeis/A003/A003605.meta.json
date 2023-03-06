@@ -1,0 +1,27 @@
+{
+  "description": "Unique monotonic sequence of nonnegative integers satisfying a(a(n)) = 3n.",
+  "id": "A003605",
+  "mentions": [
+    "A006166",
+    "A007378",
+    "A079000",
+    "A079351",
+    "A080588",
+    "A080637",
+    "A353651",
+    "A353652"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

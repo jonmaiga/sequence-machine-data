@@ -1,0 +1,29 @@
+{
+  "description": "Squares of NSW numbers (A002315): x^2 such that x^2 - 2y^2 = -1 for some y.",
+  "id": "A008843",
+  "mentions": [
+    "A000129",
+    "A000217",
+    "A001108",
+    "A001653",
+    "A002315",
+    "A008844",
+    "A016754",
+    "A046176",
+    "A055792",
+    "A146313",
+    "A253826"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:56:37",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

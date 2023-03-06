@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of e in base 6.",
+  "id": "A004597",
+  "mentions": [
+    "A001113",
+    "A004593",
+    "A004594",
+    "A004595",
+    "A004596",
+    "A004598",
+    "A004599",
+    "A004600",
+    "A170873"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

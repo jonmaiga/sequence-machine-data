@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that floor(sqrt(k)) divides k.",
+  "id": "A006446",
+  "mentions": [
+    "A000051",
+    "A000196",
+    "A000290",
+    "A002378",
+    "A005563",
+    "A035106",
+    "A066377",
+    "A087811"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:38:23",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime p of form p = 8k-1 such that first n primes (p_1=2, ..., p_n) are quadratic residues mod p.",
+  "id": "A002223",
+  "mentions": [
+    "A002224",
+    "A002225",
+    "A045535"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

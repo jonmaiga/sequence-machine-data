@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose divisors' harmonic and arithmetic means are both integers.",
+  "id": "A007340",
+  "mentions": [
+    "A001599",
+    "A001600",
+    "A003601",
+    "A007691",
+    "A046985",
+    "A046987",
+    "A046999",
+    "A054025",
+    "A090945"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

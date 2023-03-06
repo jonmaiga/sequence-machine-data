@@ -1,0 +1,23 @@
+{
+  "description": "Iccanobif numbers: reverse digits of two previous terms and add.",
+  "id": "A001129",
+  "mentions": [
+    "A004086",
+    "A014258",
+    "A014259",
+    "A014260"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

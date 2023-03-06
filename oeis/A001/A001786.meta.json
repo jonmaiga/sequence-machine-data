@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/((1+x)(1-x)^11).",
+  "id": "A001786",
+  "mentions": [
+    "A001780",
+    "A046521",
+    "A158454"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:19:39",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

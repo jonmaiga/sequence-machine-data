@@ -1,0 +1,23 @@
+{
+  "description": "Number of fixed properly-4-dimensional polyominoes with n cells.",
+  "id": "A006764",
+  "mentions": [
+    "A000105",
+    "A006762",
+    "A006763",
+    "A151830",
+    "A195739"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

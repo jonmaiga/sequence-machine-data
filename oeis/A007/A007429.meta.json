@@ -1,0 +1,30 @@
+{
+  "description": "Inverse Moebius transform applied twice to natural numbers.",
+  "id": "A007429",
+  "mentions": [
+    "A000012",
+    "A000203",
+    "A007430",
+    "A051731",
+    "A134577",
+    "A134699",
+    "A152649",
+    "A276736",
+    "A276737",
+    "A280077"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

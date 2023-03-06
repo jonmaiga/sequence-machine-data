@@ -1,0 +1,25 @@
+{
+  "description": "Lah numbers: a(n) = n! * binomial(n-1, 4)/5!.",
+  "id": "A001777",
+  "mentions": [
+    "A001113",
+    "A001620",
+    "A008297",
+    "A053495",
+    "A091725",
+    "A099285",
+    "A111596"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 5,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

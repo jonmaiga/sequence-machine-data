@@ -1,0 +1,26 @@
+{
+  "description": "Number of walks on cubic lattice (starting from origin and not going below xy plane).",
+  "id": "A005573",
+  "mentions": [
+    "A001353",
+    "A001700",
+    "A005555",
+    "A005572",
+    "A026378",
+    "A052179"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

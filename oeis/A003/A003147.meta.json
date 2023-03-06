@@ -1,0 +1,23 @@
+{
+  "description": "Primes p with a Fibonacci primitive root g, i.e., such that g^2 = g + 1 (mod p).",
+  "id": "A003147",
+  "mentions": [
+    "A001175",
+    "A005596",
+    "A038872",
+    "A083701",
+    "A106535"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

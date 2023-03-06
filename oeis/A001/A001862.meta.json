@@ -1,0 +1,19 @@
+{
+  "description": "Number of forests of least height with n nodes.",
+  "id": "A001862",
+  "mentions": [
+    "A001861",
+    "A003471"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

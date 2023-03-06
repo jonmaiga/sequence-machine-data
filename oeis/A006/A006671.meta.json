@@ -1,0 +1,16 @@
+{
+  "description": "Edge-distinguishing chromatic number of cycle with n nodes.",
+  "id": "A006671",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:39:37",
+    "offset": 3,
+    "size": 72,
+    "source": "joeis"
+  }
+}

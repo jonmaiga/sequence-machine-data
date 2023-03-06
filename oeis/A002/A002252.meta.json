@@ -1,0 +1,19 @@
+{
+  "description": "Order of letters on standard U.S. typewriter keyboard.",
+  "id": "A002252",
+  "mentions": [
+    "A087622"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

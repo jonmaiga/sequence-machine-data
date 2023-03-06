@@ -1,0 +1,24 @@
+{
+  "description": "Dimensions of representations by Witt vectors.",
+  "id": "A006973",
+  "mentions": [
+    "A003056",
+    "A008289",
+    "A036038",
+    "A137852",
+    "A156792"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

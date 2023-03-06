@@ -1,0 +1,18 @@
+{
+  "description": "Dates of birth of Kings Louis I, II, ... of France.",
+  "id": "A008746",
+  "mentions": [
+    "A008745"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

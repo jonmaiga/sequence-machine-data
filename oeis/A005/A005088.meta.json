@@ -1,0 +1,25 @@
+{
+  "description": "Number of primes = 1 mod 3 dividing n.",
+  "id": "A005088",
+  "mentions": [
+    "A001221",
+    "A001235",
+    "A005070",
+    "A005090",
+    "A020639",
+    "A028234",
+    "A079978",
+    "A121940"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

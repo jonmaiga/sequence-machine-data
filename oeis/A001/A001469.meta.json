@@ -1,0 +1,28 @@
+{
+  "description": "Genocchi numbers (of first kind); unsigned coefficients give expansion of x*tan(x/2).",
+  "id": "A001469",
+  "mentions": [
+    "A000182",
+    "A006846",
+    "A012509",
+    "A059371",
+    "A065547",
+    "A110501",
+    "A226158",
+    "A297703"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

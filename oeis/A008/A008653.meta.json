@@ -1,0 +1,22 @@
+{
+  "description": "Theta series of direct sum of 2 copies of hexagonal lattice.",
+  "id": "A008653",
+  "mentions": [
+    "A004016",
+    "A005882",
+    "A005928",
+    "A046913"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

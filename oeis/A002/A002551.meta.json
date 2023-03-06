@@ -1,0 +1,18 @@
+{
+  "description": "Numerators of coefficients in Taylor series expansion of log(1+x)^2/sqrt(1+x).",
+  "id": "A002551",
+  "mentions": [
+    "A002552"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:55:50",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

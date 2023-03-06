@@ -1,0 +1,28 @@
+{
+  "description": "Multiplicatively perfect numbers j: product of divisors of j is j^2.",
+  "id": "A007422",
+  "mentions": [
+    "A000005",
+    "A006881",
+    "A007956",
+    "A027751",
+    "A030078",
+    "A030513",
+    "A084110",
+    "A084116",
+    "A236473"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:44:35",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

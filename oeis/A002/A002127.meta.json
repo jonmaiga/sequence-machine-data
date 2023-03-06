@@ -1,0 +1,19 @@
+{
+  "description": "MacMahon's generalized sum of divisors function.",
+  "id": "A002127",
+  "mentions": [
+    "A060043"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:21:19",
+    "offset": 3,
+    "size": 46,
+    "source": "joeis"
+  }
+}

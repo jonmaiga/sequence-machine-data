@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = ceiling(24(2^n-1)/n).",
+  "id": "A003177",
+  "mentions": [
+    "A003138",
+    "A003176",
+    "A121056"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:11:39",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

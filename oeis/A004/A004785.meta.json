@@ -1,0 +1,15 @@
+{
+  "description": "5!(2n-6)!/n!(n-1)! is an integer.",
+  "id": "A004785",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:51",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

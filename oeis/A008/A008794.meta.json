@@ -1,0 +1,27 @@
+{
+  "description": "Squares repeated; a(n) = floor(n/2)^2.",
+  "id": "A008794",
+  "mentions": [
+    "A007466",
+    "A030978",
+    "A032766",
+    "A059841",
+    "A086832",
+    "A109613",
+    "A182579",
+    "A189889"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

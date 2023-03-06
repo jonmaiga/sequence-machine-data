@@ -1,0 +1,16 @@
+{
+  "description": "Binomial coefficient C(7n,n-3).",
+  "id": "A004371",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:12:35",
+    "offset": 3,
+    "size": 16,
+    "source": "joeis"
+  }
+}

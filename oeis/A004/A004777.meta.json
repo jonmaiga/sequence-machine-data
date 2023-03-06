@@ -1,0 +1,21 @@
+{
+  "description": "Numbers not congruent to 7 mod 8.",
+  "id": "A004777",
+  "mentions": [
+    "A004771",
+    "A059561",
+    "A132270"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

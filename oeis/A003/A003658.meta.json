@@ -1,0 +1,33 @@
+{
+  "description": "Fundamental discriminants of real quadratic fields; indices of primitive positive Dirichlet L-series.",
+  "id": "A003658",
+  "mentions": [
+    "A000924",
+    "A002110",
+    "A002144",
+    "A003646",
+    "A003652",
+    "A003657",
+    "A014000",
+    "A014046",
+    "A039955",
+    "A086669",
+    "A094612",
+    "A230375",
+    "A232931",
+    "A290098"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

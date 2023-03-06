@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 0, a(2) = -2; for n > 2, a(n) + a(n-2) - a(n-3) - a(n-5) - ... - a(n-p) = (-1)^(n+1)*n if n is prime, otherwise = 0, where p = largest prime < n.",
+  "id": "A002120",
+  "mentions": [
+    "A010051"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:30:58",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = a(2) = a(3) = 1, a(n) = a(a(n-1)) + a(n-a(n-1)) for n >= 4.",
+  "id": "A005350",
+  "mentions": [
+    "A004001",
+    "A005180",
+    "A005185",
+    "A005347",
+    "A005707"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:33:27",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

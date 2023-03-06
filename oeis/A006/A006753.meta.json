@@ -1,0 +1,39 @@
+{
+  "description": "Smith (or joke) numbers: composite numbers n such that sum of digits of n = sum of digits of prime factors of n (counted with multiplicity).",
+  "id": "A006753",
+  "mentions": [
+    "A001222",
+    "A002808",
+    "A005130",
+    "A007953",
+    "A019506",
+    "A027746",
+    "A050218",
+    "A050224",
+    "A050255",
+    "A066247",
+    "A098834",
+    "A098840",
+    "A103123",
+    "A103126",
+    "A104166",
+    "A104171",
+    "A104390",
+    "A104391",
+    "A202387",
+    "A202388"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

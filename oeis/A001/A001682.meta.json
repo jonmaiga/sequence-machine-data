@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 3^k, 3^(k+1) and 3^(k+2) have the same number of digits.",
+  "id": "A001682",
+  "mentions": [
+    "A000244",
+    "A055642",
+    "A151910"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

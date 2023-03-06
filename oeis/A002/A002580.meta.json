@@ -1,0 +1,34 @@
+{
+  "description": "Decimal expansion of cube root of 2.",
+  "id": "A002580",
+  "mentions": [
+    "A002581",
+    "A002945",
+    "A005480",
+    "A005481",
+    "A005482",
+    "A005486",
+    "A010581",
+    "A010582",
+    "A092039",
+    "A092041",
+    "A139340",
+    "A246644",
+    "A253583",
+    "A270714",
+    "A290570"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

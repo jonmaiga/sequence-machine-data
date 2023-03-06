@@ -1,0 +1,28 @@
+{
+  "description": "Number of prime knots with n crossings.",
+  "id": "A002863",
+  "mentions": [
+    "A002864",
+    "A007376",
+    "A051766",
+    "A051767",
+    "A051768",
+    "A051769",
+    "A052400",
+    "A086825"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

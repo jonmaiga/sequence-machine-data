@@ -1,0 +1,19 @@
+{
+  "description": "Total number of fixed points in planted trees with n nodes.",
+  "id": "A005202",
+  "mentions": [
+    "A001678",
+    "A005200"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

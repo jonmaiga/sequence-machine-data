@@ -1,0 +1,23 @@
+{
+  "description": "Order of complex Clifford group of degree 2^n arising in quantum coding theory.",
+  "id": "A003956",
+  "mentions": [
+    "A001309",
+    "A014115",
+    "A014116",
+    "A027638",
+    "A027672"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

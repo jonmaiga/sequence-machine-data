@@ -1,0 +1,23 @@
+{
+  "description": "Theta series of hexagonal close-packing with respect to triangle between tetrahedra.",
+  "id": "A005874",
+  "mentions": [
+    "A004012",
+    "A005872",
+    "A005873",
+    "A005889",
+    "A005890"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:35",
+    "offset": 0,
+    "size": 77,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n OR n^2 (applied to ternary expansions).",
+  "id": "A008467",
+  "mentions": [
+    "A007745",
+    "A008468",
+    "A008469"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

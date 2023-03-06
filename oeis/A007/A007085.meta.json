@@ -1,0 +1,18 @@
+{
+  "description": "Number of unlabeled trivalent 3-connected bipartite planar graphs with 2n nodes without subgraphs R1 and R4.",
+  "id": "A007085",
+  "mentions": [
+    "A007083"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 2,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of hexagonal n-element polyominoes whose graph is a path.",
+  "id": "A003104",
+  "mentions": [
+    "A323931",
+    "A323932"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

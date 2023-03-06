@@ -1,0 +1,18 @@
+{
+  "description": "Class numbers associated with terms of A001988.",
+  "id": "A001989",
+  "mentions": [
+    "A001988",
+    "A002189"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

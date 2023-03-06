@@ -1,0 +1,32 @@
+{
+  "description": "Triangular numbers together with squares (excluding 0).",
+  "id": "A005214",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A001110",
+    "A010052",
+    "A010054",
+    "A054686",
+    "A117704",
+    "A193711",
+    "A193714",
+    "A193715",
+    "A193748",
+    "A193749",
+    "A241241",
+    "A242401"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

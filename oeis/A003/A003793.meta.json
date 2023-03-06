@@ -1,0 +1,19 @@
+{
+  "description": "Order of (usually) simple Chevalley group A_n (3).",
+  "id": "A003793",
+  "mentions": [
+    "A003787"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:00:07",
+    "offset": 0,
+    "size": 9,
+    "source": "joeis"
+  }
+}

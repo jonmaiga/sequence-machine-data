@@ -1,0 +1,27 @@
+{
+  "description": "Sum of cubes of primes = 2 mod 3 dividing n.",
+  "id": "A005076",
+  "mentions": [
+    "A000578",
+    "A005064",
+    "A005072",
+    "A005074",
+    "A005075",
+    "A005077",
+    "A008472",
+    "A020639",
+    "A028234",
+    "A079978"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of nonsingular n X n matrices over GF(2) (order of the group GL(n,2)); order of Chevalley group A_n (2); order of projective special linear group PSL_n(2).",
+  "id": "A002884",
+  "mentions": [
+    "A000409",
+    "A000410",
+    "A002820",
+    "A005329",
+    "A006125",
+    "A028365",
+    "A046747",
+    "A048651",
+    "A203303",
+    "A316622",
+    "A316623"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

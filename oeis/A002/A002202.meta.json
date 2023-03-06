@@ -1,0 +1,28 @@
+{
+  "description": "Values taken by totient function phi(m) (A000010).",
+  "id": "A002202",
+  "mentions": [
+    "A000010",
+    "A002110",
+    "A002180",
+    "A005277",
+    "A007614",
+    "A007617",
+    "A032446",
+    "A058277",
+    "A083533",
+    "A234614",
+    "A264739"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

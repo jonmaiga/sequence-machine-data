@@ -1,0 +1,28 @@
+{
+  "description": "Binary expansion contains 2 adjacent 1's.",
+  "id": "A004780",
+  "mentions": [
+    "A001196",
+    "A003714",
+    "A004755",
+    "A004767",
+    "A005809",
+    "A033428",
+    "A048728",
+    "A242408",
+    "A277335"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

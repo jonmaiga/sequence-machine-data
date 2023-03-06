@@ -1,0 +1,28 @@
+{
+  "description": "Number of rooted genus-2 maps with n edges.",
+  "id": "A006301",
+  "mentions": [
+    "A000168",
+    "A005159",
+    "A006300",
+    "A104742",
+    "A215402",
+    "A238355",
+    "A238356",
+    "A238357",
+    "A238358",
+    "A238359",
+    "A238360",
+    "A238396"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:17:36",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

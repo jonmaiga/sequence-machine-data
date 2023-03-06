@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] with k increasing runs of length at least 2.",
+  "id": "A008971",
+  "mentions": [
+    "A000340",
+    "A000363",
+    "A000364",
+    "A000507",
+    "A000708",
+    "A008303",
+    "A008970",
+    "A059427",
+    "A160486"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

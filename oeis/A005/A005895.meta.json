@@ -1,0 +1,24 @@
+{
+  "description": "Weighted count of partitions with distinct parts.",
+  "id": "A005895",
+  "mentions": [
+    "A000009",
+    "A003406",
+    "A005896",
+    "A336902",
+    "A336903"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

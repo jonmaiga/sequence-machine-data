@@ -1,0 +1,21 @@
+{
+  "description": "Number of restricted circular combinations.",
+  "id": "A006499",
+  "mentions": [
+    "A000032",
+    "A000051",
+    "A056594"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:33:14",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

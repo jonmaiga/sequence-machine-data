@@ -1,0 +1,40 @@
+{
+  "description": "Apply partial sum operator twice to Fibonacci numbers.",
+  "id": "A001924",
+  "mentions": [
+    "A000045",
+    "A000051",
+    "A000071",
+    "A000126",
+    "A000211",
+    "A000217",
+    "A000225",
+    "A001477",
+    "A001891",
+    "A011794",
+    "A014162",
+    "A039834",
+    "A065220",
+    "A077880",
+    "A101220",
+    "A107909",
+    "A122595",
+    "A129696",
+    "A133640",
+    "A141289",
+    "A228074"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

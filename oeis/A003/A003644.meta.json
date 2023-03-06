@@ -1,0 +1,21 @@
+{
+  "description": "Discriminants of the known imaginary quadratic fields with 1 class per genus (a finite sequence).",
+  "id": "A003644",
+  "mentions": [
+    "A133288",
+    "A316743"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

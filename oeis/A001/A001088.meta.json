@@ -1,0 +1,29 @@
+{
+  "description": "Product of totient function: a(n) = Product_{k=1..n} phi(k) (cf. A000010).",
+  "id": "A001088",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A003989",
+    "A059381",
+    "A059382",
+    "A059383",
+    "A059384",
+    "A060238",
+    "A060239",
+    "A124175"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Klarner-Rado sequence: a(1) = 1; subsequent terms are defined by the rule that if m is present so are 2m+1 and 3m+1.",
+  "id": "A002977",
+  "mentions": [
+    "A007448",
+    "A058361",
+    "A076291",
+    "A077477",
+    "A132138",
+    "A132139",
+    "A132140",
+    "A132142",
+    "A276786"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

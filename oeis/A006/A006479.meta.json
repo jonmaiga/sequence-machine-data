@@ -1,0 +1,24 @@
+{
+  "description": "From variance of Fibonacci search.",
+  "id": "A006479",
+  "mentions": [
+    "A000051",
+    "A001628",
+    "A001629",
+    "A006478",
+    "A020701"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:18:43",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

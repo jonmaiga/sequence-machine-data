@@ -1,0 +1,20 @@
+{
+  "description": "Genus of modular group Gamma(n) = genus of modular curve Chi(n).",
+  "id": "A001767",
+  "mentions": [
+    "A000010",
+    "A001615"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:19:29",
+    "offset": 2,
+    "size": 52,
+    "source": "joeis"
+  }
+}

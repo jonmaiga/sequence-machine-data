@@ -1,0 +1,15 @@
+{
+  "description": "Numbers that are the sum of at most 8 nonzero 4th powers.",
+  "id": "A004837",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:49",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

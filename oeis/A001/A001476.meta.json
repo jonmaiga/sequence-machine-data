@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are not the sum of distinct positive cubes.",
+  "id": "A001476",
+  "mentions": [
+    "A001422",
+    "A003997",
+    "A279329",
+    "A279486"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

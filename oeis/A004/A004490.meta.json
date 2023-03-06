@@ -1,0 +1,26 @@
+{
+  "description": "Colossally abundant numbers: m for which there is a positive exponent epsilon such that sigma(m)/m^{1 + epsilon} >= sigma(k)/k^{1 + epsilon} for all k > 1, so that m attains the maximum value of sigma(m)/m^{1 + epsilon}.",
+  "id": "A004490",
+  "mentions": [
+    "A000203",
+    "A002093",
+    "A002182",
+    "A002201",
+    "A004394",
+    "A005101",
+    "A006038",
+    "A073751",
+    "A189228"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

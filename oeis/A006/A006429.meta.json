@@ -1,0 +1,18 @@
+{
+  "description": "Number of loopless tree-rooted planar maps with 4 vertices and n faces.",
+  "id": "A006429",
+  "mentions": [
+    "A342985"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:38:19",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

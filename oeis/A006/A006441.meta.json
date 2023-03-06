@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonseparable toroidal tree-rooted maps with n + 4 edges and n + 1 vertices.",
+  "id": "A006441",
+  "mentions": [
+    "A006414",
+    "A006415"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of 6-covers of an n-set.",
+  "id": "A005786",
+  "mentions": [
+    "A002620",
+    "A005748",
+    "A005783",
+    "A005784",
+    "A005785",
+    "A055066"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:19",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

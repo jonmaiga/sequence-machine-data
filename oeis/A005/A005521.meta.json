@@ -1,0 +1,19 @@
+{
+  "description": "1 + (sum of first n odd primes - n)/2.",
+  "id": "A005521",
+  "mentions": [
+    "A028334",
+    "A065917"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:33:55",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

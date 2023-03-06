@@ -1,0 +1,22 @@
+{
+  "description": "Concatenate the natural numbers, then partition into minimal strings so that each term divides the next.",
+  "id": "A002782",
+  "mentions": [
+    "A007376",
+    "A007908",
+    "A258227",
+    "A263623"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

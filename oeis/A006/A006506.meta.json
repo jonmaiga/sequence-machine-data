@@ -1,0 +1,28 @@
+{
+  "description": "Number of n X n binary matrices with no 2 adjacent 1's, or number of configurations of non-attacking princes on an n X n board, where a \"prince\" attacks the four adjacent (non-diagonal) squares. Also number of independent vertex sets in an n X n grid.",
+  "id": "A006506",
+  "mentions": [
+    "A027683",
+    "A085850",
+    "A089934",
+    "A089980",
+    "A181030",
+    "A181031",
+    "A191779",
+    "A201511",
+    "A212270"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

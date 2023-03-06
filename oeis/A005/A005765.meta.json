@@ -1,0 +1,16 @@
+{
+  "description": "Size of Doehlert-Klee design with n blocks.",
+  "id": "A005765",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 2,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

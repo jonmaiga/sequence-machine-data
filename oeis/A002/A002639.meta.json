@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of expansion of Jacobi nome q in parameter m.",
+  "id": "A002639",
+  "mentions": [
+    "A002103",
+    "A005797",
+    "A119349"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

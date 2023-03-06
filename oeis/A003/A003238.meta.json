@@ -1,0 +1,36 @@
+{
+  "description": "Number of rooted trees with n vertices in which vertices at the same level have the same degree.",
+  "id": "A003238",
+  "mentions": [
+    "A000123",
+    "A002033",
+    "A002995",
+    "A003318",
+    "A004111",
+    "A007439",
+    "A007554",
+    "A014486",
+    "A018819",
+    "A027750",
+    "A051731",
+    "A057546",
+    "A068336",
+    "A122934",
+    "A152434",
+    "A280994",
+    "A281487"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

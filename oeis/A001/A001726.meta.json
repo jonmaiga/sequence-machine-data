@@ -1,0 +1,17 @@
+{
+  "description": "Weight distribution of [ 64,22,16 ] 2nd-order Reed-Muller code of length 64.",
+  "id": "A001726",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

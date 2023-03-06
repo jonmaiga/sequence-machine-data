@@ -1,0 +1,18 @@
+{
+  "description": "Number of precomplete Post functions.",
+  "id": "A002825",
+  "mentions": [
+    "A002824"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

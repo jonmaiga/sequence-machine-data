@@ -1,0 +1,16 @@
+{
+  "description": "Number of n-term 2-sided generalized Fibonacci sequences.",
+  "id": "A005189",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

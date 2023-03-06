@@ -1,0 +1,42 @@
+{
+  "description": "Loeschian numbers: numbers of the form x^2 + xy + y^2; norms of vectors in A2 lattice.",
+  "id": "A003136",
+  "mentions": [
+    "A004611",
+    "A007645",
+    "A032766",
+    "A034017",
+    "A034020",
+    "A045897",
+    "A060428",
+    "A071336",
+    "A088534",
+    "A092572",
+    "A118886",
+    "A132111",
+    "A198726",
+    "A198727",
+    "A198772",
+    "A198773",
+    "A198774",
+    "A198775",
+    "A202822",
+    "A244019",
+    "A248107",
+    "A260682"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

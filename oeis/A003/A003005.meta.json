@@ -1,0 +1,20 @@
+{
+  "description": "Size of the largest subset of the numbers [1...n] which doesn't contain a 6-term arithmetic progression.",
+  "id": "A003005",
+  "mentions": [
+    "A003002",
+    "A003003",
+    "A003004",
+    "A065825"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

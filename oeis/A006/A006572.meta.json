@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of an asymptotic expansion for the number of forests on n nodes (A001858).",
+  "id": "A006572",
+  "mentions": [
+    "A001858",
+    "A006573",
+    "A111999"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:49:40",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(n*phi^4), where phi is the golden ratio, A001622.",
+  "id": "A004919",
+  "mentions": [
+    "A000201",
+    "A001622",
+    "A001950",
+    "A004976"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:49",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

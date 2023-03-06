@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients of Jacobi cusp form of index 1 and weight 10.",
+  "id": "A003784",
+  "mentions": [
+    "A003785"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:29:27",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

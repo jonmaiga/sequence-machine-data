@@ -1,0 +1,28 @@
+{
+  "description": "Inverse Moebius transform applied thrice to natural numbers.",
+  "id": "A007430",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A000027",
+    "A000203",
+    "A007429",
+    "A027750",
+    "A134676",
+    "A140704"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "sigma_4(n): sum of 4th powers of divisors of n.",
+  "id": "A001159",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001157",
+    "A001158",
+    "A001160",
+    "A007427",
+    "A008292",
+    "A013954",
+    "A013972",
+    "A017665",
+    "A017712",
+    "A059377"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_t t*F(n,t), where F(n,t) (see A033185) is the number of rooted forests with n (unlabeled) nodes and exactly t rooted trees.",
+  "id": "A005197",
+  "mentions": [
+    "A000081",
+    "A005196",
+    "A033185",
+    "A051491"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

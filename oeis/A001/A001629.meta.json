@@ -1,0 +1,36 @@
+{
+  "description": "Self-convolution of Fibonacci numbers.",
+  "id": "A001629",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000051",
+    "A000120",
+    "A001628",
+    "A001820",
+    "A006478",
+    "A007895",
+    "A010049",
+    "A037027",
+    "A039913",
+    "A049310",
+    "A055244",
+    "A058071",
+    "A134510",
+    "A134836",
+    "A214178"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Let F(x) = 1 + x + 4x^2 + 9x^3 + ... = g.f. for A002835 (solid partitions restricted to two planes) and expand (1-x)(1-x^2)(1-x^3)...*F(x) in powers of x.",
+  "id": "A005980",
+  "mentions": [
+    "A002835",
+    "A002836"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:36:31",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

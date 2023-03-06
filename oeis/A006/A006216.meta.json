@@ -1,0 +1,21 @@
+{
+  "description": "Number of down-up permutations of n+4 starting with 4.",
+  "id": "A006216",
+  "mentions": [
+    "A000111",
+    "A008282"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

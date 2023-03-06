@@ -1,0 +1,18 @@
+{
+  "description": "Primes of form 3n^2-3n+23.",
+  "id": "A007637",
+  "mentions": [
+    "A005849"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:45:43",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to arrange n non-attacking kings on an n X n board, with 2 sides identified to form a cylinder, with 1 in each row and column.",
+  "id": "A002493",
+  "mentions": [
+    "A002464",
+    "A002816",
+    "A006184",
+    "A102413",
+    "A338838"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

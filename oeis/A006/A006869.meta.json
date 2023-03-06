@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct vertex-degree sequences of n-faced polyhedral graphs.",
+  "id": "A006869",
+  "mentions": [
+    "A000944"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 4,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

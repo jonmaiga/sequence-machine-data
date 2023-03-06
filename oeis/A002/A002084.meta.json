@@ -1,0 +1,23 @@
+{
+  "description": "Sinh x / cos x = Sum_{n>=0} a(n)*x^(2n+1)/(2n+1)!.",
+  "id": "A002084",
+  "mentions": [
+    "A000324",
+    "A000364",
+    "A002085",
+    "A103327",
+    "A104033"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

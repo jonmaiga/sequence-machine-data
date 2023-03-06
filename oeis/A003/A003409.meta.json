@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 3*binomial(2n-1,n).",
+  "id": "A003409",
+  "mentions": [
+    "A001700",
+    "A001764",
+    "A003408"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

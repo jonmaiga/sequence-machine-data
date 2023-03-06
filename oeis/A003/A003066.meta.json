@@ -1,0 +1,19 @@
+{
+  "description": "Problimes (first definition).",
+  "id": "A003066",
+  "mentions": [
+    "A003067",
+    "A003068"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:50",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

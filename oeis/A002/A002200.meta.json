@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 2^q*3^r*5^s + 1.",
+  "id": "A002200",
+  "mentions": [
+    "A005109",
+    "A077497",
+    "A174144"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

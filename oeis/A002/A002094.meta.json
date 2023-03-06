@@ -1,0 +1,24 @@
+{
+  "description": "Number of unlabeled connected loop-less graphs on n nodes containing exactly one cycle (of length at least 2) and with all nodes of degree <= 4.",
+  "id": "A002094",
+  "mentions": [
+    "A000294",
+    "A000598",
+    "A000602",
+    "A000625",
+    "A000642",
+    "A001429",
+    "A068051"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

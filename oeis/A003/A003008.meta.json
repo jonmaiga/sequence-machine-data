@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-level ladder expressions with A030798.",
+  "id": "A003008",
+  "mentions": [
+    "A003007",
+    "A003018",
+    "A030798"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

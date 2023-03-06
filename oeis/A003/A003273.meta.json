@@ -1,0 +1,29 @@
+{
+  "description": "Congruent numbers: positive integers k for which there exists a right triangle having area k and rational sides.",
+  "id": "A003273",
+  "mentions": [
+    "A000290",
+    "A006991",
+    "A072068",
+    "A072069",
+    "A072070",
+    "A072071",
+    "A073120",
+    "A165564",
+    "A182429",
+    "A256418",
+    "A259680",
+    "A259687"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:27:37",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

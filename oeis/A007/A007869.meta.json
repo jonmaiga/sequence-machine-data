@@ -1,0 +1,23 @@
+{
+  "description": "Number of complementary pairs of graphs on n nodes. Also number of unlabeled graphs with n nodes and an even number of edges.",
+  "id": "A007869",
+  "mentions": [
+    "A000004",
+    "A000088",
+    "A000171",
+    "A002854",
+    "A054960"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

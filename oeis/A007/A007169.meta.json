@@ -1,0 +1,18 @@
+{
+  "description": "Number of Q-graphs rooted at a polygon.",
+  "id": "A007169",
+  "mentions": [
+    "A003168"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:52",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

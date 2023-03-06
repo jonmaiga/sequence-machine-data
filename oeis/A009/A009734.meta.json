@@ -1,0 +1,15 @@
+{
+  "description": "Days in a one-month gym membership starting at n-th day of year [ days from Jan 01 to Feb 01, Jan 02 to Feb 02, ... ].",
+  "id": "A009734",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 13:01:13",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

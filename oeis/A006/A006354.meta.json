@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of a cusp form of weight 8 for Gamma_1(6).",
+  "id": "A006354",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:52",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

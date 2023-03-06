@@ -1,0 +1,28 @@
+{
+  "description": "Unsigned Stirling numbers of first kind s(n,6).",
+  "id": "A001233",
+  "mentions": [
+    "A000254",
+    "A000399",
+    "A000454",
+    "A000482",
+    "A001234",
+    "A008275",
+    "A163931",
+    "A163932",
+    "A243569",
+    "A243570"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 6,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

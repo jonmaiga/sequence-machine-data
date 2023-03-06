@@ -1,0 +1,35 @@
+{
+  "description": "Odd abundant numbers (odd numbers n whose sum of divisors exceeds 2n).",
+  "id": "A005231",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001222",
+    "A005101",
+    "A005835",
+    "A006037",
+    "A006038",
+    "A006556",
+    "A039725",
+    "A047802",
+    "A064001",
+    "A064989",
+    "A112640",
+    "A115414",
+    "A122036",
+    "A136446",
+    "A173490",
+    "A337386"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

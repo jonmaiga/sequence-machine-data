@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-bead necklaces with 5 colors.",
+  "id": "A001869",
+  "mentions": [
+    "A000031",
+    "A001867",
+    "A054612",
+    "A075195"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

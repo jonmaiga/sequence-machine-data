@@ -1,0 +1,20 @@
+{
+  "description": "Central factorial numbers.",
+  "id": "A001820",
+  "mentions": [
+    "A008955",
+    "A048994",
+    "A049033"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

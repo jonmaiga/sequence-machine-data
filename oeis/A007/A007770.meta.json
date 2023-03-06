@@ -1,0 +1,38 @@
+{
+  "description": "Happy numbers: numbers whose trajectory under iteration of sum of squares of digits map (see A003132) includes 1.",
+  "id": "A007770",
+  "mentions": [
+    "A001273",
+    "A002025",
+    "A003132",
+    "A031177",
+    "A035497",
+    "A035502",
+    "A046519",
+    "A050972",
+    "A050973",
+    "A068571",
+    "A072494",
+    "A074902",
+    "A090425",
+    "A103369",
+    "A124095",
+    "A219667",
+    "A239320",
+    "A240849"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled n-node trees with unlabeled end-points.",
+  "id": "A001258",
+  "mentions": [
+    "A055314",
+    "A151880",
+    "A213262"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 2,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

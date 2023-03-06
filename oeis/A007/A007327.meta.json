@@ -1,0 +1,27 @@
+{
+  "description": "Difference between two partition g.f.s.",
+  "id": "A007327",
+  "mentions": [
+    "A000219",
+    "A000334",
+    "A000335",
+    "A007326",
+    "A007328",
+    "A007329",
+    "A007330",
+    "A008780",
+    "A042984"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (p^p-1)/(p-1) where p = prime(n).",
+  "id": "A001039",
+  "mentions": [
+    "A000262",
+    "A054767",
+    "A214811"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

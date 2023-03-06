@@ -1,0 +1,16 @@
+{
+  "description": "Dates at 16-day intervals starting at the beginning of a leap year.",
+  "id": "A002651",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:24:11",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

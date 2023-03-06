@@ -1,0 +1,15 @@
+{
+  "description": "Theta series of Leech lattice with respect to deep hole of type A_1.",
+  "id": "A004034",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

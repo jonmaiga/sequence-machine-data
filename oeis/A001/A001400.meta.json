@@ -1,0 +1,32 @@
+{
+  "description": "Number of partitions of n into at most 4 parts.",
+  "id": "A001400",
+  "mentions": [
+    "A000051",
+    "A001399",
+    "A001401",
+    "A002621",
+    "A005044",
+    "A008284",
+    "A008619",
+    "A008642",
+    "A025767",
+    "A026810",
+    "A026820",
+    "A061924",
+    "A070083",
+    "A117486"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:18:45",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

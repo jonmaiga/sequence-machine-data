@@ -1,0 +1,25 @@
+{
+  "description": "Number of closed meander systems of order n+1 with n components.",
+  "id": "A006659",
+  "mentions": [
+    "A001622",
+    "A002057",
+    "A002694",
+    "A005315",
+    "A005316",
+    "A008828"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

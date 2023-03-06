@@ -1,0 +1,24 @@
+{
+  "description": "Numerators of Cotesian numbers (not in lowest terms): A002176(n)*C(n,0).",
+  "id": "A002177",
+  "mentions": [
+    "A002176",
+    "A002179",
+    "A100620",
+    "A100621",
+    "A100640",
+    "A100641"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

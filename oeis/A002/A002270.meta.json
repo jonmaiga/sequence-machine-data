@@ -1,0 +1,20 @@
+{
+  "description": "Composite n such that n*sigma(n) == 2 (mod phi(n)).",
+  "id": "A002270",
+  "mentions": [
+    "A051948"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "bref",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

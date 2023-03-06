@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients for numerical integration.",
+  "id": "A006685",
+  "mentions": [
+    "A002197",
+    "A002198"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:10:27",
+    "offset": 0,
+    "size": 10,
+    "source": "joeis"
+  }
+}

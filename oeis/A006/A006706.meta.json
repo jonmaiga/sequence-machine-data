@@ -1,0 +1,19 @@
+{
+  "description": "Self-convolution of numbers of trees on n nodes.",
+  "id": "A006706",
+  "mentions": [
+    "A000055",
+    "A051491"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

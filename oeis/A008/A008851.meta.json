@@ -1,0 +1,26 @@
+{
+  "description": "Congruent to 0 or 1 mod 5.",
+  "id": "A008851",
+  "mentions": [
+    "A001622",
+    "A003226",
+    "A030308",
+    "A045953",
+    "A046831",
+    "A046851",
+    "A086457",
+    "A146523"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

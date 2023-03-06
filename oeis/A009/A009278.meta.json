@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = lcm(d(n), sigma(n)).",
+  "id": "A009278",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A009205",
+    "A009286"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

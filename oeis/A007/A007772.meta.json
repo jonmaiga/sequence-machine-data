@@ -1,0 +1,15 @@
+{
+  "description": "Values of Ehrhart polynomial of dilation by 2 of Relaxed Boolean Quadric Polytope of order 3.",
+  "id": "A007772",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Theta series of f.c.c. lattice with respect to tetrahedral hole.",
+  "id": "A005886",
+  "mentions": [
+    "A005869",
+    "A005878",
+    "A008443",
+    "A121054",
+    "A278081",
+    "A278086"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:35:55",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

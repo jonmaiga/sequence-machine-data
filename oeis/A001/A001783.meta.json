@@ -1,0 +1,35 @@
+{
+  "description": "n-phi-torial, or phi-torial of n: Product k, 1 <= k <= n, k relatively prime to n.",
+  "id": "A001783",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A001221",
+    "A006530",
+    "A008683",
+    "A023896",
+    "A038566",
+    "A048865",
+    "A066570",
+    "A124441",
+    "A124442",
+    "A136548",
+    "A193679",
+    "A211487",
+    "A216919",
+    "A250269"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "From a continued fraction.",
+  "id": "A001686",
+  "mentions": [
+    "A001684",
+    "A001685"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:24:26",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

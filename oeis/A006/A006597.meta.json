@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n^2*(5*n-3)/2.",
+  "id": "A006597",
+  "mentions": [
+    "A100145",
+    "A100177",
+    "A220083",
+    "A262000"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

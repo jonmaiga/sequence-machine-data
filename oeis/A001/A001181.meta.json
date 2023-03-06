@@ -1,0 +1,28 @@
+{
+  "description": "Number of Baxter permutations of length n (also called Baxter numbers).",
+  "id": "A001181",
+  "mentions": [
+    "A000108",
+    "A001183",
+    "A001185",
+    "A006002",
+    "A006542",
+    "A007318",
+    "A046996",
+    "A056939",
+    "A359363"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

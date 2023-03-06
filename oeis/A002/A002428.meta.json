@@ -1,0 +1,24 @@
+{
+  "description": "Numerators of coefficients of expansion of arctan(x)^2 = x^2 - 2/3*x^4 + 23/45*x^6 - 44/105*x^8 + 563/1575*x^10 - 3254/10395*x^12 + ...",
+  "id": "A002428",
+  "mentions": [
+    "A002549",
+    "A004041",
+    "A025550",
+    "A035048",
+    "A071968"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

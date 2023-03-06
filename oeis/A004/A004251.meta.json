@@ -1,0 +1,48 @@
+{
+  "description": "Number of graphical partitions (degree-vectors for simple graphs with n vertices, or possible ordered row-sum vectors for a symmetric 0-1 matrix with diagonal values 0).",
+  "id": "A004251",
+  "mentions": [
+    "A000569",
+    "A004250",
+    "A006125",
+    "A006129",
+    "A007717",
+    "A027187",
+    "A028260",
+    "A029889",
+    "A058696",
+    "A095268",
+    "A181819",
+    "A300061",
+    "A309356",
+    "A320458",
+    "A320894",
+    "A320921",
+    "A320922",
+    "A320923",
+    "A322353",
+    "A339560",
+    "A339561",
+    "A339617",
+    "A339618",
+    "A339659",
+    "A339661",
+    "A339741",
+    "A339842",
+    "A339843",
+    "A339844",
+    "A339845"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

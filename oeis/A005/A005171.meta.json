@@ -1,0 +1,28 @@
+{
+  "description": "Characteristic function of nonprimes: 0 if n is prime, else 1.",
+  "id": "A005171",
+  "mentions": [
+    "A005165",
+    "A010051",
+    "A018252",
+    "A023890",
+    "A050374",
+    "A052284",
+    "A057427",
+    "A157423",
+    "A157424",
+    "A239968"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

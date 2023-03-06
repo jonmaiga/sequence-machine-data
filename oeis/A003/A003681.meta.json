@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = min { p +- q : p +- q > 1 and p*q = Product_{k=1..n-1} a(k) }.",
+  "id": "A003681",
+  "mentions": [
+    "A033676",
+    "A033677",
+    "A056737",
+    "A082120",
+    "A082125",
+    "A219695"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

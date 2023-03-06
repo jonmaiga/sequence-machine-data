@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime p such that first n primes (p_1=2, ..., p_n) are 11th power residues mod p.",
+  "id": "A002228",
+  "mentions": [
+    "A002223",
+    "A002227",
+    "A060363",
+    "A060364"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of comparative probability orderings on all subsets of n elements that can arise by assigning a probability distribution to the individual elements.",
+  "id": "A009997",
+  "mentions": [
+    "A005806"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

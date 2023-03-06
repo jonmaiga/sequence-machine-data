@@ -1,0 +1,17 @@
+{
+  "description": "Symmetries in unrooted 3-trees on n+1 vertices.",
+  "id": "A003612",
+  "mentions": [
+    "A003609"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:35",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of labeled Greg trees.",
+  "id": "A005263",
+  "mentions": [
+    "A005172",
+    "A005264",
+    "A005640",
+    "A048159",
+    "A048160",
+    "A052300",
+    "A052303"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

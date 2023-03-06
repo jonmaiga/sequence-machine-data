@@ -1,0 +1,26 @@
+{
+  "description": "Number of simple imperfect squared squares of order n up to symmetry.",
+  "id": "A002962",
+  "mentions": [
+    "A000162",
+    "A002839",
+    "A002881",
+    "A006983",
+    "A014530",
+    "A181735",
+    "A217155",
+    "A217156"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

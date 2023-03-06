@@ -1,0 +1,23 @@
+{
+  "description": "Theta series of Niemeier lattice of type A_12^2.",
+  "id": "A008694",
+  "mentions": [
+    "A004009",
+    "A008688",
+    "A008693",
+    "A008695",
+    "A008704",
+    "A013973"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:53",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

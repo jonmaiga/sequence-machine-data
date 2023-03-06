@@ -1,0 +1,17 @@
+{
+  "description": "Number of tree-rooted planar maps with 4 vertices and n faces and no isthmuses.",
+  "id": "A006433",
+  "mentions": [
+    "A342987"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

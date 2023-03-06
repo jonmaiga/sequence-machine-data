@@ -1,0 +1,19 @@
+{
+  "description": "From the enumeration of corners.",
+  "id": "A006334",
+  "mentions": [
+    "A132339"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:37:41",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

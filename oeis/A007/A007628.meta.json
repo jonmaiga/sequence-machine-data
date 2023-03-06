@@ -1,0 +1,30 @@
+{
+  "description": "Reflectable emirps.",
+  "id": "A007628",
+  "mentions": [
+    "A003684",
+    "A004086",
+    "A006567",
+    "A010051",
+    "A046732",
+    "A048051",
+    "A048052",
+    "A048053",
+    "A048054",
+    "A048895",
+    "A125308"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

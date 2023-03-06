@@ -1,0 +1,15 @@
+{
+  "description": "Representation degeneracies for Neveu-Schwarz strings.",
+  "id": "A005295",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

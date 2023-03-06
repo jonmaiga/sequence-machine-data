@@ -1,0 +1,21 @@
+{
+  "description": "Winning moves in Fibonacci nim.",
+  "id": "A001581",
+  "mentions": [
+    "A000051",
+    "A001690",
+    "A014588",
+    "A120904"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:19:23",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

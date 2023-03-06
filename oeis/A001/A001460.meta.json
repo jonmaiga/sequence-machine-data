@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (5*n)!/((2*n)!*(n!)^3).",
+  "id": "A001460",
+  "mentions": [
+    "A000984",
+    "A008978",
+    "A268545",
+    "A268555"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

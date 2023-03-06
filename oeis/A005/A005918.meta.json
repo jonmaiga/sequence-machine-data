@@ -1,0 +1,23 @@
+{
+  "description": "Number of points on surface of square pyramid: 3*n^2 + 2 (n>0).",
+  "id": "A005918",
+  "mentions": [
+    "A000051",
+    "A005448",
+    "A063488",
+    "A120328",
+    "A206399"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:35:57",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

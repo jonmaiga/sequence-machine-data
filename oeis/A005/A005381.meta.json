@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k and k-1 are composite.",
+  "id": "A005381",
+  "mentions": [
+    "A007921",
+    "A068780",
+    "A093515",
+    "A323162"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

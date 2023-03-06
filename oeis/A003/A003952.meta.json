@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of g.f.: (1+x)/(1-9*x).",
+  "id": "A003952",
+  "mentions": [
+    "A000042",
+    "A003946",
+    "A003948",
+    "A003949",
+    "A003950",
+    "A003951",
+    "A003954",
+    "A029653",
+    "A033583"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

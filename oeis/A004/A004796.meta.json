@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that if 2 <= j < k then the fractional part of the k-th partial sum of the harmonic series is < the fractional part of the j-th partial sum of the harmonic series.",
+  "id": "A004796",
+  "mentions": [
+    "A002387"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

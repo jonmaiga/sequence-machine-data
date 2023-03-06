@@ -1,0 +1,23 @@
+{
+  "description": "Number of precomplete Post functions of n variables.",
+  "id": "A002826",
+  "mentions": [
+    "A002824",
+    "A002825",
+    "A008827",
+    "A246069",
+    "A246137",
+    "A246417"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

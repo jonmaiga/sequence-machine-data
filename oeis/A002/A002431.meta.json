@@ -1,0 +1,22 @@
+{
+  "description": "Numerators in Taylor series for cot x.",
+  "id": "A002431",
+  "mentions": [
+    "A000182",
+    "A036278"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": -1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

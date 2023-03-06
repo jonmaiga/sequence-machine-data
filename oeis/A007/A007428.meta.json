@@ -1,0 +1,28 @@
+{
+  "description": "Moebius transform applied thrice to sequence 1,0,0,0,....",
+  "id": "A007428",
+  "mentions": [
+    "A001221",
+    "A005117",
+    "A007425",
+    "A007427",
+    "A008683",
+    "A046101",
+    "A063524",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 2*a(n-1)^2 - 1, starting a(0) = 2.",
+  "id": "A002812",
+  "mentions": [
+    "A001075",
+    "A001566",
+    "A003010",
+    "A071579",
+    "A177879"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

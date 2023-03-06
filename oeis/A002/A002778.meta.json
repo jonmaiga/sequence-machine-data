@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose square is a palindrome.",
+  "id": "A002778",
+  "mentions": [
+    "A000290",
+    "A002113",
+    "A002779",
+    "A003166",
+    "A016113",
+    "A029984",
+    "A136522",
+    "A263607"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

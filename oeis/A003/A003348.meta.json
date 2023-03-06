@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of 3 positive 5th powers.",
+  "id": "A003348",
+  "mentions": [
+    "A000584",
+    "A003337",
+    "A003347",
+    "A003349",
+    "A344641",
+    "A345010"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

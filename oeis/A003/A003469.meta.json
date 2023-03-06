@@ -1,0 +1,22 @@
+{
+  "description": "Number of minimal covers of an (n + 1)-set by a collection of n nonempty subsets, a(n) = A035348(n,n-1).",
+  "id": "A003469",
+  "mentions": [
+    "A000051",
+    "A035348",
+    "A053218",
+    "A053221"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

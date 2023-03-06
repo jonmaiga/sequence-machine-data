@@ -1,0 +1,30 @@
+{
+  "description": "One even number followed by two odd numbers.",
+  "id": "A004396",
+  "mentions": [
+    "A001045",
+    "A002620",
+    "A004523",
+    "A004773",
+    "A006369",
+    "A008620",
+    "A028359",
+    "A032766",
+    "A040001",
+    "A082870",
+    "A092200",
+    "A096777"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

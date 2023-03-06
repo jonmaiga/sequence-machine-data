@@ -1,0 +1,20 @@
+{
+  "description": "Median Euler numbers.",
+  "id": "A002832",
+  "mentions": [
+    "A000657",
+    "A098277",
+    "A323833"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

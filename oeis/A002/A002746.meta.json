@@ -1,0 +1,21 @@
+{
+  "description": "Sum of logarithmic numbers.",
+  "id": "A002746",
+  "mentions": [
+    "A000005",
+    "A002741",
+    "A002744",
+    "A318249"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 2*25^n - 1 is prime.",
+  "id": "A002958",
+  "mentions": [
+    "A120375"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "u-pile numbers for the 3-Wythoff game with i=2.",
+  "id": "A001959",
+  "mentions": [
+    "A001954",
+    "A001958",
+    "A001960",
+    "A001963",
+    "A001968"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

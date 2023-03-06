@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0; a(n) = n - a(a(a(a(n-1)))) for n > 0.",
+  "id": "A005375",
+  "mentions": [
+    "A003269",
+    "A194081"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

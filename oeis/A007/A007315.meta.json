@@ -1,0 +1,19 @@
+{
+  "description": "Reversion of g.f. (beginning with constant term) for number of trees with n nodes.",
+  "id": "A007315",
+  "mentions": [
+    "A000055",
+    "A037247"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:52",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

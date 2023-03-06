@@ -1,0 +1,25 @@
+{
+  "description": "Shifts one place left under 5th-order binomial transform.",
+  "id": "A005011",
+  "mentions": [
+    "A000110",
+    "A003633",
+    "A004211",
+    "A004212",
+    "A004213",
+    "A075500"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

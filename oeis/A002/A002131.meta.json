@@ -1,0 +1,35 @@
+{
+  "description": "Sum of divisors d of n such that n/d is odd.",
+  "id": "A002131",
+  "mentions": [
+    "A000027",
+    "A000035",
+    "A000203",
+    "A000593",
+    "A005408",
+    "A006519",
+    "A008438",
+    "A026741",
+    "A060047",
+    "A069359",
+    "A143119",
+    "A192065",
+    "A244051",
+    "A301798",
+    "A326938"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

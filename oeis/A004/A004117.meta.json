@@ -1,0 +1,26 @@
+{
+  "description": "Numerators of expansion of (1-x)^(-1/3).",
+  "id": "A004117",
+  "mentions": [
+    "A004128",
+    "A004987",
+    "A007559",
+    "A034689",
+    "A047657",
+    "A053101",
+    "A054861",
+    "A072888",
+    "A094638"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

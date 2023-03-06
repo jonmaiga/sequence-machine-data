@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n+2)*2^(2*n-1) - (n/2)*binomial(2*n,n).",
+  "id": "A003583",
+  "mentions": [
+    "A001792",
+    "A007403",
+    "A055248",
+    "A294435",
+    "A294436"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

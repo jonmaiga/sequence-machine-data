@@ -1,0 +1,26 @@
+{
+  "description": "Square hex numbers.",
+  "id": "A006051",
+  "mentions": [
+    "A000051",
+    "A000290",
+    "A001570",
+    "A001921",
+    "A001922",
+    "A003154",
+    "A003215",
+    "A003500"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

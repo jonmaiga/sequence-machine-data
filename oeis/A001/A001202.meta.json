@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=0, a(2n) = a(n)+1, a(2n+1) = 10*a(n+1).",
+  "id": "A001202",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:18:09",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Table of Sprague-Grundy values for Wythoff's game (Wyt Queens) read by antidiagonals.",
+  "id": "A004481",
+  "mentions": [
+    "A002251",
+    "A004482",
+    "A004487",
+    "A004489",
+    "A018219",
+    "A047708",
+    "A317205"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:15",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

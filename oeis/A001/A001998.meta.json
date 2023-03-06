@@ -1,0 +1,48 @@
+{
+  "description": "Bending a piece of wire of length n+1; walks of length n+1 on a tetrahedron; also non-branched catafusenes with n+2 condensed hexagons.",
+  "id": "A001998",
+  "mentions": [
+    "A000051",
+    "A000228",
+    "A001333",
+    "A001444",
+    "A001997",
+    "A002216",
+    "A004127",
+    "A005418",
+    "A005963",
+    "A007051",
+    "A008277",
+    "A036359",
+    "A038766",
+    "A056323",
+    "A056324",
+    "A056325",
+    "A056326",
+    "A056327",
+    "A056391",
+    "A057427",
+    "A103293",
+    "A107767",
+    "A124302",
+    "A182522",
+    "A284949",
+    "A304972",
+    "A320750",
+    "A323942",
+    "A345207"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Untouchable numbers, also called nonaliquot numbers: impossible values for the sum of aliquot parts function (A001065).",
+  "id": "A005114",
+  "mentions": [
+    "A001065",
+    "A006556",
+    "A007015",
+    "A048138",
+    "A057709",
+    "A064000",
+    "A078923",
+    "A152454",
+    "A231964",
+    "A283152",
+    "A284147"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

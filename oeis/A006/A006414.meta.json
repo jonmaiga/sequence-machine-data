@@ -1,0 +1,28 @@
+{
+  "description": "Number of nonseparable toroidal tree-rooted maps with n + 2 edges and n + 1 vertices.",
+  "id": "A006414",
+  "mentions": [
+    "A000584",
+    "A004068",
+    "A005891",
+    "A006322",
+    "A006415",
+    "A006434",
+    "A006441",
+    "A006542",
+    "A133754",
+    "A143945"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is half of the even member of {x,y}, where x^2 + y^2 is the n-th prime of the form 4i+1.",
+  "id": "A002973",
+  "mentions": [
+    "A002144",
+    "A002330",
+    "A002331",
+    "A002970",
+    "A002972",
+    "A005098",
+    "A173331"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

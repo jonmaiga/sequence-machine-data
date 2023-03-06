@@ -1,0 +1,20 @@
+{
+  "description": "Even bisection of A007750.",
+  "id": "A007751",
+  "mentions": [
+    "A007750",
+    "A007752",
+    "A077412"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations s of {1,2,...,n} such that |s(i)-i|>1 for each i=1,2,...,n.",
+  "id": "A001883",
+  "mentions": [
+    "A001861",
+    "A001884",
+    "A001891",
+    "A075851",
+    "A075852",
+    "A080018",
+    "A323671"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

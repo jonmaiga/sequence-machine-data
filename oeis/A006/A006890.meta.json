@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Feigenbaum bifurcation velocity.",
+  "id": "A006890",
+  "mentions": [
+    "A006891",
+    "A069261",
+    "A069544",
+    "A102817",
+    "A108952",
+    "A159766",
+    "A218453"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cons",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

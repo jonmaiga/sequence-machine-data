@@ -1,0 +1,33 @@
+{
+  "description": "Numbers that contain only 1's, 2's and 3's.",
+  "id": "A007932",
+  "mentions": [
+    "A001742",
+    "A001743",
+    "A001744",
+    "A007931",
+    "A014261",
+    "A014263",
+    "A046034",
+    "A052382",
+    "A084544",
+    "A084545",
+    "A084984",
+    "A089581",
+    "A202267",
+    "A202268"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Theta series of A_7 lattice.",
+  "id": "A008447",
+  "mentions": [
+    "A023919"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:53",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

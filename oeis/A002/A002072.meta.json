@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = smallest number m such that for all k > m, either k or k+1 has a prime factor > prime(n).",
+  "id": "A002072",
+  "mentions": [
+    "A002071",
+    "A003032",
+    "A003033",
+    "A003586",
+    "A117581",
+    "A122463",
+    "A145606",
+    "A175607"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

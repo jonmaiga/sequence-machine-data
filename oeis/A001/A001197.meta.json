@@ -1,0 +1,27 @@
+{
+  "description": "Zarankiewicz's problem k_2(n).",
+  "id": "A001197",
+  "mentions": [
+    "A001198",
+    "A006613",
+    "A006616",
+    "A006626",
+    "A072567",
+    "A339635",
+    "A347472",
+    "A350296"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 2,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

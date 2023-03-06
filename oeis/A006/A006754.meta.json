@@ -1,0 +1,23 @@
+{
+  "description": "The generalized Conway-Guy sequence w^{0}.",
+  "id": "A006754",
+  "mentions": [
+    "A005318",
+    "A006755",
+    "A006756",
+    "A006757",
+    "A195683",
+    "A195684"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:30:04",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

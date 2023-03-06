@@ -1,0 +1,22 @@
+{
+  "description": "Number of fullerenes with 2n vertices (or carbon atoms).",
+  "id": "A007894",
+  "mentions": [
+    "A013957",
+    "A046880",
+    "A057210"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 10,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

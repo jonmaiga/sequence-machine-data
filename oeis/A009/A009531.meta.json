@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of the e.g.f. sin(x)*(1+x).",
+  "id": "A009531",
+  "mentions": [
+    "A000120",
+    "A009001",
+    "A029578",
+    "A049240",
+    "A086622"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

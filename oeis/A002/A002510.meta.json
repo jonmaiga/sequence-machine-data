@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of a modular function for Gamma_0(15).",
+  "id": "A002510",
+  "mentions": [
+    "A002507"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:49:48",
+    "offset": 6,
+    "size": 38,
+    "source": "joeis"
+  }
+}

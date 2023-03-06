@@ -1,0 +1,19 @@
+{
+  "description": "Number of chess games with n plies (another version).",
+  "id": "A007577",
+  "mentions": [
+    "A048987"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

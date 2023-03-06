@@ -1,0 +1,26 @@
+{
+  "description": "Continued fraction for Sum_{n>=0} 1/2^(2^n) = 0.8164215090218931...",
+  "id": "A007400",
+  "mentions": [
+    "A007404",
+    "A073088",
+    "A073414",
+    "A073415",
+    "A088431",
+    "A089267",
+    "A092910"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

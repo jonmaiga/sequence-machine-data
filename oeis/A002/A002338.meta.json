@@ -1,0 +1,19 @@
+{
+  "description": "x such that p = (x^2 + 27*y^2)/4, where p is the n-th prime of the form 3k+1.",
+  "id": "A002338",
+  "mentions": [
+    "A002330",
+    "A002339",
+    "A123489"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:22:55",
+    "offset": 1,
+    "size": 93,
+    "source": "joeis"
+  }
+}

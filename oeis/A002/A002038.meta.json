@@ -1,0 +1,17 @@
+{
+  "description": "Numbers dividing A002037(i) and larger than A002037(i-1), for some i>0.",
+  "id": "A002038",
+  "mentions": [
+    "A002037"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:49",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

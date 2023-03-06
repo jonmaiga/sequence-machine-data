@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of coefficients for repeated integration.",
+  "id": "A002689",
+  "mentions": [
+    "A002206",
+    "A002207"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

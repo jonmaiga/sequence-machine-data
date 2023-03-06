@@ -1,0 +1,19 @@
+{
+  "description": "Values of m in the discriminant D = -4*m leading to a new minimum of the L-function of the Dirichlet series L(1) = Sum_{k>=1} Kronecker(D,k)/k.",
+  "id": "A003521",
+  "mentions": [
+    "A003419",
+    "A003420"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

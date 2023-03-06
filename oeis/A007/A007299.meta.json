@@ -1,0 +1,25 @@
+{
+  "description": "Number of Hadamard matrices of order 4n.",
+  "id": "A007299",
+  "mentions": [
+    "A003432",
+    "A019442",
+    "A036297",
+    "A048615",
+    "A048616",
+    "A048885",
+    "A096201"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of directed Hamiltonian cycles (or Gray codes) on n-cube.",
+  "id": "A003042",
+  "mentions": [
+    "A003043",
+    "A006069",
+    "A006070",
+    "A066037",
+    "A091299",
+    "A091302",
+    "A159344",
+    "A180026"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

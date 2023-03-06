@@ -1,0 +1,32 @@
+{
+  "description": "Greatest k such that 3^k divides n. Or, 3-adic valuation of n.",
+  "id": "A007949",
+  "mentions": [
+    "A000005",
+    "A001511",
+    "A007814",
+    "A014578",
+    "A038500",
+    "A051064",
+    "A054861",
+    "A080278",
+    "A112765",
+    "A122841",
+    "A214411",
+    "A253786",
+    "A282317",
+    "A286940"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:47:11",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

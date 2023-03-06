@@ -1,0 +1,22 @@
+{
+  "description": "Tersum n + 1 (answer recorded in base 10).",
+  "id": "A004482",
+  "mentions": [
+    "A004481",
+    "A061347",
+    "A296339"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:13",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

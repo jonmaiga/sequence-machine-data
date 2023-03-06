@@ -1,0 +1,22 @@
+{
+  "description": "Number of convex polygons of length 2n on square lattice whose leftmost bottom vertex and rightmost top vertex have the same x-coordinate.",
+  "id": "A005770",
+  "mentions": [
+    "A000051",
+    "A005436",
+    "A005768",
+    "A005769"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:06:45",
+    "offset": 5,
+    "size": 24,
+    "source": "joeis"
+  }
+}

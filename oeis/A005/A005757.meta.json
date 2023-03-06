@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients of modular function g_4(tau).",
+  "id": "A005757",
+  "mentions": [
+    "A003296",
+    "A003297"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Image of n under the map n->n/2 if n even, n->3n-1 if n odd.",
+  "id": "A001281",
+  "mentions": [
+    "A006370",
+    "A006577",
+    "A037082",
+    "A037084",
+    "A039500",
+    "A039505",
+    "A135727",
+    "A135729",
+    "A135730"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:18:15",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

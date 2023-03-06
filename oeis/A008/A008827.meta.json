@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients from fractional iteration of exp(x) -1.",
+  "id": "A008827",
+  "mentions": [
+    "A000110",
+    "A002824",
+    "A008826"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

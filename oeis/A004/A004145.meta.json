@@ -1,0 +1,17 @@
+{
+  "description": "Number of degenerate simplices in n-cube.",
+  "id": "A004145",
+  "mentions": [
+    "A268408"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

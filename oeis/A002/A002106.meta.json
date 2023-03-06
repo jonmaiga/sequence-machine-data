@@ -1,0 +1,25 @@
+{
+  "description": "Number of transitive permutation groups of degree n.",
+  "id": "A002106",
+  "mentions": [
+    "A000001",
+    "A000019",
+    "A000637",
+    "A177244",
+    "A186277"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

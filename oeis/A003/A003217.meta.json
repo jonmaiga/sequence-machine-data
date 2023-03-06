@@ -1,0 +1,18 @@
+{
+  "description": "Maximum of minimum total weight for threshold functions of n Boolean variables.",
+  "id": "A003217",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

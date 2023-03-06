@@ -1,0 +1,27 @@
+{
+  "description": "Number of Latin squares of order n; or labeled quasigroups.",
+  "id": "A002860",
+  "mentions": [
+    "A000315",
+    "A000479",
+    "A003090",
+    "A040082",
+    "A057991",
+    "A098679",
+    "A249026"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

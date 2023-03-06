@@ -1,0 +1,22 @@
+{
+  "description": "Number of steps for aliquot sequence for n to converge to 0, or -1 if it never reaches 0.",
+  "id": "A007906",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A003023",
+    "A044050",
+    "A098007",
+    "A098008"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

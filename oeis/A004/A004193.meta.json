@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = -(-1)^n*2*(2*n+1)!*Bernoulli(2*n)/(n!*2^n).",
+  "id": "A004193",
+  "mentions": [
+    "A000367",
+    "A002445"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

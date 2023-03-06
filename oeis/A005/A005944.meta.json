@@ -1,0 +1,18 @@
+{
+  "description": "Theta series of 18-dimensional lattice associated with Sp_4(4), with det 1024 and minimal norm 4.",
+  "id": "A005944",
+  "mentions": [
+    "A005950"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

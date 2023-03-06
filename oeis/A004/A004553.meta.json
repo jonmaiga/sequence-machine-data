@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of sqrt(3) in base 8.",
+  "id": "A004553",
+  "mentions": [
+    "A002194",
+    "A004547",
+    "A004548",
+    "A004549",
+    "A004550",
+    "A004551",
+    "A004552",
+    "A004554"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

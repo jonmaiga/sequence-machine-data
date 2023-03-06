@@ -1,0 +1,35 @@
+{
+  "description": "Fermat pseudoprimes to base 2, also called Sarrus numbers or Poulet numbers.",
+  "id": "A001567",
+  "mentions": [
+    "A001220",
+    "A002997",
+    "A005165",
+    "A005382",
+    "A005935",
+    "A005936",
+    "A005937",
+    "A005938",
+    "A005939",
+    "A006935",
+    "A020136",
+    "A020137",
+    "A020228",
+    "A052155",
+    "A083737",
+    "A084653",
+    "A153508"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

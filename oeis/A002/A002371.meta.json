@@ -1,0 +1,32 @@
+{
+  "description": "Period of decimal expansion of 1/(n-th prime) (0 by convention for the primes 2 and 5).",
+  "id": "A002371",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001913",
+    "A002275",
+    "A006093",
+    "A006883",
+    "A007732",
+    "A048595",
+    "A051626",
+    "A060257",
+    "A071126",
+    "A097443"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

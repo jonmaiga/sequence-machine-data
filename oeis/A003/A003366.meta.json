@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are the sum of 10 positive 6th powers.",
+  "id": "A003366",
+  "mentions": [
+    "A001014"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

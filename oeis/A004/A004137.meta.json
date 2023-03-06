@@ -1,0 +1,32 @@
+{
+  "description": "Maximal number of edges in a graceful graph on n nodes.",
+  "id": "A004137",
+  "mentions": [
+    "A004116",
+    "A005318",
+    "A005488",
+    "A046693",
+    "A080060",
+    "A102508",
+    "A103294",
+    "A103296",
+    "A103298",
+    "A103299",
+    "A212661",
+    "A289761"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of permutations in S_n with longest increasing subsequence of length <= 3 (i.e., 1234-avoiding permutations); vexillary permutations (i.e., 2143-avoiding).",
+  "id": "A005802",
+  "mentions": [
+    "A000139",
+    "A002893",
+    "A007999",
+    "A022558",
+    "A047888",
+    "A061552",
+    "A086618",
+    "A099952",
+    "A214015",
+    "A223034",
+    "A223905",
+    "A224318",
+    "A240885"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

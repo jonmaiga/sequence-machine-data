@@ -1,0 +1,30 @@
+{
+  "description": "Pisano periods (or Pisano numbers): period of Fibonacci numbers mod n.",
+  "id": "A001175",
+  "mentions": [
+    "A000045",
+    "A001176",
+    "A001177",
+    "A001178",
+    "A001179",
+    "A003147",
+    "A003893",
+    "A060305",
+    "A066853",
+    "A222413",
+    "A235702",
+    "A296240"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

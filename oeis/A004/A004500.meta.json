@@ -1,0 +1,20 @@
+{
+  "description": "Tersum n + 11.",
+  "id": "A004500",
+  "mentions": [
+    "A004489"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:15",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

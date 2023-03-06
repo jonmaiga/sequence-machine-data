@@ -1,0 +1,33 @@
+{
+  "description": "Hit polynomials; convolution of natural numbers with Fibonacci numbers F(2), F(3), F(4), ....",
+  "id": "A001891",
+  "mentions": [
+    "A000045",
+    "A000051",
+    "A000295",
+    "A001883",
+    "A001890",
+    "A001911",
+    "A005408",
+    "A011794",
+    "A080061",
+    "A101220",
+    "A119457",
+    "A152203",
+    "A356619",
+    "A356620",
+    "A356621"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

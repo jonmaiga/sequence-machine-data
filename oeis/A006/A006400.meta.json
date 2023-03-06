@@ -1,0 +1,16 @@
+{
+  "description": "Number of connected planar maps without vertices of degree 1.",
+  "id": "A006400",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

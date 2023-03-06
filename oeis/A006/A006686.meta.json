@@ -1,0 +1,20 @@
+{
+  "description": "Octavan primes: primes of the form p = x^8 + y^8.",
+  "id": "A006686",
+  "mentions": [
+    "A000040",
+    "A001912",
+    "A003380",
+    "A291206"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

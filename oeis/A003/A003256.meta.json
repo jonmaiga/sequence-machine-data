@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number m such that A242094(m) = A001950(n).",
+  "id": "A003256",
+  "mentions": [
+    "A001950",
+    "A003234",
+    "A242094"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:27:27",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

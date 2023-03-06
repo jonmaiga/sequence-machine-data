@@ -1,0 +1,20 @@
+{
+  "description": "Regular primes.",
+  "id": "A007703",
+  "mentions": [
+    "A000367",
+    "A000928",
+    "A061576"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

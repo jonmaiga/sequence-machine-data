@@ -1,0 +1,25 @@
+{
+  "description": "Number of tournament sequences: sequences (a_1, a_2, ..., a_n) with a_1 = 1 such that a_i < a_{i+1} <= 2*a_i for all i.",
+  "id": "A008934",
+  "mentions": [
+    "A058222",
+    "A058223",
+    "A093654",
+    "A093655",
+    "A093729",
+    "A097710"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

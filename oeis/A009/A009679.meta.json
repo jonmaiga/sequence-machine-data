@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of {1, ..., 2n} into coprime pairs.",
+  "id": "A009679",
+  "mentions": [
+    "A001147",
+    "A005326"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

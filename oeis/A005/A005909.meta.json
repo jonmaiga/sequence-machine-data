@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = [ tau*a(n-1) ] + [ tau*a(n-2) ].",
+  "id": "A005909",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:43:10",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

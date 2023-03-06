@@ -1,0 +1,22 @@
+{
+  "description": "Tower of Hanoi with 3 pegs and cyclic moves only (counterclockwise).",
+  "id": "A005666",
+  "mentions": [
+    "A000051",
+    "A005665",
+    "A028859",
+    "A052945"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:35:31",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

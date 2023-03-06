@@ -1,0 +1,37 @@
+{
+  "description": "Number of restricted hexagonal polyominoes with n cells.",
+  "id": "A002212",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A001006",
+    "A001519",
+    "A001906",
+    "A002216",
+    "A004127",
+    "A007317",
+    "A025238",
+    "A026375",
+    "A026376",
+    "A026378",
+    "A032357",
+    "A091965",
+    "A097610",
+    "A097805",
+    "A104259"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

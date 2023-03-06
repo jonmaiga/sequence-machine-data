@@ -1,0 +1,19 @@
+{
+  "description": "Number of symmetric trivalent maps with n nodes.",
+  "id": "A005028",
+  "mentions": [
+    "A005027",
+    "A005500",
+    "A169809"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 3,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

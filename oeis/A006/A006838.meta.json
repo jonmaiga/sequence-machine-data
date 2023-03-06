@@ -1,0 +1,15 @@
+{
+  "description": "Percolation series for directed b.c.c. lattice.",
+  "id": "A006838",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

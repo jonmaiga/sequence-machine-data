@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected graphs, up to homeomorphism, that can be drawn in the plane using unit-length edges.",
+  "id": "A003055",
+  "mentions": [
+    "A066951"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that sum of squares of k consecutive integers >= 1 is a square.",
+  "id": "A001032",
+  "mentions": [
+    "A001652",
+    "A007475",
+    "A076215",
+    "A082291",
+    "A097812",
+    "A151557",
+    "A180442",
+    "A274469"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Stirling numbers of the second kind S(n+4, n).",
+  "id": "A001298",
+  "mentions": [
+    "A000051",
+    "A000915",
+    "A001296",
+    "A001297",
+    "A008277",
+    "A008517",
+    "A094262",
+    "A112493"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:18:17",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

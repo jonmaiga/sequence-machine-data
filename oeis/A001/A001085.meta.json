@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 20*a(n-1) - a(n-2).",
+  "id": "A001085",
+  "mentions": [
+    "A000051",
+    "A001084",
+    "A049310",
+    "A053120",
+    "A075843",
+    "A076445",
+    "A090728"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

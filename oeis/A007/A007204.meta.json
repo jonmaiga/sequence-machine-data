@@ -1,0 +1,28 @@
+{
+  "description": "Crystal ball sequence for D_4 lattice.",
+  "id": "A007204",
+  "mentions": [
+    "A000290",
+    "A000583",
+    "A001844",
+    "A005563",
+    "A016754",
+    "A057769",
+    "A060300",
+    "A069074",
+    "A099761"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:43:31",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Start with the nonnegative integers; then swap L(k) and U(k) for all k >= 1, where L = A000201, U = A001950 (lower and upper Wythoff sequences).",
+  "id": "A002251",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A018219",
+    "A019444",
+    "A073869",
+    "A086482",
+    "A342297"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

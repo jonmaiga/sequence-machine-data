@@ -1,0 +1,19 @@
+{
+  "description": "Smallest primitive factor of 10^n - 1. Also smallest prime p such that 1/p has repeating decimal expansion of period n.",
+  "id": "A007138",
+  "mentions": [
+    "A001913",
+    "A046107"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

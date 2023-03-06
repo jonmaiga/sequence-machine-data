@@ -1,0 +1,26 @@
+{
+  "description": "Number of inverse semigroups of order n, considered to be equivalent when they are isomorphic or anti-isomorphic (by reversal of the operator).",
+  "id": "A001428",
+  "mentions": [
+    "A001329",
+    "A001423",
+    "A234843",
+    "A234844",
+    "A234845",
+    "A258719",
+    "A258720"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

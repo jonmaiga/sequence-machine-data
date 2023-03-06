@@ -1,0 +1,20 @@
+{
+  "description": "Number of iterations until 3n reaches 153 under x goes to sum of cubes of digits map.",
+  "id": "A003620",
+  "mentions": [
+    "A008585",
+    "A055012",
+    "A165331"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:28:45",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

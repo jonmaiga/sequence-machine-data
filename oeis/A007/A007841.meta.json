@@ -1,0 +1,27 @@
+{
+  "description": "Number of factorizations of permutations of n letters into cycles in nondecreasing length order.",
+  "id": "A007841",
+  "mentions": [
+    "A001620",
+    "A007837",
+    "A007838",
+    "A249078",
+    "A249480",
+    "A249588",
+    "A249593",
+    "A269791",
+    "A269793",
+    "A269794"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

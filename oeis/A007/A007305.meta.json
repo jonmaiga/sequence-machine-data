@@ -1,0 +1,36 @@
+{
+  "description": "Numerators of Farey (or Stern-Brocot) tree fractions.",
+  "id": "A007305",
+  "mentions": [
+    "A002487",
+    "A004761",
+    "A006842",
+    "A006843",
+    "A007306",
+    "A025480",
+    "A047679",
+    "A049448",
+    "A054424",
+    "A054429",
+    "A057114",
+    "A059893",
+    "A070941",
+    "A152975",
+    "A153036"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "frac",
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:44:01",
+    "offset": 0,
+    "size": 93,
+    "source": "joeis"
+  }
+}

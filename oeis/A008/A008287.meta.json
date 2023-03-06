@@ -1,0 +1,25 @@
+{
+  "description": "Triangle of quadrinomial coefficients, row n is the sequence of coefficients of (1 + x + x^2 + x^3)^n.",
+  "id": "A008287",
+  "mentions": [
+    "A005712",
+    "A007318",
+    "A027907",
+    "A177882",
+    "A349812"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:13",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-element algebras with 2 binary operations.",
+  "id": "A001330",
+  "mentions": [
+    "A000142",
+    "A001329",
+    "A001331",
+    "A008972"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

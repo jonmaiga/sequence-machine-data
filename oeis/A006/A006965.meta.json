@@ -1,0 +1,19 @@
+{
+  "description": "Number of directed trees with n nodes.",
+  "id": "A006965",
+  "mentions": [
+    "A000081",
+    "A038060",
+    "A335362"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Shifts left when INVERT transform applied thrice.",
+  "id": "A007564",
+  "mentions": [
+    "A000108",
+    "A001263",
+    "A003633",
+    "A047891",
+    "A054872",
+    "A088617",
+    "A091894",
+    "A107264"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Quadruple factorial numbers n!!!!: a(n) = n*a(n-4).",
+  "id": "A007662",
+  "mentions": [
+    "A000142",
+    "A001813",
+    "A006882",
+    "A007661",
+    "A007696",
+    "A008545",
+    "A047053",
+    "A288091"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

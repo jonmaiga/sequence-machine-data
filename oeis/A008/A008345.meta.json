@@ -1,0 +1,20 @@
+{
+  "description": "a(n+1) = a(n)-b(n+1) if a(n) >= b(n+1) else a(n)+b(n+1), where {b(n)} are the triangular numbers A000217.",
+  "id": "A008345",
+  "mentions": [
+    "A000217",
+    "A008344",
+    "A076042"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

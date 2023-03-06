@@ -1,0 +1,36 @@
+{
+  "description": "Solution to a Diophantine equation: each term is a triangular number and each term + 1 is a square.",
+  "id": "A006454",
+  "mentions": [
+    "A000051",
+    "A000217",
+    "A001109",
+    "A005563",
+    "A006449",
+    "A006451",
+    "A006452",
+    "A054504",
+    "A081119",
+    "A124174",
+    "A182334",
+    "A216134",
+    "A216162",
+    "A217278",
+    "A245031",
+    "A285955",
+    "A285985"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

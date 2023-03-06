@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = a(n-1)*a(n-2) + a(n-3).",
+  "id": "A001064",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

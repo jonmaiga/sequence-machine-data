@@ -1,0 +1,16 @@
+{
+  "description": "Expand {Product_{j>=1} (1 - x^j) - 1}^12 in powers of x.",
+  "id": "A001490",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:49",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

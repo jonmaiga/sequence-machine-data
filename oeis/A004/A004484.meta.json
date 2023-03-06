@@ -1,0 +1,20 @@
+{
+  "description": "Sprague-Grundy values for game of Wyt Queens.",
+  "id": "A004484",
+  "mentions": [
+    "A004481",
+    "A064206"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:43",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

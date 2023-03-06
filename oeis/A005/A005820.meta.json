@@ -1,0 +1,53 @@
+{
+  "description": "3-perfect (triply perfect, tri-perfect, triperfect or sous-double) numbers: numbers such that the sum of the divisors of n is 3n.",
+  "id": "A005820",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A007539",
+    "A007691",
+    "A017665",
+    "A019278",
+    "A027687",
+    "A046060",
+    "A046061",
+    "A068403",
+    "A069085",
+    "A075701",
+    "A094759",
+    "A097023",
+    "A153501",
+    "A171266",
+    "A216780",
+    "A259302",
+    "A259303",
+    "A292365",
+    "A306373",
+    "A326051",
+    "A326181",
+    "A326200",
+    "A329189",
+    "A334410",
+    "A335141",
+    "A335254",
+    "A336458",
+    "A336461",
+    "A336745",
+    "A347383",
+    "A347391",
+    "A347870"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

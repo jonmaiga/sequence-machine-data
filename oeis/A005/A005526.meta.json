@@ -1,0 +1,18 @@
+{
+  "description": "Maximal number of rational points that a (smooth, geometrically irreducible) curve of genus 3 over the finite field GF(q) can have, where q is the n-th prime power >= 2.",
+  "id": "A005526",
+  "mentions": [
+    "A080205"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

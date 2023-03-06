@@ -1,0 +1,24 @@
+{
+  "description": "a(n+1) = a(n) + digital root (A010888) of a(n).",
+  "id": "A007612",
+  "mentions": [
+    "A004207",
+    "A010888",
+    "A029898",
+    "A064806"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:45:31",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Number of n-dimensional space groups in largest crystal class.",
+  "id": "A005031",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of protruded partitions of n with largest part at most 4.",
+  "id": "A005405",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "From a problem concerning circulant matrices and Gauss sums.",
+  "id": "A007791",
+  "mentions": [
+    "A007789",
+    "A007790",
+    "A007792"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of irreducible systems of meanders.",
+  "id": "A006664",
+  "mentions": [
+    "A001246",
+    "A005316"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

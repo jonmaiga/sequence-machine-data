@@ -1,0 +1,23 @@
+{
+  "description": "Fibonomial coefficients.",
+  "id": "A001658",
+  "mentions": [
+    "A000045",
+    "A001654",
+    "A001656",
+    "A001657",
+    "A055870"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

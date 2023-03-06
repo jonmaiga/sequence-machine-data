@@ -1,0 +1,27 @@
+{
+  "description": "Smallest prime beginning a complete Cunningham chain (of the second kind) of length n.",
+  "id": "A005603",
+  "mentions": [
+    "A005382",
+    "A005383",
+    "A005602",
+    "A057326",
+    "A057327",
+    "A057328",
+    "A057329",
+    "A057330",
+    "A057331",
+    "A064812"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

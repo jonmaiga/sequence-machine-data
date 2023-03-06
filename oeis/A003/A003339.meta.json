@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are the sum of 5 positive 4th powers.",
+  "id": "A003339",
+  "mentions": [
+    "A000583",
+    "A003328",
+    "A003338",
+    "A003340",
+    "A003350",
+    "A047716",
+    "A344190",
+    "A344238"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

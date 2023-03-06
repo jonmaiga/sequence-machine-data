@@ -1,0 +1,22 @@
+{
+  "description": "Numbered stops in Manhattan on the Lexington Avenue subway.",
+  "id": "A001049",
+  "mentions": [
+    "A000053",
+    "A000054",
+    "A002186",
+    "A007826"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

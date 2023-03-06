@@ -1,0 +1,15 @@
+{
+  "description": "Number of irreducible polyhedral graphs with n nodes.",
+  "id": "A006866",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 4,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

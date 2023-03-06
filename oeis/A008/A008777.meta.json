@@ -1,0 +1,21 @@
+{
+  "description": "Number of dots and dashes used when representing n-th letter in Morse code.",
+  "id": "A008777",
+  "mentions": [
+    "A059852"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

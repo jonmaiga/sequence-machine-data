@@ -1,0 +1,32 @@
+{
+  "description": "Number of partitions of n into 4 squares.",
+  "id": "A002635",
+  "mentions": [
+    "A000161",
+    "A000164",
+    "A000174",
+    "A000177",
+    "A000290",
+    "A006431",
+    "A010052",
+    "A025422",
+    "A025423",
+    "A025424",
+    "A025425",
+    "A124978",
+    "A180149",
+    "A245022"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

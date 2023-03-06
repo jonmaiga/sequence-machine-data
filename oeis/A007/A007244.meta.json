@@ -1,0 +1,21 @@
+{
+  "description": "McKay-Thompson series of class 3B for the Monster group.",
+  "id": "A007244",
+  "mentions": [
+    "A030182",
+    "A045481"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:15:58",
+    "offset": -1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

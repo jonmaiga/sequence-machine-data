@@ -1,0 +1,29 @@
+{
+  "description": "Sum of digits of n^2.",
+  "id": "A004159",
+  "mentions": [
+    "A000290",
+    "A007953",
+    "A056691",
+    "A058369",
+    "A062397",
+    "A062685",
+    "A071317",
+    "A159918",
+    "A215614",
+    "A240752",
+    "A268226"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonequivalent dissections of a polygon into n pentagons by nonintersecting diagonals rooted at a cell up to rotation.",
+  "id": "A005037",
+  "mentions": [
+    "A000108",
+    "A295222"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

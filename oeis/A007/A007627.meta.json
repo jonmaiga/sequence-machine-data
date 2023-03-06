@@ -1,0 +1,23 @@
+{
+  "description": "Primitive modest numbers.",
+  "id": "A007627",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A054986",
+    "A055018"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

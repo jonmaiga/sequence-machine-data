@@ -1,0 +1,18 @@
+{
+  "description": "Number of cases considered in a particular algorithm for enumerating hexaflexagrams.",
+  "id": "A007499",
+  "mentions": [
+    "A000207"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Smallest number m such that m^m+1 is divisible by n.",
+  "id": "A009661",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:36",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

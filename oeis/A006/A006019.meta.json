@@ -1,0 +1,20 @@
+{
+  "description": "Remoteness number of n in Simon Norton's game of Tribulations.",
+  "id": "A006019",
+  "mentions": [
+    "A000217",
+    "A005240",
+    "A057944",
+    "A266726"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

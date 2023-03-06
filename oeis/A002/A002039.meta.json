@@ -1,0 +1,22 @@
+{
+  "description": "Convolution inverse of A143348.",
+  "id": "A002039",
+  "mentions": [
+    "A002040",
+    "A143348",
+    "A143441"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

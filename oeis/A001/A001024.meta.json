@@ -1,0 +1,24 @@
+{
+  "description": "Powers of 15.",
+  "id": "A001024",
+  "mentions": [
+    "A000005",
+    "A000051",
+    "A000290",
+    "A000302",
+    "A159991",
+    "A329332"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

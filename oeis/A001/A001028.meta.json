@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. satisfies A'(x) = 1 + A(A(x)), A(0)=0.",
+  "id": "A001028",
+  "mentions": [
+    "A030266",
+    "A035049"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

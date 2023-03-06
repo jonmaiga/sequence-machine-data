@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of sinh(x)/(1+x).",
+  "id": "A009628",
+  "mentions": [
+    "A000166",
+    "A000522",
+    "A009179",
+    "A051397",
+    "A087208",
+    "A186763"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

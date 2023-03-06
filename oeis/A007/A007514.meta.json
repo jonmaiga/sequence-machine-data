@@ -1,0 +1,24 @@
+{
+  "description": "Pi = Sum_{n >= 0} a(n)/n!.",
+  "id": "A007514",
+  "mentions": [
+    "A000796",
+    "A004601",
+    "A004608",
+    "A062964",
+    "A068436",
+    "A068440",
+    "A075874"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

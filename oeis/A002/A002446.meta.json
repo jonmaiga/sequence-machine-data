@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^(2*n+1) - 2.",
+  "id": "A002446",
+  "mentions": [
+    "A000051",
+    "A002450",
+    "A241171"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

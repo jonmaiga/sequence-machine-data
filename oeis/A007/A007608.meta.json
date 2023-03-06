@@ -1,0 +1,32 @@
+{
+  "description": "Nonnegative integers in base -4.",
+  "id": "A007608",
+  "mentions": [
+    "A007090",
+    "A039723",
+    "A039724",
+    "A066323",
+    "A073785",
+    "A073786",
+    "A073787",
+    "A073788",
+    "A073789",
+    "A073790",
+    "A212494",
+    "A212526",
+    "A212556"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:45:31",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

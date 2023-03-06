@@ -1,0 +1,19 @@
+{
+  "description": "Davenport-Schinzel numbers of degree 4 on n symbols.",
+  "id": "A002004",
+  "mentions": [
+    "A259874"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

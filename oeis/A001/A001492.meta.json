@@ -1,0 +1,19 @@
+{
+  "description": "Clock chimes with a quarter-hour bell.",
+  "id": "A001492",
+  "mentions": [
+    "A007879",
+    "A007884"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:19:15",
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

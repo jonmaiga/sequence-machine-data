@@ -1,0 +1,29 @@
+{
+  "description": "Number of polynomial symmetric functions of matrix of order n under separate row and column permutations.",
+  "id": "A007716",
+  "mentions": [
+    "A000041",
+    "A049311",
+    "A052365",
+    "A052366",
+    "A052367",
+    "A052372",
+    "A052373",
+    "A053307",
+    "A054688",
+    "A120733",
+    "A318795"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "description": "Number of runs in binary expansion of n (n>0); number of 1's in Gray code for n.",
+  "id": "A005811",
+  "mentions": [
+    "A000975",
+    "A003188",
+    "A007814",
+    "A014577",
+    "A014707",
+    "A025480",
+    "A030308",
+    "A033264",
+    "A034947",
+    "A037834",
+    "A044813",
+    "A056539",
+    "A069010",
+    "A079944",
+    "A082410",
+    "A088696",
+    "A088748",
+    "A090079",
+    "A112347",
+    "A165413",
+    "A226227",
+    "A226228",
+    "A226229",
+    "A246960"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "hear",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

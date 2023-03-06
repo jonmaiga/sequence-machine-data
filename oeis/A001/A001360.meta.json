@@ -1,0 +1,20 @@
+{
+  "description": "Crystal ball sequence for hyperbolic tessellation 3^7 (from triangle group (2,3,7)).",
+  "id": "A001360",
+  "mentions": [
+    "A001354"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

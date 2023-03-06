@@ -1,0 +1,22 @@
+{
+  "description": "Complexity of (or spanning trees in) a 3 X n grid.",
+  "id": "A006238",
+  "mentions": [
+    "A001906",
+    "A003775",
+    "A004254",
+    "A100047",
+    "A116469"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 5a(n-2) - 2a(n-4).",
+  "id": "A005824",
+  "mentions": [
+    "A000051",
+    "A052984",
+    "A079162",
+    "A107839"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

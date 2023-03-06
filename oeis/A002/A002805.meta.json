@@ -1,0 +1,40 @@
+{
+  "description": "Denominators of harmonic numbers H(n) = Sum_{i=1..n} 1/i.",
+  "id": "A002805",
+  "mentions": [
+    "A000254",
+    "A001008",
+    "A002110",
+    "A024451",
+    "A025529",
+    "A034386",
+    "A075135",
+    "A102928",
+    "A106830",
+    "A175441",
+    "A203810",
+    "A203811",
+    "A203812",
+    "A213999",
+    "A250133",
+    "A256101",
+    "A282511",
+    "A282512",
+    "A296358"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

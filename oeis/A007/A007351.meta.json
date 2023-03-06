@@ -1,0 +1,22 @@
+{
+  "description": "Where prime race 4m-1 vs. 4m+1 is tied.",
+  "id": "A007351",
+  "mentions": [
+    "A005165",
+    "A005596",
+    "A007350",
+    "A038691",
+    "A156749"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

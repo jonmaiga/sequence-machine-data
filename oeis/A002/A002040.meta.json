@@ -1,0 +1,24 @@
+{
+  "description": "Related to partitions.",
+  "id": "A002040",
+  "mentions": [
+    "A000041",
+    "A000203",
+    "A002039",
+    "A010815",
+    "A143441"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

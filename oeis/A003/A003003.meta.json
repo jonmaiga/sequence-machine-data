@@ -1,0 +1,41 @@
+{
+  "description": "Size of the largest subset of the numbers [1...n] which doesn't contain a 4-term arithmetic progression.",
+  "id": "A003003",
+  "mentions": [
+    "A000051",
+    "A003002",
+    "A003004",
+    "A003005",
+    "A003278",
+    "A004793",
+    "A005047",
+    "A005487",
+    "A033157",
+    "A065825",
+    "A092482",
+    "A093678",
+    "A093679",
+    "A093680",
+    "A093681",
+    "A093682",
+    "A094870",
+    "A101884",
+    "A101886",
+    "A101888",
+    "A136746",
+    "A140577",
+    "A185256",
+    "A208746",
+    "A229037"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of stochastic matrices of integers: n X n arrays of nonnegative integers with all row and column sums equal to 3.",
+  "id": "A001500",
+  "mentions": [
+    "A000681",
+    "A001496",
+    "A002831",
+    "A246970",
+    "A257493",
+    "A269743",
+    "A344379"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Fermionic string states.",
+  "id": "A005309",
+  "mentions": [
+    "A000051",
+    "A002117",
+    "A052812",
+    "A052847",
+    "A074962",
+    "A156616",
+    "A261386",
+    "A261389",
+    "A261451",
+    "A261452"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

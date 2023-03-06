@@ -1,0 +1,20 @@
+{
+  "description": "Mu-atoms of period n on continent of Mandelbrot set.",
+  "id": "A006874",
+  "mentions": [
+    "A000010",
+    "A006875",
+    "A006876"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

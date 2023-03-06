@@ -1,0 +1,15 @@
+{
+  "description": "Nim product 13 * n.",
+  "id": "A004478",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:13",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

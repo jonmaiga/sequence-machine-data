@@ -1,0 +1,20 @@
+{
+  "description": "Number of planted binary phylogenetic trees with n labels.",
+  "id": "A006677",
+  "mentions": [
+    "A001147"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

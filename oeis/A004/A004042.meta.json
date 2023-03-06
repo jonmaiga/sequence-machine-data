@@ -1,0 +1,19 @@
+{
+  "description": "Periods of reciprocals of A006883, starting with first nonzero digit.",
+  "id": "A004042",
+  "mentions": [
+    "A006883",
+    "A180340"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

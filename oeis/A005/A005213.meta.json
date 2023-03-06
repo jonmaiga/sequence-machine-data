@@ -1,0 +1,19 @@
+{
+  "description": "Number of symmetric, reduced unit interval schemes with n+1 intervals (n>=1).",
+  "id": "A005213",
+  "mentions": [
+    "A002426",
+    "A005717"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

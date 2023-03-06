@@ -1,0 +1,20 @@
+{
+  "description": "Zarankiewicz's problem k_3(n,n+1).",
+  "id": "A006621",
+  "mentions": [
+    "A001198",
+    "A006620",
+    "A006626"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

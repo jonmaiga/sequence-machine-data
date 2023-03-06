@@ -1,0 +1,23 @@
+{
+  "description": "Factor complexity (number of subwords of length n) of the Golay-Rudin-Shapiro binary word A020987.",
+  "id": "A005943",
+  "mentions": [
+    "A005942",
+    "A006697",
+    "A020987",
+    "A337120"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

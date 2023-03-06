@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that k! + 1 is prime.",
+  "id": "A002981",
+  "mentions": [
+    "A002982",
+    "A005648",
+    "A006794",
+    "A064295",
+    "A088332",
+    "A090660",
+    "A093804"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

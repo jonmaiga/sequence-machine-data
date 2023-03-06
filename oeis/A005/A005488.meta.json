@@ -1,0 +1,20 @@
+{
+  "description": "Maximal number of edges in a b^{hat} graceful graph with n nodes.",
+  "id": "A005488",
+  "mentions": [
+    "A004137",
+    "A007187",
+    "A239308"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

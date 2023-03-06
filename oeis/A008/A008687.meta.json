@@ -1,0 +1,30 @@
+{
+  "description": "Number of 1's in 2's complement representation of -n.",
+  "id": "A008687",
+  "mentions": [
+    "A000120",
+    "A004754",
+    "A007305",
+    "A007306",
+    "A010078",
+    "A023416",
+    "A061313",
+    "A083318",
+    "A088696",
+    "A127904",
+    "A135416",
+    "A290251"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Icosahedral numbers: a(n) = n*(5*n^2 - 5*n + 2)/2.",
+  "id": "A006564",
+  "mentions": [
+    "A000051",
+    "A000292",
+    "A000566",
+    "A000578",
+    "A005900",
+    "A006556",
+    "A006566",
+    "A035006",
+    "A053012",
+    "A175578"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:38:49",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

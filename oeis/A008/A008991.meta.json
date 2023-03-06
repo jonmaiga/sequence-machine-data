@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of coefficients in expansion of sqrt(sin(x)/x) (even powers only).",
+  "id": "A008991",
+  "mentions": [
+    "A008992",
+    "A117017",
+    "A220002",
+    "A220466"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

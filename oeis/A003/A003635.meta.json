@@ -1,0 +1,26 @@
+{
+  "description": "Inconsummate numbers in base 10: no number is this multiple of the sum of its digits (in base 10).",
+  "id": "A003635",
+  "mentions": [
+    "A003634",
+    "A052489",
+    "A052490",
+    "A052491",
+    "A058898",
+    "A058906",
+    "A058917"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "A self-generating sequence: a(1)=1, a(2)=2, a(n+1) chosen so that a(n+1)-a(n-1) is the first number not obtainable as a(j)-a(i) for 1<=i",
+  "id": "A001149",
+  "mentions": [
+    "A005180",
+    "A005282",
+    "A005347",
+    "A054540"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:49",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

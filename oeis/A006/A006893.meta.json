@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number whose representation requires n triangular numbers with greedy algorithm; also number of 1-2 rooted trees of height n.",
+  "id": "A006893",
+  "mentions": [
+    "A007501",
+    "A057945"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

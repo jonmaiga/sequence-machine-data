@@ -1,0 +1,19 @@
+{
+  "description": "Barriers for omega(n): numbers n such that, for all m < n, m + omega(m) <= n.",
+  "id": "A005236",
+  "mentions": [
+    "A001221",
+    "A229109"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

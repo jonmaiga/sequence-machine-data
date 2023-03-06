@@ -1,0 +1,31 @@
+{
+  "description": "Number of connected partially ordered sets with n labeled points.",
+  "id": "A001927",
+  "mentions": [
+    "A000110",
+    "A000112",
+    "A000608",
+    "A000798",
+    "A001035",
+    "A001929",
+    "A006056",
+    "A006057",
+    "A006058",
+    "A006059",
+    "A066303",
+    "A342501"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

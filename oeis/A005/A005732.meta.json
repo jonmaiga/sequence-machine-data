@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = binomial(n+3,6) + binomial(n+1,5) + binomial(n,5).",
+  "id": "A005732",
+  "mentions": [
+    "A000051",
+    "A006600",
+    "A007318",
+    "A260417"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:34:49",
+    "offset": 3,
+    "size": 37,
+    "source": "joeis"
+  }
+}

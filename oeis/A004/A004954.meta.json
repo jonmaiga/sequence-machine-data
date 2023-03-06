@@ -1,0 +1,18 @@
+{
+  "description": "Nearest integer to n*phi^19, where phi is the golden ratio, A001622.",
+  "id": "A004954",
+  "mentions": [
+    "A001622",
+    "A004934"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:51",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

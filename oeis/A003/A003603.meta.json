@@ -1,0 +1,28 @@
+{
+  "description": "Fractal sequence obtained from Fibonacci numbers (or Wythoff array).",
+  "id": "A003603",
+  "mentions": [
+    "A000045",
+    "A003602",
+    "A019586",
+    "A033192",
+    "A035513",
+    "A094967",
+    "A265650"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

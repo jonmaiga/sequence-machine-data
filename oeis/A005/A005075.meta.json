@@ -1,0 +1,27 @@
+{
+  "description": "Sum of squares of primes = 2 mod 3 dividing n.",
+  "id": "A005075",
+  "mentions": [
+    "A000290",
+    "A005063",
+    "A005071",
+    "A005074",
+    "A005076",
+    "A005077",
+    "A008472",
+    "A020639",
+    "A028234",
+    "A079978"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

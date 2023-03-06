@@ -1,0 +1,21 @@
+{
+  "description": "Number of 4-colorings of cyclic group of order n.",
+  "id": "A007687",
+  "mentions": [
+    "A000034",
+    "A005843",
+    "A007688",
+    "A137928"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

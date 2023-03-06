@@ -1,0 +1,41 @@
+{
+  "description": "Cluster series for site percolation problem on honeycomb matching lattice (honeycomb structure with 1st, 2nd and 3rd neighbors connected).",
+  "id": "A003200",
+  "mentions": [
+    "A003197",
+    "A003198",
+    "A003199",
+    "A003201",
+    "A003202",
+    "A003203",
+    "A003204",
+    "A003205",
+    "A003206",
+    "A003207",
+    "A003208",
+    "A003209",
+    "A003210",
+    "A003211",
+    "A003212",
+    "A036392",
+    "A036394",
+    "A036395",
+    "A036396",
+    "A036397",
+    "A036398",
+    "A036400",
+    "A036401",
+    "A036402"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

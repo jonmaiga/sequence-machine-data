@@ -1,0 +1,22 @@
+{
+  "description": "Infinitary perfect numbers.",
+  "id": "A007357",
+  "mentions": [
+    "A000396",
+    "A049417",
+    "A050376",
+    "A129656",
+    "A129657"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Leading term of Stirling's approximation to n!, sqrt(2*Pi)*n^(n+(1/2))/e^n, rounded up.",
+  "id": "A005395",
+  "mentions": [
+    "A005393"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

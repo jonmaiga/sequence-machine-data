@@ -1,0 +1,24 @@
+{
+  "description": "Divisible only by primes congruent to 1 mod 3.",
+  "id": "A004611",
+  "mentions": [
+    "A002476",
+    "A004612",
+    "A008846",
+    "A024606",
+    "A034017",
+    "A120806",
+    "A335895"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

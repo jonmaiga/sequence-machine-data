@@ -1,0 +1,23 @@
+{
+  "description": "G-symmetric Costas arrays of order n that are inequivalent under dihedral group.",
+  "id": "A001442",
+  "mentions": [
+    "A001440",
+    "A001441",
+    "A008403",
+    "A008404"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

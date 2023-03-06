@@ -1,0 +1,29 @@
+{
+  "description": "Quartan primes: primes of the form x^4 + y^4, x>0, y>0.",
+  "id": "A002645",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000583",
+    "A001912",
+    "A002313",
+    "A002646",
+    "A003336",
+    "A004831",
+    "A028916",
+    "A049084",
+    "A256852"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

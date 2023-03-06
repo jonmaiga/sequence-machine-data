@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (number of nonisomorphic nontransitive prime tournaments on n nodes) - Moebius(n).",
+  "id": "A002638",
+  "mentions": [
+    "A000568",
+    "A008683",
+    "A259106"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

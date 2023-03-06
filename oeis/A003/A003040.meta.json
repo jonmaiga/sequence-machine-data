@@ -1,0 +1,27 @@
+{
+  "description": "Highest degree of an irreducible representation of symmetric group S_n of degree n.",
+  "id": "A003040",
+  "mentions": [
+    "A003277",
+    "A003869",
+    "A003870",
+    "A003871",
+    "A003872",
+    "A003873",
+    "A003874",
+    "A003875",
+    "A003876",
+    "A003877",
+    "A117500"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

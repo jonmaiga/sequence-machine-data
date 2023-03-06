@@ -1,0 +1,21 @@
+{
+  "description": "From expansion of falling factorials.",
+  "id": "A005492",
+  "mentions": [
+    "A000051",
+    "A005490",
+    "A108087"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:33:49",
+    "offset": 4,
+    "size": 37,
+    "source": "joeis"
+  }
+}

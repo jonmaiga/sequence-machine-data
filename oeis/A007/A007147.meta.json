@@ -1,0 +1,20 @@
+{
+  "description": "Number of self-dual 2-colored necklaces with 2n beads.",
+  "id": "A007147",
+  "mentions": [
+    "A000016",
+    "A016116"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

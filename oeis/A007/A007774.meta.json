@@ -1,0 +1,37 @@
+{
+  "description": "Numbers that are divisible by exactly 2 different primes; numbers n with omega(n) = A001221(n) = 2.",
+  "id": "A007774",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001358",
+    "A006881",
+    "A014612",
+    "A014613",
+    "A014614",
+    "A033992",
+    "A033993",
+    "A046386",
+    "A046387",
+    "A051270",
+    "A067885",
+    "A074969",
+    "A085736",
+    "A112801",
+    "A176655",
+    "A246655",
+    "A256617",
+    "A348072",
+    "A348073"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:46:33",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

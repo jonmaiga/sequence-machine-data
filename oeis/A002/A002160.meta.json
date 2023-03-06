@@ -1,0 +1,20 @@
+{
+  "description": "Nearest integer to Pi^n.",
+  "id": "A002160",
+  "mentions": [
+    "A000227",
+    "A001672",
+    "A001673"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:09:26",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

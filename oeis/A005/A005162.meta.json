@@ -1,0 +1,20 @@
+{
+  "description": "Number of alternating sign n X n matrices symmetric with respect to both diagonals.",
+  "id": "A005162",
+  "mentions": [
+    "A005130"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

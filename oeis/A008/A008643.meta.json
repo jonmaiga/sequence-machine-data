@@ -1,0 +1,21 @@
+{
+  "description": "Molien series for group of 4 X 4 upper triangular matrices over GF(2).",
+  "id": "A008643",
+  "mentions": [
+    "A008804",
+    "A077952",
+    "A088932"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:48:31",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

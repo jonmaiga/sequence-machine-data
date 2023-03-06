@@ -1,0 +1,21 @@
+{
+  "description": "Möbius transform of A003964.",
+  "id": "A003978",
+  "mentions": [
+    "A000041",
+    "A000720",
+    "A003964"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:29:35",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

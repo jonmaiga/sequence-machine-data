@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that occur 5 or more times in Pascal's triangle.",
+  "id": "A003015",
+  "mentions": [
+    "A003016",
+    "A059233",
+    "A090162",
+    "A098565",
+    "A182237"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

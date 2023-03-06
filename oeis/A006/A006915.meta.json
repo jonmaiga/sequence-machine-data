@@ -1,0 +1,15 @@
+{
+  "description": "Theta series of laminated lattice LAMBDA_13^{min}.",
+  "id": "A006915",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

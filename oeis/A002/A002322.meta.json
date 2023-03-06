@@ -1,0 +1,33 @@
+{
+  "description": "Reduced totient function psi(n): least k such that x^k == 1 (mod n) for all x prime to n; also known as the Carmichael lambda function (exponent of unit group mod n); also called the universal exponent of n.",
+  "id": "A002322",
+  "mentions": [
+    "A001221",
+    "A002174",
+    "A002616",
+    "A011773",
+    "A027748",
+    "A034380",
+    "A061258",
+    "A062373",
+    "A066799",
+    "A095874",
+    "A124010",
+    "A141258",
+    "A207193"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

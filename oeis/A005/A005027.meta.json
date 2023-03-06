@@ -1,0 +1,21 @@
+{
+  "description": "Number of trivalent maps with n nodes.",
+  "id": "A005027",
+  "mentions": [
+    "A005028",
+    "A005500",
+    "A169808",
+    "A341855"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

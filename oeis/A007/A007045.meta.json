@@ -1,0 +1,21 @@
+{
+  "description": "Second (lower) diagonal of partition triangle A047812.",
+  "id": "A007045",
+  "mentions": [
+    "A007042",
+    "A007044",
+    "A047812",
+    "A051643"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 2,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

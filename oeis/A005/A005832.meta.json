@@ -1,0 +1,16 @@
+{
+  "description": "Product k^(2^(k-1)), k = 1..n.",
+  "id": "A005832",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle of distribution of rank sums: Wilcoxon's statistic.",
+  "id": "A008968",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:49:33",
+    "offset": 6,
+    "size": 94,
+    "source": "joeis"
+  }
+}

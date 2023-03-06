@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of e.g.f. cos(tanh(x)*tan(x)) (only powers that are multiples of 4).",
+  "id": "A009094",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

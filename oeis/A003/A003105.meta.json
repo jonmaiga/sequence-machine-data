@@ -1,0 +1,41 @@
+{
+  "description": "Schur's 1926 partition theorem: number of partitions of n into parts 6n+1 or 6n-1.",
+  "id": "A003105",
+  "mentions": [
+    "A000041",
+    "A000122",
+    "A000700",
+    "A000726",
+    "A001651",
+    "A003114",
+    "A003116",
+    "A010054",
+    "A010815",
+    "A070048",
+    "A096938",
+    "A109389",
+    "A109697",
+    "A109701",
+    "A109702",
+    "A121373",
+    "A132462",
+    "A132463",
+    "A186099",
+    "A261612",
+    "A262928",
+    "A285219",
+    "A304047"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

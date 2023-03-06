@@ -1,0 +1,25 @@
+{
+  "description": "Numerators in Taylor series for tan(x). Also from Taylor series for tanh(x).",
+  "id": "A002430",
+  "mentions": [
+    "A000182",
+    "A036279",
+    "A046990",
+    "A099612",
+    "A156769",
+    "A160469"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

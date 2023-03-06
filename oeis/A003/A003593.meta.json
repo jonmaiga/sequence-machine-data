@@ -1,0 +1,25 @@
+{
+  "description": "Numbers of the form 3^i*5^j with i, j >= 0.",
+  "id": "A003593",
+  "mentions": [
+    "A008683",
+    "A033849",
+    "A051037",
+    "A112751",
+    "A112756",
+    "A143202",
+    "A264997",
+    "A264998"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

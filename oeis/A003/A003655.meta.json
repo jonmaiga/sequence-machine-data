@@ -1,0 +1,19 @@
+{
+  "description": "Discriminants of real quadratic fields with narrow class number 1.",
+  "id": "A003655",
+  "mentions": [
+    "A002144",
+    "A003656",
+    "A327297"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

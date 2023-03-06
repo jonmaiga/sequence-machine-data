@@ -1,0 +1,22 @@
+{
+  "description": "Moebius transform of triangular numbers.",
+  "id": "A007438",
+  "mentions": [
+    "A000010",
+    "A000217",
+    "A007434",
+    "A015631",
+    "A159905"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

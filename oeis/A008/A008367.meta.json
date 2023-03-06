@@ -1,0 +1,23 @@
+{
+  "description": "Composite but smallest prime factor >= 17.",
+  "id": "A008367",
+  "mentions": [
+    "A002808",
+    "A008366",
+    "A038511",
+    "A084969",
+    "A084970",
+    "A287391"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

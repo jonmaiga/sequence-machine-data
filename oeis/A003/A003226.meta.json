@@ -1,0 +1,32 @@
+{
+  "description": "Automorphic numbers: m^2 ends with m.",
+  "id": "A003226",
+  "mentions": [
+    "A007185",
+    "A008851",
+    "A016090",
+    "A018247",
+    "A018248",
+    "A018834",
+    "A029943",
+    "A033819",
+    "A035383",
+    "A046831",
+    "A052228",
+    "A301912"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

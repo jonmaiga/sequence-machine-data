@@ -1,0 +1,30 @@
+{
+  "description": "Table of n XOR m (or Nim-sum of n and m) read by antidiagonals with m>=0, n>=0.",
+  "id": "A003987",
+  "mentions": [
+    "A001477",
+    "A003986",
+    "A004198",
+    "A004442",
+    "A004443",
+    "A004444",
+    "A006582",
+    "A051775",
+    "A051776",
+    "A221146"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "look",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:29:35",
+    "offset": 0,
+    "size": 95,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Related to the asymptotic expansion of Sum_{k = 0..n} C(n,k)^4.",
+  "id": "A007804",
+  "mentions": [
+    "A005260"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

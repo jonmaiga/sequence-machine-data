@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 3*binomial(4*n,n)/(n+1).",
+  "id": "A007228",
+  "mentions": [
+    "A002293",
+    "A007223",
+    "A007224",
+    "A007225",
+    "A007226",
+    "A007227",
+    "A007229",
+    "A124724"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:46:43",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

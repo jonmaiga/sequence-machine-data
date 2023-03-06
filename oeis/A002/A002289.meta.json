@@ -1,0 +1,20 @@
+{
+  "description": "Weight distribution of [ 23,12,7 ] binary perfect Golay code.",
+  "id": "A002289",
+  "mentions": [
+    "A001380"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

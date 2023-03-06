@@ -1,0 +1,23 @@
+{
+  "description": "Non-seed mu-atoms of period n in Mandelbrot set.",
+  "id": "A006875",
+  "mentions": [
+    "A000010",
+    "A000740",
+    "A006874",
+    "A006876",
+    "A008683",
+    "A118454"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

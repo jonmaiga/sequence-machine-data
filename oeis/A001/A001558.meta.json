@@ -1,0 +1,26 @@
+{
+  "description": "Number of hill-free Dyck paths of semilength n+3 and having length of first descent equal to 1 (a hill in a Dyck path is a peak at level 1).",
+  "id": "A001558",
+  "mentions": [
+    "A000108",
+    "A000957",
+    "A039599",
+    "A104629",
+    "A111301",
+    "A118972",
+    "A118973",
+    "A180662"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

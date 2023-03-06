@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of [n] with n-3 sequences.",
+  "id": "A001759",
+  "mentions": [
+    "A001250",
+    "A001758"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:55:57",
+    "offset": 4,
+    "size": 18,
+    "source": "joeis"
+  }
+}

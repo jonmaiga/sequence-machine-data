@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions into pairs.",
+  "id": "A006200",
+  "mentions": [
+    "A079267"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:50:30",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

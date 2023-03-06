@@ -1,0 +1,19 @@
+{
+  "description": "Let p = A007645(n) be the n-th generalized cuban prime and write p^2 = x^2 + 3*y^2 with y>0; a(n) = y.",
+  "id": "A002368",
+  "mentions": [
+    "A002365",
+    "A002367",
+    "A007645"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:35",
+    "offset": 2,
+    "size": 58,
+    "source": "joeis"
+  }
+}

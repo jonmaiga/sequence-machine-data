@@ -1,0 +1,30 @@
+{
+  "description": "Constant sequence: the all 2's sequence.",
+  "id": "A007395",
+  "mentions": [
+    "A000004",
+    "A000005",
+    "A000012",
+    "A000040",
+    "A002061",
+    "A010701",
+    "A088164",
+    "A089105",
+    "A151801",
+    "A165900",
+    "A213999",
+    "A254858"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:44:33",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

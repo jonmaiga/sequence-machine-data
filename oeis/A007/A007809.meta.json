@@ -1,0 +1,25 @@
+{
+  "description": "Smallest prime with n distinct digits.",
+  "id": "A007809",
+  "mentions": [
+    "A007810",
+    "A038378",
+    "A071360",
+    "A071361",
+    "A071362",
+    "A071363"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

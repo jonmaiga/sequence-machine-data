@@ -1,0 +1,27 @@
+{
+  "description": "Number of pairs x,y such that y-x=2, (x,n)=1, (y,n)=1 and 1 <= x <= n.",
+  "id": "A002472",
+  "mentions": [
+    "A000010",
+    "A058026",
+    "A065474",
+    "A319516",
+    "A319534",
+    "A321029",
+    "A321030"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

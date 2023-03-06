@@ -1,0 +1,17 @@
+{
+  "description": "Molien series of 4-dimensional representation of SL(2,7).",
+  "id": "A008623",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:48:27",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

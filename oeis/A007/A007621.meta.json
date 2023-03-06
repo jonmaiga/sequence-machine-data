@@ -1,0 +1,19 @@
+{
+  "description": "Impractical numbers: even abundant numbers (A173490) that are not practical(2) (A007620).",
+  "id": "A007621",
+  "mentions": [
+    "A007620",
+    "A035480",
+    "A173490"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

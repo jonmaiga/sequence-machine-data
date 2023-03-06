@@ -1,0 +1,23 @@
+{
+  "description": "High temperature series for spin-1/2 Ising specific heat on 3-dimensional f.c.c. lattice.",
+  "id": "A002918",
+  "mentions": [
+    "A001407",
+    "A002165",
+    "A002916",
+    "A002917",
+    "A002921"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

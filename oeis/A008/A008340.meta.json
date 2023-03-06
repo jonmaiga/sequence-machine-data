@@ -1,0 +1,23 @@
+{
+  "description": "Coordination sequence for E_8 lattice.",
+  "id": "A008340",
+  "mentions": [
+    "A008397",
+    "A008399",
+    "A019557",
+    "A019558"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:47:47",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

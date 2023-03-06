@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer x such that p=(x^2-5y^2)/4 where p is the n-th odd prime such that 5 is a square mod p.",
+  "id": "A002342",
+  "mentions": [
+    "A002330",
+    "A002343",
+    "A038872"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:22:57",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

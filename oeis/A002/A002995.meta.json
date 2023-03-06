@@ -1,0 +1,32 @@
+{
+  "description": "Number of unlabeled planar trees (also called plane trees) with n nodes.",
+  "id": "A002995",
+  "mentions": [
+    "A000055",
+    "A000081",
+    "A000108",
+    "A002996",
+    "A003239",
+    "A005354",
+    "A006963",
+    "A057502",
+    "A061417",
+    "A064640",
+    "A102693",
+    "A303694",
+    "A303864"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

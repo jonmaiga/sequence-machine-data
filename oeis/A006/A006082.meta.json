@@ -1,0 +1,27 @@
+{
+  "description": "Number of labeled projective plane trees (or \"flat\" trees) with n nodes.",
+  "id": "A006082",
+  "mentions": [
+    "A001405",
+    "A002995",
+    "A006078",
+    "A006079",
+    "A006080",
+    "A006081",
+    "A126120",
+    "A185100",
+    "A302828",
+    "A303929"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of coefficients for numerical integration.",
+  "id": "A002197",
+  "mentions": [
+    "A000367",
+    "A002198",
+    "A002671",
+    "A006954",
+    "A008956",
+    "A160487"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

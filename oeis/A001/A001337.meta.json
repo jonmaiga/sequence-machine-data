@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-step polygons on f.c.c. lattice.",
+  "id": "A001337",
+  "mentions": [
+    "A001334",
+    "A001336",
+    "A003287",
+    "A005398"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

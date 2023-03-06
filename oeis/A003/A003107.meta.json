@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n into Fibonacci parts (with a single type of 1).",
+  "id": "A003107",
+  "mentions": [
+    "A000045",
+    "A000119",
+    "A003105",
+    "A005092",
+    "A007000",
+    "A028290",
+    "A098641",
+    "A102848",
+    "A238998",
+    "A319394"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Larger of unitary amicable pair.",
+  "id": "A002953",
+  "mentions": [
+    "A002952",
+    "A063990",
+    "A063991",
+    "A111904"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

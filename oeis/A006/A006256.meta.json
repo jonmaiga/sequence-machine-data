@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(3k,k)*binomial(3n-3k,n-k).",
+  "id": "A006256",
+  "mentions": [
+    "A000302",
+    "A005809",
+    "A036829",
+    "A078995"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

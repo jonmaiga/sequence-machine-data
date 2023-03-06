@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to fold a strip of n blank stamps.",
+  "id": "A001011",
+  "mentions": [
+    "A000136",
+    "A000682",
+    "A001010",
+    "A005347",
+    "A086441"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

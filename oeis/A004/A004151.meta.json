@@ -1,0 +1,21 @@
+{
+  "description": "Omit trailing zeros from n.",
+  "id": "A004151",
+  "mentions": [
+    "A004719",
+    "A122840"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

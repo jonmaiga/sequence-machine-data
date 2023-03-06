@@ -1,0 +1,28 @@
+{
+  "description": "Theta series of lattice A_2 tensor E_8 (dimension 16, det. 6561, min. norm 4). Also theta series of Eisenstein version of E_8 lattice.",
+  "id": "A004033",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A007332",
+    "A010054",
+    "A010815",
+    "A037150",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "No-3-in-line problem for equilateral triangle array of side n.",
+  "id": "A007402",
+  "mentions": [
+    "A007376"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

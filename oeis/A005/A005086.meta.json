@@ -1,0 +1,23 @@
+{
+  "description": "Number of Fibonacci numbers 1,2,3,5,... dividing n.",
+  "id": "A005086",
+  "mentions": [
+    "A000045",
+    "A010056",
+    "A038663",
+    "A051731",
+    "A072649",
+    "A129655"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

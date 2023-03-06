@@ -1,0 +1,20 @@
+{
+  "description": "Number of mappings from n points to themselves with in-degree <= 2.",
+  "id": "A006961",
+  "mentions": [
+    "A001190"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:49:13",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

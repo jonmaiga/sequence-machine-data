@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways of getting a straight flush, 4 of a kind, full house, flush, straight, 3 of a kind, 2 pair, a pair, no pair in poker.",
+  "id": "A002847",
+  "mentions": [
+    "A002761"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

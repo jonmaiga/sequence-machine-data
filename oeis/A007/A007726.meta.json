@@ -1,0 +1,22 @@
+{
+  "description": "Number of spanning trees of quarter Aztec diamonds of order n.",
+  "id": "A007726",
+  "mentions": [
+    "A006752",
+    "A007341",
+    "A007725",
+    "A065072",
+    "A340052"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

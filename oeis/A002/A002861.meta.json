@@ -1,0 +1,25 @@
+{
+  "description": "Number of connected functions (or mapping patterns) on n unlabeled points, or number of rings and branches with n edges.",
+  "id": "A002861",
+  "mentions": [
+    "A000081",
+    "A001372",
+    "A027852",
+    "A029852",
+    "A029853",
+    "A029868",
+    "A339428"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

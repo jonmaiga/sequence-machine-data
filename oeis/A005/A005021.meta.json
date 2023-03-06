@@ -1,0 +1,35 @@
+{
+  "description": "Random walks (binomial transform of A006054).",
+  "id": "A005021",
+  "mentions": [
+    "A000051",
+    "A000108",
+    "A006054",
+    "A052547",
+    "A060557",
+    "A077998",
+    "A080937",
+    "A085810",
+    "A094789",
+    "A094790",
+    "A116425",
+    "A121449",
+    "A160389",
+    "A215404",
+    "A322602",
+    "A332602"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

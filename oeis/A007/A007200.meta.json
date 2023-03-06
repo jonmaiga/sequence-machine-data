@@ -1,0 +1,18 @@
+{
+  "description": "Number of self-avoiding walks on hexagonal lattice, with additional constraints.",
+  "id": "A007200",
+  "mentions": [
+    "A007201"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

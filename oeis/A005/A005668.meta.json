@@ -1,0 +1,35 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(10).",
+  "id": "A005668",
+  "mentions": [
+    "A000045",
+    "A000051",
+    "A000129",
+    "A001076",
+    "A005667",
+    "A006190",
+    "A049310",
+    "A052918",
+    "A073133",
+    "A078987",
+    "A097315",
+    "A172236",
+    "A175185",
+    "A243399",
+    "A352361"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

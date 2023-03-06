@@ -1,0 +1,28 @@
+{
+  "description": "Number of labeled mating graphs with n nodes. Also called point-determining graphs.",
+  "id": "A006024",
+  "mentions": [
+    "A000311",
+    "A000669",
+    "A006023",
+    "A006025",
+    "A007833",
+    "A079306",
+    "A129583",
+    "A129584",
+    "A129585",
+    "A129586"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

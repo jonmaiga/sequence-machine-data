@@ -1,0 +1,16 @@
+{
+  "description": "E.g.f. tan(sinh(x))*cos(x) (odd powers only).",
+  "id": "A009680",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 13:00:14",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

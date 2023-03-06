@@ -1,0 +1,27 @@
+{
+  "description": "Smallest prime in decomposition of 2n into sum of two odd primes.",
+  "id": "A002373",
+  "mentions": [
+    "A002372",
+    "A002374",
+    "A010051",
+    "A014092",
+    "A020481",
+    "A025019",
+    "A051610",
+    "A065091",
+    "A208662"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:22:59",
+    "offset": 3,
+    "size": 98,
+    "source": "joeis"
+  }
+}

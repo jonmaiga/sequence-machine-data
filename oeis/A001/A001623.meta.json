@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3 X n reduced (normalized) Latin rectangles.",
+  "id": "A001623",
+  "mentions": [
+    "A001009"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Fully multiplicative with a(p) = k if p is the k-th prime.",
+  "id": "A003963",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A027748",
+    "A049084",
+    "A056239",
+    "A064553",
+    "A112798",
+    "A124010",
+    "A156552",
+    "A215366",
+    "A227184",
+    "A241909",
+    "A243354",
+    "A243499",
+    "A243504"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

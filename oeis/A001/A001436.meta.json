@@ -1,0 +1,17 @@
+{
+  "description": "Number of connected graphs with n nodes, n+2 edges.",
+  "id": "A001436",
+  "mentions": [
+    "A054923"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

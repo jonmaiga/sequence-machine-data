@@ -1,0 +1,21 @@
+{
+  "description": "Odd squarefree numbers with an odd number of prime factors that have no prime factors greater than 31.",
+  "id": "A002556",
+  "mentions": [
+    "A002557",
+    "A056912",
+    "A067019"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

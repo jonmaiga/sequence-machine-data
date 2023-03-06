@@ -1,0 +1,17 @@
+{
+  "description": "Number of points on the surface of 5-dimensional cube.",
+  "id": "A008512",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:14",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = largest integer such that every tournament on n nodes contains a consistent set of n arcs.",
+  "id": "A005779",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

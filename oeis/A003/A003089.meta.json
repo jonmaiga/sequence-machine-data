@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected line graphs with n nodes.",
+  "id": "A003089",
+  "mentions": [
+    "A002905"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

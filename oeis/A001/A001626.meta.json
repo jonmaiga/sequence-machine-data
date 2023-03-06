@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3-line Latin rectangles.",
+  "id": "A001626",
+  "mentions": [
+    "A000186",
+    "A001623"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:51:26",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

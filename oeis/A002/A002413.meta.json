@@ -1,0 +1,29 @@
+{
+  "description": "Heptagonal (or 7-gonal) pyramidal numbers: a(n) = n*(n+1)*(5*n-2)/6.",
+  "id": "A002413",
+  "mentions": [
+    "A000051",
+    "A000217",
+    "A000292",
+    "A000566",
+    "A002412",
+    "A010879",
+    "A010888",
+    "A080851",
+    "A093562",
+    "A237616"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:23:03",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

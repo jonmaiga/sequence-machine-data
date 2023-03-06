@@ -1,0 +1,22 @@
+{
+  "description": "a(2*n) = floor( 17*2^n/14 ), a(2*n+1) = floor( 12*2^n/7 ).",
+  "id": "A003143",
+  "mentions": [
+    "A000051",
+    "A010892",
+    "A049347",
+    "A077957"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

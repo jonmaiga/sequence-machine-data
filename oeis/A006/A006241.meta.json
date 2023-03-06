@@ -1,0 +1,19 @@
+{
+  "description": "Number of minimal plane trees with n terminal nodes.",
+  "id": "A006241",
+  "mentions": [
+    "A001003",
+    "A281145"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

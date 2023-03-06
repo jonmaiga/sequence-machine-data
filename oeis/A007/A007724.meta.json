@@ -1,0 +1,22 @@
+{
+  "description": "Even minus odd extensions of truncated 3 X 2n grid diagram.",
+  "id": "A007724",
+  "mentions": [
+    "A003121",
+    "A005789",
+    "A217800",
+    "A241958"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:17:58",
+    "offset": 2,
+    "size": 19,
+    "source": "joeis"
+  }
+}

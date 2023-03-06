@@ -1,0 +1,18 @@
+{
+  "description": "Number of triangle-free trivalent (or cubic) graphs with 2n labeled nodes.",
+  "id": "A006903",
+  "mentions": [
+    "A014371"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

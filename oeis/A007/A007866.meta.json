@@ -1,0 +1,16 @@
+{
+  "description": "Number of `homogenized' N-free graphs with n nodes.",
+  "id": "A007866",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

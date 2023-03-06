@@ -1,0 +1,24 @@
+{
+  "description": "Number of n-dimensional space groups.",
+  "id": "A004029",
+  "mentions": [
+    "A004027",
+    "A004028",
+    "A006226",
+    "A006227",
+    "A293060"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

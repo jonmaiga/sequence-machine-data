@@ -1,0 +1,21 @@
+{
+  "description": "Number of unrooted maps with n edges on the torus.",
+  "id": "A006386",
+  "mentions": [
+    "A006300",
+    "A104595",
+    "A104596",
+    "A215019"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

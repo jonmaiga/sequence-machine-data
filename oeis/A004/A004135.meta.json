@@ -1,0 +1,22 @@
+{
+  "description": "Additive bases: a(n) is the least integer k such that in the cyclic group Z_k there is a subset of n elements all pairs (of distinct elements) of which add up to a different sum (in Z_k).",
+  "id": "A004135",
+  "mentions": [
+    "A004133",
+    "A004136",
+    "A260998",
+    "A260999"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

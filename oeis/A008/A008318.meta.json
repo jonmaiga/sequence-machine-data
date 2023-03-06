@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number strictly greater than previous one which is the sum of squares of two previous distinct terms (a(1)=1, a(2)=2).",
+  "id": "A008318",
+  "mentions": [
+    "A003095",
+    "A192476"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:53",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

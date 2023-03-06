@@ -1,0 +1,29 @@
+{
+  "description": "Centered pentagonal numbers: (5n^2+5n+2)/2; crystal ball sequence for 3.3.3.4.4. planar net.",
+  "id": "A005891",
+  "mentions": [
+    "A000051",
+    "A000217",
+    "A001263",
+    "A001844",
+    "A003215",
+    "A004068",
+    "A006322",
+    "A008706",
+    "A028895",
+    "A101321",
+    "A167546"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:35:57",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

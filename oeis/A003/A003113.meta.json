@@ -1,0 +1,27 @@
+{
+  "description": "Coefficients in expansion of permanent of infinite tridiagonal matrix shown below.",
+  "id": "A003113",
+  "mentions": [
+    "A003105",
+    "A003106",
+    "A003114",
+    "A006141",
+    "A119469",
+    "A264591",
+    "A264592",
+    "A264593",
+    "A264594",
+    "A264595"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

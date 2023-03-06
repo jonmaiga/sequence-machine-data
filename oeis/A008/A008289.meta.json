@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: Q(n,m) = number of partitions of n into m distinct parts, n>=1, m>=1.",
+  "id": "A008289",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A003056",
+    "A008284",
+    "A015723",
+    "A026820",
+    "A030699",
+    "A032020",
+    "A060016",
+    "A104382",
+    "A117147",
+    "A209318"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:13",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

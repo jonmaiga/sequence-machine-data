@@ -1,0 +1,31 @@
+{
+  "description": "Numerator of Sum_{k=0..n} (-1)^k/(2*k+1).",
+  "id": "A007509",
+  "mentions": [
+    "A024199",
+    "A025547",
+    "A142969",
+    "A157142",
+    "A166107",
+    "A167576",
+    "A167577",
+    "A167578",
+    "A167588",
+    "A167589",
+    "A352395"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

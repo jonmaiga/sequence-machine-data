@@ -1,0 +1,24 @@
+{
+  "description": "Largest prime factor of product of first n primes - 1, or 1 if no such prime exists.",
+  "id": "A002584",
+  "mentions": [
+    "A002110",
+    "A002582",
+    "A002585",
+    "A006530",
+    "A038507",
+    "A057588"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

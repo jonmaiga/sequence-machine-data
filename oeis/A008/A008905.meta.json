@@ -1,0 +1,25 @@
+{
+  "description": "Leading digit of n!.",
+  "id": "A008905",
+  "mentions": [
+    "A000030",
+    "A000142",
+    "A000966",
+    "A018799",
+    "A202021",
+    "A213201"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

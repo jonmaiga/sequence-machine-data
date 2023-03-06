@@ -1,0 +1,21 @@
+{
+  "description": "Number of weighted linear spaces of total weight n.",
+  "id": "A002876",
+  "mentions": [
+    "A001200",
+    "A001548",
+    "A002877"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

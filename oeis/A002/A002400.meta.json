@@ -1,0 +1,27 @@
+{
+  "description": "Coefficients for step-by-step integration.",
+  "id": "A002400",
+  "mentions": [
+    "A002397",
+    "A002398",
+    "A002399",
+    "A002401",
+    "A002402",
+    "A002403",
+    "A002404",
+    "A002405",
+    "A002406",
+    "A260780",
+    "A260781"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

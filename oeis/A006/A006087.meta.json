@@ -1,0 +1,23 @@
+{
+  "description": "Unitary harmonic means H(n) of the unitary harmonic numbers (A006086).",
+  "id": "A006087",
+  "mentions": [
+    "A006086",
+    "A034444",
+    "A034448",
+    "A077610",
+    "A103339"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

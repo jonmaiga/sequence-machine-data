@@ -1,0 +1,28 @@
+{
+  "description": "Trajectory of 1 under map x->x + (x-with-digits-reversed).",
+  "id": "A001127",
+  "mentions": [
+    "A004086",
+    "A006960",
+    "A023108",
+    "A033648",
+    "A033649",
+    "A033650",
+    "A033651",
+    "A056964",
+    "A243238"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

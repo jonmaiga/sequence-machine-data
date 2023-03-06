@@ -1,0 +1,29 @@
+{
+  "description": "Number of h-cobordism classes of smooth homotopy n-spheres.",
+  "id": "A001676",
+  "mentions": [
+    "A048648",
+    "A053381",
+    "A057617",
+    "A187595",
+    "A187717",
+    "A189995",
+    "A191783",
+    "A228689",
+    "A228690",
+    "A228691",
+    "A228692"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

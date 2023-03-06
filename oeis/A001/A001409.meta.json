@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2n-step polygons on cubic lattice.",
+  "id": "A001409",
+  "mentions": [
+    "A001412"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

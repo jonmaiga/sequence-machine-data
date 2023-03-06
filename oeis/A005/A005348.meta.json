@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to add n ordinals.",
+  "id": "A005348",
+  "mentions": [
+    "A005180",
+    "A005347"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:11:33",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

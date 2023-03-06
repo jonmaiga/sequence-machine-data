@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are not the sum of 3 distinct nonzero triangular numbers.",
+  "id": "A002244",
+  "mentions": [
+    "A000217",
+    "A002243"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of self-complementary 2-colored bracelets (turnover necklaces) with 2n beads.",
+  "id": "A007148",
+  "mentions": [
+    "A000011",
+    "A000013",
+    "A000079",
+    "A007147",
+    "A045690",
+    "A093371",
+    "A245558"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

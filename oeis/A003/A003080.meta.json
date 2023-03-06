@@ -1,0 +1,24 @@
+{
+  "description": "Number of rooted triangular cacti with 2n+1 nodes (n triangles).",
+  "id": "A003080",
+  "mentions": [
+    "A000081",
+    "A003081",
+    "A034940",
+    "A034941",
+    "A332648"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

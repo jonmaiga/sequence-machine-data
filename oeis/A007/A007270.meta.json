@@ -1,0 +1,15 @@
+{
+  "description": "Zero-field low-temperature series for 3-state Potts model.",
+  "id": "A007270",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Indices of primes where largest gap occurs.",
+  "id": "A005669",
+  "mentions": [
+    "A000101",
+    "A000720",
+    "A002386",
+    "A005250",
+    "A005667",
+    "A107578"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

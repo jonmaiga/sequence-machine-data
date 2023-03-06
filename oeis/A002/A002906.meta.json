@@ -1,0 +1,24 @@
+{
+  "description": "High temperature series for spin-1/2 Ising magnetic susceptibility on 2D square lattice.",
+  "id": "A002906",
+  "mentions": [
+    "A002908",
+    "A002910",
+    "A002913",
+    "A002920",
+    "A002927",
+    "A005401",
+    "A007239"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

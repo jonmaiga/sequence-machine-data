@@ -1,0 +1,31 @@
+{
+  "description": "Quartic (or 4-fold) factorial numbers: a(n) = Product_{k = 0..n-1} (4*k + 1).",
+  "id": "A007696",
+  "mentions": [
+    "A001147",
+    "A001813",
+    "A004981",
+    "A007559",
+    "A008545",
+    "A008548",
+    "A034255",
+    "A042948",
+    "A047053",
+    "A048994",
+    "A049029",
+    "A051142",
+    "A169619",
+    "A264781"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

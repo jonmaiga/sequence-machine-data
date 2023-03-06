@@ -1,0 +1,18 @@
+{
+  "description": "Floor of n*phi^5, where phi is the golden ratio, A001622.",
+  "id": "A004920",
+  "mentions": [
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:49",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

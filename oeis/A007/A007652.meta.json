@@ -1,0 +1,28 @@
+{
+  "description": "Final digit of prime(n).",
+  "id": "A007652",
+  "mentions": [
+    "A000040",
+    "A010879",
+    "A038194",
+    "A039701",
+    "A039706",
+    "A039709",
+    "A039715",
+    "A110923",
+    "A290450"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

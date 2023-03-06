@@ -1,0 +1,21 @@
+{
+  "description": "Number of consistent arcs in a tournament with n nodes.",
+  "id": "A001225",
+  "mentions": [
+    "A003141"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

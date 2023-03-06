@@ -1,0 +1,31 @@
+{
+  "description": "Sum of (any number of) distinct squares: of form r^2 + s^2 + t^2 + ... with 0 <= r < s < t < ...",
+  "id": "A003995",
+  "mentions": [
+    "A000290",
+    "A001422",
+    "A001983",
+    "A004431",
+    "A004432",
+    "A004433",
+    "A004434",
+    "A008935",
+    "A033461",
+    "A224981",
+    "A224982",
+    "A224983"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:29:37",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

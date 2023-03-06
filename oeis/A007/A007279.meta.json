@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into partition numbers.",
+  "id": "A007279",
+  "mentions": [
+    "A000041",
+    "A086209",
+    "A229362"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Triangle T(n,k) read by rows, giving number of graphs with n nodes (n >= 1) and k edges (0 <= k <= n(n-1)/2).",
+  "id": "A008406",
+  "mentions": [
+    "A000055",
+    "A000088",
+    "A000124",
+    "A000664",
+    "A000717",
+    "A001349",
+    "A001430",
+    "A001431",
+    "A001432",
+    "A001433",
+    "A001434",
+    "A002905",
+    "A039735",
+    "A046742",
+    "A046751",
+    "A048179",
+    "A048180",
+    "A054924",
+    "A084546"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:53",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

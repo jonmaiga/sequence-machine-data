@@ -1,0 +1,38 @@
+{
+  "description": "Number of tripling steps to reach 1 from n in '3x+1' problem, or -1 if 1 is never reached.",
+  "id": "A006667",
+  "mentions": [
+    "A000079",
+    "A006370",
+    "A006577",
+    "A006666",
+    "A033958",
+    "A033959",
+    "A062052",
+    "A062053",
+    "A062054",
+    "A062055",
+    "A062056",
+    "A062057",
+    "A062058",
+    "A062059",
+    "A062060",
+    "A075680",
+    "A078719",
+    "A092893",
+    "A127789"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hear",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

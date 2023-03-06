@@ -1,0 +1,20 @@
+{
+  "description": "3x+1 sequence starting at 95.",
+  "id": "A008875",
+  "mentions": [
+    "A006370",
+    "A008874",
+    "A347270"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:49:19",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Discrete logarithm of n to the base 2 modulo 11.",
+  "id": "A008830",
+  "mentions": [
+    "A036117"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

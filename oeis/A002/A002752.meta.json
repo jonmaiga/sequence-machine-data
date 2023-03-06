@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Fibonacci(n-1) mod n.",
+  "id": "A002752",
+  "mentions": [
+    "A000045",
+    "A002708",
+    "A352747"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:24:25",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

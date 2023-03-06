@@ -1,0 +1,19 @@
+{
+  "description": "High-temperature series in v = tanh(J/kT) for susceptibility for the Ising model on honeycomb structure.",
+  "id": "A002910",
+  "mentions": [
+    "A002978",
+    "A007239"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

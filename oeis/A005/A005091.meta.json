@@ -1,0 +1,24 @@
+{
+  "description": "Number of distinct primes = 3 mod 4 dividing n.",
+  "id": "A005091",
+  "mentions": [
+    "A001221",
+    "A005089",
+    "A005094",
+    "A027748",
+    "A072437",
+    "A079261",
+    "A187811"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

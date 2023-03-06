@@ -1,0 +1,16 @@
+{
+  "description": "Putative number of uniform tight n-dimensional sphere packings (the next 2 numbers are believed to be infinity, 1 ).",
+  "id": "A008741",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

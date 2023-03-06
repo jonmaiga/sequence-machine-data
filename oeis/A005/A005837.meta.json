@@ -1,0 +1,31 @@
+{
+  "description": "Lexicographically earliest increasing sequence of positive numbers that contains no 4-term arithmetic progression.",
+  "id": "A005837",
+  "mentions": [
+    "A003278",
+    "A005836",
+    "A005838",
+    "A005839",
+    "A020654",
+    "A020655",
+    "A020656",
+    "A020657",
+    "A020658",
+    "A020659",
+    "A020660",
+    "A020661",
+    "A020662",
+    "A020663",
+    "A020664"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

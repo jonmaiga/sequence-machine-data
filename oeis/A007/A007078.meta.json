@@ -1,0 +1,17 @@
+{
+  "description": "Optimal cost of search tree.",
+  "id": "A007078",
+  "mentions": [
+    "A007077"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

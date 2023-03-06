@@ -1,0 +1,32 @@
+{
+  "description": "Number of stacks, or arrangements of n pennies in contiguous rows, each touching 2 in row below.",
+  "id": "A001524",
+  "mentions": [
+    "A000041",
+    "A001522",
+    "A001523",
+    "A005169",
+    "A005180",
+    "A005347",
+    "A007293",
+    "A008289",
+    "A015128",
+    "A143184",
+    "A171604",
+    "A259095",
+    "A340659"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

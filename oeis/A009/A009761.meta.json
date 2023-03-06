@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. tan(x)/cosh(sin(x)), odd powers only.",
+  "id": "A009761",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

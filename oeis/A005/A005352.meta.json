@@ -1,0 +1,22 @@
+{
+  "description": "Base -2 representation of -n reinterpreted as binary.",
+  "id": "A005352",
+  "mentions": [
+    "A005351",
+    "A212529"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:33:27",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

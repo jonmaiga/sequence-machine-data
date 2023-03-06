@@ -1,0 +1,23 @@
+{
+  "description": "Number of different cycles of digits in the decimal expansions of 1/p, 2/p, ..., (p-1)/p where p = n-th prime different from 2 or 5.",
+  "id": "A006556",
+  "mentions": [
+    "A002371",
+    "A048595",
+    "A054471"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:58:55",
+    "offset": 3,
+    "size": 99,
+    "source": "joeis"
+  }
+}

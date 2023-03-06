@@ -1,0 +1,23 @@
+{
+  "description": "Prime Lucas numbers (cf. A000032).",
+  "id": "A005479",
+  "mentions": [
+    "A000032",
+    "A001606",
+    "A113188",
+    "A113192",
+    "A153867",
+    "A266587"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

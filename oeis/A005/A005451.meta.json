@@ -1,0 +1,23 @@
+{
+  "description": "a(n)=1 if n is a prime number, otherwise a(n)=n.",
+  "id": "A005451",
+  "mentions": [
+    "A005450",
+    "A088140",
+    "A089026",
+    "A135684",
+    "A181569"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

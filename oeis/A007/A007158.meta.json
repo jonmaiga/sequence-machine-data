@@ -1,0 +1,19 @@
+{
+  "description": "Essentially n-ary operations in a certain 3-element algebra.",
+  "id": "A007158",
+  "mentions": [
+    "A007153",
+    "A007155"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of rooted identity matched trees with n nodes.",
+  "id": "A005753",
+  "mentions": [
+    "A005750",
+    "A038077",
+    "A246312",
+    "A255517"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

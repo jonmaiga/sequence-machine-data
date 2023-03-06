@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k = 1..n} (n - k + 1)^k.",
+  "id": "A003101",
+  "mentions": [
+    "A003099",
+    "A026898",
+    "A047970",
+    "A051129",
+    "A062810",
+    "A247358",
+    "A287215"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

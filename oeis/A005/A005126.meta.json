@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^n + n + 1.",
+  "id": "A005126",
+  "mentions": [
+    "A000051",
+    "A128715",
+    "A194455"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

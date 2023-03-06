@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are the sum of 5 distinct squares: of form v^2 + w^2 + x^2 + y^2 + z^2 with 0 <= v < w < x < y < z.",
+  "id": "A001995",
+  "mentions": [
+    "A001944"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:21:07",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

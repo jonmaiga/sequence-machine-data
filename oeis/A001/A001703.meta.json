@@ -1,0 +1,28 @@
+{
+  "description": "Decimal concatenation of n, n+1, and n+2.",
+  "id": "A001703",
+  "mentions": [
+    "A000027",
+    "A035333",
+    "A074991",
+    "A127421",
+    "A127422",
+    "A127423",
+    "A127424",
+    "A193431",
+    "A279204"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:19:27",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

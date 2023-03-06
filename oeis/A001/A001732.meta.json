@@ -1,0 +1,18 @@
+{
+  "description": "8 in base 10-n.",
+  "id": "A001732",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

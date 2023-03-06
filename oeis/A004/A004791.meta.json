@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k >= 2 such that if 1 <= j < k then fractional part of log k > fractional part of log j.",
+  "id": "A004791",
+  "mentions": [
+    "A004790"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_t t*F(n,t), where F(n,t) is the number of forests with n (unlabeled) nodes and exactly t trees, all of which are planted (that is, rooted trees in which the root has degree 1).",
+  "id": "A005199",
+  "mentions": [
+    "A000081",
+    "A005196",
+    "A005197",
+    "A033185",
+    "A095133",
+    "A336087"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:51",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

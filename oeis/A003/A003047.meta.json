@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Catalan(n) * Product a(k), k = 0 . . n-1.",
+  "id": "A003047",
+  "mentions": [
+    "A000108",
+    "A003046",
+    "A028580"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose binary expansion does not begin 111.",
+  "id": "A004765",
+  "mentions": [
+    "A007088"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

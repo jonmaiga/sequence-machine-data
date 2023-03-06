@@ -1,0 +1,15 @@
+{
+  "description": "Number of equivalence classes of 3-valued Post functions of n variables under action of semi-direct product of symmetric groups S_n and S(n,3).",
+  "id": "A001327",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

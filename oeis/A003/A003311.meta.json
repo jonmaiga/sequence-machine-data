@@ -1,0 +1,23 @@
+{
+  "description": "Write down the numbers from 3 to infinity. Take next number, M say, that has not been crossed off. Counting through the numbers that have not yet been crossed off after that M, cross off the first, (M+1)st, (2M+1)st, (3M+1)st., etc. Repeat. The numbers that are left form the sequence.",
+  "id": "A003311",
+  "mentions": [
+    "A003309",
+    "A003310",
+    "A003312",
+    "A052548",
+    "A100464",
+    "A100562",
+    "A100585"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

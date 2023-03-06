@@ -1,0 +1,24 @@
+{
+  "description": "Theta series of diamond with respect to deep hole.",
+  "id": "A005927",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A005887",
+    "A008443",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:52",
+    "offset": 0,
+    "size": 97,
+    "source": "joeis"
+  }
+}

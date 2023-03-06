@@ -1,0 +1,18 @@
+{
+  "description": "Repeatedly convert from decimal to octal.",
+  "id": "A008558",
+  "mentions": [
+    "A007094"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:47:16",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Theta series of 6-dimensional lattice A_6^(2) (other names for this lattice or the corresponding quadratic form are LAMBDA_{3,lambda}, P_6^(5), phi_6, F_14).",
+  "id": "A002706",
+  "mentions": [
+    "A002653",
+    "A002656"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

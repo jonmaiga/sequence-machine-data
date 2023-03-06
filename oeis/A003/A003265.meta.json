@@ -1,0 +1,20 @@
+{
+  "description": "Not representable by truncated tribonacci sequence 2, 4, 7, 13, 24, 44, 81, ....",
+  "id": "A003265",
+  "mentions": [
+    "A000073",
+    "A003726",
+    "A136175",
+    "A278038"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:27:29",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

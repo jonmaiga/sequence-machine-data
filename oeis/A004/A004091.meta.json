@@ -1,0 +1,21 @@
+{
+  "description": "Fibonacci numbers written backwards.",
+  "id": "A004091",
+  "mentions": [
+    "A000045",
+    "A004086",
+    "A004170",
+    "A014258"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

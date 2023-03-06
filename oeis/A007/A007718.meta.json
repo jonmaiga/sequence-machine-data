@@ -1,0 +1,22 @@
+{
+  "description": "Number of independent polynomial invariants of matrix of order n.",
+  "id": "A007718",
+  "mentions": [
+    "A007716",
+    "A056156",
+    "A319557",
+    "A319565",
+    "A319566"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

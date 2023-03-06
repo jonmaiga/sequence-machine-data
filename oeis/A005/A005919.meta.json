@@ -1,0 +1,19 @@
+{
+  "description": "Number of points on surface of tricapped prism: 7n^2 + 2 for n > 0, a(0)=1.",
+  "id": "A005919",
+  "mentions": [
+    "A000051",
+    "A206399"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:35:57",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

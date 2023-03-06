@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways of folding a strip of n rectangular stamps.",
+  "id": "A002369",
+  "mentions": [
+    "A056780",
+    "A326301"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = minimal integer m such that an m X m square contains non-overlapping squares of sides 1, ..., n (some values are only conjectures).",
+  "id": "A005842",
+  "mentions": [
+    "A092137"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

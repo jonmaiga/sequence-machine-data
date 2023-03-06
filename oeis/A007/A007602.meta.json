@@ -1,0 +1,32 @@
+{
+  "description": "Numbers that are divisible by the product of their digits.",
+  "id": "A007602",
+  "mentions": [
+    "A001103",
+    "A002796",
+    "A005349",
+    "A034709",
+    "A034838",
+    "A038186",
+    "A052382",
+    "A055471",
+    "A168046",
+    "A180484",
+    "A188642",
+    "A188643",
+    "A286590",
+    "A288069"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

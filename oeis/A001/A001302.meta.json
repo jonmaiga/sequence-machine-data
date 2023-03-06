@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways of making change for n cents using coins of 1, 2, 5, 10, 25, 50 cents.",
+  "id": "A001302",
+  "mentions": [
+    "A000008",
+    "A001300",
+    "A001301",
+    "A001312",
+    "A001313"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:49",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers such that at least one digit contains a loop (version 2). Also called \"holey\" or \"holy\" numbers.",
+  "id": "A001745",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:19:29",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

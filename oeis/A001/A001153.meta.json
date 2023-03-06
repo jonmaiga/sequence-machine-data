@@ -1,0 +1,26 @@
+{
+  "description": "Degrees of primitive irreducible trinomials: n such that 2^n - 1 is a Mersenne prime and x^n + x^k + 1 is a primitive irreducible polynomial over GF(2) for some k with 0 < k < n.",
+  "id": "A001153",
+  "mentions": [
+    "A000043",
+    "A002475",
+    "A057486",
+    "A073571",
+    "A073639",
+    "A073726",
+    "A074743"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

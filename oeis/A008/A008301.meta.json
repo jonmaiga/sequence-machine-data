@@ -1,0 +1,24 @@
+{
+  "description": "Poupard's triangle: triangle of numbers arising in enumeration of binary trees.",
+  "id": "A008301",
+  "mentions": [
+    "A002105",
+    "A107652",
+    "A210108",
+    "A236934"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:13",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

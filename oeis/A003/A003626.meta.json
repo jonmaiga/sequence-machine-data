@@ -1,0 +1,19 @@
+{
+  "description": "Inert rational primes in Q(sqrt(-5)).",
+  "id": "A003626",
+  "mentions": [
+    "A007376",
+    "A139513"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:28:45",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

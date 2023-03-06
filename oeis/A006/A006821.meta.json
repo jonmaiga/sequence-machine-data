@@ -1,0 +1,39 @@
+{
+  "description": "Number of connected regular graphs of degree 5 (or quintic graphs) with 2n nodes.",
+  "id": "A006821",
+  "mentions": [
+    "A002851",
+    "A005177",
+    "A006820",
+    "A006822",
+    "A014377",
+    "A014378",
+    "A014381",
+    "A014382",
+    "A014384",
+    "A058275",
+    "A068934",
+    "A129419",
+    "A129430",
+    "A165626",
+    "A165655",
+    "A184953",
+    "A184954",
+    "A184955",
+    "A205295"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of trees with n nodes and 2-colored internal (non-leaf) nodes.",
+  "id": "A004114",
+  "mentions": [
+    "A004113",
+    "A052316",
+    "A052317"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

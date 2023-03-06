@@ -1,0 +1,20 @@
+{
+  "description": "Worst cases for Pierce expansions (denominators).",
+  "id": "A006538",
+  "mentions": [
+    "A006537",
+    "A268058"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

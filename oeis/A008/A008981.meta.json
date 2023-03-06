@@ -1,0 +1,26 @@
+{
+  "description": "Number of immersions of the unoriented circle into the oriented plane with n double points.",
+  "id": "A008981",
+  "mentions": [
+    "A008980",
+    "A008982",
+    "A008983",
+    "A008984",
+    "A008985",
+    "A054993",
+    "A172023"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

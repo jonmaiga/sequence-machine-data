@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = phi(n) * (sigma(n) - n).",
+  "id": "A007517",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001065"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

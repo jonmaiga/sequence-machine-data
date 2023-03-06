@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of permutations w of 1,2,...,n such that both w and w^{-1} are alternating.",
+  "id": "A007999",
+  "mentions": [
+    "A000111",
+    "A332344",
+    "A332345"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:10:27",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

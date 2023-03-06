@@ -1,0 +1,22 @@
+{
+  "description": "Number of Boolean functions realized by cascades of n gates.",
+  "id": "A005609",
+  "mentions": [
+    "A000051",
+    "A005607",
+    "A005608",
+    "A005618"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:26:28",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

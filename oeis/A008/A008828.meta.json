@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of closed meander systems of order n with k<=n components.",
+  "id": "A008828",
+  "mentions": [
+    "A000108",
+    "A001246",
+    "A005315",
+    "A005316",
+    "A006657",
+    "A006658",
+    "A006659",
+    "A007746"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of positive definite reduced binary quadratic forms of discriminant -4*n.",
+  "id": "A006374",
+  "mentions": [
+    "A006371",
+    "A006375",
+    "A096445",
+    "A096446"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:37:47",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

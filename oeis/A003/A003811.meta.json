@@ -1,0 +1,21 @@
+{
+  "description": "Order of simple Chevalley group A_6(q), q = prime power.",
+  "id": "A003811",
+  "mentions": [
+    "A000961",
+    "A003793",
+    "A003804"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:44:52",
+    "offset": 1,
+    "size": 6,
+    "source": "joeis"
+  }
+}

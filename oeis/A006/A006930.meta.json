@@ -1,0 +1,19 @@
+{
+  "description": "Binomial transform of rooted tree numbers.",
+  "id": "A006930",
+  "mentions": [
+    "A000081",
+    "A051491"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

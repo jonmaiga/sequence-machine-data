@@ -1,0 +1,26 @@
+{
+  "description": "Highly abundant numbers: numbers k such that sigma(k) > sigma(m) for all m < k.",
+  "id": "A002093",
+  "mentions": [
+    "A000203",
+    "A004394",
+    "A005153",
+    "A034091",
+    "A034885",
+    "A070172",
+    "A085443",
+    "A193988",
+    "A193989"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

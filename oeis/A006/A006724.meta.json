@@ -1,0 +1,18 @@
+{
+  "description": "Number of fixed n-celled self-avoiding polygons on square lattice.",
+  "id": "A006724",
+  "mentions": [
+    "A002931"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

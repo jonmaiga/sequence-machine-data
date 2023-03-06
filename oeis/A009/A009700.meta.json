@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of tan(tan(x))*x.",
+  "id": "A009700",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:24:28",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

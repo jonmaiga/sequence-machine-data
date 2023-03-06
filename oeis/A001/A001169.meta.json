@@ -1,0 +1,27 @@
+{
+  "description": "Number of board-pile polyominoes with n cells.",
+  "id": "A001169",
+  "mentions": [
+    "A000051",
+    "A049219",
+    "A049220",
+    "A049221",
+    "A049222",
+    "A077926",
+    "A246773",
+    "A273895"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

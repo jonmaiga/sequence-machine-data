@@ -1,0 +1,22 @@
+{
+  "description": "2*(3^n - 2^n) + 1.",
+  "id": "A002783",
+  "mentions": [
+    "A000051",
+    "A027649",
+    "A090326",
+    "A095121"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of unordered sets of pairs (in-degree, out-degree) for nodes of directed trees on n unlabeled nodes (the edges are directed in arbitrary directions, the tree is unrooted).",
+  "id": "A007835",
+  "mentions": [
+    "A000238"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

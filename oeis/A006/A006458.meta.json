@@ -1,0 +1,22 @@
+{
+  "description": "Number of elements in Z[ omega ] whose 'smallest algorithm' is <= n, where omega^2 = -omega - 1.",
+  "id": "A006458",
+  "mentions": [
+    "A000051",
+    "A006457",
+    "A006459"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Squares and cubes.",
+  "id": "A002760",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A002117",
+    "A013661",
+    "A013664",
+    "A022549",
+    "A075052",
+    "A131799"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

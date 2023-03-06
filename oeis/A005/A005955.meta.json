@@ -1,0 +1,19 @@
+{
+  "description": "Number of acyclic secondary alcohols with n carbon atoms.",
+  "id": "A005955",
+  "mentions": [
+    "A000598",
+    "A000625"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:25:52",
+    "offset": 3,
+    "size": 28,
+    "source": "joeis"
+  }
+}

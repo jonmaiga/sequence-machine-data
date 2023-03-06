@@ -1,0 +1,30 @@
+{
+  "description": "Number of genus 1 rooted maps with 3 faces with n vertices.",
+  "id": "A006296",
+  "mentions": [
+    "A000108",
+    "A002802",
+    "A006295",
+    "A007401",
+    "A269921",
+    "A270407",
+    "A287046",
+    "A287047",
+    "A287048",
+    "A288071",
+    "A288072",
+    "A288073",
+    "A288074"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 4,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

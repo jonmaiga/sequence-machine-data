@@ -1,0 +1,21 @@
+{
+  "description": "Number of integers with a shortest addition chain of length n.",
+  "id": "A003065",
+  "mentions": [
+    "A003064",
+    "A003313",
+    "A114623"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

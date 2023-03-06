@@ -1,0 +1,19 @@
+{
+  "description": "Sequence b_3 (n) arising from homology of partitions with even number of blocks.",
+  "id": "A003993",
+  "mentions": [
+    "A003994"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

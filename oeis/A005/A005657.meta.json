@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor( tan(n)^2 ).",
+  "id": "A005657",
+  "mentions": [
+    "A005648",
+    "A005699"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

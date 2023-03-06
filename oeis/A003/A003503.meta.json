@@ -1,0 +1,22 @@
+{
+  "description": "The larger of a betrothed pair.",
+  "id": "A003503",
+  "mentions": [
+    "A000203",
+    "A003502",
+    "A005276",
+    "A015630",
+    "A028982"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

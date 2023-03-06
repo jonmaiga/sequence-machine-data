@@ -1,0 +1,27 @@
+{
+  "description": "Numerators of logarithmic numbers (also of Gregory coefficients G(n)).",
+  "id": "A002206",
+  "mentions": [
+    "A001620",
+    "A002207",
+    "A002208",
+    "A002209",
+    "A002657",
+    "A002790",
+    "A006232",
+    "A006233"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "frac",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": -1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

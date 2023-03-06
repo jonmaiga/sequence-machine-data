@@ -1,0 +1,20 @@
+{
+  "description": "Number of points in interior of n-th crystal ball in E_8 lattice.",
+  "id": "A001361",
+  "mentions": [
+    "A008340",
+    "A008349"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:18:33",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

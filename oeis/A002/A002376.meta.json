@@ -1,0 +1,29 @@
+{
+  "description": "Least number of positive cubes needed to represent n.",
+  "id": "A002376",
+  "mentions": [
+    "A000051",
+    "A000578",
+    "A002804",
+    "A003325",
+    "A018888",
+    "A018890",
+    "A046040",
+    "A047702",
+    "A047703",
+    "A047704",
+    "A055401"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

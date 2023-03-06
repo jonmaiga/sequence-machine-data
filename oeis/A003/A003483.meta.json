@@ -1,0 +1,27 @@
+{
+  "description": "Number of square permutations of n elements.",
+  "id": "A003483",
+  "mentions": [
+    "A103619",
+    "A103620",
+    "A215716",
+    "A215717",
+    "A215718",
+    "A246945",
+    "A247005",
+    "A247621"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

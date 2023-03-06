@@ -1,0 +1,19 @@
+{
+  "description": "N-equivalence classes of threshold gates of exactly n variables.",
+  "id": "A002079",
+  "mentions": [
+    "A002077",
+    "A002078"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f.: log(1+tanh(x)*cos(x)).",
+  "id": "A009394",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:19",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

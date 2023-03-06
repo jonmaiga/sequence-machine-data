@@ -1,0 +1,19 @@
+{
+  "description": "Left-right/right-left numbers: n = pq such that n=q_reversed*p_reversed.",
+  "id": "A009944",
+  "mentions": [
+    "A179482"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:16",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

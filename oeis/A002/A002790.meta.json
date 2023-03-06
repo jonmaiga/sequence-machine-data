@@ -1,0 +1,33 @@
+{
+  "description": "Denominators of Cauchy numbers of second type (= Bernoulli numbers B_n^{(n)}).",
+  "id": "A002790",
+  "mentions": [
+    "A001896",
+    "A002206",
+    "A002207",
+    "A002208",
+    "A002209",
+    "A002657",
+    "A006232",
+    "A006233",
+    "A008275",
+    "A075266",
+    "A075267",
+    "A091137",
+    "A262235"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

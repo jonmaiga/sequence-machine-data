@@ -1,0 +1,18 @@
+{
+  "description": "Define predecessors of n, P(n), to consist of numbers whose binary representation is obtained from that of n by replacing 10 with 01 or changing a final 1 to a 0; then a(0)=1, a(n) = Sum a(P(n)), n>0.",
+  "id": "A004065",
+  "mentions": [
+    "A003121"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:30:01",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

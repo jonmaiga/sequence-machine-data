@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = floor(n/8)*ceiling(n/8).",
+  "id": "A008838",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:49:11",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

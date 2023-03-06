@@ -1,0 +1,30 @@
+{
+  "description": "McKay-Thompson series of class 2B for the Monster group.",
+  "id": "A007246",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A007191",
+    "A010054",
+    "A010815",
+    "A035099",
+    "A045479",
+    "A097340",
+    "A107080",
+    "A121373",
+    "A134786"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:43:52",
+    "offset": -1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "(6,5)-graphs.",
+  "id": "A005274",
+  "mentions": [
+    "A005273"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 4,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

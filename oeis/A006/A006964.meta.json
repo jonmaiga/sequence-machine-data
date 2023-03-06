@@ -1,0 +1,21 @@
+{
+  "description": "Number of directed rooted trees with n nodes.",
+  "id": "A006964",
+  "mentions": [
+    "A000081",
+    "A038059",
+    "A242249"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

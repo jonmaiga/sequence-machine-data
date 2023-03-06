@@ -1,0 +1,26 @@
+{
+  "description": "Molien series of 4-dimensional representation of cyclic group of order 4 over GF(2) (not Cohen-Macaulay).",
+  "id": "A008610",
+  "mentions": [
+    "A000031",
+    "A005232",
+    "A008804",
+    "A032801",
+    "A037306",
+    "A047996",
+    "A102190",
+    "A343874"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:48:27",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

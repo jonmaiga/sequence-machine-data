@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of sqrt(2) in base 2.",
+  "id": "A004539",
+  "mentions": [
+    "A002193",
+    "A005165",
+    "A233836"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:17",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

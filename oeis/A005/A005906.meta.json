@@ -1,0 +1,20 @@
+{
+  "description": "Truncated tetrahedral numbers: a(n) = (1/6)*(n+1)*(23*n^2 + 19*n + 6).",
+  "id": "A005906",
+  "mentions": [
+    "A000051",
+    "A000292"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

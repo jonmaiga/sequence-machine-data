@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of fifth root of 5.",
+  "id": "A005534",
+  "mentions": [
+    "A002951"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

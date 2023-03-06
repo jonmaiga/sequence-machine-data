@@ -1,0 +1,29 @@
+{
+  "description": "Primes whose reversal is a square.",
+  "id": "A007488",
+  "mentions": [
+    "A057699",
+    "A058996",
+    "A059000",
+    "A059001",
+    "A059002",
+    "A059003",
+    "A059005",
+    "A059007",
+    "A068989",
+    "A132388",
+    "A350363"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

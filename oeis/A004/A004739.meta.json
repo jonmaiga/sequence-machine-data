@@ -1,0 +1,26 @@
+{
+  "description": "Concatenation of sequences (1,2,2,...,n-1,n-1,n,n,n-1,n-1,...,2,2,1) for n >= 1.",
+  "id": "A004739",
+  "mentions": [
+    "A000027",
+    "A003983",
+    "A004731",
+    "A004737",
+    "A004738",
+    "A079813",
+    "A187760",
+    "A209301"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:06",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

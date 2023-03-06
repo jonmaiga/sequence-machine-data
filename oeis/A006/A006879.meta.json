@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes with n digits.",
+  "id": "A006879",
+  "mentions": [
+    "A000720",
+    "A006880",
+    "A309329"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

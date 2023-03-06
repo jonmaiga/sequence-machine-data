@@ -1,0 +1,22 @@
+{
+  "description": "Differences of reciprocals of unity.",
+  "id": "A001241",
+  "mentions": [
+    "A000051",
+    "A008969",
+    "A028037",
+    "A112492"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:46:35",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

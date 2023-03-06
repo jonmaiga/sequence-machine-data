@@ -1,0 +1,23 @@
+{
+  "description": "Number of walks of length 2n+7 in the path graph P_8 from one end to the other.",
+  "id": "A005023",
+  "mentions": [
+    "A000051",
+    "A005021",
+    "A094256",
+    "A094829"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

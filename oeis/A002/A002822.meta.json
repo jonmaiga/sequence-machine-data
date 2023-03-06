@@ -1,0 +1,27 @@
+{
+  "description": "Numbers m such that 6m-1, 6m+1 are twin primes.",
+  "id": "A002822",
+  "mentions": [
+    "A001477",
+    "A014574",
+    "A024898",
+    "A024899",
+    "A067611",
+    "A171696",
+    "A191626",
+    "A263282"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

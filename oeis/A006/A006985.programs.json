@@ -1,0 +1,17 @@
+{
+  "oi": 6985,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "record[F(contfrac[atan(77)])]",
+      "mt": 6,
+      "px": [
+        "77",
+        "atan",
+        "contfrac",
+        "F",
+        "record"
+      ]
+    }
+  ]
+}

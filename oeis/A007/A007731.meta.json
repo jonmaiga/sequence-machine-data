@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = a(floor(n/2)) + a(floor(n/3)) + a(floor(n/6)).",
+  "id": "A007731",
+  "mentions": [
+    "A061984",
+    "A083662",
+    "A088468",
+    "A165704",
+    "A165706"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

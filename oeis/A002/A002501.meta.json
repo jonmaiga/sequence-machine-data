@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 7^n - 3*4^n + 2*3^n.",
+  "id": "A002501",
+  "mentions": [
+    "A001047",
+    "A002502",
+    "A005333",
+    "A093732",
+    "A093733",
+    "A262307"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

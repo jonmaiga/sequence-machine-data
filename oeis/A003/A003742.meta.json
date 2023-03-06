@@ -1,0 +1,17 @@
+{
+  "description": "Number of 2-factors in O_5 X P_n.",
+  "id": "A003742",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

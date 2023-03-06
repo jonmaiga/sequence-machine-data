@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of square root of Pi.",
+  "id": "A002161",
+  "mentions": [
+    "A000796",
+    "A002388",
+    "A068466",
+    "A073005",
+    "A073006",
+    "A175379",
+    "A175380",
+    "A195907",
+    "A203142",
+    "A203145",
+    "A220086"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

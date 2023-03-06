@@ -1,0 +1,19 @@
+{
+  "description": "Union of all numbers {p, q} where p and q are both primes or powers of primes and q = p+2.",
+  "id": "A001092",
+  "mentions": [
+    "A053702",
+    "A074852"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

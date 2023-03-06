@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-step self-avoiding walks on b.c.c. lattice (version 2).",
+  "id": "A001666",
+  "mentions": [
+    "A001336",
+    "A001412",
+    "A002903"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

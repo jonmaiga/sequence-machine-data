@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor((n^2 + 6n - 3)/4).",
+  "id": "A004116",
+  "mentions": [
+    "A000051",
+    "A266977"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

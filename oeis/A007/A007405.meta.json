@@ -1,0 +1,31 @@
+{
+  "description": "Dowling numbers: e.g.f.: exp(x + (exp(b*x) - 1)/b) with b=2.",
+  "id": "A007405",
+  "mentions": [
+    "A000110",
+    "A003575",
+    "A003576",
+    "A003577",
+    "A003578",
+    "A003579",
+    "A003580",
+    "A003581",
+    "A003582",
+    "A004211",
+    "A039755",
+    "A039756",
+    "A187251"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

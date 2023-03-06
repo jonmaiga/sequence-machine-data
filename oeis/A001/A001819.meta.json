@@ -1,0 +1,32 @@
+{
+  "description": "Central factorial numbers: second right-hand column of triangle A008955.",
+  "id": "A001819",
+  "mentions": [
+    "A000254",
+    "A001044",
+    "A002455",
+    "A007406",
+    "A007407",
+    "A008955",
+    "A013661",
+    "A024167",
+    "A048994",
+    "A066989",
+    "A088164",
+    "A142995",
+    "A162990"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

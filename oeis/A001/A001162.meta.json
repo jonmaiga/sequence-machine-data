@@ -1,0 +1,19 @@
+{
+  "description": "Numbers containing an odd number of letters.",
+  "id": "A001162",
+  "mentions": [
+    "A001161",
+    "A005589"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:18:03",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

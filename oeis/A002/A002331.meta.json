@@ -1,0 +1,29 @@
+{
+  "description": "Values of x in the solution to p = x^2 + y^2, x <= y, with prime p = A002313(n).",
+  "id": "A002331",
+  "mentions": [
+    "A002144",
+    "A002313",
+    "A002330",
+    "A002365",
+    "A002366",
+    "A002972",
+    "A002973",
+    "A070079",
+    "A070151",
+    "A096029",
+    "A096030",
+    "A145046"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

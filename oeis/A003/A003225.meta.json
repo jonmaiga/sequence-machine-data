@@ -1,0 +1,19 @@
+{
+  "description": "The number of superpositions of cycles of order n of the groups S_3 and D_n.",
+  "id": "A003225",
+  "mentions": [
+    "A003224",
+    "A006841"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:52:16",
+    "offset": 3,
+    "size": 17,
+    "source": "joeis"
+  }
+}

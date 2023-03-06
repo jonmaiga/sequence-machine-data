@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of convergents to cube root of 2.",
+  "id": "A002352",
+  "mentions": [
+    "A002351",
+    "A002945"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

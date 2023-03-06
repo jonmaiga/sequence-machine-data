@@ -1,0 +1,29 @@
+{
+  "description": "Number of connected topologies on n labeled points.",
+  "id": "A001929",
+  "mentions": [
+    "A000110",
+    "A000112",
+    "A000798",
+    "A001035",
+    "A001927",
+    "A001928",
+    "A001930",
+    "A006056",
+    "A006057",
+    "A006058",
+    "A006059"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

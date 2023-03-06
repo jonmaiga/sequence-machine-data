@@ -1,0 +1,23 @@
+{
+  "description": "Low-temperature series in exp(4J/kT) for antiferromagnetic susceptibility for the Ising model on square lattice.",
+  "id": "A002979",
+  "mentions": [
+    "A002915",
+    "A002927",
+    "A002978",
+    "A007215"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

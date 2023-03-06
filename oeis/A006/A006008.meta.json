@@ -1,0 +1,27 @@
+{
+  "description": "Number of inequivalent ways to color vertices of a regular tetrahedron using <= n colors.",
+  "id": "A006008",
+  "mentions": [
+    "A000051",
+    "A000332",
+    "A000602",
+    "A006003",
+    "A006550",
+    "A060529",
+    "A144680",
+    "A324999"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:09",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

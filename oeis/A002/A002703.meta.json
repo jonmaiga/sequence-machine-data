@@ -1,0 +1,23 @@
+{
+  "description": "Sets with a congruence property.",
+  "id": "A002703",
+  "mentions": [
+    "A002704",
+    "A002705",
+    "A053632",
+    "A178666",
+    "A262567",
+    "A262568",
+    "A262569"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:50",
+    "offset": 3,
+    "size": 37,
+    "source": "joeis"
+  }
+}

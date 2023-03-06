@@ -1,0 +1,17 @@
+{
+  "description": "Index of central binomial coefficient C(2n,n) within A006987.",
+  "id": "A009561",
+  "mentions": [
+    "A006987"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

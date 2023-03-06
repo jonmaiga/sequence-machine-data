@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonseparable rooted toroidal maps with n + 5 edges and n + 1 vertices.",
+  "id": "A006410",
+  "mentions": [
+    "A342989"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:38:11",
+    "offset": 2,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of down-up permutations of n+3 starting with n+1.",
+  "id": "A006212",
+  "mentions": [
+    "A000111",
+    "A008282",
+    "A010094"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

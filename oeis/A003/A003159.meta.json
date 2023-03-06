@@ -1,0 +1,44 @@
+{
+  "description": "Numbers n whose binary representation ends in an even number of zeros.",
+  "id": "A003159",
+  "mentions": [
+    "A000041",
+    "A000069",
+    "A001045",
+    "A001285",
+    "A001511",
+    "A001969",
+    "A003157",
+    "A007814",
+    "A007913",
+    "A010060",
+    "A026465",
+    "A035263",
+    "A036554",
+    "A096268",
+    "A121539",
+    "A121701",
+    "A141290",
+    "A174065",
+    "A184117",
+    "A184427",
+    "A184428",
+    "A280049",
+    "A292118"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "eigen",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest positive integer that is n times its digit sum, or 0 if no such number exists.",
+  "id": "A003634",
+  "mentions": [
+    "A003635",
+    "A005349"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

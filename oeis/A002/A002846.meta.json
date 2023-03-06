@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways of transforming a set of n indistinguishable objects into n singletons via a sequence of n-1 refinements.",
+  "id": "A002846",
+  "mentions": [
+    "A000041",
+    "A002572",
+    "A213242",
+    "A213385",
+    "A213427",
+    "A327643"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

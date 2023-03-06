@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is (n+1)!*(n+2)! times coefficient of x^n in (log(1-x))^-1.",
+  "id": "A009763",
+  "mentions": [
+    "A001620",
+    "A002206",
+    "A002207",
+    "A061444"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:43:41",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

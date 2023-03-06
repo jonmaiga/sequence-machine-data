@@ -1,0 +1,43 @@
+{
+  "description": "n appears n+1 times. Also the array A(n,k) = n+k (n >= 0, k >= 0) read by antidiagonals. Also inverse of triangular numbers.",
+  "id": "A003056",
+  "mentions": [
+    "A000009",
+    "A000196",
+    "A000217",
+    "A000462",
+    "A001227",
+    "A001462",
+    "A001614",
+    "A002024",
+    "A002262",
+    "A004247",
+    "A006463",
+    "A048645",
+    "A050600",
+    "A050602",
+    "A073189",
+    "A073424",
+    "A116939",
+    "A116941",
+    "A116942",
+    "A122797",
+    "A131507",
+    "A237593",
+    "A238005"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

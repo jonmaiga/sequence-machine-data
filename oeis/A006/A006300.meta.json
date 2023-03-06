@@ -1,0 +1,32 @@
+{
+  "description": "Number of rooted maps with n edges on torus.",
+  "id": "A006300",
+  "mentions": [
+    "A000168",
+    "A005159",
+    "A006301",
+    "A006386",
+    "A007137",
+    "A104742",
+    "A215402",
+    "A238355",
+    "A238356",
+    "A238357",
+    "A238358",
+    "A238359",
+    "A238360",
+    "A238396"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

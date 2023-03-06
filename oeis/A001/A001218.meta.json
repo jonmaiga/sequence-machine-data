@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 3^n mod 100.",
+  "id": "A001218",
+  "mentions": [
+    "A001148",
+    "A216096",
+    "A216097"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:18:11",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

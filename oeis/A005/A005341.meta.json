@@ -1,0 +1,26 @@
+{
+  "description": "Length of n-th term in Look and Say sequences A005150 and A007651.",
+  "id": "A005341",
+  "mentions": [
+    "A005150",
+    "A007651",
+    "A014715",
+    "A034002",
+    "A055642",
+    "A220424"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:08",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

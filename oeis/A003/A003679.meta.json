@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are not the sum of 3 pentagonal numbers.",
+  "id": "A003679",
+  "mentions": [
+    "A117065",
+    "A118278",
+    "A118279"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:05",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

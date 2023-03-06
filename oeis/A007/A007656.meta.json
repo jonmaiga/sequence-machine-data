@@ -1,0 +1,20 @@
+{
+  "description": "Mass number of the most abundant isotope of the element with atomic number Z = n.",
+  "id": "A007656",
+  "mentions": [
+    "A058317",
+    "A121818",
+    "A179301"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 118,
+    "source": "oeis-entry"
+  }
+}

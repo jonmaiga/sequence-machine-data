@@ -1,0 +1,19 @@
+{
+  "description": "Number of non-Abelian metacyclic groups of order 2^n.",
+  "id": "A007982",
+  "mentions": [
+    "A136184"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:47:21",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

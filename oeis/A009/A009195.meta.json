@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = gcd(n, phi(n)).",
+  "id": "A009195",
+  "mentions": [
+    "A000010",
+    "A003277",
+    "A050399",
+    "A051953",
+    "A061303",
+    "A109395",
+    "A285711"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

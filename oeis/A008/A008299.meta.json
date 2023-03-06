@@ -1,0 +1,38 @@
+{
+  "description": "Triangle T(n,k) of associated Stirling numbers of second kind, n >= 2, 1 <= k <= floor(n/2).",
+  "id": "A008299",
+  "mentions": [
+    "A000247",
+    "A000296",
+    "A000478",
+    "A007318",
+    "A008277",
+    "A058844",
+    "A059022",
+    "A059023",
+    "A059024",
+    "A059025",
+    "A112007",
+    "A134991",
+    "A137375",
+    "A200091",
+    "A259877",
+    "A269939",
+    "A278984",
+    "A340556"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:13",
+    "offset": 2,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

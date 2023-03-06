@@ -1,0 +1,20 @@
+{
+  "description": "Number of graphs on n nodes with 3 cliques.",
+  "id": "A005289",
+  "mentions": [
+    "A000051"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:33:05",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

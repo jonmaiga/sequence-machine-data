@@ -1,0 +1,19 @@
+{
+  "description": "Number of threshold functions of n variables.",
+  "id": "A002833",
+  "mentions": [
+    "A002077"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Earliest sequence with a(a(n))=3n.",
+  "id": "A002517",
+  "mentions": [
+    "A002516",
+    "A005843",
+    "A007379",
+    "A007494",
+    "A016789",
+    "A017197"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:23:33",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

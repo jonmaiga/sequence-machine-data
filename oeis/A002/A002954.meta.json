@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number such that n-th iterate of Chowla function is 0.",
+  "id": "A002954",
+  "mentions": [
+    "A048050"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k = 0..3} (n+k)! C(3,k).",
+  "id": "A001345",
+  "mentions": [
+    "A001346",
+    "A001347"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": -1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: 1/(1-x*exp(x)).",
+  "id": "A006153",
+  "mentions": [
+    "A003566",
+    "A072597",
+    "A089148",
+    "A199673"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

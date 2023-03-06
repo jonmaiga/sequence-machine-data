@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of sinh(x).exp(sinh(x)).",
+  "id": "A009623",
+  "mentions": [
+    "A003724",
+    "A009541"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:53",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

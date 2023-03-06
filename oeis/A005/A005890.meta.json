@@ -1,0 +1,27 @@
+{
+  "description": "Theta series of hexagonal close-packing with respect to center of triangle between two layers.",
+  "id": "A005890",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004012",
+    "A005872",
+    "A005873",
+    "A005874",
+    "A005889",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:35",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

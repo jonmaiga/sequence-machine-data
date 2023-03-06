@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. ( (1+x)^x )^x.",
+  "id": "A007121",
+  "mentions": [
+    "A240989"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

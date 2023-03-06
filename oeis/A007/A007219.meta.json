@@ -1,0 +1,22 @@
+{
+  "description": "Number of golygons of order 8n (or serial isogons of order 8n).",
+  "id": "A007219",
+  "mentions": [
+    "A006718",
+    "A060005",
+    "A107350"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

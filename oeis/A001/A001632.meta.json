@@ -1,0 +1,24 @@
+{
+  "description": "Smallest prime p such that there is a gap of 2n between p and previous prime.",
+  "id": "A001632",
+  "mentions": [
+    "A000040",
+    "A000101",
+    "A000230",
+    "A002386",
+    "A038664"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

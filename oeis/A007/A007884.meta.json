@@ -1,0 +1,20 @@
+{
+  "description": "Chimes made by clock striking quarter-hours.",
+  "id": "A007884",
+  "mentions": [
+    "A001492",
+    "A007879",
+    "A007880",
+    "A007883"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:46:59",
+    "offset": 0,
+    "size": 96,
+    "source": "joeis"
+  }
+}

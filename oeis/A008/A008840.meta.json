@@ -1,0 +1,23 @@
+{
+  "description": "Number of monotone self-dual Boolean functions of n variables that are inequivalent under the symmetric group.",
+  "id": "A008840",
+  "mentions": [
+    "A003180",
+    "A057132",
+    "A107765",
+    "A108803"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

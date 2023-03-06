@@ -1,0 +1,19 @@
+{
+  "description": "Number of rooted planar maps with 3 vertices and n faces and no isthmuses.",
+  "id": "A006420",
+  "mentions": [
+    "A000108",
+    "A342981"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 2,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients for extrapolation.",
+  "id": "A002738",
+  "mentions": [
+    "A002720",
+    "A002802",
+    "A007744",
+    "A020918",
+    "A331431"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

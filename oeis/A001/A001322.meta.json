@@ -1,0 +1,18 @@
+{
+  "description": "Number of equivalence classes of n-valued Post functions of 2 variables under action of symmetric group S_2.",
+  "id": "A001322",
+  "mentions": [
+    "A001321",
+    "A003180"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:16:41",
+    "offset": 2,
+    "size": 7,
+    "source": "joeis"
+  }
+}

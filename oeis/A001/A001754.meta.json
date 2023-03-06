@@ -1,0 +1,27 @@
+{
+  "description": "Lah numbers: a(n) = n!*binomial(n-1,2)/6.",
+  "id": "A001754",
+  "mentions": [
+    "A001113",
+    "A001620",
+    "A005990",
+    "A008297",
+    "A053495",
+    "A091725",
+    "A099285",
+    "A111596",
+    "A260665"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

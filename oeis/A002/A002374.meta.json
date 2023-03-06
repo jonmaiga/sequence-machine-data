@@ -1,0 +1,25 @@
+{
+  "description": "Largest prime <= n in any decomposition of 2n into a sum of two odd primes.",
+  "id": "A002374",
+  "mentions": [
+    "A002372",
+    "A002373",
+    "A014092",
+    "A047160",
+    "A112823",
+    "A234345"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:22:59",
+    "offset": 3,
+    "size": 72,
+    "source": "joeis"
+  }
+}

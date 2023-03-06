@@ -1,0 +1,32 @@
+{
+  "description": "Numbers that are the sum of 4 distinct nonzero squares: of form w^2+x^2+y^2+z^2 with 0",
+  "id": "A004433",
+  "mentions": [
+    "A000290",
+    "A001944",
+    "A001995",
+    "A003995",
+    "A004431",
+    "A004432",
+    "A004434",
+    "A025376",
+    "A025386",
+    "A025443",
+    "A224981",
+    "A224982",
+    "A224983"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:31:13",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

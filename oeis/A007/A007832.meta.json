@@ -1,0 +1,18 @@
+{
+  "description": "Number of point labeled 5,6-free two-graphs with n nodes.",
+  "id": "A007832",
+  "mentions": [
+    "A007831"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:12",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

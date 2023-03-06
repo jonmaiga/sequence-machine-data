@@ -1,0 +1,25 @@
+{
+  "description": "Coefficients in expansion of (x-1)*(1+x)^(n-1), n > 0.",
+  "id": "A008482",
+  "mentions": [
+    "A000108",
+    "A000217",
+    "A007318",
+    "A008315",
+    "A037012",
+    "A112467"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:48:23",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

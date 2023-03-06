@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. sin(sinh(x)*exp(x)).",
+  "id": "A009496",
+  "mentions": [
+    "A009061",
+    "A121868"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:53",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

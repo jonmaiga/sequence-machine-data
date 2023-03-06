@@ -1,0 +1,17 @@
+{
+  "description": "Complement of A003254.",
+  "id": "A003255",
+  "mentions": [
+    "A003254"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:35",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

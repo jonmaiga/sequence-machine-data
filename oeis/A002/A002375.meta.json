@@ -1,0 +1,32 @@
+{
+  "description": "From Goldbach conjecture: number of decompositions of 2n into an unordered sum of two odd primes.",
+  "id": "A002375",
+  "mentions": [
+    "A000954",
+    "A001031",
+    "A002372",
+    "A002373",
+    "A002374",
+    "A010051",
+    "A023036",
+    "A033270",
+    "A045917",
+    "A061358",
+    "A065091",
+    "A085090"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

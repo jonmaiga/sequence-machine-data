@@ -1,0 +1,20 @@
+{
+  "description": "The numbers not expressible as the sum of 4 distinct nonzero squares can be written D*4^n union E. This is E.",
+  "id": "A004196",
+  "mentions": [
+    "A004195",
+    "A004441"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

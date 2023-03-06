@@ -1,0 +1,15 @@
+{
+  "description": "Denominators of coefficients in expansion of cube root of sin(x).",
+  "id": "A008994",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

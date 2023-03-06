@@ -1,0 +1,30 @@
+{
+  "description": "Number of ultradissimilarity relations on an n-set.",
+  "id": "A005121",
+  "mentions": [
+    "A000110",
+    "A000258",
+    "A002846",
+    "A006472",
+    "A006541",
+    "A008826",
+    "A086053",
+    "A154960",
+    "A213427",
+    "A265947",
+    "A317145"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:07",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

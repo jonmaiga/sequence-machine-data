@@ -1,0 +1,20 @@
+{
+  "description": "A generalized partition function.",
+  "id": "A002598",
+  "mentions": [
+    "A002597",
+    "A064349"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:46:50",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

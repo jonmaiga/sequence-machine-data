@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of coefficients of Chebyshev polynomials U_n(x).",
+  "id": "A008312",
+  "mentions": [
+    "A008310",
+    "A053112",
+    "A053117",
+    "A053118"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nice",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:47:37",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

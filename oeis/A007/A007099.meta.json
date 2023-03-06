@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled trivalent (or cubic) 2-connected graphs with 2n nodes.",
+  "id": "A007099",
+  "mentions": [
+    "A002829",
+    "A004109"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:11",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

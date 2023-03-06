@@ -1,0 +1,20 @@
+{
+  "description": "Zarankiewicz's problem k_4(n,n+1).",
+  "id": "A006626",
+  "mentions": [
+    "A006616",
+    "A006620",
+    "A006621"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 4,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

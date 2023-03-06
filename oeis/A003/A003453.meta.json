@@ -1,0 +1,23 @@
+{
+  "description": "Number of nonequivalent dissections of an n-gon into 3 polygons by nonintersecting diagonals up to rotation and reflection.",
+  "id": "A003453",
+  "mentions": [
+    "A005744",
+    "A213847",
+    "A295419",
+    "A295634"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 12:28:11",
+    "offset": 5,
+    "size": 43,
+    "source": "joeis"
+  }
+}

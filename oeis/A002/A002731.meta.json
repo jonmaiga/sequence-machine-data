@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that (n^2 + 1)/2 is prime.",
+  "id": "A002731",
+  "mentions": [
+    "A000982",
+    "A010051",
+    "A027861",
+    "A027862",
+    "A091277",
+    "A116945",
+    "A129307",
+    "A187431",
+    "A188546",
+    "A188547",
+    "A203571"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:04",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

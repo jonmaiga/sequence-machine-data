@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = LCM of denominators of Cotesian numbers {C(n,k), 0 <= k <= n}.",
+  "id": "A002176",
+  "mentions": [
+    "A002177",
+    "A002179",
+    "A100620",
+    "A100621",
+    "A100640",
+    "A100641",
+    "A100642"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

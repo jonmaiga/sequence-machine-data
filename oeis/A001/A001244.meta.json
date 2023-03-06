@@ -1,0 +1,28 @@
+{
+  "description": "Eulerian numbers (Euler's triangle: column k=8 of A008292, column k=7 of A173018).",
+  "id": "A001244",
+  "mentions": [
+    "A000012",
+    "A000460",
+    "A000498",
+    "A000505",
+    "A000514",
+    "A001243",
+    "A007347",
+    "A008292",
+    "A123125",
+    "A173018"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 8,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

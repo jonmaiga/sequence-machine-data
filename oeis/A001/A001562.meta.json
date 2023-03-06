@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that (10^n + 1)/11 is a prime.",
+  "id": "A001562",
+  "mentions": [
+    "A028491",
+    "A054416",
+    "A084740",
+    "A309358"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

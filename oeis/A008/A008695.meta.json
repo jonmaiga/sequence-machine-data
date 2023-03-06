@@ -1,0 +1,23 @@
+{
+  "description": "Theta series of Niemeier lattice of type A_11 D_7 E_6.",
+  "id": "A008695",
+  "mentions": [
+    "A004009",
+    "A008688",
+    "A008694",
+    "A008696",
+    "A008704",
+    "A013973"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 18:11:21",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

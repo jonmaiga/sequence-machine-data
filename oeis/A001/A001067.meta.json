@@ -1,0 +1,32 @@
+{
+  "description": "Numerator of Bernoulli(2*n)/(2*n).",
+  "id": "A001067",
+  "mentions": [
+    "A000367",
+    "A000928",
+    "A006863",
+    "A006953",
+    "A033563",
+    "A046968",
+    "A057868",
+    "A090495",
+    "A090496",
+    "A112548",
+    "A119766",
+    "A141590",
+    "A255505"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "formulas",
+    "frac",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

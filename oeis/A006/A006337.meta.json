@@ -1,0 +1,35 @@
+{
+  "description": "An \"eta-sequence\": a(n) = floor( (n+1)*sqrt(2) ) - floor( n*sqrt(2) ).",
+  "id": "A006337",
+  "mentions": [
+    "A001951",
+    "A001952",
+    "A003151",
+    "A003152",
+    "A004641",
+    "A006336",
+    "A006338",
+    "A049472",
+    "A080763",
+    "A082844",
+    "A097509",
+    "A115004",
+    "A159684",
+    "A188037",
+    "A245219",
+    "A276862"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

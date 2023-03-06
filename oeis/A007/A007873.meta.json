@@ -1,0 +1,18 @@
+{
+  "description": "Indices of last windows of trapezoidal maps.",
+  "id": "A007873",
+  "mentions": [
+    "A007872"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

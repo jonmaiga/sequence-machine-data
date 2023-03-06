@@ -1,0 +1,19 @@
+{
+  "description": "Occurrences of principal character.",
+  "id": "A005368",
+  "mentions": [
+    "A259976",
+    "A331509"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:16",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

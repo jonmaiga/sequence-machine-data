@@ -1,0 +1,21 @@
+{
+  "description": "Sprague-Grundy values for Grundy's game.",
+  "id": "A002188",
+  "mentions": [
+    "A036685"
+  ],
+  "modified": "2023-02-27 14:38:16",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:03",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

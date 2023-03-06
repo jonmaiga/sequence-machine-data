@@ -1,0 +1,20 @@
+{
+  "description": "There are three equivalent descriptions: 1. Number of (horizontally or vertically) connected arrays of 1..n on rectangular grid (otherwise zero) with only one local maximum. 2. Number of n-polyominoes labeled 1...n such that each successive labeled cell is the neighbor of a previously labeled cell. 3. Number of connected n-step paths on a rectangular lattice, diagonal or repeated steps not allowed.",
+  "id": "A007846",
+  "mentions": [
+    "A000079",
+    "A087518",
+    "A087783"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:17",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

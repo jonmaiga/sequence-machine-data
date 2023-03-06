@@ -1,0 +1,23 @@
+{
+  "description": "Areas of Pythagorean triangles: numbers which can be the area of a right triangle with integer sides.",
+  "id": "A009112",
+  "mentions": [
+    "A009111",
+    "A009127",
+    "A024365",
+    "A073120",
+    "A177021",
+    "A256418"
+  ],
+  "modified": "2023-02-27 14:38:17",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 16:59:15",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}
